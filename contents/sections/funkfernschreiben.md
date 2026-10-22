@@ -1,4 +1,4 @@
-Für die Kommunikation mittels Funkfernschreiben zwischen Amateurfunkstationen gibt es verschiedenste Verfahren. Damit eine Verbindung zustande kommt, müssen beide Kommunikationspartner das gleiche Übertragungsverfahren und die gleichen Parameter verwenden. Das gilt um so mehr, weil nicht jedem Verfahren eindeutige Frequenzbereiche zugeordnet sind.
+There are many different methods for communication between amateur stations by radioteletype. For a contact to be established, both parties must use the same transmission method and the same parameters. This is all the more important because not every method has clearly assigned frequency ranges.
 
 %[photo:0:n_funkfernschreiben_telegraphie_20m:Morsetelegrafie, FT8 und FT4 im $\qty{20}{\meter}$-Band]
 %[photo:0:n_funkfernschreiben_digimodes:Häufig verwendete Digimodes von K1JT vergrößert im Wasserfalldiagramm]
@@ -10,13 +10,13 @@ Für die Kommunikation mittels Funkfernschreiben zwischen Amateurfunkstationen g
 
 [question:NE401]
 
-Die Abwicklung einer Telegrafie-Verbindung erfolgt sowohl bei der Morsetelegrafie als auch mit dem Computer ähnlich wie im Sprechfunk, aber mit bestimmten Abkürzungen. Diese Abkürzungen vereinfachen die Abwicklung und verkürzen die Übertragungsdauer. Es gibt auch die sogenannten Q-Gruppen. Das sind weltweit einheitliche dreibuchstabige Abkürzungen, die immer mit dem Buchstaben Q beginnen. Darauf gehen wir im Kapitel Q-Gruppen und Locator näher ein.
+A telegraphy contact, whether in Morse telegraphy or with a computer, is conducted in a similar way to a voice contact, but with certain abbreviations. These abbreviations simplify the procedure and shorten the transmission time. There are also what are known as Q codes. These are three-letter abbreviations, the same all over the world, that always begin with the letter Q. We look at them in more detail in the chapter on Q codes and the locator.
 
 [question:BB101]
 
 ---
 
-Seitlich ist ein üblicher Ablauf einer kurzen Telegrafieverbindung dargestellt. Mit der Tabelle [ref:n_funkfernschreiben_abkuerzungen] kann die Bedeutung dahinter entschlüsselt werden.
+Shown alongside is a typical sequence of a short telegraphy contact. Table [ref:n_funkfernschreiben_abkuerzungen] can be used to decode what it means.
 
 <qso>
 CQ CQ CQ DE DL2AB DL2AB DL2AB PSE K
@@ -29,26 +29,26 @@ BK QSL = VY 73 DE DL2AB SK
 
 <webmargin>
 | l: | X: |
-| Abkz. | Bedeutung |
-| BK | Unterbrechung der Sendung; Formlose Übergabe |
-| CQ | Allgemeiner Anruf |
-| DE | von |
-| K | Aufforderung zum Senden |
-| PSE | Bitte (vom Englischen "Please") |
-| QSL | Ich bestätige den Empfang |
-| R | Received (Empfangsbestätigung) |
-| RPRT | Rapport (vom Englischen "Report") |
-| RST | RST-Rapport |
-| SK | Ende der Verbindung (vom Englischen "Silent Key") |
-| TNX | Danke (vom Englischen "Thanks") |
-| UR | du bist (im Sinne von "dein Signal ist", vom Englischen "you are") |
-| VY | sehr (vom Englischen "very") |
-| 73 | viele Grüße |
-| = | Trennzeichen |
-[table:n_funkfernschreiben_abkuerzungen:Betriebliche Abkürzungen in der Telegrafie]
+| Abbr. | Meaning |
+| BK | Interruption of the transmission; informal handover |
+| CQ | General call |
+| DE | This is |
+| K | Invitation to transmit |
+| PSE | Please |
+| QSL | I am acknowledging receipt |
+| R | Received (acknowledgement of receipt) |
+| RPRT | Report |
+| RST | RST report |
+| SK | End of contact (from "Silent Key") |
+| TNX | Thanks |
+| UR | You are (in the sense of "your signal is") |
+| VY | Very |
+| 73 | Best regards |
+| = | Separator |
+[table:n_funkfernschreiben_abkuerzungen:Operating abbreviations in telegraphy]
 </webmargin>
   
-Es gibt auch digitale Übertragungsverfahren, bei denen die Abwicklung anders erfolgt. FT8 oder FT4 funktionieren beispielsweise auch bei widrigen Funkbedingungen, also wenn beim Empfänger im Vergleich zum Grundrauschen lediglich eine niedrige Signalstärke erreicht werden kann. Dafür können bei den genannten Verfahren aber nur ganz wenige Zeichen je Sendung übertragen werden. Entsprechend ist die Abwicklung noch kompakter. Andere digitale Verfahren übertragen gar keine Texte, sondern beispielsweise Bilder oder Video, mit an diese Umstände angepasster Betriebsabwicklung. Darauf wird in der Prüfung aber nicht eingegangen.
+There are also digital transmission methods in which the procedure is different. FT8 or FT4, for example, also work in poor propagation conditions, that is, when only a low signal strength relative to the noise floor can be achieved at the receiver. In return, these methods can transmit only very few characters per transmission. Accordingly, the procedure is even more compact. Other digital methods do not transmit text at all, but pictures or video, for example, with an operating procedure adapted to these circumstances. However, this is not covered in the examination.
 
 [question:BE112]
 [question:BB109]

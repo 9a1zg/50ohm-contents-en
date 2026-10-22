@@ -2,55 +2,55 @@
 [include:hamnet_map]
 </margin>
 
-Eine besondere Rolle im Amateurfunk nimmt das HAMNET ein – ein Netzwerk, das ausschließlich Funkamateuren vorbehalten ist. HAMNET (Highspeed Amateurradio Multimedia Network) ist ein von Funkamateuren entwickeltes und betriebenes IP-basiertes Netzwerk. In seiner Funktionsweise ähnelt es dem Internet, nutzt jedoch überwiegend Funkstrecken zur Datenübertragung.
+HAMNET plays a special role in amateur radio – a network reserved exclusively for radio amateurs. HAMNET (Highspeed Amateurradio Multimedia Network) is an IP-based network developed and operated by radio amateurs. It works in a similar way to the internet, but mostly uses radio links for data transmission.
 
-Ursprünglich wurde HAMNET als schrittweiser Ersatz für das seit den 1980er-Jahren bestehende Packet-Radio-Netz konzipiert und hat dieses inzwischen nahezu vollständig abgelöst. Die schnellen Datenverbindungen zwischen den einzelnen Einstiegspunkten und Knoten werden hauptsächlich über die Mikrowellenbänder 6 cm, 9 cm und 13 cm realisiert. Für den Zugang zum HAMNET benötigt man freie Sicht zu einem HAMNET-Knoten mit Benutzerzugang sowie einen geeigneten WLAN-Transceiver mit Richtantenne.
+HAMNET was originally designed as a gradual replacement for the packet radio network that had existed since the 1980s, and it has now almost completely replaced it. The fast data links between the individual access points and nodes are mainly implemented on the 6 cm, 9 cm and 13 cm microwave bands. To access HAMNET you need a clear line of sight to a HAMNET node with user access, and a suitable Wi-Fi transceiver with a directional antenna.
 
 ---
 
 <margin>
-Der *DARC* bietet für seine Mitglieder einen VPN-Zugang über die sogenannten [HAMCloud](https://50ohm.de/hc) an. Dies ermöglicht den Zugang zum HAMNET, auch wenn kein direkter Einstieg über Funk möglich ist.   
+The *DARC* offers its members VPN access via what is known as the [HAMCloud](https://50ohm.de/hc). This makes it possible to access HAMNET even when no direct access by radio is possible.   
 
-[Jetzt Mitglied im DARC werden!](https://50ohm.de/mw)
+[Become a DARC member now!](https://50ohm.de/mw)
 </margin>
 
-Nutzen kann man das Hamnet genauso wie das Internet, im einfachsten Fall mit einem Webbrowser. Das ist möglich, weil das sogenannte Internet-Protokoll (IP) und alles, was darauf aufbaut, auch für andere Zwecke als für das Internet verwendet werden kann.
+Hamnet can be used just like the internet, in the simplest case with a web browser. This is possible because what is known as the Internet Protocol (IP), and everything built on it, can also be used for purposes other than the internet.
 
 [question:EE414]
 
-Das Hamnet ist genau wie das Internet ein Verbund aus vielen einzelnen Netzwerken. Wenn sich zwei Teilnehmer nicht direkt erreichen können, dann werden die Datenpakete entsprechend über andere Knoten weitergeleitet.
+Like the internet, Hamnet is an interconnection of many individual networks. If two users cannot reach each other directly, the data packets are forwarded accordingly via other nodes.
 
 [question:EE412]
 
-In so großen Gebilden schafft man dadurch Ordnung, dass alle Computer nummeriert sind. Die Nummern der Teilnehmern heißen IP-Adressen. Es existieren die Versionen IPv4 und IPv6. Für unser Hobby genügt es meistens, sich mit der einfacheren Version 4 zu befassen.
+In such large structures, order is created by numbering all the computers. The users' numbers are called IP addresses. There are two versions, IPv4 and IPv6. For our hobby it is usually enough to deal with the simpler version 4.
 
-IPv4-Adressen sind Dualzahlen mit einer Länge von 32 Bit. Geschrieben werden vier Dezimalzahlen, von denen jede für 8 Bit steht, mit Punkten dazwischen. Die größtmögliche Zahl ist 255 entsprechend der Dualzahl 11111111.
+IPv4 addresses are binary numbers 32 bits long. They are written as four decimal numbers, each standing for 8 bits, with dots between them. The largest possible number is 255, corresponding to the binary number 11111111.
 
-Bei allen Computern, die sich im selben Netzwerk befinden, ist der Anfang der IP-Adressen gleich. Dieser Netzanteil hat eine variable Länge. Große Netzwerke brauchen viele der 32 Bits, um hinten im sogenannten Hostanteil ihre Computer zu nummerieren. Sie verwenden dafür einen kürzeren Netzanteil. Bei kleinen Netzwerken ist es genau umgekehrt. Dieses Prinzip kennt man vom Telefonnetz. Die größten Städte haben dreistellige Vorwahlen, zum Beispiel 089, und kleine Ortsnetze fünf- oder sechsstellige wie 038725.
+For all computers in the same network, the beginning of the IP addresses is the same. This network part has a variable length. Large networks need many of the 32 bits to number their computers at the end, in what is known as the host part. For this they use a shorter network part. With small networks it is exactly the other way round. This principle is familiar from the telephone network. The largest cities have three-digit area codes, for example 089, and small local exchanges five- or six-digit ones such as 038725.
 
 ---
 
-Die Länge des Netzanteils gibt man am einfachsten mit einem Schrägstrich hinter der IP-Adresse an. 141.17.5.18/24 bedeutet zum Beispiel, dass der Netzanteil 24 Bit lang ist. Bei allen Rechnern im gleichen Netzwerk beginnt die Adresse mit 141.17.5. Zum Durchnummerieren aller Stationen bleiben nur 8 der 32 Bits übrig. Es handelt sich also um ein relativ kleines Netzwerk.
+The simplest way to give the length of the network part is with a slash after the IP address. 141.17.5.18/24, for example, means that the network part is 24 bits long. For all computers in the same network, the address begins with 141.17.5. Only 8 of the 32 bits are left for numbering all the stations. So it is a relatively small network.
 
 <indepth>
-Manchmal werden Netzwerke einer sogenannten Klasse zugeordnet, obwohl dieses System schon lange abgeschafft wurde. Klasse A bedeutete /8, Klasse B /16 und Klasse C /24.
+Networks are sometimes assigned to a so-called class, although this system was abolished long ago. Class A meant /8, Class B /16 and Class C /24.
 </indepth>
 
 
 ---
 
-Die meisten Netzwerkgeräte verlangen eine andere Schreibweise, nämlich die Subnetzmaske (siehe Abbildung [ref:netzmaske]). Das sind 32 Bit in der gleichen Notation wie IP-Adressen. Bits, die für den Netzanteil stehen, werden mit einer 1 gekennzeichnet und Bits des Hostanteils mit einer 0. Die Netzmaske beginnt also mit so vielen Einsen, wie der Netzanteil lang ist. Der Rest wird mit Nullen aufgefüllt. Heimnetze und kleine Firmennetze verwenden fast immer die Netzmaske 255.255.255.0, die das Gleiche bedeutet wie /24.
+Most network devices require a different notation, namely the subnet mask (see Figure [ref:netzmaske]). This is 32 bits in the same notation as IP addresses. Bits that stand for the network part are marked with a 1, and bits of the host part with a 0. The netmask therefore begins with as many ones as the network part is long. The rest is filled up with zeros. Home networks and small company networks almost always use the netmask 255.255.255.0, which means the same as /24.
 
-Netzwerkgeräte können nur innerhalb ihres eigenen lokalen Netzwerks direkt miteinander kommunizieren. Das erkennen sie daran, dass sich aus ihrer eigenen IP-Adresse und Subnetzmaske derselbe Netzanteil ergibt wie beim Partner. In allen anderen Fällen schicken sie die Daten an einen Router. Das ist eine Zwischenstation, die zwei oder mehr Netzwerke miteinander verbindet. Wenn ein Gerät mit mehreren Netzwerken direkt verbunden ist, hat es in jedem eine eigene IP-Adresse.
+Network devices can communicate directly with each other only within their own local network. They recognise this by the fact that their own IP address and subnet mask give the same network part as those of the other device. In all other cases they send the data to a router. This is an intermediate station that connects two or more networks with each other. If a device is connected directly to several networks, it has its own IP address in each of them.
 
 <margin>
-[picture:699:netzmaske:IPv4-Adresse und Netzmaske in Dezimal- und Dualschreibweise]
+[picture:699:netzmaske:IPv4 address and netmask in decimal and binary notation]
 </margin>
 
 <margin>
-[picture:706:netzwerk:Ausschnitt aus einer Netzwerk-Infrastruktur]
+[picture:706:netzwerk:Part of a network infrastructure]
 </margin>
 
-Alle Teilnehmer eines Netzwerks sollen den Router quasi gleichzeitig nutzen können. Deshalb werden in IP-Netzen keine festen Leitungen geschaltet. Stattdessen teilen die Computer alle Datenströme in Pakete auf, also in kurze Abschnitte. Die Weiterleitung dieser einzelnen Pakete nennt man Paketvermittlung.
+All users of a network should be able to use the router practically simultaneously. That is why no fixed lines are switched through in IP networks. Instead, the computers split all data streams into packets, that is, into short sections. Forwarding these individual packets is called packet switching.
 
 [question:EE413]

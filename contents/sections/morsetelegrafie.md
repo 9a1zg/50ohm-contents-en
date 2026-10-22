@@ -1,8 +1,8 @@
-Auch im Amateurfunk werden viele digitale Übertragungsverfahren eingesetzt. Ein sehr einfaches haben wir schon besprochen. Bei der Morsetelegrafie mit Continuous Wave (CW) wird ein Träger in einem bestimmten Rhythmus ein- und wieder ausgeschaltet. Es gibt also nur zwei Stufen, $\qty{0}{\percent}$ und $\qty{100}{\percent}$ der maximalen Amplitude. Die Übertragung erfolgt also digital.
+Many digital transmission methods are used in amateur radio too. We have already discussed a very simple one. In Morse telegraphy with continuous wave (CW), a carrier is switched on and off again in a particular rhythm. So there are only two levels, $\qty{0}{\percent}$ and $\qty{100}{\percent}$ of the maximum amplitude. The transmission is therefore digital.
 
-Morsetelegrafie ist das älteste Übertragungsverfahren, das im Funk benutzt wird. Die ersten Funksender kannten kein anderes Verfahren. Die einzige Möglichkeit der Informationsübermittlung war, mit einer Taste den Sender immer wieder kurz ein- und auszuschalten. Beim Empfänger ist das dann als Ton zu hören, der in dem gegebenen Rhythmus an- und wieder ausgeht.
+Morse telegraphy is the oldest transmission method used in radio. The first radio transmitters knew no other method. The only way of conveying information was to switch the transmitter on and off briefly, again and again, with a key. At the receiver this can then be heard as a tone that comes on and goes off again in the given rhythm.
 
-Um verschiedene Zeichen, also Buchstaben, Ziffern und Satzzeichen, zu übertragen, wird der Morsecode verwendet. Für jedes Zeichen ist eine bestimmte Abfolge an kurzen und langen Tönen festgelegt. In den Tabellen [ref:n_morsetelegrafie_morsecode_buchstaben], [ref:n_morsetelegrafie_morsecode_ziffern_satzzeichen] und [ref:n_morsetelegrafie_morsecode_spezial] findet sich ein Teil des Morsecodes. Ein Punkt ([morse:e]) steht für einen kurzen Ton und ein Strich ([morse:t]) für einen langen Ton. Die Decodierung, also die Übersetzung der Töne in Zeichen beim Empfänger, erfolgt mit den Ohren und dem Gehirn - oder heutzutage auch mit dem Computer.
+To transmit different characters, that is, letters, digits and punctuation marks, Morse code is used. For each character, a particular sequence of short and long tones is laid down. Tables [ref:n_morsetelegrafie_morsecode_buchstaben], [ref:n_morsetelegrafie_morsecode_ziffern_satzzeichen] and [ref:n_morsetelegrafie_morsecode_spezial] show part of the Morse code. A dot ([morse:e]) stands for a short tone and a dash ([morse:t]) for a long tone. Decoding, that is, translating the tones into characters at the receiver, is done with the ears and the brain – or nowadays with a computer as well.
 
 <webmargin>
 | c: | l: | c: | l: | c: | l: |
@@ -17,7 +17,7 @@ Um verschiedene Zeichen, also Buchstaben, Ziffern und Satzzeichen, zu übertrage
 | H | [morse:h] | R | [morse:r] | Ö | [morse:ö] |
 | I | [morse:i] | S | [morse:s] | Ü | [morse:ü] |
 | J | [morse:j] | T | [morse:t] |  |  |
-[table:n_morsetelegrafie_morsecode_buchstaben:Morsecode (Buchstaben)]
+[table:n_morsetelegrafie_morsecode_buchstaben:Morse code (letters)]
 </webmargin>
 
 <webmargin>
@@ -29,25 +29,25 @@ Um verschiedene Zeichen, also Buchstaben, Ziffern und Satzzeichen, zu übertrage
 | 3 | [morse:3] | 8 | [morse:8] | ? | [morse:?] |
 | 4 | [morse:4] | 9 | [morse:9] | - | [morse:-] |
 |  |  |  |  | @ | [morse:@] |
-[table:n_morsetelegrafie_morsecode_ziffern_satzzeichen:Morsecode (Ziffern und Satzzeichen)]
+[table:n_morsetelegrafie_morsecode_ziffern_satzzeichen:Morse code (digits and punctuation marks)]
 </webmargin>
 
 <webmargin>
 | l: | l: |
 |  |  |
-| Unterbrechung (BK) | [morse:bk] |
-| Trennung innerhalb eines Durchgangs (BT, =) | [morse:=] |
-| Ende des Durchgangs (AR)  | [morse:ar] |
-| Ende der Sendung (SK) | [morse:sk] |
-| Korrektur | [morse:correction] |
-[table:n_morsetelegrafie_morsecode_spezial:Morsecode (besondere Zeichen, Auswahl)]
+| Interruption (BK) | [morse:bk] |
+| Separator within an over (BT, =) | [morse:=] |
+| End of over (AR)  | [morse:ar] |
+| End of transmission (SK) | [morse:sk] |
+| Correction | [morse:correction] |
+[table:n_morsetelegrafie_morsecode_spezial:Morse code (special characters, selection)]
 </webmargin>
 
-Obwohl Übertragungsverfahren für Sprache, Bilder und sogar Video erfunden wurden, wird Morsetelegrafie bis heute im Amateurfunk praktiziert. Lange Zeit war es weltweit vorgeschrieben, dass jeder Funkamateur eine Morseprüfung ablegen musste, bevor er auf der Kurzwelle funken durfte. Erst in den 1990er Jahren wurde diese Regel aufgehoben. Seitdem darf jedes Land selber entscheiden, ob es eine Morseprüfung verlangt. In Deutschland ist sie seit 2003 freiwillig.
+Although transmission methods for speech, pictures and even video have been invented, Morse telegraphy is still practised in amateur radio today. For a long time it was a worldwide requirement that every radio amateur had to pass a Morse test before being allowed to operate on HF. This rule was not lifted until the 1990s. Since then, each country may decide for itself whether it requires a Morse test. In Germany it has been voluntary since 2003.
 
 [question:VA304]
 
-Eine Besonderheit gibt es bei Betriebsabwicklung in Morsetelegrafie zu beachten: Die Wahl einer geeigneten Geschwindigkeit. Morsezeichen können unterschiedlich schnell gegeben werden. Allerdings braucht es viel Übung, um auch schnell gegebene Morsezeichen aufnehmen zu können. Daher ist es wichtig, darauf zu achten, die Gegenstelle mit der Geschwindigkeit nicht zu überfordern. Es ist eine gute Faustregel, nicht schneller zu geben als die andere Station und auch nicht schneller, als man selber aufnehmen kann. So ist sichergestellt, dass alle mitkommen.
+There is one special point to bear in mind in operating procedure in Morse telegraphy: choosing a suitable speed. Morse characters can be sent at different speeds. However, it takes a lot of practice to be able to receive Morse characters that are sent fast. It is therefore important to take care not to overtax the other station with your speed. A good rule of thumb is to send no faster than the other station, and no faster than you can receive yourself. That way everyone can keep up.
 
 [question:BE117]
 [question:BE118]

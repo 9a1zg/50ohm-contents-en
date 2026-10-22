@@ -1,23 +1,23 @@
-## Betrieb
+## Operation
 
 <left>
-* Beide Funkpartner nutzen das gleiche Übertragungsverfahren (z.B. JS8, PSK, RTTY)
-* Gleiche Parameter müssen gesetzt sein
+* Both stations use the same transmission method (e.g. JS8, PSK, RTTY)
+* The same parameters must be set
 </left>
 <right>
-* Verwendung von betrieblichen Abkürzungen und Q-Gruppen
-* Mehr Informationsgehalt pro Zeiteinheit
+* Use of operating abbreviations and Q codes
+* More information content per unit of time
 </right>
 <note>
-* Abkürzungen kommen gleich
-* Q-Gruppen im nächsten Kapitel
+* Abbreviations coming up shortly
+* Q codes in the next chapter
 </note>
 
 ---
 [question:NE401]
 
 ---
-In einem Gespräch sieht dieses folgendermaßen aus:
+In a contact, it looks like this:
 
 <qso>
 CQ CQ CQ DE DL2AB DL2AB DL2AB PSE K
@@ -28,37 +28,37 @@ BK QSL = VY 73 DE DL2AB SK
 > R 73 DE DL1PZ SK
 </qso>
 <note>
-Das QSO wird nach Erklärungen Abkürzungen Schritt für Schritt erläutert
+The QSO is explained step by step after the abbreviations have been explained
 </note>
 
 --- style="font-size: smaller;"
 
-| l: Abkz. | l: Bedeutung |
-| BK | Unterbrechung der Sendung; Formlose Übergabe |
-| CQ | Allgemeiner Anruf (vom Englischen "Seek You") |
-| DE | von |
-| K | Aufforderung zum Senden |
-| PSE | Bitte (vom Englischen "Please") |
-| QSL | Ich bestätige den Empfang |
-| R | Received (Empfangsbestätigung) |
-| RPRT | Rapport (vom Englischen "Report") |
-[table:n_funkfernschreiben_abkuerzungen_1:Betriebliche Abkürzungen in der Telegrafie]
+| l: Abbr. | l: Meaning |
+| BK | Interruption of the transmission; informal handover |
+| CQ | General call (from "seek you") |
+| DE | This is |
+| K | Invitation to transmit |
+| PSE | Please |
+| QSL | I am acknowledging receipt |
+| R | Received (acknowledgement of receipt) |
+| RPRT | Report |
+[table:n_funkfernschreiben_abkuerzungen_1:Operating abbreviations in telegraphy]
 
 --- style="font-size: smaller;"
 
-| l: Abkz. | l: Bedeutung |
-| RST | RST-Rapport |
-| SK | Ende der Verbindung (vom Englischen "Silent Key") |
-| TNX | Danke (vom Englischen "Thanks") |
-| UR | du bist (im Sinne von "dein Signal ist", vom Englischen "you are") |
-| VY | sehr (vom Englischen "very") |
-| 73 | viele Grüße |
-| = | Trennzeichen |
-[table:n_funkfernschreiben_abkuerzungen_2:Betriebliche Abkürzungen in der Telegrafie]
+| l: Abbr. | l: Meaning |
+| RST | RST report |
+| SK | End of contact (from "Silent Key") |
+| TNX | Thanks |
+| UR | You are (in the sense of "your signal is") |
+| VY | Very |
+| 73 | Best regards |
+| = | Separator |
+[table:n_funkfernschreiben_abkuerzungen_2:Operating abbreviations in telegraphy]
 
 ---
 
-Teil 1 unseres Beispiel-Gesprächs:
+Part 1 of our example contact:
 
 <qso>
 CQ CQ CQ DE DL2AB DL2AB DL2AB PSE K
@@ -66,15 +66,15 @@ CQ CQ CQ DE DL2AB DL2AB DL2AB PSE K
 </qso>
 
 <fragment>
-Allgemeiner Anruf von DL2AB - Bitte Kommen!
+General call, this is DL2AB – over!
 </fragment>
 
 <fragment>
-DL2AB von DL1PZ - Kommen!
+DL2AB, this is DL1PZ – over!
 </fragment>
 
 ---
-Teil 2 unseres Beispiel-Gesprächs:
+Part 2 of our example contact:
 
 <qso>
 DL1PZ DE DL2AB = UR RST 599 599 = DL1PZ DE DL2AB K
@@ -82,15 +82,15 @@ DL1PZ DE DL2AB = UR RST 599 599 = DL1PZ DE DL2AB K
 </qso>
 
 <fragment>
-DL1PZ von DL2AB. Dein Signal ist mit dem RST-Wert 599, ich wiederhole, 599. DL1PZ von DL2AB - Kommen!
+DL1PZ, this is DL2AB. Your signal is RST 599, I repeat, 599. DL1PZ, this is DL2AB – over!
 </fragment>
 
 <fragment>
-DL2AB von DL1PZ. Danke für den RST-Rapport, dein Signal ist 479, ich wiederhole, 479. Zurück zu dir!
+DL2AB, this is DL1PZ. Thanks for the RST report, your signal is 479, I repeat, 479. Back to you!
 </fragment>
 
 ---
-Teil 3 unseres Beispiel-Gesprächs:
+Part 3 of our example contact:
 
 <qso>
 BK QSL = VY 73 DE DL2AB SK
@@ -98,23 +98,23 @@ BK QSL = VY 73 DE DL2AB SK
 </qso>
 
 <fragment>
-Hier bin ich wieder. Ich bestätige den Empfang. Sehr viele Grüße von DL2AB. Ende der Verbindung.
+I am back. I am acknowledging receipt. Very best regards from DL2AB. End of contact.
 </fragment>
 
 
 <fragment>
-Verstanden. Viele Grüße von DL1PZ. Ende der Verbindung.
+Understood. Best regards from DL1PZ. End of contact.
 </fragment>
 
 ---
 
-## Digitale Verfahren wie FT8 oder FT4
-* Funktionieren auch bei widrigen Funkbedingungen (niedrige Signalstärke im Vergleich zum Grundrauschen)
-* Dafür können nur ganz wenige Zeichen je Sendung übertragen werden
-* Abwicklung entsprechend noch kompakter
+## Digital methods such as FT8 or FT4
+* Also work in poor propagation conditions (low signal strength relative to the noise floor)
+* In return, only very few characters can be transmitted per transmission
+* Procedure correspondingly even more compact
 
 <note>
-Andere digitale Verfahren übertragen auch Bilder oder Video, mit angepasster Betriebsabwicklung - das ist aber nicht prüfungsrelevant
+Other digital methods also transmit pictures or video, with an adapted operating procedure – but this is not relevant to the examination
 </note>
 
 ---

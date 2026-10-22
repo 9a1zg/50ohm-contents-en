@@ -1,26 +1,26 @@
-Im Gegensatz zur Sprachübertragung benötigen viele digitale Übertragungsverfahren (Digimodes) nur eine sehr geringe Bandbreite. Während Sprachsignale in SSB typischerweise eine Bandbreite von etwa $\qty{2,4}{\kilo\hertz}$ beanspruchen, kommen Digimodes mit deutlich schmaleren Frequenzbereichen aus. So benötigt beispielsweise BPSK31 nur etwa $\qty{31,25}{\hertz}$ Bandbreite, während FT8 mit rund $\qty{50}{\hertz}$ auskommt. Die bei Digimodes erzeugten Signale werden auf Kurzwelle üblicherweise ebenfalls in SSB moduliert. Die HF-Bandbreite des ausgestrahlten Signals entspricht dann genau der NF-Bandbreite des Digimodes.
+Unlike voice transmission, many digital transmission methods (data modes) need only a very small bandwidth. While speech signals in SSB typically occupy a bandwidth of about $\qty{2.4}{\kilo\hertz}$, data modes manage with much narrower frequency ranges. BPSK31, for example, needs a bandwidth of only about $\qty{31.25}{\hertz}$, while FT8 manages with around $\qty{50}{\hertz}$. On HF, the signals produced by data modes are usually also modulated in SSB. The RF bandwidth of the transmitted signal then corresponds exactly to the AF bandwidth of the data mode.
 
 [question:EE402]
 [question:EE403]
 
-Innerhalb der üblichen SSB-Empfangsbandbreite von etwa $\qty{2,4}{\kilo\hertz}$ können mehrere solcher schmalbandigen Digimode-Signale gleichzeitig empfangen werden.
+Within the usual SSB receive bandwidth of about $\qty{2.4}{\kilo\hertz}$, several such narrowband data mode signals can be received at the same time.
 
 <margin>
-[picture:718:e_digimode_ssb_empfang_mehrerer_digimodes:Wasserfalldiagramm vom Empfang von mehreren Digimode-Signalen innerhalb der SSB-Bandbreite von 2,4 kHz. Jede Spalte ist die Übertragung eines anderen Signals]
+[picture:718:e_digimode_ssb_empfang_mehrerer_digimodes:Waterfall display of the reception of several data mode signals within the SSB bandwidth of 2.4 kHz. Each column is the transmission of a different signal]
 </margin>
 
 [question:EE404]
 
-Rein rechnerisch lassen sich in einer $\qty{2,4}{\kilo\hertz}$-SSB-Bandbreite bis zu 48 FT8-Signale ($\frac{\qty{2400}{\hertz}}{\qty{50}{\hertz}}$) oder sogar bis zu 76 BPSK31-Signale ($\frac{\qty{2400}{\hertz}}{\qty{31,25}{\hertz}}$) unterbringen. Am Computer kann anschließend entweder gezielt ein einzelnes Digimode-Signal ausgewählt oder – je nach Software – auch eine Vielzahl dieser Signale gleichzeitig dekodiert werden. Genau diese hohe spektrale Effizienz macht schmalbandige Digimodes besonders attraktiv für den Amateurfunkbetrieb.
+Purely by calculation, up to 48 FT8 signals ($\frac{\qty{2400}{\hertz}}{\qty{50}{\hertz}}$) or even up to 76 BPSK31 signals ($\frac{\qty{2400}{\hertz}}{\qty{31.25}{\hertz}}$) fit into an SSB bandwidth of $\qty{2.4}{\kilo\hertz}$. On the computer, either a single data mode signal can then be selected specifically or – depending on the software – a large number of these signals can be decoded at the same time. It is precisely this high spectral efficiency that makes narrowband data modes particularly attractive for amateur radio operation.
 
 ---
 
-Slow-Scan Television (SSTV) bezeichnet die Übertragung von Standbildern mithilfe digitalisierte Bilddaten. Dabei werden Bilder zeilenweise übertragen, was eine vergleichsweise geringe Übertragungsgeschwindigkeit erlaubt. Es existieren verschiedene SSTV-Verfahren, die sich unter anderem in Auflösung, Farbtiefe und Übertragungsdauer unterscheiden. Ein wesentlicher Vorteil von SSTV ist die geringe benötigte Bandbreite: Sie liegt typischerweise unter $\qty{3}{\kilo\hertz}$ und entspricht damit in etwa der Bandbreite eines SSB-Sprachsignals. Dadurch kann SSTV auch in den Kurzwellenbändern eingesetzt werden und ist besonders für weltweite Bildübertragungen im Amateurfunk geeignet. Abbildung [ref:e_digimode_ssb_sstv] zeigt ein Typisches SSTV-Bild.
+Slow-scan television (SSTV) refers to the transmission of still pictures using digitised picture data. The pictures are transmitted line by line, which allows a comparatively low transmission speed. There are various SSTV methods, which differ in resolution, colour depth and transmission time, among other things. A major advantage of SSTV is the small bandwidth it needs: it is typically below $\qty{3}{\kilo\hertz}$ and so roughly corresponds to the bandwidth of an SSB voice signal. As a result, SSTV can also be used on the HF bands and is particularly suitable for worldwide picture transmission in amateur radio. Figure [ref:e_digimode_ssb_sstv] shows a typical SSTV picture.
 
-Im Gegensatz dazu steht Amateur Television (ATV), bei dem Bewegtbilder – also echtes Fernsehen – übertragen werden. Aufgrund der deutlich höheren Informationsmenge erfordert ATV eine wesentlich größere Bandbreite, typischerweise mehrere Megahertz, oft $\qty{6}{\mega\hertz}$ oder mehr. Aus diesem Grund ist ATV auf den Kurzwellenbändern nicht realisierbar und wird erst in höheren Frequenzbereichen eingesetzt, meist ab dem $\qty{70}{\centi\meter}$-Band aufwärts oder z.B. im $\unit{\giga\hertz}$-Bereich über QO-100. Dort stehen ausreichend breite Frequenzbereiche zur Verfügung, um die für Bewegtbildübertragungen notwendige Bandbreite bereitzustellen.
+In contrast to this is amateur television (ATV), in which moving pictures – that is, real television – are transmitted. Because of the much greater amount of information, ATV needs a much larger bandwidth, typically several megahertz, often $\qty{6}{\mega\hertz}$ or more. For this reason ATV is not feasible on the HF bands and is used only in higher frequency ranges, mostly from the $\qty{70}{\centi\meter}$ band upwards or, for example, in the $\unit{\giga\hertz}$ range via QO-100. Frequency ranges wide enough to provide the bandwidth needed for transmitting moving pictures are available there.
 
 [question:EE415]
 
 <margin>
-[photo:84:e_digimode_ssb_sstv:Bestätigung eines SSTV Verbindung an F1BIB von ON1GA mit dem RST 575 und zusätzlich dem ursprünglich empfangenen Bild]
+[photo:84:e_digimode_ssb_sstv:Confirmation of an SSTV contact, sent to F1BIB by ON1GA, with RST 575 and the picture as originally received]
 </margin>

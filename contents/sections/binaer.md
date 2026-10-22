@@ -1,22 +1,22 @@
-Wir Menschen sind es gewohnt, die zehn Ziffern von $\num{0}$ bis $\num{9}$ zu benutzen. Man spricht von einem Zehnersystem oder Dezimalsystem.
+We humans are used to using the ten digits from $\num{0}$ to $\num{9}$. This is called a base-ten system or decimal system.
 
-Für Computer ist es hingegen einfacher, mit nur $\num{2}$ Ziffern zu arbeiten: der $\num{0}$ und der $\num{1}$. Dies entspricht zwei Zuständen: Beispielsweise ausgeschaltet und eingeschaltet, "Transistor gesperrt" und "Transistor leitend" oder auch $\qty{0}{\volt}$ und $\qty{5}{\volt}$. Es entsteht ein binäres Zahlensystem oder Dualsystem.
+For computers, on the other hand, it is simpler to work with only $\num{2}$ digits: $\num{0}$ and $\num{1}$. These correspond to two states: for example off and on, "transistor cut off" and "transistor conducting", or $\qty{0}{\volt}$ and $\qty{5}{\volt}$. The result is a binary number system (in German also called *Dualsystem*).
 
 [question:EA201]
 
-Das Zählen geht in allen Zahlensystemen gleich (siehe Tabelle [ref:binaer_zahlensysteme]): Man fängt bei $\num{0}$ an und zählt die Ziffern hoch. Wenn der Ziffernvorrat zu Ende ist, fängt man von vorne an und schreibt dabei vor jede Zahl eine $\num{1}$. Deshalb kommt im Dezimalsystem nach der $\num{9}$ die $\num{10}$. Die Ziffer ganz rechts hat den Wert, den sie selbst darstellt. Man nennt das den Stellenwert $\num{1}$. 
+Counting works the same way in all number systems (see Table [ref:binaer_zahlensysteme]): you start at $\num{0}$ and count up through the digits. When you run out of digits, you start again from the beginning and write a $\num{1}$ in front of each number. That is why $\num{10}$ follows $\num{9}$ in the decimal system. The digit on the far right has the value that it represents itself. This is called the place value $\num{1}$. 
 
 ---
 
-Im Dezimalsystem ist die zweite Ziffer von rechts zehnmal so viel Wert wie sie selbst, hat also den Stellenwert $\num{10}$. Jede weiter links stehende Stelle ist jeweils zehnmal so viel Wert, wie die rechts daneben stehende. Beispielsweise bedeutet die Dezimalzahl $\num{5573}$ aus der Tabelle [ref:binaer_stellenwert_dezimal] also eigentlich $5 \cdot 1000 + 5 \cdot 100 + 7 \cdot 10 + 3 \cdot 1$.
+In the decimal system, the second digit from the right is worth ten times its own value, so it has the place value $\num{10}$. Each position further to the left is worth ten times as much as the one to its right. For example, the decimal number $\num{5573}$ from Table [ref:binaer_stellenwert_dezimal] actually means $5 \cdot 1000 + 5 \cdot 100 + 7 \cdot 10 + 3 \cdot 1$.
 
 <margin>
 |c: |c: |c: |c: |
 |$\num{1000}$ | $\num{100}$ | $\num{10}$ | $\num{1}$ |
 | $\num{5}$ | $\num{5}$ | $\num{7}$ | $\num{3}$ |
-[table:binaer_stellenwert_dezimal:Stellenwerte der vierstelligen Dezimalzahl $\num{5573}$]
+[table:binaer_stellenwert_dezimal:Place values of the four-digit decimal number $\num{5573}$]
 
-|r: Dezimal | r: Dual |
+|r: Decimal | r: Binary |
 | $\num{0}$ | $\num{0}$ |
 | $\num{1}$ | $\num{1}$ |
 | $\num{2}$ | $\num{10}$ |
@@ -33,30 +33,30 @@ Im Dezimalsystem ist die zweite Ziffer von rechts zehnmal so viel Wert wie sie s
 | $\num{13}$ | $\num{1101}$ |
 | $\num{14}$ | $\num{1110}$ |
 | $\num{15}$ | $\num{1111}$ |
-[table:binaer_zahlensysteme:Zahlen im Dezimal- und im Dualsystem]
+[table:binaer_zahlensysteme:Numbers in the decimal and the binary system]
 </margin>
 
-Im Dualsystem gibt es nur zwei Ziffern, nämlich $\num{0}$ und $\num{1}$. Wie in Tabelle [ref:binar_stellenwert_dual] zu sehen ist, hat die erste Stelle von rechts den Stellenwert $\num{1}$, die zweite $\num{2}$, die dritte $\num{4}$, die vierte $\num{8}$ und so weiter. Die Stellenwerte verdoppeln sich, statt sich zu verzehnfachen, weil es nur zwei Ziffern gibt und nicht zehn. Eine Stelle im Dualsystem nennt man auch Bit ($\unit{\bit}$).
+The binary system has only two digits, namely $\num{0}$ and $\num{1}$. As can be seen in Table [ref:binar_stellenwert_dual], the first position from the right has the place value $\num{1}$, the second $\num{2}$, the third $\num{4}$, the fourth $\num{8}$ and so on. The place values double instead of increasing tenfold, because there are only two digits and not ten. A position in the binary system is also called a bit ($\unit{\bit}$).
 
 |c: |c: |c: |c: |c: |c: |c: |c: |
 | $\num{128}$ | $\num{64}$ | $\num{32}$ | $\num{16}$ | $\num{8}$ | $\num{4}$ | $\num{2}$ | $\num{1}$ |
 | $\num{1}$ | $\num{0}$ | $\num{0}$ | $\num{0}$ | $\num{1}$ | $\num{1}$ | $\num{1}$ | $\num{0}$ |
-[table:binar_stellenwert_dual:Stellenwerte der achtstelligen Dualzahl $\num{10001110}$]
+[table:binar_stellenwert_dual:Place values of the eight-digit binary number $\num{10001110}$]
 
-Wenn man die Stellenwerte kennt, ist das Übertragen von Dualzahlen in das Dezimalsystem einfach. Nehmen wir ein Beispiel aus Tabelle [ref:binar_stellenwert_dual]. Die Dualzahl $\num{10001110}$ soll in eine Dezimalzahl umgerechnet werden.
+Once you know the place values, converting binary numbers into the decimal system is easy. Let us take an example from Table [ref:binar_stellenwert_dual]. The binary number $\num{10001110}$ is to be converted into a decimal number.
 
-1. Man schreibt über jede Ziffer der Dualzahl ihren Stellenwert.
-2. Man addiert alle Stellenwerte, unter denen eine $\num{1}$ steht: $128+8+4+2=142$
+1. Write the place value above each digit of the binary number.
+2. Add up all the place values that have a $\num{1}$ below them: $128+8+4+2=142$
 
 [question:EA206]
 [question:EA207]
 [question:EA208]
 
-Auf dem Papier kann man Dualzahlen mit so vielen Bits schreiben, wie man gerade braucht. In der Digitaltechnik ist das anders. Die Hard- oder Software gibt eine bestimmte Stellenzahl vor, die man auch Breite nennt. Beispielsweise haben Mikrocontroller oder Computer häufig Breiten von $\num{8}$, $\num{16}$, $\num{32}$ oder $\qty{64}{\text{Bits}}$. In der Darstellung werden Dualzahlen oft vorne mit Nullen aufgefüllt, bis diese Breite erreicht ist. Am Wert der Zahl ändert das nichts.
+On paper, you can write binary numbers with as many bits as you happen to need. In digital technology it is different. The hardware or software specifies a certain number of digits, which is also called the width. For example, microcontrollers or computers often have widths of $\num{8}$, $\num{16}$, $\num{32}$ or $\qty{64}{\text{bits}}$. When binary numbers are written out, they are often padded with zeros at the front until this width is reached. This does not change the value of the number.
 
 [question:EA205]
 
-Eine feste Breite begrenzt den Wertebereich. Mit einem Bit sind zwei Werte möglich ($\num{0}$ und $\num{1}$), mit zwei Bits schon vier ($\num{00}$, $\num{01}$, $\num{10}$ und $\num{11}$) und mit jedem weiteren Bit jeweils doppelt so viele. Mit $n$ Bits lassen sich $2^n$ verschiedene Zahlen darstellen.
+A fixed width limits the range of values. With one bit, two values are possible ($\num{0}$ and $\num{1}$), with two bits already four ($\num{00}$, $\num{01}$, $\num{10}$ and $\num{11}$), and with each additional bit twice as many. With $n$ bits, $2^n$ different numbers can be represented.
 
 [question:EA204]
 [question:EA202]

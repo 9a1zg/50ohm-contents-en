@@ -1,37 +1,37 @@
 <left>
-[photo:92:n_computersteuerung_funkfernschreiber:Funkfernschreiber]
-* Weiterentwicklung der Morsetelegrafie: Fernschreiber per Modem ans Funkgerät angeschlossen
+[photo:92:n_computersteuerung_funkfernschreiber:Radio teleprinter]
+* Development of Morse telegraphy: teleprinter connected to the radio by a modem
 </left>
 <right>
-* Dadurch ist der *Funkfernschreiber* entstanden, um Texte automatisiert per Funk zu senden/empfangen
-* Abkürzung *RTTY* (radio teletype) hat sich bis heute gehalten
-* Heute übernimmt meist der Computer diese Aufgabe $\rightarrow$ viele weitere *Digimodes* möglich
+* This led to the *radio teleprinter*, for sending/receiving texts automatically by radio
+* The abbreviation *RTTY* (radio teletype) has survived to this day
+* Today the computer usually does this job $\rightarrow$ many more *data modes* possible
 </right>
 <note>
-Fernschreiber: Gerät, um Nachrichten in Textform mittels elektrischer Signale zu übermitteln
+Teleprinter: device for transmitting messages in text form by means of electrical signals
 </note>
 
 ---
 
-## Steuersignale
+## Control signals
 
 <left>
-* Übertragung von Audio- sowie Steuersignalen (CAT) zwischen Computer und Transceiver
-* Z.B. Transceiver auf Sendung schalten und Signal vom Computer übertragen
+* Transfer of audio and control signals (CAT) between computer and transceiver
+* E.g. switching the transceiver to transmit and transferring the signal from the computer
 </left>
 <right>
-[picture:630:n_computersteuerung_verbindungen:Beispiele für Verbindungen zwischen Computer und Funkgerät]
+[picture:630:n_computersteuerung_verbindungen:Examples of connections between computer and radio]
 </right>
 
 ---
-## Datenanschluss
+## Data port
 
-* Hinter dem Mikrofonanschluss im Funkgerät können Verstärker- und Filterstufen für Sprachübertragung liegen $\rightarrow$ ungeeignet für Datenübertragung
-* Eigener Datenanschluss am Transceiver
-* Lässt Signale vom Computer unverfälscht passieren
+* Behind the radio's microphone socket there may be amplifier and filter stages for speech transmission $\rightarrow$ unsuitable for data transmission
+* Separate data port on the transceiver
+* Lets signals from the computer pass unaltered
 
 <note>
-Oft mit DATA oder 9600 bezeichnet
+Often labelled DATA or 9600
 </note>
 
 ---
@@ -43,8 +43,8 @@ Oft mit DATA oder 9600 bezeichnet
 ---
 [question:NF117]
 <note>
-* Es ist darauf zu achten, dass das Funkgerät nicht unerwartet auf Sendung geht.
-* Anekdotisch: Windows-Startsound über Funk
+* Care must be taken that the radio does not go to transmit unexpectedly.
+* Anecdotal: Windows start-up sound over the air
 </note>
 
 ---

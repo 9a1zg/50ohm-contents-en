@@ -1,14 +1,14 @@
-Bei der Informationsübertragung unterscheidet man grundsätzlich zwischen *analogen* und *digitalen* Verfahren. Digital bedeutet, dass etwas in Stufen erfolgt, also nur bestimmte Werte annehmen kann und keine Werte dazwischen kennt (Abbildung [ref:n_digital_einleitung_digitales_signal]). Analog hingegen steht dafür, dass etwas kontinuierlich ist, also auch beliebige Zwischenwerte annehmen kann [ref:n_digital_einleitung_analoges_signal]).
+In transmitting information, a basic distinction is made between *analogue* and *digital* methods. Digital means that something happens in steps, that is, it can only take certain values and has no values in between (Figure [ref:n_digital_einleitung_digitales_signal]). Analogue, on the other hand, means that something is continuous, that is, it can also take any intermediate value [ref:n_digital_einleitung_analoges_signal]).
 
 <margin>
-[picture:411:n_digital_einleitung_digitales_signal:Digitales Signal (abgestuft)]
+[picture:411:n_digital_einleitung_digitales_signal:Digital signal (stepped)]
 </margin>
 
 <margin>
-[picture:408:n_digital_einleitung_analoges_signal:Analoges Signal (kontinuierlich)]
+[picture:408:n_digital_einleitung_analoges_signal:Analogue signal (continuous)]
 </margin>
 
-Im Funk kann eine digitale Übertragung z. B. dadurch erreicht werden, dass die Amplitude des gesendeten Trägers nur auf bestimmte Stufen gesetzt wird, beispielsweise $\qty{25}{\percent}$, $\qty{50}{\percent}$, $\qty{75}{\percent}$, $\qty{100}{\percent}$ der Maximalstärke, aber nicht dazwischen. Viele im Alltag übliche Übertragungsverfahren arbeiten mittlerweile digital, beispielsweise WLAN, LTE oder DVB.
+In radio, digital transmission can be achieved, for example, by setting the amplitude of the transmitted carrier only to certain levels, for instance $\qty{25}{\percent}$, $\qty{50}{\percent}$, $\qty{75}{\percent}$, $\qty{100}{\percent}$ of the maximum strength, but not in between. Many transmission methods common in everyday life now work digitally, for example Wi-Fi, LTE or DVB.
 
 %<indepth>
 %Der Vorteil digitaler Verfahren liegt darin, dass kleine Fehler bei der Übertragung auf der Empfängerseite ausgeglichen werden können. Wird beispielsweise durch eine Störung eine Amplitude nicht als $\qty{25}{\percent}$ der Maximalstärke gemessen, sondern als $\qty{29}{\percent}$, dann kann man annehmen, dass die Amplitude eigentlich $\qty{25}{\percent}$ gewesen sein sollte und den Wert berichtigen.

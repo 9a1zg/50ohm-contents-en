@@ -1,45 +1,45 @@
 <margin>
-[picture:542:n_digital_voice_repeaternetwork:Repeaternetzwerk für Digital Voice: Relaisfunkstelle DB0FZ mit Internetanschluss, Hotspot DN9YI und Relaisfunkstelle DB0HOB mit Richtfunkanbindung an DB0FZ]
+[picture:542:n_digital_voice_repeaternetwork:Repeater network for digital voice: repeater DB0FZ with internet connection, hotspot DN9YI and repeater DB0HOB with a radio link to DB0FZ]
 </margin>
 
-Auch Sprache kann digital übertragen werden, z. B. mit den Übertragungsverfahren DMR, D-Star, C4FM und M17. Dies kann, je nach Verfahren, mit einem Computer oder auch mit einem dafür geeigneten Funkgerät erfolgen. Damit kann man über vernetzte VHF- oder UHF-Relaisfunkstellen mit Funkamateuren auf der ganzen Welt funken. Wenn zwei oder mehr Relaisfunkstellen vernetzt sind, können Sendungen, die von einer der Funkstellen empfangen wurden, über ein Netzwerk, z. B. das HAMNET oder das Internet, weitergeleitet und auf anderen verbundenen Stationen wieder ausgestrahlt werden. Um sich den Zugriff auf einen solchen Relaisverbund zu ermöglichen, kann man auch zu Hause einen sogenannten Hotspot betreiben. Solange keine entsprechende Genehmigung für eine fernbediente Station vorliegt, darf der Betrieb eines Hotspots nur als besetzte Station erfolgen, d. h. man muss den Sender abschalten, wenn er nicht vor Ort beaufsichtigt wird. Auf Kurzwelle werden digitale Sprachverbindungen hauptsächlich direkt hergestellt, beispielsweise mit FreeDV.
+Speech can also be transmitted digitally, e.g. with the transmission methods DMR, D-Star, C4FM and M17. Depending on the method, this can be done with a computer or with a radio suitable for it. This makes it possible to communicate with radio amateurs all over the world via networked VHF or UHF repeaters. When two or more repeaters are networked, transmissions received by one of the stations can be forwarded over a network, e.g. HAMNET or the internet, and radiated again by other connected stations. To get access to such a repeater network, you can also run what is known as a hotspot at home. Unless there is an appropriate authorisation for a remotely controlled station, a hotspot may only be operated as an attended station, i.e. the transmitter must be switched off when it is not being supervised on site. On HF, digital voice contacts are mainly made direct, for example with FreeDV.
 
 <webmargin>
-| l: Abkürzung | X: Übertragungsverfahren |
+| l: Abbreviation | X: Transmission method |
 | D-STAR | Digital Smart Technologies for Amateur Radio |
 | C4FM | Continuous 4-level frequency modulation |
 | DMR | Digital Mobile Radio |
-| M17 | Open-Source Übertragungsverfahren |
-[table:n_dv_uebertragungsverfahren:Häufig genutzte Übertragungsverfahren für digitalen Sprechfunk]
+| M17 | Open-source transmission method |
+[table:n_dv_uebertragungsverfahren:Commonly used transmission methods for digital voice]
 </webmargin>
 
 [question:NE404]
 
 ---
 
-Bei digitaler Sprachübertragung werden die Sprachsignale vor der Übertragung in einen Datenstrom umgewandelt. Mehrere solcher Datenströme können auch in schnell abwechselnder, periodischer Folge übertragen werden. Das nennt man TDMA (Time Division Multiple Access) oder Zeitmultiplexverfahren. So nutzen zwei oder mehr Sprachverbindungen quasi gleichzeitig dieselbe Frequenz. Für ein Funkgerät bedeutet das, dass es bei gedrückter PTT-Taste ständig schnell zwischen Sende- und Empfangsbetrieb umschalten muss, damit es den Takt nicht verliert. 
+With digital voice transmission, the speech signals are converted into a data stream before transmission. Several such data streams can also be transmitted in a rapidly alternating, periodic sequence. This is called TDMA (time-division multiple access). In this way two or more voice contacts use the same frequency practically simultaneously. For a radio, this means that while the PTT button is pressed it has to keep switching rapidly between transmit and receive, so that it does not lose the timing. 
 
 <margin>
-[picture:474:n_digital_voice_tdma:TDMA mit drei Verbindungen auf einer Frequenz]
+[picture:474:n_digital_voice_tdma:TDMA with three contacts on one frequency]
 </margin>
 
 <tip>
-Die meisten externen Leistungsverstärker können nicht so schnell zwischen Sende- und Empfangsbetrieb umschalten, wie es für TDMA notwendig wäre. Daher dürfen für DMR und andere Verfahren, die Zeitslots verwenden, ausschließlich dafür geeignete Leistungsverstärker verwendet werden. Ansonsten kommt es dazu, dass die Frequenz nicht nur während des eigenen Zeitslots belegt wird. Das kann Sendungen anderer Stationen auf derselben Frequenz stören.
+Most external power amplifiers cannot switch between transmit and receive as quickly as TDMA would require. For DMR and other methods that use time slots, therefore, only power amplifiers suitable for this may be used. Otherwise the frequency is occupied not only during your own time slot. This can interfere with the transmissions of other stations on the same frequency.
 </tip>
 
 [question:NE403]
 
 ---
 
-Im Gegensatz zu analogen Sendungen, bei denen meist nur Frequenz und Modulationsart für die Herstellung einer Verbindung zu einem anderen Teilnehmer bekannt sein müssen, sind für digitale Sprache oft mehr Einstellungen zu berücksichtigen, beispielsweise Sprechgruppe, Raum oder Reflektor zum Zusammenschalten von Relaisfunkstellen oder der zu nutzende TDMA-Zeitschlitz.
+Unlike analogue transmissions, where usually only the frequency and the mode have to be known in order to make contact with another station, digital voice often involves more settings, for example the talkgroup, the room or reflector for linking repeaters, or the TDMA time slot to be used.
 
 <indepth>
-Je nach Verfahren kann es auch eine Vielzahl weiterer Einstellungen geben, beispielsweise bei DMR den Color-Code, mit dem sich mehrere Nutzergruppen eine Frequenz teilen können, ohne sich gegenseitig zu hören. Solche Parameter müssen vor Beginn einer Verbindung korrekt am Gerät eingestellt werden, damit diese zustande kommt.
+Depending on the method, there can also be many other settings, for example with DMR the colour code, which allows several user groups to share one frequency without hearing each other. Such parameters must be set correctly on the radio before a contact begins, so that the contact can be made.
 </indepth>
 
 [question:NE402]
 
-Über VHF/UHF-Handfunksprechgeräte und über Relaisstellen werden neben FM-Sprechfunk oft auch die digitalen Verfahren DMR, D-Star oder C4FM verwendet.
+On VHF/UHF handheld transceivers and via repeaters, the digital methods DMR, D-Star or C4FM are often used as well as FM voice.
 
 [question:NE307]
 

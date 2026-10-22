@@ -1,66 +1,66 @@
-* Das Hamnet, das Netzwerk nur für Funkamateure, basiert auf dem Internet-Protokoll (IP).
-* Deswegen kann man das Hamnet mit der gleichen Software, die auch für das Internet verwendet wird, nutzen.
-* Im einfachsten Fall ist das ein Webbrowser.
+* Hamnet, the network for radio amateurs only, is based on the Internet Protocol (IP).
+* That is why Hamnet can be used with the same software as is used for the internet.
+* In the simplest case, this is a web browser.
 
 ---
 
-* Das Internet-Protokoll (IP) weist den beteiligten Computern IP-Adressen zu, damit sie sich gegenseitig erreichen können.
-* IP-Adressen werden als vier Dezimalzahlen mit einem Punkt dazwischen geschrieben. Beispiel: 141.17.5.18
-* Jede Dezimalzahl hat eine Länge von 8 Bit, deswegen ist die größtmögliche Zahl 255 (binär: 11111111).
+* The Internet Protocol (IP) assigns IP addresses to the computers involved, so that they can reach each other.
+* IP addresses are written as four decimal numbers with a dot between them. Example: 141.17.5.18
+* Each decimal number is 8 bits long, so the largest possible number is 255 (binary: 11111111).
 
 <note>
-Es existieren die Versionen IPv4 und IPv6. Wir befassen uns hier mit der Version 4.
+There are two versions, IPv4 and IPv6. Here we deal with version 4.
 </note>
 
 ---
 
-* IP-Adressen sind in einen Netz- und einen Hostanteil aufgeteilt.
-* Bei allen Computern, die sich im selben Netzwerk befinden, ist der Anfang der IP-Adressen gleich, diesen Anfang nennt man Netzanteil.
-* Der Netzanteil ist unterschiedlich groß, je nachdem wie viele Computer (Hosts) im Netzwerk verwaltet werden sollen.
+* IP addresses are divided into a network part and a host part.
+* For all computers in the same network, the beginning of the IP addresses is the same; this beginning is called the network part.
+* The size of the network part varies, depending on how many computers (hosts) are to be managed in the network.
 
 ---
 
-Beispiele:
+Examples:
 
-     *10*.100.234.22 (kleiner Netzanteil, großer Hostanteil)
+     *10*.100.234.22 (small network part, large host part)
      
-     *192.168.1*.252 (großer Netzanteil, kleiner Hostanteil)
+     *192.168.1*.252 (large network part, small host part)
      
-Dieses Prinzip kennt man vom Telefonnetz. Die großen Städte haben kürzere Vorwahlen als kleine Städte.
+This principle is familiar from the telephone network. Large cities have shorter area codes than small towns.
 
 ---
 
-[picture:699:netzmaske:IPv4-Adresse und Netzmaske in Dezimal- und Dualschreibweise]
+[picture:699:netzmaske:IPv4 address and netmask in decimal and binary notation]
 
-* Eine Subnetzmaske gibt die Aufteilung einer IP-Adresse in Netz- und Hostanteil an, indem sie alle Bits des Netzanteils als 1 darstellt.
+* A subnet mask indicates how an IP address is divided into network part and host part, by showing all the bits of the network part as 1.
 
 ---
 
-* Es zwei Möglichkeiten dieses niederzuschreiben, Beispiel für einen Netzanteil von 24:
-* 255.255.255.0, was binär 11111111.11111111.11111111.00000000 ist.
-* Die Schreibweise mit dem Schrägstrich, zum Beispiel 192.168.111.90/24
+* There are two ways of writing this down; example for a network part of 24:
+* 255.255.255.0, which is 11111111.11111111.11111111.00000000 in binary.
+* The notation with the slash, for example 192.168.111.90/24
 
 <note>
-Die Zahl hinter dem Schrägstrich gibt die Anzahl der Einsen in der Subnetzmaske an.
+The number after the slash gives the number of ones in the subnet mask.
 </note>
 
 ---
 
-[picture:706:netzwerk:Ausschnitt aus einer Netzwerk-Infrastruktur]
+[picture:706:netzwerk:Part of a network infrastructure]
 
-* Netzwerkgeräte können nur innerhalb ihres eigenen lokalen Netzwerks direkt miteinander kommunizieren.
-
---- data-transition="none"
-
-[picture:706:netzwerk:Ausschnitt aus einer Netzwerk-Infrastruktur]
-
-* Man erkennt sie daran, dass sich aus ihrer eigenen IP-Adresse und Subnetzmaske derselbe Netzanteil ergibt wie beim Partner.
+* Network devices can communicate directly with each other only within their own local network.
 
 --- data-transition="none"
 
-[picture:706:netzwerk:Ausschnitt aus einer Netzwerk-Infrastruktur]
+[picture:706:netzwerk:Part of a network infrastructure]
 
-* In allen anderen Fällen schicken sie die Daten an einen Router. Das ist eine Zwischenstation, die zwei oder mehr Netzwerke miteinander verbindet, um die Datenpakete weiterzuleiten.
+* They recognise this by the fact that their own IP address and subnet mask give the same network part as those of the other device.
+
+--- data-transition="none"
+
+[picture:706:netzwerk:Part of a network infrastructure]
+
+* In all other cases they send the data to a router. This is an intermediate station that connects two or more networks with each other, in order to forward the data packets.
 
 ---
 [question:EE412]

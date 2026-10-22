@@ -1,36 +1,36 @@
-Die grundsätzliche Idee hinter der Morsetelegrafie, einzelne Zeichen eines Textes zu übermitteln, wird als Telegrafie bezeichnet und wurde stetig weiterentwickelt. Ein Meilenstein war es, Fernschreiber mittels Modem an Funkgeräte anzuschließen. Somit war der Funkfernschreiber erfunden, um automatisiert Texte per Funk zu senden und zu empfangen. Die Abkürzung RTTY des englischen Begriffes radio teletype findet sich immer noch als Bezeichnung wieder. Heute hat die Aufgabe des Funkfernschreibers in der Regel der Computer übernommen. Damit kann man neben dem klassischen RTTY-Verfahren viele andere digitale Übertragungsverfahren benutzen, die auch als Digimodes bezeichnet werden.
+The basic idea behind Morse telegraphy, transmitting the individual characters of a text, is called telegraphy and has been developed steadily. One milestone was connecting teleprinters to radios by means of a modem. This was the invention of the radio teleprinter, for sending and receiving texts automatically by radio. The abbreviation RTTY, for radio teletype, is still in use as a name. Today the job of the radio teleprinter has generally been taken over by the computer. Besides the classic RTTY method, this makes it possible to use many other digital transmission methods, which are also called data modes.
 
 <indepth>
-Ein *Fernschreiber* ist ein Gerät, um Nachrichten in Textform mittels elektrischer Signale zu übermitteln.
+A *teleprinter* is a device for transmitting messages in text form by means of electrical signals.
 </indepth>
 
 <margin>
-[photo:92:n_computersteuerung_funkfernschreiber:Funkfernschreiber]
+[photo:92:n_computersteuerung_funkfernschreiber:Radio teleprinter]
 </margin>
 
 ---
 
-Zunächst muss dafür ein geeigneter Computer mit dem Funkgerät verbunden werden. Die Verbindung kann im einfachsten Fall direkt über den Audioanschluss oder die USB-Schnittstelle erfolgen. Man benötigt grundsätzlich eine Audio-Verbindung sowie gegebenenfalls Steuersignale. In Abbildung [ref:n_computersteuerung_verbindungen] sind einige Varianten dargestellt. Ein häufig an Transceivern vorhandener Anschluss für Steuersignale ist die sogenannte CAT-Schnittstelle. CAT steht für Computer Aided Tuning oder Computer Aided Transceiver. Über diese Schnittstelle kannst du den Transceiver steuern und Werte abfragen, beispielsweise Frequenz, Sendeleistung und PTT-Zustand.
+First, a suitable computer must be connected to the radio. In the simplest case, the connection can be made directly via the audio socket or the USB interface. Basically you need an audio connection and, where necessary, control signals. Figure [ref:n_computersteuerung_verbindungen] shows some variants. A connection for control signals often found on transceivers is what is known as the CAT interface. CAT stands for Computer Aided Tuning or Computer Aided Transceiver. Through this interface you can control the transceiver and query values, for example frequency, transmit power and PTT status.
 
 <margin>
-[picture:630:n_computersteuerung_verbindungen:Beispiele für Verbindungen zwischen Computer und Funkgerät]
+[picture:630:n_computersteuerung_verbindungen:Examples of connections between computer and radio]
 </margin>
 
-Durch die Verbindung zwischen Computer und Transceiver kann es aber zu Störungen der übertragenen Signale oder Rückwirkungen des Funkgeräts auf den PC kommen. Verschiedene Digimode-Interfaces als Hardwarelösung vereinfachen den Anschluss und enthalten Maßnahmen gegen derartige Probleme. Solche Interfaces kann man auch für andere Zwecke verwenden, zum Beispiel für Remote-Betrieb oder zum Aufzeichnen des Funkverkehrs mit passender Software. Für einige Verfahren gibt es auch Hardware-Modems, bei denen die Umsetzung zwischen Daten und Audio-Signalen in einem eigenen Gerät erfolgt.
+However, the connection between computer and transceiver can lead to interference to the transmitted signals, or to the radio having an effect on the PC. Various data mode interfaces, as a hardware solution, make the connection easier and include measures against such problems. Such interfaces can also be used for other purposes, for example for remote operation or for recording radio communication with suitable software. For some methods there are also hardware modems, in which the conversion between data and audio signals takes place in a separate unit.
 
 [question:NF114]
 [question:NF116]
 
-Es gibt auch noch andere unbeabsichtigte Effekte. Der Computer könnte unerwartet auf Sendung schalten oder Benachrichtigungstöne anderer laufender Programme aussenden. Manchmal hört man beispielsweise, wie andere Funkamateure versehentlich den Startsound des Betriebssystems aussenden. Wenn das Funkgerät unerwartet sendet, können eventuell Menschen gefährdet werden, die gerade an der Antennenanlage arbeiten oder sich zufällig in deren direkter Umgebung befinden.
+There are other unintended effects too. The computer could unexpectedly switch to transmit, or transmit notification sounds from other programs that are running. Sometimes, for example, you hear other radio amateurs accidentally transmitting the start-up sound of their operating system. If the radio transmits unexpectedly, people who are working on the antenna installation at the time, or who happen to be in its immediate vicinity, may be endangered.
 
 [question:NF117]
 
 ---
 
-Für einige Übertragungsverfahren ist der Mikrofonanschluss des Funkgeräts ungeeignet, da die nachfolgenden Verstärker- und Filterstufen für Sprache optimiert sind und verschieden hohe bzw. tiefe Töne unterschiedlich behandelt werden. Deshalb haben Funkgeräte oft einen eigenen analogen Datenanschluss, der zum Beispiel mit DATA oder 9600 beschriftet ist. Durch die Verwendung dieses speziellen Anschlusses werden bestimmte Verstärker- und Filterstufen umgangen und Signale möglichst verzerrungsfrei übertragen.
+For some transmission methods, the radio's microphone socket is unsuitable, because the amplifier and filter stages that follow it are optimised for speech and treat high and low tones differently. Radios therefore often have a separate analogue data port, labelled DATA or 9600, for example. Using this special port bypasses certain amplifier and filter stages and transfers signals with as little distortion as possible.
 
 <indepth>
-Die Bezeichnung *9600* kommt daher, dass dieser Anschluss für das früher viel verwendete Packet-Radio eingeführt wurde, damit Daten mit $\qty{9600}{\baud}$ übertragen werden konnten. Heute wird der Anschluss z. B. für digitale Sprachübertragung benutzt und teils auch mit höherer Geschwindigkeit.
+The name *9600* comes from the fact that this port was introduced for packet radio, which used to be widely used, so that data could be transmitted at $\qty{9600}{\baud}$. Today the port is used, for example, for digital voice transmission, and in some cases at higher speeds too.
 </indepth>
 
 [question:NF115]

@@ -1,30 +1,30 @@
 <left>
-* Zu starkes Audiosignal am Eingang eines Senders $\rightarrow$ Oberschwingungen
-* Links ist in Gelb das erwünschte Signal
-* Rechts davon die unerwünschten Oberschwingungen
+* Audio signal too strong at the input of a transmitter $\rightarrow$ harmonics
+* On the left, in yellow, the wanted signal
+* To its right the unwanted harmonics
 </left>
 <right>
-[picture:720:uebersteuerung_ft8:Ein übersteuertes FT8-Signal, ganz links das erwünschte, rechts davon die unerwünschten Oberschwingungen]
+[picture:720:uebersteuerung_ft8:An overdriven FT8 signal, on the far left the wanted one, to its right the unwanted harmonics]
 </right>
 
 ---
 
-* Zu Verzerrungen durch Übersteuerung kann es auch im Sendeverstärker kommen
-* Um das zu verhindern, verfügen viele Funkgeräte über eine automatische Pegelregelung (englisch: Automatic Level Control, ALC) $\rightarrow$ regelt Verstärkung automatisch runter
-* Bei digitalen Übertragungsverfahren kann die ALC jedoch Problemen führen
-* Das Signal könnte je nach Lautstärke oder Frequenz die ALC zu verschiedenen Zeitpunkten unterschiedlich stark auslösen $\rightarrow$ Amplitude wird unerwünscht verändert
+* Distortion due to overdriving can also occur in the transmit amplifier
+* To prevent this, many radios have an automatic level control (ALC) $\rightarrow$ turns the gain down automatically
+* With digital modes, however, the ALC can lead to problems
+* Depending on volume or frequency, the signal could trigger the ALC to different degrees at different times $\rightarrow$ amplitude changed in an unwanted way
 
 <note>
-Das heißt, unser eigentliches Nutzsignal wird zusätzlich amplitudenmoduliert. Dadurch entstehen weitere Frequenzanteile, die als Nebenaussendungen ausgestrahlt werden.
+This means that our actual wanted signal is additionally amplitude-modulated. This produces additional frequency components, which are radiated as spurious emissions.
 </note>
 
 ---
 
-* ALC-Probleme hängen von verschiedenen Faktoren ab
-* Übertragungsverfahren
-* Umsetzung der ALC im Transceiver (Reaktions- und Haltezeit)
-* Anzeige der ALC im Transceiver
-* $\rightarrow$ greift die ALC nicht ein, erzeugt sie keine Probleme
+* ALC problems depend on various factors
+* Transmission method
+* Implementation of the ALC in the transceiver (response and hold time)
+* ALC indication in the transceiver
+* $\rightarrow$ if the ALC does not intervene, it does not cause any problems
 
 ---
 [question:EJ218]

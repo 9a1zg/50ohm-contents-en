@@ -2439,6 +2439,26 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Bildmotiv / persönliches Motiv (QSL-Karte) | picture / personal picture | the design on the front of a QSL card (qsl_karten) |
 | DARC QSL-Service / DCL / Wavelog / Drittanbieter | DARC QSL-Service / DCL / Wavelog / third-party services | names of DARC services and software unchanged (logbuch, qsl_karten) |
 | Datenträger | storage media | callbooks "auf Datenträger und online" (qsl_karten) |
+| Digimode / Digimodes (Kurstext) / Digimode-Interface | data mode / data modes / data mode interface | §8 gives *digital mode / data modes*; in the course text, where the German writes *Digimodes* beside *digitale Übertragungsverfahren*, *data mode(s)* throughout, so that the two German words stay apart: *digitale Übertragungsverfahren* → digital transmission methods, or digital modes where operating is meant, as EJ217–EJ219 and alc (computersteuerung, digimode_ssb, 9600_port, automatische_empfangsberichte) |
+| Informationsübertragung / Informationsübermittlung | transmitting information; conveying information | analog_vs_digital, morsetelegrafie |
+| Zehnersystem oder Dezimalsystem / Dualsystem, Dualzahl (neben Binärsystem, Binärzahl) | base-ten system or decimal system / binary system, binary number | English has one word for *binär* and *dual*; the German pair is named once as German usage: "binary number system (in German also called *Dualsystem*)", slide *Neben Binärzahl wird auch Dualzahl gesagt* → "In German, a binary number is called *Dualzahl* as well as *Binärzahl*" (binaer) |
+| Stelle / Stellenzahl / Breite (Dualzahl) / Ziffernvorrat zu Ende | position / number of digits / width / run out of digits | binaer; *Stellenwert* → place value (§3) |
+| Fernschreiber / Funkfernschreiber (Gerät) | teleprinter / radio teleprinter | the device; *Funkfernschreiben* (the mode) stays *radioteletype* (§2); *RTTY des englischen Begriffes radio teletype* → "RTTY, for radio teletype" (computersteuerung) |
+| Unterbrechung (BK) / Trennung innerhalb eines Durchgangs (BT, =) / Ende des Durchgangs (AR) / Ende der Sendung (SK) / Korrektur | Interruption (BK) / Separator within an over (BT, =) / End of over (AR) / End of transmission (SK) / Correction | Morse special characters (morsetelegrafie); *Unterbrechung der Sendung* → "Interruption of the transmission", as BB109 b; *Durchgang* → over (§2) |
+| Abkürzungstabelle (Telegrafie): Bedeutung "Bitte (vom Englischen "Please")" … | the English meaning alone ("Please", "Report", "Thanks", "Very"); an origin that is not the meaning stays in brackets: CQ "General call (from "seek you")", SK "End of contact (from "Silent Key")" | DECISIONS.md; *Abkz. / Bedeutung* → Abbr. / Meaning; DE → "This is" (§14 *hier ist / von*); 73 → "Best regards"; *Trennzeichen* → separator (funkfernschreiben) |
+| Startsound / Benachrichtigungstöne | start-up sound / notification sounds | computersteuerung, NF117 |
+| Hardware-Modem / TNC (Terminal Node Controller) / Packet-Radio | hardware modem / TNC (Terminal Node Controller) / packet radio | computersteuerung, 9600_port |
+| DATA-Port / DATA-Anschluss / 9600-Anschluss / 9600-Baud-Anschluss | DATA port / data port / 9600 port / $\qty{9600}{\baud}$ port | as NF115, EF219 "analogue data port … called a 9600 port"; §6 *Datenanschluss* |
+| Audiopfad / Audio-Weg / De-Emphasis-Prozess | audio path / audio path / de-emphasis | 9600_port; §7 *Deemphasis* |
+| Empfangsbericht (automatischer) / Skimmer-Stationen / Internetplattformen | (automatic) reception report / skimmer stations / internet platforms | EE405; the services' names (WSPRnet, Reverse Beacon Network, PSK Reporter) unchanged (automatische_empfangsberichte) |
+| Repeaternetzwerk / Relaisverbund / Richtfunkanbindung | repeater network / repeater network / radio link | NE402 "repeater network" (digital_voice) |
+| Raum (DV) / Zeitslot / Zeitschlitz | room / time slot / time slot | digital voice settings, with §8 *Sprechgruppe / Talkgroup*, *Reflektor*, *Color Code* (digital_voice, NE402) |
+| TDMA (Time Division Multiple Access) oder Zeitmultiplexverfahren | TDMA (time-division multiple access) | the German name beside the English one is dropped (bracket rule); §8 (digital_voice) |
+| Reaktions- und Haltezeit (ALC) | response and hold time(s) | digimod_uebersteuerung; *Ansprechzeit* of an AGC stays *attack time* (§14) |
+| Farbtiefe / zeilenweise / Bewegtbilder | colour depth / line by line / moving pictures | SSTV, ATV (digimode_ssb); EE415 |
+| Einstiegspunkt / HAMNET-Knoten mit Benutzerzugang / WLAN-Transceiver | access point / HAMNET node with user access / Wi-Fi transceiver | paketvermittelte_netzwerke; *WLAN* → Wi-Fi, as in earlier units |
+| Teilnehmer (Netzwerk) / Netzwerkgerät / Heimnetz / Firmennetz | user / network device / home network / company network | paketvermittelte_netzwerke |
+| Vorwahl / Ortsnetz / Schrägstrich / Netzmaske | area code / local exchange / slash / netmask | *Subnetzmaske* stays *subnet mask* (§8) (paketvermittelte_netzwerke) |
 
 ## 15. Catalogue structure
 

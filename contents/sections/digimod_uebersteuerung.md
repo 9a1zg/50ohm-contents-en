@@ -1,27 +1,27 @@
-Jeder hat bestimmt schon einmal einen übersteuerten Verstärker oder eine übersteuerte Tonaufnahme gehört. Wird beim Aufzeichnen oder beim Abspielen die Lautstärke zu sehr aufgedreht, dann kann es zu Verzerrungen kommen.
+Everyone has surely heard an overdriven amplifier or an overdriven sound recording at some point. If the volume is turned up too far when recording or playing back, distortion can occur.
 
-Wird beispielsweise ein zu starkes Audiosignal an den Eingang eines Senders angelegt, können Oberschwingungen entstehen und ausgesendet werden. In Abbildung [ref:uebersteuerung_ft8] ist ein derart übersteuertes FT8-Signal im Wasserfalldiagramm dargestellt: Links ist in Gelb das erwünschte Signal zu sehen und rechts davon die unerwünschten Oberschwingungen.
+If, for example, too strong an audio signal is applied to the input of a transmitter, harmonics can be produced and transmitted. Figure [ref:uebersteuerung_ft8] shows such an overdriven FT8 signal in the waterfall display: on the left, in yellow, is the wanted signal, and to its right are the unwanted harmonics.
 
 <margin>
-[picture:720:uebersteuerung_ft8:Ein übersteuertes FT8-Signal, ganz links das erwünschte, rechts davon die unerwünschten Oberschwingungen]
-[photo:328:uebersteuerung_ft8_wsjtx:Ein übersteuertes FT8-Signal im Wasserfall der Software WSJTX]
+[picture:720:uebersteuerung_ft8:An overdriven FT8 signal, on the far left the wanted one, to its right the unwanted harmonics]
+[photo:328:uebersteuerung_ft8_wsjtx:An overdriven FT8 signal in the waterfall of the WSJTX software]
 </margin>
 
-Zu Verzerrungen durch Übersteuerung kann es auch im Sendeverstärker kommen. Um das zu verhindern, verfügen viele Funkgeräte über eine automatische Pegelregelung (englisch: Automatic Level Control, ALC). Sie kann eingreifen, indem sie die Verstärkung herunterregelt.
+Distortion due to overdriving can also occur in the transmit amplifier. To prevent this, many radios have an automatic level control (ALC). It can intervene by turning down the gain.
 
 ---
 
-Bei Aussendungen mit digitalen Übertragungsverfahren wie z. B. FT8, WSPR oder RTTY mit konstanter Amplitude ist das Ansprechen der ALC oft ein Hinweis darauf, dass das Audiosignal vom PC zu stark ist und übersteuert wird. Das kann zu unerwünschtem *Splatter* auf dem Band führen. Deshalb sollte das Audiosignal bei diesen Übertragungsverfahren stets sorgfältig kontrolliert werden. Ein Herunterregeln des Pegels durch die ALC wäre für sich genommen zunächst unkritisch, da bei diesen Verfahren die Information in der Frequenzumtastung steckt. Trotzdem ist das Auslösen der ALC ein starkes Indiz, dass das NF-Signal bereits übersteuert ist.
+With transmissions in digital modes with a constant amplitude, such as FT8, WSPR or RTTY, a response of the ALC is often a sign that the audio signal from the PC is too strong and is being overdriven. This can lead to unwanted *splatter* on the band. The audio signal should therefore always be checked carefully with these modes. The ALC turning the level down would not in itself be critical at first, since with these modes the information lies in the frequency-shift keying. Nevertheless, the ALC being triggered is a strong indication that the AF signal is already overdriven.
 
 <indepth>
-Das [Handbuch](https://50ohm.de/wsjtx) der Software WSJTX gibt hierzu eine gute Empfehlung: Im ersten Schritt sollte man durch Drücken der TUNE-Taste den Transceiver in den Sendemodus schalten, um einen gleichmäßigen Ton zu erzeugen. Dieser Ton lässt sich mit der Monitor-Funktion des Geräts durch Hören überprüfen oder im Wasserfall des TRX optisch kontrollieren. Dabei sollten keine Verzerrungen, Klicks oder andere Störungen auftreten. Anschließend stellt man den PWR-Regler von seinem Maximum langsam nach unten, bis der HF-Ausgang des Senders leicht abfällt – dies gilt allgemein als gutes Niveau für die Audioaussteuerung. Auch die ALC-Anzeige sowie die Ausgangsleistung des Transceivers können dabei helfen, den optimalen NF-Signalpegel zu finden.
+The [user guide](https://50ohm.de/wsjtx) of the WSJTX software gives a good recommendation on this: as a first step, press the TUNE button to switch the transceiver to transmit and produce a steady tone. This tone can be checked by ear with the radio's monitor function, or visually on the waterfall display of the TRX. There should be no distortion, clicks or other interference. Then turn the PWR control slowly down from its maximum until the RF output of the transmitter drops slightly – this is generally regarded as a good level for the audio drive. The ALC indicator and the output power of the transceiver can also help to find the optimum AF signal level.
 </indepth>
 
-Bei digitalen Übertragungsverfahren mit veränderlicher Amplitude (z. B. PSK31, QPSK, 16-QAM) kann die ALC jedoch zu neuen Problemen führen. Das Signal könnte je nach Lautstärke oder Frequenz die ALC zu verschiedenen Zeitpunkten unterschiedlich stark auslösen und somit die Amplitude über den Verlauf der Zeit unerwünscht verändern. Das heißt, unser eigentliches Nutzsignal wird zusätzlich amplitudenmoduliert. Dadurch entstehen weitere Frequenzanteile, die als Nebenaussendungen ausgestrahlt werden. Einerseits können dadurch andere Funkamateure oder Funkdienste auf benachbarten Frequenzen gestört werden. Andererseits wird die Decodierung beim Empfänger erschwert.
+With digital modes with a varying amplitude (e.g. PSK31, QPSK, 16-QAM), however, the ALC can lead to new problems. Depending on volume or frequency, the signal could trigger the ALC to different degrees at different times and so change the amplitude over time in an unwanted way. This means that our actual wanted signal is additionally amplitude-modulated. This produces additional frequency components, which are radiated as spurious emissions. On the one hand, this can cause interference to other radio amateurs or radio services on adjacent frequencies. On the other hand, it makes decoding at the receiver more difficult.
 
-Ob es durch die ALC zu Problemen kommt und wie stark diese ausfallen, hängt von vielen Faktoren ab. Neben dem verwendeten Übertragungsverfahren spielt auch die konkrete Umsetzung der ALC im Transceiver, z. B. hinsichtlich der Reaktions- und Haltezeit, eine Rolle. Auch die Anzeige der ALC ist in verschiedenen Geräten unterschiedlich. Ein Blick ins Handbuch kann Aufschluss geben, wann die Pegelregelung eingreift und wie dies angezeigt wird. Allgemein lässt sich jedoch sagen: Wenn die ALC nicht eingreift, erzeugt sie auch keine Probleme.
+Whether the ALC causes problems, and how severe they are, depends on many factors. Besides the transmission method used, the specific implementation of the ALC in the transceiver, e.g. with regard to its response and hold times, also plays a part. The way the ALC is indicated also differs from radio to radio. A look at the manual can show when the level control intervenes and how this is indicated. In general, however, it can be said: if the ALC does not intervene, it does not cause any problems either.
 
-Merke: Bei digitalen Übertragungsverfahren mittels NF-Signal ist darauf zu achten, den NF-Pegel so klein zu halten, dass keine Übersteuerung eintritt und die automatische Pegelregelung nicht eingreift.
+Remember: with digital modes using an AF signal, take care to keep the AF level low enough that no overdriving occurs and the automatic level control does not intervene.
 
 [question:EJ218]
 [question:EJ217]

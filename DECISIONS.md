@@ -434,6 +434,21 @@ and the checker's "Provjera" section).
   questions stand alone and never set the two against each other, so the
   bank's *interference* for *störende Beeinflussung* (EJ103 "overloading or
   interference", EJ110, EJ112, AJ108, AJ111) stays. (Unit nea_sender_2.)
+- **Tables of operating abbreviations: the meaning in English; a
+  "(vom Englischen …)" that only gives the meaning back is dropped, an
+  origin that is not the meaning stays.** The German tables explain each
+  abbreviation in German and add its English source: *PSE – Bitte (vom
+  Englischen "Please")*, *TNX – Danke (vom Englischen "Thanks")*, *VY – sehr
+  (vom Englischen "very")*, *RPRT – Rapport (vom Englischen "Report")*. In
+  English the meaning *is* that word, so the cell reads "Please", "Thanks",
+  "Very", "Report" — the bracket rule above, applied to table cells. Where
+  the bracket says something the meaning does not, it stays: CQ "General
+  call (from "seek you")", SK "End of contact (from "Silent Key")", UR "You
+  are (in the sense of "your signal is")". Plain-language renderings of a
+  telegraphy QSO (slide fragments) use English voice procedure as the
+  `<qso>` entry above: *DL2AB von DL1PZ - Kommen!* → "DL2AB, this is DL1PZ –
+  over!". The same tables recur in the operating chapters and follow this.
+  (Unit nea_digitale_uebertragungsverfahren_1, funkfernschreiben.)
 
 ## Open questions for DARC
 

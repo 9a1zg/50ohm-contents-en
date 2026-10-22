@@ -1,16 +1,16 @@
 <left>
-Auch Sprache kann digital übertragen werden
-* z. B. mit den Übertragungsverfahren D-STAR, C4FM, DMR oder M17
-* Geeignetes Funkgerät dafür notwendig
-* Bei Handfunkgeräten üblicherweise DMR und D-STAR
+Speech can also be transmitted digitally
+* e.g. with the transmission methods D-STAR, C4FM, DMR or M17
+* A suitable radio is needed
+* Usually DMR and D-STAR on handhelds
 </left>
 <right>
-| l: Abkürzung | X: Übertragungsverfahren |
+| l: Abbreviation | X: Transmission method |
 | D-STAR | Digital Smart Technologies for Amateur Radio |
 | C4FM | Continuous 4-level frequency modulation |
 | DMR | Digital Mobile Radio |
-| M17 | Open-Source Übertragungsverfahren |
-[table:n_dv_uebertragungsverfahren:Häufig genutzte Übertragungsverfahren für digitalen Sprechfunk]
+| M17 | Open-source transmission method |
+[table:n_dv_uebertragungsverfahren:Commonly used transmission methods for digital voice]
 </right>
 
 ---
@@ -22,33 +22,33 @@ Auch Sprache kann digital übertragen werden
 [question:NE307]
 
 ---
-### Repeaternetzwerk für Digital Voice
+### Repeater network for digital voice
 
 <left>
-[picture:542:n_digital_voice_repeaternetwork:Repeaternetzwerk für Digital Voice - Relaisfunkstelle DB0FZ mit Internetanschluss, Hotspot DN9YI und Relaisfunkstelle DB0HOB mit Richtfunkanbindung an DB0FZ]
+[picture:542:n_digital_voice_repeaternetwork:Repeater network for digital voice – repeater DB0FZ with internet connection, hotspot DN9YI and repeater DB0HOB with a radio link to DB0FZ]
 </left>
 <right>
-* Vernetzte Relaisfunkstellen, z.B. über HAMNET oder Internet $\rightarrow$ weltweit erreichbar
-* Zugriff auch von zu Hause über einen *Hotspot* möglich
-* Auf Kurzwelle meist direkt, z.B. mit FreeDV
+* Networked repeaters, e.g. via HAMNET or the internet $\rightarrow$ reachable worldwide
+* Access also possible from home via a *hotspot*
+* On HF mostly direct, e.g. with FreeDV
 </right>
 
 <note>
-Ohne Genehmigung für eine fernbediente Station darf ein Hotspot nur als besetzte Station betrieben werden, also mit Abschaltung, wenn er nicht beaufsichtigt wird
+Without an authorisation for a remotely controlled station, a hotspot may only be operated as an attended station, i.e. switched off when it is not being supervised
 </note>
 
 --- style="font-size: smaller;"
 ## TDMA
 
-Time Division Multiple Access – Zeitmultiplexverfahren
+Time-division multiple access
 
 <left>
-* Sprachsignale werden vor der Übertragung in einen Datenstrom umgewandelt
-* Übertragung mehrerer Datenströme in schnell abwechselnder Folge
-* Zwei oder mehr Sprachverbindungen nutzen quasi gleichzeitig dieselbe Frequenz
+* Speech signals are converted into a data stream before transmission
+* Several data streams are transmitted in a rapidly alternating sequence
+* Two or more voice contacts use the same frequency practically simultaneously
 </left>
 <right>
-[picture:474:n_digital_voice_tdma:TDMA mit drei Verbindungen auf einer Frequenz]
+[picture:474:n_digital_voice_tdma:TDMA with three contacts on one frequency]
 </right>
 
 ---
@@ -57,14 +57,14 @@ Time Division Multiple Access – Zeitmultiplexverfahren
 
 ---
 
-## Einstellungen
+## Settings
 
-Es sind für digitale Sprache oft mehr Einstellungen zu berücksichtigen als bei einer FM-Verbindung. Zum Beispiel:
+Digital voice often involves more settings than an FM contact. For example:
 
-* Sprechgruppe (Talkgroup)
-* Raum oder Reflektor zum Zusammenschalten von Relaisfunkstellen
-* TDMA-Zeitschlitz
-* Color-Code
+* Talkgroup
+* Room or reflector for linking repeaters
+* TDMA time slot
+* Colour code
 
 ---
 

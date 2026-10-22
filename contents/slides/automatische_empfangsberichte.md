@@ -1,20 +1,20 @@
-* Mittels Digimodes empfangene Rufzeichen können an Internet-Plattformen geschickt werden
-* Diese lassen sich auf einer Karte mit empfangenen Band darstellen
-* Zum Testen der eigenen Ausbreitungsbedingungen
+* Call signs received by means of data modes can be sent to internet platforms
+* They can be displayed on a map, with the band on which they were received
+* For testing your own propagation conditions
 
 <note>
-* Beispiele: [PSK-Reporter](https://pskreporter.info)
+* Examples: [PSK Reporter](https://pskreporter.info)
 </note>
 
 ---
 ## WSPR
 
-* *Weak Signal Progagation Reporter Network*
-* QRP-Digimode, der rein zum Testen der eigenen Ausbreitungsbedingungen entwickelt wurde
-* Es ist kein 2-Wege-QSO möglich
-* Sehr langsame Übertragung mit hoher Fehlerkorrektur
-* 1 Minute Senden, mehrere Minuten empfangen
-* Ergebnisse werden an Server geschickt und lassen sich auf [WSPRnet](https://www.wsprnet.org/drupal/wsprnet/map) darstellen
+* *Weak Signal Propagation Reporter Network*
+* QRP data mode developed purely for testing your own propagation conditions
+* No 2-way QSO possible
+* Very slow transmission with strong error correction
+* 1 minute transmitting, several minutes receiving
+* Results are sent to servers and can be displayed on [WSPRnet](https://www.wsprnet.org/drupal/wsprnet/map)
 
 ---
 

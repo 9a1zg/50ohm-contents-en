@@ -1,20 +1,20 @@
 <left>
-Bei der Informationsübertragung unterscheidet man grundsätzlich zwischen analogen und digitalen Verfahren.
+In transmitting information, a basic distinction is made between analogue and digital methods.
 
-* *Digital*: in Stufen, nur bestimmte Werte, keine Werte dazwischen
-* *Analog*: kontinuierlich, beliebige Zwischenwerte
+* *Digital*: in steps, only certain values, no values in between
+* *Analogue*: continuous, any intermediate value
 </left>
 <right>
-[picture:411:n_digital_einleitung_digitales_signal:Digitales Signal (abgestuft)]
-[picture:408:n_digital_einleitung_analoges_signal:Analoges Signal (kontinuierlich)]
+[picture:411:n_digital_einleitung_digitales_signal:Digital signal (stepped)]
+[picture:408:n_digital_einleitung_analoges_signal:Analogue signal (continuous)]
 </right>
 <note>
-Digitus (lateinisch): Finger
-analogos (altgriechisch): entsprechend, gleichartig, verhältnismäßig, passend, ähnlich
+Digitus (Latin): finger
+analogos (Ancient Greek): corresponding, of the same kind, proportionate, fitting, similar
 </note>
 
 ---
 
-* Im Funk z.B. durch feste Amplitudenstufen (25 %, 50 %, 75 %, 100 %) erreichbar
-* Viele Übertragungsverfahren im Alltag arbeiten mittlerweile digital
-  * z.B. WLAN, LTE oder DVB
+* In radio, achievable e.g. with fixed amplitude steps (25 %, 50 %, 75 %, 100 %)
+* Many transmission methods in everyday life now work digitally
+  * e.g. Wi-Fi, LTE or DVB

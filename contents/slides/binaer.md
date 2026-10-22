@@ -1,12 +1,12 @@
 <left>
-*Dezimalsystem*
-* Menschen sind es gewohnt, die zehn Ziffern von $\num{0}$ bis $\num{9}$ zu benutzen
-* Man spricht von einem Zehner- oder Dezimalsystem
+*Decimal system*
+* Humans are used to using the ten digits from $\num{0}$ to $\num{9}$
+* This is called a base-ten or decimal system
 </left>
 <right>
-*Binärsystem*
-* Für Computer ist es hingegen einfacher mit nur 2 Ziffern zu arbeiten: Der $\num{0}$ und der $\num{1}$
-* Dies entspricht zwei Zuständen: Beispielsweise ausgeschaltet und eingeschaltet oder auch $\qty{0}{\volt}$ und $\qty{5}{\volt}$
+*Binary system*
+* For computers, on the other hand, it is simpler to work with only 2 digits: $\num{0}$ and $\num{1}$
+* These correspond to two states: for example off and on, or $\qty{0}{\volt}$ and $\qty{5}{\volt}$
 </right>
 
 ---
@@ -14,10 +14,10 @@
 
 ---
 
-* Mit einem Bit sind zwei Werte möglich ($\num{0}$ und $\num{1}$)
-* Mit zwei Bits schon vier ($\num{00}$, $\num{01}$, $\num{10}$ und $\num{11}$) und mit jedem weiteren Bit jeweils doppelt so viele
-* Mathematisch ausgedrückt: Mit $n$ Bits lassen sich $2^n$ verschiedene Zahlen darstellen
-* Neben Binärzahl wird auch Dualzahl gesagt
+* With one bit, two values are possible ($\num{0}$ and $\num{1}$)
+* With two bits already four ($\num{00}$, $\num{01}$, $\num{10}$ and $\num{11}$), and with each additional bit twice as many
+* Expressed mathematically: with $n$ bits, $2^n$ different numbers can be represented
+* In German, a binary number is called *Dualzahl* as well as *Binärzahl*
 
 ---
 [question:EA202]
@@ -30,23 +30,23 @@
 
 ---
 
-## Umwandlung
+## Conversion
 
-Binärzahlen in Dezimale Zahlen am Beispiel von $\num{10001110}$
+Binary numbers into decimal numbers, using the example of $\num{10001110}$
 
 |c: |c: |c: |c: |c: |c: |c: |c: |
 | $2^7$ | $2^6$ | $2^5$ | $2^4$ | $2^3$ | $2^2$ | $2^1$ | $2^0$ |
 | $\num{128}$ | $\num{64}$ | $\num{32}$ | $\num{16}$ | $\num{8}$ | $\num{4}$ | $\num{2}$ | $\num{1}$ |
 | $\num{1}$ | $\num{0}$ | $\num{0}$ | $\num{0}$ | $\num{1}$ | $\num{1}$ | $\num{1}$ | $\num{0}$ |
-[table:binar_stellenwert_dual:Stellenwerte der achtstelligen Dualzahl $\num{10001110}$]
+[table:binar_stellenwert_dual:Place values of the eight-digit binary number $\num{10001110}$]
 
 <fragment>
 $128 + 8 + 4 + 2 = 142$
 </fragment>
 
 <note>
-* An diesem Beispiel erklären
-* Dezimalwerte addieren, unter denen eine binäre $\num{1}$ steht
+* Explain using this example
+* Add the decimal values that have a binary $\num{1}$ below them
 </note>
 
 ---
