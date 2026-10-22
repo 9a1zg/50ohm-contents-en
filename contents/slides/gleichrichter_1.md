@@ -1,23 +1,23 @@
-### Gleichrichter
+### Rectifiers
 
 <left>
-* Um die Wechselspannung zu einer Gleichspannung zu wandeln, benötigen wir einen Gleichrichter.
-* Die einfachste Möglichkeit ist die Gleichrichtung mit einer Diode, denn eine Diode leitet den Strom nur in eine Richtung.
+* To convert the AC voltage into a DC voltage, we need a rectifier.
+* The simplest way is rectification with a diode, because a diode conducts current in one direction only.
 </left>
 
 <right>
-[picture:797:e_einweggleichrichter:Einweggleichrichter]
+[picture:797:e_einweggleichrichter:Half-wave rectifier]
 </right>
 
 ---
 
 <left>
-* Damit "schneiden" wir von der Wechselspannung die negative Halbwelle ab.
-* Weitere Bauelemente sind notwendig um aus den positiven Halbwellen eine stabile Gleichspannung zu machen, diese lernen wir im Klasse A Kurs kennen.
+* In this way we "cut off" the negative half cycle of the AC voltage.
+* Further components are needed to turn the positive half cycles into a stable DC voltage; we will meet them in the Class A course.
 </left>
 <right>
-[picture:798:e_einweggleichrichter_ue:Eingangsspannung Einweggleichrichter]
-[picture:796:e_einweggleichrichter_ul:Lastspannung Einweggleichrichter]
+[picture:798:e_einweggleichrichter_ue:Input voltage of a half-wave rectifier]
+[picture:796:e_einweggleichrichter_ul:Load voltage of a half-wave rectifier]
 </right>
 
 ---

@@ -1,9 +1,9 @@
 <left>
-* Netzgerät wandelt Wechselspannung von $\qty{230}{\volt}$ aus der Steckdose in kleinere Gleichspannung um
-* Im Amateurfunk wird häufig $\qty{13,8}{\volt}$ für Transceiver verwendet
+* A power supply unit converts the $\qty{230}{\volt}$ AC voltage from the mains socket into a lower DC voltage
+* In amateur radio, $\qty{13.8}{\volt}$ is often used for transceivers
 </left>
 <right>
-[picture:740:n_netzgeraet:Netzgerät]
+[picture:740:n_netzgeraet:Power supply unit]
 </right>
 
 ---
@@ -16,23 +16,23 @@
 
 ---
 
-## Schutzkontakt
+## Earthing contact
 
 <left>
-* Beim *Schutzkontaktstecker* gibt es drei Pole
-* L- und N-Leiter durch Stifte
-* Dort liegt die $\qty{230}{\volt}$-Spannung an
-* *Schutzkontakt* ist der dritte Pol
-* PE-Leiter durch äußere Schleifkontakte
+* The *Schuko plug* has three poles
+* L and N conductors via pins
+* The $\qty{230}{\volt}$ voltage is present there
+* The *earthing contact* is the third pole
+* PE conductor via outer sliding contacts
 </left>
 <right>
-[photo:86:n_schutzkontakt:Schutzkontakt an einer Steckdose und Schukostecker]
+[photo:86:n_schutzkontakt:Earthing contact on a mains socket, and a Schuko plug]
 </right>
 <note>
-* Schuko-Stecker haben keinen Verpolschutz für L- und N-Leiter
-* "protective earth" — Schutzerdung
-* Metallisches Gehäuse wird geerdet
-* Durch die Erdung wird eine gefährliche Spannung auf dem Gehäuse ausgeschlossen
+* Schuko plugs do not prevent L and N from being swapped
+* "PE" stands for "protective earth"
+* The metal case is earthed
+* Earthing rules out a dangerous voltage on the case
 </note>
 
 ---
@@ -41,25 +41,25 @@
 
 ---
 
-## Gleichspannungsausgang
+## DC output
 
-[picture:680:n_Netzgeraet_TRX:Anschluss von Netzgerät und TRX]
+[picture:680:n_Netzgeraet_TRX:Connecting the power supply unit and the transceiver]
 
 <left>
-* Ist zweipolig zum Transceiver
-* Klemmen sind in der Regel farbig
+* Two conductors to the transceiver
+* Terminals are usually coloured
 </left>
 <right>
 <fragment>
-* Rot für Plus
-* Schwarz für Minus
-* Polung beachten!
+* Red for positive
+* Black for negative
+* Observe the polarity!
 </fragment>
 </right>
 
 <note>
-* Kurzschluss oder Zerstörung des Transceivers möglich
-* Leitungen kontrollieren, dann erst einschalten
+* Short circuit or destruction of the transceiver possible
+* Check the leads, only then switch on
 </note>
 
 ---
@@ -84,47 +84,47 @@
 
 ---
 
-## Feinsicherungen
+## Miniature fuses
 
 <left>
-[photo:88:n_feinsicherungen:Feinsicherungen]
+[photo:88:n_feinsicherungen:Miniature fuses]
 </left>
 <right>
-* Unterbrechen Stromfluss im Fehlerfall (Kurzschluss oder Überlastung)
-* Schmelzsicherungen in denen ein dünner Draht schmilzt
-* *Durchgebrannte Sicherung* bzw. *thermische Abschaltung*
+* Interrupt the flow of current in the event of a fault (short circuit or overload)
+* Wire fuses, in which a thin wire melts
+* *Blown fuse* or *thermal shutdown*
 </right>
 
 ---
 
-### Feinsicherungen austauschen
+### Replacing miniature fuses
 
-* Erst die Ursache beheben
-* Durch gleichartige ersetzen
-* Stromstärke und Auslösecharakteristik
+* First put the cause right
+* Replace with a fuse of the same type
+* Current rating and tripping characteristic
 
 <note>
-ACHTUNG: Eine defekte Sicherung z.B. mit Alufolie zu überbrücken ist unzulässig und sehr gefährlich - es besteht Brandgefahr!
+WARNING: Bridging a faulty fuse, e.g. with aluminium foil, is not permitted and is very dangerous – there is a risk of fire!
 </note>
 
 ---
 
-### Kenngrößen von Feinsicherungen
+### Characteristics of miniature fuses
 
-| c: Auslösecharakteristik | c: Kennzeichen | c: Abschaltzeit bei zehnfachem Nennstrom |
-| flink | F | max. $\qty{30}{\milli\second}$ |
-| mittelträge | MT | max. $\qty{90}{\milli\second}$ |
-| träge | T | max. $\qty{300}{\milli\second}$ |
-[table:n_feinsicherung:Kenngrößen von Feinsicherungen]
+| c: Tripping characteristic | c: Marking | c: Breaking time at ten times the rated current |
+| fast-acting | F | max. $\qty{30}{\milli\second}$ |
+| medium time-lag | MT | max. $\qty{90}{\milli\second}$ |
+| time-lag | T | max. $\qty{300}{\milli\second}$ |
+[table:n_feinsicherung:Characteristics of miniature fuses]
 
 ---
 
-### Elektronische Begrenzung
+### Electronic limiting
 
-* In hochwertigen Netzgeräten
-* Im Kurzschlussfall wird die Stromstärke begrenzt
-* *Kurzschlussstrombegrenzung*
-* Kein Austausch von Sicherungen notwendig
+* In high-quality power supply units
+* In the event of a short circuit the current is limited
+* *Short-circuit current limiting*
+* No fuses need replacing
 
 ---
 [question:ND108]

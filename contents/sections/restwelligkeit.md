@@ -1,5 +1,5 @@
-Da keine Schaltung ideal arbeitet, liegt am Lastwiderstand $R_L$ eines Gleichrichters keine vollkommen konstante Gleichspannung an, sondern eine pulsierende Spannung. Sie entsteht aus den aufeinanderfolgenden positiven sinusförmigen Halbwellen und der Glättungswirkung der Kondensatoren. Diesen verbleibenden Wechselspannungsanteil bezeichnet man als Restwelligkeit.
-Ihre Frequenz beträgt $f=\qty{100}{\hertz}$, da auch die negative Halbwelle in den positiven Bereich gespiegelt wird und sich so die Netzfrequenz von $\qty{50}{\hertz}$ verdoppelt. Würde man diese pulsierende Gleichspannung über einen Spannungsteiler in einen Verstärker mit Lautsprecher einspeisen, dann könnte man einen $\qty{100}{\hertz}$ Brummton hören.
+Since no circuit works ideally, the voltage across the load resistor $R_L$ of a rectifier is not a perfectly constant DC voltage but a pulsating one. It results from the successive positive sinusoidal half cycles and the smoothing effect of the capacitors. This remaining AC component is called the ripple.
+Its frequency is $f=\qty{100}{\hertz}$, because the negative half cycle is also mirrored into the positive range, which doubles the mains frequency of $\qty{50}{\hertz}$. If this pulsating DC voltage were fed through a potential divider into an amplifier with a loudspeaker, you could hear a $\qty{100}{\hertz}$ hum.
 
 <webonly>
 <margin>
@@ -9,15 +9,15 @@ Ihre Frequenz beträgt $f=\qty{100}{\hertz}$, da auch die negative Halbwelle in 
 
 [question:AD310]
 
-Diese Spannung kann mit einem Oszilloskop betrachtet werden, indem man nur den Wechselspannungsanteil oszilloskopiert (siehe Abbildung [ref:a_AC-Kopplung]: AC-Kopplung des Eingangs).
+This voltage can be observed with an oscilloscope by displaying only the AC component (see Figure [ref:a_AC-Kopplung]: AC coupling of the input).
 
 <indepth>
-[photo:306:a_AC-Kopplung:AC - DC Kopplung des Oszilloskopeingangs]
-Mit der Taste "GD" wird der Eingang des Oszilloskops auf Null Volt geschaltet.
-Bei nicht gedrückter Taste AC/DC erfolgt eine kapazitive Kopplung des Oszilloskopeingangs und es wird nur der Wechselspannungsanteil des Eingangssignals angezeigt.
-Bei gedrückter Taste AC/DC erfolgt eine galvanische Kopplung des Oszilloskopeingangs und der Gleichspannungsanteil einer Wechselspannung wird auch angezeigt.
+[photo:306:a_AC-Kopplung:AC/DC coupling of the oscilloscope input]
+The "GD" button switches the oscilloscope input to zero volts.
+With the AC/DC button not pressed, the oscilloscope input is capacitively coupled and only the AC component of the input signal is displayed.
+With the AC/DC button pressed, the oscilloscope input is DC-coupled (galvanically coupled), and the DC component of an AC voltage is displayed as well.
 </indepth>
 
-In der Folgenden Frage muss Frequenz als auch die Amplitude der Restwelligkeit bestimmt werden. 
+In the following question, both the frequency and the amplitude of the ripple have to be determined. 
 
 [question:AD309]

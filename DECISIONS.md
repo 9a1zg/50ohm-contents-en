@@ -367,6 +367,21 @@ and the checker's "Provjera" section).
   The rhyme is the point of the mnemonic and cannot be translated; an
   established English mnemonic (such as *CIVIL*) would be an addition,
   not a translation. (Unit nea_bauelemente_1.)
+- ***Akku* is a *rechargeable battery* where the German sets it against
+  *Batterie*, and a plain *battery* where only rechargeable batteries are
+  meant.** German has two everyday words — *Batterie* (single use) and
+  *Akku* (rechargeable) — and English one. Where the text contrasts them
+  (batterien_und_akkus: "Batterien … sind nur einmal verwendbar", "Akkus,
+  manchmal aber auch Batterien"), *Akku* → "rechargeable battery" and
+  *Batterie* → "battery", or "non-rechargeable battery" where the contrast
+  would otherwise be lost, as ND110 ("rechargeable and non-rechargeable
+  batteries") and NK306 do. Where the text is about rechargeable batteries
+  throughout (akku: LiFePO4, 4S1P, balancer), *Akku* → "battery", by the
+  glossary's house-style rule *Akku → battery* and as AB209 ("battery") and
+  AB210 ("battery pack") have it, once the first mention has said
+  "rechargeable"; *Akkumulatoren, kurz Akkus genannt* → "accumulators, or rechargeable
+  batteries as they are usually called". (Unit
+  nea_strom_spannungsversorgung_1.)
 
 ## Open questions for DARC
 

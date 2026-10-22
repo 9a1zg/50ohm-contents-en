@@ -1,7 +1,7 @@
-### Netzgerät
+### Power supply unit
 
-* Die für uns Funkamateure wichtigste Spannungsquelle ist, neben Batterien, das Netzgerät. Es wird über das Stromnetz mit $\qty{230}{\volt}$ Wechselspannung versorgt und erzeugt eine Gleichspannung von $\qty{13,8}{\volt}$. Damit lassen sich Funkgeräte und Zubehör versorgen.
-* Wichtig ist, dass die Ausgangsspannung bei Last konstant bleibt.
+* For us radio amateurs the most important voltage source, besides batteries, is the power supply unit. It is supplied from the mains with $\qty{230}{\volt}$ AC and produces a DC voltage of $\qty{13.8}{\volt}$. This can be used to supply radios and accessories.
+* It is important that the output voltage stays constant under load.
 
 ---
 
@@ -9,23 +9,23 @@
 
 ---
 
-### Elektrische Sicherheit
+### Electrical safety
 
-Bei Netzgeräten, besonders mit einem Metallgehäuse, ist ein normgerechter Anschluss an das Stromnetz wichtig. Der Schutzleiter (grün/gelb) hat dabei die Aufgabe im Fehlerfall die Spannung zur "Erde" abzuleiten und damit die Haussicherung auszulösen, damit keine gefährliche Spannung am Metallgehäuse anliegt. Bei einer 3-adrigen Leitung sind die Adernkennfarben wie folgt festgelegt:
+With power supply units, especially those with a metal case, a connection to the mains that complies with the standards is important. The job of the protective earth conductor (green/yellow) is to conduct the voltage away to "earth" in the event of a fault and so to trip the household fuse, so that no dangerous voltage is present on the metal case. For a 3-core cable the core identification colours are laid down as follows:
 
 ---
-### Aderfarben
+### Core colours
 
 <left>
-* Außenleiter (L) $\rightarrow$ braun
-* Neutralleiter (N) $\rightarrow$ blau
-* Schutzleiter (PE) $\rightarrow$ grün/gelb
+* Line conductor (L) $\rightarrow$ brown
+* Neutral conductor (N) $\rightarrow$ blue
+* Protective earth conductor (PE) $\rightarrow$ green/yellow
 </left>
 <right>
-[picture:791:e_NYM_Aderfarben:Aderfarben einer 3-adrigen Leitung]
+[picture:791:e_NYM_Aderfarben:Core colours of a 3-core cable]
 </right>
 <note>
-Nicht drauf verlassen, sondern messen!
+Don't rely on it – measure!
 </note>
 
 ---

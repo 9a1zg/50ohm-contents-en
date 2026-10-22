@@ -1,21 +1,21 @@
-Ein Schaltnetzteil (engl. switched-mode power supply) wandelt eine Wechselspannung in eine stabilisierte Gleichspannung um. Dazu richtet es zunächst die Eingangsspannung gleich, schaltet sie anschließend sehr schnell ein und aus, transformiert sie so effizient auf die gewünschte Spannung und glättet sie abschließend. Wie das im Detail funktioniert werden wir uns in der Klasse A genauer anschauen. 
+A switch-mode power supply converts an AC voltage into a stabilised DC voltage. To do this, it first rectifies the input voltage, then switches it on and off very rapidly, in this way transforms it efficiently to the required voltage, and finally smooths it. We will look at how this works in detail in Class A. 
 
 <margin>
-[photo:308:e_Ferritkerntrafo im Schaltnetzteils:Innenansicht eines Schaltnetzteils für $\qty{13,8}{\volt}$ und $\qty{35}{\ampere}$ mit einem kleinen Ferritkernübertrager zwischen den beiden Kühlkörpern, Gewicht $\qty{2}{\kilo\gram}$]
+[photo:308:e_Ferritkerntrafo im Schaltnetzteils:Inside a switch-mode power supply for $\qty{13.8}{\volt}$ and $\qty{35}{\ampere}$, with a small ferrite-cored transformer between the two heatsinks; weight $\qty{2}{\kilo\gram}$]
 </margin> 
 
-Das Schaltnetzteil besitzt mehrere positive Eigenschaften gegenüber einem linear geregelten Netzteil:
+The switch-mode power supply has several advantages over a linear regulated power supply:
 
-* Hoher Wirkungsgrad auch bei kleinen Nennspannungen und wechselnden Lasten
-* Geringes Gewicht und Volumen, da durch die hohe Frequenz kleinere Transformatoren und sekundäre Siebkondensatoren verwendet werden
-* Gute Regelbarkeit
-* Geringeres Gewicht, kleinere Kühlkörper und dadurch weniger Platzbedarf im Vergleich zu einem linear geregelten Netzteil (siehe Abschnitt: Spannungsstabilisierung)
+* High efficiency, even at low rated voltages and with changing loads
+* Low weight and volume, because the high frequency allows smaller transformers and secondary smoothing capacitors to be used
+* Good controllability
+* Lower weight, smaller heatsinks and therefore less space needed than a linear regulated power supply (see the section: Voltage stabilisation)
  
 [question:ED302]
 
-Aber durch die hohen Frequenzen ergeben sich auch negative Eigenschaften:
+But the high frequencies also bring disadvantages:
 
-* Hochfrequente Störungen, durch den Schaltbetrieb mit hohen Frequenzen sind Maßnahmen zur Verbesserung der EMV notwendig
-* Komplexe Schaltung, mehr Bauelemente notwendig, höhere Ausfallwahrscheinlichkeit
+* RF interference: because of the switching at high frequencies, measures to improve EMC are necessary
+* Complex circuit, more components needed, higher probability of failure
 
 [question:ED303]

@@ -1,29 +1,29 @@
-Im Kapitel über Dioden haben wir bereits die Photodiode kennengelernt. Derselbe Effekt – die Umwandlung von Lichtenergie in elektrische Energie – wird auch bei der Solarzelle genutzt. Eine Solarzelle wandelt die optische Strahlungsenergie der Sonne in elektrische Energie um. Damit steht eine zusätzliche Spannungsquelle zur Verfügung, die sich auch im Amateurfunk, etwa bei einem Fieldday, einsetzen lässt. Die Abbildung [ref:a_solarzelle] zeigt den Aufbau einer monokristallinen Silizium Solarzelle. 
+In the chapter on diodes we have already met the photodiode. The same effect – the conversion of light energy into electrical energy – is also used in the solar cell. A solar cell converts the optical radiant energy of the sun into electrical energy. This provides an additional voltage source, which can also be used in amateur radio, for example on a Field Day. Figure [ref:a_solarzelle] shows the structure of a monocrystalline silicon solar cell. 
 
-Trifft Licht auf die Solarzelle, lösen die Lichtteilchen (Photonen) elektrische Ladungsträger im Halbleiter aus, wodurch eine elektrische Spannung und ein Strom entstehen. Albert Einstein erklärte diesen photoelektrischen Effekt bereits 1905 und erhielt dafür später den Nobelpreis für Physik.
+When light falls on the solar cell, the particles of light (photons) release electric charge carriers in the semiconductor, producing an electric voltage and a current. Albert Einstein explained this photoelectric effect as early as 1905 and was later awarded the Nobel Prize in Physics for it.
 
-Das Schaltzeichen eines Photoelements (Solarzelle) ist in der Abbildung [ref:a_photoelement] dargestellt. 
+The circuit symbol of a photovoltaic cell (solar cell) is shown in Figure [ref:a_photoelement]. 
 
 
 <margin>
-[picture:958:a_solarzelle:Aufbau einer monokristallinen Silizium Solarzelle]
-[picture:938:a_photoelement:Schaltzeichen Photoelement (Solarzelle)]
-[picture:949:a_solarmodul:Solarzellenverbund in einem Solarmodul]
-[photo:343:a_solarmodul_photo:Solarmodul mit Zellen]
+[picture:958:a_solarzelle:Structure of a monocrystalline silicon solar cell]
+[picture:938:a_photoelement:Circuit symbol of a photovoltaic cell (solar cell)]
+[picture:949:a_solarmodul:Interconnected solar cells in a solar module]
+[photo:343:a_solarmodul_photo:Solar module with cells]
 </margin>
   
 [question:AB212]
 
-Wichtige Kenngrößen einer Solarzelle sind die Leerlaufspannung $U_\mathrm{OC}$, also die Spannung ohne angeschlossene Last, sowie der Kurzschlussstrom $I_\mathrm{SC}$, der bei direktem Kurzschluss der Anschlüsse unter voller Sonneneinstrahlung fließt.
+Important parameters of a solar cell are the open-circuit voltage $U_\mathrm{OC}$, i.e. the voltage with no load connected, and the short-circuit current $I_\mathrm{SC}$, which flows when the terminals are short-circuited directly in full sunlight.
 
-Genau wie bei der Reihen- und Parallelschaltung von Akkus bzw. Spannungsquellen, verändert sich die Klemmenspannung und der maximale Laststrom eines Photovoltaikmoduls durch die Zusammenschaltung der einzelnen Solarzellen.
+Just as with batteries or voltage sources connected in series and in parallel, the terminal voltage and the maximum load current of a photovoltaic module change with the way the individual solar cells are connected together.
 
-In einem Solarmodul sind mehrere Solarzellen zu einem Verbund zusammengeschaltet, wie in der Abbildung [ref:a_solarmodul] zu sehen ist. Hier 
-werden 30 Solarzellen mit jeweils $\qty{0,6}{\volt}$ Leerlaufspannung in Reihe geschaltet. Es addieren sich die Spannungen der einzelnen Zellen. Dadurch ergibt sich eine Gesamtspannung von
+In a solar module, several solar cells are connected together into an array, as can be seen in Figure [ref:a_solarmodul]. Here, 
+30 solar cells, each with an open-circuit voltage of $\qty{0.6}{\volt}$, are connected in series. The voltages of the individual cells add, giving a total voltage of
 
-$\qty{30}{} \cdot \qty{0,6}{\volt} = \qty{18}{\volt}$.
+$\qty{30}{} \cdot \qty{0.6}{\volt} = \qty{18}{\volt}$.
 
-Zusätzlich werden vier dieser Reihenschaltungen parallel geschaltet. Bei einer Parallelschaltung addieren sich die Ströme der einzelnen Stränge. Liefert jede Solarzelle beziehungsweise jeder Strang einen Kurzschlussstrom von $\qty{1}{\ampere}$, so ergibt sich insgesamt ein Kurzschlussstrom von
+In addition, four of these series strings are connected in parallel. In a parallel connection the currents of the individual strings add. If each solar cell, or each string, delivers a short-circuit current of $\qty{1}{\ampere}$, the total short-circuit current is
 
 $\qty{4}{} \cdot \qty{1}{\ampere} = \qty{4}{\ampere}$.
 

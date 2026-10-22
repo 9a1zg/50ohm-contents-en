@@ -1,6 +1,6 @@
-* Keine Schaltung arbeitet ideal
-* In einer Gleichrichterschaltung entsteht am Ausgang eine Gleichspannung mit einer überlagerten Wechselspannung $\rightarrow$ *Restwelligkeit*
-* Kann mit einem Oszilloskop betrachtet werden
+* No circuit works ideally
+* In a rectifier circuit, a DC voltage with an AC voltage superimposed on it appears at the output $\rightarrow$ *ripple*
+* Can be observed with an oscilloscope
 
 ---
 [question:AD309]

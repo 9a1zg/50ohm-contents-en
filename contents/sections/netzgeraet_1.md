@@ -1,11 +1,11 @@
-Ein Netzgerät wandelt die Wechselspannung von $\qty{230}{\volt}$ aus der Steckdose in eine kleinere Gleichspannung um. Im Amateurfunk verwenden wir häufig Netzgeräte, die an ihrem Ausgang eine Gleichspannung von $\qty{13,8}{\volt}$ bereitstellen, um damit beispielsweise einen Transceiver zu betreiben.
+A power supply unit converts the $\qty{230}{\volt}$ AC voltage from the mains socket into a lower DC voltage. In amateur radio we often use power supply units that provide a DC voltage of $\qty{13.8}{\volt}$ at their output, for example to run a transceiver.
 
 <margin>
-[picture:740:n_netzgeraet:Netzgerät]
+[picture:740:n_netzgeraet:Power supply unit]
 </margin>
 
 <indepth>
-Zur *Kontrolle des Betriebszustands* eines Netzgeräts gibt es beleuchtete Schalter, Kontroll-Leuchtdioden oder beleuchtete Anzeigeinstrumente. Die Anzeigeinstrumente können getrennt die Betriebsspannung in Volt und die aktuell fließenden Stromstärke in Ampere anzeigen. Es gibt auch umschaltbare Digitalanzeigen für diesen Zweck.
+To *monitor the operating state* of a power supply unit there are illuminated switches, indicator LEDs or illuminated meters. The meters can show the operating voltage in volts and the current flowing at the moment in amperes separately. There are also switchable digital displays for this purpose.
 </indepth>
 
 [question:ND101]
@@ -13,25 +13,25 @@ Zur *Kontrolle des Betriebszustands* eines Netzgeräts gibt es beleuchtete Schal
 
 ---
 
-Ein Netzgerät wird oft mittels *Schutzkontaktstecker* (kurz Schukostecker) an der Steckdose angeschlossen. Beim Schutzkontaktstecker spielt die Einsteckrichtung keine Rolle, da sich die Polarität bei Wechselspannung ständig ändert. Stecker und Steckdose haben jeweils 3 Pole, wie in Abbildung [ref:n_schutzkontakt] zu erkennen ist. Die Stifte des Steckers passen in die Öffnungen der Steckdose und erlauben die Verbindung zu den sogenannten L- und N-Leitern, zwischen denen die gefährliche Wechselspannung von $\qty{230}{\volt}$ anliegt.
+A power supply unit is often connected to the mains socket with a *Schuko plug* (earthed plug). With the Schuko plug it does not matter which way round it is plugged in, since with AC the polarity changes all the time. The plug and the socket each have 3 poles, as can be seen in Figure [ref:n_schutzkontakt]. The pins of the plug fit into the openings of the socket and make the connection to the so-called L and N conductors, between which the dangerous AC voltage of $\qty{230}{\volt}$ is present.
 
 <margin>
-[photo:86:n_schutzkontakt:Schutzkontakt an einer Steckdose und Schukostecker]
+[photo:86:n_schutzkontakt:Earthing contact on a mains socket, and a Schuko plug]
 </margin>
 
-Den äußeren Schleifkontakt des Schukosteckers nennt man *Schutzkontakt* (in der Abbildung [ref:n_schutzkontakt] rot markiert). Der Schutzkontakt verbindet sich beim Einstecken mit dem sogenannten *PE-Leiter* der Steckdose. "PE" ist die Abkürzung für den englischen Begriff "protective earth", der soviel wie Schutzerdung bedeutet. Beim Einstecken des Steckers wird das metallische Gehäuse des Netzgeräts also geerdet. Eine gefährliche Spannung auf dem Gehäuse wird dadurch ausgeschlossen.
+The outer sliding contact of the Schuko plug is called the *earthing contact* (marked in red in Figure [ref:n_schutzkontakt]). When the plug is inserted, the earthing contact connects to the so-called *PE conductor* of the socket. "PE" stands for "protective earth". So when the plug is inserted, the metal case of the power supply unit is earthed. This rules out a dangerous voltage on the case.
 
 [question:ND109]
 
 ---
 
-Der Ausgang des Netzteils und die Verbindungsleitung zum Transceiver sind zweipolig ausgelegt, damit sich ein geschlossener Stromkreis ergeben kann. Das ist die Voraussetzung dafür, dass der Strom vom Netzgerät zum Transceiver, durch diesen hindurch und wieder zurück zum Netzgerät fließen kann. 
+The output of the power supply unit and the lead to the transceiver have two conductors, so that a closed circuit can be formed. This is the prerequisite for the current to flow from the power supply unit to the transceiver, through it and back to the power supply unit. 
 
 <webmargin>
-[picture:680:n_Netzgeraet_TRX:Anschluss von Netzgerät und TRX]
+[picture:680:n_Netzgeraet_TRX:Connecting the power supply unit and the transceiver]
 </webmargin>
 
-Die Ausgangsklemmen für die Gleichspannung sind farbig ausgeführt: Rot steht für Plus und schwarz für Minus. Beim Anschluss der Verbindungsleitung zum Transceiver ist diese Polung unbedingt zu beachten. Ansonsten kann es zum Kurzschluss oder im Extremfall sogar zur Zerstörung des Transceivers kommen. Erst wenn alle Leitungen angeschlossen sind und die Polung kontrolliert wurde, sollte das Netzgerät eingeschaltet werden. 
+The output terminals for the DC voltage are coloured: red stands for positive and black for negative. When connecting the lead to the transceiver, this polarity must always be observed. Otherwise there may be a short circuit or, in the extreme case, even the destruction of the transceiver. The power supply unit should only be switched on once all the leads are connected and the polarity has been checked. 
 
 [question:ND104]
 [question:ND103]
@@ -41,31 +41,31 @@ Die Ausgangsklemmen für die Gleichspannung sind farbig ausgeführt: Rot steht f
 
 ---
 
-Im Netzgerät und in der Verbindungsleitung zum Transceiver gibt es sogenannte Feinsicherungen. Diese können einen Fehlerfall (Kurzschluss oder Überlastung) erkennen und den Stromfluss unterbrechen. Häufig handelt es sich dabei um Schmelzsicherungen, in denen ein dünner Draht schmilzt, wenn zuviel Strom fließt. Dann ist der Stromkreis nicht mehr geschlossen und es kann kein Strom mehr fließen. Man spricht dann von einer *durchgebrannten Sicherung* oder in der Fachsprache auch von einer *thermischen Abschaltung*.
+In the power supply unit and in the lead to the transceiver there are so-called miniature fuses. They can detect a fault (short circuit or overload) and interrupt the flow of current. These are often wire fuses, in which a thin wire melts when too much current flows. The circuit is then no longer closed and no more current can flow. This is called a *blown fuse* or, in technical language, a *thermal shutdown*.
 
 <margin>
-[photo:88:n_feinsicherungen:Feinsicherungen]
+[photo:88:n_feinsicherungen:Miniature fuses]
 </margin>
 
 <indepth>
-*Vertiefung:* Feinsicherungen sind $\qty{5}{\milli\meter} \times \qty{20}{\milli\meter}$ groß und in unterschiedlichen Ausführungen erhältlich. Sie unterscheiden sich nach Stromstärken und Auslösecharakteristiken. Träge Sicherungen werden immer dann eingesetzt, wenn der Einschaltstrom deutlich höher als der Nennstrom ist, z. B. in Netzgeräten. Die Auslösezeit der Sicherung hängt von der Stromstärke und der Dauer des Stromflusses ab. In Tabelle [ref:n_feinsicherung] sind übliche Werte für die Auslösezeit zusammengestellt. Genauere Angaben geben die Hersteller über Kennlinien in ihren Datenblättern an.
+*In depth:* Miniature fuses measure $\qty{5}{\milli\meter} \times \qty{20}{\milli\meter}$ and are available in different versions. They differ in their current ratings and tripping characteristics. Time-lag fuses are always used when the inrush current is considerably higher than the rated current, e.g. in power supply units. The tripping time of the fuse depends on the current and on how long it flows. Table [ref:n_feinsicherung] lists typical values of the tripping time. Manufacturers give more precise information in characteristic curves in their data sheets.
 </indepth>
 
-Nachdem eine Schmelzsicherung ausgelöst hat und man die Ursache erkannt und behoben hat, muss man sie austauschen. Defekte Sicherungen dürfen aber nur durch gleichartige ersetzt werden! Dabei ist sowohl auf Stromstärke als auch die sogenannte Auslösecharakteristik zu achten, die angibt, wie schnell eine Sicherung auslöst (flink, mittelträge, träge).
+Once a fuse has blown and the cause has been found and put right, the fuse has to be replaced. Faulty fuses may only be replaced by fuses of the same type, though! Both the current rating and the so-called tripping characteristic have to be taken into account; it states how quickly a fuse blows (fast-acting, medium time-lag, time-lag).
 
 <webmargin>
-| l: Auslösecharakteristik | l: Kennzeichen | X: Abschaltzeit |
-| flink | F | max. $\qty{30}{\milli\second}$ |
-| mittelträge | MT | max. $\qty{90}{\milli\second}$ |
-| träge | T | max. $\qty{300}{\milli\second}$ |
-[table:n_feinsicherung:Kenngrößen von Feinsicherungen, Abschaltzeit bei zehnfachem Nennstrom]
+| l: Tripping characteristic | l: Marking | X: Breaking time |
+| fast-acting | F | max. $\qty{30}{\milli\second}$ |
+| medium time-lag | MT | max. $\qty{90}{\milli\second}$ |
+| time-lag | T | max. $\qty{300}{\milli\second}$ |
+[table:n_feinsicherung:Characteristics of miniature fuses, breaking time at ten times the rated current]
 </webmargin>
 
 <danger>
-*ACHTUNG:* Die manchmal praktizierte Überbrückung einer defekten Sicherung, z. B. mit Alufolie, ist unzulässig und sehr gefährlich. Es besteht die Gefahr von Bränden!
+*WARNING:* Bridging a faulty fuse, e.g. with aluminium foil, as is sometimes done, is not permitted and is very dangerous. There is a risk of fire!
 </danger>
 
-Hochwertige Netzgeräte besitzen oft auch eine elektronische Begrenzung von Strömen. Im Kurzschlussfall sorgt diese dafür, dass die Stromstärke begrenzt wird. Dies nennt sich *Kurzschlussstrombegrenzung*. Nachdem der Fehler beseitigt ist, muss keine Sicherung ausgetauscht werden.
+High-quality power supply units often also have electronic current limiting. In the event of a short circuit it makes sure that the current is limited. This is called *short-circuit current limiting*. Once the fault has been put right, no fuse has to be replaced.
 
 [question:ND108]
 [question:NK305]

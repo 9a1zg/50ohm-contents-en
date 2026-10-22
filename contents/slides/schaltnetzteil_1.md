@@ -1,13 +1,13 @@
-* Das im vorigen Kapitel vorgestellte Netzteil hat den Nachteil eines hohen Gewichts durch den Transformator und einen schlechten Wirkungsgrad aufgrund von Verlusten bei der Konstanthaltung der Ausgangsspannung.
-* Schaltnetzteile bringen die Eingangsspannung auf eine höhere Frequenz, wodurch kleinere Transformatoren eingesetzt werden können und bieten effizientere Wege die Ausgangsspannung konstant zu halten.
+* The power supply presented in the previous chapter has the disadvantage of high weight because of the transformer, and poor efficiency because of the losses in keeping the output voltage constant.
+* Switch-mode power supplies take the input voltage to a higher frequency, which allows smaller transformers to be used, and offer more efficient ways of keeping the output voltage constant.
 
 ---
 
-Details auch hier im Klasse A Kurs, wir konzentrieren uns auf die positiven Eigenschaften:
+Details in the Class A course here too; we concentrate on the advantages:
 
-* *Hoher Wirkungsgrad*
-* *Geringes Gewicht*
-* *Geringes Volumen*
+* *High efficiency*
+* *Low weight*
+* *Small volume*
 
 ---
 
@@ -15,10 +15,10 @@ Details auch hier im Klasse A Kurs, wir konzentrieren uns auf die positiven Eige
 
 ---
 
-Aber: Wo Licht ist, ist auch Schatten.
+But: there is no light without shadow.
 
-* Durch die hohen Frequenzen kann es zu *hochfrequenten Störungen* kommen, die besonders im Kurzwellenbereich stören.
-* Bei für den Amateurfunk konzipierten Netzgeräten ist das inzwischen kein Problem mehr, bei Netzgeräten in der Unterhaltungselektronik schon.
+* The high frequencies can cause *RF interference*, which is particularly troublesome in the HF range.
+* With power supplies designed for amateur radio this is no longer a problem, but with power supplies in consumer electronics it is.
 
 ---
 

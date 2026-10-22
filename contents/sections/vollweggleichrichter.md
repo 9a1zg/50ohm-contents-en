@@ -1,15 +1,15 @@
-An Stelle eines Brückengleichrichters, kann auch mit zwei Dioden und einem Transformator mit Mittelanzapfung eine Vollweggleichrichtung erreicht werden.
+Instead of a bridge rectifier, full-wave rectification can also be achieved with two diodes and a transformer with a centre tap.
 
 <latexonly>
-Die Abbildung [ref:a_vollweggleichrichter] zeigt einen solchen sogenannten Vollweggleichrichter. 
+Figure [ref:a_vollweggleichrichter] shows such a so-called full-wave rectifier. 
 
 <margin>
-[picture:946:a_vollweggleichrichter:Vollweggleichrichtung mit zwei Dioden]
+[picture:946:a_vollweggleichrichter:Full-wave rectification with two diodes]
 </margin>
 </latexonly>
 
 <webonly>
-Das nebenstehende Applet [ref:a_vollweggleichrichter] zeigt einen solchen sogenannten Vollweggleichrichter. 
+The applet alongside [ref:a_vollweggleichrichter] shows such a so-called full-wave rectifier. 
 
 <margin>
 [include:applet_gleichrichter_1]
@@ -18,16 +18,16 @@ Das nebenstehende Applet [ref:a_vollweggleichrichter] zeigt einen solchen sogena
 
 ---
 
-Zum Verständnis der Funktion muss die positive und negative Halbwelle getrennt betrachtet werden. Liegt an der oberen Wicklung eine positive Halbwelle gegenüber der Mittelanzapfung an der Anode der Diode $D_1$ an, dann leitet nur diese Diode und leitet die Halbwelle auf den Ausgang, der mit + bezeichnet ist, weiter. An der Diode $D_2$ liegt zu diesem Zeitpunkt eine negative Halbwelle an der Anode gegenüber der Mittelanzapfung an. Diese Diode bleibt bei dieser Halbwelle gesperrt.
+To understand how it works, the positive and the negative half cycle have to be considered separately. If a positive half cycle with respect to the centre tap is present on the upper winding at the anode of diode $D_1$, then only this diode conducts and passes the half cycle on to the output marked +. At this moment a negative half cycle with respect to the centre tap is present at the anode of diode $D_2$. This diode stays blocked during this half cycle.
 
-Bei der nächsten Halbwelle ist die Diode $D_1$ gesperrt und die Diode $D_2$ leitet, da nun dort eine positive Halbwelle gegenüber der Trafomittelanzapfung anliegt. Am Gleichspannungsausgang erscheinen nun zwei Halbwellen, aber immer in positiver Richtung gegenüber der Mittelanzapfung. Die Mittelanzapfung bildet den Minuspol der Ausgangsgleichspannung.
+During the next half cycle, diode $D_1$ is blocked and diode $D_2$ conducts, since a positive half cycle with respect to the transformer's centre tap is now present there. Two half cycles now appear at the DC output, but always in the positive direction with respect to the centre tap. The centre tap forms the negative terminal of the DC output voltage.
 
 <tip>
-Gleiche Eselsbrücke wie beim Brückengleichrichter: Die beiden Kathoden der Dioden liegen zusammen am Pluspol der Ausgangsspannung.
+The same mnemonic as for the bridge rectifier: the two cathodes of the diodes are connected together to the positive terminal of the output voltage.
 </tip>
 
 [question:AD307]
 
-Wenn zwei Anoden gemeinsam an einem Ausgangspol angeschlossen sind, dann wird dort die pulsierende Gleichspannung negativ gegenüber der Mittelanzapfung des Trafos sein. Beide Halbwellen befinden sich unterhalb der Nulllinie.
+If two anodes are connected together to one output terminal, the pulsating DC voltage there will be negative with respect to the transformer's centre tap. Both half cycles lie below the zero line.
 
 [question:AD308]

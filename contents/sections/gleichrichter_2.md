@@ -1,39 +1,39 @@
-Wie bereits im Kapitel "Gleichrichter I" der Klasse E gezeigt, lässt eine einzelne Diode nur die positive Halbwelle durch. Damit daraus eine nutzbare Gleichspannung entsteht, wird zusätzlich mindestens ein Kondensator benötigt, der die pulsierende Ausgangsspannung glättet (siehe Schaltung [ref:a_einweggleichrichtung_c]).
+As already shown in the Class E chapter "Rectifiers I", a single diode lets only the positive half cycle through. To turn this into a usable DC voltage, at least one capacitor is also needed, which smooths the pulsating output voltage (see circuit [ref:a_einweggleichrichtung_c]).
 
 <margin>
-[picture:795:a_einweggleichrichtung_c:Einweggleichrichtung mit Kondensator]
+[picture:795:a_einweggleichrichtung_c:Half-wave rectification with a capacitor]
 </margin>
 
 ---
 
-Bei der positiven Halbwelle leitet die Diode $D$ und lässt Strom fließen. In dieser Zeit lädt sich der Kondensator $C_L$ auf den Spitzenwert der Wechselspannung auf. Zum Zeitpunkt der negativen Halbwelle sperrt die Diode $D$ den Strom und der Kondensator $C_L$ entlädt sich über den Lastwiderstand $R_L$.
+During the positive half cycle the diode $D$ conducts and lets current flow. During this time the capacitor $C_L$ charges up to the peak value of the AC voltage. During the negative half cycle the diode $D$ blocks the current, and the capacitor $C_L$ discharges through the load resistor $R_L$.
 
-Somit stellt sich am Lastwiderstand $R_L$ eine leicht pulsierende Gleichspannung $U_L$ ein (vgl. Abb.[ref:a_Restwelligkeit]). Um so größer die Kapazität des Kondensator ist, desto gleichmäßiger wird die Gleichspannung am Lastwiderstand geglättet.
+A slightly pulsating DC voltage $U_L$ therefore appears across the load resistor $R_L$ (see Fig. [ref:a_Restwelligkeit]). The larger the capacitance of the capacitor, the more evenly the DC voltage across the load resistor is smoothed.
 
 <margin>
-[picture:75:a_Restwelligkeit:Welligkeit der Ausgangsgleichspannung $U_L$]
+[picture:75:a_Restwelligkeit:Ripple of the DC output voltage $U_L$]
 </margin>
 
-Bei der Bemessung von Diode und Kondensator müssen wir jedoch wissen, dass die Trafo-Spannungen als Effektivspannungen $U_{\mathrm{eff}}$ angegeben werden. Somit müssen wir die Spitzenspannung $\hat{U}$ vorher bestimmen.
+When choosing the diode and the capacitor, however, we need to know that transformer voltages are given as RMS voltages $U_{\mathrm{eff}}$. So we first have to work out the peak voltage $\hat{U}$.
 
 $\hat{U} = \sqrt{2} \cdot U_{\mathrm{eff}}$
 
-Wenn an einem Transformator z. B. die Spannung $U_a = \qty{15}{\volt}$ angegeben ist, rechnen wir:
+If, for example, a transformer is marked with the voltage $U_a = \qty{15}{\volt}$, we calculate:
 
-$\hat{U} = \sqrt{2} \cdot U_{\mathrm{eff}} = \sqrt{2} \cdot \qty{15}{\volt} = \qty{21,21}{\volt}$
+$\hat{U} = \sqrt{2} \cdot U_{\mathrm{eff}} = \sqrt{2} \cdot \qty{15}{\volt} = \qty{21.21}{\volt}$
 
-Somit wird sich ohne Last eine Leerlaufspitzenspannung von ca. $\qty{21}{\volt}$ einstellen.
+So with no load an open-circuit peak voltage of about $\qty{21}{\volt}$ will appear.
 
 [question:AD302]
 
-Bei nachfolgender Frage müssen wir das Übersetzungsverhältnis vom Trafo anwenden, um unsere Ausgangsspannung zu ermitteln. Wir setzten also für die effektive Eingangsspannung $U_{\mathrm{eff}}$ ein zwanzigstel der Trafoeingangsspannung von $\qty{230}{\volt}$ ein. Von der Spitzenspannung können wir dann die Hälfte der Spannung nochmal addieren um den Sicherheitsaufschlag zu berücksichtigen.
+In the following question we have to apply the transformation ratio of the transformer to find our output voltage. So for the RMS input voltage $U_{\mathrm{eff}}$ we use one twentieth of the transformer input voltage of $\qty{230}{\volt}$. To the peak voltage we can then add half of the voltage again, to allow for the safety margin.
 
 [question:AD303]
 
-Für die Lösung der folgenden Aufgabe müssen wir erkennen, dass der Spitzenwert der negativen Halbwelle und die Kondensatorspannung sich addieren und die Diode in Sperrrichtung belasten. Dies ist die höchste Spannung, die an der Diode in Sperrrichtung auftreten kann.
+To solve the following problem, we must recognise that the peak value of the negative half cycle and the capacitor voltage add up and stress the diode in the reverse direction. This is the highest voltage that can occur across the diode in the reverse direction.
 
-Wir rechnen: $U_{\mathrm{sperr}} = 2 \cdot \hat{u}$
-Zu berücksichtigen sind dann noch das Übersetzungsverhältnis $5 : 1$  des Netztransformators und der Sicherheitsaufschlag von $\qty{20}{\percent}$.
+We calculate: $U_{\mathrm{sperr}} = 2 \cdot \hat{u}$
+We then also have to take into account the transformation ratio $5 : 1$  of the mains transformer and the safety margin of $\qty{20}{\percent}$.
 
 [question:AD304]
 

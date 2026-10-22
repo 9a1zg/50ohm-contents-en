@@ -1,10 +1,10 @@
 <left>
-[picture:965:a_brueckenlgeichrichter:Brückengleichrichter]
+[picture:965:a_brueckenlgeichrichter:Bridge rectifier]
 </left>
 <right>
-* Erweiterte und häufige Gleichrichterschaltung
-* Beide Halbwellen werden verwendet
-* Pulsierende Gleichspannung am Ausgang mit doppelter Frequenz wie Eingangsspannung
+* Extended and common rectifier circuit
+* Both half cycles are used
+* Pulsating DC voltage at the output, at twice the frequency of the input voltage
 </right>
 --- style="font-size: smaller;"
 [include:applet_gleichrichter_2]
@@ -12,30 +12,30 @@
 ---
 [question:AD305]
 ---
-### Siebung
+### Smoothing
 <left>
-[picture:66:a_netzteil_Ucs:Gleichrichterschaltung mit Siebung]
+[picture:66:a_netzteil_Ucs:Rectifier circuit with smoothing]
 </left>
 <right>
-* Mit Ladekondensator $C_L$ und LC-Siebglied mit $C_S$
-* Kleinere Amplituden der pulsierenden Gleichspannung
-* Kondensatoren laden sich auf die sekundäre Spitzenspannung auf
+* With reservoir capacitor $C_L$ and LC smoothing filter with $C_S$
+* Smaller amplitudes of the pulsating DC voltage
+* The capacitors charge up to the secondary peak voltage
 </right>
 <note>
 </note>
 ---
 [question:AD306]
 ---
-#### Lösungsweg
-* gegeben: $U_P = \qty{230}{\volt}$
-* gegeben: $ü = 8:1$
-* gegeben: $U_D = \qty{0,6}{\volt}$
-* gesucht: $\hat{U}$
+#### Solution
+* given: $U_P = \qty{230}{\volt}$
+* given: $ü = 8:1$
+* given: $U_D = \qty{0.6}{\volt}$
+* required: $\hat{U}$
 
 <fragment>
-$ü = \frac{U_P}{U_S} \Rightarrow U_S = \frac{U_P}{ü} = \frac{\qty{230}{\volt}}{8} = \qty{28,75}{\volt}$
+$ü = \frac{U_P}{U_S} \Rightarrow U_S = \frac{U_P}{ü} = \frac{\qty{230}{\volt}}{8} = \qty{28.75}{\volt}$
 </fragment>
 <fragment>
-Im Leerlauf kann die Diodenspannung vernachlässigt werden.
-$\hat{U} = U_S \cdot \sqrt{2} = \qty{28,75}{\volt} \cdot 1,41 \approx \qty{40}{\volt}$
+With no load, the diode voltage can be neglected.
+$\hat{U} = U_S \cdot \sqrt{2} = \qty{28.75}{\volt} \cdot 1.41 \approx \qty{40}{\volt}$
 </fragment>

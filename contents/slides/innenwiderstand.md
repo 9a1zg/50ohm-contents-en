@@ -1,95 +1,95 @@
 <left>
-[picture:1058:a_isource_schematic:Ersatzschaltbild Stromquelle $R_i$ hochohmig]
+[picture:1058:a_isource_schematic:Equivalent circuit of a current source, $R_i$ high]
 </left>
 <right>
-* Liefert konstanten Strom
-* Unabhängig von der angeschlossenen Last
-* Theorie: Unendlich großer Innenwiderstand
-* Praxis: Sehr hoher Innenwiderstand
+* Delivers a constant current
+* Regardless of the load connected
+* Theory: infinitely large internal resistance
+* Practice: very high internal resistance
 </right>
 
 ---
 
-### Anwendung einer Stromquelle
+### Uses of a current source
 
-* Labornetzgeräte
-* Ladetechnik von Akkus
+* Laboratory power supplies
+* Charging rechargeable batteries
 
 <note>
-Labornetzgeräte werden im nächsten Abschnitt weiter behandelt
+Laboratory power supplies are dealt with further in the next section
 </note>
 
-### Spannungsquelle
+### Voltage source
 <left>
-[picture:1018:a_vsource_schematic:Ersatzschaltbild Spannungsquelle]
+[picture:1018:a_vsource_schematic:Equivalent circuit of a voltage source]
 </left>
 <right>
-* Reale Spannungsquelle wird mit $R_L$ belastet $\rightarrow$ Klemmenspannung $U_k$ sinkt
-* Grund ist der Innenwiderstand
-* Ohne Belastung / im Leerlauf: $U_q = U_L$
+* Real voltage source loaded with $R_L$ $\rightarrow$ terminal voltage $U_k$ falls
+* The reason is the internal resistance
+* Without a load / at open circuit: $U_q = U_L$
 </right>
 <note>
 </note>
 
 ---
-### Innenwiderstand
+### Internal resistance
 
 <left>
-* Nicht messbar mit einem Multimeter
-* Rechnerisch ermitteln: <br/>$R_i = \frac{\Delta U}{\Delta I}$
+* Cannot be measured with a multimeter
+* Calculate it: <br/>$R_i = \frac{\Delta U}{\Delta I}$
 </left>
 <right>
-* Leerlauf: $I = \qty{0}{\ampere}$
-* Belastung mit $R_L$: <br/>$I_L = \frac{U_L}{R_L}$
+* Open circuit: $I = \qty{0}{\ampere}$
+* Loaded with $R_L$: <br/>$I_L = \frac{U_L}{R_L}$
 </right>
 
 ---
-### Innenwiderstand Spannungsquelle
+### Internal resistance of a voltage source
 
 $(\Delta U = \qty{0}{\volt})$;  $R_i = \frac{\Delta U}{\Delta I} = \frac{0}{x} = \qty{0}{\ohm}$
 
 <fragment>
-Ideale Spannungsquellen sollen einen sehr niedrigen Innenwiderstand $R_i \ll R_L$ aufweisen
+Ideal voltage sources should have a very low internal resistance $R_i \ll R_L$
 
-Idealfall: $\qty{0}{\ohm}$, dann bleibt die Ausgangsspannung bei Belastung unverändert.
+Ideal case: $\qty{0}{\ohm}$; the output voltage then stays unchanged under load.
 </fragment>
 
 ---
 
-### Strombegrenzung
+### Current limiting
 
-* In Labornetzteilen eingebaut
-* Laststrom übersteigt eine maximale Stromstärke
-* $\rightarrow$ Klemmenspannung wird abgesenkt
-* $\rightarrow$ Laststrom bleibt konstant
-* Funktion der Konstantstromquelle
+* Built into laboratory power supplies
+* Load current exceeds a maximum current
+* $\rightarrow$ terminal voltage is lowered
+* $\rightarrow$ load current stays constant
+* Function of the constant-current source
 
 ---
-### Innenwiderstand Stromquelle
+### Internal resistance of a current source
 
 $R_i = \frac{\Delta U}{\Delta I}$; $(\Delta I \to \qty{0}{\ampere})$;  $R_i = \frac{\Delta U}{\Delta I} \to \qty{\infty}{\ohm}$
 
 <fragment>
-Ideale Stromquellen sollen einen sehr hohen Innenwiderstand $R_i \gg R_L$ aufweisen.
+Ideal current sources should have a very high internal resistance $R_i \gg R_L$.
 
-Idealfall: $\qty{\infty}{\ohm}$, dann bleibt der Laststrom bei Änderung des  Lastwiderstandes konstant, deshalb spricht man auch von Stromanpassung.
+Ideal case: $\qty{\infty}{\ohm}$; the load current then stays constant when the  load resistance changes, which is why this is also called current matching.
 </fragment>
 
 ---
 [question:AB201]
 ---
-### Leistungsanpassung
+### Power matching
 
-* Optimale Leistungsabgabe von Sender zu Antenne
+* Optimum power delivery from transmitter to antenna
 * $R_i = R_L$
 
 --- style="font-size: 0.7em;"
 
-|c: Zusammenfassung Innenwiderstand | c: Innenwiderstand |
-| Spannungsanpassung bei einer Konstantspannungsquelle| $R_i$ ist sehr niederohmig; theoretisch $\qty{0}{\ohm}$; $R_i \ll R_L$ identisch mit $R_L \gg R_i$|
-|Stromanpassung bei einer Konstantstromquelle|$R_i$ ist sehr hochohmig; $R_i \gg R_L$ identisch mit $R_L \ll R_i$ |
-| Leistungsanpassung bei Verstärkern| $R_L = R_i$|
-[table:a_Innenwiderstand Zusammenfassung:Zusammenfassung zum Innenwiderstand]
+|c: Internal resistance: summary | c: Internal resistance |
+| Voltage matching with a constant-voltage source| $R_i$ is very low; theoretically $\qty{0}{\ohm}$; $R_i \ll R_L$ is the same as $R_L \gg R_i$|
+|Current matching with a constant-current source|$R_i$ is very high; $R_i \gg R_L$ is the same as $R_L \ll R_i$ |
+| Power matching with amplifiers| $R_L = R_i$|
+[table:a_Innenwiderstand Zusammenfassung:Summary of internal resistance]
 
 ---
 [question:AG401]
@@ -102,52 +102,51 @@ Idealfall: $\qty{\infty}{\ohm}$, dann bleibt der Laststrom bei Änderung des  La
 ---
 [question:AB207]
 ---
-#### Lösungsweg
-* gegeben: $U_0 = \qty{13,5}{\volt}$
-* gegeben: $U_{Kl} = \qty{13}{\volt}$
-* gegeben: $I = \qty{2}{\ampere}$
-* gesucht: $R_i$
+#### Solution
+* given: $U_0 = \qty{13.5}{\volt}$
+* given: $U_{Kl} = \qty{13}{\volt}$
+* given: $I = \qty{2}{\ampere}$
+* required: $R_i$
 
 <fragment>
-$R_i = \frac{U_i}{I} = \frac{U_0-U_{Kl}}{I} = \frac{\qty{13,5}{\volt} - \qty{13}{\volt}}{\qty{2}{\ampere}} = \qty{0,25}{\ohm}$
+$R_i = \frac{U_i}{I} = \frac{U_0-U_{Kl}}{I} = \frac{\qty{13.5}{\volt} - \qty{13}{\volt}}{\qty{2}{\ampere}} = \qty{0.25}{\ohm}$
 </fragment>
 ---
 [question:AB208]
 ---
-#### Lösungsweg
-* gegeben: $U_0 = \qty{13,8}{\volt}$
-* gegeben: $U_{Kl} = \qty{13,6}{\volt}$
-* gegeben: $I = \qty{20}{\ampere}$
-* gesucht: $R_i$
+#### Solution
+* given: $U_0 = \qty{13.8}{\volt}$
+* given: $U_{Kl} = \qty{13.6}{\volt}$
+* given: $I = \qty{20}{\ampere}$
+* required: $R_i$
 
 <fragment>
-$R_i = \frac{U_i}{I} = \frac{U_0-U_{Kl}}{I} = \frac{\qty{13,8}{\volt} - \qty{13,6}{\volt}}{\qty{20}{\ampere}} = \qty{10}{\milli\ohm}$
+$R_i = \frac{U_i}{I} = \frac{U_0-U_{Kl}}{I} = \frac{\qty{13.8}{\volt} - \qty{13.6}{\volt}}{\qty{20}{\ampere}} = \qty{10}{\milli\ohm}$
 </fragment>
 ---
 [question:AB206]
 ---
-#### Lösungsweg
-* gegeben: $U_0 = \qty{13,5}{\volt}$
-* gegeben: $U_{Kl} = \qty{12,4}{\volt}$
-* gegeben: $I = \qty{0,9}{\ampere}$
-* gesucht: $R_i$
+#### Solution
+* given: $U_0 = \qty{13.5}{\volt}$
+* given: $U_{Kl} = \qty{12.4}{\volt}$
+* given: $I = \qty{0.9}{\ampere}$
+* required: $R_i$
 
 <fragment>
-$R_i = \frac{U_i}{I} = \frac{U_0-U_{Kl}}{I} = \frac{\qty{13,5}{\volt} - \qty{12,4}{\volt}}{\qty{0,9}{\ampere}} = \qty{1,22}{\ohm}$
+$R_i = \frac{U_i}{I} = \frac{U_0-U_{Kl}}{I} = \frac{\qty{13.5}{\volt} - \qty{12.4}{\volt}}{\qty{0.9}{\ampere}} = \qty{1.22}{\ohm}$
 </fragment>
 ---
 [question:AB205]
 ---
-#### Lösungsweg
-* gegeben: $U_0 = \qty{5,0}{\volt}$
-* gegeben: $U_{Kl} = \qty{4,8}{\volt}$
-* gegeben: $R_L = \qty{1,2}{\ohm}$
-* gesucht: $R_i$
+#### Solution
+* given: $U_0 = \qty{5.0}{\volt}$
+* given: $U_{Kl} = \qty{4.8}{\volt}$
+* given: $R_L = \qty{1.2}{\ohm}$
+* required: $R_i$
 
 <fragment>
-$I = \frac{U_{Kl}}{R_L} = \frac{\qty{4,8}{\volt}}{\qty{1,2}{\ohm}} = \qty{4}{\ampere}$
+$I = \frac{U_{Kl}}{R_L} = \frac{\qty{4.8}{\volt}}{\qty{1.2}{\ohm}} = \qty{4}{\ampere}$
 </fragment>
 <fragment>
-$R_i = \frac{U_i}{I} = \frac{U_0 - U_{Kl}}{I} = \frac{\qty{5,0}{\volt} - \qty{4,8}{\volt}}{\qty{4}{\ampere}} = \qty{0,05}{\ohm}$
+$R_i = \frac{U_i}{I} = \frac{U_0 - U_{Kl}}{I} = \frac{\qty{5.0}{\volt} - \qty{4.8}{\volt}}{\qty{4}{\ampere}} = \qty{0.05}{\ohm}$
 </fragment>
-

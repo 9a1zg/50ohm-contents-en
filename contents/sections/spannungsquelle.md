@@ -1,31 +1,31 @@
-Gleichspannungsquellen sind notwendig, um unsere Funkgeräte und das dazugehörige Zubehör mit Spannung und Strom zu versorgen. Bisher haben wir dabei vor allem Batterien betrachtet. Das allgemeine Schaltzeichen für eine ideale Spannungsquelle ist in Abbildung [ref:e_vsource] dargestellt. In der Realität ist eine Spannungsquelle jedoch nicht ideal, da sie stets einen Innenwiderstand $R_i$ besitzt, wie in Abbildung [ref:e_vsource_schematic] gezeigt.
+DC voltage sources are needed to supply our radios and the accessories that go with them with voltage and current. So far we have mainly looked at batteries. The general circuit symbol for an ideal voltage source is shown in Figure [ref:e_vsource]. In reality, however, a voltage source is not ideal, because it always has an internal resistance $R_i$, as shown in Figure [ref:e_vsource_schematic].
 
-Es ist wichtig, auch bei Belastung eine konstante Spannung zu erhalten. Diese Eigenschaft wird dann erreicht, wenn der Innenwiderstand sehr klein ist. Dann gibt es an ihm, auch bei großen Lastströmen, keinen großen Spannungsfall, der die Klemmenspannung $U_k$ absinken lässt.
+It is important to keep the voltage constant even under load. This is achieved when the internal resistance is very small. There is then no large voltage drop across it, even with large load currents, that would make the terminal voltage $U_k$ fall.
 
 <margin>
-[picture:824:e_vsource:Schaltzeichen Spannungsquelle]
-[picture:1018:e_vsource_schematic:Ersatzschaltbild Spannungsquelle $R_i$ niederohmig]
+[picture:824:e_vsource:Circuit symbol of a voltage source]
+[picture:1018:e_vsource_schematic:Equivalent circuit of a voltage source, $R_i$ low]
 </margin>
 
 [question:ED301]
 
 ---
-Die Gleichspannungsquellen (Netzgeräte) werden an das bestehende 230 V Wechselspannungsnetz angeschlossen. Wie bereits am Beispiel des Schutzkontaktsteckers in Klasse N kennengelernt, haben wir bei Wechselspannung den Außenleiter L, den Neutralleiter N und den Schutzleiter PE. 
+The DC voltage sources (power supply units) are connected to the existing 230 V AC mains. As we already learnt in Class N with the example of the Schuko plug, with AC we have the line conductor L, the neutral conductor N and the protective earth conductor PE. 
 
-Bei einer 3-adrigen Leitung mit Schutzleiter z.B. NYM-J $3 \times \qty{1,5}{\milli\meter\squared}$ sind die Aderfarben wie in Abbildung [ref:e_NYM_Aderfarben] festgelegt:
+For a 3-core cable with a protective earth conductor, e.g. NYM-J $3 \times \qty{1.5}{\milli\meter\squared}$, the core colours are laid down as in Figure [ref:e_NYM_Aderfarben]:
 
-* Schutzleiter (PE) = grün/gelb
-* Neutralleiter (N) = blau
-* Außenleiter (L) = braun  
+* Protective earth conductor (PE) = green/yellow
+* Neutral conductor (N) = blue
+* Line conductor (L) = brown  
 
 <indepth>
-Der Verband der Elektrotechnik Elektronik und Informationstechnik e. V. (VDE) ist u.a. Herausgeber von Normen in der Elektrotechnik. In der Norm DIN VDE 0293-308 sind die Aderkennzeichnungen festgelegt. 
+The Association for Electrical, Electronic and Information Technologies (Verband der Elektrotechnik Elektronik und Informationstechnik e. V., VDE) publishes, among other things, standards in electrical engineering. The core identification is laid down in the standard DIN VDE 0293-308. 
 </indepth>
 
 <margin>
-[picture:791:e_NYM_Aderfarben:Aderfarben einer 3-adrigen Leitung]
+[picture:791:e_NYM_Aderfarben:Core colours of a 3-core cable]
 </margin>
 
-In den folgenden Kapiteln werden wir noch einige weitere Elemente der Spannungsversorgung kennenlernen.
+In the following chapters we will meet a few more elements of the power supply.
 
 [question:EK205]

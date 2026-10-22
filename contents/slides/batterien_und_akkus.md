@@ -1,18 +1,18 @@
 --- style="font-size: smaller;"
 <left>
-* Spannung durch Ladungstrennung in elektrochemischen Vorgängen
-* Beim Akku ist der Vorgang umkehrbar, Batterien sind nur einmal verwendbar
-* Plus- oder Minuspol gekennzeichnet
-* In Handfunkgeräten meist Akkus, manchmal Batterien
-* Für unabhängigen Betrieb, z. B. auf einem Fieldday, oft Akkus
+* Voltage from charge separation in electrochemical processes
+* In a rechargeable battery the process is reversible; batteries can only be used once
+* Positive and negative terminals marked
+* Handheld transceivers mostly use rechargeable batteries, sometimes batteries
+* For independent operation, e.g. on a Field Day, often rechargeable batteries
 </left>
 <right>
-[photo:89:n_Bat_AA:Eine Batterie mit Kennzeichnung der Pole und Warnhinweisen]
-[picture:517:n_schaltzeichen_batt:Schaltzeichen einer Batterie]
+[photo:89:n_Bat_AA:A battery with the terminals marked and warnings]
+[picture:517:n_schaltzeichen_batt:Circuit symbol of a battery]
 </right>
 <note>
-* Im Schaltzeichen ist der lange Strich Plus, der kurze Minus
-* Eselsbrücke: Ein Plus-Zeichen braucht 2 Striche, ein Minus-Zeichen nur einen
+* In the circuit symbol the long line is positive, the short one negative
+* Mnemonic: a plus sign needs 2 lines, a minus sign only one
 </note>
 
 ---
@@ -25,55 +25,55 @@
 
 --- style="font-size: smaller;"
 
-## Serienschaltung
+## Series connection
 
-* Batterien lassen sich hintereinander schalten
-* Pluspol auf Minuspol der vorhergehenden Batterie
-* Die Gesamtspannung ist die Summe der Einzelspannungen
-* Bei gleicher Batteriespannung:
+* Batteries can be connected one after the other
+* Positive terminal to the negative terminal of the previous battery
+* The total voltage is the sum of the individual voltages
+* With equal battery voltages:
 
-$\text{Gesamtspannung} = \text{Anzahl Batterien} \cdot \text{Batteriespannung}$
+$\text{Total voltage} = \text{number of batteries} \cdot \text{battery voltage}$
 
 ---
 
 [question:NB204]
 
 ---
-## Unterschiedlichste Batterien und Akkus
+## A wide variety of batteries and rechargeable batteries
 
 <left>
-* Häufige Spannungen: $\qty{1,5}{\volt}$ oder $\qty{9}{\volt}$
-  * Auch andere Spannungen möglich, z. B. $\qty{7,2}{\volt}$ bei ferngesteuerten Modellautos oder $\qty{18}{\volt}$ bis $\qty{40}{\volt}$ bei akkubetriebenen Werkzeugen
+* Common voltages: $\qty{1.5}{\volt}$ or $\qty{9}{\volt}$
+  * Other voltages are possible too, e.g. $\qty{7.2}{\volt}$ for radio-controlled model cars or $\qty{18}{\volt}$ to $\qty{40}{\volt}$ for battery-powered tools
 </left>
 <right>
-[photo:209:batterien_und_akkus_sammlung:Verschiedene Batterien und Akkus]
+[photo:209:batterien_und_akkus_sammlung:Various batteries and rechargeable batteries]
 </right>
 
 ---
 
-* Kapazität wird in Amperestunden ($\unit{\ampere\hour}$) angegeben
-  * Batterien: oft keine Angabe, meist unter $\qty{5}{\ampere\hour}$
-  * Akkus: fast immer angegeben, große Akkus auch $\qty{100}{\ampere\hour}$ oder mehr
-* Bauformen: bekannt sind zylindrische AA- und AAA-Zellen, bei Akkus gibt es aber auch viele geräte-spezifische Sonderformen
+* Capacity is given in ampere-hours ($\unit{\ampere\hour}$)
+  * Batteries: often not stated, mostly below $\qty{5}{\ampere\hour}$
+  * Rechargeable batteries: almost always stated; large ones $\qty{100}{\ampere\hour}$ or more
+* Types: the cylindrical AA and AAA cells are well known, but rechargeable batteries also come in many special shapes for particular devices
 
 ---
 
-## Kurzschluss
+## Short circuit
 
-* Vermeiden!
-* Bei Akkus Gefahr der Überhitzung
-* Brandgefahr
-* Anders als bei Netzgeräten fehlt meist eine Sicherung
+* Avoid it!
+* Risk of overheating with rechargeable batteries
+* Risk of fire
+* Unlike power supply units, there is usually no fuse
 
 ---
 
 <left>
-* Hochkapazitive Akkus wie Autobatterien können kurzzeitig $\qty{1000}{\ampere}$ und mehr liefern
-* Bei externen, hochkapazitiven Akkus zusätzliche Sicherung vorsehen
-* Akkus nie komplett entladen (Tiefentladung) - kann den Akku beschädigen
+* High-capacity rechargeable batteries such as car batteries can deliver $\qty{1000}{\ampere}$ or more for a short time
+* Fit an additional fuse when using external high-capacity rechargeable batteries
+* Never discharge rechargeable batteries completely (deep discharge) – this can damage the battery
 </left>
 <right>
-[photo:90:n_Bat_Sicherung:Anschlussbox mit Kfz-Sicherungen und verpolungsgeschützten Ausgängen zum Schutz von leistungsstarken Akkus]
+[photo:90:n_Bat_Sicherung:Connection box with automotive fuses and reverse-polarity-protected outputs for protecting high-power rechargeable batteries]
 </right>
 ---
 
@@ -81,15 +81,15 @@ $\text{Gesamtspannung} = \text{Anzahl Batterien} \cdot \text{Batteriespannung}$
 
 ---
 
-## Unsachgemäßer Umgang
+## Improper handling
 
-* In Akkus sind verschiedene chemische Technologien im Einsatz
-* Beim Aufladen angepasste Ladegeräte verwenden
-* Gefahr von Überhitzung, Explosion oder Brand
-* Dadurch kann es zu Verbrennungen, Verätzungen und Vergiftungen kommen
+* Rechargeable batteries use various chemical technologies
+* Use suitable chargers for charging
+* Risk of overheating, explosion or fire
+* This can lead to burns, chemical burns and poisoning
 
 <note>
-Batterien und Akkus gehören nicht in den Hausmüll, sondern sind sachgerecht zu entsorgen (durchgestrichenes Mülltonnensymbol)
+Batteries and rechargeable batteries do not belong in household waste, but must be disposed of properly (crossed-out wheelie bin symbol)
 </note>
 
 ---

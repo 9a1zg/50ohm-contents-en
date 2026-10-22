@@ -1,97 +1,97 @@
-In der Klasse E haben wir bereits Spannungsquellen kennen gelernt. Zunächst wollen wir uns mit der Stromquelle beschäftigen, bevor wir den Innenwiderstand von Spannungs- und Stromquellen genauer betrachten.
+In Class E we have already met voltage sources. First we want to deal with the current source, before we look more closely at the internal resistance of voltage and current sources.
 
-Ähnlich wie bei der Spannungsquelle, sorgt eine Stromquelle dafür, dass diese möglichst einen konstanten Strom liefert. Abbildung [ref:a_isource_schematic] zeigt deren Ersatzschaltbild.
+In a similar way to the voltage source, a current source is designed to deliver as constant a current as possible. Figure [ref:a_isource_schematic] shows its equivalent circuit.
 
 <margin>
-[picture:1058:a_isource_schematic:Ersatzschaltbild Stromquelle $R_i$ hochohmig]
+[picture:1058:a_isource_schematic:Equivalent circuit of a current source, $R_i$ high]
 </margin>
 
 <indepth>
-Betrachtung einer Konstantstromquelle am Beispiel eines Labornetzgerätes:
+A look at a constant-current source, using a laboratory power supply as an example:
 
-[photo:298:a_Strombegrenzung:Labornetzgerät mit eingestellter Strombegrenzung auf $\qty{500}{\milli\ampere}$]
+[photo:298:a_Strombegrenzung:Laboratory power supply with the current limit set to $\qty{500}{\milli\ampere}$]
 
-In Labornetzgeräten ist eine Strombegrenzung eingebaut, d.h. übersteigt der Laststrom eine maximale Stromstärke, wird die Klemmenspannung so abgesenkt, dass der Laststrom konstant bleibt. Dies entspricht der Funktion einer Konstantstromquelle -- Bei Kurzschluss an den Ausgangsklemmen fließt der eingestellte maximale Strom.
+Laboratory power supplies have built-in current limiting, i.e. if the load current exceeds a maximum current, the terminal voltage is lowered so that the load current stays constant. This corresponds to the function of a constant-current source -- if the output terminals are short-circuited, the maximum current that has been set flows.
 </indepth>
 
-Eine ideale Konstantstromquelle liefert unabhängig von der angeschlossenen Last einen konstanten Dauerstrom. In der Theorie ist dies bei einem unendlichen Innenwiderstand möglich. In der Praxis haben Stromquellen einen sehr hohen Innenwiderstand.
+An ideal constant-current source delivers a constant continuous current regardless of the load connected. In theory this is possible with an infinite internal resistance. In practice, current sources have a very high internal resistance.
 
 <margin>
-[picture:1018:a_vsource_schematic:Ersatzschaltbild Spannungsquelle]
+[picture:1018:a_vsource_schematic:Equivalent circuit of a voltage source]
 </margin>
 
 ---
 
-Die Abbildung [ref:a_vsource_schematic] zeigt ein Ersatzschaltbild einer Spannungsquelle. Der Innenwiderstand $R_i$ liegt in Reihe zur idealen Spannungsquelle und sollte im Ideallfall $\qty{0}{\ohm}$ betragen. In der Praxis haben Spannungsquellen einen kleinen Innenwiderstand.
+Figure [ref:a_vsource_schematic] shows an equivalent circuit of a voltage source. The internal resistance $R_i$ is in series with the ideal voltage source and should ideally be $\qty{0}{\ohm}$. In practice, voltage sources have a small internal resistance.
 
 [question:AB201]
 
-Wird eine reale Spannungsquelle mit $R_L$ belastet, so sinkt die Klemmenspannung $U_k$. Grund dafür ist der vorhandene Innenwiderstand $R_i$ dieser Spannungsquelle. Durch ihn entsteht quasi ein Spannungsteiler. Da die Quellenspannung $U_q$ im Leerlauf, also ohne Belastung $U_q=U_L$ ist, nennt man diese auch Leerlaufspannung. 
+If a real voltage source is loaded with $R_L$, the terminal voltage $U_k$ falls. The reason for this is the internal resistance $R_i$ of the voltage source. It effectively forms a potential divider. Since the source voltage $U_q$ at open circuit, i.e. without a load, is $U_q=U_L$, it is also called the open-circuit voltage. 
 
-Mit einem Multimeter ist der Innenwiderstand nicht messbar, man kann ihn aber rechnerisch über das Ohmsche Gesetz ermitteln (vgl. Formelsammlung):
+The internal resistance cannot be measured with a multimeter, but it can be calculated using Ohm's law (see the formula sheet):
 
 $R_i = \frac{\Delta U}{\Delta I}$
 
-Zur Berechnung werden zwei Belastungsfälle benötigt:
-1. Leerlauf ohne Belastung: $I = \qty{0}{\ampere}$ und $U_L = U_q$
-2. Belastung mit $R_L$: Wir messen $I_L$ und $U_L$
+The calculation needs two load cases:
+1. Open circuit, without a load: $I = \qty{0}{\ampere}$ and $U_L = U_q$
+2. Loaded with $R_L$: we measure $I_L$ and $U_L$
 
-Über die Spannungsveränderung ($\Delta U = U_q~-~U_L$) an den Klemmen und die Laststromveränderung ($\Delta I = I_L~-~\qty{0}{\ampere}$), kann der Innenwiderstand nach der obigen Formel berechnet werden.
+From the change in voltage ($\Delta U = U_q~-~U_L$) at the terminals and the change in load current ($\Delta I = I_L~-~\qty{0}{\ampere}$), the internal resistance can be calculated with the formula above.
 
 $R_i = \frac{\Delta U}{\Delta I} = \frac{U_q - U_L}{I_L-\qty{0}{\ampere}} = \frac{U_q - U_L}{I_L}$
 
-Mit diesem Wissen können wir die folgenden Prüfungsfragen beantworten:
+With this knowledge we can answer the following examination questions:
 
 [question:AB205]
 [question:AB206]
 [question:AB207]
 [question:AB208]
 
-Wir fassen zusammen:
+To sum up:
 
-* Spannungsquellen sollen einen sehr niedrigen Innenwiderstand $R_i \ll R_L$ aufweisen, im Idealfall: $\qty{0}{\ohm}$, dann bleibt die Ausgangsspannung bei Belastung unverändert. Bleibt die Klemmenspannung bei Belastung konstant, dann spricht man von Spannungsanpassung.
-* Stromquellen sollen einen sehr hohen Innenwiderstand $R_i \gg R_L$ aufweisen. Idealfall: $\qty{\infty}{\ohm}$, dann bleibt der Laststrom bei Änderung des Lastwiderstandes konstant, deshalb spricht man auch von Stromanpassung.
+* Voltage sources should have a very low internal resistance $R_i \ll R_L$, ideally $\qty{0}{\ohm}$; the output voltage then stays unchanged under load. If the terminal voltage stays constant under load, this is called voltage matching.
+* Current sources should have a very high internal resistance $R_i \gg R_L$. Ideally: $\qty{\infty}{\ohm}$; the load current then stays constant when the load resistance changes, which is why this is also called current matching.
 
 [question:AB203]
 [question:AB204]
 
 ---
 
-Soll eine Spannungsquelle die maximale Leistung an eine Last abgeben, spricht man von Leistungsanpassung. Dies ist beispielsweise auch bei einem Sender wichtig, der möglichst viel Leistung an eine Antenne übertragen soll.
+If a voltage source is to deliver the maximum power to a load, this is called power matching. This is also important, for example, for a transmitter that is to transfer as much power as possible to an antenna.
 
-Die maximale Leistungsübertragung wird erreicht, wenn
+The maximum power transfer is achieved when
 
 $R_i = R_L$
 
-gilt, also Innenwiderstand und Lastwiderstand gleich groß sind.
+holds, i.e. when the internal resistance and the load resistance are equal.
 
-In diesem Fall verteilt sich die Quellenspannung gleichmäßig auf Innenwiderstand und Last. Dadurch ergibt sich an der Last das maximale Produkt aus Spannung und Strom und somit die größtmögliche Leistung.
+In this case the source voltage is shared equally between the internal resistance and the load. This gives the maximum product of voltage and current at the load, and so the greatest possible power.
 
-Die Abbildung [ref:a_Leistungsanpassung] zeigt die normierte Leistung an der Last in Abhängigkeit vom Verhältnis $R_L/R_i$. Das Maximum wird genau bei $R_L/R_i = 1$ erreicht, also dann, wenn Innenwiderstand und Lastwiderstand gleich groß sind. Allerdings beträgt der Wirkungsgrad bei der Leistungsanpassung nur $\qty{50}{\percent}$, da die gleiche Leistung sowohl an der Last als auch am Innenwiderstand umgesetzt wird.
+Figure [ref:a_Leistungsanpassung] shows the normalised power in the load as a function of the ratio $R_L/R_i$. The maximum is reached exactly at $R_L/R_i = 1$, that is, when the internal resistance and the load resistance are equal. However, the efficiency with power matching is only $\qty{50}{\percent}$, because the same power is dissipated in the load as in the internal resistance.
 
 <margin>
-[picture:1077:a_Leistungsanpassung:Optimale Leistungsanpassung bei $R_i = R_L$, hier wird der Quotient $\frac{R_L}{R_i}=1$ und damit die maximale Leistung an der Last abgegeben. Der Plot ist logarithmisch.]
-[picture:937:a_Leistungsanpassung:Optimale Ausgangsleistung bei $\qty{50}{\ohm}$ Lastwiderstand bei einem Innenwiderstand von $\qty{50}{\ohm}$. Der Plot ist nicht logarithmisch.]
+[picture:1077:a_Leistungsanpassung:Optimum power matching at $R_i = R_L$: here the quotient $\frac{R_L}{R_i}=1$, and so the maximum power is delivered to the load. The plot is logarithmic.]
+[picture:937:a_Leistungsanpassung:Optimum output power with a $\qty{50}{\ohm}$ load resistance and an internal resistance of $\qty{50}{\ohm}$. The plot is not logarithmic.]
 </margin>
 
 <indepth>
-Wechselspannungsquellen, z.B. Sinusgeneratoren besitzen auch einen Innenwiderstand, der an der Ausgangsbuchse angeben ist.
-[photo:292:Sinusgenerator 50 Ohm:Sinusgenerator mit 50 Ohm Innenwiderstand]
+AC voltage sources, e.g. sine-wave generators, also have an internal resistance, which is stated at the output socket.
+[photo:292:Sinusgenerator 50 Ohm:Sine-wave generator with an internal resistance of 50 Ω]
 </indepth>
 
 % GGF muss das woanders hin? 
 <indepth>
-Der in der Hochfrequenztechnik häufig verwendete Wert von $\qty{50}{\ohm}$ ist ein technischer Kompromiss zwischen maximaler Leistungsübertragung und möglichst geringen Verlusten in Leitungen.
+The value of $\qty{50}{\ohm}$ often used in RF engineering is a technical compromise between maximum power transfer and the lowest possible losses in lines.
 
-Koaxialkabel mit einem Wellenwiderstand von etwa $\qty{30}{\ohm}$ können besonders hohe Leistungen übertragen, da der Strom im Kabel geringer verteilt wird. Kabel mit etwa $\qty{77}{\ohm}$ besitzen dagegen die geringsten Dämpfungsverluste und eignen sich besonders gut für eine verlustarme Signalübertragung.
+Coaxial cables with a characteristic impedance of about $\qty{30}{\ohm}$ can carry particularly high power, because of the way the current is distributed in the cable. Cables of about $\qty{77}{\ohm}$, on the other hand, have the lowest attenuation losses and are particularly well suited to low-loss signal transmission.
 
-Der heute weit verbreitete Wert von $\qty{50}{\ohm}$ liegt zwischen beiden Optima und stellt einen guten Kompromiss aus hoher Leistungsübertragung, moderaten Verlusten und praktikabler Kabelkonstruktion dar. Deshalb haben sich $\qty{50}{\ohm}$ in der Funktechnik als Standard etabliert.
+The value of $\qty{50}{\ohm}$, which is in widespread use today, lies between the two optima and is a good compromise between high power handling, moderate losses and a practical cable design. That is why $\qty{50}{\ohm}$ has become established as the standard in radio engineering.
 
-Wird ein Sender, ein Kabel und eine Antenne jeweils auf $\qty{50}{\ohm}$ angepasst, dann wird die Leistung optimal übertragen und Reflexionen auf der Leitung werden minimiert.
+If a transmitter, a cable and an antenna are each matched to $\qty{50}{\ohm}$, the power is transferred in the best possible way and reflections on the line are minimised.
 
-[picture:1078:a_50ohm:50 Ohm als Kompromiss zwischen maximaler Leistungsübertragung und minimalen Verlusten in der Hochfrequenztechnik]
+[picture:1078:a_50ohm:50 Ω as a compromise between maximum power transfer and minimum losses in RF engineering]
 
-Jetzt weißt du auch, warum unsere Plattform 50ohm.de heißt: Wir wollen dir helfen, die Prüfungsfragen zu meistern und damit die optimale Leistung in der Prüfung zu erreichen 🤓
+Now you also know why our platform is called 50ohm.de: we want to help you master the examination questions and so deliver the optimum performance in the examination 🤓
 </indepth>
 
 [question:AG401]

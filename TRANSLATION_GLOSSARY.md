@@ -2173,6 +2173,38 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Teilabschnitte (zwischen Anzapfungen) | sections (between the taps) | reihenschaltung_spule |
 | komplexe Größe / Realteil / Imaginärteil / komplexe Ebene | complex quantity / real part / imaginary part / complex plane | $Z = R + jX$ (reihe_parallel_gemischt) |
 | Wirkwiderstand $R$ (neben Blind- und Scheinwiderstand) | resistive part, or simply the resistance $R$ | introduced once as "the resistive part, or simply the resistance $R$", afterwards *resistance*; *Scheinwiderstand* $|Z|$ → "the magnitude of the impedance, $|Z|$, which German calls the *Scheinwiderstand*", as §14 *Scheinwiderstand* and AD104/AD105 (reihe_parallel_gemischt) |
+| Labornetzgerät / Strombegrenzung | laboratory power supply / current limiting | innenwiderstand |
+| Quellenspannung $U_q$ / Spannungsfall | source voltage / voltage drop | innenwiderstand, spannungsquelle |
+| Spannungsanpassung / Stromanpassung (Konstantspannungsquelle / Konstantstromquelle) | voltage matching / current matching (constant-voltage source / constant-current source) | as AB203, AB204 |
+| Sinusgenerator / Ausgangsbuchse | sine-wave generator / output socket | |
+| 3-adrige Leitung / Aderfarben / Aderkennzeichnung | 3-core cable / core colours / core identification | EK205 "core identification colours" (*Adernkennfarben*, §12) |
+| Haussicherung | household fuse | spannungsquelle slides |
+| Kontroll-Leuchtdiode / beleuchtetes Anzeigeinstrument | indicator LED / illuminated meter | netzgeraet_1 |
+| äußerer Schleifkontakt (Schukostecker) | outer sliding contact | the earthing contact of the Schuko plug (netzgeraet_1) |
+| durchgebrannte Sicherung / Schmelzsicherung (mit Draht) | blown fuse / wire fuse | *thermische Abschaltung* → thermal shutdown, as ND108 |
+| Auslösezeit / Abschaltzeit / Einschaltstrom / Nennstrom / Kennzeichen (Sicherung) | tripping time / breaking time / inrush current / rated current / marking | table of fuse characteristics: flink F / mittelträge MT / träge T → fast-acting / medium time-lag / time-lag, markings unchanged (§12) |
+| Akkumulator (Akku) neben Batterie | rechargeable battery beside (non-rechargeable) battery | where the German contrasts the two, as ND110, NK306; where only rechargeable batteries are meant (akku), plain *battery* (DECISIONS.md) |
+| Tiefentladung / Stromentnahme / Mindestspannung | deep discharge / drawing current / minimum voltage | |
+| Bleiakku / Bleibatterie / NiCd / NiMH / Lithium-Ionen / LiFePO4 | lead-acid battery / nickel-cadmium (NiCd) / nickel-metal hydride (NiMH) / lithium-ion / lithium iron phosphate (LiFePO4) | |
+| Kfz-Sicherung / Anschlussbox / verpolungsgeschützt | automotive fuse / connection box / reverse-polarity-protected | batterien_und_akkus photo caption |
+| durchgestrichenes Mülltonnensymbol / Hausmüll | crossed-out wheelie bin symbol / household waste | |
+| Batteriefach / Fieldday (Kurstext) | battery compartment / Field Day | as *Fieldday-Contest* → Field Day contest (§2) |
+| Nennspannung / Zellnennspannung / Verschaltung (4S1P) | nominal voltage / nominal cell voltage / configuration (4S1P) | the 4S1P / 4S2P codes unchanged |
+| Balancer / Balanceranschluss / Batteriemonitor / Balance-Stecker | balancer / balancer connector / battery monitor / balance connector | akku |
+| Entladestrom / Entladezeit / entnehmbare Ladungsmenge | discharge current / discharge time / usable quantity of charge | akku, AB211 |
+| Photoelement / Strang (Solarmodul) / Solarzellenverbund | photovoltaic cell / string / interconnected solar cells (array) | as AD301 "strings" (photovoltaik) |
+| photoelektrischer Effekt / photovoltaischer Effekt | photoelectric effect / photovoltaic effect | photovoltaik, AB212 |
+| Spannungswandler / Hochsetzsteller / Tiefsetzsteller / Buck-Boost-Converter | voltage converter / step-up (boost) converter / step-down (buck) converter / buck-boost converter | *Step-UP-Wandler (Hochsetzsteller)* → "step-up converter (boost converter)"; *DC/DC-Wandler* → DC–DC converter (§5, AB213) |
+| Einweggleichrichtung / Lastspannung | half-wave rectification / load voltage | gleichrichter_1; *Halbwelle* → half cycle (§3) |
+| Leerlaufspitzenspannung / Sicherheitsaufschlag | open-circuit peak voltage / safety margin | gleichrichter_2, AD303, AD304 |
+| LC-Siebglied | LC smoothing filter | as *Siebglied* (§5) |
+| Diodenringmischer | diode ring mixer | brueckengleichrichter tip |
+| Bauformen (Brückengleichrichter) / Anschlussfolge | package styles / order of the terminals | as *Bauform* (§14) |
+| Brummton / AC-Kopplung / galvanische Kopplung (Oszilloskop) | hum / AC coupling / DC (galvanic) coupling | restwelligkeit |
+| Schaltnetzteil (engl. switched-mode power supply) | switch-mode power supply | the German gloss only gives the English term and is dropped (bracket rule) (schaltnetzteil_1) |
+| Ferritkernübertrager | ferrite-cored transformer | |
+| Regelbarkeit / Ausfallwahrscheinlichkeit / Unterhaltungselektronik | controllability / probability of failure / consumer electronics | schaltnetzteil_1 |
+| Wo Licht ist, ist auch Schatten | there is no light without shadow | |
 
 ## 15. Catalogue structure
 
