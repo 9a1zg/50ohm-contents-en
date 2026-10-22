@@ -1,41 +1,41 @@
-Bei digitalen Übertragungen werden Informationen in Form von Symbolen übertragen. Ein Symbol ist dabei ein unterscheidbarer Signalzustand, der für eine bestimmte Zeit übertragen wird. Diese Signalzustände können sich beispielsweise durch unterschiedliche Amplituden, Frequenzen oder Phasen beziehungsweise durch Kombinationen dieser Eigenschaften unterscheiden. Wie solche Symbole erzeugt werden, betrachten wir in den folgenden Abschnitten. Je nachdem, wie viele unterschiedliche Symbole ein Übertragungsverfahren verwenden kann, kann ein einzelnes Symbol ein oder mehrere Bits an Information enthalten.
+In digital transmission, information is transmitted in the form of symbols. A symbol is a distinguishable signal state that is transmitted for a certain time. These signal states can differ, for example, in their amplitude, frequency or phase, or in combinations of these properties. How such symbols are generated is something we will look at in the following sections. Depending on how many different symbols a transmission method can use, a single symbol can contain one or more bits of information.
 
-Stehen nur zwei unterschiedliche Symbole zur Verfügung, kann mit jedem Symbol genau ein Bit übertragen werden. Bei vier möglichen Symbolen können bereits zwei Bit mit einem Symbol übertragen werden, da sich mit zwei Bit vier verschiedene Kombinationen darstellen lassen. Entsprechend können acht unterschiedliche Symbole drei Bit und $\num{16}$ unterschiedliche Symbole vier Bit gleichzeitig übertragen.
+If only two different symbols are available, exactly one bit can be transmitted with each symbol. With four possible symbols, two bits can already be transmitted with one symbol, since two bits can represent four different combinations. Correspondingly, eight different symbols can transmit three bits and $\num{16}$ different symbols four bits at once.
 
-Allgemein ergibt sich die Anzahl $N$ der mit einem Symbol übertragbaren Bits aus der Anzahl $M=2^N$ der möglichen Symbole:
+In general, the number $N$ of bits that can be transmitted with one symbol follows from the number $M=2^N$ of possible symbols:
 
 $N = \log_2(M)$
 
-Die *Symbolrate* gibt an, wie viele Symbole pro Sekunde übertragen werden. Ihre Einheit ist *Baud*. Eine Symbolrate von $\qty{1000}{\baud}$ bedeutet also, dass pro Sekunde $\num{1000}$ Symbole übertragen werden.
+The *symbol rate* indicates how many symbols are transmitted per second. Its unit is the *baud*. A symbol rate of $\qty{1000}{\baud}$ therefore means that $\num{1000}$ symbols are transmitted per second.
 
-Die Symbolrate ist nicht zwangsläufig mit der Datenrate identisch. Werden mit jedem Symbol mehrere Bits übertragen, ist die Datenrate entsprechend größer. Für die Datenrate $R_\mathrm{D}$ (mit der Einheit $\unit{\bit\per\second}$) und die Symbolrate $R_\mathrm{S}$ gilt:
+The symbol rate is not necessarily the same as the data rate. If several bits are transmitted with each symbol, the data rate is correspondingly higher. For the data rate $R_\mathrm{D}$ (with the unit $\unit{\bit\per\second}$) and the symbol rate $R_\mathrm{S}$:
 
 $R_\mathrm{D} = R_\mathrm{S} \cdot N$
 
-Werden beispielsweise bei einer Symbolrate von $\qty{1200}{\baud}$ mit jedem Symbol zwei Bit übertragen, ergibt sich eine Datenrate von:
+If, for example, two bits are transmitted with each symbol at a symbol rate of $\qty{1200}{\baud}$, the data rate is:
 
-$R_\mathrm{D} = \qty{1200}{\baud} \cdot \qty{2}{\bit\per{Symbol}} = \qty{2400}{\bit\per\second}$
+$R_\mathrm{D} = \qty{1200}{\baud} \cdot \qty{2}{\bit\per{symbol}} = \qty{2400}{\bit\per\second}$
 
-Die Anzahl der möglichen Symbole und die Symbolrate sind damit wichtige Größen für digitale Übertragungsverfahren. Wie sich die einzelnen Symbole durch unterschiedliche Eigenschaften eines Signals darstellen lassen, betrachten wir in den folgenden Abschnitten.
+The number of possible symbols and the symbol rate are therefore important quantities for digital transmission methods. How the individual symbols can be represented by different properties of a signal is something we will look at in the following sections.
 
 [question:AA104]
 
 ---
 
-Ein einfaches Beispiel dafür, wie unterschiedliche Symbole durch verschiedene Signalzustände dargestellt werden können, ist die bereits aus Klasse E bekannte *Frequenzumtastung* (*Frequency-Shift Keying*, FSK).
+A simple example of how different symbols can be represented by different signal states is *frequency-shift keying* (FSK), already familiar from Class E.
 
-Bei FSK wird die Frequenz des ausgesendeten Signals zwischen verschiedenen Werten umgeschaltet. Die Abbildung [ref:a_fsk] zeigt eine binäre FSK mit zwei möglichen Symbolfrequenzen in der Zeitdarstellung. Beispielsweise kann die höhere Frequenz für das Symbol $1$ und die niedrigere Frequenz für das Symbol $0$ stehen. Da zwei verschiedene Symbole zur Verfügung stehen, kann mit jedem Symbol ein Bit übertragen werden.
+In FSK, the frequency of the transmitted signal is switched between different values. Figure [ref:a_fsk] shows binary FSK with two possible symbol frequencies in the time domain. For example, the higher frequency can stand for the symbol $1$ and the lower frequency for the symbol $0$. Since two different symbols are available, one bit can be transmitted with each symbol.
 
 <margin>
-[picture:703:a_fsk:FSK (Frequency-Shift Keying)]
+[picture:703:a_fsk:FSK (frequency-shift keying)]
 </margin>
 
-Ein Beispiel ist *RTTY*. Hier wird zwischen zwei Symbolfrequenzen umgetastet, beispielsweise zwischen $\qty{14072,43}{\kilo\hertz}$ und $\qty{14072,60}{\kilo\hertz}$. Mit jedem Symbol kann damit ein Bit, also $0$ oder $1$, übertragen werden.
+One example is *RTTY*. Here the signal is shifted between two symbol frequencies, for example between $\qty{14072.43}{\kilo\hertz}$ and $\qty{14072.60}{\kilo\hertz}$. One bit, that is, $0$ or $1$, can therefore be transmitted with each symbol.
 
 [question:AE405]
 
-FSK ist jedoch nicht auf zwei Symbolfrequenzen beschränkt. Werden beispielsweise vier unterschiedliche Frequenzen verwendet, stehen vier verschiedene Symbole zur Verfügung. Jedem Symbol kann dann eine der vier möglichen Bitkombinationen $00$, $01$, $10$ oder $11$ zugeordnet werden. Dadurch können mit jedem Symbol zwei Bit übertragen werden.
+FSK is not, however, limited to two symbol frequencies. If, for example, four different frequencies are used, four different symbols are available. Each symbol can then be assigned one of the four possible bit combinations $00$, $01$, $10$ or $11$. As a result, two bits can be transmitted with each symbol.
 
-Ein Beispiel dafür ist das Übertragungsverfahren *FT4*. Hier kann zwischen vier Symbolfrequenzen umgetastet werden, beispielsweise $\qty{14081,20}{\kilo\hertz}$, $\qty{14081,40}{\kilo\hertz}$, $\qty{14081,61}{\kilo\hertz}$ und $\qty{14081,83}{\kilo\hertz}$.
+One example of this is the *FT4* transmission method. Here the signal can be shifted between four symbol frequencies, for example $\qty{14081.20}{\kilo\hertz}$, $\qty{14081.40}{\kilo\hertz}$, $\qty{14081.61}{\kilo\hertz}$ and $\qty{14081.83}{\kilo\hertz}$.
 
 [question:AE406]

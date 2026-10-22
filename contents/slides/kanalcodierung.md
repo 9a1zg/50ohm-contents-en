@@ -1,24 +1,24 @@
 <left>
-[picture:674:kanal:Kanal]
+[picture:674:kanal:Channel]
 </left>
 <right>
-* Die Abbildung zeigt einen Sender und einen Empfänger, welche über einen Kanal miteinander verbunden sind.
-* Durch atmosphärische Einflüsse oder Aussendungen anderer Stationen kann es zu Störungen auf dem Kanal kommen, welche zu Fehlern bei der Übertragung führen.
+* The figure shows a transmitter and a receiver connected to each other by a channel.
+* Atmospheric influences or transmissions from other stations can cause interference on the channel, which leads to errors in the transmission.
 </right>
 <note>
 </note>
 
 ---
 
-Die Kanalcodierung fügt der zu übertragenden Information gezielt Redundanz hinzu, beispielsweise Wiederholungen oder Prüfsummen.
+Channel coding deliberately adds redundancy to the information to be transmitted, for example repetitions or checksums.
 
 ---
 [question:AE409]
 
 ---
-[picture:676:kanalcodierer:Kanalcodierer]
+[picture:676:kanalcodierer:Channel encoder]
 
-Wir unterscheiden zwei Arten der Kanalcodierung:
-* *Fehlererkennung*: Man kann erkennen, dass bei der Übertragung ein Fehler aufgetreten ist, und dann z. B. eine erneute Übertragung anfordern.
-* *Vorwärtsfehlerkorrektur*: Fehler, die bei der Übertragung entstehen, werden mit Hilfe der Redundanz beim Empfänger korrigiert.
+We distinguish two kinds of channel coding:
+* *Error detection*: it is possible to detect that an error has occurred in the transmission, and then, for example, to request a retransmission.
+* *Forward error correction*: errors that arise in the transmission are corrected at the receiver with the help of the redundancy.
 

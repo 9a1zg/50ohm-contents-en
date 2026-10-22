@@ -1,6 +1,6 @@
-In der Praxis erreichbare Datenübertragungsraten unterscheiden sich je nach Übertragungsverfahren und Funkbedingungen deutlich. WLAN und 5G unterstützen bei optimalen Bedingungen Datenübertragungsraten bis in den Bereich von Gigabits pro Sekunde. FT8 hingegen kann selbst unter widrigen Bedingungen eingesetzt werden, überträgt aber nur wenige Bits pro Sekunde.
+The data rates achievable in practice differ considerably depending on the transmission method and the propagation conditions. Under optimum conditions, Wi-Fi and 5G support data rates up to the range of gigabits per second. FT8, on the other hand, can be used even under poor conditions, but transmits only a few bits per second.
 
-Welche Datenübertragungsrate erreichbar ist, hängt von der nutzbaren Bandbreite und dem Signal-Rausch-Verhältnis ($P_\text{S}/P_\text{N}$) ab. Aus diesen beiden Größen kann mit dem Shannon-Hartley-Gesetz die theoretisch maximal erreichbare Datenübertragungsrate für einen Übertragungskanal berechnet werden:
+Which data rate can be achieved depends on the usable bandwidth and the signal-to-noise ratio ($P_\text{S}/P_\text{N}$). From these two quantities, the Shannon–Hartley theorem can be used to calculate the theoretical maximum data rate achievable on a transmission channel:
 
 $C=B \cdot \log_2 \left(1+{\dfrac{P_\text{S}}{P_\text{N}}}\right) \unit{\bit\per\second}$
 
@@ -8,27 +8,27 @@ $C=B \cdot \log_2 \left(1+{\dfrac{P_\text{S}}{P_\text{N}}}\right) \unit{\bit\per
 
 ---
 
-Ein leicht zu merkender Wert stellt sich bei einem Signal-Rausch-Verhältnis von $\qty{0}{\dB}$ ein. Hier entspricht die Bandbreite in $\unit{\hertz}$ genau der maximal erreichbaren Datenrate in $\unit{\bit\per\second}$. Schlechtere Signal-Rausch-Verhältnisse ermöglichen entsprechend geringere Datenraten, bessere Signal-Rausch-Verhältnisse größere Datenraten. Mit dieser Merkhilfe lassen sich die entsprechenden Prüfungsfragen auch ohne lange Rechnung schnell beantworten.
+An easily remembered value arises at a signal-to-noise ratio of $\qty{0}{\dB}$. Here the bandwidth in $\unit{\hertz}$ is exactly equal to the maximum achievable data rate in $\unit{\bit\per\second}$. Poorer signal-to-noise ratios allow correspondingly lower data rates, better signal-to-noise ratios higher data rates. With this memory aid, the corresponding examination questions can be answered quickly, without a long calculation.
 
 <margin>
-Setzen wir für $\frac{P_\text{S}}{P_\text{N}} = \qty{0}{\dB}$, also den Faktor $\num{1}$ ein so ergibt sich:
+If we substitute $\frac{P_\text{S}}{P_\text{N}} = \qty{0}{\dB}$, that is, the factor $\num{1}$, we get:
   
 $\begin{split} C&=B \cdot \log_2 \left(1+1\right) \unit{\bit\per\second}\\ C&=B \cdot \log_2 \left(2\right) \unit{\bit\per\second}\\C &= \qty{B}{\bit\per\second}\end{split}$
 </margin>
 
 ---
 
-Wenn deutlich mehr Bits pro Sekunde übertragen werden sollen, als Bandbreite in $\unit{\hertz}$ zur Verfügung steht, steigt das benötigte Signal-Rausch-Verhältnis stark an. Über schmalbandige Verbindungen auf der Kurzwelle lassen sich also praktisch keine hohen Datenraten erzielen. So wird das Hamnet als schnelles Datennetz in der Regel im oberen UHF- und unteren SHF-Bereich betrieben, wo höhere Bandbreiten zur Verfügung stehen.
+If considerably more bits per second are to be transmitted than there is bandwidth available in $\unit{\hertz}$, the required signal-to-noise ratio rises sharply. Over narrowband links on HF, therefore, practically no high data rates can be achieved. Hamnet, for example, as a fast data network, is usually operated in the upper UHF and lower SHF ranges, where greater bandwidths are available.
 
 <indepth>
-Hierbei wird nur die Rauschenergie betrachtet, die innerhalb der genutzten Bandbreite liegt. Einige Computerprogramme hingegen verwenden die Rauschenergie eines $\qty{2,4}{\kilo\hertz}$ breiten Kanals, auch wenn das eigentliche Nutzsignal deutlich schmaler ist; dies ist jedoch eine andere Größe, die sich nicht direkt in die Formel für das Shannon-Hartley-Gesetz einsetzen lässt.
+Only the noise energy that lies within the bandwidth used is considered here. Some computer programs, on the other hand, use the noise energy of a $\qty{2.4}{\kilo\hertz}$ wide channel, even if the actual wanted signal is considerably narrower; this, however, is a different quantity, which cannot be substituted directly into the formula of the Shannon–Hartley theorem.
 </indepth>
 
-Durch Absenken der Datenrate hingegen lassen sich Verfahren entwickeln, die nicht nur eine kleine Bandbreite benötigen, sondern auch noch bei einem extrem schlechten Signal-Rausch-Verhältnis funktionieren.  Beispiele hierfür sind digitale Übertragungsverfahren wie WSPR oder FT8, die nur wenige Zeichen pro Zeit austauschen. Damit ist auch bei schlechten Funkbedingungen zumindest die Übermittlung einer kurzen Nachricht möglich.
+By lowering the data rate, on the other hand, methods can be developed that not only need a small bandwidth, but also still work at an extremely poor signal-to-noise ratio.  Examples of this are digital transmission methods such as WSPR or FT8, which exchange only a few characters per unit of time. This makes it possible, even in poor propagation conditions, to convey at least a short message.
 
 [question:AE417]
 [question:AE418]
 [question:AE420]
 [question:AE419]
 
-Zu beachten ist, dass das Shannon-Hartley-Gesetz nur eine Obergrenze für die erreichbare Datenübertragungsrate bestimmt. Die tatsächlich erreichbaren Datenraten liegen immer darunter. Nur mittels guter Fehlerkorrekturverfahren, die wir später kennenlernen werden, kann man sich dieser Obergrenze annähern. 
+Note that the Shannon–Hartley theorem only sets an upper limit for the achievable data rate. The data rates actually achievable are always below it. Only by means of good error correction methods, which we will meet later, is it possible to approach this upper limit. 

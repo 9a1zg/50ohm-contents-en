@@ -1,7 +1,7 @@
-Digitale Übertragungssysteme übertragen keine analogen Signale, sondern digitale Informationen. Diese werden in Form von binären Zahlen übertragen, den sogenannten Bits. Dabei müssen zwei Begriffe unterschieden werden:
+Digital transmission systems do not transmit analogue signals but digital information. This is transmitted in the form of binary digits, known as bits. Two terms must be distinguished here:
 
-- *Datenübertragungsrate*: Sie gibt an wie viele Bit pro Sekunde übertragen werden. Die Einheit der Datenübertragungsrate ist *$\unit{\bit\per\second}$*.
-- *Bandbreite*: Den Begriff der Bandbreite haben wir bereits kennen gelernt. Sie wird in *Hertz ($\unit{\hertz}$)* angegeben, wie die Frequenz, und darf nicht mit der Datenübertragungsrate verwechselt werden, auch wenn in der Umgangssprache von der Datenübertragungsrate als Bandbreite gesprochen wird (z.B. beim DSL-Anschluss).
+- *Data rate*: It indicates how many bits are transmitted per second. The unit of the data rate is *$\unit{\bit\per\second}$*.
+- *Bandwidth*: We have already met the term bandwidth. It is given in *hertz ($\unit{\hertz}$)*, like frequency, and must not be confused with the data rate, even though in everyday language the data rate is spoken of as bandwidth (e.g. for a DSL connection).
 
 [question:EA106]
 [question:EE401]

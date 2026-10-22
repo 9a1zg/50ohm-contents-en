@@ -1,9 +1,8 @@
-## Vorwärtsfehlerkorrektur (FEC)
+## Forward error correction (FEC)
 
-* Erkennt der Empfänger einen Fehler (z. B. mittels Prüfbits), kann er um eine erneute Übertragung bitten  
-* Bei der Vorwärtsfehlerkorrektur wird zusätzliche Redundanz (z. B. weitere Prüfbits) hinzugefügt  
-* So wird nicht nur erkannt, dass ein Fehler vorliegt, sondern auch an welcher Stelle $\rightarrow$ das fehlerhafte Bit kann berichtigt werden
-* Im Englischen spricht man von Forward Error Correction (FEC)
+* If the receiver detects an error (e.g. by means of check bits), it can ask for a retransmission  
+* In forward error correction, additional redundancy (e.g. further check bits) is added  
+* This shows not only that an error is present, but also where $\rightarrow$ the faulty bit can be corrected
 
 ---
 
@@ -15,75 +14,75 @@
 
 ---
 
-## Hamming-Code – Fehlerkorrektur im Detail
+## Hamming code – error correction in detail
 
-* Der Hamming-Code nutzt mehrere Parity Bits, um nicht nur Fehler zu erkennen, sondern auch zu korrigieren  
-* Ziel: Ein einzelner Bitfehler soll lokalisiert und berichtigt werden
+* The Hamming code uses several parity bits, not only to detect errors but also to correct them  
+* Aim: a single bit error is to be located and corrected
 
 ---
 
 <left>
-[picture:683:hamming1:Übertragung von 11 Bits]
+[picture:683:hamming1:Transmission of 11 bits]
 </left>
 <right>
-* Beispiel: Übertragung eines 11-Bit-Datenworts  
-* Ziel: Fehlererkennung und -korrektur bei einem Bitfehler
+* Example: transmission of an 11-bit data word  
+* Aim: error detection and correction for one bit error
 </right>
 
 ---
 
 <left>
-[picture:682:hamming2:Alphabetische Benennung der Bitpositionen]
+[picture:682:hamming2:Naming the bit positions alphabetically]
 </left>
 <right>
-* Die Positionen der Bits werden alphabetisch benannt, um die einzelnen Bereiche zu identifizieren
+* The positions of the bits are named alphabetically, to identify the individual areas
 </right>
 
 ---
 
 <left>
-[picture:684:hamming3:Neuordnung mit zusätzlichen Bits]
+[picture:684:hamming3:Rearrangement with additional bits]
 </left>
 <right>
-* Anordnung der Datenbits mit zusätzlichen Bit-Positionen für Parity Bits
+* Arrangement of the data bits with additional bit positions for parity bits
 </right>
 
 ---
 
 <left>
-[picture:685:hamming4:Vier Parity Bits im Hamming-Code]
+[picture:685:hamming4:Four parity bits in the Hamming code]
 </left>
 <right>
-* Anstelle eines einzelnen Prüfbit werden vier Parity Bits ($p_1$–$p_4$) eingesetzt  
-* Diese decken unterschiedliche Bereiche der Datenbits ab – ähnlich einem Kreuzworträtsel
+* Instead of a single check bit, four parity bits ($p_1$–$p_4$) are used  
+* These cover different areas of the data bits – similar to a crossword puzzle
 </right>
 
 ---
 
 <left>
-[picture:686:hamming5:Zuweisung der Parity-Bereiche]
+[picture:686:hamming5:Assignment of the parity areas]
 </left>
 <right>
-* Jedes Parity Bit sichert einen bestimmten Bereich der Daten ab
+* Each parity bit protects a particular area of the data
 </right>
 
 ---
 
 <left>
-[picture:687:hamming6:Berechnung der Parity Bits (Even Parity)]
+[picture:687:hamming6:Calculating the parity bits (even parity)]
 </left>
 <right>
-* Für jeden Bereich wird das Parity Bit mittels Even Parity berechnet  
-* Tritt ein Fehler auf, können die fehlerhaften Bereiche identifiziert und korrigiert werden
+* For each area, the parity bit is calculated using even parity  
+* If an error occurs, the faulty areas can be identified and corrected
 </right>
 
 ---
 
 <left>
-[picture:687:hamming6:Berechnung der Parity Bits (Even Parity)]
+[picture:687:hamming6:Calculating the parity bits (even parity)]
 </left>
 <right>
-* Durch die Kombination der Parity-Bereiche lässt sich der fehlerhafte Bit-Standort bestimmen  
-* Beispiel: Wird ein bestimmtes Bit (z. B. Bit $k$) während der Übertragung verändert, schlagen alle zugehörigen Paritätsprüfungen fehl – der Fehler liegt also bei Bit $k$
+* The combination of the parity areas makes it possible to determine the position of the faulty bit  
+* Example: if a particular bit (e.g. bit $k$) is changed during the transmission, all the parity checks belonging to it fail – so the error is in bit $k$
 </right>
 

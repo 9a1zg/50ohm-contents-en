@@ -1,14 +1,14 @@
 
-Bei jeder Umschaltung zwischen zwei Symbolen wird die Amplitude, Frequenz oder Phase eines Trägers geändert. Dabei entstehen Seitenbänder. Diesen Effekt kennen wir bereits aus der analogen Modulation. Je schneller Amplitude, Frequenz oder Phase verändert werden, umso breitbandiger wird das erzeugte Signal.
+Every time the signal switches between two symbols, the amplitude, frequency or phase of a carrier is changed. This produces sidebands. We already know this effect from analogue modulation. The faster the amplitude, frequency or phase is changed, the wider the bandwidth of the signal produced.
 
 %Aus diesem Grunde vermeidet man ein schlagartiges Umschalten, da solche steilen Flanken unerwünscht viel Bandbreite belegen.
 
 [question:AE415]
 
-Dieses Phänomen ist auch aus der Morsetelegrafie bekannt: Es entstehen sogenannte Tastklicks, wenn beim Drücken bzw. Loslassen der Morsetaste der Hochfrequenzträger plötzlich ein- bzw. ausgeschaltet wird. Diese Tastklicks stellen breitbandige Störungen dar, die andere Funkverbindungen beeinträchtigen können. Damit keine Tastklicks auftreten, wird schlagartiges Umschalten vermieden.
+This phenomenon is also known from Morse telegraphy: what are known as key clicks occur when the RF carrier is suddenly switched on or off as the Morse key is pressed or released. These key clicks are broadband interference that can impair other radio communication. So that no key clicks occur, abrupt switching is avoided.
 
 [question:AJ221]
 [question:AJ220]
 [question:AE214]
 
-Darüber hinaus spielt für die Bandbreite auch die Symbolrate eine Rolle: Je häufiger zwischen verschiedenen Symbolen umgeschaltet wird, um so größer ist die Bandbreite.
+In addition, the symbol rate also plays a part in the bandwidth: the more often the signal switches between different symbols, the greater the bandwidth.

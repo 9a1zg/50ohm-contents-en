@@ -1,43 +1,43 @@
-* Welche Datenübertragungsrate erreichbar ist, hängt von der nutzbaren Bandbreite und dem Signal-Rauschverhältnis ab.
-* Aus diesen beiden Größen kann mit dem Shannon-Hartley-Gesetz die theoretisch maximal erreichbare Datenübertragungsrate für einen Übertragungskanal berechnet werden.
-* Ein leicht zu merkender Wert stellt sich bei einem Signal-Rausch-Verhältnis von $\qty{0}{\dB}$ ein.
-* Hier entspricht die Bandbreite in Hertz genau der maximal erreichbaren Datenrate in $\unit{\bit\per\second}$.
+* Which data rate can be achieved depends on the usable bandwidth and the signal-to-noise ratio.
+* From these two quantities, the Shannon–Hartley theorem can be used to calculate the theoretical maximum data rate achievable on a transmission channel.
+* An easily remembered value arises at a signal-to-noise ratio of $\qty{0}{\dB}$.
+* Here the bandwidth in hertz is exactly equal to the maximum achievable data rate in $\unit{\bit\per\second}$.
 
 ---
 [question:AE416]
 
 ---
 
-* Schlechtere Signal-Rausch-Verhältnisse ermöglichen entsprechend weniger Datenrate, bessere Signal-Rausch-Verhältnisse größere Datenraten.
-* Da die Rechnungen dazu recht komplex sind, wurden die Prüfungsfragen so gestaltet, dass man das Ergebnis leicht abschätzen kann.
+* Poorer signal-to-noise ratios allow a correspondingly lower data rate, better signal-to-noise ratios higher data rates.
+* Since the calculations for this are quite complex, the examination questions have been designed so that the result can be estimated easily.
 
 ---
 [question:AE417]
 ---
-#### Lösungsweg
+#### Solution
 
-Durch ein SNR von $\qty{0}{\dB}$ entspricht die Bandbreite in $\unit{\hertz}$ genau der maximal erreichbaren Datenrate in $\unit{\bit\per\second}$, also $\qty{2,7}{\kilo\bit\per\second}$.
+With an SNR of $\qty{0}{\dB}$, the bandwidth in $\unit{\hertz}$ is exactly equal to the maximum achievable data rate in $\unit{\bit\per\second}$, that is, $\qty{2.7}{\kilo\bit\per\second}$.
 
 ---
 [question:AE418]
 ---
-#### Lösungsweg
+#### Solution
 
-Durch ein SNR von $\qty{0}{\dB}$ entspricht die Bandbreite in $\unit{\hertz}$ genau der maximal erreichbaren Datenrate in $\unit{\bit\per\second}$, also $\qty{10}{\mega\bit\per\second}$.
+With an SNR of $\qty{0}{\dB}$, the bandwidth in $\unit{\hertz}$ is exactly equal to the maximum achievable data rate in $\unit{\bit\per\second}$, that is, $\qty{10}{\mega\bit\per\second}$.
 
 ---
 [question:AE420]
 ---
-#### Lösungsweg
+#### Solution
 
-Durch ein SNR von $\qty{-20}{\dB}$ muss die maximal erreichbare Datenrate kleiner als $\qty{2,7}{\kilo\bit\per\second}$ sein. Es kann nur $\qty{39}{\bit\per\second}$ richtig sein.
+With an SNR of $\qty{-20}{\dB}$, the maximum achievable data rate must be less than $\qty{2.7}{\kilo\bit\per\second}$. Only $\qty{39}{\bit\per\second}$ can be correct.
 
 ---
 [question:AE419]
 ---
 
-#### Lösungsweg
+#### Solution
 
-Durch ein SNR von $\qty{30}{\dB}$ muss die maximal erreichbare Datenrate größer $\qty{10}{\mega\bit\per\second}$ sein. Es kann nur $\qty{100}{\mega\bit\per\second}$ richtig sein.
+With an SNR of $\qty{30}{\dB}$, the maximum achievable data rate must be greater than $\qty{10}{\mega\bit\per\second}$. Only $\qty{100}{\mega\bit\per\second}$ can be correct.
 
 

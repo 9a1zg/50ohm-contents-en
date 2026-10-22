@@ -1,13 +1,13 @@
-Die Hauptaufgabe der digitalen Übertragung ist es, Informationen von einer Quelle (Sender) zu einer oder mehreren Senken (Empfänger) zu übermitteln. Dabei soll das Frequenzspektrum möglichst effizient genutzt werden. Dies erreicht man durch die Kompression der Nutzdaten, die sogenannte Quellencodierung. Dabei werden Redundanzen (z. B. Wiederholungen) oder Irrelevanzen (weniger wichtige Informationsteile) aus dem Datenstrom entfernt. Das reduziert die zu übertragende Datenmenge der Nachricht.
+The main task of digital transmission is to convey information from a source (transmitter) to one or more sinks (receivers). The frequency spectrum should be used as efficiently as possible. This is achieved by compressing the user data, which is known as source coding. Redundancy (e.g. repetitions) or irrelevance (less important parts of the information) is removed from the data stream. This reduces the amount of data in the message to be transmitted.
 
 <indepth>
-Zum Beispiel sind MP3 für Musik, JPEG für Bilder sowie MPEG-4 für Videos bekannte Verfahren zur Kompression der Datenmenge, welche auch als *Codecs* bezeichnet werden. Im Amateurfunk wird z. B. bei FreeDV oder M17 der patentfreie Codec2 verwendet, welcher auf verständliche Übertragung menschlicher Sprache bei niedrigen Bitraten spezialisiert ist.
+For example, MP3 for music, JPEG for pictures and MPEG-4 for video are well-known methods of compressing the amount of data, which are also called *codecs*. In amateur radio, FreeDV or M17, for example, use the patent-free Codec2, which is specialised in the intelligible transmission of human speech at low bit rates.
 </indepth>
 
 <margin>
-[picture:675:quellencodierer:Quellencodierer]
+[picture:675:quellencodierer:Source encoder]
 </margin>
 
-Abbildung [ref:quellencodierer] zeigt ein Symbol für einen Quellencodierer. Der Block stellt dar, dass die Menge an Information reduziert wird.
+Figure [ref:quellencodierer] shows a symbol for a source encoder. The block shows that the amount of information is reduced.
 
 [question:AE408]

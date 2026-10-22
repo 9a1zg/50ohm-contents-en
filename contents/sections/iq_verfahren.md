@@ -1,38 +1,38 @@
-Im vorherigen Abschnitt haben wir gesehen, dass die Information in einem Symbol beispielsweise durch unterschiedliche Amplituden oder Frequenzen dargestellt werden kann. Eine weitere Möglichkeit besteht darin, die Phasenlage eines Signals zu verändern. Um Signalzustände mit unterschiedlicher Amplitude und Phase übersichtlich darzustellen, wird häufig die sogenannte *I/Q-Darstellung* verwendet.
+In the previous section we saw that the information in a symbol can be represented, for example, by different amplitudes or frequencies. A further possibility is to change the phase of a signal. To show signal states with different amplitude and phase clearly, what is known as the *I/Q representation* is often used.
 
-Betrachten wir zunächst einen Signalzustand zum Zeitpunkt $t=0$. Für das Symbol werden eine Amplitude $A$ und eine Phasenlage $\varphi$ festgelegt. In einer Zeigerdarstellung bestimmt die Amplitude die Länge des Zeigers und die Phasenlage seinen Winkel gegenüber der waagerechten Achse.
+Let us first consider a signal state at the time $t=0$. An amplitude $A$ and a phase $\varphi$ are defined for the symbol. In a phasor representation, the amplitude determines the length of the phasor and the phase its angle to the horizontal axis.
 
-Der Zeiger lässt sich in einen waagerechten und einen senkrechten Anteil zerlegen. Der waagerechte Anteil wird als $I$ für *In-Phase Component* bezeichnet, der senkrechte Anteil als $Q$ für *Quadrature Component*. Für den dargestellten Signalzustand gilt:
+The phasor can be split into a horizontal and a vertical component. The horizontal component is called $I$, for *in-phase component*, the vertical component $Q$, for *quadrature component*. For the signal state shown:
 
 $I=A\cdot\cos(\varphi)$
 
 $Q=A\cdot\cos(\varphi-\qty{90}{\degree})=A\cdot\sin(\varphi)$
 
-Lassen wir die Zeit weiterlaufen, dreht sich der zur Schwingung gehörende Zeiger. Seine Projektionen auf die beiden Achsen verlaufen sinusförmig und sind um $\qty{90}{\degree}$ gegeneinander phasenverschoben. Das Applet zeigt diesen Zusammenhang zwischen der Schwingung und ihrer I/Q-Darstellung.
+If we let time run on, the phasor belonging to the oscillation rotates. Its projections on the two axes vary sinusoidally and are $\qty{90}{\degree}$ out of phase with each other. The applet shows this relationship between the oscillation and its I/Q representation.
 
 [include:applet_iq_zeiger]
 
 [question:AF633]
 
-Anschaulich kann man sich vorstellen, dass zu Beginn jedes Symbolintervalls der zu übertragende Symbolwert einen Punkt in der I/Q-Ebene und damit die Amplitude und die anfängliche Phasenlage der Schwingung für dieses Symbol festlegt. Beim nächsten Symbol wird entsprechend auf den Signalzustand des nächsten Punktes übergegangen.
+It helps to picture it like this: at the start of each symbol interval, the symbol value to be transmitted fixes a point in the I/Q plane, and with it the amplitude and the initial phase of the oscillation for this symbol. With the next symbol, the signal changes over to the signal state of the next point.
 
-Für die Darstellung der Symbole interessiert uns also nicht die fortlaufende Drehung des Zeigers, sondern der für das jeweilige Symbol festgelegte Startzustand. Werden die möglichen Startzustände als Punkte in der I/Q-Ebene (vgl. [ref:a_iq_ebene]) eingezeichnet, spricht man von einem *Konstellationsdiagramm* (vgl. Abbildung [ref:a_konstellationsdiagramm]). Jeder Punkt entspricht einem möglichen Symbol. Der Abstand eines Punktes vom Ursprung beschreibt die Amplitude des Signals. Sein Winkel gegenüber der I-Achse beschreibt die Phasenlage.
+So, to represent the symbols, we are not interested in the continuous rotation of the phasor, but in the starting state fixed for each symbol. When the possible starting states are drawn as points in the I/Q plane (see [ref:a_iq_ebene]), this is called a *constellation diagram* (see Figure [ref:a_konstellationsdiagramm]). Each point corresponds to one possible symbol. The distance of a point from the origin describes the amplitude of the signal. Its angle to the I axis describes the phase.
 
 <margin>
-[picture:1060:a_iq_ebene:I/Q-Ebene mit einem Signalpunkt]
-[picture:1059:a_konstellationsdiagramm:Konstellationsdiagramm mit 4 Konstellationspunkten]
+[picture:1060:a_iq_ebene:I/Q plane with one signal point]
+[picture:1059:a_konstellationsdiagramm:Constellation diagram with 4 constellation points]
 </margin>
 
 <indepth>
-Für mathematisch Interessierte: Eine sinusförmige Schwingung kann mathematisch auch als *komplexer Zeiger* beschrieben werden, der sich mit der Kreisfrequenz $\omega_\mathrm{c}$ dreht:
+For the mathematically minded: a sinusoidal oscillation can also be described mathematically as a *complex phasor* rotating at the angular frequency $\omega_\mathrm{c}$:
 
 $s(t) = \Re\left\{A \cdot e^{j(\omega_\mathrm{c}t+\varphi)}\right\} = A\cos(\omega_\mathrm{c}t+\varphi)$
 
-Dabei beschreibt $A$ die Amplitude und $\varphi$ die anfängliche Phasenlage des Signals. Der komplexe Ausdruck lässt sich in zwei Teile zerlegen:
+Here $A$ describes the amplitude and $\varphi$ the initial phase of the signal. The complex expression can be split into two parts:
 
-$A \cdot e^{j(\omega_\mathrm{c}t+\varphi)} = \underbrace{A \cdot e^{j\varphi}}_{\text{Amplitude und Phase}} \cdot \underbrace{e^{j\omega_\mathrm{c}t}}_{\text{Träger}}$
+$A \cdot e^{j(\omega_\mathrm{c}t+\varphi)} = \underbrace{A \cdot e^{j\varphi}}_{\text{amplitude and phase}} \cdot \underbrace{e^{j\omega_\mathrm{c}t}}_{\text{carrier}}$
 
-In einem Konstellationsdiagramm interessiert uns der erste Teil $A \cdot e^{j\varphi}$. Er beschreibt Amplitude und Phasenlage des Signalzustands. Die fortlaufende Drehung des eigentlichen Trägers wird dabei nicht dargestellt.
+In a constellation diagram we are interested in the first part, $A \cdot e^{j\varphi}$. It describes the amplitude and phase of the signal state. The continuous rotation of the actual carrier is not shown.
 </indepth>
 
-Diese Darstellung werden wir in den folgenden Abschnitten immer wieder verwenden: Mit ihr lassen sich die möglichen Symbole digitaler Modulationsverfahren übersichtlich darstellen und später auch die Zuordnung von Bitkombinationen zu diesen Symbolen beschreiben.
+We will use this representation again and again in the following sections: it shows the possible symbols of digital modulation methods clearly, and later it will also be used to describe how bit combinations are assigned to these symbols.

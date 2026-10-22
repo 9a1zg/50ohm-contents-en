@@ -1,9 +1,9 @@
-### Warum I/Q?
+### Why I/Q?
 
-* Symbole können sich durch Amplitude, Frequenz oder Phase unterscheiden.
-* Für Amplitude und Phase braucht man eine übersichtliche Darstellung.
-* Diese Darstellung heißt *I/Q-Darstellung*.
-* Sie zeigt den Signalzustand eines Symbols als Punkt in einer Ebene.
+* Symbols can differ in amplitude, frequency or phase.
+* For amplitude and phase, a clear representation is needed.
+* This representation is called the *I/Q representation*.
+* It shows the signal state of a symbol as a point in a plane.
 
 --- style="font-size: 0.7em;"
 
@@ -11,18 +11,18 @@
 [include:applet_iq_zeiger]
 </left>
 <right>
-### Symbol als Zeiger
+### Symbol as a phasor
 
-* Länge des Zeigers: Amplitude $A$
-* Winkel des Zeigers: Phase $\varphi$
+* Length of the phasor: amplitude $A$
+* Angle of the phasor: phase $\varphi$
 
-* Der Zeiger kann in zwei Anteile zerlegt werden:
+* The phasor can be split into two components:
 
 $I=A\cdot\cos(\varphi)$
 
 $Q=A\cdot\cos(\varphi-\qty{90}{\degree})=A\cdot\sin(\varphi)$
 
-* Konstellationsdiagramm zeigt den Anfangszustand des Zeigers für jedes Symbol.
+* The constellation diagram shows the initial state of the phasor for each symbol.
 </right>
 
 
@@ -32,24 +32,24 @@ $Q=A\cdot\cos(\varphi-\qty{90}{\degree})=A\cdot\sin(\varphi)$
 
 ---
 
-### Konstellationsdiagramm
+### Constellation diagram
 
-[picture:1060:a_konstellationsdiagramm:Konstellationsdiagramm]
-
----
-
-### Konstellationsdiagramm
-
-* Für die Darstellung der Symbole betrachten wir nicht die fortlaufende Drehung des Trägers.
-* Stattdessen betrachten wir den Signalzustand, der zu einem Symbol gehört.
-* Jeder mögliche Symbolzustand wird als Punkt in der I/Q-Ebene dargestellt.
-* Abstand vom Ursprung: Amplitude
-* Winkel zur I-Achse: Phasenlage
+[picture:1060:a_konstellationsdiagramm:Constellation diagram]
 
 ---
 
-### Warum brauchen wir das?
+### Constellation diagram
 
-* Konstellationsdiagramme zeigen auf einen Blick die möglichen Symbole eines digitalen Übertragungsverfahrens.
-* Man erkennt, ob sich Symbole durch Amplitude, Phase oder beides unterscheiden.
-* In den nächsten Abschnitten verwenden wir diese Darstellung für Mapping, PSK und QAM.
+* To represent the symbols, we do not look at the continuous rotation of the carrier.
+* Instead, we look at the signal state that belongs to a symbol.
+* Each possible symbol state is shown as a point in the I/Q plane.
+* Distance from the origin: amplitude
+* Angle to the I axis: phase
+
+---
+
+### Why do we need this?
+
+* Constellation diagrams show at a glance the possible symbols of a digital transmission method.
+* You can see whether the symbols differ in amplitude, in phase or in both.
+* In the next sections we use this representation for mapping, PSK and QAM.

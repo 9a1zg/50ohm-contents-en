@@ -2459,6 +2459,30 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Einstiegspunkt / HAMNET-Knoten mit Benutzerzugang / WLAN-Transceiver | access point / HAMNET node with user access / Wi-Fi transceiver | paketvermittelte_netzwerke; *WLAN* → Wi-Fi, as in earlier units |
 | Teilnehmer (Netzwerk) / Netzwerkgerät / Heimnetz / Firmennetz | user / network device / home network / company network | paketvermittelte_netzwerke |
 | Vorwahl / Ortsnetz / Schrägstrich / Netzmaske | area code / local exchange / slash / netmask | *Subnetzmaske* stays *subnet mask* (§8) (paketvermittelte_netzwerke) |
+| Datenübertragungsrate / Datenrate (Kurstext) / binäre Zahlen, die sogenannten Bits | data rate / data rate / binary digits, known as bits | both German words are *data rate*, as EA106, EE401 and §8; *Bit* is the binary digit (datenuebertragungsrate) |
+| Symbolfrequenz / Symbolgröße / Symbolgrenze / Symbolintervall / Symbolumschaltung | symbol frequency / symbol size / symbol boundary / symbol interval / switching between symbols | AE405, AE406, AE415 (symbole_symbolrate, psk, iq_verfahren, symbolumschaltung_bandbreite) |
+| Bit/Symbol (Einheit: `\bit\per\text{Symbol}`, `\bit\per{Symbol}`, `\text{Symbol}\per\second`) | bit/symbol | the word in the unit is a running word and becomes *symbol*; the subscripts $R_\mathrm{Daten}$, $R_\mathrm{Symbol}$, $R_\mathrm{D}$, $R_\mathrm{S}$ stay (symbole_symbolrate, AA104, AE405, AE406) |
+| Zeicheneinheiten (zur Übertragung des Informationsgehaltes) | signalling units | the slide's definition of a symbol (symbolumschaltung_bandbreite) |
+| I/Q-Darstellung / I/Q-Ebene / I-Achse / Signalpunkt / Konstellationspunkt / Signalzustand | I/Q representation / I/Q plane / I axis / signal point / constellation point / signal state | iq_verfahren, mapping, psk, qam; §8 *Konstellationsdiagramm*; *I-Q-Diagramm* (caption) → I-Q diagram, as the German writes it |
+| Zeigerdarstellung / Zeiger / komplexer Zeiger / Signalzeiger | phasor representation / phasor / complex phasor / signal phasor | as §14 *Zeigerdiagramm*; *Startzustand / Anfangszustand (des Zeigers)* → starting state / initial state (iq_verfahren, qam) |
+| In-Phase Component / Quadrature Component (the German's English names of I and Q) | in-phase component / quadrature component | lower case, as §8 *I/Q*; "wird als $I$ für *In-Phase Component* bezeichnet" → "is called $I$, for *in-phase component*" (iq_verfahren) |
+| Amplitudenumtastung (Amplitude Shift Keying, ASK) / Frequenzumtastung (Frequency Shift Keying, FSK) / Phasenumtastung (Phase-Shift Keying, PSK) / Quadraturphasenumtastung (QPSK) / Audio Frequency Shift Keying (AFSK) | amplitude-shift keying (ASK) / frequency-shift keying (FSK) / phase-shift keying (PSK) / quadrature phase-shift keying (QPSK) / audio frequency-shift keying (AFSK) | the German's bracketed English name only repeats the term and is dropped (bracket rule), the abbreviation stays; captions such as *ASK (Amplitude-Shift Keying) im zeitlichen Verlauf* keep the expansion, lower case: "ASK (amplitude-shift keying) over time"; *Quaternäre Amplitudenumtastung (Quaternary Amplitude-Shift Keying)* → "Quaternary amplitude-shift keying"; EE408 "audio frequency-shift keying (AFSK)" (ask_fsk_afsk, mapping, psk, afsk) |
+| Mapper (Baustein) / Bitstrom / Bitkombination / Bitfolge (3-stellige) | mapper (building block) / bit stream / bit combination / (3-digit) bit sequence | mapping, qam |
+| Entscheidungsbereich / Entscheidungsgrenze / Empfangswert (verrauschter) | decision region / decision boundary / (noisy) received value | QPSK applet (psk) |
+| I/Q-Modulator / (mit dem I-Signal) gewichtet / Wertepaar $(I,Q)$ / Freiheitsgrade | I/Q modulator / weighted (with the I signal) / pair of values $(I,Q)$ / degrees of freedom | AE404 (qam) |
+| Schweizer Taschenmesser (der Modulatoren) | Swiss Army knife (of modulators) | qam |
+| DA-Wandler | D/A converter | as *D/A-Wandler* above (qam) |
+| Sprechfunkgerät | voice radio | AFSK carried like speech (afsk) |
+| Quelle / Senke (Informationsübertragung) / Irrelevanz | source / sink / irrelevance | "Redundanzen … oder Irrelevanzen" → "redundancy … or irrelevance" (quellencodierung) |
+| Codec / Codec2 | codec / Codec2 | the codec's name unchanged (quellencodierung) |
+| Prüfbit (*Parity Bit*) / *Even Parity* / *Odd Parity* | check bit (*parity bit*) / *even parity* / *odd parity* | the German's English terms in lower case, as §8 *Prüfbit / Paritätsbit* and AE411; *Gerade / ungerade Parität* stays even / odd parity (fehlererkennung, fehlerkorrektur) |
+| Mehrbitfehler / Ein-Bit-Fehler / Restwahrscheinlichkeit / Ausweisnummer | multi-bit error / one-bit error / residual probability / identity card number | fehlererkennung |
+| erneute Übertragung / Neuübertragung | retransmission | AE413 (kanalcodierung, fehlerkorrektur) |
+| Paritätsprüfung schlägt fehl / erweiterter Hamming-Code | parity check fails / extended Hamming code | fehlerkorrektur; §14 *Hamming-Code* |
+| "Im Englischen wird dieses Verfahren als *Forward Error Correction* (FEC) bezeichnet" | (dropped) | the sentence only gives the English term; the abbreviation moves to the first mention, "*forward error correction* (FEC)", as §14 *Rauschsperre … Squelch*; the slide bullet saying the same is dropped too (fehlerkorrektur) |
+| *Spitzfindigkeit:* (opening an in-depth box) | *Splitting hairs:* | psk |
+| Rauschenergie | noise energy | as the German says; the formula uses the noise power $P_\text{N}$ (shannon_hartley_gesetzt) |
+| Bedienelemente der Applets ("Erneut übertragen") | English, German label in brackets: 'The button "Transmit again" (*Erneut übertragen*)' | the applets are still German (DECISIONS.md) (psk slides) |
 
 ## 15. Catalogue structure
 

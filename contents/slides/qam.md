@@ -1,141 +1,141 @@
-## Ausgangslage: ASK und PSK
+## Starting point: ASK and PSK
 
-* Bei ASK und PSK können mehr Symbole verwendet werden, um mehr Bits pro Symbol zu übertragen
-* Bei sehr vielen Symbolen liegen die möglichen Signalzustände jedoch immer dichter beieinander
-* Der Empfänger muss dadurch kleinere Unterschiede erkennen können
-* Das Verfahren wird anfälliger für Störungen
+* In ASK and PSK, more symbols can be used to transmit more bits per symbol
+* With very many symbols, however, the possible signal states lie closer and closer together
+* The receiver therefore has to be able to detect smaller differences
+* The method becomes more susceptible to interference
 
 <note>
-Es scheint zunächst nahezuliegen, einfach immer mehr Amplituden oder Phasenlagen zu verwenden. Dadurch können zwar mehr Bits pro Symbol übertragen werden, gleichzeitig wird es für den Empfänger aber schwieriger, die einzelnen Symbole sicher voneinander zu unterscheiden.
+At first it seems obvious simply to use more and more amplitudes or phases. This does allow more bits to be transmitted per symbol, but at the same time it becomes harder for the receiver to tell the individual symbols apart reliably.
 </note>
 
 ---
 
-## Quadraturamplitudenmodulation (QAM)
+## Quadrature amplitude modulation (QAM)
 
-* Trick: Es wird nicht nur *ein* Parameter verändert
-* QAM kombiniert unterschiedliche
-  * Amplituden und
-  * Phasenlagen
-* Ein Symbol entspricht einer bestimmten Kombination aus Amplitude und Phase
+* Trick: not just *one* parameter is changed
+* QAM combines different
+  * amplitudes and
+  * phases
+* A symbol corresponds to a particular combination of amplitude and phase
 
 <fragment>
-Bei gleicher Symbolrate können dadurch mehr Bits pro Sekunde übertragen werden.
+At the same symbol rate, more bits per second can therefore be transmitted.
 </fragment>
 
 <note>
-Anstatt beispielsweise bei ASK sehr viele unterschiedliche Amplituden unterscheiden zu müssen, nutzt QAM zwei Freiheitsgrade gleichzeitig: Amplitude und Phase.
+Instead of having to distinguish between very many different amplitudes, as in ASK for example, QAM uses two degrees of freedom at once: amplitude and phase.
 
-Dadurch kann bereits mit einer vergleichsweise kleinen Anzahl unterschiedlicher Werte eine größere Zahl verschiedener Symbole erzeugt werden.
+As a result, a comparatively small number of different values is enough to produce a larger number of different symbols.
 </note>
 
 --- style="font-size: 0.7em;"
-## Beispiel: 8-QAM
+## Example: 8-QAM
 
-[picture:702:a_8qam:Signalverlauf eines 8QAM-Signals, je Symbol mit Amplitude ($\num{0,5}$ bzw. $\num{1}$), Phasenlage und 3-stelliger Bitfolge]
+[picture:702:a_8qam:Waveform of an 8QAM signal, each symbol with amplitude ($\num{0.5}$ or $\num{1}$), phase and 3-digit bit sequence]
 
-* $\num{8}$ verschiedene Symbole
-* Jedes Symbol besitzt eine bestimmte Amplitude und Phasenlage
-* $\num{8}$ Symbole → $\num{3}$ Bits pro Symbol
+* $\num{8}$ different symbols
+* Each symbol has a particular amplitude and phase
+* $\num{8}$ symbols → $\num{3}$ bits per symbol
 
 <note>
-Die Abbildung zeigt ein 8-QAM-Signal im Zeitbereich.
+The figure shows an 8-QAM signal in the time domain.
 
-Jedem Symbol ist durch das Mapping eine dreistellige Bitfolge zugeordnet. Da acht unterschiedliche Symbole existieren, können mit jedem Symbol drei Bits übertragen werden.
+The mapping assigns a three-digit bit sequence to each symbol. Since there are eight different symbols, three bits can be transmitted with each symbol.
 </note>
 
 ---
-## Beispiel: 16-QAM
+## Example: 16-QAM
 
 <left>
-[picture:1061:a_16qam:I-Q-Diagramm für ein 16-QAM-Mapping]
+[picture:1061:a_16qam:I-Q diagram for a 16-QAM mapping]
 </left>
 <right>
-* $\num{16}$ verschiedene Signalpunkte
-* Jeder Punkt entspricht einem Wertepaar $(I,Q)$
-* Daraus ergeben sich unterschiedliche Amplituden und Phasenlagen
-* $\num{16}$ Symbole → $\num{4}$ Bits pro Symbol
+* $\num{16}$ different signal points
+* Each point corresponds to a pair of values $(I,Q)$
+* These give different amplitudes and phases
+* $\num{16}$ symbols → $\num{4}$ bits per symbol
 </right>
 
 <note>
-Im Konstellationsdiagramm lässt sich besonders gut erkennen, wie QAM viele unterschiedliche Symbole erzeugt.
+The constellation diagram shows particularly well how QAM produces many different symbols.
 
-Bei 16-QAM gibt es 16 mögliche Signalpunkte. Jedem Punkt wird eine vierstellige Bitkombination zugeordnet.
+In 16-QAM there are 16 possible signal points. Each point is assigned a four-digit bit combination.
 
-Die Lage eines Punktes wird durch die beiden Werte I und Q beschrieben. Daraus ergeben sich wiederum die Amplitude und die Phasenlage des resultierenden Signals.
+The position of a point is described by the two values I and Q. These in turn give the amplitude and the phase of the resulting signal.
 </note>
 
 ---
 [question:AE403]
 
 ---
-## Wie wird ein QAM-Signal erzeugt?
+## How is a QAM signal generated?
 
-Nachdem wir das Konstellationsdiagramm kennengelernt haben, stellt sich die Frage:
+Now that we have met the constellation diagram, the question arises:
 
 <fragment>
-**Wie erzeugt ein Sender einen gewünschten Signalpunkt?**
+**How does a transmitter generate a desired signal point?**
 </fragment>
 
 <fragment>
-Dazu kann ein *I/Q-Modulator* verwendet werden.
+An *I/Q modulator* can be used for this.
 </fragment>
 
 ---
-## I/Q-Modulator
+## I/Q modulator
 
 <left>
-[picture:196:a_iq_modulator:Blockschaltbild eines I/Q-Modulators]
+[picture:196:a_iq_modulator:Block diagram of an I/Q modulator]
 </left>
 <right>
-* Zwei Träger mit gleicher Frequenz
-* Phasenverschiebung von $\qty{90}{\degree}$
-* Ein Träger wird mit dem *I-Signal* gewichtet
-* Der andere Träger wird mit dem *Q-Signal* gewichtet
-* Anschließend werden beide Signale addiert
+* Two carriers with the same frequency
+* Phase shift of $\qty{90}{\degree}$
+* One carrier is weighted with the *I signal*
+* The other carrier is weighted with the *Q signal*
+* The two signals are then added
 </right>
 
 <note>
-Ein I/Q-Modulator arbeitet mit zwei sinusförmigen Trägern gleicher Frequenz. Die beiden Träger sind um 90 Grad gegeneinander phasenverschoben.
+An I/Q modulator works with two sinusoidal carriers of the same frequency. The two carriers are 90 degrees out of phase with each other.
 
-Der erste wird mit dem I-Wert und der zweite mit dem Q-Wert gewichtet. Anschließend werden beide Signalanteile addiert.
+The first is weighted with the I value and the second with the Q value. The two signal components are then added.
 
-Je nach Kombination von I und Q entsteht dadurch ein Signal mit einer bestimmten Amplitude und Phasenlage.
+Depending on the combination of I and Q, this produces a signal with a particular amplitude and phase.
 </note>
 
 ---
-## I und Q bestimmen Amplitude und Phase
+## I and Q determine amplitude and phase
 
-* Jeder Signalpunkt im Konstellationsdiagramm entspricht einem Wertepaar $(I,Q)$
-* Durch Änderung von I und Q ändern sich
-  * die Amplitude und
-  * die Phasenlage
-  des resultierenden Signals
+* Each signal point in the constellation diagram corresponds to a pair of values $(I,Q)$
+* Changing I and Q changes
+  * the amplitude and
+  * the phase
+  of the resulting signal
 
 <fragment>
-Damit kann der I/Q-Modulator jeden gewünschten Punkt des Mappings erzeugen.
+The I/Q modulator can thus generate any desired point of the mapping.
 </fragment>
 
 <note>
-Das ist die direkte Verbindung zwischen dem Konstellationsdiagramm und der realen Schaltung:
+This is the direct link between the constellation diagram and the real circuit:
 
-Die Koordinaten eines Signalpunktes sind genau die Werte I und Q, mit denen der I/Q-Modulator angesteuert wird.
+The coordinates of a signal point are exactly the values I and Q with which the I/Q modulator is driven.
 
-Das Konstellationsdiagramm ist damit nicht nur eine Darstellung des Signals. Es beschreibt unmittelbar, welche I- und Q-Werte erzeugt werden müssen.
+The constellation diagram is therefore not just a representation of the signal. It describes directly which I and Q values have to be generated.
 </note>
 
 --- style="font-size: smaller;"
 
-## I/Q-Modulation ausprobieren
+## Trying out I/Q modulation
 
 [include:applet_iq_169]
 
 <note>
-Mit dem Applet kann die Wirkung der beiden Werte I und Q unmittelbar ausprobiert werden.
+With the applet, the effect of the two values I and Q can be tried out directly.
 
-Werden I und Q verändert, verschiebt sich der Signalpunkt im Konstellationsdiagramm. Gleichzeitig kann beobachtet werden, wie sich dadurch Amplitude und Phase des resultierenden Signals verändern.
+When I and Q are changed, the signal point moves in the constellation diagram. At the same time you can watch how this changes the amplitude and phase of the resulting signal.
 
-Damit lässt sich auch nachvollziehen, wie ein I/Q-Modulator die unterschiedlichen Punkte eines QAM-Mappings erzeugen kann.
+This also shows how an I/Q modulator can generate the different points of a QAM mapping.
 </note>
 
 ---
@@ -148,67 +148,67 @@ Damit lässt sich auch nachvollziehen, wie ein I/Q-Modulator die unterschiedlich
 
 ---
 
-## I und Q aus Software
+## I and Q from software
 
-* Ein Mikrocontroller, Signalprozessor oder SDR berechnet die Werte für I und Q
-* Für jedes Symbol wird das entsprechende Wertepaar $(I,Q)$ bestimmt
+* A microcontroller, signal processor or SDR calculates the values for I and Q
+* For each symbol, the corresponding pair of values $(I,Q)$ is determined
 
 <fragment>
-Beispiel 16-QAM:
+Example 16-QAM:
 
-* $\num{4}$ mögliche I-Werte
-* $\num{4}$ mögliche Q-Werte
-* $\num{4}\cdot\num{4}=\num{16}$ mögliche Signalpunkte
+* $\num{4}$ possible I values
+* $\num{4}$ possible Q values
+* $\num{4}\cdot\num{4}=\num{16}$ possible signal points
 </fragment>
 
 <note>
-Die I- und Q-Werte müssen nicht durch eine komplizierte analoge Schaltung erzeugt werden.
+The I and Q values do not have to be generated by a complicated analogue circuit.
 
-In einem digitalen System kann die Software für jedes zu übertragende Symbol einfach die beiden dazugehörigen Zahlenwerte bestimmen.
+In a digital system, the software can simply determine the two corresponding numerical values for each symbol to be transmitted.
 
-Bei einer 16-QAM können beispielsweise jeweils vier unterschiedliche Werte für I und Q verwendet werden. Aus den Kombinationen ergeben sich insgesamt 16 Signalpunkte.
+In a 16-QAM, for example, four different values can be used for each of I and Q. Their combinations give a total of 16 signal points.
 </note>
 
 ---
 
-## Vom Zahlenwert zum I/Q-Signal
+## From numerical value to I/Q signal
 
-* I und Q liegen zunächst als *digitale Zahlenwerte* vor
-* DA-Wandler erzeugen daraus analoge I- und Q-Signale
-* Diese Signale steuern den I/Q-Modulator
+* I and Q are at first available as *digital numerical values*
+* D/A converters produce analogue I and Q signals from them
+* These signals drive the I/Q modulator
 
 <fragment>
-Das gewünschte Mapping kann damit zu einem großen Teil in *Software* festgelegt werden.
+The desired mapping can thus be defined to a large extent in *software*.
 </fragment>
 
 <note>
-Die Software erzeugt zunächst digitale Zahlenwerte für I und Q.
+The software first generates digital numerical values for I and Q.
 
-DA-Wandler setzen diese anschließend in analoge Spannungen um, die dem I/Q-Modulator zugeführt werden können.
+D/A converters then convert these into analogue voltages, which can be fed to the I/Q modulator.
 
-Vereinfacht betrachtet muss die Software also nur berechnen, welcher Punkt des Konstellationsdiagramms gerade erzeugt werden soll.
+Put simply, the software only has to calculate which point of the constellation diagram is to be generated at that moment.
 </note>
 
 ---
 
-## Software Defined Radio
+## Software-defined radio
 
-* Bei einem *Software Defined Radio (SDR)* wird ein großer Teil der Signalverarbeitung in Software ausgeführt
-* Die Software berechnet die benötigten I- und Q-Signale
-* Die Hochfrequenzhardware kann für viele unterschiedliche Modulationsverfahren gleich bleiben
+* In a *software-defined radio (SDR)*, a large part of the signal processing is carried out in software
+* The software calculates the required I and Q signals
+* The RF hardware can stay the same for many different modulation methods
 
 <fragment>
-Das Modulationsverfahren wird damit zu einem großen Teil durch *Software* bestimmt.
+The modulation method is thus determined to a large extent by *software*.
 </fragment>
 
 ---
 
-## Nicht nur digitale Modulation
+## Not only digital modulation
 
-Ein I/Q-Modulator kann auch kontinuierlich veränderliche I- und Q-Signale verarbeiten.
+An I/Q modulator can also process continuously varying I and Q signals.
 
 <fragment>
-Damit lassen sich beispielsweise erzeugen:
+This can be used to generate, for example:
 
 * AM
 * FM
@@ -219,34 +219,34 @@ Damit lassen sich beispielsweise erzeugen:
 </fragment>
 
 <note>
-Das I/Q-Prinzip ist keineswegs auf QAM oder andere digitale Modulationsverfahren beschränkt.
+The I/Q principle is by no means limited to QAM or other digital modulation methods.
 
-Die Software kann anstelle einzelner fester Symbolwerte auch kontinuierlich veränderliche Verläufe für I und Q erzeugen.
+Instead of individual fixed symbol values, the software can also generate continuously varying waveforms for I and Q.
 
-Bei AM wird beispielsweise hauptsächlich der Betrag des Signalzeigers verändert. Bei PM wird sein Winkel verändert.
+In AM, for example, it is mainly the magnitude of the signal phasor that is varied. In PM, its angle is varied.
 
-Auch FM kann über die Phase erzeugt werden: Die Phase wird kontinuierlich verändert, wobei die Geschwindigkeit der Phasenänderung der momentanen Frequenz entspricht.
+FM can also be generated via the phase: the phase is varied continuously, with the speed of the phase change corresponding to the instantaneous frequency.
 
-Mit geeigneten I- und Q-Signalen lässt sich außerdem ein Einseitenbandsignal erzeugen.
+With suitable I and Q signals, a single-sideband signal can also be generated.
 </note>
 
 ---
 
-## Nicht nur digitale Modulation
+## Not only digital modulation
 
-* Derselbe I/Q-Modulator kann viele unterschiedliche Modulationsverfahren erzeugen
-* Lediglich die Verläufe von *I* und *Q* müssen anders berechnet werden
-* Die HF-Hardware kann weitgehend unverändert bleiben
+* The same I/Q modulator can generate many different modulation methods
+* Only the waveforms of *I* and *Q* have to be calculated differently
+* The RF hardware can remain largely unchanged
 
 <fragment>
-Der I/Q-Modulator ist damit gewissermaßen das  
-**„Schweizer Taschenmesser der Modulatoren“**.
+The I/Q modulator is thus, so to speak, the  
+**"Swiss Army knife of modulators"**.
 </fragment>
 
 <note>
-Genau diese Eigenschaft macht moderne SDR-Technik so flexibel.
+It is exactly this property that makes modern SDR technology so flexible.
 
-Anstatt für AM, FM, SSB, PSK oder QAM jeweils eine eigene Modulatorschaltung zu benötigen, kann dieselbe grundlegende I/Q-Hardware verwendet werden.
+Instead of needing a separate modulator circuit for each of AM, FM, SSB, PSK or QAM, the same basic I/Q hardware can be used.
 
-Das gewünschte Verfahren entsteht dadurch, dass die Software andere I- und Q-Signale berechnet.
+The desired method results from the software calculating different I and Q signals.
 </note>

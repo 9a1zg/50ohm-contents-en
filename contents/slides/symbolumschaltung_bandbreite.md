@@ -1,10 +1,10 @@
-* Als Symbol werden in der Digitaltechnik die verschiedenen Zeicheneinheiten zur Übertragung des Informationsgehaltes bezeichnet.
-* Die Anzahl der pro Zeitspanne übertragenen Symbole ist die Symbolrate und wird in der Einheit Baud ($\unit{\baud}$) ausgedrückt.
+* In digital technology, the various signalling units used to transmit the information content are called symbols.
+* The number of symbols transmitted per unit of time is the symbol rate, and it is expressed in the unit baud ($\unit{\baud}$).
 
 ---
-* Bei jeder Umschaltung zwischen zwei Symbolen wird die Amplitude, Frequenz oder Phase eines Trägers geändert.
-* Je schneller Amplitude, Frequenz oder Phase verändert werden, umso breitbandiger wird das erzeugte Signal.
-* Je häufiger zwischen verschiedenen Symbolen umgeschaltet wird, um so größer ist die Bandbreite.
+* Every time the signal switches between two symbols, the amplitude, frequency or phase of a carrier is changed.
+* The faster the amplitude, frequency or phase is changed, the wider the bandwidth of the signal produced.
+* The more often the signal switches between different symbols, the greater the bandwidth.
 
 ---
 [question:AE415]
@@ -14,8 +14,8 @@
 
 ---
 
-* Von der Morsetelegrafie kennen wir bereits Tastklicks, die breitbandige Störungen darstellen.
-* Sie entstehen, wenn beim Drücken bzw. Loslassen der Morsetaste der Träger plötzlich ein- bzw. ausgeschaltet wird.
+* From Morse telegraphy we already know key clicks, which are broadband interference.
+* They occur when the carrier is suddenly switched on or off as the Morse key is pressed or released.
 
 ---
 [question:AJ221]

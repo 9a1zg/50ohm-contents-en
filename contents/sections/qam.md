@@ -1,39 +1,39 @@
-Bisher haben wir ASK und PSK kennengelernt. Es scheint für beide Verfahren zunächst nahezuliegen, die Anzahl der Symbole möglichst groß zu wählen, damit pro Symbol möglichst viele Informationen übertragen werden können. Doch dann muss ein Empfänger z. B. zwischen vielen unterschiedlichen Amplituden unterscheiden können. Somit wird das Verfahren anfälliger für Störungen.
+So far we have met ASK and PSK. For both methods it might at first seem obvious to make the number of symbols as large as possible, so that as much information as possible can be transmitted per symbol. But then a receiver has to be able to distinguish between, for example, many different amplitudes. The method thus becomes more susceptible to interference.
 
-Um dieses Problem zu mildern, kann man auf einen Trick zurückgreifen: Anstelle der Änderung nur eines Parameters (z. B. der Amplitude) werden pro Symbol zwei Parameter verändert, nämlich die Amplitude und die Phase. Ein Symbol entspricht dann einer Kombination einer bestimmten Amplitude mit einer bestimmten Phasenlage. So ergibt sich trotz kleiner Anzahl unterschiedlicher Amplituden und Phasenlagen dennoch eine größere Anzahl an Symbolen. Bei gleicher Symbolrate können somit mehr Bits pro Sekunde übertragen werden. Dieses Verfahren wird *Quadraturamplitudenmodulation* (QAM) genannt.
+To ease this problem, a trick can be used: instead of changing only one parameter (e.g. the amplitude), two parameters are changed per symbol, namely the amplitude and the phase. A symbol then corresponds to a combination of a particular amplitude with a particular phase. In this way, even a small number of different amplitudes and phases still gives a larger number of symbols. At the same symbol rate, more bits per second can therefore be transmitted. This method is called *quadrature amplitude modulation* (QAM).
 
-Die Abbildung [ref:a_8qam] zeigt ein 8-QAM-Signal im zeitlichen Verlauf. Jedes Symbol besitzt eine bestimmte Amplitude, eine bestimmte Phasenlage und eine 3-stellige Bitfolge, die durch das Mapping festgelegt ist. Mit jedem Symbol können somit drei Bits übertragen werden. Die Abbildung [ref:a_16qam] zeigt ein 16-QAM-Mapping im Konstellationsdiagramm. Jedes Symbol entspricht einer Kombination aus einer bestimmten Amplitude und einer bestimmten Phasenlage. Mit jedem Symbol können somit vier Bits übertragen werden.
+Figure [ref:a_8qam] shows an 8-QAM signal over time. Each symbol has a particular amplitude, a particular phase and a 3-digit bit sequence, which is fixed by the mapping. Three bits can therefore be transmitted with each symbol. Figure [ref:a_16qam] shows a 16-QAM mapping in the constellation diagram. Each symbol corresponds to a combination of a particular amplitude and a particular phase. Four bits can therefore be transmitted with each symbol.
 
 <margin>
-[picture:702:a_8qam:Signalverlauf eines 8QAM-Signals, je Symbol mit Amplitude ($\num{0,5}$ bzw. $\num{1}$), Phasenlage und 3-stelliger Bitfolge]
-[picture:1061:a_16qam:I-Q-Diagramm für ein 16-QAM-Mapping]
+[picture:702:a_8qam:Waveform of an 8QAM signal, each symbol with amplitude ($\num{0.5}$ or $\num{1}$), phase and 3-digit bit sequence]
+[picture:1061:a_16qam:I-Q diagram for a 16-QAM mapping]
 </margin>
 
 [question:AE403]
 
 ---
 
-Nachdem wir die I/Q-Darstellung, das Konstellationsdiagramm und die Quadraturamplitudenmodulation kennengelernt haben, stellt sich die Frage, wie ein solches Signal technisch erzeugt werden kann. Dazu kann ein sogenannter *I/Q-Modulator* verwendet werden.
+Now that we have met the I/Q representation, the constellation diagram and quadrature amplitude modulation, the question arises of how such a signal can be generated technically. What is known as an *I/Q modulator* can be used for this.
 
-Ein I/Q-Modulator arbeitet mit zwei Trägern gleicher Frequenz, die um $\qty{90}{\degree}$ gegeneinander phasenverschoben sind. Der erste Träger wird mit dem I-Signal und der um $\qty{90}{\degree}$ phasenverschobene Träger mit dem Q-Signal gewichtet. Abbildung [ref:a_iq_modulator] zeigt das Blockschaltbild eines I/Q-Modulators.
+An I/Q modulator works with two carriers of the same frequency that are $\qty{90}{\degree}$ out of phase with each other. The first carrier is weighted with the I signal and the carrier shifted by $\qty{90}{\degree}$ with the Q signal. Figure [ref:a_iq_modulator] shows the block diagram of an I/Q modulator.
 
-Anschließend werden die beiden modulierten Träger addiert. Je nachdem, welche Werte I und Q besitzen, entsteht dadurch ein Signal mit einer bestimmten Amplitude und Phasenlage. Werden die Werte von I und Q verändert, kann sich somit sowohl die Amplitude als auch die Phase des resultierenden Signals ändern.
+The two modulated carriers are then added. Depending on the values of I and Q, this produces a signal with a particular amplitude and phase. If the values of I and Q are changed, both the amplitude and the phase of the resulting signal can therefore change.
 
 <margin>
-[picture:196:a_iq_modulator:Blockschaltbild eines I/Q-Modulators]
+[picture:196:a_iq_modulator:Block diagram of an I/Q modulator]
 </margin>
 
 <webonly>
 <indepth>
-Das Ganze lässt sich leicht mathematisch beschreiben. Für die Summe eines Cosinus-Trägers mit einem anderen, um $\qty{90}{\degree}$ phasenverschobenen Cosinus-Träger gilt folgender Zusammenhang:
+The whole thing is easy to describe mathematically. For the sum of a cosine carrier and another cosine carrier shifted in phase by $\qty{90}{\degree}$, the following relationship holds:
 
 $ I(t)\cdot \cos\left(\omega t\right) + Q(t)\cdot \cos\left(\omega t + \qty{90}{\degree}\right)=A \cdot \cos\left(\omega t+\phi\right) $
 
-Es entsteht also ein neues Cosinussignal mit einer Amplitude von
+The result is therefore a new cosine signal with an amplitude of
 
 $A=\sqrt{I(t)^2 + Q(t)^2}$ 
 
-und einer Phasenverschiebung von 
+and a phase shift of 
 
 $ \phi = \operatorname{atan2}\left(Q(t),I(t)\right)$
 
@@ -44,18 +44,18 @@ $ \phi = \operatorname{atan2}\left(Q(t),I(t)\right)$
 [question:AF632]
 [question:AE404]
 
-In einem digitalen System können die Werte für I und Q sehr einfach in Software erzeugt werden. Dazu ordnet beispielsweise ein Mikrocontroller, Signalprozessor oder SDR jedem zu übertragenden Symbol zwei Zahlenwerte für I und Q zu. Ein Signalpunkt im Konstellationsdiagramm entspricht somit unmittelbar einem Wertepaar $(I,Q)$.
+In a digital system, the values for I and Q can be generated very easily in software. To do this, a microcontroller, signal processor or SDR, for example, assigns two numerical values for I and Q to each symbol to be transmitted. A signal point in the constellation diagram thus corresponds directly to a pair of values $(I,Q)$.
 
-Bei einer 16-QAM könnten beispielsweise für I und Q jeweils vier unterschiedliche Werte verwendet werden. Durch ihre Kombination entstehen die $\num{16}$ verschiedenen Signalpunkte. Die Software muss für jedes Symbol lediglich die zum gewünschten Signalpunkt gehörenden I- und Q-Werte ausgeben.
+In a 16-QAM, for example, four different values could be used for each of I and Q. Their combinations give the $\num{16}$ different signal points. For each symbol, the software only has to output the I and Q values belonging to the desired signal point.
 
-Die zunächst digitalen Zahlenwerte für I und Q können anschließend mit zwei DA-Wandlern in analoge Spannungen umgewandelt und dem I/Q-Modulator zugeführt werden. So lässt sich praktisch jeder gewünschte Punkt im Konstellationsdiagramm durch Software erzeugen. Moderne *Software Defined Radios* (SDR) nutzen genau dieses Prinzip: Ein großer Teil der Modulation wird nicht mehr durch fest verdrahtete analoge Schaltungen festgelegt, sondern durch die Berechnung der I- und Q-Signale in Software.
+The numerical values for I and Q, which are digital to begin with, can then be converted into analogue voltages with two D/A converters and fed to the I/Q modulator. In this way, practically any desired point in the constellation diagram can be generated by software. Modern *software-defined radios* (SDR) use exactly this principle: a large part of the modulation is no longer fixed by hard-wired analogue circuits, but by calculating the I and Q signals in software.
 
 ---
 
-Ein I/Q-Modulator ist dabei keineswegs auf digitale Modulationsverfahren wie QPSK oder QAM beschränkt. Anstelle einzelner fester I- und Q-Werte kann die Software auch kontinuierlich veränderliche Signalverläufe für I und Q berechnen. Damit lassen sich auch analoge Modulationsverfahren erzeugen.
+An I/Q modulator is by no means limited to digital modulation methods such as QPSK or QAM. Instead of individual fixed I and Q values, the software can also calculate continuously varying waveforms for I and Q. This allows analogue modulation methods to be generated as well.
 
-Bei einer Amplitudenmodulation wird beispielsweise die Länge des resultierenden Signalzeigers verändert. Bei einer Phasenmodulation wird sein Winkel verändert. Auch bei einer Frequenzmodulation wird die Phase des Signalzeigers kontinuierlich verändert, wobei die Geschwindigkeit dieser Phasenänderung die momentane Frequenz bestimmt. Mit zwei passend erzeugten I- und Q-Signalen lässt sich außerdem ein Einseitenbandsignal (SSB) erzeugen.
+In amplitude modulation, for example, the length of the resulting signal phasor is varied. In phase modulation, its angle is varied. In frequency modulation, too, the phase of the signal phasor is varied continuously, with the speed of this phase change determining the instantaneous frequency. With two suitably generated I and Q signals, a single-sideband (SSB) signal can also be generated.
 
-Mit demselben I/Q-Modulator können daher unter anderem AM, FM, PM, SSB, PSK und QAM erzeugt werden. Lediglich die I- und Q-Signale müssen jeweils anders berechnet werden. 
+The same I/Q modulator can therefore generate AM, FM, PM, SSB, PSK and QAM, among others. Only the I and Q signals have to be calculated differently in each case. 
 
-Der I/Q-Modulator ist damit gewissermaßen das "Schweizer Taschenmesser der Modulatoren". Dies ist zugleich ein wesentlicher Grund für die große Flexibilität moderner SDR-Technik: Das verwendete Modulationsverfahren wird zu einem großen Teil durch Software bestimmt, während die Hochfrequenzhardware weitgehend unverändert bleiben kann.
+The I/Q modulator is thus, so to speak, the "Swiss Army knife of modulators". This is also an essential reason for the great flexibility of modern SDR technology: the modulation method used is determined to a large extent by software, while the RF hardware can remain largely unchanged.

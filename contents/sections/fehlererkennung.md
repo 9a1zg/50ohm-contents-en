@@ -1,30 +1,30 @@
-Die einfachste Art der Fehlererkennung wird durch das Hinzufügen eines zusätzlichen Bits realisiert, dem Prüfbit. Es wird auch *Parity Bit* genannt. Es gibt zwei Varianten dieses Verfahrens. Bei *Even Parity* wird der Wert dieses Bits für jeden Block so gewählt, dass die Anzahl der auf $\num{1}$ gesetzten Bits immer gerade ist. Bei *Odd Parity* hingegen muss die Anzahl immer ungerade sein. Sender und Empfänger müssen sich vor der Übertragung einig sein, welche der beiden Varianten verwendet wird.
+The simplest kind of error detection is achieved by adding an extra bit, the check bit. It is also called a *parity bit*. There are two variants of this method. With *even parity*, the value of this bit is chosen for each block so that the number of bits set to $\num{1}$ is always even. With *odd parity*, on the other hand, the number must always be odd. Before the transmission, the transmitter and the receiver must agree on which of the two variants is used.
 
 <indepth>
-Nehmen wir an, wir wollen folgendes Byte mit Even Parity übertragen:
+Let us assume that we want to transmit the following byte with even parity:
 
-[picture:677:byte:Ein Byte]
+[picture:677:byte:A byte]
 
-Wir zählen 5 Einsen, also eine ungerade Anzahl. Das Prüfbit muss demnach auf $\num{1}$ gesetzt werden, damit eine gerade Anzahl an Einsen herauskommt:
+We count 5 ones, that is, an odd number. The check bit must therefore be set to $\num{1}$, so that the result is an even number of ones:
 
-[picture:678:even_parity:Das Byte mit Even Parity Bit]
+[picture:678:even_parity:The byte with an even parity bit]
 
-Wenn nun ein Übertragungsfehler *ein* Bit verändert (von $\num{1}$ zu $\num{0}$ oder umgekehrt), dann wird die Anzahl der Einsen ungerade. Der Empfänger erkennt daran, dass ein Fehler vorliegt.
+If a transmission error now changes *one* bit (from $\num{1}$ to $\num{0}$ or vice versa), the number of ones becomes odd. From this the receiver recognises that there is an error.
 
-Ein weiteres Beispiel folgt hier: 
+Here is a further example: 
 
-[picture:679:even_parity:Byte mit Even Parity]
+[picture:679:even_parity:Byte with even parity]
 
-Im ursprünglichen Byte zählen wir 4 Einsen, was einer geraden Anzahl entspricht. Deshalb müssen wir als Prüfbit eine $\num{0}$ einfügen.
+In the original byte we count 4 ones, which is an even number. We therefore have to insert a $\num{0}$ as the check bit.
 </indepth>
 
-Dieses Verfahren stößt schnell an seine Grenzen, nämlich dann, wenn mehr als ein Fehler bei der Übertragung passiert. Werden bei der Übertragung zwei Bits verändert, so bleibt die Anzahl der Einsen gerade. Der Empfänger kann nicht mehr erkennen, dass Fehler aufgetreten sind. Treten bei der Übertragung drei Fehler auf, so entsteht wieder eine ungerade Anzahl von Einsen und der Empfänger erkennt die Fehler.
+This method quickly reaches its limits, namely when more than one error occurs in the transmission. If two bits are changed in the transmission, the number of ones stays even. The receiver can no longer detect that errors have occurred. If three errors occur in the transmission, the result is again an odd number of ones, and the receiver detects the errors.
 
-Odd Parity funktioniert im Prinzip genauso, mit einem einzigen Unterschied: Die Anzahl der Einsen muss nicht gerade, sondern immer ungerade sein. Für Odd Parity gilt genauso wie für Even Parity, dass nur eine ungerade Anzahl falsch übertragener Bits erkannt wird. Eine fehlerfreie Übertragung kann hingegen nicht von einer geraden Anzahl an Fehlern unterschieden werden.
+Odd parity works in basically the same way, with a single difference: the number of ones must be not even but always odd. For odd parity, just as for even parity, only an odd number of incorrectly transmitted bits is detected. An error-free transmission, on the other hand, cannot be distinguished from an even number of errors.
 
 [question:AE411]
 [question:AE412]
 
-Um Mehrbitfehler zu erkennen, kann man weitere Prüfbits hinzufügen. Dies funktioniert sehr gut bei Nachrichten mit einer festen Länge. Ist die Länge der Daten variabel, verwendet man oft spezielle Prüfsummenverfahren wie die *zyklische Redundanzprüfung (CRC)*, welche Fehler bis auf eine gewisse Restwahrscheinlichkeit erkennen. Ähnliche Verfahren sind auch im Alltag anzutreffen, beispielsweise bei Ausweisnummern oder der IBAN.
+To detect multi-bit errors, further check bits can be added. This works very well for messages of a fixed length. If the length of the data is variable, special checksum methods are often used, such as the *cyclic redundancy check (CRC)*, which detect errors except for a certain residual probability. Similar methods are also found in everyday life, for example in identity card numbers or the IBAN.
 
 [question:AE410]

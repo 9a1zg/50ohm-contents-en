@@ -1,24 +1,24 @@
-Abbildung [ref:kanal] zeigt einen Sender und einen Empfänger, welche über einen Kanal miteinander verbunden sind. Beispielsweise durch das Wetter, andere atmosphärische Einflüsse oder Aussendungen anderer Stationen kann es zu Störungen auf dem Kanal kommen. Diese können zu Fehlern bei der Übertragung führen. 
+Figure [ref:kanal] shows a transmitter and a receiver connected to each other by a channel. Interference on the channel can arise, for example, from the weather, other atmospheric influences or transmissions from other stations. This can lead to errors in the transmission. 
 
 <margin>
-[picture:674:kanal:Kanal]
+[picture:674:kanal:Channel]
 </margin>
 
-Im Gegensatz zur Quellencodierung fügt die Kanalcodierung der zu übertragenden Information gezielt Redundanz hinzu, beispielsweise Wiederholungen oder Prüfsummen. Anders als die bei der Quellencodierung entfernte Redundanz kann diese systematisch hinzugefügte Redundanz zur automatischen Erkennung oder Korrektur von Übertragungsfehlern verwendet werden.
+Unlike source coding, channel coding deliberately adds redundancy to the information to be transmitted, for example repetitions or checksums. Unlike the redundancy removed in source coding, this systematically added redundancy can be used to detect or correct transmission errors automatically.
 
 ---
 
-Abbildung [ref:kanalcodierer] zeigt ein Symbol für einen Kanalcodierer. Der Block stellt dar, dass Redundanz den Daten hinzugefügt wird.
+Figure [ref:kanalcodierer] shows a symbol for a channel encoder. The block shows that redundancy is added to the data.
 
 <margin>
-[picture:676:kanalcodierer:Kanalcodierer]
+[picture:676:kanalcodierer:Channel encoder]
 </margin>
 
 [question:AE409]
 
-Wir unterscheiden zwei Arten der Kanalcodierung:
+We distinguish two kinds of channel coding:
 
-* Fehlererkennung: Man kann erkennen, dass bei der Übertragung ein Fehler aufgetreten ist, und dann z. B. eine erneute Übertragung anfordern.
-* Vorwärtsfehlerkorrektur: Fehler, die bei der Übertragung entstehen, werden mit Hilfe der Redundanz beim Empfänger korrigiert. 
+* Error detection: it is possible to detect that an error has occurred in the transmission, and then, for example, to request a retransmission.
+* Forward error correction: errors that arise in the transmission are corrected at the receiver with the help of the redundancy. 
 
-Im Folgenden wollen wir uns diese beiden Arten genauer anschauen.
+In the following we will look at these two kinds more closely.

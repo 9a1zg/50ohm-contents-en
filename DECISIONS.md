@@ -449,6 +449,17 @@ and the checker's "Provjera" section).
   `<qso>` entry above: *DL2AB von DL1PZ - Kommen!* → "DL2AB, this is DL1PZ –
   over!". The same tables recur in the operating chapters and follow this.
   (Unit nea_digitale_uebertragungsverfahren_1, funkfernschreiben.)
+- **Labels in the applets: English, with the German label in brackets.**
+  The interactive applets (`contents/html/applet_*.html`) are still German,
+  and the course text and slide notes name their controls ("Mit „Erneut
+  übertragen" wird derselbe Bitstrom nochmals … übertragen", psk slides). As
+  with the formula-sheet keywords and the columns of Annex 1 to the AFuV, the
+  English says what the control does and the bracket is what the reader has to
+  find on the screen: 'The button "Transmit again" (*Erneut übertragen*)
+  transmits the same bit stream once more'. When the applets are translated,
+  the bracket goes. A control described without its label ("the slider on the
+  right-hand side", modulatoren) is simply translated. (Unit
+  nea_digitale_uebertragungsverfahren_2, psk.)
 
 ## Open questions for DARC
 

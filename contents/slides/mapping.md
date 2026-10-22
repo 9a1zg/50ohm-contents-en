@@ -1,57 +1,57 @@
 ## Mapping
 
-* Bits müssen den möglichen Symbolen zugeordnet werden.
-* Diese Zuordnung heißt *Mapping*.
-* Der Baustein dafür heißt *Mapper*.
-* Er wandelt Bitkombinationen in Symbole um.
+* Bits have to be assigned to the possible symbols.
+* This assignment is called *mapping*.
+* The building block for it is called a *mapper*.
+* It converts bit combinations into symbols.
 
-[picture:1102:a_mapper:Blockschaltbild eines Mappers]
-
----
-
-## Beispiel: ASK
-
-* Bei ASK unterscheiden sich die Symbole durch ihre Amplitude.
-* Binäre ASK verwendet zwei Amplituden.
-* Beispiel:
-  * kleine Amplitude → $0$
-  * große Amplitude → $1$
-
-[picture:700:a_ask:ASK (Amplitude-Shift Keying) im zeitlichen Verlauf]
+[picture:1102:a_mapper:Block diagram of a mapper]
 
 ---
 
-## ASK im Konstellationsdiagramm
+## Example: ASK
+
+* In ASK, the symbols differ in their amplitude.
+* Binary ASK uses two amplitudes.
+* Example:
+  * small amplitude → $0$
+  * large amplitude → $1$
+
+[picture:700:a_ask:ASK (amplitude-shift keying) over time]
+
+---
+
+## ASK in the constellation diagram
 
 <left>
-* Beide Symbole liegen auf der I-Achse.
-* Die Phase bleibt gleich.
-* Der Abstand vom Ursprung beschreibt die Amplitude.
-* Das Mapping ordnet jedem Punkt einen Bitwert zu.
+* Both symbols lie on the I axis.
+* The phase stays the same.
+* The distance from the origin describes the amplitude.
+* The mapping assigns a bit value to each point.
 </left>
 <right>
-[picture:1128:a_ask_mapping:ASK (Amplitude-Shift Keying) im Konstellationsdiagramm]
+[picture:1128:a_ask_mapping:ASK (amplitude-shift keying) in the constellation diagram]
 </right>
 
 ---
 
 ## 4ASK
 
-* ASK ist nicht auf zwei Amplituden beschränkt.
-* Vier Amplituden ergeben vier Symbole.
-* Vier Symbole können zwei Bits pro Symbol übertragen: $00$, $01$, $10$, $11$
+* ASK is not limited to two amplitudes.
+* Four amplitudes give four symbols.
+* Four symbols can transmit two bits per symbol: $00$, $01$, $10$, $11$
 
-[picture:701:a_4_ask:Quaternäre Amplitudenumtastung]
+[picture:701:a_4_ask:Quaternary amplitude-shift keying]
 
 ---
 
-## 4ASK im Konstellationsdiagramm
+## 4ASK in the constellation diagram
 
 <left>
-* Auch bei 4ASK liegen alle Punkte auf der I-Achse.
-* Die Punkte unterscheiden sich nur im Abstand vom Ursprung.
-* Jedem Punkt ist eine Bitkombination zugeordnet.
+* With 4ASK, too, all points lie on the I axis.
+* The points differ only in their distance from the origin.
+* Each point is assigned a bit combination.
 </left>
 <right>
-[picture:1129:a_4_ask_mapping:4ASK im Konstellationsdiagramm]
+[picture:1129:a_4_ask_mapping:4ASK in the constellation diagram]
 </right>

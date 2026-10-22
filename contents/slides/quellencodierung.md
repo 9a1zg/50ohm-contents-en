@@ -1,13 +1,13 @@
 <left>
-[picture:675:quellencodierer:Quellencodierer]
+[picture:675:quellencodierer:Source encoder]
 </left>
 <right>
-* Möglichst effiziente Nutzung des Frequenzspektrums.
-* $\rightarrow$ Kompression der Nutzdaten, die sogenannte Quellencodierung.
-* Entfernung von Redundanzen (z. B. Wiederholungen) oder Irrelevanzen (weniger wichtige Informationsteile) aus dem Datenstrom.
+* The most efficient possible use of the frequency spectrum.
+* $\rightarrow$ Compression of the user data, known as source coding.
+* Removal of redundancy (e.g. repetitions) or irrelevance (less important parts of the information) from the data stream.
 </right>
 <note>
-Bekannte Verfahren: MP3, JPEG oder MPEG-4. Im Amateurfunk: FreeDV oder M17.
+Well-known methods: MP3, JPEG or MPEG-4. In amateur radio: FreeDV or M17.
 </note>
 
 ---

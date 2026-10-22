@@ -1,72 +1,72 @@
-Bei der Phasenumtastung (Phase-Shift Keying, PSK) werden die verschiedenen Symbole durch unterschiedliche Phasenlagen eines Trägers dargestellt. Die Amplitude und die Frequenz des Trägers bleiben dabei gleich. Beim Wechsel von einem Symbol zum nächsten kann sich dagegen die Phasenlage ändern.
+In phase-shift keying (PSK), the different symbols are represented by different phases of a carrier. The amplitude and the frequency of the carrier stay the same. When the signal changes from one symbol to the next, however, the phase can change.
 
-Die Abbildung [ref:a_psk] zeigt ein PSK-Signal im zeitlichen Verlauf. An den Symbolgrenzen erkennt man, dass die Schwingung mit einer anderen Phasenlage fortgesetzt wird.
+Figure [ref:a_psk] shows a PSK signal over time. At the symbol boundaries you can see that the oscillation continues with a different phase.
 
 <margin>
-[picture:705:a_psk:Phasenumtastung (Phase-Shift Keying)]
+[picture:705:a_psk:Phase-shift keying]
 </margin>
 
 ---
 
-Die einfachste Form ist die binäre Phasenumtastung (Binary Phase-Shift Keying, BPSK). Dabei stehen zwei verschiedene Phasenlagen und damit zwei mögliche Symbole zur Verfügung. Beispielsweise können die Phasenlagen $\qty{0}{\degree}$ und $\qty{180}{\degree}$ verwendet und den Bitwerten $0$ und $1$ zugeordnet werden. Die Abbildung [ref:a_psk_mapping] zeigt ein mögliches Mapping der beiden Bitwerte auf die beiden BPSK-Symbole.
+The simplest form is binary phase-shift keying (BPSK). Here two different phases, and so two possible symbols, are available. For example, the phases $\qty{0}{\degree}$ and $\qty{180}{\degree}$ can be used and assigned to the bit values $0$ and $1$. Figure [ref:a_psk_mapping] shows a possible mapping of the two bit values to the two BPSK symbols.
 
-Da sich die beiden Symbole nur durch ihre Phasenlage unterscheiden und ihre Amplitude gleich ist, liegen die beiden Punkte im Konstellationsdiagramm gegenüberliegend auf einem Kreis.
+Since the two symbols differ only in their phase and their amplitude is the same, the two points in the constellation diagram lie opposite each other on a circle.
 
 <margin>
-[picture:1101:a_psk_mapping:BPSK im Konstellationsdiagramm]
+[picture:1101:a_psk_mapping:BPSK in the constellation diagram]
 </margin>
 
 <indepth>
-Spitzfindigkeit: Genaugenommen kann BPSK mit den Winkeln $\qty{0}{\degree}$ und $\qty{180}{\degree}$ auch als ein ASK-Verfahren betrachtet werden, bei dem die Amplitude des Trägersignals zwischen einem negativen und einem positiven Wert umgeschaltet wird. Eine Multiplikation mit $-1$ resultiert bei einem Sinus-Signal zu einer Phasenverschiebung um $\qty{180}{\degree}$:
+Splitting hairs: strictly speaking, BPSK with the angles $\qty{0}{\degree}$ and $\qty{180}{\degree}$ can also be regarded as an ASK method in which the amplitude of the carrier signal is switched between a negative and a positive value. For a sine signal, multiplying by $-1$ results in a phase shift of $\qty{180}{\degree}$:
 
 $-\sin(\omega t)=\sin(\omega t+\qty{180}{\degree})$
 
-Dies ist ein Spezialfall. Es wären übrigens auch andere Phasenwinkel wie z. B. $\qty{90}{\degree}$ und $\qty{270}{\degree}$ möglich, deren beide Symbolphasen ebenfalls um $\qty{180}{\degree}$ voneinander getrennt wären.
+This is a special case. Other phase angles, such as $\qty{90}{\degree}$ and $\qty{270}{\degree}$, would also be possible, by the way; their two symbol phases would likewise be $\qty{180}{\degree}$ apart.
 </indepth>
 
 [question:AE401]
 
 ---
 
-Mit mehr als zwei unterschiedlichen Phasenlagen können entsprechend mehr Symbole dargestellt werden. Dadurch lassen sich mehrere Bits zu einem Symbol zusammenfassen.
+With more than two different phases, correspondingly more symbols can be represented. This allows several bits to be combined into one symbol.
 
 ---
 
-Bei der Quadraturphasenumtastung (Quadrature Phase-Shift Keying, QPSK) stehen vier unterschiedliche Phasenlagen und damit vier mögliche Symbole zur Verfügung. Da es vier mögliche Bitkombinationen aus zwei Bits gibt, können mit jedem Symbol zwei Bits übertragen werden.
+In quadrature phase-shift keying (QPSK), four different phases, and so four possible symbols, are available. Since there are four possible combinations of two bits, two bits can be transmitted with each symbol.
 
-Zum Vergleich:
+For comparison:
 
-* BPSK: $\num{2}$ Symbole → $\num{1}$ Bit pro Symbol
-* QPSK: $\num{4}$ Symbole → $\num{2}$ Bit pro Symbol
-* 8-PSK: $\num{8}$ Symbole → $\num{3}$ Bit pro Symbol
+* BPSK: $\num{2}$ symbols → $\num{1}$ bit per symbol
+* QPSK: $\num{4}$ symbols → $\num{2}$ bits per symbol
+* 8-PSK: $\num{8}$ symbols → $\num{3}$ bits per symbol
 
 [question:AE402]
 
-Schauen wir uns QPSK nun im Konstellationsdiagramm an. Die vier möglichen Symbole besitzen die gleiche Amplitude, unterscheiden sich aber durch ihre Phasenlage. Deshalb liegen alle vier Signalpunkte auf einem Kreis. Die Abbildung [ref:a_qpsk] zeigt ein mögliches Mapping der vier Bitkombinationen $00$, $01$, $10$ und $11$ auf die vier QPSK-Symbole.
+Let us now look at QPSK in the constellation diagram. The four possible symbols have the same amplitude but differ in their phase. All four signal points therefore lie on a circle. Figure [ref:a_qpsk] shows a possible mapping of the four bit combinations $00$, $01$, $10$ and $11$ to the four QPSK symbols.
 
 <margin>
-[picture:1059:a_qpsk:I/Q-Diagramm für ein QPSK-Mapping]
+[picture:1059:a_qpsk:I/Q diagram for a QPSK mapping]
 </margin>
 
 ---
 
-In diesem Beispiel werden folgende Phasenlagen verwendet:
+In this example the following phases are used:
 
-* $11$ entspricht $\qty{45}{\degree}$
-* $01$ entspricht $\qty{135}{\degree}$
-* $00$ entspricht $\qty{225}{\degree}$
-* $10$ entspricht $\qty{315}{\degree}$
+* $11$ corresponds to $\qty{45}{\degree}$
+* $01$ corresponds to $\qty{135}{\degree}$
+* $00$ corresponds to $\qty{225}{\degree}$
+* $10$ corresponds to $\qty{315}{\degree}$
 
 <margin>
-Das folgende Applet veranschaulicht die digitale QPSK-Modulation. In einem echten System wird das Signal durch Rauschen und andere Störungen beeinflusst. Dadurch liegen die empfangenen Signalpunkte nicht exakt auf den idealen Positionen, sondern weichen sowohl in ihrer Amplitude als auch in ihrer Phase davon ab. Das Applet simuliert dies, indem es Rauschen hinzufügt. Die Kreuze markieren die vier idealen QPSK-Symbole. Jeder farbige Punkt ist ein verrauschter Empfangswert. Der Empfänger ordnet ihn dem nächstgelegenen Symbol zu. Die farbig hinterlegten Bereiche sind die Entscheidungsbereiche des Empfängers. Solange ein verrauschter Empfangswert im Bereich des ursprünglich gesendeten Symbols liegt, wird es richtig erkannt. Überschreitet ein Punkt durch starkes Rauschen eine Grenze zu einem benachbarten Bereich, entscheidet sich der Empfänger für das falsche Symbol. Durch Kanalkodierung können diese Fehler jedoch korrigiert werden. Damit beschäftigen wir uns in einem späteren Abschnitt.
+The following applet illustrates digital QPSK modulation. In a real system, the signal is affected by noise and other interference. As a result, the received signal points do not lie exactly on the ideal positions, but deviate from them in both amplitude and phase. The applet simulates this by adding noise. The crosses mark the four ideal QPSK symbols. Each coloured dot is a noisy received value. The receiver assigns it to the nearest symbol. The coloured areas are the receiver's decision regions. As long as a noisy received value lies in the region of the symbol originally sent, the symbol is recognised correctly. If strong noise pushes a point across the boundary into a neighbouring region, the receiver decides on the wrong symbol. These errors can, however, be corrected by channel coding. We will deal with this in a later section.
 
 [include:applet_qpsk]
 </margin>
 
-Die vier Phasenlagen sind jeweils um $\qty{90}{\degree}$ gegeneinander versetzt. Der Empfänger kann anhand der erkannten Phasenlage bestimmen, welches Symbol und damit welche Bitkombination übertragen wurde.
+The four phases are each $\qty{90}{\degree}$ apart. From the phase it detects, the receiver can determine which symbol, and so which bit combination, was transmitted.
 
-Die Zuordnung der Bitkombinationen zu den einzelnen Phasenlagen ist nicht eindeutig festgelegt. Entscheidend ist zunächst nur, dass jedem Symbol eine eindeutige Bitkombination zugeordnet wird.
+The assignment of the bit combinations to the individual phases is not fixed. To begin with, all that matters is that each symbol is assigned a unique bit combination.
 
-In der Praxis wird das Mapping häufig so gewählt, dass sich die Bitkombinationen benachbarter Signalpunkte nur in einem Bit unterscheiden. Eine solche Zuordnung wird als *Gray-Code* bezeichnet. Wird durch Rauschen versehentlich ein benachbarter Signalpunkt erkannt, führt dies dadurch häufig nur zu einem einzelnen Bitfehler.
+In practice, the mapping is often chosen so that the bit combinations of neighbouring signal points differ in only one bit. Such an assignment is called a *Gray code*. If noise causes a neighbouring signal point to be detected by mistake, this then often leads to only a single bit error.
 
-Das Konstellationsdiagramm macht damit einen wesentlichen Unterschied zwischen ASK und PSK unmittelbar sichtbar: Bei ASK unterscheiden sich die Symbole durch ihren Abstand vom Ursprung und liegen in der Regel nur auf der positiven I-Achse, bei PSK dagegen durch ihren Winkel. Bei PSK liegen die Signalpunkte daher bei gleicher Amplitude auf einem Kreis.
+The constellation diagram thus makes an essential difference between ASK and PSK immediately visible: in ASK the symbols differ in their distance from the origin and usually lie only on the positive I axis, whereas in PSK they differ in their angle. In PSK the signal points therefore lie on a circle if the amplitude is the same.

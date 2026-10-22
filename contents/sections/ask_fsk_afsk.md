@@ -1,21 +1,21 @@
-Genauso wie es verschiedene analoge Modulationsverfahren (z. B. FM, AM, SSB) gibt, gibt es auch verschiedene digitale Modulationsverfahren. Die grundlegenden Möglichkeiten, ein Signal zu modulieren, also auf einen Hochfrequenzträger aufzuprägen, sind dieselben: Veränderung der Amplitude, der Frequenz oder der Phase des Trägers.
+Just as there are various analogue modulation methods (e.g. FM, AM, SSB), there are also various digital modulation methods. The basic ways of modulating a signal, that is, impressing it on an RF carrier, are the same: changing the amplitude, the frequency or the phase of the carrier.
 
-Bei der Amplitudenumtastung (Amplitude Shift Keying, ASK) wird im einfachsten Fall zwischen zwei Amplituden gewechselt. Dabei kann eine kleine Amplitude für ein Bit mit dem Wert $\num{0}$ und eine große Amplitude für ein Bit mit dem Wert $\num{1}$ stehen, wie in Abbildung [ref:e_ask] dargestellt. Es kann aber auch genau andersherum sein. Oftmals, beispielsweise bei CW, wird einfach zwischen aus- und eingeschaltetem Träger unterschieden. Dieser Sonderfall der ASK wird als On-Off-Keying (OOK) bezeichnet. Später zeigen wir noch Verfahren, bei denen zwischen mehr als zwei verschiedenen Amplituden umgeschaltet wird.
+In amplitude-shift keying (ASK), in the simplest case the signal switches between two amplitudes. A small amplitude can stand for a bit with the value $\num{0}$ and a large amplitude for a bit with the value $\num{1}$, as shown in Figure [ref:e_ask]. It can, however, also be exactly the other way round. Often, for example with CW, the only distinction is between the carrier switched off and switched on. This special case of ASK is called on-off keying (OOK). Later we will also show methods that switch between more than two different amplitudes.
 
 [question:EE406]
 
 <margin>
-[picture:700:e_ask:Amplitudenumtastung (Amplitude-shift Keying)]
+[picture:700:e_ask:Amplitude-shift keying]
 </margin>
 
 ---
 
-Bei der Frequenzumtastung (Frequency Shift Keying, FSK) wechselt der Sender anstelle der Amplituden zwischen bestimmten Frequenzen, wie in Abbildung [ref:e_fsk] dargestellt.
+In frequency-shift keying (FSK), instead of switching between amplitudes, the transmitter switches between certain frequencies, as shown in Figure [ref:e_fsk].
 
 <margin>
-[picture:703:e_fsk:Frequenzumtastung (Frequency-shift Keying)]
+[picture:703:e_fsk:Frequency-shift keying]
 </margin>
   
-Die festgelegten Amplituden und Frequenzen zwischen denen umgeschaltet wird, werden als "Symbole" bezeichnet.
+The defined amplitudes and frequencies between which the signal is switched are called "symbols".
 
 [question:EE407]

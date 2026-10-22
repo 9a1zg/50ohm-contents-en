@@ -1,53 +1,53 @@
-## Fehlererkennung: Parity Bit
+## Error detection: parity bit
 
-* Zusätzliches Prüfbit (Parity Bit) wird an Daten angehängt  
-* Zwei Varianten:  
-* *Even Parity*: Anzahl der Einsen wird auf gerade Anzahl festgelegt  
-* *Odd Parity*: Anzahl der Einsen wird auf ungerade Anzahl festgelegt  
-* Sender und Empfänger müssen sich über das verwendete Verfahren einigen
+* An extra check bit (parity bit) is appended to the data  
+* Two variants:  
+* *Even parity*: the number of ones is set to an even number  
+* *Odd parity*: the number of ones is set to an odd number  
+* The transmitter and the receiver must agree on the method used
 
 ---
 
-## Even Parity: Beispiel 1
+## Even parity: example 1
 
 <left>
-[picture:677:byte:Ein Byte]
+[picture:677:byte:A byte]
 </left>
 <right>
-* Zu übertragendes Byte  
-* Es werden 5 Einsen gezählt → ungerade Anzahl  
-* Prüfbit muss auf $\num{1}$ gesetzt werden, um eine gerade Anzahl zu erreichen
+* Byte to be transmitted  
+* 5 ones are counted → odd number  
+* The check bit must be set to $\num{1}$ to give an even number
 </right>
 
 ---
 
 <left>
-[picture:678:even_parity:Das Byte mit Even Parity Bit]
+[picture:678:even_parity:The byte with an even parity bit]
 </left>
 <right>
-* Das Prüfbit wurde auf $\num{1}$ gesetzt  
-* Das resultierende Byte hat eine gerade Anzahl an Einsen
-* Bei einer Fehlerübertragung stimmt das Prüfbit nicht mehr
+* The check bit has been set to $\num{1}$  
+* The resulting byte has an even number of ones
+* If an error occurs in the transmission, the check bit no longer matches
 </right>
 
 ---
 
-## Even Parity: Beispiel 2
+## Even parity: example 2
 
 <left>
-[picture:679:even_parity:Byte mit Even Parity]
+[picture:679:even_parity:Byte with even parity]
 </left>
 <right>
-* Ursprüngliches Byte: 4 Einsen (gerade)  
-* Prüfbit wird auf $\num{0}$ gesetzt
+* Original byte: 4 ones (even)  
+* The check bit is set to $\num{0}$
 </right>
 
 ---
-## Fehlererkennung bei Bitfehlern
+## Error detection with bit errors
 
-* Bei einem Ein-Bit-Fehler wird die Parität umgekehrt → Fehler erkannt  
-* Bei zwei Fehlern bleibt die Parität gleich → Fehler unentdeckt  
-* Bei drei Fehlern ändert sich die Parität wieder → Fehler erkannt
+* With a one-bit error, the parity is reversed → error detected  
+* With two errors, the parity stays the same → error undetected  
+* With three errors, the parity changes again → error detected
 
 ---
 
@@ -59,14 +59,14 @@
 
 ---
 
-## Erweiterte Fehlererkennung
+## Extended error detection
 
-* Zusätzliche Prüfbits können Mehrbitfehler erkennen  
-* Bei variablen Nachrichten werden oft Prüfsummenverfahren wie die *zyklische Redundanzprüfung (CRC)* eingesetzt  
-* CRC erkennt Fehler bis auf eine gewisse Restwahrscheinlichkeit
+* Additional check bits can detect multi-bit errors  
+* For messages of variable length, checksum methods such as the *cyclic redundancy check (CRC)* are often used  
+* CRC detects errors except for a certain residual probability
 
 <note>
-Wird bei der IBAN oder bei Ausweisnummern eingesetzt
+Used for the IBAN or for identity card numbers
 </note>
 
 ---

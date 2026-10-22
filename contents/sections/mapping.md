@@ -1,37 +1,37 @@
-Bei digitalen Übertragungsverfahren müssen die zu übertragenden Bits den verschiedenen möglichen Symbolen zugeordnet werden. Diese Zuordnung wird als *Mapping* bezeichnet. Der Baustein, der diese Zuordnung vornimmt, wird als *Mapper* bezeichnet. Das Blocksymbol eines Mappers ist in Abbildung [ref:a_mapper] dargestellt. Der Mapper nimmt einen digitalen Bitstrom entgegen und ordnet die enthaltenen Bitkombinationen den entsprechenden Symbolen in einem Konstellationsdiagramm zu.
+In digital transmission methods, the bits to be transmitted have to be assigned to the various possible symbols. This assignment is called *mapping*. The building block that carries out this assignment is called a *mapper*. The block symbol of a mapper is shown in Figure [ref:a_mapper]. The mapper takes in a digital bit stream and assigns the bit combinations it contains to the corresponding symbols in a constellation diagram.
 
 <margin>
-[picture:1102:a_mapper:Blockschaltbild eines Mappers]
+[picture:1102:a_mapper:Block diagram of a mapper]
 </margin>
 
 ---
 
-Um das Prinzip des Mappings kennenzulernen, betrachten wir zunächst die bereits aus Klasse E bekannte *Amplitudenumtastung* (*Amplitude-Shift Keying*, ASK). Die Abbildung [ref:a_ask] zeigt eine binäre ASK in der Zeitdarstellung. Dabei wird die Amplitude des Trägersignals zwischen zwei Werten umgeschaltet. Beispielsweise kann eine große Amplitude das Bit $1$ und eine kleine Amplitude das Bit $0$ darstellen.
+To get to know the principle of mapping, let us first consider *amplitude-shift keying* (ASK), already familiar from Class E. Figure [ref:a_ask] shows binary ASK in the time domain. Here the amplitude of the carrier signal is switched between two values. For example, a large amplitude can represent the bit $1$ and a small amplitude the bit $0$.
 
 <margin>
-[picture:700:a_ask:ASK (Amplitude-Shift Keying) im zeitlichen Verlauf]
+[picture:700:a_ask:ASK (amplitude-shift keying) over time]
 </margin>
 
 ---
 
-Die beiden möglichen Symbole lassen sich auch in dem zuvor kennengelernten Konstellationsdiagramm darstellen. Da sich bei diesem Beispiel nur die Amplitude ändert und die Phasenlage gleich bleibt, liegen beide Signalpunkte auf der I-Achse. Der unterschiedliche Abstand vom Ursprung entspricht den beiden unterschiedlichen Amplituden. Jedem der beiden Signalpunkte wird nun über das Mapping ein Bitwert zugeordnet.
+The two possible symbols can also be shown in the constellation diagram we met earlier. Since in this example only the amplitude changes and the phase stays the same, both signal points lie on the I axis. The different distances from the origin correspond to the two different amplitudes. Each of the two signal points is now assigned a bit value by the mapping.
 
 <margin>
-[picture:1128:a_ask_mapping:ASK (Amplitude-Shift Keying) im Konstellationsdiagramm]
+[picture:1128:a_ask_mapping:ASK (amplitude-shift keying) in the constellation diagram]
 </margin>
 
 ---
 
-Eine Amplitudenumtastung ist nicht auf zwei mögliche Amplituden beschränkt. Werden beispielsweise vier unterschiedliche Amplituden verwendet, stehen vier verschiedene Symbole zur Verfügung. Da sich mit zwei Bits vier unterschiedliche Bitkombinationen bilden lassen, kann jedem Symbol eine der Kombinationen $00$, $01$, $10$ oder $11$ zugeordnet werden.
+Amplitude-shift keying is not limited to two possible amplitudes. If, for example, four different amplitudes are used, four different symbols are available. Since two bits can form four different bit combinations, each symbol can be assigned one of the combinations $00$, $01$, $10$ or $11$.
 
-Die Abbildung [ref:a_4_ask] zeigt eine solche *4-ASK* mit vier unterschiedlichen Amplituden in der Zeitdarstellung. Beispielsweise können $\qty{25}{\percent}$, $\qty{50}{\percent}$, $\qty{75}{\percent}$ und $\qty{100}{\percent}$ der maximalen Amplitude verwendet werden. Mit jedem Symbol können dadurch zwei Bits übertragen werden.
+Figure [ref:a_4_ask] shows such a *4-ASK* with four different amplitudes in the time domain. For example, $\qty{25}{\percent}$, $\qty{50}{\percent}$, $\qty{75}{\percent}$ and $\qty{100}{\percent}$ of the maximum amplitude can be used. Two bits can therefore be transmitted with each symbol.
 
 <margin>
-[picture:701:a_4_ask:Quaternäre Amplitudenumtastung (Quaternary Amplitude-Shift Keying)]
+[picture:701:a_4_ask:Quaternary amplitude-shift keying]
 </margin>
 
-Auch im Konstellationsdiagramm sind nun vier mögliche Signalpunkte vorhanden. Da sich weiterhin nur die Amplitude ändert, liegen in diesem Beispiel alle vier Punkte auf der I-Achse. Jedem Punkt ist eine bestimmte Bitkombination zugeordnet.
+The constellation diagram now also has four possible signal points. Since still only the amplitude changes, in this example all four points lie on the I axis. Each point is assigned a particular bit combination.
 
 <margin>
-[picture:1129:a_4_ask_mapping:Quaternäre Amplitudenumtastung (Quaternary Amplitude-Shift Keying) im Konstellationsdiagramm]
+[picture:1129:a_4_ask_mapping:Quaternary amplitude-shift keying in the constellation diagram]
 </margin>
