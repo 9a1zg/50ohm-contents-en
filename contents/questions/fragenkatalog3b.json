@@ -715,7 +715,7 @@
                                 {
                                     "number": "AB208",
                                     "class": "3",
-                                    "question": "The open-circuit voltage of a DC voltage source is 13.8 V. When the voltage source delivers a current of 20 A, the terminal voltage stays at 13.6 V. What is the internal resistance of the voltage source?",
+                                    "question": "The open-circuit voltage of a DC voltage source is 13.8 V. When the voltage source delivers a current of 20 A, the terminal voltage is still 13.6 V. What is the internal resistance of the voltage source?",
                                     "answer_a": "10 m$\\Omega$",
                                     "answer_b": "20 m$\\Omega$",
                                     "answer_c": "0.2 ohms",
@@ -778,7 +778,7 @@
                                 {
                                     "number": "AB201",
                                     "class": "3",
-                                    "question": "What properties should current sources and voltage sources have, as far as possible?",
+                                    "question": "What properties should current and voltage sources ideally have?",
                                     "answer_a": "Current sources should have the highest possible internal resistance and voltage sources the lowest possible internal resistance.",
                                     "answer_b": "Current sources and voltage sources should have the lowest possible internal resistance.",
                                     "answer_c": "Current sources and voltage sources should have the highest possible internal resistance.",
@@ -807,7 +807,7 @@
                                 {
                                     "number": "NB205",
                                     "class": "1",
-                                    "question": "What magnitude does the voltmeter in the following circuit show?",
+                                    "question": "What is the magnitude of the voltage shown by the voltmeter in the following circuit?",
                                     "answer_a": "3 V",
                                     "answer_b": "0 V",
                                     "answer_c": "2.25 V",
@@ -862,7 +862,7 @@
                                 {
                                     "number": "EB105",
                                     "class": "2",
-                                    "question": "What are the field lines of a vertical antenna marked X called?",
+                                    "question": "What are the field lines of a vertical antenna that are marked X called?",
                                     "answer_a": "Electric field lines",
                                     "answer_b": "Magnetic field lines",
                                     "answer_c": "Radial field lines",
@@ -891,7 +891,7 @@
                                 {
                                     "number": "EB102",
                                     "class": "2",
-                                    "question": "9 V is applied to a parallel-plate capacitor with a plate spacing of 0.6 cm. Approximately what is the electric field strength between the two plates?",
+                                    "question": "A voltage of 9 V is applied to a parallel-plate capacitor with a plate spacing of 0.6 cm. Approximately what is the electric field strength between the two plates?",
                                     "answer_a": "1500 V/m",
                                     "answer_b": "150 V/m",
                                     "answer_c": "540 V/m",
@@ -915,7 +915,7 @@
                                 {
                                     "number": "EB206",
                                     "class": "2",
-                                    "question": "What are the field lines of a vertical antenna marked X called?",
+                                    "question": "What are the field lines of a vertical antenna that are marked X called?",
                                     "answer_a": "Magnetic field lines",
                                     "answer_b": "Electric field lines",
                                     "answer_c": "Open field lines",
@@ -1321,7 +1321,7 @@
                                 {
                                     "number": "NB403",
                                     "class": "1",
-                                    "question": "What is marked 2 in the snapshot of a wave shown?",
+                                    "question": "What is marked 2 in this snapshot of a wave?",
                                     "answer_a": "Wavelength",
                                     "answer_b": "Amplitude",
                                     "answer_c": "Voltage",
@@ -1331,7 +1331,7 @@
                                 {
                                     "number": "NB402",
                                     "class": "1",
-                                    "question": "What is marked 1 in the snapshot of a wave shown?",
+                                    "question": "What is marked 1 in this snapshot of a wave?",
                                     "answer_a": "Amplitude",
                                     "answer_b": "Frequency",
                                     "answer_c": "Period",
@@ -1608,7 +1608,7 @@
                                 {
                                     "number": "EB504",
                                     "class": "2",
-                                    "question": "The electrical power $P$ is converted into heat in a resistor $R$. You know the quantities $P$ and $R$. Which of the formulas can you use to determine the voltage across the resistor $R$?",
+                                    "question": "The electrical power $P$ is converted into heat in a resistor $R$. You know the quantities $P$ and $R$. Which of the following formulas can you use to determine the voltage across the resistor $R$?",
                                     "answer_a": "$U = \\sqrt{P\\cdot R}$",
                                     "answer_b": "$U = R\\cdot P$",
                                     "answer_c": "$U = \\sqrt{\\dfrac{P}{R}}$",
@@ -1617,7 +1617,7 @@
                                 {
                                     "number": "EB503",
                                     "class": "2",
-                                    "question": "Do the formulas for the power in a purely resistive (ohmic) resistor also apply to AC voltage?",
+                                    "question": "Do the formulas for the power in a pure (ohmic) resistance also apply to AC voltage?",
                                     "answer_a": "Yes, if the calculation uses RMS values.",
                                     "answer_b": "No, because the periodic change in current and voltage is then neglected.",
                                     "answer_c": "Yes, if the calculation uses peak values.",

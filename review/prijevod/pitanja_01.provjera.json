@@ -1,0 +1,34 @@
+{
+  "pitanja": {
+    "AB201": {
+      "question": "What properties should current and voltage sources ideally have?"
+    },
+    "AB208": {
+      "question": "The open-circuit voltage of a DC voltage source is 13.8 V. When the voltage source delivers a current of 20 A, the terminal voltage is still 13.6 V. What is the internal resistance of the voltage source?"
+    },
+    "NB205": {
+      "question": "What is the magnitude of the voltage shown by the voltmeter in the following circuit?"
+    },
+    "EB105": {
+      "question": "What are the field lines of a vertical antenna that are marked X called?"
+    },
+    "EB206": {
+      "question": "What are the field lines of a vertical antenna that are marked X called?"
+    },
+    "EB102": {
+      "question": "A voltage of 9 V is applied to a parallel-plate capacitor with a plate spacing of 0.6 cm. Approximately what is the electric field strength between the two plates?"
+    },
+    "NB403": {
+      "question": "What is marked 2 in this snapshot of a wave?"
+    },
+    "NB402": {
+      "question": "What is marked 1 in this snapshot of a wave?"
+    },
+    "EB504": {
+      "question": "The electrical power $P$ is converted into heat in a resistor $R$. You know the quantities $P$ and $R$. Which of the following formulas can you use to determine the voltage across the resistor $R$?"
+    },
+    "EB503": {
+      "question": "Do the formulas for the power in a pure (ohmic) resistance also apply to AC voltage?"
+    }
+  }
+}
