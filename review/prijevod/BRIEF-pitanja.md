@@ -48,7 +48,12 @@ referenced separately and are not part of the text.
    question where the English needed a judgement call (one line each) — e.g.
    a German pun, a stem/answer structure that does not carry over, a
    suspected error in the German original (note it, translate faithfully).
-5. Commit in `~/projects/50ohm-contents-en`, only your files
+5. **If a judgement call sets a rule that later batches must follow** (a term
+   chosen for the first time, a form for a recurring construction), add it to
+   `DECISIONS.md` under "Terms that needed a decision" with one line of why,
+   and commit it with your batch. Choices that only concern one question stay
+   in the batch notes.
+6. Commit in `~/projects/50ohm-contents-en`, only your files
    (`git commit <paths>`; check `git status` first), author and committer
    9A1ZG via env vars, first line `Translate exam questions: <batch>`, a short
    body, and the two trailer lines from your assigning prompt. Do not push.
