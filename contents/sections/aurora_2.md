@@ -2,7 +2,7 @@ In Class E we have already met aurora: when charged particles from the solar win
 
 You should remember the following points: 
 
-* Aurora takes place in the E region ($\num{90}$ to $\qty{130}{\kilo\meter}$) near the poles.
+* Aurora occurs in the E region ($\num{90}$ to $\qty{130}{\kilo\meter}$) near the poles.
 * Charged particles from the sun enter the atmosphere.
 * For us in Europe, the polar region is to the north.
 * CW is best suited to aurora.

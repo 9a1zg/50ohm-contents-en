@@ -24,7 +24,7 @@ Use the layers to explain how this changes the skip distance
 
 ## Dependence on time of year and time of day
 
-[picture:996:a_sprungdistanz_2:Simulation of the skip distance as a function of the season and of day and night on the $\qty{80}{\meter}$ band at an angle of radiation of $\qty{45}{\degree}$; in addition, the attenuation of the D layer acts during the day]
+[picture:996:a_sprungdistanz_2:Simulation of the skip distance as a function of the season and of day and night on the $\qty{80}{\meter}$ band at an angle of radiation of $\qty{45}{\degree}$; in addition, the D layer causes attenuation during the day]
 
 ---
 

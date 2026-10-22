@@ -24,7 +24,7 @@ Figure [ref:a_sprungdistanz_2] shows the simulation of the skip distance as a fu
 During the day the E region has a stronger effect on propagation. In summer this effect is more marked, because the stronger solar radiation causes stronger ionisation. In winter the ionisation is lower, which tends to allow greater ranges during the day. In both cases, however, the signal strength is markedly attenuated by the D region during the day.
 
 <margin>
-[picture:996:a_sprungdistanz_2:Simulation of the skip distance as a function of the season and of day and night on the $\qty{80}{\meter}$ band at an angle of radiation of $\qty{45}{\degree}$; in addition, the attenuation of the D layer acts during the day]
+[picture:996:a_sprungdistanz_2:Simulation of the skip distance as a function of the season and of day and night on the $\qty{80}{\meter}$ band at an angle of radiation of $\qty{45}{\degree}$; in addition, the D layer causes attenuation during the day]
 </margin>
 
 ---

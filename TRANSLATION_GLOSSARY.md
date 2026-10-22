@@ -1932,7 +1932,7 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Überhorizontverbindungen | beyond-the-horizon contacts | EH302, AH309 |
 | Ducting (vom englischen *duct* …) | ducting (from *duct*, meaning roughly a pipe, channel or guide) | the gloss explains the English word and stays; it does not translate it back (troposphaere_3) |
 | Beugung / Streuung / Reflexion / Brechung oder Refraktion | diffraction / scattering / reflection / refraction | *Brechung oder Refraktion* is one English word; *gebrochen (refraktiert)* → "bent (refracted)"; *zurückbrechen* → bend back |
-| gleichgerichtete Streuung | scattering in one uniform direction | the slides' definition of reflection (troposphaere_2) |
+| gleichgerichtete Streuung | scattering in a single direction | the slides' definition of reflection (troposphaere_2) |
 | Hochatmosphäre / Atmosphärenschichten | upper atmosphere / layers of the atmosphere | |
 | Atomrümpfe | positive ions | what free electrons recombine with (ionosphaere_2) |
 | gemäßigte Breiten | temperate latitudes | |

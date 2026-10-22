@@ -4,7 +4,7 @@ Radiation from the sun knocks electrons out of the oxygen and nitrogen atoms and
 
 [question:EH101]
 
-It is this process above all that gives HF its unique capabilities. The density of these free electrons determines which frequencies can still be refracted: the higher the density, the higher the frequency. We therefore need high ionisation for the upper HF bands, and so a high level of the solar radiation needed for it. That is why the $\qty{10}{\meter}$ band ($\qtyrange{28.0}{29.7}{\mega\hertz}$) is particularly usable during the day, especially at sunspot maximum – even with low transmit power.
+It is this process above all that gives HF its unique capabilities. The density of these free electrons determines which frequencies can still be refracted: the higher the density, the higher the frequency. We therefore need high ionisation for the upper HF bands, and so a high level of the solar radiation needed for it. That is why the $\qty{10}{\meter}$ band ($\qtyrange{28.0}{29.7}{\mega\hertz}$) works particularly well during the day, especially at sunspot maximum – even with low transmit power.
 
 <margin>
 [picture:865:e_wellenausbreitung_refraktion:Refraction at layers of the ionosphere]
@@ -37,7 +37,7 @@ When radiation no longer arrives from the sun after sunset, the electrons recomb
 
 **E region**
 
-Next, at a height of $\num{90}$ to $\qty{130}{\kilo\meter}$, comes the *E region*, which we already met in the exam questions for Class N. Under normal conditions it refracts radio waves arriving at an oblique angle up to about $\qty{10}{\mega\hertz}$, and a little more than $\qty{2000}{\kilo\meter}$ can be bridged in one hop. The E region, too, disappears within a few minutes after sunset.
+Next, at a height of $\num{90}$ to $\qty{130}{\kilo\meter}$, comes the *E region*, which we already met in the exam questions for Class N. Under normal conditions it refracts radio waves arriving at an oblique angle up to about $\qty{10}{\mega\hertz}$, and a little more than $\qty{2000}{\kilo\meter}$ can be covered in one hop. The E region, too, disappears within a few minutes after sunset.
 
 In this region a special phenomenon is found in the temperate latitudes, mainly in the summer months: the *sporadic E layer* (*Es* for short). It consists of mostly small, very strongly ionised areas and is able to refract radio waves of much higher frequency, up into the $\qty{2}{\meter}$ band.
 
@@ -51,7 +51,7 @@ In this region a special phenomenon is found in the temperate latitudes, mainly 
 
 **F region**
 
-Finally, above that, is the *F region*, which during the day also splits into the F1 region and the F2 region above it. The latter can extend up to a height of $\qty{450}{\kilo\meter}$ and is the most significant for HF propagation. For one thing, its greater height allows distances of up to $\qty{4000}{\kilo\meter}$ to be bridged in one hop. For another, the low gas density at these heights means that it takes a very long time for free electrons to find an ion again with which to recombine into a neutral atom or molecule. That is why there are always enough free electrons there to refract HF waves. Their number, and so their density, decreases, however, as solar radiation declines, and with it the frequency that is still just bent back. That is why the upper bands close first.
+Finally, above that, is the *F region*, which during the day also splits into the F1 region and the F2 region above it. The latter can extend up to a height of $\qty{450}{\kilo\meter}$ and is the most significant for HF propagation. For one thing, its greater height allows distances of up to $\qty{4000}{\kilo\meter}$ to be covered in one hop. For another, the low gas density at these heights means that it takes a very long time for free electrons to find an ion again with which to recombine into a neutral atom or molecule. That is why there are always enough free electrons there to refract HF waves. Their number, and so their density, decreases, however, as solar radiation declines, and with it the highest frequency that is still bent back. That is why the upper bands close first.
 
 [question:EH103]
 

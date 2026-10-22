@@ -4,7 +4,7 @@ Several terms are used in the following chapter; they are explained first
 
 * *Diffraction*: waves are deflected at an obstacle
 * *Scattering*: deflection of the waves through interaction with particles
-* *Reflection*: scattering in one uniform direction
+* *Reflection*: scattering in a single direction
 * *Refraction*: deflection of the waves through a change in the velocity of propagation in another medium of different density
 
 ---

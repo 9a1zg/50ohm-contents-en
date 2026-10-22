@@ -4,7 +4,7 @@
 <right>
 * A special effect in the troposphere (approx. $\qty{15}{\kilo\meter}$)
 * *Formation of tropospheric inversions* between warm and cold layers of air
-* Leads to considerably greater ranges in the VHF range ($\qtyrange{800}{1000}{\kilo\meter}$)
+* Leads to considerably greater ranges on VHF ($\qtyrange{800}{1000}{\kilo\meter}$)
 * Occurs mainly in spring and autumn
 </right>
 <note>

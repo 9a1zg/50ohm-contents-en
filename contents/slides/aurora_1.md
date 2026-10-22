@@ -11,7 +11,7 @@
 ## Aurora and amateur radio
 * Radio waves can be refracted at ionised oxygen and nitrogen atoms
 * Usable especially for VHF DX contacts
-* Voice hardly usable (large bandwidth)
+* Voice of little use (large bandwidth)
 * Usable for CW and data modes
 * Report: "A" is given instead of T, because the tone is rough and fluctuating 
 

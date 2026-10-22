@@ -1,4 +1,4 @@
-* Basics of the ionosphere, sunspot activity and the "skip zone" are in Class N
+* Basics of the ionosphere, sunspot activity and the "skip zone" were covered in Class N
 * Going deeper into propagation
 * Radiation from the sun knocks electrons out of oxygen and nitrogen atoms and molecules in the upper atmosphere $\rightarrow$ ionisation
 * Free electrons are set oscillating by radio waves $\rightarrow$ refraction of the radio waves
@@ -111,7 +111,7 @@ Little residual atmosphere, so the electrons take a long time to find an ion to 
 ## Solar cycle
 <left>
 * Every 11 years on average, through reversal of the magnetic field
-* More intense ultraviolet and X-rays
+* More intense ultraviolet radiation and X-rays
 * Leads to strong ionisation of the $F_2$ region
 </left>
 <right>

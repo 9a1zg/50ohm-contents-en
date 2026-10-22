@@ -1,6 +1,6 @@
 To set up a contact between two places via the sky wave, a frequency must be chosen that the ionosphere reliably bends back to the earth. As a rule this applies not just to a single frequency but to a whole frequency range. Often the highest amateur band within this range is chosen.
 
-This frequency range is limited at the top by the *MUF* (*maximum usable frequency*), that is, the highest frequency that the ionosphere can just still bend back for the distance between transmitter and receiver. 
+This frequency range is limited at the top by the *MUF* (*maximum usable frequency*), that is, the highest frequency that the ionosphere can still just bend back for the distance between transmitter and receiver. 
 
 [question:EH204]
 

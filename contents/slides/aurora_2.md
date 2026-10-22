@@ -4,7 +4,7 @@
 [photo:217:e_aurora:Aurora at the emergency communications training weekend in May 2024]
 </left>
 <right>
-* Aurora takes place near the poles
+* Aurora occurs near the poles
 * Aurora is at the height of the E region ($\num{90}$ to $\qty{130}{\kilo\meter}$)
 * Charged particles from the sun enter the atmosphere
 </right>

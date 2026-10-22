@@ -32,7 +32,7 @@ $f_c$ is the critical frequency at which radio rays arriving vertically at the i
 
 <left>
 * Depends on the ionisation in the D layer
-* The less attenuation in the D layer, the more lower-frequency radio waves can pass through this layer and be reflected at the higher layers
+* The less attenuation in the D layer, the lower the frequencies that can pass through this layer and be reflected at the higher layers
 </left>
 <right>
 [picture:731:e_atmosphaeren_schichten:Layers of the atmosphere relevant to amateur radio]
