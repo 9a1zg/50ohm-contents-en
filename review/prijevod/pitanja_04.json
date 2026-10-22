@@ -1,0 +1,1189 @@
+{
+  "pitanja": {
+    "ED506": {
+      "question": "A crystal oscillator is a generator of oscillations in which the frequency ...",
+      "answer_a": "is determined by a crystal.",
+      "answer_b": "is amplified by a crystal.",
+      "answer_c": "is filtered by a crystal low-pass filter.",
+      "answer_d": "is filtered by a crystal high-pass filter."
+    },
+    "ED505": {
+      "question": "What happens to the frequency of an LC oscillator if the inductance of the inductor decreases as the temperature rises?",
+      "answer_a": "The frequency rises.",
+      "answer_b": "The frequency falls.",
+      "answer_c": "The oscillations stop immediately.",
+      "answer_d": "The frequency remains stable."
+    },
+    "ED504": {
+      "question": "What happens to the frequency of an LC oscillator if the inductance of the inductor increases as the temperature rises?",
+      "answer_a": "The frequency falls.",
+      "answer_b": "The frequency rises.",
+      "answer_c": "The frequency remains stable.",
+      "answer_d": "The oscillations stop immediately."
+    },
+    "ED503": {
+      "question": "What happens to the frequency of an LC oscillator if the capacitance of the capacitor decreases as the temperature rises?",
+      "answer_a": "The frequency rises.",
+      "answer_b": "The oscillations stop immediately.",
+      "answer_c": "The frequency falls.",
+      "answer_d": "The frequency remains stable."
+    },
+    "ED502": {
+      "question": "What happens to the frequency of an LC oscillator if the capacitance of the capacitor increases as the temperature rises?",
+      "answer_a": "The frequency falls.",
+      "answer_b": "The oscillations stop immediately.",
+      "answer_c": "The frequency rises.",
+      "answer_d": "The frequency remains stable."
+    },
+    "ED501": {
+      "question": "What is an LC oscillator? It is a generator of oscillations in which the frequency ...",
+      "answer_a": "is determined by an inductor and a capacitor forming a tuned circuit.",
+      "answer_b": "is determined by a highly stable crystal.",
+      "answer_c": "is filtered by an LC low-pass filter.",
+      "answer_d": "is filtered by an LC high-pass filter."
+    },
+    "ND201": {
+      "question": "What is meant by an \"oscillator\"?",
+      "answer_a": "It is a generator of oscillations.",
+      "answer_b": "It is a very narrow filter.",
+      "answer_c": "It is a measuring instrument for displaying oscillations.",
+      "answer_d": "It is a radio-frequency amplifier."
+    },
+    "AD705": {
+      "question": "A frequency synthesiser is to generate an adjustable frequency with high frequency accuracy. The accuracy and stability of the output frequency of a frequency synthesiser are mainly determined by ...",
+      "answer_a": "the characteristics of the crystal oscillator used.",
+      "answer_b": "the characteristics of the voltage-controlled oscillator (VCO).",
+      "answer_c": "the characteristics of the frequency dividers used.",
+      "answer_d": "the characteristics of the phase detector used."
+    },
+    "AD704": {
+      "question": "The frequency at point A is 12.5 kHz. Output frequencies in the range from 12.000 MHz to 14.000 MHz are to be generated. Over what range does the division ratio n vary?",
+      "answer_a": "960 to 1120",
+      "answer_b": "300 to 857",
+      "answer_c": "960 to 857",
+      "answer_d": "300 to 1120"
+    },
+    "AD703": {
+      "question": "In the following circuit, what must the frequency at point A be if a channel spacing of 12.5 kHz is required?",
+      "answer_a": "12.5 kHz",
+      "answer_b": "25 kHz",
+      "answer_c": "1.25 kHz",
+      "answer_d": "11.64 Hz"
+    },
+    "AD702": {
+      "question": "Which of the following statements is correct when the control loop shown in the picture is in a stable state?",
+      "answer_a": "The frequencies at points A and B are equal.",
+      "answer_b": "The frequency at point A is higher than the frequency at point B.",
+      "answer_c": "The frequencies at points A and C are equal.",
+      "answer_d": "The frequency at point B is higher than the frequency at point C."
+    },
+    "AD701": {
+      "question": "Which blocks must a phase-locked loop (PLL) contain as a minimum?",
+      "answer_a": "A VCO, a low-pass filter and a phase detector",
+      "answer_b": "A VCO, a high-pass filter and a phase detector",
+      "answer_c": "A phase detector, a low-pass filter and a frequency divider",
+      "answer_d": "A phase detector, a high-pass filter and a frequency divider"
+    },
+    "AD806": {
+      "question": "In a 50 Ω system, a power of 100 W is fed into a symmetrical 20 dB attenuator. The resistor $R_{\\textrm{L}}$ = 50 Ω is matched to the attenuator. What total power is converted into heat in the attenuator?",
+      "answer_a": "99 W",
+      "answer_b": "50 W",
+      "answer_c": "2 W",
+      "answer_d": "1 W"
+    },
+    "AD805": {
+      "question": "The diagram shows a symmetrical 50 Ω attenuator. What impedance can be measured between $a$ and $b$ if $R_{\\textrm{L}}$ = 50 Ω?",
+      "answer_a": "50 Ω",
+      "answer_b": "100 Ω",
+      "answer_c": "$R_1$ + 50 Ω",
+      "answer_d": "$R_1$ + $R_2$ + 50 Ω"
+    },
+    "AD804": {
+      "question": "The diagram shows a 6 dB attenuator. What is the ratio between the input power $P_{\\textrm{IN}}$ and the power in the load resistor $P_{\\textrm{RL}}$?",
+      "answer_a": "4",
+      "answer_b": "2",
+      "answer_c": "3",
+      "answer_d": "6"
+    },
+    "AD803": {
+      "question": "The diagram shows a 20 dB attenuator. What is the ratio between the input power $P_{\\textrm{IN}}$ and the power in the load resistor $P_{\\textrm{RL}}$?",
+      "answer_a": "100",
+      "answer_b": "10",
+      "answer_c": "20",
+      "answer_d": "50"
+    },
+    "AD802": {
+      "question": "What does this circuit show?",
+      "answer_a": "Attenuator",
+      "answer_b": "Amplifier",
+      "answer_c": "High-pass filter",
+      "answer_d": "Low-pass filter"
+    },
+    "AD801": {
+      "question": "What does this circuit show?",
+      "answer_a": "Attenuator",
+      "answer_b": "Amplifier",
+      "answer_c": "High-pass filter",
+      "answer_d": "Low-pass filter"
+    },
+    "AE101": {
+      "question": "Which value must be substituted for X in the following statement? According to the Amateur Radio Ordinance (Amateurfunkverordnung, AFuV), the \"occupied bandwidth\" is the width of a frequency band such that, below its lower and above its upper frequency limits, the mean powers emitted are each equal to X of the total mean power.",
+      "answer_a": "0.5 %",
+      "answer_b": "1 %",
+      "answer_c": "5 %",
+      "answer_d": "10 %"
+    },
+    "EE101": {
+      "question": "Which of the following diagrams shows an unmodulated carrier?"
+    },
+    "NE102": {
+      "question": "Which of the following answer options contains only types of modulation?",
+      "answer_a": "SSB, FM, AM",
+      "answer_b": "RTTY, PSK31, SSTV",
+      "answer_c": "M17, FT8, JS8",
+      "answer_d": "THOR, Olivia, FreeDV"
+    },
+    "NE101": {
+      "question": "By means of modulation ...",
+      "answer_a": "information is transferred to one or more carriers.",
+      "answer_b": "information is extracted from one or more carriers.",
+      "answer_c": "voice and CW signals are combined.",
+      "answer_d": "AF components are removed from the signal."
+    },
+    "AE214": {
+      "question": "Which of these amplitude-modulated signals occupies the smallest bandwidth?"
+    },
+    "AE213": {
+      "question": "What is the function of the equaliser in an SSB transmitter?",
+      "answer_a": "It is used to match the frequency response of the microphone to the operator.",
+      "answer_b": "It is used to generate the SSB signal.",
+      "answer_c": "It is used to suppress harmonics in the transmitted signal.",
+      "answer_d": "It is used to increase the carrier suppression."
+    },
+    "AE212": {
+      "question": "What is the consequence of setting the compression of the compressor in an SSB transmitter too high?",
+      "answer_a": "The intelligibility of the audio signal at the receiving end decreases.",
+      "answer_b": "The carrier suppression decreases.",
+      "answer_c": "The modulation of the transmitter leads to the destruction of the output stage.",
+      "answer_d": "The signal cannot be demodulated in the receiver."
+    },
+    "AE211": {
+      "question": "What is the function of the compressor in an SSB transmitter?",
+      "answer_a": "The mean transmitter power is raised with little distortion.",
+      "answer_b": "The mean transmitter power is reduced.",
+      "answer_c": "The dynamic range of the modulating signal is increased.",
+      "answer_d": "The communication range in CW is increased."
+    },
+    "AE210": {
+      "question": "What is meant by an AF compressor?",
+      "answer_a": "A speech processor for reducing the dynamic range of the modulation",
+      "answer_b": "A speech processor for increasing the dynamic range of the modulation",
+      "answer_c": "A signal processor for sampling the RF signal",
+      "answer_d": "A signal processor for sampling the IF signal"
+    },
+    "AE209": {
+      "question": "What should the spacing between the transmit frequencies of two SSB signals be in order to keep mutual interference in SSB telephony to a minimum?",
+      "answer_a": "3 kHz",
+      "answer_b": "12.5 kHz",
+      "answer_c": "25 kHz",
+      "answer_d": "455 kHz"
+    },
+    "AE208": {
+      "question": "To save bandwidth, the frequency range of an AF speech signal applied to an SSB modulator should ...",
+      "answer_a": "not exceed 2.7 kHz.",
+      "answer_b": "not exceed 1.8 kHz.",
+      "answer_c": "not exceed 800 Hz.",
+      "answer_d": "not exceed 15 kHz."
+    },
+    "AE207": {
+      "question": "The following oscillogram shows ...",
+      "answer_a": "a typical two-tone SSB test signal.",
+      "answer_b": "a typical single-tone FM test signal.",
+      "answer_c": "a typical 100 % AM signal.",
+      "answer_d": "a typical CW signal."
+    },
+    "AE206": {
+      "question": "Which module should be used to generate a double-sideband suppressed-carrier signal by analogue means?",
+      "answer_a": "Balanced mixer",
+      "answer_b": "Crystal filter",
+      "answer_c": "Band-pass filter",
+      "answer_d": "Demodulator"
+    },
+    "AE205": {
+      "question": "An overmodulated SSB transmit signal leads to ...",
+      "answer_a": "splatter.",
+      "answer_b": "cross-modulation.",
+      "answer_c": "reduced sidebands.",
+      "answer_d": "excessive deviation."
+    },
+    "AE204": {
+      "question": "To avoid sideband splatter, the modulation depth of an AM signal should be below ...",
+      "answer_a": "100 %.",
+      "answer_b": "50 %.",
+      "answer_c": "75 %.",
+      "answer_d": "25 %."
+    },
+    "AE203": {
+      "question": "Which picture shows overmodulation of an AM signal?"
+    },
+    "AE202": {
+      "question": "The following oscillogram shows an AM signal. The modulation depth here is approx.",
+      "answer_a": "50 %.",
+      "answer_b": "33 %.",
+      "answer_c": "67 %.",
+      "answer_d": "75 %."
+    },
+    "AE201": {
+      "question": "Which picture shows AM with a modulation depth of 100 %?"
+    },
+    "EE207": {
+      "question": "How does the bandwidth of CW compare with that of a voice signal in SSB or AM?",
+      "answer_a": "In both cases CW has a smaller bandwidth.",
+      "answer_b": "In both cases CW has a larger bandwidth.",
+      "answer_c": "The bandwidth of CW is smaller than that of SSB but larger than that of AM.",
+      "answer_d": "The bandwidth of CW is larger than that of SSB but smaller than that of AM."
+    },
+    "EE206": {
+      "question": "What is the effect of too little microphone gain on an SSB transceiver?",
+      "answer_a": "Low output power",
+      "answer_b": "Interference to stations operating on a different frequency band",
+      "answer_c": "Low bandwidth",
+      "answer_d": "Interference to stations operating on closely adjacent frequencies"
+    },
+    "EE205": {
+      "question": "Which of the measures listed reduces the output power of an SSB transmitter?",
+      "answer_a": "Reducing the AF amplitude",
+      "answer_b": "Speaking more loudly into the microphone",
+      "answer_c": "Reducing the squelch setting",
+      "answer_d": "Increasing the AF bandwidth"
+    },
+    "EE204": {
+      "question": "A carrier of 3.65 MHz is modulated in SSB (LSB) with an audio frequency of 2 kHz. Which frequency or frequencies mainly appear in the modulated RF signal?",
+      "answer_a": "3.648 MHz",
+      "answer_b": "3.648 MHz and 3.650 MHz",
+      "answer_c": "3.652 MHz",
+      "answer_d": "3.648 MHz and 3.652 MHz"
+    },
+    "EE203": {
+      "question": "A carrier of 21.250 MHz is modulated in SSB (USB) with an audio frequency of 1 kHz. Which frequency appears in the ideally modulated RF signal?",
+      "answer_a": "21.251 MHz",
+      "answer_b": "21.250 MHz",
+      "answer_c": "21.249 MHz",
+      "answer_d": "21.260 MHz"
+    },
+    "EE202": {
+      "question": "About how much RF bandwidth is required to transmit an SSB signal?",
+      "answer_a": "It is equal to the bandwidth of the AF signal.",
+      "answer_b": "It is equal to half the bandwidth of the AF signal.",
+      "answer_c": "It is equal to twice the bandwidth of the AF signal.",
+      "answer_d": "It is zero, because the RF carrier is suppressed in SSB modulation."
+    },
+    "EE201": {
+      "question": "How does SSB differ from AM with regard to bandwidth?",
+      "answer_a": "SSB occupies less than half the bandwidth of AM.",
+      "answer_b": "SSB occupies slightly more than half the bandwidth of AM.",
+      "answer_c": "SSB occupies about 1/4 of the bandwidth of AM.",
+      "answer_d": "SSB and AM cannot be compared, because they are generated in fundamentally different ways."
+    },
+    "NE212": {
+      "question": "You cannot understand the speech when receiving SSB. Which course of action will solve the problem?",
+      "answer_a": "You check the sideband setting and turn the VFO knob.",
+      "answer_b": "You turn the VFO knob and press the TUNE button.",
+      "answer_c": "You turn the RIT knob and press the PTT.",
+      "answer_d": "You watch the waterfall display and switch to AM."
+    },
+    "NE211": {
+      "question": "On the 80 m band, the SSB modulation method \"lower sideband\" is used for voice. Which \"MODE\" do you set the amateur radio receiver to?",
+      "answer_a": "LSB",
+      "answer_b": "USB",
+      "answer_c": "AM",
+      "answer_d": "SSB"
+    },
+    "NE210": {
+      "question": "The \"upper sideband\" is used on the 2 m band. Which \"MODE\" do you set the amateur radio transceiver to?",
+      "answer_a": "USB",
+      "answer_b": "LSB",
+      "answer_c": "FM",
+      "answer_d": "CW"
+    },
+    "NE209": {
+      "question": "The diagram shows the display of a transceiver. What does the indication \"USB\" mean?",
+      "answer_a": "The transceiver is receiving SSB on the upper sideband.",
+      "answer_b": "The transceiver is receiving SSB on the lower sideband.",
+      "answer_c": "The \"Ultra Small Bandwidth\" mode is activated.",
+      "answer_d": "The battery has reached its undervoltage level."
+    },
+    "NE208": {
+      "question": "Which spectrum results from single-sideband modulation in LSB with this audio spectrum?"
+    },
+    "NE207": {
+      "question": "Which spectrum results from single-sideband modulation in USB with this audio spectrum?"
+    },
+    "NE206": {
+      "question": "Which spectrum results from AM with this audio spectrum?"
+    },
+    "NE205": {
+      "question": "Which terms correspond to regions a and b of the modulation method AM?",
+      "answer_a": "a = LSB; b = USB",
+      "answer_b": "a = USB; b = LSB",
+      "answer_c": "a = DSB; b = SSB",
+      "answer_d": "a = AF; b = RF"
+    },
+    "NE204": {
+      "question": "What is the difference between LSB and USB?",
+      "answer_a": "LSB uses carrier suppression and the lower sideband; USB uses carrier suppression and the upper sideband.",
+      "answer_b": "LSB uses a carrier and two sidebands; USB uses carrier suppression and one sideband.",
+      "answer_c": "LSB uses a carrier and one sideband; USB uses carrier suppression and both sidebands.",
+      "answer_d": "LSB uses carrier suppression and the left sideband; USB uses carrier suppression and the lower sideband."
+    },
+    "NE203": {
+      "question": "What is the difference between AM and SSB?",
+      "answer_a": "AM has a carrier and two sidebands; SSB uses carrier suppression and only one sideband.",
+      "answer_b": "AM has a carrier and one sideband; SSB uses carrier suppression and has two sidebands.",
+      "answer_c": "AM has no carrier and two sidebands; SSB uses carrier suppression and only one sideband.",
+      "answer_d": "AM has no carrier and two sidebands; SSB uses a carrier and only one sideband."
+    },
+    "NE202": {
+      "question": "Which statement about amplitude modulation is correct? The information signal ...",
+      "answer_a": "affects the amplitude of the carrier. The frequency of the carrier remains constant.",
+      "answer_b": "affects the frequency of the carrier. The amplitude of the carrier remains constant.",
+      "answer_c": "affects the amplitude and the frequency of the carrier simultaneously.",
+      "answer_d": "affects the amplitude and the frequency of the carrier one after the other."
+    },
+    "NE201": {
+      "question": "How is information transmitted in \"CW\" (continuous wave)?",
+      "answer_a": "By switching an RF carrier on and off",
+      "answer_b": "By changing the carrier frequency in discrete steps",
+      "answer_c": "By modulating a subcarrier",
+      "answer_d": "By discrete phase modulation"
+    },
+    "AE313": {
+      "question": "Which answer describes the modulation type \"PM\"?",
+      "answer_a": "The phase of a carrier signal is varied in accordance with a signal to be transmitted.",
+      "answer_b": "The amplitude of a carrier signal is varied in accordance with a signal to be transmitted.",
+      "answer_c": "The polarisation of a carrier signal is varied in accordance with a signal to be transmitted.",
+      "answer_d": "The direction of a carrier signal is varied in accordance with a signal to be transmitted."
+    },
+    "AE312": {
+      "question": "The bandwidth of an FM transmitter is not to exceed 10 kHz. What is the maximum permissible frequency deviation at a modulating frequency of 2.7 kHz?",
+      "answer_a": "2.3 kHz",
+      "answer_b": "7.7 kHz",
+      "answer_c": "4.6 kHz",
+      "answer_d": "12.7 kHz"
+    },
+    "AE311": {
+      "question": "The bandwidth of an FM signal is not to exceed 10 kHz. The deviation is 2.5 kHz. What is the highest modulating frequency in this case?",
+      "answer_a": "2.5 kHz",
+      "answer_b": "1.5 kHz",
+      "answer_c": "3 kHz",
+      "answer_d": "2 kHz"
+    },
+    "AE310": {
+      "question": "The typical peak deviation of an NBFM signal with 12.5 kHz channel spacing is ...",
+      "answer_a": "2.5 kHz.",
+      "answer_b": "25 kHz.",
+      "answer_c": "6.25 kHz.",
+      "answer_d": "12.5 kHz."
+    },
+    "AE309": {
+      "question": "A carrier of 145 MHz is frequency modulated with an audio frequency of 2 kHz and a deviation of 1.8 kHz. What is the approximate bandwidth of the modulated signal? The bandwidth is about ...",
+      "answer_a": "7.6 kHz",
+      "answer_b": "3.8 kHz",
+      "answer_c": "5.8 kHz",
+      "answer_d": "12 kHz"
+    },
+    "AE308": {
+      "question": "According to Carson's rule, what is the bandwidth of an FM signal with a modulating frequency of 2.7 kHz and a deviation of 2.5 kHz?",
+      "answer_a": "10.4 kHz",
+      "answer_b": "12.5 kHz",
+      "answer_c": "5.5 kHz",
+      "answer_d": "2.5 kHz"
+    },
+    "AE307": {
+      "question": "In frequency modulation, driving the modulator too hard leads to ...",
+      "answer_a": "an increase in the RF bandwidth.",
+      "answer_b": "overdriving of the RF output stage.",
+      "answer_c": "distortion of the transmitted RF signal.",
+      "answer_d": "overloading of the power supply."
+    },
+    "AE306": {
+      "question": "An FM telephony transmission with too much deviation may lead ...",
+      "answer_a": "to adjacent-channel interference.",
+      "answer_b": "to a reduction in output power.",
+      "answer_c": "to unwanted limiting of the carrier signal.",
+      "answer_d": "to cancellation of the sidebands."
+    },
+    "AE305": {
+      "question": "What effect does increasing the deviation of a frequency-modulated transmitter have in the receiver?",
+      "answer_a": "A higher volume",
+      "answer_b": "Greater speech compression",
+      "answer_c": "A reduction in the signal-to-noise ratio",
+      "answer_d": "A lower volume"
+    },
+    "AE304": {
+      "question": "If the modulating frequency of an FM transmitter is too high, the result is that ...",
+      "answer_a": "the RF bandwidth becomes too large.",
+      "answer_b": "the transmitter output stage is overdriven.",
+      "answer_c": "distortion occurs because of unwanted suppression of the carrier frequency.",
+      "answer_d": "distortion occurs because of mutual cancellation of the sidebands."
+    },
+    "AE303": {
+      "question": "A crystal oscillator circuit with a varactor diode makes it possible ...",
+      "answer_a": "to generate frequency modulation.",
+      "answer_b": "to generate double-sideband modulation.",
+      "answer_c": "to generate single-sideband modulation.",
+      "answer_d": "to generate amplitude modulation."
+    },
+    "AE302": {
+      "question": "Which of the following transmission methods is least susceptible to impulse interference caused by sparking in electric motors?",
+      "answer_a": "FM voice, because here the important information is not contained in the amplitude.",
+      "answer_b": "CW Morse telegraphy, because here the important information lies in the amplitude of two sidebands.",
+      "answer_c": "SSB voice, because here the important information is contained in the amplitude of one sideband.",
+      "answer_d": "AM voice, because here the important information is contained in the amplitudes of the two sidebands."
+    },
+    "AE301": {
+      "question": "In frequency modulation, how does the frequency of a sinusoidal modulating signal affect the RF carrier?",
+      "answer_a": "It determines how often the RF carrier changes.",
+      "answer_b": "It determines how fast the carrier amplitude changes.",
+      "answer_c": "It determines how far the carrier frequency changes.",
+      "answer_d": "It determines how far the carrier amplitude changes."
+    },
+    "EE306": {
+      "question": "In frequency modulation, how is the volume information transmitted?",
+      "answer_a": "By the deviation of the carrier frequency.",
+      "answer_b": "By how often the carrier frequency changes.",
+      "answer_c": "By how often the frequency deviation occurs.",
+      "answer_d": "By the size of the amplitude of the RF signal."
+    },
+    "EE305": {
+      "question": "How can an excessive bandwidth of an FM transmission be reduced? By reducing the ...",
+      "answer_a": "deviation setting.",
+      "answer_b": "RF limiting.",
+      "answer_c": "bias regulator setting.",
+      "answer_d": "carrier frequency."
+    },
+    "EE304": {
+      "question": "In an FM transmitter, a greater frequency deviation leads to ...",
+      "answer_a": "a greater RF bandwidth.",
+      "answer_b": "an increase in the transmitter output power.",
+      "answer_c": "an increase in the amplitude of the carrier frequency.",
+      "answer_d": "a reduction in the amplitudes of the sidebands."
+    },
+    "EE303": {
+      "question": "Which of the following modulation methods is least affected by amplitude interference in motor vehicles?",
+      "answer_a": "FM",
+      "answer_b": "SSB",
+      "answer_c": "DSB",
+      "answer_d": "AM"
+    },
+    "EE302": {
+      "question": "Compared with SSB, FM has the advantage of ...",
+      "answer_a": "being less affected by amplitude interference.",
+      "answer_b": "making low demands on bandwidth.",
+      "answer_c": "covering greater distances.",
+      "answer_d": "drawing less power in the absence of modulation."
+    },
+    "EE301": {
+      "question": "Which modulation method does the picture show?",
+      "answer_a": "FM",
+      "answer_b": "AM",
+      "answer_c": "USB",
+      "answer_d": "LSB"
+    },
+    "NE310": {
+      "question": "How are two FM stations heard on the repeater output if they are received on the repeater input at the same time and with equal strength?",
+      "answer_a": "They interfere with each other to the point of being unreadable.",
+      "answer_b": "They do not interfere with each other; each station can be heard at half volume.",
+      "answer_c": "They are received alternately on the output.",
+      "answer_d": "Only the station that started transmitting first can be heard."
+    },
+    "NE309": {
+      "question": "Which type of modulation is normally used for voice on analogue VHF/UHF repeaters?",
+      "answer_a": "FM",
+      "answer_b": "AM",
+      "answer_c": "SSB",
+      "answer_d": "DMR"
+    },
+    "NE308": {
+      "question": "Which transmission methods are used for voice on VHF/UHF repeaters?",
+      "answer_a": "FM voice, DMR, D-STAR",
+      "answer_b": "CW Morse telegraphy, FT8, D-STAR",
+      "answer_c": "SSB voice, DMR, RTTY",
+      "answer_d": "AM voice, C4FM, FT8"
+    },
+    "NE307": {
+      "question": "Which transmission methods are normally used with VHF/UHF handheld transceivers?",
+      "answer_a": "FM voice, DMR, D-STAR",
+      "answer_b": "CW Morse telegraphy, FT8, D-STAR",
+      "answer_c": "SSB voice, DMR, RTTY",
+      "answer_d": "AM voice, C4FM, FT8"
+    },
+    "NE306": {
+      "question": "What can you do if the deviation of a handheld or mobile transceiver is too high?",
+      "answer_a": "Speak more quietly into the microphone",
+      "answer_b": "Speak more loudly into the microphone",
+      "answer_c": "Use less power",
+      "answer_d": "Use more power"
+    },
+    "NE305": {
+      "question": "The total bandwidth of an FM transmission is 15 kHz. At least how far from a band edge must the transmit frequency set on the transceiver be for the emission to stay within the band?",
+      "answer_a": "7.5 kHz",
+      "answer_b": "0 kHz",
+      "answer_c": "15 kHz",
+      "answer_d": "2.7 kHz"
+    },
+    "NE304": {
+      "question": "You are transmitting with 2 W in FM on the 70 cm band. What transmit power is indicated if you first speak loudly into the microphone, then quietly, and then not at all?",
+      "answer_a": "Always 2 W",
+      "answer_b": "First 2 W, then 1 W and finally 0 W",
+      "answer_c": "First 1 W, then 0.5 W and finally 0 W",
+      "answer_d": "Always 1 W"
+    },
+    "NE303": {
+      "question": "What effect does frequency modulation (FM) have on the amplitude of the transmitted signal?",
+      "answer_a": "Ideally, the modulating signal has no effect on the amplitude of the transmitted signal.",
+      "answer_b": "Ideally, the amplitude of the transmitted signal corresponds to the amplitude of the modulating signal.",
+      "answer_c": "The faster the oscillation of the modulating signal, the greater the amplitude of the transmitted signal.",
+      "answer_d": "The greater the amplitude of the modulating signal, the greater the amplitude of the transmitted signal."
+    },
+    "NE302": {
+      "question": "Which answer describes the modulation type \"FM\"?",
+      "answer_a": "The frequency of a carrier signal is varied in accordance with a signal to be transmitted.",
+      "answer_b": "The amplitude of a carrier signal is varied in accordance with a signal to be transmitted.",
+      "answer_c": "The polarisation of a carrier signal is varied in accordance with a signal to be transmitted.",
+      "answer_d": "The direction of a carrier signal is varied in accordance with a signal to be transmitted."
+    },
+    "NE301": {
+      "question": "Which statement about frequency modulation is correct? The information signal ...",
+      "answer_a": "affects the frequency of the carrier. The amplitude of the carrier remains constant.",
+      "answer_b": "affects the amplitude of the carrier. The frequency of the carrier remains constant.",
+      "answer_c": "affects the frequency and the amplitude of the carrier simultaneously.",
+      "answer_d": "affects first the frequency and then the amplitude of the carrier."
+    },
+    "AE422": {
+      "question": "With which type of channel impairment is orthogonal frequency-division multiplexing (OFDM) with redundant transmission particularly advantageous?",
+      "answer_a": "Multipath propagation",
+      "answer_b": "Impulses from thunderstorms",
+      "answer_c": "Broadband noise",
+      "answer_d": "Signals from distant OFDM transmitters via enhanced propagation"
+    },
+    "AE421": {
+      "question": "Orthogonal frequency-division multiplexing (OFDM) with redundant transmission is particularly insensitive to ...",
+      "answer_a": "narrow-band interference, because the overall signal consists of several individual carriers.",
+      "answer_b": "narrow-band interference, because a single carrier with a wide bandwidth is used.",
+      "answer_c": "broadband interference, because the overall signal consists of several individual carriers.",
+      "answer_d": "broadband interference, because a single carrier with a wide bandwidth is used."
+    },
+    "AE420": {
+      "question": "A transmission channel with a bandwidth of 2.7 kHz is disturbed by additive white Gaussian noise (AWGN). The signal-to-noise ratio (SNR) is -20 dB. According to the Shannon–Hartley theorem, about what maximum bit rate can be transmitted without errors?",
+      "answer_a": "Approx. 39 bit/s",
+      "answer_b": "0 bit/s (transmission not possible)",
+      "answer_c": "Approx. 2.7 kbit/s",
+      "answer_d": "Approx. 5.4 kbit/s"
+    },
+    "AE419": {
+      "question": "A transmission channel with a bandwidth of 10 MHz is disturbed by additive white Gaussian noise (AWGN). The signal-to-noise ratio (SNR) is 30 dB. According to the Shannon–Hartley theorem, about what maximum bit rate can be transmitted without errors?",
+      "answer_a": "Approx. 100 Mbit/s",
+      "answer_b": "Approx. 10 Mbit/s",
+      "answer_c": "Approx. 7 Mbit/s",
+      "answer_d": "Approx. 8 Mbit/s"
+    },
+    "AE418": {
+      "question": "A transmission channel with a bandwidth of 10 MHz is disturbed by additive white Gaussian noise (AWGN). The signal-to-noise ratio (SNR) is 0 dB. According to the Shannon–Hartley theorem, about what maximum bit rate can be transmitted without errors?",
+      "answer_a": "Approx. 10 Mbit/s",
+      "answer_b": "Approx. 7 Mbit/s",
+      "answer_c": "Approx. 8 Mbit/s",
+      "answer_d": "Approx. 100 Mbit/s"
+    },
+    "AE417": {
+      "question": "A transmission channel with a bandwidth of 2.7 kHz is disturbed by additive white Gaussian noise (AWGN). The signal-to-noise ratio (SNR) is 0 dB. According to the Shannon–Hartley theorem, about what maximum bit rate can be transmitted without errors?",
+      "answer_a": "Approx. 2.7 kbit/s",
+      "answer_b": "0 bit/s (transmission not possible)",
+      "answer_c": "Approx. 2.7 bit/s",
+      "answer_d": "Approx. 39 bit/s"
+    },
+    "AE416": {
+      "question": "Which statement applies to the Shannon–Hartley theorem? The theorem ...",
+      "answer_a": "determines, for a transmission channel of given bandwidth, the highest theoretically achievable data rate as a function of the signal-to-noise ratio.",
+      "answer_b": "states that, regardless of the type of interference prevailing on a transmission channel, an unlimited data rate can theoretically be achieved.",
+      "answer_c": "determines the maximum bandwidth that can theoretically be occupied by a transmission at a given data rate.",
+      "answer_d": "states that an infinite sampling rate is theoretically required to reconstruct a band-limited signal without errors."
+    },
+    "AE415": {
+      "question": "In digital transmission methods, what effect does increasing the speed of switching between different symbols have on the required bandwidth? The bandwidth ...",
+      "answer_a": "increases.",
+      "answer_b": "decreases.",
+      "answer_c": "stays the same.",
+      "answer_d": "increases in the upper sideband and decreases in the lower sideband."
+    },
+    "AE414": {
+      "question": "What is the prerequisite for forward error correction (FEC)?",
+      "answer_a": "Transmission of redundant information",
+      "answer_b": "Compression before transmission",
+      "answer_c": "Retransmission of corrupted data",
+      "answer_d": "Automatic adjustment of the transmit power"
+    },
+    "AE413": {
+      "question": "You are using a data transmission method <u>without</u> forward error correction. By what means can data packets still be corrected despite checksum errors?",
+      "answer_a": "Retransmission",
+      "answer_b": "Repeated checking",
+      "answer_c": "Duplicating the checksum",
+      "answer_d": "I/Q method"
+    },
+    "AE412": {
+      "question": "A digital transmission is protected by a single check bit (parity bit). The receiver does <u>not</u> detect a transmission error in the parity check. What does this say about whether the transmitted user data and the check bit are free of errors?",
+      "answer_a": "Either the transmission was error-free or an even number of bit errors occurred.",
+      "answer_b": "Either the transmission was error-free or an odd number of bit errors occurred.",
+      "answer_c": "The transmission was error-free.",
+      "answer_d": "The user data were transmitted without errors, but the check bit was corrupted."
+    },
+    "AE411": {
+      "question": "A digital transmission is protected by a single check bit (parity bit). The receiver detects a transmission error in the parity check. How many bits, including the check bit, were transmitted incorrectly?",
+      "answer_a": "An odd number of bits",
+      "answer_b": "An even number of bits",
+      "answer_c": "At least two bits",
+      "answer_d": "At most two bits"
+    },
+    "AE410": {
+      "question": "What is meant by a cyclic redundancy check (CRC)?",
+      "answer_a": "A checksum method for detecting errors in data blocks of variable length.",
+      "answer_b": "The continuous checking of a data stream to be transmitted for redundancy.",
+      "answer_c": "Rotating (cyclic) monitoring of a frequency by several stations.",
+      "answer_d": "Repeated (cyclically redundant) checking of the amateur radio equipment for faults."
+    },
+    "AE409": {
+      "question": "What is meant by channel coding?",
+      "answer_a": "Adding redundancy before transmission to protect against transmission errors",
+      "answer_b": "Compressing data before transmission to reduce the amount of data",
+      "answer_c": "Encrypting the channel to protect against unauthorised interception",
+      "answer_d": "Allocating frequencies to transmit and receive channels for frequent use"
+    },
+    "AE408": {
+      "question": "By what means can the amount of data in a message to be transmitted be reduced?",
+      "answer_a": "Source coding",
+      "answer_b": "Channel coding",
+      "answer_c": "Synchronisation",
+      "answer_d": "Multiple access"
+    },
+    "AE407": {
+      "question": "What is meant by synchronisation in data transmission?",
+      "answer_a": "Establishing time alignment between transmitter and receiver.",
+      "answer_b": "Automatic reconciliation of the data sets of two or more stations.",
+      "answer_c": "Asynchronous frequency changes in which the receiver searches for the transmitter.",
+      "answer_d": "Adjusting the transmit power in synchronism with the propagation conditions."
+    },
+    "AE406": {
+      "question": "In a digital transmission method (e.g. FT4), the frequency of a transmitter is shifted between four symbol frequencies (e.g. 14081.20 kHz, 14081.40 kHz, 14081.61 kHz and 14081.83 kHz), so that two bits (00, 01, 10 or 11) can be transmitted per symbol. The symbol rate is 23.4 baud. What data rate does this correspond to?",
+      "answer_a": "46.8 bit/s",
+      "answer_b": "11.7 bit/s",
+      "answer_c": "23.4 bit/s",
+      "answer_d": "93.6 bit/s"
+    },
+    "AE405": {
+      "question": "In a digital transmission method (e.g. RTTY), the frequency of a transmitter is shifted between two symbol frequencies (e.g. 14072.43 kHz and 14072.60 kHz), so that one bit (0 or 1) can be transmitted per symbol. The symbol rate is 45.45 baud. What data rate does this correspond to?",
+      "answer_a": "45.45 bit/s",
+      "answer_b": "90.9 bit/s",
+      "answer_c": "22.725 bit/s",
+      "answer_d": "181.8 bit/s"
+    },
+    "AE404": {
+      "question": "How is quadrature amplitude modulation (QAM) usually generated? By ...",
+      "answer_a": "varying the amplitudes of two carriers phase-shifted by 90 ° and adding them",
+      "answer_b": "varying the amplitude non-linearly (square function or square root)",
+      "answer_c": "varying the amplitudes of the electric and magnetic field components of the wave separately",
+      "answer_d": "varying the frequency depending on direction (or varying the amplitude independently of direction)"
+    },
+    "AE403": {
+      "question": "How is information transmitted by means of a carrier in quadrature amplitude modulation (QAM)? By ...",
+      "answer_a": "varying the amplitude and the phase",
+      "answer_b": "varying the amplitude non-linearly",
+      "answer_c": "varying the electric and magnetic field components of the wave separately",
+      "answer_d": "varying the frequency depending on direction"
+    },
+    "AE402": {
+      "question": "What is the difference between BPSK and QPSK modulation?",
+      "answer_a": "BPSK transmits one bit per symbol, QPSK two bits per symbol.",
+      "answer_b": "QPSK transmits one bit per symbol, BPSK two bits per symbol.",
+      "answer_c": "In BPSK the I and Q components of an I/Q signal are swapped; in QPSK they are not.",
+      "answer_d": "In QPSK the I and Q components of an I/Q signal are swapped; in BPSK they are not."
+    },
+    "AE401": {
+      "question": "Which of the following diagrams shows a carrier that is recognisably modulated by phase-shift keying (PSK)?"
+    },
+    "EE415": {
+      "question": "Which statement about the difference between ATV and SSTV is correct?",
+      "answer_a": "SSTV transmits still pictures, ATV moving pictures.",
+      "answer_b": "SSTV is used only on HF, ATV on VHF.",
+      "answer_c": "SSTV occupies a larger bandwidth than ATV.",
+      "answer_d": "SSTV is in black and white, ATV in colour."
+    },
+    "EE414": {
+      "question": "Can the Internet Protocol (IP) be used in amateur radio?",
+      "answer_a": "Yes, it is not restricted to the internet.",
+      "answer_b": "Yes, the amateur call sign is encoded in the subnet mask.",
+      "answer_c": "No, this would give internet users access to the amateur band.",
+      "answer_d": "No, the bandwidth required is not available in amateur radio."
+    },
+    "EE413": {
+      "question": "With the Internet Protocol (IP), what follows from the IP address and subnet mask set on a communication interface?",
+      "answer_a": "The range of addresses that can be reached directly (i.e. without a router) via the interface",
+      "answer_b": "The protocol and port number of the protocol used over the interface",
+      "answer_c": "The remote station and the bandwidth used by the subnet",
+      "answer_d": "The default gateway and the maximum number of intermediate stations (hops)"
+    },
+    "EE412": {
+      "question": "Within a packet-switched network, how can information be exchanged between two stations that cannot reach each other directly?",
+      "answer_a": "By forwarding via intermediate stations (packet forwarding)",
+      "answer_b": "By repeated transmission (packet repetition)",
+      "answer_c": "By unpacking before transmission (packet decompression)",
+      "answer_d": "By combining transmissions (packet defragmentation)"
+    },
+    "EE411": {
+      "question": "How are several signals transmitted at the same time with code-division multiple access (CDMA)?",
+      "answer_a": "Simultaneously, using spreading codes, in the same frequency range",
+      "answer_b": "Simultaneously on different frequencies",
+      "answer_c": "Alternating rapidly in time on the same frequency",
+      "answer_d": "Simultaneously over different paths"
+    },
+    "EE410": {
+      "question": "How are several signals transmitted at the same time with frequency-division multiple access (FDMA)?",
+      "answer_a": "Simultaneously on different frequencies",
+      "answer_b": "Alternating rapidly in time on the same frequency",
+      "answer_c": "Simultaneously, using spreading codes, in the same frequency range",
+      "answer_d": "Simultaneously over different paths"
+    },
+    "EE409": {
+      "question": "How are several signals transmitted at the same time with time-division multiple access (TDMA)?",
+      "answer_a": "Alternating rapidly in time on the same frequency",
+      "answer_b": "Simultaneously on different frequencies",
+      "answer_c": "Simultaneously, using spreading codes, in the same frequency range",
+      "answer_d": "Simultaneously over different paths"
+    },
+    "EE408": {
+      "question": "What is audio frequency-shift keying (AFSK)?",
+      "answer_a": "An AF signal generated by frequency-shift keying, with which an RF carrier can be modulated (e.g. by means of FM)",
+      "answer_b": "An RF PSK signal that is transmitted on two AF carriers by means of automatic keying in order to save bandwidth",
+      "answer_c": "A combination of digital amplitude and frequency modulation in order to transmit two pieces of information simultaneously",
+      "answer_d": "An unmodulated RF carrier whose frequency deviation lies in the audible range"
+    },
+    "EE407": {
+      "question": "Which of the following diagrams shows a carrier that is recognisably modulated by frequency-shift keying (FSK)?"
+    },
+    "EE406": {
+      "question": "Which of the following diagrams shows a carrier that is recognisably modulated by amplitude-shift keying (ASK)?"
+    },
+    "EE405": {
+      "question": "How can you obtain automatic reception reports on your transmissions, e.g. to test the range of your transmitting station?",
+      "answer_a": "By transmitting a message using a suitable digital mode (e.g. CW or WSPR) and searching for your call sign on appropriate internet platforms",
+      "answer_b": "By transmitting a message using a suitable digital mode (e.g. CW or WSPR), giving your e-mail address and the maximum number of reception reports you want",
+      "answer_c": "By transmitting your call sign in telegraphy (5 WPM) with the addition \"AUTO RSVP\" (from the French \"répondez s'il vous pla\\^it\") and listening on the frequency 10 kHz higher",
+      "answer_d": "By transmitting your call sign in telegraphy (12 WPM) with the addition \"R\" (for report) and listening on the frequency 10 kHz lower"
+    },
+    "EE404": {
+      "question": "How many digital signals from different stations can be received and decoded simultaneously with an analogue radio (2.4 kHz SSB bandwidth) and a computer connected via the audio interface?",
+      "answer_a": "Depending on the type of signal, one or more signals can be received.",
+      "answer_b": "At most two signals can be received (one per sideband).",
+      "answer_c": "At most one signal can be received, because one sideband is used.",
+      "answer_d": "At most one signal can be received, unless the radio has twice the channel bandwidth."
+    },
+    "EE403": {
+      "question": "A digital signal is transmitted with a radio set to SSB. The AF bandwidth of the signal fed into the radio is 50 Hz. What is the RF bandwidth?",
+      "answer_a": "50 Hz",
+      "answer_b": "100 Hz",
+      "answer_c": "25 Hz",
+      "answer_d": "$\\sqrt{2} \\cdot$ 50 Hz"
+    },
+    "EE402": {
+      "question": "Which modulation is set on the transceiver to convert a narrow-band digital signal (e.g. BPSK31 or FT8), fed in as an AF audio signal, to RF while keeping its bandwidth?",
+      "answer_a": "Single-sideband modulation (SSB)",
+      "answer_b": "Frequency modulation (FM)",
+      "answer_c": "Amplitude modulation (AM)",
+      "answer_d": "Phase modulation (PM)"
+    },
+    "EE401": {
+      "question": "What is the difference between bandwidth and data rate?",
+      "answer_a": "Bandwidth is the frequency range used (in Hz), and data rate is the amount of data transmitted per unit of time (in bit/s).",
+      "answer_b": "Bandwidth is the amount of data transmitted (in Hz), and data rate is the number of symbols transmitted per unit of time (in baud).",
+      "answer_c": "The data rate (in bit/s) equals the symbol rate (in baud). The bandwidth (in Hz) equals the maximum possible data rate (in bit/s).",
+      "answer_d": "The data rate (in baud) equals the symbol rate (in bit/s). The bandwidth (in Hz) equals the minimum possible data rate (in baud)."
+    },
+    "NE405": {
+      "question": "What are \"links\" and what are they used for in amateur radio?",
+      "answer_a": "They are permanently established radio links, e.g. for networking repeaters or connecting to a HAMNET node.",
+      "answer_b": "They are facilities, e.g. at repeaters or digipeaters, that allow connections to be set up via the telephone network.",
+      "answer_c": "They are connections between different network protocols, e.g. AX-25 and TCP/IP.",
+      "answer_d": "They are a list of links, e.g. to amateur radio websites on HAMNET."
+    },
+    "NE404": {
+      "question": "Which transmission methods for digital voice are common in amateur radio?",
+      "answer_a": "DMR, D-STAR, C4FM, M17, FreeDV",
+      "answer_b": "AM voice, FM voice, SSB voice, Olivia, SSTV",
+      "answer_c": "FM voice, RTTY, D-STAR, JS8, Olivia",
+      "answer_d": "SSB voice, FT8, DMR, PSK31, SSTV"
+    },
+    "NE403": {
+      "question": "With certain digital methods of voice transmission (e.g. DMR or TETRA), is it possible to conduct several voice contacts simultaneously on the same frequency within one reception area?",
+      "answer_a": "Yes. The voice data are transmitted alternately in short, periodic time slots.",
+      "answer_b": "Yes. The transmit power is increased to improve the digital error correction.",
+      "answer_c": "No. Digital transmissions taking place at the same time inherently interfere with each other.",
+      "answer_d": "No. Voice transmissions cannot be split into data packets."
+    },
+    "NE402": {
+      "question": "You want to take part in a net using digital voice (e.g. C4FM, DMR or D-Star) via a repeater network. Apart from choosing the transmission method, the frequency and the modulation, what must you pay attention to?",
+      "answer_a": "You must select suitable parameters, e.g. reflector, time slot or colour code.",
+      "answer_b": "You must use the same firmware version as the repeater network.",
+      "answer_c": "All stations must set the same station identifier, e.g. DMR ID.",
+      "answer_d": "All stations must be within radio range of the same repeater."
+    },
+    "NE401": {
+      "question": "What should you bear in mind when transmitting a text by radioteletype?",
+      "answer_a": "The transmitting and receiving stations must use the same transmission method (e.g. JS8, PSK, RTTY) and, where applicable, the same method parameters.",
+      "answer_b": "The transmitting and receiving stations must have the same time zone setting (e.g. summer time) for the transmission to succeed.",
+      "answer_c": "The transmission should preferably take place in the evening and night-time hours, because the frequencies are kept free for voice contacts during the day.",
+      "answer_d": "The transmission should preferably use a fast method, so that the amateur bands are not loaded unnecessarily."
+    },
+    "NF118": {
+      "question": "What is meant by a digipeater?",
+      "answer_a": "A radio station that automatically retransmits received data packets or parts of them, possibly also with a time delay or repeatedly. Individual data fields may be changed in the process.",
+      "answer_b": "A linear transponder that converts received data packets to another frequency band. The mode used and the content of the packet are preserved in the process.",
+      "answer_c": "An integrated circuit that prepares digital signals for modulation in the radio. The station's call sign is regularly inserted into the data stream in the process.",
+      "answer_d": "A repeater station that retransmits voice transmissions on another frequency. The volume is adjusted adaptively by digital signal processing in the process."
+    },
+    "NF117": {
+      "question": "What undesirable effect can occur when a radio is controlled by a computer?",
+      "answer_a": "The radio could unexpectedly switch to transmit and thus cause unwanted emissions or endanger people.",
+      "answer_b": "The preamplifier is out of action, which could cause interference to adjacent channels and to frequencies in other bands.",
+      "answer_c": "The automatic level control (ALC) could be triggered and interfere with other digital equipment.",
+      "answer_d": "The computer can act like an electrolytic capacitor in the antenna circuit and thus shift the transmit frequency."
+    },
+    "NF116": {
+      "question": "Some transceivers have a so-called CAT interface. This connection is used ...",
+      "answer_a": "to control the transceiver, e.g. from a computer, or to query values such as frequency, transmit power or PTT by means of a serial communication protocol.",
+      "answer_b": "to tap off or feed in an AF signal (e.g. for DV or POCSAG) with as little distortion as possible by bypassing amplifier and filter stages.",
+      "answer_c": "to pass the received RF signal, as unfiltered as possible, to a computer for further processing by digital signal processing.",
+      "answer_d": "to connect a rotary encoder or a potentiometer for precise frequency setting without any further circuitry."
+    },
+    "NF115": {
+      "question": "Some FM transceivers have an analogue data port (e.g. labelled DATA or called a 9600 port). Its main purpose is ...",
+      "answer_a": "to tap off or feed in an AF signal (e.g. for DV or POCSAG) with as little distortion as possible by bypassing amplifier and filter stages.",
+      "answer_b": "to control the transceiver, e.g. from a computer, and to query values such as frequency, transmit power or PTT by means of a serial communication protocol.",
+      "answer_c": "to pass the received RF signal, as unfiltered as possible, to a computer and process it further by digital signal processing.",
+      "answer_d": "to connect a rotary encoder or a potentiometer for precise frequency setting without any further circuitry."
+    },
+    "NF114": {
+      "question": "How can a connection be made between a radio and a computer for digital transmission methods (e.g. FT8 or WSPR)?",
+      "answer_a": "An audio connection (AF signal, or digital, e.g. via a USB cable) is made between computer and radio, or a hardware modem is used.",
+      "answer_b": "The ALC socket of the radio is connected to audio or data ports of the computer by means of a hardware modem.",
+      "answer_c": "A software modem is installed and the ALC socket of the radio is connected directly to the computer (possibly via an adapter).",
+      "answer_d": "The RF connector (e.g. antenna output) of the radio is connected to a suitable data interface of the computer by means of a Y cable."
+    },
+    "NF113": {
+      "question": "Why are the uplink and downlink in satellite operation usually not in the same frequency band? Different frequency bands are used because ...",
+      "answer_a": "this makes it easier to separate the transmitted and received signals and reduces the size of the filters on the satellite.",
+      "answer_b": "the uplink is attenuated more by the ionosphere than the downlink.",
+      "answer_c": "the bandwidth is divided between both frequency bands and the band segments can be used more efficiently.",
+      "answer_d": "this reduces the Doppler effect."
+    },
+    "NF112": {
+      "question": "During an SSB QSO on the 2 m band, the other station reports: \"You are not transmitting exactly on my frequency\". What could be the cause?",
+      "answer_a": "RIT is switched on.",
+      "answer_b": "LSB is selected.",
+      "answer_c": "USB is selected.",
+      "answer_d": "The CW filter is switched on."
+    },
+    "NF111": {
+      "question": "The other station answers your call in SSB voice on a slightly different frequency. What should you do to adjust the receive frequency of your transceiver without changing the transmit frequency?",
+      "answer_a": "Change the RIT setting",
+      "answer_b": "Switch on the notch filter",
+      "answer_c": "Adjust the passband tuning",
+      "answer_d": "Press the PTT"
+    },
+    "NF110": {
+      "question": "Your transceiver switches to transmit automatically. What could be the cause?",
+      "answer_a": "VOX is switched on.",
+      "answer_b": "Squelch is switched on.",
+      "answer_c": "The PTT line is broken.",
+      "answer_d": "Repeater shift is switched on."
+    },
+    "NF109": {
+      "question": "What is the name of the setting that allows a transceiver to be switched to transmit by voice?",
+      "answer_a": "VOX",
+      "answer_b": "PTT",
+      "answer_c": "RIT",
+      "answer_d": "SSB"
+    },
+    "NF108": {
+      "question": "What is the name of the button on the microphone that switches a transceiver to transmit?",
+      "answer_a": "PTT",
+      "answer_b": "VOX",
+      "answer_c": "RIT",
+      "answer_d": "SSB"
+    },
+    "NF107": {
+      "question": "Why should a transmitter never be operated without a matched antenna or a dummy load?",
+      "answer_a": "The reflected wave could damage the transmitter output stage.",
+      "answer_b": "Because the load is missing, the supply voltage is regulated upwards, which can lead to overvoltages.",
+      "answer_c": "The absorbed power can overload the transmitter's power supply.",
+      "answer_d": "The SWR meter could be damaged."
+    },
+    "NF106": {
+      "question": "The diagram shows the display of a transceiver. What is shown in the waterfall display, and how is it shown?",
+      "answer_a": "Frequency and time on the axes, and signal strength as colour and/or brightness.",
+      "answer_b": "Frequency and signal strength on the axes, and time as colour and/or brightness.",
+      "answer_c": "Signal strength and time on the axes, and frequency as colour and/or brightness.",
+      "answer_d": "Signal strength and phase on the axes, and time as colour and/or brightness."
+    },
+    "NF105": {
+      "question": "The diagram shows the display of a transceiver. What is display element 4 called?",
+      "answer_a": "Waterfall display",
+      "answer_b": "Rainbow display",
+      "answer_c": "SWR meter",
+      "answer_d": "Power meter"
+    },
+    "NF104": {
+      "question": "The diagram shows the display of a transceiver. What is display element 3 called?",
+      "answer_a": "Spectrum display",
+      "answer_b": "Power meter",
+      "answer_c": "S meter",
+      "answer_d": "Waterfall display"
+    },
+    "NF103": {
+      "question": "The diagram shows the display of a transceiver in receive mode. What is display element 2 called?",
+      "answer_a": "S meter",
+      "answer_b": "Spectrum display",
+      "answer_c": "SWR meter",
+      "answer_d": "Waterfall display"
+    },
+    "NF102": {
+      "question": "The diagram shows the display of a transceiver. What is display element 2 called in transmit mode?",
+      "answer_a": "Power meter",
+      "answer_b": "Spectrum display",
+      "answer_c": "SWR meter",
+      "answer_d": "Waterfall display"
+    },
+    "NF101": {
+      "question": "The diagram shows the display of a transceiver in transmit mode. What is display element 1 called?",
+      "answer_a": "SWR meter",
+      "answer_b": "S meter",
+      "answer_c": "Spectrum display",
+      "answer_d": "Waterfall display"
+    },
+    "AF120": {
+      "question": "What frequencies can the three oscillators of the receiver drawn in the following block diagram have when a frequency of 3.65 MHz is being received? In which answer are all three frequencies correct?",
+      "answer_a": "VFO: 46.35 MHz CO1: 41 MHz CO2: 9.455 MHz",
+      "answer_b": "VFO: 23.65 MHz CO1: 59 MHz CO2: 8.545 MHz",
+      "answer_c": "VFO: 46.35 MHz CO1: 41 MHz CO2: 9.545 MHz",
+      "answer_d": "VFO: 46.35 MHz CO1: 40.545 MHz CO2: 9.455 MHz"
+    },
+    "AF119": {
+      "question": "A double-conversion superhet has a first IF of 10.7 MHz and a second IF of 460 kHz. The receive frequency is to be 28 MHz. What frequencies are required for the VFO and the CO if the oscillators are to operate above the mixer input signals?",
+      "answer_a": "The VFO must oscillate at 38.70 MHz and the CO at 11.16 MHz.",
+      "answer_b": "The VFO must oscillate at 10.24 MHz and the CO at 17.30 MHz.",
+      "answer_c": "The VFO must oscillate at 17.3 MHz and the CO at 10.24 MHz.",
+      "answer_d": "The VFO must oscillate at 28.460 MHz and the CO at 39.16 MHz."
+    },
+    "AF118": {
+      "question": "A double-conversion superhet has a first IF of 9 MHz and a second IF of 460 kHz. The receive frequency is to be 21.1 MHz. What frequencies are required for the VFO and the CO if the VFO is to operate above and the CO below the respective mixer input signal?",
+      "answer_a": "The VFO must oscillate at 30.1 MHz and the CO at 8.54 MHz.",
+      "answer_b": "The VFO must oscillate at 12.1 MHz and the CO at 9.46 MHz.",
+      "answer_c": "The VFO must oscillate at 12.1 MHz and the CO at 8.54 MHz.",
+      "answer_d": "The VFO must oscillate at 30.1 MHz and the CO at 9.46 MHz."
+    },
+    "AF117": {
+      "question": "The following circuit represents a double-conversion superhet. What is the function of the three blocks marked X, Y and Z?",
+      "answer_a": "X is a VFO, Y is a CO and Z is a BFO.",
+      "answer_b": "X is a VFO, Y is a BFO and Z is a CO.",
+      "answer_c": "X is a BFO, Y is a CO and Z is a VFO.",
+      "answer_d": "X is a BFO, Y is a VFO and Z is a CO."
+    },
+    "AF116": {
+      "question": "What should the bandwidth of the filter for the 1st IF in a double-conversion superhet be?",
+      "answer_a": "At least as large as the largest bandwidth required by the intended modes.",
+      "answer_b": "At least as large as twice the bandwidth of the mode in use.",
+      "answer_c": "At least as large as the widest amateur band to be received.",
+      "answer_d": "It must cover the full tuning range of the receiver."
+    },
+    "AF115": {
+      "question": "What determines the close-in selectivity of a superhet receiver?",
+      "answer_a": "The IF filters",
+      "answer_b": "The band-pass filter at the receive frequency",
+      "answer_c": "The IF gain",
+      "answer_d": "The receive preamplifier"
+    },
+    "AF114": {
+      "question": "Which relationship between the intermediate frequencies is advantageous for an HF double-conversion superhet?",
+      "answer_a": "The 1st IF is higher than twice the maximum receive frequency. After filtering in the roofing filter (1st IF), the signal is mixed down to a lower 2nd IF.",
+      "answer_b": "The 1st IF is lower than the maximum receive frequency. After filtering in the roofing filter (1st IF), the signal is mixed up to a higher 2nd IF.",
+      "answer_c": "The 1st IF is below the lowest receive frequency. The 2nd IF is above the highest receive frequency.",
+      "answer_d": "The 1st IF may be at most half the highest receive frequency. The 2nd IF is higher than twice the lowest receive frequency."
+    },
+    "AF113": {
+      "question": "Which statement is correct for a double-conversion superhet?",
+      "answer_a": "With a low second IF, good selectivity is easily achieved.",
+      "answer_b": "With a low first IF, good cross-modulation performance is easily achieved.",
+      "answer_c": "With a high first IF, high sensitivity is easily achieved.",
+      "answer_d": "With a low second IF, good image rejection is easily achieved."
+    },
+    "AF112": {
+      "question": "Which statement is correct for a double-conversion superhet?",
+      "answer_a": "With a high first IF, good image rejection is easily achieved.",
+      "answer_b": "The signal picked up by the antenna keeps its frequency all the way to the demodulator.",
+      "answer_c": "With a low first IF, good image rejection is easily achieved.",
+      "answer_d": "With a low second IF, good image rejection is easily achieved."
+    },
+    "AF111": {
+      "question": "What advantage does a high first intermediate frequency offer in superheterodyne receivers?",
+      "answer_a": "It allows high image rejection.",
+      "answer_b": "It reduces the influence of received signals on the local oscillator.",
+      "answer_c": "It avoids high image rejection.",
+      "answer_d": "It allows good close-in selectivity."
+    },
+    "AF110": {
+      "question": "In a superheterodyne receiver with one IF, what mainly determines the image rejection?",
+      "answer_a": "The frequency of the IF",
+      "answer_b": "The gain of the IF",
+      "answer_c": "The bandwidth of the IF filters",
+      "answer_d": "The AF bandwidth"
+    },
+    "AF109": {
+      "question": "What is the advantage of HF receivers with a very high first IF (e.g. 50 MHz)?",
+      "answer_a": "The image frequency lies very far outside the receive range.",
+      "answer_b": "Filters for 50 MHz have better selectivity than filters at a lower frequency.",
+      "answer_c": "Such a receiver has better strong-signal performance.",
+      "answer_d": "You get a receiver for HF and VHF at the same time."
+    },
+    "AF108": {
+      "question": "A single-conversion superhet has an IF of 10.7 MHz and is tuned to 28.5 MHz. The receiver's oscillator operates above the receive frequency. What is the image frequency?",
+      "answer_a": "49.9 MHz",
+      "answer_b": "7.1 MHz",
+      "answer_c": "39.2 MHz",
+      "answer_d": "17.8 MHz"
+    },
+    "AF107": {
+      "question": "A single-conversion superhet receiver is tuned to 14.24 MHz. The local oscillator operates at 24.94 MHz, which is above the IF. Where can image-frequency interference occur?",
+      "answer_a": "35.64 MHz",
+      "answer_b": "10.7 MHz",
+      "answer_c": "3.54 MHz",
+      "answer_d": "24.94 MHz"
+    },
+    "AF106": {
+      "question": "In a single-conversion superhet, what is always the frequency difference between the receive frequency and the image frequency?",
+      "answer_a": "Twice the IF",
+      "answer_b": "The frequency of the local oscillator",
+      "answer_c": "Twice the receive frequency",
+      "answer_d": "The IF"
+    },
+    "AF105": {
+      "question": "Because of \"fading\", the S-meter reading drops from S9 to S8. To what value does the receiver input voltage drop if 50 μV is present at the receiver input at S9? The receiver input voltage drops to",
+      "answer_a": "25 μV",
+      "answer_b": "37 μV",
+      "answer_c": "40 μV",
+      "answer_d": "30 μV"
+    },
+    "AF104": {
+      "question": "According to the S meter, a radio amateur is being received at S7. The amateur then switches on a power amplifier and asks for another report. The S meter now shows S9+8 dB. By what factor has the amateur increased the power?",
+      "answer_a": "100 times",
+      "answer_b": "20 times",
+      "answer_c": "10 times",
+      "answer_d": "120 times"
+    },
+    "AF103": {
+      "question": "A radio amateur increases the transmit power from 10 W to 100 W. Before the increase, your S meter showed exactly S8. To what reading should your S meter rise after the increase?",
+      "answer_a": "S9+4 dB",
+      "answer_b": "S9+7 dB",
+      "answer_c": "S9",
+      "answer_d": "S9+9 dB"
+    },
+    "AF102": {
+      "question": "By how many S units should the S-meter reading of your receiver rise if the other station increases the transmit power from 100 W to 400 W?",
+      "answer_a": "By one S unit",
+      "answer_b": "By two S units",
+      "answer_c": "By four S units",
+      "answer_d": "By eight S units"
+    },
+    "AF101": {
+      "question": "By how many S units should the S-meter reading of your receiver rise if the other station increases the transmit power from 25 W to 100 W?",
+      "answer_a": "By one S unit",
+      "answer_b": "By two S units",
+      "answer_c": "By four S units",
+      "answer_d": "By eight S units"
+    },
+    "EF102": {
+      "question": "What advantage does a superheterodyne receiver offer over a tuned radio frequency (TRF) receiver?",
+      "answer_a": "Better selectivity",
+      "answer_b": "Larger bandwidths",
+      "answer_c": "Lower demands on VFO stability",
+      "answer_d": "Much simpler construction"
+    },
+    "EF101": {
+      "question": "What does the following circuit represent?",
+      "answer_a": "Crystal set",
+      "answer_b": "Amplifier",
+      "answer_c": "Oscillator",
+      "answer_d": "Modulator"
+    },
+    "NF201": {
+      "question": "What does the following block diagram represent?",
+      "answer_a": "Receiver",
+      "answer_b": "Tone generator",
+      "answer_c": "Repeater",
+      "answer_d": "Transmitter"
+    },
+    "AF231": {
+      "question": "The LNB of a satellite receiving system can operate with two different operating voltages. What happens when the supply voltage at the bias tee in the block diagram shown is increased to 18 V?",
+      "answer_a": "The LNB switches the polarisation.",
+      "answer_b": "The LNB switches to another satellite.",
+      "answer_c": "The LNB is damaged by overvoltage.",
+      "answer_d": "The LNB switches the receive range."
+    },
+    "AF230": {
+      "question": "You are receiving the signal of a satellite at 10 GHz. The cable between the LNB and the receiver is 20 m long. Why is the cable loss rather negligible despite the high receive frequency?",
+      "answer_a": "The LNB amplifies the received signal and mixes it down to a lower frequency, at which the cable loss is lower.",
+      "answer_b": "The remote supply voltage that powers the LNB reduces the cable loss.",
+      "answer_c": "Mixing the received signal with the TCXO frequency means that only the baseband is transmitted.",
+      "answer_d": "The LNB demodulates the signal. The resulting AF is insensitive to cable loss."
+    },
+    "AF229": {
+      "question": "What does a noise factor F = 2 mean for a UHF preamplifier?",
+      "answer_a": "The output signal of the amplifier has a signal-to-noise ratio 3 dB lower than that of the input signal.",
+      "answer_b": "The output signal of the amplifier has a signal-to-noise ratio 3 dB higher than that of the input signal.",
+      "answer_c": "The output signal of the amplifier has a signal-to-noise ratio 6 dB lower than that of the input signal.",
+      "answer_d": "The output signal of the amplifier has a signal-to-noise ratio 6 dB higher than that of the input signal."
+    },
+    "AF228": {
+      "question": "What does a noise figure of 1.8 dB mean for a UHF preamplifier?",
+      "answer_a": "The output signal of the preamplifier has a signal-to-noise ratio 1.8 dB lower than that of the input signal.",
+      "answer_b": "The output signal of the preamplifier has a signal-to-noise ratio 1.8 dB higher than that of the input signal.",
+      "answer_c": "The noise of the output signal is 1.8 dB lower than the noise of the input signal.",
+      "answer_d": "The gain for the wanted signal is 1.8 dB; the noise power remains unchanged."
+    },
+    "AF227": {
+      "question": "What is meant by the signal-to-noise ratio (SNR) of a receiver?",
+      "answer_a": "It states by what ratio the wanted signal is stronger than the noise signal.",
+      "answer_b": "It states by what ratio the noise signal is stronger than the wanted signal.",
+      "answer_c": "It is the frequency spacing between the received signal and the interfering signal.",
+      "answer_d": "It is the spacing between the receive frequency and the image frequency."
+    },
+    "AF226": {
+      "question": "What is the function of the limiting amplifier in an FM receiver?",
+      "answer_a": "Above a certain input signal level, it limits the output signal in order to suppress AM interference.",
+      "answer_b": "It reduces the noise of the input stage.",
+      "answer_c": "It limits the deviation for the FM demodulator.",
+      "answer_d": "It provides complete suppression of the IF carrier in order to avoid AM interference."
+    },
+    "AF225": {
+      "question": "Which signals usually control the receiver muting (squelch)?",
+      "answer_a": "The IF or AF signals.",
+      "answer_b": "The RF signal of the input stage.",
+      "answer_c": "The signal of the VFO.",
+      "answer_d": "The signal of the BFO."
+    },
+    "AF224": {
+      "question": "What does the AGC (automatic gain control) do when the input signal is strong?",
+      "answer_a": "It reduces the gain of amplifier stages in the receive section.",
+      "answer_b": "It reduces the amplitude of the VFO.",
+      "answer_c": "It reduces the amplitude of the BFO.",
+      "answer_d": "It increases the gain of amplifier stages in the receive section."
+    }
+  }
+}

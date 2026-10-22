@@ -368,6 +368,8 @@ real choice or a trap.
 | Funkverbindung / Verbindung | contact (QSO) | not "radio connection"; in circuits *Verbindung* = connection |
 | Direktverbindung | direct contact | as opposed to via a repeater |
 | Gegenstation | the other station; the station worked | |
+| QSO-Partner / Funkpartner | the other station | NF112, AF102 |
+| Funkrunde | net | RSGB term for a scheduled round of stations (NE402) |
 | Funkgerät | radio; transceiver | |
 | Amateurfunkgerät | amateur radio equipment; amateur transceiver | |
 | Funkstation / Station | station | |
@@ -817,6 +819,7 @@ real choice or a trap.
 | Linearität / linear | linearity / linear | |
 | Eigenschwingungen / wilde Schwingungen / parasitäre Schwingungen | self-oscillation / parasitic oscillations | |
 | Oszillator | oscillator | |
+| Schwingungserzeuger | generator of oscillations | ND201, ED501, ED506; kept apart from *signal generator* (*Messsender*) |
 | Schwingbedingung | condition for oscillation | |
 | ungedämpfte Schwingungen | sustained (undamped) oscillations | AD613 |
 | Schleifenverstärkung | loop gain | |
@@ -832,12 +835,17 @@ real choice or a trap.
 | Phasenvergleicher | phase detector (phase comparator) | |
 | Schleifenfilter | loop filter | |
 | Frequenzteiler / Teiler | frequency divider / divider | |
+| Teilerverhältnis | division ratio | PLL divider (AD704) |
+| Frequenzsynthesizer | frequency synthesiser | British *-ise* |
+| Regelschleife | control loop | AD702 |
+| Quarzgenerator | crystal oscillator | AD705 |
 | Referenzsignal / Referenzoszillator | reference signal / reference oscillator | |
 | eingerastet | locked | |
 | Direkte Digitale Synthese (DDS) | direct digital synthesis (DDS) | |
 | Phasenakkumulator | phase accumulator | |
 | Frequenzvervielfacher / Vervielfacher | frequency multiplier / multiplier | |
 | Dämpfungsglied | attenuator | |
+| symmetrisches Dämpfungsglied | symmetrical attenuator | equal input and output impedance (AD805, AD806); trap: not *balanced*, which is *symmetrisch* for feeders (§9) |
 | Dämpfung | attenuation; loss | *damping* only for oscillations |
 | Modulator / Demodulator | modulator / demodulator | |
 | Mischer / Mischstufe | mixer / mixer stage | |
@@ -869,6 +877,18 @@ real choice or a trap.
 | Spiegelfrequenzunterdrückung | image rejection | |
 | Trennschärfe / Selektivität | selectivity | |
 | Nahselektion | close-in selectivity | |
+| Spiegelselektion | image rejection | same as *Spiegelfrequenzunterdrückung* (AF113) |
+| Kanalabstand / Kanalraster | channel spacing | "im 12,5 kHz Kanalraster" → "with 12.5 kHz channel spacing" (AE310) |
+| Nachbarkanalstörungen | adjacent-channel interference | |
+| Begrenzerverstärker | limiting amplifier (limiter) | FM receiver (AF226) |
+| Vorstufenrauschen | noise of the input stage | |
+| Empfängerstummschaltung | receiver muting (squelch) | AF225 |
+| Passband-Tuning | passband tuning | |
+| Satellitenempfangsanlage | satellite receiving system | |
+| Fernspeisespannung | remote supply voltage | DC fed up the coax to an LNB (AF230); cf. *Fernspeiseweiche* → bias tee |
+| Handfunkgerät | handheld transceiver (handheld) | |
+| Datenanschluss (DATA, 9600-Port) | data port (9600 port) | NF115 |
+| Drehwinkelgeber (Encoder) | rotary encoder | |
 | Empfindlichkeit | sensitivity | |
 | Großsignalfestigkeit | strong-signal performance (large-signal handling) | |
 | Intercept-Punkt (IP3) | (third-order) intercept point (IP3) | |
@@ -946,6 +966,10 @@ real choice or a trap.
 | Phasenmodulation (PM) | phase modulation (PM) | |
 | Winkelmodulation | angle modulation | |
 | Frequenzhub / Hub | (frequency) deviation | |
+| Spitzenhub | peak deviation | |
+| unterdrücktes Zweiseitenband-Trägersignal | double-sideband suppressed-carrier (DSB-SC) signal | AE206 |
+| Splatter-Erscheinungen / Seitenband-Splatter | splatter / sideband splatter | |
+| Einton- / Zweiton-Testsignal | single-tone / two-tone test signal | |
 | Modulationsindex | modulation index | |
 | Carson-Formel / Carson-Bandbreite | Carson's rule / Carson bandwidth | |
 | Preemphasis / Deemphasis | pre-emphasis / de-emphasis | |
@@ -989,16 +1013,27 @@ real choice or a trap.
 | Quellencodierung / Kanalcodierung | source coding / channel coding | |
 | Redundanz | redundancy | |
 | Prüfbit / Paritätsbit | check bit / parity bit | |
+| Paritätsprüfung | parity check | |
+| Prüfsumme / Prüfsummenverfahren | checksum / checksum method | |
+| Nutzdaten | user data (payload) | AE412 |
 | CRC (zyklische Redundanzprüfung) | cyclic redundancy check (CRC) | |
 | Vorwärtsfehlerkorrektur (FEC) | forward error correction (FEC) | |
 | Fehlerkorrektur / Fehlererkennung | error correction / error detection | |
 | Synchronisation | synchronisation | |
 | Vielfachzugriff / TDMA / FDMA / CDMA | multiple access / TDMA / FDMA / CDMA | |
+| Zeitmultiplexverfahren (TDMA) / Frequenzmultiplexverfahren (FDMA) / Codemultiplexverfahren (CDMA) | time-division / frequency-division / code-division multiple access (TDMA / FDMA / CDMA) | where the German gives the *…MA* abbreviation, expand it as the abbreviation reads (EE409–EE411); without it, *…multiplexing* (§14) |
+| Spreizcodierung | spreading code(s) | CDMA (EE411) |
+| Kanalstörung | channel impairment | AE422 |
+| Umschaltgeschwindigkeit (zwischen Symbolen) | speed of switching (between symbols) | AE415 |
 | Zeitschlitz | time slot | |
 | Color Code (DMR) | colour code (DMR) | British spelling in prose; "Color Code" when quoting a DMR menu item |
 | DMR / D-STAR / C4FM / FT8 / PSK31 / Olivia / RTTY | unchanged | mode names stay |
 | Digital Voice (DV) | digital voice (DV) | |
 | Paketvermittlung | packet switching | |
+| paketvermitteltes Netz / Paketweiterleitung | packet-switched network / packet forwarding | EE412 |
+| Internetprotokoll (IP) | Internet Protocol (IP) | capitalised as a proper name, though *the internet* is lower case |
+| Teilnetz / Standardgateway / Gegenstelle | subnet / default gateway / remote station | EE413 |
+| Stationskennung (DMR-ID) / Reflektor | station identifier (DMR ID) / reflector | digital voice networks (NE402) |
 | Netzwerk / Router / Subnetzmaske | network / router / subnet mask | |
 | Internet | the internet | lower case in British usage |
 | Abtastung / abtasten | sampling / sample | |

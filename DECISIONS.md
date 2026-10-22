@@ -68,6 +68,18 @@ and the checker's "Provjera" section).
   (*Ableitwiderstand*). (Checker of batch 02.)
 - ***Flanken-Diskriminator* → slope detector**; a bare *Diskriminator* stays
   **discriminator**. (Batch 03.)
+- ***symmetrisches Dämpfungsglied* → symmetrical attenuator**, not "balanced":
+  here *symmetrisch* means equal input and output impedance, while for
+  feeders it stays *balanced*. (Batch 04, AD805, AD806.)
+- ***Zeit-/Frequenz-/Codemultiplexverfahren (TDMA/FDMA/CDMA)* →
+  time-/frequency-/code-division multiple access**, because the abbreviation
+  the German gives spells *multiple access*; without an abbreviation they stay
+  *…multiplexing*. (Batch 04, EE409–EE411.)
+- **A distractor that is a made-up German expansion of an acronym** (NE209:
+  "USB" as *Unterer Schmalband Betrieb*) gets a made-up English expansion of
+  the same acronym and about the same plausibility ("Ultra Small Bandwidth"
+  mode), rather than a literal translation that no longer spells it.
+  (Batch 04.)
 
 ## Open questions for DARC
 
