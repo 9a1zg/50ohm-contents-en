@@ -397,6 +397,7 @@ real choice or a trap.
 | Morsetelegrafie / Telegrafie | Morse telegraphy / telegraphy (CW) | |
 | Morsezeichen / Morsecode | Morse characters / Morse code | |
 | Telefonie / Sprechfunk | telephony; voice | "SSB-Telefonie" → "SSB telephony"; "FM-Sprechfunk" → "FM voice" |
+| Fonie / Fonie-Signale | voice; voice signals | beside CW (AH308) |
 | Funkfernschreiben (RTTY) | radioteletype (RTTY) | |
 | Bandplan / IARU-Bandplan | band plan / IARU band plan | |
 | Frequenzplan | frequency plan | |
@@ -1163,8 +1164,10 @@ real choice or a trap.
 | rechtsdrehend / linksdrehend; rechtszirkular / linkszirkular (Polarisation) | right-hand circular / left-hand circular (polarisation) | |
 | Polarisationsdrehung | polarisation rotation (Faraday rotation) | |
 | Strahlungsleistung | radiated power | |
-| äquivalente isotrope Strahlungsleistung (EIRP) | equivalent isotropically radiated power (EIRP) | keep "EIRP" as the German does |
-| effektive Strahlungsleistung (ERP) | effective radiated power (ERP) | |
+| äquivalente isotrope Strahlungsleistung (EIRP) | equivalent isotropically radiated power (EIRP) | keep "EIRP" as the German does; also for the German's shortened "äquivalente Strahlungsleistung (EIRP)" (EG503–EG505) and "gleichwertige isotrope Strahlungsleistung" (NG402) |
+| effektive Strahlungsleistung (ERP) / äquivalente (effektive) Strahlungsleistung (ERP) | effective radiated power (ERP) / equivalent (effective) radiated power (ERP) | AG501 keeps the German's bracket |
+| bezogen auf den Halbwellendipol / den isotropen Strahler | relative to the half-wave dipole / the isotropic radiator | "in einer Richtung" → "in a given direction" (RR 1.161, 1.162) |
+| Antennenspeiseleitung | antenna feeder | RR "antenna transmission line" (AG501 c, d) |
 | Strahlungsleistung (EIRP und ERP) | radiated power (EIRP and ERP) | catalogue heading |
 | Antenneneingangsleistung | power at the antenna input | |
 | Fußpunktwiderstand / Fußpunktimpedanz / Speisewiderstand | feed-point impedance (feed-point resistance) | |
@@ -1249,7 +1252,17 @@ real choice or a trap.
 | Bodenwelle | ground wave | fixed term; *ground* allowed here |
 | direkte Welle / Sichtverbindung | direct wave / line of sight | |
 | tote Zone | skip zone | |
-| Sprung / Sprungdistanz | hop / skip distance | |
+| Sprung / Sprungdistanz / Sprungentfernung | hop / skip distance | "mit einem Sprung (Hop)" → "in one hop" |
+| Funkstrecke | radio path | MUF/LUF "für eine Funkstrecke" (AH208, AH210, AH211) |
+| Weitverkehrsverbindungen / Überseeverbindungen | long-distance contacts / intercontinental contacts | |
+| Beamrichtung | beam heading | AH217, AH218 |
+| höchste brauchbare / nutzbare Frequenz | maximum usable frequency (MUF) | "highest usable frequency" where an answer describes it in words beside "lowest usable frequency" (AH207, AH211); "Höchste nutzbare Frequenz" as the expansion of MUF → "Maximum usable frequency" (EH204) |
+| höchste durchlässige Frequenz | maximum penetration frequency | made-up distractor labelled "(LUF)" (AH206) |
+| Abdeckung (durch die F1-Region) | blanketing | AH107 |
+| Tagesdämpfung | daytime attenuation | EH210 |
+| Sonnenfleckenmaximum / Sonnenfleckenminimum | sunspot maximum / sunspot minimum | "im Sonnenfleckenmaximum" → "at sunspot maximum" |
+| Röntgenstrahlung / UV-Strahlung | X-ray radiation / UV radiation | |
+| Sonneneruption | solar flare | |
 | Fernausbreitung | long-distance propagation (DX propagation) | |
 | NVIS (Near Vertical Incidence Skywave) | NVIS (near vertical incidence skywave) | the German writes *Incident* (AG125); English has *incidence* |
 | kritische Frequenz (foF2) | critical frequency (foF2) | |
@@ -1259,13 +1272,22 @@ real choice or a trap.
 | Reflexion | reflection | |
 | Beugung | diffraction | |
 | Streuung / Scatter | scatter | |
-| Rainscatter / Aircraft-Scatter / Meteorscatter | rain scatter / aircraft scatter / meteor scatter | |
+| Rückstreuung / Backscatter | backscatter | EH202: "Rückstreuung (Backscatter)" → "Backscatter", the bracket only gives the English word |
+| Rainscatter / Regenscatter / Aircraft-Scatter / Meteorscatter | rain scatter / aircraft scatter / meteor scatter | |
+| Ionisationsspuren von Meteoriten / Meteorbahnen | ionisation trails of meteors / meteor trails | *meteors*, not *meteorites*, for what leaves the trail (AH301, EH304) |
+| leuchtende Nachtwolken (NLCs) | noctilucent clouds (NLCs) | NH306 |
+| Geländeprofil | terrain profile | NH303 |
+| quasi-optische Sichtweite | quasi-optical line of sight | NH302 |
 | Troposphäre | troposphere | |
-| troposphärische Ausbreitung / Überreichweiten | tropospheric propagation / enhanced (anomalous) propagation | |
+| troposphärische Ausbreitung / Überreichweiten | tropospheric propagation / enhanced (anomalous) propagation | "beträchtliche Überreichweiten erzielen" → "achieve considerably extended ranges" (AH304) |
 | Inversionswetterlage / Inversionsschicht | temperature inversion / inversion layer | |
 | Ducting / Duct | ducting / duct | |
 | Sporadic-E (Es) | sporadic E (Es) | |
 | Aurora / Polarlicht | aurora | |
+| Aurora-Erscheinungen / Polarlichter / Nordlichter | auroral phenomena / aurorae / northern lights | |
+| Aurora-Verbindung | aurora contact | |
+| verbrummt (Aurora-Signal) | buzzing; with hum | aurora CW "flatternder und verbrummter Ton" → "fluttering, buzzing tone" (AH308); "stark verbrummt empfangen" → "received with heavy hum" (AH220); "verbrummte Ultrakurzwellen" → "hum-modulated VHF waves" (AH305) |
+| Polarkreis | Arctic Circle | |
 | Erdmagnetfeld | geomagnetic field | |
 | Funkhorizont / Horizont | radio horizon / horizon | |
 | Erdkrümmung | curvature of the earth | |
@@ -1329,9 +1351,42 @@ real choice or a trap.
 | Messsender (Messender) | signal generator | |
 | Messbrücke | measuring bridge | |
 | Kreuzzeigerinstrument | cross-needle meter | |
-| Thermoumformer | thermocouple converter | |
+| Thermoumformer | thermocouple converter | "Messgerät mit Thermoumformer" → "meter with a thermocouple converter" (AI105) |
 | Zweitontest | two-tone test | |
 | ppm | ppm | |
+| Vielfachinstrument / Universalmessgerät | multimeter | as *Vielfachmessgerät* |
+| Gleichspannungsmessgerät / Wechselspannungsmessgerät | DC voltmeter / AC voltmeter | |
+| Widerstandsmessgerät / Ohmmeter | ohmmeter | |
+| Wechselstromzähler | AC electricity meter | the household energy meter; distractor (EI501) |
+| Transistorvoltmeter / True RMS-Voltmeter | transistor voltmeter / true-RMS voltmeter | |
+| Oszillograf / Speicheroszilloskop | oscillograph / storage oscilloscope | |
+| Diodentastkopf | diode probe | |
+| Triggereinrichtung / Triggerschwelle | trigger circuit / trigger threshold | |
+| X-Vorteiler / Y-Vorteiler | X prescaler / Y prescaler | oscilloscope distractors (AI302); *Vorteiler* stays *prescaler* as for counters |
+| Frequenzmarken-Generator | frequency marker generator | |
+| Hüllkurvenform | envelope shape | |
+| Frequenzmessgerät / Frequenzmesser | frequency meter | kept apart from *Frequenzzähler* → frequency counter, where the German uses both |
+| Hauptoszillator (Frequenzzähler) | timebase oscillator | the counter's reference (AI504) |
+| Anzeigegenauigkeit | display accuracy | |
+| Frequenzgenerator | signal generator | "Quarzofen- oder GPS-synchronisierter Frequenzgenerator" → "signal generator stabilised by a crystal oven or synchronised to GPS" (AI511) |
+| Absorptionswellenmesser / Resonanzwellenmesser | absorption wavemeter / resonance wavemeter | |
+| SWR-Messbrücke | SWR bridge | |
+| Absolutleistungsmesser / Impedanzmessgerät | absolute power meter / impedance meter | |
+| Antennenimpedanzmesser / Resonanzmessgerät | antenna impedance meter / resonance meter | |
+| Peilsender | direction-finding transmitter | AI613 |
+| Messkopf zur HF-Leistungsmessung | measuring head for RF power measurement | AI608 |
+| Breitbandpegelmesser | broadband level meter | |
+| Anpassungsübertrager | matching transformer | |
+| Messanschluss / Messeingang (VNA) | test port | |
+| Kalibrierung / Nullpunktabgleich | calibration / zero adjustment | |
+| Betriebszustände Kurzschluss, Leerlauf und Anpassung | short-circuit, open-circuit and matched conditions | VNA check (EI206) |
+| Abschlusswiderstand (VNA, Richtkoppler) | terminating resistor; termination | EI206, AI401 |
+| Resonanzverlauf | resonance curve | AI207, AI208 |
+| Frequenzreinheit | spectral purity | |
+| Erdungswiderstand | earth resistance | |
+| Bakensegment | beacon segment | AI510 |
+| erdnahes Ende (künstliche Antenne) | earthed end | AI606 |
+| effektive Leistung | RMS power | AI105 |
 
 ## 12. EMC and safety
 

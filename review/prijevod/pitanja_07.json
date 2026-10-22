@@ -1,0 +1,1217 @@
+{
+  "pitanja": {
+    "NG303": {
+      "question": "Mismatches in or damage to RF transmission lines lead ...",
+      "answer_a": "to reflections of the transmitted RF signal and an increased SWR.",
+      "answer_b": "to overstressing of the connected antenna.",
+      "answer_c": "to an SWR of less than or equal to 1.",
+      "answer_d": "to the generation of unwanted emissions, because there is no match within the necessary bandwidth."
+    },
+    "NG302": {
+      "question": "What does the SWR meter reading shown indicate?",
+      "answer_a": "A poorly matched antenna",
+      "answer_b": "A well-matched antenna",
+      "answer_c": "Too high a transmit power",
+      "answer_d": "Too low a transmit power"
+    },
+    "NG301": {
+      "question": "At what standing wave ratio (SWR) is an antenna best matched to the feeder?",
+      "answer_a": "1",
+      "answer_b": "0",
+      "answer_c": "3",
+      "answer_d": "$\\mathrm{\\infty}$"
+    },
+    "AG503": {
+      "question": "A transmitter for the 630 m band with an output power of 50 W is connected by a short coaxial cable to an antenna with a loss of 20 dBd. What ERP is radiated by the antenna?",
+      "answer_a": "0.5 W",
+      "answer_b": "5.0 W",
+      "answer_c": "2.5 W",
+      "answer_d": "50 W"
+    },
+    "AG502": {
+      "question": "Which of the answers can be used to calculate the ERP (effective radiated power)?",
+      "answer_a": "$P_{\\textrm{ERP}} = (P_{\\textrm{Sender}} - P_{\\textrm{Verluste}}) \\cdot G_{\\textrm{Antenne}}$ relative to a half-wave dipole",
+      "answer_b": "$P_{\\textrm{ERP}} = (P_{\\textrm{Sender}} \\cdot P_{\\textrm{Verluste}}) \\cdot G_{\\textrm{Antenne}}$ relative to an isotropic radiator",
+      "answer_c": "$P_{\\textrm{ERP}} = (P_{\\textrm{Sender}} - P_{\\textrm{Verluste}}) + G_{\\textrm{Antenne}}$ relative to a half-wave dipole",
+      "answer_d": "$P_{\\textrm{ERP}} = (P_{\\textrm{Sender}} + P_{\\textrm{Verluste}}) + G_{\\textrm{Antenne}}$ relative to an isotropic radiator"
+    },
+    "AG501": {
+      "question": "The equivalent (effective) radiated power (ERP) is ...",
+      "answer_a": "the product of the power supplied directly to the antenna and its gain (as a power ratio) in a given direction, relative to the half-wave dipole.",
+      "answer_b": "the product of the power supplied directly to the antenna and its gain (as a power ratio) in a given direction, relative to the isotropic radiator.",
+      "answer_c": "the average power supplied to the antenna feeder by a transmitter under normal operating conditions during one cycle of the RF oscillation at the highest crest of the modulation envelope.",
+      "answer_d": "the average power supplied by a transmitter to the antenna feeder under normal operating conditions during an interval of time that is sufficiently long compared with the period of the lowest modulating frequency."
+    },
+    "EG511": {
+      "question": "You do not want to submit a notification of a fixed amateur radio installation under Section 9 BEMFV for your transmitting equipment. What is the maximum transmit power you may use with your vertical antenna with a gain of 5.15 dBi, ignoring cable losses, so that a radiated power of 10 W EIRP is not exceeded?",
+      "answer_a": "3 W",
+      "answer_b": "10 W",
+      "answer_c": "5 W",
+      "answer_d": "2 W"
+    },
+    "EG510": {
+      "question": "A transmitter with an output power of 8.5 W is connected by a feeder with a cable loss of 1.5 dB to an antenna with a gain of 0 dB (relative to the dipole). What EIRP is radiated by the antenna?",
+      "answer_a": "9.9 W",
+      "answer_b": "19.7 W",
+      "answer_c": "12.0 W",
+      "answer_d": "6.0 W"
+    },
+    "EG509": {
+      "question": "A transmitter with an output power of 0.6 W is connected by a feeder with a cable loss of 1 dB to a directional antenna with a gain of 11 dB (relative to a dipole). What is the maximum EIRP radiated by the antenna?",
+      "answer_a": "9.8 W",
+      "answer_b": "6.0 W",
+      "answer_c": "7.8 W",
+      "answer_d": "12.7 W"
+    },
+    "EG508": {
+      "question": "A transmitter with an output power of 5 W is connected by a feeder with a cable loss of 2 dB to a directional antenna with a gain of 5 dB (relative to the dipole). What EIRP is radiated by the antenna?",
+      "answer_a": "16.4 W",
+      "answer_b": "8.2 W",
+      "answer_c": "41.2 W",
+      "answer_d": "9.98 W"
+    },
+    "EG507": {
+      "question": "A dipole antenna is connected to a transmitter with an output power of 100 W. The cable loss is 10 dB. What is the equivalent isotropically radiated power (EIRP)?",
+      "answer_a": "16.4 W",
+      "answer_b": "90 W",
+      "answer_c": "164 W",
+      "answer_d": "10 W"
+    },
+    "EG506": {
+      "question": "A transmitter with an output power of 75 W is connected by a feeder with a cable loss of 2.15 dB (factor $1.64$) to a dipole antenna. What is the maximum EIRP radiated by the antenna?",
+      "answer_a": "75 W",
+      "answer_b": "123 W",
+      "answer_c": "45.7 W",
+      "answer_d": "60.6 W"
+    },
+    "EG505": {
+      "question": "An antenna with a gain of 11 dBi is connected to a transmitter with an output power of 100 W. The cable loss is 1 dB. What is the equivalent isotropically radiated power (EIRP)?",
+      "answer_a": "1000 W",
+      "answer_b": "164 W",
+      "answer_c": "100 W",
+      "answer_d": "1640 W"
+    },
+    "EG504": {
+      "question": "An RF amplifier for 10.4 GHz feeds an output power of 5 W directly into a parabolic dish with a gain of 36 dBi. What is the equivalent isotropically radiated power (EIRP)?",
+      "answer_a": "20000 W",
+      "answer_b": "12195 W",
+      "answer_c": "180 W",
+      "answer_d": "110 W"
+    },
+    "EG503": {
+      "question": "An RF amplifier for 5.7 GHz feeds an output power of 250 mW directly, without line losses, into a parabolic dish with a gain of 26 dBi. What is the equivalent isotropically radiated power (EIRP)?",
+      "answer_a": "100 W",
+      "answer_b": "61 W",
+      "answer_c": "6.5 W",
+      "answer_d": "3.4 W"
+    },
+    "EG502": {
+      "question": "Which of the answers can be used to calculate the EIRP?",
+      "answer_a": "$P_{\\textrm{EIRP}} = (P_{\\textrm{Sender}} - P_{\\textrm{Verluste}}) \\cdot G_{\\textrm{Antenne}}$, relative to an isotropic radiator",
+      "answer_b": "$P_{\\textrm{EIRP}} = (P_{\\textrm{Sender}} \\cdot P_{\\textrm{Verluste}}) \\cdot G_{\\textrm{Antenne}}$, relative to a half-wave dipole",
+      "answer_c": "$P_{\\textrm{EIRP}} = (P_{\\textrm{Sender}} - P_{\\textrm{Verluste}}) + G_{\\textrm{Antenne}}$, relative to an isotropic radiator",
+      "answer_d": "$P_{\\textrm{EIRP}} = (P_{\\textrm{Sender}} - P_{\\textrm{Verluste}}) + G_{\\textrm{Antenne}}$, relative to a half-wave dipole"
+    },
+    "EG501": {
+      "question": "The equivalent isotropically radiated power (EIRP) is ...",
+      "answer_a": "the product of the power supplied directly to the antenna and its gain in a given direction, relative to the isotropic radiator.",
+      "answer_b": "the product of the power supplied directly to the antenna and its gain in a given direction, relative to the dipole.",
+      "answer_c": "the average power at the highest crest of the modulation envelope that is supplied to the antenna, and its gain in a given direction, relative to the isotropic radiator.",
+      "answer_d": "the average power at the highest crest of the modulation envelope that is supplied to the antenna, and its gain in a given direction, relative to the dipole."
+    },
+    "NG402": {
+      "question": "The equivalent isotropically radiated power (EIRP) is the power radiated by ...",
+      "answer_a": "an antenna, relative to an isotropic radiator.",
+      "answer_b": "an antenna, relative to a half-wave dipole.",
+      "answer_c": "a half-wave dipole, relative to an antenna.",
+      "answer_d": "an isotropic radiator, relative to an antenna."
+    },
+    "NG401": {
+      "question": "The effective radiated power (ERP) is the power radiated by ...",
+      "answer_a": "an antenna, relative to a half-wave dipole.",
+      "answer_b": "an antenna, relative to an isotropic radiator.",
+      "answer_c": "a half-wave dipole, relative to an antenna.",
+      "answer_d": "an isotropic radiator, relative to an antenna."
+    },
+    "AH108": {
+      "question": "At what time of year and time of day is the F2 region at its greatest height? It is at its greatest height ...",
+      "answer_a": "in summer at midday.",
+      "answer_b": "in summer at midnight.",
+      "answer_c": "in spring and autumn at twilight.",
+      "answer_d": "in winter at midday."
+    },
+    "AH107": {
+      "question": "For long-distance (DX) HF propagation via the sky wave, the F1 region is ...",
+      "answer_a": "mostly undesirable, because by blanketing it can prevent propagation by refraction at the F2 region.",
+      "answer_b": "desirable, because by additional reflection it can reinforce the effect of the F2 region.",
+      "answer_c": "not of great importance, because it is transparent above all to the higher frequencies.",
+      "answer_d": "of great importance, because it reduces the attenuation in the E region and so increases the skip distance."
+    },
+    "AH106": {
+      "question": "At what height is the F2 region, which is important for long-distance propagation (DX), during the daytime on a summer's day? It is at a height of approximately ...",
+      "answer_a": "250 to 450 km.",
+      "answer_b": "130 to 200 km.",
+      "answer_c": "90 to 130 km.",
+      "answer_d": "50 to 90 km."
+    },
+    "AH105": {
+      "question": "At what height is the F1 region, which is important for long-distance propagation (DX), during the daytime? It is at a height of approximately ...",
+      "answer_a": "130 to 200 km.",
+      "answer_b": "90 to 130 km.",
+      "answer_c": "50 to 90 km.",
+      "answer_d": "200 to 450 km."
+    },
+    "AH104": {
+      "question": "At what height is the E region, which is important for long-distance propagation? It is at a height of approximately ...",
+      "answer_a": "90 to 130 km.",
+      "answer_b": "50 to 90 km.",
+      "answer_c": "130 to 200 km.",
+      "answer_d": "250 to 450 km."
+    },
+    "AH103": {
+      "question": "At what height is the D region, which is important for long-distance propagation? It is at a height of approximately ...",
+      "answer_a": "50 to 90 km.",
+      "answer_b": "9 to 130 km.",
+      "answer_c": "130 to 200 km.",
+      "answer_d": "250 to 450 km."
+    },
+    "AH102": {
+      "question": "The solar flux F ...",
+      "answer_a": "is the measured energy radiated by the sun in the GHz range. Flux values above 100 lead to a greatly increased degree of ionisation in the ionosphere and to considerably improved long-distance propagation on the higher HF bands.",
+      "answer_b": "is the measured energy radiated by the sun in the HF range. Flux values above 60 lead to a greatly increased degree of ionisation in the ionosphere and to considerably improved long-distance propagation on the higher HF bands.",
+      "answer_c": "is derived from the sunspot number R and is an indicator of solar activity. Flux values above 100 lead to a greatly increased degree of ionisation of the D region and so to a considerable deterioration of long-distance propagation on the HF bands.",
+      "answer_d": "is derived from the sunspot number R and is an indicator of solar activity. Flux values above 60 lead to a greatly increased degree of ionisation in the ionosphere and to considerably improved long-distance propagation on the higher HF bands."
+    },
+    "AH101": {
+      "question": "Which effect is mainly responsible for ionospheric regions being able to bend radio waves back towards the earth?",
+      "answer_a": "The UV radiation from the sun ionises the molecules in the various regions, depending on the intensity of the radiation.",
+      "answer_b": "The infrared radiation from the sun ionises the molecules in the various regions, depending on the intensity of the radiation.",
+      "answer_c": "The UV radiation from the sun activates the oxygen atoms in the various regions, depending on the intensity of the radiation.",
+      "answer_d": "The infrared radiation from the sun activates the oxygen atoms in the various regions, depending on the intensity of the radiation."
+    },
+    "EH107": {
+      "question": "Solar activity follows a regular cycle. Roughly how long is this cycle?",
+      "answer_a": "11 years",
+      "answer_b": "6 months",
+      "answer_c": "12 months",
+      "answer_d": "7 years"
+    },
+    "EH106": {
+      "question": "Which ionospheric region provides occasional good propagation from the upper HF range up into the VHF range during the summer months?",
+      "answer_a": "The E region",
+      "answer_b": "The D region",
+      "answer_c": "The F1 region",
+      "answer_d": "The F2 region"
+    },
+    "EH105": {
+      "question": "What effect does the D region have on long-distance propagation?",
+      "answer_a": "During the day, the D region causes heavy attenuation on the 80 and 160 m bands.",
+      "answer_b": "During the day, the D region reflects the waves on the 80 and 160 m bands.",
+      "answer_c": "During the day, the D region absorbs the waves on the 10 m band.",
+      "answer_d": "At night, the D region prevents long-distance propagation in the long-wave, medium-wave and lower short-wave ranges."
+    },
+    "EH104": {
+      "question": "Which ionospheric region makes DX contacts on the 80 m band possible at night?",
+      "answer_a": "The F2 region",
+      "answer_b": "The E region",
+      "answer_c": "The D region",
+      "answer_d": "The F1 region"
+    },
+    "EH103": {
+      "question": "Which ionospheric region is mainly responsible for making long-distance contacts possible in the HF range?",
+      "answer_a": "F2 region",
+      "answer_b": "D region",
+      "answer_c": "E region",
+      "answer_d": "F1 region"
+    },
+    "EH102": {
+      "question": "At what height are the ionospheric regions that are important for long-distance HF propagation (DX)? They are at a height of approximately ...",
+      "answer_a": "130 to 450 km.",
+      "answer_b": "50 to 90 km.",
+      "answer_c": "90 to 130 km.",
+      "answer_d": "130 to 200 km."
+    },
+    "EH101": {
+      "question": "How does long-distance propagation of a radio wave on the HF bands come about? It comes about through refraction at ...",
+      "answer_a": "electrically charged layers of air in the ionosphere.",
+      "answer_b": "high- and low-pressure areas of the upper atmosphere.",
+      "answer_c": "the clouds in the lower atmosphere.",
+      "answer_d": "the parasitic elements of a directional antenna."
+    },
+    "NH102": {
+      "question": "Why is the ionosphere crucial for HF propagation? In the ionosphere, electromagnetic waves are ...",
+      "answer_a": "refracted by electrically charged particles.",
+      "answer_b": "amplified and reflected by heat.",
+      "answer_c": "refracted and reflected by cold.",
+      "answer_d": "refracted by temperature transitions."
+    },
+    "NH101": {
+      "question": "What is the part of the atmosphere called in which HF propagation is made possible by refraction?",
+      "answer_a": "Ionosphere",
+      "answer_b": "Magnetosphere",
+      "answer_c": "Hemisphere",
+      "answer_d": "Hydrosphere"
+    },
+    "AH223": {
+      "question": "What is characteristic of a \"backscatter signal\"?",
+      "answer_a": "Rapid, irregular fluctuations in field strength (flutter fading)",
+      "answer_b": "Whistling and crackling noises",
+      "answer_c": "High signal strengths",
+      "answer_d": "Broadband noise"
+    },
+    "AH222": {
+      "question": "What happens when the signal from a transmitter reaches the receiver by two different paths?",
+      "answer_a": "The two signals interfere with each other.",
+      "answer_b": "The two signals are reflected.",
+      "answer_c": "The frequency of both signals changes.",
+      "answer_d": "Both signals are diffracted."
+    },
+    "AH221": {
+      "question": "In the ionosphere, greatly increased UV and X-ray radiation, such as is caused above all by strong solar flares, mainly affects ...",
+      "answer_a": "the D region, which then attenuates HF signals so heavily that sky-wave propagation is no longer possible.",
+      "answer_b": "the F2 region, which is then ionised so strongly that almost all HF radiation is reflected.",
+      "answer_c": "the E region, which then becomes more transparent to the higher frequencies and, through refraction in the F2 region, provides good propagation conditions.",
+      "answer_d": "the F1 region, which hinders refraction at the F2 region by absorbing the higher frequencies."
+    },
+    "AH220": {
+      "question": "How does \"sporadic E\" affect the higher HF bands?",
+      "answer_a": "The \"skip zone\" is reduced or disappears completely.",
+      "answer_b": "The signals are received with heavy hum.",
+      "answer_c": "Flutter fading occurs on intercontinental contacts.",
+      "answer_d": "Ionospheric propagation fails completely."
+    },
+    "AH219": {
+      "question": "How is the polarisation of an electromagnetic wave affected in sky-wave propagation?",
+      "answer_a": "The polarisation of the transmitted waves is always changed by refraction in the ionosphere.",
+      "answer_b": "The polarisation of the transmitted waves always remains unchanged by refraction in the ionosphere.",
+      "answer_c": "The polarisation of the transmitted waves is always rotated by 90 ° in the ionosphere.",
+      "answer_d": "The polarisation of the transmitted waves is rotated by 90 ° at each hop in the ionosphere."
+    },
+    "AH218": {
+      "question": "An amateur station in Frankfurt am Main wants to make a contact with Buenos Aires via the long path. To what bearing from north (azimuth) must the radio amateur turn the HF beam if the beam heading for the short path is 231 °? The antenna must be turned to ...",
+      "answer_a": "51 °",
+      "answer_b": "321 °",
+      "answer_c": "141 °",
+      "answer_d": "129 °"
+    },
+    "AH217": {
+      "question": "An amateur station in Frankfurt am Main wants to make a contact with Tokyo via the long path. To what bearing from north (azimuth) must the radio amateur turn the HF beam if the beam heading for the short path is 38 °? The antenna must be turned to ...",
+      "answer_a": "218 °",
+      "answer_b": "322 °",
+      "answer_c": "122 °",
+      "answer_d": "308 °"
+    },
+    "AH216": {
+      "question": "How does a radio amateur usually recognise that \"PY\" has been worked via the indirect and therefore longer path?",
+      "answer_a": "From the position of the directional antenna, which is pointing 180 ° away from the direction of the shortest path to Brazil. This means that \"PY\" has been worked via the \"long path\".",
+      "answer_b": "From the reverberant sound of the contact, which shows that it took place in two directions to Brazil. This means that \"PY\" has been worked not only directly but also via a longer path.",
+      "answer_c": "From the position of the directional antenna, which is pointing in the direction of the longer path to Brazil. This means that \"PY\" has been worked via the direct path.",
+      "answer_d": "From the reverberant sound of the contact with Brazil: the radio waves propagated via two opposite paths."
+    },
+    "AH215": {
+      "question": "A transmission on the 20 m band can be received by station A at a distance of 1500 km, but not by station B at a distance of 60 km. The reason for this is that ...",
+      "answer_a": "station B can no longer receive the ground wave and cannot yet receive the sky wave.",
+      "answer_b": "the ground wave and the sky wave cancel each other out at station B.",
+      "answer_c": "two waves reflected in different ionospheric regions arrive at station B in cancelling phase.",
+      "answer_d": "the Mögel–Dellinger effect has occurred at station B."
+    },
+    "AH214": {
+      "question": "Roughly what is the maximum distance on the earth's surface that an HF signal can cover in one hop by refraction in the E region? It is about ...",
+      "answer_a": "2200 km",
+      "answer_b": "1100 km",
+      "answer_c": "4500 km",
+      "answer_d": "9000 km"
+    },
+    "AH213": {
+      "question": "Roughly what is the maximum distance on the earth's surface that an HF signal can cover in one hop by refraction at the F2 region?",
+      "answer_a": "About 4000 km.",
+      "answer_b": "About 2000 km.",
+      "answer_c": "About 12000 km.",
+      "answer_d": "About 8000 km."
+    },
+    "AH212": {
+      "question": "What has <u>no</u> effect on the skip distance?",
+      "answer_a": "A change in the radiated power.",
+      "answer_b": "A change in the frequency of the transmitted signal.",
+      "answer_c": "The time of day.",
+      "answer_d": "The current height of the ionised regions."
+    },
+    "AH211": {
+      "question": "What does the statement \"The LUF for a radio path is 6 MHz\" mean?",
+      "answer_a": "The lowest frequency still regarded as usable for sky-wave contacts is 6 MHz.",
+      "answer_b": "The highest frequency still regarded as usable for sky-wave contacts is 6 MHz.",
+      "answer_c": "The mean frequency that can be used for sky-wave contacts is 6 MHz.",
+      "answer_d": "The optimum frequency that can be used for sky-wave contacts is 6 MHz."
+    },
+    "AH210": {
+      "question": "The LUF for a radio path is ...",
+      "answer_a": "the lowest usable frequency at which a contact can be made via the sky wave.",
+      "answer_b": "the mean of the highest and lowest usable frequencies at which a contact can be made via the sky wave.",
+      "answer_c": "the measured usable frequency at which a contact can be made via the sky wave.",
+      "answer_d": "the most usable frequency at which a contact can be made via the sky wave."
+    },
+    "AH209": {
+      "question": "What are the maximum usable frequency (MUF) and the optimum frequency $f_{\\textrm{opt}}$ if the antenna radiates upwards at an angle of $45^\\circ$ and the critical frequency $f_{k}$ is 3 MHz?",
+      "answer_a": "The MUF is 4.2 MHz and $f_{\\textrm{opt}}$ is 3.6 MHz.",
+      "answer_b": "The MUF is 2.1 MHz and $f_{\\textrm{opt}}$ is 1.8 MHz.",
+      "answer_c": "The MUF is 2.1 MHz and $f_{\\textrm{opt}}$ is 2.5 MHz.",
+      "answer_d": "The MUF is 4.2 MHz and $f_{\\textrm{opt}}$ is 4.9 MHz."
+    },
+    "AH208": {
+      "question": "The maximum usable frequency (MUF) for a radio path ...",
+      "answer_a": "is higher than the critical frequency, and the more so, the lower the angle at which the transmitting antenna radiates or the receiving antenna receives.",
+      "answer_b": "is lower than the critical frequency, and the more so, the lower the angle at which the transmitting antenna radiates or the receiving antenna receives.",
+      "answer_c": "is lower than the critical frequency, and the more so, the steeper the angle at which the transmitting antenna radiates or the receiving antenna receives.",
+      "answer_d": "does not depend on how low the angle is at which the transmitting antenna radiates or the receiving antenna receives, but only on the state of the ionosphere."
+    },
+    "AH207": {
+      "question": "When electromagnetic waves propagate between two places by ionospheric refraction, the MUF is ...",
+      "answer_a": "the highest usable frequency.",
+      "answer_b": "the mean of the highest and lowest usable frequencies.",
+      "answer_c": "the lowest usable frequency.",
+      "answer_d": "the prescribed usable frequency."
+    },
+    "AH206": {
+      "question": "The highest frequency at which communication between two stations via the sky wave is possible is called the ...",
+      "answer_a": "maximum usable frequency (MUF).",
+      "answer_b": "optimum working frequency (f$_{opt}$, FOT).",
+      "answer_c": "critical frequency (f$_{krit}$, foF2).",
+      "answer_d": "maximum penetration frequency (LUF)."
+    },
+    "AH205": {
+      "question": "Assume that the critical frequency of the F2 region (foF2) is 12 MHz. Which statement is then correct? At an angle of incidence into the ionosphere of ...",
+      "answer_a": "90 °, the highest signal frequency still returned to earth is 12 MHz.",
+      "answer_b": "90 °, the lowest signal frequency still returned to earth is 12 MHz.",
+      "answer_c": "45 °, the highest signal frequency still returned to earth is 12 MHz.",
+      "answer_d": "45 °, the lowest signal frequency still returned to earth is 12 MHz."
+    },
+    "AH204": {
+      "question": "The critical frequency of the F2 region (foF2) is the ...",
+      "answer_a": "highest frequency that is still returned to earth by the F2 region when radiated vertically.",
+      "answer_b": "lowest frequency that is still returned to earth by the F2 region when radiated vertically.",
+      "answer_c": "highest frequency that is still returned to earth by the F2 region when radiated horizontally.",
+      "answer_d": "lowest frequency that is still returned to earth by the F2 region when radiated horizontally."
+    },
+    "AH203": {
+      "question": "Which of the following bands are most likely to be usable for worldwide contacts during the night?",
+      "answer_a": "160 m, 80 m and 40 m",
+      "answer_b": "40 m, 20 m and 15 m",
+      "answer_c": "40 m, 17 m and 6 m",
+      "answer_d": "30 m, 12 m and 10 m"
+    },
+    "AH202": {
+      "question": "Which of these bands is most likely to be usable for daily long-distance contacts at sunspot minimum?",
+      "answer_a": "14 MHz (20 m band)",
+      "answer_b": "3.5 MHz (80 m band)",
+      "answer_c": "28 MHz (10 m band)",
+      "answer_d": "1.8 MHz (160 m band)"
+    },
+    "AH201": {
+      "question": "Which of the bands listed below is usually well suited to HF contacts between Hamburg and Munich around midday?",
+      "answer_a": "40 m band",
+      "answer_b": "160 m band",
+      "answer_c": "80 m band",
+      "answer_d": "15 m band"
+    },
+    "EH219": {
+      "question": "Which band can be used for worldwide contacts during the day at sunspot maximum, even with low power?",
+      "answer_a": "10 m band",
+      "answer_b": "2 m band",
+      "answer_c": "80 m band",
+      "answer_d": "160 m band"
+    },
+    "EH218": {
+      "question": "The term \"short skip\" refers to contacts, especially on the 10 m band, with skip distances of less than 1000 km, which are ...",
+      "answer_a": "made possible by refraction in sporadic E regions.",
+      "answer_b": "made possible, at a suitable angle of radiation, by refraction in the F1 region.",
+      "answer_c": "made possible, at a suitable angle of radiation, by refraction in the F2 region.",
+      "answer_d": "made possible by refraction in the highly ionised D region."
+    },
+    "EH217": {
+      "question": "What does it mean when a radio amateur in Germany says that \"VK\" has been worked via the \"long path\"?",
+      "answer_a": "Because of the propagation conditions, the contact with Australia was made via the indirect and therefore longer path across South America.",
+      "answer_b": "Because of the propagation conditions, the contact with Australia was made via a long direct path across South America.",
+      "answer_c": "Because of the propagation conditions, the contact with South America was made via the indirect and therefore longer path across Australia.",
+      "answer_d": "Because of the poor propagation conditions, the path to Australia was only established after a long wait."
+    },
+    "EH216": {
+      "question": "What is meant by the statement \"communication via the long path\"?",
+      "answer_a": "The contact does not run via the direct path to the other station, but in the direction opposite to the shortest path.",
+      "answer_b": "In good propagation conditions, multiple refractions with many hops occur. It is then possible to bridge very great distances – \"long paths\".",
+      "answer_c": "In good propagation conditions, multiple refractions with many hops occur. You then hear your own signals again in the receiver, delayed, as an \"echo\". They have thus travelled \"the long path once round the earth\".",
+      "answer_d": "In very good propagation conditions, the reflecting regions are at a great height. The skip distances then become very large, so that they exceed the range of the ground wave many times over. A \"very long path\" can then be covered in a single hop."
+    },
+    "EH215": {
+      "question": "What effect does the Mögel–Dellinger effect have on HF propagation?",
+      "answer_a": "A temporary failure of sky-wave propagation.",
+      "answer_b": "Temporary fading due to multipath propagation in the ionosphere.",
+      "answer_c": "A temporary distortion of the modulation.",
+      "answer_d": "Crosstalk of the modulation of a strong transmitter onto other RF signals carried via the ionosphere."
+    },
+    "EH214": {
+      "question": "A sudden increase in the intensity of UV and X-ray radiation after a flare (an outburst of energy on the sun) leads to increased ionisation of the D region and so to a temporary failure of sky-wave propagation on HF. This phenomenon is called ...",
+      "answer_a": "the Mögel–Dellinger effect.",
+      "answer_b": "sporadic E propagation.",
+      "answer_c": "critical fading.",
+      "answer_d": "the aurora effect."
+    },
+    "EH213": {
+      "question": "In HF propagation, the so-called \"grey line\" plays a special role. What is the \"grey line\"?",
+      "answer_a": "The twilight zone around sunrise and sunset.",
+      "answer_b": "The unstable propagation conditions in the equatorial zone.",
+      "answer_c": "The time with the best opportunities for \"short skip\" propagation.",
+      "answer_d": "The transitional period before and after winter, in which the D region decays and builds up again."
+    },
+    "EH212": {
+      "question": "Which of the following statements is true of HF contacts made via the ground wave?",
+      "answer_a": "The ground wave follows the curvature of the earth and goes beyond the geographical horizon. It is attenuated more at higher frequencies than at lower frequencies.",
+      "answer_b": "The ground wave follows the curvature of the earth and does not go beyond the geographical horizon. It is attenuated more at higher frequencies than at lower frequencies.",
+      "answer_c": "The ground wave follows the curvature of the earth and goes beyond the geographical horizon. It is attenuated more at lower frequencies than at higher frequencies.",
+      "answer_d": "The ground wave follows the curvature of the earth and does not go beyond the geographical horizon. It is attenuated more at lower frequencies than at higher frequencies."
+    },
+    "EH211": {
+      "question": "During the day, propagation on the 160 m band is mainly ...",
+      "answer_a": "via the ground wave, because the attenuation of the D region prevents a sky wave from forming.",
+      "answer_b": "via the sky wave, because refraction in the D region is particularly strong for frequencies up to 2 MHz.",
+      "answer_c": "via the sky wave and the ground wave, because at frequencies below 2 MHz there is only a slight phase shift between the reflected and the direct wave.",
+      "answer_d": "via the sky wave, because temperature inversions in the troposphere can cause reflections for frequencies below 2 MHz."
+    },
+    "EH210": {
+      "question": "Why are signals on the 160 and 80 m bands weak during the day and unsuitable for worldwide communication? They are unsuitable because of the daytime attenuation in the ...",
+      "answer_a": "D region.",
+      "answer_b": "F1 region.",
+      "answer_c": "F2 region.",
+      "answer_d": "A region."
+    },
+    "EH209": {
+      "question": "The lowest usable frequency (LUF) for sky-wave propagation between two places depends ...",
+      "answer_a": "on the degree of ionisation in the D region.",
+      "answer_b": "on the angle of radiation of the antenna.",
+      "answer_c": "on the degree of ionisation in the E region.",
+      "answer_d": "on the polarisation of the antenna."
+    },
+    "EH208": {
+      "question": "On which of these parameters does the skip distance that an HF signal can cover on the earth's surface depend? It depends ...",
+      "answer_a": "on the angle of radiation of the antenna.",
+      "answer_b": "on the polarisation of the antenna.",
+      "answer_c": "on the transmit power.",
+      "answer_d": "on the antenna gain."
+    },
+    "EH207": {
+      "question": "You are operating close to the highest frequency currently possible (MUF). To be able to continue operating on even higher frequencies, the ionisation of the refracting region must ...",
+      "answer_a": "increase.",
+      "answer_b": "decrease.",
+      "answer_c": "disappear.",
+      "answer_d": "remain unchanged."
+    },
+    "EH206": {
+      "question": "Stronger ionisation of the F2 region leads to ...",
+      "answer_a": "a higher MUF.",
+      "answer_b": "greater absorption of the higher frequencies.",
+      "answer_c": "a lower MUF.",
+      "answer_d": "greater transparency to the higher frequencies."
+    },
+    "EH205": {
+      "question": "Which statement is correct for sunspot maximum?",
+      "answer_a": "Solar activity is very high and leads to stronger ionisation in the F region.",
+      "answer_b": "Solar activity is very high and leads to weaker ionisation in the F region.",
+      "answer_c": "Solar activity decreases sharply and leads to stronger ionisation in the F region.",
+      "answer_d": "Solar activity is very high at night and very weak during the day, and therefore leads to no ionisation in the D region."
+    },
+    "EH204": {
+      "question": "What does \"MUF\" mean in HF propagation?",
+      "answer_a": "Maximum usable frequency",
+      "answer_b": "Lowest usable frequency",
+      "answer_c": "Critical cut-off frequency",
+      "answer_d": "Mean usable frequency"
+    },
+    "EH203": {
+      "question": "What is the term for the drop in field strength caused by the superposition of the ground wave and the sky wave?",
+      "answer_a": "Fading",
+      "answer_b": "Backscatter",
+      "answer_c": "MUF",
+      "answer_d": "Mögel–Dellinger effect"
+    },
+    "EH202": {
+      "question": "What can be caused by the interaction of the sky wave and the ground wave?",
+      "answer_a": "Fluctuations in field strength (fading)",
+      "answer_b": "Frequency shift (Doppler effect)",
+      "answer_c": "Backscatter",
+      "answer_d": "Noise"
+    },
+    "EH201": {
+      "question": "The \"skip zone\" is understood to be the area ...",
+      "answer_a": "that is no longer reached by the ground wave and not yet reached by the sky wave.",
+      "answer_b": "that is covered by the ground wave, so that weaker DX stations are masked.",
+      "answer_c": "that is reached by the ground wave and is not accessible to the sky wave.",
+      "answer_d": "that lies in a zone of mutual cancellation caused by the superposition of the ground wave and the sky wave."
+    },
+    "NH201": {
+      "question": "What is an essential factor for HF propagation via the ionosphere?",
+      "answer_a": "The eleven-year solar cycle",
+      "answer_b": "The filter function of the receiver",
+      "answer_c": "The bandwidth of the antenna",
+      "answer_d": "Precise alignment of the antenna towards the equator"
+    },
+    "AH311": {
+      "question": "What kind of enhanced propagation is rain scatter?",
+      "answer_a": "Scattering of microwaves, especially on the 3 cm band, by rain clouds and thunderclouds.",
+      "answer_b": "Reflections in the VHF and UHF ranges from larger raindrops.",
+      "answer_c": "Scattering of microwaves, especially on the 23 cm band, by raindrops and hailstones.",
+      "answer_d": "Reflections on the 13 cm band in freezing rain."
+    },
+    "AH310": {
+      "question": "What is meant by aircraft scatter (AS)?",
+      "answer_a": "Beyond-the-horizon contacts in the VHF, UHF and SHF ranges by reflection from aircraft.",
+      "answer_b": "Monitoring aircraft radio communication with amateur radio equipment and antennas.",
+      "answer_c": "Beyond-the-horizon contacts in the VHF and UHF ranges by reflections from radio beacons.",
+      "answer_d": "Operating an amateur station on board an aircraft."
+    },
+    "AH309": {
+      "question": "Beyond-the-horizon contacts in the VHF/UHF range come about, among other things, through ...",
+      "answer_a": "tropospheric duct propagation when inversion layers occur.",
+      "answer_b": "reflection of the waves in the troposphere due to the occurrence of sporadic D regions.",
+      "answer_c": "polarisation rotation in the troposphere when there is high cloud.",
+      "answer_d": "polarisation rotation in the troposphere at thunderstorm fronts."
+    },
+    "AH308": {
+      "question": "How does \"aurora\" affect the quality of a radio signal?",
+      "answer_a": "CW signals have a fluttering, buzzing tone.",
+      "answer_b": "CW signals have a better tone.",
+      "answer_c": "The readability of voice signals improves.",
+      "answer_d": "CW and voice signals have an echo."
+    },
+    "AH307": {
+      "question": "Which of the following modes is best suited to aurora contacts?",
+      "answer_a": "CW",
+      "answer_b": "SSB",
+      "answer_c": "FM",
+      "answer_d": "RTTY"
+    },
+    "AH306": {
+      "question": "In which direction must a station in Europe turn its VHF antenna to make a contact via \"aurora\"?",
+      "answer_a": "North",
+      "answer_b": "South",
+      "answer_c": "East",
+      "answer_d": "West"
+    },
+    "AH305": {
+      "question": "What does a radio amateur mean by saying that they have had an aurora contact with Scotland on the 2 m band?",
+      "answer_a": "The contact was made by reflection of VHF waves from the polar northern lights (reflection from polar ionisation phenomena).",
+      "answer_b": "The contact was made by diffraction of VHF waves at light sources in the polar region (diffraction at ionised polar layers).",
+      "answer_c": "The contact was made by amplification of the polar northern lights by means of VHF waves (reflection from ionised polar light).",
+      "answer_d": "The contact was made by reflection of hum-modulated VHF waves at the Arctic Circle (reflection from ionisation phenomena of the Arctic Circle)."
+    },
+    "AH304": {
+      "question": "When aurorae occur, considerably extended ranges can be achieved on the amateur bands above 30 MHz because ...",
+      "answer_a": "strongly ionised areas occur that reflect radio waves.",
+      "answer_b": "strong magnetic fields occur that reflect radio waves.",
+      "answer_c": "strong inversion fields occur that reflect radio waves.",
+      "answer_d": "strong sporadic D regions occur that reflect radio waves."
+    },
+    "AH303": {
+      "question": "What causes auroral phenomena?",
+      "answer_a": "Charged particles from the sun entering the atmosphere of the polar regions.",
+      "answer_b": "A high sunspot number.",
+      "answer_c": "A low sunspot number.",
+      "answer_d": "Heavy meteor showers entering the atmosphere of the polar regions."
+    },
+    "AH302": {
+      "question": "In which ionospheric region do auroral phenomena occasionally occur?",
+      "answer_a": "In the E region near the poles",
+      "answer_b": "In the F region",
+      "answer_c": "In the E region near the equator",
+      "answer_d": "In the D region"
+    },
+    "AH301": {
+      "question": "In \"sporadic E\" propagation, waves in the VHF range are refracted at ...",
+      "answer_a": "particularly strongly ionised areas of the E region.",
+      "answer_b": "inversions at the lower edge of the E region.",
+      "answer_c": "geomagnetic disturbances at the lower edge of the E region.",
+      "answer_d": "ionisation trails of meteors in the E region."
+    },
+    "EH305": {
+      "question": "How is a report given for an aurora signal in Morse telegraphy?",
+      "answer_a": "With R, S and \"A\" for aurora, because the tone in aurora is very rough and cannot be assessed.",
+      "answer_b": "With R, S and T, because aurora contacts are made mainly in CW.",
+      "answer_c": "With R and T, because the signal strength fluctuates heavily.",
+      "answer_d": "With R, S, T and \"A\" for aurora."
+    },
+    "EH304": {
+      "question": "What do you understand by the term \"sporadic E\"?",
+      "answer_a": "Refraction in localised areas of unusually high ionisation within the E region.",
+      "answer_b": "Sudden short-term changes of inversion in the E region that make long-distance propagation possible in the VHF range.",
+      "answer_c": "Short-lived strong reflection of VHF signals from meteor trails within the E region.",
+      "answer_d": "Localised short-term failure of reflection due to unusually high ionisation within the E region."
+    },
+    "EH303": {
+      "question": "Long-distance VHF contacts mainly use ...",
+      "answer_a": "tropospheric propagation.",
+      "answer_b": "ionospheric propagation.",
+      "answer_c": "ground-wave propagation.",
+      "answer_d": "surface-wave propagation."
+    },
+    "EH302": {
+      "question": "Beyond-the-horizon contacts in the VHF/UHF range come about, among other things, through ...",
+      "answer_a": "diffraction, reflection and scattering of the waves at areas of the troposphere with differing temperature and density.",
+      "answer_b": "diffraction, reflection and scattering of the waves in the troposphere due to the occurrence of sporadic D regions.",
+      "answer_c": "polarisation rotation in the troposphere when there is high cloud.",
+      "answer_d": "polarisation rotation in the troposphere at thunderstorm fronts."
+    },
+    "EH301": {
+      "question": "What is the \"troposphere\"? The troposphere is the part of the atmosphere ...",
+      "answer_a": "in which weather phenomena take place.",
+      "answer_b": "that lies above the tropics.",
+      "answer_c": "in which sporadic E regions can form.",
+      "answer_d": "in which auroral phenomena can occur."
+    },
+    "NH306": {
+      "question": "A radio amateur says that there are \"sporadic E conditions\" on the 2 m band. This means that at present ...",
+      "answer_a": "stations at distances of 1000 to 2000 km can be heard, received via refraction in the sporadic E region.",
+      "answer_b": "stations in North America can be heard, received via refraction at high-energy luminous noctilucent clouds (NLCs).",
+      "answer_c": "stations in North America can be heard, received via reflection from ionisation phenomena of the Arctic Circle.",
+      "answer_d": "stations at distances of 1000 to 2000 km can be heard, received via reflection from ionisation phenomena of the Arctic Circle."
+    },
+    "NH305": {
+      "question": "In which mode of propagation is contact made via strongly ionised areas that form mainly in the summer months at a height of about 100 to 110 km?",
+      "answer_a": "Sporadic E",
+      "answer_b": "Tropospheric propagation",
+      "answer_c": "Reflection from inversion layers",
+      "answer_d": "Reflection from thunderclouds"
+    },
+    "NH304": {
+      "question": "Which effect is normally responsible for the propagation of a VHF signal over 800 to 1000 km?",
+      "answer_a": "Formation of tropospheric inversions",
+      "answer_b": "Reflection from the surface of the moon",
+      "answer_c": "Ground-wave propagation",
+      "answer_d": "Atmospheric absorption"
+    },
+    "NH303": {
+      "question": "In the following terrain profile, let S be a transmitter on the 2 m band. Which of the receiving stations E1 to E4 is likely to receive the transmitter's signal best?",
+      "answer_a": "$\\text{E}_3$",
+      "answer_b": "$\\text{E}_1$",
+      "answer_c": "$\\text{E}_2$",
+      "answer_d": "$\\text{E}_4$"
+    },
+    "NH302": {
+      "question": "How does antenna height affect the range of a VHF contact? The range increases with increasing antenna height because ...",
+      "answer_a": "the quasi-optical line of sight increases.",
+      "answer_b": "the antenna is closer to the ionosphere.",
+      "answer_c": "it allows radiation at a steeper angle.",
+      "answer_d": "the temperature falls in higher layers of the air."
+    },
+    "NH301": {
+      "question": "Roughly how far beyond the geographical horizon does the radio horizon extend in the VHF range? It extends about ...",
+      "answer_a": "15 % further.",
+      "answer_b": "twice as far.",
+      "answer_c": "half as far.",
+      "answer_d": "up to four times as far."
+    },
+    "AI105": {
+      "question": "For accurate measurement of the RMS power of a modulated signal up into the upper GHz range, a suitable instrument is ...",
+      "answer_a": "a meter with a thermocouple converter.",
+      "answer_b": "an oscillograph.",
+      "answer_c": "a meter with a diode probe.",
+      "answer_d": "a digital multimeter."
+    },
+    "AI104": {
+      "question": "The data sheet of a digital multimeter gives the following: finest resolution 100 μV, internal resistance 10 MΩ on all ranges. You measure a voltage of 0.5 V. What current flows through the multimeter?",
+      "answer_a": "50 nA",
+      "answer_b": "10 nA",
+      "answer_c": "500 nA",
+      "answer_d": "200 nA"
+    },
+    "AI103": {
+      "question": "A voltmeter and an ammeter are used to determine the DC input power of a circuit. The voltmeter reads 10 V, the ammeter 10 A. If, within their accuracy, each of them read 5 % low, the electrical power would be determined ...",
+      "answer_a": "9.75 % too low.",
+      "answer_b": "5 % too low.",
+      "answer_c": "10.25 % too high.",
+      "answer_d": "5 % too high."
+    },
+    "AI102": {
+      "question": "Various meters are used to measure the DC input power. Which of the instruments in the figure are ammeters?",
+      "answer_a": "2, 3 and 4",
+      "answer_b": "1, 2 and 3",
+      "answer_c": "2, 4 and 1",
+      "answer_d": "1, 3 and 4"
+    },
+    "AI101": {
+      "question": "How should the ammeter and voltmeter be arranged to determine the DC input power of the power amplifier (PA) shown?",
+      "answer_a": "Voltmeter at 1, ammeter at 3.",
+      "answer_b": "Voltmeter at 1, ammeter at 2.",
+      "answer_c": "Voltmeter at 3, ammeter at 1.",
+      "answer_d": "Voltmeter at 3, ammeter at 4."
+    },
+    "EI104": {
+      "question": "What voltage does the following meter indicate when it is set to the 300 V range?",
+      "answer_a": "88 V",
+      "answer_b": "29 V",
+      "answer_c": "8.8 V",
+      "answer_d": "290 V"
+    },
+    "EI103": {
+      "question": "What voltage does the following meter indicate when it is set to the 10 V range?",
+      "answer_a": "2.9 V",
+      "answer_b": "29 V",
+      "answer_c": "8.8 V",
+      "answer_d": "88 V"
+    },
+    "EI102": {
+      "question": "Which circuit with ideal meters could be used to determine the value of a resistor by means of Ohm's law?"
+    },
+    "EI101": {
+      "question": "How are voltmeters connected to the device under test, and what requirement must the meter meet to keep the measurement error as small as possible? The voltmeter must be ...",
+      "answer_a": "connected in parallel with the device under test and should have a high resistance.",
+      "answer_b": "inserted into the circuit and should have a low resistance.",
+      "answer_c": "connected in parallel with the device under test and should have a low resistance.",
+      "answer_d": "inserted into the circuit and should have a high resistance."
+    },
+    "NI104": {
+      "question": "In which circuit is a multimeter used correctly to measure the current through the resistor and the LED?"
+    },
+    "NI103": {
+      "question": "In which circuit is a multimeter used correctly to measure the voltage of the battery while the circuit is operating?"
+    },
+    "NI102": {
+      "question": "What does this circuit symbol represent?",
+      "answer_a": "Ammeter",
+      "answer_b": "Current source",
+      "answer_c": "Voltmeter",
+      "answer_d": "Voltage source"
+    },
+    "NI101": {
+      "question": "What does this circuit symbol represent?",
+      "answer_a": "Voltmeter",
+      "answer_b": "Ammeter",
+      "answer_c": "Voltage source",
+      "answer_d": "Current source"
+    },
+    "AI208": {
+      "question": "You have connected a vector network analyser (VNA) to a home-built half-wave dipole and measure the resonance curve shown. What must you do to tune this antenna to the 80 m band?",
+      "answer_a": "Lengthen both ends of the wire equally.",
+      "answer_b": "Shorten both ends of the wire equally.",
+      "answer_c": "Insert a capacitance in each half of the radiator.",
+      "answer_d": "Insert a common-mode choke."
+    },
+    "AI207": {
+      "question": "You have connected a vector network analyser (VNA) to a home-built half-wave dipole and measure the resonance curve shown. What must you do to tune this antenna to the 80 m band?",
+      "answer_a": "Shorten both ends equally.",
+      "answer_b": "Lengthen both ends equally.",
+      "answer_c": "Insert an inductance in each half of the radiator.",
+      "answer_d": "Insert a 50 Ω resistor in each half of the radiator."
+    },
+    "AI206": {
+      "question": "You have connected a vector network analyser (VNA) to the feed point of your HF antenna. The instrument shows R = 54 Ω and jX = +12 Ω. What does this measurement mean?",
+      "answer_a": "The resistive part of the antenna impedance is 54 Ω; the reactive part is 12 Ω and inductive.",
+      "answer_b": "The impedance of the antenna is 66 Ω. There is a large inductive mismatch.",
+      "answer_c": "The ohmic resistance of the antenna impedance is 54 Ω; the reactive part is 12 Ω and capacitive.",
+      "answer_d": "Because of its large reactance, the antenna is only suitable for receiving, not for transmitting."
+    },
+    "AI205": {
+      "question": "You have connected a vector network analyser (VNA), set to the VHF range, to the feed point of your VHF antenna. The instrument shows R = 50 Ω and jX = 0 Ω. What can you tell from these values?",
+      "answer_a": "The antenna is well matched for operation with a VHF transmitter with an output impedance of 50 Ω.",
+      "answer_b": "The missing reactive part (jX) indicates that the antenna is faulty.",
+      "answer_c": "The antenna is poorly matched for operation with a transmitter with an output impedance of 50 Ω, because the required reactive part (jX) of 50 Ω is missing.",
+      "answer_d": "Because the reactive component is missing, the antenna is only suitable for receiving, not for transmitting."
+    },
+    "AI204": {
+      "question": "You have connected a vector network analyser (VNA) to the feed point of your HF antenna. The instrument shows R = 54 Ω and jX = -12 Ω. What does this measurement mean?",
+      "answer_a": "The ohmic resistance of the antenna impedance is 54 Ω; the reactive part is 12 Ω and capacitive.",
+      "answer_b": "The impedance of the antenna is 66 Ω. There is a large inductive mismatch.",
+      "answer_c": "The resistive part of the antenna impedance is 54 Ω; the reactive part is 12 Ω and inductive.",
+      "answer_d": "Because of its large reactance, the antenna is only suitable for receiving, not for transmitting."
+    },
+    "AI203": {
+      "question": "The resonant frequency of a tuned RF circuit can be checked with ...",
+      "answer_a": "a vector network analyser (VNA).",
+      "answer_b": "a DC voltmeter.",
+      "answer_c": "a digital frequency meter.",
+      "answer_d": "an ohmmeter."
+    },
+    "AI202": {
+      "question": "Which of these instruments is best suited to determining the resonant frequency of a trap that is to be used in a dipole?",
+      "answer_a": "A vector network analyser",
+      "answer_b": "An SWR bridge",
+      "answer_c": "A frequency meter",
+      "answer_d": "A resonance wavemeter"
+    },
+    "AI201": {
+      "question": "How does a vector network analyser (VNA) work? An RF generator produces a ...",
+      "answer_a": "variable-frequency RF signal, which is applied to a filter or an antenna, for example. The changes in amplitude and phase of the RF signal caused by the connected device under test are displayed graphically as curves of, for example, impedance and phase angle, resistive and reactive part, or standing wave ratio.",
+      "answer_b": "frequency-stable RF signal, which is applied to a filter or an antenna, for example. The current and voltage maxima produced by the connected device under test are displayed graphically as curves of, for example, impedance and phase angle, resistive and reactive part, or standing wave ratio.",
+      "answer_c": "variable-frequency RF signal, which is applied to a filter or an antenna, for example. The impedance of the device under test is determined from the voltage dips it causes.",
+      "answer_d": "frequency-stable RF signal, which is applied to a filter or an antenna, for example. The attenuation curve or the antenna gain is determined from the mismatch caused by the device under test."
+    },
+    "EI206": {
+      "question": "You determine the resonant frequency and impedance of your home-built antennas with a vector network analyser (VNA). How could you check beforehand that the instrument is working properly?",
+      "answer_a": "By checking the readings in the short-circuit, open-circuit and matched conditions. The SWR should be close to 1 when matched, and infinite with a short circuit or an open circuit.",
+      "answer_b": "By checking the readings in the open-circuit and matched conditions. The test port of the instrument must never be short-circuited.",
+      "answer_c": "By connecting a terminating resistor to the test port of the VNA. The SWR displayed should be greater than 2 over the whole frequency range.",
+      "answer_d": "By connecting a reactance to the test port of the VNA. The SWR reading must be close to 1 at all frequencies."
+    },
+    "EI205": {
+      "question": "What must be done with the measurement set-up before a vector network analyser (VNA) is used?",
+      "answer_a": "Calibration",
+      "answer_b": "Zero adjustment",
+      "answer_c": "Setting the trigger threshold",
+      "answer_d": "Activating noise reduction"
+    },
+    "EI204": {
+      "question": "What, for example, is a vector network analyser (VNA) suitable for?",
+      "answer_a": "Measuring impedances.",
+      "answer_b": "Recording data rates in networks.",
+      "answer_c": "Direct measurement of the transmit power.",
+      "answer_d": "Measuring harmonics."
+    },
+    "EI203": {
+      "question": "Which instrument can be used to measure impedances, reactances and standing wave ratios directly?",
+      "answer_a": "Vector network analyser",
+      "answer_b": "Analogue multimeter",
+      "answer_c": "Digital storage oscilloscope",
+      "answer_d": "True-RMS voltmeter"
+    },
+    "EI202": {
+      "question": "How is the resonant frequency of a tuned circuit determined? It is determined ...",
+      "answer_a": "by measuring $L$ and $C$ and calculating it, or, for example, with a vector network analyser (VNA).",
+      "answer_b": "with a frequency meter or an oscilloscope.",
+      "answer_c": "with a digital multimeter set to frequency measurement.",
+      "answer_d": "from the S-meter reading with the tuned circuit connected to the receiver input."
+    },
+    "EI201": {
+      "question": "What, for example, is a \"vector network analyser\" (VNA) used for?",
+      "answer_a": "For the more accurate determination of the resonant frequencies and impedances of tuned circuits and antennas.",
+      "answer_b": "For recording how fast alternating currents vary over time.",
+      "answer_c": "For checking the spectral purity of a transmitter.",
+      "answer_d": "For determining the earth resistance of an amateur station."
+    },
+    "AI306": {
+      "question": "The following picture shows the two-tone SSB output signal of an HF transmitter, measured with an oscilloscope of sufficient bandwidth through a 10:1 probe directly at the connected 50 Ω dummy load. What output power (PEP) does the transmitter deliver?",
+      "answer_a": "36 W",
+      "answer_b": "72 W",
+      "answer_c": "144 W",
+      "answer_d": "400 W"
+    },
+    "AI305": {
+      "question": "The following picture shows the two-tone SSB output signal of an HF transmitter, measured with an oscilloscope of sufficient bandwidth through a 1:1 probe directly at the connected 50 Ω dummy load. What output power (PEP) does the transmitter deliver?",
+      "answer_a": "100 W",
+      "answer_b": "36 W",
+      "answer_c": "144 W",
+      "answer_d": "1600 W"
+    },
+    "AI304": {
+      "question": "What is the simplest way to measure the envelope shape of an RF signal? With a ...",
+      "answer_a": "wideband oscilloscope.",
+      "answer_b": "high-impedance multimeter set to AC.",
+      "answer_c": "sensitive SWR meter set to wave measurement.",
+      "answer_d": "wideband detector and headphones."
+    },
+    "AI303": {
+      "question": "With an oscilloscope, the pulse width is measured at ...",
+      "answer_a": "50 % of the peak value.",
+      "answer_b": "90 % of the peak value.",
+      "answer_c": "70 % of the peak value.",
+      "answer_d": "10 % of the peak value."
+    },
+    "AI302": {
+      "question": "What does an oscilloscope need in order to display a stationary picture?",
+      "answer_a": "Trigger circuit",
+      "answer_b": "X prescaler",
+      "answer_c": "Y prescaler",
+      "answer_d": "Frequency marker generator"
+    },
+    "AI301": {
+      "question": "Which instrument can be used to examine waveforms?",
+      "answer_a": "Oscilloscope",
+      "answer_b": "Absorption wavemeter",
+      "answer_c": "Frequency counter",
+      "answer_d": "Dip oscillator"
+    },
+    "EI304": {
+      "question": "Which of these instruments is used to display AF distortion?",
+      "answer_a": "An oscilloscope",
+      "answer_b": "A transistor voltmeter",
+      "answer_c": "A multimeter",
+      "answer_d": "A frequency counter"
+    },
+    "EI303": {
+      "question": "The pulse duration here is ...",
+      "answer_a": "200 μs.",
+      "answer_b": "260 μs.",
+      "answer_c": "230 μs.",
+      "answer_d": "150 μs."
+    },
+    "EI302": {
+      "question": "The timebase of an oscilloscope is set so that one division corresponds to 0.5 ms. What is the frequency of the applied voltage?",
+      "answer_a": "250 Hz",
+      "answer_b": "500 Hz",
+      "answer_c": "667 Hz",
+      "answer_d": "333 Hz"
+    },
+    "EI301": {
+      "question": "The timebase of an oscilloscope is set so that one division corresponds to 0.5 ms. What is the period of the applied voltage?",
+      "answer_a": "4 ms",
+      "answer_b": "2 ms",
+      "answer_c": "1.5 ms",
+      "answer_d": "3 ms"
+    },
+    "AI403": {
+      "question": "To check an SWR meter, its output is terminated with a 150 Ω load resistor suitable for RF. What SWR must the meter indicate if the impedance of the meter and of the transmitter is 50 Ω?",
+      "answer_a": "3",
+      "answer_b": "2.5",
+      "answer_c": "3.33",
+      "answer_d": "2"
+    },
+    "AI402": {
+      "question": "This circuit is ...",
+      "answer_a": "an SWR meter.",
+      "answer_b": "an impedance meter.",
+      "answer_c": "an absolute power meter.",
+      "answer_d": "an absorption wavemeter."
+    },
+    "AI401": {
+      "question": "On an RF line during transmission, an SWR meter measures and compares ...",
+      "answer_a": "the output voltages of two directional couplers inserted in the line and operated in opposite directions.",
+      "answer_b": "by means of its built-in directional couplers, the impedances present in the forward and reverse directions of the line.",
+      "answer_c": "the phase angle between the forward and the reflected power at the built-in termination of the directional couplers.",
+      "answer_d": "the maximum power $P_{\\textrm{max}}$ at the directional coupler and the minimum voltage $U_{\\textrm{min}}$ on the line."
+    },
+    "EI405": {
+      "question": "At which point should the SWR meter be inserted to check whether the antenna system is well matched to the transmitter?",
+      "answer_a": "Point 1",
+      "answer_b": "Point 2",
+      "answer_c": "Point 3",
+      "answer_d": "Point 4"
+    },
+    "EI404": {
+      "question": "Where must an SWR meter be inserted to give the most accurate information about the antenna? The SWR meter must be inserted between ...",
+      "answer_a": "the feeder and the antenna.",
+      "answer_b": "the transmitter output and the feeder.",
+      "answer_c": "the ATU and the feeder.",
+      "answer_d": "the transmitter output and the ATU."
+    },
+    "EI403": {
+      "question": "How is the standing wave ratio measured during transmission? It is measured ...",
+      "answer_a": "with an SWR bridge.",
+      "answer_b": "with an absorption wavemeter.",
+      "answer_c": "by measuring the current at the beginning and at the end of the feeder.",
+      "answer_d": "by measuring the voltage at the beginning and at the end of the feeder."
+    },
+    "EI402": {
+      "question": "Which instrument can indicate the match between a UHF transmitter and the feeder to the antenna?",
+      "answer_a": "SWR meter",
+      "answer_b": "Multimeter with resistance reading",
+      "answer_c": "Interferometer",
+      "answer_d": "Matching transformer"
+    },
+    "EI401": {
+      "question": "With transmitters, an SWR meter is used to measure ...",
+      "answer_a": "the antenna match.",
+      "answer_b": "the harmonic output power.",
+      "answer_c": "the bandwidth.",
+      "answer_d": "the efficiency."
+    },
+    "NI203": {
+      "question": "An SWR meter is inserted in a perfectly matched transmitter/antenna system. The meter should ...",
+      "answer_a": "indicate an SWR of 1.",
+      "answer_b": "indicate 100 % reflected power.",
+      "answer_c": "indicate an SWR of 0.",
+      "answer_d": "indicate an SWR of infinity ($\\mathrm{\\infty}$)."
+    },
+    "NI202": {
+      "question": "If one side of the SWR meter is connected to the antenna, what must be connected to the other side to measure reflections?",
+      "answer_a": "Transceiver",
+      "answer_b": "Power supply unit",
+      "answer_c": "Dummy load",
+      "answer_d": "Antenna switch"
+    },
+    "NI201": {
+      "question": "Which instrument can be used to determine the antenna match?",
+      "answer_a": "SWR meter",
+      "answer_b": "Multimeter",
+      "answer_c": "Frequency counter",
+      "answer_d": "Field-strength meter"
+    },
+    "AI511": {
+      "question": "How can the frequency display of a tunable receiver be checked as accurately as possible?",
+      "answer_a": "With a signal generator stabilised by a crystal oven or synchronised to GPS.",
+      "answer_b": "With an LC oscillator with a high-Q tuned circuit.",
+      "answer_c": "With the harmonics of a switch-mode power supply under constant load.",
+      "answer_d": "With a temperature-stabilised RC oscillator."
+    },
+    "AI510": {
+      "question": "A transceiver displays frequencies on the 2 m band to an accuracy of 1 ppm. By how many kHz must the transmit frequency set on this transceiver in SSB operation (USB) (the frequency of the suppressed carrier) lie below 144.400 MHz to protect the beacon segment that begins there, if the transmitted audio is limited to the range 300 Hz to 2.7 kHz?",
+      "answer_a": "2.844 kHz",
+      "answer_b": "0.144 kHz",
+      "answer_c": "1.42 kHz",
+      "answer_d": "2.70 kHz"
+    },
+    "AI509": {
+      "question": "A frequency of 145 MHz is measured with a digital frequency counter accurate to 10 ppm. Within what range does the frequency displayed by the counter lie?",
+      "answer_a": "144.99855 MHz – 145.00145 MHz",
+      "answer_b": "144.99565 MHz – 145.00435 MHz",
+      "answer_c": "144.9971 MHz – 145.0029 MHz",
+      "answer_d": "144.999275 MHz – 145.000725 MHz"
+    },
+    "AI508": {
+      "question": "A frequency counter is accurate to $±$1 ppm. If the counter is set to the 100 MHz range, the inaccuracy to be expected at the top end of this range is ...",
+      "answer_a": "$±$ 100 Hz.",
+      "answer_b": "$±$ 10 Hz.",
+      "answer_c": "$±$ 1 kHz.",
+      "answer_d": "$±$ 1 Hz."
+    },
+    "AI507": {
+      "question": "A TRX with a built-in OCXO has a display accuracy of $±$0.00001 %. What is the maximum deviation when a frequency of 14100 kHz is displayed?",
+      "answer_a": "$±$ 1.410 Hz",
+      "answer_b": "$±$ 0.141 Hz",
+      "answer_c": "$±$ 1.141 Hz",
+      "answer_d": "$±$ 114.1 Hz"
+    },
+    "AI506": {
+      "question": "The relative inaccuracy of a receiver's digital display is 0.01 %. By how many hertz can the displayed frequency deviate at most at 29 MHz?",
+      "answer_a": "2900 Hz",
+      "answer_b": "290 Hz",
+      "answer_c": "29 Hz",
+      "answer_d": "29 kHz"
+    },
+    "AI505": {
+      "question": "Using a gate time of 10 s instead of 1 s on a frequency counter increases ...",
+      "answer_a": "the resolution.",
+      "answer_b": "the long-term stability.",
+      "answer_c": "the sensitivity.",
+      "answer_d": "the stability."
+    },
+    "AI504": {
+      "question": "A frequency measurement becomes more accurate if, in a frequency counter, ...",
+      "answer_a": "the timebase oscillator is temperature-stabilised.",
+      "answer_b": "a prescaler with a higher division ratio is used.",
+      "answer_c": "the measuring time is kept as short as possible.",
+      "answer_d": "the input signal is rectified."
+    },
+    "AI503": {
+      "question": "Which configuration ensures the highest accuracy when checking the carrier frequency of an FM transmitter?",
+      "answer_a": "Frequency counter and unmodulated carrier",
+      "answer_b": "Oscilloscope and unmodulated carrier",
+      "answer_c": "Frequency counter and modulated carrier",
+      "answer_d": "Absorption wavemeter and modulated carrier"
+    },
+    "AI502": {
+      "question": "What can be measured with a suitable attenuator and a frequency counter?",
+      "answer_a": "The transmit frequency of a CW transmitter",
+      "answer_b": "The modulation index of an FM transmitter",
+      "answer_c": "The width of the sideband of an SSB transmitter",
+      "answer_d": "The deviation of an FM transmitter"
+    },
+    "AI501": {
+      "question": "When the frequency of a transmitter is checked with a frequency counter, ...",
+      "answer_a": "a carrier without modulation must be used.",
+      "answer_b": "the counter must be synchronised with the mains frequency.",
+      "answer_c": "the counter must be synchronised with the transmit frequency.",
+      "answer_d": "analogue modulation of the carrier must be used."
+    },
+    "EI504": {
+      "question": "If a 10:1 frequency divider is connected ahead of a frequency counter and the counter displays 14.5625 MHz, the actual frequency is ...",
+      "answer_a": "145.625 MHz.",
+      "answer_b": "1.45625 MHz.",
+      "answer_c": "14.5625 MHz.",
+      "answer_d": "14.5625 kHz."
+    },
+    "EI503": {
+      "question": "The picture shows the display of a frequency counter. What is the place value of the digit marked X?",
+      "answer_a": "Ten hertz",
+      "answer_b": "One hertz",
+      "answer_c": "One hundred hertz",
+      "answer_d": "One kilohertz"
+    },
+    "EI502": {
+      "question": "The picture shows the display of a frequency counter. What is the place value of the digit marked X?",
+      "answer_a": "One kilohertz",
+      "answer_b": "One hertz",
+      "answer_c": "One hundred hertz",
+      "answer_d": "Ten hertz"
+    },
+    "EI501": {
+      "question": "With what can the frequency of an unmodulated RF signal be measured? With ...",
+      "answer_a": "a frequency counter.",
+      "answer_b": "an ohmmeter.",
+      "answer_c": "an AC voltmeter.",
+      "answer_d": "an AC electricity meter."
+    },
+    "NI301": {
+      "question": "Which instrument can be used to measure the transmit frequency of a transmitter?",
+      "answer_a": "Frequency counter",
+      "answer_b": "SWR meter",
+      "answer_c": "RF voltmeter",
+      "answer_d": "S meter"
+    },
+    "AI615": {
+      "question": "Which instrument can be used to detect the presence of harmonics?",
+      "answer_a": "Spectrum analyser",
+      "answer_b": "SWR meter",
+      "answer_c": "Vector network analyser (VNA)",
+      "answer_d": "Frequency counter"
+    },
+    "AI614": {
+      "question": "Which of the following measuring instruments can be used to measure the amplitudes of the harmonics of a signal? They can be measured with a ...",
+      "answer_a": "spectrum analyser.",
+      "answer_b": "frequency counter.",
+      "answer_c": "broadband level meter.",
+      "answer_d": "multimeter."
+    },
+    "AI613": {
+      "question": "What does the following circuit represent?",
+      "answer_a": "Field-strength meter",
+      "answer_b": "Simple direction-finding transmitter",
+      "answer_c": "Antenna impedance meter",
+      "answer_d": "Resonance meter"
+    },
+    "AI612": {
+      "question": "What must be taken into account for accurate measurement of the RF output power of a transmitter with a circuit like this?",
+      "answer_a": "Correction values for the circuit obtained from a calibration.",
+      "answer_b": "$R_1$ must be exactly 50 Ω.",
+      "answer_c": "Only RMS values may be used in the conversions.",
+      "answer_d": "The circuit must be checked with a spectrum analyser before every measurement."
+    },
+    "AI611": {
+      "question": "In the following circuit, $R_1$ consists of a combination of resistors with a total resistance of 54.1 Ω that can dissipate about 200 W. The diode is a silicon diode with $U_{\\textrm{F}}$ = 0.7 V. A DC voltage of 14.9 V is measured at the output with a digital voltmeter. Approximately what is the RF power at the input of the circuit?",
+      "answer_a": "9.7 W",
+      "answer_b": "37.8 W",
+      "answer_c": "4.9 W",
+      "answer_d": "19.4 W"
+    },
+    "AI610": {
+      "question": "An RF power of 1 W is fed to the input of the following measuring circuit. D is a Schottky diode with $U_F$ = 0.23 V. What voltage $U_A$ is to be expected at output A if the measurement is made with a high-impedance voltmeter?",
+      "answer_a": "4.8 V",
+      "answer_b": "3.3 V",
+      "answer_c": "7.1 V",
+      "answer_d": "9.8 V"
+    },
+    "AI609": {
+      "question": "You want to use the following measuring circuit to check the output power of a 2 m transmitter that is expected to deliver approx. 15 W of RF power. What should be connected ahead of the measuring circuit shown for the measurement?",
+      "answer_a": "A 20 dB, 20 W attenuator",
+      "answer_b": "A 25 m length of RG213 (MIL) coaxial cable",
+      "answer_c": "An SWR meter",
+      "answer_d": "A BNC socket to N plug adapter"
+    },
+    "AI608": {
+      "question": "What does the following circuit represent?",
+      "answer_a": "Measuring head for RF power measurement",
+      "answer_b": "Absorption wavemeter",
+      "answer_c": "Antenna impedance meter",
+      "answer_d": "RF dip oscillator"
+    },
+    "AI607": {
+      "question": "The output power of a 2 m FM handheld is to be measured with the following circuit. The diodes are Schottky diodes with $U_{\\textrm{F}}$ = 0.23 V. A DC voltage of 15.3 V is measured at the output with a digital voltmeter. Approximately what is the RF power at the input of the circuit?",
+      "answer_a": "Approx. 600 mW",
+      "answer_b": "Approx. 4.7 W",
+      "answer_c": "Approx. 1.2 W",
+      "answer_d": "Approx. 2.4 W"
+    },
+    "AI606": {
+      "question": "The power of a 2 m transmitter is to be determined with a 50 Ω dummy load that has a tap at 5 Ω from the earthed end. The following circuit is used for the measurement at this point. The diodes are Schottky diodes with $U_{\\textrm{F}} =$ 0.23 V. A DC voltage of 15.3 V is measured at the output of the circuit with a digital voltmeter. Approximately what is the RF power of the transmitter?",
+      "answer_a": "Approx. 60 W",
+      "answer_b": "Approx. 480 W",
+      "answer_c": "Approx. 340 W",
+      "answer_d": "Approx. 240 W"
+    }
+  }
+}

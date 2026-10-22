@@ -118,6 +118,22 @@ and the checker's "Provjera" section).
   AG209). (Batch 06.)
 - ***Cinch* → RCA (phono)**: a German trade name that English readers do not
   know for that connector (NG206). (Batch 06.)
+- **Word subscripts in formulas stay German**, like `R_\mathrm{ges}`:
+  `P_{\textrm{Sender}}`, `P_{\textrm{Verluste}}`, `G_{\textrm{Antenne}}`
+  (AG502, EG502) are symbols, not prose, and the course text writes the
+  same quantities as `P_\mathrm{Sender}` throughout. "Only words inside
+  `\text{}` are translated" applies to running words in a formula, not to a
+  subscript that names a quantity. (Batch 07.)
+- ***äquivalente Strahlungsleistung (EIRP)*** without *isotrope*, and
+  *gleichwertige isotrope Strahlungsleistung*, are written as the full
+  established term **equivalent isotropically radiated power (EIRP)**
+  (EG503–EG505, NG402): the abbreviation decides what is meant, and
+  "equivalent radiated power" is not an English name for the EIRP.
+  (Batch 07.)
+- **The German generic *er* for a radio amateur** ("Er muss die Antenne
+  drehen …", "erkennt er, dass …") is recast without a pronoun — "The
+  antenna must be turned to …", "that "PY" has been worked" — or, where a
+  pronoun is unavoidable, singular *they* (AH305). (Batch 07.)
 
 ## Open questions for DARC
 
