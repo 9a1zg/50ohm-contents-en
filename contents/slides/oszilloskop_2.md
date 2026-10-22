@@ -42,7 +42,7 @@ Definition: the pulse width is taken at 50% of the peak value
 <right>
 * For measuring the voltage
 * Tip made as a hook or needle
-* Reference (earth) connection usually via a separate crocodile clip
+* Earth reference usually via a separate crocodile clip
 * 10:1 probes divide the voltage to one tenth
 </right>
 ---

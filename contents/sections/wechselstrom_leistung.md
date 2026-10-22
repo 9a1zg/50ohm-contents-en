@@ -21,7 +21,7 @@ With these considerations, the following question is very easy to solve ($I_\mat
 
 [question:AB301]
 
-In amateur radio we deal with voltages of different frequencies (e.g. kilohertz or gigahertz) and waveforms (square-wave voltage, sinusoidal voltage, DC voltage). These can also be distorted rather than, for example, a pure sine-wave voltage. These different voltages produce different electric currents in a circuit. In principle, you would now need different instruments to measure this range of electric currents with reasonable accuracy. 
+In amateur radio we deal with voltages of different frequencies (e.g. kilohertz or gigahertz) and waveforms (square-wave voltage, sinusoidal voltage, DC voltage). They can also be distorted, rather than being, for example, a pure sine-wave voltage. These different voltages produce different electric currents in a circuit. In principle, you would now need different instruments to measure this range of electric currents with reasonable accuracy. 
 
 In amateur radio, therefore, a *thermocouple converter* is often used.
 It makes use of the fact that a current flowing through a conductor wire heats it up (cf. resistance of wires). The more current flows, the warmer the wire becomes. The heating is therefore proportional to the current. The thermocouple converter measures this heating and displays it as a current.  Note that with this measuring method we obtain the *RMS value* of the current. The advantage is that the current can be determined almost *independently* of the waveform or frequency. The thermocouple converter can therefore cover a wide range of signals. 

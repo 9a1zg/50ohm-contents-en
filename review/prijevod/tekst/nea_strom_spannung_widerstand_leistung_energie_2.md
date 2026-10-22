@@ -73,3 +73,35 @@ existing rule (bracket rule, units after a number, word subscripts).
 - sections/widerstandsfarbcode.md — "(siehe Tabelle [ref:…]," bracket never closed; closed in English.
 - sections/widerstand_smd.md "$\qty{11000}{\ohm}$ Ohm" and sections/widerstand_toleranz.md "$\qty{1000}{\ohm}$ Ohm" — unit written twice; written once in English.
 - Typos with no effect on the English: sections/spitze_effektiv_wert.md "Den Spitzenwert eine Wechselspannung" (*einer*), "Für Sinusförmige", "Wenn man weiß, das" (*dass*); slides/spitze_effektiv_wert.md caption "Peridoendauer"; sections/oszilloskop_1.md "Skaltenteile", "lässt ich"; slides/oszilloskop_1.md "eine Oszilloskops"; slides/oszilloskop_2.md "Zeigt den zeitlichen Verlauf von Spannungen dar" (*Stellt … dar*), caption "Oszillokops"; slides/ohmsches_gesetz.md "Spannungesquellen", "Stromfluß", "der elektrischer Spannung, dem elektrischem Strom"; sections/widerstandsfarbcode.md "vom dem aufgedruckten Wert", "mithilfe des Farbcode"; sections/wechselstrom_leistung.md "vernüftigen", "eine großen Bereich", "Zusammenhänge, bei denen … gerechnet werden können" (*kann*); slides/halbleiter.md "Materialen".
+
+## Provjera
+
+Checker: all 33 files compared paragraph by paragraph with the German
+(`git show ceec8fa~1:<file>`); embedded questions read in English
+(EB401–EB411, EI301–EI304, AI301–AI306, AI105, NA203, NA204, NA210, NA211,
+NB501–NB505, NB601–NB606, NB703, NC102–NC110, NC401–NC404, EC101–EC117,
+AB101–AB103, AB301). Nothing dropped or added; numbers, formulas and markup
+intact; no German left outside `%` comments and formula subscripts.
+`revizija-guard.py --rev ceec8fa~1 --brojevi`: 33 files, *struktura
+netaknuta*.
+
+Changes: omission 0, meaning 0, technical 0, style 4, glossary 2.
+
+- widerstand_materialien: *Ein einfach gewickelter Drahtwiderstand* "A simple wound wirewound resistor" → "A wirewound resistor with a simple winding" (style; the German contrasts a plain winding with non-inductive ones).
+- halbleiter: "the letters A and K (the usual abbreviation for the cathode)" → "the letters A and K, the usual symbols for anode and cathode" (style; K is the standard symbol in English too, but not an initial).
+- wechselstrom_leistung: "These can also be distorted rather than, for example, a pure sine-wave voltage" → "They can also be distorted, rather than being, for example, a pure sine-wave voltage" (style, grammar).
+- wechselstrom_leistung slides: "heat radiated at a resistor" → "heat radiated by a resistor" (style).
+- oszilloskop_2 slides and glossary §14: *Bezugsmasse* "Reference (earth) connection" → "Earth reference" (glossary; the bracket read as an afterthought).
+- Glossary §14: the *NTC (englisch …)* row gave a sentence as its English; reworked into a term row, NTC / PTC (negative / positive temperature coefficient), with the sentence as the example (glossary).
+
+Judgement calls reviewed and kept: *Kaltleiter / Heißleiter* as a material
+property → PTC / NTC conductor; *Innenwiderstand* of the scope → internal
+resistance (glossary), as for any voltmeter; probe *Masseverbindung* → earth
+connection (house style *earth*); *Kästchen* → square beside *division*; the
+dropped *(engl. trigger …)*, *(deutsch: …)* and *LED (englisch …)* glosses
+(bracket rule); NB505 `\qty{40.000}{\ohm}` matching the English answer. The
+other 22 new glossary rows are kept as they are. No DECISIONS.md entry was
+added, and none is needed. The suspected errors in the German are confirmed
+(tin/zinc 0.11; 1.03 vs 1.02 Ω; heating "proportional" to current rather than
+its square; NTC note reading conductivity for resistance; metal-film
+"temperaturunabhängig").

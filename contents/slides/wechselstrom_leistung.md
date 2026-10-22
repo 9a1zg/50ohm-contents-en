@@ -31,7 +31,7 @@ $\begin{split} P &=  I^2 \cdot R = \left(\frac{I_{\mathrm{max}}}{\sqrt{2}}\right
 ---
 ## Thermocouple converter
 
-* Measuring instrument in which the heat radiated at a resistor is measured
+* Measuring instrument in which the heat radiated by a resistor is measured
 * A thermocouple produces a DC voltage from the radiated heat, and this can be measured
 * Used where an electrical measurement is not possible, e.g. with non-periodic signals
 * The *RMS value* of the current is measured

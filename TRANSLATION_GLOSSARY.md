@@ -2040,7 +2040,7 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | AUTO-Taste / SINGLE-Taste / X-Position | AUTO button / SINGLE button / X position | front-panel labels (oszilloskop_1, oszilloskop_2) |
 | Triggerspannung / Triggereinrichtung | trigger voltage / trigger circuit | AI302; the German gloss *engl. trigger = „auslösen"* is dropped (bracket rule) |
 | Prüfspitze / Krokodilklemme | probe tip / crocodile clip | British *crocodile clip* |
-| Masseverbindung / Bezugsmasse (Tastkopf) | earth connection / reference (earth) connection | the probe's clip goes to the scope's earthed screen; *earth*, never *ground* (oszilloskop_2) |
+| Masseverbindung / Bezugsmasse (Tastkopf) | earth connection / earth reference | the probe's clip goes to the scope's earthed screen; *earth*, never *ground* (oszilloskop_2) |
 | Teilverhältnis (Tastkopf) | division ratio | 10:1, 1:1 probes |
 | Typschild | rating plate | leistung |
 | Wickelwiderstand / Wickelkörper | wound resistor / former | wirewound resistors (widerstand_materialien) |
@@ -2048,7 +2048,7 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Manganin / Konstantan | manganin / constantan | resistance alloys, lower case |
 | aufgedampft / Träger (Schichtwiderstand) | vapour-deposited / substrate | |
 | Kaltleiter / Heißleiter (Werkstoffeigenschaft) | PTC conductor / NTC conductor | where the German means a material, not the component ("Die meisten Metalle sind Kaltleiter", leiterwiderstand): *PTC thermistor* (§4) would call a metal a component |
-| NTC (englisch Negative Temperature Coefficient) | NTC stands for negative temperature coefficient | the German gloss gives the English expansion; in English it becomes a plain statement (widerstand_ntc_ptc) |
+| NTC / PTC (englisch Negative / Positive Temperature Coefficient) | NTC / PTC (negative / positive temperature coefficient) | the German *(englisch …)* gloss gives the expansion, which in English is stated plainly: "*NTC* stands for negative temperature coefficient" (widerstand_ntc_ptc) |
 | Einschaltstrombegrenzung | inrush current limiting | |
 | Thermoelement | thermocouple | cf. *Thermoumformer* → thermocouple converter (§11) |
 | Platine | circuit board; printed circuit board (PCB) | as *Leiterplatte* (§4) |

@@ -16,7 +16,7 @@ The terminals of a diode are called the *anode* and the *cathode*. If a wire in 
 [picture:666:n_halbleiter_diode_merkhilfe:Memory aid for the diode]
 </margin>
 
-Figure [ref:n_halbleiter_diode_merkhilfe] makes all this easy to remember: the diode symbol points like an arrow in the direction of conventional current flow. The terminal names anode and cathode are easy to remember if you add the letters A and K (the usual abbreviation for the cathode) to the diode symbol.
+Figure [ref:n_halbleiter_diode_merkhilfe] makes all this easy to remember: the diode symbol points like an arrow in the direction of conventional current flow. The terminal names anode and cathode are easy to remember if you add the letters A and K, the usual symbols for anode and cathode, to the diode symbol.
 
 [question:NC403]
 [question:NC404]
