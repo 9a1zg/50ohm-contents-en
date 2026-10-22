@@ -1,6 +1,6 @@
 The more strongly an AM carrier is modulated, the more its amplitude changes over time. Without modulation, only the RF carrier is transmitted, with constant amplitude (see Figure [ref:modulationsgrad_0]). As the modulation increases, the amplitude of the RF carrier follows the AF signal modulated onto it more and more closely, giving the typical envelope (see Figure [ref:modulationsgrad_10]).
 
-The ratio between the amplitude of the modulating AF signal and the unmodulated carrier amplitude determines the *modulation depth* $m$. At a modulation depth of $m=1$, or $\qty{100}{\percent}$, the carrier is fully driven. The envelope then varies between zero and twice the unmodulated carrier amplitude (see Figure [ref:modulationsgrad_100]).
+The ratio between the amplitude of the modulating AF signal and the unmodulated carrier amplitude determines the *modulation depth* $m$. At a modulation depth of $m=1$, or $\qty{100}{\percent}$, the carrier is fully modulated. The envelope then varies between zero and twice the unmodulated carrier amplitude (see Figure [ref:modulationsgrad_100]).
 
 [question:AE201]
 

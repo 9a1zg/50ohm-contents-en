@@ -1,6 +1,6 @@
 As we have already learnt in Classes N and E, in frequency modulation the information of the modulating signal is contained not in the amplitude but only in the change in frequency of the carrier signal. So only the zero crossings of the carrier signal have to be evaluated in the receiver. 
 
-Amplitude fluctuations are removed by a limiting amplifier in the process. Frequency modulation is therefore, by its very nature, insensitive to impulse interference to the amplitude, caused for example by ignition sparks, electric motors or the like. FM is therefore well suited to operation in motor vehicles.
+Amplitude fluctuations are removed by a limiting amplifier in the process. Frequency modulation is therefore, by its very nature, insensitive to impulse interference affecting the amplitude, caused for example by ignition sparks, electric motors or the like. FM is therefore well suited to operation in motor vehicles.
 
 [question:AE302]
 

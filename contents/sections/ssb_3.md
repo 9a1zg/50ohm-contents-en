@@ -25,7 +25,7 @@ Figure [ref:a_ssb_zweiton] shows in 1. a single-tone signal, i.e. a simple sinus
 
 [question:AE207]
 
-For the following questions, the transmitter output power has to be determined as peak envelope power (PEP). The PEP is the RMS power that the transmitter delivers at the peak of the modulation envelope. So it does not refer to the mean power over the whole modulation, but to the power at the maximum of the envelope, as shown in Figure [ref:a_pep_hüllkurve]. The peak voltage for calculating the RMS power can be read from the oscillogram. Mind the probe ratio when doing so.
+For the following questions, the transmitter output power has to be determined as peak envelope power (PEP). The PEP is the RMS power that the transmitter delivers at the peak of the modulation envelope. So it does not refer to the mean power over the whole modulation, but to the power at the maximum of the envelope, as shown in Figure [ref:a_pep_hüllkurve]. The peak voltage for calculating the RMS power can be read from the oscillogram. Mind the probe's division ratio when doing so.
 
 <margin>
 [picture:875:a_pep_hüllkurve:Modulation envelope for calculating the power]

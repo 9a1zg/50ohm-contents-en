@@ -86,3 +86,26 @@ a German gloss that only gives the English term is dropped (bracket rule).
 - slides/dynamik_compressor_2.md — "Dazu wird das NF-Signal in einem dynamischen Equalizer verstärkt und gedämpft": the section describes a compressor (gain depending on level), not an equaliser (gain depending on frequency), which ssb_3 introduces separately. Kept ("dynamic equaliser").
 - slides/am_2.md — "Signal steuert zwischen Träger und maximal möglichem Wert aus" (for $m = 1$): the section says the envelope then varies between zero and twice the unmodulated carrier amplitude. Kept.
 - Typos with no effect on the English: sections/am.md "Übertagung", double space in "zwischen  minimaler"; slides/am.md "kann *Additionstheoremen* … nachschlagen"; sections/sprachsignale.md "mit kleiner und große Amplitude", caption "Beispiel für ein Audiospektrums" (the slide has "Audiospektrum"); sections/fm_2.md "Eine lauteres NF-Signal", "führen ." ; sections/fm_3.md caption "Einfache Schlatung"; slides/ssb_2.md "Ausgangleistung"; sections/bandbreite.md caption and slides/bandreite_3.md "AfuV" for *AFuV*; sections/rauch_und_morsezeichen.md "τηλε" without the accent the slides give (τῆλε); the file name `bandreite_3` (for *bandbreite_3*) kept, as file names never change.
+
+## Provjera
+
+Checked all 44 files paragraph by paragraph against `git show 40104cd~1`
+(German), the embedded English questions looked up in
+`contents/questions/fragenkatalog3b.json`, and the 20 glossary rows and the
+DECISIONS.md entry of the commit. Nothing dropped or added; numbers,
+formulas and markup intact. `revizija-guard.py --rev 40104cd~1 --brojevi`:
+44 files, *struktura netaknuta*.
+
+Changes: omission 0, meaning 0, technical 3, style 5, glossary 3.
+
+- technical — sections/am_2.md: *vollständig ausgesteuert* (carrier at $m=1$) "fully driven" → "fully modulated", the English phrase for 100 % modulation; "driven" suggests the drive level of an amplifier. Glossary row added.
+- technical — sections/pm.md (3×): *Nutzsignal* $m(t)$ "wanted signal" → "information signal", as NE202/NE301 render *Informationssignal*; *wanted signal* is the receiver's sense (wanted vs. interfering) and reads wrongly for the message $m(t)$. Glossary row added. In ssb_3 *Nutzsignal(e)* stays "wanted signal(s)", where the text speaks of intermodulation between them.
+- technical — sections/ssb_3.md: *Tastkopfverhältnis* "probe ratio" → "the probe's division ratio", the glossary's existing term (*Teilverhältnis (Tastkopf)*, oszilloskop units); the new glossary row changed accordingly.
+- style — sections/fm_2.md: the stray space before the full stop ("FM signal .") removed; a typo in the German, no reason to copy it.
+- style — sections/fm_3.md: "impulse interference to the amplitude" → "impulse interference affecting the amplitude".
+- style — sections/pm.md: "The stronger the amplitude" → "The larger the amplitude".
+- style — sections/dynamik_kompressor_1.md: "periods of low or quiet drive" → "quiet periods of low drive".
+- style — solutions/AE308.md: "Given are the frequency deviation …" → "The given values are the frequency deviation …".
+- glossary — the *Trägerfrequenzauslenkung* row now also records *Frequenzabweichung (Frequenzhub)* of an FM carrier → "frequency excursion (frequency deviation)", as fm_2 has it, so it is not taken for the oscillator's *frequency error*.
+
+Kept after review: *Hilfsmittel* → "medium" (rauch_und_morsezeichen); *Modulationsart* → "type of modulation" / "mode" split; the DECISIONS.md entry on the *USB* warning; RMS power for *effektive Leistung* in the PEP definition (glossary §11); all other judgement calls and glossary rows. The suspected errors in the German are confirmed as listed (ssb 2700 Hz vs. 2400 Hz, pm instantaneous frequency, fm AF bandwidth vs. $f_\mathrm{mod\,max}$, the "dynamic equaliser" on the compressor slide, am_2 slide on $m = 1$).

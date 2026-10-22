@@ -1,10 +1,10 @@
 In phase modulation, the phase of a carrier wave is changed in accordance with the modulating signal. This means that the phase shift of the carrier wave varies in direct proportion to the amplitude of the modulating signal. This change in phase is kept as the signal goes on and varies in a particular pattern relative to the original carrier wave. The result is a sinusoidal signal whose "offset" (phase) is continuously adjusted, without the amplitude of the signal changing.
 
-Phase modulation can be pictured as shifting the sine curve along the time axis, with every change in phase controlled by the modulating signal. The stronger the amplitude of the modulating signal, the more the phase of the carrier signal shifts.
+Phase modulation can be pictured as shifting the sine curve along the time axis, with every change in phase controlled by the modulating signal. The larger the amplitude of the modulating signal, the more the phase of the carrier signal shifts.
 
 Phase modulation and frequency modulation both belong to the group of angle modulation techniques, since both affect the angle of the carrier wave. The difference is that frequency modulation directly affects the frequency, and phase modulation the phase.
 
-This is particularly clear with a square-wave signal as the wanted signal: in phase modulation, each edge of the square wave causes an immediate phase jump in the carrier signal, whereas in frequency modulation the edge of the signal only triggers a change of frequency – the resulting change in phase arises only indirectly, by accumulating continuously over time.
+This is particularly clear with a square-wave signal as the information signal: in phase modulation, each edge of the square wave causes an immediate phase jump in the carrier signal, whereas in frequency modulation the edge of the signal only triggers a change of frequency – the resulting change in phase arises only indirectly, by accumulating continuously over time.
 
 <margin>
 [picture:907:a_phasenmodulation:Phase modulation with reversal of the phase]
@@ -17,7 +17,7 @@ This is particularly clear with a square-wave signal as the wanted signal: in ph
 </webonly>
 
 <indepth>
-For the mathematically minded: in phase modulation, the wanted signal $m(t)$ has a direct influence on the phase, e.g.: 
+For the mathematically minded: in phase modulation, the information signal $m(t)$ has a direct influence on the phase, e.g.: 
 
 $\varphi(t) = m(t)$
 
@@ -33,7 +33,7 @@ $f_i(t) = \frac{1}{2\pi} \cdot \frac{d\varphi(t)}{dt}$
 
 This means that the frequency is the time derivative of the phase.
 
-So it is possible to achieve frequency modulation by means of phase modulation, by integrating the wanted signal $m(t)$:
+So it is possible to achieve frequency modulation by means of phase modulation, by integrating the information signal $m(t)$:
 
 $\varphi(t) = 2\pi \int m(t) \, dt$
 

@@ -2297,13 +2297,15 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | ausschlagen (Anzeige eines Spektrums) | show a peak | am indepth |
 | unteres / oberes Seitenband, englisch lower / upper sideband | lower sideband (LSB) / upper sideband (USB) | the German gloss is the English term and is dropped; the warning that *USB* does not stand for *unteres Seitenband* is kept as information about German usage (DECISIONS.md) (ssb) |
 | Einseitenbandmodulation, gebräuchlicher englisch single-sideband modulation | single-sideband modulation (SSB) | bracket rule (ssb, ssb_2) |
-| Trägerfrequenzauslenkung (Frequenzhub) / Frequenzauslenkung / Trägerauslenkung | deviation of the carrier frequency (frequency deviation) / frequency excursion / carrier deviation | EE306 "the deviation of the carrier frequency" (fm_2, fm_3) |
+| Trägerfrequenzauslenkung (Frequenzhub) / Frequenzauslenkung / Trägerauslenkung | deviation of the carrier frequency (frequency deviation) / frequency excursion / carrier deviation | EE306 "the deviation of the carrier frequency" (fm_2, fm_3); *Frequenzabweichung (Frequenzhub)* of an FM carrier is likewise "frequency excursion (frequency deviation)", not the oscillator's *frequency error* (fm_2) |
 | Lautstärkeinformation | volume information | EE306 |
 | Hub-Regler | deviation control | EE305 "deviation setting" (fm_2) |
 | Schmalband-FM (englisch Narrow-FM, kurz NFM) | narrowband FM (NFM) | bracket rule, as §2 *Schmalband-FM* (fm) |
-| Spitzen-Hüllkurvenleistung (PEP) / Tastkopfverhältnis | peak envelope power (PEP) / probe ratio | ssb_3, AI305, AI306 |
+| Spitzen-Hüllkurvenleistung (PEP) / Tastkopfverhältnis | peak envelope power (PEP) / the probe's division ratio | as *Teilverhältnis (Tastkopf)* above (ssb_3, AI305, AI306) |
 | Zweiton-Nutzsignal / Eintonsignal | two-tone wanted signal / single-tone signal | ssb_3 |
 | Winkelmodulationstechniken / Phasensprung / Flanke (Rechteck) | angle modulation techniques / phase jump / edge | pm |
+| Nutzsignal (das zu übertragende Signal $m(t)$ bei PM/FM) | information signal | as NE202/NE301 *Informationssignal*; *wanted signal* (§6) is the receiver's sense, against interference (pm) |
+| vollständig ausgesteuert (AM-Träger bei $m = 1$) | fully modulated | the English phrase for 100 % modulation; *Aussteuerung* of a transmitter or amplifier stays *drive* (§14) (am_2) |
 | Kanalleistungsmessung / Nachbarkanalleistungsmessung | channel power measurement / adjacent-channel power measurement | spectrum analyser functions (bandreite_3) |
 | zus. Nutzungsbedingungen (Tabellenkopf, Anlage 1 AFuV) / Auszug | add. conditions of use / extract | bandbreite; as §14 *Nutzungsbestimmungen* |
 | Dynamic Compressor / NF-Dynamikkompressor / Sprachkompressor | dynamic compressor / AF compressor / speech compressor | AE210 "AF compressor"; *NF-Sprachprozessor* stays *audio speech processor* (dynamik_kompressor_1, dynamik_compressor_2) |

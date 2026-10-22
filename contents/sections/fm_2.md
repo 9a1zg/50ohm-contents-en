@@ -10,7 +10,7 @@ Figure [ref:e_frequenzmodulation_t] shows an FM signal of constant amplitude ove
 
 ---
 
-Figure [ref:e_frequenzmodulation_frequenzhub] shows, as an example, a sinusoidal AF signal that causes a corresponding frequency excursion (frequency deviation) of a radio-frequency carrier in the spectrum. This means that in an FM signal the volume information is transmitted by the *deviation of the carrier frequency (frequency deviation)*. A louder AF signal would lead to a greater deviation of the carrier frequency and so to a larger bandwidth of the FM signal .
+Figure [ref:e_frequenzmodulation_frequenzhub] shows, as an example, a sinusoidal AF signal that causes a corresponding frequency excursion (frequency deviation) of a radio-frequency carrier in the spectrum. This means that in an FM signal the volume information is transmitted by the *deviation of the carrier frequency (frequency deviation)*. A louder AF signal would lead to a greater deviation of the carrier frequency and so to a larger bandwidth of the FM signal.
 
 <margin>
 [picture:827:e_frequenzmodulation_frequenzhub:Carrier deviation in frequency modulation]
