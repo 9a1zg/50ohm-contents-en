@@ -57,3 +57,28 @@ Seefunkstellen*, *zugelassenes CB-Funk-Gerät*, *Verschleierungsverfahren*,
 - slides/rst.md — "Subjektive Bewertung des Lesbarkeit": *des* should be *der* (typo, no effect on the English).
 - slides/erste_schritte.md — speaker note "noch ein Bulletpoint" is a leftover placeholder (translated as "another bullet point").
 - slides/erste_schritte.md vs sections/erste_schritte.md — slide "Der Lehrgang … kann aber nicht alles notwendige Wissen vermitteln" against section "dieser Kurs vermittelt alles nötige Wissen" (the slide probably means mathematics only).
+
+## Provjera
+
+18 files compared paragraph by paragraph with `ccb71af~1` (German); all
+embedded questions (BA101–BA110, BB102, BD209, BE101–BE108, BE201–BE209,
+NA101–NA103, NF103, NF108, NF301, VC111–VC115, VD102, VD103, VD205–VD207,
+VD303, VD306, VD703) looked up in English. 5 changes in 3 files: 0 omission,
+0 meaning, 0 technical, 5 style, 0 glossary. `revizija-guard.py --rev
+ccb71af~1 --brojevi`: 18 files, *struktura netaknuta*.
+
+- betriebsabwicklung (section and slides), `<qso>`: "this is DL1PZ with a general call" → "making a general call" (idiomatic; keeps the link to *general call*, BB102).
+- betriebsabwicklung (section), indepth: *Daran angelehnt* "Following on from this" → "By extension".
+- rst (section): *Unter der Lesbarkeit wird die Verständlichkeit verstanden* → "Readability is taken to mean intelligibility." (the translator's version added an explanation the German does not have).
+- rst (section): *Besonderheit* "peculiarity" → "feature".
+
+Judgement calls confirmed:
+
+- Pronunciation column: the German column teaches German readers how to say the English code words ("Korrekte Aussprache vermitteln"); the ITU's own respelling (checked against RR Appendix 14, all 26 rows) teaches the same to an English reader. Kept, with the DECISIONS.md entry. The one audible difference, Quebec (German KWE-BECK, ITU KEH-BECK), follows the ITU.
+- *Delta Mike Vier …* kept: in a national contact the digit is spoken in German, which is what the section teaches two paragraphs later.
+- "Is this frequency in use?": matches BE105 a (*besetzt* → "in use") and the usual English phrase; no answer means a free frequency either way, so the procedure is unchanged.
+- *von* / slides' *für* → "this is": standard English voice procedure, matches BE102/BE103.
+- *Dreisatz* → "rule of three": the established English name, understood by a British reader; NA101–NA103 show what is meant.
+- Dropped glosses (*suche dich*, *drücken, um zu senden*, the second CQ respelling, German words in brackets in the wordorigin and slide note): they translate English back into German; nothing a reader of the English needs is lost.
+- QSO meaning in ITU wording ("I can communicate with station X direct"): follows the Q code decision.
+- The three new DECISIONS.md entries and the §14 glossary rows: kept as written.

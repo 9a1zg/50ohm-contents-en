@@ -9,7 +9,7 @@ Is this frequency in use? DL1PZ
 > *(no answer)*
 Is this frequency in use? DL1PZ
 > *(no answer)*
-CQ CQ this is DL1PZ with a general call, this is DL1PZ, listening.
+CQ CQ this is DL1PZ making a general call, this is DL1PZ, listening.
 > DL1PZ this is DL9MJ, over
 </qso>
 
@@ -48,7 +48,7 @@ D*(crackle-crackle)*MJ this is DK5WP, over
 After a contact (often called a QSO), the frequency is always left to the station that started the call. But another station that wants to talk to you may have called you in the meantime. Even then, the frequency should be cleared for the station that originally called. Before that, however, you can quickly agree on another frequency.
 
 <indepth>
-*QSO* is an abbreviation that originally comes from Morse telegraphy and means "I can communicate with station X direct". Following on from this, radio amateurs often speak of a QSO when they mean a successful contact.
+*QSO* is an abbreviation that originally comes from Morse telegraphy and means "I can communicate with station X direct". By extension, radio amateurs often speak of a QSO when they mean a successful contact.
 </indepth>
 
 

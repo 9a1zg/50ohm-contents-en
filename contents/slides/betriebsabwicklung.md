@@ -60,7 +60,7 @@ Is this frequency in use? DL1PZ
 > *(no answer)*
 Is this frequency in use? DL1PZ
 > *(no answer)*
-CQ CQ this is DL1PZ with a general call, this is DL1PZ, listening.
+CQ CQ this is DL1PZ making a general call, this is DL1PZ, listening.
 > DL1PZ this is DL9MJ, over
 </qso>
 
