@@ -3,7 +3,7 @@
 * There are also competitions in amateur radio, which are called contests.
 * Aim: to make as many contacts as possible in a limited time
 * Contests are for sporting competition, but also for improving your own amateur station and operating procedures.
-* The organiser lays down the rules in the *contest rules*
+* The organiser lays down the rules: the *contest rules*
 
 ---
 [question:BE301]
@@ -29,7 +29,7 @@ CQ Test does not mean that a trial is being carried out, for example to test the
 * Lay down the period and the frequency ranges to be used
 * Lay down which information must be exchanged in every contact, e.g. call sign, signal report and Maidenhead locator
 * Lay down the scoring rules
-* If the rules are not kept $\rightarrow$ the contact is not counted, or points are deducted
+* If the rules are not observed $\rightarrow$ the contact is not counted, or points are deducted
 
 ---
 [question:BE303]

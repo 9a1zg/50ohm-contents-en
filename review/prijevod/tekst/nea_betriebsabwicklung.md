@@ -73,3 +73,28 @@ None.
 - sections/contest.md vs slides/contest.md — the section says calls in a contest *always* (*immer*) contain "Contest" or, in telegraphy, "Test"; the slides say *often* (*Oft*) and give "CQ FD" and "CQ Ruhrgebietscontest" as examples, which contain neither.
 - sections/ardf.md, slides/ardf.md — "Gewonnen hat der Erste, der den Zielpunkt erreicht, nachdem er alle Füchse gefunden hat": in ARDF the competitors start at staggered times and are ranked by the number of foxes found and the time taken, so the first to arrive is not necessarily the winner. Imprecise rather than wrong for a course text. Kept.
 - Typos with no effect on the English: sections/split_betrieb.md "Häufiger wird eine begehrte Station aber nicht nur eine einzelne Frequenz angegeben" (*gibt … an*); sections/pileup.md "Informationen über interessante Station" and slides/pileup.md "Hinweise über seltene Station" (*Stationen*), "findet man  Rufzeichen" (double space); slides/split_betrieb.md "am Meisten" (*meisten*); sections/contest.md "aus einem speziellen Land oder Region" (*einer*); slides/contest.md "der Namen des Wettbewerbes" (*Name*), "zum testen" (*Testen*); slides/ardf.md "im zeitlichem Wechsel" (*zeitlichen*), "ein anderes der folgende Rufzeichen" (*folgenden*); sections/sstv.md "5 = rauschfreies Bild" (lower case); sections/notfunk.md "eine Station … an Bord eines Schiffs oder Flugzeugs mit, dass es sich in Not befindet" (*sie*).
+
+## Provjera
+
+All 12 files compared paragraph by paragraph with the German of
+`a3bbf9a~1`, and the prose checked against the English of BE116, BE210,
+BE301–BE311, BE313, BD109, BF101–BF109 and VD105. Nothing dropped or added;
+the translation is faithful and technically right. Changes: omission 0,
+meaning 0, technical 0, style 6, glossary/question wording 1.
+
+- contest (section): "governed by rules, which the organiser lays down in the *contest rules*" → "governed by the *contest rules*, which the organiser lays down" (no rules-in-the-rules echo).
+- contest (section): "lay down the rules by which the participants are judged afterwards" → "lay down how the participants are scored afterwards" (*Bewertung* is scoring; again avoids "rules … rules").
+- contest (section and slides): "If the rules are not kept" → "not observed".
+- contest (slides): "The organiser lays down the rules in the *contest rules*" → "The organiser lays down the rules: the *contest rules*".
+- split_betrieb (slides): "on changing frequencies within the range given" → "on varying frequencies …", the wording of BE309.
+- split_betrieb (slides): "which frequency is being listened on" → "which frequency the station is listening on".
+- sstv (section): "as a development of amateur radio in its own right" → "SSTV, a development of amateur radio itself, was first practised …" (*eigenständige Entwicklung des Amateurfunks*: developed by amateur radio, not an independent field).
+
+Judgement calls kept as they are, all of them: the "(the digit 5 only)"
+bracket (it adds BE306's meaning, so the bracket rule does not drop it), the
+*Fuchsjagd* ("foxhunt") naming, "timing unit" for *Zeitnehmer* in the photo
+caption, "Notfall" (German for "emergency"), the *5 Ws* with *How* many, CEST/CET,
+the StGB and AFuV at first mention, "net control station". The 9 new glossary
+rows and the corrected *5 W-Fragen* row are kept unchanged; no DECISIONS.md
+entry was needed. The translator's suspected errors in the German stand.
+Guard (`--rev a3bbf9a~1 --brojevi`): 12 files, *struktura netaknuta*.

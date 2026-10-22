@@ -25,8 +25,8 @@ One advantage of split operation is that the special station can still be receiv
 ---
 
 * More often, a whole frequency range is given, e.g. "split up 28420 to 28430" or in short "tuning 420 to 430 up"
-* Meaning: the station receives on changing frequencies within the range given
-* Since nobody knows which frequency is being listened on at any given moment, you have to pick a frequency from the range at random and reply there
+* Meaning: the station receives on varying frequencies within the range given
+* Since nobody knows which frequency the station is listening on at any given moment, you have to pick a frequency from the range at random and reply there
 
 [picture:673:n_split_verkehr_anrufbereich:Split operation, transmit frequency of the sought-after station and the frequency range for replies in which it receives]
 
