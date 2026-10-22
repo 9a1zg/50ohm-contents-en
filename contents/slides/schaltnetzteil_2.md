@@ -1,28 +1,28 @@
 <left>
-[picture:35:e_schaltnetzteil:Prinzipschaltbild Schaltnetzteil]
+[picture:35:e_schaltnetzteil:Basic circuit diagram of a switch-mode power supply]
 </left>
 <right>
-* Elektronischer Schalter E regelt eine konstante Ausgangsspannung
-* Schaltzeit wird variiert
-* Schalter ist länger geschlossen $\rightarrow$ mehr Energie zur Lastseite $\rightarrow$ Ausgangsspannung steigt an
-* Dieses ist der *Impulsbreitenmodulator*
+* Electronic switch E regulates to a constant output voltage
+* Switching time is varied
+* Switch stays closed for longer $\rightarrow$ more energy to the load side $\rightarrow$ output voltage rises
+* This is the *pulse-width modulator*
 </right>
 <note>
-Im vereinfachten Schaltbild fehlt die Rückführung der Ausgangsspannung an den Steuerblock E, damit die Regelschleife komplett wird.
+The simplified diagram lacks the feedback of the output voltage to control block E that completes the control loop.
 </note>
 ---
 [question:AD311]
 ---
-### Galvanische Trennung
+### Galvanic isolation
 
 <left>
-* Trennung der Eingangs- und Ausgangsseite
-* Hält Störsignale der Schaltung von der Netzspannungseite fern
-* Andernfalls wirkt das Stromnetz wie eine Antenne
+* Isolation of the input side from the output side
+* Keeps the circuit's interference signals away from the mains side
+* Otherwise the mains acts like an antenna
 </left>
 <right>
 <fragment>
-[photo:277:a_störspektrum:Störspektrum eines Schaltnetzteils]
+[photo:277:a_störspektrum:Interference spectrum of a switch-mode power supply]
 </fragment>
 </right>
 
@@ -32,15 +32,15 @@ Im vereinfachten Schaltbild fehlt die Rückführung der Ausgangsspannung an den 
 [question:AD313]
 ---
 <left>
-[picture:367:a-schaltnetzteilfilter:Filter am 230V Eingang eines Schaltnetzteils]
-Tiefpassfilter auf Eingangsseite
+[picture:367:a-schaltnetzteilfilter:Filter at the 230 V input of a switch-mode power supply]
+Low-pass filter on the input side
 </left>
 <right>
-[photo:243:a_EMV Filter2: Filter direkt am 230 V  AC Spannungseingang]
+[photo:243:a_EMV Filter2: Filter directly at the 230 V AC voltage input]
 </right>
 <note>
-- PE darf nicht mit L1 oder N verbunden sein.
-- Drossel T darf keine Trafo-Funktion haben.
+- PE must not be connected to L1 or N.
+- Choke T must not act as a transformer.
 </note>
 ---
 [question:AD314]

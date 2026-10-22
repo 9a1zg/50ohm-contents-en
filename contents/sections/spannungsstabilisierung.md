@@ -1,79 +1,79 @@
-In jedem Funkgerät sind eine oder mehrere Spannungsstabilisierungen vorhanden, da die Eingangsspannung, vor allem bei mit Akku betriebenen Geräten, schwanken kann und dann empfindliche Baugruppen, wie z. B. Oszillatoren, ihre Frequenz ändern würden.
+Every radio contains one or more voltage stabilisers, because the input voltage can fluctuate, above all in battery-powered equipment, and sensitive circuits such as oscillators would then change their frequency.
 
-Spannungsstabilisierungen gibt es in 3 Varianten:
-1. *Schaltung mit Z-Diode* 
-2. *Lineare Spannungsregler* 
-3. *Festspannungsregler* in einer integrierten Schaltung
+Voltage stabilisers come in 3 variants:
+1. *Zener diode circuit* 
+2. *Linear voltage regulators* 
+3. *Fixed voltage regulators* in an integrated circuit
 
-Die *Schaltung mit Z-Diode* (vgl. Abbildung [ref:a_stab_z_diode]) stellt eine sehr einfache Schaltung zur Stabilisierung der Ausgangsspannung dar, da die Z-Diode die Ausgangsspannung in Grenzen stabil halten kann.
+The *Zener diode circuit* (see Figure [ref:a_stab_z_diode]) is a very simple circuit for stabilising the output voltage, since the Zener diode can keep the output voltage stable within limits.
 
-Die Z-Diode wird immer mit einem Vorwiderstand und in Sperrrichtung ($-U_Z$) betrieben. Z-Dioden mit Durchbruchspannungen $U_Z$ ab $\qty{5}{\volt}$, zeigen einen sehr steilen Verlauf der Kennlinie (vgl. Abbildung [ref:a_z_diode_kennlinie]) und eignen sich deshalb sehr gut zur Spannungsstabilisierung. Der Wirkungsgrad der Schaltung ist sehr niedrig, da die Verluste im Vorwiderstand $R_V$ und in der Z-Diode berücksichtigt werden müssen. 
+The Zener diode is always operated with a series resistor and in the reverse direction ($-U_Z$). Zener diodes with breakdown voltages $U_Z$ from $\qty{5}{\volt}$ upwards have a very steep characteristic (see Figure [ref:a_z_diode_kennlinie]) and are therefore very well suited to voltage stabilisation. The efficiency of the circuit is very low, because the losses in the series resistor $R_V$ and in the Zener diode have to be taken into account. 
 
 <margin>
-[picture:323:a_stab_z_diode:Spannungsstabilisierung mit Z-Diode]
-[picture:862:a_z_diode_kennlinie:Kennline einer Z-Diode]
+[picture:323:a_stab_z_diode:Voltage stabilisation with a Zener diode]
+[picture:862:a_z_diode_kennlinie:Characteristic of a Zener diode]
 </margin>
 
-Die Lösung der folgenden Aufgabe ist etwas aufwändiger. Zuerst wird aus Lastwiderstand und Laststrom die Ausgangsleistung bestimmt. Anschließend berechnet man aus Versorgungsspannung sowie der Summe aus Laststrom und Z-Diodenstrom die aufgenommene Eingangsleistung. Der Wirkungsgrad ergibt sich dann aus dem Verhältnis von abgegebener zu aufgenommener Leistung.
+The solution to the following question takes a little more work. First, the output power is found from the load resistance and the load current. Then the input power drawn is calculated from the supply voltage and the sum of the load current and the Zener diode current. The efficiency is then the ratio of the power delivered to the power drawn.
 
 [question:AD321]
 
 ---
 
-*Lineare Spannungsregler* stabilisieren die Ausgangsspannung dadurch, indem ein Leistungstransistor als veränderlicher Widerstand betrieben wird und zusammen mit dem Lastwiderstand einen Spannungsteiler bildet.
+*Linear voltage regulators* stabilise the output voltage by operating a power transistor as a variable resistor, which forms a potential divider together with the load resistance.
 
 <margin>
-[picture:1079:a_diskrete_pannungsstabilisierung:diskret aufgebaute Spannungsstabilisierung]
+[picture:1079:a_diskrete_pannungsstabilisierung:Voltage stabiliser built from discrete components]
 </margin>
 
-In der folgenden Frage ist eine diskrete Spannungsstabilisierung mit Längstransistor dargestellt. Über eine Z-Diode wird eine Referenzspannung von $\qty{5,6}{\volt}$ an der Basis des Transistors erzeugt. Das Emitterpotential ist im Betriebszustand eines Siliziumtransistor um etwa $\qty{0,6}{\volt}$ niedriger als das Basispotential. Die geregelte Ausgangsspannung liegt dann bei etwa $\qty{5}{\volt}$.
+The following question shows a discrete voltage stabiliser with a series pass transistor. A Zener diode produces a reference voltage of $\qty{5.6}{\volt}$ at the base of the transistor. When a silicon transistor is operating, the emitter potential is about $\qty{0.6}{\volt}$ lower than the base potential. The regulated output voltage is then about $\qty{5}{\volt}$.
 
-Der Laststrom fließt auch durch den Transistor und dadurch wird er bei hohem Laststrom sehr warm. Die sogenannten Längstransistoren befinden sich deshalb bei linear geregelten Spannungsstabilisierungen immer auf einem Kühlkörper. 
+The load current also flows through the transistor, so the transistor gets very warm when the load current is high. In linear regulated voltage stabilisers, these series pass transistors are therefore always mounted on a heatsink. 
 
 <margin>
-[photo:246:a_Längstransistor 2N3055 auf Kühlkörper:Der Längstransistor in einem linear geregelten Netzteil muss große Verlustleistungen aushalten und wird deshalb auf einen Kühlkörper montiert.]
+[photo:246:a_Längstransistor 2N3055 auf Kühlkörper:The series pass transistor in a linear regulated power supply has to withstand a high power dissipation and is therefore mounted on a heatsink.]
 </margin>
 
 [question:AD315]
 
-Die Verlustleistung $P_V$ ergibt sich aus der Differenz von  $P_{\mathrm{in}} - P_{\mathrm{out}}$. Zusammen mit der Leistungsformel $P = U \cdot I$ kann die Verlustleistung berechnet werden.
+The power dissipation $P_V$ is the difference $P_{\mathrm{in}} - P_{\mathrm{out}}$. Together with the power formula $P = U \cdot I$, the power dissipation can be calculated.
 
 [question:AD319]
 
-Bei linearen Spannungsreglern ist der Wirkungsgrad systembedingt oft sehr niedrig. Hierzu gibt es eine Frage zum Wirkungsgrad, welche mit der bekannten Formel von oben $\eta = \frac{P_{\mathrm{out}}}{P_{\mathrm{in}}}$ gelöst werden kann. 
+In linear voltage regulators the efficiency is often very low, by the very nature of the system. There is a question on this efficiency, which can be solved with the familiar formula from above, $\eta = \frac{P_{\mathrm{out}}}{P_{\mathrm{in}}}$. 
 
 [question:AD320]
 
 ---
 
-Neben Z-Diode und Linearspannungsregler gibt es auch *Festspannungsregler* in einer integrierten Schaltung. Festspannungsregler arbeiten wie lineare Spannungsregler mit Längstransistor und  beinhalten eine sehr genaue Spannungsreferenzquelle zusammen mit einer optimalen elektronischen Regelung. Auch wenn die Eingangsspannung stark  schwankt (z.B. $\qty{\pm 2}{\volt}$) ist auf der Lastseite die Spannungsänderung nur im Millivoltbereich messbar. Die Kondensatoren auf beiden Seiten des Festspannungsreglers müssen nach Vorgaben des Herstellers gewählt werden, sonst kann es zu unerwünschten Schwingungen im Regelverhalten der Schaltung kommen.
+Besides the Zener diode and the linear voltage regulator, there are also *fixed voltage regulators* in an integrated circuit. Fixed voltage regulators work like linear voltage regulators with a series pass transistor and contain a very accurate voltage reference together with optimised electronic control. Even if the input voltage fluctuates considerably (e.g. $\qty{\pm 2}{\volt}$), the change in voltage on the load side can only be measured in the millivolt range. The capacitors on both sides of the fixed voltage regulator must be chosen as the manufacturer specifies; otherwise the regulation of the circuit can break into unwanted oscillation.
 
 <margin>
-[picture:200:a_Festspannungsregler:Festspannungsregler]
+[picture:200:a_Festspannungsregler:Fixed voltage regulator]
 </margin>
 
 ---
 
-Ein Festspannungsregler hält seine Ausgangsspannung weitgehend konstant, solange die Eingangsspannung ausreichend über der Ausgangsspannung liegt. Die Ausgangsspannung bleibt daher nahezu unverändert, auch wenn die Eingangsspannung schwankt.
+A fixed voltage regulator keeps its output voltage largely constant as long as the input voltage is sufficiently above the output voltage. The output voltage therefore stays almost unchanged, even if the input voltage fluctuates.
 
 [question:AD316]
 [question:AD317]
 
 <tip>
-Damit die interne Regelschaltung optimal funktioniert, muss die Eingangsspannung bei Standard-Festspannungsregler (z.B. Typ 7812 für eine Festpannung von $\qty{12}{\volt}$) um ca. $\qty{3}{\volt}$ größer als die Ausgangsspannung sein, also mindestens $\qty{15}{\volt}$. Es gibt Festspannungsregler, bei denen die Eingangsspannung nur um $\qty{1}{\volt}$ größer als die Ausgangsspannung sein muss. Diese Regler heißen Low-Drop-Spannungsregler.
+For the internal control circuit to work properly, the input voltage of standard fixed voltage regulators (e.g. type 7812 for a fixed voltage of $\qty{12}{\volt}$) must be about $\qty{3}{\volt}$ higher than the output voltage, i.e. at least $\qty{15}{\volt}$. There are fixed voltage regulators whose input voltage need only be $\qty{1}{\volt}$ higher than the output voltage. These regulators are called low-dropout (LDO) regulators.
 </tip>
 
 ---
 
-Zur Lösung der folgenden Aufgabe nutzen wir erneut die bekannte Beziehung: Die Verlustleistung $P_V$ des Festspannungsreglers ergibt sich aus der Differenz von $P_{\mathrm{in}}$ und $P_{\mathrm{out}}$.
+To solve the following question we again use the familiar relationship: the power dissipation $P_V$ of the fixed voltage regulator is the difference between $P_{\mathrm{in}}$ and $P_{\mathrm{out}}$.
 
 [question:AD318]
 
 <tip>
-Der Lösungsweg beginnt mit der Berechnung des Laststromes: $I_L$. Hinweis: Der Strom in der Masseleitung des Festspannungsreglers ist vernachlässigbar klein und wird deshalb nicht berücksichtigt.
+The solution starts by calculating the load current: $I_L$. Note: the current in the chassis lead of the fixed voltage regulator is negligibly small and is therefore not taken into account.
 </tip>
 
 <margin>
-[photo:245:a_Festspannungsregler:Festspannungsregler für $\qty{5}{\volt}$, $\qty{12}{\volt}$ und $\qty{9}{\volt}$ auf Kühlkörper]
+[photo:245:a_Festspannungsregler:Fixed voltage regulators for $\qty{5}{\volt}$, $\qty{12}{\volt}$ and $\qty{9}{\volt}$ on a heatsink]
 </margin>
   

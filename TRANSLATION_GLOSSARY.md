@@ -2205,6 +2205,20 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Ferritkernübertrager | ferrite-cored transformer | |
 | Regelbarkeit / Ausfallwahrscheinlichkeit / Unterhaltungselektronik | regulation ("gute Regelbarkeit" → good regulation) / probability of failure / consumer electronics | schaltnetzteil_1 |
 | Wo Licht ist, ist auch Schatten | there is no light without shadow | |
+| Schaltzeit / Energietransport / Rückführung / Steuerblock (Schaltnetzteil) | switching time / transfer of energy / feedback / control block | schaltnetzteil_2; *der leitende Zustand des Schalters wird verändert* → "the time for which the switch conducts is varied" |
+| Netzspannungspotentiale / Netztrennung | mains potentials / mains isolation | as *galvanische Trennung* → galvanic isolation (§5) |
+| Störspektrum / (ungenügend) entstört | interference spectrum / (not adequately) suppressed | as §12 *Bürstenmotor (schlecht entstört)* (schaltnetzteil_2, AD312, AD313) |
+| EMV-Filter / Funkentstörfilter / leitungsgebundene Störungen | EMC filter / radio interference suppression filter / conducted interference | |
+| *Merke:* | *Remember:* | as in the earlier units (stromkreis, kondensator_2) |
+| Referenzspannung / Spannungsreferenzquelle / Regelverhalten | reference voltage / voltage reference / regulation | spannungsstabilisierung; *unerwünschte Schwingungen im Regelverhalten* → the regulation "can break into unwanted oscillation" |
+| diskret aufgebaute Spannungsstabilisierung / linear geregelt | voltage stabiliser built from discrete components / linear regulated | *Spannungsstabilisierung* as a circuit → voltage stabiliser, as AD321; as a technique → voltage stabilisation (§5) |
+| systembedingt | by the very nature of the system | |
+| Fernspeiseweiche oder englisch BIAS-T / BIAS-T (Kurstext) | bias tee (remote DC feed) | the German's "oder englisch" gloss only gives the English term and is dropped; "(remote DC feed)" as AD322, at first mention and in the figure caption; the slide bullet *Englisch: BIAS-T* → "Also called a remote DC feed"; afterwards plain *bias tee* (fernspeiseweiche); §5 *Fernspeiseweiche / Bias-T* |
+| abgesetzter Vorverstärker / Empfangskonverter | remotely mounted preamplifier / receive converter | fernspeiseweiche |
+| Gleichspannungsversorgung(sleitung) / Versorgungsgleichspannung / DC-Anschluss / DC-Seite | DC supply (line) / DC supply voltage / DC connection / DC side | fernspeiseweiche |
+| HF-Nutzfrequenz | wanted RF frequency | as §13 *Nutzfrequenz* → wanted frequency |
+| Feinsicherung / TR5 / Diazed / Neozed / Hochspannungssicherung | miniature fuse / TR5 / Diazed / Neozed / high-voltage fuse | type names unchanged; *KFZ-Sicherung Flachstecksicherungen* → automotive blade fuses (sicherungen) |
+| kommerzielle Funkgeräte | commercially made radios | factory-built, as opposed to home-built (sicherungen) |
 
 ## 15. Catalogue structure
 
