@@ -1808,7 +1808,7 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | breitbandiges Dämpfungsglied | broadband attenuator | |
 | Auto-Notch-Filter | automatic notch filter | |
 | Zündfunken | ignition sparks | |
-| Leitkreis | coupled-circuit band-pass filter | |
+| Leitkreis | series pass circuit (*Leitkreis*) | a series tuned circuit in series with the signal path, which passes its resonant frequency (drawing 1039): the counterpart of the *Saugkreis* (acceptor) among the band-pass circuits. English has no established name; the German word is given in brackets at first mention (schwingkreis_1). Corrected from "coupled-circuit band-pass filter", which no text had used |
 | Tuning Word / Lookup-Tabelle | tuning word / look-up table | |
 | Mittenfrequenz | centre frequency | |
 | Frequenzauflösung | frequency resolution | |
@@ -2219,6 +2219,29 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | HF-Nutzfrequenz | wanted RF frequency | as §13 *Nutzfrequenz* → wanted frequency |
 | Feinsicherung / TR5 / Diazed / Neozed / Hochspannungssicherung | miniature fuse / TR5 / Diazed / Neozed / high-voltage fuse | type names unchanged; *KFZ-Sicherung Flachstecksicherungen* → automotive blade fuses (sicherungen) |
 | kommerzielle Funkgeräte | commercially made radios | factory-built, as opposed to home-built (sicherungen) |
+| RC-Glied / RL-Glied / LC-Glied | RC network / RL network / LC network | simple filter sections (schwingkreis_1, schwingkreis_2) |
+| Flanken (Filter) / steilflankiger | slopes / steeper | "ihre Flanken im Grenzbereich eher flach" → "their slopes are rather shallow around the cut-off"; *steile Flanken* of a crystal filter → steep skirts, as §5 *Flankensteilheit* |
+| Frequenzweiche / Antennenweiche | frequency splitter / antenna splitter | high-pass and low-pass filters combined; the 2 m / 70 cm one is called a *diplexer* in both languages (schwingkreis_1) |
+| Duoband-Antenne / UKW-Duoband-Gerät | dual-band antenna / VHF/UHF dual-band radio | 2 m and 70 cm; German *UKW* loosely covers both bands here, English names them both (schwingkreis_1) |
+| Direktfunk / Relaisfunk | direct contacts / repeater operation | as §2 *Direktverbindung* |
+| Bauvorschlag / Berechnungsprogramm | construction design / calculation program | computer *program* |
+| Stimmgabel / Rechteckimpuls | tuning fork / square pulse | |
+| Serienschwingkreis bzw. Reihenschwingkreis | series tuned circuit | English has one term for the two German synonyms; the slide bullet *Oder Serienschwingkreis* → "Called *Reihenschwingkreis* or *Serienschwingkreis* in German" |
+| "Aus diesem Grund spricht man von einem Schwingkreis" | "This is why it is called a tuned circuit (in German *Schwingkreis*, literally "oscillating circuit")" | the German argues from its own word (*schwingen*, oscillate); *tuned circuit* does not carry the point, so the German word is named once with a literal gloss, as *Scheinwiderstand* (schwingkreis_1) |
+| Betragsfrequenzgang | magnitude response | the magnitude of $Z$ or of $U_A/U_E$ against frequency (schwingkreis_1, schwingkreis_2) |
+| Thomsonsche Schwingungsformel / Thomsonsche Schwingkreisformel | Thomson's formula | $f_0 = 1/(2\pi\sqrt{LC})$, after William Thomson (Lord Kelvin); formula-sheet topic "tuned circuits" (*Schwingkreise*) |
+| Güte (im Englischen Q-Faktor) / Gütefaktor | Q factor | the bracket only gives the English term and is dropped; slide bullet *Auch Q-Faktor* → "Also called the quality factor" |
+| unterkritische Kopplung / Durchlassbereich / Delle | under-critical coupling / passband / dip | coupled tuned circuits, with §5 *Kopplung (lose / kritisch / überkritisch)* and §6 *Durchlasskurve* → passband curve |
+| Schwingquarz / Quarz (Werkstoff, SiO$_2$) | crystal / quartz | as §4 *Quarz*; the slide note *Im Englischen mit t: Quartz* → "In German spelt without the t: Quarz" (oszillatoren) |
+| Wirkkette | chain of cause and effect | $U\uparrow \rightarrow C\downarrow \rightarrow f\uparrow$ (oszillator_vco) |
+| Frequenzabweichung / Sollfrequenz | frequency error / nominal frequency | not *deviation*, which is the FM *Hub* (§7) (oszillator_tcxo_ocxo, oszillator_gpsdo) |
+| geregelte Heizung / thermisch isoliertes Gehäuse | controlled heater / thermally insulated case | OCXO |
+| Rubidium-Frequenznormal | rubidium frequency standard | |
+| Satellitennavigationssysteme, englisch Global Navigation Satellite Systems (GNSS) | global navigation satellite systems (GNSS) | the German's English gloss is the English term itself (bracket rule) |
+| GPS-synchronisierter Oszillator oder englisch GPS-Disciplined Oscillator (GPSDO) | GPS-disciplined oscillator (GPSDO) | bracket rule; as AD606 |
+| Kurzzeitstabilität / Alterung (Bauelemente) | short-term stability / ageing | §5 *Langzeitstabilität* → long-term stability; British *ageing* |
+| ein Impuls pro Sekunde | one pulse per second | GPS receiver output |
+| Mit eingesetzten Werten: | Substituting the values: | solutions, also inside `\text{}` (AD225), as in earlier units |
 
 ## 15. Catalogue structure
 

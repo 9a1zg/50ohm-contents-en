@@ -1,4 +1,4 @@
-Oszillatoren sind eines der wichtigsten Schaltungselemente im Amateurfunk. Sie sind sozusagen das Herz eines jeden Funkgerätes. Oszillatoren dienen der Erzeugung von hochfrequenten Schwingungen in Sendern und Empfängern. Hierbei gibt es verschiedene Möglichkeiten, Oszillatoren technisch zu realisieren.
+Oscillators are among the most important circuit elements in amateur radio. They are, so to speak, the heart of every radio. Oscillators are used to generate RF oscillations in transmitters and receivers. There are various ways of implementing oscillators technically.
 
 ---
 
@@ -6,33 +6,33 @@ Oszillatoren sind eines der wichtigsten Schaltungselemente im Amateurfunk. Sie s
 [include:applet_schwingkreis]
 </margin>
 
-Die einfachste Form eines Oszillators ist der sog. *LC-Oszillator*, der als frequenzbestimmende Elemente einen Schwingkreis (bestehend aus einer Spule und einem Kondensator), welchen wir im vorherigen Kapitel kennen gelernt haben, enthält.
+The simplest form of oscillator is the so-called *LC oscillator*, which contains as its frequency-determining elements a tuned circuit (consisting of an inductor and a capacitor), which we met in the previous chapter.
 
 [question:ED501]
 
-LC-Oszillatoren haben den Nachteil, dass sich Ihre frequenzbestimmenden Komponenten (L und C) in Abhängigkeit von der Temperatur stark ändern können, was zu großen Frequenzabweichungen führen kann.
+LC oscillators have the disadvantage that their frequency-determining components (L and C) can change considerably with temperature, which can lead to large frequency errors.
 
-Laut Formelsammlung ist die Formel für die Schwingungsfrequenz (Thomsonsche Schwingkreisformel):
+According to the formula sheet, the formula for the frequency of oscillation (Thomson's formula) is:
 
 $ f_0 = \frac{1}{2\pi \sqrt{L\cdot C}} $
 
-Die Frequenz eines LC-Oszillators ändert sich, wenn sich der Wert des Kondensators oder der Spule z.B. durch Temperatureinwirkung ändert. Wie sich das auf die Frequenz auswirkt, kann man in der Formel erkennen:
-Bei *steigender* Kapazität des Kondensators oder steigender Induktivität der Spule *verringert sich die Frequenz* des Schwingkreises. Umgekehrt *steigt die Frequenz* des Schwingkreises bei *sinkender* Kapazität oder Induktivität.
+The frequency of an LC oscillator changes when the value of the capacitor or the inductor changes, e.g. because of the effect of temperature. How this affects the frequency can be seen from the formula:
+If the capacitance of the capacitor or the inductance of the inductor *rises*, the frequency of the tuned circuit *falls*. Conversely, the frequency of the tuned circuit *rises* if the capacitance or inductance *falls*.
 
 [question:ED503]
 [question:ED505]
 [question:ED502]
 [question:ED504]
 
-Die Geschwindigkeit der Temperaturänderung bestimmt auch die Geschwindigkeit der Frequenzänderung eines Oszillators. Hierbei ändert sich jedoch die Frequenz nicht sprunghaft, da thermische Effekte immer einer gewissen Trägheit unterliegen. Daher ändert sich die Frequenz eines Oszillators, der schwankenden Temperaturen unterworfen ist, meist langsam in die eine oder andere Richtung.
+How quickly the temperature changes also determines how quickly the frequency of an oscillator changes. The frequency does not change abruptly, however, since thermal effects always have a certain inertia. The frequency of an oscillator that is subject to fluctuating temperatures therefore usually changes slowly in one direction or the other.
 
 [question:EF304]
 
-Ein wesentlich frequenzstabilerer Oszillator-Typ ist der *Quarz-Oszillator*. Hierbei wird als frequenzbestimmende Komponente ein Schwingquarz verwendet, dessen Resonanzfrequenz nur in sehr geringem Maße von dessen Temperatur abhängig ist (im Vergleich zu LC-Oszillatoren).
+A type of oscillator with much better frequency stability is the *crystal oscillator*. Here the frequency-determining component is a crystal, whose resonant frequency depends only very slightly on its temperature (compared with LC oscillators).
 
 [question:ED506]
 [question:ED507]
 
-Um unerwünschte Abstrahlungen zu vermeiden, sollten Oszillatoren sowie Pufferstufen immer möglichst gut geschirmt werden. Dies kann z.B. durch den Einbau des Oszillators in ein geerdetes Metallgehäuse erfolgen.
+To avoid unwanted radiation, oscillators and buffer stages should always be screened as well as possible. This can be done, for example, by fitting the oscillator in an earthed metal case.
 
 [question:EF207]

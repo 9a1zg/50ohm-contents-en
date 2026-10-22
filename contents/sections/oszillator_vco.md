@@ -1,21 +1,21 @@
-In der Frequenz steuerbare Oszillatoren lassen sich auf verschiedene Weisen realisieren. Eine Möglichkeit ist der sog. *spannungsgesteuerte Oszillator VCO - Voltage controlled oscillator*.
+Oscillators whose frequency can be controlled can be implemented in various ways. One possibility is the so-called *voltage-controlled oscillator (VCO)*.
 
 [question:AD601]
 
 <margin>
-[picture:752:a_vco_schaltung:VCO-Schaltung mit Kapazitätsdiode]
+[picture:752:a_vco_schaltung:VCO circuit with a varactor diode]
 </margin>
 
 ---
 
-Damit die Frequenz des Oszillators veränderbar wird, kann man in dessen Schwingkreis eine Kapazitätsdiode einfügen, deren Kapazität über eine Gleichspannung beeinflusst werden kann (vgl. Abbildung [ref:a_vco_schaltung]). Eine Änderung dieser Gleichspannung führt dann zu einer entsprechenden Änderung der Oszillatorfrequenz. Hierdurch wird der Oszillator mittels einer Steuerspannung abstimmbar. 
+To make the frequency of the oscillator variable, a varactor diode can be inserted into its tuned circuit; its capacitance can be varied by a DC voltage (see Figure [ref:a_vco_schaltung]). A change in this DC voltage then leads to a corresponding change in the oscillator frequency. In this way the oscillator can be tuned by a control voltage. 
 
-Die Kapazitätsdiode wird in Sperrrichtung betrieben. Je höher die Gegenspannung der Diode wird, desto geringer wird deren Kapazität, welche durch die Größe der Grenzschicht (P-N-Übergang) bestimmt wird. Die Grenzschicht vergrößert sich bei Erhöhung der angelegten Sperrspannung, wodurch sich die Kapazität verringert und damit die Frequenz des Schwingkreises gemäß der Thomsonschen Schwingungsformel steigt.
+The varactor diode is operated in the reverse direction. The higher the reverse voltage across the diode, the lower its capacitance, which is determined by the width of the junction (PN junction). The junction widens as the reverse voltage applied is increased, which reduces the capacitance and so, according to Thomson's formula, raises the frequency of the tuned circuit.
 
-Umgekehrt verkleinert sich die Grenzschicht der Kapazitätsdiode bei Verringerung der angelegten Sperrspannung, wodurch sich die Kapazität erhöht und damit die Frequenz des Schwingkreises kleiner wird. Die Sperrspannung kann z. B. durch ein Potentiometer oder einen Steuerkreis erzeugt werden.
+Conversely, the junction of the varactor diode narrows as the reverse voltage applied is reduced, which increases the capacitance and so lowers the frequency of the tuned circuit. The reverse voltage can be produced, for example, by a potentiometer or a control circuit.
 
 <tip>
-Je höher die Spannung an der Kapazitätsdiode wird, desto größer wird der Abstand der "Platten" ($d$). Der Blick in die Formelsammlung ist immer ratsam, um diese Wirkketten zu verstehen.
+The higher the voltage across the varactor diode, the greater the spacing of the "plates" ($d$). A look at the formula sheet is always a good idea for understanding these chains of cause and effect.
 
 $C = \epsilon_0 \cdot \epsilon_r \cdot \frac{A}{d}$
 
@@ -28,6 +28,6 @@ $U \downarrow \quad\rightarrow\quad C \uparrow \quad\rightarrow\quad f \downarro
 
 [question:AD218] 
 
-Für alle Oszillatorschaltungen, unabhängig von ihrer Ausführung, gilt, dass unerwünschte Rückkopplungen zu Frequenzinstabilitäten führen können. Dies gilt für VCOs als auch für VFOs (z.B. mit Drehkondensatoren) sowie andere Oszillatoren.
+For all oscillator circuits, whatever their design, unwanted feedback can lead to frequency instability. This applies to VCOs as well as to VFOs (e.g. with variable capacitors) and other oscillators.
 
 [question:AD611]

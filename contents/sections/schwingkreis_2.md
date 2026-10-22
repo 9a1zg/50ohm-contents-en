@@ -1,55 +1,55 @@
-In der Formelsammlung finden wir die folgende Formel für die Berechnung der Grenzfrequenz von RC-Gliedern, z.B. von Hoch- oder Tiefpassfiltern:
+On the formula sheet we find the following formula for calculating the cut-off frequency of RC networks, e.g. of high-pass or low-pass filters:
 
 $f_g = \frac{1}{2 \pi \cdot R \cdot C}$
 
-Mit dieser Formel können wir eine Reihe von Prüfungsfragen lösen.
+With this formula we can solve a number of examination questions.
 
 <indepth>
-Für mathematisch interessierte Leser: Die Formel für die Grenzfrequenz eines RC-Gliedes lässt sich auch durch die Betrachtung der komplexen Impedanzen von Widerstand und Kondensator herleiten. Wir betrachten den RC-Tiefpass als frequenzabhängigen Spannungsteiler.
+For mathematically minded readers: the formula for the cut-off frequency of an RC network can also be derived by looking at the complex impedances of the resistor and the capacitor. We treat the RC low-pass filter as a frequency-dependent potential divider.
 
-[picture:175:a_rc_tiepass:RC-Tiefpass als frequenzabhängiger Spannungsteiler]
+[picture:175:a_rc_tiepass:RC low-pass filter as a frequency-dependent potential divider]
 
-Für das Verhältnis von Ausgangs- zu Eingangsspannung gilt:
+For the ratio of output voltage to input voltage:
 
 $\frac{|U_A|}{|U_E|} = \frac{|X_C|}{|R + X_C|}$
 
-Der kapazitive Blindwiderstand des Kondensators lautet:
+The capacitive reactance of the capacitor is:
 
 $X_C = \frac{1}{j\omega C}$
 
-Damit ergibt sich:
+This gives:
 
 $\frac{|U_A|}{|U_E|} = \frac{\left|\frac{1}{j\omega C}\right|}{\left|R + \frac{1}{j\omega C}\right|}$
 
-Für die Beträge erhalten wir:
+For the magnitudes we obtain:
 
 $\frac{|U_A|}{|U_E|} = \frac{\frac{1}{\omega C}}{\sqrt{R^2 + \frac{1}{\omega^2 C^2}}}$
 
-Multipliziert man Zähler und Nenner mit $\omega C$, vereinfacht sich der Ausdruck zu:
+Multiplying the numerator and the denominator by $\omega C$ simplifies the expression to:
 
 $\frac{|U_A|}{|U_E|} = \frac{1}{\sqrt{1 + R^2\omega^2 C^2}}$
 
-Die Grenzfrequenz ist so definiert, dass die Ausgangsspannung auf den Faktor $\frac{1}{\sqrt{2}} \approx 0{,}707$ des ursprünglichen Wertes abgefallen ist. Dies entspricht etwa $\qty{70}{\percent}$ der Ausgangsspannung bzw. einem Pegelabfall von $\qty{3}{\dB}$.
+The cut-off frequency is defined as the frequency at which the output voltage has fallen to the factor $\frac{1}{\sqrt{2}} \approx 0{.}707$ of its original value. This corresponds to about $\qty{70}{\percent}$ of the output voltage, or a drop in level of $\qty{3}{\dB}$.
 
 $\frac{|U_A|}{|U_E|} = \frac{1}{\sqrt{2}}$
 
-Daraus folgt:
+It follows that:
 
 $\frac{1}{\sqrt{1 + R^2\omega^2 C^2}} = \frac{1}{\sqrt{2}}$
 
-Damit muss gelten:
+So it must be true that:
 
 $R^2\omega^2 C^2 = 1$
 
-und somit:
+and therefore:
 
 $\omega R C = 1$
 
-Mit $\omega = 2\pi f$ ergibt sich:
+With $\omega = 2\pi f$ this gives:
 
 $2\pi f_g R C = 1$
 
-Daraus folgt für die Grenzfrequenz:
+From this it follows for the cut-off frequency:
 
 $f_g = \frac{1}{2\pi R C}$
 </indepth>
@@ -60,48 +60,48 @@ $f_g = \frac{1}{2\pi R C}$
 
 ---
 
-Der Betragsfrequenzgang eines Serienschwingkreises aus einem Widerstand, einer Spule und einem Kondensator, wie in Abbildung [ref:a_serienschwingkreis] dargestellt, berechnet sich nach folgender Formel:
+The magnitude response of a series tuned circuit made up of a resistor, an inductor and a capacitor, as shown in Figure [ref:a_serienschwingkreis], is calculated with the following formula:
   
 $Z = \sqrt{R^2+\left(X_\text{L} - X_\text{C}\right)^2}$
 
 <margin>
-[picture:181:a_serienschwingkreis:Serienschwingkreis]
+[picture:181:a_serienschwingkreis:Series tuned circuit]
 </margin>
 
 ---
 
-Wenn der Blindwiderstand der Spule genau so groß ist wie der Blindwiderstand des Kondensators, also $X_\text{L} = X_\text{C}$, dann ergibt sich für die Impedanz:
+If the reactance of the inductor is exactly as large as the reactance of the capacitor, i.e. $X_\text{L} = X_\text{C}$, the impedance is:
 
 $Z=\sqrt{R^2+\left(0\right)^2}=\sqrt{R^2}=R$
 
-In diesem Fall handelt es sich um die sogenannte *Resonanzfrequenz* $f_0$ des Schwingkreises, bei der die Impedanz nur noch durch den ohmschen Widerstand bestimmt wird. Bei Frequenzen über und unter der Resonanzfrequenz ist die Impedanz größer als der ohmsche Widerstand, da entweder die Spule oder der Kondensator einen höheren Blindwiderstand hat. Abbildung [ref:a_serienschwingkreis_frequenzgang] zeigt den Betragsfrequenzgang eines Serienschwingkreises, bei dem die Resonanzfrequenz deutlich zu erkennen ist. Bei Frequenzen über und unter der Resonanzfrequenz haben wir beim Serienschwingkreis daher jeweils einen hohen Gesamtwiderstand (Impedanz). Bei hoher Frequenz hat die Spule einen hohen Widerstand. Bei niedriger Frequenz hat der Kondensator einen hohen Widerstand. 
+This is the so-called *resonant frequency* $f_0$ of the tuned circuit, at which the impedance is determined by the ohmic resistance alone. At frequencies above and below the resonant frequency the impedance is greater than the ohmic resistance, because either the inductor or the capacitor has a higher reactance. Figure [ref:a_serienschwingkreis_frequenzgang] shows the magnitude response of a series tuned circuit, in which the resonant frequency can be clearly seen. At frequencies above and below the resonant frequency a series tuned circuit therefore has a high total resistance (impedance). At high frequency the inductor has a high resistance. At low frequency the capacitor has a high resistance. 
 
 <margin>
-[picture:1037:a_serienschwingkreis_frequenzgang:Betragsfrequenzgang eines Serienschwingkreises]
+[picture:1037:a_serienschwingkreis_frequenzgang:Magnitude response of a series tuned circuit]
 </margin>
 
 [question:AD206]
 [question:AD207] 
 [question:AD204] 
 
-Bei Parallel- und Serienschwingkreisen gilt im Resonanzfall, wie oben gezeigt, also folgender Zusammenhang:
+So, as shown above, the following relationship applies to parallel and series tuned circuits at resonance:
 
 $X_\text{C} = X_\text{L}$
 
-Wenn wir nun die Formeln für die Blindwiderstände von Spule und Kondensator in die obige Gleichung einsetzen, erhalten wir:
+If we now insert the formulas for the reactances of the inductor and the capacitor into the equation above, we obtain:
 
 $2\pi f \cdot L = \frac{1}{2\pi f \cdot C}$
   
-So ergibt sich die Formel: 
+This gives the formula: 
   
 $f_0 = \frac{1}{2\pi \sqrt{L\cdot C}}$
 
 ---
 
-Diese Formel heißt Thomsonsche Schwingungsformel und gilt sowohl für Parallel- als auch für Serienschwingkreise. In der Formelsammlung finden wir sie beim Thema "Schwingkreise". Sie besagt, dass die Resonanzfrequenz eines Schwingkreises nur von der Induktivität der Spule und der Kapazität des Kondensators abhängt. Ohmsche Widerstände und Verluste haben keinen Einfluss auf die Resonanzfrequenz. Mit der Formel können wir die Resonanzfrequenz von Schwingkreisen berechnen. 
+This formula is called Thomson's formula and applies to both parallel and series tuned circuits. On the formula sheet we find it under the topic "tuned circuits" (*Schwingkreise*). It states that the resonant frequency of a tuned circuit depends only on the inductance of the inductor and the capacitance of the capacitor. Ohmic resistances and losses have no influence on the resonant frequency. With the formula we can calculate the resonant frequency of tuned circuits. 
 
 <indepth>
-Ohmsche Widerstände in Parallel- und Serienschwingkreisen wirken sich jedoch auf die Güte ($Q$) und damit auf die Bandbreite ($B$) des Schwingkreises aus - hierauf werden wir später noch genauer eingehen.
+Ohmic resistances in parallel and series tuned circuits do, however, affect the Q factor ($Q$) and therefore the bandwidth ($B$) of the tuned circuit - we will go into this in more detail later.
 </indepth>
 
 
@@ -111,24 +111,24 @@ Ohmsche Widerstände in Parallel- und Serienschwingkreisen wirken sich jedoch au
 
 ---
 
-Die Resonanzfrequenz von Parallelschwingkreisen wird genau wie bei Serienschwingkreisen mit der zuvor genannten Thomsonschen Schwingungsformel berechnet. 
+The resonant frequency of parallel tuned circuits is calculated with Thomson's formula given above, exactly as for series tuned circuits. 
 
 [question:AD211] 
 [question:AD212] 
 
 ---
 
-Um die Resonanzfrequenz von Schwingkreisen zu verändern, kann entweder die Induktivität der Spule oder die Kapazität des Kondensators im Schwingkreis verändert werden.
-Wie aus der Thomsonschen Schwingkreisformel ersichtlich befinden sich die Größen $L$ und $C$ jeweils unter dem Bruchstrich. Hierdurch bewirkt eine Vergrößerung von $L$ oder $C$ eine Verringerung der Schwingkreisfrequenz, da der Nenner der Formel größer wird. Bei einer Verkleinerung von $L$ und $C$ gilt umgekehrt, dass die Resonanzfrequenz des Schwingkreises sich vergrößert.
+To change the resonant frequency of tuned circuits, either the inductance of the inductor or the capacitance of the capacitor in the tuned circuit can be changed.
+As can be seen from Thomson's formula, the quantities $L$ and $C$ are both in the denominator. Increasing $L$ or $C$ therefore lowers the frequency of the tuned circuit, because the denominator of the formula becomes larger. Conversely, reducing $L$ and $C$ raises the resonant frequency of the tuned circuit.
 
 <indepth>
-Die Quadratwurzel hat auf diesen Zusammenhang keinen Einfluss, da die Wurzel aus einer größeren Zahl ebenfalls eine größere Zahl ist. Der Zusammenhang hierbei ist jedoch nicht linear.
+The square root has no influence on this relationship, since the root of a larger number is also a larger number. The relationship is, however, not linear.
 </indepth>
 
-Die Induktivität einer Spule kann durch Vergrößern der Windungszahl, durch Zusammenschieben oder Einführen eines Ferritkerns vergrößert werden.
-Umgekehrt kann die Induktivität einer Spule verringert werden durch Verringerung der Windungszahl, durch Auseinanderziehen oder durch Entfernen eines Ferritkerns oder durch Einführen eines Kupferkerns. Die Kapazität von Kondensatoren kann durch Austausch oder die Verwendung von Trimm- oder Drehkondensatoren beeinflusst werden.
+The inductance of a coil can be increased by increasing the number of turns, by pushing the turns closer together or by inserting a ferrite core.
+Conversely, the inductance of a coil can be reduced by reducing the number of turns, by pulling the turns apart, by removing a ferrite core or by inserting a copper core. The capacitance of capacitors can be changed by replacing them or by using trimmer or variable capacitors.
 
-Mit diesem Wissen können wir nun die folgenden Fragen beantworten.
+With this knowledge we can now answer the following questions.
 
 [question:AD213] 
 [question:AD214] 
@@ -136,51 +136,51 @@ Mit diesem Wissen können wir nun die folgenden Fragen beantworten.
 [question:AD216] 
 [question:AD217] 
 
-Eine Kombination aus Parallel- und Serienschwingkreisen kann bei geeigneter Anordnung als Bandpassfilter verwendet werden. Im Resonanzfall verhalten sich die parallelen Schwingkreise wie hochohmige Widerstände und der Serienschwingkreis wie ein niederohmiger Widerstand.
+A combination of parallel and series tuned circuits, suitably arranged, can be used as a band-pass filter. At resonance, the parallel tuned circuits behave like high resistances and the series tuned circuit like a low resistance.
 
 [question:AD205]
 
-Die Bandbreite von Filtern und Bandpässen wird häufig in Bezug auf einen bestimmten Dämpfungswert angegeben. Dabei beschreibt die Dämpfung, wie stark ein Signal gegenüber dem maximalen Durchlass abgeschwächt wird.
+The bandwidth of filters and band-pass filters is often stated with reference to a particular attenuation value. The attenuation describes how much a signal is weakened compared with the maximum passed.
 
-Üblicherweise wird die *Bandbreite* eines Filters über den sogenannten $\qty{-3}{\dB}$-Punkt definiert.
+The *bandwidth* of a filter is usually defined by the so-called $\qty{-3}{\dB}$ point.
 
-Am $\qty{-3}{\dB}$-Punkt gilt:
+At the $\qty{-3}{\dB}$ point:
 
-- Nur noch die halbe Leistung passiert das Filter
-- Die Signalspannung beträgt noch etwa das $0{,}7$-fache des Maximalwertes
+- Only half the power still passes the filter
+- The signal voltage is still about $0{.}7$ times the maximum value
 
-Die Bandbreite ergibt sich aus der Differenz zwischen oberer und unterer Grenzfrequenz bei $\qty{-3}{\dB}$:
+The bandwidth is the difference between the upper and lower cut-off frequencies at $\qty{-3}{\dB}$:
 
 $ B = f_\mathrm{o} - f_\mathrm{u} $
 
 [question:AD220]
 
-Dabei sind:
+Where:
 
-- $f_\mathrm{o}$: obere Grenzfrequenz
-- $f_\mathrm{u}$: untere Grenzfrequenz
+- $f_\mathrm{o}$: upper cut-off frequency
+- $f_\mathrm{u}$: lower cut-off frequency
 
-Die $\qty{-3}{\dB}$-Bandbreite wird verwendet, um die Eignung eines Filters für bestimmte Betriebsarten zu beschreiben:
+The $\qty{-3}{\dB}$ bandwidth is used to describe how suitable a filter is for particular modes:
 
-- Schmalbandiges Filter mit etwa $\qty{500}{\hertz}$ Bandbreite: geeignet für CW (Telegrafie)
-- Breitbandigeres Filter mit etwa $\qty{2,7}{\kilo\hertz}$ Bandbreite: geeignet für SSB-Sprachübertragung
+- Narrowband filter with a bandwidth of about $\qty{500}{\hertz}$: suitable for CW (telegraphy)
+- Wider filter with a bandwidth of about $\qty{2.7}{\kilo\hertz}$: suitable for SSB voice transmission
 
 [question:AD221] 
 [question:AD222]
 
-Bei der folgenden Frage muss nicht der $\qty{-3}{\dB}$-Punkt, sondern die Bandbreite am $\qty{-60}{\dB}$-Punkt abgelesen werden.
+In the following question, the bandwidth must be read off not at the $\qty{-3}{\dB}$ point but at the $\qty{-60}{\dB}$ point.
 
 [question:AD219]
 
-Die Güte eines Schwingkreises (im Englischen Q-Faktor) wird durch das Verhältnis der Blindwiderstände von Kapazität und Induktivität im Resonanzfall zum ohmschen Verlustwiderstand bestimmt. Wenn ein Schwingkreis keinerlei ohmschen Verlustwiderstände enthalten würde, so wäre dessen Q-Faktor unendlich. Reale Bauteile sind jedoch immer verlustbehaftet. Induktivitäten haben immer einen ohmschen Verlustwiderstand, Kapazitäten haben dielektrische Verluste, die sich ebenfalls als ohmscher Widerstand auswirken. Je größer die ohmschen Widerstände in einem Schwingkreis sind, desto geringer wird dessen Q-Faktor. Für Filter mit hoher Güte und steilen Flanken werden häufig Quarzfilter eingesetzt.
+The Q factor of a tuned circuit is determined by the ratio of the reactances of the capacitance and the inductance at resonance to the ohmic loss resistance. If a tuned circuit contained no ohmic loss resistance at all, its Q factor would be infinite. Real components, however, always have losses. Inductors always have an ohmic loss resistance; capacitors have dielectric losses, which also act as an ohmic resistance. The greater the ohmic resistances in a tuned circuit, the lower its Q factor. Crystal filters are often used for filters with a high Q and steep skirts.
 
-Für die Berechnung des Q-Faktors verwenden wir die entsprechenden Formeln aus der Formelsammlung je nachdem ob es sich um einen Parallel- oder Serienschwingkreis handelt:
+To calculate the Q factor, we use the corresponding formulas from the formula sheet, depending on whether it is a parallel or a series tuned circuit:
 
-Für den Serienschwingkreis gilt im Resonanzfall ($X_\text{L} = X_\text{C}$):
+For the series tuned circuit at resonance ($X_\text{L} = X_\text{C}$):
 
 $Q = \frac{f_0}{B} = \frac{X_\text{L}}{R_\text{S}}$
 
-Für den Parallelschwingkreis gilt im Resonanzfall ($X_\text{L} = X_\text{C}$):
+For the parallel tuned circuit at resonance ($X_\text{L} = X_\text{C}$):
 
 $Q = \frac{f_0}{B} = \frac{R_\text{P}}{X_\text{L}}$
 
@@ -189,47 +189,47 @@ $Q = \frac{f_0}{B} = \frac{R_\text{P}}{X_\text{L}}$
 
 ---
 
-Entsprechend dem obigen Rechenbeispiel können wir jetzt auch den Gütefaktor des Parallelschwingkreises errechnen. Die Resonanzfrequenz wird wie im vorigen Beispiel berechnet. Es ist jedoch zu beachten, dass für die Berechnung von $Q$ die Formel für den Parallelschwingkreis zu verwenden ist:
+In the same way as in the calculation example above, we can now also calculate the Q factor of the parallel tuned circuit. The resonant frequency is calculated as in the previous example. Note, however, that the formula for the parallel tuned circuit must be used to calculate $Q$:
 
 $Q = \frac{f_0}{B} = \frac{R_\text{P}}{X_\text{L}}$
 
 [question:AD226]
 
-Die Bandbreite von Parallel- und Serienschwingkreisen lässt sich nun ebenfalls einfach aus der Resonanzfrequenz des Schwingkreises und dessen Gütefaktor wie folgt berechnen (Formel hierzu in der Formelsammlung):
+The bandwidth of parallel and series tuned circuits can now also be calculated easily from the resonant frequency of the tuned circuit and its Q factor, as follows (the formula is on the formula sheet):
 
 $Q = \frac{f_0}{B}$
 
-Durch Umstellen der Formel ergibt sich die Bandbreite $B$:
+Rearranging the formula gives the bandwidth $B$:
 
 $B = \frac{f_0}{Q}$
 
-Die vorgenannte Formel gilt sowohl für den Serien- als auch den Parallelschwingkreis!
+This formula applies to both the series and the parallel tuned circuit!
 
 [question:AD224]
 
-Entsprechend kann nun auch mit dem zuvor beschriebenen Wissen die folgende Frage schrittweise berechnet werden.
+With the knowledge described above, the following question can now also be worked out step by step.
 [question:AD223]
 
 ---
 
-Zur Übertragung von Signalen zwischen Schaltungsstufen sowie in Filtern in Sendern und Empfängern werden häufig gekoppelte Schwingkreise verwendet. Hierbei werden zwei Schwingkreise induktiv oder kapazitiv aneinander gekoppelt. Die Abbildung [ref:a_gekoppelte_schwingkreise] zeigt eine induktive Kopplung. Diese Kopplung kann je nach Anwendung 
+Coupled tuned circuits are often used to pass signals between circuit stages and in filters in transmitters and receivers. Here two tuned circuits are coupled to each other inductively or capacitively. Figure [ref:a_gekoppelte_schwingkreise] shows inductive coupling. Depending on the application, this coupling can be 
 
-- *lose* (d),
-- *unterkritisch* (c),
-- *kritisch* (b) oder 
-- *überkritisch* (a)
+- *loose* (d),
+- *under-critical* (c),
+- *critical* (b) or 
+- *over-critical* (a).
 
-erfolgen. Der Grad der Kopplung bestimmt die gegenseitige Beeinflussung und damit die Bandbreite und Durchlasskurve der gesamten Anordnung.
+The degree of coupling determines how much the circuits affect each other and therefore the bandwidth and the passband curve of the whole arrangement.
 
 <margin>
-[picture:184:a_gekoppelte_schwingkreise:Kopplung von Schwingkreisen]
+[picture:184:a_gekoppelte_schwingkreise:Coupling of tuned circuits]
 </margin>
 
-Bei loser und unterkritischer Kopplung gibt es kaum eine gegenseitige Beeinflussung; Dafür ist die Durchlassdämpfung der Anordnung relativ hoch und die Bandbreite relativ gering.
+With loose and under-critical coupling the circuits hardly affect each other; on the other hand, the passband loss of the arrangement is relatively high and the bandwidth relatively small.
 
-Bei kritischer Kopplung beeinflussen sich beide Schwingkreise gerade so, dass eine im Durchlassbereich flache Durchlasskurve mit geringer Dämpfung entsteht und diese im gewünschten Durchlassbereich völlig eben ist (Plateau). Die Bandbreite der Anordnung ist hierbei größer als bei loser und unterkritischer Kopplung. Hieran ist eine kritische Kopplung auch gut zu erkennen.
+With critical coupling the two tuned circuits affect each other just enough to give a passband curve that is flat in the passband with low loss and completely level over the wanted passband (a plateau). The bandwidth of the arrangement is greater here than with loose and under-critical coupling. This also makes critical coupling easy to recognise.
 
-Bei überkritischer Kopplung ist die gegenseitige Beeinflussung der beiden Schwingkreise sehr stark, was zu einer starken Änderung beider Resonanzfrequenzen und damit zu einer großen Bandbreite führt. Hierdurch wird die Durchlasskurve im Durchlassbereich stark verzerrt und es bilden sich links und rechts der Mittenfrequenz zwei Resonanzpunkte. Die Durchlasskurve bekommt eine "Delle". Hieran ist die überkritische Kopplung gut zu erkennen.
+With over-critical coupling the two tuned circuits affect each other very strongly, which shifts both resonant frequencies considerably and so leads to a large bandwidth. As a result, the passband curve is heavily distorted in the passband, and two resonance peaks form to the left and right of the centre frequency. The passband curve gets a "dip". This makes over-critical coupling easy to recognise.
 
 [question:AD227] 
 [question:AD228] 

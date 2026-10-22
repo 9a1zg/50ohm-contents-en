@@ -1,22 +1,22 @@
-* Kondensatoren und Spulen haben frequenzabhängige Widerstände
-* Damit sind passive Filterschaltungen möglich, um nur bestimmte Frequenzen passieren zu lassen
+* Capacitors and inductors have frequency-dependent resistances
+* This makes passive filter circuits possible that let only certain frequencies pass
 
 <fragment>
-*Zur Erinnerung*
-* Kondensator blockiert niedrige Frequenzen und  lässt hohe Frequenzen durch
-* Spule blockiert hohe Frequenzen und lässt niedrige Frequenzen durch
+*As a reminder*
+* A capacitor blocks low frequencies and lets high frequencies through
+* An inductor blocks high frequencies and lets low frequencies through
 </fragment>
 
 ---
-## Hochpass
+## High-pass filter
 <left>
-* Bei niedrigen Frequenzen hat der Kondensator einen sehr hohen Widerstand
-* Schaltung wirkt wie ein frequenzabhängiger Spannungsteiler
-* $U_\text{A}$ ist dadurch sehr klein
+* At low frequencies the capacitor has a very high resistance
+* The circuit acts like a frequency-dependent potential divider
+* $U_\text{A}$ is therefore very small
 </left>
 <right>
-[picture:592:e_hochpass:Filtercharakteristik eines Hochpass]
-[picture:195:e_hochpass_rc:Hochpass aus Kondensator und Widerstand]
+[picture:592:e_hochpass:Filter response of a high-pass filter]
+[picture:195:e_hochpass_rc:High-pass filter made of a capacitor and a resistor]
 </right>
 
 ---
@@ -26,25 +26,25 @@
 ---
 [question:ED212]
 <note>
-* Auch mit Kondensator und Spule möglich
+* Also possible with a capacitor and an inductor
 </note>
 ---
 [question:ED213]
 <note>
-* Bei niedrigen Frequenzen erzeugt die erste Spule fast einen Kurzschluss
+* At low frequencies the first inductor produces almost a short circuit
 </note>
 
 
 ---
-## Tiefpass
+## Low-pass filter
 <left>
-* Bei niedrigen Frequenzen hat der Kondensator einen sehr hohen Widerstand
-* Schaltung wirkt wie ein frequenzabhängiger Spannungsteiler
-* $U_\text{A}$ ist dadurch sehr groß
+* At low frequencies the capacitor has a very high resistance
+* The circuit acts like a frequency-dependent potential divider
+* $U_\text{A}$ is therefore very large
 </left>
 <right>
-[picture:591:e_hochpass:Filtercharakteristik eines Tiefpass]
-[picture:175:e_tiefpass_rc:Tiefpass aus Kondensator und Widerstand]
+[picture:591:e_hochpass:Filter response of a low-pass filter]
+[picture:175:e_tiefpass_rc:Low-pass filter made of a capacitor and a resistor]
 </right>
 
 ---
@@ -54,28 +54,28 @@
 ---
 [question:ED209]
 <note>
-* Auch mit Spule und Kondensator möglich
+* Also possible with an inductor and a capacitor
 </note>
 ---
 [question:ED210]
 <note>
-* Bei hohen Frequenzen erzeugt der erste Kondensator fast einen Kurzschluss
+* At high frequencies the first capacitor produces almost a short circuit
 </note>
 
 ---
-## Serienschwingkreis
+## Series tuned circuit
 <left>
-* Es gibt eine Resonanzfrequenz, bei der der Wechselstromwiderstand (Impedanz) sehr gering ist
-* Bandpass, Saugkreis (eine Frequenz wird rausgesaugt)
+* There is a resonant frequency at which the AC resistance (impedance) is very low
+* Band-pass filter, acceptor circuit (one frequency is "sucked out")
 </left>
 <right>
 %[picture:593:e_serienschwingkreis:Filtercharakteristik eines Serienschwingkreis]
-[picture:189:e_serienschwingkreis_z:Impedanzverlauf eines Serienschwingkreis]
-[picture:757:e_serienschwingkreis_cl:Serienschwingkreis aus Kondensator und Spule]
+[picture:189:e_serienschwingkreis_z:Impedance curve of a series tuned circuit]
+[picture:757:e_serienschwingkreis_cl:Series tuned circuit made of a capacitor and an inductor]
 </right>
 <note>
-* Es wird der Impedanzverlauf gezeigt
-* Die Filtercharakteristik ist in einer der kommenden Fragen
+* The impedance curve is shown
+* The filter response comes in one of the following questions
  </note>
 
 ---
@@ -87,19 +87,19 @@
 
 
 ---
-## Parallelschwingkreis
+## Parallel tuned circuit
 <left>
-* Es gibt eine Resonanzfrequenz, bei der der Wechselstromwiderstand (Impedanz) sehr hoch ist
-* Bandsperre, Sperrkreis
+* There is a resonant frequency at which the AC resistance (impedance) is very high
+* Band-stop filter, rejector circuit
 </left>
 <right>
 %[picture:594:e_parallelschwingkreis:Filtercharakteristik eines Parallelschwingkreis]
-[picture:190:e_parallelschwingkreis_z:Impedanzverlauf eines Parallelschwingkreis]
-[picture:755:e_parallelschwingkreis_cl:Parallelschwingkreis aus Kondensator und Spule]
+[picture:190:e_parallelschwingkreis_z:Impedance curve of a parallel tuned circuit]
+[picture:755:e_parallelschwingkreis_cl:Parallel tuned circuit made of a capacitor and an inductor]
 </right>
 <note>
-* Es wird der Impedanzverlauf gezeigt
-* Die Filtercharakteristik ist in einer der kommenden Fragen
+* The impedance curve is shown
+* The filter response comes in one of the following questions
  </note>
  
 ---
@@ -113,9 +113,9 @@
 
 
 ---
-## Kondensatortyp
-* kein Elektrolyt, da diese nur bei Gleichspannung funktionieren
-* Keramik- oder Luftkondensatoren können für hohe Frequenzen eingesetzt werden
+## Type of capacitor
+* No electrolytics, as they only work with DC voltage
+* Ceramic or air-spaced capacitors can be used for high frequencies
 
 ---
 [question:ED216]

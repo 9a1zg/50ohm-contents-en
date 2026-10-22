@@ -1,37 +1,37 @@
-* Oszillatoren erzeugen eine Wechselspannung
-* Es gibt verschiedene Methoden
+* Oscillators generate an AC voltage
+* There are various methods
 
 ---
 
-## LC-Oszillator
+## LC oscillator
 <left>
-* Schwingungserzeugung mit Spule und Kondensator als Schwingkreis
-* Ein aufgeladener Kondensator entlädt sich an der Spule
-* Eine aufgeladene Spule entlädt sich am Kondensator
-* Je nach Wert der Bauteile in einer bestimmten Frequenz
+* Oscillations generated with an inductor and a capacitor as a tuned circuit
+* A charged capacitor discharges through the inductor
+* A charged inductor discharges into the capacitor
+* At a particular frequency, depending on the values of the components
 </left>
 <right>
-[picture:755:e_parallelschwingkreis_cl:Parallelschwingkreis aus Kondensator und Spule]
+[picture:755:e_parallelschwingkreis_cl:Parallel tuned circuit made of a capacitor and an inductor]
 </right>
 <note>
-* Der Schwingkreis ist ein ganz wichtiges Thema!
-* Die Resonanzfrequenz f<sub>0</sub> aus der Formelsammlung ist Klasse A Stoff
+* The tuned circuit is a very important topic!
+* The resonant frequency f<sub>0</sub> from the formula sheet is Class A material
 </note>
 
 ---
 [question:ED501]
 ---
 
-### Temperaturstabilität
+### Temperature stability
 <left>
-* Die passiven Bauelemente haben bei veränderlicher Temperatur unterschiedliche Werte
+* The passive components have different values as the temperature changes
 </left>
 <right>
-* Höhere Frequenz bei *kleinerer* Kapazität oder Induktivität
-* Niedrigere Frequenz bei *höherer* Kapazität oder Induktivität
+* Higher frequency with *smaller* capacitance or inductance
+* Lower frequency with *larger* capacitance or inductance
 </right>
 <note>
-* Das ließe sich wunderbar an der Formel für f<sub>0</sub> erklären, was aber noch nicht bekannt ist
+* This could be explained very nicely with the formula for f<sub>0</sub>, but that has not been covered yet
 </note>
 
 ---
@@ -46,14 +46,14 @@
 [question:EF304]
 
 ---
-## Quarz-Oszillator
-* Schwingungserzeugung mit Quarz (Siliziumdioxid $SiO_2$)
-* Umgekehrter Piezoelektrischer Effekt an einem Quarzkristall
-* Quarz wird mit einem (schlechten) LC-Oszillator zum stabilen Schwingen angeregt
-* Bessere Frequenzstabilität
+## Crystal oscillator
+* Oscillations generated with a quartz crystal (silicon dioxide $SiO_2$)
+* Inverse piezoelectric effect in a quartz crystal
+* The crystal is excited into stable oscillation by a (poor) LC oscillator
+* Better frequency stability
 
 <note>
-Im Englischen mit t: Quartz
+In German spelt without the t: Quarz
 </note>
 
 ---
@@ -62,9 +62,9 @@ Im Englischen mit t: Quartz
 [question:ED507]
 
 ---
-## Abstrahlung
-* Vermeiden
-* Abschirmung durch Metallgehäuse
+## Radiation
+* Avoid it
+* Screening with a metal case
 
 ---
 [question:EF207]

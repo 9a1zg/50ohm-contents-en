@@ -1,26 +1,26 @@
-* Frequenz des Oszillators ist veränderbar
-* Beispielsweise durch Kapazitätsdiode im Schwingkreis $\rightarrow$ Kapazität wird durch Gleichspannung beeinflusst
-* Oszillator wird durch eine Steuerspannung abstimmbar
+* The frequency of the oscillator can be varied
+* For example with a varactor diode in the tuned circuit $\rightarrow$ the capacitance is varied by a DC voltage
+* The oscillator can be tuned by a control voltage
 
 ---
 [question:AD601]
 ---
-### Rückkopplung
+### Feedback
 <left>
-* Unerwünschte Rückkopplungen, z.B. vom HF-Signal, führen zur Frequenzinstabilität
-* Das gilt für alle Oszillatoren
+* Unwanted feedback, e.g. from the RF signal, leads to frequency instability
+* This applies to all oscillators
 </left>
 <right>
 <fragment>
-Ursachen:
-* Phasenverschiebung
-* Verstärkungsänderungen
-* Mischprodukte
-* Temperaturänderungen
+Causes:
+* Phase shift
+* Changes in gain
+* Mixing products
+* Changes in temperature
 </fragment>
 </right>
 <note>
-Ursachen sind nicht prüfungsrelevant
+The causes are not relevant to the examination
 </note>
 
 ---

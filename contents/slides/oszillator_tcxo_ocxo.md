@@ -1,34 +1,34 @@
-* Oszillatoren haben eine Temperaturabhängigkeit
-* Insbesondere Transistoren und Dioden
-* Aber auch Kondensatoren, Widerstände und Schwingquarze
+* Oscillators depend on temperature
+* Transistors and diodes in particular
+* But also capacitors, resistors and crystals
 
 ---
-### Thermische Isolation
+### Thermal insulation
 
-* Oszillatoren möglichst gut thermisch isolieren
-* Großer Abstand zu internen und externen Wärme- und Kältequellen
-* Abseits von Luftströmungen
+* Insulate oscillators thermally as well as possible
+* Keep them well away from internal and external sources of heat and cold
+* Away from air currents
 
 ---
-### Quarzoszillator (XO)
+### Crystal oscillator (XO)
 
-* Anstatt RC-, LC- oder VCO-Oszillator
-* Wesentlich frequenzstabiler durch hohe Güte (Q)
-* *XO*: Crystal Oscillator
+* Instead of an RC oscillator, LC oscillator or VCO
+* Much better frequency stability thanks to high Q
+* *XO*: crystal oscillator
 
 ---
 ### TCXO
 
-* Quarzoszillator mit Bauelementen zur gegenseitigen Kompensation der thermischen Einflüsse
-* *TCXO*: Temperature Compensated Crystal Oscillator
+* Crystal oscillator with components whose thermal effects cancel each other out
+* *TCXO*: temperature-compensated crystal oscillator
 
 ---
 ### OCXO
 
-* Künstliche Stabilisierung der Umgebungstemperatur
-* Thermoisoliertes Gehäuse
-* Heizt auf eine bestimmte Temperatur auf
-* *OCXO*: Oven Controlled Crystal Oszillator
+* Ambient temperature stabilised artificially
+* Thermally insulated case
+* Heats up to a particular temperature
+* *OCXO*: oven-controlled crystal oscillator
 
 ---
 [question:AF215]
@@ -39,11 +39,11 @@
 ---
 [question:AD605]
 ---
-### Frequenzabweichungen
+### Frequency errors
 
-* Die Oszillatorfrequenz wird für die Sende- und Empfangsfrequenz oft vervielfacht
-* Eine kleine Abweichung der Oszillatorfrequenz führt nach Vervielfachung zu einer hohen Abweichung
-* Insbesondere im SHF-Bereich und höheren Frequenzen sehr relevant
+* The oscillator frequency is often multiplied to give the transmit and receive frequencies
+* A small error in the oscillator frequency leads to a large error after multiplication
+* Particularly relevant in the SHF range and at higher frequencies
 
 ---
 [question:AD604]
