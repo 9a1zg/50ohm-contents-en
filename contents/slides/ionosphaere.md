@@ -1,12 +1,12 @@
 <left>
- [picture:732:n_ionosphaere:Brechung an der Ionosphäre]
+ [picture:732:n_ionosphaere:Refraction at the ionosphere]
 </left>
 <right>
-* Im oberen Teil der Erdatmosphäre
-* Hat großen Einfluss im Kurzwellenbereich
-* Sonnenstrahlung erzeugt elektrisch geladene Teilchen
-* Funkwellen werden daran gebrochen (refraktiert) $\rightarrow$ Raumwelle
-* Weltweite Funkverbindungen möglich
+* In the upper part of the earth's atmosphere
+* Has a great influence in the HF range
+* Solar radiation creates electrically charged particles
+* Radio waves are bent (refracted) at them $\rightarrow$ sky wave
+* Worldwide contacts possible
 </right>
 
 ---
@@ -15,31 +15,31 @@
 [question:NH102]
 ---
 
-## Sonnenzyklus
+## Solar cycle
 
 <left>
-[picture:729:n_ionosphaere_sonnenflecken:Die Anzahl der Sonnenflecken, die über den elfjährige Sonnenzyklus schwankt]
+[picture:729:n_ionosphaere_sonnenflecken:The number of sunspots, which varies over the eleven-year solar cycle]
 </left>
 <right>
-* Ausbreitungsbedingungen wechseln täglich und nach Jahreszeit
-* Sonnenflecken haben einen großen Einfluss
-* Alle 11 Jahre treten starke Sonnenflecken auf
-* Mehr elektromagnetische Strahlung und Materie in der Ionosphäre
+* Propagation conditions change daily and with the seasons
+* Sunspots have a great influence
+* Strong sunspot activity occurs every 11 years
+* More electromagnetic radiation and matter in the ionosphere
 </right>
 
 ---
 [question:NH201]
 ---
 
-## Tote Zone
+## Skip zone
 
 <left>
-[picture:741:n_ionosphaere_tote_zone:Die Tote Zone, die für die Bodenwelle zu nah und für die Raumwelle zu weit weg ist.]
+[picture:741:n_ionosphaere_tote_zone:The skip zone, which is too near for the ground wave and too far for the sky wave.]
 </left>
 <right>
-* Auf Kurzwelle kann es zu einer *Toten Zone* kommen
-* Für die Bodenwelle zu weit – für die Raumwelle zu nah
-* Nur eine Seite einer Funkverbindung hörbar
+* A *skip zone* can occur on HF
+* Too far for the ground wave – too near for the sky wave
+* Only one side of a contact can be heard
 </right>
 
 ---

@@ -1,28 +1,28 @@
-Um eine Funkverbindung zwischen zwei Orten über die Raumwelle herzustellen, muss eine Frequenz gewählt werden, die von der Ionosphäre zuverlässig zur Erde zurückgebrochen wird. In der Regel betrifft das nicht nur eine einzelne Frequenz, sondern einen ganzen Frequenzbereich. Oft entscheidet man sich dabei für das höchste Amateurfunkband innerhalb dieses Bereichs.
+To set up a contact between two places via the sky wave, a frequency must be chosen that the ionosphere reliably bends back to the earth. As a rule this applies not just to a single frequency but to a whole frequency range. Often the highest amateur band within this range is chosen.
 
-Dieser Frequenzbereich wird nach oben hin begrenzt durch die *MUF* (*maximal usable frequency*), also der höchsten Frequenz, die die Ionosphäre gerade noch für die Distanz zwischen Sender und Empfänger zurückbrechen kann. 
+This frequency range is limited at the top by the *MUF* (*maximum usable frequency*), that is, the highest frequency that the ionosphere can just still bend back for the distance between transmitter and receiver. 
 
 [question:EH204]
 
-Die MUF hängt von der Dichte der freien Elektronen in der brechenden Region (hier: F2-Region) sowie vom Einfallswinkel der Funkwelle in die Ionosphäre ab. Abbildung [ref:e_muf_luf] zeigt die Vorhersage der MUF für einen Sommertag im Juli 2025. Dabei wird deutlich, dass die MUF von der Tageszeit abhängt: Tagsüber führt die stärkere Ionisation zu einer höheren MUF, nachts nimmt die Ionisation ab und die MUF sinkt entsprechend. Ein weiteres Beispiel zeigt Abbildung [ref:e_muf_luf2]. Die MUF liegt hier bei etwa $\qty{7,5}{\mega\hertz}$. Das bedeutet, dass die Frequenzen $\qty{3,5}{\mega\hertz}$ und $\qty{7}{\mega\hertz}$ noch zur Erde zurückgebrochen werden, während Frequenzen oberhalb von $\qty{7,5}{\mega\hertz}$ in Richtung Weltraum abgelenkt werden. Das ist auch der Grund, warum wir mit der Raumstation ISS auf dem $\qty{2}{\meter}$-Band kommunizieren: Mit $\qty{145,800}{\mega\hertz}$ liegen wir deutlich über einer typischen MUF.
+The MUF depends on the density of the free electrons in the refracting region (here: the F2 region) and on the angle at which the radio wave enters the ionosphere. Figure [ref:e_muf_luf] shows the MUF forecast for a summer day in July 2025. It becomes clear that the MUF depends on the time of day: during the day the stronger ionisation leads to a higher MUF; at night the ionisation decreases and the MUF falls accordingly. Another example is shown in Figure [ref:e_muf_luf2]. Here the MUF is about $\qty{7.5}{\mega\hertz}$. This means that the frequencies $\qty{3.5}{\mega\hertz}$ and $\qty{7}{\mega\hertz}$ are still bent back to the earth, while frequencies above $\qty{7.5}{\mega\hertz}$ are deflected out into space. This is also why we communicate with the International Space Station (ISS) on the $\qty{2}{\meter}$ band: at $\qty{145.800}{\mega\hertz}$ we are well above a typical MUF.
 
 <margin>
-[picture:991:e_muf_luf:Vorhersage von MUF und LUF im Juli 2025]
+[picture:991:e_muf_luf:Forecast of MUF and LUF in July 2025]
 </margin>
 
 <margin>
-[picture:997:e_muf_luf2:Simulation der Sprungdistanzen für verschiedene Frequenzen und einer MUF bei ca. $\qty{7,5}{\mega\hertz}$ in einer Augustnacht 2024 bei einem Abstrahlwinkel von $\qty{45}{\degree}$]
+[picture:997:e_muf_luf2:Simulation of the skip distances for various frequencies, with an MUF of approx. $\qty{7.5}{\mega\hertz}$, on an August night in 2024 at an angle of radiation of $\qty{45}{\degree}$]
 </margin>
 
-Die genauen Zusammenhänge der MUF, beispielsweise in Bezug auf den Abstrahlwinkel, werden erst in der Klasse A behandelt. Für die Klasse E ist wichtig zu wissen: Je stärker die Ionisation der Ionosphäre, desto höher ist in der Regel auch die MUF.
+The exact relationships of the MUF, for example with regard to the angle of radiation, are not covered until Class A. For Class E it is important to know: the stronger the ionisation of the ionosphere, the higher the MUF as a rule.
 
 [question:EH207]
 [question:EH206]
 
-Die D-Region haben wir bereits im Kapitel Ionosphäre II kennengelernt. Von ihr wird eine weitere Grenzfrequenz bestimmt – die sogenannte LUF (Lowest Usable Frequency), also die niedrigste nutzbare Frequenz, unterhalb derer die Dämpfung zu stark ist.
-Nach unten hin stellt die LUF also die Begrenzung dar. Sie wird in erster Linie von der Ionisation in der *D-Region* bestimmt, hängt aber auch von der Ausrüstung (Sendestärke, Antennen, Empfindlichkeit des Empfängers) ab.
+We have already met the D region in the chapter Ionosphere II. It determines another limiting frequency – the LUF (*lowest usable frequency*), the lowest frequency that can be used, below which the attenuation is too great.
+The LUF is therefore the lower limit. It is determined primarily by the ionisation in the *D region*, but also depends on the equipment (transmitter power, antennas, receiver sensitivity).
 
 [question:EH209]
 
-Insbesondere bei sehr geringer Sonnenaktivität oder während starker Magnetstürme kann der Sonderfall auftreten, dass für einen bestimmten Signalweg die LUF über der MUF liegt. In diesem Fall ist zwischen den betreffenden Orten kein Funkverkehr über die Raumwelle möglich. Abbildung [ref:e_muf_luf] zeigt auch eine Vorhersage der LUF für Juli 2025. Dort wird deutlich, dass zwischen 6 und 12 Uhr die LUF oberhalb der MUF liegt und daher kein Kurzwellenbetrieb möglich ist.
+Especially at very low solar activity or during severe magnetic storms, the special case can arise that the LUF for a particular signal path lies above the MUF. In this case no sky-wave radio communication is possible between the places concerned. Figure [ref:e_muf_luf] also shows a forecast of the LUF for July 2025. It shows clearly that between 6 a.m. and 12 noon the LUF lies above the MUF, so that no HF operation is possible.
 

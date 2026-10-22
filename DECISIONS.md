@@ -314,6 +314,15 @@ and the checker's "Provjera" section).
   dropped ("Beacons"), where it differs it stays ("FM voice ("FM
   calling")", "Morse telegraphy ("CW")"). (Unit
   nea_elektrische_schwingungen_funkwellen.)
+- **Ionosphere: *Region* → region, *Schicht* → layer, word for word.**
+  The course text uses both and says why ("Diese Gebiete werden als
+  *Regionen* bezeichnet (manchmal auch als "Schichten")", ionosphaere_2):
+  the exam questions and most of the prose say *Region*, the slides and
+  some paragraphs *Schicht* (D-Schicht, F2-Schicht, sporadische E-Schicht).
+  The English follows the German in each place — "D region", "D layer",
+  "sporadic E layer" — rather than evening them out. The earlier entry
+  (*region*, not the RSGB's *layer*) concerns the questions, which only say
+  *Region*. (Unit nea_wellenausbreitung_1.)
 
 ## Open questions for DARC
 

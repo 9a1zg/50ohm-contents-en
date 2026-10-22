@@ -1926,6 +1926,37 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Telefonie-Direktverbindung | direct telephony contact | as BC214 |
 | Bandplan-Bezeichnungen in Klammern ("beacons", "repeater input" …) | dropped where they only repeat the English term; kept where they differ ("FM calling", "digital voice calling", "CW") | the IARU band plan is in English, so the German glosses its labels (DECISIONS.md) |
 | *center of activity* (Bandplan-Bezeichnung) | centre of activity (*center of activity* in the band plan) | British spelling in prose; the label is quoted as printed |
+| Überreichweiten (Kurstext) | enhanced propagation | index "Enhanced propagation"; *erheblich größere Reichweiten* → considerably greater ranges; cf. §10 (troposphaere, wellenausbreitung) |
+| Wetterschicht | weather layer | the troposphere (troposphaere) |
+| Inversionswetterlage / troposphärische Inversionsbildung / Inversionsschicht | temperature inversion / formation of tropospheric inversions / inversion layer | NH304 "Formation of tropospheric inversions" |
+| Überhorizontverbindungen | beyond-the-horizon contacts | EH302, AH309 |
+| Ducting (vom englischen *duct* …) | ducting (from *duct*, meaning roughly a pipe, channel or guide) | the gloss explains the English word and stays; it does not translate it back (troposphaere_3) |
+| Beugung / Streuung / Reflexion / Brechung oder Refraktion | diffraction / scattering / reflection / refraction | *Brechung oder Refraktion* is one English word; *gebrochen (refraktiert)* → "bent (refracted)"; *zurückbrechen* → bend back |
+| gleichgerichtete Streuung | scattering in one uniform direction | the slides' definition of reflection (troposphaere_2) |
+| Hochatmosphäre / Atmosphärenschichten | upper atmosphere / layers of the atmosphere | |
+| Atomrümpfe | positive ions | what free electrons recombine with (ionosphaere_2) |
+| gemäßigte Breiten | temperate latitudes | |
+| Schicht / Region (Ionosphäre) | layer / region | each as the German writes it, as the text itself distinguishes them (DECISIONS.md) |
+| sporadische E-Schicht (Es) / Sporadic-E-Bedingungen | sporadic E layer (Es) / sporadic E conditions | lower-case *sporadic*, as §10 |
+| Sonnenzyklus (elfjähriger) | (eleven-year) solar cycle | NH201, EH107 |
+| Aktivitätsmaximum / Aktivitätsminimum | activity maximum / activity minimum | solar activity |
+| Polarlichter / Aurora- oder Polarlichterscheinung | aurorae / aurora (polar lights) | as §10 |
+| flatternd / verbrummt (Aurora-Signal) | fluttering / buzzing | AH308; §10 *verbrummt* |
+| Doppler-Spread / Signalrapport | Doppler spread / signal report | aurora_1 |
+| Interferenz / Summensignal / Laufzeit (Funkwelle) | interference / sum signal / propagation time | mehrwegeausbreitung, fading |
+| Multipath-Effekte / Faraday-Rotation | multipath effects / Faraday rotation | ionosphaere_3 |
+| Abstrahlwinkel (Wellenausbreitung) / flach / steil abstrahlen | angle of radiation / radiate at a low angle / radiate steeply | as EH208, AH208, AH209, never "flat"; *Je flacher die Abstrahlung* → "the lower the angle of radiation" |
+| Sprung (oder englisch Hop) | hop | the bracket only gives the English word and is dropped (sprungdistanz_1) |
+| Short Skip (engl. short skip = "kurzer Sprung") | short skip | gloss dropped (sporadic_e_2) |
+| Fading (Schwund) / Schwund, Fading oder QSB | fading / fading or QSB | *Schwund* only repeats *fading* in German and is dropped |
+| Ionosphärenmessstation / Ionosonde (Juliusruh) | ionospheric measuring station / ionosonde (at Juliusruh) | |
+| Formelzeichen | symbol | the symbols themselves ($f_\text{k}$, $f_\text{krit}$) stay |
+| FOT (frequency of optimal transmission, optimale Sendefrequenz) | FOT (frequency of optimum transmission, optimum working frequency) | AH206 "optimum working frequency (f$_{opt}$, FOT)"; the German's English expansion corrected to the usual *optimum* (muf_luf_2) |
+| kommerzielle Frequenzplanung | commercial frequency planning | |
+| Rauschflur | noise floor | |
+| Magnetstürme | magnetic storms | |
+| Raumstation ISS | International Space Station (ISS) | |
+| Notfunk-Ausbildungswochenende | emergency communications training weekend | photo caption (aurora_1) |
 
 ## 15. Catalogue structure
 

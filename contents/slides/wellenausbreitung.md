@@ -1,14 +1,14 @@
 <left>
-Je nach Frequenz breitet sich eine Funkwelle anders über unseren Planeten aus.
-[picture:731:n_ionosphäre:Ionosphäre, Troposphäre und Sporadic-E]
+A radio wave propagates differently over our planet depending on its frequency.
+[picture:731:n_ionosphäre:Ionosphere, troposphere and sporadic E]
 </left>
 <right>
-* Der Funkhorizont, der etwas weiter geht als der sichtbare Horizont (VHF, UHF und höher)
-* Überreichweiten durch Wetterereignisse in der Troposphäre (VHF, UHF und höher)
-* Besondere Überreichweiten durch Sporadic-E (VHF, UHF)
-* Die Raumwelle durch Brechung an der Ionosphäre (Kurzwelle)
+* The radio horizon, which extends somewhat further than the visible horizon (VHF, UHF and higher)
+* Enhanced propagation due to weather events in the troposphere (VHF, UHF and higher)
+* Particularly enhanced propagation due to sporadic E (VHF, UHF)
+* The sky wave, through refraction at the ionosphere (HF)
 </right>
 <note>
-* Die Begriffe werden auf den nächsten Folien eingehend erklärt
-* Die Tiefe ist ausreichend für die Prüfung
+* The terms are explained in detail on the next slides
+* The depth is sufficient for the exam
 </note>

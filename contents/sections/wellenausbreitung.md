@@ -1,10 +1,9 @@
-Funkwellen mit unterschiedlichen Frequenzen verhalten sich unterschiedlich, was die Ausbreitung über unseren Planeten betrifft. In den folgenden Abschnitten werden wir eine Reihe verschiedener Begriffe und Phänomene kennenlernen, die sich alle mit der Ausbreitung von Funkwellen beschäftigen und uns Weitverbindungen erlauben. Je nach verwendetem Frequenzbereich können unterschiedliche Aspekte von Bedeutung sein:
-* Der Funkhorizont, der etwas weiter geht als der sichtbare Horizont (VHF, UHF und höher)
-* Überreichweiten durch Wetterereignisse in der Troposphäre (VHF, UHF und höher)
-* Besondere Überreichweiten durch Sporadic-E (VHF, UHF)
-* Die Raumwelle durch Brechung an der Ionosphäre (Kurzwelle)
+Radio waves of different frequencies behave differently as far as propagation over our planet is concerned. In the following sections we will meet a number of different terms and phenomena, all of which concern the propagation of radio waves and allow us to make long-distance contacts. Depending on the frequency range used, different aspects may be important:
+* The radio horizon, which extends somewhat further than the visible horizon (VHF, UHF and higher)
+* Enhanced propagation due to weather events in the troposphere (VHF, UHF and higher)
+* Particularly enhanced propagation due to sporadic E (VHF, UHF)
+* The sky wave, through refraction at the ionosphere (HF)
 
 <webmargin>
-[picture:731:n_ionosphäre:Ionosphäre, Troposphäre und Sporadic-E]
+[picture:731:n_ionosphäre:Ionosphere, troposphere and sporadic E]
 </webmargin>
-

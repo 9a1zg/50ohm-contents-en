@@ -1,17 +1,17 @@
-* In Klasse N und E wurden bereits Grundlagen zur Ionosphäre, Sonnenfleckenaktivität, "Tote Zone" und die ionosphärischen Regionen behandelt
-* Die UV-Strahlung der Sonne ist für die Ionisierung von Molekülen in der Ionosphäre verantwortlich.
+* The basics of the ionosphere, sunspot activity, the "skip zone" and the ionospheric regions have already been covered in Classes N and E
+* The sun's UV radiation is responsible for ionising molecules in the ionosphere.
 
 ---
 [question:AH101]
 ---
 
 <left>
-[picture:874:a_schichten_jahreszeiten:Mögliche höhen der Regionen in Abhängigkeit von der Jahres- und Tageszeit]
+[picture:874:a_schichten_jahreszeiten:Possible heights of the regions as a function of the time of year and time of day]
 </left>
 <right>
-* Die wichtigsten Regionen der Ionosphäre sind die D-, E- und F-Region
-* In der Klasse A, es ist wichtig, ihre Höhenbereiche zu kennen
-* Sie variieren je nach Tageszeit und Jahreszeit
+* The most important regions of the ionosphere are the D, E and F regions
+* In Class A it is important to know their heights
+* They vary with the time of day and the time of year
 </right>
 
 ---
@@ -25,28 +25,28 @@
 ---
 [question:AH108]
 ---
-### Sonnenfleckenminimum
+### Sunspot minimum
 
-* Die Abhängigkeit von der Tageszeit beeinflusst die Ausbreitung von Funkwellen
-* Im Sonnenfleckenmaximum funktioniert das $\qty{10}{\meter}$-Band tagsüber gut
-* Im Sonnenfleckenminimum ist das $\qty{10}{\meter}$-Band tagsüber kaum nutzbar
-* Während des Sonnenfleckenminimums wird tagsüber häufig das $\qty{20}{\meter}$-Band für Weitverbindungen verwendet
+* The dependence on the time of day affects the propagation of radio waves
+* At sunspot maximum the $\qty{10}{\meter}$ band works well during the day
+* At sunspot minimum the $\qty{10}{\meter}$ band is hardly usable during the day
+* During sunspot minimum the $\qty{20}{\meter}$ band is often used for long-distance contacts during the day
 
 ---
 [question:AH202]
 ---
-* Das $\qty{40}{\meter}$-Band ist ein zuverlässiges Band für die Kommunikation
-* Ebenso wie das $\qty{20}{\meter}$-Band nur Klasse A vorbehalten
-* Das $\qty{40}{\meter}$-Band ist besonders für die Kommunikation über große Entfernungen innerhalb Deutschlands geeignet, wie z. B. von Hamburg nach München
+* The $\qty{40}{\meter}$ band is a reliable band for communication
+* Like the $\qty{20}{\meter}$ band, reserved for Class A only
+* The $\qty{40}{\meter}$ band is particularly suitable for communication over long distances within Germany, e.g. from Hamburg to Munich
 
 ---
 [question:AH201]
 ---
-### Nachts
+### At night
 
-* $\qty{80}{\meter}$ und $\qty{160}{\meter}$-Bänder sind tagsüber aufgrund der D-Schicht kaum nutzbar, aber nachts zuverlässig
-* $\qty{40}{\meter}$-Band ermöglicht nachts größere Reichweiten, da die Ausbreitung über die F2-Schicht erfolgt
-* F1-Schicht: Führt aufgrund geringerer Höhe zu kürzeren Sprungdistanzen und ist meist unerwünscht
+* $\qty{80}{\meter}$ and $\qty{160}{\meter}$ bands hardly usable during the day because of the D layer, but reliable at night
+* $\qty{40}{\meter}$ band allows greater ranges at night, because propagation takes place via the F2 layer
+* F1 layer: because of its lower height, leads to shorter skip distances and is mostly undesirable
 
 ---
 [question:AH203]
@@ -55,17 +55,17 @@
 ---
 [question:AH107]
 ---
-## Solarer Flux
+## Solar flux
 
 <left>
-[picture:988:a_flux:Solarer Flux und Anzahl der Sonnenflecken von 2005 bis 2025]
+[picture:988:a_flux:Solar flux and sunspot number from 2005 to 2025]
 </left>
 <right>
-* Strahlung der Sonne auf $\qty{2,8}{\giga\hertz}$
-* Wird seit Mitte des 20. Jahrhunderts durchgeführt
-* Ist weniger sprunghaft als Zählung der Sonnenflecken
-* Reicht von 65 im Aktivitätsminimum und bis über 300 bei starken Maxima
-* Werte über 100 führen zu höherer Ionisierung und verbesserten Ausbreitungsbedingungen im KW-Bereich
+* The sun's radiation at $\qty{2.8}{\giga\hertz}$
+* Has been measured since the mid-20th century
+* Fluctuates less erratically than the sunspot count
+* Ranges from 65 at the activity minimum to over 300 at strong maxima
+* Values above 100 lead to higher ionisation and improved propagation conditions in the HF range
 </right>
 
 ---
@@ -73,9 +73,9 @@
 ---
 ## Polarisation
 
-* Die Polarisation einer elektromagnetischen Welle ändert sich bei der Raumwellenausbreitung
-* Dies ist auf die Faraday-Rotation, Reflexionsphänomene in der Ionosphäre und Multipath-Effekte zurückzuführen
-* Die empfangene Polarisation kann nicht mehr der ursprünglich gesendeten entsprechen
+* The polarisation of an electromagnetic wave changes in sky-wave propagation
+* This is due to Faraday rotation, reflection phenomena in the ionosphere and multipath effects
+* The polarisation received may no longer match the polarisation originally transmitted
 
 ---
 [question:AH219]

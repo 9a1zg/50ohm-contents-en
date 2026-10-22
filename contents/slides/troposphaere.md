@@ -1,14 +1,14 @@
 <left>
-[picture:734:n_tropo:Troposphärische Inversionsbildung, Schichten unterschiedlicher Temperatur liegen aufeinander, an der Grenze der Schichten werden Funkwellen im VHF-Bereich reflektiert]
+[picture:734:n_tropo:Formation of tropospheric inversions: layers of different temperature lie on top of one another, and radio waves in the VHF range are reflected at the boundary between the layers]
 </left>
 <right>
-* Besonderer Effekt in der Troposphäre (ca. $\qty{15}{\kilo\meter}$)
-* *Troposphärische Inversionsbildung* zwischen warmen und kalten Luftschichten
-* Führt zu erheblich größeren Reichweiten im VHF-Bereich ($\qtyrange{800}{1000}{\kilo\meter}$)
-* Tritt hauptsächlich im Frühjahr und Herbst auf
+* A special effect in the troposphere (approx. $\qty{15}{\kilo\meter}$)
+* *Formation of tropospheric inversions* between warm and cold layers of air
+* Leads to considerably greater ranges in the VHF range ($\qtyrange{800}{1000}{\kilo\meter}$)
+* Occurs mainly in spring and autumn
 </right>
 <note>
-* Ähnlich einer Fata Morgana
+* Similar to a mirage
 </note>
 
 ---

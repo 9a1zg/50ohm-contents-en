@@ -1,4 +1,4 @@
-In der Klasse N haben wir bereits troposphärische Überreichweiten kennengelernt: Die Troposphäre ist die Wetterschicht der Atmosphäre, in der durch Beugung, Reflexion und Streuung an Bereichen unterschiedlicher Temperatur und Dichte im VHF/UHF-Bereich Überhorizontverbindungen im Bereich von $\qtyrange{800}{1000}{\kilo\meter}$ entstehen können. Für die Klasse E gibt es hierzu nochmal vertiefende Prüfungsfragen.
+In Class N we have already met tropospheric enhanced propagation: the troposphere is the weather layer of the atmosphere, in which diffraction, reflection and scattering at areas of differing temperature and density can give rise to beyond-the-horizon contacts over distances of $\qtyrange{800}{1000}{\kilo\meter}$ in the VHF/UHF range. For Class E there are further, more detailed exam questions on this.
 
 [question:EH301]
 [question:EH302]

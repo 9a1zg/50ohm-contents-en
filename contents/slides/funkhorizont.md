@@ -1,18 +1,18 @@
 <left>
-[picture:484:n_funkhorizont:Ausbreitung]
+[picture:484:n_funkhorizont:Propagation]
 </left>
 <right>
-* Funkwellen im VHF- und UHF-Bereich verhalten sich ähnlich wie Licht
-* Licht reicht maximal bis zum geografischen (sichtbaren) Horizont
-* Funkwellen schaffen ca. 15% mehr Reichweite
-* Folgen ein wenig der Erdkrümmung
+* Radio waves in the VHF and UHF ranges behave in a similar way to light
+* Light reaches at most as far as the geographical (visible) horizon
+* Radio waves manage approx. 15% more range
+* They follow the curvature of the earth a little
 </right>
 
 ---
-* Sichtverbindung für zuverlässige Funkverbindungen auf VHF, UHF und darüber
-* Hohe Gebäude oder Berge stören
-* Je höher die Antenne, umso größer die Reichweite
-* Weite Verbindungen von Bergen statt aus dem Tal
+* Line of sight for reliable contacts on VHF, UHF and above
+* Tall buildings or mountains get in the way
+* The higher the antenna, the greater the range
+* Long-distance contacts from mountains rather than from the valley
 
 ---
 [question:NH301]

@@ -1,4 +1,4 @@
-Ein *Sprung* (oder englisch *Hop*) ist der Weg der Raumwelle eines Funksignals von der Sendeantenne bis zur Rückkehr zur Erdoberfläche, wobei dazwischen eine Brechung an der Ionosphäre stattgefunden hat. Die dabei überbrückte Distanz lässt sich rein geometrisch bestimmen und hängt davon ab, in welcher Höhe sich die brechende Region befindet und in welchem Winkel (zur Erdoberfläche) das Signal von der Sendeantenne abgestrahlt wird. Je flacher dieser Winkel und je höher die brechende Region, desto größer ist die Sprungdistanz. 
+A *hop* is the path of the sky wave of a radio signal from the transmitting antenna until it returns to the earth's surface, with refraction at the ionosphere having taken place in between. The distance bridged can be determined purely geometrically and depends on the height of the refracting region and on the angle (to the earth's surface) at which the signal is radiated from the transmitting antenna. The lower this angle and the higher the refracting region, the greater the skip distance. 
 
 <indepth>
 [include:sprungdistanz_applet]

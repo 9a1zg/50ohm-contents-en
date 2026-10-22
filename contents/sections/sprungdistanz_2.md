@@ -1,36 +1,36 @@
-Wie wir bereits in der Klasse E gelernt haben, hängt die Sprungdistanz vom gewählten Abstrahlwinkel ab. Der Abstrahlwinkel eines Dipols hängt von der Höhe über Grund ab. Je höher er montiert ist, desto flacher wird der Abstrahlwinkel, je niedriger desto steiler.
-Bei der E-Region kann mit höchstens $\qty{2000}{\kilo\meter}$ gerechnet werden, bei der F2-Region mit bis zu $\qty{4000}{\kilo\meter}$. Die Abbildung [ref:a_sprungdistanz] zeigt die Sprungdistanz durch Brechung in der F2-Region in Abhängigkeit des Winkels.
+As we have already learnt in Class E, the skip distance depends on the angle of radiation chosen. The angle of radiation of a dipole depends on its height above ground. The higher it is mounted, the lower the angle of radiation; the lower it is mounted, the steeper.
+With the E region you can reckon with at most $\qty{2000}{\kilo\meter}$, with the F2 region with up to $\qty{4000}{\kilo\meter}$. Figure [ref:a_sprungdistanz] shows the skip distance by refraction in the F2 region as a function of the angle.
 
 <margin>
-[picture:872:a_sprungdistanz:Sprungdistanz durch Brechung an der F2-Region in Abhängigkeit des Winkels]
+[picture:872:a_sprungdistanz:Skip distance by refraction at the F2 region as a function of the angle]
 </margin>
 
 [question:AH213]
 
 ---
 
-Ein konkretes Beispiel zeigt Abbildung [ref:a_sprungdistanz_1] mit einer Simulation der Sprungdistanz in Abhängigkeit vom Abstrahlwinkel im $\qty{40}{\meter}$-Band im Januar 2025. Zusätzlich wird die Ausbreitung jedoch von weiteren Faktoren beeinflusst – etwa von der Höhe der ionisierten Region, der Anzahl der Sonnenflecken, der Jahres- und Tageszeit, durch die unterschiedlichen Schichtausprägungen sowie von der verwendeten Frequenz mit ihren spezifischen Refraktionseigenschaften. Wichtig: Die Strahlungsleistung hat dabei keinerlei Einfluss.
+A concrete example is shown in Figure [ref:a_sprungdistanz_1], with a simulation of the skip distance as a function of the angle of radiation on the $\qty{40}{\meter}$ band in January 2025. In addition, however, propagation is affected by other factors – such as the height of the ionised region, the number of sunspots, the time of year and time of day, because of the differing formation of the layers, and the frequency used, with its particular refraction properties. Important: the radiated power has no effect at all.
 
 [question:AH212]
 
 <margin>
-[picture:994:a_sprungdistanz_1:Simulation der Sprungdistanz in Abhängigkeit vom Abstrahlwinkel im $\qty{40}{\meter}$-Band, im Januar 2025]
+[picture:994:a_sprungdistanz_1:Simulation of the skip distance as a function of the angle of radiation on the $\qty{40}{\meter}$ band, in January 2025]
 </margin>
 
 ---
 
-Die Abbildung [ref:a_sprungdistanz_2] zeigt die Simulation der Sprungdistanz in Abhängigkeit von Jahreszeit sowie von Tag und Nacht im $\qty{80}{\meter}$-Band bei einem Abstrahlwinkel von $\qty{45}{\degree}$. Deutlich erkennbar ist, dass im $\qty{80}{\meter}$-Band die Ausbreitung sowohl im Sommer als auch im Winter nachts deutlich besser funktioniert als tagsüber. In der Nacht sind wesentlich größere Sprungdistanzen über die F2-Region möglich.
+Figure [ref:a_sprungdistanz_2] shows the simulation of the skip distance as a function of the season and of day and night on the $\qty{80}{\meter}$ band at an angle of radiation of $\qty{45}{\degree}$. It can be clearly seen that on the $\qty{80}{\meter}$ band propagation works much better at night than during the day, in summer as well as in winter. At night, much greater skip distances are possible via the F2 region.
 
-Am Tag beeinflusst die E-Region die Ausbreitung stärker. Im Sommer ist dieser Effekt ausgeprägter, da durch die höhere Sonneneinstrahlung eine stärkere Ionisation stattfindet. Im Winter ist die Ionisation geringer, wodurch tagsüber tendenziell größere Reichweiten möglich sind. In beiden Fällen wird die Signalstärke jedoch tagsüber durch die D-Region deutlich gedämpft.
+During the day the E region has a stronger effect on propagation. In summer this effect is more marked, because the stronger solar radiation causes stronger ionisation. In winter the ionisation is lower, which tends to allow greater ranges during the day. In both cases, however, the signal strength is markedly attenuated by the D region during the day.
 
 <margin>
-[picture:996:a_sprungdistanz_2:Simulation der Sprungdistanz in Abhängigkeit von Jahreszeit sowie Tag und Nacht im $\qty{80}{\meter}$-Band bei $\qty{45}{\degree}$ Abstrahlwinkel; zusätzlich wirkt die Dämpfung der D-Schicht am Tag]
+[picture:996:a_sprungdistanz_2:Simulation of the skip distance as a function of the season and of day and night on the $\qty{80}{\meter}$ band at an angle of radiation of $\qty{45}{\degree}$; in addition, the attenuation of the D layer acts during the day]
 </margin>
 
 ---
 
-Die Abbildung [ref:a_sprungdistanz_3] zeigt eine weitere Simulation der Sprungdistanz in Abhängigkeit von der Frequenz bei einem Abstrahlwinkel von $\qty{45}{\degree}$ im Winter am Tag. Dabei wird deutlich, dass mit steigender Frequenz auch größere Sprungdistanzen möglich sind.
+Figure [ref:a_sprungdistanz_3] shows a further simulation of the skip distance as a function of frequency at an angle of radiation of $\qty{45}{\degree}$, during the day in winter. It becomes clear that greater skip distances are possible as the frequency rises.
 
 <margin>
-[picture:995:a_sprungdistanz_3:Simulation der Sprungdistanz in Abhängigkeit der Frequenz bei $\qty{45}{\degree}$ Abstrahlwinkel, im Januar 2025]
+[picture:995:a_sprungdistanz_3:Simulation of the skip distance as a function of frequency at an angle of radiation of $\qty{45}{\degree}$, in January 2025]
 </margin>

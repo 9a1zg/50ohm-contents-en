@@ -1,11 +1,11 @@
-Im VHF-Bereich führt manchmal ein besonderer Effekt zu sogenannten Überreichweiten [index:Überreichweiten]. Es können dann erheblich größere Reichweiten erzielt werden. Die Ursache dafür findet in der Troposphäre [index:Troposphäre] statt. Das ist die unterste Schicht der Atmosphäre der Erde. Sie reicht bis in rund $\qty{15}{\kilo\meter}$ Höhe und wird auch als Wetterschicht bezeichnet, da sich hier der Großteil des Wetters abspielt.
+In the VHF range, a special effect sometimes leads to what is known as enhanced propagation [index:Enhanced propagation]. Considerably greater ranges can then be achieved. The cause lies in the troposphere [index:Troposphere]. This is the lowest layer of the earth's atmosphere. It extends up to a height of around $\qty{15}{\kilo\meter}$ and is also called the weather layer, because most of the weather takes place here.
 
-Insbesondere im Frühjahr und Herbst kommt es vor, dass sich warme über kalte Luftschichten legen. In diesem Fall spricht man von einer *Inversionswetterlage*. Am Übergang zwischen den Luftschichten mit unterschiedlicher Temperatur werden die Funkwellen zur Erde hin reflektiert (Abbildung [ref:n_tropo]).
+Especially in spring and autumn, warm layers of air may come to lie over cold ones. This is called a *temperature inversion*. At the boundary between the layers of air of different temperature, the radio waves are reflected back towards the earth (Figure [ref:n_tropo]).
 
 <margin>
-[picture:734:n_tropo:Inversionswetterlage, Schichten unterschiedlicher Temperatur liegen aufeinander, an der Grenze der Schichten werden Funkwellen im VHF-Bereich reflektiert]
+[picture:734:n_tropo:Temperature inversion: layers of different temperature lie on top of one another, and radio waves in the VHF range are reflected at the boundary between the layers]
 </margin>
 
-Die auftretenden Überreichweiten ermöglichen Funkverbindungen mit Stationen in rund $\num{800}$ bis über $\qty{1000}{\kilo\meter}$ Entfernung. Im VHF-Bereich ist dies ein häufiger Ausbreitungsweg für Weitverbindungen.
+The resulting enhanced propagation makes contacts possible with stations at distances of around $\num{800}$ to over $\qty{1000}{\kilo\meter}$. In the VHF range this is a common propagation path for long-distance contacts.
 
 [question:NH304]

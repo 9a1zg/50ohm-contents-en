@@ -1,36 +1,36 @@
 <left>
-* Klasse E: Sprungdistanz durch Abstrahlwinkel verändern
+* Class E: changing the skip distance through the angle of radiation
 </left>
 <right>
-[picture:994:a_sprungdistanz_1:Simulation der Sprungdistanz in Abhängigkeit vom Abstrahlwinkel im $\qty{40}{\meter}$-Band, im Januar 2025]
+[picture:994:a_sprungdistanz_1:Simulation of the skip distance as a function of the angle of radiation on the $\qty{40}{\meter}$ band, in January 2025]
 </right>
 
 ---
 <left>
-* Auch zu beachten:
-* *Höhe der ionisierten Region*
-* *die Tageszeit* wegen der unterschiedlichen Schichten
-* *genutzte Frequenz* wegen unterschiedlicher Refraktionseigenschaften an den Schichten
+* Also to be considered:
+* *Height of the ionised region*
+* *The time of day*, because of the different layers
+* *Frequency used*, because of the different refraction properties at the layers
 </left>
 <right>
-[picture:865:e_wellenausbreitung_refraktion:Refraktion an Schichten der Ionosphäre]
+[picture:865:e_wellenausbreitung_refraktion:Refraction at layers of the ionosphere]
 </right>
 
 <note>
-An den Schichten erklären, wie dadurch die Sprungdistanz verändert wird
+Use the layers to explain how this changes the skip distance
 </note>
 
 ---
 
-## Abhängigkeit Jahres- und Tageszeit
+## Dependence on time of year and time of day
 
-[picture:996:a_sprungdistanz_2:Simulation der Sprungdistanz in Abhängigkeit von Jahreszeit sowie Tag und Nacht im $\qty{80}{\meter}$-Band bei $\qty{45}{\degree}$ Abstrahlwinkel; zusätzlich wirkt die Dämpfung der D-Schicht am Tag]
+[picture:996:a_sprungdistanz_2:Simulation of the skip distance as a function of the season and of day and night on the $\qty{80}{\meter}$ band at an angle of radiation of $\qty{45}{\degree}$; in addition, the attenuation of the D layer acts during the day]
 
 ---
 
-## Frequenzabhängigkeit
+## Dependence on frequency
 
-[picture:995:a_sprungdistanz_3:Simulation der Sprungdistanz in Abhängigkeit der Frequenz bei $\qty{45}{\degree}$ Abstrahlwinkel, im Januar 2025]
+[picture:995:a_sprungdistanz_3:Simulation of the skip distance as a function of frequency at an angle of radiation of $\qty{45}{\degree}$, in January 2025]
 
 ---
 

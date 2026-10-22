@@ -1,23 +1,23 @@
-[photo:217:e_aurora:Aurora am Notfunk Ausbildungswochenende im Mai 2024]
+[photo:217:e_aurora:Aurora at the emergency communications training weekend in May 2024]
 
 ---
-* Aurora- oder Polarlichterscheinung in ca. $\qtyrange{90}{200}{\kilo\meter}$ Höhe
-* Hauptsächlich über magnetischen Nord- und Südpol
-* Sauerstoff- und Stickstoffatome werden vom Sonnenwind angeregt oder ionisiert
-* Sonnenwind: Elektrisch geladene Teilchen
-* Bei Sonneneruptionen besonders stark
+* Aurora (polar lights) at a height of approx. $\qtyrange{90}{200}{\kilo\meter}$
+* Mainly over the magnetic North and South Poles
+* Oxygen and nitrogen atoms are excited or ionised by the solar wind
+* Solar wind: electrically charged particles
+* Particularly strong during solar flares
 
 ---
-## Aurora und Amateurfunk
-* Funkwellen können sich an ionisierten Sauerstoff- und Stickstoffatomen brechen
-* Insbesondere für VHF-DX-Verbindungen nutzbar
-* Sprache nur schlecht nutzbar (große Bandbreite)
-* Für CW und Digimodes brauchbar
-* Rapport: für T wird "A" vergeben, da Ton rau und schwankend ist 
+## Aurora and amateur radio
+* Radio waves can be refracted at ionised oxygen and nitrogen atoms
+* Usable especially for VHF DX contacts
+* Voice hardly usable (large bandwidth)
+* Usable for CW and data modes
+* Report: "A" is given instead of T, because the tone is rough and fluctuating 
 
 ---
 
-Das Ende eines Aurora-CW-QSO zwischen GM4YXI und OK/DF7TR/P:
+The end of an aurora CW QSO between GM4YXI and OK/DF7TR/P:
 
 [include:applet_aurora]
 

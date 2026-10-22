@@ -1,24 +1,24 @@
-## Maximal Usable Frequency (MUF)
+## Maximum usable frequency (MUF)
 
 <left>
-* Höchste zwischen zwei Orten verwendbare Frequenz
-* Ist abhängig vom Abstrahlwinkel der Antenne
-* Und der kritischen Frequenz der Ionosphäre
+* Highest frequency usable between two places
+* Depends on the angle of radiation of the antenna
+* And on the critical frequency of the ionosphere
 </left>
 <right>
-[picture:870:e_muf_winkel:Die Winkel zur Berechnung der MUF]
+[picture:870:e_muf_winkel:The angles for calculating the MUF]
 </right>
 ---
-### Berechnung der MUF
+### Calculating the MUF
 
 $\mathrm{MUF} \approx \dfrac{f_c}{\sin(\alpha)}$
 
-$\alpha$ ist der Abstrahlwinkel der Antenne zum Boden
-$f_c$ ist die kritische Frequenz bei der senkrecht auf die Ionosphäre auftretende Funkstrahlen von den Regionen gebrochen werden $\rightarrow$ bei stärkerer Ionisation einer Region steigt die kritische Frequenz
+$\alpha$ is the angle of radiation of the antenna to the ground
+$f_c$ is the critical frequency at which radio rays arriving vertically at the ionosphere are refracted by the regions $\rightarrow$ with stronger ionisation of a region the critical frequency rises
 
 <note>
 * sin(α) = 1 → MUF = f_c
-* In Klasse E keine Berechnung, nur Verständnisfragen
+* No calculation in Class E, only questions on understanding
 </note>
 
 ---
@@ -28,14 +28,14 @@ $f_c$ ist die kritische Frequenz bei der senkrecht auf die Ionosphäre auftreten
 ---
 [question:EH206]
 ---
-## Lowest Usable Frequency (LUF)
+## Lowest usable frequency (LUF)
 
 <left>
-* Abhängig von der Ionisierung in der D-Schicht
-* Je weniger Dämpfung in der D-Schicht, umso mehr tiefere Funkwellen können diese Schicht durchdringen und an den höheren Schichten reflektieren
+* Depends on the ionisation in the D layer
+* The less attenuation in the D layer, the more lower-frequency radio waves can pass through this layer and be reflected at the higher layers
 </left>
 <right>
-[picture:731:e_atmosphaeren_schichten:Für den Amateurfunk relevante Schichten in der Atmosphäre]
+[picture:731:e_atmosphaeren_schichten:Layers of the atmosphere relevant to amateur radio]
 </right>
 ---
 [question:EH209]

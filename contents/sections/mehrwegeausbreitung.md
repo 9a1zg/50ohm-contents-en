@@ -1,16 +1,16 @@
-In der Klasse E haben wir bereits *Fading* (*QSB*) kennen gelernt. Das wird hier in der Klasse A etwas vertieft. Wenn ein Funksignal auf mehr als einem Weg vom Sender zum Empfänger gelangt, dann spricht man von *Mehrwegeausbreitung*. Eine wichtige Ursache ist die Reflexion des Signals an Flächen (z.B. Gebäuden, Flugzeugen, Topografie) [ref:a_mehrwegeausbreitung_reflexion]. Auf Kurzwelle kommt hinzu, dass das Signal in der Ionosphäre häufig an mehreren Stellen gebrochen wird. Fast jede Funkverbindung ist deswegen von Mehrwegeausbreitung betroffen.
+In Class E we have already met *fading* (*QSB*). It is covered in a little more depth here in Class A. When a radio signal travels from the transmitter to the receiver by more than one path, this is called *multipath propagation*. An important cause is reflection of the signal from surfaces (e.g. buildings, aircraft, topography) [ref:a_mehrwegeausbreitung_reflexion]. On HF there is the added fact that the signal is often refracted at several points in the ionosphere. Almost every contact is therefore affected by multipath propagation.
 %TODO: Hier war eine tote Referenz auf "a_mehrwegeausbreitung_ionosphäre". Klären woher die kam und ggf. mit Bild wieder einfügen.
 
 <margin>
-[picture:1064:a_mehrwegeausbreitung_reflexion:Mehrwegeausbreitung durch Reflexion. Durch die Phasenverschiebung bei der Reflexion, in Kombination mit unterschiedlichen Weglängen, kann es bei der Überlagerung der Signale am Empfänger zu Verstärkung oder Abschwächung des empfangenen Signals kommen.]
+[picture:1064:a_mehrwegeausbreitung_reflexion:Multipath propagation by reflection. Because of the phase shift on reflection, combined with different path lengths, the superposition of the signals at the receiver can reinforce or weaken the received signal.]
 </margin>
 
 ---
 
-Der Empfänger erhält also gleichzeitig *mehrere* Signale, die aufgrund unterschiedlicher Wegstrecken mit abweichenden Laufzeiten und damit verschiedenen Phasen eintreffen. Diese Signale werden im Empfänger addiert. Das nennt sich in der Fachsprache *Interferenz*. Abhängig vom Phasenunterschied kann das resultierende Summensignal entweder verstärkt oder abgeschwächt werden – im Extremfall sogar bis zur vollständigen Auslöschung.
+The receiver therefore receives *several* signals at the same time, which arrive with different propagation times, and hence different phases, because of the different path lengths. These signals are added in the receiver. In technical language this is called *interference*. Depending on the phase difference, the resulting sum signal can be either reinforced or weakened – in the extreme case even to the point of complete cancellation.
 
 <indepth>
-Interferenz (von lateinisch inter = „zwischen“ und ferire, über altfranzösisch s’entreferir = „sich gegenseitig schlagen“) bezeichnet allgemein die Veränderung der Amplitude, die bei der Überlagerung von zwei oder mehr Wellen, d. h. addition, entsteht.
+Interference (from Latin inter = "between" and ferire, via Old French s'entreferir = "to strike one another") generally means the change in amplitude that results from the superposition, i.e. addition, of two or more waves.
 </indepth>
 
 [question:AH222]
@@ -19,5 +19,5 @@ Interferenz (von lateinisch inter = „zwischen“ und ferire, über altfranzös
 [include:applet_interferenz]
 </webmargin>
 
-Wenn sich eines der beteiligten Medien bewegt (z.B. beim Funkbetrieb aus einem fahrenden Auto, ein Flugzeug als Reflektor für Funksignale oder grundsätzlich die brechenden Bereiche in der Ionosphäre, vor allem während der Dämmerung), dann verändert sich damit auch fortlaufend das Summensignal im Empfänger. Dies führt zu andauerndem QSB sowie je nach Modulationsart zu mehr oder weniger starken Verzerrungen und damit schlechterer Verständlichkeit.
+If one of the media involved is moving (e.g. when operating from a moving car, with an aircraft acting as a reflector for radio signals, or in general the refracting areas of the ionosphere, above all at twilight), the sum signal in the receiver also changes continuously. This leads to continual QSB and, depending on the mode, to more or less severe distortion and so to poorer intelligibility.
 

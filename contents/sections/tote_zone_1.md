@@ -1,17 +1,17 @@
-In der Klasse N haben wir bereits den Begriff der *Toten Zone* kennengelernt – ein Phänomen, bei dem von einer laufenden Funkverbindung nur eine der beteiligten Stationen empfangen werden kann. In der Klasse E wird dieses Thema weiter vertieft und die Ursachen dieses Phänomens genauer betrachtet.
+In Class N we have already met the term *skip zone* – a phenomenon in which only one of the stations taking part in a contact in progress can be received. In Class E this topic is taken further and the causes of the phenomenon are looked at more closely.
 
 <margin>
-[picture:741:e_tote_zone:Die Tote Zone, die für die Bodenwelle zu weit weg und für die Raumwelle zu nah ist.]
+[picture:741:e_tote_zone:The skip zone, which is too far for the ground wave and too near for the sky wave.]
 </margin>
 
-Unter der Toten Zone versteht man den Bereich, der durch die Bodenwelle nicht mehr erreicht wird und durch die Raumwelle noch nicht erreicht wird (Abbildung [ref:e_tote_zone]). 
+The skip zone is the area that is no longer reached by the ground wave and not yet reached by the sky wave (Figure [ref:e_tote_zone]). 
 
 ---
 
-Genau genommene bildet sich um den Sender ein ringförmiges Gebiet, das nicht mehr von der Bodenwelle erreicht wird und noch nicht von der Raumwelle des Senders. Die Abbildung [ref:e_tote_zone_2d] zeigt eine Simulation des Signal-Rausch-Verhältnisses (SNR), welches wir erst in der Klasse A kennenlernen. Um die Tote Zone zu verstehen, reicht es aus, sich vorzustellen, dass im blauen Bereich keine Übertragung möglich ist und im roten Bereich eine hohe Wahrscheinlichkeit besteht, dass man empfangen wird. 
+Strictly speaking, a ring-shaped area forms around the transmitter that is no longer reached by the ground wave and not yet by the transmitter's sky wave. Figure [ref:e_tote_zone_2d] shows a simulation of the signal-to-noise ratio (SNR), which we will not meet until Class A. To understand the skip zone, it is enough to imagine that no transmission is possible in the blue area and that in the red area there is a high probability of being received. 
 
 <margin>
-[picture:992:e_tote_zone_2d:Simulation eines 100-W-Senders auf dem 20-m-Band in Deutschland, August 2025, 07:00 UTC]
+[picture:992:e_tote_zone_2d:Simulation of a 100 W transmitter on the 20 m band in Germany, August 2025, 07:00 UTC]
 </margin>
 
 [question:EH201]

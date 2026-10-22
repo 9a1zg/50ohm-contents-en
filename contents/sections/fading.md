@@ -1,10 +1,10 @@
-Wenn sich zwei (oder mehr) Signale gleicher Frequenz überlagern, dann addieren sich im Empfänger ihre Amplituden. Je nach Phasenlage führt das zu einer Verstärkung oder Abschwächung des resultierenden Summensignals. Sind die Amplituden zweier Signale gleich groß, aber die Phase um $\qty{180}{\degree}$ verschoben, wird ihr Summensignal sogar zu Null, verschwindet also.
+When two (or more) signals of the same frequency are superimposed, their amplitudes add in the receiver. Depending on their phase relationship, this reinforces or weakens the resulting sum signal. If the amplitudes of two signals are equal but their phases differ by $\qty{180}{\degree}$, their sum signal even becomes zero, that is, it disappears.
 
 <indepth>
 [include:fading_applet]
 </indepth>
 
-Solche Überlagerungen bezeichnet man als *Interferenz*. Sie treten beispielsweise auf, wenn man von einem Sender sowohl die Bodenwelle als auch die Raumwelle empfängt oder wenn die Raumwelle auf mehreren Wegen zum Empfänger gelangt (*Mehrwegeausbreitung*). Wenn sich zudem die Amplitude und/oder Phase dieser Funkwellen verändert, führt dies im Empfänger zu einer ständig schwankenden Feldstärke des Signals. Der Fachbegriff für dieses Phänomen lautet *Fading* (*Schwund*). Es gibt sogar eine Abkürzung dafür: *QSB*, sodass man seinem Funkpartner das auch mitteilen kann. Das Schwanken von Amplitude und/oder Phase wird auf der Kurzwelle durch die Brechung an der Ionosphäre verursacht, auf VHF und darüber häufig durch Reflexion des Signals an beweglichen Objekten.
+Such superposition is called *interference*. It occurs, for example, when both the ground wave and the sky wave of a transmitter are received, or when the sky wave reaches the receiver by several paths (*multipath propagation*). If, in addition, the amplitude and/or phase of these radio waves changes, the field strength of the signal in the receiver fluctuates constantly. The technical term for this phenomenon is *fading*. There is even an abbreviation for it, *QSB*, so that you can tell the other station about it. On HF, the fluctuation of amplitude and/or phase is caused by refraction at the ionosphere; on VHF and above it is often caused by reflection of the signal from moving objects.
 
 [question:EH203]
 [question:EH202]

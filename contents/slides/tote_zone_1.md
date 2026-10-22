@@ -1,11 +1,11 @@
 <left>
-* Bereich, wo die *Bodenwelle nicht mehr* hin gelangt
-* Und die *Raumwelle noch nicht* hingelangt
-* Abhängig vom Reflexionswinkel der Raumwelle
-* Funkstationen in der Toten Zone können mich nicht hören
+* Area that the *ground wave no longer* reaches
+* And the *sky wave does not yet* reach
+* Depends on the angle of reflection of the sky wave
+* Stations in the skip zone cannot hear me
 </left>
 <right>
-[picture:741:e_tote_zone:Tote Zone]
+[picture:741:e_tote_zone:Skip zone]
 </right>
 
 ---

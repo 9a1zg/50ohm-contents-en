@@ -1,7 +1,7 @@
 <left>
-* Raumwelle trifft noch im Bereich der Bodenwelle wieder zum Empfänger
-* Durch Wellenüberlagerung können sich Raum- und Bodenwelle gegenseitig abschwächen
-* Signal verliert an Stärke $\rightarrow$ *Fading*
+* Sky wave reaches the receiver while still within range of the ground wave
+* Superposition of the waves can make the sky wave and ground wave weaken each other
+* Signal loses strength $\rightarrow$ *fading*
 </left>
 <right>
 [include:fading_applet]

@@ -1,33 +1,33 @@
-## Höchste brauchbare Frequenz (MUF)
+## Maximum usable frequency (MUF)
 
 <left>
-* Klasse E: Höchste Frequenz mit der eine Verbindung über die Raumwelle hergestellt werden kann
+* Class E: highest frequency at which a contact can be made via the sky wave
 </left>
 <right>
-[picture:997:e_muf_luf2:Simulation der Sprungdistanzen für verschiedene Frequenzen und einer MUF bei ca. $\qty{7,5}{\mega\hertz}$ in einer Augustnacht 2024 bei einem Abstrahlwinkel von $\qty{45}{\degree}$]
+[picture:997:e_muf_luf2:Simulation of the skip distances for various frequencies, with an MUF of approx. $\qty{7.5}{\mega\hertz}$, on an August night in 2024 at an angle of radiation of $\qty{45}{\degree}$]
 </right>
 
 ---
 
-## Höchste brauchbare Frequenz (MUF)
+## Maximum usable frequency (MUF)
 
 <left>
-* Klasse A: Abhängig vom Abstrahlwinkel $\alpha$
+* Class A: depends on the angle of radiation $\alpha$
 </left>
 <right>
-[picture:870:e_muf_winkel:Die Winkel zur Berechnung der MUF]
+[picture:870:e_muf_winkel:The angles for calculating the MUF]
 </right>
 
 ---
 
-## Höchste brauchbare Frequenz (MUF)
+## Maximum usable frequency (MUF)
 
 <left>
-* Strahlt man steil ab (z. B. $\qty{60}{\degree}$), sinkt die MUF und die Funkwelle wird ggf. nicht mehr refraktiert.
-* Strahlt man flach ab (z. B. $\qty{30}{\degree}$), so erhöht sich die MUF. 
+* If you radiate steeply (e.g. $\qty{60}{\degree}$), the MUF falls and the radio wave may no longer be refracted.
+* If you radiate at a low angle (e.g. $\qty{30}{\degree}$), the MUF rises. 
 </left>
 <right>
-[picture:998:e_muf_winkel2:Sprungdistanz bei 7 MHz im Sommer 2024]
+[picture:998:e_muf_winkel2:Skip distance at 7 MHz in summer 2024]
 </right>
 
 ---
@@ -40,72 +40,72 @@
 
 ---
 
-## Kritische Frequenz
+## Critical frequency
 
 <left>
-* Bei $\qty{90}{\degree}$ Abstrahlwinkel muss das Signal in der Ionosphäre eine $\qty{180}{\degree}$-Wendung vollziehen
-* Kritische Frequenz $f_c$ bei der das Signal reflektiert wird
-* MUF ist größer als $f_c$, da in der Regel nicht senkrecht nach oben gesendet wird
+* At an angle of radiation of $\qty{90}{\degree}$ the signal has to make a $\qty{180}{\degree}$ turn in the ionosphere
+* Critical frequency $f_c$, at which the signal is reflected
+* MUF is greater than $f_c$, because as a rule you do not transmit vertically upwards
 </left>
 <right>
-[picture:870:e_muf_winkel:Die Winkel zur Berechnung der MUF]
+[picture:870:e_muf_winkel:The angles for calculating the MUF]
 <fragment>
 $\mathrm{MUF} \approx \frac{f_c}{\sin(\alpha)}$
 </fragment>
 </right>
 
 <note>
-Kritische Frequenz wird auch als $f_k$ oder $f_\mathrm{krit}$ angegeben
+The critical frequency is also given as $f_k$ or $f_\mathrm{krit}$
 </note>
 
 ---
 
-## Beispiel Ionosonde Juliusruh
+## Example: Juliusruh ionosonde
 
-[picture:999:e_muf_fof2:MUF 3000 (Flache Abstrahlung) und $f_\text{c}$ am 08.09.2025]
+[picture:999:e_muf_fof2:MUF 3000 (low angle of radiation) and $f_\text{c}$ on 08.09.2025]
 
 ---
 
 [question:AH208]
 
 --- style="font-size: smaller;"
-## Optimale Frequenz
+## Optimum frequency
 
-* Kommerzielle Frequenzplanung verwendet eine *Frequency of optimal transmition*, optimale Sendefrequenz
-* Frequenz, die auf einem bestimmten Signalweg statistisch an 90% aller Tage eine Funkverbindung erlaubt
-* Liegt 15% unter dem monatlichen Mittel der MUF
-* $f_{\mathrm{opt}} = \mathrm{MUF}\cdot 0,85$
-* Spielt für Amateurfunk keine große Rolle, da keine dauerhafte Verbindung aufgebaut wird
-* Im Amateurfunk wird bis nahe an der MUF gearbeitet
+* Commercial frequency planning uses a *frequency of optimum transmission*, the optimum working frequency
+* Frequency that statistically allows a contact on a given signal path on 90% of all days
+* Is 15% below the monthly mean of the MUF
+* $f_{\mathrm{opt}} = \mathrm{MUF}\cdot 0.85$
+* Plays no great part in amateur radio, since no permanent link is set up
+* In amateur radio, operation goes up close to the MUF
 
 ---
 [question:AH209]
 ---
-### Lösungsweg
+### Solution
 <left>
-* gegeben: $\alpha = \qty{45}{\degree}$
-* gegeben: $f_c = 3MHz$
+* given: $\alpha = \qty{45}{\degree}$
+* given: $f_c = 3MHz$
 </left>
 <right>
-* gesucht: $\mathrm{MUF}$
-* gesucht: $f_{\mathrm{opt}}$
+* required: $\mathrm{MUF}$
+* required: $f_{\mathrm{opt}}$
 </right>
 
 <left>
 <fragment>
-$\begin{split} \text{MUF} & \approx \frac{f_c}{\sin(\alpha)}\\&\approx \frac{\qty{3}{\mega\hertz}}{\num{0,71}}\\&\approx \qty{4,2}{\mega\hertz}\end{split}$
+$\begin{split} \text{MUF} & \approx \frac{f_c}{\sin(\alpha)}\\&\approx \frac{\qty{3}{\mega\hertz}}{\num{0.71}}\\&\approx \qty{4.2}{\mega\hertz}\end{split}$
 </fragment>
 </left>
 <right>
 <fragment>
-$\begin{split} f_{\mathrm{opt}} &= \mathrm{MUF}\cdot 0,85\\ &= \qty{4,2}{\mega\hertz} \cdot 0,85\\ &= \qty{3,6}{\mega\hertz} \end{split}$
+$\begin{split} f_{\mathrm{opt}} &= \mathrm{MUF}\cdot 0.85\\ &= \qty{4.2}{\mega\hertz} \cdot 0.85\\ &= \qty{3.6}{\mega\hertz} \end{split}$
 </fragment>
 </right>
 
 ---
-## Niedrigste brauchbare Frequenz (LUF)
+## Lowest usable frequency (LUF)
 
-Niedrigste Frequenz mit der eine Verbindung über die Raumwelle hergestellt werden kann
+Lowest frequency at which a contact can be made via the sky wave
 
 ---
 [question:AH210]
@@ -113,30 +113,30 @@ Niedrigste Frequenz mit der eine Verbindung über die Raumwelle hergestellt werd
 [question:AH211]
 ---
 
-## Kritische Frequenz
+## Critical frequency
 
 <left>
-[picture:870:e_muf_winkel:Die Winkel zur Berechnung der MUF]
-Wiederholung
+[picture:870:e_muf_winkel:The angles for calculating the MUF]
+Recap
 </left>
 <right>
-* Bei $\qty{90}{\degree}$ Abstrahlwinkel muss das Signal in der Ionosphäre eine $\qty{180}{\degree}$-Wendung vollziehen
-* Kritische Frequenz $f_c$ bei der das Signal reflektiert wird
-* MUF liegt höher als $f_c$, da in der Regel nicht senkrecht nach oben gesendet wird
+* At an angle of radiation of $\qty{90}{\degree}$ the signal has to make a $\qty{180}{\degree}$ turn in the ionosphere
+* Critical frequency $f_c$, at which the signal is reflected
+* MUF is higher than $f_c$, because as a rule you do not transmit vertically upwards
 </right>
 
 <note>
-Kritische Frequenz wird auch als $f_k$ oder $f_\mathrm{krit}$ angegeben
+The critical frequency is also given as $f_k$ or $f_\mathrm{krit}$
 </note>
 ---
 
-* Kritische Frequenz ist je nach ionosphärische Region, dem Ort und der Zeit unterschiedlich
-* Separate Angaben je nach Ionosphären-Region möglich
-* Formelzeichen: fo
-* Ergänzt durch die Schicht, z.B. foF2
+* The critical frequency differs according to the ionospheric region, the place and the time
+* Separate figures for each ionospheric region possible
+* Symbol: fo
+* Followed by the layer, e.g. foF2
 
 <note>
-fo mit kleinem "o" für ordinary wave
+fo with a small "o" for ordinary wave
 </note>
 ---
 [question:AH204]

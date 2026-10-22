@@ -1,46 +1,46 @@
-## Begriffe
+## Terms
 
-Im folgenden Kapitel werden mehrere Begriffe verwendet, die vorab erklärt werden
+Several terms are used in the following chapter; they are explained first
 
-* *Beugung*: Wellen werden an einem Hindernis abgelenkt
-* *Streuung*: Ablenkung der Wellen durch Interaktion von Teilchen
-* *Reflexion*: Gleichgerichtete Streuung
-* *Brechung* oder *Refraktion*: Ablenkung der Wellen durch Änderung der Ausbreitungsgeschwindigkeit durch ein anderes Medium mit anderer Dichte
+* *Diffraction*: waves are deflected at an obstacle
+* *Scattering*: deflection of the waves through interaction with particles
+* *Reflection*: scattering in one uniform direction
+* *Refraction*: deflection of the waves through a change in the velocity of propagation in another medium of different density
 
 ---
 
 <left>
-* Bereits bekannt: Die für den Amateurfunk relevanten Schichten in der Atmosphäre
-* In der Troposphäre finden Erscheinungen des Wetters statt
+* Already known: the layers of the atmosphere that are relevant to amateur radio
+* Weather phenomena take place in the troposphere
 </left>
 <right>
-[picture:731:e_atmosphaeren_schichten:Für den Amateurfunk relevante Schichten in der Atmosphäre]
+[picture:731:e_atmosphaeren_schichten:Layers of the atmosphere relevant to amateur radio]
 </right>
 <note>
-* Unterste Schicht
-* Bis ca. 10 km
+* Lowest layer
+* Up to approx. 10 km
 </note>
 
 ---
-## DX in VHF/UHF
+## DX on VHF/UHF
 <left>
-* Überhorizontverbindungen bei VHF/UHF entstehen durch Beugung, Reflexion und Streuung in der Troposphäre
-* Bereiche mit unterschiedlicher Temperatur und Dichte
+* Beyond-the-horizon contacts on VHF/UHF come about through diffraction, reflection and scattering in the troposphere
+* Areas of differing temperature and density
 </left>
 <right>
-[picture:734:e_tropo:Troposphärische Ausbreitung an verschiedenen Luftschichten]
+[picture:734:e_tropo:Tropospheric propagation at different layers of air]
 </right>
 <note>
-* Wirken ähnlich einem Spiegel
+* Act like a mirror
 </note>
 
 ---
-### Troposphärische Inversionsbildung
+### Formation of tropospheric inversions
 
-* Schichten unterschiedlicher Temperatur liegen aufeinander
-* An der Grenze der Schichten werden Funkwellen im VHF-Bereich reflektiert
-* Ermöglichen Funkverbindungen mit Stationen in rund $\num{800}$ bis $\qty{1000}{\kilo\meter}$ Entfernung
-* Troposphärische Inversionsbildung tritt hauptsächlich im Frühjahr und Herbst auf
+* Layers of different temperature lie on top of one another
+* Radio waves in the VHF range are reflected at the boundary between the layers
+* Make contacts possible with stations at distances of around $\num{800}$ to $\qty{1000}{\kilo\meter}$
+* Tropospheric inversions form mainly in spring and autumn
 
 ---
 

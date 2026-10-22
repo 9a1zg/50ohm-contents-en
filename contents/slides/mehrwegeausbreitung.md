@@ -1,20 +1,20 @@
 <left>
-* Funksignal gelangt auf mehr als einem Weg vom Sender zum Empfänger
-* Reflexion an Gebäude, Gelände, Flugzeuge etc.
-* Refraktion an Ionosphäre bei Kurzwelle
-* Führt zu Interferenz mit Verstärkung oder Auslöschung des Signals
+* Radio signal travels from the transmitter to the receiver by more than one path
+* Reflection from buildings, terrain, aircraft etc.
+* Refraction at the ionosphere on HF
+* Leads to interference, with reinforcement or cancellation of the signal
 </left>
 <right>
-[picture:1064:a_mehrwegeausbreitung_reflexion:Mehrwegeausbreitung durch Reflexion]
+[picture:1064:a_mehrwegeausbreitung_reflexion:Multipath propagation by reflection]
 </right>
 
 ---
 
 <left>
-* Funksignal gelangt auf mehr als einem Weg vom Sender zum Empfänger
-* Reflexion an Gebäude, Gelände, Flugzeuge etc.
-* Refraktion an Ionossphäre bei Kurzwelle
-* Führt zu Interferenz mit Verstärkung oder Auslöschung des Signals
+* Radio signal travels from the transmitter to the receiver by more than one path
+* Reflection from buildings, terrain, aircraft etc.
+* Refraction at the ionosphere on HF
+* Leads to interference, with reinforcement or cancellation of the signal
 </left>
 <right>
 [include:applet_interferenz]
@@ -22,9 +22,9 @@
 
 ---
 
-* Bei zusätzlicher Bewegung (Betrieb im Auto, Brechung am Flugzeug, Veränderung in der Ionosphäre) verändert sich ständig das Summensignal im Empfänger
-* Schwankende Signalstärke $\rightarrow$ *Schwund*, *Fading* oder *QSB*
-* Verzerrungen des Signals und schlechtere Verständlichkeit
+* With additional movement (operating in a car, refraction at an aircraft, changes in the ionosphere) the sum signal in the receiver changes constantly
+* Fluctuating signal strength $\rightarrow$ *fading* or *QSB*
+* Distortion of the signal and poorer intelligibility
 
 ---
 

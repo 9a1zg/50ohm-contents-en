@@ -1,74 +1,74 @@
-* Grundlagen zur Ionosphäre, Sonnenfleckenaktivität und "Tote Zone" sind in Klasse N
-* Vertiefung im Bereich Wellenausbreitung
-* Strahlung der Sonne schlägt Elektronen aus Sauerstoff- und Stickstoff-Atomen und -Molekülen in der Hochatmosphäre $\rightarrow$ Ionisation
-* Freie Elektronen werden von Funkwellen zum Schwingen angeregt $\rightarrow$ Refraktion der Funkwellen
+* Basics of the ionosphere, sunspot activity and the "skip zone" are in Class N
+* Going deeper into propagation
+* Radiation from the sun knocks electrons out of oxygen and nitrogen atoms and molecules in the upper atmosphere $\rightarrow$ ionisation
+* Free electrons are set oscillating by radio waves $\rightarrow$ refraction of the radio waves
 
 ---
 <left>
-* In ca. $\num{50}$ bis $\qty{450}{\kilo\meter}$ Höhe
-* Refraktion von Kurzwellen, wodurch weltweite Kommunikation ermöglicht wird
+* At a height of approx. $\num{50}$ to $\qty{450}{\kilo\meter}$
+* Refraction of HF waves, which makes worldwide communication possible
 </left>
 <right>
-[picture:731:e_atmosphaeren_schichten:Für den Amateurfunk relevante Schichten in der Atmosphäre]
+[picture:731:e_atmosphaeren_schichten:Layers of the atmosphere relevant to amateur radio]
 </right>
 
 ---
 [question:EH101]
 ---
-## Ausbreitung von Funkwellen
+## Propagation of radio waves
 <left>
-* Ionisation verleiht Kurzwelle einzigartige Fähigkeiten
-* Dichte der freien Elektronen bestimmt die Brechungsfrequenz
-* Höhere Dichte $\rightarrow$ höhere Frequenz
+* Ionisation gives HF its unique capabilities
+* The density of the free electrons determines the frequency that is refracted
+* Higher density $\rightarrow$ higher frequency
 </left>
 <right>
-[picture:865:e_wellenausbreitung_refraktion:Refraktion an Schichten der Ionosphäre]
+[picture:865:e_wellenausbreitung_refraktion:Refraction at layers of the ionosphere]
 </right>
 
 ---
 
-* Mehr Sonnenstrahlung $\rightarrow$ Ausbreitung auf höherer Frequenz möglich
-* Besonders viel Strahlung tagsüber im Sonnenfleckenmaximum
-* $\qty{10}{\meter}$-Band selbst bei geringer Sendeleistung tagsüber nutzbar
+* More solar radiation $\rightarrow$ propagation possible on higher frequencies
+* Particularly strong radiation during the day at sunspot maximum
+* $\qty{10}{\meter}$ band usable during the day even with low transmit power
 
 ---
 [question:EH219]
 ---
-## Rekombination
+## Recombination
 
-* Freie Elektronen rekombinieren sich wieder mit Atomrümpfen
-* In bestimmten Höhen stellt sich ein Gleichgewicht zwischen Ionisation und Rekombination ein.
-* Diese Gebiete mit Gleichgewicht werden als Regionen oder Schichten bezeichnet.
+* Free electrons recombine with the positive ions
+* At certain heights an equilibrium between ionisation and recombination is established.
+* These areas of equilibrium are called regions or layers.
 
-
----
-## Schichten der Ionosphäre
-* Es gibt in verschiedenen Höhen verschiedene "Schichten" bzw. Regionen mit unterschiedlich starker Ionisierung
-* Diese tragen die Namen
-
-1. D-Schicht
-2. E-Schicht
-3. $F_1$-Schicht
-4. $F_2$-Schicht
 
 ---
-* Für die Prüfungsfragen der Klasse E ist ein grundlegendes, qualitatives Verständnis der Regionen erforderlich
-* Die für die Kurzwellen-Fernausbreitung (DX) wichtigen F-Regionen der Ionosphäre befinden sich in einer Höhe von etwa $\num{130}$ bis $\qty{450}{\kilo\meter}$
-* In der Klasse A müssen die genauen Höhenlagen der einzelnen Regionen für Tag und Nacht benannt werden können
+## Layers of the ionosphere
+* At different heights there are different "layers" or regions with differing degrees of ionisation
+* Their names are
+
+1. D layer
+2. E layer
+3. $F_1$ layer
+4. $F_2$ layer
+
+---
+* For the Class E exam questions, a basic, qualitative understanding of the regions is needed
+* The F regions of the ionosphere, which are important for long-distance HF propagation (DX), are at a height of about $\num{130}$ to $\qty{450}{\kilo\meter}$
+* In Class A you must be able to state the exact heights of the individual regions by day and by night
 
 ---
 [question:EH102]
 ---
-### D-Region
-* In ca. $\qtyrange{50}{90}{\kilo\meter}$ Höhe
-* Existiert *nur am Tag*
-* Nach Sonnenuntergang sehr schnell verschwunden
-* Energieverlust durch Kollision der Elektronen mit anderen Teilchen
-* Starke *Dämpfung* von Funkwellen unter $\qty{10}{\mega\hertz}$
-* Keine Raumwelle für Amateurfunkbänder wie $\qty{160}{\meter}$ oder $\qty{80}{\meter}$
+### D region
+* At a height of approx. $\qtyrange{50}{90}{\kilo\meter}$
+* Exists *only during the day*
+* Disappears very quickly after sunset
+* Loss of energy through collisions of the electrons with other particles
+* Heavy *attenuation* of radio waves below $\qty{10}{\mega\hertz}$
+* No sky wave for amateur bands such as $\qty{160}{\meter}$ or $\qty{80}{\meter}$
 
 <note>
-* Die Schichten verschwinden durch Rekombination der Ionen und Elektronen, wenn sie nicht mehr durch Sonnenstrahlung angeregt werden
+* The layers disappear through recombination of the ions and electrons when they are no longer excited by solar radiation
 </note>
 ---
 [question:EH210]
@@ -76,30 +76,30 @@
 [question:EH105]
 
 ---
-### E-Region
-* In ca. $\qtyrange{90}{130}{\kilo\meter}$ Höhe
-* Entsteht *tagsüber* mit Maximum zur Mittagszeit
-* Verschwindet etwa 1 Stunde nach Sonnenuntergang
-* Sprungdistanz ca. $\qty{2000}{\kilo\meter}$ bis $\qty{10}{\mega\hertz}$
-* Starke Ionisation $\rightarrow$ Sporadic-E
-* Namensgebene: *E*(lektrische)*-Schicht*
+### E region
+* At a height of approx. $\qtyrange{90}{130}{\kilo\meter}$
+* Forms *during the day*, with its maximum at midday
+* Disappears about 1 hour after sunset
+* Skip distance approx. $\qty{2000}{\kilo\meter}$ up to $\qty{10}{\mega\hertz}$
+* Strong ionisation $\rightarrow$ sporadic E
+* Origin of the name: *E*(lectric) *layer*
 
 <note>
-* Die Schichten darüber und darüber wurden mit Buchstaben davor und dahinter benannt
+* The layers below and above it were named with the letters before and after it
 </note>
 ---
 [question:EH106]
 
 ---
-### F-Regionen
-* In ca. $\qtyrange{200}{400}{\kilo\meter}$ Höhe
-* Am stärksten ionisierte Schicht
-* $F_1$-Schicht existiert *nur am Tag*
-* $F_2$-Schicht bleibt *nachts* bestehen
-* Sprungdistanz ca. $\qty{4000}{\kilo\meter}$
+### F regions
+* At a height of approx. $\qtyrange{200}{400}{\kilo\meter}$
+* Most strongly ionised layer
+* $F_1$ layer exists *only during the day*
+* $F_2$ layer persists *at night*
+* Skip distance approx. $\qty{4000}{\kilo\meter}$
 
 <note>
-Wenig Restatmosphäre, weshalb die Elektronen lange brauchen, um ein Ion zur Rekombination zu finden
+Little residual atmosphere, so the electrons take a long time to find an ion to recombine with
 </note>
 
 ---
@@ -108,22 +108,22 @@ Wenig Restatmosphäre, weshalb die Elektronen lange brauchen, um ein Ion zur Rek
 ---
 [question:EH104]
 ---
-## Sonnenzyklus
+## Solar cycle
 <left>
-* Im Schnitt alle 11 Jahre durch Umkehrung des Magnetfelds
-* Intensivere Ultraviolett- und Röntgenstrahlen
-* Führt zu starker Ionisation der $F_2$-Region
+* Every 11 years on average, through reversal of the magnetic field
+* More intense ultraviolet and X-rays
+* Leads to strong ionisation of the $F_2$ region
 </left>
 <right>
-[picture:729:e_sonnenzyklus:Zählung der monatlichen Sonnenflecken seit 1749]
+[picture:729:e_sonnenzyklus:Monthly sunspot count since 1749]
 </right>
 
 ---
 [question:EH107]
 
 ---
-* Während dieser Zeit können alle oberen Kurzwellenbänder und teilweise sogar das $\qty{6}{\meter}$-Band für DX-Verbindungen genutzt werden
-* Im Aktivitätsminimum sind die Frequenzbänder oberhalb des $\qty{20}{\meter}$-Bandes (z. B. $\qty{10}{\meter}$) meist nicht nutzbar
+* During this period all the upper HF bands, and at times even the $\qty{6}{\meter}$ band, can be used for DX contacts
+* At the activity minimum the bands above the $\qty{20}{\meter}$ band (e.g. $\qty{10}{\meter}$) are mostly not usable
 
 ---
 [question:EH205]

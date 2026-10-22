@@ -1,8 +1,8 @@
-Mit den Grundlagen zur Ionosphäre, der Sonnenfleckenaktivität, der sogenannten „Toten Zone“ sowie den wichtigsten ionosphärischen Regionen haben wir uns bereits in den Prüfungsfragen zur Klasse N und E beschäftigt. Das grundlegende Prinzip dabei war, dass die von der Sonne ausgesandte UV-Strahlung Moleküle in der Ionosphäre ionisiert.
+We have already dealt with the basics of the ionosphere, sunspot activity, the "skip zone" and the most important ionospheric regions in the exam questions for Classes N and E. The basic principle was that the UV radiation emitted by the sun ionises molecules in the ionosphere.
 
 [question:AH101]
 
-In den Prüfungsfragen der Klasse E wurden die wichtigsten Regionen der Ionosphäre – die D-, E- und F-Region – sowie ihre Eigenschaften bereits vorgestellt. In der Klasse A ist es nun zusätzlich wichtig zu wissen, in welchen Höhenbereichen sich diese Regionen in der Erdatmosphäre befinden. Abbildung [ref:a_schichten_jahreszeiten] zeigt diese wichtigen Höhenangaben die man sich gut einprägen muss. Dabei ist auch die Abhängigkeit von Tageszeit und Jahreszeit zu berücksichtigen.
+The most important regions of the ionosphere – the D, E and F regions – and their properties were already introduced in the Class E exam questions. In Class A it is now also important to know at what heights in the earth's atmosphere these regions are found. Figure [ref:a_schichten_jahreszeiten] shows these important heights, which you need to commit firmly to memory. Their dependence on the time of day and the time of year must also be taken into account.
 
 [question:AH103]
 [question:AH104]
@@ -11,18 +11,18 @@ In den Prüfungsfragen der Klasse E wurden die wichtigsten Regionen der Ionosph�
 [question:AH108]
 
 <margin>
-[picture:874:a_schichten_jahreszeiten:Mögliche höhen der Regionen in Abhängigkeit von der Jahres- und Tageszeit]
+[picture:874:a_schichten_jahreszeiten:Possible heights of the regions as a function of the time of year and time of day]
 </margin>
 
-Diese Abhängigkeit von der Tageszeit hat eine große Auswirkung auf die Ausbreitung unserer Funkwellen. Im Sonnenfleckenmaximum funktioniert das $\qty{10}{\meter}$-Band auch tagsüber gut. Im Sonnenfleckenminimum dagegen ist das $\qty{10}{\meter}$-Band tagsüber kaum nutzbar. Deshalb wird in dieser Zeit für Weitverbindungen tagsüber häufig auf das $\qty{20}{\meter}$-Band zurückgegriffen.
+This dependence on the time of day has a great effect on the propagation of our radio waves. At sunspot maximum the $\qty{10}{\meter}$ band works well during the day too. At sunspot minimum, by contrast, the $\qty{10}{\meter}$ band is hardly usable during the day. That is why at such times the $\qty{20}{\meter}$ band is often used instead for long-distance contacts during the day.
 
 [question:AH202]
 
-Ein Band, das eigentlich fast immer gut und zuverlässig funktioniert, ist das $\qty{40}{\meter}$-Band, das genauso wie das $\qty{20}{\meter}$-Band der Klasse A vorbehalten ist. Gerade für innerdeutsche Weitverbindungen, zum Beispiel von Hamburg nach München, zeigt es eine sehr verlässliche Performance.
+One band that actually works well and reliably almost all the time is the $\qty{40}{\meter}$ band, which, like the $\qty{20}{\meter}$ band, is reserved for Class A. Especially for long-distance contacts within Germany, for example from Hamburg to Munich, it performs very reliably.
 
 [question:AH201]
 
-Tagsüber sind aufgrund der stark ionisierten D-Schicht das $\num{80}$ und das $\qty{160}{\meter}$-Band kaum nutzbar, doch sobald die Sonne untergeht, ermöglichen auch diese Bänder eine zuverlässige Kommunikation. Mit dem $\qty{40}{\meter}$-Band sind sogar noch größere Reichweiten möglich, da die Ausbreitung dann ausschließlich über die höhere F2-Schicht erfolgt und nicht mehr durch die niedrigere F1-Schicht. Letztere führt aufgrund ihrer geringeren Höhe zu kürzeren Sprungdistanzen und ist deshalb meist unerwünscht.
+During the day the $\num{80}$ and $\qty{160}{\meter}$ bands are hardly usable because of the strongly ionised D layer, but as soon as the sun sets, these bands too allow reliable communication. On the $\qty{40}{\meter}$ band even greater ranges are possible, because propagation then takes place solely via the higher F2 layer and no longer via the lower F1 layer. Because of its lower height, the latter leads to shorter skip distances and is therefore mostly undesirable.
 
 
 [question:AH203]
@@ -31,15 +31,15 @@ Tagsüber sind aufgrund der stark ionisierten D-Schicht das $\num{80}$ und das $
 
 ---
 
-Zur Messung der Sonnenaktivität gibt es zwei verbreitete Methoden: Die Zählung der Sonnenflecken (für die wir seit Mitte des 18. Jahrhunderts zuverlässige Werte haben) und die Messung des solaren Flux, der Strahlung der Sonne auf $\qty{2,8}{\giga\hertz}$ (Wellenlänge von $\qty{10,7}{\centi\meter}$), die seit Mitte des 20. Jahrhunderts durchgeführt wird. Beide Angaben korrelieren stark miteinander. Der solare Flux ist weniger sprunghaft und reicht von etwa 65 im Aktivitätsminimum bis über 300 bei sehr starken Maxima. Fluxwerte über 100 führen zu einem stark erhöhten Ionisationsgrad in der Ionosphäre und zu einer erheblich verbesserten Fernausbreitung auf den höheren Kurzwellenbändern.
+There are two common methods of measuring solar activity: counting sunspots (for which we have had reliable figures since the mid-18th century) and measuring the solar flux, the sun's radiation at $\qty{2.8}{\giga\hertz}$ (a wavelength of $\qty{10.7}{\centi\meter}$), which has been carried out since the mid-20th century. The two figures correlate closely. The solar flux fluctuates less erratically and ranges from about 65 at the activity minimum to over 300 at very strong maxima. Flux values above 100 lead to a greatly increased degree of ionisation in the ionosphere and to considerably improved long-distance propagation on the higher HF bands.
 
 <margin>
-[picture:988:a_flux:Solarer Flux und Anzahl der Sonnenflecken von 2005 bis 2025]
+[picture:988:a_flux:Solar flux and sunspot number from 2005 to 2025]
 </margin>
 
 [question:AH102]
 
-Ein weiterer Aspekt, der bei der Refraktion an den genannten Regionen eine Rolle spielt, ist die Polarisation. Die Polarisation einer elektromagnetischen Welle verändert sich bei der Raumwellen-Ausbreitung insbesondere durch Faraday-Rotation, Reflexionsphänomene in der Ionosphäre und Multipath-Effekte. Dies führt dazu, dass die empfangene Polarisation oft nicht mehr der ursprünglich ausgesendeten entspricht.
+Another aspect that plays a part in refraction at these regions is polarisation. In sky-wave propagation, the polarisation of an electromagnetic wave is changed above all by Faraday rotation, reflection phenomena in the ionosphere and multipath effects. As a result, the polarisation received often no longer matches the polarisation originally transmitted.
 
 [question:AH219]
 

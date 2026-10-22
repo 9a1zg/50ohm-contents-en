@@ -1,24 +1,24 @@
 <left>
-* Regional begrenzte ungewöhnlich hohe Ionisation der E-Schicht
-* Refraktion (Brechung) von Funkwellen in VHF und UHF
-* Auch $\qty{10}{\meter}$-Band möglich
+* Localised, unusually high ionisation of the E layer
+* Refraction of radio waves on VHF and UHF
+* The $\qty{10}{\meter}$ band is also possible
 </left>
 <right>
-[picture:731:e_atmosphaeren_schichten:Für den Amateurfunk relevante Schichten in der Atmosphäre]
+[picture:731:e_atmosphaeren_schichten:Layers of the atmosphere relevant to amateur radio]
 </right>
 
 ---
 [question:EH304]
 ---
-## Short Skip
+## Short skip
 
 <left>
-* Funkverbindungen mit Sprungentfernungen unter $\qty{1000}{\kilo\meter}$
-* Durch Refraktion an einer Sporadic-E-Schicht
-* Insbesondere im $\qty{10}{\meter}$-Band
+* Contacts with skip distances of less than $\qty{1000}{\kilo\meter}$
+* By refraction at a sporadic E layer
+* Especially on the $\qty{10}{\meter}$ band
 </left>
 <right>
-[picture:733:e_sporadic_e:Refraktion bei Sporadic-E]
+[picture:733:e_sporadic_e:Refraction in sporadic E]
 </right>
 
 ---

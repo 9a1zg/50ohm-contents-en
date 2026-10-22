@@ -1,26 +1,26 @@
 <margin>
-[photo:217:e_aurora:Aurora am Notfunk Ausbildungswochenende im Mai 2024]
+[photo:217:e_aurora:Aurora at the emergency communications training weekend in May 2024]
 </margin>
 
-Wenn geladene Teilchen aus dem Sonnenwind in das Erdmagnetfeld einkoppeln, werden sie zu den Polen hin abgeleitet. Dort treffen sie auf die zunehmend dichtere Atmosphäre und ionisieren dort vor allem den Sauerstoff und Stickstoff der Hochatmosphäre bis herunter in eine Höhe von etwa $\qty{90}{\kilo\meter}$, also den Bereich der E-Region. Die so angeregten Atome und Moleküle erzeugen dann zum einen die Lichterscheinungen der Polarlichter, zum anderen brechen sie Funkwellen. Das wird vorwiegend im VHF Bereich ($\qty{6}{\meter}$ und $\qty{2}{\meter}$-Band) für DX-Verbindungen genutzt.
+When charged particles from the solar wind couple into the geomagnetic field, they are channelled towards the poles. There they meet the increasingly dense atmosphere and ionise mainly the oxygen and nitrogen of the upper atmosphere, down to a height of about $\qty{90}{\kilo\meter}$, that is, the area of the E region. The atoms and molecules excited in this way produce the light displays of the aurorae on the one hand, and refract radio waves on the other. This is used mainly in the VHF range (the $\qty{6}{\meter}$ and $\qty{2}{\meter}$ bands) for DX contacts.
 
 ---
 
-Die brechenden Gebiete sind sehr dynamisch, der Signalweg der Funkwellen ändert sich daher ständig und massiv. Dies sorgt für rapide Signalschwankungen (Fading) und zudem eine frequenzmäßige Verbreiterung des Signals, den sogenannten Doppler-Spread. Deswegen sind Telefonie-Verbindungen schwierig, weil die Sprache dadurch schwer verständlich wird. Telegrafiesignale (CW) eignen sich besser, aber auch sie haben einen sehr rauen Ton, weswegen man im RST Signalrapport das "T" für die Beurteilung der Tonqualität ganz weglässt und stattdessen den Buchstaben "A" für "Aurora" gibt.
+The refracting areas are very dynamic, so the signal path of the radio waves changes constantly and massively. This causes rapid fluctuations in the signal (fading) and also a spreading of the signal in frequency, known as Doppler spread. This makes telephony contacts difficult, because it makes speech hard to understand. Telegraphy signals (CW) are better suited, but they too have a very rough tone, which is why in the RST signal report the "T" for assessing the tone quality is left out altogether and the letter "A" for "aurora" is given instead.
 
 <webonly>
 <margin>
-Das Ende eines CW-Aurora-QSOs zwischen GM4YXI und OK/DF7TR/P kann hier angehört werden:
+The end of a CW aurora QSO between GM4YXI and OK/DF7TR/P can be heard here:
 
 [include:applet_aurora]
 
-Ein SSB-Aurora-QSO gibt es auch auf [Youtube](https://50ohm.de/assb) zum Anhören.
+There is also an SSB aurora QSO to listen to on [YouTube](https://50ohm.de/assb).
 </margin>
 </webonly>
 
 <latexonly>
 <indepth>
-Ein Beispiel eines Aurora-CW-QSOs zwischen OH2MA und OH2LAK auf $\qty{50}{\mega\hertz}$ gibt es auf [Youtube](https://50ohm.de/acw). Hier kann man den sehr rauen und verauschten Ton der Morsezeichen hören. Ein SSB QSO gibt es auch auf [Youtube](https://50ohm.de/assb) zum Anhören.
+An example of an aurora CW QSO between OH2MA and OH2LAK on $\qty{50}{\mega\hertz}$ can be found on [YouTube](https://50ohm.de/acw). Here you can hear the very rough and noisy tone of the Morse characters. There is also an SSB QSO to listen to on [YouTube](https://50ohm.de/assb).
 </indepth>
 </latexonly>
 

@@ -1,7 +1,7 @@
-Noch größere Reichweiten von $\num{1000}$ bis $\qty{2000}{\kilo\meter}$ werden in den Sommermonaten durch *Sporadic-E-Bedingungen* [index:Sporadic-E] ermöglicht. Dabei treten meist scharf begrenzte und kleinräumige (eben "sporadische"), aber dafür außerordentlich stark ionisierte Bereiche in etwa $\num{100}$ bis $\qty{110}{\kilo\meter}$ Höhe auf. Diese Bereiche brechen Funkwellen zur Erde zurück (*Refraktion*) (Abbildung [ref:n_sporadic_e]). Wann und wo Sporadic-E genau auftritt, lässt sich nicht vorhersagen.
+Even greater ranges, of $\num{1000}$ to $\qty{2000}{\kilo\meter}$, are made possible in the summer months by *sporadic E conditions* [index:Sporadic E]. These involve areas, usually sharply bounded and small (hence "sporadic") but extraordinarily strongly ionised, at a height of about $\num{100}$ to $\qty{110}{\kilo\meter}$. These areas bend radio waves back to the earth (*refraction*) (Figure [ref:n_sporadic_e]). Exactly when and where sporadic E will occur cannot be predicted.
 
 <margin>
-[picture:733:n_sporadic_e:Refraktion (Brechung) von Funkwellen an stark ionisierten Bereichen der E-Schicht]
+[picture:733:n_sporadic_e:Refraction of radio waves at strongly ionised areas of the E layer]
 </margin>
 
 [question:NH306]

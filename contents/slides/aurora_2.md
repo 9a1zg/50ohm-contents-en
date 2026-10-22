@@ -1,21 +1,21 @@
-## Auftreten von Aurora
+## Occurrence of aurora
 
 <left>
-[photo:217:e_aurora:Aurora am Notfunk Ausbildungswochenende im Mai 2024]
+[photo:217:e_aurora:Aurora at the emergency communications training weekend in May 2024]
 </left>
 <right>
-* Die Aurora findet in der Nähe der Pole statt
-* Die Aurora ist auf Höhe der E-Region ($\num{90}$ bis $\qty{130}{\kilo\meter}$)
-* Geladene Teilchen der Sonne dringen in die Atmosphäre ein
+* Aurora takes place near the poles
+* Aurora is at the height of the E region ($\num{90}$ to $\qty{130}{\kilo\meter}$)
+* Charged particles from the sun enter the atmosphere
 </right>
 
 <note>
-Die richtigen Fragen enthalten "Pole" oder "Polarregion" und für uns in Europa ist die Polarregion im Norden.
+The correct answers contain "poles" or "polar region", and for us in Europe the polar region is to the north.
 </note>
 
 ---
 
-Das Ende eines Aurora-CW-QSO zwischen GM4YXI und OK/DF7TR/P:
+The end of an aurora CW QSO between GM4YXI and OK/DF7TR/P:
 
 [include:applet_aurora]
 
@@ -27,12 +27,12 @@ Das Ende eines Aurora-CW-QSO zwischen GM4YXI und OK/DF7TR/P:
 [question:AH306]
 
 ---
-## Nutzung für Wellenausbreitung
+## Use for propagation
 
-* Die Aurora ist ein stark ionisierter Bereich, die Funkwellen über $\qty{30}{\mega\hertz}$ reflektiert
-* Wird also hauptsächlich mit UHF und VHF verwendet
-* Sprache ist zu breitbandig, deshalb eignet sich CW am besten
-* Trotzdem ist das Signal "flatternd" und "verbrummt"
+* Aurora is a strongly ionised area that reflects radio waves above $\qty{30}{\mega\hertz}$
+* So it is used mainly with UHF and VHF
+* Voice is too wideband, so CW is best suited
+* Even so, the signal is "fluttering" and "buzzing"
 
 ---
 [question:AH304]
