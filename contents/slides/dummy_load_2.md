@@ -50,7 +50,7 @@ $P = n \cdot P_R = 48 \cdot \qty{1}{\watt} = \qty{48}{\watt}$
 ### Measuring the RF output power via a potential divider
 
 * A dummy load with a tap allows a rough determination of the power
-* The partial RF voltage is converted using the divider ratio
+* The partial RF voltage is calculated using the divider ratio
 * Can be measured with an RF probe and a multimeter
 
 ---

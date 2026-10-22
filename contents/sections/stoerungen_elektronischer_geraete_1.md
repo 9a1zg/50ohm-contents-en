@@ -46,7 +46,7 @@ If several strong signals are present at the same time in a receiving installati
 
 [question:EJ120]
 
-Even in a switched-off stereo system, strong RF signals can lead to audible noises in the loudspeakers through rectification at non-linear components such as transistors in the AF output stage. Corroded contacts between metals (metal oxides) also have the property that they can form rectifying effects through non-linearities. As a result, when the amateur station transmits, unwanted mixing products can arise on the transmitting or the receiving side, which can lead to breakthrough into television and broadcast reception.
+Even in a switched-off stereo system, strong RF signals can lead to audible noises in the loudspeakers through rectification at non-linear components such as transistors in the AF output stage. Corroded contacts between metals (metal oxides) also have the property that they can produce rectifying effects through non-linearities. As a result, when the amateur station transmits, unwanted mixing products can arise on the transmitting or the receiving side, which can lead to breakthrough into television and broadcast reception.
 
 [question:EJ113]
 [question:EJ121]
@@ -63,7 +63,7 @@ If an HF transmitting antenna is close to and parallel to a $\qty{230}{\volt}$ A
 [question:EJ109]
 [question:EJ111]
 
-Another possibility is *fitting filters in the leads of equipment* and fitting *common-mode chokes (choking)* to leads.
+Another possibility is *fitting filters in the leads of equipment* and *choking leads with common-mode chokes*.
 
 Filters in particular can be fitted in the receive path on the side of the affected equipment (TV, DVB-T2 receiver, DAB receiver etc.). For example, the field strength of an amateur HF transmitter (e.g. in the range $\qtyrange{3}{30}{\mega\hertz}$) can affect TV reception (e.g. $\qtyrange{470}{690}{\mega\hertz}$). Fitting a high-pass filter can considerably reduce the influence of the amateur radio signal: frequency components outside the TV reception range – in this example, the HF range – are suppressed, so that the receiver stages of the equipment can no longer be overloaded.
 

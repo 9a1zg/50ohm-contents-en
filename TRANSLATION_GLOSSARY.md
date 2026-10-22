@@ -2424,7 +2424,7 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Jetzt Mitglied im DARC werden! | Become a DARC member now! | link text, as in earlier units |
 | Konfliktfall / Leib und Leben / Sachen von bedeutendem Wert | case of conflict / life and limb / property of considerable value | BNetzA powers (stoerungen_vermeiden) |
 | Garagentorsteuerung / Funk-Autoschlüssel / LED-Leuchten mit kapazitiven Sensoren | garage door control / radio car key / LED lights controlled by capacitive sensors | stoerungen_elektronischer_geraete_1 |
-| Mantelwellen-Sperren (Verdrosselung) / Gleichtaktströme / Klappringkerne aus Ferrit, Klappferrite | common-mode chokes (choking) / common-mode currents / clip-on ferrite cores, clip-on ferrites | as §12 *Mantelwellendrossel*, *Klappferritkern* (stoerungen_elektronischer_geraete_1) |
+| Mantelwellen-Sperren (Verdrosselung) / Gleichtaktströme / Klappringkerne aus Ferrit, Klappferrite | common-mode chokes / common-mode currents / clip-on ferrite cores, clip-on ferrites | as §12 *Mantelwellendrossel*, *Klappferritkern*; "*Mantelwellen-Sperren (Verdrosselung)* von Zuleitungen" → "*choking leads with common-mode chokes*", not a bracketed "(choking)" (stoerungen_elektronischer_geraete_1) |
 | Aussetzer / Artefakte / Verstummen (DAB, DVB-T) | dropouts / artefacts / muting | British *artefacts* (stoerungen_elektronischer_geraete_2) |
 | Längsimpedanz / Eigenresonanz / Leistungscharakteristik (HF-Stufe) | series impedance / self-resonance / power response | AJ214 (stoerungen_elektronischer_geraete_2) |
 | Powerline Communication / Afu-Bänder | powerline communication / amateur bands | empfangsstoerungen slides |

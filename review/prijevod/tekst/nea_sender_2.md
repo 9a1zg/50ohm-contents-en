@@ -111,3 +111,23 @@ One entry (Course text):
 - sections/unerwuenschte_aussendungen_2.md, _3.md — *Nebenaussendungen* is used for the splatter right next to the transmitted signal; in the RR's terms (1.144, 1.145) emissions just outside the necessary bandwidth caused by the modulation are out-of-band emissions, not spurious emissions. The glossary (§6) and the bank (EJ213, AJ219) render *Nebenaussendungen* as spurious emissions; kept.
 - sections/unerwuenschte_aussendungen_3.md — picture 868 and the table both carry the ident `a_harmonische`, and the text refers to both ("Abbildung [ref:a_harmonische]", "Tabelle [ref:a_harmonische]"); one of the references can only resolve to the wrong object. Idents never change; kept.
 - Typos with no effect on the English: sections/unerwuenschte_aussendungen_1.md "sind unerwünschten Aussendungen daher"; sections/unerwuenschte_aussendungen_2.md caption "Störung des DVB-T2-Empfang", caption "Selbgebautes Tiefpassfilter", "welches nur auf einer gewünschten Frequenz aussendet sollte" (missing comma); sections/unerwuenschte_aussendungen_3.md "neben des klassischen Oberwellenfilters", "solche *Nebenaussendung*, oder auch *Nebenprodukte* genannt", "stabilierte"; sections/stoerungen_vermeiden.md and slides "Störung des DVB-T2-Empfang"; sections/stoerungen_elektronischer_geraete_1.md "Nichlinearitäten", "Probeleme", "zu beeinflussungen kommt"; slides/stoerungen_elektronischer_geraete_1.md "Übersteuerrung", "wegen ungenügend geschirmten Gehäuse", "trotz gesetzeskonformen Betrieb"; sections/stoerungen_elektronischer_geraete_2.md "mit Ihrer Induktivität"; slides/empfangsstoerungen.md "FuAG: Funkanlagengesetzes", "Funkstörannahme"; solutions/AJ208.md "ergibt als als"; the ident `a_stoerungen_elektrischer_geraete_tiefpassfilter` (idents never change).
+
+## Provjera
+
+Checker: all 28 files compared paragraph by paragraph with the German
+(`git show dc8948e~1:<file>`), embedded questions looked up in English.
+Every judgement call, the 29 glossary rows and the DECISIONS.md entry
+(*Störung* / *störende Beeinflussung* → interference / breakthrough) were
+examined: the decision and 28 rows kept as they are, one row reworked.
+The suspected errors in the German are confirmed as listed.
+`revizija-guard.py --rev dc8948e~1 --brojevi`: 28 files, *struktura
+netaknuta*.
+
+Changes: omission 0, meaning 3, technical 1, style 1, glossary 1.
+
+- meaning — slides/unerwuenschte_aussendungen_1 (note): "Filters are not perfect, so keep them to the lowest possible level" made the filters what is kept low; now "so keep unwanted emissions to the lowest possible level", as the German means.
+- meaning — slides/dummy_load_2: *HF-Teilspannung wird über Spannungsteiler-Verhältnis berechnet* "is converted using" → "is calculated using the divider ratio".
+- meaning — slides/stoerungen_elektronischer_geraete_2: *komplette Ausfälle* "complete dropouts" → "complete loss of reception" (*Aussetzer* is the dropout; *Ausfall* is total failure).
+- technical — solutions/AJ118: *Widerstand* of the series capacitors and series inductors at 50 Hz rendered "resistance" → "impedance"; a capacitor or inductor has no resistance in that sense, and the same solution already says "reactance" for *kapazitiver / induktiver Widerstand*.
+- style — sections/stoerungen_elektronischer_geraete_1: "*common-mode chokes (choking)* to leads" → "*choking leads with common-mode chokes*" (the bracketed gerund is not English); "can form rectifying effects" → "can produce rectifying effects".
+- glossary — §14 row *Mantelwellen-Sperren (Verdrosselung)*: "common-mode chokes (choking)" → "common-mode chokes", with the rendering of *Verdrosselung von Zuleitungen* noted.

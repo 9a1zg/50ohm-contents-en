@@ -110,7 +110,7 @@
 
 * Interference to reception with DAB, TV and VHF FM  
 * Cause: overloading of the receiver input  
-* Reduced sensitivity or complete dropouts  
+* Reduced sensitivity or complete loss of reception  
 
 ---
 

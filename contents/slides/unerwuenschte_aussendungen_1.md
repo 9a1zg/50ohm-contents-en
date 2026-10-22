@@ -9,7 +9,7 @@
 <note>
 * Do not cause interference in other radio bands
 * Do not interfere with the neighbours' radio and television
-* Filters are not perfect, so keep them to the lowest possible level
+* Filters are not perfect, so keep unwanted emissions to the lowest possible level
 </note>
 
 ---
