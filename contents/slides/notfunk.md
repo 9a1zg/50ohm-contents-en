@@ -1,19 +1,19 @@
-### Hilfeleistung durch Funkamateure
+### Assistance by radio amateurs
 
-* Funkamateure dürfen in Not- und Katastrophenfällen durch Übermittlung von Nachrichten für und an Dritte bei der Bewältigung einer Notlage unterstützen
-* Es besteht sogar eine *Pflicht zur Hilfeleistung*: Unterlassene Hilfeleistung ist nach § 323c StGB strafbar
+* In emergencies and disasters, radio amateurs may help to deal with an emergency by passing messages for and to third parties
+* There is even a *duty to render assistance*: failure to render assistance is a criminal offence under Section 323c of the Criminal Code (Strafgesetzbuch, StGB)
 
 ---
 
-### Verhalten bei einer Notmeldung
+### What to do on receiving a distress message
 
-* Bei einer Notmeldung sollte man zunächst aufmerksam zuhören und alle wichtigen Informationen notieren
-* Hilfreich sind dabei die *5 W-Fragen*:
-  * *Wo* ist das Ereignis?
-  * *Wer* meldet es?
-  * *Was* ist geschehen?
-  * *Wie* viele Betroffene?
-  * *Warten* auf Rückfragen!
+* On receiving a distress message, you should first listen carefully and note down all important information
+* The *5 Ws* help here:
+  * *Where* is the incident?
+  * *Who* is reporting it?
+  * *What* has happened?
+  * *How* many people are affected?
+  * *Wait* for questions!
 
 ---
 
@@ -21,10 +21,10 @@
 
 ---
 
-### Übernahme durch eine Rettungsorganisation
+### Taken over by a rescue organisation
 
-* Wird die Notmeldung von einer Rettungsorganisation beantwortet, hält man sich zurück um den Funkbetrieb nicht zu stören
-* Anweisungen der notrufenden Station oder einer Leitstation befolgen
+* If the distress message is answered by a rescue organisation, you hold back so as not to disrupt the radio traffic
+* Follow the instructions of the station making the distress call or of a net control station
 
 ---
 
@@ -32,10 +32,10 @@
 
 ---
 
-### Falls zunächst niemand antwortet
+### If nobody answers at first
 
-* Reagiert keine andere Funkstelle, beantwortet man den Ruf und informiert die Polizei oder Rettungsleitstelle
-* Meldung dabei vollständig und wörtlich weitergeben
+* If no other station responds, you answer the call and inform the police or the emergency control centre
+* Pass the message on in full and word for word
 
 ---
 
@@ -43,23 +43,23 @@
 
 ---
 
-### Nach der Meldung an die zuständigen Stellen
+### After reporting to the authorities responsible
 
-* Idealerweise bleibt man erreichbar und gibt Informationen weiter, bis Hilfe eingetroffen ist
+* Ideally, you remain reachable and pass on information until help has arrived
 
 ---
 [question:BF107]
 
 ---
 
-### Internationale Beteiligung
+### International involvement
 
-* Bei internationaler Beteiligung nutzt man UTC anstelle von lokaler Zeit
-  * Winterzeit: UTC = MEZ $-$ 1 Stunde, also MEZ = UTC + 1 Stunde
-  * Sommerzeit: UTC = MESZ $-$ 2 Stunden, also MESZ = UTC + 2 Stunden
+* When other countries are involved, UTC is used instead of local time
+  * Winter time: UTC = CET $-$ 1 hour, so CET = UTC + 1 hour
+  * Summer time: UTC = CEST $-$ 2 hours, so CEST = UTC + 2 hours
 
 <note>
-Das Notfunkreferat des DARC stellt Empfehlungen für die Organisation von Notfallkommunikation bereit
+The DARC emergency communications department (Notfunkreferat) provides recommendations for organising emergency communications
 </note>
 
 ---
@@ -68,13 +68,13 @@ Das Notfunkreferat des DARC stellt Empfehlungen für die Organisation von Notfal
 
 ---
 
-### Notzeichen
+### Distress signals
 
-* Die Notzeichen außerhalb des Amateurfunks sind SOS und MAYDAY
-  * Im Sprechfunk "Mayday", in der Telegrafie "SOS"
-* Dringlichkeits- und Sicherheitszeichen: PAN PAN und SÉCURITÉ
-* Diese Zeichen sind dem See- und Flugfunk vorbehalten und dürfen im Amateurfunk nicht verwendet werden
-* Es dürfen trotzdem Notrufe abgesetzt werden, z.B. mit den Begriffen "Notfall" oder "Emergency"
+* The distress signals outside amateur radio are SOS and MAYDAY
+  * In voice communication "MAYDAY", in telegraphy "SOS"
+* Urgency and safety signals: PAN PAN and SÉCURITÉ
+* These signals are reserved for maritime and aeronautical radio and may not be used in amateur radio
+* Distress calls may nevertheless be made, e.g. with the words "Notfall" (German for "emergency") or "Emergency"
 
 ---
 
@@ -94,18 +94,18 @@ Das Notfunkreferat des DARC stellt Empfehlungen für die Organisation von Notfal
 
 ---
 
-###  Notfunkfrequenzen
+###  Emergency communications frequencies
 
-Die IARU hat für die ITU-Region 1 die folgenden Notfunkfrequenzen in den Bandplänen festgelegt, die für den Notfunkbetrieb frei zu halten sind:
+The IARU has laid down the following emergency communications frequencies for ITU Region 1 in its band plans; they are to be kept clear for emergency communications:
 % TODO: Eigentlich sind die Bandangaben unnötig. Aber wenn nur die Frequenz da steht, werden die Abstände zwischen den Zeilen riesig
-* $\qty{3760}{\kilo\hertz}$ im $\qty{80}{\meter}$-Band
-* $\qty{7110}{\kilo\hertz}$ im $\qty{40}{\meter}$-Band
-* $\qty{14300}{\kilo\hertz}$ im $\qty{20}{\meter}$-Band
-* $\qty{18160}{\kilo\hertz}$ im $\qty{17}{\meter}$-Band
-* $\qty{21360}{\kilo\hertz}$ im $\qty{15}{\meter}$-Band
+* $\qty{3760}{\kilo\hertz}$ in the $\qty{80}{\meter}$ band
+* $\qty{7110}{\kilo\hertz}$ in the $\qty{40}{\meter}$ band
+* $\qty{14300}{\kilo\hertz}$ in the $\qty{20}{\meter}$ band
+* $\qty{18160}{\kilo\hertz}$ in the $\qty{17}{\meter}$ band
+* $\qty{21360}{\kilo\hertz}$ in the $\qty{15}{\meter}$ band
 
 <note>
-Zusätzlich werden zum Beispiel bei Erdbeben von lokalen Organisationen weitere Frequenzen in den "Amateurfunkmedien" kommuniziert.
+In addition, during earthquakes for example, further frequencies are announced by local organisations in the "amateur radio media".
   </note>
 
 ---

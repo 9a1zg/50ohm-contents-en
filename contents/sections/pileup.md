@@ -1,18 +1,18 @@
-Wenn auf Kurzwelle eine besondere oder seltene Station ruft, dann dauert es oft nicht lange, bis sich diese Information über das Internet verbreitet. Plötzlich versuchen dutzende oder hunderte Funkamateure gleichzeitig auf die Rufe dieser Station zu antworten. Ein sogenanntes *Pile-Up* entsteht.
+When a special or rare station calls on HF, it often does not take long for this information to spread over the internet. Suddenly dozens or hundreds of radio amateurs try to answer this station's calls at the same time. What is known as a *pile-up* develops.
 
 <wordorigin>
-Der Begriff *Pile-Up* kommt vom englischen Verb "to pile up", was soviel bedeutet wie "sich aufstapeln" oder "sich türmen". Was sich hier aufstapelt oder türmt, sind die immer mehr werdenden Funkamateure, die alle das gleiche Ziel verfolgen: Eine Verbindung mit der begehrten Station herzustellen.
+The term *pile-up* comes from the English verb "to pile up", which means roughly to stack up or to heap up. What piles up or heaps up here is the ever-growing number of radio amateurs, all pursuing the same goal: to make contact with the sought-after station.
 </wordorigin>
 
 <indepth>
-Informationen über interessante Station werden im Internet über sogenannte *DX-Cluster* verbreitet. Das sind Plattformen, auf denen Funkamateure das Rufzeichen und die Frequenz von gerade aktiven Stationen veröffentlichen können.
+Information about interesting stations is spread on the internet through what are known as *DX clusters*. These are platforms on which radio amateurs can publish the call sign and frequency of stations that are currently active.
 </indepth>
 
-Je mehr Funkamateure gleichzeitig auf einen CQ-Ruf antworten, umso schwieriger wird es, einzelne Rufzeichen zu verstehen. Für ein geordnetes Abarbeiten von Pile-Ups haben sich daher bestimmte Techniken entwickelt:
-* Aufruf nach Ziffern: Der CQ-Ruf wird auf bestimmte Ziffern im Rufzeichen beschränkt, beispielsweise durch "*only number* 5" (nur Ziffer 5) auf Rufzeichen, die eine 5 zwischen Präfix und Suffix enthalten. Wenn sich alle an die Aufforderung halten, antworten im Schnitt nur noch ein Zehntel der interessierten Funkamateure gleichzeitig. Die Ziffern werden in der Regel der Reihe nach aufgerufen.
-* Aufruf nach Ländern oder Kontinenten: Wird z. B. mit dem Zusatz "Asia only" gerufen, sollen nur Stationen aus Asien antworten.
-* *Listenbetrieb:* Eine andere Station nimmt die Kontaktwünsche auf und erstellt eine Liste, die von der begehrten Station abgearbeitet wird.
-* *Split-Betrieb:* Es soll auf einer anderen Frequenz geantwortet werden als gerufen wird. Dieses Verfahren behandeln wir erst nach den folgenden Fragen im nächsten Abschnitt näher.
+The more radio amateurs answer a CQ call at the same time, the harder it becomes to make out individual call signs. Certain techniques have therefore developed for working through pile-ups in an orderly way:
+* Calling by digit: the CQ call is restricted to certain digits in the call sign, for example with "*only number* 5" (the digit 5 only) for call signs that contain a 5 between prefix and suffix. If everyone keeps to the request, on average only a tenth of the interested radio amateurs answer at the same time. The digits are usually called in turn.
+* Calling by country or continent: if, for example, the call is made with the addition "Asia only", only stations from Asia should answer.
+* *List operation:* another station takes down the requests for contacts and draws up a list, which the sought-after station then works through.
+* *Split operation:* the reply is to be made on a different frequency from the one on which the station is calling. We will look at this procedure more closely only in the next section, after the following questions.
 
 [question:BE305]
 [question:BE306]

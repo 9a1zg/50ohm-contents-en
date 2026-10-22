@@ -1,30 +1,30 @@
-### Slow-Scan-Television (SSTV)
+### Slow-scan television (SSTV)
 
 <left>
-* Übertragung stehender Bilder mit geringer Auflösung
-* Erstmals 1958 von amerikanischen Funkamateuren praktiziert
-* Meist Fotos vom eigenen Shack, der Antenne oder der Landschaft
+* Transmission of still pictures at low resolution
+* First practised in 1958 by American radio amateurs
+* Mostly photos of your own shack, the antenna or the landscape
 </left>
 
 <right>
-[photo:84:n_sstv:Ein per SSTV übertragenes Bild]
-* Rufzeichen und Rapport werden direkt ins Bild geschrieben
+[photo:84:n_sstv:A picture transmitted by SSTV]
+* Call sign and report are written directly into the picture
 </right>
 
 ---
 
-## Rapportsystem RSV
+## RSV report system
 
-* R und S wie bei Telefonie und Telegrafie: Lesbarkeit und Signalstärke
-* V für die Video- bzw. Bild-Qualität (1 bis 5)
+* R and S as in telephony and telegraphy: readability and signal strength
+* V for video or picture quality (1 to 5)
 
-| l: Wert | X: Bedeutung |
-| 1 | Nur Synchronisation zu sehen |
-| 2 | Großes Call lesbar |
-| 3 | Große Details zu erkennen |
-| 4 | Kleine Details zu erkennen |
-| 5 | Rauschfreies Bild |
-[table:n_sstv_rsv:Rapportsystem RSV]
+| l: Value | X: Meaning |
+| 1 | Only synchronisation visible |
+| 2 | Large call sign readable |
+| 3 | Large details recognisable |
+| 4 | Small details recognisable |
+| 5 | Noise-free picture |
+[table:n_sstv_rsv:RSV report system]
 
 ---
 [question:BE210]

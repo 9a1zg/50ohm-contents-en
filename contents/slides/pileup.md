@@ -1,48 +1,48 @@
-### Pile-Up
+### Pile-up
 
-* Ruft eine besondere oder seltene Station, verbreitet sich das oft schnell über das Internet
-* Viele Funkamateure versuchen dann gleichzeitig, auf die Rufe dieser Station zu antworten $\rightarrow$ *Pile-Up*
-* Der Begriff Pile-Up kommt vom englischen Verb "to pile up", was soviel bedeutet wie "sich aufstapeln".
-* Was sich hier aufstapelt, sind die immer mehr werdenden Funkamateure, die alle das gleiche Ziel verfolgen: Eine Verbindung mit der begehrten Station herzustellen.
+* When a special or rare station calls, the news often spreads quickly over the internet
+* Many radio amateurs then try to answer this station's calls at the same time $\rightarrow$ *pile-up*
+* The term pile-up comes from the English verb "to pile up", which means roughly to stack up.
+* What piles up here is the ever-growing number of radio amateurs, all pursuing the same goal: to make contact with the sought-after station.
 
 <note>
-Hinweise über seltene Station werden im Internet über sogenannte *DX-Cluster* verbreitet. Dort findet man  Rufzeichen, Frequenz und weitere Informationen.
+Information about rare stations is spread on the internet through what are known as *DX clusters*. There you can find the call sign, frequency and other information.
 </note>
 
 ---
 
-### Techniken im Pile-Up
+### Pile-up techniques
 
-Je mehr Stationen gleichzeitig antworten, umso schwerer werden einzelne Rufzeichen verständlich
-
----
-
-### Aufruf nach Ziffern
-
-* Der CQ-Ruf wird auf bestimmte Ziffern im Rufzeichen beschränkt, zum Beispiel "*only number* 5"
-* Ziffern werden in der Regel der Reihe nach aufgerufen
-* Im Schnitt antwortet dann nur noch ein Zehntel der interessierten Funkamateure gleichzeitig
+The more stations answer at the same time, the harder it becomes to make out individual call signs
 
 ---
 
-### Aufruf nach Ländern oder Kontinenten
+### Calling by digit
 
-* Der Aufruf wird nach Ländern oder Kontinenten vorgenommen, zum Beispiel "Asia only"
-* Es sollen dann nur Stationen aus dem genannten Bereich antworten
-
----
-
-### Listenbetrieb
-
-* Selten wird *Listenbetrieb* gemacht
-* Eine andere Station nimmt die Kontaktwünsche auf und erstellt eine Liste, die von der begehrten Station abgearbeitet wird
+* The CQ call is restricted to certain digits in the call sign, for example "*only number* 5"
+* The digits are usually called in turn
+* On average, only a tenth of the interested radio amateurs then answer at the same time
 
 ---
 
-### Split-Verkehr
+### Calling by country or continent
 
-* Es wird auf einer anderen Frequenz geantwortet als gerufen wird
-* Mehr dazu im nächsten Abschnitt
+* The call is made by country or continent, for example "Asia only"
+* Only stations from the area named should then answer
+
+---
+
+### List operation
+
+* *List operation* is rarely used
+* Another station takes down the requests for contacts and draws up a list, which the sought-after station then works through
+
+---
+
+### Split operation
+
+* The reply is made on a different frequency from the one on which the station is calling
+* More about this in the next section
 
 ---
 [question:BE305]

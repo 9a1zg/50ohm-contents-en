@@ -1,53 +1,53 @@
 ### Contest
 
-* Im Amateurfunk finden auch Wettbewerbe statt, die als Contest bezeichnet werden.
-* Ziel: möglichst viele Funkverbindungen in einer begrenzten Zeit herstellen
-* Conteste dienen dem sportlichen Wettkampf, aber auch dazu, die eigene Amateurfunkstation und Betriebsabwicklung zu verbessern.
-* Regeln legt der Veranstalter in einer *Ausschreibung* fest
+* There are also competitions in amateur radio, which are called contests.
+* Aim: to make as many contacts as possible in a limited time
+* Contests are for sporting competition, but also for improving your own amateur station and operating procedures.
+* The organiser lays down the rules in the *contest rules*
 
 ---
 [question:BE301]
 
 ---
-### Erkennungsmerkmale von Conteststationen
+### Recognising contest stations
 
-* Oft erkennt man Conteststationen daran, dass der Namen des Wettbewerbes oder einfach nur "CONTEST" in den CQ-Ruf integriert wird.
-* Zum Beispiel: "CQ FD" oder "CQ Ruhrgebietscontest" oder "CQ Contest".
-* In Telegrafie dann CQ TEST.
-* Beispiel: DD4UQ nimmt portabel am Fieldday-Contest in Telegrafie teil $\rightarrow$ "CQ FD DD4UQ/P TEST"
+* Contest stations can often be recognised by the name of the competition, or simply "CONTEST", being included in the CQ call.
+* For example: "CQ FD" or "CQ Ruhrgebietscontest" or "CQ Contest".
+* In telegraphy, accordingly, CQ TEST.
+* Example: DD4UQ is taking part portable in the Field Day contest in telegraphy $\rightarrow$ "CQ FD DD4UQ/P TEST"
 
 <note>
-Bei CQ Test handelt es sich nicht um die Durchführung eines Versuchs, beispielsweise zum testen der Antenne
+CQ Test does not mean that a trial is being carried out, for example to test the antenna
 </note>
 
 ---
 [question:BE116]
 
 ---
-### Ausschreibung
+### Contest rules
 
-* Legt Zeitraum und zu nutzende Frequenzbereiche fest
-* Legt fest, welche Informationen in jeder Verbindung ausgetauscht werden müssen, z.B. Rufzeichen, Rapport und Maidenhead-Locator
-* Legt die Bewertungsregeln fest
-* Werden Regeln nicht eingehalten $\rightarrow$ Verbindung wird nicht gewertet oder es kommt zum Punktabzug
+* Lay down the period and the frequency ranges to be used
+* Lay down which information must be exchanged in every contact, e.g. call sign, signal report and Maidenhead locator
+* Lay down the scoring rules
+* If the rules are not kept $\rightarrow$ the contact is not counted, or points are deducted
 
 ---
 [question:BE303]
 
 ---
-### Contestverbindungen
+### Contest contacts
 
-* Die Verbindungen sind besonders kurz, weil man in der vorgegebenen Zeitdauer möglichst viele Verbindungen herstellen möchte.
+* The contacts are particularly short, because you want to make as many contacts as possible in the given time.
 
 ---
 [question:BE302]
 
 ---
-### Sprint Contest
+### Sprint contest
 
-* Nach jeder Verbindung muss die CQ-rufende Station die Frequenz der Gegenstation überlassen
-* Man sucht sich dann selbst eine neue freie Frequenz, um wieder CQ zu rufen, oder antwortet auf andere Stationen
-* Ein Blick in die Ausschreibung ist angeraten
+* After each contact, the station that called CQ must leave the frequency to the other station
+* You then look for a new free frequency yourself to call CQ again, or answer other stations
+* It is advisable to check the contest rules
 
 ---
 [question:BE304]

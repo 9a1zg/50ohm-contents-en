@@ -1,18 +1,18 @@
 <margin>
-[photo:84:n_sstv:Ein per SSTV übertragenes Bild]
+[photo:84:n_sstv:A picture transmitted by SSTV]
 </margin>
 
-Neben der Übertragung von Sprache, Tönen und Texten erfreut sich im Amateurfunk auch die Übertragung bewegter oder feststehender Bilder großer Beliebtheit. Beim *Slow-Scan-Television* (SSTV) werden stehende Bilder mit geringer Auflösung übertragen. Ein Beispiel ist in Abbildung [ref:n_sstv] zu sehen. Rufzeichen und Rapporte werden bei SSTV einfach als Text in die Bilder reingeschrieben.
+Besides the transmission of speech, tones and text, the transmission of moving or still pictures is also very popular in amateur radio. In *slow-scan television* (SSTV), still pictures are transmitted at low resolution. An example can be seen in Figure [ref:n_sstv]. In SSTV, call signs and reports are simply written into the pictures as text.
 
-SSTV wurde als eigenständige Entwicklung des Amateurfunks erstmals 1958 durch amerikanische Funkamateure praktiziert. Bei den Bildern verwendet man meistens Fotos vom Shack, der Antennenanlage oder der Landschaft aus der eigenen Umgebung.
+SSTV was first practised in 1958 by American radio amateurs, as a development of amateur radio in its own right. The pictures used are mostly photos of the shack, the antenna system or the landscape around you.
 
 <margin>
-Bei Bild- und Videoübertragungen wird das spezielle *Rapportsystem RSV* verwendet. R und S stehen wie bei Telefonie und Telegrafie für Lesbarkeit und Signalstärke. Das V steht für die Video- bzw. Bild-Qualität und wird mit einem Wert von 1 bis 5 angegeben:
-* 1 = Nur Synchronisation zu sehen
-* 2 = Großes Call lesbar
-* 3 = Große Details zu erkennen
-* 4 = Kleine Details zu erkennen
-* 5 = rauschfreies Bild
+For picture and video transmissions, the special *RSV report system* is used. As in telephony and telegraphy, R and S stand for readability and signal strength. The V stands for video or picture quality and is given as a value from 1 to 5:
+* 1 = Only synchronisation visible
+* 2 = Large call sign readable
+* 3 = Large details recognisable
+* 4 = Small details recognisable
+* 5 = Noise-free picture
 </margin>
 
 [question:BE210]

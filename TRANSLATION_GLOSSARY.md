@@ -1860,7 +1860,7 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Blitzschutzkonzept / Blitzschutzfachkraft | lightning protection concept / lightning protection specialist | |
 | Nachbargrundstück | neighbouring property | |
 | Pflicht zur Hilfeleistung | duty to render assistance | |
-| 5 W-Fragen | the five Ws (who, what, where, when, why) | emergency-message checklist |
+| 5 W-Fragen | the 5 Ws | emergency-message checklist; in the course *Wo / Wer / Was / Wie viele / Warten* → *Where / Who / What / How many / Wait* (for questions), not the journalists' who, what, where, when, why; the digit kept as the German writes it (notfunk) |
 | Rapportsystem RSV | RSV report system | |
 | Mobilfuchsjagd | mobile direction finding | |
 | DX Century Club (DXCC) / CQ DX | DXCC / CQ DX | |
@@ -2517,6 +2517,15 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Pufferspeicher (englisch "buffer") / Zwischenspeicherung (Buffer) | buffer / temporary storage (buffering) | the German gloss only gives the English word and is dropped (bracket rule) (latenz) |
 | Laufzeit (Latenz) | propagation time | as AF637 "propagation time or delay"; *Verzögerung* → delay (latenz). Here, where the German derives the *Laufzeit* from the *Verzögerung*, not the bare §14 *Laufzeit* → delay, which would say "the delay results in a delay" |
 | Filmkamera / Bilder pro Sekunde | film camera / pictures per second | the sampling analogy (digitale_signalverarbeitung_einleitung, abtasttheorem) |
+| Aufruf nach Ziffern / Aufruf nach Ländern oder Kontinenten / Kontaktwünsche | calling by digit / calling by country or continent / requests for contacts | pile-up techniques (pileup); "*only number* 5" (nur Ziffer 5) → "(the digit 5 only)", as BE306 "the digit 3" |
+| fortlaufende Nummer / Alter (Contest-Austausch) / Rangliste / Punktabzug | serial number / age / ranking list / points deducted | contest |
+| Fuchsjagdsender / Zielpunkt / Wimpel / Zeitnehmer | foxhunt transmitters / finish / pennant / timing unit | ardf; *Fuchsjagd* named as the German word "(foxhunt)" where the text says what it is called in German-speaking countries |
+| Rapportsystem RSV, V-Werte: Nur Synchronisation zu sehen / Großes Call lesbar / Große (Kleine) Details zu erkennen / Rauschfreies Bild | Only synchronisation visible / Large call sign readable / Large (Small) details recognisable / Noise-free picture | sstv |
+| Leitstation (Notfunk) | net control station | notfunk |
+| Notfunkreferat des DARC | DARC emergency communications department (Notfunkreferat) | as *Auslandsreferat*; *Notfallkommunikation* → emergency communications (notfunk) |
+| Notfunkfrequenzen | emergency communications frequencies | IARU Region 1 band plans; BF109 "centres of activity for emergency communications" (notfunk) |
+| "Notfall" oder "Emergency" (Rufworte im Notfall) | "Notfall" (German for "emergency") or "Emergency" | the German word is what is said on a national contact, kept with a gloss (DECISIONS.md, `<qso>` entry) (notfunk) |
+| Amateurfunkmedien | amateur radio media | notfunk slides |
 
 ## 15. Catalogue structure
 
