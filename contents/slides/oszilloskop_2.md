@@ -1,22 +1,22 @@
 <left>
-[photo:212:a_oszilloskop:Digitales Oszilloskop]
+[photo:212:a_oszilloskop:Digital oscilloscope]
 </left>
 <right>
-* Zeigt den zeitlichen Verlauf von Spannungen dar
-* Misst die Signalform
+* Displays how voltages vary over time
+* Measures the waveform
 </right>
 ---
 [question:AI301]
 ---
 [question:AI304]
 ---
-### Pulsbreite
+### Pulse width
 
 <left>
-[picture:1005:a_impulsbreite:Bestimmung der Impulsbreite eines nicht-idealen Rechtecksignals]
+[picture:1005:a_impulsbreite:Determining the pulse width of a non-ideal square-wave signal]
 </left>
 <right>
-Definition: Die Pulsbreite liegt bei 50% des Spitzenwerts
+Definition: the pulse width is taken at 50% of the peak value
 </right>
 ---
 [question:AI303]
@@ -24,38 +24,38 @@ Definition: Die Pulsbreite liegt bei 50% des Spitzenwerts
 ### Trigger
 
 <left>
-[photo:219:a_oszilloskop_x-ablenkung:Ohne Eingangsspannung wandert auf dem Bildschirm eines analogen Oszillokops nur ein Punkt von links nach rechts, hier mit einer Geschwindigkeit von einem Skalenteil pro Sekunde.]
+[photo:219:a_oszilloskop_x-ablenkung:With no input voltage, only a dot moves from left to right across the screen of an analogue oscilloscope, here at a speed of one division per second.]
 </left>
 <right>
-* Trigger wertet das anliegende Signal aus
-* Z.B. die Spannung 0 von negativ nach positiv durchlaufen
-* Dadurch kann bei einer Welle ein stehendes Bild gezeigt werden
+* The trigger evaluates the applied signal
+* E.g. the voltage passing through 0 from negative to positive
+* This allows a stationary picture of a wave to be shown
 </right>
 ---
 [question:AI302]
 ---
-### Tastköpfe
+### Probes
 
 <left>
-[photo:223:a_oszilloskop_tastkoepfe:Tastköpfe mit verschiedenen Prüfspitzen. Die Krokodilklemmen wurden für diese Aufnahme abgenommen.]
+[photo:223:a_oszilloskop_tastkoepfe:Probes with various probe tips. The crocodile clips were removed for this photograph.]
 </left>
 <right>
-* Zur Messung der Spannung
-* Spitze als Haken oder Nadel gebaut
-* Bezugsmasse meistens über eine separate Krokodilklemme
-* 10:1-Tastköpfe teilen die Spannung auf ein Zehntel
+* For measuring the voltage
+* Tip made as a hook or needle
+* Reference (earth) connection usually via a separate crocodile clip
+* 10:1 probes divide the voltage to one tenth
 </right>
 ---
-### Messung mit einem Oszilloskop
+### Measuring with an oscilloscope
 
-[photo:224:a_oszilloskop_messung:Messung mit einem Tastkopf. Zwischen den Dioden D1 und D2 ist die Prüfspitze zu sehen und weiter links die Krokodilklemme für die Masseverbindung.]
+[photo:224:a_oszilloskop_messung:Measuring with a probe. The probe tip can be seen between diodes D1 and D2, and further to the left the crocodile clip for the earth connection.]
 ---
 [question:AI305]
 ---
-### Lösungsweg
-* gegeben: $R=50\Omega$
-* gegeben: (aus Darstellung) $\hat{U} = 100V$
-* gesucht: $P_{\textrm{PEP}}$
+### Solution
+* given: $R=50\Omega$
+* given: (from the diagram) $\hat{U} = 100V$
+* required: $P_{\textrm{PEP}}$
 
 <fragment>
 $\begin{split} P_{\textrm{PEP}} &= \frac{U_{\textrm{eff}}^2}{R} = \frac{\left(\frac{\qty{100}{\volt}}{\sqrt{2}}\right)^2}{\qty{50}{\ohm}}\\ &=\frac{\frac{(\qty{100}{\volt})^2}{2}}{\qty{50}{\ohm}} = \frac{\qty{5000}{\volt}^2}{\qty{50}{\ohm}} = \qty{100}{\watt} \end{split}$
@@ -63,24 +63,24 @@ $\begin{split} P_{\textrm{PEP}} &= \frac{U_{\textrm{eff}}^2}{R} = \frac{\left(\f
 ---
 [question:AI306]
 ---
-### Lösungsweg
-* gegeben: $R=\qty{50}{\ohm}$
-* gegeben: (aus Darstellung mit 10:1-Tastkopf) $\hat{U} = \qty{6}{\volt}\cdot 10$
-* gesucht: $P_{\textrm{PEP}}$
+### Solution
+* given: $R=\qty{50}{\ohm}$
+* given: (from the diagram, with a 10:1 probe) $\hat{U} = \qty{6}{\volt}\cdot 10$
+* required: $P_{\textrm{PEP}}$
 
 <fragment>
 $\begin{split} P_{\textrm{PEP}} &= \frac{U_{\textrm{eff}}^2}{R} = \frac{\left(\frac{\qty{6}{\volt}\cdot 10}{\sqrt{2}}\right)^2}{\qty{50}{\ohm}}\\ &=\frac{\frac{(\qty{60}{\volt})^2}{2}}{\qty{50}{\ohm}} = \qty{36}{\watt} \end{split}$
 </fragment>
 
 ---
-## Impuls
+## Pulse
 
 <left>
-* Ein Signal springt von einem Wert auf einen höheren und zu einem späteren Zeitpunkt zurück
-* Dauer des Impulses wird von Mitte der ansteigenden Flanke bis zur Mitte der abfallenden Flanke gemessen
+* A signal jumps from one value to a higher one and, at a later time, back again
+* The duration of the pulse is measured from the middle of the rising edge to the middle of the falling edge
 </left>
 <right>
-[picture:57:e_impuls:Impuls in einem Oszilloskop] 
+[picture:57:e_impuls:Pulse on an oscilloscope] 
 </right>
 ---
 [question:EI303]

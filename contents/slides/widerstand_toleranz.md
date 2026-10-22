@@ -1,5 +1,5 @@
-* Einfache Prozentrechnung
-* Korrektur nach unten und oben vom angegebenen Widerstandswert
+* Simple percentage calculation
+* Correction downwards and upwards from the stated resistance value
 
 ---
 [question:EC112]

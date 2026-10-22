@@ -1,49 +1,49 @@
 % TODO: Wenn der Fragenkatalog 4 kommt, dann fallen hier einige Fragen weg! 
 
-Den elektrischen Widerstand haben wir bereits im Zusammenhang mit dem ohmschen Gesetz kennengelernt. Widerstände können aus unterschiedlichen Materialien realisiert werden. Aus diesem Grund unterscheidet man verschiedene Widerstandsmaterialien, z. B.:
+We have already met electrical resistance in connection with Ohm's law. Resistors can be made from different materials. For this reason, different resistor materials are distinguished, e.g.:
 
-- Drahtwiderstände
-- Kohleschichtwiderstände
-- Metallschichtwiderstände
-- Metalloxidschichtwiderstände
+- Wirewound resistors
+- Carbon-film resistors
+- Metal-film resistors
+- Metal-oxide resistors
 - ...
 
 <margin>
-| l: Widerstand | X: Eigenschaft |
-| Drahtwiderstände | Hochlastwiderstände für niedrige Frequenzen |
-| Metallschichtwiderstände | Geringe Fertigungstoleranzen und Temperaturabhängigkeit, Präzisionswiderstände |
-| Metalloxidschichtwiderstände | Für Frequenzen oberhalb von $\qty{30}{\mega\hertz}$ |
-[table:e_eigenschaften_widerstaende:Übersicht der Eigenschaften]
+| l: Resistor | X: Property |
+| Wirewound resistors | High-power resistors for low frequencies |
+| Metal-film resistors | Small manufacturing tolerances and little temperature dependence, precision resistors |
+| Metal-oxide resistors | For frequencies above $\qty{30}{\mega\hertz}$ |
+[table:e_eigenschaften_widerstaende:Overview of the properties]
 </margin>
 
-Im Folgenden gehen wir auf diese Materialien genauer ein - eine Zusammenfassung ist in Tabelle [ref:e_eigenschaften_widerstaende].
+Below we look at these materials in more detail – a summary is given in Table [ref:e_eigenschaften_widerstaende].
 
-*Drahtwiderstände* zählen zu den ältesten Formen elektrischer Widerstände. Aufgrund ihrer günstigen Eigenschaften – wie hoher Überlastbarkeit und geringem Temperaturkoeffizienten – werden sie auch heute noch eingesetzt. Häufig werden sie auch als Wickelwiderstände bezeichnet, da lackisolierter Widerstandsdraht, beispielsweise aus Manganin oder Konstantan, auf einen Wickelkörper aus Keramik aufgewickelt wird. Ein einfach gewickelter Drahtwiderstand wirkt jedoch stets auch als Spule und besitzt daher eine vergleichsweise hohe Induktivität. Auf Spulen gehen wir in einem späteren Kapitel noch genauer ein; vorweg sei jedoch erwähnt, dass dadurch die Impedanz des Widerstands frequenzabhängig wird. In der Funktechnik ist dieses Verhalten in der Regel unerwünscht. Deshalb eignen sich Drahtwiderstände vor allem als Hochlastwiderstände für Gleichstrom oder für Anwendungen mit niedrigen Frequenzen.
+*Wirewound resistors* are among the oldest forms of electrical resistor. Because of their favourable properties – such as a high overload capacity and a low temperature coefficient – they are still used today. They are also often called wound resistors, since enamel-insulated resistance wire, made for example of manganin or constantan, is wound onto a ceramic former. A simple wound wirewound resistor, however, always acts as a coil as well, and therefore has a comparatively high inductance. We will look at inductors in more detail in a later chapter; it should be mentioned here, though, that this makes the impedance of the resistor frequency-dependent. In radio engineering this behaviour is usually undesirable. Wirewound resistors are therefore suited above all as high-power resistors for DC or for low-frequency applications.
 
 %EC101 Hochlast niedrige Frequenz -> Drahtwiderstand
 [question:EC101]
 
-Bei Kohleschichtwiderständen wird als Widerstandswerkstoff eine dünne Kohleschicht auf einen Träger aufgedampft. Kohleschichtwiderstände sind kostengünstig, weisen jedoch eine vergleichsweise große Fertigungstoleranz auf. Sie sind vergleichsweise induktionsarm und daher für HF-Anwendungen eingeschränkt geeignet.
+In carbon-film resistors, a thin film of carbon is vapour-deposited onto a substrate as the resistive material. Carbon-film resistors are inexpensive, but have a comparatively large manufacturing tolerance. They have comparatively low inductance and are therefore suitable for RF applications to a limited extent.
 
-Bei *Metalloxidschichtwiderständen* wird das Widerstandsmaterial in Form einer dünnen Schicht auf ein Trägermaterial aufgebracht. Diese Widerstandsart ist weitgehend induktionsarm und weist eine gute Temperaturstabilität auf, sodass sie sich besonders für den Einsatz bei höheren Frequenzen oberhalb von $\qty{30}{\mega\hertz}$ eignet.
+In *metal-oxide resistors*, the resistive material is applied as a thin film to a substrate. This type of resistor has, for the most part, low inductance and good temperature stability, so it is particularly suitable for use at higher frequencies, above $\qty{30}{\mega\hertz}$.
 
 %EC103 induktionsarm 30Mhz - >Metalloxid
 [question:EC103]
 
-*Metallschicht*widerstände können mit hoher Genauigkeit das heißt mit geringer Fertigungstoleranz gefertigt werden. Sie eignen sich als Präzisionswiderstände. Sie sind temperaturunabhängig, allerdings weniger induktionsarm.
+*Metal-film* resistors can be manufactured with high accuracy, that is, with a small manufacturing tolerance. They are suitable as precision resistors. They are independent of temperature, but their inductance is not as low.
 
 %EC102 Präzisionswiderstand >Metallschichtwiderstand
 [question:EC102]
 
 
-Künstliche Antennen, also Dummyloads, haben wir bereits in der Klasse N kennengelernt. Für hohe Frequenzen (z. B. VHF) empfiehlt es sich, eine Dummyload vorzugsweise aus ungewendelten Metalloxidschichtwiderständen aufzubauen. Für niedrigere Frequenzen (z. B. $\qty{50}{\mega\hertz}$ oder $\qty{28}{\mega\hertz}$) können jedoch auch Kohleschichtwiderstände verwendet werden. Entscheidend ist vor allem, dass der Widerstand keine Windungen, also keine Eigeninduktivität besitzt und daher nicht als parasitäre Spule wirkt, denn eine solche Induktivität würde den Widerstandswert frequenzabhängig machen – genau das ist bei einer Dummyload unerwünscht. Der Widerstand soll unabhängig von der Frequenz stets etwa $\qty{50}{\ohm}$ betragen. Deshalb sollten _keine_ Drahtwiderstände verwendet werden. Auch die Eigenkapazität sollte aus diesem Grund möglichst gering sein. Zudem müssen die eingesetzten Widerstände ausreichend temperaturbeständig sein, da sie die aufgenommene Leistung in Wärme umsetzen.
+We already met dummy loads in Class N. For high frequencies (e.g. VHF) it is advisable to build a dummy load preferably from metal-oxide resistors without a spiral cut. For lower frequencies (e.g. $\qty{50}{\mega\hertz}$ or $\qty{28}{\mega\hertz}$), however, carbon-film resistors can also be used. What matters above all is that the resistor has no turns, i.e. no self-inductance, and so does not act as a parasitic inductor, because such an inductance would make the resistance value frequency-dependent – exactly what is undesirable in a dummy load. The resistance should always be about $\qty{50}{\ohm}$, independent of frequency. That is why wirewound resistors should _not_ be used. For the same reason, the self-capacitance should also be as low as possible. In addition, the resistors used must be sufficiently heat-resistant, since they convert the power they absorb into heat.
 
 %EC107 DL
 [question:EC107]
 %EC104 DL
 [question:EC104]
 
-Für die Lösung der folgenden Fragen muss man wissen, dass zehn parallel geschaltete Widerstände mit jeweils $\qty{500}{\ohm}$ zusammen einen Gesamtwiderstand von $\qty{50}{\ohm}$ ergeben. Auf diesen Zusammenhang gehen wir in einem späteren Kapitel noch genauer ein, wenn wir über Reihen- und Parallelschaltungen von Widerständen sprechen.
+To answer the following questions, you need to know that ten resistors of $\qty{500}{\ohm}$ each connected in parallel give a total resistance of $\qty{50}{\ohm}$. We will look at this relationship in more detail in a later chapter, when we talk about series and parallel connections of resistors.
 
 %EC106
 [question:EC106]

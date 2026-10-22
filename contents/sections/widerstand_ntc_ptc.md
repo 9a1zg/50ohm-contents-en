@@ -1,18 +1,18 @@
-Es gibt auch temperaturabhängige Widerstände, sogenannte *Kaltleiter* und *Heißleiter*.
+There are also temperature-dependent resistors: *PTC thermistors* and *NTC thermistors*.
 
-- *Kaltleiter* besitzen bei niedrigen Temperaturen einen geringen Widerstand und leiten den Strom daher gut. Mit steigender Temperatur steigt ihr Widerstand und ihre Leitfähigkeit nimmt ab.
-- *Heißleiter* verhalten sich genau umgekehrt: Sie leiten den Strom bei hohen Temperaturen besser, während ihr Widerstand bei niedrigen Temperaturen groß ist. Das heißt mit steigender Temperatur nimmt ihr Widerstand ab und ihre Leitfähigkeit nimmt zu.
+- *PTC thermistors* have a low resistance at low temperatures and therefore conduct current well. As the temperature rises, their resistance rises and their conductivity decreases.
+- *NTC thermistors* behave in exactly the opposite way: they conduct current better at high temperatures, while their resistance is high at low temperatures. That is, as the temperature rises, their resistance falls and their conductivity increases.
 
-Heißleiter werden auch *NTC* (englisch Negative Temperature Coefficient) und Kaltleiter *PTC* (englisch Positive Temperature Coefficient) genannt. Temperaturabhängige Widerstände werden zum Beispiel zur Temperaturmessung oder zur Einschaltstrombegrenzung verwendet.
+*NTC* stands for negative temperature coefficient and *PTC* for positive temperature coefficient. Temperature-dependent resistors are used, for example, for measuring temperature or for limiting inrush current.
 
-Diese Widerstandsarten werden durch spezielle Schaltzeichen gekennzeichnet, wie in Abbildung [ref:e_schaltbildNtcPtc] dargestellt. Wichtig ist dabei der kleine griechische Buchstabe $\vartheta$ (ausgesprochen „Theta“), der für die Temperatur steht. Zusätzlich sind zwei Pfeile eingezeichnet, die die Temperaturabhängigkeit des Widerstands beschreiben.
+These types of resistor are identified by special circuit symbols, as shown in Figure [ref:e_schaltbildNtcPtc]. The important thing is the small Greek letter $\vartheta$ (pronounced "theta"), which stands for temperature. In addition, two arrows are drawn that describe how the resistance depends on temperature.
 
-Der erste Pfeil kennzeichnet eine steigende Temperatur $\uparrow$. Der zweite Pfeil gibt an, wie sich der Widerstand bei steigender Temperatur verhält: Er kann entweder steigen $\uparrow$ oder fallen $\downarrow$.
+The first arrow indicates a rising temperature $\uparrow$. The second arrow indicates how the resistance behaves as the temperature rises: it can either rise $\uparrow$ or fall $\downarrow$.
 
-Das Symbol $\vartheta\uparrow\uparrow$ ist daher so zu lesen: Bei steigender Temperatur steigt auch der Widerstand. Damit wird ein PTC (Kaltleiter) gekennzeichnet. Entsprechend bedeutet $\vartheta\uparrow\downarrow$: Bei steigender Temperatur sinkt der Widerstand. Dieses Symbol steht für einen NTC (Heißleiter).
+The symbol $\vartheta\uparrow\uparrow$ is therefore read as follows: as the temperature rises, the resistance rises too. This identifies a PTC thermistor. Correspondingly, $\vartheta\uparrow\downarrow$ means: as the temperature rises, the resistance falls. This symbol stands for an NTC thermistor.
 
 <margin>
-[picture:1012:e_schaltbildNtcPtc:Schaltbilder von PTC und NTC]
+[picture:1012:e_schaltbildNtcPtc:Circuit symbols of the PTC and NTC thermistor]
 </margin>
 
 %EC108 DIE KAM VON WO ANDERS

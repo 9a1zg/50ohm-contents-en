@@ -1,8 +1,8 @@
 <left>
-[picture:834:a_wechselstrom_leistung:Effektivwerte für die Leistungsberechnung]
+[picture:834:a_wechselstrom_leistung:RMS values for calculating power]
 </left>
 <right>
-Berechnung mit Effektivwerten
+Calculation with RMS values
 <fragment>
 $U_{\mathrm{eff}} = \frac{\hat{U}}{\sqrt{2}} = \frac{U_\mathrm{SS}}{2\sqrt{2}}$
 </fragment>
@@ -19,22 +19,22 @@ $P = U_{\mathrm{eff}} \cdot I_{\mathrm{eff}}$
 ---
 [question:AB301]
 ---
-### Lösungsweg
-* gegeben: $I_{\mathrm{max}} = \hat{I} = \qty{0,5}{\ampere}$
-* gegeben: $R = \qty{20}{\ohm}$
-* gesucht: $P$
+### Solution
+* given: $I_{\mathrm{max}} = \hat{I} = \qty{0.5}{\ampere}$
+* given: $R = \qty{20}{\ohm}$
+* required: $P$
 
 <fragment>
-$\begin{split} P &=  I^2 \cdot R = \left(\frac{I_{\mathrm{max}}}{\sqrt{2}}\right)^2 \cdot R\\ &= \frac{(\qty{0,5}{\ampere})^2}{2} \cdot \qty{20}{\ohm} \\ &= \frac{1}{8}\unit{\ampere\squared} \cdot \qty{20}{\ohm} = \qty{2,5}{\watt} \end{split}$
+$\begin{split} P &=  I^2 \cdot R = \left(\frac{I_{\mathrm{max}}}{\sqrt{2}}\right)^2 \cdot R\\ &= \frac{(\qty{0.5}{\ampere})^2}{2} \cdot \qty{20}{\ohm} \\ &= \frac{1}{8}\unit{\ampere\squared} \cdot \qty{20}{\ohm} = \qty{2.5}{\watt} \end{split}$
 </fragment>
 
 ---
-## Thermoumformer
+## Thermocouple converter
 
-* Messgerät, bei dem die abgestrahlte Wärme an einem Widerstand gemessen wird
-* Aus der abgestrahlten Wärme wird mit einem Thermoelement eine Gleichspannung erzeugt, die gemessen werden kann
-* Wird dann eingesetzt, wenn eine elektrische Messung nicht möglich ist, z.B. bei nicht-periodischen Signalen
-* Es wird der *Effektivwert* der Stromstärke gemessen
+* Measuring instrument in which the heat radiated at a resistor is measured
+* A thermocouple produces a DC voltage from the radiated heat, and this can be measured
+* Used where an electrical measurement is not possible, e.g. with non-periodic signals
+* The *RMS value* of the current is measured
 
 ---
 [question:AI105]

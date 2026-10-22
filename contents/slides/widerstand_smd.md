@@ -1,10 +1,10 @@
 <left>
-* SMD: Surface Mounted Device
-* Widerstand in sehr kleiner Bauform
-* Letzte Stelle des aufgedruckten Widerstandswerts gibt die Zehnerpotenz an
+* SMD: surface-mounted device
+* Resistor in a very small package
+* The last digit of the printed resistance value gives the power of ten
 </left>
 <right>
-[picture:529:e_smd_widerstand:SMD-Widerstand]
+[picture:529:e_smd_widerstand:SMD resistor]
 </right>
 
 ---

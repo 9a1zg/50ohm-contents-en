@@ -1,27 +1,27 @@
-In der Klasse E haben wir gelernt, dass ein Oszilloskop den zeitlichen Verlauf von Spannungen darstellt. Wir können also mit einem Oszilloskop Signalverläufe prüfen. 
+In Class E we learnt that an oscilloscope displays how voltages vary over time. So we can use an oscilloscope to examine waveforms. 
 
 [question:AI301]
 
 <margin>
-[picture:1005:a_impulsbreite:Bestimmung der Impulsbreite eines nicht-idealen Rechtecksignals]
+[picture:1005:a_impulsbreite:Determining the pulse width of a non-ideal square-wave signal]
 </margin>
 
 ---
 
-Neben den sinusförmigen Wechselspannungen kommen durch die Digitaltechnik auch rechteckförmige Spannungen vor. Einen exakt rechteckigen Spannungsverlauf kann es aber nicht geben. Die Kanten sind immer ein bisschen schräg oder verformt. Die Zeit zwischen dem Ansteigen und dem Abfallen eines Rechtecks, die man Pulsbreite oder Impulsdauer nennt, wird deshalb immer bei halber Höhe, also bei 50% der Spannung, gemessen. So  ist sichergestellt, dass beim gleichen Signal alle zum gleichen Messergebnis kommen.
+Besides sinusoidal AC voltages, digital technology also brings square-wave voltages. A perfectly rectangular voltage waveform, however, cannot exist. The edges are always somewhat sloping or distorted. The time between the rise and the fall of a rectangular pulse, which is called the pulse width or pulse duration, is therefore always measured at half height, i.e. at 50% of the voltage. This ensures that everyone gets the same measurement result for the same signal.
 
 <indepth>
-Grund für diese Verformungen sind die unvermeidlichen Kapazitäten und Induktivitäten in Leitungen und Bauteilen, die wie Filter wirken und die hohen Frequenzanteile eines Rechtecksignals dämpfen.
+These distortions are caused by the unavoidable capacitances and inductances in cables and components, which act like filters and attenuate the high-frequency components of a square-wave signal.
 </indepth>
 
 [question:AI303]
 [question:EI303]
 
 
-Oszilloskope können Signale mit unterschiedlichsten Frequenzen und Verläufen darstellen. Damit diese Signale auf dem Bildschirm stabil erscheinen, besitzen Oszilloskope eine sogenannte Triggereinrichtung (engl. trigger = „auslösen“). Dabei überwacht das Gerät das Eingangssignal kontinuierlich und startet die Aufnahme genau dann, wenn eine zuvor festgelegte Bedingung erfüllt ist – zum Beispiel, wenn das Signal eine bestimmte Spannung, die sogenannte Triggerspannung, überschreitet. Ab diesem Moment beginnt die Abtastung und Speicherung der Messwerte, die anschließend als Kurve auf dem Bildschirm dargestellt werden.
+Oscilloscopes can display signals of the most varied frequencies and waveforms. So that these signals appear stable on the screen, oscilloscopes have a trigger circuit. The instrument continuously monitors the input signal and starts the recording exactly when a previously defined condition is met – for example when the signal exceeds a certain voltage, known as the trigger voltage. From that moment, the measured values are sampled and stored, and then displayed as a trace on the screen.
 
 
-Durch dieses Verfahren startet jede Darstellung stets am gleichen Signalzustand, sodass periodische Signale wie Sinusschwingungen oder Rechteckimpulse scheinbar eingefroren und klar erkennbar sind. Digitale Oszilloskope können darüber hinaus auch Einzelbilder anzeigen, den Bildschirm also „einfrieren“. Das erleichtert die Analyse nichtperiodischer Signale. Die dafür vorgesehene Taste ist meist mit SINGLE beschriftet. Außerdem lassen sich mehrere Messungen überlagern, um beispielsweise zeitliche Schwankungen eines Signals (engl. jitter) sichtbar zu machen.
+As a result, every display always starts at the same state of the signal, so that periodic signals such as sine waves or square pulses appear frozen and are clearly recognisable. Digital oscilloscopes can also show single frames, that is, "freeze" the screen. This makes it easier to analyse non-periodic signals. The button for this is usually labelled SINGLE. Several measurements can also be superimposed, for example to make fluctuations of a signal over time (jitter) visible.
 
 [question:AI302]
 
@@ -30,20 +30,20 @@ Durch dieses Verfahren startet jede Darstellung stets am gleichen Signalzustand,
 %[photo:222:a_oszilloskop_einzelbild:Einzelbild aus einer Musikaufnahme]
 %</indepth>
 
-Nicht jede Leitung eignet sich für Hochfrequenzsignale – das gilt auch für die Verbindung zwischen Messobjekt und Oszilloskop. Dafür verwendet man in der Regel sogenannte Tastköpfe. Sie stellen die Verbindung her und sorgen dafür, dass das Signal möglichst unverfälscht übertragen wird, ohne die Schaltung stark zu belasten. Dazu reduzieren sie die Signalspannung (z. B. im Verhältnis 10:1), passen Widerstand und Kapazität an und enthalten oft eine Kompensation für hohe Frequenzen.
+Not every cable is suitable for RF signals – and that includes the connection between the device under test and the oscilloscope. For this, probes are normally used. They make the connection and ensure that the signal is passed on with as little distortion as possible, without loading the circuit heavily. To do this, they reduce the signal voltage (e.g. in the ratio 10:1), match resistance and capacitance, and often contain compensation for high frequencies.
 
-Ein Tastkopf besteht aus einem griffähnlichen Gehäuse, vergleichbar mit einem Kugelschreiber. An seiner Spitze können verschiedene Haken oder Nadeln angebracht werden, um die Messstelle zu kontaktieren. Die Masseverbindung erfolgt über eine Krokodilklemme (siehe Abbildung [ref:a_oszilloskop_messung]). Abbildung [ref:a_oszilloskop_tastkoepfe] zeigt drei Beispiele solcher Tastköpfe. Hochwertige Modelle sind entsprechend teuer, da sie hohe Bandbreiten, minimale Signalverfälschung und eine präzise Mechanik bieten müssen.
+A probe consists of a body shaped like a handle, comparable to a ballpoint pen. Various hooks or needles can be fitted to its tip to make contact with the measuring point. The earth connection is made with a crocodile clip (see Figure [ref:a_oszilloskop_messung]). Figure [ref:a_oszilloskop_tastkoepfe] shows three examples of such probes. High-quality models are correspondingly expensive, since they must offer high bandwidth, minimal signal distortion and precise mechanics.
 
 <margin>
-[photo:224:a_oszilloskop_messung:Messung mit einem Tastkopf. Zwischen den Dioden D1 und D2 ist die Prüfspitze zu sehen und weiter links die Krokodilklemme für die Masseverbindung.]
+[photo:224:a_oszilloskop_messung:Measuring with a probe. The probe tip can be seen between diodes D1 and D2, and further to the left the crocodile clip for the earth connection.]
 </margin>
 
 <margin>
-[photo:223:a_oszilloskop_tastkoepfe:Tastköpfe mit verschiedenen Prüfspitzen. Die Krokodilklemmen wurden für diese Aufnahme abgenommen.]
+[photo:223:a_oszilloskop_tastkoepfe:Probes with various probe tips. The crocodile clips were removed for this photograph.]
 </margin>
 
-Die einfachsten Tastköpfe verbinden die Prüfspitze direkt mit dem Messeingang. Man spricht von 1:1-Tastköpfen, weil die an der Spitze anliegende Spannung unverändert zum Oszilloskop gelangt. Tastköpfe für hohe Frequenzen sind aufwändiger gebaut. Sie teilen die Eingangsspannung auf einen kleineren Wert, oft ein Zehntel, herunter. Wenn man mit so einem 10:1-Tastkopf eine Spannung von 10 Volt misst, wird auf dem Bildschirm 1 Volt angezeigt.
+The simplest probes connect the probe tip directly to the measuring input. They are called 1:1 probes, because the voltage at the tip reaches the oscilloscope unchanged. Probes for high frequencies are of more elaborate construction. They divide the input voltage down to a smaller value, often one tenth. If you measure a voltage of 10 V with such a 10:1 probe, 1 V is displayed on the screen.
 
 <indepth>
-Bei manchen Oszilloskopen kann man einstellen, welches Teilverhältnis der Tastkopf hat. Dann wird auf dem Bildschirm die tatsächliche Spannung angezeigt. Passive 10:1-Tastköpfe enthalten unter anderem einen $\qty{9}{\mega\ohm}$-Widerstand, der im Signalweg liegt. Oszilloskope haben in der Regel einen Innenwiderstand von $\qty{1}{\mega\ohm}$. So ergibt sich ein 10:1-Spannungsteiler. Außerdem ist im Tastkopf oder im Stecker ein kleiner Drehkondensator vorhanden. Er dient zur Anpassung der Kapazität von Tastkopf und Kabel an den Messeingang und wird so eingestellt, dass ein Rechtecksignal möglichst unverfälscht auf dem Bildschirm erscheint. Neben den hier beschriebenen, passiven Tastköpfen existieren mehrere andere Varianten. Es gibt zum Beispiel Tastköpfe mit angepasstem $\qty{50}{\ohm}$-Koaxkabel. Sie sind besonders gut für sehr hohe Frequenzen geeignet, haben aber nur einen relativ kleinen Innenwiderstand. Aktive Ausführungen lösen dieses Problem, indem das Signal direkt im Tastkopf verstärkt wird.
+On some oscilloscopes you can set the division ratio of the probe. The actual voltage is then displayed on the screen. Passive 10:1 probes contain, among other things, a $\qty{9}{\mega\ohm}$ resistor in the signal path. Oscilloscopes usually have an internal resistance of $\qty{1}{\mega\ohm}$. This gives a 10:1 potential divider. In addition, there is a small variable capacitor in the probe or in the connector. It is used to match the capacitance of the probe and cable to the measuring input, and is adjusted so that a square-wave signal appears on the screen with as little distortion as possible. Besides the passive probes described here, there are several other types. There are, for example, probes with matched $\qty{50}{\ohm}$ coax cable. They are particularly well suited to very high frequencies, but have only a relatively low internal resistance. Active versions solve this problem by amplifying the signal directly in the probe.
 </indepth>

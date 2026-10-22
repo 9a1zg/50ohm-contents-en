@@ -1,36 +1,36 @@
-Ein Oszilloskop ist ein Spannungsmessgerät, das den zeitlichen Verlauf von Spannungen visualisieren kann. Genau wie andere Spannungsmessgeräte besitzen Oszilloskope einen hohen Innenwiderstand. Meist lassen sich zwei oder mehr Spannungen gleichzeitig messen. Das Gerät in Abbildung [ref:e_oszilloskop_digital] ist beispielsweise so eingestellt, dass sich zwei Signale den Bildschirm teilen.
+An oscilloscope is a voltmeter that can show how voltages vary over time. Just like other voltmeters, oscilloscopes have a high internal resistance. Usually two or more voltages can be measured at the same time. The instrument in Figure [ref:e_oszilloskop_digital], for example, is set so that two signals share the screen.
 
 <margin>
-[photo:212:e_oszilloskop_digital: Oszilloskop mit zahlreichen Zusatzfunktionen]
+[photo:212:e_oszilloskop_digital: Oscilloscope with numerous additional functions]
 </margin>
 
-Betrachten wir die Anzeige des Oszilloskops in Abbildung [ref:e_oszilloskop_bildschirmfoto_sinus] nun etwas genauer. Mit einem Oszilloskop lassen sich beispielsweise die Kenngrößen einer sinusförmigen Wechselspannung ($T$, $\hat{U}$, $U_\text{SS}$ und $U_\text{eff}$) bestimmen. Neben dem Signalverlauf werden eine Zeit- und eine Spannungsangabe eingeblendet – im Beispiel $\qty{50,0}{\nano\second}$ und $\qty{500}{\milli\volt}$. Das bedeutet, dass ein Kästchen in horizontaler Richtung 50 Nanosekunden und in vertikaler Richtung 500 Millivolt entspricht. Diese Kästchen werden oft als Divisionen oder Skalenteile bezeichnet, daher auch die Schreibweise $\qty{500}{\milli\volt\per\oszidiv}$.
+Let us now look more closely at the oscilloscope display in Figure [ref:e_oszilloskop_bildschirmfoto_sinus]. With an oscilloscope you can, for example, determine the parameters of a sinusoidal AC voltage ($T$, $\hat{U}$, $U_\text{SS}$ and $U_\text{eff}$). Besides the waveform, a time value and a voltage value are shown – in the example $\qty{50.0}{\nano\second}$ and $\qty{500}{\milli\volt}$. This means that one square corresponds to 50 ns horizontally and 500 mV vertically. These squares are often called divisions, hence the notation $\qty{500}{\milli\volt\per\oszidiv}$.
 
 <margin>
-[photo:214:e_oszilloskop_bildschirmfoto_sinus:eine sinusförmige Spannung, dargestellt auf einem digitalen Oszilloskop]
+[photo:214:e_oszilloskop_bildschirmfoto_sinus:A sinusoidal voltage displayed on a digital oscilloscope]
 </margin>
 
 ---
 
-Wir können uns das als Koordinatensystem vorstellen und die Periodendauer ($T$) und die Amplitude ($\hat{U}$) ablesen. Im Beispiel ist eine Periode 5 Kästchen oder Skalenteile lang. Multipliziert mit $\qty{50,0}{\nano\second}$ pro Skalenteil ergibt das die Periodendauer $\qty{250,0}{\nano\second}$. Die Amplitude, also die größte Abweichung von der Nulllage, beträgt $\qty{1500}{\milli\volt}$ oder $\qty{1,5}{\volt}$, denn sie ist 3 Skaltenteile hoch und jeder Teil entspricht $\qty{500}{\milli\volt}$. 
+We can think of this as a coordinate system and read off the period ($T$) and the amplitude ($\hat{U}$). In the example, one period is 5 squares, or divisions, long. Multiplied by $\qty{50.0}{\nano\second}$ per division, this gives a period of $\qty{250.0}{\nano\second}$. The amplitude, i.e. the largest deviation from the zero position, is $\qty{1500}{\milli\volt}$ or $\qty{1.5}{\volt}$, because it is 3 divisions high and each division corresponds to $\qty{500}{\milli\volt}$. 
 
 [question:EI301]
 
 <tip>
-Für einfache Messungen haben viele digitale Oszilloskope eine AUTO-Taste. Wenn man sie drückt, werden einige Einstellungen automatisch vorgenommen und meistens erscheint ein stehendes Bild der angelegten Signale. Die Anzeige lässt ich in der Waagerechten verschieben. Ein Drehknopf mit dieser Funktion ist oft mit X-Position beschriftet. Zum Ablesen der Periodendauer schiebt man einen markanten Punkt wie einen Nulldurchgang auf eine senkrechte Linie des Gitters und zählt, wie viele Skalenteile einer Periode entsprechen.
+For simple measurements, many digital oscilloscopes have an AUTO button. When you press it, some settings are made automatically and usually a stationary picture of the applied signals appears. The display can be shifted horizontally. A knob with this function is often labelled X position. To read off the period, you move a distinctive point such as a zero crossing onto a vertical line of the grid and count how many divisions correspond to one period.
 </tip>
  
 ---
 
-Sobald die Periodendauer einer Schwingung bekannt ist, lässt sich daraus auch die Frequenz bestimmen. In der Klasse N haben wir bereits den qualitativen Zusammenhang kennengelernt: Die Frequenz gibt die Zahl der Schwingungen pro Sekunde an. Beträgt die Periodendauer eine Sekunde, so ergibt sich eine Frequenz von $\qty{1}{\hertz}$. Halbieren wir die Periodendauer auf eine halbe Sekunde, passen zwei Schwingungen in eine Sekunde – die Frequenz liegt dann bei $\qty{2}{\hertz}$.
+Once the period of an oscillation is known, the frequency can also be determined from it. In Class N we already met the relationship in qualitative terms: the frequency gives the number of oscillations per second. If the period is one second, the frequency is $\qty{1}{\hertz}$. If we halve the period to half a second, two oscillations fit into one second – the frequency is then $\qty{2}{\hertz}$.
 
-In der Klasse E betrachten wir diesen Zusammenhang nun als Formel:
+In Class E we now look at this relationship as a formula:
   
-$f=\dfrac{1}{T}$ oder $T=\dfrac{1}{f}$
+$f=\dfrac{1}{T}$ or $T=\dfrac{1}{f}$
 
-Die Frequenz in Hertz ist der Kehrwert der Periodendauer in Sekunden.
+The frequency in hertz is the reciprocal of the period in seconds.
 
-Das Signal in Abbildung [ref:e_oszilloskop_bildschirmfoto_sinus] hat also die Frequenz
+The signal in Figure [ref:e_oszilloskop_bildschirmfoto_sinus] therefore has the frequency
 
 $f = \dfrac{1}{\qty{250}{\nano\second}} = \qty{4}{\mega\hertz}$.
  
@@ -42,14 +42,14 @@ $f = \dfrac{1}{\qty{250}{\nano\second}} = \qty{4}{\mega\hertz}$.
 
 ---
 
-Manchmal werden Signale ungewollt verformt. Das geschieht zum Beispiel, wenn in einen Verstärker eine zu hohe Eingangsspannung eingespeist wird. Man sagt dann, der Verstärker ist übersteuert und sein Ausgangssignal verzerrt. Starke Verzerrungen wie in Abbildung [ref:e_oszilloskop_verzerrt] kann man mit einem Oszilloskop erkennen. Für die Beurteilung von Audio-Signalen im Amateurfunk reicht das meistens aus.
+Sometimes signals are distorted unintentionally. This happens, for example, when too high an input voltage is fed into an amplifier. The amplifier is then said to be overdriven, and its output signal distorted. Severe distortion like that in Figure [ref:e_oszilloskop_verzerrt] can be seen on an oscilloscope. For assessing audio signals in amateur radio, this is usually sufficient.
 
 <margin>
-[photo:215:e_oszilloskop_verzerrt:sinusförmiges Eingangssignal (oben) und verzerrtes Ausgangsignal eines übersteuerten Verstärkers]
+[photo:215:e_oszilloskop_verzerrt:Sinusoidal input signal (top) and distorted output signal of an overdriven amplifier]
 </margin>
 
 <indepth>
-Ob ein Hochfrequenzsignal frei von Verzerrungen ist, die andere Frequenzbereiche beeinträchtigen, kann man mit einem Oszilloskop nicht gut genug einschätzen. Dafür ist ein Spektrum-Analysator das richtige Messgerät.
+Whether an RF signal is free of distortion that affects other frequency ranges cannot be judged well enough with an oscilloscope. The right instrument for that is a spectrum analyser.
 </indepth>
 
 % EI304 NF-Verzerrungen 

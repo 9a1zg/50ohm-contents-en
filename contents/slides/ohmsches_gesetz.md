@@ -1,7 +1,7 @@
-Kurze Wiederholung:
-* Elektrische Ladungen werden in Spannungesquellen getrennt, wodurch elektrische Spannung entsteht. Buchstabe $U$, Einheit Volt ($\unit{\volt}$).
-* Elektrische Spannung sorgt für elektrischen Stromfluss in geschlossenem Stromkreis. Buchstabe $I$, Einheit Ampere ($\unit{\ampere}$).
-* Verbraucher üben in einem Stromkreis einen Widerstand aus und bremsen den Stromfluß. Buchstabe $R$, Einheit Ohm ($\unit{\ohm}$).
+Quick recap:
+* Electric charges are separated in voltage sources, which produces an electric voltage. Letter $U$, unit volt ($\unit{\volt}$).
+* Electric voltage causes an electric current to flow in a closed circuit. Letter $I$, unit ampere ($\unit{\ampere}$).
+* Loads in a circuit present a resistance and slow down the flow of current. Letter $R$, unit ohm ($\unit{\ohm}$).
 
 ---
 
@@ -9,49 +9,49 @@ Kurze Wiederholung:
 
 ---
 
-## Zusammenhang
+## Relationship
 
 <left>
-[picture:664:n_ohmsches_gesetz_stromkreis_mit_batterie:Stromkreis mit Batterie]
+[picture:664:n_ohmsches_gesetz_stromkreis_mit_batterie:Circuit with a battery]
 </left>
 <right>
-* Spannung $\qty{10}{\volt}$
-* Strom $\qty{1}{\milli\ampere}$
+* Voltage $\qty{10}{\volt}$
+* Current $\qty{1}{\milli\ampere}$
 </right>
 
 ---
 
-* Bei $\qty{20}{\volt}$ erhöht sich der Strom auf $\qty{2}{\milli\ampere}$
-* Bei $\qty{5}{\volt}$ verringert sich der Strom auf $\qty{0,5}{\milli\ampere}$
+* At $\qty{20}{\volt}$ the current increases to $\qty{2}{\milli\ampere}$
+* At $\qty{5}{\volt}$ the current decreases to $\qty{0.5}{\milli\ampere}$
 
 <fragment>
-$\dfrac{U}{I} = \dfrac{\qty{10}{\volt}}{\qty{0,001}{\ampere}} = \dfrac{\qty{20}{\volt}}{\qty{0,002}{\ampere}} = \dfrac{\qty{5}{\volt}}{\qty{0,0005}{\ampere}} = \qty{10000}{\volt\per\ampere}$
+$\dfrac{U}{I} = \dfrac{\qty{10}{\volt}}{\qty{0.001}{\ampere}} = \dfrac{\qty{20}{\volt}}{\qty{0.002}{\ampere}} = \dfrac{\qty{5}{\volt}}{\qty{0.0005}{\ampere}} = \qty{10000}{\volt\per\ampere}$
 </fragment>
 <fragment>
-Proportionalität: $I$ ist proportional zu $U$ mit *Proportionalitätsfaktor* $\num{10000}$
+Proportionality: $I$ is proportional to $U$, with the *constant of proportionality* $\num{10000}$
 </fragment>
 <note>
-Der *Proportionalitätsfaktor* ist das zahlenmäßige Verhältnis zweier Größen, die proportional zueinander sind.
+The *constant of proportionality* is the numerical ratio of two quantities that are proportional to each other.
 </note>
 
 ---
 
-## Widerstand
+## Resistance
 
-* Der Proportionalitätsfaktor von $\num{10000}$ aus dem Beispiel ist der Widerstand $R$
-* Einheit: $\qty{1}{\ohm} = \qty{1}{\volt\per\ampere}$
-* Der Widerstand aus dem Beispiel beträgt $\qty{10000}{\ohm}$ oder $\qty{10}{\kilo\ohm}$
+* The constant of proportionality of $\num{10000}$ in the example is the resistance $R$
+* Unit: $\qty{1}{\ohm} = \qty{1}{\volt\per\ampere}$
+* The resistance in the example is $\qty{10000}{\ohm}$ or $\qty{10}{\kilo\ohm}$
 
 ---
 
-## Ohmsches Gesetz
+## Ohm's law
 
-Der Widerstand ist das *Verhältnis von Spannung und Strom*
+The resistance is the *ratio of voltage to current*
 
 $ R = \dfrac{U}{I} $
 
 <note>
-Der deutsche Physiker *Georg Simon Ohm* hat im Jahre 1826 den Zusammenhang zwischen der elektrischer Spannung, dem elektrischem Strom und dem Widerstand entdeckt. Ihm zu Ehren wird die Formel $ R = \frac{U}{I} $ als Ohmsches Gesetz bezeichnet.
+The German physicist *Georg Simon Ohm* discovered the relationship between electric voltage, electric current and resistance in 1826. In his honour, the formula $ R = \frac{U}{I} $ is called Ohm's law.
 </note>
 
 ---
@@ -60,22 +60,22 @@ Der deutsche Physiker *Georg Simon Ohm* hat im Jahre 1826 den Zusammenhang zwisc
 
 ---
 
-## Formelumstellung
+## Rearranging the formula
 
 <left>
-* Spannung und Widerstand bekannt
-* Strom unbekannt
+* Voltage and resistance known
+* Current unknown
 
 $ I = \dfrac{U}{R} $
 </left>
 <right>
-* Strom und Widerstand bekannt
-* Spannung unbekannt
+* Current and resistance known
+* Voltage unknown
 
 $ U = R\cdot I $
 </right>
 <note>
-* Formeln stehen in Formelsammlung
+* The formulas are on the formula sheet
 </note>
 
 ---

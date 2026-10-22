@@ -1,71 +1,71 @@
-## Widerstand von Drähten
+## Resistance of wires
 
 <left>
-* Leitfähiges Material besteht aus Atomen in einer (Gitter-)Struktur
-* Elektronen werden geteilt und sind dadurch frei beweglich
-* Je nach Material gibt es mehr oder weniger freie Elektronen, die auf Atome stoßen
+* Conductive material consists of atoms in a (lattice) structure
+* Electrons are shared and are therefore free to move
+* Depending on the material, there are more or fewer free electrons, which collide with atoms
 </left>
 <right>
-[picture:713:a_leitermodell:Atome (+) und bewegliche Elektronen (-) in einem metallischen Leiter]
+[picture:713:a_leitermodell:Atoms (+) and mobile electrons (-) in a metallic conductor]
 </right>
 
 ---
-### Spezifischer Widerstand $\rho$
+### Resistivity $\rho$
 <left>
 $R = \frac{\rho\cdot l}{A_{\textrm{Dr}}}$
 
-* $l$: Drahtlänge
-* $A_{\textrm{Dr}}$: Drahtquerschnitt
-* $\rho$: Spezifischer Widerstand in $\unit{\ohm\cdot\milli\meter\squared\per\meter}$
+* $l$: wire length
+* $A_{\textrm{Dr}}$: wire cross-section
+* $\rho$: resistivity in $\unit{\ohm\cdot\milli\meter\squared\per\meter}$
 </left>
 <right>
 <fragment>
-* Kupfer: 0,018
-* Aluminium: 0,028
-* Gold: 0,022
-* Silber: 0,016
-* Zink: 0,11
-* Eisen: 0,1
-* Messing: 0,07
+* Copper: 0.018
+* Aluminium: 0.028
+* Gold: 0.022
+* Silver: 0.016
+* Zinc: 0.11
+* Iron: 0.1
+* Brass: 0.07
 </fragment>
 </right>
 <note>
-Damit lässt sich der ohmsche Widerstand eines Drahtes bei bekanntem Material, Länge und dem Querschnitt ausrechnen
+This allows the ohmic resistance of a wire to be calculated when the material, the length and the cross-section are known
 </note>
 
 ---
 [question:AB101]
 --- style="font-size: smaller;"
-### Lösungsweg
-* gegeben: $l = \qty{1,8}{\meter}$
-* gegeben: $d = \qty{0,2}{\milli\meter}$
-* gegeben: $\rho = \qty{0,018}{\ohm\cdot\milli\meter\squared\per\meter}$
-* gesucht: $R$
+### Solution
+* given: $l = \qty{1.8}{\meter}$
+* given: $d = \qty{0.2}{\milli\meter}$
+* given: $\rho = \qty{0.018}{\ohm\cdot\milli\meter\squared\per\meter}$
+* required: $R$
 
 <fragment>
-$$A_{\textrm{Dr}} = \frac{d^2\cdot \pi}{4} = \frac{(\qty{0,2}{\milli\meter})^2 \cdot \pi}{4} = \frac{\pi}{100}\unit{\milli\meter\squared} = \qty{0,0314}{\milli\meter\squared}$$
+$$A_{\textrm{Dr}} = \frac{d^2\cdot \pi}{4} = \frac{(\qty{0.2}{\milli\meter})^2 \cdot \pi}{4} = \frac{\pi}{100}\unit{\milli\meter\squared} = \qty{0.0314}{\milli\meter\squared}$$
 </fragment>
 <fragment>
-$$R = \frac{\rho\cdot l}{A_{\textrm{Dr}}} = \frac{\qty{0,018}{\ohm\cdot\milli\meter\squared\per\meter} \cdot \qty{1,8}{\meter}}{\qty{0,0314}{\milli\meter\squared}} \approx \qty{1,02}{\ohm}$$
+$$R = \frac{\rho\cdot l}{A_{\textrm{Dr}}} = \frac{\qty{0.018}{\ohm\cdot\milli\meter\squared\per\meter} \cdot \qty{1.8}{\meter}}{\qty{0.0314}{\milli\meter\squared}} \approx \qty{1.02}{\ohm}$$
 </fragment>
 ---
 [question:AB102]
 ---
-### Lösungsweg
-* gegeben: $A_{\textrm{Dr}} = \qty{0,5}{\milli\meter\squared}$
-* gegeben: $R = \qty{1,5}{\ohm}$
-* gegeben: $\rho = \qty{0,018}{\ohm\cdot\milli\meter\squared\per\meter}$
-* gesucht: $l$
+### Solution
+* given: $A_{\textrm{Dr}} = \qty{0.5}{\milli\meter\squared}$
+* given: $R = \qty{1.5}{\ohm}$
+* given: $\rho = \qty{0.018}{\ohm\cdot\milli\meter\squared\per\meter}$
+* required: $l$
 
 <fragment>
-$\begin{split} R &= \frac{\rho\cdot l}{A_{\textrm{Dr}}}\\ \Rightarrow l &= \frac{R\cdot A_{\textrm{Dr}}}{\rho} = \frac{\qty{1,5}{\ohm} \cdot \qty{0,5}{\milli\meter\squared}}{\qty{0,018}{\ohm\cdot\milli\meter\squared\per\meter}} \approx \qty{41,7}{\meter} \end{split}$
+$\begin{split} R &= \frac{\rho\cdot l}{A_{\textrm{Dr}}}\\ \Rightarrow l &= \frac{R\cdot A_{\textrm{Dr}}}{\rho} = \frac{\qty{1.5}{\ohm} \cdot \qty{0.5}{\milli\meter\squared}}{\qty{0.018}{\ohm\cdot\milli\meter\squared\per\meter}} \approx \qty{41.7}{\meter} \end{split}$
 </fragment>
 
 ---
-## Temperaturkoeffizient
+## Temperature coefficient
 
-* Widerstand von Metallen steigt bei zunehmender Temperatur
-* Atome bewegen sich bei höherer Temperatur mehr, wodurch es zu mehr Kollisionen mit Elektronen kommt
+* The resistance of metals rises as the temperature increases
+* At higher temperatures the atoms move more, which leads to more collisions with electrons
 
 ---
 [question:AB103]

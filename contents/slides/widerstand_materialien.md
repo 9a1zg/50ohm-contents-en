@@ -1,25 +1,25 @@
-## Drahtwiderstände
-* Draht aus einem Leiter mit gutem konstanten Widerstand trotz ändernder Temperatur
-* Dadurch ist eine hohe Last möglich
-* Oftmals gewickelt für mehr Länge
-* Dadurch nur für niedrige Frequenzen geeignet
+## Wirewound resistors
+* Wire made of a conductor with a good, constant resistance despite changing temperature
+* This makes a high load possible
+* Often wound, for more length
+* Therefore only suitable for low frequencies
 
 ---
 [question:EC101]
 ---
-## Metallschichtwiderstand
-* Widerstandsmaterial als dünne Schicht auf einem Träger
-* Hohe Widerstandswerte möglich
-* Sehr präzise
-* Geringe Temperaturabhängigkeit
+## Metal-film resistor
+* Resistive material as a thin film on a substrate
+* High resistance values possible
+* Very precise
+* Low temperature dependence
 
 ---
 [question:EC102]
 ---
-## Metalloxidschichtwiderstand
-* Ähnlich wie Metallschichtwiderstand
-* Induktionsarm
-* Für hohe Frequenzen geeignet
+## Metal-oxide resistor
+* Similar to the metal-film resistor
+* Low inductance
+* Suitable for high frequencies
 
 ---
 [question:EC103]
@@ -27,5 +27,5 @@
 [question:EC104]
 
 <note>
-* Erstmal nur merken, denn der Sinn ergibt sich nach der Vorstellung von Kondensatoren und Spulen
+* Just remember this for now; it will make sense once capacitors and inductors have been introduced
 </note>

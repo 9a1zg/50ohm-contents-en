@@ -1,20 +1,20 @@
-* Materialen, die nur unter bestimmten Umständen leiten können
-* Weisen Eigenschaften von Leitern als auch von Nichtleitern auf
-* Häufige Halbleiterelemente: Silizium oder Germanium
+* Materials that can conduct only under certain conditions
+* Have properties of conductors as well as of non-conductors
+* Common semiconductor elements: silicon or germanium
 
 <note>
-Viel mehr dazu in Klasse E und A
+Much more on this in Classes E and A
 </note>
 
 ---
 ## Diode
 
 <left>
-* Einfachstes Halbleiter-Bauteil: Diode
-* Strom kann nur in einer Richtung durch sie hindurchfließen
+* Simplest semiconductor component: the diode
+* Current can flow through it in one direction only
 </left>
 <right>
-[photo:204:n_halbleiter_dioden:Schaltzeichen und Bauformen von Dioden]
+[photo:204:n_halbleiter_dioden:Circuit symbol and package styles of diodes]
 </right>
 
 ---
@@ -22,15 +22,15 @@ Viel mehr dazu in Klasse E und A
 [question:NC401]
 
 ---
-## Anschlüsse einer Diode
+## Terminals of a diode
 
 <left>
-* Anode und Kathode
-* Plus-Pol an Anode und Minus-Pol an Kathode: *Diode leitet*
-* Plus-Pol an Kathode und Minus-Pol an Anode: *Diode sperrt*
+* Anode and cathode
+* Positive terminal to anode and negative terminal to cathode: *diode conducts*
+* Positive terminal to cathode and negative terminal to anode: *diode blocks*
 </left>
 <right>
-[picture:666:n_halbleiter_diode_merkhilfe:Merkhilfe Diode]
+[picture:666:n_halbleiter_diode_merkhilfe:Memory aid for the diode]
 </right>
 
 ---
@@ -46,13 +46,13 @@ Viel mehr dazu in Klasse E und A
 ## LED
 
 <left>
-* Leuchtdiode, "light-emitting diode"
-* Leuchtet, sobald Strom durch sie hindurchfließt
-* Schaltbild: Diode mit zwei zusätzlichen Pfeilen nach außen
-* Verhält sich wie Diode, aber leuchtet
+* Light-emitting diode
+* Lights up as soon as current flows through it
+* Circuit symbol: diode with two additional arrows pointing outwards
+* Behaves like a diode, but lights up
 </left>
 <right>
-[photo:205:n_halbleiter_led:Schaltzeichen und Bauformen von LEDs]
+[photo:205:n_halbleiter_led:Circuit symbol and package styles of LEDs]
 </right>
 
 ---

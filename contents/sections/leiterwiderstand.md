@@ -1,39 +1,39 @@
-Drähte aus unterschiedlichen Materialien leiten elektrischen Strom unterschiedlich gut. Als Kenngröße betrachten wir dabei den elektrischen Widerstand des Drahtes. Den Widerstand haben wir bereits in den Klassen N und E als die Größe kennengelernt, die den Stromfluss durch einen Leiter begrenzt. Ein Draht mit geringem Widerstand leitet den Strom besser als ein Draht mit hohem Widerstand.
+Wires made of different materials conduct electric current to different degrees. As the parameter for this we look at the electrical resistance of the wire. We already met resistance in Classes N and E as the quantity that limits the flow of current through a conductor. A wire with a low resistance conducts current better than a wire with a high resistance.
 
 <margin>
-[picture:713:a_leitermodell:Atome (+) und bewegliche Elektronen (-) in einem metallischen Leiter]
+[picture:713:a_leitermodell:Atoms (+) and mobile electrons (-) in a metallic conductor]
 </margin>
 
-Der elektrische Widerstand eines Drahtes lässt sich mit der Formel
+The electrical resistance of a wire can be described by the formula
 
 $R=\frac{\rho\cdot l}{A_\text{Dr}}$ 
 
-beschreiben. Die Formel zeigt, von welchen Eigenschaften eines Leiters der Widerstand abhängt:
+The formula shows which properties of a conductor the resistance depends on:
 
 ---
 
-* Das Formelzeichen $l$ steht für die Länge des Leiters. Ein Leiter besteht aus fest angeordneten Atomen und frei beweglichen Elektronen, die den Strom transportieren (vgl. Abbildung [ref:a_leitermodell]). Beim Stromfluss stoßen die Elektronen immer wieder mit den Atomen zusammen und werden dadurch gebremst. Je länger der Leiter ist, desto häufiger treten diese Zusammenstöße auf – der Widerstand wird also größer. Deshalb ist der Widerstand direkt proportional zur Leiterlänge: Verdoppelt sich die Länge, verdoppelt sich auch der Widerstand.
-* Das Formelzeichen $A_\text{Dr}$ bezeichnet die Querschnittsfläche des Drahtes. Ein größerer Querschnitt bietet den Elektronen mehr Raum zum Fließen, sodass sie sich seltener gegenseitig behindern. Der Widerstand wird dadurch kleiner. In der Formel wird durch die Querschnittsfläche geteilt, was genau diesen Zusammenhang ausdrückt: Je größer der Querschnitt, desto geringer der Widerstand.
-* Das Formelzeichen $\rho$ steht für den spezifischen Widerstand des Materials. Er beschreibt die materialabhängigen Eigenschaften des Leiters und gibt an, welchen Widerstand ein Leiter aus diesem Material bei einer Länge von $\qty{1}{\meter}$ und einem Querschnitt von $\qty{1}{\milli\meter\squared}$ bei $\qty{20}{\degree}$ besitzt. Das bedeutet, dass auch das Material einen Einfluss darauf hat, wie häufig die Elektronen durch Zusammenstöße mit den Atomen gebremst werden. Materialien wie Kupfer oder Eisen haben unterschiedliche Werte für $\rho$ und leiten den elektrischen Strom daher unterschiedlich gut. In der Formelsammlung finden wir die Werte aus Tabelle [ref:a_spezifischer_widerstand].
+* The symbol $l$ stands for the length of the conductor. A conductor consists of atoms in fixed positions and freely moving electrons that carry the current (cf. Figure [ref:a_leitermodell]). As the current flows, the electrons collide with the atoms again and again and are slowed down. The longer the conductor, the more often these collisions occur – so the resistance increases. The resistance is therefore directly proportional to the length of the conductor: if the length doubles, the resistance doubles too.
+* The symbol $A_\text{Dr}$ denotes the cross-sectional area of the wire. A larger cross-section gives the electrons more room to flow, so that they get in each other's way less often. The resistance therefore becomes smaller. In the formula we divide by the cross-sectional area, which expresses exactly this relationship: the larger the cross-section, the lower the resistance.
+* The symbol $\rho$ stands for the resistivity of the material. It describes the material-dependent properties of the conductor and states the resistance of a conductor made of this material with a length of $\qty{1}{\meter}$ and a cross-section of $\qty{1}{\milli\meter\squared}$ at $\qty{20}{\degree}$. This means that the material, too, influences how often the electrons are slowed down by collisions with the atoms. Materials such as copper or iron have different values of $\rho$ and therefore conduct electric current to different degrees. On the formula sheet we find the values in Table [ref:a_spezifischer_widerstand].
 
 <margin>
 | l: Material | X: $\rho$ $\left[\unit{\ohm\milli\meter\squared\per\meter}\right]$ |
-| Kupfer      | $\num{0,018}$ |
-| Aluminium   | $\num{0,028}$ |
-| Gold        | $0,022$       |
-| Silber      | $0,016$       |
-| Zinn        | $0,11$        |
-| Eisen       | $0,1$         |
-| Messing     | $0,07$        |
-[table:a_spezifischer_widerstand:Spezifische Widerstände aus der Formelsammlung]
+| Copper      | $\num{0.018}$ |
+| Aluminium   | $\num{0.028}$ |
+| Gold        | $0.022$       |
+| Silver      | $0.016$       |
+| Tin         | $0.11$        |
+| Iron        | $0.1$         |
+| Brass       | $0.07$        |
+[table:a_spezifischer_widerstand:Resistivities from the formula sheet]
 </margin>
 
-Mit dieser Formel lassen sich die folgenden Prüfungsfragen lösen: 
+The following examination questions can be solved with this formula: 
 
 [question:AB101]
 
 [question:AB102]
 
-Die Temperatur ist ein weiterer Einflussfaktor auf den Widerstand und damit die Leitfähigkeit eines Leiters. Ein Stromfluss durch einen Leiter führt in der Regel zu  dessen Erwärmung. Dies lässt sich auf die Stöße der Elektronen mit den Atomen zurückführen. In der Klasse E haben wir bereits das Konzept von Kalt- und Heißleitern kennen gelernt. Kaltleiter haben bei *niedrigen* Temperaturen einen geringen Widerstand und leiten damit den Strom besser. Bei hohen Temperaturen nimmt ihre Leitfähigkeit zunehmend ab, ihr Widerstand steigt, d. h. der Temperaturkoeffizient ist positiv. Die meisten *Metalle* sind Kaltleiter. *Heißleiter* verhalten sich genau umgekehrt. Sie leiten den Strom bei *hohen* Temperaturen besser. Viele *Halbleiter* sind Heißleiter.
+Temperature is another factor that influences the resistance, and thus the conductivity, of a conductor. A current flowing through a conductor usually heats it up. This can be traced back to the collisions of the electrons with the atoms. In Class E we already met the concept of PTC and NTC thermistors. PTC conductors have a low resistance at *low* temperatures and so conduct current better. At high temperatures their conductivity decreases more and more and their resistance rises, i.e. the temperature coefficient is positive. Most *metals* are PTC conductors. *NTC conductors* behave in exactly the opposite way. They conduct current better at *high* temperatures. Many *semiconductors* are NTC conductors.
 
 [question:AB103]

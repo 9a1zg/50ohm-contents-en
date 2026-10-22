@@ -1,26 +1,26 @@
-Auf dem Typschild elektrischer Geräte ist meistens die Leistungsaufnahme angegeben. Zum Beispiel könnte man auf einem LED-Leuchtmittel die Angabe $\qty{7}{\watt}$ finden oder $\qty{425}{\watt}$ auf einem Staubsauger.
+The power consumption is usually stated on the rating plate of electrical equipment. For example, you might find $\qty{7}{\watt}$ on an LED lamp, or $\qty{425}{\watt}$ on a vacuum cleaner.
 
-Auch an jedem Widerstand wird elektrische Leistung umgesetzt. Sobald ein Strom durch einen Widerstand fließt, wird elektrische Energie in thermische Energie umgewandelt, also in Wärme. Je größer der Strom ist, desto mehr Wärme wird an die Umgebung abgegeben. Deshalb werden auch viele elektrische Geräte beim Betrieb warm. Die elektrische Leistung gibt an, wieviel elektrische Energie in einer gewissen Zeit umgesetzt wird. Die Einheit der Leistung ist Watt, abgekürzt $\unit{\watt}$.
+Electrical power is also converted in every resistor. As soon as a current flows through a resistor, electrical energy is converted into thermal energy, i.e. heat. The greater the current, the more heat is given off to the surroundings. That is why many electrical devices also get warm in operation. Electrical power states how much electrical energy is converted in a given time. The unit of power is the watt, abbreviated $\unit{\watt}$.
 
 [question:NA204]
 [question:NA211]
 [question:NA210]
 
-Die elektrische Leistung hängt sowohl vom Strom als auch von der Spannung ab. Es gilt sowohl "Je größer die Spannung, umso größer die Leistung" also auch "Je größer der Strom, umso größer die Leistung". Berechnen lässt sich die Leistung sehr leicht. Sie ist das Produkt aus Strom und Spannung:
+Electrical power depends on both the current and the voltage. Both "the higher the voltage, the greater the power" and "the greater the current, the greater the power" apply. Power is very easy to calculate. It is the product of current and voltage:
 
 $ P = U \cdot I $
 
-Auch diese Formel und die unten folgenden Umstellungen dieser Formel muss man nicht unbedingt auswendig lernen, da sie Teil der Formelsammlung sind, die als Hilfsmittel bei der Prüfung vorliegt. Die Berechnung ist ebenfalls wieder mit dem Taschenrechner möglich.
+You do not necessarily have to learn this formula, or the rearrangements of it below, by heart either, since they are part of the formula sheet available as an aid in the examination. Again, the calculation can be done with a calculator.
 
 [question:NB601]
 [question:NB602]
 [question:NB603]
 
-Sind Leistung und Strom bekannt, so kann man die Spannung durch folgende Umstellung berechnen, die allerdings für die Prüfung der Klasse N nicht benötigt wird:
+If power and current are known, the voltage can be calculated with the following rearrangement, which, however, is not needed for the Class N examination:
 
 $ U = \dfrac{P}{I} $
 
-Möchte man wissen, wieviel Strom durch ein Gerät fliesst, kann man das mit folgender Formel aus der Spannung und der Leistungsangabe am Gerät errechnen:
+If you want to know how much current flows through a device, you can calculate it from the voltage and the power rating on the device with the following formula:
 
 $ I = \dfrac{P}{U} $
 

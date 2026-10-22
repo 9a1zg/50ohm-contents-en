@@ -1,18 +1,18 @@
-SMD-Bauteile sind nur wenige Millimeter groß. SMD steht für Surface-Mounted Device (deutsch: oberflächenmontiertes Bauelement). Im Unterschied zu klassischen Bauteilen besitzen sie keine Drahtanschlüsse, sondern werden direkt auf die Leiterplatte aufgelötet – ganz ohne Durchkontaktierung. Im Folgenden beschäftigen wir uns mit der Kennzeichnung von SMD-Widerständen.
+SMD components are only a few millimetres in size. SMD stands for surface-mounted device. Unlike conventional components, they have no wire leads but are soldered directly onto the printed circuit board – with no through-holes at all. Below, we look at how SMD resistors are marked.
 
 <margin>
-[photo:318:e_platine_smd:Platine mit SMD-Bauteilen]
+[photo:318:e_platine_smd:Circuit board with SMD components]
 </margin>
 
 ---
 
-Abbildung [ref:e_smd] zeigt einen SMD-Widerstand. Zur Kennzeichnung des Widerstandswerts sind darauf Zahlen aufgedruckt – in diesem Fall die Ziffern 113. Die Größe des Widerstandes ergibt sich dann wie folgt: Es werden alle Zahlen bis auf die *letzte* als reiner Zahlenwert übernommen. Im Beispiel 113 ergibt sich damit *11* als Zahlenwert. Die *letzte* Zahl gibt die *Zehnerpotenz* an mit der die anderen Zahlen zu multiplizieren sind. Eine 1 steht dabei für die erste Zehnerpotenz  $10^1$, eine 2 für die zweite Zehnerpotenz $10^2$ usw.
+Figure [ref:e_smd] shows an SMD resistor. To indicate the resistance value, digits are printed on it – in this case 113. The value of the resistor is then found as follows: all the digits except the *last* are taken as a plain number. In the example 113, this gives *11* as the number. The *last* digit gives the *power of ten* by which the other digits are to be multiplied. A 1 stands for the first power of ten, $10^1$, a 2 for the second power of ten, $10^2$, and so on.
 
 <margin>
-[picture:1006:e_smd:SMD-Bauteil]
+[picture:1006:e_smd:SMD component]
 </margin>
 
-In unserem Beispiel erhalten wir also: $11 \cdot 10^3$ also $\qty{11000}{\ohm}$ Ohm bzw. $\qty{11}{\kilo\ohm}$.
+In our example we therefore get: $11 \cdot 10^3$, i.e. $\qty{11000}{\ohm}$ or $\qty{11}{\kilo\ohm}$.
 
 [question:EC114]
 [question:EC115]

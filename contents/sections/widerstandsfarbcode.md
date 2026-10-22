@@ -1,51 +1,51 @@
-Wir haben nun den Widerstand und seine Einheit $\unit{\ohm}$ (Ohm) kennengelernt. In der Praxis wird auf Widerständen allerdings meistens nicht der Zahlenwert aufgedruckt. Stattdessen werden Farbringe verwendet. Diese Farbringe kodieren den Wert des Widerstandes.
+We have now met resistance and its unit, the $\unit{\ohm}$ (ohm). In practice, however, the numerical value is usually not printed on resistors. Instead, colour bands are used. These colour bands encode the value of the resistor.
 
 <margin>
-[picture:665:n_widerstandsfarbcodes: Ein Widerstand mit 4 Farbringen]
+[picture:665:n_widerstandsfarbcodes: A resistor with 4 colour bands]
 </margin>
 
-Die Abbildung [ref:n_widerstandsfarbcodes] zeigt einen Widerstand mit vier Farbringen. Jede Farbe entspricht dabei einem Zahlenwert, wie in der Tabelle [ref:n_widerstandsfarbcodes_tabelle] in der Spalte *Wert* gezeigt:
-* Der erste Farbring entspricht der ersten Ziffer, in diesem Fall *gelb*, also vier.
-* Der zweite Farbring entspricht der zweiten Ziffer, in unserem Beispiel also *violett*, also sieben.
-* Der dritte Farbring ist der sogenannte Multiplikator (siehe Tabelle [ref:n_widerstandsfarbcodes_tabelle], in unserem Fall *orange*, also der Wert 1000.
+Figure [ref:n_widerstandsfarbcodes] shows a resistor with four colour bands. Each colour corresponds to a number, as shown in the *Value* column of Table [ref:n_widerstandsfarbcodes_tabelle]:
+* The first colour band corresponds to the first digit, in this case *yellow*, i.e. four.
+* The second colour band corresponds to the second digit, in our example *violet*, i.e. seven.
+* The third colour band is the multiplier (see Table [ref:n_widerstandsfarbcodes_tabelle]), in our case *orange*, i.e. the value 1000.
 
 <webmargin>
-| X:Farbe | l:Wert | l:Multiplikator | l:Toleranz |
-| Silber | - | $\num{0,01}$ | $\qty{\pm 10}{\percent}$ |
-| Gold | - | $\num{0,1}$ | $\qty{\pm 5}{\percent}$ |
-| Schwarz | 0 | $\num{1}$ | - |
-| Braun | 1 | $\num{10}$ | $\qty{\pm 1}{\percent}$ |
-| Rot | 2 | $\num{100}$ | $\qty{\pm 2}{\percent}$ |
+| X:Colour | l:Value | l:Multiplier | l:Tolerance |
+| Silver | - | $\num{0.01}$ | $\qty{\pm 10}{\percent}$ |
+| Gold | - | $\num{0.1}$ | $\qty{\pm 5}{\percent}$ |
+| Black | 0 | $\num{1}$ | - |
+| Brown | 1 | $\num{10}$ | $\qty{\pm 1}{\percent}$ |
+| Red | 2 | $\num{100}$ | $\qty{\pm 2}{\percent}$ |
 | Orange| 3 | $\num{1000}$ | - |
-| Gelb | 4 | $\num{10000}$ | - |
-| Grün | 5 | $\num{100000}$ | - |
-| Blau | 6 | $\num{1000000}$ | $\qty{\pm 0,25}{\percent}$ |
-| Violett | 7 | $\num{10000000}$ | $\qty{\pm 0,1}{\percent}$ |
-| Grau | 8 | $\num{100000000}$ | - |
-| Weiß | 9 | $\num{1000000000}$ | - |
-| Keine | - | - | $\qty{\pm 20}{\percent}$ |
-[table:n_widerstandsfarbcodes_tabelle:Widerstandsfarbcodes Tabelle]
+| Yellow | 4 | $\num{10000}$ | - |
+| Green | 5 | $\num{100000}$ | - |
+| Blue | 6 | $\num{1000000}$ | $\qty{\pm 0.25}{\percent}$ |
+| Violet | 7 | $\num{10000000}$ | $\qty{\pm 0.1}{\percent}$ |
+| Grey | 8 | $\num{100000000}$ | - |
+| White | 9 | $\num{1000000000}$ | - |
+| None | - | - | $\qty{\pm 20}{\percent}$ |
+[table:n_widerstandsfarbcodes_tabelle:Resistor colour code table]
 </webmargin>
 
-Der erste und der zweite Ring zusammen ergeben die Zahl 47. Wenn man diese Zahl mit dem Multiplikator multipliziert, kann man den Wert des Widerstandes berechnen:
+The first and second bands together give the number 47. Multiplying this number by the multiplier gives the value of the resistor:
 
 $ 47 \cdot \qty{1000}{\ohm} = \qty{47000}{\ohm} = \qty{47}{\kilo\ohm} $
 
 ---
 
-Es bleibt noch ein vierter Farbring übrig. Dieser steht für die sogenannte Toleranz, die angibt, wie stark der tatsächliche Widerstandswert vom dem aufgedruckten Wert abweichen darf.
-Weitere Details dazu folgen in der Klasse E. 
+That leaves a fourth colour band. It stands for the tolerance, which states by how much the actual resistance value may deviate from the printed value.
+More details on this follow in Class E. 
 
 <indepth>
-*Vertiefung:* In unserem Beispiel ist der letzte Ring *silber*, was eine Toleranz von $\qty{\pm 10}{\percent}$ bedeutet. Der wahre Wert des Widerstandes kann $\qty{10}{\percent} \cdot \qty{47}{\kilo\ohm} = \qty{4,7}{\kilo\ohm}$ mehr oder weniger als der angegebene Wert sein. Er kann also zwischen $\qty{42,3}{\kilo\ohm}$ und $\qty{51,7}{\kilo\ohm}$ liegen.
+*In depth:* In our example the last band is *silver*, which means a tolerance of $\qty{\pm 10}{\percent}$. The true value of the resistor can be $\qty{10}{\percent} \cdot \qty{47}{\kilo\ohm} = \qty{4.7}{\kilo\ohm}$ more or less than the stated value. So it can lie anywhere between $\qty{42.3}{\kilo\ohm}$ and $\qty{51.7}{\kilo\ohm}$.
 </indepth>
 
 ---
 
-Die Tabelle mit den Farbcodes muss man nicht auswendig lernen. Sie liegt als Teil der Formelsammlung bei der Prüfung als Hilfsmittel bereit. Man sollte sich allerdings die Anordnung der Ringe und ihre Bedeutung merken. Zur Übung können die folgenden Fragen mithilfe des Farbcode gelöst werden, um Routine zu bekommen.
+You do not have to learn the colour code table by heart. It is part of the formula sheet provided as an aid in the examination. You should, however, remember the order of the bands and what they mean. For practice, and to build up routine, the following questions can be solved using the colour code.
 
 <indepth>
-*Vertiefung:* Es gibt auch Widerstände mit mehr als nur vier Farbringen. Diese sind aber für die Prüfung nicht relevant. Auch andere Bauteile werden oftmals mit Farbringen gekennzeichnet.
+*In depth:* There are also resistors with more than four colour bands. These, however, are not relevant to the examination. Other components are often marked with colour bands too.
 </indepth>
 
 [question:NC107]

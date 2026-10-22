@@ -1,13 +1,13 @@
-* Elektrische Geräte haben eine Leistungsaufnahme angegeben
-* Beispiele: LED-Leuchtmittel $\qty{7}{\watt}$, Staubsauger $\qty{425}{\watt}$
-* An jedem Widerstand wird elektrische Leistung umgesetzt
-* Strom fließt durch einen Widerstand $\rightarrow$ Umwandlung von elektrischer Energie in thermische Energie
-* Je größer der Strom, desto mehr Wärme
+* Electrical equipment has a stated power consumption
+* Examples: LED lamp $\qty{7}{\watt}$, vacuum cleaner $\qty{425}{\watt}$
+* Electrical power is converted in every resistor
+* Current flows through a resistor $\rightarrow$ conversion of electrical energy into thermal energy
+* The greater the current, the more heat
 
 ---
 
-* Elektrische Leistung: Wie viel elektrische Energie in einer gewissen Zeit umgesetzt wird
-* Einheit der Leistung $P$ ist Watt ($\unit{\watt}$)
+* Electrical power: how much electrical energy is converted in a given time
+* The unit of power $P$ is the watt ($\unit{\watt}$)
 
 ---
 
@@ -18,9 +18,9 @@
 [question:NA210]
 ---
 
-## Berechnung der Leistung
+## Calculating power
 
-Abhängig von Strom und Spannung
+Depends on current and voltage
 
 $ P = U \cdot I $
 $ U = \dfrac{P}{I} $
