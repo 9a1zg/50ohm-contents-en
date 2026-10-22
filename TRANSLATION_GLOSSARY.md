@@ -2056,6 +2056,28 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Merkhilfe | memory aid | |
 | *Vertiefung:* (label opening an indepth box) | *In depth:* | |
 | Kurze Wiederholung (Folie) | quick recap | |
+| Leistungsfaktor / Verhältnisfaktor (Dezibel) | power ratio / ratio | the ratio of two powers that a dB value expresses (dezibel_1, dezibel_2), as the questions' "(as a power ratio)"; trap: English *power factor* is cos φ. *Gesamtverstärkungsfaktor* → overall gain factor |
+| Logarithmieren / Potenzieren | taking the logarithm / raising to a power | |
+| Zehnerlogarithmus | base-ten logarithm | the German's other name for the common logarithm (§3 *Logarithmus*) |
+| Eulersche Zahl | Euler's number | |
+| Bel (Tabellenspalte, Folien) | bels | "Wir zählen die Nullen (und nennen das Ergebnis "Bel")" → "… call the result "bels"" (dezibel_1 slides) |
+| Hilfsmaßeinheit / Pseudoeinheit | auxiliary unit / pseudo-unit | the dB (dezibel_2, AA112) |
+| (Dezibel) bezogen auf / Bezugswert | (decibels) relative to / reference value | "dBm = Dezibel bezogen auf mW" → "decibels relative to mW"; *Bezugsgröße* → reference quantity (§3) |
+| Signalkette | signal chain | |
+| Referenzstrahler | reference radiator | dBi, dBd |
+| vorzeichenrichtige Subtraktion | subtracting with the correct signs | dBm values (dezibel_2) |
+| Hilfsmittel (Prüfung) | examination aids | the permitted aids, i.e. the formula sheet (AA108–AA110) |
+| Gegeben / Lösungsweg / Abkürzung (Überschriften in Lösungen) | Given / Solution / Shortcut | *Abkürzung* as a heading is a quicker way to the answer; trap: elsewhere *Abkürzung* is *abbreviation* (§2) |
+| (Formelsammlung:) Pegel, Verstärkung, Leistung / Leistungs- und Spannungspegel | (formula sheet:) levels, gain, power / power and voltage levels | the formula sheet's section names, cited in brackets in solutions; lower case, as descriptions |
+| Energiegehalt | energy content | battery |
+| Stromrechnung / Stromverbrauch | electricity bill / electricity consumption | AA103 |
+| Zimmerlautstärke | normal room volume | dezibel_1 slides |
+| Handfunke | handheld | as *Handfunkgerät* (§6) |
+| effektive Leistung (EME-Station) | effective radiated power | the 100 kW of an EME station in the dB slides (dezibel_1); not *RMS power*, which is the measuring sense (§11, AI105, and EB513's *effektive Leistung*) |
+| frequenzerzeugende Stufe | frequency-generating stage | |
+| Gehörlosenlehrer | teacher of the deaf | A. G. Bell |
+| Bauformen (Fotos von Kondensatoren, Spulen, Transistoren) | types | "Schaltzeichen und Bauformen von Kondensatoren" → "Circuit symbol and types of capacitors" (bauelemente); *package style* (*Bauform* above) stays for semiconductor and SMD packages |
+| Strom über Zeit / Leistung über Zeit (Folien) | current times time / power times time | ladung_energie slides; English "over time" would read as a division beside $Q = I\cdot t$ |
 
 ## 15. Catalogue structure
 

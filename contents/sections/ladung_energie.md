@@ -1,40 +1,40 @@
-Die elektrische Ladung (auch *Elektrizitätsmenge* genannt) ist eine grundlegende physikalische Größe. Sie beschreibt eine Eigenschaft von Teilchen und Körpern und ist die Ursache für elektrische und elektromagnetische Wechselwirkungen. Sicher hast du schon auf Akkus oder Batterien eine Angabe wie z.B. $\qty{3000}{\milli\ampere\hour}$ für die elektrische Ladung gelesen. 
+Electric charge (also called *quantity of electricity*) is a fundamental physical quantity. It describes a property of particles and bodies and is the cause of electric and electromagnetic interactions. You have surely seen a figure such as $\qty{3000}{\milli\ampere\hour}$ for the electric charge on batteries or rechargeable batteries. 
 
 <unit>
-Die elektrische Ladung hat das Formelzeichen $Q$ und die Einheit Coulomb ($\unit{\coulomb}$).
-Ein Coulomb ist definiert als die Ladungsmenge, die bei einem Strom von $\qty{1}{\ampere}$ innerhalb von $\qty{1}{\second}$ transportiert wird:
+Electric charge has the symbol $Q$ and the unit coulomb ($\unit{\coulomb}$).
+One coulomb is defined as the quantity of charge transported in $\qty{1}{\second}$ by a current of $\qty{1}{\ampere}$:
 $\qty{1}{\coulomb} = \qty{1}{\ampere} \cdot \qty{1}{\second}$
 </unit>
 
-Elektrische Ladung allein beschreibt jedoch noch keine Energie. Erst in Verbindung mit einer elektrischen Spannung wird deutlich, wie viel Energie mit einer bestimmten Ladungsmenge übertragen oder gespeichert werden kann. Genau dieser Zusammenhang wird zum Beispiel bei Batterien und Akkumulatoren genutzt: Sie speichern elektrische Energie, indem sie elektrische Ladung auf unterschiedlichen elektrischen Potenzialen trennen.
+Electric charge on its own, however, does not yet describe energy. Only in combination with an electric voltage does it become clear how much energy can be transferred or stored with a given quantity of charge. It is exactly this relationship that is used, for example, in batteries and rechargeable batteries: they store electrical energy by separating electric charge onto different electric potentials.
 
 [question:AA102]
 
 ---
 
-Die dabei gespeicherte oder übertragene elektrische Energie $W$ ergibt sich aus der transportierten Ladung $Q$ und der anliegenden Spannung $U$:
+The electrical energy $W$ stored or transferred in the process follows from the charge transported, $Q$, and the voltage applied, $U$:
 
 $W = U \cdot Q$
 
-Allgemein ist die Leistung als Energie pro Zeit definiert. Entsprechend ergibt sich die Energie als Produkt aus Leistung und Zeit:
+In general, power is defined as energy per unit time. Accordingly, energy is the product of power and time:
 
 $W = P \cdot t$
 
 <unit>
-Die Einheit der Energie ist das Joule ($\unit{\joule}$). Ein Joule ist definiert als:
+The unit of energy is the joule ($\unit{\joule}$). One joule is defined as:
 
 $\qty{1}{\joule} = \qty{1}{\watt\second} = \qty{1}{\volt\ampere\second} = \qty{1}{\newton\meter} = \qty{1}{\kilogram\cdot\meter\squared\per\second\squared}$
 </unit>
 
 [question:AA103]
 
-In der Praxis werden für kleine Energiemengen meist Joule verwendet, während für größere Energiemengen – etwa bei Akkus, Netzteilen oder im Stromverbrauch – häufig Wattstunden ($\unit{\watt\hour}$) oder Kilowattstunden ($\unit{\kilo\watt\hour}$) angegeben werden. Greifen wir das Beispiel unseres $\qty{3000}{\milli\ampere\hour}$-Akkus wieder auf. Hat dieser eine Spannung von $\qty{3,6}{\volt}$ so ergibt sich ein Energiegehalt von $\qty{3000}{\milli\ampere\hour} \cdot \qty{3,6}{\volt} = \qty{10.8}{\watt\hour}$
+In practice, joules are mostly used for small amounts of energy, while for larger amounts of energy – for example for rechargeable batteries, power supplies or electricity consumption – watt-hours ($\unit{\watt\hour}$) or kilowatt-hours ($\unit{\kilo\watt\hour}$) are often given. Let us return to the example of our $\qty{3000}{\milli\ampere\hour}$ battery. If it has a voltage of $\qty{3.6}{\volt}$, its energy content is $\qty{3000}{\milli\ampere\hour} \cdot \qty{3.6}{\volt} = \qty{10.8}{\watt\hour}$
 
-Energie kann nicht nur gespeichert, sondern auch von einer Form in eine andere umgewandelt werden. Ein typisches Beispiel ist die Umwandlung elektrischer Energie in thermische Energie an einem Widerstand, an dem über einen bestimmten Zeitraum eine Spannung anliegt. Die folgenden beiden Prüfungsfragen betrachten genau dieses Szenario.
+Energy can not only be stored, but also converted from one form into another. A typical example is the conversion of electrical energy into thermal energy in a resistor across which a voltage is applied for a certain period of time. The next two examination questions look at exactly this situation.
 
 [question:AB503]
 
-Hier nochmal eine andere Formulierung der Frage: Wie viel Energie wird an einem Widerstand (Widerstand $R=\qty{100}{\ohm}$), an dem eine Spannung von $U=\qty{10}{\volt}$ angelegt ist, innerhalb einer Stunde in Wärme umgewandelt?
+Here is the question once more, worded differently: how much energy is converted into heat within one hour in a resistor (resistance $R=\qty{100}{\ohm}$) across which a voltage of $U=\qty{10}{\volt}$ is applied?
 
 $W = P \cdot t = \frac{U^2}{R} \cdot t = \qty{1}{\watt} \cdot \qty{1}{\hour}= \qty{1}{\watt\hour}$
 

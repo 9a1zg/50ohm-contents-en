@@ -1,61 +1,61 @@
-An vielen Stellen der Hochfrequenztechnik spielen Leistungsverhältnisse eine wichtige Rolle, etwa beim Gewinn einer Antenne oder eines Verstärkers, oder bei der Dämpfung eines Kabels. In der Klasse N haben wir diese Zusammenhänge noch in Form einfacher Faktoren kennengelernt, zum Beispiel: „Die Antenne hat einen Gewinn von Faktor $2$“.
+Power ratios play an important part in many areas of radio-frequency engineering, for example in the gain of an antenna or an amplifier, or in the loss of a cable. In Class N we met these relationships only in the form of simple factors, for example: "The antenna has a gain of a factor of $2$".
 
-Diese Verhältnisse können sehr große oder sehr kleine Zahlenwerte annehmen. So besitzt beispielsweise ein Kurzwellenempfänger einen Gesamtverstärkungsfaktor von $\num{1000000000000}$, also eine Eins mit zwölf Nullen. Mit solchen Zahlen wird das Rechnen schnell unübersichtlich, und man beginnt unweigerlich, die Nullen zu zählen.
+These ratios can take very large or very small numerical values. For example, an HF receiver has an overall gain factor of $\num{1000000000000}$, that is, a one followed by twelve zeros. With numbers like these, calculations quickly become hard to follow, and you inevitably start counting the zeros.
 
-Vereinfacht gesagt gibt es jedoch ein mathematisches Hilfsmittel für dieses „Zählen von Nullen“: die Logarithmen. Mit ihrer Hilfe lassen sich außerdem Multiplikationen in Additionen und Divisionen in Subtraktionen umwandeln. Das macht das Rechnen mit großen Zahlen sehr einfach. 
-
----
-
-Es hat sich daher eingebürgert, Leistungsverhältnisse auf einer logarithmischen Skala anzugeben.
-Das Logarithmieren ist die Umkehroperation des Potenzierens. Im Amateurfunk nutzen wir in der Regel den dekadischen Logarithmus ("Zehnerlogarithmen") zur Basis $10$:
+Put simply, however, there is a mathematical tool for this "counting of zeros": logarithms. With their help, multiplications can also be turned into additions and divisions into subtractions. That makes calculating with large numbers very easy. 
 
 ---
 
-$a =\log_{10} (b)$, falls $b=10^{a}$
+It has therefore become customary to state power ratios on a logarithmic scale.
+Taking the logarithm is the inverse operation of raising to a power. In amateur radio we generally use the common logarithm ("base-ten logarithm") to base $10$:
 
-Der Logarithmus von $100$ beträgt $\log_{10}(100)=2$, da $10^2 = 100$ ist. Anders ausgedrückt: Die Zahl $100$ besitzt zwei Nullen.
+---
+
+$a =\log_{10} (b)$, if $b=10^{a}$
+
+The logarithm of $100$ is $\log_{10}(100)=2$, because $10^2 = 100$. In other words: the number $100$ has two zeros.
 
 <warning>
-Ein technisch-wissenschaftlicher Taschenrechner bietet neben dem dekadischen Logarithmus (Beschriftung $\lg$ oder $\log$) auch den natürlichen Logarithmus *$\ln$* an, der als Basis die Eulersche Zahl *$e=\num{2,7182818}\dots$* hat. Nicht verwechseln!
+Besides the common logarithm (labelled $\lg$ or $\log$), a scientific calculator also offers the natural logarithm *$\ln$*, whose base is Euler's number *$e=\num{2.7182818}\dots$*. Do not mix them up!
 </warning>	
 
 <margin>
-| c:dB | c:≈ Leistungsfaktor |
+| c:dB | c:≈ Power ratio |
 | $0$ | $1$ |
-| $1,5$ | $\sqrt{2} = 1,41$ |
-| $2,15$ | $1,64$ |
+| $1.5$ | $\sqrt{2} = 1.41$ |
+| $2.15$ | $1.64$ |
 | $3$ | $2$ |
-| $5$ | $\sqrt{10} = 3,16$ |
+| $5$ | $\sqrt{10} = 3.16$ |
 | $6$ | $4$ |
 | $10$ | $10$ |
 | $20$ | $100$ |
-[table:e_dezibel_leistungsfaktoren:Wichtige Leistungsfaktoren in $\unit{\dB}$]
+[table:e_dezibel_leistungsfaktoren:Important power ratios in $\unit{\dB}$]
 </margin>
 
-Vom dekadischen Logarithmus ist das *Bel* ($\unit{\bel}$) abgeleitet. Der Name ehrt den amerikanischen Gehörlosenlehrer und Telefonpionier, *Alexander Graham Bell*. Im obigen Beispiel hätten wir auch schreiben können:
+The *bel* ($\unit{\bel}$) is derived from the common logarithm. Its name honours the American teacher of the deaf and telephone pioneer *Alexander Graham Bell*. In the example above we could also have written:
 
 $\log_{10}(b)=\qty{a}{\bel}$
 
-In der Regel wird statt des Bels das *Dezibel* (Einheitenzeichen $\unit{\dB}$) verwendet, also der zehnte Teil eines Bels:
+As a rule, the *decibel* (unit symbol $\unit{\dB}$), that is, a tenth of a bel, is used instead of the bel:
 
 $10 \cdot \log_{10}(b) = \qty{a}{\dB}$
 
 ---
 
-Die Formelsammlung gibt für das Umrechnen eines Leistungsverhältnisses folgende Formel an:
+For converting a power ratio, the formula sheet gives the following formula:
 
 $g = 10\cdot \log_{10}\left(\frac{P_2}{P_1}\right)\unit{\dB}$
 
-Wobei $P_1$ der Eingangsleistung entspricht und $P_2$ der Ausgangsleistung. Nehmen wir nun an, wir haben einen Verstärker der die Eingangsleistung $P_1=\qty{50}{\watt}$ auf $P_2=\qty{100}{\watt}$ verstärkt, also verdoppelt. So ergibt sich nach unserer Formel folgender Verstärkungsfaktor in $\unit{\dB}$:
+where $P_1$ is the input power and $P_2$ the output power. Now let us assume we have an amplifier that amplifies the input power $P_1=\qty{50}{\watt}$ to $P_2=\qty{100}{\watt}$, that is, doubles it. Our formula then gives the following gain in $\unit{\dB}$:
 
 $g = 10\cdot \log_{10}\left(\frac{\qty{100}{\watt}}{\qty{50}{\watt}}\right)\unit{\dB} = 10\cdot \log_{10}\left(2\right)\unit{\dB} = 10\cdot \qty{0.301}{\dB} \approx \qty{3}{\dB} $
 
-Für die Klasse E ist es zunächst ausreichend, den Dezibelwert für den Leistungsfaktor $2$ zu kennen. Die Formelsammlung enthält dazu eine Tabelle, die auch in Tabelle [ref:e_dezibel_leistungsfaktoren] dargestellt ist. Daraus lässt sich ablesen, dass ein Leistungsfaktor von $2$ einem Dezibelwert von $\qty{3}{\dB}$ entspricht. Das ausführliche Rechnen mit Dezibelwerten wird erst in der Klasse A behandelt.
+For Class E it is enough, to begin with, to know the decibel value for a power ratio of $2$. The formula sheet contains a table for this, which is also shown in Table [ref:e_dezibel_leistungsfaktoren]. From it you can read off that a power ratio of $2$ corresponds to a decibel value of $\qty{3}{\dB}$. Calculating with decibel values in detail is only covered in Class A.
 
 <tip>
-Ganz ohne Taschenrechner lassen sich Dezibelwerte abschätzen, die auf "$0$" enden: Einfach die letzte Null zuhalten, die Ziffer gibt dann die Anzahl der Nullen des Verhältnisfaktors an. Beispiel: $\qty{30}{\dB} \rightarrow 3 \rightarrow 3~\text{Nullen} \rightarrow \text{Verhältnisfaktor}~1000$!
+Decibel values that end in "$0$" can be estimated without any calculator at all: just cover up the last zero, and the digit then gives the number of zeros in the ratio. Example: $\qty{30}{\dB} \rightarrow 3 \rightarrow 3~\text{zeros} \rightarrow \text{ratio}~1000$!
 </tip>
 
 [question:EA107]
 
-Neben der Einheit $\unit{dB}$ begegnet man in der Praxis häufig auch Angaben wie $\unit{\dBi}$, $\unit{\dBm}$, $\unit{\dBW}$ oder $\unit{\dBu}$. Diese Zusätze geben an, auf welche Bezugsgröße sich der jeweilige Dezibelwert bezieht. In der Klasse E werden uns insbesondere bei Antennen die Angaben $\unit{\dBi}$ und $\unit{\dBd}$ im Antennenkapitel begegnen. Die anderen Größen wie $\unit{\dBm}$ und $\unit{\dBW}$ werden erst für die Klasse A benötigt.
+Besides the unit $\unit{dB}$, in practice you will often also come across values such as $\unit{\dBi}$, $\unit{\dBm}$, $\unit{\dBW}$ or $\unit{\dBu}$. These additions indicate which reference quantity the decibel value in question refers to. In Class E we will meet $\unit{\dBi}$ and $\unit{\dBd}$ in particular, for antennas, in the antenna chapter. The others, such as $\unit{\dBm}$ and $\unit{\dBW}$, are only needed for Class A.

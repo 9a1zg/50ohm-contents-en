@@ -1,20 +1,20 @@
-## Leistungsberechnung
+## Calculating power
 
-Wir kennen bereits
+We already know
 
 $P = U\cdot I = \dfrac{U^2}{R} = I^2\cdot R$
 
 <left>
-Nach U umgestellt:
+Rearranged for U:
 $U = \dfrac{P}{I} = \sqrt{P \cdot R}$
 </left>
 <right>
-Nach I umgestellt:
+Rearranged for I:
 $I = \dfrac{P}{U} = \sqrt{\dfrac{P}{R}}$
 </right>
 
 <note>
-* Alle Formeln sind in der Formelsammlung
+* All the formulas are in the formula sheet
 </note>
 
 ---
@@ -36,27 +36,15 @@ $I = \dfrac{P}{U} = \sqrt{\dfrac{P}{R}}$
 ---
 [question:EB512]
 ---
-## Leistung bei Wechselspannung
+## Power with AC voltage
 
-* Bei Wechselspannungen muss mit dem Effektivwert gerechnet werden
+* With AC voltages, the calculation must use the RMS value
 
 ---
 [question:EB503]
 ---
 [question:EB513]
 <note>
-* Keine Leistungsberechnung, sondern nur Ohmsches Gesetz
-* Die Frage passte aber in Klasse E nirgends anders rein
+* Not a power calculation, just Ohm's law
+* But the question did not fit in anywhere else in Class E
 </note>
-
-
-
-
-
-
-
-
-
-
-
-
