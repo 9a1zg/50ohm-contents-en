@@ -1973,6 +1973,34 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Flatterfading (flutter fading) | flutter fading | the English gloss beside it is dropped (scatter slides); AH223 |
 | Verbindungslinie zwischen Sender und Empfänger | line between the transmitter and the receiver | aircraft scatter |
 | Dämmerung | twilight | backscatter |
+| personengebundene Rufzeichen (Amtssprache) / persönliche Rufzeichen | personal call signs | where the course contrasts the everyday and the official German word, the official one is quoted in German with a literal gloss: "personengebundene Rufzeichen" (call signs tied to the person) (rufzeichenaufbau) |
+| Klasse N (Entry Level License) / Klasse E (Novice) / Klasse A (Advanced) | Class N (Entry Level Licence) / Class E (Novice) / Class A (Advanced) | the German's English labels kept, in British spelling (persoenliche_rufzeichen) |
+| Wunschrufzeichen | preferred call sign | |
+| Webabfrage (der BNetzA) | (BNetzA) online search | the call sign search on the BNetzA website |
+| Notfunkklubstation | emergency communications club station | |
+| Sonderstation / Sonderrufzeichen | special event station / special event call sign | RSGB usage |
+| Aktivierer / Sammler | activator / collector | special event stations |
+| Heimatstandort | home location | the location in the licence document |
+| Halteleinen | tethers | balloons (rufzeichenzusaetze) |
+| 12-Meilen-Zone | 12-mile zone | |
+| Rufzeichenzusätze gesprochen: Mobil / Portabel / Maritim Mobil / Aeronautisch Mobil | Mobile / Portable / Maritime Mobile / Aeronautical Mobile | spoken examples in English voice procedure, digits in English, ITU code words (*Foxtrott* → Foxtrot, *Oskar* → Oscar) (DECISIONS.md) |
+| besetzt / unbesetzt (Station) | attended / unattended | |
+| ununterbrochene, mittelbare und vollständige Kontrolle | continuous, indirect and complete control | AFuV definition of remote operation (§2 Nr. 6a → Section 2 no. 6a) |
+| Netzabschaltung | switching off the mains supply | safe state of a remote station |
+| § 16 Absatz 2 Satz 2 AFuV | Section 16(2) sentence 2 AFuV | |
+| Frequenzablage / Ablage (Relais) | repeater shift / shift | as §2 *Ablage* |
+| Relaissteuerung | repeater controller | crossband operation |
+| Wide-FM / Schmalband-FM (Narrow-FM) / FM-W / FM-N | wide FM / narrowband FM / FM-W / FM-N | display labels unchanged; bracket dropped as §2 *Schmalband-FM* |
+| Subton mit CTCSS | CTCSS subtone | |
+| Repeaterverzeichnis / relaisverantwortliche Person (Relaisverantwortlicher) | repeater directory / person responsible for the repeater | |
+| Relais oder Repeater (Kurzformen von Relaisfunkstelle) | *Relais* or *Repeater* (in German) | English has one word; the sentence is kept as information about German usage: "In German, repeaters (*Relaisfunkstellen*) are also called *Relais* or *Repeater* for short" (relaisfunkstellen) |
+| Linkstrecke / HAMNET-Knoten | link / HAMNET node | NE405 |
+| Hoheitsgebiet | sovereign territory | extraterritorial stations |
+| Forschungsschiff / Polarforschungsstation | research vessel / polar research station | Polarstern, Neumayer III |
+| Umlaufbahn (niedrige / mittlere / hohe / hochelliptische / polare) | orbit (Low Earth Orbit, LEO / Medium Earth Orbit, MEO / Geostationary Orbit, GEO / Highly Elliptical Orbit, HEO / polar orbit) | satelliten |
+| Nutzlast (Satellit) | payload | |
+| Bodenstationen (Steuersignale an Amateurfunksatelliten) | earth command stations | RR 25.2A wording, as VA303; *verschlüsseln* there → encoded, the cryptographic *Verschlüsselungsverfahren* → encryption methods |
+| Reinheitsgebot / Amateurfunkzentrum | German Beer Purity Law (Reinheitsgebot) / Amateur Radio Centre (Amateurfunkzentrum) | special event call signs table; the German name stays in brackets because the call signs abbreviate it (DB50AFZ) |
 
 ## 15. Catalogue structure
 

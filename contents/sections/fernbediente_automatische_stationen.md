@@ -1,10 +1,10 @@
-Normalerweise muss ein Funkamateur seine Funkstation besetzt betreiben. "Besetzt" bedeutet, dass die Aussendungen nur unter Aufsicht erfolgen dürfen. Die Aufsicht erfolgt entweder unmittelbar an der Sendeanlage oder bei einer Remote-Station auch mittelbar, z. B. über das Internet.
+Normally, radio amateurs must operate their station attended. "Attended" means that transmissions may only take place under supervision. Supervision takes place either directly at the transmitting equipment or, with a remote station, also indirectly, e.g. via the internet.
 
-Es gibt aber auch die Möglichkeit, eine Station unbesetzt zu betreiben, als sogenannte fernbediente oder automatische Station. Darunter versteht man eine Station, die ohne Aufsicht läuft. Meist handelt es sich dabei um sogenannte Relaisfunkstellen oder um Baken:
-* Eine *Relaisfunkstelle* ermöglicht Funkverbindungen zwischen Funkamateuren, die sich nicht direkt erreichen können. Dazu sendet die Relaisfunkstelle alles, was sie auf einer Frequenz empfängt, wieder auf einer anderen aus.
-* Eine *Bake* hingegen sendet nur und immer wieder das gleiche in regelmäßigen Abständen, oftmals einfach nur ein Rufzeichen. Der Zweck dahinter ist die Untersuchung der Ausbreitungsbedingungen.
+However, it is also possible to operate a station unattended, as a so-called remotely controlled or automatic station. This means a station that runs without supervision. In most cases these are so-called repeaters or beacons:
+* A *repeater* makes contacts possible between radio amateurs who cannot reach each other directly. To do this, the repeater retransmits on another frequency everything it receives on one frequency.
+* A *beacon*, on the other hand, only transmits the same thing over and over again at regular intervals, often simply a call sign. The purpose behind it is to study propagation conditions.
 
-In den nächsten beiden Abschnitten gehen wir noch näher auf Relaisfunkstellen und auf Baken ein. Für beide gilt, dass man sie nur mit einer Rufzeichenzuteilung für eine automatisch oder fernbedient arbeitende Station in Betrieb nehmen darf. Der Standort wird in der Zuteilungsurkunde festgeschrieben und die Amateurfunkstelle ist an diesen Standort gebunden.  
+In the next two sections we look more closely at repeaters and beacons. Both may only be put into operation with a call sign assignment for an automatically operating or remotely controlled station. The location is fixed in the assignment document, and the amateur station is tied to this location.  
 
 [question:VD501]
 [question:VD502]

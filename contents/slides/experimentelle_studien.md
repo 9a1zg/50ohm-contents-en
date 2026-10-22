@@ -1,9 +1,9 @@
-* Für besondere experimentelle und technisch-wissenschaftliche Studien
-* Zeitlich und im Berechtigungsumfang eingeschränkt
-* Werden gemäß § 16 Absatz 2 Satz 2 AFuV betrieben
-* Klasse A: DA5AA bis DA5ZZZ
-* Klasse E: DA4AA bis DA4ZZZ
-* Bei der BNetzA zu beantragen
+* For special experimental and technical-scientific studies
+* Restricted in time and in scope of privileges
+* Operated under Section 16(2) sentence 2 of the Amateur Radio Ordinance (Amateurfunkverordnung, AFuV)
+* Class A: DA5AA to DA5ZZZ
+* Class E: DA4AA to DA4ZZZ
+* To be applied for at the Federal Network Agency (Bundesnetzagentur, BNetzA)
 
 ---
 [question:BD102]

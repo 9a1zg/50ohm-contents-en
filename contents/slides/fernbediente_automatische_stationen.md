@@ -1,36 +1,36 @@
-## Normalerweise
-* Funkamateur muss die Station besetzt betreiben
-* Aussendungen dürfen nur unter Aufsicht erfolgen
-* Direkt an der Sendeanlage oder mittelbar via Remote-Station
+## Normally
+* Radio amateurs must operate their station attended
+* Transmissions may only take place under supervision
+* Directly at the transmitting equipment or indirectly via a remote station
 
 <fragment>
-Ausnahme: Fernbediente und automatische Stationen
+Exception: remotely controlled and automatic stations
 </fragment>
 
 ---
 
-## Relaisfunkstelle
-* Ermöglicht Funkverbindungen zwischen Funkamateuren, die sich nicht direkt erreichen können
-* Sendet alles, was sie auf einer Frequenz empfängt, auf einer anderen wieder aus
+## Repeater
+* Makes contacts possible between radio amateurs who cannot reach each other directly
+* Retransmits on another frequency everything it receives on one frequency
 
 <note>
-Mehr dazu im nächsten Abschnitt
+More on this in the next section
 </note>
 
 ---
 
-## Bake
-* Sendet nur immer das gleiche
-* In regelmäßigen Abständen
-* Oftmals nur das Rufzeichen
-* Zur Untersuchung der Ausbreitungsbedingungen
+## Beacon
+* Only ever transmits the same thing
+* At regular intervals
+* Often only the call sign
+* For studying propagation conditions
 
 ---
 
-## Voraussetzung
-* Rufzeichenzuteilung für fernbedient oder automatisch arbeitende Station notwendig
-* Standort wird in der Zuteilungsurkunde festgeschrieben
-* Station ist an diesen Standort gebunden
+## Requirement
+* Call sign assignment for a remotely controlled or automatically operating station needed
+* Location is fixed in the assignment document
+* Station is tied to this location
 
 ---
 [question:VD501]

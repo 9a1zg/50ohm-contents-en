@@ -1,28 +1,28 @@
 <left>
-* Automatisch arbeitende Amateurfunk-Sendeanlage
-* Ständig wiederkehrende Aussendungen
-* Zu Feldstärkebeobachtungen oder Empfangsversuchen
-* Kann auch in Satelliten sein
+* Automatically operating amateur radio transmitter
+* Continuously repeated transmissions
+* For observing field strength or for reception tests
+* Can also be in satellites
 </left>
 <right>
-* Fest zugewiesene Frequenz
-* Fester Standort
-* Rufzeichen in regelmäßigen Abständen
-* Meist in Morsetelegrafie
+* Fixed assigned frequency
+* Fixed location
+* Call sign at regular intervals
+* Usually in Morse telegraphy
 </right>
 
 ---
 [question:VD119]
 ---
 
-## Nutzung von Baken
-* Empfangbarkeit abhängig von wechselnden Ausbreitungsbedingungen
-* Indikator für die Machbarkeit einer Funkverbindung
-* Reflexion an Polarlichtern im VHF-Band durch "Aurora-Baken" testen
-* Durch Peilung Antennenausrichtung überprüfen
+## Use of beacons
+* Whether they can be received depends on changing propagation conditions
+* Indicator of whether a contact is feasible
+* Test reflection from the aurora on the VHF band with "aurora beacons"
+* Check antenna alignment by direction finding
 
 <note>
-* Hört man auf Kurzwelle eine Bake aus Südamerika, dann ist auch eine Funkverbindung dahin möglich
+* If you hear a beacon from South America on HF, a contact there is possible too
 </note>
 
 ---
@@ -30,27 +30,27 @@
 
 --- style="font-size: 0.7em;"
 
-## Internationales Bakenprojekt (IBP)
+## International Beacon Project (IBP)
 <left>
-* Größere Anzahl Baken auf allen Kontinenten verteilt
-* Senden in einem festgelegten zeitlichen Ablauf nacheinander aus
-* Alle auf der gleichen Frequenz
+* Fairly large number of beacons spread over all continents
+* Transmit one after another in a fixed time sequence
+* All on the same frequency
 </left>
 <right>
-| l: Band | X: Frequenzbereich |
+| l: Band | X: Frequency range |
 | $\qty{10}{\meter}$ | $\qtyrange{28190}{28225}{\kilo\hertz}$ |
 | $\qty{12}{\meter}$ | $\qtyrange{24929}{24931}{\kilo\hertz}$ |
 | $\qty{15}{\meter}$ | $\qtyrange{21149}{21151}{\kilo\hertz}$ |
 | $\qty{17}{\meter}$ | $\qtyrange{18109}{18111}{\kilo\hertz}$ |
 | $\qty{20}{\meter}$ | $\qtyrange{14099}{14101}{\kilo\hertz}$ |
-[table:n_baken_frequenzbereiche:Frequenzbereiche für Baken gemäß IARU-Bandplan]
+[table:n_baken_frequenzbereiche:Frequency ranges for beacons under the IARU band plan]
   
 <fragment>
-Keinen Funkbetrieb dort durchführen!
+Do not operate there!
 </fragment>
 </right>
 <note>
-* Sinnvoll, um sich schnell einen Überblick über die Ausbreitungsbedingungen zu verschaffen
+* Useful for getting a quick overview of the propagation conditions
 </note>
 
 ---

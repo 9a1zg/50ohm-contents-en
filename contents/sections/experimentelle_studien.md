@@ -1,8 +1,8 @@
-Für besondere experimentelle und technisch-wissenschaftliche Studien können von der BNetzA im Bedarfsfall besondere Amateurfunkrufzeichen zugeteilt werden. Diese sind jedoch zeitlich und im Berechtigungsumfang eingeschränkt. Sie werden gemäß § 16 Absatz 2 Satz 2 AFuV betrieben. Laut Rufzeichenplan können für die Klasse A Rufzeichen aus dem Bereich DA5AA bis DA5ZZZ zugewiesen werden. Für die Klasse E stehen die Rufzeichen DA4AA bis DA4ZZZ von der BNetzA zur Verfügung.
+For special experimental and technical-scientific studies, the Federal Network Agency (Bundesnetzagentur, BNetzA) can assign special amateur call signs where needed. These are, however, restricted in time and in their scope of privileges. They are operated under Section 16(2) sentence 2 of the Amateur Radio Ordinance (Amateurfunkverordnung, AFuV). According to the Call Sign Plan, call signs from the range DA5AA to DA5ZZZ can be assigned for Class A. For Class E, the BNetzA has the call signs DA4AA to DA4ZZZ available.
 
 %Auch die beiden folgenden Fragen sind mit dem [Rufzeichenplan](https://50ohm.de/rzp) einfach zu beantworten.
 % Um Satzfehler zu vermeiden habe ich den Satz umgestellt.
-Mit dem [Rufzeichenplan](https://50ohm.de/rzp) sind die beiden folgenden Fragen wieder einfach zu beantworten.
+With the [Call Sign Plan](https://50ohm.de/rzp), the following two questions are again easy to answer.
 
 [question:BD102]
 [question:VD116]

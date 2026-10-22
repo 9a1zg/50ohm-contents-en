@@ -1,18 +1,18 @@
 <right>
-[picture:668:n_remotestation:Remotestation]
+[picture:668:n_remotestation:Remote station]
 </right>
 <left>
-* Remotestationen ermöglichen einen Betrieb an einem anderen Standort
-* z.B. wenn am Wohnort keine eigene Station realisiert werden kann
-* Die gesamte Bedienung erfolgt ferngesteuert
-* Betrieb durch Funkamateure der Klasse A
-* Mitbenutzung möglich
+* Remote stations allow operation at another location
+* e.g. when no station of your own can be set up at home
+* All operation is carried out remotely
+* Operation by Class A radio amateurs
+* Sharing possible
 </left>
 
 <note>
-* gesamte Bedienung: Ein- und Ausschalten des Senders, Einstellen der Frequenz, Übertragen der Sende- und Empfangssignale
-* z.B. über das Internet
-* Mitbenutzung wird in ein paar Folien erläutert
+* All operation: switching the transmitter on and off, setting the frequency, transferring the transmit and receive signals
+* e.g. via the internet
+* Sharing is explained a few slides later
 </note>
 
 ---
@@ -23,13 +23,13 @@
 [question:VD607]
 ---
 
-## Betriebsmeldung
-* Remotebetrieb muss durch den Betreiber angezeigt werden
-* Mit Betriebsmeldung und Kontaktdaten an die BNetzA
-* Erreichbarkeit während des Betriebs unter den angegebenen Kontaktdaten
+## Operating notification
+* Remote operation must be notified by the operator
+* With an operating notification and contact details to the Federal Network Agency (Bundesnetzagentur, BNetzA)
+* Reachable during operation under the contact details given
 
 <note>
-* Die BNetzA möchte keine Störungen haben und deshalb einen Betreiber immer erreichen können
+* The BNetzA does not want any interference and therefore wants to be able to reach an operator at all times
 </note>
 
 ---
@@ -38,30 +38,30 @@
 [question:VD608]
 ---
 
-## Betriebssicherheit
-* Ununterbrochene, mittelbare und vollständige Kontrolle der Station
-* Kann über Hilfsmittel oder Helfer erfolgen
-* Bei Störungen muss die Stationen in einen sicheren Zustand versetzt werden
+## Operational safety
+* Continuous, indirect and complete control of the station
+* Can be exercised by means of aids or helpers
+* In the event of faults, the station must be put into a safe state
 
 <note>
-* z.B. bei Verbindungsverlust durch Netzabschaltung
+* e.g. by switching off the mains supply on loss of connection
 </note>
 
 ---
 [question:VD605]
 ---
 
-## Berechtigte Funkamateure
-* Erlaubnis des Betreibers für Nutzung notwendig
-* Betreiber darf nur berechtigte Funkamateure die Remotestation nutzen lassen
+## Authorised radio amateurs
+* The operator's permission is needed for use
+* The operator may only let authorised radio amateurs use the remote station
 
 ---
 [question:VD606]
 ---
 
-## Klubstationen
-* Klubstationen der Klasse A dürfen als Remotestation betrieben werden
-* Muss auf die Mitglieder der Gruppe von Funkamateuren begrenzt sein
+## Club stations
+* Class A club stations may be operated as remote stations
+* Must be limited to the members of the group of radio amateurs
 
 ---
 [question:VD604]
@@ -69,12 +69,12 @@
 [question:VD609]
 ---
 
-## Ausbildungsfunkbetrieb
-* Ist an einer Remotestation möglich
-* Es gelten die gleichen Regeln wie für den Ausbildungsbetrieb
-* Auch an Remote-Klubstationen möglich
+## Training operation
+* Is possible at a remote station
+* The same rules apply as for training operation in general
+* Also possible at remote club stations
 
 <note>
-* Unmittelbare Beaufsichtigung
-* /T bzw. /Trainee anhängen
+* Direct supervision
+* Append /T or /Trainee
 </note>

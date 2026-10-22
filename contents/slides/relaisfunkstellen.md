@@ -1,34 +1,34 @@
 <left>
-[picture:648:n_relaisfunkstellen_aufbau:Schematische Darstellung einer Relaisfunkstelle mit Nutzern]
+[picture:648:n_relaisfunkstellen_aufbau:Schematic diagram of a repeater with users]
 </left>
 <right>
-* Ermöglicht eine größere Reichweite als bei direkter Verbindung
-* Meist an exponierten Standorten, z.B. Berggipfeln, Hochhäusern, (Kirch-)Türmen
-* Oder in Satelliten
+* Provides a greater range than a direct contact
+* Usually at exposed locations, e.g. mountain tops, high-rise buildings, (church) towers
+* Or in satellites
 </right>
 
 <note>
-* Durch den Berg lässt sich nicht durchfunken
-* Mit dem Relais können beide Funkamateure eine Verbindung aufbauen
-* Mehr zu Satelliten später
+* You cannot transmit through the mountain
+* With the repeater, both radio amateurs can establish a contact
+* More on satellites later
 </note>
 
 ---
 
-## Definition Relaisfunkstelle
-eine fernbediente Amateurfunkstelle (auch in Satelliten), die empfangene Amateurfunkaussendungen, Teile davon oder sonstige eingespeiste oder eingespeicherte Signale fernausgelöst aussendet und dabei zur Erhöhung der Erreichbarkeit von Amateurfunkstellen dient
+## Definition of a repeater
+a remotely controlled amateur station (also in satellites) that transmits, when triggered remotely, received amateur radio transmissions, parts of them or other signals fed in or stored, and thereby serves to make amateur stations easier to reach
 
 ---
 <left>
-* Auch kurz genannt: Relais oder Repeater
-* Senden regelmäßig ihr Rufzeichen aus
-* Rufzeichen beginnt in der Regel mit DB0, DM0 oder DO0
+* In German also called *Relais* or *Repeater* for short
+* Transmit their call sign regularly
+* Call sign usually begins with DB0, DM0 or DO0
 </left>
 <fragment>
 <right>
-* Relaisfunkstellen werden nicht mit persönlichen Rufzeichen betrieben.
-* Relaisfunkstellen sind üblicherweise nicht ständig besetzt.
-* Relaisfunkstellen müssen nicht zwingend an geografisch exponierten Standorten betrieben werden.
+* Repeaters are not operated with personal call signs.
+* Repeaters are usually not permanently attended.
+* Repeaters do not necessarily have to be operated at geographically exposed locations.
 </right>
 </fragment>
 
@@ -36,30 +36,30 @@ eine fernbediente Amateurfunkstelle (auch in Satelliten), die empfangene Amateur
 [question:VD118]
 ---
 
-## Funktionsweise
+## How it works
 <left>
-* Empfängt auf der Eingangsfrequenz das Signal einer Amateurfunkstation
-* Strahlt es zeitgleich auf der Ausgabefrequenz aus
-* Damit der Sender nicht stört, sind die Frequenzen meistens unterschiedlich
+* Receives the signal of an amateur station on the input frequency
+* Transmits it simultaneously on the output frequency
+* So that the transmitter does not cause interference, the frequencies are usually different
 </left>
 <right>
 <fragment>
-Den Abstand nennt man *Frequenzablage* oder kurz *Ablage*
+The spacing is called the *repeater shift*, or *shift* for short
 
-| r: Band | r: Ablage |
+| r: Band | r: Shift |
 | $\qty{10}{\meter}$ | $\qty{100}{\kilo\hertz}$ |
 | $\qty{2}{\meter}$ | $\qty{600}{\kilo\hertz}$ |
-| $\qty{70}{\centi\meter}$ | $\qty{7,6}{\mega\hertz}$ |
+| $\qty{70}{\centi\meter}$ | $\qty{7.6}{\mega\hertz}$ |
 | $\qty{23}{\centi\meter}$ | $\qty{28}{\mega\hertz}$ |
-[table:n_relaisfunkstellen_ablage:Frequenzablage]
+[table:n_relaisfunkstellen_ablage:Repeater shift]
 </fragment>
 </right>
 
 ---
-Beispiel eines $\qty{70}{\centi\meter}$-Relais:
-* Eingabefrequenz: $\qty{431,275}{\mega\hertz}$
-* Ablage: $\qty{+7,600}{\mega\hertz}$
-* Ausgabefrequenz: $\qty{438,875}{\mega\hertz}$
+Example of a $\qty{70}{\centi\meter}$ repeater:
+* Input frequency: $\qty{431.275}{\mega\hertz}$
+* Shift: $\qty{+7.600}{\mega\hertz}$
+* Output frequency: $\qty{438.875}{\mega\hertz}$
 
 ---
 [question:BE401]
@@ -70,35 +70,35 @@ Beispiel eines $\qty{70}{\centi\meter}$-Relais:
 
 ---
 
-## Crossband-Betrieb
-* Sendet und empfängt gleichzeitig auf zwei verschiedenen Bändern, z.B. $\qty{2}{\meter}$ und $\qty{70}{\centi\meter}$
-* Umsetzung der Sendeart auch möglich, z.B. SSB auf FM
+## Crossband operation
+* Transmits and receives simultaneously on two different bands, e.g. $\qty{2}{\meter}$ and $\qty{70}{\centi\meter}$
+* Conversion of the mode also possible, e.g. SSB to FM
 
 ---
 
 ## Digipeater
-* Vermittelt Daten statt Sprache
-* Empfängt und sendet Datenpakete
-* Aussendung kann nur in Teilen oder zeitversetzt geschehen
-* Datenpakete können wiederholt werden
-* Einzelne Datenfelder können geändert werden
+* Passes on data instead of voice
+* Receives and transmits data packets
+* Transmission can take place only in parts or with a time delay
+* Data packets can be repeated
+* Individual data fields can be changed
 
 <note>
-* Für Packet Radio, was in den 90ern vor dem Internet beliebt war
-* Kommt später etwas ausführlicher
+* For packet radio, which was popular in the 90s, before the internet
+* Covered in a little more detail later
 </note>
 
 ---
 [question:NF118]
 ---
 
-## Besondere Einstellungen
-* Ggf. sind weitere Einstellungen für die Verbindung zum Relais notwendig
-* Diese Informationen sind in Repeaterverzeichnissen, auf Webseiten oder beim Relaisverantwortlichen erhältlich
-* Neben FM-Repeatern gibt es welche für digitale Sprache wie DMR oder D-Star
+## Special settings
+* Further settings may be needed for the connection to the repeater
+* This information is available from repeater directories, on websites or from the person responsible for the repeater
+* Besides FM repeaters, there are repeaters for digital voice such as DMR or D-Star
 
 <note>
-Ein Beispiel für weitere Einstellungen ist ein Subton mit CTCSS
+An example of further settings is a CTCSS subtone
 </note>
 
 ---
@@ -107,29 +107,29 @@ Ein Beispiel für weitere Einstellungen ist ein Subton mit CTCSS
 [question:NE308]
 ---
 
-## Kanalbandbreite
-* Der benötigte Platz im Frequenzspektrum
-* Wide-FM: $\qty{25}{\kilo\hertz}$
-* Narrow-FM: $\qty{12,5}{\kilo\hertz}$
-* Repeater mögen Narrow-FM, da sonst Signale verzerrt sind und benachbarte Frequenzen gestört werden
+## Channel bandwidth
+* The space needed in the frequency spectrum
+* Wide FM: $\qty{25}{\kilo\hertz}$
+* Narrowband FM: $\qty{12.5}{\kilo\hertz}$
+* Repeaters like narrowband FM, as otherwise signals are distorted and adjacent frequencies suffer interference
 
 ---
 [question:BE407]
 ---
 
-## Störungsfreier Betrieb
-* Grundsätzlich können alle Funkamateure mit ihrem zugeteilten Rufzeichen fernbediente Amateurfunkstellen nutzen
-* Betreiber kann zur Sicherstellung des störungsfreien Betriebs Funkamateure ausschließen
-* Die BNetzA ist hiervon zu unterrichten
+## Interference-free operation
+* In principle, all radio amateurs can use remotely controlled amateur stations with their assigned call sign
+* To ensure interference-free operation, the operator can exclude radio amateurs
+* The Federal Network Agency (Bundesnetzagentur, BNetzA) must be informed of this
 
 ---
 [question:VD504]
 ---
 
-## Funkbetrieb auf Repeatern
-* Kurze Durchgänge
-* Mobile und portable Stationen sind oft nur kurzzeitig in Empfangsreichweite
-* Pause zwischen den Durchgängen zum Reinmelden anderer Stationen
+## Operating on repeaters
+* Short overs
+* Mobile and portable stations are often within range only briefly
+* Pause between overs so that other stations can join in
 
 ---
 [question:BE406]
@@ -137,10 +137,10 @@ Ein Beispiel für weitere Einstellungen ist ein Subton mit CTCSS
 [question:BE404]
 ---
 
-## Doppeln
-* Bei gleichzeitiger Spracheingabe wird die Aussendung bis zur Unlesbarkeit gestört
-* "Doppeln" durch ordentliche Übergabe vermeiden
-* Aussendung erst dann beginnen, wenn die vorige Station beendet hat
+## Doubling
+* If stations speak at the same time, the transmission is disturbed to the point of being unreadable
+* Avoid "doubling" by a proper handover
+* Only begin transmitting once the previous station has finished
 
 ---
 [question:NE310]
@@ -148,18 +148,18 @@ Ein Beispiel für weitere Einstellungen ist ein Subton mit CTCSS
 [question:BE405]
 ---
 
-## Sendeleistung
-* Nach Anlage 1 der AFuV
-* Für automatische Station oberhalb von $\qty{30}{\mega\hertz}$ mit $\qty{50}{\watt}$ ERP
+## Transmit power
+* Under Annex 1 to the Amateur Radio Ordinance (Amateurfunkverordnung, AFuV)
+* For an automatic station above $\qty{30}{\mega\hertz}$, $\qty{50}{\watt}$ ERP
 
 ---
 [question:VD503]
 ---
 
-## Rapport
-* Empfangene Signalstärke (S) ist die des Relais
-* Es wird darauf verzichtet
-* Nur die Lesbarkeit (R) wird im Rapport beurteilt
+## Report
+* The received signal strength (S) is that of the repeater
+* It is not given
+* Only the readability (R) is assessed in the report
 
 ---
 [question:BE408]

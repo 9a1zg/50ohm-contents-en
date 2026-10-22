@@ -1,43 +1,43 @@
-Beim Funken von einem Standort anders als dem in der Zulassungsurkunde angegebenen Heimatstandort, kann ein Rufzeichenzusatz verwendet werden.
+When operating from a location other than the home location given in the licence document, a call sign suffix can be used.
 <note>
-Die Angabe ist freiwillig. Kann aber für die Gegenstelle interessant sein, falls die Verbindung abbricht.
+Giving it is voluntary, but it can be of interest to the other station in case the contact breaks off.
 </note>
 
 --- style="font-size: 0.7em;"
-| l: Zusatz | l: Gesprochen | l: Bedeutung |
-| am | aeronautisch mobil | An Bord eines Luftfahrzeugs, das sich im Flug befindet |
-| mm | maritim mobil | An Bord eines Schiffs auf See |
-| m | mobil | Von einem Landfahrzeug oder einem Schiff auf Binnengewässern aus |
-| p | portabel | Zu Fuß unterwegs oder vorübergehend ortsfest |
-| R | Remote | Remote-Betrieb |
-| T | Trainee | Ausbildungsfunk |
-[table:n_rufzeichenzusaetze:Mögliche Rufzeichenzusätze]
+| l: Suffix | l: Spoken | l: Meaning |
+| am | aeronautical mobile | On board an aircraft in flight |
+| mm | maritime mobile | On board a ship at sea |
+| m | mobile | From a land vehicle or from a ship on inland waters |
+| p | portable | On foot or at a temporary fixed location |
+| R | Remote | Remote operation |
+| T | Trainee | Training operation |
+[table:n_rufzeichenzusaetze:Possible call sign suffixes]
 
 <note>
-Es dürfen nur diese Zusätze verwendet werden. Keine anderen.
+Only these suffixes may be used. No others.
 </note>
 
 --- style="font-size: 0.7em;"
-* Geschrieben mit "/"
-* Gesprochen direkt im Anschluss an das Rufzeichen oder mit "Stroke"
+* Written with "/"
+* Spoken straight after the call sign or with "Stroke"
 
 <fragment>
-| l: Schreibweise | X: Aussprache |
-| DL1FLO/m | Delta Lima Eins Foxtrott Lima Oskar (Stroke) Mobil |
-| DM4EAX/p | Delta Mike Vier Echo Alpha X-Ray (Stroke) Portabel |
-| DL1ASN/mm | Delta Lima Eins Alpha Sierra November (Stroke) Maritim Mobil |
-| DG2RON/am | Delta Golf Zwei Romeo Oscar November (Stroke) Aeronautisch Mobil |
-[table:n_rufzeichenzusaetze_sprechweise:Sprechweise von Rufzeichenzusätzen, "Stroke" ist optional und kann weggelassen werden]
+| l: Written | X: Pronunciation |
+| DL1FLO/m | Delta Lima One Foxtrot Lima Oscar (Stroke) Mobile |
+| DM4EAX/p | Delta Mike Four Echo Alpha X-Ray (Stroke) Portable |
+| DL1ASN/mm | Delta Lima One Alpha Sierra November (Stroke) Maritime Mobile |
+| DG2RON/am | Delta Golf Two Romeo Oscar November (Stroke) Aeronautical Mobile |
+[table:n_rufzeichenzusaetze_sprechweise:How call sign suffixes are spoken; "Stroke" is optional and can be left out]
 
 </fragment>
 
 ---
 
-## Aeronautisch Mobil
-* An Bord eines Luftfahrzeugs (Flugzeug, Heißluftballon, Zeppelin, o.ä.)
-* Muss sich komplett in der Luft befinden
-* Keine Verbindung zum Boden
-* Betrieb muss vom Luftfahrzeugführer erlaubt sein, jedoch nicht von der BNetzA genehmigt werden
+## Aeronautical mobile
+* On board an aircraft (aeroplane, hot-air balloon, zeppelin or similar)
+* Must be completely in the air
+* No connection to the ground
+* Operation must be permitted by the pilot in command, but need not be authorised by the Federal Network Agency (Bundesnetzagentur, BNetzA)
 
 ---
 [question:BD201]
@@ -47,11 +47,11 @@ Es dürfen nur diese Zusätze verwendet werden. Keine anderen.
 [question:VE705]
 ---
 
-## Maritim Mobil
-* An Bord eines Wasserfahrzeugs (Motorboot, Segelyacht, o.ä.)
-* Außerhalb der 12-Meilen-Zone
-* Auf Flüssen, Seen oder ähnlichen Binnengewässern darf "/m" (mobil) verwendet werden
-* Betrieb muss vom Schiffsführer erlaubt sein, jedoch nicht von der BNetzA genehmigt werden
+## Maritime mobile
+* On board a vessel (motor boat, sailing yacht or similar)
+* Outside the 12-mile zone
+* On rivers, lakes or similar inland waters, "/m" (mobile) may be used
+* Operation must be permitted by the master, but need not be authorised by the BNetzA
 
 ---
 [question:BD205]
@@ -61,9 +61,9 @@ Es dürfen nur diese Zusätze verwendet werden. Keine anderen.
 [question:VD115]
 ---
 
-## Mobil
-* In einem Landfahrzeug wie Auto oder Zug
-* Oder an Bord eines Schiffs auf Binnengewässern
+## Mobile
+* In a land vehicle such as a car or train
+* Or on board a ship on inland waters
 
 ---
 [question:BD203]
@@ -71,10 +71,10 @@ Es dürfen nur diese Zusätze verwendet werden. Keine anderen.
 [question:BD204]
 ---
 
-## Portabel
-* Station vorübergehend an einem Standort, der nicht auf der Zuteilungsurkunde eingetragen ist
-* z.B. in der Natur
-* Auch bei Bewegung (zu Fuß) mit tragbarem Funkgerät
+## Portable
+* Station set up temporarily at a location that is not entered in the assignment document
+* e.g. out in the countryside
+* Also when moving about (on foot) with a portable radio
 
 ---
 [question:BD206]
@@ -83,16 +83,16 @@ Es dürfen nur diese Zusätze verwendet werden. Keine anderen.
 ---
 
 ## Remote
-* Betrieb an einer Remote-Station
-* Optional "/R" bzw. "/Remote"
+* Operation at a remote station
+* Optionally "/R" or "/Remote"
 
 ---
 [question:BD208]
 ---
 
 ## Trainee
-* Bei Ausbildungsfunkbetrieb ist "/T" bzw. "/Trainee" verpflichtend
-* Alle anderen Zusätze sind freiwillig und können weggelassen werden
+* In training operation, "/T" or "/Trainee" is mandatory
+* All other suffixes are voluntary and can be left out
 
 ---
 [question:BD209]

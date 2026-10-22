@@ -1,17 +1,17 @@
 <margin>
-[photo:58:n_klubstationen_klubstation:Die Klubstation DL0AO des DARC-Ortsverbands Amberg]
+[photo:58:n_klubstationen_klubstation:The club station DL0AO of the Amberg DARC local club]
 </margin>
 
 ---
 
-In der Regel wird eine Amateurfunkstation nur von einer Person betrieben. Manche Funkamateure betreiben aber auch gemeinsam eine Station, die dann als Klubstation bezeichnet wird. Neben den personengebundenem Rufzeichen gibt es für solche Gruppen von mindestens drei Funkamateuren spezielle Rufzeichen zur gemeinschaftlichen Nutzung an einer Klubstation (siehe Tabelle [ref:n_klubstation_rufzeichen]).
+As a rule, an amateur station is operated by only one person. Some radio amateurs, however, operate a station together, which is then called a club station. Besides personal call signs, there are special call signs for such groups of at least three radio amateurs, for joint use at a club station (see Table [ref:n_klubstation_rufzeichen]).
 
 [question:VD117]
 
 ---
 
 <margin>
-| l: Rufzeichen | l: | l: | X: Klasse |
+| l: Call sign | l: | l: | X: Class |
 | DAØAA | - | DAØZZZ | A |
 | DAØA | - | DA3Z | A |
 | DBØA | - | DD9Z | A |
@@ -25,46 +25,46 @@ In der Regel wird eine Amateurfunkstation nur von einer Person betrieben. Manche
 | DOØA | - | DO9Z | E |
 | DP3A | - | DP9Z | A |
 | DQØA | - | DR9Z | A |
-[table:n_klubstation_rufzeichen:Rufzeichen für Klubstationen]
+[table:n_klubstation_rufzeichen:Call signs for club stations]
 </margin>
 
-Die folgenden Fragen können wieder mit Hilfe des [Rufzeichenplans](https://50ohm.de/rzp) beantwortet werden:
+The following questions can again be answered with the help of the [Call Sign Plan](https://50ohm.de/rzp):
 
 [question:BD101]
 [question:BD103]
 
-Um ein Rufzeichen für eine Klubstation zu beantragen, muss die Gruppe eine Person als Stationsverantwortlichen benennen, die selber Funkamateur mit Zulassung zur Teilnahme am Amateurfunkdienst ist. Der Stationsverantwortliche wird Inhaber des Rufzeichens, das in der Regel unbefristet zugeteilt wird. Für spezielle Klubstationen, wie z. B. Notfunkklubstationen, wird das Rufzeichen befristet auf 5 Jahre zugeteilt. Die genauen Bestimmungen können immer im [Rufzeichenplan](https://50ohm.de/rzp) nachgelesen werden. Das Rufzeichen für die Klubstation darf erst verwendet werden, wenn die Zuteilung erfolgt ist.
+To apply for a club station call sign, the group must name a person as the responsible radio amateur, who must themselves be a radio amateur with an authorisation to participate in the amateur service. The responsible radio amateur becomes the holder of the call sign, which is usually assigned without a time limit. For special club stations, such as emergency communications club stations, the call sign is assigned for a limited period of 5 years. The exact provisions can always be looked up in the [Call Sign Plan](https://50ohm.de/rzp). The club station call sign may only be used once it has been assigned.
 
 [question:VD401]
 [question:VD402]
 [question:VD403]
 
-Eine Klubstation darf von jedem Funkamateur genutzt werden, der über eine Zulassung zur Teilnahme am Amateurfunkdienst verfügt. Die Benutzung ist auch nicht auf Mitglieder der Gruppe beschränkt.
+A club station may be used by any radio amateur who holds an authorisation to participate in the amateur service. Its use is not restricted to members of the group, either.
 
 [question:VD404]
 [question:VD405]
 
 ---
 
-Ein Funkamateur mit der Zeugnisklasse N oder E darf auch an einer Klubstation der Klasse A Funkbetrieb machen, jedoch nur im Rahmen seiner Berechtigung. Umgekehrt darf ein Funkamateur mit Zeugnisklasse A an einer Klubstation der Klasse E oder N nur die jeweils für die Klasse E bzw. N zugelassenen Leistungen und Bänder verwenden. Das gleiche gilt entsprechend für alle anderen Kombinationen, so wie in der Tabelle [ref:n_klubstation_unterschiedliche_klassen] dargestellt.
+A radio amateur with certificate class N or E may also operate at a Class A club station, but only within the scope of their own privileges. Conversely, a radio amateur with certificate class A may use at a Class E or N club station only the powers and bands permitted for Class E or N respectively. The same applies accordingly to all other combinations, as shown in Table [ref:n_klubstation_unterschiedliche_klassen].
 
 <webmargin>
 | X: | c: Station N | c: Station E | c: Station A |
-| Funkamateur N | N | N | N |
-| Funkamateur E | N | E | E |
-| Funkamateur A | N | E | A |
-[table:n_klubstation_unterschiedliche_klassen:Darstellung, im Rahmen welcher Klasse Funkbetrieb durchgeführt werden darf, wenn sich Klasse des Funkamateurs und Klasse der Klubstation unterscheiden]
+| Radio amateur N | N | N | N |
+| Radio amateur E | N | E | E |
+| Radio amateur A | N | E | A |
+[table:n_klubstation_unterschiedliche_klassen:The class within which operation is permitted when the class of the radio amateur and the class of the club station differ]
 </webmargin>
 
-Hier zwei Beispiele anhand des $\qty{40}{\meter}$-Bands, das nur Inhaber einer Amateurfunkzulassung der Klasse A nutzen dürfen:
-* Der Funkamateur der Klasse E darf die Klubstation der Klasse A nutzen, aber nicht das $\qty{40}{\meter}$-Band, da dieses für die Klasse E nicht freigegeben ist.
-* Der Funkamateur der Klasse A darf die Klubstation der Klasse E nutzen, aber dort nicht das $\qty{40}{\meter}$-Band, da dieses, wie bereits erwähnt, nicht für die Klasse E zugelassen ist.
+Here are two examples using the $\qty{40}{\meter}$ band, which only holders of a Class A amateur radio licence may use:
+* The Class E radio amateur may use the Class A club station, but not the $\qty{40}{\meter}$ band, since it is not open to Class E.
+* The Class A radio amateur may use the Class E club station, but not the $\qty{40}{\meter}$ band there, since, as already mentioned, it is not permitted for Class E.
 
-Zusammenfassend gesagt: Die niedrigste Klasse gibt die maximale Berechtigung vor.
+In short: the lowest class sets the maximum privileges.
 
 [question:VD406]
 [question:VD407]
 
-Bei Veranstaltungen oder ähnlichem kann eine Klubstation auch kurzzeitig an anderen Standorten betrieben werden. Eine Meldung an die BNetzA ist bei einer *kurzzeitigen* Änderung des Standortes nicht erforderlich.
+For events or similar occasions, a club station can also be operated for a short time at other locations. No notification to the Federal Network Agency (Bundesnetzagentur, BNetzA) is required for a *short-term* change of location.
 
 [question:VD408]

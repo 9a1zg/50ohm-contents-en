@@ -323,6 +323,19 @@ and the checker's "Provjera" section).
   "sporadic E layer" — rather than evening them out. The earlier entry
   (*region*, not the RSGB's *layer*) concerns the questions, which only say
   *Region*. (Unit nea_wellenausbreitung_1.)
+- **Spoken call signs in examples use English voice procedure too.** The
+  table of spoken call sign suffixes (rufzeichenzusaetze, section and
+  slides) gives German national usage — *Delta Lima Eins Foxtrott Lima
+  Oskar (Stroke) Mobil*. In English it is "Delta Lima One Foxtrot Lima
+  Oscar (Stroke) Mobile": digits in English, the ITU spellings of the code
+  words where the German uses its own (*Foxtrott*, *Oskar*), and the
+  suffixes spoken as English operators say them — "Stroke Portable",
+  "Mobile", "Maritime Mobile", "Aeronautical Mobile"; "Stroke", "Remote"
+  and "Trainee" are English already. This extends the `<qso>` entry above
+  to quoted call signs. German digits (*Vier*) stay only where the text
+  itself says it is showing German national usage (buchstabiertafel).
+  Spellings the German shares with English usage (*Alpha*, *X-Ray*) are
+  kept as written. (Unit nea_amateurfunkstationen.)
 
 ## Open questions for DARC
 

@@ -1,9 +1,9 @@
-Eine Linkstrecke ist eine fest eingerichtete Funkverbindung, die der Vernetzung von zwei Amateurfunkstellen, z. B. Relaisfunkstellen oder HAMNET-Knoten, dient. Da es sich bei Linkstrecken um automatisch arbeitende Stationen handelt, benötigen diese immer eine Zulassung durch die BNetzA und ein eigenes Rufzeichen.
+A link is a permanently established radio link that serves to network two amateur stations, e.g. repeaters or HAMNET nodes. Since links are automatically operating stations, they always require an authorisation from the Federal Network Agency (Bundesnetzagentur, BNetzA) and a call sign of their own.
 
 <margin>
-[photo:127:n_linkstrecken_db0fc:Wartungsarbeiten am HAMNET-Knoten DB0FC, im Vordergrund die Richtantenne für die Linkstrecke zu DB0BWL]
+[photo:127:n_linkstrecken_db0fc:Maintenance work on the HAMNET node DB0FC; in the foreground, the directional antenna for the link to DB0BWL]
 </margin>
 
-Eine Linkstrecke überträgt in der Regel Daten. Sie kann aber auch als analoge Brücke zwischen Relais dienen. Die meisten Linkstrecken arbeiten im $\unit{\giga\hertz}$-Bereich des Amateurfunkspektrums und bilden zusammen als HAMNET (Highspeed Amateurradio Multimedia NETwork) ein von Funkamateuren betriebenes Daten-Netzwerk.
+A link usually transmits data. It can, however, also serve as an analogue bridge between repeaters. Most links operate in the $\unit{\giga\hertz}$ range of the amateur radio spectrum and together form HAMNET (Highspeed Amateurradio Multimedia NETwork), a data network run by radio amateurs.
 
 [question:NE405]

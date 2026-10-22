@@ -1,65 +1,65 @@
-## Personengebundene Rufzeichen
+## Personal call signs
 
-* Jeder Funkamateur mit Zulassung zum Amateurfunkdienst in Deutschland
-* Rufzeichen wird durch die BNetzA zugeteilt
-* Weltweit eindeutig
-* Darf nur durch den zugeteilten Funkamateur benutzt werden
+* Every radio amateur with an authorisation for the amateur service in Germany
+* Call sign is assigned by the Federal Network Agency (Bundesnetzagentur, BNetzA)
+* Unique worldwide
+* May only be used by the radio amateur to whom it is assigned
 
 ---
 [question:VC116]
 ---
 
-## Aufbau von Rufzeichen
+## Structure of call signs
 
 <left>
-[picture:654:n_amateurfunkstrationen_aufbau_rufzeichen:Aufbau Rufzeichen - K4EAX, WZ6Y, DL1FLO]
+[picture:654:n_amateurfunkstrationen_aufbau_rufzeichen:Structure of call signs - K4EAX, WZ6Y, DL1FLO]
 </left>
 <right>
-Drei Teile:
-* Präfix
-* Ziffer
+Three parts:
+* Prefix
+* Digit
 * Suffix
 </right>
 
 <note>
-* Präfix: ein bis zwei Zeichen, z.B. DL, 4U oder K
-* Ziffer: von 0 bis 9
-* Suffix: mindestens ein weiteres Zeichen
+* Prefix: one or two characters, e.g. DL, 4U or K
+* Digit: from 0 to 9
+* Suffix: at least one further character
 </note>
 ---
-## Präfix
+## Prefix
 
-* Ist länderspezifisch zugeordnet
-* Zur Lokalisierung von Amateurfunkstationen
-* Werden durch die Internationale Fernmeldeunion (International Telecommunication Union, ITU) festgelegt
-* Stehen in den Radio Regulations (RR)
-* Mitgliedsstaaten sollen dieses in nationales Recht umsetzen
+* Assigned by country
+* For locating amateur stations
+* Laid down by the International Telecommunication Union (ITU)
+* Contained in the Radio Regulations (RR)
+* Member states are to implement them in national law
 
 ---
 
-## Präfixe Deutschland
+## Prefixes for Germany
 
-* DA bis DR
-* Y2 bis Y9
-  * früher DDR und werden nur noch sehr selten verwendet
+* DA to DR
+* Y2 to Y9
+  * formerly the GDR, and now used only very rarely
 
 <note>
-* Y8 Zuletzt bei der Amateurfunkweltmeisterschaft WRTC 2018
+* Y8 most recently at the WRTC 2018 amateur radio world championship
 </note>
 
 ---
 [question:VA406]
 ---
 
-## Personengebundene Rufzeichen Deutschland
+## Personal call signs in Germany
 
 <left>
-* 2 Buchstaben Präfix
-* eine Ziffer
-* 2-3 Buchstaben Suffix
+* 2-letter prefix
+* one digit
+* 2-3-letter suffix
 </left>
 <right>
-Beispiele:
+Examples:
 * DL1ABC
 * DO5XYZ
 * DA0RC
@@ -69,25 +69,25 @@ Beispiele:
 [question:VD203]
 ---
 
-## Weitere Rufzeichen
+## Further call signs
 
-* Fernbediente und automatisch arbeitende Amateurfunkstellen
-* Klubstationen
+* Remotely controlled and automatically operating amateur stations
+* Club stations
 
 ---
 [question:VD202]
 ---
 
-## Rufzeichenplan
+## Call Sign Plan
 
-* In Deutschland durch die BNetzA
-* Nach [Rufzeichenplan](https://50ohm.de/rzp)
-* Verwendungszweck erkennbar anhand von Präfix, Ziffern und Suffix
-* Steht während der Prüfung zur Verfügung
-* Nach der Prüfung regelmäßig über Änderungen informieren
+* In Germany by the BNetzA
+* According to the [Call Sign Plan](https://50ohm.de/rzp)
+* Purpose recognisable from the prefix, digits and suffix
+* Provided during the exam
+* After the exam, keep informed regularly about changes
 
 <note>
-* Mit Dokument vertraut machen, da sehr hilfreich für etliche Fragen
+* Become familiar with the document, as it is very helpful for a number of questions
 </note>
 
 ---

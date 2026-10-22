@@ -1,10 +1,10 @@
 <left>
-[photo:58:n_klubstationen_klubstation:Die Klubstation DL0AO des DARC-Ortsverbands Amberg]
+[photo:58:n_klubstationen_klubstation:The club station DL0AO of the Amberg DARC local club]
 </left>
 <right>
-* Gemeinsamer Betrieb einer Station
-* Gruppe von mindestens 3 Funkamateuren
-* Können ein spezielles Rufzeichen beantragen
+* Joint operation of a station
+* Group of at least 3 radio amateurs
+* Can apply for a special call sign
 </right>
 
 ---
@@ -12,10 +12,10 @@
 
 --- style="font-size: 0.7em;"
 
-## Rufzeichenplan
+## Call Sign Plan
 
 <left>
-| l: Rufzeichen | l: | l: | X: Klasse |
+| l: Call sign | l: | l: | X: Class |
 | DAØAA | - | DAØZZZ | A |
 | DAØA | - | DA3Z | A |
 | DBØA | - | DD9Z | A |
@@ -23,20 +23,20 @@
 | DJØA | - | DM9Z | A |
 | DFØAA | - | DFØZZZ | A |
 | DKØAA | - | DKØZZZ | A |
-[table:n_klubstation_rufzeichen_1:Rufzeichen für Klubstationen]
+[table:n_klubstation_rufzeichen_1:Call signs for club stations]
 </left>
 <right>
-| l: Rufzeichen | l: | l: | l: Klasse |
+| l: Call sign | l: | l: | l: Class |
 | DLØAA | - | DLØZZZ | A |
 | DNØA | - | DNØZ | E |
 | DNØAA | - | DNØZZZ | E |
 | DOØA | - | DO9Z | E |
 | DP3A | - | DP9Z | A |
 | DQØA | - | DR9Z | A |
-[table:n_klubstation_rufzeichen_2:Rufzeichen für Klubstationen]
+[table:n_klubstation_rufzeichen_2:Call signs for club stations]
 </right>
 <note>
-Aus dem [Rufzeichenplan](https://50ohm.de/rzp) entnommen
+Taken from the [Call Sign Plan](https://50ohm.de/rzp)
 </note>
 
 ---
@@ -45,14 +45,14 @@ Aus dem [Rufzeichenplan](https://50ohm.de/rzp) entnommen
 [question:BD103]
 ---
 
-## Stationsverantwortlicher
+## Responsible radio amateur
 
-* Zur Beantragung ist ein Stationsverantwortlicher zu benennen
-* Muss selbst Funkamateur mit Zulassung sein
-* Rufzeichenklasse muss der für die Klubstation gleich sein
-* Wird in der Regel unbefristet zugeteilt
-* Befristungen sind möglich: Siehe [Rufzeichenplan](https://50ohm.de/rzp) 
-* Verwendung erst nach Zuteilung möglich
+* A responsible radio amateur must be named for the application
+* Must be a licensed radio amateur
+* Their call sign class must be the same as that of the club station
+* The call sign is usually assigned without a time limit
+* Time limits are possible: see the [Call Sign Plan](https://50ohm.de/rzp) 
+* Can be used only after assignment
 
 ---
 [question:VD401]
@@ -62,10 +62,10 @@ Aus dem [Rufzeichenplan](https://50ohm.de/rzp) entnommen
 [question:VD403]
 ---
 
-## Nutzung
+## Use
 
-* Von jedem Funkamateur mit Zulassung
-* Nicht auf die Mitglieder der Gruppe beschränkt
+* By any licensed radio amateur
+* Not restricted to the members of the group
 
 ---
 [question:VD404]
@@ -73,30 +73,30 @@ Aus dem [Rufzeichenplan](https://50ohm.de/rzp) entnommen
 [question:VD405]
 ---
 
-## Funkbetrieb
+## Operation
 
-* Klasse N oder E darf an Klubstation mit Klasse A Betrieb machen
-  * Jedoch nur im Rahmen seiner Bänder und Leistung
-* Klasse A darf an Klubstation der Klasse E oder N Betrieb machen
-  * Jedoch nur im Rahmen der Bänder und Leistung der Klubstation
+* Class N or E may operate at a Class A club station
+  * But only within their own bands and power
+* Class A may operate at a Class E or N club station
+  * But only within the bands and power of the club station
 
 <fragment>
-Die niedrigste Klasse gibt die maximale Berechtigung vor.
+The lowest class sets the maximum privileges.
 </fragment>
 
 --- style="font-size: 0.8em;"
 | X: | c: Station N | c: Station E | c: Station A |
-| Funkamateur N | N | N | N |
-| Funkamateur E | N | E | E |
-| Funkamateur A | N | E | A |
-[table:n_klubstation_unterschiedliche_klassen:Darstellung im Rahmen welcher Klasse Funkbetrieb durchgeführt werden darf, wenn sich Klasse des Funkamateurs und Klasse der Klubstation unterscheiden]
+| Radio amateur N | N | N | N |
+| Radio amateur E | N | E | E |
+| Radio amateur A | N | E | A |
+[table:n_klubstation_unterschiedliche_klassen:The class within which operation is permitted when the class of the radio amateur and the class of the club station differ]
 
 ---
 
-Zwei Beispiele anhand des $\qty{40}{\meter}$-Bands, das nur Inhaber einer Amateurfunkzulassung der Klasse A nutzen dürfen:
+Two examples using the $\qty{40}{\meter}$ band, which only holders of a Class A amateur radio licence may use:
 
-* Der Funkamateur der Klasse E darf die Klubstation der Klasse A nutzen, aber nicht das $\qty{40}{\meter}$-Band, da dieses für die Klasse E nicht freigegeben ist.
-* Der Funkamateur der Klasse A darf die Klubstation der Klasse E nutzen, aber dort nicht das $\qty{40}{\meter}$-Band, da dieses nicht für die Klasse E zugelassen ist.
+* The Class E radio amateur may use the Class A club station, but not the $\qty{40}{\meter}$ band, since it is not open to Class E.
+* The Class A radio amateur may use the Class E club station, but not the $\qty{40}{\meter}$ band there, since it is not permitted for Class E.
 
 ---
 [question:VD406]
@@ -104,11 +104,11 @@ Zwei Beispiele anhand des $\qty{40}{\meter}$-Bands, das nur Inhaber einer Amateu
 [question:VD407]
 ---
 
-## Standort
+## Location
 
-* Eine Klubstation darf *kurzzeitig* an anderen Standorten betrieben werden
-* Eine Meldung an die BNetzA ist nicht erforderlich
-* Bei Veranstaltungen oder ähnlichem nützlich
+* A club station may be operated *for a short time* at other locations
+* No notification to the Federal Network Agency (Bundesnetzagentur, BNetzA) is required
+* Useful at events or similar occasions
 
 ---
 [question:VD408]

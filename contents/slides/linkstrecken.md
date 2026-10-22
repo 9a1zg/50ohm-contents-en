@@ -1,26 +1,26 @@
 <left>
-[photo:127:n_linkstrecken_db0fc:Wartungsarbeiten am HAMNET-Knoten DB0FC, im Vordergrund die Richtantenne für die Linkstrecke zu DB0BWL]
+[photo:127:n_linkstrecken_db0fc:Maintenance work on the HAMNET node DB0FC; in the foreground, the directional antenna for the link to DB0BWL]
 </left>
 <right>
-* Fest eingerichtete Funkverbindung zwischen zwei Amateurfunkstellen
-* Automatisch arbeitende Station
-* Benötigt eigene Zulassung mit Rufzeichen durch BNetzA
+* Permanently established radio link between two amateur stations
+* Automatically operating station
+* Needs its own authorisation with a call sign from the Federal Network Agency (Bundesnetzagentur, BNetzA)
 </right>
 <note>
-* z.B. zwischen Relaisfunkstellen oder HAMNET-Knoten
+* e.g. between repeaters or HAMNET nodes
 </note>
 
 ---
-* Überträgt in der Regel Daten
-* Kann als analoge Brücke zwischen Relais dienen
-* Arbeitet meistens im $\unit{\giga\hertz}$-Bereich des Amateurfunk-Spektrums
-* Bilden zusammen das HAMNET (Highspeed Amateurradio Multimedia NETwork)
+* Usually transmits data
+* Can serve as an analogue bridge between repeaters
+* Usually operates in the $\unit{\giga\hertz}$ range of the amateur radio spectrum
+* Together, links form HAMNET (Highspeed Amateurradio Multimedia NETwork)
 
 <note>
-* Teilweise WLAN-Router, bei denen die Frequenz etwas verändert wurde, um im Afu-$\qty{2,4}{\giga\hertz}$ oder $\qty{5}{\giga\hertz}$ zu arbeiten
-* Höhere $\unit{\giga\hertz}$-Bänder mit mehr Bandbreite sind im Aufbau
-* Mehr als $\qty{100}{\kilo\meter}$ Linkstrecken möglich
-* Eventuell einen Blick auf die [HamnetDB-Karte](https://hamnetdb.net/map.cgi) werfen
+* Some are Wi-Fi routers whose frequency has been changed slightly so that they work in the amateur $\qty{2.4}{\giga\hertz}$ or $\qty{5}{\giga\hertz}$ bands
+* Higher $\unit{\giga\hertz}$ bands with more bandwidth are being built up
+* Links of more than $\qty{100}{\kilo\meter}$ possible
+* Perhaps have a look at the [HamnetDB map](https://hamnetdb.net/map.cgi)
 </note>
 
 ---

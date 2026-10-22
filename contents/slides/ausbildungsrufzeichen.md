@@ -1,11 +1,11 @@
-* Funkamateure der Klasse E und A sind automatisch Ausbilder
-* Unter Aufsicht
-* Im Berechtigungsumfang des Ausbilders
-* Personengebundenes Rufzeichen + "/T" bzw. "/Trainee"
-* Klubstation + "/T" bzw. "/Trainee"
+* Class E and A radio amateurs are automatically instructors
+* Under supervision
+* Within the instructor's scope of privileges
+* Personal call sign + "/T" or "/Trainee"
+* Club station + "/T" or "/Trainee"
 
 <note>
-* Bisher und bis Ende 2028 gültig: Eigene Ausbildungsrufzeichen mit DN1-DN8
+* Valid until now and until the end of 2028: separate training call signs with DN1-DN8
 </note>
 
 ---
@@ -18,29 +18,29 @@
 [question:BD210]
 ---
 
-## Ausbildungsfunkbetrieb ist …
+## Training operation is …
 
-* für Personen ohne Besitz eines entsprechenden Amateurfunkzeugnisses
-* nicht für Aussendungen des Ausbilders selbst
-* die praktische Vorbereitung auf das Ablegen der fachlichen Prüfung
+* for people who do not hold a corresponding amateur radio certificate
+* not for transmissions by the instructor themselves
+* practical preparation for taking the examination of competence
 
 ---
 [question:VD301]
 ---
 
-## Ausbilder …
+## The instructor …
 
-* muss in unmittelbarer Nähe des Auszubildenden sein
-* bei Bedienung und Betriebsabwicklung anleiten
-* greift regulierend in den Ausbildungsfunkbetrieb ein
-* schaltet den Sender im Extremfall ab
-* muss auf Verlangen der BNetzA Auskunft über "Art und Umfang" des Ausbildungsbetriebs geben
+* must be in the immediate vicinity of the trainee
+* guides them in operating the equipment and in operating procedure
+* steps in to regulate the training operation
+* switches off the transmitter in an extreme case
+* must provide information on the "type and scope" of the training operation at the request of the Federal Network Agency (Bundesnetzagentur, BNetzA)
 
 
 <note>
-* Betreuung nicht über größere Entfernung
-* auch nicht über Funk
-* unmittelbare Anleitung und Aufsicht muss gewährleistet sein
+* No supervision over a greater distance
+* nor by radio
+* Direct guidance and supervision must be ensured
 </note>
 ---
 [question:VD305]

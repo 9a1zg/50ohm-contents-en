@@ -1,15 +1,14 @@
 <left>
-[photo:124:n_satellit_oscar1:Modell des ersten Amateurfunksatelliten OSCAR 1, der 1961 für 22 Tage aus dem Orbit der Erde eine Bake im $\qty{2}{\meter}$-Band sendete und von 570 Funkamateuren aus 28 Ländern gehört wurde]
+[photo:124:n_satellit_oscar1:Model of the first amateur radio satellite, OSCAR 1, which in 1961 transmitted a beacon on the $\qty{2}{\meter}$ band from earth orbit for 22 days and was heard by 570 radio amateurs from 28 countries]
 </left>
 <right>
-* Umrunden die Erde in kreis- oder elliptischen Bahnen und in unterschiedlichen Höhen
-* Erster Amateurfunksatellit bereits 1961 (OSCAR 1)
+* Orbit the earth in circular or elliptical orbits and at different altitudes
+* First amateur radio satellite as early as 1961 (OSCAR 1)
 * OSCAR: "Orbiting Satellite Carrying Amateur Radio"
-* Bis heute mehrere 100 Satelliten im Orbit (gewesen)
+* To date, satellites in orbit (now or in the past) number in the 100s
 </right>
 <note>
-* 4 Jahre nach Sputnik
-* OSCAR Deutsch: "Umkreisender Satellit, der Amateurfunk mitführt"
+* 4 years after Sputnik
 </note>
 
 ---
@@ -17,17 +16,17 @@
 ---
 
 ## Transponder
-Relaisfunkstelle auf dem Satellit wird "Transponder" genannt
+The repeater on the satellite is called a "transponder"
 
-* Uplink: Funkstrecke von der Erde zum Satelliten
-* Downlink: Funkstrecke vom Satelliten zur Erde
-* Unterschiedliche Frequenzbänder für Up- und Downlink
-* Einfachere Trennung von Sende- und Empfangssignal
-* Baugröße von Filtern wird reduziert
+* Uplink: radio path from the earth to the satellite
+* Downlink: radio path from the satellite to the earth
+* Different frequency bands for uplink and downlink
+* Easier separation of transmitted and received signals
+* Size of the filters is reduced
 
 <note>
-* z.B. Downlink auf $\qty{2}{\meter}$ und Uplink auf $\qty{70}{\centi\meter}$
-* Vertiefung zu Umlaufbahnen (LEO, MEO, GEO, HEO, Polar) im gleichen Abschnitt auf 50ohm.de
+* e.g. downlink on $\qty{2}{\meter}$ and uplink on $\qty{70}{\centi\meter}$
+* In-depth part on orbits (LEO, MEO, GEO, HEO, polar) in the same section on 50ohm.de
 </note>
 
 ---
@@ -40,37 +39,37 @@ Relaisfunkstelle auf dem Satellit wird "Transponder" genannt
 [question:NF113]
 ---
 
-## Azimut und Elevation
-Satellitenantennen müssen ausgerichtet sein
+## Azimuth and elevation
+Satellite antennas must be aligned
 
 <left>
-*Azimut*
-* stammt von arabisch السموت (as-sumūt, "die Wege")
-* Richtung entlang des Horizonts
-* Wird wie beim Kompass in Grad gemessen
+*Azimuth*
+* comes from Arabic السموت (as-sumūt, "the ways")
+* Direction along the horizon
+* Measured in degrees, as with a compass
 </left>
 <right>
-[picture:876:n_azimut_elevation:Azimut und Elevation im Raum]
-* $\qty{0}{\degree}$/$\qty{360}{\degree}$ Norden
-* $\qty{90}{\degree}$ Osten
-* $\qty{180}{\degree}$ Süden
-* $\qty{270}{\degree}$ Westen
+[picture:876:n_azimut_elevation:Azimuth and elevation in space]
+* $\qty{0}{\degree}$/$\qty{360}{\degree}$ north
+* $\qty{90}{\degree}$ east
+* $\qty{180}{\degree}$ south
+* $\qty{270}{\degree}$ west
 </right>
 
 ---  data-transition="none"
 
-## Azimut und Elevation
-Satellitenantennen müssen ausgerichtet sein
+## Azimuth and elevation
+Satellite antennas must be aligned
 
 <left>
 *Elevation*
-* leitet sich von lateinisch elevare ("erheben") ab
-* Vertikaler Winkel über dem Horizont
+* is derived from Latin elevare ("to raise")
+* Vertical angle above the horizon
 </left>
 <right>
-[picture:876:n_azimut_elevation:Azimut und Elevation im Raum]
-* $\qty{0}{\degree}\rightarrow$ direkt am Horizont
-* $\qty{90}{\degree}\rightarrow$ senkrecht über einem
+[picture:876:n_azimut_elevation:Azimuth and elevation in space]
+* $\qty{0}{\degree}\rightarrow$ right on the horizon
+* $\qty{90}{\degree}\rightarrow$ directly overhead
 </right>
 
 ---
@@ -79,13 +78,13 @@ Satellitenantennen müssen ausgerichtet sein
 [question:BE414]
 ---
 
-## Steuersignale
-* Im Amateurfunkdienst gibt es eine Pflicht zur offenen Sprache
-* Ausnahme: Steuersignale zwischen Bodenstationen und Amateurfunksatelliten
-* Dürfen zum Zwecke der Verschleierung verschlüsselt werden
-* Damit können Dritte die Signale nicht mitlesen
-* Dient der Sicherheit der Satelliten vor Steuerkommandos von Unbefugten
-* In Deutschland gilt das auch für automatische und fernbediente Stationen sowie Remote-Stationen
+## Control signals
+* In the amateur service there is an obligation to use plain language
+* Exception: control signals between earth command stations and amateur satellites
+* May be encoded for the purpose of obscuring their meaning
+* This means that third parties cannot read the signals
+* Protects the satellites from control commands sent by unauthorised persons
+* In Germany this also applies to automatic and remotely controlled stations and to remote stations
 
 ---
 [question:VA303]
