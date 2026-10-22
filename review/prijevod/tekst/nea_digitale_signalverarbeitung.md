@@ -87,3 +87,40 @@ solutions, word subscripts kept and running words in `\text{}` translated.
 - sections/fourier_transformation.md against sections/nicht_sinus_signale.md — here a sawtooth signal contains "sowohl die geradzahligen als auch die ungeradzahligen Vielfachen" ($f$, $2f$, $3f$ …), which is right; nicht_sinus_signale says "Sägezahnförmige Signale enthalten überwiegend gradzahlige Harmonische bzw. ungradzahlige Oberwellen" (mainly even harmonics), which contradicts it. Not changed here; noted for DARC.
 - slides/fourier_transformation.md — "Jedes Signal lässt sich als Überlagerung von Sinusschwingungen darstellen", where the section, more carefully, says *periodische Signale*. Kept.
 - Typos and slips with no effect on the English: sections/digitale_signalverarbeitung_einleitung.md "könnten man"; slides/digitale_signalverarbeitung_einleitung.md "Analog-Digital Umsetzers" and the double space in "steht dabei  für"; sections/abtasttheorem.md "nach dessen Entdeckern Nyquist und Shannon" (*deren*); slides/digitale_filter.md "Es werden nur eine begrenzte Anzahl"; solutions/AB404.md "ehält" (*enthält*); the picture ident `a_anit_alias` (*anti*) and drawing 1131 carrying two idents (`a_adc_dac_filter`, `a_adc_dac_filter_aa`) in slides/anti_alias_rekonstruktionsfilter.md (idents never change).
+
+## Provjera
+
+All 24 files compared paragraph by paragraph with `git show 3a916b0~1:<file>`
+(sections, slides and slide notes, captions, solutions); embedded questions
+EF601–EF603, AF601–AF625, AF630–AF631, AF634–AF637 and AB404–AB407 checked
+against their English in `fragenkatalog3b.json`. Nothing dropped or added;
+numbers, formulas and markup intact. `revizija-guard.py --rev 3a916b0~1
+--brojevi`: 24 files, *struktura netaknuta*.
+
+Changes: omission 0, meaning 0, technical 1, style 4, glossary 2.
+
+- slides/fourier_transformation (technical): *ein zeitliches Signal
+  analysiert* "analyses a signal in time" → "analyses a time-domain signal";
+  the earlier wording could be read as analysing it over time.
+- slides/fourier_transformation (style): *Signalzerlegung* / *Zerlegung von
+  Signalen* / *zerlegen* "breaking (signals) down" → "signal decomposition",
+  "Decomposing signals", "decompose", the usual English for Fourier analysis.
+- sections/anti_alias_rekonstruktionsfilter (style): *Bildpunkte* of a camera
+  sensor "picture elements" → "pixels", the everyday English word.
+- sections/digitale_signalverarbeitung_einleitung (style): "never-before-known
+  possibilities" → "previously unknown possibilities".
+- sections/abtasttheorem (style): "Sampling therefore always means a loss of
+  information in time as well" → "Sampling therefore also always means a loss
+  of information in time" (*auch* belongs to the whole statement).
+- Glossary (2): §14 *Bildpunkte* row → pixels, with a note; §14 *Laufzeit
+  (Latenz)* row: note added on why it is *propagation time* here although the
+  older §14 row *Laufzeit* gives *delay*.
+
+Kept after review: all other judgement calls and the 22 remaining new glossary
+rows (*sampling rate or sample rate* as a pair, *Nyquist condition* rather than
+*criterion*, *aliasing effects* for the German pair, *fencepost problem*,
+*frequency offsets*, *odd harmonics* for *ungeradzahlige Oberwellen*, the
+applet labels in brackets, which match the applet's *Zeit-Sampling:* and
+*Wert-Quantisierung:*). No DECISIONS.md entry needed. The suspected errors in
+the German are confirmed as listed; AF622's "lower than the sampling rate"
+stays translated faithfully.

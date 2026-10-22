@@ -18,7 +18,7 @@ To prevent this, an *anti-aliasing filter* is used ahead of the input of the A/D
 <indepth>
 A vivid example of *aliasing* is also met in everyday life with digital pictures. If you photograph very fine, regularly repeating structures with a camera, for example a close-meshed grid, a fabric with fine stripes or a fly screen, larger patterns that are not present in the original at all can suddenly appear in the picture. These are called *moiré patterns*.
 
-The cause is similar to that in sampling an electrical signal. A camera sensor cannot capture a picture at any number of points, but has only a finite number of picture elements. If a structure is finer than the spatial resolution of the sensor, it is no longer sampled unambiguously. As a result, the fine structure that is actually present can apparently turn into a different, coarser structure.
+The cause is similar to that in sampling an electrical signal. A camera sensor cannot capture a picture at any number of points, but has only a finite number of pixels. If a structure is finer than the spatial resolution of the sensor, it is no longer sampled unambiguously. As a result, the fine structure that is actually present can apparently turn into a different, coarser structure.
 
 In the A/D converter the same principle acts on the time axis: if too high a signal frequency is sampled at too low a sampling rate, a different, lower frequency appears in the digitised signal that was not originally present at all.
 

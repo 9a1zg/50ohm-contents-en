@@ -2503,7 +2503,7 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Abtasttaktgenerator / Taktgenerator / Taktrate | sampling clock generator / clock generator / clock rate | as AF620 and §8 *Abtastratengenerator* (dac_adc, anti_alias_rekonstruktionsfilter) |
 | Nyquist-Shannon-Abtasttheorem / Nyquist-Bedingung | Nyquist–Shannon sampling theorem / Nyquist condition | en dash between the two names, as *Shannon–Hartley* (§8); *Nyquist criterion* avoided, as it usually names the ISI criterion (abtasttheorem, AF619) |
 | Alias-Effekte bzw. Aliasing-Effekte / Aliase | aliasing effects / aliases | the German pair is one English term (bracket rule), as AF618 "aliasing effects" (abtasttheorem, anti_alias_rekonstruktionsfilter) |
-| Moiré-Muster / räumliche Auflösung / Bildpunkte (Kamerasensor) | moiré pattern / spatial resolution / picture elements | anti_alias_rekonstruktionsfilter indepth |
+| Moiré-Muster / räumliche Auflösung / Bildpunkte (Kamerasensor) | moiré pattern / spatial resolution / pixels | of a camera sensor, the everyday English word (anti_alias_rekonstruktionsfilter indepth) |
 | HiFi-Frequenzbereich | hi-fi frequency range | abtasttheorem |
 | Zaunpfahlproblem | fencepost problem | 16 levels, 15 intervals (dac_adc slides) |
 | Stufen / Zwischenschritte / Abstände (D/A-Umsetzer) | levels / steps / intervals | AF610, AF611 "voltage levels", "step size" (dac_adc) |
@@ -2515,7 +2515,7 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | gleitender Mittelwert / Faltungsoperation / Filterkoeffizienten / Abgriffe / Schieberegister / Eingangsspeicher | moving average / convolution / filter coefficients / taps / shift register / input memory | FIR filter (digitale_filter) |
 | Mixed Signal Frontends / Dezimationsfilter | mixed-signal front ends / decimation filters | digitale_filter |
 | Pufferspeicher (englisch "buffer") / Zwischenspeicherung (Buffer) | buffer / temporary storage (buffering) | the German gloss only gives the English word and is dropped (bracket rule) (latenz) |
-| Laufzeit (Latenz) | propagation time | as AF637 "propagation time or delay"; *Verzögerung* → delay (latenz) |
+| Laufzeit (Latenz) | propagation time | as AF637 "propagation time or delay"; *Verzögerung* → delay (latenz). Here, where the German derives the *Laufzeit* from the *Verzögerung*, not the bare §14 *Laufzeit* → delay, which would say "the delay results in a delay" |
 | Filmkamera / Bilder pro Sekunde | film camera / pictures per second | the sampling analogy (digitale_signalverarbeitung_einleitung, abtasttheorem) |
 
 ## 15. Catalogue structure

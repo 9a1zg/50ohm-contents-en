@@ -1,4 +1,4 @@
-## Fourier transform and breaking signals down
+## Fourier transform and signal decomposition
 
 * Signals can be represented both in the time domain and in the frequency domain  
 * In the time domain: X axis $\rightarrow$ time, Y axis $\rightarrow$ voltage or power  
@@ -6,17 +6,17 @@
 
 ---
 
-### Breaking signals down
+### Decomposing signals
 
 * Every signal can be represented as a superposition of sine waves  
 * Every sine wave has a particular amplitude and phase  
-* This principle makes it possible to break complex signals down into their components
+* This principle makes it possible to decompose complex signals into their components
 
 ---
 
 ### Fourier transform
 
-* A mathematically complex method that analyses a signal in time  
+* A mathematically complex method that analyses a time-domain signal  
 * Shows which sine waves (frequencies) the signal contains  
 * The result is shown as a frequency spectrum (X axis: frequency, Y axis: amplitude/power)
 

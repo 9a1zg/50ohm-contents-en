@@ -4,7 +4,7 @@
 
 Over the last 25 years the world has changed enormously in technological terms. The computing power of computers has increased many times over, and more and more tasks in technical equipment are carried out by microchips in the smallest of spaces. This development will continue at a rapid pace in the coming years as well. All this changes the way in which equipment, and in particular signal processing in modern radios, is implemented. Digital signal processing is now state of the art, and every modern device is based on this technology. Digital signal processors and the basic principle of digital signal processing play a particularly important part here.
 
-Digital signal processing is not found only in radio engineering. Many devices, be they mobile phones, stereo systems or medical imaging systems, as well as practically all modern radio applications, benefit from this fascinating technology, which makes it possible to implement never-before-known possibilities and functions in these devices at low cost.
+Digital signal processing is not found only in radio engineering. Many devices, be they mobile phones, stereo systems or medical imaging systems, as well as practically all modern radio applications, benefit from this fascinating technology, which makes it possible to implement previously unknown possibilities and functions in these devices at low cost.
 
 In radio engineering, equipment that processes signals by means of digital signal processing is known as SDR equipment. In such equipment, at least part of the signal processing is implemented in software.
 
