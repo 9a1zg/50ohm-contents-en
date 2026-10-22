@@ -8,13 +8,13 @@ The unit ampere is named after the French physicist and mathematician *André-Ma
 
 ---
 
-Let us look at some examples again: a current of $\qty{5}{\milli\ampere}$, for example, flows through a light-emitting diode (LED). For a transceiver receiving, it is already $\qty{900}{\milli\ampere}$, for example, i.e. almost one ampere. Considerably more current can flow through a transceiver that is transmitting, for example $\qty{21}{\ampere}$.
+Let us look at some examples again: a current of $\qty{5}{\milli\ampere}$, for example, flows through a light-emitting diode (LED). For a transceiver on receive, it is already $\qty{900}{\milli\ampere}$, for example, i.e. almost one ampere. Considerably more current can flow through a transceiver on transmit, for example $\qty{21}{\ampere}$.
 
 <webmargin>
 | l: Load | r: | c: | l: |
 | Light-emitting diode (LED) | $\qty{5}{\milli\ampere}$ | = | $\qty{0.005}{\ampere}$ |
-| Transceiver receiving | $\qty{900}{\milli\ampere}$ | = | $\qty{0.9}{\ampere}$ |
-| Transceiver transmitting | $\qty{21}{\ampere}$ | = | $\qty{21}{\ampere}$ |
+| Transceiver on receive | $\qty{900}{\milli\ampere}$ | = | $\qty{0.9}{\ampere}$ |
+| Transceiver on transmit | $\qty{21}{\ampere}$ | = | $\qty{21}{\ampere}$ |
 [table:strom_beispiele:Examples of currents]
 </webmargin>
 

@@ -19,8 +19,8 @@ Named after the French physicist and mathematician André-Marie Ampère, who gav
 
 | l: Load | r: | c: | l: |
 | Light-emitting diode (LED) | $\qty{5}{\milli\ampere}$ | = | $\qty{0.005}{\ampere}$ |
-| Transceiver receiving | $\qty{900}{\milli\ampere}$ | = | $\qty{0.9}{\ampere}$ |
-| Transceiver transmitting | $\qty{21}{\ampere}$ | = | $\qty{21}{\ampere}$ |
+| Transceiver on receive | $\qty{900}{\milli\ampere}$ | = | $\qty{0.9}{\ampere}$ |
+| Transceiver on transmit | $\qty{21}{\ampere}$ | = | $\qty{21}{\ampere}$ |
 [table:strom_beispiele:Examples of currents]
 
 ---

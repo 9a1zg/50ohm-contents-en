@@ -56,7 +56,7 @@ In this question, the information "finest resolution $\qty{100}{\micro\volt}$" i
 
 ---
 
-What about parameters that are calculated from measured values – such as the power in our example from the beginning ($P = U \cdot I$) after measuring current and voltage? The individual measured quantities, such as current and voltage, each deviate from the true value because of measurement errors, and these deviations carry through into the calculation accordingly.
+What about parameters that are calculated from measured values – such as the power in our example from the beginning ($P = U \cdot I$) after measuring current and voltage? The individual measured quantities, such as current and voltage, each deviate from the true value because of measurement errors, and these deviations propagate through the calculation accordingly.
 
 Let us look at a concrete example: suppose we want to determine the power, and to do so we measure a DC voltage and a direct current. Both meters show values that are each five per cent too low. Now you must not make the mistake of simply adding the deviations of the individual measured quantities. The power formula makes it clear that in this case the errors multiply. Let us look at this in detail:
 

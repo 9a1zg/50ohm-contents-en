@@ -60,3 +60,22 @@ Nothing: every choice here is a single term, recorded in the glossary.
 - sections/strom.md and slides (person box) — Ampère "in den 1820er Jahren die elektrische Spannung und den elektrischen Strom wissenschaftlich erklärte": Ampère's work of the 1820s was on electrodynamics (the forces between currents); he did not explain voltage. Translated faithfully.
 - sections/spannung.md — the prose puts "bis zu 380 kV" on *Hochspannungsleitungen*, the table calls the same 380 kV line a *Höchstspannungsleitung* (380 kV is extra-high voltage). Each translated as written.
 - Typos with no effect on the English: sections/strom.md "nach dem französischem Physiker" (*französischen*); sections/gefahren.md "Dazu werden die VDE-Normen herauszugeben", "beachten werden" (*beachtet*), "hervorgerufenden" (*hervorgerufenen*, also slides), "Austrittstellen", "Stromfluß" (twice), and the VDE's name with "und" (officially *Verband der Elektrotechnik Elektronik Informationstechnik*); slides/recht_zum_selbstbau.md "verschiede" (*verschiedene*); sections/spannung.md table "elektrostatisch aufgeladenen Antenne" (*aufgeladene*); slides/physikalische_stromrichtung.md "entgegen gesetzt", "*Physikalische*"; sections/strom_spannung_messung_2.md "Ein Strom- oder Spannungsmessung" (*Eine*), "beeinflußt"; sections/strommessung.md "hindurchfliesst"; slides/spannungsmessung.md "Subtrahieren"; sections/zeigerinstrumente_ablesen.md "ein Analoges Multimeter", "kann auf den kleinsten Bereich heruntergeschaltet, der …" (*werden* missing).
+
+## Provjera
+
+Checked all 25 files paragraph by paragraph against the German of
+fe2901a~1, with the embedded questions looked up in English. Nothing
+dropped or added; numbers, formulas and markup intact
+(`revizija-guard.py --rev fe2901a~1 --brojevi`: 25 files, *struktura
+netaknuta*). All 20 glossary rows and every judgement call kept; no
+DECISIONS.md entry needed. The suspected errors in the German stand as
+reported.
+
+Changes: omission 0, meaning 1, technical 1, style 5, glossary 0.
+
+- gefahren (section, class N): "As we have already learnt when installing amateur radio equipment in motor vehicles" → "in the section on installing …" — the German *beim Einbau … gelernt* refers to the earlier topic, not to the reader installing anything; likewise "in the topic of lightning protection" → "in the section on lightning protection".
+- strom_spannung_messung_3: *diese Abweichungen wirken sich in der Berechnung fort* → "propagate through the calculation" (error propagation), not "carry through".
+- strom (section and slides): *Transceiver im Empfangs-/Sendebetrieb* → "transceiver on receive / on transmit", the usual operators' phrasing, instead of "Transceiver receiving / transmitting".
+- slides/stromkreis: "it helps understanding" → "it helps with understanding".
+- slides/strommessung: the doubled "if necessary" in one bullet → "moving the test lead as well where needed".
+- slides/strom_spannung_messung_2: caption "measuring current and voltage at a resistor" → "on a resistor".

@@ -4,7 +4,7 @@
 * The resistance of the voltmeter should be high $\rightarrow$ current takes the path of least resistance
 </left>
 <right>
-[picture:238:e_strom_und_spannungsmessung:Correct arrangement for measuring current and voltage at a resistor]
+[picture:238:e_strom_und_spannungsmessung:Correct arrangement for measuring current and voltage on a resistor]
 </right>
 
 <note>

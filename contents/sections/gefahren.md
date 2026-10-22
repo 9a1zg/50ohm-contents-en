@@ -1,4 +1,4 @@
-To avoid the headline *"Radio amateur suffers dangerous electric shock while building transmitter"*, important rules must be followed. When setting up a radio station, you must comply with the recognised codes of practice. As we have already learnt in the topic of lightning protection and equipotential bonding, the Association for Electrical, Electronic and Information Technologies (Verband der Elektrotechnik Elektronik und Informationstechnik e. V.), VDE for short, publishes standards that document the current state of the art and are regarded as recognised. These rules serve to protect people, animals and property.
+To avoid the headline *"Radio amateur suffers dangerous electric shock while building transmitter"*, important rules must be followed. When setting up a radio station, you must comply with the recognised codes of practice. As we have already learnt in the section on lightning protection and equipotential bonding, the Association for Electrical, Electronic and Information Technologies (Verband der Elektrotechnik Elektronik und Informationstechnik e. V.), VDE for short, publishes standards that document the current state of the art and are regarded as recognised. These rules serve to protect people, animals and property.
 
 <indepth>
 The VDE, i.e. the Association for Electrical, Electronic and Information Technologies, is an organisation active worldwide in which people and companies working in the fields of electrical engineering, electronics or information technology have joined together. The organisation aims to improve accident prevention and to promote a sense of responsibility among its members. To this end it publishes the VDE standards. But it also carries out certification for a fee, for example.
@@ -46,7 +46,7 @@ Many pieces of equipment contain capacitors that can store high voltages. Danger
 ---
 
 %[class:N]
-As we have already learnt when installing amateur radio equipment in motor vehicles, electric current can also flow through the air, which is actually non-conducting, producing an arc with high temperatures and a very bright glow. This is also called an arc fault.
+As we have already learnt in the section on installing amateur radio equipment in motor vehicles, electric current can also flow through the air, which is actually non-conducting, producing an arc with high temperatures and a very bright glow. This is also called an arc fault.
 %[/class]
 
 %[class:NEA]

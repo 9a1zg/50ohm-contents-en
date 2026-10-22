@@ -9,7 +9,7 @@
 3. Water wheel is driven by the flowing water
 </right>
 <note>
-If you close the valve, the water circuit is interrupted and the water wheel stops turning. The analogy is only a model and does not fit everything in electrical engineering, but it helps understanding.
+If you close the valve, the water circuit is interrupted and the water wheel stops turning. The analogy is only a model and does not fit everything in electrical engineering, but it helps with understanding.
 </note>
 
 ---

@@ -30,7 +30,7 @@
 * Black test lead to "COM", red to the socket labelled A
 * Labelled $\unit{\micro\ampere}$, $\unit{\milli\ampere}$ or $\unit{\ampere}$, depending on the range
 * For the measurement select "A =" (direct current) or "A ~" (alternating current)
-* Select the highest possible range first, then reduce it if necessary - moving the test lead if necessary
+* Select the highest possible range first, then reduce it if necessary - moving the test lead as well where needed
 
 <note>
 Here too: AC voltages above $\qty{50}{\volt}$ and DC voltages above $\qty{120}{\volt}$ can be life-threatening
