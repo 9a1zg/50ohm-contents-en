@@ -199,7 +199,7 @@ Increasing the inductance
 [picture:752:a_schwingkreis_potentiometer:Changing the capacitance with a varicap]
 
 * The varicap is varied by a control voltage from the resistive potential divider
-* Lower voltage across the varicap $\rightarrow$ narrower junction in the varicap $\rightarrow$ higher capacitance
+* Lower voltage across the varicap $\rightarrow$ narrower depletion layer in the varicap $\rightarrow$ higher capacitance
 * Capacitors connected in series $\rightarrow$ capacitance becomes smaller $\rightarrow$ resonant frequency rises
 
 ---

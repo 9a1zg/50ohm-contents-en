@@ -6,7 +6,7 @@ Oscillators are among the most important circuit elements in amateur radio. They
 [include:applet_schwingkreis]
 </margin>
 
-The simplest form of oscillator is the so-called *LC oscillator*, which contains as its frequency-determining elements a tuned circuit (consisting of an inductor and a capacitor), which we met in the previous chapter.
+The simplest form of oscillator is the so-called *LC oscillator*, whose frequency-determining elements form a tuned circuit (consisting of an inductor and a capacitor), as met in the previous chapter.
 
 [question:ED501]
 

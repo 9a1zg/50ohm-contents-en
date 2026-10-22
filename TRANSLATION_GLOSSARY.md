@@ -803,7 +803,7 @@ real choice or a trap.
 | Mittelanzapfung / Anzapfung | centre tap / tap | British *centre* |
 | Diode | diode | |
 | Halbleiterdiode | semiconductor diode | |
-| PN-Übergang / Grenzschicht | PN junction / junction | |
+| PN-Übergang / Grenzschicht | PN junction / junction | where the text speaks of the *Grenzschicht* growing or shrinking with the reverse voltage (varactor diode: oszillator_vco, schwingkreis_2 slides), it is the depletion layer at the junction → *depletion layer*, as *Sperrschicht* |
 | Sperrschicht | depletion layer | |
 | Verarmungszone | depletion region | AB109; kept apart from *Sperrschicht* (depletion layer) because the German uses a different word |
 | N-Seite / P-Seite (N-Teil / P-Teil) | N-type side / P-type side | |

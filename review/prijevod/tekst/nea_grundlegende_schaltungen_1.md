@@ -87,3 +87,51 @@ glossary rows.
 - sections/schwingkreis_1.md — LC oscillation paragraph: "Sobald das Magnetfeld jedoch aufgebaut ist, entlädt sich der Kondensator vollständig" puts effect before cause (the field reaches its maximum when the capacitor has discharged); "Das Magnetfeld … entlädt sich" (a field collapses). Kept in meaning.
 - slides/schwingkreis_1.md — picture 591 (low-pass response) has the ident `e_hochpass`, the same as picture 592 (high-pass response). Markup, kept.
 - Typos with no effect on the English: sections/schwingkreis_1.md "sogennantes", "in dem man" (indem), "in den Folgenden zwei Fragen", "Welche Schaltung … verwendet werden", "Im Idealen Fall", "bei der Resonanzfrequenz der sehr hoch", "umgehrter"; sections/schwingkreis_2.md "; Dafür"; slides/schwingkreis_1.md "eines Hochpass", "eines Tiefpass", "eines Serienschwingkreis", "eines Parallelschwingkreis"; slides/schwingkreis_2.md "in 1853" (English construction in German); sections/oszillatoren.md "Ihre" (capitalised); sections/oszillator_vco.md "Dies gilt für VCOs als auch für VFOs" (*sowohl* missing); sections/oszillator_tcxo_ocxo.md "verschiedene arten"; slides/oszillator_tcxo_ocxo.md "Crystal Oszillator".
+
+## Provjera
+
+Checked all 22 files against `18db99b~1` paragraph by paragraph, and the
+prose against the English ED201–ED216, ED501–ED507, AD201–AD229,
+AD601–AD606, AD611, AF215, EF207, EF304. Complete: nothing dropped or added.
+`revizija-guard.py --rev 18db99b~1 --brojevi`: 22 files, *struktura
+netaknuta*.
+
+Changes: omission 0, meaning 0, technical 3, style 9, glossary 1.
+
+- Technical — sections/oszillator_vco.md, slides/schwingkreis_2.md: the
+  *Grenzschicht* that widens and narrows with the reverse voltage is the
+  depletion layer, not the junction itself → "the width of the depletion
+  layer at the PN junction", "the depletion layer widens / narrows",
+  "narrower depletion layer in the varicap"; glossary row *PN-Übergang /
+  Grenzschicht* given a note to that effect.
+- Technical — oszillator_vco: *in Sperrrichtung betrieben* → "operated with
+  reverse bias" (was "in the reverse direction").
+- Technical — oszillator_tcxo_ocxo: *thermisch abgeschirmt* → "thermally
+  insulated", the wording of AF215 embedded right after it (was "thermally
+  shielded"); *Verstärkungsfaktor* → "gain".
+- Style — schwingkreis_1: the electric field "decays" through the inductor
+  (was "discharges"); tuning fork "set vibrating when it is struck" (was "by
+  a knock"); "depends only slightly on" (was "only a little"); *Wir halten
+  fest* → "To sum up" (was "Let us note").
+- Style — slides/schwingkreis_1 (×2): "The filter response is shown in one
+  of the following questions" (was "comes in").
+- Style — schwingkreis_2: attenuation "compared with the point of maximum
+  transmission" (was "compared with the maximum passed").
+- Style — oszillatoren: LC oscillator sentence recast, "whose
+  frequency-determining elements form a tuned circuit …".
+- Style — oszillator_tcxo_ocxo: "is preferable to" (was "is to be preferred
+  to"); AD203: "to decouple the supply voltage of the circuit from
+  interference" (was "to decouple interference on the supply voltage").
+
+Judgement calls reviewed and kept: *Leitkreis* → "series pass circuit" with
+the German word (drawing 1039 confirms a series LC in series with the signal
+path; in English that is also an acceptor circuit, so no separate name
+exists), the *Schwingkreis* gloss, the *Reihen-/Serienschwingkreis* and
+*Quartz* slide notes, "Also called the quality factor", *Frequenzabweichung*
+→ frequency error, the GNSS/GPSDO bracket rule, "Substituting the values:".
+All 23 new glossary rows kept; the corrected *Leitkreis* row kept. The
+suspected errors in the German are confirmed as listed (the slide claim that
+at resonance the lower-resistance component sets the parallel circuit's
+impedance; electrolytics "only work with DC"; the crystal "excited by a
+(poor) LC oscillator"; Q as reactance over loss resistance holding only for
+the series form).

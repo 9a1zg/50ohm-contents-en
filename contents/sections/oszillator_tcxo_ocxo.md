@@ -1,6 +1,6 @@
-The frequency of an oscillator always depends on the ambient temperature, because the properties of the components used change with temperature. In transistors and diodes this affects, for example, the gain factor, the threshold voltage and the capacitances. Passive components such as capacitors, resistors and in particular crystals also have temperature-dependent electrical properties.
+The frequency of an oscillator always depends on the ambient temperature, because the properties of the components used change with temperature. In transistors and diodes this affects, for example, the gain, the threshold voltage and the capacitances. Passive components such as capacitors, resistors and in particular crystals also have temperature-dependent electrical properties.
 
-To keep the frequency of an oscillator as stable as possible, it should be thermally shielded as well as possible from other sources of heat and cold in the equipment. This can be done, for example, by keeping it as far as possible from internal and external sources of heat and cold and from air currents. In addition, a crystal oscillator is to be preferred to an RC oscillator, LC oscillator or VCO, as it has a much higher frequency stability thanks to the high Q of the crystal.
+To keep the frequency of an oscillator as stable as possible, it should be thermally insulated as well as possible from other sources of heat and cold in the equipment. This can be done, for example, by keeping it as far as possible from internal and external sources of heat and cold and from air currents. In addition, a crystal oscillator is preferable to an RC oscillator, LC oscillator or VCO, as it has a much higher frequency stability thanks to the high Q of the crystal.
 
 [question:AF215]
 

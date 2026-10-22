@@ -140,7 +140,7 @@ A combination of parallel and series tuned circuits, suitably arranged, can be u
 
 [question:AD205]
 
-The bandwidth of filters and band-pass filters is often stated with reference to a particular attenuation value. The attenuation describes how much a signal is weakened compared with the maximum passed.
+The bandwidth of filters and band-pass filters is often stated with reference to a particular attenuation value. The attenuation describes how much a signal is weakened compared with the point of maximum transmission.
 
 The *bandwidth* of a filter is usually defined by the so-called $\qty{-3}{\dB}$ point.
 

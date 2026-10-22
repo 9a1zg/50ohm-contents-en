@@ -75,7 +75,7 @@
 </right>
 <note>
 * The impedance curve is shown
-* The filter response comes in one of the following questions
+* The filter response is shown in one of the following questions
  </note>
 
 ---
@@ -99,7 +99,7 @@
 </right>
 <note>
 * The impedance curve is shown
-* The filter response comes in one of the following questions
+* The filter response is shown in one of the following questions
  </note>
  
 ---

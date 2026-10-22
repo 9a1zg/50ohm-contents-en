@@ -17,7 +17,7 @@ In step (2) we replace resistor $R_2$ with capacitor $C_1$. Then, in step (3), w
 
 ---
 
-Let us note: a low-pass filter is, to begin with, nothing other than a potential divider. That is why we can look at it in exactly that way from now on. Figure [ref:e_widerstaende_tiefpass] shows once more how the resistances vary with frequency. Let us first consider low frequencies: here the resistance of the capacitor is high, so that a high voltage is present at the output. As the frequency rises, the resistance of the capacitor becomes smaller and smaller, and by the principle of the potential divider the output voltage also falls.
+To sum up: a low-pass filter is, to begin with, nothing other than a potential divider. That is why we can look at it in exactly that way from now on. Figure [ref:e_widerstaende_tiefpass] shows once more how the resistances vary with frequency. Let us first consider low frequencies: here the resistance of the capacitor is high, so that a high voltage is present at the output. As the frequency rises, the resistance of the capacitor becomes smaller and smaller, and by the principle of the potential divider the output voltage also falls.
 
 This gives the voltage curve shown in Figure [ref:e_tiefpass_frequenzgang]. It also explains the core idea of the low-pass filter: high frequencies are heavily attenuated, while low frequencies pass through the filter largely unimpeded. One application of a low-pass filter is after transmitter amplifiers, to filter out the harmonics produced by distortion. 
 
@@ -95,7 +95,7 @@ The inductor and the capacitor can be connected either in series or in parallel.
 
 ---
 
-If an inductor and a capacitor are connected in parallel and, for example, a square pulse is applied to this arrangement, it starts to oscillate. The charged capacitor now has energy stored in its electric field, which, however, discharges through the inductor. The current through the inductor builds up a magnetic field in it, which at first still opposes the flow of current. As soon as the magnetic field has built up, however, the capacitor discharges completely. The energy is now stored in the magnetic field of the inductor. But since the capacitor cannot discharge any further and cannot keep a current flowing, the magnetic field cannot be maintained. The magnetic field of the inductor collapses and produces a voltage in the opposite direction. This voltage now charges the capacitor in the opposite direction until the magnetic field in the inductor has collapsed and can no longer oppose the electric field in the capacitor. The process then starts again. 
+If an inductor and a capacitor are connected in parallel and, for example, a square pulse is applied to this arrangement, it starts to oscillate. The charged capacitor now has energy stored in its electric field, which, however, decays through the inductor. The current through the inductor builds up a magnetic field in it, which at first still opposes the flow of current. As soon as the magnetic field has built up, however, the capacitor discharges completely. The energy is now stored in the magnetic field of the inductor. But since the capacitor cannot discharge any further and cannot keep a current flowing, the magnetic field cannot be maintained. The magnetic field of the inductor collapses and produces a voltage in the opposite direction. This voltage now charges the capacitor in the opposite direction until the magnetic field in the inductor has collapsed and can no longer oppose the electric field in the capacitor. The process then starts again. 
 
 <margin>
 [include:applet_schwingkreis]
@@ -103,7 +103,7 @@ If an inductor and a capacitor are connected in parallel and, for example, a squ
 
 ---
 
-This is why it is called a tuned circuit (in German *Schwingkreis*, literally "oscillating circuit"). The frequency at which this circuit oscillates is called the resonant frequency ($f_0$). It is comparable to the resonant frequency of a tuning fork that is set vibrating by a knock. At resonance, the resistances of the inductor, $X_\text{L}$, and of the capacitor, $X_\text{C}$, are equal. Such tuned circuits can be used, on the one hand, to generate oscillations, which we will look at more closely in the chapter on oscillators. On the other hand, they can also be used as filters – and that is exactly the subject of this chapter.
+This is why it is called a tuned circuit (in German *Schwingkreis*, literally "oscillating circuit"). The frequency at which this circuit oscillates is called the resonant frequency ($f_0$). It is comparable to the resonant frequency of a tuning fork that is set vibrating when it is struck. At resonance, the resistances of the inductor, $X_\text{L}$, and of the capacitor, $X_\text{C}$, are equal. Such tuned circuits can be used, on the one hand, to generate oscillations, which we will look at more closely in the chapter on oscillators. On the other hand, they can also be used as filters – and that is exactly the subject of this chapter.
 
 <margin>
 [picture:1037:e_rsk_frequenzgang:Qualitative frequency response of a series tuned circuit]
@@ -183,7 +183,7 @@ So both series and parallel tuned circuits can be used to build band-pass and ba
 
 Only certain suitable types of capacitor can be used in filters.
 Electrolytic capacitors, for example, are not suitable for RF circuits, on the one hand because their capacitance depends strongly on frequency, and on the other because they have a high internal resistance at high frequencies. Film capacitors, on the other hand, are not suitable because their windings (self-inductance) make them strongly frequency-dependent, especially from the HF range upwards, and they have a poor Q. 
-Ceramic capacitors, by contrast, have only small losses, and their capacitance depends only a little on frequency and temperature. They are also easy to obtain for high voltages.
+Ceramic capacitors, by contrast, have only small losses, and their capacitance depends only slightly on frequency and temperature. They are also easy to obtain for high voltages.
 Capacitors made of plates with air as the insulator are also suitable; they are most often found as variable capacitors. Variable capacitors are also used for high voltages in antenna tuners.
 
 [question:ED216]
