@@ -3968,7 +3968,7 @@
                                 {
                                     "number": "AD204",
                                     "class": "3",
-                                    "question": "Which tuned circuit matches the impedance curve shown next to the circuit?",
+                                    "question": "Which tuned circuit matches the impedance curve shown next to it?",
                                     "answer_a": "",
                                     "answer_b": "",
                                     "answer_c": "",
@@ -3981,7 +3981,7 @@
                                 {
                                     "number": "AD203",
                                     "class": "3",
-                                    "question": "Where does the cut-off frequency of the audio amplifier lie if $R_{1}$ = 4.7 \\kiloOhm, $C_1$ = 6.8 nF and $C_2$ = 47 nF? The amplifier has a cut-off frequency of 1 MHz, and the input at pin 2 has a very high impedance of 1 M\u03a9.",
+                                    "question": "What is the cut-off frequency of the audio amplifier if $R_{1}$ = 4.7 \\kiloOhm, $C_1$ = 6.8 nF and $C_2$ = 47 nF? The amplifier has a cut-off frequency of 1 MHz, and the input at pin 2 has a very high impedance of 1 M\u03a9.",
                                     "answer_a": "Approx. 5 kHz",
                                     "answer_b": "Approx. 720 Hz",
                                     "answer_c": "Approx. 2.7 kHz",
@@ -4300,7 +4300,7 @@
                                 {
                                     "number": "AD313",
                                     "class": "3",
-                                    "question": "Unwanted signals are observed in an amateur radio receiver about every 120 kHz. This is probably due to ...",
+                                    "question": "In an amateur radio receiver, unwanted signals are found at intervals of about 120 kHz. This is probably due to ...",
                                     "answer_a": "unwanted radiation from a switch-mode power supply.",
                                     "answer_b": "a poorly suppressed brush motor.",
                                     "answer_c": "unwanted radiation from a linear power supply.",
@@ -4535,7 +4535,7 @@
                                     "class": "1",
                                     "question": "Why does the supply lead from the external power supply unit to the transceiver have two conductors?",
                                     "answer_a": "So that the circuit can be completed through the transceiver.",
-                                    "answer_b": "So that current can flow to the transceiver from both poles of the power supply unit.",
+                                    "answer_b": "So that current can flow to the transceiver from both terminals of the power supply unit.",
                                     "answer_c": "The transceiver uses one conductor; the other conductor is used for earthing.",
                                     "answer_d": "So that the voltage drop does not become too large."
                                 },
@@ -4747,7 +4747,7 @@
                                 {
                                     "number": "AD414",
                                     "class": "3",
-                                    "question": "How does the voltage gain of the following circuit change if capacitor $C_1$ is removed?",
+                                    "question": "How is the voltage gain of the following circuit affected if capacitor $C_1$ is removed?",
                                     "answer_a": "It decreases.",
                                     "answer_b": "It remains constant.",
                                     "answer_c": "It increases.",
@@ -5113,11 +5113,11 @@
                                 {
                                     "number": "AD612",
                                     "class": "3",
-                                    "question": "How should the DC supply of a VFO be designed to prevent the following RF power amplifier stages from acting back on it?",
+                                    "question": "How should the DC supply of a VFO be designed to prevent it from being affected by the following RF power amplifier stages?",
                                     "answer_a": "It must be well filtered and decoupled from the supply of the PA.",
                                     "answer_b": "It must be coupled as directly as possible to the supply of the PA.",
                                     "answer_c": "It must not be connected to the chassis lead of the PA.",
-                                    "answer_d": "The RF superimposed on the VFO supply by the PA must be filtered out with a high-pass filter."
+                                    "answer_d": "The RF components superimposed on the VFO supply by the PA must be filtered with a high-pass filter."
                                 },
                                 {
                                     "number": "AD611",
@@ -5203,20 +5203,20 @@
                                 {
                                     "number": "AD602",
                                     "class": "3",
-                                    "question": "A TCXO is a ...",
-                                    "answer_a": "temperature-compensated crystal oscillator.",
-                                    "answer_b": "capacitively tuned crystal oscillator.",
-                                    "answer_c": "temperature-compensated LC oscillator.",
-                                    "answer_d": "oscillator that is kept at a constant temperature."
+                                    "question": "A TCXO is ...",
+                                    "answer_a": "a temperature-compensated crystal oscillator.",
+                                    "answer_b": "a capacitively tuned crystal oscillator.",
+                                    "answer_c": "a temperature-compensated LC oscillator.",
+                                    "answer_d": "an oscillator that is kept at a constant temperature."
                                 },
                                 {
                                     "number": "AD601",
                                     "class": "3",
-                                    "question": "What is meant by a VCO? A VCO is a ...",
-                                    "answer_a": "voltage-controlled oscillator.",
-                                    "answer_b": "oscillator tuned by means of a variable capacitor.",
-                                    "answer_c": "crystal-stabilised reference oscillator.",
-                                    "answer_d": "variable crystal oscillator."
+                                    "question": "What is meant by a VCO? A VCO is ...",
+                                    "answer_a": "a voltage-controlled oscillator.",
+                                    "answer_b": "an oscillator tuned by means of a variable capacitor.",
+                                    "answer_c": "a crystal-stabilised reference oscillator.",
+                                    "answer_d": "a variable crystal oscillator."
                                 },
                                 {
                                     "number": "ED507",

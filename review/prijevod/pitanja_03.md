@@ -68,3 +68,41 @@
   AD312 b, AD410 b lack a final full stop (added for parallelism); trailing
   spaces / newline in ED122, ED113, AD318 c, AD303 a/b, ND104 c, AD607 c,
   AD617, AD614 dropped; ND106 has a double space.
+
+## Provjera
+
+175 questions checked (all five fields, German from `upstream/main` side by
+side with the English); 17 fields changed in 8 questions: 1 meaning,
+1 answer plausibility, 15 wording / style (10 of them stem/answer grammar).
+No glossary changes: the 24 new rows were checked and are right. Applied
+from `pitanja_03.provjera.json` with `--retranslate`: 0 refused, 0 warnings.
+
+The translator's judgement calls stand: ED104 (`$R_1$ = 100 Ω`, as ED105),
+ED101 (stray "=" dropped), AD322 (gloss "remote DC feed" for
+*Fernspeiseweiche*, no more of a hint than the German word), AD504 / AD506
+(*Flanken-Diskriminator* / *Flankendemodulator* → slope detector, bare
+*Diskriminator* → discriminator; the AD506 answer set stays four distinct
+answers), AD612 (reworded below).
+
+- AD601, AD602 (all five fields): the stems "A VCO is a ..." / "A TCXO is
+  a ..." gave "a oscillator ..." with answer d / b; the article moves into
+  each answer ("a voltage-controlled oscillator.", "an oscillator that
+  is ...").
+- AD204: "the impedance curve shown next to the circuit" → "shown next to
+  it" (*neben der jeweiligen Schaltung*: each answer pairs a circuit with its
+  own curve).
+- AD414: "How does the voltage gain … change" → "How is the voltage gain …
+  affected"; the German asks *wie verhält sich*, and "change" presupposed
+  that answer b ("It remains constant") is wrong.
+- AD612 stem: "to prevent the following RF power amplifier stages from
+  acting back on it" → "to prevent it from being affected by the following
+  RF power amplifier stages" (natural English for *Rückwirkungen*).
+- AD612 d: "The RF superimposed on the VFO supply" → "The RF components
+  superimposed …" (missing noun); "filtered out" → "filtered", as the German.
+- AD203: "Where does the cut-off frequency … lie" → "What is the cut-off
+  frequency …" (German *wo liegt*, not English idiom).
+- AD313: "Unwanted signals are observed in an amateur radio receiver about
+  every 120 kHz" → "In an amateur radio receiver, unwanted signals are found
+  at intervals of about 120 kHz".
+- ND104 b: "from both poles of the power supply unit" → "from both
+  terminals" (*Pol* → terminal, as *Pluspol* → positive terminal).

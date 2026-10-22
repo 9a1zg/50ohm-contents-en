@@ -1,0 +1,21 @@
+{
+  "pitanja": {
+    "AD204": {"question": "Which tuned circuit matches the impedance curve shown next to it?"},
+    "AD203": {"question": "What is the cut-off frequency of the audio amplifier if $R_{1}$ = 4.7 \\kiloOhm, $C_1$ = 6.8 nF and $C_2$ = 47 nF? The amplifier has a cut-off frequency of 1 MHz, and the input at pin 2 has a very high impedance of 1 MΩ."},
+    "AD313": {"question": "In an amateur radio receiver, unwanted signals are found at intervals of about 120 kHz. This is probably due to ..."},
+    "ND104": {"answer_b": "So that current can flow to the transceiver from both terminals of the power supply unit."},
+    "AD414": {"question": "How is the voltage gain of the following circuit affected if capacitor $C_1$ is removed?"},
+    "AD612": {"question": "How should the DC supply of a VFO be designed to prevent it from being affected by the following RF power amplifier stages?",
+              "answer_d": "The RF components superimposed on the VFO supply by the PA must be filtered with a high-pass filter."},
+    "AD601": {"question": "What is meant by a VCO? A VCO is ...",
+              "answer_a": "a voltage-controlled oscillator.",
+              "answer_b": "an oscillator tuned by means of a variable capacitor.",
+              "answer_c": "a crystal-stabilised reference oscillator.",
+              "answer_d": "a variable crystal oscillator."},
+    "AD602": {"question": "A TCXO is ...",
+              "answer_a": "a temperature-compensated crystal oscillator.",
+              "answer_b": "a capacitively tuned crystal oscillator.",
+              "answer_c": "a temperature-compensated LC oscillator.",
+              "answer_d": "an oscillator that is kept at a constant temperature."}
+  }
+}
