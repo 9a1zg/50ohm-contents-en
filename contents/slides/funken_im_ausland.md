@@ -56,7 +56,7 @@ You do not have to learn the recommendations by heart, but you should know the m
 
 ## Call signs
 * Indicated by an additional call sign prefix in front of your own call sign
-* Possibly depending on the amateur radio class
+* Where applicable, depending on the licence class
 * Must be looked up before use in the country concerned
 
 <note>

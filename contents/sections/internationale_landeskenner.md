@@ -1,4 +1,4 @@
-As we explained in the chapter on amateur stations, in operation you can tell from the prefix which country the other station comes from. A detailed list of all country prefixes can be found in the list of country prefixes of the [ITU](https://50ohm.de/itu), in amateur radio handbooks, on the internet and in various call sign lists. Figure [ref:n_internationale_landeskenner_eu] brings together the most important country prefixes in Europe. Countries marked in blue appear in the question catalogue. The other countries serve as background knowledge.
+As we explained in the chapter on amateur stations, when operating you can tell from the prefix which country the other station comes from. A detailed list of all country prefixes can be found in the list of country prefixes of the [ITU](https://50ohm.de/itu), in amateur radio handbooks, on the internet and in various call sign lists. Figure [ref:n_internationale_landeskenner_eu] brings together the most important country prefixes in Europe. Countries marked in blue appear in the question catalogue. The other countries serve as background knowledge.
 
 <webmargin>
 [picture:656:n_internationale_landeskenner_eu:Country prefixes in Europe]
@@ -27,7 +27,7 @@ You will need country prefixes again and again in the course of your amateur rad
 | LX | | Luxembourg |
 | LZ | | Bulgaria |
 | OE | OEsterreich (Austria) | Austria |
-| OH | Oben Hinten (top, at the back) | Finland |
+| OH | Oben Hinten (up at the back) | Finland |
 | OK | | Czech Republic |
 | OM | | Slovakia |
 | ON | | Belgium |

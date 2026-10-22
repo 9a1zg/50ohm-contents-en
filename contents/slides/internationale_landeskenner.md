@@ -44,7 +44,7 @@ For some prefixes there are mnemonics that make them easier to remember
 | LX | | Luxembourg |
 | LZ | | Bulgaria |
 | OE | OEsterreich (Austria) | Austria |
-| OH | Oben Hinten (top, at the back) | Finland |
+| OH | Oben Hinten (up at the back) | Finland |
 [table:n_europaeische_landeskenner_eselsbruecken_2:European country prefixes and mnemonics]
 
 --- style="font-size: 0.7em;"

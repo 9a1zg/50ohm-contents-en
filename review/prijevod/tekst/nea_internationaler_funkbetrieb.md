@@ -52,3 +52,30 @@ Recommendations (Empfehlungen)*, *Entry Level License / Novice License*,
 - slides/funken_im_ausland.md (note on BD213) — "Deutsches Klasse-E-Rufzeichen erhält Schweizer Entry Level Präfix … Entry Level wird ein paar Folien später erklärt": Class E corresponds to the CEPT Novice licence (ECC (05)06; BD213 itself says "CEPT Novice Radio Amateur Licence"), while the section's table and the later slide make *Entry Level* Class N, which may not be used abroad at all.
 - slides/funken_im_ausland.md ("Nationale Regelungen") — "das in Deutschland freigegebene 6 m-Band [ist] im Ausland beschränkt" states as a fact what the section only says may be the case ("bedeutet das nicht automatisch, dass man … darf").
 - Typos with no effect on the English: sections/itu_regionen.md "Koordinerung"; sections/funken_im_ausland.md "HAREC-Bescheinung", "des DARC-Auslandsreferat" (*-s*), "für bis zu 3 Monaten" (*Monate*), "schlicht weg" (*schlichtweg*), "Ausländischen Funkamateure" (*Ausländische*) followed by singular "muss er", "das Prefix" (*Präfix*); slides/funken_im_ausland.md "der *Europäische Konferenz*" (*Europäischen*), "oder Länder mit geringer Funkaktivität" in slides/dx.md (*Ländern*); slides/dx.md "Länderkenner" (*Landeskenner*); sections and slides/internationale_landeskenner.md "Vereintes Königreich" (*Vereinigtes*).
+
+## Provjera
+
+Checked all 8 files paragraph by paragraph against `cc6b3e3~1` (German), with
+the embedded questions (BD212–BD214, BD301–BD318, VA401–VA405, BB103–BB105,
+BE104, BE109, BE110, BE113, BE114, BE312, VB101–VB114) read in English.
+Nothing dropped or added; numbers, tags and idents intact
+(`revizija-guard.py --rev cc6b3e3~1 --brojevi`: 8 files, *struktura
+netaknuta*).
+
+Changes: omission 0, meaning 0, technical 0, style 4, glossary 0.
+
+- sections/internationale_landeskenner.md: *im Funkbetrieb* → "when operating" (was "in operation", which reads as "in service").
+- sections and slides/internationale_landeskenner.md: *Oben Hinten* glossed "(up at the back)" (was "(top, at the back)").
+- slides/dx.md (note on recognising distance): "The distance can be told from the country prefix, the locator, or call sign databases that give the QTH" (was "recognised from … or call sign databases with the QTH").
+- slides/funken_im_ausland.md: *Ggf. je nach Amateurfunkklasse* → "Where applicable, depending on the licence class" (was "Possibly depending on the amateur radio class").
+
+Judgement calls kept: all of them, including "German" added before
+"examination questions" in funken_im_ausland (the English questions say "ECC
+Recommendation", so without it the sentence would be false for the English
+reader), *Kurzwelle / UKW* → HF / VHF, and the table's "ECC Recommendation
+T/R 61-01/-02" labels kept as the German has them (slip reported). The 11
+glossary rows and the DECISIONS.md entry on German mnemonics are kept
+unchanged: the mnemonics only work through the German letters, and the
+rows match the English questions (BD301 "the ITU's list of country
+prefixes", VB109 "CEPT arrangement", VB113/VB114 "guest licence"). The
+translator's suspected errors in the German stand as listed.

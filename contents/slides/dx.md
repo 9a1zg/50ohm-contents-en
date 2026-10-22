@@ -36,7 +36,7 @@ The 80 m band is open for DX contacts at night (sky wave instead of ground wave)
 * Hence contacts with stations evidently a few hundred kilometres away
 
 <note>
-The distance can be recognised from the country prefix, the locator or call sign databases with the QTH
+The distance can be told from the country prefix, the locator, or call sign databases that give the QTH
 </note>
 
 ---
