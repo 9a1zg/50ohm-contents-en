@@ -1,27 +1,27 @@
-Zur Verbindung von Koaxialkabeln kommen spezielle *Koaxialsteckverbinder* zum Einsatz. Sie bestehen genauso wie Koaxialkabel aus einem Innen- und Außenleiter. Man unterscheidet die Steckverbinder in zwei Teile, den männlichen Stecker und die weibliche Kupplung:
-* Stecker (männlich), bei dem ein Kontaktstift nach außen weist
-* Kupplung (weiblich) mit einer nach innen weisenden Kontaktöffnung
+Special *coaxial connectors* are used to connect coaxial cables. Just like coaxial cables, they consist of an inner and an outer conductor. A connector is made up of two parts, the male plug and the female socket:
+* plug (male), with a contact pin pointing outwards
+* socket (female), with a contact opening pointing inwards
 
 <indepth>
-Eine in ein Gerät eingebaute Kupplung wird als *Buchse* und ein eingebauter Stecker als *Einbaustecker* bezeichnet.
+A socket built into a piece of equipment is called a *panel socket*, and a built-in plug a *panel plug*.
 </indepth>
 
 <attention>
-Koaxialsteckverbinder sind empfindlich und dürfen nicht beschädigt sein. Es sollte darauf geachtet werden, Koaxialstecker immer sorgfältig und fest anzuschrauben!
+Coaxial connectors are delicate and must not be damaged. Always take care to screw coaxial plugs on carefully and firmly!
 </attention>
 
-Das metallische Außengehäuse des Koaxialsteckers bzw. der Koaxialkupplung wird mit dem Außenleiter des Koaxialkabels (Abschirmgeflecht, -folie) verbunden. Ebenso werden die Innenleiter von Steckverbinder und Koaxialkabel miteinander verbunden. Die Verbindungen werden gut leitend hergestellt, meist durch Löten oder Crimpen (Verpressen).
+The metal outer body of the coaxial plug or socket is connected to the outer conductor of the coaxial cable (braided screen, screening foil). Likewise, the inner conductors of the connector and of the coaxial cable are connected to each other. The connections are made with good conductivity, usually by soldering or crimping.
 
 ---
 
-Einige im Amateurfunk häufiger anzutreffende Koaxialsteckverbinder müssen für die Prüfung an ihrer Bauform erkannt werden. Daher gehen wir in den nächsten Abschnitten auf folgende vier Steckverbinder näher ein:
+For the examination you must be able to recognise some of the coaxial connectors commonly found in amateur radio by their shape. In the following sections we therefore look more closely at these four connectors:
 * PL
 * N
 * BNC
 * SMA
 
 <indepth>
-Da Koaxialkabel *unterschiedliche Kabeldurchmesser* aufweisen, muss drauf geachtet werden, einen zum Kabeldurchmesser passenden Steckverbinder zu verwenden. Nicht jeder Steckverbinder passt zu allen Kabelstärken und einige Steckverbinder sind in unterschiedlichen Ausführungen für verschiedene Kabeldurchmesser erhältlich. 
+Since coaxial cables have *different cable diameters*, care must be taken to use a connector that fits the cable diameter. Not every connector fits every cable size, and some connectors are available in different versions for different cable diameters. 
 </indepth>
 
-Welcher Steckverbinder für einen bestimmten Einsatzzweck gewählt wird, hängt insbesondere vom genutzten Frequenzbereich und der Sendeleistung, aber auch vom verwendeten Kabeltyp ab. Steckverbinder sollten den gleichen *Wellenwiderstand* wie das Koaxialkabel haben, um unerwünschte Reflexionen zu vermeiden.
+Which connector is chosen for a particular application depends above all on the frequency range used and the transmit power, but also on the type of cable used. Connectors should have the same *characteristic impedance* as the coaxial cable, to avoid unwanted reflections.

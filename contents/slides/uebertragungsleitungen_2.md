@@ -1,71 +1,71 @@
-## Wellenwiderstand
+## Characteristic impedance
 
-* Unabhängig von der Länge der Leitung
-* Unabhängig von den an die Leitung angeschlossenen Geräten
-* Abhängig vom Querschnittsaufbau (Leiter, ggf. Dielektrikum)
-* Im Bereich der Hochfrequenz ist der Wellenwiderstand weitgehend konstant
+* Independent of the length of the line
+* Independent of the equipment connected to the line
+* Depends on the cross-sectional structure (conductors, dielectric if any)
+* At radio frequencies the characteristic impedance is roughly constant
 
 ---
 [question:EG301]
 ---
-## Leitungen
+## Lines
 
 <left>
-* Paralleldraht-Speiseleitung
-* Koaxialkabel
+* Open-wire feeder
+* Coaxial cable
 </left>
 <right>
-* Das Koaxialkabel vermeidet unerwünschte Abstrahlung
-* Unerwünschte Abstrahlungen können durch *Mantelwellen* auftreten
-* Mantelwellen lassen sich durch Mantelwellensperren unterdrücken
+* Coaxial cable avoids unwanted radiation
+* Unwanted radiation can occur through *common-mode currents*
+* Common-mode currents can be suppressed with common-mode chokes
 </right>
 <note>
-* Mehr zu Mantelwellen später
+* More on common-mode currents later
 </note>
 ---
 [question:EG302]
 ---
-## Einkopplungen
+## Coupling
 
-* Kabel, die direkt neben Koaxialkabel verlegt werden, können Einkopplungen erfahren
-* Dadurch gelangt Hochfrequenz beispielsweise ins Stromnetz
-* Und Leistung zur Antenne geht verloren
+* Cables laid directly beside coaxial cable can have RF coupled into them
+* This lets RF get into the mains, for example
+* And power intended for the antenna is lost
 
 ---
 [question:EG306]
 ---
-### Unsymmetrische Speiseleitung
+### Unbalanced feeder
 
 <left>
-[photo:65:e_uebertragungsleitungen_koaxialkabel:Geöffnetes Koaxialkabel aus Mantel, Schirmung, Dielektrikum und Innenleiter]
+[photo:65:e_uebertragungsleitungen_koaxialkabel:Coaxial cable cut open, with sheath, screen, dielectric and inner conductor]
 </left>
 <right>
-* Wie bei Antennen, ist eine Speiseleitung unsymmetrisch, wenn unterschiedliche Spannungen anliegen
-* Beim Koaxialkabel sind die beiden Leiter unterschiedlich geformt
-* Der Schirm weist gegenüber der Erde keine Spannung auf
+* As with antennas, a feeder is unbalanced if different voltages are present
+* In coaxial cable the two conductors are shaped differently
+* The screen has no voltage relative to earth
 </right>
 
 ---
 [question:EG304]
 ---
-## Spannungsfestigkeit
+## Voltage rating
 
-* Im Koaxialkabel treten im Dielektrikum Verluste auf
-* Es kann bei hohen Spannungen zu einem Durchschlag kommen
+* In coaxial cable, losses occur in the dielectric
+* Breakdown can occur at high voltages
 
 ---
 [question:EG305]
 ---
-## Koaxialstecker
+## Coaxial connectors
 
 <left>
-[photo:73:e_uebertragungsleitungen_n_stecker_buchse:N-Buchse und N-Stecker]
+[photo:73:e_uebertragungsleitungen_n_stecker_buchse:N socket and N plug]
 </left>
 <right>
-* *N-Stecker*: für niedrige und hohe Frequenz und hohe Leistung
-* *BNC-Stecker*: für niedrige und hohe Frequenz und geringe Leistung
-* *SMA-Stecker*: für hohe Frequenz und geringe Leistung
-* *UHF/PL-Stecker*: für niedrige Frequenz und hohe Leistung
+* *N connector*: for low and high frequencies and high power
+* *BNC connector*: for low and high frequencies and low power
+* *SMA connector*: for high frequencies and low power
+* *UHF/PL connector*: for low frequencies and high power
 </right>
 
 ---

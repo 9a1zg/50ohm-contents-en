@@ -1,11 +1,11 @@
-Für Funkgeräte mit kleiner Leistung bis hinauf zum $\qty{70}{\centi\meter}$-Band oder auch an Messgeräten kommen BNC-Steckverbinder zum Einsatz. In der Abbildung von Frage NG203 sieht man links den Stecker und rechts die Kupplung. Das Besondere am BNC-Steckverbinder ist der Bajonett-Verschluss.
+BNC connectors are used for low-power radios up to the $\qty{70}{\centi\meter}$ band, and also on measuring instruments. In the diagram of question NG203 you can see the plug on the left and the socket on the right. What is special about the BNC connector is its bayonet coupling.
 
 <margin>
-[photo:71:n_koaxsteckverbinder_bnc:BNC-Winkeladapter mit Stecker links und Kupplung rechts]
+[photo:71:n_koaxsteckverbinder_bnc:BNC right-angle adapter with plug on the left and socket on the right]
 </margin>
 
 <tip>
-Der *Bajonett-Verschluss* ist schneller lösbar als beispielsweise die Schraubverbindungen von PL- oder N-Steckverbindern. Zum Öffnen wird der Verschluss einfach um ca. $\qty{90}{\degree}$ gedreht. Ein Federmechanismus soll vor versehentlichem Lösen schützen.
+The *bayonet coupling* can be undone more quickly than, for example, the screw couplings of PL or N connectors. To open it, the coupling is simply turned through approx. $\qty{90}{\degree}$. A spring mechanism is meant to prevent it from coming undone accidentally.
 </tip>
 
 [question:NG203]

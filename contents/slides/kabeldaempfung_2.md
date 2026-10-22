@@ -1,8 +1,8 @@
-## Kabel mit geringer Dämpfung
+## Cables with low attenuation
 
-* Dämpfung ist oft unerwünscht
-* Ziel: Finde ein Kabel, dessen Dämpfung unter dem vorgegebenen Wert liegt
-* Kabeldämpfungsdiagramm aus der Formelsammlung
+* Attenuation is often unwanted
+* Aim: find a cable whose attenuation is below the given value
+* Cable attenuation chart from the formula sheet
 
 ---
 [question:AG309]
@@ -11,19 +11,19 @@
 [question:AG310]
 ---
 
-### Kabeldämpfung und Frequenz
+### Cable loss and frequency
 
-* Kabeldämpfung nimmt bei steigender Frequenz zu
-* Höchste Frequenz (kleinste Wellenlänge) entspricht der stärksten Dämpfung
+* Cable loss increases with rising frequency
+* The highest frequency (shortest wavelength) corresponds to the highest attenuation
 
 ---
 [question:AG308]
 ---
 
-### Einfluss von Dielektrika auf die Dämpfung
+### Effect of dielectrics on attenuation
 
-* Dielektrika bzw. Kunststoffummantelungen erhöhen bei Hochfrequenzsignalen die Dämpfung
-* Zweidrahtleitungen mit möglichst wenig Dielektrikum zwischen den Leitern sind besonders dämpfungsarm
+* Dielectrics and plastic sheaths increase the attenuation of RF signals
+* Twin feeders with as little dielectric as possible between the conductors have particularly low loss
 
 ---
 [question:AG311]

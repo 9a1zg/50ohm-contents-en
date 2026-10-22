@@ -1,20 +1,20 @@
-* Signalstärke eines Hochfrequenzsignals nimmt bei zunehmender Kabellänge ab
-* Wird als *Kabeldämpfung* bezeichnet
-* Auch Stecker können das Signal dämpfen
-* Ist unerwünscht
+* The signal strength of an RF signal decreases with increasing cable length
+* This is called *cable loss*
+* Connectors can also attenuate the signal
+* Unwanted
 
 ---
 <left>
-* Dämpfung wird in der Regel in Dezibel ($\unit{\dB}$) angegeben
-* Wenn von Dämpfung gesprochen wird, bleibt die Zahl positiv
+* Attenuation is usually stated in decibels ($\unit{\dB}$)
+* When we speak of attenuation, the number stays positive
 </left>
 <right>
-* Faktor zu $\unit{\dB}$-Umrechnung verwenden
-* Oder in der Formelsammlung nachschlagen
+* Use the conversion from factor to $\unit{\dB}$
+* Or look it up on the formula sheet
 </right>
 <note>
-* Ist etwas irritierend, aber sonst sind die Prüfungsantworten falsch
-* Bei einer Gesamtbetrachtung von Gewinnen und Verlusten, zählt die Dämpfung jedoch negativ
+* Somewhat confusing, but otherwise the exam answers would be wrong
+* When gains and losses are considered together, however, attenuation counts as negative
 </note>
 
 ---
@@ -24,44 +24,44 @@
 ---
 [question:EG308]
 ---
-## Kabelverluste
+## Cable losses
 
-* Alle Verluste, die in Kabeln entstehen
-* Antenne und Verstärker verstärken das Signal, verändern jedoch nicht die Kabelverluste
+* All losses that arise in cables
+* Antenna and amplifiers amplify the signal but do not change the cable losses
 
 ---
 [question:EG307]
 ---
-## Kabeldämpfungsdiagramm
+## Cable attenuation chart
 
 <left>
-* Im Anhang der Formelsammlung
-* Dämpfungen verschiedener Kabel in Abhängigkeit zur Frequenz
-* Bezug auf $\qty{100}{\meter}$ – bei kürzeren Kabeln muss umgerechnet werden
+* In the appendix to the formula sheet
+* Attenuation of various cables as a function of frequency
+* Given for $\qty{100}{\meter}$ – for shorter cables it has to be converted
 </left>
 <right>
-[picture:202:e_kabeldaempfung_diagramm:Kabeldämpfungsdiagramm im Anhang der Formelsammlung]
+[picture:202:e_kabeldaempfung_diagramm:Cable attenuation chart in the appendix to the formula sheet]
 </right>
 <note>
-* ggf. hier zoomen
+* zoom in here if necessary
 </note>
 ---
 
 [question:EG312]
 ---
-### Lösungsweg
+### Solution
 
-* gesucht: Dämpfung für $\qty{100}{\meter}$ RG58 Kabel bei $\qty{145}{\mega\hertz}$
-* Lösung: Ablesen aus Diagramm
-* Schnittpunkt der RG58 Linie mit $\qty{145}{\mega\hertz}\rightarrow \qty{20}{\dB}$
+* required: attenuation of $\qty{100}{\meter}$ of RG58 cable at $\qty{145}{\mega\hertz}$
+* Working: read off the chart
+* Intersection of the RG58 line with $\qty{145}{\mega\hertz}\rightarrow \qty{20}{\dB}$
 
 ---
 [question:EG311]
 ---
-### Lösungsweg
+### Solution
 
-* gesucht: Dämpfung für $\qty{20}{\meter}$ bei $\qty{20}{\dB}$ Dämpfung auf $\qty{100}{\meter}$
-* Lösung: Dreisatz
+* required: attenuation for $\qty{20}{\meter}$, given $\qty{20}{\dB}$ attenuation for $\qty{100}{\meter}$
+* Working: rule of three
 
 $\dfrac{\qty{20}{\dB}}{\qty{100}{\meter}} = \dfrac{x}{\qty{20}{\meter}}$
 $x = \dfrac{\qty{20}{\dB}\cdot \qty{20}{\meter}}{\qty{100}{\meter}} = \qty{4}{\dB}$
@@ -69,11 +69,11 @@ $x = \dfrac{\qty{20}{\dB}\cdot \qty{20}{\meter}}{\qty{100}{\meter}} = \qty{4}{\d
 ---
 [question:EG313]
 ---
-### Lösungsweg
+### Solution
 
-* gesucht: Dämpfung für $\qty{15}{\meter}$ RG58 Kabel bei $\qty{145}{\mega\hertz}$
-* Lösung: Ablesen aus Diagramm und Dreisatz
-* Schnittpunkt der RG58 Linie mit $\qty{145}{\mega\hertz}\rightarrow \qty{20}{\dB}$
+* required: attenuation of $\qty{15}{\meter}$ of RG58 cable at $\qty{145}{\mega\hertz}$
+* Working: read off the chart and use the rule of three
+* Intersection of the RG58 line with $\qty{145}{\mega\hertz}\rightarrow \qty{20}{\dB}$
 
 $\dfrac{\qty{20}{\dB}}{\qty{100}{\meter}} = \dfrac{x}{\qty{15}{\meter}}$
 $x = \dfrac{\qty{20}{\dB}\cdot \qty{15}{\meter}}{\qty{100}{\meter}} = \qty{3}{\dB}$

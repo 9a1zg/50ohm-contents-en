@@ -1,36 +1,36 @@
-Wird ein Hochfrequenzsignal durch ein Kabel übertragen, nimmt die Signalstärke mit zunehmender Länge ab. Diesen Effekt bezeichnen wir als *Kabeldämpfung*, und er ist in der Regel unerwünscht. Auch Steckverbinder können zur Dämpfung eines Signals beitragen.
+When an RF signal is carried through a cable, the signal strength decreases with increasing length. We call this effect *cable loss*, and as a rule it is unwanted. Connectors can also contribute to the attenuation of a signal.
 
-Angegeben wird die Dämpfung in der Regel in Dezibel ($\unit{\dB}$), wobei eine positive Zahl für eine Signalabnahme steht, wenn von "Dämpfung" die Rede ist.
+The attenuation is usually stated in decibels ($\unit{\dB}$), and when we speak of "attenuation", a positive number stands for a decrease in the signal.
 
-Für die folgenden Fragen ist zunächst der Faktor zu ermitteln, mit dem die Leistung abnimmt (z. B. Faktor $\num{2}$ bei einer Halbierung oder Faktor $\num{10}$ bei einer Abnahme von $\qty{100}{\percent}$ auf $\qty{10}{\percent}$). Anschließend kann man diesen Leistungsfaktor mit Hilfe der Tabelle [ref:e_dezibel_leistungsfaktoren] in der Formelsammlung in ein Maß in Dezibel umrechnen bzw. die Lösung nachschlagen.
+For the following questions, first find the factor by which the power decreases (e.g. a factor of $\num{2}$ when it is halved, or a factor of $\num{10}$ for a decrease from $\qty{100}{\percent}$ to $\qty{10}{\percent}$). This power ratio can then be converted into a value in decibels with the help of Table [ref:e_dezibel_leistungsfaktoren] on the formula sheet, or the answer can be looked up.
 
 <margin>
-| c:dB | c:≈ Leistungsfaktor |
+| c:dB | c:≈ power ratio |
 | $\num{0}$ | $\num{1}$ |
-| $\num{1,5}$ | $\sqrt{2} = 1,41$ |
-| $\num{2,15}$ | $\num{1,64}$ |
+| $\num{1.5}$ | $\sqrt{2} = 1.41$ |
+| $\num{2.15}$ | $\num{1.64}$ |
 | $\num{3}$ | $\num{2}$ |
-| $\num{5}$ | $\sqrt{10} = 3,16$ |
+| $\num{5}$ | $\sqrt{10} = 3.16$ |
 | $\num{6}$ | $\num{4}$ |
 | $\num{10}$ | $\num{10}$ |
 | $\num{20}$ | $\num{100}$ |
-[table:e_dezibel_leistungsfaktoren:Wichtige Leistungsfaktoren in $\unit{\dB}$]
+[table:e_dezibel_leistungsfaktoren:Important power ratios in $\unit{\dB}$]
 </margin>
 
 [question:EG309]
 [question:EG310]
 [question:EG308]
 
-Unter den Kabelverlusten versteht man alle Verluste, die in Kabeln entstehen. Zusätzliche Verstärker oder der Antennengewinn verstärken zwar das Signal, verändern jedoch nicht die Kabelverluste.
+Cable losses are all the losses that arise in cables. Additional amplifiers or the antenna gain do amplify the signal, but they do not change the cable losses.
 
 [question:EG307]
 
 ---
 <margin>
-[picture:202:e_kabeldaempfung_diagramm:Kabeldämpfungsdiagramm im Anhang der Formelsammlung]
+[picture:202:e_kabeldaempfung_diagramm:Cable attenuation chart in the appendix to the formula sheet]
 </margin>
 
-In einem Kabeldämpfungsdiagramm, wie der Formelsammlung beiliegend, finden wir Dämpfungen verschiedener Kabel in Abhängigkeit der Frequenz. Die Dämpfung ist oft in Bezug auf $\qty{100}{\meter}$ angegeben. Ist ein Kabel kürzer, dann können wir die Dämpfung in $\unit{\dB}$ entsprechend umrechnen. Hierzu teilen wir die tatsächliche Kabellänge durch $\qty{100}{\meter}$ und multiplizieren das Ergebnis mit der Dämpfung, die ein $\qty{100}{\meter}$ langes Kabel hätte.
+In a cable attenuation chart, such as the one that comes with the formula sheet, we find the attenuation of various cables as a function of frequency. The attenuation is often given for $\qty{100}{\meter}$. If a cable is shorter, we can convert the attenuation in $\unit{\dB}$ accordingly. To do this, we divide the actual cable length by $\qty{100}{\meter}$ and multiply the result by the attenuation that a cable $\qty{100}{\meter}$ long would have.
 
 [question:EG312]
 [question:EG311]

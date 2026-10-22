@@ -2564,6 +2564,24 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Bodenverluste / Wechselwirkung mit dem Boden | ground losses / interaction with the ground | *Erdboden* → the ground (§13) (fusspunktimpedanz_1) |
 | Lichtbogen / Kabelbrand / Fahrzeugbrand | arc / cable fire / vehicle fire | NK307 "Arcing and vehicle fire" (einbau_kfz) |
 | Mittelkonsole / PKW / Gegenelement (Fahrzeugdach) | centre console / car / counterpoise | as §9 *Gegengewicht* (einbau_kfz) |
+| Stecker / Kupplung / Buchse / Einbaustecker (Koaxialsteckverbinder) | plug / socket / panel socket / panel plug | koaxsteckverbinder defines *Stecker* as the male part, *Kupplung* as the female part, and *Buchse* / *Einbaustecker* as a *Kupplung* / *Stecker* built into equipment; so *Kupplung* takes *socket* and the built-in forms take *panel*: *PL-Einbaubuchse* → PL panel socket, but *N-Buchse* (no contrast) → N socket. Not *jack*, which in British English is also the male audio plug. Elsewhere a bare *Buchse* stays *socket* (§4). Reverse SMA: "the reverse SMA plug is a socket" (DECISIONS.md) |
+| Steckverbinder / Koaxialsteckverbinder / Stecker (als Typbezeichnung: N-Stecker, BNC-Stecker) | connector / coaxial connector / connector | where *Stecker* names the connector type rather than the male part (uebertragungsleitungen_2 slides, EG303 "N connector") |
+| Mittelstift / Kontaktöffnung / Außengehäuse (Steckverbinder) | centre pin / contact opening / outer body | koaxsteckverbinder, steckverbinder_n; §14 *Kontaktstift* → contact pin |
+| Winkeladapter / Reverse-SMA-Steckverbinder / „Geschirmter Bananenstecker" | right-angle adapter / reverse SMA connector / "screened banana plug" | steckverbinder_bnc, steckverbinder_sma, steckverbinder_pl slides (a nickname of the PL connector, kept literally); *umgedreht (reverse)* → "reversed", the bracket only repeats the English word |
+| Schutzmantel / Mantel (Kabel) / Kunststoffummantelung / Drahtgeflecht / Folie / Abschirmfolie | protective sheath / sheath / plastic sheath / wire braid / foil / screening foil | uebertragungsleitungen, koaxsteckverbinder, kabeldaempfung_2; British *sheath* rather than *jacket* |
+| Induktivitätsbelag / Kapazitätsbelag | inductance per unit length / capacitance per unit length | $L'$, $C'$ (wellenwiderstand) |
+| Mittenabstand (der Leiter) | centre-to-centre spacing (of the conductors) | $a$ in the twin-feeder formula, AG305 "spacing between the parallel conductors" (wellenwiderstand) |
+| Querschnittsaufbau | cross-sectional structure | uebertragungsleitungen_2, EG301 |
+| Gegentaktströme / Gleichtaktströme (Zweidrahtleitung) | differential-mode currents / common-mode currents | as §9 *Gleichtakt / Gegentakt*; *Gleichtaktanteile* → common-mode components (AG312) (uebertragungsleitungen_3) |
+| Hochfrequenzeigenschaften / Biegeradius | RF properties / bending radius | AG303 (uebertragungsleitungen_3) |
+| Aufschäumung / geschäumt / nicht-geschäumtes Polyethylen | foaming / foamed / non-foamed polyethylene | AG302, AG317 "solid polyethylene" where the question says *Voll-PE* (uebertragungsleitungen_3) |
+| geometrische ("mechanische") Länge $L_\mathrm{G}$ | geometric ("mechanical") length | symbol unchanged; AG317 "physical length" (uebertragungsleitungen_3) |
+| Hin-Richtung / Rück-Richtung / Hinweg / Rückweg (Leitungsdämpfung) | on the way there / on the way back | the forward and return trip of a wave on a lossy line (swr_3, AG402–AG404); *in Hin- und Rückrichtung jeweils* → "in each direction, there and back" |
+| Leitungsdämpfung / verlustbehaftete Leitung | line loss / lossy line | swr_3 |
+| Stehwellenmessgerät, kurz SWR-Meter | SWR meter | one English term for both German words (§11); the "kurz" doublet and "vom englischen Begriff standing wave ratio abgeleitete Abkürzung" are dropped (bracket rule) (swr) |
+| einschleifen (SWR-Meter) | insert (in the line) | NI202, AI401 "inserted in the line"; "Das SWR-Meter wird … eingeschleift" → 'inserting the SWR meter in the line' (swr, swr_meter_1) |
+| Koppelleitung / kapazitive / induktive Kopplung (Richtkoppler) | coupling line / capacitive / inductive coupling | swr_meter_2; §14 *Messwerk* → meter movement, §11 *Kreuzzeigerinstrument* → cross-needle meter |
+| „Skineffekt" vom englischen Wort „skin" für „Haut" | "skin effect" | the gloss only translates the English word back (bracket rule) and is dropped (skineffekt) |
 
 ## 15. Catalogue structure
 

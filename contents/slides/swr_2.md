@@ -1,6 +1,6 @@
-* Stehwellenverhältnis: Vorlaufende zu rücklaufender Energie
-* SWR von $\num{3}$ bei $\qty{100}{\watt}$: $\qty{75}{\watt}$ werden abgestrahlt, $\qty{25}{\watt}$ laufen zurück
-* Oder auch: $\qty{75}{\percent}$ gehen auf die Antenne, $\qty{25}{\percent}$ werden reflektiert
+* Standing wave ratio: forward to reflected energy
+* SWR of $\num{3}$ at $\qty{100}{\watt}$: $\qty{75}{\watt}$ is radiated, $\qty{25}{\watt}$ comes back
+* Or: $\qty{75}{\percent}$ goes to the antenna, $\qty{25}{\percent}$ is reflected
 
 ---
 [question:EG401]

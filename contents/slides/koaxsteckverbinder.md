@@ -1,19 +1,19 @@
 <left>
-* Bestehen aus Innen- und Außenleiter
-* Außengehäuse mit Außenleiter verbunden
-* Innenleiter mit Kontaktstift oder Kontaktöffnung verbunden
-* Verbindung durch Löten oder Crimpen
+* Consist of inner and outer conductor
+* Outer body connected to outer conductor
+* Inner conductor connected to contact pin or contact opening
+* Connected by soldering or crimping
 </left>
 <right>
-* *Stecker*: Kontaktstift nach außen
-* *Kupplung*: Kontaktöffnung nach innen
-* Sonderform *Buchse*: In Gerät eingebaute Kupplung
-* Sonderform *Einbaustecker*: In Gerät eingebauter Stecker
+* *Plug*: contact pin pointing outwards
+* *Socket*: contact opening pointing inwards
+* Special form *panel socket*: socket built into equipment
+* Special form *panel plug*: plug built into equipment
 </right>
 
 ---
 
-### Häufige Koaxialsteckverbinder im Amateurfunk
+### Common coaxial connectors in amateur radio
 
 <left>
 * PL
@@ -22,29 +22,29 @@
 * SMA
 </left>
 <right>
-Abhängig vom Einsatzzweck
-* Frequenzbereich
-* Sendeleistung
-* Kabeltyp
+Depending on the application
+* Frequency range
+* Transmit power
+* Cable type
 </right>
 
 <note>
-* werden in den folgenden Abschnitten tiefer erklärt
-* Diese 4 Koaxialsteckverbinder reichen für die Prüfung aus – in der Praxis kommen noch mehr zum Einsatz
+* are explained in more depth in the following sections
+* These 4 coaxial connectors are enough for the examination – in practice more are used
 </note>
 
 ---
 
-## Hinweise zur Verwendung
+## Notes on use
 
 <left>
-* Sorgsamer Umgang
-* Fest verschrauben
-* Innenleiter kann brechen
-* Schirmung kann verrutschen
-* Ggf. auf Kurzschluss prüfen
+* Handle with care
+* Screw on firmly
+* Inner conductor can break
+* Screen can slip
+* Check for short circuits if necessary
 </left>
 <right>
-* Stecker passend zu Kabeldurchmesser/-stärke verwenden
-* Gleicher Wellenwiderstand wie Koaxialkabel $\rightarrow$ vermeidet unerwünschte Reflexionen
+* Use plugs that match the cable diameter/size
+* Same characteristic impedance as the coaxial cable $\rightarrow$ avoids unwanted reflections
 </right>

@@ -1,48 +1,48 @@
-In der Klasse E haben wir das SWR-Meter und seine Anwendung bereits kennengelernt. In der Klasse A wollen wir verstehen, wie ein Stehwellenmessgerät intern funktioniert. Ein SWR-Meter besteht in der Regel aus zwei Richtkopplern. Zu nächst wollen wir uns mit deren Funktionsweise vertraut machen. 
+In Class E we have already met the SWR meter and how it is used. In Class A we want to understand how an SWR meter works inside. An SWR meter usually consists of two directional couplers. First, let us become familiar with how they work. 
 
-Ein *Richtkoppler* dient dazu, einen kleinen Teil eines HF-Signals aus einer Speiseleitung auszukoppeln. Seine Besonderheit besteht darin, dass er dabei unterscheiden kann, in welche Richtung sich die Welle auf der Leitung ausbreitet. Dazu wird das Signal auf zwei unterschiedliche Arten erfasst. Über eine kapazitive Kopplung wird eine Spannung $U_C$ gewonnen, die von der Spannung auf der Speiseleitung abhängt. Gleichzeitig erzeugt die induktive Kopplung eine Spannung $U_I$, die vom Strom auf der Speiseleitung abhängt. Der Richtkoppler wird so dimensioniert, dass die kapazitiv und induktiv gewonnenen Signalanteile an seinen Ausgängen gleich groß sind. An den beiden Ausgängen werden diese Anteile jedoch mit unterschiedlichem Vorzeichen miteinander kombiniert.
+A *directional coupler* serves to couple a small part of an RF signal out of a feeder. Its special feature is that it can tell in which direction the wave is travelling on the line. To do this, the signal is picked up in two different ways. Capacitive coupling gives a voltage $U_C$ that depends on the voltage on the feeder. At the same time, inductive coupling produces a voltage $U_I$ that depends on the current on the feeder. The directional coupler is dimensioned so that the capacitively and inductively derived signal components at its outputs are equal in size. At the two outputs, however, these components are combined with opposite signs.
 
-Bei einer Welle, die sich in einer bestimmten Richtung auf der Leitung ausbreitet, z. B. von links nach rechts wie in Abbildung [ref:a_richtkoppler_rechts_links] dargestellt, addieren sich die kapazitiv und induktiv gewonnenen Spannungen an einem Ausgang. Am anderen Ausgang sind sie gegensinnig und heben sich im Idealfall gegenseitig auf. Das Signal erscheint daher hauptsächlich an nur einem der beiden Ausgänge.
+For a wave travelling in a particular direction on the line, e.g. from left to right as shown in Figure [ref:a_richtkoppler_rechts_links], the capacitively and inductively derived voltages add at one output. At the other output they are in opposition and, ideally, cancel each other out. The signal therefore appears mainly at only one of the two outputs.
 
 <margin>
-[picture:1109:a_richtkoppler_rechts_links:Richtkoppler, die Welle läuft von links nach rechts]
+[picture:1109:a_richtkoppler_rechts_links:Directional coupler, the wave travelling from left to right]
 </margin>
 
 ---
 
-Kehrt sich die Ausbreitungsrichtung der Welle um, wie z. B. von rechts nach links wie in Abbildung [ref:a_richtkoppler_rechts_links] dargestellt, kehrt sich auch die Richtung des Stroms relativ zur Spannung um. Dadurch ändert die induktiv gekoppelte Spannung $U_I$ ihr Vorzeichen, während sich die kapazitiv gekoppelte Spannung $U_C$ entsprechend der Leitungsspannung ergibt.
+If the direction of travel of the wave is reversed, e.g. from right to left as shown in Figure [ref:a_richtkoppler_rechts_links], the direction of the current relative to the voltage is also reversed. As a result, the inductively coupled voltage $U_I$ changes its sign, while the capacitively coupled voltage $U_C$ follows the line voltage.
 
 <margin>
-[picture:1110:a_richtkoppler_rechts_links:Richtkoppler, die Welle läuft von rechts nach links]
+[picture:1110:a_richtkoppler_rechts_links:Directional coupler, the wave travelling from right to left]
 </margin>
 
-Damit vertauschen sich auch die beiden Ausgänge des Richtkopplers: Der Ausgang, an dem sich die beiden Anteile zuvor addiert haben, wird nun weitgehend ausgelöscht, während sie sich am anderen Ausgang addieren.
+The two outputs of the directional coupler are thus also swapped: the output at which the two components added before is now largely cancelled, while they add at the other output.
 
-Auf diese Weise kann ein Richtkoppler zwischen einer *vorlaufenden Welle* in Richtung Antenne und einer *rücklaufenden Welle* in Richtung Sender unterscheiden.
+In this way a directional coupler can distinguish between a *forward wave* towards the antenna and a *reflected wave* towards the transmitter.
 
 ---
 
-Diese Eigenschaft der Richtkoppler wird in einem *Stehwellenmessgerät* beziehungsweise *SWR-Meter* genutzt: Man misst hierzu die  die Ausgangsspannungen zweier in die Leitung eingeschleifter Richtkoppler, die in gegensätzlicher Richtung betrieben werden. Die HF-Spannungen an den Ausgängen der Richtkoppler werden mit Dioden gleichgerichtet und geglättet. Dadurch entstehen Gleichspannungen, die mit einem Messinstrument angezeigt werden können.
+This property of directional couplers is used in an *SWR meter*: for this, the output voltages of two directional couplers inserted in the line and operated in opposite directions are measured. The RF voltages at the outputs of the directional couplers are rectified with diodes and smoothed. This produces DC voltages that can be shown on a meter.
 
 [question:AI401]
 
-Die Abbildung [ref:a_rswr_meter] zeigt den prinzipiellen Aufbau eines Stehwellenmessgeräts mit zwei Richtkopplern. Dabei nehmen wir an, dass sich der Sender auf der linken und die Antenne auf der rechten Seite befindet.
+Figure [ref:a_rswr_meter] shows the basic design of an SWR meter with two directional couplers. We assume that the transmitter is on the left and the antenna on the right.
 
 [question:AI402]
 
-Der obere Leiter ist Teil der Speiseleitung zwischen Sender und Antenne. An ihm werden zwei Größen erfasst: Über die kapazitive Kopplung wird ein kleiner Anteil der HF-Spannung ausgekoppelt. Über die induktive Kopplung wird gleichzeitig ein Anteil gewonnen, der vom Strom auf der Speiseleitung abhängt.
+The upper conductor is part of the feeder between transmitter and antenna. Two quantities are picked up from it: capacitive coupling takes off a small part of the RF voltage. At the same time, inductive coupling derives a component that depends on the current on the feeder.
 
-Die jeweils nicht zur Messung verwendete Seite der Koppelleitung wird mit einem *Abschlusswiderstand* abgeschlossen. Dieser Widerstand entspricht näherungsweise dem Wellenwiderstand $Z_0$ der Koppelleitung. Dadurch wird die dort ankommende HF-Leistung aufgenommen und nicht wieder in die Koppelleitung zurückreflektiert. Solche Reflexionen würden die Trennung zwischen vorlaufender und rücklaufender Welle verschlechtern.
+The end of the coupling line that is not used for the measurement is terminated with a *terminating resistor*. This resistor corresponds approximately to the characteristic impedance $Z_0$ of the coupling line. As a result, the RF power arriving there is absorbed and not reflected back into the coupling line. Such reflections would impair the separation between the forward and reflected waves.
 
-Diese beiden Signalanteile werden im Richtkoppler miteinander kombiniert. Für eine Welle, die vom Sender zur Antenne läuft, addieren sie sich in einem der beiden Koppler, während sie sich im anderen weitgehend gegenseitig aufheben. Bei einer Welle in der entgegengesetzten Richtung ist es genau umgekehrt.
+These two signal components are combined with each other in the directional coupler. For a wave travelling from the transmitter to the antenna they add in one of the two couplers, while in the other they largely cancel each other out. For a wave in the opposite direction it is exactly the other way round.
 
-Die beiden nahezu spiegelbildlich aufgebauten Schaltungsteile können dadurch unterschiedliche Laufrichtungen erfassen:
+The two almost mirror-image halves of the circuit can therefore pick up different directions of travel:
 
-* Der eine Richtkoppler liefert ein Signal proportional zur *vorlaufenden Welle* vom Sender zur Antenne.
-* Der andere Richtkoppler liefert ein Signal proportional zur *rücklaufenden Welle* von der Antenne zum Sender.
+* One directional coupler delivers a signal proportional to the *forward wave* from the transmitter to the antenna.
+* The other directional coupler delivers a signal proportional to the *reflected wave* from the antenna to the transmitter.
 
-Die ausgekoppelten Signale sind zunächst HF-Wechselspannungen. Die Dioden richten diese Spannungen gleich, und die Kondensatoren glätten sie. Dadurch entstehen Gleichspannungen, die mit den beiden Messwerken eines Kreuzzeigerinstruments angezeigt werden können, oder durch einen Mikrocontroller mit A/D-Umsetzer gemessern werden können. Die einstellbaren Widerstände dienen dabei zum Abgleich beziehungsweise zur Kalibrierung der Anzeige. Sie sind von den Abschlusswiderständen der Koppelleitungen zu unterscheiden, die für einen reflexionsarmen Abschluss mit $Z_0$ sorgen.
+The signals coupled out are at first RF alternating voltages. The diodes rectify these voltages, and the capacitors smooth them. This produces DC voltages that can be shown by the two meter movements of a cross-needle meter, or measured by a microcontroller with an A/D converter. The variable resistors are used to adjust or calibrate the reading. They are not to be confused with the terminating resistors of the coupling lines, which provide a low-reflection termination with $Z_0$.
 
 <margin>
-[picture:499:a_rswr_meter:SWR-Meter mit zwei Richtkopplern]
+[picture:499:a_rswr_meter:SWR meter with two directional couplers]
 </margin>

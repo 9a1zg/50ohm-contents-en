@@ -1,34 +1,34 @@
 <left>
-[picture:978:a_swr:Stehende Welle]
+[picture:978:a_swr:Standing wave]
 </left>
 <right>
-* Das Stehwellenverhältnis (SWR) kann oft direkt anhand des Speisewiderstands einer Antenne angegeben werden
-* Bei einem reinen Wirkwiderstand (ohne induktive oder kapazitive Anteile) berechnet sich das SWR aus dem Verhältnis von Lastwiderstand zu Kabelwellenwiderstand (sodass SWR ≥ $\num{1}$ ist)
+* The standing wave ratio (SWR) can often be stated directly from the feed-point impedance of an antenna
+* For a pure resistance (no inductive or capacitive components), the SWR is calculated from the ratio of the load resistance to the characteristic impedance of the cable (so that SWR ≥ $\num{1}$)
 </right>
 
 ---
 
-* Beispiel: Eine Antenne mit $\qty{100}{\ohm}$ an einem $\qty{50}{\ohm}$ Kabel führt zu einem SWR von $\num{2}$, während eine mit $\qty{10}{\ohm}$ zu einem SWR von $\num{5}$ führt
-* Zur Erinnerung: Der Widerstand eines Faltdipols liegt bei knapp $\qty{300}{\ohm}$
+* Example: an antenna of $\qty{100}{\ohm}$ on a $\qty{50}{\ohm}$ cable gives an SWR of $\num{2}$, while one of $\qty{10}{\ohm}$ gives an SWR of $\num{5}$
+* Remember: the impedance of a folded dipole is just under $\qty{300}{\ohm}$
 
 ---
 [question:AG405]
 ---
-#### Lösungsweg
-* gegeben: $Z = \qty{75}{\ohm}$
-* gegeben: $R_2 \approx \qty{300}{\ohm}$ Widerstand Faltdipol
-* gesucht: $s$
+#### Solution
+* given: $Z = \qty{75}{\ohm}$
+* given: $R_2 \approx \qty{300}{\ohm}$ impedance of the folded dipole
+* required: $s$
 
 <fragment>
 $s = \frac{R_2}{Z} = \frac{\qty{300}{\ohm}}{\qty{75}{\ohm}} = 4$
 </fragment>
 ---
 
-### Einfluss der Leitungsdämpfung auf das Stehwellenverhältnis
+### Effect of line loss on the standing wave ratio
 
-* Leitungsdämpfung reduziert sowohl die vorlaufende als auch die rücklaufende Leistung
-* Selbst wenn am Kabelende $\qty{100}{\percent}$ der Energie reflektiert werden, kann am Sender ein niedrigeres (besseres) SWR gemessen werden
-* Beispiel: Geht in Hin- und Rückrichtung jeweils die Hälfte der Leistung verloren, so verbleibt nur ein Viertel der ursprünglichen Leistung – dies entspricht einem gemessenen SWR von $\num{3}$ ($\qty{25}{\percent}$ reflektierte Leistung)
+* Line loss reduces both the forward and the reflected power
+* Even if $\qty{100}{\percent}$ of the energy is reflected at the end of the cable, a lower (better) SWR can be measured at the transmitter
+* Example: if half the power is lost in each direction, there and back, only a quarter of the original power remains – this corresponds to a measured SWR of $\num{3}$ ($\qty{25}{\percent}$ reflected power)
 
 ---
 [question:AG402]
@@ -36,10 +36,10 @@ $s = \frac{R_2}{Z} = \frac{\qty{300}{\ohm}}{\qty{75}{\ohm}} = 4$
 [question:AG403]
 ---
 
-### Auswirkung von Leitungsdämpfung auf gemessenes SWR
+### Effect of line loss on the measured SWR
 
-* Bei einer Leitungsdämpfung von $\qty{5}{\dB}$ in Hin- und Rückrichtung (insgesamt $\qty{10}{\dB}$) entspricht die rücklaufende Leistung nur einem Zehntel der vorlaufenden
-* Das gemessene SWR lässt sich mit der Formel berechnen:
+* With a line loss of $\qty{5}{\dB}$ in each direction, there and back ($\qty{10}{\dB}$ in total), the reflected power is only a tenth of the forward power
+* The measured SWR can be calculated with the formula:
   
 <fragment>
 $s = \frac{\sqrt{P_\mathrm{v}}+\sqrt{P_\mathrm{r}}}{\sqrt{P_\mathrm{v}}-\sqrt{P_\mathrm{r}}}$
@@ -49,15 +49,15 @@ $s = \frac{\sqrt{P_\mathrm{v}}+\sqrt{P_\mathrm{r}}}{\sqrt{P_\mathrm{v}}-\sqrt{P_
 [question:AG404]
 ---
 
-#### Lösungsweg
-* gegeben: $P_V = \qty{10}{\watt}$
-* gegeben: $a = \qty{5}{\dB}$
-* gesucht: $s$
+#### Solution
+* given: $P_V = \qty{10}{\watt}$
+* given: $a = \qty{5}{\dB}$
+* required: $s$
 
 <fragment>
-Dämpfung auf gesamtes Kabel für Hin- und Rückweg: $\qty{10}{\dB}$
+Attenuation over the whole cable, there and back: $\qty{10}{\dB}$
 $P_R = \qty{-10}{\dB} \cdot P_V = \dfrac{\qty{10}{\watt}}{10} = \qty{1}{\watt}$
 </fragment>
 <fragment>
-$s = \dfrac{\sqrt{P_\mathrm{v}}+\sqrt{P_\mathrm{r}}}{\sqrt{P_\mathrm{v}}-\sqrt{P_\mathrm{r}}} = \dfrac{\sqrt{\qty{10}{\watt}}+\sqrt{\qty{1}{\watt}}}{\sqrt{\qty{10}{\watt}}-\sqrt{\qty{1}{\watt}}} = 1,92$
+$s = \dfrac{\sqrt{P_\mathrm{v}}+\sqrt{P_\mathrm{r}}}{\sqrt{P_\mathrm{v}}-\sqrt{P_\mathrm{r}}} = \dfrac{\sqrt{\qty{10}{\watt}}+\sqrt{\qty{1}{\watt}}}{\sqrt{\qty{10}{\watt}}-\sqrt{\qty{1}{\watt}}} = 1.92$
 </fragment>

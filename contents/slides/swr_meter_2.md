@@ -1,13 +1,13 @@
-## Funktionsweise eines Stehwellenmessgeräts
+## How an SWR meter works
 
 <left>
-[picture:499:a_stehwellenmessgeraet:Schaltung eines Stehwellenmessgeräts]
+[picture:499:a_stehwellenmessgeraet:Circuit of an SWR meter]
 </left>
 <right>
-* Koppelt einen Teil der vorlaufenden Leistung  
-* Koppelt einen Teil der rücklaufenden Leistung  
-* Anzeige über eine geeignete Skala (z. B. Kreuzzeigerinstrument)  
-* Ablesen des Stehwellenverhältnisses
+* Couples out part of the forward power  
+* Couples out part of the reflected power  
+* Displayed on a suitable scale (e.g. cross-needle meter)  
+* The standing wave ratio is read off
 </right>  
 
 ---  
@@ -17,19 +17,19 @@
 [question:AI402]
 
 ---  
-### Stehwellen- und Impedanzverhältnis  
+### Standing wave ratio and impedance ratio  
 
-* Stehwellenverhältnis entspricht dem Impedanzverhältnis  
-* Gilt bei Last mit rein wirkwiderstandlicher Komponente  
-* Wichtiger Merksatz für die folgende Frage  
+* The standing wave ratio is equal to the impedance ratio  
+* Applies to a load with a purely resistive component  
+* Important rule to remember for the next question  
 
 ---  
 [question:AI403]
 ---
-#### Lösungsweg
-* gegeben: $R_2 = \qty{150}{\ohm}$
-* gegeben: $Z = \qty{50}{\ohm}$
-* gesucht: $s$
+#### Solution
+* given: $R_2 = \qty{150}{\ohm}$
+* given: $Z = \qty{50}{\ohm}$
+* required: $s$
 
 <fragment>
 $s = \frac{R_2}{Z} = \frac{\qty{150}{\ohm}}{\qty{50}{\ohm}} = 3$

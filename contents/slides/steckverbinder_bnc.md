@@ -1,12 +1,12 @@
-* Einsatz: Funkgeräte mit kleiner Leistung bis hinauf zum $\qty{70}{\centi\meter}$-Band und in der Messtechnik
-* Besonderheit: *Bajonett-Verschluss*
+* Use: low-power radios up to the $\qty{70}{\centi\meter}$ band, and in measurement
+* Special feature: *bayonet coupling*
 
-[photo:71:n_koaxsteckverbinder_bnc:BNC-Winkeladapter mit Stecker links und Kupplung rechts]
+[photo:71:n_koaxsteckverbinder_bnc:BNC right-angle adapter with plug on the left and socket on the right]
 
 ---
 
-* Schneller lösbar als Schraubverbindungen von PL oder N: Verschluss um ca. 90° drehen
-* Federmechanismus schützt vor versehentlichem Lösen
+* Quicker to undo than the screw couplings of PL or N: turn the coupling through approx. 90°
+* Spring mechanism prevents it from coming undone accidentally
 
 ---
 [question:NG203]

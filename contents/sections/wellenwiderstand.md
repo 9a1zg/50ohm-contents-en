@@ -1,42 +1,42 @@
-Eine Speiseleitung lässt sich als Schaltung vieler kleiner Induktivitäten und Kapazitäten wie in Abbildung [ref:a_wellenwiderstand] darstellen. Aus diesen sogenannten Induktivitätsbelägen $L'$ in $\unit{\henry\per\meter}$ und Kapazitätsbelägen $C'$ in $\unit{\farad\per\meter}$ ergibt sich der Wellenwiderstand $Z$ der Leitung. Allgemein gilt:
+A feeder can be represented as a circuit of many small inductances and capacitances, as in Figure [ref:a_wellenwiderstand]. From this inductance per unit length $L'$ in $\unit{\henry\per\meter}$ and capacitance per unit length $C'$ in $\unit{\farad\per\meter}$, the characteristic impedance $Z$ of the line follows. In general:
 
 $Z_0 = \sqrt{\frac{L'}{C'}}.$
 
 <margin>
-[picture:1108:a_wellenwiderstand:Wellenwiderstand einer Speiseleitung]
+[picture:1108:a_wellenwiderstand:Characteristic impedance of a feeder]
 
-| X: Eigenschaft               | l: Wert                               |
-| Impedanz                     | $\qty{50}{\ohm}$                      |
-| Frequenzbereich              | $ < \qty{1}{\giga\hertz}$             |
-| Kapazitätsbelag              | $\qty{100}{\pico\farad\per\meter}$    |
-| Induktivitätsbelag           | $\qty{0,25}{\micro\henry\per\meter}$  |
-| Ausbreitungsgeschwingkeit    | $\qty{0,66}{\percent}$                |
-[table:a_rg58:Technische Daten aus einem Datenblatt eines RG-58-Koaxialkabels]
+| X: Property                  | l: Value                              |
+| Impedance                    | $\qty{50}{\ohm}$                      |
+| Frequency range              | $ < \qty{1}{\giga\hertz}$             |
+| Capacitance per unit length  | $\qty{100}{\pico\farad\per\meter}$    |
+| Inductance per unit length   | $\qty{0.25}{\micro\henry\per\meter}$  |
+| Velocity of propagation      | $\qty{0.66}{\percent}$                |
+[table:a_rg58:Technical data from a data sheet of an RG-58 coaxial cable]
 </margin>
 
-Die Tabelle [ref:a_rg58] zeigt die technischen Daten eines RG-58-Koaxialkabels. Der Wellenwiderstand beträgt $\qty{50}{\ohm}$, der Kapazitätsbelag $\qty{100}{\pico\farad\per\meter}$ und der Induktivitätsbelag $\qty{0,25}{\micro\henry\per\meter}$. Aus diesen Werten lässt sich der Wellenwiderstand mit der obigen Formel berechnen:
+Table [ref:a_rg58] shows the technical data of an RG-58 coaxial cable. The characteristic impedance is $\qty{50}{\ohm}$, the capacitance per unit length $\qty{100}{\pico\farad\per\meter}$ and the inductance per unit length $\qty{0.25}{\micro\henry\per\meter}$. From these values the characteristic impedance can be calculated with the formula above:
 
-$Z_0 = \sqrt{\frac{\qty{0,25}{\micro\henry\per\meter}}{\qty{100}{\pico\farad\per\meter}}} = \sqrt{2500} = \qty{50}{\ohm}$
+$Z_0 = \sqrt{\frac{\qty{0.25}{\micro\henry\per\meter}}{\qty{100}{\pico\farad\per\meter}}} = \sqrt{2500} = \qty{50}{\ohm}$
 
-Sind diese Kapazitäts- und Induktivitätsbeläge nicht bekannt, so gibt es Formeln in der Formelsammlung, die auf den geometrischen Abmessungen der Leitung und der relativen Dielektrizitätszahl des Dielektrikums basieren.
+If the capacitance and inductance per unit length are not known, the formula sheet has formulas based on the geometric dimensions of the line and the relative permittivity of the dielectric.
 
-Der Wellenwiderstand $Z_0$ einer symmetrischen Zweidrahtleitung hängt z. B. vom Mittenabstand der Leiter ($a$) und deren Durchmesser ($d$), sowie der relativen Dielektrizitätszahl $\epsilon_\mathrm{r}$ des dazwischen befindlichen Dielektrikums, ab. Die in der Formelsammlung angegebene Gleichung gilt für $a/d > 2,5$:
+The characteristic impedance $Z_0$ of a balanced twin feeder depends, for example, on the centre-to-centre spacing of the conductors ($a$) and their diameter ($d$), and on the relative permittivity $\epsilon_\mathrm{r}$ of the dielectric between them. The equation given on the formula sheet applies for $a/d > 2.5$:
 
 $Z_0 = \dfrac{\qty{120}{\ohm}}{\sqrt{\epsilon_\mathrm{r}}} \cdot \ln{\left(\dfrac{2\cdot a}{d}\right)}$
 
-Hierbei ist $\ln$ der natürliche Logarithmus.
+Here $\ln$ is the natural logarithm.
 
 [question:AG305]
 
-Der Wellenwiderstand $Z_0$ einer Koaxialleitung hängt vom Verhältnis des Innendurchmessers des Außenleiters ($D$) zum Durchmesser des Innenleiters ($d$) sowie des dazwischen befindlichen Dielektrikums ab. Der Formelsammlung entnehmen wir:
+The characteristic impedance $Z_0$ of a coaxial line depends on the ratio of the inside diameter of the outer conductor ($D$) to the diameter of the inner conductor ($d$), and on the dielectric between them. From the formula sheet we take:
 
 $Z_0 = \dfrac{\qty{60}{\ohm}}{\sqrt{\epsilon_\mathrm{r}}} \cdot \ln{\left(\dfrac{D}{d}\right)}$
 
-Hierbei ist $\ln$ der natürliche Logarithmus und $\epsilon_\mathrm{r}$ die relative Dielektrizitätszahl des Dielektrikums.
+Here $\ln$ is the natural logarithm and $\epsilon_\mathrm{r}$ the relative permittivity of the dielectric.
 
 [question:AG306]
 [question:AG307]
 
-Wenn eine Leitung mit ihrem Wellenwiderstand abgeschlossen wird, wenn also an einem Ende ein Bauteil oder eine Antenne angeschlossen wird, die genau denselben Widerstand aufweist, wie der Wellenwiderstand der Leitung, dann spricht man von Anpassung. In diesem Falle werden Wellen an diesem Ende des Kabels nicht reflektiert.
+If a line is terminated in its characteristic impedance, that is, if a component or an antenna whose resistance is exactly the same as the characteristic impedance of the line is connected at one end, the line is said to be matched. In this case, waves are not reflected at this end of the cable.
 
 [question:AG304]

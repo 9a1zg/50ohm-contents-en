@@ -1,7 +1,7 @@
-Ein Stehwellenmessgerät (vgl. Abbildung [ref:swr_meter_kreuzzeiger]) wird bei Sendern eingesetzt, um die Anpassung der Antenne beziehungsweise der Speiseleitung an die Antenne zu überprüfen. Oft wird ein SWR-Meter,  entsprechend seines Aufbaus, als SWR-Messbrücke bezeichnet. Damit lassen sich die folgenden Fragen leicht beantworten:
+An SWR meter (see Figure [ref:swr_meter_kreuzzeiger]) is used with transmitters to check the matching of the antenna, or of the feeder to the antenna. Because of the way it is built, an SWR meter is often called an SWR bridge. With this, the following questions are easy to answer:
 
 <margin>
-[photo:143:swr_meter_kreuzzeiger:SWR-Meter mit Kreuzzeiger, linker Zeiger für die vorlaufende und rechter Zeiger für die rücklaufende Leistung; um das SWR abzulesen, wird der grünen Linie am Schnittpunkt beider Zeiger nach unten gefolgt]
+[photo:143:swr_meter_kreuzzeiger:SWR meter with cross-needle display, left needle for the forward and right needle for the reflected power; to read the SWR, follow the green line downwards from the point where the two needles cross]
 </margin>
 
 [question:EI401]
@@ -10,24 +10,24 @@ Ein Stehwellenmessgerät (vgl. Abbildung [ref:swr_meter_kreuzzeiger]) wird bei S
 
 ---
 
-Da eine Speiseleitung Verluste aufweist, und daher auch das Stehwellenverhältnis verändert, kommt es darauf an, *wo* wir ein Stehwellenmessgerät einschleifen.
+Since a feeder has losses and therefore also changes the standing wave ratio, it matters *where* we insert an SWR meter in the line.
 
 ---
 
-Möchten wir messen, wie gut eine Antenne angepasst ist, dann sollten wir das Stehwellenmessgerät unmittelbar vor der Antenne anschließen (vgl. Abbildung [ref:swr_meter_antenne]).
+If we want to measure how well an antenna is matched, we should connect the SWR meter directly in front of the antenna (see Figure [ref:swr_meter_antenne]).
 
 <margin>
-[picture:1051:swr_meter_antenne:Position für das SWR-Meter zur Ermittlung der Antennenanpassung]
+[picture:1051:swr_meter_antenne:Position of the SWR meter for determining the antenna match]
 </margin>
 
 [question:EI404]
 
 ---
 
-Interessiert uns hingegen, wie gut ein Sender auf die gesamte Antennenanlage (einschließlich ggf. vorhandener Filter und/oder Antennentuner) angepasst ist, dann sollten wir das Stehwellenmessgerät unmittelbar hinter dem Sender anschließen (vgl. Abbildung [ref:swr_meter_anlage]).
+If, on the other hand, we are interested in how well a transmitter is matched to the whole antenna system (including any filters and/or antenna tuner), we should connect the SWR meter directly after the transmitter (see Figure [ref:swr_meter_anlage]).
 
 <margin>
-[picture:1052:swr_meter_anlage:Position für das SWR-Meter zur Ermittlung der Anpassung der gesamten Antennenanlage]
+[picture:1052:swr_meter_anlage:Position of the SWR meter for determining the match of the whole antenna system]
 </margin>
 
 [question:EI405]

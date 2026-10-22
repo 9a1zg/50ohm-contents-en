@@ -1,44 +1,44 @@
-* Antennen haben einen Speise- oder Fußpunktwiderstand, abhängig von der genauen Anordnung der Antennenelemente
-* Passt dieser nicht zum Wellenwiderstand der Zuleitung, kommt es zu einer *Reflexion*
-* Sendeleistung wird zum Funkgerät zurück reflektiert $\rightarrow$ kann nicht an der Antenne abgestrahlt werden
-* Stimmen Speisewiderstand der Antenne und Wellenwiderstand der Speiseleitung überein, liegt *Anpassung* vor
+* Antennas have a feed-point impedance that depends on the exact arrangement of the antenna elements
+* If it does not match the characteristic impedance of the feeder, *reflection* occurs
+* Transmit power is reflected back to the radio $\rightarrow$ cannot be radiated by the antenna
+* If the feed-point impedance of the antenna and the characteristic impedance of the feeder are the same, the antenna is *matched*
 
 ---
 
-## Stehwellenverhältnis (SWR)
+## Standing wave ratio (SWR)
 
-* Messwert für die Güte der Antennenanpassung
-* Gibt vereinfacht an, wie viel Sendeleistung von der Antenne reflektiert wird
-* Abkürzung SWR vom englischen "standing wave ratio"
-* Gemessen mit einem *Stehwellenmessgerät*, kurz *SWR-Meter*
+* A measure of how good the antenna match is
+* Put simply, states how much transmit power is reflected by the antenna
+* Abbreviated to SWR
+* Measured with an *SWR meter*
 
 <note>
-Genaue Berechnung: $\text{SWR} = \frac {\sqrt{P_\text{V}}+\sqrt{P_\text{R}}} { \sqrt{P_\text{V}}-\sqrt{P_\text{R}}}$ mit $P_\text{V}$ vorlaufender und $P_\text{R}$ rücklaufender Leistung -- für die Prüfung der Klasse N nicht erforderlich
+Exact calculation: $\text{SWR} = \frac {\sqrt{P_\text{V}}+\sqrt{P_\text{R}}} { \sqrt{P_\text{V}}-\sqrt{P_\text{R}}}$ with $P_\text{V}$ the forward and $P_\text{R}$ the reflected power -- not needed for the Class N examination
 </note>
 
 ---
 
-## SWR-Meter
+## SWR meter
 
-Misst gleichzeitig die Sendeleistung zur Antenne und die reflektierte, rücklaufende Leistung
+Measures at the same time the transmit power going to the antenna and the reflected power coming back
 
 <left>
-[photo:144:swr_meter:Ein einfaches SWR-Meter zum Bestimmen des Stehwellenverhältnisses]
+[photo:144:swr_meter:A simple SWR meter for determining the standing wave ratio]
 </left>
 <right>
-[photo:143:swr_meter_kreuzzeiger:SWR-Meter mit Kreuzzeiger, linker Zeiger für die vorlaufende und rechter Zeiger für die rücklaufende Leistung; um das SWR abzulesen wird der grünen Linie am Schnittpunkt beider Zeiger nach unten gefolgt]
+[photo:143:swr_meter_kreuzzeiger:SWR meter with cross-needle display, left needle for the forward and right needle for the reflected power; to read the SWR, follow the green line downwards from the point where the two needles cross]
 </right>
 ---
-Wird zwischen Transceiver und Antenne eingeschleift oder ist bereits im Transceiver eingebaut
+Inserted in the line between transceiver and antenna, or already built into the transceiver
 
 <left>
-[picture:670:n_trx_kabel_swr_antenne:Prinzipbild SWR-Meter zwischen Transceiver  und Antenne]
+[picture:670:n_trx_kabel_swr_antenne:Schematic of an SWR meter between transceiver  and antenna]
 </left>
 <right>
-[photo:67:n_swr_display:Display eines Transceivers]
+[photo:67:n_swr_display:Display of a transceiver]
 </right>
 <note>
-SWR-Meter und S-Meter klingen ähnlich, sind aber verschieden: Das SWR-Meter misst das Stehwellenverhältnis beim Senden, das S-Meter die Signalstärke beim Empfang
+SWR meter and S meter sound similar but are different: the SWR meter measures the standing wave ratio when transmitting, the S meter the signal strength when receiving
 </note>
 
 ---
@@ -52,12 +52,12 @@ SWR-Meter und S-Meter klingen ähnlich, sind aber verschieden: Das SWR-Meter mis
 [question:NI202]
 
 ---
-## Gute Anpassung
+## Good match
 
-* Bei perfekter Anpassung wird der Wert $\num{1}$ angezeigt
-* Der beste erreichbare Wert
-* Die gesamte Leistung wird von der Antenne aufgenommen
-* Keine Leistung wird zurück in den Sender reflektiert
+* With a perfect match, the value $\num{1}$ is shown
+* The best value that can be achieved
+* All the power is taken up by the antenna
+* No power is reflected back into the transmitter
 
 ---
 [question:NG301]
@@ -66,18 +66,18 @@ SWR-Meter und S-Meter klingen ähnlich, sind aber verschieden: Das SWR-Meter mis
 [question:NI203]
 
 ---
-## Schlechte Anpassung
+## Poor match
 
-* Bei schlechter Anpassung wird nahe unendlich ($\infty$) angezeigt
-* Keine Antenne angeschlossen, Übertragungsleitung unterbrochen oder kurzgeschlossen
-* Schlechte Anpassung der Antenne oder beschädigte Übertragungsleitung
-* Kann im schlimmsten Fall den Sender zerstören
+* With a poor match, close to infinity ($\infty$) is shown
+* No antenna connected, transmission line broken or short-circuited
+* Poor match of the antenna or damaged transmission line
+* In the worst case, can destroy the transmitter
 
 ---
 
-* Bei SWR $\num{2}$ werden $\qty{11}{\percent}$ der Sendeleistung reflektiert
-* Bei SWR $\num{3}$ werden $\qty{25}{\percent}$ der Sendeleistung reflektiert
-* Moderne Transceiver reduzieren die Sendeleistung automatisch, um den Sender zu schützen
+* With an SWR of $\num{2}$, $\qty{11}{\percent}$ of the transmit power is reflected
+* With an SWR of $\num{3}$, $\qty{25}{\percent}$ of the transmit power is reflected
+* Modern transceivers reduce the transmit power automatically to protect the transmitter
 
 ---
 [question:NG302]
@@ -87,16 +87,16 @@ SWR-Meter und S-Meter klingen ähnlich, sind aber verschieden: Das SWR-Meter mis
 [question:NG303]
 
 ---
-## Hohe Kabeldämpfung
+## High cable loss
 
-* Verringert das reflektierte Signal
-* Führt zur Verfälschung der Messung
-* Beispielsweise bei langem Kabel
-* Signal wird auf dem Hin- und Rückweg verringert
+* Reduces the reflected signal
+* Falsifies the measurement
+* For example with a long cable
+* Signal is reduced on the way there and on the way back
 
 ---
 [question:NG208]
 
 <note>
-* SWR wird scheinbar besser, aber nur die reflektierte Leistung wird gedämpft
+* SWR appears to get better, but only the reflected power is attenuated
 </note>

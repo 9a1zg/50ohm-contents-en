@@ -485,6 +485,22 @@ and the checker's "Provjera" section).
   $U_R$ — stay, because the exam questions (AG213, AG214) and the drawings
   use them, like every other German subscript. (Unit
   nea_antennen_uebertragungsleitungen_2.)
+- **Coaxial connectors: *Stecker* → plug, *Kupplung* → socket, *Buchse* →
+  panel socket, *Einbaustecker* → panel plug.** German has three words for
+  the parts of a connector and the course defines them (koaxsteckverbinder):
+  the *Stecker* is male, the *Kupplung* female, and a *Buchse* or
+  *Einbaustecker* is a *Kupplung* or *Stecker* built into equipment. The
+  glossary's *Buchse* → socket therefore becomes *panel socket* where the
+  course sets it against the *Kupplung* (PL-Einbaubuchse,
+  N-Einbaubuchse), and *Kupplung* takes plain *socket*; a bare *Buchse*
+  with no contrast stays *socket* ("N-Buchse" → "N socket"; the reverse SMA
+  slide's "Reverse-SMA-Stecker ist eine Buchse", which only means
+  "female", → "a reverse SMA plug is a socket"). *Jack*, the RF industry's
+  word for the female part, is not used: in British English a *jack* is also
+  the male audio plug. Where *Stecker* names the connector type rather than
+  the male part (*N-Stecker: für … hohe Leistung*), it is *connector*, as in
+  EG303. The connector chapters that follow (e.g. swl_steckverbinder) keep
+  this. (Unit nea_antennen_uebertragungsleitungen_3.)
 
 ## Open questions for DARC
 

@@ -1,42 +1,42 @@
-In der Klasse E haben wir bereits die Paralleldraht-Speiseleitung, auch Hühnerleiter genannt, kennengelernt (vgl. Abbildung [ref:a_huenerleiter]). Diese besteht aus zwei parallel verlaufenden Leitern. Zweidrahtleitungen verhalten sich, sofern sie symmetrisch gespeist und belastet werden, auch hinsichtlich ihrer Strom- und Spannungsverteilung symmetrisch. Das bedeutet, dass Strom und Spannung an einer bestimmten Stelle auf beiden Leitern jeweils den gleichen Betrag, aber entgegengesetzte Vorzeichen besitzen, wie in Abbildung [ref:a_zweidrahtleitung] dargestellt.
+In Class E we have already met the open-wire feeder, also called ladder line (see Figure [ref:a_huenerleiter]). It consists of two conductors running in parallel. Provided twin feeders are fed and loaded in a balanced way, they also behave in a balanced way as regards their current and voltage distribution. This means that at any given point the current and the voltage on the two conductors have the same magnitude but opposite signs, as shown in Figure [ref:a_zweidrahtleitung].
 
 <margin>
-[photo:324:a_huenerleiter:Hühnerleiter, auch als Zweidrahtleitung bezeichnet]
+[photo:324:a_huenerleiter:Ladder line, also called twin feeder]
 </margin>
 
-Die Ströme auf den beiden Leitern fließen damit zu jedem Zeitpunkt in entgegengesetzte Richtungen. Man spricht von *Gegentaktströmen*. Die von den beiden Leitern erzeugten elektromagnetischen Felder wirken dadurch in größerer Entfernung weitgehend gegeneinander und heben sich zum großen Teil auf. Eine symmetrisch betriebene Zweidrahtleitung strahlt daher nur wenig ab.
+The currents on the two conductors therefore flow in opposite directions at every instant. These are called *differential-mode currents*. As a result, the electromagnetic fields produced by the two conductors largely oppose each other at a greater distance and for the most part cancel out. A twin feeder operated in a balanced way therefore radiates only a little.
 
 <margin>
-[picture:1107:a_zweidrahtleitung:Strom- und Spannungsverteilung an einer Zweidrahtleitung]
+[picture:1107:a_zweidrahtleitung:Current and voltage distribution on a twin feeder]
 </margin>
 
-Ist die Speiseleitung dagegen nicht vollständig symmetrisch, können zusätzlich *Gleichtaktströme* auftreten. Dabei fließt ein Teil des Stroms auf beiden Leitern in die gleiche Richtung. Die von diesen Strömen erzeugten Felder heben sich nicht gegenseitig auf. Die Speiseleitung kann dann selbst wie eine Antenne wirken und Hochfrequenzenergie abstrahlen. Solche Gleichtaktanteile können beispielsweise entstehen, wenn ein Dipol nicht exakt symmetrisch aufgebaut ist, eine unsymmetrische Antenne oder Last angeschlossen wird oder der Übergang zwischen einer symmetrischen Antenne und einer unsymmetrischen Speiseleitung nicht durch einen geeigneten Balun beziehungsweise eine Mantelwellensperre entkoppelt wird.
+If, on the other hand, the feeder is not completely balanced, *common-mode currents* can occur as well. Here part of the current flows in the same direction on both conductors. The fields produced by these currents do not cancel each other out. The feeder itself can then act like an antenna and radiate RF energy. Such common-mode components can arise, for example, if a dipole is not built exactly symmetrically, if an unbalanced antenna or load is connected, or if the transition between a balanced antenna and an unbalanced feeder is not decoupled by a suitable balun or common-mode choke.
 
 [question:AG312]
 
-Besonders im Nahfeld anderer Leitungen oder elektrischer Geräte kann zudem eine stärkere elektromagnetische Kopplung auftreten. Deshalb werden Speiseleitungen innerhalb von Gebäuden üblicherweise geschirmt ausgeführt, beispielsweise als Koaxialkabel. Bei einem Koaxialkabel befinden sich die elektromagnetischen Felder des Gegentakts weitgehend zwischen Innenleiter und Schirm. Dadurch werden sowohl die Abstrahlung der Speiseleitung als auch die Einkopplung äußerer Störungen reduziert.
+In addition, stronger electromagnetic coupling can occur, especially in the near field of other lines or electrical equipment. For this reason feeders inside buildings are usually screened, for example in the form of coaxial cable. In a coaxial cable the electromagnetic fields of the differential mode lie largely between the inner conductor and the screen. This reduces both the radiation from the feeder and the coupling in of external interference.
 
 [question:AG301]
 
-Als geschirmtes Kabel bietet sich das Koaxialkabel an, welches wir auch in der Klasse E bereits kennengelernt haben. Koaxialkabel gibt es in verschiedensten Ausführungen. In der folgenden Frage werden die *Hochfrequenzeigenschaften* von Koaxialkabeln, also deren elektrischen Eigenschaften hinsichtlich hoher Frequenzen betrachtet. Dies sind im Wesentlichen:
+A suitable screened cable is the coaxial cable, which we also met in Class E. Coaxial cables come in a wide variety of designs. The following question looks at the *RF properties* of coaxial cables, that is, their electrical properties at high frequencies. These are essentially:
 
-* der Wellenwiderstand,
-* die Kabeldämpfung und der
-* Verkürzungsfaktor,
+* the characteristic impedance,
+* the cable loss and the
+* velocity factor,
 
-den wir gleich näher betrachten. Der Biegeradius hingegen ist eine mechanische Eigenschaft, die angibt, wie eng das Kabel in einer Kurve verlegt werden darf. Die Rückflussdämpfung gibt an, wieviele Reflexionen vorhanden sind, was von der an einer Leitung angeschlossenen Last abhängt und somit keine Kabeleigenschaft ist.
+which we look at more closely in a moment. The bending radius, on the other hand, is a mechanical property that states how tightly the cable may be bent where it is laid round a curve. The return loss states how much reflection there is, which depends on the load connected to a line and is therefore not a property of the cable.
 
 [question:AG303]
 
-Der Verkürzungsfaktor ergibt sich durch das zwischen Innen- und Außenleiter befindliche Dielektrikum. In diesem befindet sich der Großteil der elektromagnetischen Welle, die durch das Kabel geleitet wird. Die Wahl des Dielektrikums bestimmt, wie schnell sich eine Welle durch das Kabel fortpflanzen kann. Die Ausbreitungsgeschwindigkeit im Koaxialkabel liegt unter der Lichtgeschwindigkeit im Freiraum. Übliche Materialien für das Dielektrikum sind Polyethylen (PE) und Teflon (PTFE). Durch Aufschäumung entsteht gewissermaßen eine Mischung mit Luft, bei der die Kabeldämpfung geringer ausfällt.
+The velocity factor results from the dielectric between the inner and outer conductors. Most of the electromagnetic wave carried by the cable is in this dielectric. The choice of dielectric determines how fast a wave can propagate through the cable. The velocity of propagation in a coaxial cable is lower than the speed of light in free space. Common materials for the dielectric are polyethylene (PE) and Teflon (PTFE). Foaming produces, in effect, a mixture with air, which gives a lower cable loss.
 
 [question:AG314]
 [question:AG302]
 
-Die durch das Dielektrikum reduzierte Ausbreitungsgeschwindigkeit schlägt sich im Verkürzungsfaktor nieder, der angibt, auf welche Länge ein Kabel mechanisch gekürzt werden muss, damit es elektrisch eine bestimmte Länge aufweist (also z. B. eine viertel Wellenlänge lang ist). Für den Verkürzungsfaktor finden wir in der Formelsammlung folgenden Zusammenhang:
+The velocity of propagation, reduced by the dielectric, is reflected in the velocity factor, which states the length to which a cable must be physically cut so that it has a particular electrical length (for example, so that it is a quarter of a wavelength long). For the velocity factor we find the following relationship on the formula sheet:
 
 $k_\mathrm{v} = \frac{L_\mathrm{G}}{L_\mathrm{E}} = \frac{1}{\sqrt{\epsilon_\mathrm{r}}}$
 
-Hierbei ist $k_\mathrm{v}$ der Verkürzungsfaktor, $L_\mathrm{G}$ die geometrische ("mechanische") Länge, und $L_\mathrm{E}$ die elektrische Länge. Die relative Dielektrizitätszahl $\epsilon_\mathrm{r}$ ist abhängig vom eingesetzten Dielektrikum. Für nicht-geschäumtes Polyethylen (PE) können wir der Formelsammlung eine Dielektrizitätszahl von $\num{2,29}$ entnehmen.
+Here $k_\mathrm{v}$ is the velocity factor, $L_\mathrm{G}$ the geometric ("mechanical") length and $L_\mathrm{E}$ the electrical length. The relative permittivity $\epsilon_\mathrm{r}$ depends on the dielectric used. For non-foamed polyethylene (PE), the formula sheet gives a relative permittivity of $\num{2.29}$.
 
 [question:AG317]

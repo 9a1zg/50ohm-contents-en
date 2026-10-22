@@ -1,15 +1,15 @@
-PL-Steckverbinder sind weder für Frequenzen oberhalb von VHF noch für besonders hohe Leistungen geeignet. Dafür kommen meist die höherwertigen N-Steckverbinder zum Einsatz. Sie werden bis in den Gigahertz-Bereich benutzt. N-Steckverbinder haben wie PL-Steckverbinder eine Schraubverbindung. Charakteristisch sind die Federkontakte um den Mittelstift herum, die eine besonders gute Verbindung des Außenleiters herstellen. 
+PL connectors are suitable neither for frequencies above VHF nor for particularly high powers. For these, the higher-quality N connectors are usually used. They are used up into the gigahertz range. Like PL connectors, N connectors have a screw coupling. Characteristic of them are the spring contacts around the centre pin, which make a particularly good connection to the outer conductor. 
 
 <margin>
-[photo:73:n_koaxsteckverbinder_n_buchse_und_stecker:N-Einbaubuchse und N-Stecker]
+[photo:73:n_koaxsteckverbinder_n_buchse_und_stecker:N panel socket and N plug]
 </margin>
 
 <margin>
-[photo:72:n_koaxsteckverbinder_n_stecker:Ein N-Stecker vor seiner Montage]
+[photo:72:n_koaxsteckverbinder_n_stecker:An N plug before assembly]
 </margin>
 
 <attention>
-PL- und N-Steckverbinder sollten nie miteinander verwechselt werden. Steckt man einen PL-Stecker in eine N-Buchse, kann diese zerstört werden!
+PL and N connectors should never be mixed up. Pushing a PL plug into an N socket can destroy the socket!
 </attention>
 
 [question:NG204]

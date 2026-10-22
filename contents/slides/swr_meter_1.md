@@ -1,10 +1,10 @@
 <left>
-* Misst die Leitungsanpassung
-* Wie gut stimmt der Wellenwiderstand mit dem Speisewiderstand der Antenne oder der Impedanz des Transceivers überein?
-* Wird auch SWR-Messbrücke genannt
+* Measures the line match
+* How well does the characteristic impedance agree with the feed-point impedance of the antenna or the impedance of the transceiver?
+* Also called an SWR bridge
 </left>
 <right>
-[photo:144:e_swr_meter_geraet:Ein SWR-Meter zur Messung bis maximal $\qty{100}{\watt}$]
+[photo:144:e_swr_meter_geraet:An SWR meter for measurements up to a maximum of $\qty{100}{\watt}$]
 </right>
 
 ---
@@ -16,11 +16,11 @@
 ---
 
 <left>
-* Messung der Antennenanpassung: So nah wie möglich an die Antenne, um Veränderungen der Speiseleitung auszuschließen
-* Messung der gesamten Anlage: So nah wie möglich hinter dem Sender
+* Measuring the antenna match: as close to the antenna as possible, to rule out changes caused by the feeder
+* Measuring the whole system: as close as possible after the transmitter
 </left>
 <right>
-[picture:670:e_swr_meter_messung:Prinzip der Messung eines SWR-Meters]
+[picture:670:e_swr_meter_messung:Principle of measurement with an SWR meter]
 </right>
 
 ---

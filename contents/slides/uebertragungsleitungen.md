@@ -1,61 +1,61 @@
-Die im Sender erzeugte Sendeleistung möchte man möglichst vollständig und ohne Verluste von der Antenne abstrahlen
+The transmit power generated in the transmitter should be radiated by the antenna as completely as possible and without losses
 
 ---
-## Koaxialkabel
+## Coaxial cable
 <left>
-[photo:65:n_Koax_Detail:Koaxialkabel im Detail]
+[photo:65:n_Koax_Detail:Coaxial cable in detail]
 </left>
 <right>
-* Am weitesten verbreitet
-* Voneinander isolierter Innen- und Außenleiter
-* Umgeben von Schutzmantel
-* Unterschiedliche Ausführungen möglich
+* The most widespread
+* Inner and outer conductor insulated from each other
+* Surrounded by a protective sheath
+* Different designs available
 </right>
 <note>
-Umgangssprachlich: "Koaxkabel"
+In everyday speech: "coax"
 </note>
 
 ---
-## Unterschiedliche Koaxialkabel
-[photo:66:n_Koaxialkabel:Beispiele gebräuchlicher Koaxialkabel]
+## Different coaxial cables
+[photo:66:n_Koaxialkabel:Examples of common coaxial cables]
 
 ---
-## Kabeldämpfung
-* Im Koaxialkabel entsteht Verlust durch Umsetzung von Sendeleistung in Wärme
-* Der Verlust wird *Kabeldämpfung* genannt
-* Messung in Dezibel ($\unit{\dB}$) je $\qty{100}{\meter}$
-* Verluste steigen mit zunehmender Länge und Frequenz
+## Cable loss
+* In coaxial cable, loss arises from transmit power being converted into heat
+* The loss is called *cable loss*
+* Measured in decibels ($\unit{\dB}$) per $\qty{100}{\meter}$
+* Losses increase with increasing length and frequency
 
 ---
 [question:NG207]
 
 ---
-## Wellenwiderstand
+## Characteristic impedance
 
 <left>
-* Wird in Ohm ($\unit{\ohm}$) angegeben
-* Eigenschaft der Leitung, wie den Aufbau (z.B. Abstand zwischen Innen- und Außenleiter)
-* Länge hat keine Auswirkung
+* Stated in ohms ($\unit{\ohm}$)
+* Property of the line, such as its construction (e.g. spacing between inner and outer conductors)
+* Length has no effect
 </left>
 <right>
 <fragment>
-* Antennenanschluss von Amateurfunkgeräten: $\qty{50}{\ohm}$
-* Koaxialkabel im Amateurfunk: $\qty{50}{\ohm}$
-* Fernsehtechnik: $\qty{75}{\ohm}$
-* Selten sind $\qty{60}{\ohm}$ anzufinden
+* Antenna connector of amateur radio equipment: $\qty{50}{\ohm}$
+* Coaxial cable in amateur radio: $\qty{50}{\ohm}$
+* Television engineering: $\qty{75}{\ohm}$
+* $\qty{60}{\ohm}$ is rarely found
 </fragment>
 </right>
 <note>
-* Es gibt Ausnahmen zu den $\qty{50}{\ohm}$
+* There are exceptions to the $\qty{50}{\ohm}$
 </note>
 
 ---
 
-## Fehlanpassung
+## Mismatch
 
-* Unterschiedliche Wellenwiderstände verbunden $\rightarrow$ Reflexionen an der Verbindungsstelle
-* Sendeleistung wird teils zurück zum Sender reflektiert und nicht abgestrahlt
-* Kann im schlimmsten Fall den Sender beschädigen
+* Different characteristic impedances connected $\rightarrow$ reflections at the junction
+* Part of the transmit power is reflected back to the transmitter and not radiated
+* In the worst case, can damage the transmitter
 
 ---
 [question:NG201]

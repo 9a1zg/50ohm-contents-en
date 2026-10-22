@@ -1,15 +1,15 @@
-* Einsatz: Kurzwelle bis zum 2 m-Band
-* Schraubverbindung
-* Wird verwirrenderweise auch als *UHF-Steckverbinder* bezeichnet, obwohl er für UHF und darüber eigentlich gar nicht geeignet ist!
+* Use: HF up to the 2 m band
+* Screw coupling
+* Confusingly also called the *UHF connector*, although it is not really suitable for UHF and above!
 
 <left>
-[photo:69:n_koaxsteckverbinder_pl_stecker:PL-Stecker]
+[photo:69:n_koaxsteckverbinder_pl_stecker:PL plug]
 </left>
 <right>
-[photo:70:n_koaxsteckverbinder_pl_einbaubuchse:PL-Einbaubuchse]
+[photo:70:n_koaxsteckverbinder_pl_einbaubuchse:PL panel socket]
 </right>
 <note>
-"Geschirmter Bananenstecker"
+"Screened banana plug"
 </note>
 
 ---

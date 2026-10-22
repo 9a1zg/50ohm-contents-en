@@ -1,16 +1,16 @@
-Während man BNC-Steckverbinder immer weniger antrifft, kommen immer häufiger SMA-Steckverbinder zum Einsatz. Sie haben nur geringe Abmessungen und sind für sehr hohe Frequenzen geeignet. SMA-Steckverbinder finden sich auch häufig an Hochfrequenz-Messgeräten.
+While BNC connectors are found less and less, SMA connectors are used more and more often. They are very small and suitable for very high frequencies. SMA connectors are also often found on RF measuring instruments.
 
 <margin>
-[photo:74:n_koaxsteckverbinder_sma:SMA-Stecker, hier stark vergrößert]
+[photo:74:n_koaxsteckverbinder_sma:SMA plug, greatly enlarged here]
 </margin>
 
 <attention>
-Vom SMA-Steckverbinder gibt es eine besondere Variante, den *Reverse-SMA-Steckverbinder*. Das Besondere daran ist, dass der Mittelstift umgedreht (reverse) ist. Das bedeutet, dort wo im Stecker eigentlich ein Mittelstift ist, befindet sich eine Öffnung. Und dort wo sich in der Kupplung eigentlich die Öffnung befindet, ist der Mittelstift. Es kann leicht zu Verwechselungen zwischen SMA und Reverse-SMA kommen, da beide Varianten im Amateurfunk verwendet werden. Erschwerend kommt noch hinzu, dass bei Reverse-SMA die Bezeichnungen Stecker und Kupplung von der üblichen Norm abweichen: Der Reverse-SMA-Stecker hat keinen Mittelstift, sondern ausnahmsweise die Kupplung!
+There is a special variant of the SMA connector, the *reverse SMA connector*. What is special about it is that the centre pin is reversed. This means that where the plug would normally have a centre pin, there is an opening. And where the socket would normally have the opening, there is the centre pin. SMA and reverse SMA are easily confused, since both variants are used in amateur radio. To make matters worse, with reverse SMA the names plug and socket depart from the usual standard: the reverse SMA plug has no centre pin; as an exception, the socket has it!
 </attention>
 
 [question:NG205]
 
-Für hohe und höchste Frequenzen sind N- und SMA-Steckverbindungs-Systeme am besten geeignet.
+The N and SMA connector series are best suited to high and the highest frequencies.
 
 [question:NG206]
 

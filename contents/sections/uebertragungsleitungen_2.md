@@ -1,39 +1,39 @@
-Der Wellenwiderstand ist nicht nur unabhängig von der Länge einer Leitung, sondern auch unabhängig davon, was an die Leitung angeschlossen ist. Er hängt im Wesentlichen nur vom Querschittsaufbau des Leiters ab (Geometrie der Leiter und des ggf. vorhandenen Dielektrikums). Für Hochfrequenz ist der Wellenwiderstand weitgehend konstant.
+The characteristic impedance is independent not only of the length of a line but also of what is connected to the line. It depends essentially only on the cross-sectional structure of the line (the geometry of the conductors and of the dielectric, if there is one). At radio frequencies the characteristic impedance is roughly constant.
 
 [question:EG301]
 
-Wichtige HF-Leitungen sind das Koaxialkabel, vgl. Abbildung [ref:e_uebertragungsleitungen_koaxialkabel], und die Paralleldraht-Speiseleitung (Oft auch Hühnerleiter genannt, vgl. Abbildung [ref:e_uebertragungsleitungen_huehnerleiter]). Das Koaxialkabel bietet bei bestimmungsgemäßer Anwendung den Vorteil, unerwünschte Abstrahlungen des Kabels zu vermeiden.
+Important RF lines are the coaxial cable, see Figure [ref:e_uebertragungsleitungen_koaxialkabel], and the open-wire feeder (often also called ladder line, see Figure [ref:e_uebertragungsleitungen_huehnerleiter]). When used as intended, the coaxial cable has the advantage of avoiding unwanted radiation from the cable.
 
 <margin>
-[photo:65:e_uebertragungsleitungen_koaxialkabel:Geöffnetes Koaxialkabel aus Mantel, Schirmung, Dielektrikum und Innenleiter]
+[photo:65:e_uebertragungsleitungen_koaxialkabel:Coaxial cable cut open, with sheath, screen, dielectric and inner conductor]
 </margin>
 
 <margin>
-[photo:324:e_uebertragungsleitungen_huehnerleiter:Paralleldraht-Speiseleitung (Hühnerleiter)]
+[photo:324:e_uebertragungsleitungen_huehnerleiter:Open-wire feeder (ladder line)]
 </margin>
 
 [question:EG302]
 
-Auch Koaxialkabel können unerwünscht strahlen, wenn sogenannte *Mantelwellen* vorhanden sind. Dadurch können direkt neben Koaxialkabeln verlegte Kabel beeinträchtigt werden und es kann ein Teil der Leistung ausgekoppelt werden. Mantelwellen lassen sich z. B. mit einer Mantelwellensperre unterdrücken. 
+Coaxial cables, too, can radiate unwantedly if *common-mode currents* are present. Cables laid directly beside coaxial cables can then be affected, and part of the power can be coupled out. Common-mode currents can be suppressed with a common-mode choke, for example. 
 
 [question:EG306]
 
-Bei Koaxialkabeln sind die beiden Leiter unterschiedlich geformt und bei bestimmungsgemäßen Betrieb liegen dort unterschiedliche Spannungen an (der Schirm weist gegenüber der Erde keine Spannung auf).
+In coaxial cables the two conductors are shaped differently, and in normal operation they carry different voltages (the screen has no voltage relative to earth).
 
 ---
 
 [question:EG304]
 
-Nachteil von Koaxialkabeln ist, dass im Dielektrikum ein Verlust auftritt und es bei hohen Spannungen zum Durchschlag kommen kann. Die Paralleldraht-Speiseleitung hat den Vorteil, dass sie eine geringere Dämpfung und eine höhere Spannungsfestigkeit aufweist.
+A disadvantage of coaxial cables is that losses occur in the dielectric and that breakdown can occur at high voltages. The open-wire feeder has the advantage of lower loss and a higher voltage rating.
 
 [question:EG305]
 
 ---
 
 <margin>
-[photo:73:e_uebertragungsleitungen_n_stecker_buchse:N-Buchse und N-Stecker]
+[photo:73:e_uebertragungsleitungen_n_stecker_buchse:N socket and N plug]
 </margin>
 
-Im Falle hoher Spannungen und/oder Leistungen müssen auch geeignete Stecker eingesetzt werden. Besonders geeignet ist der N-Stecker.
+With high voltages and/or high powers, suitable connectors must also be used. The N connector is particularly suitable.
 %TODO: Gehört das in Leitungen?
 [question:EG303]

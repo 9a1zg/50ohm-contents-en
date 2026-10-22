@@ -1,31 +1,31 @@
-In den Klassen N und E haben wir das SWR und die entsprechenden Formeln für die vorlaufende und rücklaufende Leistung kennen gelernt. In vielen Fällen kann man das Stehwellenverhältnis einfach angeben, wenn der Speisewiderstand einer Antenne bekannt ist. Sofern sich eine Antenne (oder Dummy-Load) weder induktiv noch kapazitiv verhält, sie also einen reinen Wirkwiderstand ($R_a$) darstellt, ergibt sich das Stehwellenverhältnis aus dem Verhältnis zwischen Lastwiderstand und Wellenwiderstand der Leitung, wobei Zähler und Nenner so zu wählen sind, dass sich ein SWR von größer gleich eins ergibt.
+In Classes N and E we met the SWR and the corresponding formulas for the forward and reflected power. In many cases the standing wave ratio can simply be stated if the feed-point impedance of an antenna is known. Provided an antenna (or dummy load) behaves neither inductively nor capacitively, that is, it presents a pure resistance ($R_a$), the standing wave ratio follows from the ratio of the load resistance to the characteristic impedance of the line, with numerator and denominator chosen so that the SWR is greater than or equal to one.
 
-Die Abbildung [ref:a_swr] zeigt die Spannungsverteilung einer stehenden Welle auf einer Leitung. An bestimmten Stellen erreicht die Spannung ein Maximum $U_\mathrm{max}$, an anderen ein Minimum $U_\mathrm{min}$. Der Abstand zwischen zwei benachbarten Spannungsmaxima beziehungsweise zwei benachbarten Spannungsminima beträgt dabei jeweils $\frac{\lambda}{2}$. Aus dem Verhältnis von maximaler zu minimaler Spannung lässt sich auch das Stehwellenverhältnis bestimmen:
+Figure [ref:a_swr] shows the voltage distribution of a standing wave on a line. At certain points the voltage reaches a maximum $U_\mathrm{max}$, at others a minimum $U_\mathrm{min}$. The distance between two adjacent voltage maxima, or between two adjacent voltage minima, is $\frac{\lambda}{2}$ in each case. The standing wave ratio can also be determined from the ratio of the maximum to the minimum voltage:
 
-Mathematisch ausgedrückt bedeutet dies:
+Expressed mathematically, this means:
 
-$s = \frac{U_\mathrm{max}}{U_\mathrm{min}} = \begin{cases} \dfrac{R_a}{Z}, & \text{für } R_a > Z, \\[6pt] 1, & \text{für } R_a = Z, \\[6pt] \dfrac{Z}{R_a}, & \text{für } R_a < Z. \end{cases}$
+$s = \frac{U_\mathrm{max}}{U_\mathrm{min}} = \begin{cases} \dfrac{R_a}{Z}, & \text{for } R_a > Z, \\[6pt] 1, & \text{for } R_a = Z, \\[6pt] \dfrac{Z}{R_a}, & \text{for } R_a < Z. \end{cases}$
 
 <margin>
-[picture:978:a_swr:Stehende Welle]
+[picture:978:a_swr:Standing wave]
 </margin>
 
-Eine Antenne mit einem Speisewiderstand von $\qty{100}{\ohm}$ verursacht bei Speisung mit einem $\qty{50}{\ohm}$ Kabel ein Stehwellenverhältnis von $\num{2}$, da der Speisewiderstand doppelt so groß ist. Eine Antenne mit einem Speisewiderstand von $\qty{10}{\ohm}$ hätte ein Stehwellenverhältnis von $\num{5}$, da der Wellenwiderstand der Leitung fünf mal so groß ist.
+An antenna with a feed-point impedance of $\qty{100}{\ohm}$, fed with a $\qty{50}{\ohm}$ cable, gives a standing wave ratio of $\num{2}$, since the feed-point impedance is twice as large. An antenna with a feed-point impedance of $\qty{10}{\ohm}$ would have a standing wave ratio of $\num{5}$, since the characteristic impedance of the line is five times as large.
 
-Zur Beantwortung der folgenden Frage müssen wir uns außerdem daran erinnern, dass der Widerstand eines Faltdipols knapp $\qtyrange{240}{300}{\ohm}$ beträgt.
+To answer the following question we also need to remember that the impedance of a folded dipole is roughly $\qtyrange{240}{300}{\ohm}$.
 
 [question:AG405]
 [question:AI403]
 
-Ein trügerischer Effekt ist die Auswirkung von Leitungsdämpfung auf das Stehwellenverhältnis. Je mehr Verluste eine Leitung aufweist, umso kleiner (also "besser") kann das Stehwellenverhältnis auf dieser Leitung ausfallen. Dies liegt daran, dass eine verlustbehaftete Leitung sowohl die vorlaufende als auch die rücklaufende Leistung reduziert. Selbst wenn am Ende einer Leitung keine Antenne angeschlossen ist (Leerlauf oder Kurzschluss), und dort $\qty{100}{\percent}$ der Energie reflektiert wird, also das Stehwellenverhältnis dort $\infty$ beträgt, so kann man am anderen Ende ein deutlich besseres Stehwellenverhältnis messen. Geht z. B. in Hin-Richtung die Hälfte der Leistung verloren und in Rück-Richtung erneut die Hälfte verloren, so reduziert sich die Energie auf ein Viertel ($\frac{1}{2} \cdot \frac{1}{2} = \frac{1}{4}$). Entsprechend zeigt ein Stehwellenmessgerät an der Senderseite des Kabels ein Stehwellenverhältnis von $\num{3}$ an, was $\qty{25}{\percent}$ reflektierter Leistung entspricht, obwohl am Ende $\qty{100}{\percent}$ reflektiert werden – es kommen jedoch nur $\qty{25}{\percent}$ am Stehwellenmessgerät an.
+A deceptive effect is the influence of line loss on the standing wave ratio. The greater the losses of a line, the smaller (that is, "better") the standing wave ratio on that line can turn out to be. This is because a lossy line reduces both the forward and the reflected power. Even if no antenna is connected at the end of a line (open circuit or short circuit), so that $\qty{100}{\percent}$ of the energy is reflected there and the standing wave ratio there is $\infty$, a considerably better standing wave ratio can be measured at the other end. If, for example, half the power is lost on the way there and half again on the way back, the energy is reduced to a quarter ($\frac{1}{2} \cdot \frac{1}{2} = \frac{1}{4}$). Accordingly, an SWR meter at the transmitter end of the cable shows a standing wave ratio of $\num{3}$, which corresponds to $\qty{25}{\percent}$ reflected power, although $\qty{100}{\percent}$ is reflected at the end – but only $\qty{25}{\percent}$ arrives back at the SWR meter.
 
 [question:AG402]
 [question:AG403]
 
-Bei einer Leitungsdämpfung von $\qty{5}{\dB}$ und vollständiger Reflektion am Ende des Kabels, z. B. aufgrund einer abgeklemmten Antenne, messen wir gar ein überraschend gutes SWR, obwohl gar keine Antenne angeschlossen ist! Dies können wir wie folgt berechnen:
+With a line loss of $\qty{5}{\dB}$ and complete reflection at the end of the cable, e.g. because the antenna has been disconnected, we even measure a surprisingly good SWR, although no antenna at all is connected! We can calculate this as follows:
 
 $s = \frac{\sqrt{P_\mathrm{v}}+\sqrt{P_\mathrm{r}}}{\sqrt{P_\mathrm{v}}-\sqrt{P_\mathrm{r}}}$
 
-Damit lässt sich die folgende Frage berechnen, sofern wir beachten, dass die gemessene rücklaufende Welle nur ein Zehntel der Energie der vorlaufenden Welle ausmacht: $\qty{5}{\dB}$ Dämpfung in Hin-Richtung und $\qty{5}{\dB}$ Dämpfung in Rück-Richtung, entsprechend $\qty{10}{\dB}$ Dämpfung insgesamt. $P_\mathrm{r}$ ist also in diesem Falle nur ein Zehntel von $P_\mathrm{v}$.
+The following question can be calculated with this, provided we bear in mind that the reflected wave measured is only a tenth of the energy of the forward wave: $\qty{5}{\dB}$ attenuation on the way there and $\qty{5}{\dB}$ attenuation on the way back, corresponding to $\qty{10}{\dB}$ attenuation in total. So in this case $P_\mathrm{r}$ is only a tenth of $P_\mathrm{v}$.
 
 [question:AG404]
