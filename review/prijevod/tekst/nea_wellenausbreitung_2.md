@@ -56,3 +56,28 @@ Nothing; the unit follows the existing entries (bracket rule, *Region* /
 - sections/langer_kurzer_weg_2.md — "den langen Weg, der einmal vollständig um den Globus herumführt" — the long path runs the other way round the great circle (here about 24000 km), not once completely round the globe.
 - sections/bodenwelle.md — "jeden Sender, denn man dort tagsüber hört" — *denn* should be *den*.
 - Typos with no effect on the English: sections/bodenwelle.md "Lang und Mittelwelle" (*Lang- und*); sections/moegel_dellinger_effekt.md missing full stop after "überhaupt möglich ist", "in diese Fall" (*diesem*); slides/moegel_dellinger_effekt.md note "beschreiben" (*beschrieben*); slides/langer_kurzer_weg_1.md note "Anhand" (*anhand*); sections/langer_kurzer_weg_2.md "Die Richtung … unterscheiden sich in der Richtung" (number and repetition); sections/scatter.md "üblichweise" (*üblicherweise*), indepth "als "Scatter" bezeichnet" (missing *wird*).
+
+## Provjera
+
+Checked all 12 files against `2c62b05~1`, paragraph by paragraph, and the
+embedded questions (EH211–EH217, AH216–AH218, AH223, AH310, AH311) in
+English. Complete and faithful; the prose matches the questions' wording.
+`revizija-guard.py --rev 2c62b05~1 --brojevi`: 12 files, *struktura
+netaknuta*.
+
+Changes: omission 0, meaning 0, technical 0, style 5, glossary 3.
+
+- moegel_dellinger_effekt: "Basically a fine thing" → "In principle that is a good thing" (*Grundsätzlich eine feine Sache*).
+- moegel_dellinger_effekt: "unlike usual" (not idiomatic) → "unusually".
+- moegel_dellinger_effekt caption e_dellinger: "affected by an absorption of 1 dB" → "affected by 1 dB of absorption", as NOAA's D-RAP labels it.
+- scatter: "The scattering goes in all directions" → "Scattering takes place in all directions".
+- greyline: "the area of the boundary between day and night" → "the zone along the boundary …" (cf. EH213 "twilight zone").
+- Glossary: *Besserwisser* row removed (a one-off colloquialism in a speaker note, not a term).
+- Glossary: *Richtantennen (engl. Beams)* note said "explains *beam map*"; corrected to *beam heading map*, the bracket actually used for *Beam-Karte*.
+- Glossary: *Strahlungsausbrüche / Plasma-Flares* note records why the slides' *Sonneneruptionen* are "solar eruptions" there, not the glossary's *solar flare* (it would sit beside "plasma flares").
+
+Judgement calls kept: all of them, including the dropped slide bullet
+*Englisch Rainscatter* (bracket rule for list items, DECISIONS.md), "(beams)"
+kept beside *directional antennas*, and the interpretive "where on the
+earth's surface the solar flare was centred". Suspected German errors
+confirmed as listed; no DECISIONS.md entry needed.

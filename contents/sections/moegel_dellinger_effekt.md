@@ -1,6 +1,6 @@
-The more active the sun is, the more often *flares* occur on its surface; these are strong bursts of radiation. They emit short-wavelength radiation in the ultraviolet and X-ray ranges, as well as protons, electrons and ions. Basically a fine thing, because it is precisely these wavelengths that detach electrons in the earth's ionosphere. This produces positively charged ions and free electrons – the precondition for HF propagation to be possible at all. But here too the dose has to be right, and in this case it is definitely too high: what is ionised is primarily the D region, whose attenuating effect therefore rises drastically.
+The more active the sun is, the more often *flares* occur on its surface; these are strong bursts of radiation. They emit short-wavelength radiation in the ultraviolet and X-ray ranges, as well as protons, electrons and ions. In principle that is a good thing, because it is precisely these wavelengths that detach electrons in the earth's ionosphere. This produces positively charged ions and free electrons – the precondition for HF propagation to be possible at all. But here too the dose has to be right, and in this case it is definitely too high: what is ionised is primarily the D region, whose attenuating effect therefore rises drastically.
 
-Strong flares thus cause the D region to attenuate the sky wave much more strongly and, unlike usual, at considerably higher frequencies as well. As a result, HF radio communication on the sunlit side of the earth is severely impaired or fails completely. This event is called the *Mögel–Dellinger effect*, after the physicists Hans Mögel and John Dellinger, who first described such radio blackouts in the 1930s. In English it is usually called a *short-wave fade-out* or a *sudden ionospheric disturbance* (*SID*).
+Strong flares thus cause the D region to attenuate the sky wave much more strongly and, unusually, at considerably higher frequencies as well. As a result, HF radio communication on the sunlit side of the earth is severely impaired or fails completely. This event is called the *Mögel–Dellinger effect*, after the physicists Hans Mögel and John Dellinger, who first described such radio blackouts in the 1930s. In English it is usually called a *short-wave fade-out* or a *sudden ionospheric disturbance* (*SID*).
 
 The effect sets in abruptly within a few seconds and then slowly subsides, starting with the high frequencies. Depending on the strength and duration of the flare that triggers it, it can take from a few minutes to well over an hour before the signals of other stations very slowly emerge from the noise again.
 
@@ -12,7 +12,7 @@ Figure [ref:e_dellinger] shows where on the earth's surface the solar flare was 
 Figure [ref:e_dellinger2] shows the attenuation of the amateur radio bands caused by the Mögel–Dellinger effect; it is clear that the effects decrease as the frequency rises.
 
 <margin>
-[picture:1011:e_dellinger:Highest frequency affected by an absorption of $\qty{1}{\dB}$ on 03.10.2024 at 12:19. This shows where the Mögel–Dellinger effect is strongest. Source: NOAA]
+[picture:1011:e_dellinger:Highest frequency affected by $\qty{1}{\dB}$ of absorption on 03.10.2024 at 12:19. This shows where the Mögel–Dellinger effect is strongest. Source: NOAA]
 [picture:1010:e_dellinger2:Attenuation due to the Mögel–Dellinger effect on 03.10.2024 at 12:19. Source: NOAA]
 </margin>
 

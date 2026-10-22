@@ -1,6 +1,6 @@
 The term *scatter* is used collectively for various special forms of reflection and scattering of a radio signal by which greater distances can be covered.
 
-In *rain scatter*, waves are scattered by raindrops (for those who want to read up on it: physically this is Rayleigh scattering). Because the size of the drops has to suit the wavelength, the best results are achieved on the $\qty{6}{\centi\meter}$ and $\qty{3}{\centi\meter}$ bands (at $\qty{5.7}{\giga\hertz}$ and $\qty{10}{\giga\hertz}$). The scattering goes in all directions, i.e. the antenna is usually pointed at the rain cloud and not at the location of the other station. CW and SSB signals often have a rough tone, similar to propagation via aurora.
+In *rain scatter*, waves are scattered by raindrops (for those who want to read up on it: physically this is Rayleigh scattering). Because the size of the drops has to suit the wavelength, the best results are achieved on the $\qty{6}{\centi\meter}$ and $\qty{3}{\centi\meter}$ bands (at $\qty{5.7}{\giga\hertz}$ and $\qty{10}{\giga\hertz}$). Scattering takes place in all directions, i.e. the antenna is usually pointed at the rain cloud and not at the location of the other station. CW and SSB signals often have a rough tone, similar to propagation via aurora.
 
 [question:AH311]
 
