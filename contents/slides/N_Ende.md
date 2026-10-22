@@ -1,56 +1,56 @@
-## Geschafft!
+## You did it!
 
 <left>
-[photo:329:n_team:50ohm.de-Team]
+[photo:329:n_team:50ohm.de team]
 </left>
 <right>
-* Jetzt mit Lern-App [50ohm](https://app.darc.de) auf die Prüfung vorbereiten
-* Zeitnah zur Prüfung bei der BNetzA anmelden
-* Nach bestandener Prüfung Rufzeichen beantragen
+* Now prepare for the examination with the learning app [50ohm](https://app.darc.de)
+* Register for the examination with the BNetzA soon
+* After passing the examination, apply for a call sign
 </right>
 
 ---
 
-## DARC-Mitgliedschaft
+## DARC membership
 
-* Größter deutscher Amateurfunkverband
-* Setzt sich für Frequenzen, Ausbildung und Nachwuchs ein
-* Eine Mitgliedschaft trägt diese Arbeit aktiv mit
-
----
-
-## Ortsverbände (OV)
-
-* Über die PLZ-Suche den nächsten OV finden
-* 24 Distrikte, erkennbar am Distriktsortskenner (DOK), z.B. B17
-* Lokale Mitglieder erleichtern den Einstieg ins Hobby
+* Largest amateur radio society in Germany
+* Works for frequencies, training and young people
+* Membership actively supports this work
 
 ---
 
-## Online-Community
+## Local clubs (OV)
+
+* Find the nearest OV with the postcode search
+* 24 districts, recognisable by the district local club identifier (DOK), e.g. B17
+* Local members make it easier to get started in the hobby
+
+---
+
+## Online community
 
 * [DARC-Chat](https://chat.darc.de)
 * [DARC-Treff](https://treff.darc.de)
-* Eigene [Mastodon-Instanz](https://social.darc.de)
+* The DARC's own [Mastodon instance](https://social.darc.de)
 
 ---
 
-## Aktivitäten nach der Prüfung
+## Activities after the examination
 
-* Conteste, Selbstbau, Notfunk, Portabelbetrieb u.v.m.
-* Devise: "Nach der Prüfung ist vor der Prüfung"
-* Die jährliche [HAM-Challenge](https://www.hamchallenge.org) bietet einen guten Überblick
+* Contests, home construction, emergency communications, portable operation and much more
+* Motto: "After the exam is before the exam"
+* The annual [HAM-Challenge](https://www.hamchallenge.org) gives a good overview
 
 ---
 
-## Veranstaltungen & Weiterbildung
+## Events & further learning
 
 * HAM RADIO in Friedrichshafen
 * Funk.Tag in Kassel
-* AFUBarcamp und Dienstags-Treff
+* AFUBarcamp and Dienstags-Treff
 
 ---
 
-## Viel Spaß mit deinem neuen Hobby!
+## Have fun with your new hobby!
 
-Stellvertretend für das 50ohm.de-Team: Lars DC4LW und Matthias DL9MJ
+On behalf of the 50ohm.de team: Lars DC4LW and Matthias DL9MJ

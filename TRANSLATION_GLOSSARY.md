@@ -2664,6 +2664,18 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Strafvorschriften / Freiheitsstrafe / Geldstrafe / Täter / fahrlässig | penal provisions / imprisonment / fine / offender / negligently | *Geldstrafe* (criminal) and *Geldbuße* (administrative, §1.2) are both *fine* in English; "Mit Freiheitsstrafe bis zu zwei Jahren oder mit Geldstrafe wird bestraft, wer" → "Imprisonment for up to two years or a fine shall be imposed on anyone who", as § 323c StGB in notfunk (§ 27 TDDDG) |
 | eine Mitteilung machen (§ 5 Abs. 2 TDDDG) | make a disclosure | the TDDDG's prohibition on telling others the content or the fact of reception |
 | Bußgeldvorschriften / Aberkennung (des Amateurfunkzeugnisses) | provisions on fines / withdrawal (of the amateur radio certificate) | as §1.2 *Entzug*, so the prose matches the wrong answers of VC125 b and VE704 b (verstoesse_und_folgen) |
+| Merkhilfen der Q-Gruppen (*v*orbereitet, ein *z*weites Mal, gr*o*ße Leistung, *b*ergauf und *b*ergab, "*K*ommen") | English where a faithful rendering of the cue word keeps the letter: *M*an-made, *N*atural, *t*erminate, *l*ogged (ge*l*oggt), *o*n top (*o*bendrauf), at time *X*, *H*ome, *P*iano, Change Frequenc*y*; otherwise the German cue kept with its English meaning: "ich bin *v*orbereitet" ("I am prepared"), "*b*ergauf und *b*ergab" (German for "uphill and downhill"), "*K*ommen" (German for "over") | DECISIONS.md; a German gloss of the English cue (*H*eimat beside *H*ome, *Beenden* beside *terminate*) is dropped (betriebliche_abkuerzungen, q_schluessel) |
+| Atmosphärische Störungen (QRN) / menschengemachte Störungen (QRM) / schwankende Zeichen (QSB) / Frequenzwechsel (QSY) | atmospheric interference / man-made interference / fluctuating signals / change of frequency | descriptive meanings in the course text; where a Q code's wording is given, the ITU wording (§2) (q_schluessel) |
+| QRP-Betrieb / QRP-Geräte / QRP-Verbindungen | QRP operation / QRP equipment / QRP contacts | q_schluessel |
+| Locator-System / QTH-Locator / Kästchen (Locator) | locator system / QTH locator / box | BE111 "QTH locator or grid locator" (§2 *Standortkenner*) (locator) |
+| Feld / Quadrat / Unter-Quadrat (Maidenhead-Locator); Größtfeld / Großfeld / Kleinfeld | field / square / subsquare; the German names kept as German | the glosses *(englisch fields)*, *(Quadrate)* only repeat the English and are dropped; the table's German columns are headed "German" and "Alternative German name" (locator) |
+| DARC-Geschäftsstelle | DARC head office | in Baunatal (locator) |
+| Kartendaten © OpenStreetMap-Mitwirkende / Kartendarstellung © OpenTopoMap | Map data © OpenStreetMap contributors / Map style © OpenTopoMap | the services' own English attribution wording (locator captions) |
+| Distriktsortskenner (DOK) / Distrikt | district local club identifier (Distriktsortskenner, DOK) / district | DOK kept, as *OV* for *Ortsverband* (→ local club); "DARC local club (Ortsverband, OV)" at first mention (N_Ende) |
+| Lern-App / Prüfungstrainer / Trainingsapp | learning app / exam trainer / training app | N_Ende |
+| Nachwuchsförderung / Nachwuchs | encouraging young people / young people | N_Ende |
+| Nach der Prüfung ist vor der Prüfung | after the exam is before the exam | motto rendered literally; the German's following *denn* clause explains it (N_Ende) |
+| DARC-Chat / DARC-Treff / Dienstags-Treff / AFUBarcamp / HAM RADIO / Funk.Tag / HAM-Challenge | unchanged | names of DARC services and events; *Dienstags-Treff* glossed "(Tuesday meeting)" once in the section (N_Ende) |
 
 ## 15. Catalogue structure
 

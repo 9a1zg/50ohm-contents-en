@@ -1,71 +1,71 @@
-## Q-Gruppen
+## Q codes
 <left>
-* In Radio Regulations (RR) definiert
-* 3 Zeichen lang
-* Nutzung als Frage, Antwort oder Aufforderung
+* Defined in the Radio Regulations (RR)
+* 3 characters long
+* Used as a question, an answer or a request
 </left>
 <right>
 <fragment>
-Wird ein Fragezeichen angehangen, wird aus einer Aussage eine Frage:
+Adding a question mark turns a statement into a question:
   
 QTH Berlin $\rightarrow$ QTH?
 </fragment>
 </right>
 <note>
-* QTH Berlin &rarr; Mein Standort ist Berlin
-* QTH? &rarr; Wo ist Dein Standort?
+* QTH Berlin &rarr; My location is Berlin
+* QTH? &rarr; What is your location?
 </note>
 
 ---
 [question:VA407]
 
 ---
-* QRV: Ich bin bereit (ich bin *v*orbereitet)
-* QRM: Störung, bzw. als Frage: Werden Sie gestört? &rarr; *M*enschengemachte Störung, z. B. durch eine Photovoltaikanlage oder eine Sendung auf Nachbarfrequenz
-* QTH: Mein Standort ist ..., z. B. "QTH Berlin"
+* QRV: I am ready (ich bin *v*orbereitet, I am prepared)
+* QRM: Interference, or as a question: Are you being interfered with? &rarr; *M*an-made interference, e.g. from a photovoltaic system or a transmission on an adjacent frequency
+* QTH: My location is ..., e.g. "QTH Berlin"
 
 ---
 [question:BB204]
 
 ---
-* QRT: Stellen Sie die Übermittlung ein (*t*erminate = beenden)
-* QRZ?: Wer hat mich gerufen? (Aufforderung: Rufzeichen ein *z*weites Mal nennen)
-* QSL: Empfangsbestätigung bzw. als Frage: Bitte um Empfangsbestätigung (alles ge*l*oggt?)
+* QRT: Stop sending (*t*erminate)
+* QRZ?: Who is calling me? (Request: give your call sign a second time, ein *z*weites Mal)
+* QSL: Acknowledgement of receipt, or as a question: request for acknowledgement of receipt (everything *l*ogged?)
 
 ---
 [question:BB203]
 
 ---
-* "QRZ?" wird auf den Amateurfunkbändern oft anstelle von "CQ" verwendet
-* Insbesondere bei einem "Pile Up", wenn viele Stationen eine begehrte Station erreichen wollen
-* Nach dem "Abarbeiten" eines Anrufers sendet die begehrte Station kurz "QRZ?", um weitere Stationen aufzurufen
+* "QRZ?" is often used on the amateur bands in place of "CQ"
+* Especially in a "pile-up", when many stations want to reach a sought-after station
+* After "working through" a caller, the sought-after station briefly sends "QRZ?" to invite further stations to call
 
 ---
 
 [question:BE115]
 
 ---
-* QRO: gr*o*ße Leistung, bzw. als Frage: Soll ich die Sendeleistung erhöhen?
-* QSO: umgangssprachlich für Funkverbindung, korrekt als Frage: Können Sie direkt Funkverkehr aufnehmen mit ...?
-* QRX: Ich rufe Sie wieder, bzw. als Frage: Wann werden Sie mich zum Zeitpunkt *X* wieder rufen?
+* QRO: high power (gr*o*ße Leistung), or as a question: Shall I increase transmitter power?
+* QSO: colloquially a contact; strictly, as a question: Can you communicate with ... direct?
+* QRX: I will call you again, or as a question: When will you call me again (at time *X*)?
 
 ---
 
 [question:BB202]
 
 ---
-* QRP: Aufforderung, die Sendeleistung zu verringern
-* Wird auch für Geräte oder Verbindungen mit kleiner Sendeleistung (unter $\qty{5}{\watt}$) verwendet
-* Besonders gut geeignet für CW oder digitale Übertragungsverfahren
+* QRP: Request to reduce transmit power
+* Also used for equipment or contacts with low transmit power (under $\qty{5}{\watt}$)
+* Particularly well suited to CW or digital modes
 
 ---
 
 [question:BB205]
 
 ---
-* QRN: Atmosphärische Störungen (*n*atürliche Störung, zur Abgrenzung von QRM)
-* QSB: Fading, schwankende Zeichen ("*b*ergauf und *b*ergab")
-* QSY: Frequenzwechsel ("Change Frequenc*y*")
+* QRN: Atmospheric interference (*n*atural interference, as distinct from QRM)
+* QSB: Fading, fluctuating signals ("*b*ergauf und *b*ergab", uphill and downhill)
+* QSY: Change of frequency ("Change Frequenc*y*")
 
 ---
 
@@ -79,23 +79,23 @@ QTH Berlin $\rightarrow$ QTH?
 
 --- style="font-size: 0.7em;"
 
-| l: | l: Bedeutung | l: Merkhilfe |
-| QRN | Atmosphärische Störungen | *N*atürliche Störung |
-| QRM | Ich werde gestört | *M*enschengemachte Störung |
-| QRO | Erhöhen Sie die Sendeleistung! | Ein paar Watt *o*bendrauf legen |
-| QRP | Senken Sie die Sendeleistung! | *P*iano (sanft, leise), *P*ssst!|
-| QRT | Stellen Sie die Übermittlung ein! | *T*erminate (Beenden) |
-| QRV | Ich bin bereit | *v*orbereitet |
-[table:n_q_gruppen_1:Alle prüfungsrelevanten Q-Gruppen in der Übersicht mit Merkhilfen]
+| l: | l: Meaning | l: Memory aid |
+| QRN | Atmospheric interference | *N*atural interference |
+| QRM | I am being interfered with | *M*an-made interference |
+| QRO | Increase transmitter power! | Put a few more watts *o*n top |
+| QRP | Decrease transmitter power! | *P*iano (soft, quiet), *P*ssst!|
+| QRT | Stop sending! | *T*erminate |
+| QRV | I am ready | *v*orbereitet (prepared) |
+[table:n_q_gruppen_1:All Q codes relevant to the examination at a glance, with memory aids]
 
 --- style="font-size: 0.7em;"
 
-| l: | l: Bedeutung | l: Merkhilfe |
-| QRX? | Wann rufen Sie mich wieder? | Zeitpunkt *X* |
-| QRZ? | Wer hat mich gerufen? | Bitte nenne das Rufzeichen ein *z*weites Mal! |
-| QSB | Fading, Schwankungen | *B*ergauf, *B*ergab |
-| QSL | Ich bestätige den Empfang | Ich habe ge*l*oggt |
-| QSO? | Erreichen Sie Station ... ? |  |
-| QSY | Frequenzwechsel | Change Frequenc*y* |
-| QTH | Mein Standort | *H*ome, *H*eimat |
-[table:n_q_gruppen_2:Alle prüfungsrelevanten Q-Gruppen in der Übersicht mit Merkhilfen]
+| l: | l: Meaning | l: Memory aid |
+| QRX? | When will you call me again? | At time *X* |
+| QRZ? | Who is calling me? | Give your call sign a second time (ein *z*weites Mal)! |
+| QSB | Fading, fluctuations | *B*ergauf, *B*ergab (uphill, downhill) |
+| QSL | I am acknowledging receipt | I have *l*ogged it |
+| QSO? | Can you communicate with ... direct? |  |
+| QSY | Change of frequency | Change Frequenc*y* |
+| QTH | My location | *H*ome |
+[table:n_q_gruppen_2:All Q codes relevant to the examination at a glance, with memory aids]

@@ -1,25 +1,25 @@
-Der Ursprung vieler Abkürzungen liegt in der Morsetelegrafie. Die Abkürzung CQ ist schneller zu telegrafieren als die Bedeutung "Allgemeiner Anruf". Viele Abkürzungen sind in den Radio Regulations (RR) definiert. Dazu gehören insbesondere die betrieblichen Abkürzungen für Morsetelegrafie und die sogenannten Q-Gruppen, auf die wir noch eingehen werden. Mit der Weiterentwicklung der Technik kommen natürlich nach und nach neue Abkürzungen hinzu und die Bedeutung mancher Abkürzung verändert sich über die Zeit auch. Die Anwendung dieser Abkürzung ist aber keineswegs auf die Telegrafie beschränkt. Viele dieser Abkürzungen sind fester Bestandteil der Umgangssprache unter Funkamateuren und werden auch in der Telefonie verwendet.
+Many abbreviations originated in Morse telegraphy. The abbreviation CQ is quicker to send in telegraphy than its meaning, "general call". Many abbreviations are defined in the Radio Regulations (RR). These include in particular the operating abbreviations for Morse telegraphy and what are known as Q codes, which we will come to later. As technology develops, new abbreviations are of course added gradually, and the meaning of some abbreviations also changes over time. However, the use of these abbreviations is by no means limited to telegraphy. Many of them are a firm part of everyday language among radio amateurs and are also used in telephony.
 
 <webmargin>
-| c: Abkürzung | X: Bedeutung |
-| BK | Unterbrechung der Sendung; Formlose Übergabe (*B*rea*k*) |
-| CQ | Allgemeiner Anruf |
-| CW | *C*ontinuous *W*ave (Synonym für Morsetelegraphie) |
-| K | Aufforderung zum Senden ("*K*ommen") |
-| PSE | Bitte, *P*lea*se* | 
-| R | Received (Empfangsbestätigung, *R*oger) |
-| RX | Receiver (Empfänger) |
-| TX | Transmitter (Sender) | 
-| TRX | Transceiver (Sendeempfänger) |
-[table:n_abkuerzungen:Zusammenfassung der Abkürzungen]
+| c: Abbreviation | X: Meaning |
+| BK | Interruption of the transmission; informal handover (*B*rea*k*) |
+| CQ | General call |
+| CW | *C*ontinuous *W*ave (synonym for Morse telegraphy) |
+| K | Invitation to transmit ("*K*ommen", German for "over") |
+| PSE | *P*lea*se* | 
+| R | Received (acknowledgement of receipt, *R*oger) |
+| RX | Receiver |
+| TX | Transmitter | 
+| TRX | Transceiver |
+[table:n_abkuerzungen:Summary of the abbreviations]
 </webmargin>
 
-Der Ursprung des Amateurfunks ist in den USA. Deshalb kommen viele unserer Fachbegriffe aus dem amerikanischen Englisch, beispielsweise Transmitter statt Sender und Receiver statt Empfänger. Der Transmitter wird mit TX, der Receiver mit RX und der Transceiver, also der Sendeempfänger, mit TRX abgekürzt.
+Amateur radio originated in the USA. That is why many of our technical terms come from American English, for example *transmitter* instead of the German *Sender* and *receiver* instead of *Empfänger*. The transmitter is abbreviated TX, the receiver RX and the transceiver, that is, the combined transmitter and receiver, TRX.
 
 [question:BB106]
 
-Kennengelernt haben wir auch schon die Abkürzung CW für Continuous Wave, die meist für die Morsetelegrafie durch Ein- und Ausschalten eines Hochfrequenzträgers gebraucht wird.
+We have also already met the abbreviation CW, for continuous wave, which is mostly used for Morse telegraphy by switching an RF carrier on and off.
 
 [question:BB107]
 
-Eine Reihe von Abkürzungen aus der Telegrafie haben wir schon besprochen: Das "R" (received, bzw. roger) als Empfangsbestätigung am Anfang eines Durchgangs ist eines der wenigen Zeichen, das ausschließlich in der Telegrafie genutzt wird. Das Gleiche gilt für das Zeichen "K". Eine Eselsbrücke ist "Kommen" als Aufforderung zum Senden. Bei "BK" drängt sich "*B*rea*k*" als Merkhilfe geradezu auf. Die Tabelle [ref:n_abkuerzungen] fasst nochmal die wichtigsten Abkürzungen für die Prüfung zusammen.
+We have already discussed a number of abbreviations from telegraphy: the "R" (received, or roger) as acknowledgement of receipt at the start of an over is one of the few signs used exclusively in telegraphy. The same applies to the sign "K". One mnemonic is "Kommen" (German for "over") as the invitation to transmit. For "BK", "*B*rea*k*" practically suggests itself as a memory aid. Table [ref:n_abkuerzungen] summarises once more the most important abbreviations for the examination.

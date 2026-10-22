@@ -540,6 +540,24 @@ and the checker's "Provjera" section).
   in the established form *equivalent isotropically radiated power*. (Unit
   nea_personenschutzabstand_1.)
 
+- **Letter mnemonics (*Merkhilfen*) that mark one letter: English where a
+  faithful rendering of the cue keeps the letter, otherwise the German cue
+  with its English meaning.** The Q code and abbreviation tables
+  (q_schluessel, betriebliche_abkuerzungen) explain each code by one
+  highlighted letter of a cue word. Many cues are English already or keep
+  their letter in a faithful English rendering — *M*enschengemacht →
+  "*m*an-made", *N*atürlich → "*n*atural", ge*l*oggt → "*l*ogged", Watt
+  *o*bendrauf legen → "put a few more watts *o*n top", Zeitpunkt *X* → "at
+  time *X*", *H*ome, *t*erminate, *P*iano, Change Frequenc*y* — and are
+  written in English. Where only the German word has the letter — "ich bin
+  *v*orbereitet" (QRV), "ein *z*weites Mal" (QRZ?), "gr*o*ße Leistung"
+  (QRO), "*b*ergauf und *b*ergab" (QSB), "*K*ommen" (K) — the German cue
+  stays with its English meaning beside it, as for the country-prefix
+  mnemonics and the memory rhymes above; an English mnemonic of our own
+  would be an addition. A German word that only glosses an English cue
+  (*H*eimat beside *H*ome, *Beenden* beside *terminate*) is dropped
+  (bracket rule). (Unit nea_abkuerzungen.)
+
 ## Open questions for DARC
 
 - Suspected slips in the German original noticed while translating are listed
