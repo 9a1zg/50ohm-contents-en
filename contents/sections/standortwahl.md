@@ -8,6 +8,6 @@ A first rule is that an antenna should be mounted outdoors if possible, so that 
 On HF it is a good idea to run the antenna away from the house at right angles if possible. This avoids the antenna running parallel to electrical wiring.
 [question:EJ110]
 
-Directional antennas should always be positioned as high and as far away as possible, since the field strength (even in the direction of maximum radiation) decreases with distance.
+Directional antennas should as a rule be positioned as high and as far away as possible, since the field strength (even in the direction of maximum radiation) decreases with distance.
 
 [question:EG112]

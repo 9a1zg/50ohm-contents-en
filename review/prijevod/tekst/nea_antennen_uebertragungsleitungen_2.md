@@ -97,3 +97,32 @@ $P_R$, $U_V$, $U_R$) stay, as in AG213/AG214 and the drawings.
 - slides/strom_spannung_speisung_2.md — "Ungerade Frequenzen: zusätzliche Stromzufuhr" says little (odd multiples are meant, and nothing is "additional"); translated as written ("Odd frequencies: additional current feed").
 - slides/vor_rueck_verhaeltnis.md (AG215, AG216) — the given gain is written $g_D$, but the formula uses $g_d$. Kept.
 - Typos with no effect on the English: sections/yagi_uda_2.md "von dieser Antennen" (*diesen Antennen* / *dieser Antenne*), "kennen gelernt"; sections/parbolspiegel_2.md "Im Punkt vor dem Parabolspiegel wo" (comma); sections/vor_rueck_verhaeltnis.md "wieviel" (*wie viel*); sections/einbau_kfz.md "Stromfluß" (*Stromfluss*); sections/nvis.md "aufgehangen" (*aufgehängt*, twice).
+
+## Provjera
+
+Checked all 49 files against `git show 97087b8~1:<file>`, paragraph by
+paragraph, and the prose against the English questions it embeds (AG106–AG116,
+AG125–AG127, AG203–AG229, EG111–EG114, EG203–EG212, EG218, EG220, EG221,
+EG223, EJ110, NK307–NK310). Nothing dropped or added; numbers, formulas,
+tags and comments intact. Every judgement call in the report, the 17 new
+glossary rows and the DECISIONS.md entry ($\frac{Vor}{Rück}$ →
+$\frac{Front}{Back}$, letter symbols kept) are kept: *rejector* where the text
+says what a trap does at resonance follows glossary §5 and avoids "the trap
+acts as a trap" without touching the questions' "traps for the operating
+frequency"; the dropped German glosses (NVIS, trap dipole, Richtdiagramm)
+follow the bracket rule. The suspected errors in the German stand as listed.
+
+Changes: omission 0, meaning 1, technical 0, style 2, glossary 0.
+
+- sections/standortwahl.md (meaning): *grundsätzlich so hoch … positioniert*
+  "should always be positioned" → "should as a rule be positioned";
+  *grundsätzlich* is "as a rule", not "always".
+- sections/fusspunktimpedanz_1.md (style): "lies between
+  $\qtyrange{30}{50}{\ohm}$" → "lies in the range …": the range renders as
+  "30 Ω to 50 Ω" / "30–50 Ω", so "between … to" was ungrammatical.
+- sections/offsetspiegel.md (style): "and therefore in the radiation path.
+  The feed antenna therefore …" → "and thus in the radiation path", to avoid
+  the doubled *therefore*.
+
+`revizija-guard.py --rev 97087b8~1 --brojevi`: 49 files, *struktura
+netaknuta*.

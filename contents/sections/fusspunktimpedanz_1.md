@@ -17,7 +17,7 @@ If a dipole is built as a folded dipole, the sections of the antenna are connect
 
 ---
 
-In a ground-plane antenna, on the other hand, one leg of the dipole is omitted and replaced by an earth with the lowest possible resistance. Here, then, the feed-point impedance comes to $\frac{\qty{73.1}{\ohm}}{2} \approx \qty{37}{\ohm}$, which is half the feed-point impedance of a dipole in free space. In ground-plane antennas whose radials slope downwards at $\qty{45}{\degree}$, the additional radiation from the radials gives a feed-point impedance of exactly $\qty{50}{\ohm}$, so that no further matching to common coaxial cables is needed. The feed-point impedance of a ground plane therefore lies between $\qtyrange{30}{50}{\ohm}$.
+In a ground-plane antenna, on the other hand, one leg of the dipole is omitted and replaced by an earth with the lowest possible resistance. Here, then, the feed-point impedance comes to $\frac{\qty{73.1}{\ohm}}{2} \approx \qty{37}{\ohm}$, which is half the feed-point impedance of a dipole in free space. In ground-plane antennas whose radials slope downwards at $\qty{45}{\degree}$, the additional radiation from the radials gives a feed-point impedance of exactly $\qty{50}{\ohm}$, so that no further matching to common coaxial cables is needed. The feed-point impedance of a ground plane therefore lies in the range $\qtyrange{30}{50}{\ohm}$.
 
 <indepth>
 With a poor earth or interaction with the ground, a ground-plane antenna can have a feed-point impedance of more than $\qty{37}{\ohm}$ even with horizontal radials (e.g. laid on the earth's surface). The additional resistance then comes from ground losses.
