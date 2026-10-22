@@ -1,11 +1,11 @@
-Bei Aussteuerung eines amplitudenmodulierten Senders durch Sprachmodulation, der in Telefonie betrieben wird (z.B. SSB oder AM), entstehen aufgrund der Charakteristik der menschlichen Sprache starke Schwankungen der Amplitude des Ausgangssignals des Senders. Hierdurch entstehen im Sendesignal Zeitabschnitte niedriger bzw. leiser Aussteuerung, die die Verständlichkeit des Signals beim Empfänger verringern können.
+When an amplitude-modulated transmitter operated in telephony (e.g. SSB or AM) is driven by speech, the characteristics of human speech cause large fluctuations in the amplitude of the transmitter's output signal. As a result, the transmitted signal has periods of low or quiet drive, which can reduce the intelligibility of the signal at the receiver.
 
-Um die Aussteuerung des Senders und die Verständlichkeit der Modulation in diesen Zeitabschnitten zu verbessern, wird das Signal zunächst hinsichtlich seiner Amplitudenschwankungen komprimiert, wie in Abbildung [ref:e_kompressor] dargestellt. Laute Signalanteile werden dabei durch die nichtlineare Kennlinie gezielt abgeschwächt. In einem zweiten Schritt wird das gesamte Signal wieder verstärkt. Dadurch werden auch die zuvor leisen Signalanteile angehoben, sodass insgesamt ein höherer und gleichmäßigerer durchschnittlicher Sendepegel am Ausgang des Senders erreicht wird.
+To improve the drive of the transmitter and the intelligibility of the modulation during these periods, the signal is first compressed with respect to its amplitude fluctuations, as shown in Figure [ref:e_kompressor]. Loud parts of the signal are deliberately attenuated by the non-linear characteristic. In a second step, the whole signal is amplified again. This also raises the parts of the signal that were previously quiet, so that overall a higher and more even average transmit level is achieved at the output of the transmitter.
 
-Hierdurch wird das Signal beim Empfänger prägnanter und durchdringender bei angemessener Einstellung der Komprimierung. Bei den meisten Geräten wird diese Funktion *Kompressor* oder auch *Dynamic Compressor* genannt.
+With a suitable setting of the compression, this makes the signal punchier and more penetrating at the receiver. On most radios this function is called the *compressor*, or also the *dynamic compressor*.
 
 <margin>
-[picture:1043:e_kompressor:Funktionsweise eines Kompressors]
+[picture:1043:e_kompressor:How a compressor works]
 </margin>
 
 [question:EF306]

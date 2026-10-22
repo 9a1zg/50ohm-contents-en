@@ -1,38 +1,38 @@
-Schon seit Urzeiten haben Menschen versucht, Nachrichten über große Entfernungen zu übertragen. Ein sehr altes Übertragungsverfahren sind Rauchzeichen. Um weit sichtbare Rauchzeichen zu erhalten, wird einem offenen Feuer beispielsweise nasses Gras zugesetzt. Dadurch qualmt das Feuer stark.
+Since time immemorial, people have tried to transmit messages over long distances. Smoke signals are a very old method of transmission. To produce smoke signals that can be seen from far away, wet grass, for example, is added to an open fire. This makes the fire give off a lot of smoke.
 
 <margin>
-[photo:104:n_modulation_love:Nachrichtenübermittlung mit Rauchzeichen]
+[photo:104:n_modulation_love:Sending messages with smoke signals]
 </margin>
 
-Die Feuerstelle wird dann mit einer Decke abgedeckt, und der Rauch sammelt sich darunter. In bestimmten Abständen wird nun die Decke kurz angehoben, sodass Rauch frei wird. Wenn man sich vorher einigt, was unterschiedliche Abfolgen von Zeitabständen bedeuten, dann lassen sich so Nachrichten übertragen. Zwei Rauchwolken mit einer Minute Abstand könnten beispielsweise bedeuten, dass man sich schnell treffen möchte, und drei Rauchwolken mit jeweils 30 Sekunden Abstand könnten "CQ" bedeuten.
+The fire is then covered with a blanket, and the smoke collects underneath it. At certain intervals the blanket is lifted briefly, so that smoke is released. If it has been agreed beforehand what different sequences of intervals mean, messages can be transmitted in this way. Two clouds of smoke one minute apart could, for example, mean that someone wants to meet quickly, and three clouds of smoke, each 30 seconds apart, could mean "CQ".
 
 ---
 
-Im Funk wird etwas Ähnliches gemacht. Statt Rauchzeichen gibt es Morsezeichen. In einem Funkgerät wird von einem Oszillator eine elektrische Schwingung erzeugt, z. B. mit $\qty{144,1}{\mega\hertz}$. Mit einer Taste wie in Abbildung [ref:n_cwtast] kann man dann dafür sorgen, dass diese elektrische Schwingung immer wieder kurzzeitig an den Antennenanschluss des Funkgerätes geleitet und von der Antenne als Funkwelle abgestrahlt wird. Man spricht davon, Morsezeichen zu *geben*. Beim Empfänger wird diese Funkwelle hörbar gemacht: Es ertönt ein Ton in dem Rhythmus, in dem die Taste gedrückt wird. Dieses Übertragungsverfahren wird auch als Continuous Wave (CW) bezeichnet.
+Something similar is done in radio. Instead of smoke signals, there are Morse characters. In a radio, an oscillator generates an electrical oscillation, e.g. at $\qty{144.1}{\mega\hertz}$. With a key like the ones in Figure [ref:n_cwtast], you can then have this electrical oscillation passed to the radio's antenna socket again and again for short periods and radiated by the antenna as a radio wave. This is called *sending* Morse characters. In the receiver, this radio wave is made audible: a tone sounds in the rhythm in which the key is pressed. This method of transmission is also called continuous wave (CW).
   
 <margin>
-[photo:109:n_cwtast:Morsetasten]
+[photo:109:n_cwtast:Morse keys]
 </margin>
 
-Wenn man sich - wie bei den Rauchzeichen - vorher einigt, was bestimmte Abfolgen unterschiedlicher Zeitabstände bedeuten, dann lassen sich Nachrichten übertragen. Mitte des 19. Jahrhunderts hat man sich auf den bis heute üblichen Morsecode verständigt.
+If – as with the smoke signals – it has been agreed beforehand what certain sequences of different intervals mean, messages can be transmitted. In the middle of the 19th century, agreement was reached on the Morse code that is still in use today.
 
-Gibt man beispielsweise die Abfolge *lang, kurz, lang, kurz* steht dies für das "C" und *lang, lang, kurz, lang* bedeutet "Q". In Abbildung [ref:n_cqcq_horiz] ist die Aussendung einer Zeichenfolge "CQ" in Morsetelegrafie dargestellt. Den gesamten Morsecode lernen wir noch in einem späteren Kapitel kennen.
+If, for example, you send the sequence *long, short, long, short*, this stands for "C", and *long, long, short, long* means "Q". Figure [ref:n_cqcq_horiz] shows the character sequence "CQ" being sent in Morse telegraphy. We will learn the whole Morse code in a later chapter.
 
 <margin>
-[photo:216:n_cqcq_horiz:"CQ CQ" in Morsetelegrafie]
+[photo:216:n_cqcq_horiz:"CQ CQ" in Morse telegraphy]
 </margin>
 
 ---
 
-Solche Übertragungsverfahren nennt man *Telegrafie*. Verfahren dieser Art haben etwas gemeinsam: Man muss ein *Hilfsmittel* erzeugen, z. B. den Rauch oder eine elektrische Schwingung, und *beeinflusst* diese dann gezielt, um eine Nachricht zu übertragen.
+Methods of transmission like these are called *telegraphy*. Methods of this kind have something in common: you have to produce a *medium*, e.g. the smoke or an electrical oscillation, and then *influence* it in a controlled way in order to transmit a message.
 
-In der Fachsprache wird das Hilfsmittel, also der Rauch oder die elektrische Schwingung, als *Träger* bezeichnet, da er die Information vom Sender zum Empfänger trägt. Bei Trägern im Funk, die ja recht hohe Frequenzen verwenden, spricht man auch von einem Hochfrequenz-Träger, oder kurz HF-Träger. Das Verfahren, um den Träger zu verändern, also das Wedeln mit der Decke bzw. das rhythmische Ein- und Ausschalten der elektrischen Schwingung, nennt man *Modulation*. 
+In technical language, the medium – the smoke or the electrical oscillation – is called the *carrier*, since it carries the information from the transmitter to the receiver. For carriers in radio, which use quite high frequencies, we also speak of a radio-frequency carrier, or RF carrier for short. The method of changing the carrier, i.e. waving the blanket or switching the electrical oscillation on and off rhythmically, is called *modulation*. 
 
 <wordorigin>
-Im Begriff *Telegrafie* stecken zwei altgriechische Wörter: τηλε (tele) bedeutet "fern" und γράφειν (graphein) soviel wie "schreiben" oder "zeichnen". *Modulation* kommt aus dem Lateinischen: Modulatio bedeutet dort Taktmaß bzw. Rhythmus.
+The term *telegraphy* contains two Ancient Greek words: τηλε (tele) means "far" and γράφειν (graphein) roughly "to write" or "to draw". *Modulation* comes from Latin, where modulatio means measure or rhythm.
 </wordorigin>
 
 [question:NE201]
 [question:NE101]
 
-Es gibt auch andere Möglichkeiten, wie man eine elektrische Schwingung modulieren kann. Beispielsweise kann die Amplitude (also die Stärke) oder auch die Periode einer Schwingung und damit ihre Frequenz verändert werden. Damit beschäftigen wir uns in den nächsten Abschnitten.
+There are also other ways of modulating an electrical oscillation. For example, the amplitude (i.e. the strength) or the period of an oscillation, and with it its frequency, can be changed. We will deal with this in the next sections.

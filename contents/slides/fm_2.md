@@ -1,11 +1,11 @@
-## Frequenzmodulation
+## Frequency modulation
 <left>
-* Konstante Amplitude
-* Veränderliche Frequenz
-* Relativ unempfindlich gegenüber Amplitudenstörungen (z.B. Kfz, Blitze)
+* Constant amplitude
+* Variable frequency
+* Relatively insensitive to amplitude interference (e.g. vehicles, lightning)
 </left>
 <right>
-[picture:301:e_fm:Frequenzmodulation]
+[picture:301:e_fm:Frequency modulation]
 </right>
 
 ---
@@ -16,13 +16,13 @@
 [question:EE303]
 ---
 
-## Frequenzhub
+## Frequency deviation
 <left>
-* Lautstärkeinformation wird bei FM durch *Trägerfrequenzauslenkung* (Frequenzhub) übertragen
-* Lautes NF-Signal $\rightarrow$ größerer Hub $\rightarrow$ höhere Bandbreite
+* In FM, volume information is transmitted by the *deviation of the carrier frequency* (frequency deviation)
+* Loud AF signal $\rightarrow$ greater deviation $\rightarrow$ larger bandwidth
 </left>
 <right>
-[picture:827:e_frequenzmodulation_frequenzhub:Trägerauslenkung bei Frequenzmodulation]
+[picture:827:e_frequenzmodulation_frequenzhub:Carrier deviation in frequency modulation]
 </right>
 
 ---
@@ -32,9 +32,9 @@
 ---
 
 ## Modulation
-* Zur Einschränkung der Bandbreite wird das Mikrofonsignal in der Amplitude begrenzt
-* Dieses Signal wird auf den Träger mittels FM aufmoduliert
-* Der Frequenzhub kann dabei fest sein oder einstellbar mittels eines Hub-Reglers
+* To limit the bandwidth, the amplitude of the microphone signal is limited
+* This signal is modulated onto the carrier by FM
+* The frequency deviation can be fixed or set with a deviation control
 
 ---
 [question:EE305]

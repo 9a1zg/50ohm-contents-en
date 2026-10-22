@@ -2288,6 +2288,26 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Gegentaktschaltung, im Englischen *push-pull amplifier* | *push-pull* circuit | the gloss only gives the English term and is dropped (bracket rule); §5 *Gegentaktschaltung* (verstaerker_klasse) |
 | zugeführte / aufgenommene Gleichstromleistung / Gleichstrom-Versorgungsleistung / Gleichspannungsleistung | DC input power supplied / DC power drawn / DC supply power / DC power | AF401 "the DC input power supplied"; $P_\mathrm{DC}$, $P_\text{zu}$, $P_\text{ab}$ stay (verstaerker_wirkungsgrad, verstaerker_klasse, AD429, AD430) |
 | Oszillation/Pfeifen (Rückkopplung Mikrofon–Lautsprecher) | oscillation/howling | acoustic feedback in a PA system (verstaerker_eigenschwingung tip); *howling* (howl-round) is the English word for this, *whistle* is a receiver's beat note (*Pfeifstellen*) |
+| Hilfsmittel (das, was moduliert wird: Rauch, elektrische Schwingung) | medium | what telegraphy influences to carry a message, before the text names it the *carrier* (rauch_und_morsezeichen); not *aid*, which is *Hilfsmittel* in the examination sense (above) |
+| Morsezeichen geben | send Morse characters | "Man spricht davon, Morsezeichen zu *geben*" → "This is called *sending* Morse characters" (rauch_und_morsezeichen) |
+| Modulationsarten (AM, FM … als Begriff) | types of modulation | as NE102 "types of modulation"; on a radio's *Mode* switch and in its table, *mode* (§7) (modulationsarten, trxmodulation) |
+| Sprachsignal / Sprachspektrum / Audiospektrum | speech signal / speech spectrum / audio spectrum | sprachsignale |
+| Phasenlage | phase | unmodulierter_traeger |
+| Additionstheoreme für Winkelfunktionen | trigonometric addition formulas | am slides |
+| ausschlagen (Anzeige eines Spektrums) | show a peak | am indepth |
+| unteres / oberes Seitenband, englisch lower / upper sideband | lower sideband (LSB) / upper sideband (USB) | the German gloss is the English term and is dropped; the warning that *USB* does not stand for *unteres Seitenband* is kept as information about German usage (DECISIONS.md) (ssb) |
+| Einseitenbandmodulation, gebräuchlicher englisch single-sideband modulation | single-sideband modulation (SSB) | bracket rule (ssb, ssb_2) |
+| Trägerfrequenzauslenkung (Frequenzhub) / Frequenzauslenkung / Trägerauslenkung | deviation of the carrier frequency (frequency deviation) / frequency excursion / carrier deviation | EE306 "the deviation of the carrier frequency" (fm_2, fm_3) |
+| Lautstärkeinformation | volume information | EE306 |
+| Hub-Regler | deviation control | EE305 "deviation setting" (fm_2) |
+| Schmalband-FM (englisch Narrow-FM, kurz NFM) | narrowband FM (NFM) | bracket rule, as §2 *Schmalband-FM* (fm) |
+| Spitzen-Hüllkurvenleistung (PEP) / Tastkopfverhältnis | peak envelope power (PEP) / probe ratio | ssb_3, AI305, AI306 |
+| Zweiton-Nutzsignal / Eintonsignal | two-tone wanted signal / single-tone signal | ssb_3 |
+| Winkelmodulationstechniken / Phasensprung / Flanke (Rechteck) | angle modulation techniques / phase jump / edge | pm |
+| Kanalleistungsmessung / Nachbarkanalleistungsmessung | channel power measurement / adjacent-channel power measurement | spectrum analyser functions (bandreite_3) |
+| zus. Nutzungsbedingungen (Tabellenkopf, Anlage 1 AFuV) / Auszug | add. conditions of use / extract | bandbreite; as §14 *Nutzungsbestimmungen* |
+| Dynamic Compressor / NF-Dynamikkompressor / Sprachkompressor | dynamic compressor / AF compressor / speech compressor | AE210 "AF compressor"; *NF-Sprachprozessor* stays *audio speech processor* (dynamik_kompressor_1, dynamik_compressor_2) |
+| prägnant und durchdringend (Signal) | punchy and penetrating | dynamik_kompressor_1 |
 
 ## 15. Catalogue structure
 

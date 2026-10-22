@@ -1,21 +1,21 @@
-* An vielen Funkgeräten gibt es einen Schalter, um die Modulationsart auszuwählen
-* Meistens ist dieser mit „Mode“ beschriftet und erlaubt beispielsweise zwischen CW, AM, FM und SSB zu wählen
+* Many radios have a switch for selecting the mode
+* It is usually labelled "Mode" and allows you to choose, for example, between CW, AM, FM and SSB
 
 ---
 [question:NE102]
 <note>
-* PSK31, FT8, RTTY und Olivia sind keine Modulationsarten, sondern digitale Übertragungsverfahren, die später im Lehrgang kommen.
+* PSK31, FT8, RTTY and Olivia are not types of modulation but digital transmission methods, which come later in the course.
 </note>
 
 ---
-* Bei SSB ist zu beachten, das richtige Seitenband (LSB oder USB) auszuwählen
-* Im Amateurfunk wird mit wenigen Ausnahmen unterhalb von $\qty{10}{\mega\hertz}$ das untere Seitenband und ab $\qty{10}{\mega\hertz}$ das obere Seitenband benutzt
+* In SSB, care must be taken to select the right sideband (LSB or USB)
+* In amateur radio, with a few exceptions, the lower sideband is used below $\qty{10}{\mega\hertz}$ and the upper sideband from $\qty{10}{\mega\hertz}$ upwards
 
 <note>
-* Empfehlung im IARU-Bandplan.
-* Eine Ausnahme sind digitale Übertragungsverfahren, wo auch unterhalb von 10 MHz USB verwendet wird.
-* Klasse N kann aufgrund der erlaubten Bänder immer USB verwenden.
-* Zusätzliches Wissen: Seefunk verwendet immer USB.
+* Recommendation in the IARU band plan.
+* One exception is digital transmission methods, where USB is used even below 10 MHz.
+* Because of the bands it is allowed to use, Class N can always use USB.
+* Additional knowledge: maritime radio always uses USB.
 </note>
 
 ---
@@ -34,15 +34,15 @@
 [question:NE210]
 
 ---
-## Falsches Seitenband
+## Wrong sideband
 
-* Wenn bei SSB das falsche Seitenband gewählt wird, dann ist die Sprache völlig unverständlich
-* Ebenfalls ist es bei SSB wichtig, die Empfangsfrequenz sehr feinfühlig mit dem VFO-Drehknopf einzustellen
-* Schon kleine Abweichungen von der richtigen Frequenz führen dazu, dass die Sprache unverständlich wird
+* If the wrong sideband is selected in SSB, the speech is completely unintelligible
+* In SSB it is also important to set the receive frequency very finely with the VFO knob
+* Even small deviations from the right frequency make the speech unintelligible
 
 <note>
-* Ursache liegt an der Spiegelung der Seitenbänder - Tiefe Töne werden zu hohe und umgekehrt.
-* Bei FM und AM kann der Träger zur Demodulation zu Hilfe genommen werden.
+* The cause lies in the mirroring of the sidebands – low tones become high ones and vice versa.
+* In FM and AM, the carrier can be used to help with demodulation.
 </note>
 
 ---

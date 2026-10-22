@@ -1,46 +1,46 @@
-### Bandbreite
+### Bandwidth
 
-* Frequenzspektrum optimal ausnutzen
-* Minimaler Abstand zwischen SSB-Signalen sollte $\qty{3}{\kilo\hertz}$ betragen
-* Modulationsbandbreite darf dann maximal $\qty{2,7}{\kilo\hertz}$ sein
+* Make the best use of the frequency spectrum
+* Minimum spacing between SSB signals should be $\qty{3}{\kilo\hertz}$
+* Modulation bandwidth may then be at most $\qty{2.7}{\kilo\hertz}$
 
 ---
 [question:AE209]
 ---
 [question:AE208]
 ---
-### Übersteuerung
+### Overdriving
 
-* Bei Übersteuerung im Modulator entstehen Verzerrungen
-* Führt zu Nebenaussendungen $\rightarrow$ Splatter
-* Bandbreite steigt
-* Kann benachbarte Aussendungen stören
+* Overdriving the modulator produces distortion
+* Leads to spurious emissions $\rightarrow$ splatter
+* Bandwidth increases
+* Can cause interference to neighbouring emissions
 
 ---
 [question:AE205]
 ---
-### Equalizer
+### Equaliser
 
-* Sprache ist individuell
-* Ziel: Bessere Ausnutzung des $\qty{2,7}{\kilo\hertz}$ Spektrums
-* Anhebung im höheren Frequenzbereich
-* Absenkung im tieferen Frequenzbereich
-* Oftmals Equalizer im Mikrofonverstärker
+* Speech is individual
+* Aim: better use of the $\qty{2.7}{\kilo\hertz}$ spectrum
+* Boost in the higher frequency range
+* Cut in the lower frequency range
+* Often an equaliser in the microphone amplifier
 
 ---
 [question:AE213]
 ---
-### Zweiton-Testsignal
+### Two-tone test signal
 
-* Zur Beurteilung der Qualität und Linearität eines SSB-Senders
-* NF-Signal aus zwei Sinus-Frequenzen
-* Dürfen in keinem ganzzahligen Verhältnis zueinander stehen
-* Meistens $\qty{700}{\hertz}$ und $\qty{1200}{\hertz}$
-* Ergibt eine sogenannte "HF-Schwebung" bei $\qty{500}{\hertz}$
-* Messung der Hüllkurvenleistung (PEP) möglich
+* For assessing the quality and linearity of an SSB transmitter
+* AF signal made up of two sine-wave frequencies
+* Must not be in an integer ratio to each other
+* Usually $\qty{700}{\hertz}$ and $\qty{1200}{\hertz}$
+* Gives what is called an "RF beat" at $\qty{500}{\hertz}$
+* Peak envelope power (PEP) can be measured
 
 <note>
-PEP = Peak Envelope Power
+PEP = peak envelope power
 </note>
 
 ---

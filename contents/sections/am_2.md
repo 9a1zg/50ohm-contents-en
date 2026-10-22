@@ -1,23 +1,23 @@
-Je stärker ein AM-Träger moduliert wird, desto stärker verändert sich seine Amplitude im zeitlichen Verlauf. Ohne Modulation wird lediglich der HF-Träger mit konstanter Amplitude ausgesendet (vgl. Abbildung [ref:modulationsgrad_0]). Mit zunehmender Modulation folgt die Amplitude des HF-Trägers immer stärker dem aufmodulierten NF-Signal, sodass sich die typische Hüllkurve ergibt (vgl. Abbildung [ref:modulationsgrad_10]).
+The more strongly an AM carrier is modulated, the more its amplitude changes over time. Without modulation, only the RF carrier is transmitted, with constant amplitude (see Figure [ref:modulationsgrad_0]). As the modulation increases, the amplitude of the RF carrier follows the AF signal modulated onto it more and more closely, giving the typical envelope (see Figure [ref:modulationsgrad_10]).
 
-Das Verhältnis zwischen der Amplitude des modulierenden NF-Signals und der unmodulierten Trägeramplitude bestimmt den *Modulationsgrad* $m$. Bei einem Modulationsgrad von $m=1$ beziehungsweise $\qty{100}{\percent}$ wird der Träger vollständig ausgesteuert. Die Hüllkurve schwankt dann zwischen null und dem doppelten Wert der unmodulierten Trägeramplitude (vgl. Abbildung [ref:modulationsgrad_100]).
+The ratio between the amplitude of the modulating AF signal and the unmodulated carrier amplitude determines the *modulation depth* $m$. At a modulation depth of $m=1$, or $\qty{100}{\percent}$, the carrier is fully driven. The envelope then varies between zero and twice the unmodulated carrier amplitude (see Figure [ref:modulationsgrad_100]).
 
 [question:AE201]
 
 <margin>
-[picture:27:modulationsgrad_0:Modulationsgrad von $\qty{0}{\percent}$ eines AM-Signals]
-[picture:26:modulationsgrad_10:Modulationsgrad von $\qty{10}{\percent}$ eines AM-Signals]
-[picture:24:modulationsgrad_100:Modulationsgrad von $\qty{100}{\percent}$ eines AM-Signals]
+[picture:27:modulationsgrad_0:Modulation depth of $\qty{0}{\percent}$ of an AM signal]
+[picture:26:modulationsgrad_10:Modulation depth of $\qty{10}{\percent}$ of an AM signal]
+[picture:24:modulationsgrad_100:Modulation depth of $\qty{100}{\percent}$ of an AM signal]
 </margin>
 
 ---
 
-Sobald der Modulationsgrad größer als $m=1$ beziehungsweise $\qty{100}{\percent}$ wird (vgl. Abbildung [ref:modulationsgrad_1000]), spricht man von *Übermodulation*. Die Hüllkurve erreicht dann nicht nur den Wert null, sondern würde mathematisch darüber hinaus ihre Polarität wechseln. Dadurch kann das Signal mit einem üblichen Hüllkurvendemodulator nicht mehr unverzerrt wiedergegeben werden.
+As soon as the modulation depth exceeds $m=1$, or $\qty{100}{\percent}$ (see Figure [ref:modulationsgrad_1000]), this is called *overmodulation*. The envelope then not only reaches zero but would, mathematically, go beyond it and change its polarity. As a result, the signal can no longer be reproduced without distortion by a conventional envelope detector.
 
-Bei realen Sendern kann die Übermodulation außerdem zu Begrenzung und damit zu zusätzlichen unerwünschten Spektralanteilen, sogenannten *Seitenband-Splatter*, führen. Um dies zu vermeiden, darf der Modulationsgrad bei herkömmlicher AM maximal $\qty{100}{\percent}$ betragen.
+In real transmitters, overmodulation can also lead to limiting and so to additional unwanted spectral components, known as *sideband splatter*. To avoid this, the modulation depth in conventional AM must not exceed $\qty{100}{\percent}$.
 
 <margin>
-[picture:28:modulationsgrad_1000:Modulationsgrad von $> \qty{100}{\percent}$ (Übermodulation) eines AM-Signals]
+[picture:28:modulationsgrad_1000:Modulation depth of $> \qty{100}{\percent}$ (overmodulation) of an AM signal]
 </margin>
 
 [question:AE204]
@@ -25,15 +25,15 @@ Bei realen Sendern kann die Übermodulation außerdem zu Begrenzung und damit zu
 
 ---
 
-Der Modulationsgrad berechnet sich nach folgender Formel (inkl. Abbildung [ref:modulationsgrad] in der Formelsammlung):
+The modulation depth is calculated with the following formula (included, with Figure [ref:modulationsgrad], in the formula sheet):
 
 $m = \frac{\hat{U}_\mathrm{mod}}{\hat{U}_\mathrm{T}}$
 
 
 <margin>
-[picture:328:modulationsgrad:Modulationsgrad eines AM-Signals]
+[picture:328:modulationsgrad:Modulation depth of an AM signal]
 </margin>
 
-Versuche nun in der folgenden Frage die Werte abzulesen und den Modulationsgrad $m$ zu berechnen:
+Now try to read off the values in the following question and calculate the modulation depth $m$:
 
 [question:AE202]

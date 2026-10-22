@@ -1,62 +1,62 @@
 <left>
-[photo:104:n_modulation_love:Nachrichtenübermittlung mit Rauchzeichen]
+[photo:104:n_modulation_love:Sending messages with smoke signals]
 </left>
 <right>
-* Seit Urzeiten versuchen Menschen, Nachrichten über große Entfernungen zu übertragen
-* Beispielsweise mit Rauchzeichen
-* Absprache notwendig, welche Bedeutung wie viele Rauchzeichen in einem Zeitabstand haben
+* Since time immemorial, people have tried to transmit messages over long distances
+* For example with smoke signals
+* It must be agreed what a given number of smoke signals at a given interval means
 </right>
 
 <note>
-Beispiel: 3 Rauchwolken mit jeweils 30 Sekunden Abstand bedeuten "CQ"
+Example: 3 clouds of smoke, each 30 seconds apart, mean "CQ"
 </note>
 
 --- style="font-size: smaller;"
 
-## Morsezeichen
+## Morse characters
 <left>
-* Sind ähnlich zu Rauchzeichen
-* Funkgerät erzeugt mit Oszillator eine Schwingung
-* Drücken der Morsetaste bringt diese Schwingung auf die Antenne
-* Empfänger macht diese Aussendung hörbar
-* Unterscheidung zwischen kurzem oder langem Drücken und Pausen möglich
+* Are similar to smoke signals
+* Radio generates an oscillation with an oscillator
+* Pressing the Morse key puts this oscillation on the antenna
+* Receiver makes this emission audible
+* Short or long presses and pauses can be distinguished
 </left>
 <right>
-[photo:109:n_cwtast:Morsetasten]
+[photo:109:n_cwtast:Morse keys]
 </right>
 <note>
-* Morsezeichen werden "gegeben"
-* Das ganze wird als Continuous Wave (CW) bezeichnet
+* Morse characters are "sent"
+* The whole thing is called continuous wave (CW)
 </note>
 
 ---
-[photo:216:n_cqcq_horiz:"CQ CQ" in Morsetelegrafie]
+[photo:216:n_cqcq_horiz:"CQ CQ" in Morse telegraphy]
 
-* Einigung darauf, was bestimmte Abfolgen unterschiedlicher Zeitabstände bedeuten
-* Mitte des 19. Jahrhunderts Verständigung über den bis heute üblichen Morsecode
+* Agreement on what certain sequences of different intervals mean
+* In the middle of the 19th century, agreement on the Morse code still in use today
 
 <note>
-Beispiel:
-* *lang, kurz, lang, kurz*: C
-* *lang, lang, kurz, lang*: Q
+Example:
+* *long, short, long, short*: C
+* *long, long, short, long*: Q
 </note>
 
 ---
 
-## Telegrafie
-* Übertragungsverfahren mit Hilfsmittel
-* Rauch oder elektrische Schwingung wird so beeinflusst, um eine Nachricht zu übertragen
-* Das Hilfsmittel ist der *Träger*
-* Im Funk aufgrund hoher Frequenzen auch *Hochfrequenz-Träger* oder *HF-Träger*
-* Verfahren zum Ändern des Trägers ist die *Modulation*
+## Telegraphy
+* Methods of transmission using a medium
+* Smoke or an electrical oscillation is influenced so as to transmit a message
+* The medium is the *carrier*
+* In radio, because of the high frequencies, also *radio-frequency carrier* or *RF carrier*
+* The method of changing the carrier is *modulation*
 
 <note>
-Telegrafie von altgriechisch:
-* τῆλε (tele) &rarr; fern
-* γράφειν (graphein) &rarr; schreiben oder zeichnen
+Telegraphy from Ancient Greek:
+* τῆλε (tele) &rarr; far
+* γράφειν (graphein) &rarr; to write or to draw
 
-Modulation von lateinisch:
-* Modulatio &rarr; Taktmaß oder Rhythmus
+Modulation from Latin:
+* Modulatio &rarr; measure or rhythm
 </note>
 
 ---
@@ -65,9 +65,9 @@ Modulation von lateinisch:
 [question:NE101]
 ---
 
-## Andere Modulationsarten
+## Other types of modulation
 
-Die elektrische Schwingung kann auf andere Arten moduliert werden
-* Stärke (Amplitude)
-* Periode (Frequenz)
+The electrical oscillation can be modulated in other ways
+* Strength (amplitude)
+* Period (frequency)
 

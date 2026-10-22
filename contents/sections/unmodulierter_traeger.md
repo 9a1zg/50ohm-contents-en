@@ -1,7 +1,7 @@
-Die einfachste Form eines HF-Signals ist ein konstanter (unmodulierter) Träger, der eine konstante Amplitude, Frequenz und Phasenlage hat. Da dem Träger hierbei keinerlei Modulation aufgeprägt wird und er somit genau eine Frequenz belegt, ist seine Kurvenform ein konstantes Sinus-Signal. Mit einem unmodulierten Träger kann ohne weitere Modulation z.B. durch Ein- oder Ausschalten keine Information übertragen werden.
+The simplest form of an RF signal is a constant (unmodulated) carrier, which has a constant amplitude, frequency and phase. Since no modulation at all is impressed on the carrier here, and it therefore occupies exactly one frequency, its waveform is a constant sine-wave signal. Without some further modulation, e.g. switching it on or off, an unmodulated carrier cannot transmit any information.
 
 [question:EE101]
 
 <margin>
-[picture:904:e_unmodulierter_traeger:Unmodulierter Träger]
+[picture:904:e_unmodulierter_traeger:Unmodulated carrier]
 </margin>

@@ -1,20 +1,20 @@
-In der Klasse E haben wir bereits den *Dynamic Compressor* kennengelernt. Ein NF-Sprachsignal weist durch die unterschiedlichen Lautstärken beim Sprechen große Schwankungen zwischen kleinen und großen Signalamplituden auf. Diesen Bereich bezeichnet man als *Dynamikumfang*. Ein *NF-Dynamikkompressor oder NF-Sprachprozessor* arbeitet als Sprachprozessor zur Verringerung des Dynamikumfangs in der Modulation: Laute Signalanteile werden gegenüber leiseren Signalanteilen weniger stark verstärkt, sodass die Unterschiede zwischen ihnen kleiner werden. Anschließend kann der Gesamtpegel angehoben werden (vgl. Abbildung [ref:a_kompressor]).
+In Class E we met the *dynamic compressor*. Because of the different volumes in speaking, an AF speech signal shows large fluctuations between small and large signal amplitudes. This range is called the *dynamic range*. An *AF compressor, or audio speech processor,* works as a speech processor for reducing the dynamic range of the modulation: loud parts of the signal are amplified less than quieter parts, so that the differences between them become smaller. The overall level can then be raised (see Figure [ref:a_kompressor]).
 
-Dadurch steigt der mittlere Pegel des Sprachsignals und damit auch der mittlere Sendepegel, ohne dass die Spitzenleistung entsprechend erhöht werden muss. Auf diese Weise kann die mittlere Sendeleistung verzerrungsarm angehoben werden. Ein Dynamikkompressor wird deshalb häufig bei DX-Verbindungen und in Contesten eingesetzt, bei denen ein starkes und gut verständliches Signal besonders wichtig ist.
+This raises the mean level of the speech signal, and so also the mean transmit level, without the peak power having to be increased accordingly. In this way the mean transmitter power can be raised with little distortion. A compressor is therefore often used in DX contacts and in contests, where a strong and easily intelligible signal is particularly important.
 
 [question:AE210]
 [question:AE211]
 
 <margin>
-[picture:1043:a_kompressor:Funktionsweise eines Kompressors]
+[picture:1043:a_kompressor:How a compressor works]
 </margin>
 
-Beim Einsatz eines Sprachkompressors sollte jedoch darauf geachtet werden, dass eine zu hohe Kompression vermieden wird. Eine zu starke Kompression kann das Sprachsignal unnatürlich und schlechter verständlich machen. Werden dabei der Sprachprozessor oder nachfolgende Stufen übersteuert, können zusätzlich Verzerrungen und eine Verbreiterung des ausgesendeten Signals (*Splatter*) entstehen. Deshalb sollte die Kompression nur so weit erhöht werden, dass das Signal weiterhin sauber und gut verständlich bleibt.
+When using a speech compressor, however, care should be taken to avoid too much compression. Too much compression can make the speech signal sound unnatural and less intelligible. If the speech processor or the following stages are overdriven in the process, distortion and a broadening of the transmitted signal (*splatter*) can also result. The compression should therefore be increased only so far that the signal remains clean and easily intelligible.
 
 [question:AE212]
 
 <tip>
-Für eine optimale Einstellung des Dynamic Compressors sollte man wie folgt vorgehen:
-  1. Einstellung der Mikrofonverstärkung ohne Aktivierung des Dynamic Compressors, so dass das ALC-Meter des Transceivers gerade anspricht bzw. in dessen Regelbereich liegt.
-  2. Aktivierung des Dynamic Compressors schrittweise und Prüfung der Verständlichkeit und Deutlichkeit des Signals z.B. durch ein QSO mit einer Gegenstation und Rapport der Signalverständlichkeit und Qualität. Alternativ hierzu verfügen manche Geräte über eine Monitoring-Funktion, so dass das gesendete Signal auch über diese Funktion abgehört werden kann. Auch mit einem 2. Empfänger und Abschluss des Senders mittels Dummy-Load kann das Sendesignal abgehört werden. Hierdurch werden auch Störungen anderer Stationen durch Testaussendungen vermieden.
+To set the dynamic compressor optimally, proceed as follows:
+  1. Set the microphone gain with the dynamic compressor switched off, so that the transceiver's ALC meter just responds or is within its control range.
+  2. Switch in the dynamic compressor step by step and check the intelligibility and clarity of the signal, e.g. in a QSO with another station that reports on the intelligibility and quality of the signal. Alternatively, some radios have a monitoring function, so that the transmitted signal can also be listened to with it. The transmitted signal can also be listened to with a 2nd receiver while the transmitter is terminated with a dummy load. This also avoids interference to other stations from test transmissions.
 </tip>

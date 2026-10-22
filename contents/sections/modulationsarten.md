@@ -1,23 +1,23 @@
-Erinnern wir uns zurück. Wir haben zwei wichtige Eigenschaften einer elektrischen Schwingung kennengelernt:
-* *Amplitude:* Der maximale Abstand von der Nulllinie bis zum höchsten oder tiefsten Punkt der Schwingung
-* *Frequenz:* Die Anzahl der Schwingungen pro Zeit, die sich aus der Periodendauer ergibt
+Let us think back. We have met two important properties of an electrical oscillation:
+* *Amplitude:* the maximum distance from the zero line to the highest or lowest point of the oscillation
+* *Frequency:* the number of oscillations per unit of time, which follows from the period
 
 <margin>
-[picture:790:n_schwingung:Schwingung]
+[picture:790:n_schwingung:Oscillation]
 </margin>
 
 ---
-Beide Eigenschaften kann man beeinflussen, um Träger zu modulieren und so Informationen zu übertragen. Beide Modulationsarten werden im Amateurfunk verwendet, um Sprache, Bilder oder Texte zu übertragen:
-* Amplitudenmodulation (AM), bei der die Amplitude verändert wird
-* Frequenzmodulation (FM), bei der die Frequenz verändert wird
+Both properties can be influenced in order to modulate carriers and so transmit information. Both types of modulation are used in amateur radio to transmit speech, pictures or text:
+* Amplitude modulation (AM), in which the amplitude is changed
+* Frequency modulation (FM), in which the frequency is changed
 
 <margin>
-[picture:905:n_modulationsarten_am:Bei der Amplitudenmodulation (AM) wird die Amplitude einer elektrischen Schwingung verändert.]
+[picture:905:n_modulationsarten_am:In amplitude modulation (AM), the amplitude of an electrical oscillation is changed.]
 </margin>
 
 <margin>
-[picture:906:n_modulationsarten_fm:Bei der Frequenzmodulation (FM) wird die Schwingungsdauer und somit die Frequenz verändert.]
+[picture:906:n_modulationsarten_fm:In frequency modulation (FM), the period, and so the frequency, is changed.]
 </margin>
 
-Es gibt auch noch weitere Modulationsarten und Übertragungsverfahren. Auf einige davon werden wir im weiteren Verlauf des Kurses noch eingehen.
+There are also other types of modulation and transmission methods. We will go into some of them later in the course.
 

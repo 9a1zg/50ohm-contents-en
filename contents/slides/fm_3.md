@@ -1,15 +1,15 @@
-### Erzeugung
+### Generation
 
 <left>
-[picture:951:a_frequenzmodulation_schaltung:Modulator zur Erzeugung von FM]
+[picture:951:a_frequenzmodulation_schaltung:Modulator for generating FM]
 </left>
 <right>
-* Kapazität eines Oszillators wird durch die NF geändert
-* Bspw. mit einer Kapazitätsdiode
-* Die Modulationsfrequenz bestimmt die Häufigkeit der Änderung des HF-Trägers
+* The AF changes the capacitance of an oscillator
+* E.g. with a varactor diode
+* The modulating frequency determines how often the RF carrier changes
 </right>
 <note>
-Wird später im Kapitel Sender nochmal betrachtet
+Will be looked at again later in the chapter on transmitters
 </note>
 
 ---
@@ -17,40 +17,40 @@ Wird später im Kapitel Sender nochmal betrachtet
 ---
 [question:AE301]
 ---
-### Störanfälligkeit
+### Susceptibility to interference
 
-* Die zu übertragende Information ist in der Änderung des Signals enthalten
-* Amplitudenschwankungen haben keine Auswirkungen
-* Intern wird oft ein Begrenzerverstärker eingesetzt
-* Unempfindlich gegenüber impulsförmigen Störungen durch Zündfunken, Elektromotoren o.ä.
+* The information to be transmitted is contained in the change in the signal
+* Amplitude fluctuations have no effect
+* A limiting amplifier is often used internally
+* Insensitive to impulse interference from ignition sparks, electric motors or the like
 
 ---
 [question:AE302]
 ---
-### Hub
+### Deviation
 
-* Bestimmt, um welchen Betrag sich die Frequenz des Oszillators je nach Amplitude des modulierten Signals ändert
-* Größere Amplitude im NF-Signal $\leftrightarrow$ größere Auslenkung im Träger
-* Größerer Hub $\rightarrow$ größere Lautstärke im demodulierten Signal
+* Determines the amount by which the frequency of the oscillator changes, depending on the amplitude of the modulated signal
+* Larger amplitude in the AF signal $\leftrightarrow$ greater excursion of the carrier
+* Greater deviation $\rightarrow$ higher volume in the demodulated signal
 
 ---
 [question:AE305]
 --- style="font-size: smaller;"
-### Bandbreite
+### Bandwidth
 
 <left>
-[picture:910:a_bandbreite_fm:Bandbreite bei FM]
+[picture:910:a_bandbreite_fm:Bandwidth in FM]
 $B \approx 2 \cdot \left(\Delta f_{\textrm{T}} + f_{\textrm{mod max}}\right)$
 </left>
 <right>
-* Belegte Bandbreite: Hub und maximale Modulationsfrequenz
-* Bei kleinem Hub und niedriger Modulationsfrequenz $\rightarrow$ *Carson-Formel*
-* Höhere Modulationsfrequenz oder größerer Hub $\rightarrow$ größere Bandbreite
-* Nachbarkanalstörungen sind möglich
+* Occupied bandwidth: deviation and maximum modulating frequency
+* With small deviation and a low modulating frequency $\rightarrow$ *Carson's rule*
+* Higher modulating frequency or greater deviation $\rightarrow$ larger bandwidth
+* Adjacent-channel interference is possible
 </right>
 
 <note>
-Etwa 99% der Sendeleistung befinden sich in der Bandbreite
+About 99% of the transmit power lies within the bandwidth
 </note>
 ---
 [question:AE306]
@@ -61,46 +61,46 @@ Etwa 99% der Sendeleistung befinden sich in der Bandbreite
 ---
 [question:AE309]
 ---
-#### Lösungsweg
-* gegeben: $f_{\textrm{mod max}} = \qty{2}{\kilo\hertz}$
-* gegeben: $\Delta f_{\textrm{T}} = \qty{1,8}{\kilo\hertz}$
-* gesucht: $B$
+#### Solution
+* given: $f_{\textrm{mod max}} = \qty{2}{\kilo\hertz}$
+* given: $\Delta f_{\textrm{T}} = \qty{1.8}{\kilo\hertz}$
+* required: $B$
 
 <fragment>
-$\begin{split} B &\approx 2 \cdot (\Delta f_{\textrm{T}} + f_{\textrm{mod max}})\\ &= 2 \cdot (\qty{1,8}{\kilo\hertz} + \qty{2}{\kilo\hertz}) = \qty{7,6}{\kilo\hertz} \end{split}$
+$\begin{split} B &\approx 2 \cdot (\Delta f_{\textrm{T}} + f_{\textrm{mod max}})\\ &= 2 \cdot (\qty{1.8}{\kilo\hertz} + \qty{2}{\kilo\hertz}) = \qty{7.6}{\kilo\hertz} \end{split}$
 </fragment>
 ---
 [question:AE308]
 ---
-#### Lösungsweg
-* gegeben: $f_{\textrm{mod max}} = \qty{2,7}{\kilo\hertz}$
-* gegeben: $\Delta f_{\textrm{T}} = \qty{2,5}{\kilo\hertz}$
-* gesucht: $B$
+#### Solution
+* given: $f_{\textrm{mod max}} = \qty{2.7}{\kilo\hertz}$
+* given: $\Delta f_{\textrm{T}} = \qty{2.5}{\kilo\hertz}$
+* required: $B$
 
 <fragment>
-$\begin{split} B &\approx 2 \cdot (\Delta f_{\textrm{T}} + f_{\textrm{mod max}})\\ &= 2 \cdot (\qty{2,5}{\kilo\hertz} + \qty{2,7}{\kilo\hertz}) = \qty{10,4}{\kilo\hertz} \end{split}$
+$\begin{split} B &\approx 2 \cdot (\Delta f_{\textrm{T}} + f_{\textrm{mod max}})\\ &= 2 \cdot (\qty{2.5}{\kilo\hertz} + \qty{2.7}{\kilo\hertz}) = \qty{10.4}{\kilo\hertz} \end{split}$
 </fragment>
 ---
 [question:AE311]
 ---
-#### Lösungsweg
-* gegeben: $B = \qty{10}{\kilo\hertz}$
-* gegeben: $\Delta f_{\textrm{T}} = \qty{2,5}{\kilo\hertz}$
-* gesucht: $f_{\textrm{mod max}}$
+#### Solution
+* given: $B = \qty{10}{\kilo\hertz}$
+* given: $\Delta f_{\textrm{T}} = \qty{2.5}{\kilo\hertz}$
+* required: $f_{\textrm{mod max}}$
 
 <fragment>
-$\begin{split} B &\approx 2 \cdot (\Delta f_{\textrm{T}} + f_{\textrm{mod max}})\\ \Rightarrow f_{\textrm{mod max}} &= \frac{B}{2} - \Delta f_T\\ &= \frac{\qty{10}{\kilo\hertz}}{2} - \qty{2,5}{\kilo\hertz} = \qty{2,5}{\kilo\hertz} \end{split}$
+$\begin{split} B &\approx 2 \cdot (\Delta f_{\textrm{T}} + f_{\textrm{mod max}})\\ \Rightarrow f_{\textrm{mod max}} &= \frac{B}{2} - \Delta f_T\\ &= \frac{\qty{10}{\kilo\hertz}}{2} - \qty{2.5}{\kilo\hertz} = \qty{2.5}{\kilo\hertz} \end{split}$
 </fragment>
 ---
 [question:AE312]
 ---
-#### Lösungsweg
-* gegeben: $B = \qty{10}{\kilo\hertz}$
-* gegeben: $f_{\textrm{mod max}} = \qty{2,7}{\kilo\hertz}$
-* gesucht: $\Delta f_{\textrm{T}}$
+#### Solution
+* given: $B = \qty{10}{\kilo\hertz}$
+* given: $f_{\textrm{mod max}} = \qty{2.7}{\kilo\hertz}$
+* required: $\Delta f_{\textrm{T}}$
 
 <fragment>
-$\begin{split} B &\approx 2 \cdot (\Delta f_{\textrm{T}} + f_{\textrm{mod max}})\\ \Rightarrow \Delta f_T &= \frac{B}{2} - f_{\textrm{mod max}}\\ &= \frac{\qty{10}{\kilo\hertz}}{2} - \qty{2,7}{\kilo\hertz} = \qty{2,3}{\kilo\hertz} \end{split}$
+$\begin{split} B &\approx 2 \cdot (\Delta f_{\textrm{T}} + f_{\textrm{mod max}})\\ \Rightarrow \Delta f_T &= \frac{B}{2} - f_{\textrm{mod max}}\\ &= \frac{\qty{10}{\kilo\hertz}}{2} - \qty{2.7}{\kilo\hertz} = \qty{2.3}{\kilo\hertz} \end{split}$
 </fragment>
 ---
 [question:AE310]

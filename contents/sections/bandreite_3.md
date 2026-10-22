@@ -1,11 +1,11 @@
-Für die Beurteilung der gesetzlichen Vorgaben hinsichtlich der Bandbreite einer Aussendung wird gemäß der Amateurfunkverordnung die mittlere Sendeleistung im ausgesendeten Bandbereich betrachtet. Hierbei müssen sich $\qty{99}{\percent}$ der Sendeleistung innerhalb der Grenzen der geforderten Bandbreite befinden. Somit darf maximal $\qty{0,5}{\percent}$ der Sendeleistung auf angrenzende Bandbereiche unter- und oberhalb des Sendesignals entfallen. Dies ist insbesondere für FM-Aussendungen wichtig.
+To assess compliance with the legal requirements on the bandwidth of an emission, the Amateur Radio Ordinance (Amateurfunkverordnung, AFuV) looks at the mean transmit power in the part of the band transmitted. $\qty{99}{\percent}$ of the transmit power must lie within the limits of the required bandwidth. So at most $\qty{0.5}{\percent}$ of the transmit power may fall in each of the adjacent parts of the band below and above the transmitted signal. This is particularly important for FM emissions.
 
 <margin>
-[picture:1121:bandbreite_leistungsverteilung:Leistungsverteilung einer Aussendung]
+[picture:1121:bandbreite_leistungsverteilung:Power distribution of an emission]
 </margin>
 
 <tip>
-Für die Messung der Leistungsanteile hinsichtlich einer Aussendung und deren Bandbreite ist ein Spektrumanalysator erforderlich. Hierbei haben moderne Geräte oft integrierte mathematische Funktionen, so dass die mittlere Leistung innerhalb einer bestimmten Bandbreite rechnerisch ermittelt werden kann (Kanalleistungsmessung, Nachbarkanalleistungsmessung). Genauere Informationen hierzu können der Bedienungsanleitung des jeweiligen Gerätes entnommen werden.
+To measure the power components of an emission and its bandwidth, a spectrum analyser is needed. Modern instruments often have built-in mathematical functions, so that the mean power within a given bandwidth can be calculated (channel power measurement, adjacent-channel power measurement). More detailed information can be found in the operating manual of the instrument.
 </tip>
 
 [question:AE101]

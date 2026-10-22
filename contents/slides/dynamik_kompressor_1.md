@@ -1,17 +1,17 @@
 <left>
-*Ohne Kompressor*
-* Sprache unterliegt starken Schwankungen in der Amplitude
-* Das führt zu unterschiedlicher Modulation des Signals
-* Teilweise kann das Signal beim Empfänger schlecht verstanden werden
+*Without a compressor*
+* Speech is subject to large fluctuations in amplitude
+* This leads to varying modulation of the signal
+* At times the signal can be hard to understand at the receiver
 </left>
 <right>
-*Mit Kompressor*
-* Ein *Dynamikkompressor* hebt leise Signale gegenüber den lauten an
-* Das Signal wird hinsichtlich seiner Amplitudenschwankungen komprimiert
-* Führt zu einem besseren Verständnis beim Empfänger
+*With a compressor*
+* A *compressor* raises quiet signals relative to loud ones
+* The signal is compressed with respect to its amplitude fluctuations
+* Leads to better intelligibility at the receiver
 </right>
 <note>
-* Viele Funkgeräte haben heute einen Kompressor eingebaut
+* Many radios today have a built-in compressor
 </note>
 
 ---

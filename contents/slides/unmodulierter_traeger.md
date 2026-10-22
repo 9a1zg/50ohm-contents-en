@@ -1,9 +1,9 @@
 <left>
-* Einfachste Form eines HF-Signals
-* Konstante Amplitude, Frequenz und Phasenlage
-* Genau eine Frequenz
-* Bereits Ein- und Ausschalten (CW) des Trägers ist eine Informationsübertragung
+* Simplest form of an RF signal
+* Constant amplitude, frequency and phase
+* Exactly one frequency
+* Even switching the carrier on and off (CW) transmits information
 </left>
 <right>
-[picture:904:e_unmodulierter_traeger:Unmodulierter Träger]
+[picture:904:e_unmodulierter_traeger:Unmodulated carrier]
 </right>

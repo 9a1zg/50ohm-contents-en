@@ -1,7 +1,7 @@
-* Für die verschiedenen Amateurfunkbänder sind jeweils maximal zulässige Bandbreiten festgelegt
-* Die Bandbreiten findet man in der Anlage 1 der Amateurfunkverordnung
-* [Bundesgesetzblatt mit der neuen Verordnung](https://www.recht.bund.de/bgbl/1/2023/160/VO) - die Anlage 1 ist auf Seite 7 bis 9
-* Die folgenden Fragen lassen sich mit den Fußnoten der Anlage 1 lösen
+* A maximum permitted bandwidth is laid down for each of the amateur bands
+* The bandwidths can be found in Annex 1 to the Amateur Radio Ordinance (Amateurfunkverordnung, AFuV)
+* [Federal Law Gazette with the new ordinance](https://www.recht.bund.de/bgbl/1/2023/160/VO) – Annex 1 is on pages 7 to 9
+* The following questions can be solved with the footnotes of Annex 1
 
 ---
 [question:VD738]
@@ -21,18 +21,18 @@
 --- style="font-size: 0.7em;"
 
 <left>
-* Besonders aufpassen muss man bei Sendungen in der Nähe der Grenzen der Amateurfunkbänder
-* Nehmen wir an, ein FM-Signal ist $\qty{15}{\kilo\hertz}$ breit und wir senden auf $\qty{430}{\mega\hertz}$
-* Das Sendesignal befindet sich jeweils $\qty{7,5}{\kilo\hertz}$ unterhalb und oberhalb
-* Es würde sich also von $\qty{429,9925}{\mega\hertz}$ bis $\qty{430,0075}{\mega\hertz}$ erstrecken
+* Particular care is needed with transmissions near the edges of the amateur bands
+* Suppose an FM signal is $\qty{15}{\kilo\hertz}$ wide and we transmit on $\qty{430}{\mega\hertz}$
+* The transmitted signal lies $\qty{7.5}{\kilo\hertz}$ below and above
+* So it would extend from $\qty{429.9925}{\mega\hertz}$ to $\qty{430.0075}{\mega\hertz}$
 </left>
 <right>
-[picture:908:n_bandbreite_falsch:Falsch -- Senden außerhalb der Bandgrenzen]
-[picture:909:n_bandbreite_richtig:Richtig -- Senden innerhalb der Bandgrenzen]
+[picture:908:n_bandbreite_falsch:Wrong -- transmitting outside the band edges]
+[picture:909:n_bandbreite_richtig:Right -- transmitting within the band edges]
 </right>
 
 <note>
-Es wird außerhalb des Amateurfunkbandes gesendet
+Transmission takes place outside the amateur band
 </note>
 
 ---
@@ -41,17 +41,17 @@ Es wird außerhalb des Amateurfunkbandes gesendet
 ---
 
 <left>
-Bei SSB ist das Signal nur auf einer Seite der Trägerfrequenz zu finden:
+In SSB, the signal is found on only one side of the carrier frequency:
 
-* Bei LSB vollständig unterhalb der Trägerfrequenz
-* Bei USB vollständig oberhalb der Trägerfrequenz
+* In LSB entirely below the carrier frequency
+* In USB entirely above the carrier frequency
 </left>
 <fragment>
 <right>
-Beispiel:
+Example:
 
-* Am Funkgerät Sendefrequenz auf obere Bandgrenze einstellen
-* Mit LSB darf gesendet werden
-* Mit USB ist das Signal außerhalb des Bandes
+* Set the transmit frequency on the radio to the upper band edge
+* Transmitting in LSB is allowed
+* In USB the signal is outside the band
 </right>
 </fragment>

@@ -1,21 +1,21 @@
 <left>
-[picture:790:n_schwingung:Schwingung]
+[picture:790:n_schwingung:Oscillation]
 </left>
 <right>
-Eigenschaften einer elektrischen Schwingung:
+Properties of an electrical oscillation:
 * Amplitude
-* Frequenz
+* Frequency
 </right>
 <note>
-Es gibt noch weitere Modulationsarten, die später kommen. Die genauere Beschreibung von AM und FM folgt in den kommenden Abschnitten. Die Folien sind nur kurz zur Übersicht.
+There are other types of modulation, which come later. AM and FM are described in more detail in the following sections. The slides are only a brief overview.
 </note>
 
 ---
 
-## Amplitudenmodulation (AM)
-[picture:905:n_modulationsarten_am:Bei der Amplitudenmodulation (AM) wird die Amplitude einer elektrischen Schwingung verändert.]
+## Amplitude modulation (AM)
+[picture:905:n_modulationsarten_am:In amplitude modulation (AM), the amplitude of an electrical oscillation is changed.]
 
 ---
 
-## Frequenzmodulation (FM)
-[picture:906:n_modulationsarten_fm:Bei der Frequenzmodulation (FM) wird die Schwingungsdauer und somit die Frequenz verändert.]
+## Frequency modulation (FM)
+[picture:906:n_modulationsarten_fm:In frequency modulation (FM), the period, and so the frequency, is changed.]

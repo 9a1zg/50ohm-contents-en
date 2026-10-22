@@ -382,6 +382,21 @@ and the checker's "Provjera" section).
   "rechargeable"; *Akkumulatoren, kurz Akkus genannt* → "accumulators, or rechargeable
   batteries as they are usually called". (Unit
   nea_strom_spannungsversorgung_1.)
+- **A remark that only a German reader needs is kept as information about
+  German usage, not dropped.** The SSB section warns that *USB* does not
+  stand for *unteres Seitenband* (the lower sideband) but, after the
+  English name, for the upper sideband; for an English reader the
+  abbreviation is self-evident. Since the course is the German one in
+  English, the remark stays and says what it is about: "In German, the
+  common abbreviation *USB* is easily taken for the lower sideband
+  (*unteres Seitenband*); it stands, as the English name says, for the
+  *upper sideband*!" (section and slides of ssb), as the glossary's
+  *Relais oder Repeater* row keeps "In German, repeaters … are also
+  called *Relais* or *Repeater*". Where the German only glosses the English
+  term ("Im Englischen wird von "lower sideband" (LSB) … gesprochen",
+  "gebräuchlicher ist die englische Bezeichnung single-sideband
+  modulation"), the bracket rule applies and the gloss is dropped. (Unit
+  nea_modulation.)
 
 ## Open questions for DARC
 

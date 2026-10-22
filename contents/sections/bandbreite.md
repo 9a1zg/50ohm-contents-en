@@ -1,27 +1,27 @@
-Wie wir gelernt haben, hängt die belegte Sendebandbreite von der Modulationsart und bei FM auch noch vom Hub ab. Für die verschiedenen Amateurfunkbänder sind jeweils maximal zulässige Bandbreiten festgelegt. Diese findet man in der [Anlage 1](https://50ohm.de/a1) der Amateurfunkverordnung, aus der wir auch schon die Bandgrenzen entnommen haben. Diese Bandbreiten dürfen nicht überschritten werden. Jeder Funkamateur ist selbst für die Einhaltung verantwortlich.
+As we have learnt, the occupied transmission bandwidth depends on the mode and, in FM, also on the deviation. A maximum permitted bandwidth is laid down for each of the amateur bands. It can be found in [Annex 1](https://50ohm.de/a1) to the Amateur Radio Ordinance (Amateurfunkverordnung, AFuV), from which we have already taken the band edges. These bandwidths must not be exceeded. Every radio amateur is personally responsible for complying with them.
 
 <webmargin>
-| l: Frequenzbereiche | l: Status | X: zus. Nutzungsbedingungen|
-| $\qtyrange{135,7}{137,8}{\kilo\hertz}$| S | 1 2 10 |
+| l: Frequency ranges | l: Status | X: Add. conditions of use|
+| $\qtyrange{135.7}{137.8}{\kilo\hertz}$| S | 1 2 10 |
 | $\qtyrange{472}{479}{\kilo\hertz}$| S | 1 |
 | $\qtyrange{3500}{3800}{\kilo\hertz}$ | P | 3 |
 | $\qtyrange{10100}{10150}{\kilo\hertz}$ | S | 1 10 12 |
-| $\qtyrange{28}{29,7}{\mega\hertz}$ | P | 4 13 |
+| $\qtyrange{28}{29.7}{\mega\hertz}$ | P | 4 13 |
 | $\qtyrange{144}{146}{\mega\hertz}$ | P | 6 13 |
 | $\qtyrange{430}{440}{\mega\hertz}$ | P | 7 13 |
-[table:n_tab_afuv:Auszug AfuV Anlage 1]
+[table:n_tab_afuv:Extract from Annex 1 to the AFuV]
 </webmargin>
 
 <webmargin>
-Die Zahlen bei den zusätzlichen Nutzungsbedingungen in der oben genannten Tabelle bedeuten (die nicht wiedergegebenen Zahlen sind für die Bandbreite unerheblich):
-* *1* Maximal zulässige belegte Bandbreite einer Amateurfunk-Aussendung: $\qty{800}{\hertz}$.
-* *3* Maximal zulässige belegte Bandbreite einer Amateurfunk-Aussendung: $\qty{2,7}{\kilo\hertz}$.
-* *4* Maximal zulässige belegte Bandbreite einer Amateurfunk-Aussendung unterhalb $\qty{29}{\mega\hertz}$: $\qty{7}{\kilo\hertz}$, oberhalb $\qty{29}{\mega\hertz}$: $\qty{40}{\kilo\hertz}$.
-* *6* Maximal zulässige belegte Bandbreite einer Amateurfunk-Aussendung: $\qty{40}{\kilo\hertz}$.
-* *7* Maximal zulässige belegte Bandbreite einer Amateurfunk-Aussendung: $\qty{2}{\mega\hertz}$; bei amplitudenmodulierten Fernsehaussendungen: $\qty{7}{\mega\hertz}$.
+The numbers under the additional conditions of use in the table above mean the following (the numbers not shown are irrelevant to the bandwidth):
+* *1* Maximum permitted occupied bandwidth of an amateur radio emission: $\qty{800}{\hertz}$.
+* *3* Maximum permitted occupied bandwidth of an amateur radio emission: $\qty{2.7}{\kilo\hertz}$.
+* *4* Maximum permitted occupied bandwidth of an amateur radio emission below $\qty{29}{\mega\hertz}$: $\qty{7}{\kilo\hertz}$, above $\qty{29}{\mega\hertz}$: $\qty{40}{\kilo\hertz}$.
+* *6* Maximum permitted occupied bandwidth of an amateur radio emission: $\qty{40}{\kilo\hertz}$.
+* *7* Maximum permitted occupied bandwidth of an amateur radio emission: $\qty{2}{\mega\hertz}$; for amplitude-modulated television transmissions: $\qty{7}{\mega\hertz}$.
 </webmargin>
 
-Die folgenden Fragen lassen sich alle mit Hilfe der Fußnoten in der Anlage 1 der Amateurfunkverordnung lösen, die - wie schon erwähnt - während der Prüfung als Hilfsmittel zur Verfügung steht. Wir empfehlen, sich vor der Prüfung mit der Anlage vertraut zu machen!
+The following questions can all be solved with the help of the footnotes in Annex 1 to the AFuV, which – as already mentioned – is available as an aid during the examination. We recommend that you familiarise yourself with the Annex before the examination!
 
 [question:VD738]
 [question:VD739]
@@ -31,15 +31,15 @@ Die folgenden Fragen lassen sich alle mit Hilfe der Fußnoten in der Anlage 1 de
 
 ---
 
-Besonders aufpassen muss man bei Sendungen in der Nähe der Grenzen der Amateurfunkbänder. Ein Beispiel: Nehmen wir an, ein FM-Signal belegt eine Bandbreite von $\qty{15}{\kilo\hertz}$, und wir stellen den Sender auf die untere Bandgrenze des $\qty{70}{\centi\meter}$-Bandes ein, also auf $\qty{430}{\mega\hertz}$. Das Sendesignal befindet sich um die Trägerfrequenz herum, also jeweils $\qty{7,5}{\kilo\hertz}$ unterhalb und oberhalb. Es würde sich also von $\qty{429,9925}{\mega\hertz}$ bis $\qty{430,0075}{\mega\hertz}$ erstrecken. Da das Signal somit zur Hälfte außerhalb des Bandes wäre, dürfen wir nicht auf PTT drücken! Wir müssen also bei FM, aber auch bei AM, immer mindestens einen Abstand von der halben belegten Bandbreite zur Bandgrenze hin einhalten.
+Particular care is needed with transmissions near the edges of the amateur bands. An example: suppose an FM signal occupies a bandwidth of $\qty{15}{\kilo\hertz}$, and we set the transmitter to the lower band edge of the $\qty{70}{\centi\meter}$ band, i.e. to $\qty{430}{\mega\hertz}$. The transmitted signal lies around the carrier frequency, i.e. $\qty{7.5}{\kilo\hertz}$ below and above it. So it would extend from $\qty{429.9925}{\mega\hertz}$ to $\qty{430.0075}{\mega\hertz}$. Since half of the signal would then be outside the band, we must not press the PTT! So in FM, and also in AM, we must always keep a distance of at least half the occupied bandwidth from the band edge.
 
 <indepth>
-[picture:908:n_bandbreite_falsch:Falsch -- Senden außerhalb der Bandgrenzen]
-[picture:909:n_bandbreite_richtig:Richtig -- Senden innerhalb der Bandgrenzen]
+[picture:908:n_bandbreite_falsch:Wrong -- transmitting outside the band edges]
+[picture:909:n_bandbreite_richtig:Right -- transmitting within the band edges]
 </indepth>
 
 <indepth>
-Bei SSB verhält es sich an der Bandgrenze ein wenig anders. Hier ist das Signal nur auf einer Seite der (unterdrückten) Trägerfrequenz zu finden. Bei LSB ist das Signal vollständig unterhalb der Trägerfrequenz, bei USB ist es vollständig oberhalb der Trägerfrequenz. Wenn man also beispielsweise als Sendefrequenz die obere Bandgrenze einstellt, dann dürfte man mit LSB durchaus senden, da das gesamte Signal innerhalb des Bandes bleibt. Mit USB dürfte man dort allerdings nicht senden, da das gesamte Signal außerhalb des Bandes wäre.
+With SSB, things are a little different at the band edge. Here the signal is found on only one side of the (suppressed) carrier frequency. In LSB the signal lies entirely below the carrier frequency, in USB entirely above it. So if, for example, you set the upper band edge as the transmit frequency, you could quite legitimately transmit in LSB, since the whole signal stays within the band. In USB, however, you could not transmit there, since the whole signal would be outside the band.
 </indepth>
 
 [question:NE305]

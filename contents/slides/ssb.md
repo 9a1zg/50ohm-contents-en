@@ -1,31 +1,31 @@
 <left>
-[picture:482:n_seitenband_2:Amplitudenmodulation, Träger mit unterem (a) und oberem (b) Seitenband]
+[picture:482:n_seitenband_2:Amplitude modulation, carrier with lower (a) and upper (b) sideband]
 </left>
 <right>
-* Bei Amplitudenmodulation zusätzlich zum Träger zwei Seitenbänder $\rightarrow$ unteres bzw. oberes Seitenband
-* "lower sideband" (*LSB*) und "upper sideband" (*USB*)
-* Der Träger selbst enthält gar keine Information
+* In amplitude modulation, two sidebands in addition to the carrier $\rightarrow$ lower and upper sideband
+* "Lower sideband" (*LSB*) and "upper sideband" (*USB*)
+* The carrier itself contains no information at all
 </right>
 <note>
-* Der Träger selbst enthält gar keine Information und die Information des Modulationssignals wird jeweils in den Seitenbändern übertragen.
+* The carrier itself contains no information at all; the information of the modulating signal is transmitted in each of the sidebands.
 </note>
 
 ---
 
 <left>
-* Es reicht also, nur ein Seitenband auszusenden und auf den Träger und das andere Seitenband zu verzichten
-* Gesamte Sendeleistung wird für die Übertragung der Information genutzt
-* Belegte Bandbreite entspricht der Bandbreite des aufmodulierten Signals
+* So it is enough to transmit only one sideband and to do without the carrier and the other sideband
+* All the transmit power is used to transmit the information
+* Occupied bandwidth is equal to the bandwidth of the signal modulated onto the carrier
 </left>
 <right>
-[picture:743:n_seitenband_3:Seitenbänder bei AM, LSB und USB im Vergleich]
-*Einseitenbandmodulation* bzw. *single-sideband (SSB)*
+[picture:743:n_seitenband_3:Sidebands in AM, LSB and USB compared]
+*Single-sideband modulation* (*SSB*)
 </right>
 
 ---
-USB steht für *Upper Sideband*
+USB stands for *upper sideband*
 
-(im Deutschen wird es gerne mit Unteres Seitenband verwechselt)
+(in German it is often confused with *unteres Seitenband*, the lower sideband)
 
 ---
 [question:NE203]

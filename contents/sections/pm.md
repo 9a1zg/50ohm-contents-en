@@ -1,13 +1,13 @@
-Bei der Phasenmodulation wird die Phase einer Trägerwelle in Abhängigkeit vom Modulationssignal verändert. Das bedeutet, dass die Phasenverschiebung der Trägerwelle direkt proportional zur Amplitude des Modulationssignals variiert. Diese Veränderung der Phase bleibt im Verlauf des Signals erhalten und variiert im Vergleich zur ursprünglichen Trägerwelle in einem bestimmten Muster. Das Resultat ist ein sinusförmiges Signal, dessen „Versatz“ (Phase) sich laufend anpasst, ohne dass sich dabei die Amplitude des Signals ändert.
+In phase modulation, the phase of a carrier wave is changed in accordance with the modulating signal. This means that the phase shift of the carrier wave varies in direct proportion to the amplitude of the modulating signal. This change in phase is kept as the signal goes on and varies in a particular pattern relative to the original carrier wave. The result is a sinusoidal signal whose "offset" (phase) is continuously adjusted, without the amplitude of the signal changing.
 
-Die Phasenmodulation kann man sich bildlich als das Verschieben der Sinuskurve entlang der Zeitachse vorstellen, wobei jede Veränderung der Phase durch das Modulationssignal gesteuert wird. Je stärker die Amplitude des Modulationssignals, desto mehr verschiebt sich die Phase des Trägersignals.
+Phase modulation can be pictured as shifting the sine curve along the time axis, with every change in phase controlled by the modulating signal. The stronger the amplitude of the modulating signal, the more the phase of the carrier signal shifts.
 
-Phasenmodulation und Frequenzmodulation gehören beide zur Gruppe der Winkelmodulationstechniken, da sie beide den Winkel der Trägerwelle beeinflussen. Der Unterschied liegt darin, dass bei der Frequenzmodulation die Frequenz und bei der Phasenmodulation die Phase direkt beeinflusst wird.
+Phase modulation and frequency modulation both belong to the group of angle modulation techniques, since both affect the angle of the carrier wave. The difference is that frequency modulation directly affects the frequency, and phase modulation the phase.
 
-Dies zeigt sich besonders deutlich bei einem Rechtecksignal als Nutzsignal: Bei der Phasenmodulation bewirkt jede Flanke des Rechtecks einen sofortigen Phasensprung des Trägersignals, während bei der Frequenzmodulation die Signalflanke lediglich einen Frequenzwechsel auslöst – die daraus resultierende Phasenänderung entsteht erst indirekt, indem sie sich kontinuierlich über die Zeit aufakkumuliert.
+This is particularly clear with a square-wave signal as the wanted signal: in phase modulation, each edge of the square wave causes an immediate phase jump in the carrier signal, whereas in frequency modulation the edge of the signal only triggers a change of frequency – the resulting change in phase arises only indirectly, by accumulating continuously over time.
 
 <margin>
-[picture:907:a_phasenmodulation:Phasenmodulation mit Umkehrung der Phase]
+[picture:907:a_phasenmodulation:Phase modulation with reversal of the phase]
 </margin>
 
 <webonly>
@@ -17,27 +17,27 @@ Dies zeigt sich besonders deutlich bei einem Rechtecksignal als Nutzsignal: Bei 
 </webonly>
 
 <indepth>
-Für mathematisch Interessierte: Bei der Phasenmodulation hat das Nutzsignal $m(t)$ einen direkten Einfluss auf die Phase, z. B.: 
+For the mathematically minded: in phase modulation, the wanted signal $m(t)$ has a direct influence on the phase, e.g.: 
 
 $\varphi(t) = m(t)$
 
-Das Trägersignal wird als Sinusschwingung der Form
+The carrier signal is generated as a sine wave of the form
 
 $s(t) = A_c \cos(2\pi f_c t + \varphi(t))$
 
-erzeugt, wobei $A_c$ die Amplitude, $f_c$ die Trägerfrequenz und $\varphi(t)$ die modulierte Phase ist.
+where $A_c$ is the amplitude, $f_c$ the carrier frequency and $\varphi(t)$ the modulated phase.
 
-Die beiden Modulationsarten FM und PM stehen in einem engen Zusammenhang: Die Phasenmodulation eines Signals hat indirekt eine Veränderung der Frequenz zur Folge, und umgekehrt erzeugt die Frequenzmodulation eine Änderung der Phase. Mathematisch kann man den Zusammenhang zwischen Frequenz und Phase durch die folgende Beziehung ausdrücken:
+The two types of modulation, FM and PM, are closely related: phase modulation of a signal indirectly results in a change of frequency, and conversely frequency modulation produces a change of phase. Mathematically, the relationship between frequency and phase can be expressed as follows:
 
 $f_i(t) = \frac{1}{2\pi} \cdot \frac{d\varphi(t)}{dt}$
 
-Das bedeutet die Frequenz ist die zeitliche Ableitung der Phase.
+This means that the frequency is the time derivative of the phase.
 
-Es ist also möglich, die Frequenzmodulation durch Phasenmodulation zu realisieren, indem das Nutzsignal $m(t)$ integriert wird:
+So it is possible to achieve frequency modulation by means of phase modulation, by integrating the wanted signal $m(t)$:
 
 $\varphi(t) = 2\pi \int m(t) \, dt$
 
-Das Ergebnis wird anschließend als $\varphi(t)$ in die Trägerfunktion eingesetzt.
+The result is then substituted into the carrier function as $\varphi(t)$.
 </indepth>
 
 [question:AE313]

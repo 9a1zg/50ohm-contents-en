@@ -3,26 +3,26 @@
 ---
 
 <left>
-* Sprechen wir in ein Mikrofon, dann wandelt es das Sprachsignal in elektrische Schwingungen um.
-* Das Sprachsignal liegt nicht mehr als Schallwelle, sondern als elektrische Schwingung vor und kann im Funkgerät verarbeitet werden.
+* When we speak into a microphone, it converts the speech signal into electrical oscillations.
+* The speech signal is no longer present as a sound wave but as an electrical oscillation, and can be processed in the radio.
 </left>
 <right>
-[picture:730:n_sprachspektrum_symbolisch:Symbolische Darstellung des Audiospektrums]
+[picture:730:n_sprachspektrum_symbolisch:Symbolic representation of the audio spectrum]
 </right>
 <note>
-* X-Achse: Frequenz, tiefe Töne links, hohe Töne rechts
-* Y-Achse: Lautstärke (Amplitude), je weiter oben desto lauter
+* X axis: frequency, low tones on the left, high tones on the right
+* Y axis: volume (amplitude), the higher up the louder
 </note>
 
 ---
 
 <left>
-[picture:475:n_sprachspektrum_beispiel:Beispiel für ein Audiospektrum]
+[picture:475:n_sprachspektrum_beispiel:Example of an audio spectrum]
 </left>
 <fragment>
 <right>
-* Die „Breite“ des Signals wird übrigens als *Bandbreite* bezeichnet und in Hertz ($\unit{Hz}$) angegeben.
-* Angenommen es soll Sprache im Frequenzbereich von $\qtyrange{300}{2700}{\hertz}$ übertragen werden.
-* Die Bandbreite beträgt in diesem Falle $\qty{2700}{\hertz}$ – $\qty{300}{\hertz}$ = $\qty{2400}{\hertz}$
+* The "width" of the signal, by the way, is called the *bandwidth* and is given in hertz ($\unit{Hz}$).
+* Suppose speech in the frequency range from $\qtyrange{300}{2700}{\hertz}$ is to be transmitted.
+* In this case the bandwidth is $\qty{2700}{\hertz}$ – $\qty{300}{\hertz}$ = $\qty{2400}{\hertz}$
 </right>
 </fragment>

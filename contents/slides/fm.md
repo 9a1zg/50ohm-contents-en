@@ -1,13 +1,13 @@
 ---
 
-* Modulationssignal wird durch Änderung der Frequenz auf den Träger aufmoduliert
-* Amplitude des Trägers wird nicht verändert und bleibt idealerweise konstant
+* Modulating signal is modulated onto the carrier by changing its frequency
+* Amplitude of the carrier is not changed and ideally remains constant
 
 <left>
-[picture:711:n_fm_wasserfall:Signal einer FM-Amateurfunksendung (Sprache)]
+[picture:711:n_fm_wasserfall:Signal of an FM amateur radio transmission (speech)]
 </left>
 <right>
-[picture:357:n_fm_frequenzmodulation:Frequenzmodulation]
+[picture:357:n_fm_frequenzmodulation:Frequency modulation]
 </right>
 
 ---
@@ -21,27 +21,27 @@
 
 ---
 
-## Frequenzhub
+## Frequency deviation
 
-* Je lauter in das Mikrofon gesprochen wird, umso größer die Änderung der Trägerfrequenz
-* Dadurch steigt auch die belegte Bandbreite der Aussendung
-* Maximalwert der Änderung der Trägerfrequenz wird als *Frequenzhub* oder kurz *Hub* bezeichnet
-* In der Praxis kommt Schmalband-FM (englisch Narrow-FM, kurz NFM) mit $\qty{12}{\kilo\hertz}$ Bandbreite zum Einsatz
+* The louder you speak into the microphone, the greater the change in the carrier frequency
+* This also increases the occupied bandwidth of the emission
+* The maximum change in the carrier frequency is called the *frequency deviation*, or *deviation* for short
+* In practice, narrowband FM (NFM) with a bandwidth of $\qty{12}{\kilo\hertz}$ is used
 
 <note>
-Lauter in das Mikrofon sprechen &rarr; Amplitude des Modulationssignals wird größer
-Bandplan beachten, wo maximal 12 kHz Bandbreite belegt werden darf.
+Speaking more loudly into the microphone &rarr; amplitude of the modulating signal increases
+Keep to the band plan, where a bandwidth of at most 12 kHz may be occupied.
 </note>
 
 ---
 
-## Frequenzhub und Bandbreite
-* Hub wird wie die Bandbreite in $\unit{\hertz}$ angegeben, ist aber nicht dasselbe
-* Hub: maximale Änderung der Trägerfrequenz
-* $\text{Bandbreite} \approx 2 \cdot (\text{Hub} + \text{Bandbreite des NF-Signals})$
+## Frequency deviation and bandwidth
+* Deviation is given in $\unit{\hertz}$, like the bandwidth, but is not the same thing
+* Deviation: maximum change in the carrier frequency
+* $\text{Bandwidth} \approx 2 \cdot (\text{deviation} + \text{bandwidth of the AF signal})$
 
 <note>
-Beispiel: NF-Signal mit $\qty{3}{\kilo\hertz}$ Bandbreite, moduliert mit einem Hub von $\qty{3}{\kilo\hertz}$
+Example: AF signal with a bandwidth of $\qty{3}{\kilo\hertz}$, modulated with a deviation of $\qty{3}{\kilo\hertz}$
 
 $2 \cdot (\qty{3}{\kilo\hertz} + \qty{3}{\kilo\hertz}) = \qty{12}{\kilo\hertz}$
 </note>
@@ -55,7 +55,7 @@ $2 \cdot (\qty{3}{\kilo\hertz} + \qty{3}{\kilo\hertz}) = \qty{12}{\kilo\hertz}$
 [question:NE306]
 
 <note>
-Bei älteren Funkgeräten ist evtl. der Hub fest auf $\qty{25}{\kilo\hertz}$ eingestellt.
+On older radios, the deviation may be fixed at $\qty{25}{\kilo\hertz}$.
 </note>
 
 ---
@@ -63,7 +63,7 @@ Bei älteren Funkgeräten ist evtl. der Hub fest auf $\qty{25}{\kilo\hertz}$ ein
 [question:NE304]
 
 <note>
-* Achtung: Amplitude des Modulationssignals wird geändert!
-* Amplitude des Trägers ändert sich nicht.
-* Bei Störungen schwankt nicht die Lautstärke des Sprachsignals.
+* Note: the amplitude of the modulating signal is changed!
+* The amplitude of the carrier does not change.
+* With interference, the volume of the speech signal does not fluctuate.
 </note>

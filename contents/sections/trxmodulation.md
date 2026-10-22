@@ -1,30 +1,30 @@
-An vielen Funkgeräten gibt es einen Schalter, um die zu verwendende Modulationsart auszuwählen. Meistens ist dieser mit "Mode" beschriftet und erlaubt beispielsweise zwischen CW, AM, FM und SSB zu wählen. Funkgeräte, die nur eine Modulationsart unterstützen, haben natürlich keinen solchen Schalter.
+Many radios have a switch for selecting the mode to be used. It is usually labelled "Mode" and allows you to choose, for example, between CW, AM, FM and SSB. Radios that support only one mode naturally do not have such a switch.
 
 <webmargin>
-| l: Abkürzung | X: Mode |
-| CW | Telegrafie |
-| AM | Amplitudenmodulation |
-| FM | Frequenzmodulation |
-| LSB | SSB unteres Seitenband ("lower sideband")|
-| USB | SSB oberes Seitenband ("upper sideband") |
-[table:n_sendearten:Häufig verwendete Modulationsarten]
+| l: Abbreviation | X: Mode |
+| CW | Telegraphy |
+| AM | Amplitude modulation |
+| FM | Frequency modulation |
+| LSB | SSB lower sideband|
+| USB | SSB upper sideband |
+[table:n_sendearten:Commonly used modes]
 </webmargin>
 
-Mit dem Wissen, dass es sich bei SSB, FM und AM um Modulationsarten handelt, kann die folgende Frage leicht beantwortet werden. Die meisten der anderen in der Frage genannten Begriffe sind übrigens keine Modulationsarten, sondern digitale Übertragungsverfahren, auf die wir teilweise später erst eingehen werden.
+Knowing that SSB, FM and AM are types of modulation, you can easily answer the following question. Most of the other terms named in the question, by the way, are not types of modulation but digital transmission methods, some of which we will come to only later.
 
 [question:NE102]
 
 ---
 
-Bei SSB ist zu beachten, das richtige Seitenband (LSB oder USB) auszuwählen. Im Amateurfunk wird mit wenigen Ausnahmen unterhalb von $\qty{10}{\mega\hertz}$ das untere Seitenband und ab $\qty{10}{\mega\hertz}$ das obere Seitenband benutzt. Dies ist auch so im IARU-Bandplan empfohlen. 
+In SSB, care must be taken to select the right sideband (LSB or USB). In amateur radio, with a few exceptions, the lower sideband is used below $\qty{10}{\mega\hertz}$ and the upper sideband from $\qty{10}{\mega\hertz}$ upwards. This is also what the IARU band plan recommends. 
 
 <attention>
-Bei digitalen Übertragungsverfahren wird auch unterhalb von $\qty{10}{\mega\hertz}$ immer das obere Seitenband verwendet!
+Digital transmission methods always use the upper sideband, even below $\qty{10}{\mega\hertz}$!
 </attention>
 
 %[class:N]
 <tip>
-Aufgrund der erlaubten Bänder kann von Klasse N immer USB verwendet werden.
+Because of the bands it is allowed to use, Class N can always use USB.
 </tip>
 %[/class]
 
@@ -36,12 +36,12 @@ Aufgrund der erlaubten Bänder kann von Klasse N immer USB verwendet werden.
 
 ---
 
-Wenn bei SSB das falsche Seitenband gewählt wird, dann ist die Sprache völlig unverständlich. Ebenfalls ist es bei SSB wichtig, die Empfangsfrequenz sehr feinfühlig mit dem VFO-Drehknopf einzustellen. Schon kleine Abweichungen von der richtigen Frequenz führen dazu, dass die Sprache unverständlich wird.
+If the wrong sideband is selected in SSB, the speech is completely unintelligible. In SSB it is also important to set the receive frequency very finely with the VFO knob. Even small deviations from the right frequency make the speech unintelligible.
 
 <indepth>
-Dass die *falsche Wahl des Seitenbands* bei SSB zu unverständlicher Sprache führt, liegt daran, dass die beiden Seitenbänder gespiegelt sind. Während beim oberen Seitenband die tiefen Sprachfrequenzen weiter unten und die hohen Sprachfrequenzen weiter oben sind, ist es beim unteren Seitenband genau andersherum. Wenn also mit dem falschen Seitenband empfangen wird, dann werden die eigentlich tiefen Töne als hohe Töne wiedergegeben und die eigentlich hohen Töne als tiefe Töne.
+The reason why *selecting the wrong sideband* in SSB makes speech unintelligible is that the two sidebands are mirror images. While in the upper sideband the low speech frequencies are further down and the high speech frequencies further up, in the lower sideband it is exactly the other way round. So if reception is in the wrong sideband, what are actually low tones are reproduced as high tones, and what are actually high tones as low tones.
 
-Bei AM oder FM hingegen fallen leicht abweichende Frequenzen praktisch nicht auf, da beim Empfänger der Träger für die Demodulation, also die Wiederherstellung des Sprachsignals, herangezogen werden kann. Bei SSB gibt es jedoch keinen Träger. Daher muss bei SSB die Frequenz möglichst genau getroffen werden, damit die Stimme richtig klingt.
+In AM or FM, on the other hand, slightly wrong frequencies are practically unnoticeable, because the receiver can use the carrier for demodulation, i.e. for recovering the speech signal. In SSB, however, there is no carrier. So in SSB the frequency has to be hit as exactly as possible for the voice to sound right.
 </indepth>
 
 [question:NE212]
