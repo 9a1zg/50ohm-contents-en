@@ -77,3 +77,61 @@ bracket rule, and the generic *er* recast without a pronoun.
 - sections/zulassung.md vs slides/zulassung.md — the same photo 91 is captioned "Der Zulassungsbescheid zur Teilnahme am Amateurfunkdienst" in the section and "Die Zulassungsurkunde" in the slides. Both translated as written.
 - sections/fernmeldegeheimnis_abhoerverbot.md — "Dazu gehört bereits der Empfang selbst, aber auch die Verwertung und Weitergabe von Nachrichten, die …, verstoßen gegen das TDDDG" mixes two constructions; rendered with its evident meaning.
 - Typos with no effect on the English: sections/ and slides/funkamateur.md "dürfen Ihre Arbeit" (*ihre*); sections/ and slides/anschrift.md "Änderung beim Namen oder bei der Anschrift sind" (*Änderungen*); sections/gesetze_vorschriften.md "dass die Regeln … kein unmittelbar geltendes Recht … ist" (*sind*), "Bestandteil des wichtigsten internationalen Fernmeldevertrages, den Radio Regulations" (*der*), "Amateurfunkverordnung  (AFuV)" (double space); slides/fernmeldegeheimnis_abhoerverbot.md "nicht-öffentlich" beside the section's "nicht öffentlich".
+
+## Provjera
+
+All 18 files compared paragraph by paragraph with `git show 4f4c32d~1:<file>`;
+the 32 embedded questions (VA101–VE704) read in English. Changes: omission 1,
+meaning 1, technical 0, style 11, glossary 2. Guard (`--rev 4f4c32d~1
+--brojevi`): 18 files, *struktura netaknuta*.
+
+- sections/gesetze_vorschriften: *die sogenannten Radio Regulations* had lost
+  *sogenannten* → "the international telecommunication treaty known as the
+  Radio Regulations (RR)"; the sentence recast from "Among the most important
+  agreements … internationally are" to "The most important agreements … at
+  international level include".
+- sections/gesetze_vorschriften (indepth): the pun note was inaccurate —
+  reflexive *sich beschweren* is only "to complain"; it is *beschweren* that
+  also means "to weigh down". Now says so.
+- gesetze_vorschriften, section and slide: "passed the … AFuG currently in
+  force in 1997" → "In 1997 … passed the … AFuG currently in force".
+- slides/gesetze_vorschriften: "further regulations that affect amateur radio
+  as well … also" (doubled) → "Besides these, there are further regulations
+  that also affect amateur radio".
+- slides/amateurfunkdienst: "Own further education" → "Their own further
+  education".
+- zulassung, section and slide: *Zulassungsbescheid* is now "notice of
+  authorisation" throughout, as the photo caption already had it; one German
+  word, one English term in one file (glossary row reduced to that form).
+- sections/anschrift: word order — "whether you have correctly understood
+  the name of a German station you are in contact with".
+- fernmeldegeheimnis_abhoerverbot, section and slide: "Section 5 of the law
+  with the unwieldy name …" at the front instead of a trailing ", in Section
+  5" / "…, formerly the TTDSG, Section 5".
+- sections/fernmeldegeheimnis_abhoerverbot: the German's mixed construction
+  had been carried into English ("but using and passing on … also violate")
+  → "This includes reception itself, but also using and passing on messages …:
+  all of this violates the TDDDG"; slide "already reception itself" → "even
+  reception itself".
+- verstoesse_und_folgen, section and slide: *Aberkennung des
+  Amateurfunkzeugnisses* "taking away" → "withdrawing the amateur radio
+  certificate", the glossary's term for *Entzug* (§1.2), so the prose answers
+  VC125 b and VE704 b ("withdrawn" / "Withdrawal of the amateur radio
+  certificate") in their own words; glossary row changed accordingly.
+- sections/verstoesse_und_folgen: "You have to pay close attention with …" →
+  "Pay close attention to the following question!"; "only one of them is one"
+  → "only one of them is an administrative offence".
+
+Judgement calls kept: the apposition reading of *internationaler
+Fernmeldevertrag … Radio Regulations*; the brick-campaign letter quoted in
+German with an English gloss (the pun cannot be translated); *Seefunk* →
+"maritime mobile service" where the text lists RR services (the new row is
+specific to this RR context; the glossary's informal *Seefunk* → maritime radio
+stays for other places); "Frequency Usage Plan" in the quoted § 2(3) AFuG
+beside VC103's "Frequency Plan"; "Everything said counts as public speech"
+against "private (non-public) conversations"; EMVG and VwVG at first mention;
+"regular fees" / "regular contributions" each as the German; § 27 TDDDG with
+"makes a disclosure"; the generic *er* recast. All 18 new glossary rows kept
+(two reworded as above); no DECISIONS.md entry needed. The suspected errors
+listed above are confirmed as slips in the German and stay translated
+faithfully.

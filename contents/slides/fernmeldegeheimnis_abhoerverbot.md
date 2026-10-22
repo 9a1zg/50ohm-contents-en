@@ -1,8 +1,8 @@
 ### Secrecy of telecommunications and prohibition of interception
 
-* Laid down in the Telecommunications Digital Services Data Protection Act (Telekommunikation-Digitale-Dienste-Datenschutz-Gesetz, TDDDG), formerly the TTDSG, Section 5
+* Laid down in Section 5 of the Telecommunications Digital Services Data Protection Act (Telekommunikation-Digitale-Dienste-Datenschutz-Gesetz, TDDDG), formerly the TTDSG
 * Only messages addressed to the general public, an unspecified group of people or radio amateurs may be received
-* Everything else is prohibited: already reception itself, but also using and passing on
+* Everything else is prohibited: even reception itself, and also using and passing on
 
 ---
 

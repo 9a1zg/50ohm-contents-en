@@ -9,7 +9,7 @@
 
 <left>
 * Also necessary: the *authorisation to participate in the amateur service*
-* Only with the authorisation notice is the personal call sign assigned
+* Only with the notice of authorisation is the personal call sign assigned
 </left>
 <right>
 [photo:91:n_zulassung_urkunde:The licence document]

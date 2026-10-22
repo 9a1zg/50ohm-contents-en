@@ -1,4 +1,4 @@
-Once you have completed this course and passed the radio amateur examination, you receive an *examination result notice* and an *amateur radio examination certificate*, and may call yourself a radio amateur. Does that mean you may then operate an amateur station? Definitely not! You also need an *authorisation to participate in the amateur service*. Only with the authorisation notice is the personal call sign assigned. 
+Once you have completed this course and passed the radio amateur examination, you receive an *examination result notice* and an *amateur radio examination certificate*, and may call yourself a radio amateur. Does that mean you may then operate an amateur station? Definitely not! You also need an *authorisation to participate in the amateur service*. Only with the notice of authorisation is the personal call sign assigned. 
 
 <margin>
 [photo:91:n_zulassung_urkunde:The notice of authorisation to participate in the amateur service]

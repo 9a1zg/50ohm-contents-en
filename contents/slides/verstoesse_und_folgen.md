@@ -7,7 +7,7 @@
 
 * In the event of continued violations of the AFuG and the AFuV, the licence can even be revoked - the sharpest weapon of the Federal Network Agency (Bundesnetzagentur, BNetzA)
 * Even after the licence has been revoked, you may still call yourself a radio amateur, but you are excluded from amateur radio operation
-* There is no provision for taking away the amateur radio certificate itself - anyone who has passed the examination remains a radio amateur
+* There is no provision for withdrawing the amateur radio certificate itself - anyone who has passed the examination remains a radio amateur
 
 ---
 [question:VC122]

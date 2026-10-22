@@ -31,7 +31,7 @@ Since amateur radio is an official radiocommunication service under the RR, it i
 The Amateur Radio Act (Amateurfunkgesetz, AFuG) describes it in essentially the same way:
 
 * Experimental and technical-scientific studies
-* Own further education
+* Their own further education
 * The aspect of international understanding
 * Supporting relief operations in emergencies and disasters
 * Use of space stations

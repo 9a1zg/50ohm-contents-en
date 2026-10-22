@@ -14,7 +14,7 @@
 
 * The German legal basis for amateur radio is the *Amateur Radio Act (Amateurfunkgesetz, AFuG)*
 * Details are in the *Amateur Radio Ordinance (Amateurfunkverordnung, AFuV)* and in *orders or notices of the Federal Network Agency (Bundesnetzagentur, BNetzA)*
-* There are also further regulations that affect amateur radio as well, e.g. on CE marking or on the secrecy of telecommunications
+* Besides these, there are further regulations that also affect amateur radio, e.g. on CE marking or on the secrecy of telecommunications
 
 --- style="font-size: smaller;"
 
@@ -51,7 +51,7 @@
 
 ---
 
-* The Bundestag passed the Amateur Radio Act (AFuG) currently in force in 1997
+* In 1997 the Bundestag passed the Amateur Radio Act (AFuG) currently in force
 * The current Amateur Radio Ordinance (AFuV) was put into force by the Federal Minister for Digital and Transport
 * The tasks and powers arising from the AFuG and the AFuV are performed and exercised by the *Federal Network Agency (BNetzA)*
 

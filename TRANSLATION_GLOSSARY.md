@@ -2655,7 +2655,7 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Funkanwendungen mit Allgemeinzuteilung | radio applications under a general assignment | as §14 *Allgemeinzuteilung*; *WLAN* → Wi-Fi (amateurfunkdienst) |
 | Gesetzgeber / öffentlich gesprochenes Wort | legislator / public speech | "Alle Äußerungen sind öffentlich gesprochene Worte" → "Everything said counts as public speech"; *das nicht öffentlich gesprochene Wort* → private (non-public) conversations, as §1.2 (amateurfunkstelle) |
 | Handwerksbetrieb | tradesman's business | funkamateur |
-| Zulassungsbescheid (zur Teilnahme am Amateurfunkdienst) | authorisation notice; notice of authorisation (to participate in the amateur service) | beside *Prüfungsbescheid* → examination result notice (§1.3); *Zulassungsurkunde* stays *licence document* (zulassung) |
+| Zulassungsbescheid (zur Teilnahme am Amateurfunkdienst) | notice of authorisation (to participate in the amateur service) | beside *Prüfungsbescheid* → examination result notice (§1.3); *Zulassungsurkunde* stays *licence document* (zulassung) |
 | Gebührenbescheid / Zahlungsaufforderung | fee notice / demand for payment | gebuehren_beitraege |
 | Verwaltungs-Vollstreckungsgesetz (VwVG) / Vollstreckungsmöglichkeiten | Administrative Enforcement Act (Verwaltungs-Vollstreckungsgesetz, VwVG) / means of enforcement | course text, where the German gives the abbreviation; VE704 keeps "Administrative Enforcement Act" (§1.2) (gebuehren_beitraege) |
 | Geheimhaltungspflicht / Verwertung und Weitergabe (von Nachrichten) | duty of confidentiality / using and passing on (messages) | as VE202 (fernmeldegeheimnis_abhoerverbot) |
@@ -2663,7 +2663,7 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Wanzen | bugs | eavesdropping devices (VE204) |
 | Strafvorschriften / Freiheitsstrafe / Geldstrafe / Täter / fahrlässig | penal provisions / imprisonment / fine / offender / negligently | *Geldstrafe* (criminal) and *Geldbuße* (administrative, §1.2) are both *fine* in English; "Mit Freiheitsstrafe bis zu zwei Jahren oder mit Geldstrafe wird bestraft, wer" → "Imprisonment for up to two years or a fine shall be imposed on anyone who", as § 323c StGB in notfunk (§ 27 TDDDG) |
 | eine Mitteilung machen (§ 5 Abs. 2 TDDDG) | make a disclosure | the TDDDG's prohibition on telling others the content or the fact of reception |
-| Bußgeldvorschriften / Aberkennung (des Amateurfunkzeugnisses) | provisions on fines / taking away (the amateur radio certificate) | verstoesse_und_folgen |
+| Bußgeldvorschriften / Aberkennung (des Amateurfunkzeugnisses) | provisions on fines / withdrawal (of the amateur radio certificate) | as §1.2 *Entzug*, so the prose matches the wrong answers of VC125 b and VE704 b (verstoesse_und_folgen) |
 
 ## 15. Catalogue structure
 
