@@ -1797,9 +1797,9 @@
                                     "class": "2",
                                     "question": "What is the value of an SMD resistor marked 223?",
                                     "answer_a": "22 k\u03a9",
-                                    "answer_b": "223 ohms",
+                                    "answer_b": "223 \u03a9",
                                     "answer_c": "22.3 k\u03a9",
-                                    "answer_d": "220 ohms"
+                                    "answer_d": "220 \u03a9"
                                 },
                                 {
                                     "number": "EC116",
@@ -1815,9 +1815,9 @@
                                     "class": "2",
                                     "question": "What is the value of the SMD resistor shown?",
                                     "answer_a": "10 k\u03a9",
-                                    "answer_b": "103 ohms",
+                                    "answer_b": "103 \u03a9",
                                     "answer_c": "1 k\u03a9",
-                                    "answer_d": "10.3 ohms",
+                                    "answer_d": "10.3 \u03a9",
                                     "picture_question": "EC115_q"
                                 },
                                 {
@@ -1842,8 +1842,8 @@
                                     "number": "EC112",
                                     "class": "2",
                                     "question": "A resistor has a tolerance of 10 %. For a nominal resistance value of 5.6 k\u03a9, the actual value lies between ...",
-                                    "answer_a": "5040 and 6160 ohms.",
-                                    "answer_b": "4760 and 6440 ohms.",
+                                    "answer_a": "5040 and 6160 \u03a9.",
+                                    "answer_b": "4760 and 6440 \u03a9.",
                                     "answer_c": "4.7 and 6.8 k\u03a9.",
                                     "answer_d": "5.2 and 6.3 k\u03a9."
                                 },
@@ -2021,7 +2021,7 @@
                                 {
                                     "number": "NC103",
                                     "class": "1",
-                                    "question": "When four colour bands are used, which three colour bands does a 1.2 k\u03a9 resistor have at the start?",
+                                    "question": "What are the first three colour bands on a 1.2 k\u03a9 resistor when four colour bands are used?",
                                     "answer_a": "Brown, red, red",
                                     "answer_b": "Red, orange, brown",
                                     "answer_c": "Brown, red, orange",
@@ -2091,10 +2091,10 @@
                                     "number": "AC107",
                                     "class": "3",
                                     "question": "What is the magnitude of the capacitive reactance of a 100 pF capacitor at a frequency of 435 MHz?",
-                                    "answer_a": "Approx. 3.7 ohms",
-                                    "answer_b": "Approx. 0.27 ohms",
+                                    "answer_a": "Approx. 3.7 \u03a9",
+                                    "answer_b": "Approx. 0.27 \u03a9",
                                     "answer_c": "Approx. 27.3 k\u03a9",
-                                    "answer_d": "Approx. 11.5 ohms"
+                                    "answer_d": "Approx. 11.5 \u03a9"
                                 },
                                 {
                                     "number": "AC106",
@@ -2109,19 +2109,19 @@
                                     "number": "AC105",
                                     "class": "3",
                                     "question": "What is the magnitude of the capacitive reactance of a 50 pF capacitor at a frequency of 145 MHz?",
-                                    "answer_a": "Approx. 22 ohms",
-                                    "answer_b": "Approx. 0.045 ohms",
+                                    "answer_a": "Approx. 22 \u03a9",
+                                    "answer_b": "Approx. 0.045 \u03a9",
                                     "answer_c": "Approx. 18.2 k\u03a9",
-                                    "answer_d": "Approx. 69 ohms"
+                                    "answer_d": "Approx. 69 \u03a9"
                                 },
                                 {
                                     "number": "AC104",
                                     "class": "3",
                                     "question": "What is the magnitude of the capacitive reactance of a 10 pF capacitor at a frequency of 100 MHz?",
-                                    "answer_a": "159 ohms",
+                                    "answer_a": "159 \u03a9",
                                     "answer_b": "1.59 k\u03a9",
-                                    "answer_c": "318 ohms",
-                                    "answer_d": "31.8 ohms"
+                                    "answer_c": "318 \u03a9",
+                                    "answer_d": "31.8 \u03a9"
                                 },
                                 {
                                     "number": "AC103",
@@ -2300,10 +2300,10 @@
                                     "number": "AC204",
                                     "class": "3",
                                     "question": "What is the magnitude of the inductive reactance of an inductor of 3 \u03bcH at a frequency of 100 MHz?",
-                                    "answer_a": "Approx. 1885 ohms",
-                                    "answer_b": "Approx. 942.0 ohms",
+                                    "answer_a": "Approx. 1885 \u03a9",
+                                    "answer_b": "Approx. 942.0 \u03a9",
                                     "answer_c": "Approx. 1885 k\u03a9",
-                                    "answer_d": "Approx. 1.942 ohms"
+                                    "answer_d": "Approx. 1.942 \u03a9"
                                 },
                                 {
                                     "number": "AC203",
@@ -2326,7 +2326,7 @@
                                 {
                                     "number": "AC201",
                                     "class": "3",
-                                    "question": "In an ideal inductance connected to an AC voltage source, the current ...",
+                                    "question": "In an ideal inductor connected to an AC voltage source, the current ...",
                                     "answer_a": "lags the applied voltage by 90 \u00b0.",
                                     "answer_b": "leads the applied voltage by 45 \u00b0.",
                                     "answer_c": "lags the applied voltage by 45 \u00b0.",
@@ -2539,7 +2539,7 @@
                                     "question": "Which component can generate an electric current when light falls on it?",
                                     "answer_a": "Photodiode",
                                     "answer_b": "Light-dependent resistor",
-                                    "answer_c": "Varactor",
+                                    "answer_c": "Varactor diode",
                                     "answer_d": "Reactance"
                                 },
                                 {
@@ -2609,7 +2609,7 @@
                                 {
                                     "number": "EC522",
                                     "class": "2",
-                                    "question": "The following circuit of a stabiliser with a Zener diode is given. The current through the Zener diode is to be 25 mA and the load current is 20 mA. The value of the required series resistor is ...",
+                                    "question": "The following Zener diode stabiliser circuit is given. The current through the Zener diode is to be 25 mA and the load current is 20 mA. The value of the required series resistor is ...",
                                     "answer_a": "approx. 202 ohms.",
                                     "answer_b": "approx. 364 ohms.",
                                     "answer_c": "approx. 188 ohms.",
@@ -2620,10 +2620,10 @@
                                     "number": "EC521",
                                     "class": "2",
                                     "question": "An unloaded Zener diode is to stabilise an operating voltage of 13.8 V to 5 V. A current of 30 mA is to flow through the Zener diode. The output of the circuit is not to be loaded. Calculate the value of the series resistor.",
-                                    "answer_a": "Approx. 293 ohms",
+                                    "answer_a": "Approx. 293 \u03a9",
                                     "answer_b": "Approx. 3.41 \\milliOhm",
-                                    "answer_c": "Approx. 460 ohms",
-                                    "answer_d": "Approx. 167 ohms",
+                                    "answer_c": "Approx. 460 \u03a9",
+                                    "answer_d": "Approx. 167 \u03a9",
                                     "picture_question": "EC521_q"
                                 },
                                 {
@@ -2664,14 +2664,14 @@
                                     "question": "Which component does the circuit symbol represent?",
                                     "answer_a": "Zener diode",
                                     "answer_b": "Light-emitting diode",
-                                    "answer_c": "Varactor",
+                                    "answer_c": "Varactor diode",
                                     "answer_d": "Freewheeling diode",
                                     "picture_question": "EC517_q"
                                 },
                                 {
                                     "number": "EC516",
                                     "class": "2",
-                                    "question": "The following circuit with a light-emitting diode (LED) is operated from an operating voltage of 5.5 V. The current through the LED is to be 25 mA, and its forward voltage is 1.75 V. The required series resistor must have the following values:",
+                                    "question": "The following circuit with a light-emitting diode (LED) is supplied with an operating voltage of 5.5 V. The current through the LED is to be 25 mA, and its forward voltage is 1.75 V. The required series resistor must have the following values:",
                                     "answer_a": "150 ohms/0.1 W",
                                     "answer_b": "150 ohms/0.06 W",
                                     "answer_c": "70 ohms/0.1 W",
@@ -2917,7 +2917,7 @@
                                 {
                                     "number": "AC521",
                                     "class": "3",
-                                    "question": "What is the gate-source voltage in the circuit drawn? $U_{\\textrm{B}} = 44 V$; $R_1 = 10 k\\Omega$; $R_2 = 1 k\\Omega$; $R_3 = 2.2 k\\Omega$ ...",
+                                    "question": "What is the gate-source voltage in the circuit shown? $U_{\\textrm{B}} = 44 V$; $R_1 = 10 k\\Omega$; $R_2 = 1 k\\Omega$; $R_3 = 2.2 k\\Omega$ ...",
                                     "answer_a": "4 V",
                                     "answer_b": "8 V",
                                     "answer_c": "0.7 V",
@@ -2947,7 +2947,7 @@
                                 {
                                     "number": "AC518",
                                     "class": "3",
-                                    "question": "The operating voltage is 10 V, the collector current is to be 2 mA, and the DC current gain of the transistor is 200. Ten times the base current is to flow through the bleeder resistor $R_2$. Calculate the series resistor $R_1$.",
+                                    "question": "The operating voltage is 10 V, the collector current is to be 2 mA, and the DC current gain of the transistor is 200. Ten times the base current is to flow through the lower divider resistor $R_2$. Calculate the value of the series resistor $R_1$.",
                                     "answer_a": "Approx. 85.5 k\u03a9",
                                     "answer_b": "Approx. 940 k\u03a9",
                                     "answer_c": "Approx. 76.4 k\u03a9",
@@ -2957,7 +2957,7 @@
                                 {
                                     "number": "AC517",
                                     "class": "3",
-                                    "question": "The operating voltage is 10 V, the collector current is to be 2 mA, and the DC current gain of the transistor is 200. Ten times the base current is to flow through the bleeder resistor $R_2$. The voltage drop across the emitter resistor is to be 1 V. Calculate the series resistor $R_1$.",
+                                    "question": "The operating voltage is 10 V, the collector current is to be 2 mA, and the DC current gain of the transistor is 200. Ten times the base current is to flow through the lower divider resistor $R_2$. The voltage drop across the emitter resistor is to be 1 V. Calculate the value of the series resistor $R_1$.",
                                     "answer_a": "Approx. 76.4 k\u03a9",
                                     "answer_b": "Approx. 540 k\u03a9",
                                     "answer_c": "Approx. 85.5 k\u03a9",
@@ -2977,7 +2977,7 @@
                                 {
                                     "number": "AC515",
                                     "class": "3",
-                                    "question": "The operating voltage is 12 V, the collector current is to be 5 mA, and the DC current gain of the transistor is 298. Calculate the series resistor $R_1$.",
+                                    "question": "The operating voltage is 12 V, the collector current is to be 5 mA, and the DC current gain of the transistor is 298. Calculate the value of the series resistor $R_1$.",
                                     "answer_a": "Approx. 680 k\u03a9",
                                     "answer_b": "Approx. 715 k\u03a9",
                                     "answer_c": "Approx. 68 k\u03a9",
@@ -3305,7 +3305,7 @@
                                     "class": "3",
                                     "question": "What is typical of a monolithic microwave integrated circuit (MMIC)?",
                                     "answer_a": "The input and output impedances correspond to common line impedances (e.g. 50 ohms).",
-                                    "answer_b": "The gain is constant from as low as 0 Hz.",
+                                    "answer_b": "The gain is constant from 0 Hz upwards.",
                                     "answer_c": "They can be used only in the microwave range.",
                                     "answer_d": "The gain range is narrowband."
                                 },

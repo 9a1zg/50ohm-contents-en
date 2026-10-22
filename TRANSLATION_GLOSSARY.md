@@ -1403,7 +1403,8 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | HF-Diode | RF diode | |
 | durchgesteuert | fully on (saturated) | transistor |
 | Leitungsverluste (MOSFET) | conduction losses | |
-| Querwiderstand | bleeder resistor (divider current resistor) | |
+| Querwiderstand | lower divider resistor | the base-divider resistor ($R_2$) that carries the divider current (AC517, AC518); not *bleeder resistor*, which is *Ableitwiderstand* (§12) |
+| Querstrom | divider current | current through the lower resistor of a base potential divider |
 | Bias-Netzwerk | bias network | |
 | kapazitiver Teiler | capacitive divider | |
 | Eingangsanpassung / Ausgangsanpassung | input matching / output matching | |

@@ -1,0 +1,23 @@
+{
+  "pitanja": {
+    "EC117": {"answer_b": "223 Ω", "answer_d": "220 Ω"},
+    "EC115": {"answer_b": "103 Ω", "answer_d": "10.3 Ω"},
+    "EC112": {"answer_a": "5040 and 6160 Ω.", "answer_b": "4760 and 6440 Ω."},
+    "AC107": {"answer_a": "Approx. 3.7 Ω", "answer_b": "Approx. 0.27 Ω", "answer_d": "Approx. 11.5 Ω"},
+    "AC105": {"answer_a": "Approx. 22 Ω", "answer_b": "Approx. 0.045 Ω", "answer_d": "Approx. 69 Ω"},
+    "AC104": {"answer_a": "159 Ω", "answer_c": "318 Ω", "answer_d": "31.8 Ω"},
+    "AC204": {"answer_a": "Approx. 1885 Ω", "answer_b": "Approx. 942.0 Ω", "answer_d": "Approx. 1.942 Ω"},
+    "EC521": {"answer_a": "Approx. 293 Ω", "answer_c": "Approx. 460 Ω", "answer_d": "Approx. 167 Ω"},
+    "NC103": {"question": "What are the first three colour bands on a 1.2 kΩ resistor when four colour bands are used?"},
+    "AC201": {"question": "In an ideal inductor connected to an AC voltage source, the current ..."},
+    "AC407": {"answer_c": "Varactor diode"},
+    "EC517": {"answer_c": "Varactor diode"},
+    "EC516": {"question": "The following circuit with a light-emitting diode (LED) is supplied with an operating voltage of 5.5 V. The current through the LED is to be 25 mA, and its forward voltage is 1.75 V. The required series resistor must have the following values:"},
+    "EC522": {"question": "The following Zener diode stabiliser circuit is given. The current through the Zener diode is to be 25 mA and the load current is 20 mA. The value of the required series resistor is ..."},
+    "AC521": {"question": "What is the gate-source voltage in the circuit shown? $U_{\\textrm{B}} = 44 V$; $R_1 = 10 k\\Omega$; $R_2 = 1 k\\Omega$; $R_3 = 2.2 k\\Omega$ ..."},
+    "AC518": {"question": "The operating voltage is 10 V, the collector current is to be 2 mA, and the DC current gain of the transistor is 200. Ten times the base current is to flow through the lower divider resistor $R_2$. Calculate the value of the series resistor $R_1$."},
+    "AC517": {"question": "The operating voltage is 10 V, the collector current is to be 2 mA, and the DC current gain of the transistor is 200. Ten times the base current is to flow through the lower divider resistor $R_2$. The voltage drop across the emitter resistor is to be 1 V. Calculate the value of the series resistor $R_1$."},
+    "AC515": {"question": "The operating voltage is 12 V, the collector current is to be 5 mA, and the DC current gain of the transistor is 298. Calculate the value of the series resistor $R_1$."},
+    "AC604": {"answer_b": "The gain is constant from 0 Hz upwards."}
+  }
+}

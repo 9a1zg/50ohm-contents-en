@@ -67,3 +67,41 @@ EC4, AC4, EC5, NC4, AC5, EC6, NC5, AC6, AD1), 779 fields. `qbank-prevedi.py`:
   AD114 stem has no final "?" (added); AC516 d lacks a final full stop (added
   for parallelism); EC105 d has a full stop the others lack (dropped); EC611
   "fliesst"; NC109/NC108 answers start with a stray space (dropped).
+
+## Provjera
+
+175 questions checked (all five fields, German from `upstream/main` side by
+side with the English); 32 fields changed in 19 questions: 21 unit style,
+2 glossary, 9 wording / style. No meaning errors, no answer whose correctness
+changed. Applied from `pitanja_02.provjera.json` with `--retranslate`:
+0 refused, 0 warnings.
+
+- EC117 b/d, EC115 b/d, EC112 a/b, AC107 a/b/d, AC105 a/b/d, AC104 a/c/d,
+  AC204 a/b/d, EC521 a/c/d: "ohms" → "Ω" where the same answer set also has
+  kΩ (or `\milliOhm`), so each set is written one way. Sets that are all
+  plain ohms (EC116, EC113, AC106, AD110 …) keep "ohms".
+- AC517, AC518: *Querwiderstand* "bleeder resistor" → "lower divider
+  resistor"; a bleeder resistor is the PSU discharge resistor (and the
+  glossary already gives it for *Ableitwiderstand*). Glossary §14 corrected
+  (and *Querstrom* → divider current added).
+- AC515, AC517, AC518: "Calculate the series resistor $R_1$" → "Calculate the
+  value of the series resistor $R_1$".
+- NC103: "which three colour bands does a 1.2 kΩ resistor have at the start?"
+  → "What are the first three colour bands on a 1.2 kΩ resistor …?"
+- AC201: "an ideal inductance" → "an ideal inductor" (the component).
+- AC407 c, EC517 c: "Varactor" → "Varactor diode", parallel with the other
+  diode answers and with AC404.
+- EC516: "is operated from an operating voltage" → "is supplied with an
+  operating voltage".
+- EC522: "The following circuit of a stabiliser with a Zener diode" → "The
+  following Zener diode stabiliser circuit".
+- AC521: "in the circuit drawn" → "in the circuit shown".
+- AC604 b: "constant from as low as 0 Hz" → "constant from 0 Hz upwards".
+
+Left as the translator chose, after checking: "Approx." for *ca.* (lower case
+where it continues a stem, EC522) and "About" for *etwa* (EC401) — each set
+is consistent; AC209's recast stem ("are also expressed by …") and AC201's
+stem ending at "the current …" read correctly with every answer; EC606/EC607
+"This component is …" with the article in each answer; AC103's "resistances"
+covering both quantities and components, as the German *Widerstände* does;
+"chassis potential" (EC612–EC615) per the glossary.
