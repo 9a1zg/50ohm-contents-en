@@ -34,8 +34,15 @@ on GitHub for DARC to take over.
   English name with the German name and abbreviation, e.g. *Amateur Radio
   Ordinance (Amateurfunkverordnung, AFuV)*; afterwards the abbreviation. In
   exam questions, which stand alone, use the form the glossary gives.
-- **Call signs, Q codes, abbreviations** (DL1ABC, QRV, CW, SSB) are not
-  translated.
+- **Call signs, Q codes and international abbreviations** (DL1ABC, QRV, CW,
+  SSB) are not translated. **German-only technical abbreviations become their
+  English equivalents** in running text: NF → AF, HF → RF, ZF → IF, KW → HF,
+  UKW → VHF, EMV → EMC (mind that German HF is English RF, and German KW is
+  English HF). Abbreviations of German law and institutions stay (AFuG, AFuV,
+  BNetzA, EMVU, BEMFV). Labels inside drawings stay German until the drawings
+  are done, so a figure may still say NF where the text says AF.
+- **Spelling:** British with *-ise* (authorisation, quantisation), as the RSGB
+  writes; *call sign* in two words, as the ITU Radio Regulations do.
 - **Exam questions:** `answer_a` is always the correct answer (the generator
   shuffles). A translation must keep it correct and keep b–d wrong, and keep
   the four answers parallel in form. A question stem ending in `…` is
