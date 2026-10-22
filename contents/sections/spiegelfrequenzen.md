@@ -1,4 +1,4 @@
-By the very nature of the concept, the mixing process that takes place in a superhet (see Figure [ref:spiegelfrequenzen_mischen1]) with the receiver's oscillator frequency always gives two possible receive frequencies:
+In a superhet, the mixing process with the receiver's oscillator frequency (see Figure [ref:spiegelfrequenzen_mischen1]) by its very nature always gives two possible receive frequencies:
 
 $f_\text{ZF} = \left|f_\text{e} \pm f_\text{o}\right|$
 

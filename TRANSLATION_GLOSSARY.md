@@ -2318,7 +2318,7 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Wortneubildung | coinage | *superheterodyne* (ueberlagerungsempfaenger_einfachsuper_1) |
 | Lokal-Oszillator (LO) / Schaubild | local oscillator (LO) / diagram | ring mixer (mischer_2) |
 | Ringschaltung / Ringmodulator / Dioden-Gleichrichter | ring circuit / ring modulator / diode rectifier | mischer_2; *Balancemischer, Ringmischer oder Ringmodulator* → "balanced mixer, ring mixer or ring modulator" |
-| konzeptbedingt / prinzipbedingt | by the very nature of the concept / by its very principle | spiegelfrequenzen |
+| konzeptbedingt / prinzipbedingt | by its very nature / inherently | spiegelfrequenzen |
 | Spiegelfrequenzstörungen | image-frequency interference | AF107, AF203 |
 | Vorselektion (Empfänger) | preselection | as AF204 "The preselection"; *Preselektor* stays *preselector* (§6) (spiegelfrequenzen, doppelueberlagerungsempfaenger_doppelsuper) |
 | CO (Quarzoszillator) / Funktionsblöcke | CO (crystal oscillator) / functional blocks | double-conversion superhet, as AF117 |
@@ -2327,7 +2327,7 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Lösungsmöglichkeiten / 1. Lösung, 2. Lösung (Folien) | possible solutions / Solution 1, Solution 2 | two oscillator frequencies that are both correct; *Lösungsweg 1/2* for two methods to one answer stays "Method 1/2" (doppelueberlagerungsempfaenger_doppelsuper slides) |
 | Überlagerungsmischung | heterodyne mixing | BFO (bfo_1 slides) |
 | Hörfrequenz / Tonfrequenz (CW) | listening frequency / audio frequency | the pitch of the CW tone (bfo_2) |
-| nichtlinearer Grenzbereich | non-linear limit region | intermodulation_kreuzmodulation |
+| nichtlinearer Grenzbereich | (operation) at the edge of its range, in the non-linear region | "non-linear limit region" is not an English term (intermodulation_kreuzmodulation) |
 | Grundsignale / Steigung / Schnittpunkt (IP3) | fundamental signals / slope / point of intersection | two-tone test and IP3 (intermodulation_kreuzmodulation) |
 | Intercept Point dritter Ordnung / Intercept Point 3. Ordnung | third-order intercept point / 3rd-order intercept point | the digit kept where the German writes one; as §6 *Intercept-Punkt (IP3)* |
 | Abschwächer (auch Attenuator genannt) / Dämpfungsglied (Attenuator) | attenuator | the bracket only gives the English word and is dropped (bracket rule); the slide heading *Attenuator* stays (vorverstaerker_daempfungsglied, intermodulation_kreuzmodulation) |

@@ -4,7 +4,7 @@
 $f_\text{ZF} = \left|f_\text{e} \pm f_\text{o}\right|$
 </left>
 <right>  
-By its very principle, the mixing process to $f_\text{ZF}$ always selects two receive frequencies
+The mixing process to $f_\text{ZF}$ inherently always selects two receive frequencies
 </right>
 
 ---

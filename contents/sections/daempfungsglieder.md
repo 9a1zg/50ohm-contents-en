@@ -2,7 +2,7 @@ Attenuators are often needed in RF engineering to reduce signal levels by a defi
 
 An attenuator must always be designed for a defined system impedance at its input and output. In symmetrical attenuators, the input and output impedances are identical. Often this is the $\qty{50}{\ohm}$ usual in RF engineering. For an attenuator to present the required impedances at its input and output, a termination with the correct impedance is needed on both sides. This is achieved by a suitable resistor network. 
 
-There are various circuit variants, which differ in the arrangement of the resistors. The two commonest are the T attenuator (see Figure [ref:a_daempfungsglied_t]) and the $\pi$ attenuator (see Figure [ref:a_daempfungsglied_pi]). In both variants the attenuation is achieved by a resistor network that converts the power fed in into heat.
+There are various circuit variants, which differ in the arrangement of the resistors. The two most common are the T attenuator (see Figure [ref:a_daempfungsglied_t]) and the $\pi$ attenuator (see Figure [ref:a_daempfungsglied_pi]). In both variants the attenuation is achieved by a resistor network that converts the power fed in into heat.
 
 <margin>
 [picture:342:a_daempfungsglied_pi:Attenuator in pi configuration with source and load resistor]

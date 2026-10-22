@@ -106,3 +106,34 @@ for numbered references, *Solution / given / required* in worked slides.
 - sections/intermodulation_kreuzmodulation.md and slide — the IP3 as the point "an dem unerwünschte Mischprodukte 3. Ordnung den Amplitudenwert des Eingangssignales erreichen": as the in-depth part of the same section says, it is the extrapolated point where the 3rd-order products reach the output power of the fundamental (wanted) signals, not the amplitude of the input signal. Kept.
 - sections/ueberlagerungsempfaenger_einfachsuper_1.md — "den Detektorempfänger im vorherigen Kapitel": the crystal set is the previous section of the same chapter. Kept ("in the previous chapter").
 - Typos with no effect on the English: sections/aufbau_empfaenger.md "das wichtigste Bestandteil"; sections/mischer_2.md "Zum erreichen", "(Kathode jeweils mit folgender Anode der folgenden Diode verbunden)"; slides/mischer_2.md "Mathematischen Verhalten"; sections/doppelueberlagerungsempfaenger_doppelsuper.md tip "entsprechend dem des Doppelsupers"; sections/ueberlagerungsempfaenger_einfachsuper_2.md "Der ZF-Filter"; slides/trennschaerfe_1.md "das zu empfangene Signal"; sections/bfo_2.md "widergegeben"; slides/intermodulation_kreuzmodulation.md "des Eingangssignal"; caption "Wirkungsweise eine Begrenzverstärkers" (section and slide; the ident `begrenzverstärker` kept, as idents never change); slides/vorverstaerker_daempfungsglied.md "Verzerrrte"; sections/agc_1.md "bzgl. Ihres"; slides/agc_1.md "Ansprechsverhalten"; slides/s_meter.md "3-Stufen"; the stray `‚` after `--- style="font-size: smaller;"` (3×) in slides/doppelueberlagerungsempfaenger_doppelsuper.md, kept as markup.
+
+## Provjera
+
+Checked against `git show 31788eba~1:<file>` for all 57 files, paragraph by
+paragraph, and against the English of every embedded question (NF201, NF303,
+EF101, EF102, EF208–EF212, EF217, EF218, AA113, AA114, AD801–AD806,
+AF101–AF120, AF201–AF214, AF216–AF223, AF226, AF230, AF231). Complete:
+nothing dropped or added. Numbers, formulas and markup intact;
+`revizija-guard.py --rev 31788eba~1 --brojevi`: 55 files, *struktura
+netaknuta*; the two `detektorempfänger.md` files, which the guard skips,
+checked with its own `signature()` and `numbers()`: unchanged. Line counts
+equal to the German in every file.
+
+Changes: omission 0, meaning 2, technical 1, style 9, glossary 2.
+
+- ueberlagerungsempfaenger_einfachsuper_1 (meaning): "the signal is only demodulated after reception and … amplification" read as if demodulation came only afterwards; the German says that after reception and amplification the signal is *merely* demodulated → "after reception and, where necessary, amplification, the signal is simply demodulated".
+- mischer_2 (meaning): *ausreichend durchgesteuert* → "driven sufficiently into conduction", not "turned fully on", which dropped *ausreichend* and overstated it.
+- intermodulation_kreuzmodulation (technical): *Betrieb im nichtlinearen Grenzbereich* → "operation at the edge of its range, in the non-linear region"; "non-linear limit region" is not an English term. Glossary row reworked accordingly.
+- spiegelfrequenzen (style, section and slide): *konzeptbedingt* "By the very nature of the concept, …" → "In a superhet, the mixing process … by its very nature always gives …"; *prinzipbedingt* "By its very principle" → "inherently". Glossary row reworked (*by its very nature / inherently*).
+- intermodulation_kreuzmodulation (style): "the effect shows itself in that …" (twice) → "the effect is that …"; "may not both be zero" → "must not both be zero" (British *may not* can read as "might not"); "unwanted mixing products in the receiver input by strong signals" → "by strong signals at the receiver input".
+- bfo_2 (style): "the BFO must be a certain distance from the CW signal. This distance …" → "must be offset from the CW signal by a certain amount. This offset …".
+- aufbau_empfaenger "built up" → "constructed"; daempfungsglieder "commonest" → "most common"; solution AD805 stray comma after "the load resistor" before the displayed formula removed.
+
+Translator's judgement calls: all kept except *konzeptbedingt / prinzipbedingt*
+(reworked above). Glossary: 31 rows reviewed, 29 kept, 2 reworked
+(*konzeptbedingt / prinzipbedingt*, *nichtlinearer Grenzbereich*). DECISIONS.md:
+no entry added, none needed. The suspected errors in the German are confirmed
+as listed (in particular 53.64 vs 53.65 MHz, $f_\text{NF}$ for the 455 kHz third
+IF, the AD806 $\Delta P$ sign, $f_\text{OSZ} = f_\text{ZF} \pm f_\text{E}$, the
+IP3 definition against the section's own in-depth text, and the picture 1054
+caption) and kept as translated.

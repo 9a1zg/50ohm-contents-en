@@ -1,6 +1,6 @@
 In a receiver with two strong RF signals present at its input, interference can be caused by intermodulation or cross-modulation.
-With intermodulation, the effect shows itself in that additional unwanted frequencies are produced by non-linear behaviour of the receiver stage (operation in the non-linear limit region), much as in a mixer. These can be superimposed on wanted received signals and interfere with them.
-With cross-modulation, the effect shows itself in that the wanted received signal is affected by the modulation of a strong AM signal close to it in frequency. As a result, the modulation of the adjacent transmitter becomes audible in the received signal and interferes with it.
+With intermodulation, the effect is that additional unwanted frequencies are produced by non-linear behaviour of the receiver stage (operation at the edge of its range, in the non-linear region), much as in a mixer. These can be superimposed on wanted received signals and interfere with them.
+With cross-modulation, the effect is that the wanted received signal is affected by the modulation of a strong AM signal close to it in frequency. As a result, the modulation of the adjacent transmitter becomes audible in the received signal and interferes with it.
 
 [question:AF217]
 [question:AF219]
@@ -18,7 +18,7 @@ In this in-depth section we look at the IP3 as a parameter for the strong-signal
 
 $f_\text{mix} = \left| m \cdot f_1 \pm n \cdot f_2 \right|$
 
-can be produced, where $m,n \in \mathbb{N}_0$ and the two coefficients may not both be zero at the same time. The order of such a mixing product is the sum of the coefficients:
+can be produced, where $m,n \in \mathbb{N}_0$ and the two coefficients must not both be zero at the same time. The order of such a mixing product is the sum of the coefficients:
 
 $\text{order} = m+n$
 
@@ -43,6 +43,6 @@ The higher the IP3 of a receiver, the better its strong-signal performance. A hi
 
 [question:AF221]
 
-To reduce the formation of unwanted mixing products in the receiver input by strong signals, a switchable attenuator can be inserted ahead of the receiver input. This reduces intermodulation products and cross-modulation in the receiver. The wanted signal is reduced only by the factor of the attenuator – but, because of the mathematics of the mixing process, interfering mixing products are attenuated by a factor of $\num{3}$ (3rd order) in $\unit{\dB}$. For example, a $\qty{10}{\dB}$ attenuator reduces the wanted signal by only $\qty{10}{\dB}$, while unwanted mixing products are already attenuated by $\qty{30}{\dB}$.
+To reduce the formation of unwanted mixing products by strong signals at the receiver input, a switchable attenuator can be inserted ahead of the receiver input. This reduces intermodulation products and cross-modulation in the receiver. The wanted signal is reduced only by the factor of the attenuator – but, because of the mathematics of the mixing process, interfering mixing products are attenuated by a factor of $\num{3}$ (3rd order) in $\unit{\dB}$. For example, a $\qty{10}{\dB}$ attenuator reduces the wanted signal by only $\qty{10}{\dB}$, while unwanted mixing products are already attenuated by $\qty{30}{\dB}$.
 
 [question:AF220]

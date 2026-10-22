@@ -21,7 +21,7 @@ This aim is best achieved with a so-called balanced mixer. It is built with 4 di
 <indepth>
 How a ring mixer works:
 
-The local oscillator ($U_2$ in the diagram) always switches two opposite diodes into conduction during one half cycle, while the other two diodes are cut off. In the next half cycle of the local oscillator, the situation is exactly reversed. For this, the amplitude of the local oscillator ($U_2$) must be high enough for the diodes to be turned fully on during the positive and negative half cycles.
+The local oscillator ($U_2$ in the diagram) always switches two opposite diodes into conduction during one half cycle, while the other two diodes are cut off. In the next half cycle of the local oscillator, the situation is exactly reversed. For this, the amplitude of the local oscillator ($U_2$) must be high enough for the diodes to be driven sufficiently into conduction during the positive and negative half cycles.
 
 As a result, the diode ring acts as a polarity reverser for the signal applied to the input ($U_1$).
 To achieve a good mixing result in terms of unwanted mixing products and suppression of the input signal, its amplitude must be considerably smaller than the amplitude of the local oscillator.

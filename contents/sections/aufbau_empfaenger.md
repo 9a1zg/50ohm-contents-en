@@ -1,4 +1,4 @@
-Let us first look at how a receiver is built up. To keep things simple, in Figure [ref:aufbau_empfaenger_blockdiagramm] we do not go down to the level of individual components, but look at blocks that each have a particular function. This kind of diagram is called a block diagram. In electrical engineering it is used to show complex equipment in a simplified overview. To do this, details that are not needed to understand the equipment as a whole are left out.
+Let us first look at how a receiver is constructed. To keep things simple, in Figure [ref:aufbau_empfaenger_blockdiagramm] we do not go down to the level of individual components, but look at blocks that each have a particular function. This kind of diagram is called a block diagram. In electrical engineering it is used to show complex equipment in a simplified overview. To do this, details that are not needed to understand the equipment as a whole are left out.
 
 <margin>
 [picture:736:aufbau_empfaenger_blockdiagramm:Block diagram of a simple receiver]
