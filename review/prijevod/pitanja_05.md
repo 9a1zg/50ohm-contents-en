@@ -105,3 +105,62 @@ fits the letters is preferred (EF212); *symmetrisch* on a circuit block is
   AF309, AF406, AF401 d, EF403, AG127 d, AG120–AG122 and NF403; non-breaking
   spaces in AF631, AF618, AF707 d, AF706, AF705 (q, b), AF703, AF702. NF403
   keeps its line breaks between the six positions, normalised to "; \n".
+
+## Provjera
+
+175 questions checked (all five fields against the German from
+`upstream/main`), 14 fields in 14 questions changed via
+`pitanja_05.provjera.json` (`--retranslate`: 0 refused, 0 warnings): all
+style — no meaning, answer-correctness or glossary errors found. No change
+to `TRANSLATION_GLOSSARY.md` or `DECISIONS.md`.
+
+- AF305 question: `\glqq?"` → `"?"` — the tool now lets the German quote
+  macro go; straight double quotes, as everywhere else in the English bank
+  (NE209, AD229 …).
+- AF222 a: "on a very nearby frequency" → "very close in frequency" (idiom).
+- AF215 a: "as well thermally insulated as possible from" → "thermally
+  insulated as well as possible from" (word order).
+- EF212 question: "On a receiver, what does the abbreviation AGC on a switch
+  stand for?" → "What does the abbreviation AGC on a receiver switch stand
+  for?" (double "on").
+- EF206, EF405 questions: "What should … be like?" → "How should … be
+  designed?" (*beschaffen sein*; exam register, same form as EF207).
+- AF620 question: "in the block diagram shown of a digital direct-sampling
+  receiver" → "in the digital direct-sampling receiver shown in the block
+  diagram" (dangling "shown").
+- AF626–AF629 questions: "… path of a digital voice radio shown?" / "… for
+  digital amateur television (DATV) shown?" → "… path shown for …" — "shown"
+  belongs to the path, not to the radio or to DATV.
+- AF617 c: "a signal more than half of whose spectrum is disturbed" → "a
+  signal with interference on more than half of its spectrum" (*gestört* is
+  interference here; clumsy relative clause).
+- AG125 a: "Horizontal wires" → "Horizontally strung wires" — *aufgespannt*
+  had been dropped; now parallel with c ("Wires strung as an inverted V").
+- AF707 question: "You are operating FM voice via" → "You are using FM voice
+  via", as AF703–AF705 ("You are using telephony …").
+
+Judgement calls reviewed and kept:
+
+- EF212: *Gleichlauf* of tuned circuits is both *tracking* and *ganging* in
+  the dictionaries, so "Automatic ganging control" is a faithful rendering,
+  not an invented distractor; with it two answers spell AGC, as close as
+  English can get to the German, where none does. The DECISIONS.md entry is
+  correct as written.
+- AF306 b "Balanced filter": the German distractor echoes *Balancemischer*
+  through *symmetrisch* (a balanced mixer is also a *symmetrischer Mischer*);
+  "balanced" keeps that echo without making b more tempting. b stays wrong
+  (the AF amplifier feeds the balanced mixer). The DECISIONS.md entry is
+  correct: elsewhere in the bank *symmetrisch* is balanced (feeders,
+  antennas, AD510 "correctly balanced"), and the one exception — equal input
+  and output impedance — is the attenuator; *rotationssymmetrisch* (AG127)
+  is geometry, not a circuit block.
+- EF401: stem "is the ..." with "immediately after …" in every answer reads
+  correctly with all four (a/c "power that can be measured …", b/d
+  "difference/sum of …, measured …"); meaning unchanged.
+- AF415 d: *er* can only sensibly be the electrolytic capacitor ("otherwise"
+  = without the ceramic one); writing it out does not make d more plausible.
+- AF706: lower-case *ihre* is the remote station's own transmission; "Its
+  own transmission" is right.
+- AF221 c "Minimum discernible signal" for *Grenzempfindlichkeit*, EF209
+  "auxiliary carrier", AF204 "preselection", AF301 "eight-times multiplier":
+  kept.

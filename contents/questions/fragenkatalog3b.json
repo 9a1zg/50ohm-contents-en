@@ -6948,7 +6948,7 @@
                                     "number": "AF222",
                                     "class": "3",
                                     "question": "What, for example, can reduce the quality of a received signal?",
-                                    "answer_a": "Strong RF signals on a very nearby frequency",
+                                    "answer_a": "Strong RF signals very close in frequency",
                                     "answer_b": "Battery operation of the receiver",
                                     "answer_c": "Too low a noise figure of the receiver",
                                     "answer_d": "Operating the receiver from a linear regulated power supply"
@@ -7011,7 +7011,7 @@
                                     "number": "AF215",
                                     "class": "3",
                                     "question": "How should a VFO that is already temperature-compensated be installed in a piece of equipment to ensure the best possible frequency stability?",
-                                    "answer_a": "It should be as well thermally insulated as possible from other heat sources in the equipment.",
+                                    "answer_a": "It should be thermally insulated as well as possible from other heat sources in the equipment.",
                                     "answer_b": "It should be mounted on its own heatsink.",
                                     "answer_c": "It should be mounted on the same heatsink as the power amplifier.",
                                     "answer_d": "It should be cooled separately by a small fan."
@@ -7218,7 +7218,7 @@
                                 {
                                     "number": "EF212",
                                     "class": "2",
-                                    "question": "On a receiver, what does the abbreviation AGC on a switch stand for?",
+                                    "question": "What does the abbreviation AGC on a receiver switch stand for?",
                                     "answer_a": "Automatic gain control",
                                     "answer_b": "Automatic antenna tuner",
                                     "answer_c": "Automatic ganging control",
@@ -7273,7 +7273,7 @@
                                 {
                                     "number": "EF206",
                                     "class": "2",
-                                    "question": "What should a mixer stage be like in order to avoid unwanted radiation?",
+                                    "question": "How should a mixer stage be designed in order to avoid unwanted radiation?",
                                     "answer_a": "It should be well screened.",
                                     "answer_b": "It should be decoupled at AF.",
                                     "answer_c": "It should not be earthed.",
@@ -7447,7 +7447,7 @@
                                 {
                                     "number": "AF305",
                                     "class": "3",
-                                    "question": "This block diagram shows an SSB transmitter. The stage at \\glqq?\" is ...",
+                                    "question": "This block diagram shows an SSB transmitter. The stage at \"?\" is ...",
                                     "answer_a": "a crystal filter acting as a band-pass filter for the wanted sideband.",
                                     "answer_b": "an RC high-pass filter for suppressing the lower sideband.",
                                     "answer_c": "an RL low-pass filter for suppressing the upper sideband.",
@@ -7910,7 +7910,7 @@
                                 {
                                     "number": "EF405",
                                     "class": "2",
-                                    "question": "What should the power feed in a transmitter be like?",
+                                    "question": "How should the power feed in a transmitter be designed?",
                                     "answer_a": "It should be well decoupled against RF pick-up.",
                                     "answer_b": "It should have as high an impedance as possible.",
                                     "answer_c": "It should be routed via the power amplifier case.",
@@ -8105,7 +8105,7 @@
                                 {
                                     "number": "AF629",
                                     "class": "3",
-                                    "question": "Which of the following blocks correctly completes the greatly simplified receive path for digital amateur television (DATV) shown?",
+                                    "question": "Which of the following blocks correctly completes the greatly simplified receive path shown for digital amateur television (DATV)?",
                                     "answer_a": "",
                                     "answer_b": "",
                                     "answer_c": "",
@@ -8119,7 +8119,7 @@
                                 {
                                     "number": "AF628",
                                     "class": "3",
-                                    "question": "Which of the following blocks correctly completes the greatly simplified receive path of a digital voice radio shown?",
+                                    "question": "Which of the following blocks correctly completes the greatly simplified receive path shown for a digital voice radio?",
                                     "answer_a": "",
                                     "answer_b": "",
                                     "answer_c": "",
@@ -8133,7 +8133,7 @@
                                 {
                                     "number": "AF627",
                                     "class": "3",
-                                    "question": "Which of the following blocks correctly completes the greatly simplified transmit path for digital amateur television (DATV) shown?",
+                                    "question": "Which of the following blocks correctly completes the greatly simplified transmit path shown for digital amateur television (DATV)?",
                                     "answer_a": "",
                                     "answer_b": "",
                                     "answer_c": "",
@@ -8147,7 +8147,7 @@
                                 {
                                     "number": "AF626",
                                     "class": "3",
-                                    "question": "Which of the following blocks correctly completes the greatly simplified transmit path of a digital voice radio shown?",
+                                    "question": "Which of the following blocks correctly completes the greatly simplified transmit path shown for a digital voice radio?",
                                     "answer_a": "",
                                     "answer_b": "",
                                     "answer_c": "",
@@ -8214,7 +8214,7 @@
                                 {
                                     "number": "AF620",
                                     "class": "3",
-                                    "question": "What are the functions of the individual blocks in the block diagram shown of a digital direct-sampling receiver?",
+                                    "question": "What are the functions of the individual blocks in the digital direct-sampling receiver shown in the block diagram?",
                                     "answer_a": "1: Anti-aliasing filter, 2: Sampling clock generator, 3: Analogue-to-digital converter",
                                     "answer_b": "1: Analogue-to-digital converter, 2: Anti-aliasing filter, 3: Sampling clock generator",
                                     "answer_c": "1: Analogue-to-digital converter, 2: Sampling clock generator, 3: Anti-aliasing filter",
@@ -8245,7 +8245,7 @@
                                     "question": "The term aliasing refers to errors that ...",
                                     "answer_a": "occur when sampling frequency components that are higher than half the sampling frequency.",
                                     "answer_b": "occur in multipath propagation with differences in propagation time that are greater than half the duration of one cycle of the carrier.",
-                                    "answer_c": "occur when receiving a signal more than half of whose spectrum is disturbed.",
+                                    "answer_c": "occur when receiving a signal with interference on more than half of its spectrum.",
                                     "answer_d": "occur when transmitting with multi-element beam antennas whose element spacing is greater than half the wavelength."
                                 },
                                 {
@@ -8483,7 +8483,7 @@
                                 {
                                     "number": "AF707",
                                     "class": "3",
-                                    "question": "You are operating FM voice via your remote station. Because of a malfunction, the transceiver no longer responds to control signals. How can you end the transmission immediately?",
+                                    "question": "You are using FM voice via your remote station. Because of a malfunction, the transceiver no longer responds to control signals. How can you end the transmission immediately?",
                                     "answer_a": "Switching off the supply voltage remotely, e.g. by means of an IP-controlled mains socket",
                                     "answer_b": "Interrupting the audio stream, e.g. by switching off the VPN",
                                     "answer_c": "Shutting down the internet router at the control site",
@@ -8580,7 +8580,7 @@
                                     "number": "AG125",
                                     "class": "3",
                                     "question": "Which antennas are well suited to NVIS propagation (near vertical incidence skywave), as used for emergency communications on HF?",
-                                    "answer_a": "Horizontal wires at a height of at most 0.25 wavelengths above ground.",
+                                    "answer_a": "Horizontally strung wires at a height of at most 0.25 wavelengths above ground.",
                                     "answer_b": "A horizontal folded dipole made of wire at a height as close as possible to 0.8 wavelengths above ground.",
                                     "answer_c": "Wires strung as an \"inverted V\" with the feed point at least one wavelength above ground.",
                                     "answer_d": "A vertical antenna with a total length of between 0.5 and 0.625 (5/8) wavelengths over a good radial system."

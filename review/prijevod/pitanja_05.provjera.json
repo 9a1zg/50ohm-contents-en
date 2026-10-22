@@ -1,0 +1,18 @@
+{
+  "pitanja": {
+    "AF305": {"question": "This block diagram shows an SSB transmitter. The stage at \"?\" is ..."},
+    "AF222": {"answer_a": "Strong RF signals very close in frequency"},
+    "AF215": {"answer_a": "It should be thermally insulated as well as possible from other heat sources in the equipment."},
+    "EF212": {"question": "What does the abbreviation AGC on a receiver switch stand for?"},
+    "EF206": {"question": "How should a mixer stage be designed in order to avoid unwanted radiation?"},
+    "EF405": {"question": "How should the power feed in a transmitter be designed?"},
+    "AF620": {"question": "What are the functions of the individual blocks in the digital direct-sampling receiver shown in the block diagram?"},
+    "AF626": {"question": "Which of the following blocks correctly completes the greatly simplified transmit path shown for a digital voice radio?"},
+    "AF627": {"question": "Which of the following blocks correctly completes the greatly simplified transmit path shown for digital amateur television (DATV)?"},
+    "AF628": {"question": "Which of the following blocks correctly completes the greatly simplified receive path shown for a digital voice radio?"},
+    "AF629": {"question": "Which of the following blocks correctly completes the greatly simplified receive path shown for digital amateur television (DATV)?"},
+    "AF617": {"answer_c": "occur when receiving a signal with interference on more than half of its spectrum."},
+    "AG125": {"answer_a": "Horizontally strung wires at a height of at most 0.25 wavelengths above ground."},
+    "AF707": {"question": "You are using FM voice via your remote station. Because of a malfunction, the transceiver no longer responds to control signals. How can you end the transmission immediately?"}
+  }
+}
