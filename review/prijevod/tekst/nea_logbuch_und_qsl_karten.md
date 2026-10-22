@@ -61,3 +61,21 @@ None.
 - sections/logbuch.md and slides/logbuch.md — "*UTC* (von Universal Time Coordinated)" / "UTC (Universal Time Coordinated)": the English name is *Coordinated Universal Time* (French *temps universel coordonné*); "UTC" is a language-neutral compromise abbreviation (ITU-R TF.460), not the initials of "Universal Time Coordinated". Kept.
 - sections/logbuch.md (in-depth box) — "Im Jahre 1972 wurde die UTC als universelle und weltweit einheitliche Uhrzeit eingeführt": coordinated time signals under the name UTC were in use from the 1960s; what began on 1 January 1972 is UTC in its present form (SI second, leap seconds). Imprecise rather than wrong. Kept.
 - Typos with no effect on the English: sections/logbuch.md "In Berlin ist es ist 9:00 MEZ" (doubled *ist*), "zu einem elektronisch per Computer geführtem Logbuch" (*geführten*); sections/qsl_karten.md "eine eingereichte QSL-Karten nicht anerkannt wird" (*QSL-Karte*).
+
+## Provjera
+
+Checked against `git show 6fd9999~1:<file>` paragraph by paragraph (4 files),
+with BG101–BG111, VD108 and VD109 looked up in English. Complete, numbers and
+structure intact; `revizija-guard.py --rev 6fd9999~1 --brojevi`: *struktura
+netaknuta*. Judgement calls and suspected errors in the German kept as
+reported; the 8 glossary rows kept, one reworked; no DECISIONS.md entry.
+
+Changes: 0 omission, 1 meaning, 0 technical, 3 style, 3 glossary.
+
+- sections/logbuch.md — *Das dient dazu, dass … nicht umgerechnet werden muss*: "This means that" → "This is so that" (the German gives the purpose, not a consequence). (meaning)
+- sections/logbuch.md — *Während der Winterzeit*: "In winter" → "During winter time", as the glossary row and the report's judgement call have it. (glossary)
+- sections/qsl_karten.md — *Für die Winterzeit … für die Sommerzeit*: "in winter … in summer" → "for winter time … for summer time", likewise. (glossary)
+- sections/qsl_karten.md and glossary row *Datenträger* — "data media" → "storage media", the usual English term. (glossary)
+- sections/logbuch.md — "As with the logbook on a ship" → "As with a logbook on a ship". (style)
+- slides/logbuch.md — *Zeiten in UTC führen*: "Keep times in UTC" → "Log times in UTC". (style)
+- sections/qsl_karten.md — *dann spricht man von "QSL via K8PYD"*: "this is given as" → "this is referred to as". (style)

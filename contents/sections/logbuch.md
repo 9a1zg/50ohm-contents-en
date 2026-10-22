@@ -1,6 +1,6 @@
 ---
 
-A *log* gives you a way of documenting your radio activities. A log can be kept either electronically or by hand. As with the logbook on a ship or in an aircraft, it lets you record all the important information about the contacts you have made. Less often, the log is also called the station log.
+A *log* gives you a way of documenting your radio activities. A log can be kept either electronically or by hand. As with a logbook on a ship or in an aircraft, it lets you record all the important information about the contacts you have made. Less often, the log is also called the station log.
 
 <indepth>
 The following data are usually recorded in a log for each contact:
@@ -42,12 +42,12 @@ If, for example, you change from a log kept by hand on paper to a log kept elect
 
 ---
 
-Times should always be entered in the log in Coordinated Universal Time, which is usually referred to as *UTC* (from Universal Time Coordinated). This means that the time does not have to be converted for contacts across different time zones. For example, when it is 8:00 local time in Berlin, it is only 2:00 local time in New York. For both, however, it is 07:00 UTC. With UTC, it is always the same time everywhere in the world.
+Times should always be entered in the log in Coordinated Universal Time, which is usually referred to as *UTC* (from Universal Time Coordinated). This is so that the time does not have to be converted for contacts across different time zones. For example, when it is 8:00 local time in Berlin, it is only 2:00 local time in New York. For both, however, it is 07:00 UTC. With UTC, it is always the same time everywhere in the world.
 
 <indepth>
 In 1972, UTC was introduced as a universal time, uniform throughout the world.
 </indepth>
 
-How our local time is converted to UTC depends on whether summer time is in force. In winter, *Central European Time (CET)* applies here. To convert it to UTC, you subtract one hour. When *Central European Summer Time (CEST)* is used in summer, however, 2 hours must be subtracted.
+How our local time is converted to UTC depends on whether summer time is in force. During winter time, *Central European Time (CET)* applies here. To convert it to UTC, you subtract one hour. When *Central European Summer Time (CEST)* is used in summer, however, 2 hours must be subtracted.
 
 An example: in Berlin it is 9:00 CET. To convert this to UTC, one hour must be subtracted. So it is 08:00 UTC. If, however, it is 9:00 CEST in Berlin, two hours must be subtracted. It is then 7:00 UTC. Conversely, to convert UTC to local time, you add one hour (CET) or two hours (CEST).

@@ -34,7 +34,7 @@ A well-known award is the *DX Century Club* of the US national amateur radio soc
 
 ---
 
-To send a QSL card by post to the other station, you need its address. For many radio amateurs from all over the world, the address can be found in the *international amateur radio call sign list (callbook)*, which national amateur radio societies make available on data media and online on the internet.
+To send a QSL card by post to the other station, you need its address. For many radio amateurs from all over the world, the address can be found in the *international amateur radio call sign list (callbook)*, which national amateur radio societies make available on storage media and online on the internet.
 
 <tip>
 As sending cards by post is very expensive in the long run, national amateur radio societies run their own worldwide distribution system for QSL cards, known as the *QSL bureau*. As a member of a participating society, you can send and receive your QSL cards via the bureau. The societies' bureaus exchange the QSL cards with one another. In Germany, the DARC takes part in the worldwide QSL bureau system for its members. Cards to be sent are collected by the QSL manager of the local club, and cards received are distributed to the members.
@@ -48,7 +48,7 @@ Sending QSL cards via the *DARC QSL-Service* is particularly convenient. There y
 Sometimes you also see call signs beginning with DE. These are not assigned by the Federal Network Agency (Bundesnetzagentur, BNetzA).  They are *short-wave listener identifiers*, which the DARC issues to members after a test of some basic knowledge. These call signs cannot be used for transmitting. They are, however, used by short-wave listeners, known as SWLs, who listen in on contacts. SWLs can also confirm a contact they have listened to with a QSL card, which they send to both parties to the contact.
 </indepth>
 
-Some radio amateurs do not handle their QSL cards themselves but have a *QSL manager* act for them. The QSL manager then takes care of sending and receiving the QSL cards. If a station is represented by K8PYD, for example, this is given as "QSL via K8PYD". QSL cards are then to be sent not to the radio amateur but to K8PYD.
+Some radio amateurs do not handle their QSL cards themselves but have a *QSL manager* act for them. The QSL manager then takes care of sending and receiving the QSL cards. If a station is represented by K8PYD, for example, this is referred to as "QSL via K8PYD". QSL cards are then to be sent not to the radio amateur but to K8PYD.
 
 [question:BG110]
 [question:BG109]
@@ -59,7 +59,7 @@ There are also paperless alternatives to the QSL card. On the one hand, electron
 
 ---
 
-As with the log, all times on QSL cards should always be given in UTC. This helps the recipient to find the contact in their log more easily. Remember: in winter, "UTC = CET minus 1 hour", and in summer, "UTC = CEST minus 2 hours".
+As with the log, all times on QSL cards should always be given in UTC. This helps the recipient to find the contact in their log more easily. Remember: for winter time, "UTC = CET minus 1 hour", and for summer time, "UTC = CEST minus 2 hours".
 
 <attention>
 A QSL card should carry as *precise a time* as possible, because for many awards a submitted QSL card is not accepted if the time given differs by several minutes from the applicant's log.

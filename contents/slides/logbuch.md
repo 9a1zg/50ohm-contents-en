@@ -60,7 +60,7 @@ Promote DARC membership here
 ---
 ## Coordinated Universal Time
 
-* Keep times in UTC (Universal Time Coordinated)
+* Log times in UTC (Universal Time Coordinated)
 * Times across different time zones do not have to be converted
 * No problems with summer/winter time
 * Berlin on Central European Time (CET): UTC+1

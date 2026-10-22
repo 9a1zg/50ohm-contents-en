@@ -2438,7 +2438,7 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Vermittlungsbüro / QSL-Vermittlung (international "Bureau") / via-Feld | (QSL) bureau / QSL bureau / via field | the gloss *international "Bureau" genannt* only gives the English word and is dropped (bracket rule, DECISIONS.md) (qsl_karten) |
 | Bildmotiv / persönliches Motiv (QSL-Karte) | picture / personal picture | the design on the front of a QSL card (qsl_karten) |
 | DARC QSL-Service / DCL / Wavelog / Drittanbieter | DARC QSL-Service / DCL / Wavelog / third-party services | names of DARC services and software unchanged (logbuch, qsl_karten) |
-| Datenträger | data media | callbooks "auf Datenträger und online" (qsl_karten) |
+| Datenträger | storage media | callbooks "auf Datenträger und online" (qsl_karten) |
 
 ## 15. Catalogue structure
 
