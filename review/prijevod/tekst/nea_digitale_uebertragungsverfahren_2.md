@@ -85,3 +85,38 @@ One entry (Course text):
 - sections/fehlererkennung.md and slides — two different drawings (678, 679) carry the same ident `even_parity`; harmless while neither is referenced, but a `[ref:even_parity]` would be ambiguous. Kept.
 - sections/iq_verfahren.md — "(vgl. [ref:a_iq_ebene])" lacks "Abbildung" before the reference, unlike the next one. Kept.
 - Typos with no effect on the English: sections/datenuebertragungsrate.md "kennen gelernt", "Sie gibt an wie viele" (comma); sections/psk.md "resultiert … zu einer Phasenverschiebung"; slides/shannon_hartley_gesetzt.md "Signal-Rauschverhältnis" beside "Signal-Rausch-Verhältnis"; slides/fehlerkorrektur.md "Anstelle eines einzelnen Prüfbit"; sections/afsk.md "nur wenige Daten pro Zeit"; the section ident `shannon_hartley_gesetzt` ("Gesetz") (idents never change).
+
+## Provjera
+
+Checker, 9A1ZG. All 31 files compared paragraph by paragraph with
+`git show f97dfb9~1:<file>`; all 31 embedded questions looked up in the
+English bank. Complete and faithful throughout; nothing added. All judgement
+calls are kept, including the dropped *Im Englischen … Forward Error
+Correction (FEC)* sentence and slide bullet, which the bracket rule and the
+nea_modulation precedent (DECISIONS.md) cover. All 24 glossary rows are kept
+(one reworded), and so is the DECISIONS.md entry on applet labels (the
+QPSK applet does show *Erneut übertragen*, `contents/html/applet_qpsk.html`).
+Guard `--rev f97dfb9~1 --brojevi`: 31 files, *struktura netaknuta*.
+
+Changes: omission 1, meaning 0, technical 0, style 3, glossary 1.
+
+- solutions/AE406.md — omission: *Mit einer Symbolrate von … ergibt sich:*
+  had lost "ergibt sich"; now "With a symbol rate of 23.4 Bd, this gives:", as
+  in AE405.
+- sections/qam.md, slides/qam.md — style: carriers "weighted with the I/Q
+  signal (value)" → "weighted by …", the English preposition (four places);
+  "In a 16-QAM, for example" → "In 16-QAM, for example" (section and slide
+  note).
+- sections/afsk.md — style: "by telephone or by a voice radio" → "by
+  telephone or by voice radio".
+- sections/kanalcodierung.md — style: two sentences in a row opened with
+  "Unlike"; the second now reads "In contrast to the redundancy removed in
+  source coding".
+- TRANSLATION_GLOSSARY.md §14, row *I/Q-Modulator / (mit dem I-Signal)
+  gewichtet …* — glossary: "weighted (with the I signal)" → "weighted (by the
+  I signal)", to match the text.
+
+Suspected errors in the German original: all agreed. The FT4 tone spacing
+and symbol rate (AE406) were checked against DARC's corrections page
+(darc.de, AJW Ausbildungsunterlagen, #c57358) on 2026-10-22: AE405 and AE406
+are not among the listed corrections, so the remark stands for DARC.

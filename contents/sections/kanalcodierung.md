@@ -4,7 +4,7 @@ Figure [ref:kanal] shows a transmitter and a receiver connected to each other by
 [picture:674:kanal:Channel]
 </margin>
 
-Unlike source coding, channel coding deliberately adds redundancy to the information to be transmitted, for example repetitions or checksums. Unlike the redundancy removed in source coding, this systematically added redundancy can be used to detect or correct transmission errors automatically.
+Unlike source coding, channel coding deliberately adds redundancy to the information to be transmitted, for example repetitions or checksums. In contrast to the redundancy removed in source coding, this systematically added redundancy can be used to detect or correct transmission errors automatically.
 
 ---
 
