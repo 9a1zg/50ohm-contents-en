@@ -102,3 +102,32 @@ Part 2 of the chapter (nea_personenschutzabstand_2) follows it.
 - solutions/AK103.md — `$r = \sqrt(\frac{Z_0}{4 \cdot \pi}) \cdot …$`: `\sqrt(` takes only the opening bracket as its argument, so the root sign does not cover the fraction; it should be `\sqrt{\frac{Z_0}{4 \cdot \pi}}`. Also `\qty{120\pi}{\Ohm}` (three times) uses `\Ohm`, where the rest of the course writes `\ohm`. Formulas left unchanged.
 - sections/aequivalente_isotrope_strahlungsleistung_eirp_1.md — the English expansion given as "equivalent isotropic radiated power"; the RR (1.161) term is "equivalent isotropically radiated power". Written in the RR form (DECISIONS.md).
 - Typos with no effect on the English: sections/personenschutzabstand.md "Felder“ (BEMFV)" (closing quote without matching opening quote); sections/ and slides/aequivalente_isotrope_strahlungsleistung_eirp_1.md "Hat eine Antennen" (*Antenne*); sections/aequivalente_isotrope_strahlungsleistung_eirp_2.md "Stahlungsleistung" (*Strahlungsleistung*), "Bei vielen Transeiver" (*Transceivern*), "mindesten" (*mindestens*), "in dem man" (*indem*), "Beiden gleichen sich" (*Beide*), "wenden … an um" (comma missing), "EIRP also ist" (word order); sections/effektive_strahlungsleistung_erp_2.md and solutions/AG503.md "AFUV" (*AFuV*), AG503 "Zu Lösung der Frage kann auf … zurückgreifen" (*Zur*, subject missing); sections/sendeleistung_klasse_n.md "dürfen die Antennen verwenden" (*Antenne*); slides/sendeleistung_klasse_n.md "vorangig" (*vorrangig*); slides/standortbescheinigung.md "befinden sich bereits eine ortsfeste Funkanlage" (*befindet*); sections/personenschutzabstand_2.md "Äquivalenten Isotropen" (lower case); sections/personenschutzabstand_grenzwerte.md "die biologische Wirkungen von hochfrequenten Felder" (*biologischen*, *Feldern*), comment "des Personenschutzabstand" (*-abstands*); slides/personenschutzabstand_grenzwerte.md "deren Stärke die Grenzwerte … überschreiten" (*überschreitet*); slides/personenschutzabstand_2.md "in einem Abstand von etwa bei 4λ" (*etwa* or *bei*); sections/nahfeld.md "rasch abfallenden … Feldanteile, hohe" (stray comma).
+
+## Provjera
+
+All 27 files compared paragraph by paragraph with the German of
+`1dce003~1`; the embedded questions (NK201, VE501–VE519, VD107, VC121,
+VD724–VD726, VD743, NG401, NG402, EG501–EG511, AG501–AG503, AK101–AK104,
+EK101–EK104, EK107) looked up in English. The translation is complete and
+faithful; the prose matches the questions' wording (EIRP/ERP definitions,
+"comprehensible", "site-specific safety distance", "attenuation factor $D$",
+"wave impedance of the medium", "instantaneous peak value").
+
+Changes: omission 0, meaning 1, technical 0, style 0, glossary 0.
+
+- slides/sendeleistung_klasse_n.md (meaning): the translator had attached
+  the gain factor to "an antenna whose gain factor …", which corrects the
+  German rather than translating it (brief: translate faithfully, do not
+  fix). Now "A radio with 5 W transmit power may be operated with a gain
+  factor of 1.8 relative to the isotropic radiator:" — the German's subject
+  and verb, without its unattached *damit* and without adding an antenna;
+  the slip stays listed above for DARC.
+
+Judgement calls, the 12 glossary rows and the DECISIONS.md entry are all
+kept: *gain factor*, the *spherical radiator / isotropic radiator* pair at
+first mention, *wave impedance* for $Z_\mathrm{F}(d)$ beside *impedance of
+free space* for $Z_0$, and the dropped "(vom englischen …)" glosses and the
+slide line that only repeated its heading (bracket rule) are consistent with
+the questions and earlier units.
+
+`revizija-guard.py --rev 1dce003~1 --brojevi`: 27 files, *struktura netaknuta*.
