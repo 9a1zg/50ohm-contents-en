@@ -1,3 +1,40 @@
+# 50ohm.de content — English translation (work in progress)
+
+This is a fork of DARC's [`50ohm-contents-dl`](https://github.com/DARC-e-V/50ohm-contents-dl),
+the content of the German amateur-radio training platform [50ohm.de](https://50ohm.de),
+being translated into **British English** by 9A1ZG. It is a faithful
+translation for DARC — the licence classes N, E and A, the Bundesnetzagentur
+and German law stay as they are — not an adaptation for another country.
+
+**Status (2026-10-22):**
+
+- **Exam questions** (`contents/questions/fragenkatalog3b.json`): all 1750
+  questions and the catalogue section titles translated, each batch checked by
+  a second pass, plus a consistency pass over the whole bank. Not yet reviewed
+  by DARC.
+- **Course text** (sections, slides, worked solutions): in progress.
+- **Picture descriptions, drawings and static pages:** not started; drawings
+  still carry German labels.
+
+How it is done, and every decision taken, is documented in
+[`TRANSLATION.md`](TRANSLATION.md), [`DECISIONS.md`](DECISIONS.md) and
+[`TRANSLATION_GLOSSARY.md`](TRANSLATION_GLOSSARY.md); per-batch notes, including
+suspected errors in the German original, are in `review/prijevod/`.
+
+**Licences and attribution.** The content is licensed under
+[CC BY 4.0](LICENSE) and the exam questions under the
+[Datenlizenz Deutschland – Namensnennung – 2.0](https://www.govdata.de/dl-de/by-2-0),
+exactly as in the original, whose notice follows unchanged below.
+*Changes made:* translated from German into English. Attribution: the
+50ohm.de author team, coordinated by the AJW-Referat of DARC e. V. (see the
+contributor list below); exam questions: Bundesnetzagentur, Prüfungsfragen zum
+Erwerb von Amateurfunkprüfungsbescheinigungen, 3rd edition, March 2024.
+English translation: 9A1ZG.
+
+---
+
+*Original notice (German):*
+
 # Inhalte 50ohm.de
 
 Dieses Repository enthält die Inhalte der Plattform 50ohm.de. Der Plattform-Code findet sich in einem gesonderten [Repository](https://github.com/DARC-e-V/50ohm). Die Lernplattform ist ein Angebot des AJW-Referats des DARC (Deutscher Amateur-Radio-Club e. V.). Viele ehrenamtlichen Mitarbeiterinnen und Mitarbeiter sind daran beteiligt.
