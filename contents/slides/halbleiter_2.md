@@ -17,7 +17,7 @@ Common base semiconductor materials: silicon (Si), germanium (Ge), gallium arsen
 ---
 ## Doping
 
-* "Contamination" of the semiconductor
+* Adding "impurities" to the semiconductor
 * Substances with 5 electrons in the outer shell $\rightarrow$ excess of electrons $\rightarrow$ *n-type doping*
 * Substances with 3 electrons in the outer shell $\rightarrow$ deficiency of electrons ("hole") $\rightarrow$ *p-type doping*
 
@@ -63,7 +63,7 @@ Holes do not actually move, but because of the flow of electrons it looks as if 
 </left>
 <right>
 * The voltage pulls electrons across the depletion layer
-* The depletion layer is broken down and a current flows in the *forward direction*
+* The depletion layer is reduced and a current flows in the *forward direction*
 </right>
 ---
 [question:AC402]

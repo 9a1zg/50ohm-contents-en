@@ -98,7 +98,7 @@ If, because of the fault, no current flows through $R_1$, no voltage is dropped 
 
 [question:AC520]
 
-With the fault given here, no current flows through $R_2$. The base is connected to the operating voltage through $R_1$. A base current is injected along this path. With the usual dimensioning (divider current ten times the normal base current), the base current is 11 times the normal base current – the collector current will rise very sharply, the voltage drop across $R_C$ rises sharply, and the collector-emitter voltage falls to the saturation value of about $\qty{0.1}{\volt}$. The collector current is limited only by $R_C$.
+With the fault given here, no current flows through $R_2$. The base is connected to the operating voltage through $R_1$. A base current is injected along this path. With the usual choice of values (divider current ten times the normal base current), the base current is 11 times the normal base current – the collector current will rise very sharply, the voltage drop across $R_C$ rises sharply, and the collector-emitter voltage falls to the saturation value of about $\qty{0.1}{\volt}$. The collector current is limited only by $R_C$.
 
 ---
 

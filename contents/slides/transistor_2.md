@@ -160,7 +160,7 @@ $R_1 = \frac{U_{\textrm{R1}}}{I_{\textrm{R1}}} = \frac{\qty{8.4}{\volt}}{\qty{11
 #### Solution
 
 * $R_2$ carries no current $\rightarrow$ the base is connected to the operating voltage through $R_1$
-* Because of the dimensioning, the base current is now 11 times higher than intended
+* Because of the way the divider is designed, the base current is now 11 times higher than intended
 * The collector current will rise sharply $\rightarrow$ the voltage drop across $R_{\textrm{C}}$ rises sharply
 * $U_{\textrm{CE}}$ falls to the saturation value of approx. $\qty{0.1}{\volt}$
 

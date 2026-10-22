@@ -71,3 +71,36 @@ entry; the dropped "(engl. …)" / "dt. …" glosses follow the bracket rule.
 - sections/transistor_2.md — "die sogenannte technische Stromrichtung ist entgegen der Ladungsträger-Flussrichtung definiert": true for electrons (n-channel), not for holes in a p-channel FET, which the same paragraph has just introduced.
 - solutions/AC517.md — the intermediate results are named $U_1$, $I_1$, but the final formula divides $U_{R_1}$ by $I_{R_1}$ (AC518 keeps $U_1 / I_1$). Translated as written.
 - Typos with no effect on the English: sections/diode_1.md "Kennline" (captions 861, 862), "Kennlinen" (858), "verschienden"; sections/halbleiter_2.md "Zonnen", "Löcher bewegen sind", "ein Gebiet …, die man"; sections/transistor_1.md "Spannungsabhängig" (for *-abhängigkeit*), "beginnt, Wasser zu fließen"; sections/transistor_2.md "augeschaltenen", "eingesschalteten" (captions 1071, 1072), "Es empfiehl sich" (also AC504), "sowohl Elektronen also auch", "im einen unbelasteten", "in sofern", "Wenn R_1 … nicht von Strom durchflossen" (verb missing); slides/diode_1.md "Sperichtung" (caption 549); slides/transistor_1.md "Je Art des bipolaren Transistor"; slides/transistor_2.md "p-dotieren", "n-dotieren", "Basistrom", "Sperichtung", "Basis ist über $R_1$ ist"; slides/integrierte_schaltkreise.md "ohmschmer".
+
+## Provjera
+
+Checked all 42 files against `git show b550bd3~1:<file>` paragraph by
+paragraph, and the prose against the English questions it embeds (AB104–AB109,
+AC401–AC408, AC501–AC524, AC601–AC604, AF425–AF427, EC501–EC522,
+EC601–EC615). Nothing dropped or added; numbers, formulas and markup intact;
+glossary and DECISIONS.md followed. All 34 new glossary rows kept; every
+judgement call and every listed suspected error in the German confirmed.
+
+Changes (individual edits): omission 0, meaning 0, technical 2, style 7, glossary 0.
+
+- sections/halbleiter_2.md, slides/halbleiter_2.md (technical): *Die
+  Verarmungszone / Sperrschicht wird abgebaut* — "is broken down" → "is
+  reduced"; in a diode chapter "broken down" reads as junction breakdown,
+  which is reverse-bias, the opposite of what is described.
+- sections/halbleiter_2.md, slides/halbleiter_2.md (style): *gezielte
+  Verunreinigung* — "deliberately contaminating" → "deliberately adding
+  impurities to", "contaminate the semiconductor with a material" → "add to
+  the semiconductor an impurity"; slide "\"Contamination\" of the
+  semiconductor" → "Adding \"impurities\" to the semiconductor" (English
+  speaks of impurities/dopants; *contamination* is the unwanted kind).
+- sections/halbleiter_2.md (style): "basic stuff of our modern world" →
+  "basic material".
+- sections/transistor_2.md, slides/transistor_2.md (style): *Dimensionierung*
+  — "the usual dimensioning" → "the usual choice of values", "because of the
+  dimensioning" → "because of the way the divider is designed".
+- solutions/AC515.md (style): "Not the whole 12 V is dropped … but, because
+  of the base-emitter voltage, only:" → "Because of the base-emitter voltage,
+  not all of the 12 V is dropped … only:".
+
+`revizija-guard.py --rev b550bd3~1 --brojevi`: 42 files, *struktura
+netaknuta*.

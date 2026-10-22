@@ -1,7 +1,7 @@
 % Halbleiter II
 % DF2DR 2024-08-19
 
-Semiconductor materials are the basic stuff of our modern world. Reason enough to look at them in a little more detail. Semiconductors have a crystal lattice structure, which means that their atoms are arranged periodically. 
+Semiconductor materials are the basic material of our modern world. Reason enough to look at them in a little more detail. Semiconductors have a crystal lattice structure, which means that their atoms are arranged periodically. 
 
 <margin>
 [picture:854:a_silizium_halbleiter:Silicon semiconductor crystal]
@@ -23,7 +23,7 @@ Silicon (Si) and germanium (Ge) are *elemental semiconductors* (as, incidentally
 
 ---
 
-Materials with an energy band gap are only called semiconductors if they can also be *doped*. Their conductivity can be changed within wide limits by deliberately contaminating the high-purity semiconductor material. Arsenic (As), for example, has one electron more in its outer electron shell than the elemental semiconductors. This electron can very easily, and with little energy, become a free electron in the conduction band. We call this kind of doping *n-type doping*.
+Materials with an energy band gap are only called semiconductors if they can also be *doped*. Their conductivity can be changed within wide limits by deliberately adding impurities to the high-purity semiconductor material. Arsenic (As), for example, has one electron more in its outer electron shell than the elemental semiconductors. This electron can very easily, and with little energy, become a free electron in the conduction band. We call this kind of doping *n-type doping*.
 
 <margin>
 [picture:855:a_n_dotierung:n-type doping]
@@ -31,7 +31,7 @@ Materials with an energy band gap are only called semiconductors if they can als
 
 ---
 
-But what happens if we contaminate the semiconductor with a material that has one electron too few in its outer electron shell? We call such an electron vacancy a *hole*. Since the atom was previously neutral, the electron vacancy carries a positive charge. The holes can also move through the crystal and contribute to current flow. We call this kind of doping *p-type doping*.
+But what happens if we add to the semiconductor an impurity that has one electron too few in its outer electron shell? We call such an electron vacancy a *hole*. Since the atom was previously neutral, the electron vacancy carries a positive charge. The holes can also move through the crystal and contribute to current flow. We call this kind of doping *p-type doping*.
 
 <margin>
 [picture:856:a_p_dotierung:p-type doping]
@@ -59,7 +59,7 @@ This separation of charge, on the other hand, creates an electric field with the
 
 ---
 
-Now we apply an external voltage that is more positive at the p-region (*anode*) than at the n-region (*cathode*). The positive electrode attracts electrons across the depletion region, and the negative electrode attracts holes. The depletion region is broken down and current flows. This is operation in the *forward direction*.
+Now we apply an external voltage that is more positive at the p-region (*anode*) than at the n-region (*cathode*). The positive electrode attracts electrons across the depletion region, and the negative electrode attracts holes. The depletion region is reduced and current flows. This is operation in the *forward direction*.
 
 <margin>
 [picture:956:a_pn_uebergang_mit_spannung:PN junction with external voltage]
