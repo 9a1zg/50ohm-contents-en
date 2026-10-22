@@ -132,6 +132,11 @@ and the checker's "Provjera" section).
   In German *äquivalente Strahlungsleistung* alone is the ERP (AG501,
   solution AK115), so EG503–EG505 are a slip in the German; their dBi
   figures confirm EIRP. (Batch 07; slip noted for DARC by the checker.)
+  By the same rule AK115's *äquivalente Strahlungsleistung (ERP)* is
+  written **effective radiated power (ERP)**, the ITU term (RR 1.162); its
+  answer, 0.7 V/m from 100 W, is the ERP formula. AG501 alone keeps the
+  German's "equivalent (effective)" pair, because it defines the term.
+  (Batch 08, confirmed by the checker.)
 - **The German generic *er* for a radio amateur** ("Er muss die Antenne
   drehen …", "erkennt er, dass …") is recast without a pronoun — "The
   antenna must be turned to …", "that "PY" has been worked" — or, where a
@@ -142,22 +147,33 @@ and the checker's "Provjera" section).
   amateurs use it — QRT "Stop sending.", QRZ? "Who is calling me?", QRN
   "I am troubled by static.", QSB? "Are my signals fading?" — not a fresh
   translation of the German, which is itself that list in German.
-  Made-up meanings in distractors are translated faithfully. QTH "My
-  location is ..." (*Standort* → location). Glossary §2 lists them.
-  (Batch 08, BB201–BB204.)
+  Made-up meanings in distractors are translated faithfully. Two
+  exceptions, where the ITU wording would not say what the German says:
+  QTH "My location is ..." (*Standort* → location; the ITU has "My
+  position is … latitude, … longitude"), and QRM / QRM? "I am being
+  interfered with." / "Are you being interfered with?", the older wording
+  that the German *Ich werde gestört / Werden Sie gestört?* follows (current
+  M.1172: "Your transmission is being interfered with" / "Is my
+  transmission being interfered with?", the other station's point of view,
+  which would no longer match the German distractors). Glossary §2 lists
+  them. (Batch 08, BB201–BB204; QRM corrected by the checker against the
+  text of Rec. ITU-R M.1172.)
 - **Spelling-alphabet distractors keep their words.** Wrong answers in
   "How is the call sign … spelt?" (BA101–BA110) use words of other spelling
   alphabets — *Nordpol*, *Ypsilon* (German DIN 5009), *Caesar*, *Queen*,
-  *Baker*, *Santiago* … They are code words, not prose, and stay as the
-  German writes them; translating them would make words that are in no
-  alphabet. The one exception is *Amerika* → America, because the German
-  otherwise writes these names in English (Denmark, Italy, Madagascar).
-  (Batch 08.)
+  *Baker*, *Santiago* … — and place names (*Guatemala*, *Honolulu*,
+  *Oslo*). They are code words, not prose, and stay as the German writes
+  them; translating *Nordpol* or *Ypsilon* would turn a real code word of
+  another alphabet into a word that is in none. The one exception is
+  *Amerika* → America, because the German otherwise writes these names in
+  English (Denmark, Italy, Madagascar). (Batch 08.)
 - **A bracket that only repeats the term in the other language is
-  dropped**, as in EH202: *künstliche Antenne (Dummy Load)* and
-  *Abschlusswiderstand (Dummy Load)* → "dummy load"; *Received
-  (empfangen)* → "Received" (BB110). A bracket that adds information stays.
-  (Batch 08.)
+  dropped**, as in EH202 (*Rückstreuung (Backscatter)* → "Backscatter"):
+  *künstliche Antenne (Dummy Load)* (AI601–AI603) and *Abschlusswiderstand
+  (Dummy Load)* (NJ202) → "dummy load"; *Received (empfangen)* → "Received"
+  (BB110). A bracket that adds information stays, e.g. EH202 "Fluctuations
+  in field strength (fading)", where the bracket gives the technical term.
+  (Batch 08; examples corrected by the checker.)
 
 ## Open questions for DARC
 

@@ -152,3 +152,68 @@ repeats the term in the other language is dropped (dummy load, BB110).
   spaces in EJ121 a–c; trailing spaces in AI605 Q, AJ209 Q, EJ108 a,
   AK102 a, BB106 a, BB103 a, b; double spaces in BA101–BA110; non-breaking
   spaces in EJ212 Q and BB108 c, d.
+
+## Provjera
+
+All 175 questions (847 text fields) checked German against English, all five
+fields. 7 fields in 5 questions changed (`pitanja_08.provjera.json`,
+applied with `--retranslate`: 0 refused): 0 for meaning, 0 for answer
+correctness, 7 for style; no question text changed for the glossary. Four
+documentation corrections (DECISIONS.md, glossary).
+
+Changes:
+
+- BB104 a: "a few 100 km" → "a few hundred km", with `"iznimke"` in the
+  provjera file (the tool now allows it; same value, natural English).
+- AJ118 Q: "inserted at a mains lead" → "inserted in a mains lead".
+- AJ219 a, c, d: "…, which as unwanted emissions cause …" → "…; as unwanted
+  emissions, they cause …" (the embedded phrase read awkwardly).
+- EJ213 b: "distortion at reception" → "distortion on reception".
+- EK105 d: "submitted before putting into service" (no object) → "before
+  the installation is put into service".
+
+Documentation:
+
+- Q codes checked one by one against the text of Rec. ITU-R M.1172: QRV,
+  QRN/QRN?, QSB/QSB?, QRT, QRZ?, QSL?, QRO?, QRP?, QSO? (the German omits
+  "or by relay", so does the English), QRX?, QRU/QRU?, QSV are the ITU
+  wording. QRM is not: M.1172 has "Is my transmission being interfered
+  with? / Your transmission is being interfered with". The German *Werden
+  Sie gestört? / Ich werde gestört* follows the older wording, "Are you
+  being interfered with? / I am being interfered with", which the English
+  keeps, because it is what the German says and the distractors in
+  BB201/BB204 are built on it. DECISIONS.md and glossary §2 no longer
+  present it as the ITU wording; QTH ("location", ITU "position") is now
+  also named as an exception.
+- DECISIONS.md, brackets entry: EH202 has no dummy load. Its examples are
+  *Rückstreuung (Backscatter)* → "Backscatter", and it also keeps a bracket
+  that adds information ("(fading)"); the dummy-load examples are AI601–AI603
+  and NJ202. Now cited correctly.
+- DECISIONS.md, spelling-alphabet entry: many of the distractor words are
+  place names (Guatemala, Honolulu, Oslo), not words of another alphabet;
+  the reason is reworded. The decision itself stands.
+- AK115: "effective radiated power (ERP)" is consistent with the EIRP/ERP
+  entry (the abbreviation decides; 7·√100/100 = 0.7 V/m is the ERP formula).
+  The glossary's ERP row had no form for plain *äquivalente
+  Strahlungsleistung (ERP)*, so it was added there and in the DECISIONS.md
+  entry.
+
+Points reviewed and kept:
+
+- EJ118 "choke balun": an established English name for a common-mode choke
+  on coax. It no more gives away "common-mode" than the German
+  *Mantelwellendrossel* gives away *Gleichtakt*. Kept, as DECISIONS.md "no
+  echo" says.
+- AJ203 "third overtone (Oberwelle)": as AB402 and DECISIONS.md;
+  28.80 MHz = 4 × 7.20 MHz, and b is the third harmonic. Correct.
+- BB107 d "Contest Weighting": *Wertung* is scoring rather than weighting,
+  but a faithful "scoring" would no longer spell CW like the other
+  distractors (Code Word, Calling Wide). Kept, following NE209/EF212.
+- EJ123: in German, b–d are bare *zu*-infinitives that do not complete the
+  stem grammatically, so a stands out by form only. English cannot copy that
+  without writing ungrammatical answers. The four imperatives keep the
+  German's content balance: only a involves the neighbour, b–d are
+  technical measures. Kept parallel; the German grammar is a slip to note
+  for DARC.
+- AK115, NK308 "road approval", EJ103 "overloading or interference"
+  (glossary *störende Beeinflussung*): kept.

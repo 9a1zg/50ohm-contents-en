@@ -412,7 +412,7 @@ real choice or a trap.
 | betriebliche Abkürzungen | operating abbreviations | |
 | Abkürzung | abbreviation | |
 | Q-Gruppen / Q-Schlüssel | Q codes | |
-| Bedeutungen der Q-Gruppen | Q code meanings | written in the established English wording of the ITU Q code list (RR Appendix 14, Rec. ITU-R M.1172) where the German gives the German wording: QRV "I am ready.", QRM "I am being interfered with.", QRM? "Are you being interfered with?", QRN "I am troubled by static.", QSB? "Are my signals fading?", QRT "Stop sending.", QRZ? "Who is calling me?", QSL? "Can you acknowledge receipt?", QRO? "Shall I increase transmitter power?", QSO? "Can you communicate with ... direct?", QRX? "When will you call me again?", QRU "I have nothing for you." / QRU? "Have you anything for me?"; QTH "My location is ..." (*Standort* → location). Made-up distractors faithfully (BB201–BB204) |
+| Bedeutungen der Q-Gruppen | Q code meanings | written in the established English wording of the ITU Q code list (RR Appendix 14, Rec. ITU-R M.1172) where the German gives the German wording: QRV "I am ready.", QRM "I am being interfered with.", QRM? "Are you being interfered with?" (the older wording the German follows; current M.1172 has "Your transmission is being interfered with" / "Is my transmission being interfered with?", see DECISIONS.md), QRN "I am troubled by static.", QSB? "Are my signals fading?", QRT "Stop sending.", QRZ? "Who is calling me?", QSL? "Can you acknowledge receipt?", QRO? "Shall I increase transmitter power?", QSO? "Can you communicate with ... direct?", QRX? "When will you call me again?", QRU "I have nothing for you." / QRU? "Have you anything for me?"; QTH "My location is ..." (*Standort* → location; ITU "My position is …"). Made-up distractors faithfully (BB201–BB204) |
 | Morsetelegrafie / Telegrafie | Morse telegraphy / telegraphy (CW) | |
 | Morsezeichen / Morsecode | Morse characters / Morse code | |
 | Telefonie / Sprechfunk | telephony; voice | "SSB-Telefonie" → "SSB telephony"; "FM-Sprechfunk" → "FM voice" |
@@ -1185,7 +1185,7 @@ real choice or a trap.
 | Polarisationsdrehung | polarisation rotation (Faraday rotation) | |
 | Strahlungsleistung | radiated power | |
 | äquivalente isotrope Strahlungsleistung (EIRP) | equivalent isotropically radiated power (EIRP) | keep "EIRP" as the German does; also for the German's shortened "äquivalente Strahlungsleistung (EIRP)" (EG503–EG505) and "gleichwertige isotrope Strahlungsleistung" (NG402) |
-| effektive Strahlungsleistung (ERP) / äquivalente (effektive) Strahlungsleistung (ERP) | effective radiated power (ERP) / equivalent (effective) radiated power (ERP) | AG501 keeps the German's bracket |
+| effektive Strahlungsleistung (ERP) / äquivalente (effektive) Strahlungsleistung (ERP) | effective radiated power (ERP) / equivalent (effective) radiated power (ERP) | AG501 keeps the German's bracket; plain *äquivalente Strahlungsleistung (ERP)* → effective radiated power (ERP), the abbreviation decides (AK115, DECISIONS.md) |
 | bezogen auf den Halbwellendipol / den isotropen Strahler | relative to the half-wave dipole / the isotropic radiator | "in einer Richtung" → "in a given direction" (RR 1.161, 1.162) |
 | Antennenspeiseleitung | antenna feeder | RR "antenna transmission line" (AG501 c, d) |
 | Strahlungsleistung (EIRP und ERP) | radiated power (EIRP and ERP) | catalogue heading |

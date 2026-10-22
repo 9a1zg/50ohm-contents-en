@@ -12071,7 +12071,7 @@
                                 {
                                     "number": "AJ118",
                                     "class": "3",
-                                    "question": "Which of the following filters could be inserted at a mains lead to attenuate effectively the RF currents flowing on it?",
+                                    "question": "Which of the following filters could be inserted in a mains lead to attenuate effectively the RF currents flowing on it?",
                                     "answer_a": "",
                                     "answer_b": "",
                                     "answer_c": "",
@@ -12540,10 +12540,10 @@
                                     "number": "AJ219",
                                     "class": "3",
                                     "question": "What happens if the microphone gain of an SSB transmitter has been set too high?",
-                                    "answer_a": "More spurious products of the transmit frequency are generated, which as unwanted emissions cause interference.",
+                                    "answer_a": "More spurious products of the transmit frequency are generated; as unwanted emissions, they cause interference.",
                                     "answer_b": "The DC component of the output signal increases, so that the efficiency of the transmitter falls.",
-                                    "answer_c": "More subharmonics of the transmit frequency are generated, which as unwanted emissions cause splatter on the adjacent frequencies.",
-                                    "answer_d": "More harmonics of the transmit frequency are generated, which as unwanted emissions cause splatter on the adjacent frequencies."
+                                    "answer_c": "More subharmonics of the transmit frequency are generated; as unwanted emissions, they cause splatter on the adjacent frequencies.",
+                                    "answer_d": "More harmonics of the transmit frequency are generated; as unwanted emissions, they cause splatter on the adjacent frequencies."
                                 },
                                 {
                                     "number": "AJ218",
@@ -12771,7 +12771,7 @@
                                     "class": "2",
                                     "question": "Overdriving a power amplifier leads to ...",
                                     "answer_a": "a high proportion of spurious emissions.",
-                                    "answer_b": "only slight distortion at reception.",
+                                    "answer_b": "only slight distortion on reception.",
                                     "answer_c": "better intelligibility at the receiving location.",
                                     "answer_d": "a reduction in output power."
                                 },
@@ -13115,7 +13115,7 @@
                                     "answer_a": "The calculated distance is invalid because it lies in the reactive near field of the antenna; it must therefore be determined by other methods, such as measurements of the E- and H-field components, simulations or near-field calculations.",
                                     "answer_b": "The calculated safety distance for the protection of persons is valid, because calculations with the far-field approximation formula are sufficiently accurate in amateur radio.",
                                     "answer_c": "The calculated safety distance for the protection of persons must first be multiplied by a safety margin ($\\sqrt{2}$).",
-                                    "answer_d": "The calculated safety distance for the protection of persons is accepted, provided the Federal Network Agency (BNetzA) raises no objection to the \"Notification of fixed amateur radio installations\" under Section 9 BEMFV, which must be submitted before putting into service."
+                                    "answer_d": "The calculated safety distance for the protection of persons is accepted, provided the Federal Network Agency (BNetzA) raises no objection to the \"Notification of fixed amateur radio installations\" under Section 9 BEMFV, which must be submitted before the installation is put into service."
                                 },
                                 {
                                     "number": "EK104",
@@ -13569,7 +13569,7 @@
                                     "number": "BB104",
                                     "class": "1",
                                     "question": "A station calls \"CQ DX\" on VHF/UHF. Who should reply?",
-                                    "answer_a": "Stations more than a few 100 km away",
+                                    "answer_a": "Stations more than a few hundred km away",
                                     "answer_b": "Stations in the Philippines",
                                     "answer_c": "Stations on other continents",
                                     "answer_d": "Stations with a German prefix"

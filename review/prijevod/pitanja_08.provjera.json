@@ -1,0 +1,24 @@
+{
+  "iznimke": {
+    "BB104": "English writes \"a few hundred km\"; \"a few 100 km\" is not natural English. The value is unchanged: German \"einige 100 km\" is several hundred kilometres."
+  },
+  "pitanja": {
+    "BB104": {
+      "answer_a": "Stations more than a few hundred km away"
+    },
+    "AJ118": {
+      "question": "Which of the following filters could be inserted in a mains lead to attenuate effectively the RF currents flowing on it?"
+    },
+    "AJ219": {
+      "answer_a": "More spurious products of the transmit frequency are generated; as unwanted emissions, they cause interference.",
+      "answer_c": "More subharmonics of the transmit frequency are generated; as unwanted emissions, they cause splatter on the adjacent frequencies.",
+      "answer_d": "More harmonics of the transmit frequency are generated; as unwanted emissions, they cause splatter on the adjacent frequencies."
+    },
+    "EJ213": {
+      "answer_b": "only slight distortion on reception."
+    },
+    "EK105": {
+      "answer_d": "The calculated safety distance for the protection of persons is accepted, provided the Federal Network Agency (BNetzA) raises no objection to the \"Notification of fixed amateur radio installations\" under Section 9 BEMFV, which must be submitted before the installation is put into service."
+    }
+  }
+}
