@@ -1,23 +1,23 @@
-## Polarmodulation: Grundidee
+## Polar modulation: the basic idea
 
-- $I(t)$ und $Q(t)$ werden in Amplitude $A(t)$ und Phase $\varphi(t)$ umgerechnet.
-- Die Phase moduliert einen HF-Träger mit konstanter Hüllkurve.
-- Die Amplitude wird getrennt über die Versorgung der Endstufe aufgeprägt.
+- $I(t)$ and $Q(t)$ are converted into amplitude $A(t)$ and phase $\varphi(t)$.
+- The phase modulates an RF carrier with a constant envelope.
+- The amplitude is impressed separately via the supply of the output stage.
 
-[picture:1117:polar_modulator:Blockschaltbild eines Polarmodulators]
-
----
-
-## Warum ist das nützlich?
-
-- Das HF-Signal im Phasenpfad hat konstante Amplitude.
-- Dadurch ist keine lineare Endstufe nötig.
-- Es können effiziente Schaltendstufen verwendet werden, z. B. Klasse E mit $\eta \approx \qtyrange{80}{90}{\percent}$.
+[picture:1117:polar_modulator:Block diagram of a polar modulator]
 
 ---
 
-## Vorteil im Funkgerät
+## Why is this useful?
 
-- Weniger Verlustleistung bedeutet weniger Wärme und weniger Stromverbrauch.
-- Kühlung und Kühlkörper können kleiner ausfallen das spart Gewicht.
-- Besonders attraktiv für QRP-Geräte, aber zunehmend auch für kommerzielle Transceiver.
+- The RF signal in the phase path has a constant amplitude.
+- As a result, no linear output stage is needed.
+- Efficient switching amplifiers can be used, e.g. class E with $\eta \approx \qtyrange{80}{90}{\percent}$.
+
+---
+
+## Advantage in the radio
+
+- Less power dissipation means less heat and lower current consumption.
+- Cooling and heatsinks can be smaller, which saves weight.
+- Particularly attractive for QRP equipment, but increasingly also for commercial transceivers.

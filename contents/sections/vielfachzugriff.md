@@ -1,35 +1,35 @@
-In der drahtlosen Kommunikation spielen verschiedene Zugriffsverfahren eine zentrale Rolle, um mehreren Nutzern gleichzeitig die Nutzung eines gemeinsamen Frequenzspektrums zu ermöglichen. Die gängigen Verfahren sind Frequenzmultiplex (FDMA), Zeitmultiplex (TDMA) und Codemultiplex (CDMA). Jedes dieser Verfahren teilt das Frequenzspektrum auf unterschiedliche Weise auf, um Interferenzen zu minimieren und eine effiziente Übertragung zu gewährleisten. Die Wahl des Verfahrens hängt dabei von den spezifischen Anforderungen an Bandbreite, Nutzerzahl und Störanfälligkeit ab. Im Folgenden werden die Unterschiede dieser Verfahren beschrieben.
+In wireless communication, various access methods play a central role in allowing several users to use a shared frequency spectrum at the same time. The common methods are frequency-division multiple access (FDMA), time-division multiple access (TDMA) and code-division multiple access (CDMA). Each of these methods divides up the frequency spectrum in a different way in order to minimise interference and ensure efficient transmission. The choice of method depends on the specific requirements for bandwidth, number of users and susceptibility to interference. The differences between these methods are described below.
 
 ---
 
-Beim Frequenzmultiplexverfahren (FDMA – Frequency Division Multiple Access) wird das zur Verfügung stehende Frequenzband in mehrere voneinander getrennte Frequenzkanäle aufgeteilt (vgl. Abbildung [ref:e_fdma]). Jeder dieser Kanäle wird einem einzelnen Nutzer fest zugewiesen, sodass die gleichzeitige Nutzung des Systems durch mehrere Teilnehmer möglich ist. Die Trennung der Nutzer erfolgt ausschließlich über unterschiedliche Frequenzen, wodurch sich die Signale der einzelnen Teilnehmer nicht gegenseitig stören, solange die Kanalabstände eingehalten werden. FDMA ist ein technisch einfaches und seit vielen Jahren etabliertes Verfahren, das sich besonders für Systeme mit wenigen Nutzern und geringem Interferenzbedarf eignet. Ein Nachteil besteht jedoch in der vergleichsweise schlechten Bandbreiteneffizienz bei einer großen Anzahl von Nutzern, da jedem Teilnehmer dauerhaft ein eigener Frequenzbereich reserviert bleibt, selbst wenn dieser zeitweise keine Daten überträgt. Typische Anwendungsbeispiele für FDMA sind frühe analoge Mobilfunksysteme wie AMPS sowie verschiedene Formen der Satellitenkommunikation.
+In frequency-division multiple access (FDMA), the available frequency band is divided into several separate frequency channels (see Figure [ref:e_fdma]). Each of these channels is permanently assigned to a single user, so that several users can use the system at the same time. The users are separated solely by different frequencies, so the signals of the individual users do not interfere with one another as long as the channel spacing is maintained. FDMA is a technically simple method that has been established for many years and is particularly suitable for systems with few users and low interference requirements. One disadvantage, however, is the comparatively poor bandwidth efficiency with a large number of users, since each user keeps a frequency range of their own permanently reserved, even when they are not transmitting any data for a while. Typical applications of FDMA are early analogue mobile phone systems such as AMPS and various forms of satellite communication.
 
 [question:EE410]
 
 <margin>
-[picture:845:e_fdma:Frequenzmultiplexing]
+[picture:845:e_fdma:Frequency-division multiplexing]
 </margin>
 
 ---
 
-Beim Zeitmultiplexverfahren (TDMA – Time Division Multiple Access) nutzen mehrere Teilnehmer denselben Frequenzkanal, indem ihnen der Zugriff zeitlich aufgeteilt wird. Jeder Nutzer erhält dabei fest definierte Zeitintervalle, sogenannte Zeitschlitze, in denen er senden und empfangen darf (vgl. Abbildung [ref:e_tdma]). Durch diese zeitliche Trennung der Übertragungen wird verhindert, dass sich die Signale der einzelnen Teilnehmer gegenseitig überlagern oder stören.
+In time-division multiple access (TDMA), several users use the same frequency channel by dividing up their access to it in time. Each user is given fixed, defined time intervals, known as time slots, in which they may transmit and receive (see Figure [ref:e_tdma]). This separation of the transmissions in time prevents the signals of the individual users from overlapping or interfering with one another.
 
-TDMA ermöglicht eine vergleichsweise effiziente Nutzung der verfügbaren Frequenzressourcen, insbesondere in Systemen mit vielen Nutzern und hohem Datenaufkommen. Voraussetzung für den reibungslosen Betrieb ist jedoch eine sehr genaue zeitliche Synchronisation aller Teilnehmer, was den technischen Aufwand und die Systemkomplexität erhöht. Bekannte Anwendungsbeispiele für TDMA sind das GSM-Mobilfunksystem der zweiten Generation sowie das schnurlose Telefonsystem DECT und im Amateurfunk DMR.
+TDMA allows comparatively efficient use of the available frequency resources, especially in systems with many users and a high volume of data. Smooth operation does, however, require very precise time synchronisation of all users, which increases the technical effort and the complexity of the system. Well-known applications of TDMA are the second-generation GSM mobile phone system, the DECT cordless telephone system and, in amateur radio, DMR.
 
 [question:EE409]
 
 <margin>
-[picture:844:e_tdma:Zeitmultiplexing]
+[picture:844:e_tdma:Time-division multiplexing]
 </margin>
 
 ---
 
-Beim Codemultiplexverfahren (CDMA – Code Division Multiple Access) nutzen alle Teilnehmer gleichzeitig denselben Frequenzbereich und dieselbe Zeit. Die Trennung der einzelnen Nutzer erfolgt nicht über Frequenz oder Zeit, sondern über individuelle Spreizcodes (vgl. Abbildung [ref:e_cdma]). Jedem Nutzer wird ein eigener Code zugewiesen, mit dem sein Signal moduliert wird. Diese Codes sind so gewählt, dass sich die überlagerten Signale am Empfänger wieder voneinander trennen lassen, obwohl sie gleichzeitig im selben Frequenzband übertragen werden. CDMA zeichnet sich durch eine hohe Flexibilität und eine große Systemkapazität aus, da viele Nutzer gleichzeitig aktiv sein können. Zudem ist das Verfahren sehr robust gegenüber Störungen und Mehrwegeausbreitung. Dem stehen jedoch eine vergleichsweise komplexe Signalverarbeitung und erhöhte Anforderungen an die Hardware gegenüber, insbesondere bei einer großen Anzahl aktiver Teilnehmer. Typische Anwendungsbeispiele für CDMA sind Mobilfunksysteme der dritten Generation wie UMTS sowie das satellitengestützte Navigationssystem GPS.
+In code-division multiple access (CDMA), all users use the same frequency range at the same time. The individual users are separated not by frequency or time but by individual spreading codes (see Figure [ref:e_cdma]). Each user is assigned a code of their own, with which their signal is modulated. These codes are chosen so that the superimposed signals can be separated from one another again at the receiver, although they are transmitted at the same time in the same frequency band. CDMA is notable for high flexibility and a large system capacity, since many users can be active at the same time. The method is also very robust against interference and multipath propagation. Against this, however, stand comparatively complex signal processing and greater demands on the hardware, particularly with a large number of active users. Typical applications of CDMA are third-generation mobile phone systems such as UMTS and the satellite navigation system GPS.
 
 [question:EE411]
 
 <margin>
-[picture:846:e_cdma:Codemultiplexing]  
+[picture:846:e_cdma:Code-division multiplexing]  
 </margin>
 
-Zusammenfassend lässt sich sagen, dass FDMA die einfachste Methode ist, während TDMA und CDMA zunehmend effizienter und komplexer werden, insbesondere bei der Nutzung beschränkter Bandbreiten und hohen Nutzerzahlen. CDMA ermöglicht die größte Flexibilität, erfordert jedoch auch die aufwändigste Technologie zur Umsetzung.
+In summary, FDMA is the simplest method, while TDMA and CDMA become increasingly efficient and complex, particularly where bandwidth is limited and user numbers are high. CDMA allows the greatest flexibility, but also requires the most elaborate technology to implement.

@@ -1,11 +1,11 @@
 ### TDMA
 <left>
-* Time Division Multiple Access – Zeitmultiplexverfahren
-* Die digitalen Nutzdaten werden getrennt und nacheinander über die dieselbe Frequenz gesandt
-* Am Empfänger wird der Datenstrom wieder zusammengesetzt
+* Time-division multiple access
+* The digital user data are split up and sent one after another on the same frequency
+* At the receiver, the data stream is put back together
 </left>
 <right>
-[picture:844:e_vielfachzugriff_tdma:Zeitmultiplexverfahren mit drei Signalen]
+[picture:844:e_vielfachzugriff_tdma:Time-division multiplexing with three signals]
 </right>
 
 ---
@@ -13,27 +13,27 @@
 ---
 ### CDMA
 <left>
-* Code Division Multiple Access – Codemultiplexverfahren
-* Die digitalen Nutzdaten werden mit einem digitalen Code codiert (gemischt)
-* Am Empfänger wird derselbe digitale Code zum decodieren verwendet
+* Code-division multiple access
+* The digital user data are encoded (mixed) with a digital code
+* At the receiver, the same digital code is used for decoding
 </left>
 <right>
-[picture:846:e_vielfachzugriff_cdma:Codemultiplexverfahren mit drei Signalen]
+[picture:846:e_vielfachzugriff_cdma:Code-division multiplexing with three signals]
 </right>
 <note>
-* Mehrere Signale können auf derselben Frequenz übertragen werden 
+* Several signals can be transmitted on the same frequency 
 </note>
 ---
 [question:EE411]
 ---
 ### FDMA
 <left>
-* Frequency Division Multiple Access – Frequenzmultiplexverfahren
-* Das digitale Signal wird auf mehrere Frequenzen aufgeteilt
-* Dadurch kann mehr Bandbreite verwendet werden
+* Frequency-division multiple access
+* The digital signal is divided over several frequencies
+* This allows more bandwidth to be used
 </left>
 <right>
-[picture:845:e_vielfachzugriff_cdma:Frequenzmultiplexverfahren mit drei Signalen]
+[picture:845:e_vielfachzugriff_cdma:Frequency-division multiplexing with three signals]
 </right>
 
 ---

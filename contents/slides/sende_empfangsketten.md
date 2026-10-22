@@ -1,23 +1,23 @@
-## Kombination von Quellencodierung und Kanalcodierung
+## Combining source coding and channel coding
 
-* Effektive Bandbreitennutzung durch intelligente Kombination  
-* Gleichzeitige Fehlererkennung und -korrektur durch Redundanz
-
----
-
-## Sender-Prozess
-
-1. *Quellencodierer:* Daten komprimieren  
-2. *Kanalcodierer:* Redundanz zur Fehlererkennung und -korrektur hinzufügen  
-3. *Mapper:* Binäre Daten auf Symbole (z. B. Amplitude & Phase bei QAM) abbilden
+* Effective use of bandwidth through an intelligent combination  
+* Simultaneous error detection and correction through redundancy
 
 ---
 
-## Empfänger-Prozess
+## Transmitter process
 
-1. *De-Mapper:* Symbole auf binäre Daten abbilden  
-2. *Kanaldecodierer:* Fehler erkennen und korrigieren  
-3. *Quellendecodierer:* Daten dekomprimieren
+1. *Source encoder:* compress the data  
+2. *Channel encoder:* add redundancy for error detection and correction  
+3. *Mapper:* map binary data onto symbols (e.g. amplitude & phase in QAM)
+
+---
+
+## Receiver process
+
+1. *De-mapper:* map symbols onto binary data  
+2. *Channel decoder:* detect and correct errors  
+3. *Source decoder:* decompress the data
 
 ---
 

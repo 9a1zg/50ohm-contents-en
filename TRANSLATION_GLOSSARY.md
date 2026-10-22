@@ -2483,6 +2483,16 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | *Spitzfindigkeit:* (opening an in-depth box) | *Splitting hairs:* | psk |
 | Rauschenergie | noise energy | as the German says; the formula uses the noise power $P_\text{N}$ (shannon_hartley_gesetzt) |
 | Bedienelemente der Applets ("Erneut übertragen") | English, German label in brackets: 'The button "Transmit again" (*Erneut übertragen*)' | the applets are still German (DECISIONS.md) (psk slides) |
+| De-Mapper / I/Q-Demodulator / Sender-Prozess / Empfänger-Prozess | de-mapper / I/Q demodulator / transmitter process / receiver process | counterparts of §14 *Mapper*, *I/Q-Modulator*; *Sendekette* → transmit chain (sende_empfangsketten) |
+| Zugriffsverfahren / Störanfälligkeit / Bandbreiteneffizienz / Spreizcode | access methods / susceptibility to interference / bandwidth efficiency / spreading code | §8 *Spreizcodierung*, EE411; *Kanalabstand* → channel spacing (§6) (vielfachzugriff) |
+| Mobilfunksystem (GSM, UMTS, AMPS) / schnurloses Telefonsystem (DECT) / satellitengestütztes Navigationssystem | mobile phone system / cordless telephone system / satellite navigation system | vielfachzugriff |
+| Zeitmultiplexverfahren / Frequenzmultiplexverfahren / Codemultiplexverfahren mit drei Signalen (captions) | time-division / frequency-division / code-division multiplexing with three signals | no abbreviation in the caption, so *…multiplexing*, as §8; *Time Division Multiple Access – Zeitmultiplexverfahren* on a slide → "Time-division multiple access" (bracket rule, as digital_voice) (vielfachzugriff) |
+| Trägerabstand / Frequenzfehler / Dopplerverschiebung / frequenzselektives Fading | carrier spacing / frequency error / Doppler shift / frequency-selective fading | ofdm |
+| Intersymbolinterferenz oder Symbolübersprechen | intersymbol interference, or crosstalk between symbols | §8 *Intersymbolinterferenz*, §14 *Übersprechen*; English has no second term, so the German synonym is rendered descriptively (ofdm) |
+| Synchronisierung / zeitliche Übereinstimmung | synchronisation / time alignment | as §8 *Synchronisation* and AE407 "Establishing time alignment" (synchronisation) |
+| Grundfrequenz (Polarmodulation) / Wellenzug | base frequency / cycle | here the carrier's starting frequency that the phase is shifted from, not the *fundamental* of a harmonic series (§3 *Grundfrequenz*); *der einzelne Wellenzug* is one cycle of the wave (polarmodulation) |
+| momentane Amplitude / momentane Phase / Amplitudenpfad / Phasenpfad / aufprägen | instantaneous amplitude / instantaneous phase / amplitude path / phase path / impress (on) | polarmodulation; §14 *Hüllkurvenverstärker* → envelope amplifier, §6 *Schaltendstufe* → switching amplifier |
+| Blick über den Tellerrand | a look beyond the syllabus | of a topic outside the examination (polarmodulation) |
 
 ## 15. Catalogue structure
 

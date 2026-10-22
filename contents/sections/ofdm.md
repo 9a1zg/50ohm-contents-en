@@ -1,17 +1,17 @@
-Es ist auch möglich, einen Datenstrom auf mehrere Träger zu verteilen, die auf unterschiedlichen, jedoch nahegelegenen Frequenzen liegen. Die Träger können allerdings nicht beliebig dicht nebeneinander liegen, da sie aufgrund der zwangsläufig entstehenden Seitenbänder eine gewisse Breite aufweisen.
+It is also possible to spread a data stream over several carriers that lie on different but closely spaced frequencies. The carriers cannot, however, lie arbitrarily close together, since the sidebands that inevitably arise give them a certain width.
 
-Beim orthogonalen Frequenzmultiplexverfahren, (Orthogonal Frequency-Division Multiplexing, OFDM) werden nun die einzelnen Träger in genau dem Abstand platziert, wo ein gegenseitiges Stören untereinander (ein sogenanntes "Übersprechen") möglichst vermieden wird.
+In orthogonal frequency-division multiplexing (OFDM), the individual carriers are placed at exactly the spacing at which mutual interference between them (what is known as "crosstalk") is avoided as far as possible.
 
-Je höher die Symbolrate pro Träger ist, umso größer muss der Abstand der Träger gewählt werden. Aus diesem Grunde wählt man oft eine kleinere Symbolrate für jeden einzelnen Träger, damit entsprechend mehr Träger Platz finden. Die übertragene Informationsmenge bleibt hierbei gleich, denn obwohl pro Träger weniger Information übertragen werden kann, können mehr Träger nebeneinander verwendet werden. Ein höherer Trägerabstand ist beispielsweise hilfreich, um das Signal toleranter gegen Frequenzfehler zu machen, sei es durch Frequenzabweichungen zwischen Sender und Empfänger, oder durch Dopplerverschiebung bei bewegten Sendern oder Empfängern.
+The higher the symbol rate per carrier, the larger the carrier spacing has to be. For this reason, a lower symbol rate is often chosen for each individual carrier, so that correspondingly more carriers fit in. The amount of information transmitted stays the same: although less information can be transmitted per carrier, more carriers can be used side by side. A larger carrier spacing is helpful, for example, to make the signal more tolerant of frequency errors, whether these come from frequency deviations between transmitter and receiver or from Doppler shift with moving transmitters or receivers.
 
-Ein Vorteil dieses Vorgehens liegt darin, dass schmalbandige Störungen nur einen oder wenige Träger stören. Im Zusammenspiel mit Fehlerkorrekturverfahren mit redundanter Datenübertragung, die wir einige Kapitel zuvor kennengelernt haben, ist es so möglich, trotz schmalbandiger Störungen eine fehlerfreie Übertragung zu erreichen.
+One advantage of this approach is that narrow-band interference affects only one or a few carriers. Combined with the error correction methods with redundant data transmission that we met a few chapters ago, it is thus possible to achieve error-free transmission despite narrow-band interference.
 
 <margin>
-[picture:704:ofdm:Frequenzspektrum eines einfachen OFDM-Signals]
+[picture:704:ofdm:Frequency spectrum of a simple OFDM signal]
 </margin>
 
 [question:AE421]
 
-Ein weiterer Vorteil ergibt sich aus der geringeren Symbolrate jedes einzelnen Trägers. Durch die geringere Symbolrate ist die Dauer eines jeden Symbols länger. Im Falle zeitlicher Verschiebungen aufgrund von Mehrwegeausbreitung ist der Anteil der Überlagerung zwischen den Signalen (sogenannte Intersymbolinterferenz oder Symbolübersprechen) dann entsprechend geringer. Auch kann es vorkommen, dass einzelne Frequenzen durch Mehrwegeausbreitung ausgelöscht oder zumindest stark gedämpft werden (man spricht von frequenzselektivem Fading). Dies kann mit den gleichen Mechanismen kompensiert werden wie die weiter oben erwähnten schmalbandigen Störungen. Im Falle von Mehrwegeausbreitung ist OFDM daher besonders vorteilhaft.
+A further advantage arises from the lower symbol rate of each individual carrier. Because of the lower symbol rate, each symbol lasts longer. If there are time shifts due to multipath propagation, the proportion of overlap between the signals (known as intersymbol interference, or crosstalk between symbols) is then correspondingly smaller. It can also happen that individual frequencies are cancelled out, or at least strongly attenuated, by multipath propagation (this is called frequency-selective fading). This can be compensated for by the same mechanisms as the narrow-band interference mentioned above. OFDM is therefore particularly advantageous where there is multipath propagation.
 
 [question:AE422]

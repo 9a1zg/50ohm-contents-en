@@ -1,4 +1,4 @@
 
-Damit der Empfänger sich auf den Beginn der Sendung einstellen kann und weiß, ab wo das Signal zu dekodieren ist, erfolgt bei den meisten Verfahren vorab eine Synchronisierung. Somit sind sich Sender und Empfänger einig und die zeitliche Übereinstimmung ist hergestellt.
+So that the receiver can adjust to the start of the transmission and knows from which point the signal is to be decoded, most methods first carry out a synchronisation. Transmitter and receiver are then in agreement, and time alignment has been established.
 
 [question:AE407]

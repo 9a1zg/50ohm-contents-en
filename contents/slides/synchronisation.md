@@ -1,8 +1,8 @@
-## Synchronisierung in der digitalen Übertragung
+## Synchronisation in digital transmission
 
-* Dient dazu, dass der Empfänger den Beginn der Sendung erkennt  
-* Sender und Empfänger stimmen sich zeitlich ab  
-* Grundlage für das korrekte Dekodieren des Signals
+* Enables the receiver to recognise the start of the transmission  
+* Transmitter and receiver align themselves in time  
+* The basis for decoding the signal correctly
 
 ---
 
