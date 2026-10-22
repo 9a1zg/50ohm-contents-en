@@ -56,7 +56,7 @@ Information on repeaters and their technical parameters and features is availabl
 [question:NE309]
 [question:NE308]
 
-An important setting is the channel bandwidth in FM operation. Remember: the bandwidth states how much "space" a transmission occupies in the frequency spectrum. On the one hand there is wide FM, with a bandwidth of $\qty{25}{\kilo\hertz}$, shown on the display as *FM-W*, for example. On the other hand there is narrowband FM, which occupies a bandwidth of only $\qty{12.5}{\kilo\hertz}$ and is shown on the radio as *FM-N*, for example. Many repeaters do not like signals that are too wide at all, because they can cause distorted signals and interference to adjacent repeater frequencies.
+An important setting is the channel bandwidth in FM operation. Remember: the bandwidth states how much "space" a transmission occupies in the frequency spectrum. On the one hand there is wide FM, with a bandwidth of $\qty{25}{\kilo\hertz}$, shown on the display as *FM-W*, for example. On the other hand there is narrowband FM, which occupies a bandwidth of only $\qty{12.5}{\kilo\hertz}$ and is shown on the radio as *FM-N*, for example. Many repeaters really do not like signals that are too wide, because they can cause distorted signals and interference to adjacent repeater frequencies.
 
 [question:BE407]
 

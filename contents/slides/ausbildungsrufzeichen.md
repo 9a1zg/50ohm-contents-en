@@ -5,7 +5,7 @@
 * Club station + "/T" or "/Trainee"
 
 <note>
-* Valid until now and until the end of 2028: separate training call signs with DN1-DN8
+* Previously, and still valid until the end of 2028: separate training call signs with DN1-DN8
 </note>
 
 ---

@@ -5,7 +5,7 @@
 * Orbit the earth in circular or elliptical orbits and at different altitudes
 * First amateur radio satellite as early as 1961 (OSCAR 1)
 * OSCAR: "Orbiting Satellite Carrying Amateur Radio"
-* To date, satellites in orbit (now or in the past) number in the 100s
+* To date, 100s of satellites have been (or still are) in orbit
 </right>
 <note>
 * 4 years after Sputnik

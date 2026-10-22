@@ -4,7 +4,7 @@ Beacons always transmit on a fixed assigned frequency and always from a fixed lo
 
 [question:VD119]
 
-Since whether a beacon can be received depends strongly on the changing propagation conditions of the band concerned, a beacon is a good indicator of whether a contact in a particular direction is feasible. If, for example, you can hear a beacon from South America well on HF, this is a sign that a contact there is now possible too. "Aurora beacons" on VHF help to find out whether DX contacts into the Scandinavian countries are currently possible using radio reflections from the polar aurora (northern lights). With known beacons on the VHF, UHF and SHF bands, you can check the alignment of your antenna by direction finding, and also check that your receiving system is working correctly.
+Since whether a beacon can be received depends strongly on the changing propagation conditions of the band concerned, a beacon is a good indicator of whether a contact in a particular direction is feasible. If, for example, you can hear a beacon from South America well on HF, this is a sign that a contact there is now possible too. "Aurora beacons" on VHF help to find out whether DX contacts into the Scandinavian countries are currently possible using radio reflections from the aurora borealis. With known beacons on the VHF, UHF and SHF bands, you can check the alignment of your antenna by direction finding, and also check that your receiving system is working correctly.
 
 [question:BE409]
 

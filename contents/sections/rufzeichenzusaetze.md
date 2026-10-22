@@ -1,4 +1,4 @@
-If you operate from a location other than the home location given in the licence document, you may use a call sign suffix voluntarily. In training operation, the corresponding suffix is mandatory when the trainee uses the instructor's personal call sign. Table [ref:n_rufzeichenzusaetze] lists the official suffixes that can be appended to the call sign for this. Other suffixes may not be used. 
+If you operate from a location other than the home location given in the licence document, you can choose to use a call sign suffix. In training operation, the corresponding suffix is mandatory when the trainee uses the instructor's personal call sign. Table [ref:n_rufzeichenzusaetze] lists the official suffixes that can be appended to the call sign for this. Other suffixes may not be used. 
 
 | l: Suffix | l: Spoken | X: Meaning |
 | am | aeronautical mobile | On board an aircraft in flight |

@@ -48,7 +48,7 @@ Taken from the [Call Sign Plan](https://50ohm.de/rzp)
 ## Responsible radio amateur
 
 * A responsible radio amateur must be named for the application
-* Must be a licensed radio amateur
+* Must themselves be a licensed radio amateur
 * Their call sign class must be the same as that of the club station
 * The call sign is usually assigned without a time limit
 * Time limits are possible: see the [Call Sign Plan](https://50ohm.de/rzp) 

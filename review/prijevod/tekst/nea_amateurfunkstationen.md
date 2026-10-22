@@ -72,3 +72,22 @@ vollständige Kontrolle*, *Netzabschaltung*, *§ 16 Absatz 2 Satz 2 AFuV*,
 - sections/linkstrecken.md — links "benötigen … immer eine Zulassung durch die BNetzA": what an automatically operating station needs is a call sign assignment (*Zuteilung*, VD501), not a *Zulassung*, which is the personal licence. Translated "authorisation".
 - sections/satelliten.md (webindepth, GEO) — "da sie feste Signalempfangsstationen nutzen können": it is the ground stations that can use fixed antennas because the satellite stays put; as written the satellites use fixed receiving stations.
 - Typos with no effect on the English: sections/rufzeichenaufbau.md "Personengebunde" and "Manchmal ist er" (*es*, das Präfix); "personengebunde" in the captions of both tables in sections/ and slides/persoenliche_rufzeichen.md; sections/klubstationen.md "den personengebundenem"; sections/ausbildungsrufzeichen.md "des Rufzeichenzusatz" (*-zusatzes*); slides/remote_stationen.md "die Stationen" (*Station*); sections/baken.md "ob … DX-Verbindungen … möglich ist" (*sind*); slides/besondere_anlaesse.md "73. Geburtstags", caption "200. Geburtstag" (the section has *Geburtstags*); sections/exterritoriale_stationen.md "International Raumstation", "Bundesrepublik Deutschlands", "Mit hilfe"; sections/satelliten.md ".:"; slides/relaisfunkstellen.md "Eingangsfrequenz" beside "Ausgabefrequenz" (the section has *Eingabefrequenz*); sections/rufzeichenzusaetze.md spoken table mixes *Oskar* (DL1FLO) and *Oscar* (DG2RON), and has *Alpha* for the ITU *Alfa*.
+
+## Provjera
+
+All 28 files compared paragraph by paragraph with `606c89b~1`; prose checked
+against the English of every embedded question (VC107–VD609, BD101–BD211,
+BE401–BE416, NE308–NE310, NE405, NF113, NF118, VA303, VA406, VE705, VE706).
+`revizija-guard.py --rev 606c89b~1 --brojevi`: 28 files, *struktura
+netaknuta*. The 27 glossary rows, the DECISIONS.md entry and every judgement
+call above are kept.
+
+Changes: omission 1, meaning 0, technical 1, style 5, glossary 0.
+
+- slides/klubstationen: "Must be a licensed radio amateur" → "Must themselves be a licensed radio amateur" (*selbst* had been dropped).
+- sections/baken: "from the polar aurora (northern lights)" → "from the aurora borealis" — *polare Nordlichter* is the aurora borealis; the added bracket only restated it.
+- sections/rufzeichenaufbau: "In German official language" → "In official German usage".
+- slides/ausbildungsrufzeichen: "Valid until now and until the end of 2028" → "Previously, and still valid until the end of 2028".
+- sections/rufzeichenzusaetze: "you may use a call sign suffix voluntarily" → "you can choose to use a call sign suffix".
+- sections/relaisfunkstellen: "Many repeaters do not like signals that are too wide at all" → "Many repeaters really do not like signals that are too wide" (the trailing "at all" read as part of "too wide").
+- slides/satelliten: "satellites in orbit (now or in the past) number in the 100s" → "100s of satellites have been (or still are) in orbit".

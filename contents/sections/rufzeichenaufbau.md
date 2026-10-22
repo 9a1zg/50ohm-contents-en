@@ -1,4 +1,4 @@
-Amateur radio has different kinds of call signs. We already met one kind at the beginning of the course: personal call signs. In German official language they are called "personengebundene Rufzeichen" (call signs tied to the person). In Germany, the Federal Network Agency (Bundesnetzagentur, BNetzA) assigns one to every radio amateur together with the authorisation for the amateur service. It is unique worldwide and may only be used personally by the radio amateur to whom it was assigned.
+Amateur radio has different kinds of call signs. We already met one kind at the beginning of the course: personal call signs. In official German usage they are called "personengebundene Rufzeichen" (call signs tied to the person). In Germany, the Federal Network Agency (Bundesnetzagentur, BNetzA) assigns one to every radio amateur together with the authorisation for the amateur service. It is unique worldwide and may only be used personally by the radio amateur to whom it was assigned.
 
 [question:VC116]
 
