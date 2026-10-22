@@ -1,0 +1,61 @@
+{
+  "pitanja": {
+    "BC106": {
+      "answer_a": "Ultra High Frequency (UHF)",
+      "answer_b": "Very High Frequency (VHF)"
+    },
+    "BC105": {
+      "answer_a": "Very High Frequency (VHF)",
+      "answer_b": "Ultra High Frequency (UHF)"
+    },
+    "BC104": {
+      "answer_b": "Very High Frequency (VHF)",
+      "answer_c": "Ultra High Frequency (UHF)"
+    },
+    "BC103": {
+      "answer_a": "Ultra High Frequency (UHF)",
+      "answer_b": "Very High Frequency (VHF)",
+      "question": "What is the name of the frequency range in which the 70 cm band lies?"
+    },
+    "BC102": {
+      "answer_a": "Very High Frequency (VHF)",
+      "answer_b": "Ultra High Frequency (UHF)",
+      "question": "What is the name of the frequency range in which the 2 m band lies?"
+    },
+    "BC101": {
+      "answer_b": "Very High Frequency (VHF)",
+      "answer_c": "Ultra High Frequency (UHF)",
+      "question": "What is the name of the frequency range in which the 10 m band lies?"
+    },
+    "BD106": {
+      "question": "To which category of call sign do call signs beginning with DO1 to DO9 and having a two- or three-letter suffix belong? Personal call signs of ..."
+    },
+    "BD104": {
+      "question": "To which category of call sign do call signs beginning with DL1 to DL9 and having a two- or three-letter suffix belong? Personal call signs of ..."
+    },
+    "BD105": {
+      "question": "To which category of call sign do call signs beginning with DN9 belong?"
+    },
+    "BD202": {
+      "answer_d": "It is an automatically operating Pactor amateur station in Canada with a mailbox attached."
+    },
+    "BD201": {
+      "answer_d": "is operating at low power."
+    },
+    "BE118": {
+      "answer_a": "no faster than I can receive myself, and I adapt to slower stations."
+    },
+    "BE109": {
+      "answer_a": "Only to stations that are evidently a few hundred kilometres away."
+    },
+    "BE307": {
+      "answer_d": "The rare station or its QSL manager publishes a list of the stations worked, in the amateur radio magazines."
+    },
+    "BE407": {
+      "answer_a": "repeater inputs on adjacent frequencies may suffer interference, and the repeater in use could put out a distorted signal."
+    },
+    "BF102": {
+      "question": "Are you permitted to use SOS or MAYDAY within amateur radio in an emergency?"
+    }
+  }
+}

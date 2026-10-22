@@ -13674,8 +13674,8 @@
                                     "number": "BC106",
                                     "class": "1",
                                     "question": "What is the frequency range from 300 to 3000 MHz called?",
-                                    "answer_a": "Ultra High Frequency (UHF) or decimetre waves",
-                                    "answer_b": "Very High Frequency (VHF) or metre waves",
+                                    "answer_a": "Ultra High Frequency (UHF)",
+                                    "answer_b": "Very High Frequency (VHF)",
                                     "answer_c": "High Frequency (HF) or short wave (SW)",
                                     "answer_d": "Medium Frequency (MF) or medium wave (MW)"
                                 },
@@ -13683,8 +13683,8 @@
                                     "number": "BC105",
                                     "class": "1",
                                     "question": "What is the frequency range from 30 to 300 MHz called?",
-                                    "answer_a": "Very High Frequency (VHF) or metre waves",
-                                    "answer_b": "Ultra High Frequency (UHF) or decimetre waves",
+                                    "answer_a": "Very High Frequency (VHF)",
+                                    "answer_b": "Ultra High Frequency (UHF)",
                                     "answer_c": "High Frequency (HF) or short wave (SW)",
                                     "answer_d": "Medium Frequency (MF) or medium wave (MW)"
                                 },
@@ -13693,35 +13693,35 @@
                                     "class": "1",
                                     "question": "What is the frequency range from 3 to 30 MHz called?",
                                     "answer_a": "High Frequency (HF) or short wave (SW)",
-                                    "answer_b": "Very High Frequency (VHF) or metre waves",
-                                    "answer_c": "Ultra High Frequency (UHF) or decimetre waves",
+                                    "answer_b": "Very High Frequency (VHF)",
+                                    "answer_c": "Ultra High Frequency (UHF)",
                                     "answer_d": "Medium Frequency (MF) or medium wave (MW)"
                                 },
                                 {
                                     "number": "BC103",
                                     "class": "1",
-                                    "question": "What is the frequency range in which the 70 cm band lies called?",
-                                    "answer_a": "Ultra High Frequency (UHF) or decimetre waves",
-                                    "answer_b": "Very High Frequency (VHF) or metre waves",
+                                    "question": "What is the name of the frequency range in which the 70 cm band lies?",
+                                    "answer_a": "Ultra High Frequency (UHF)",
+                                    "answer_b": "Very High Frequency (VHF)",
                                     "answer_c": "High Frequency (HF) or short wave (SW)",
                                     "answer_d": "Medium Frequency (MF) or medium wave (MW)"
                                 },
                                 {
                                     "number": "BC102",
                                     "class": "1",
-                                    "question": "What is the frequency range in which the 2 m band lies called?",
-                                    "answer_a": "Very High Frequency (VHF) or metre waves",
-                                    "answer_b": "Ultra High Frequency (UHF) or decimetre waves",
+                                    "question": "What is the name of the frequency range in which the 2 m band lies?",
+                                    "answer_a": "Very High Frequency (VHF)",
+                                    "answer_b": "Ultra High Frequency (UHF)",
                                     "answer_c": "High Frequency (HF) or short wave (SW)",
                                     "answer_d": "Medium Frequency (MF) or medium wave (MW)"
                                 },
                                 {
                                     "number": "BC101",
                                     "class": "1",
-                                    "question": "What is the frequency range in which the 10 m band lies called?",
+                                    "question": "What is the name of the frequency range in which the 10 m band lies?",
                                     "answer_a": "High Frequency (HF) or short wave (SW)",
-                                    "answer_b": "Very High Frequency (VHF) or metre waves",
-                                    "answer_c": "Ultra High Frequency (UHF) or decimetre waves",
+                                    "answer_b": "Very High Frequency (VHF)",
+                                    "answer_c": "Ultra High Frequency (UHF)",
                                     "answer_d": "Medium Frequency (MF) or medium wave (MW)"
                                 }
                             ]
@@ -13967,7 +13967,7 @@
                                 {
                                     "number": "BD106",
                                     "class": "1",
-                                    "question": "Which category of call sign do call signs belong to that begin with DO1 to DO9 and have a two- or three-letter suffix? Personal call signs of ...",
+                                    "question": "To which category of call sign do call signs beginning with DO1 to DO9 and having a two- or three-letter suffix belong? Personal call signs of ...",
                                     "answer_a": "Class E",
                                     "answer_b": "Class A",
                                     "answer_c": "Class N",
@@ -13976,7 +13976,7 @@
                                 {
                                     "number": "BD105",
                                     "class": "1",
-                                    "question": "Which category of call sign do call signs belong to that begin with DN9?",
+                                    "question": "To which category of call sign do call signs beginning with DN9 belong?",
                                     "answer_a": "Personal call signs of Class N",
                                     "answer_b": "Personal call signs of Class A",
                                     "answer_c": "Personal call signs of Class E",
@@ -13985,7 +13985,7 @@
                                 {
                                     "number": "BD104",
                                     "class": "1",
-                                    "question": "Which category of call sign do call signs belong to that begin with DL1 to DL9 and have a two- or three-letter suffix? Personal call signs of ...",
+                                    "question": "To which category of call sign do call signs beginning with DL1 to DL9 and having a two- or three-letter suffix belong? Personal call signs of ...",
                                     "answer_a": "Class A",
                                     "answer_b": "Class E",
                                     "answer_c": "Class N",
@@ -14138,7 +14138,7 @@
                                     "answer_a": "It is an amateur station with a Canadian call sign that is being operated in an aircraft.",
                                     "answer_b": "It is a Canadian amateur station that is being operated temporarily in the United States of America.",
                                     "answer_c": "It is a Canadian amateur station that is being operated in the AM mode.",
-                                    "answer_d": "It is an automatically operating Pactor amateur station with a mailbox attached, in Canada."
+                                    "answer_d": "It is an automatically operating Pactor amateur station in Canada with a mailbox attached."
                                 },
                                 {
                                     "number": "BD201",
@@ -14147,7 +14147,7 @@
                                     "answer_a": "is being operated on board an aircraft.",
                                     "answer_b": "uses amplitude modulation.",
                                     "answer_c": "is being operated on board a vessel.",
-                                    "answer_d": "is working with low power."
+                                    "answer_d": "is operating at low power."
                                 }
                             ]
                         },
@@ -14330,7 +14330,7 @@
                                     "number": "BE118",
                                     "class": "1",
                                     "question": "What should you bear in mind about speed in Morse telegraphy? As a rule I send ...",
-                                    "answer_a": "no faster than I can also receive, and I adapt to slower stations.",
+                                    "answer_a": "no faster than I can receive myself, and I adapt to slower stations.",
                                     "answer_b": "at the internationally fixed standard speed of 12 WPM, to allow automatic decoding.",
                                     "answer_c": "as fast as I can, so that there are no unnecessary delays in operation.",
                                     "answer_d": "at the speed that suits me best. Others have to adapt to me."
@@ -14411,7 +14411,7 @@
                                     "number": "BE109",
                                     "class": "1",
                                     "question": "A station on the 2 m or 70 cm band calls \"CQ\" with the addition \"DX\". When should you reply?",
-                                    "answer_a": "Only for stations that are evidently a few hundred kilometres away.",
+                                    "answer_a": "Only to stations that are evidently a few hundred kilometres away.",
                                     "answer_b": "Only if the distance between the two stations is no more than 500 km.",
                                     "answer_c": "Only if I, as the listening station, receive the calling station at good strength.",
                                     "answer_d": "Only if the calling station is a non-European station."
@@ -14655,7 +14655,7 @@
                                     "answer_a": "Another station that can be heard well puts calling stations on a list and later calls these stations to make a contact with the rare station.",
                                     "answer_b": "Another station that can be heard well sends lists of calling stations to the rare station via the internet.",
                                     "answer_c": "The rare station calls stations in alphabetical order from a list of country prefixes.",
-                                    "answer_d": "The rare station or its QSL manager publishes a list of the stations worked in the amateur radio magazines."
+                                    "answer_d": "The rare station or its QSL manager publishes a list of the stations worked, in the amateur radio magazines."
                                 },
                                 {
                                     "number": "BE306",
@@ -14801,7 +14801,7 @@
                                     "number": "BE407",
                                     "class": "1",
                                     "question": "Why should you make sure that your handheld is set to narrowband FM when using an FM repeater? Because otherwise ...",
-                                    "answer_a": "repeater inputs on adjacent frequencies may suffer interference, and the repeater being used could output the signal distorted.",
+                                    "answer_a": "repeater inputs on adjacent frequencies may suffer interference, and the repeater in use could put out a distorted signal.",
                                     "answer_b": "excessive wear of the repeater's preamplifier could occur through overload, and the repeater would then fail.",
                                     "answer_c": "excessive harmonics may be generated, and radio services on other bands could suffer interference from image frequencies.",
                                     "answer_d": "the batteries of the repeater's emergency power supply could be excessively loaded and would then no longer be usable in an emergency."
@@ -14933,7 +14933,7 @@
                         {
                             "number": "BF102",
                             "class": "1",
-                            "question": "May you use SOS or MAYDAY within amateur radio in an emergency?",
+                            "question": "Are you permitted to use SOS or MAYDAY within amateur radio in an emergency?",
                             "answer_a": "No",
                             "answer_b": "Not MAYDAY, but SOS in an emergency.",
                             "answer_c": "Yes",

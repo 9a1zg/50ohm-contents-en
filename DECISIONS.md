@@ -143,8 +143,9 @@ and the checker's "Provjera" section).
   pronoun is unavoidable, singular *they* (AH305). (Batch 07.)
 - **Q code meanings in the ITU's English wording.** Where the German gives
   the German wording of a Q code, the English uses the established wording
-  of the ITU Q code list (RR Appendix 14, Rec. ITU-R M.1172) as radio
-  amateurs use it — QRT "Stop sending.", QRZ? "Who is calling me?", QRN
+  of the ITU Q code list (Rec. ITU-R M.1172, incorporated by reference
+  in the RR; RR Appendix 14 is the phonetic alphabet and figure code) as
+  radio amateurs use it — QRT "Stop sending.", QRZ? "Who is calling me?", QRN
   "I am troubled by static.", QSB? "Are my signals fading?" — not a fresh
   translation of the German, which is itself that list in German.
   Made-up meanings in distractors are translated faithfully. Two
@@ -198,17 +199,24 @@ and the checker's "Provjera" section).
   quotations. German statutes have no official English text and are
   translated faithfully. (Batch 09.)
 - **Band names beside the English abbreviation** (BC101–BC106: "Very High
-  Frequency (VHF) oder Ultrakurzwelle (UKW)"): the German name is replaced
-  by the English common name of the same band, from the ITU nomenclature
-  (Rec. ITU-R V.431, metric / decimetric waves): "Very High Frequency
-  (VHF) or metre waves", "Ultra High Frequency (UHF) or decimetre waves",
-  "Medium Frequency (MF) or medium wave (MW)". "High Frequency (HF), Short
-  Wave (SW) oder Kurzwelle (KW)" becomes "High Frequency (HF) or short
-  wave (SW)": *Kurzwelle (KW)* only repeats *Short Wave (SW)* in German
-  (bracket rule above). A literal "ultra-short wave" is not an English
-  band name, and keeping *Ultrakurzwelle (UKW)* would give an English
-  reader a German label where the German reader has a familiar one.
-  (Batch 09.)
+  Frequency (VHF) oder Ultrakurzwelle (UKW)"): each German answer pairs the
+  English band name with the German everyday name of the same band. In
+  English the German name only repeats the English one, so it is dropped
+  (bracket rule above): "Very High Frequency (VHF)", "Ultra High Frequency
+  (UHF)" — UKW is VHF in English (TRANSLATION.md), and VHF / UHF are
+  themselves the names English operators use. Where English has an
+  everyday name of its own it stays: "High Frequency (HF) or short wave
+  (SW)" (*Kurzwelle (KW)* only repeats *Short Wave (SW)*), "Medium
+  Frequency (MF) or medium wave (MW)". The questions ask which range a
+  band or frequency span belongs to; none turns on the metric names, so
+  "metre waves" / "decimetre waves" (ITU-R V.431 metric / decimetric
+  waves), which the translator first used, are not brought in: rare in
+  English, they would put an unfamiliar label where the German reader sees
+  a familiar one, and an English reader places the 2 m and 70 cm bands by
+  VHF and UHF as readily as a German reader by UKW and Dezimeterwelle.
+  The four answers stay the same set in
+  every question, so the shorter VHF / UHF answers do not single out the
+  correct one. (Batch 09; reworked by the checker.)
 
 ## Open questions for DARC
 

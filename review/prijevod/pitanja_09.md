@@ -143,3 +143,84 @@ beside *Short Wave (SW)* (BC101–BC106).
   BE313 d, VA101 a–d; trailing newlines in VA103 d; BE103 c '".';
   non-breaking spaces in BC213, BC216, BD101, BD102, BD104, BD106, BD107,
   BE104, BE111, BE114, BE303, BE306, BE402, BE403, BE407, BG104, VA103.
+
+## Provjera
+
+All 175 questions (875 text fields) checked German against English, all five
+fields. 25 fields in 16 questions changed (`pitanja_09.provjera.json`,
+applied with `--retranslate`: 0 refused, 0 warnings): 0 for meaning, 0 for
+answer correctness, 12 for glossary / terminology, 13 for style. One
+DECISIONS.md entry reworked, one reference corrected in DECISIONS.md and
+glossary §2, one glossary row rewritten.
+
+Changes:
+
+- BC101–BC106, the VHF and UHF answers (12 fields): "Very High Frequency
+  (VHF) or metre waves" → "Very High Frequency (VHF)", "Ultra High
+  Frequency (UHF) or decimetre waves" → "Ultra High Frequency (UHF)". The
+  questions ask which range a band or frequency span belongs to, not for
+  the metric names; *UKW* and *Dezimeterwelle* are the German everyday
+  names of VHF and UHF and only repeat them in English (UKW → VHF,
+  TRANSLATION.md). "Short wave (SW)" and "medium wave (MW)" stay: they are
+  everyday English names. answer_a stays the only range that fits in each
+  question; the answer set is the same in all six, so the shorter VHF /
+  UHF answers do not point to the correct one. DECISIONS.md entry and the
+  glossary §10 row rewritten accordingly.
+- BC101–BC103 Q: "What is the frequency range in which the 10 m band lies
+  called?" → "What is the name of the frequency range in which …" (the
+  verb no longer trails after the clause).
+- BD104–BD106 Q: "Which category of call sign do call signs belong to that
+  begin with …" → "To which category of call sign do call signs beginning
+  with … belong?" (the split relative clause read badly).
+- BD202 d: "… with a mailbox attached, in Canada." → "… in Canada with a
+  mailbox attached." (word order).
+- BD201 d: "is working with low power" → "is operating at low power".
+- BE118 a: "no faster than I can also receive" → "no faster than I can
+  receive myself" (*auch* here means "myself", not "also").
+- BE109 a: "Only for stations …" → "Only to stations …" (answers "When
+  should you reply?").
+- BE307 d: "a list of the stations worked in the amateur radio magazines"
+  read as stations worked in magazines; now "a list of the stations
+  worked, in the amateur radio magazines".
+- BE407 a: "the repeater being used could output the signal distorted" →
+  "the repeater in use could put out a distorted signal".
+- BF102 Q: "May you use SOS or MAYDAY …" → "Are you permitted to use SOS or
+  MAYDAY …" (natural question form).
+- DECISIONS.md (Q codes) and glossary §2 (*Bedeutungen der Q-Gruppen*):
+  the Q code list was cited as "RR Appendix 14, Rec. ITU-R M.1172". RR
+  Appendix 14 is the phonetic alphabet and figure code (the German course
+  text itself says so, `buchstabiertafel.md`); the Q codes are Rec. ITU-R
+  M.1172, which is incorporated by reference in the RR (ITU's own note on
+  M.1172-0). Both now cite M.1172 and say what Appendix 14 is. This also
+  backs VA407 a ("Radio Regulations (RR)"), which stays.
+
+Points reviewed and kept:
+
+- BD208, BD209: the German suffix strings stay. "/R or /Remote" and
+  "DL1PZ/Trainee" are the actual suffixes and stay correct; "/RB or
+  /Remotebetrieb", "/FB or /Fernbedient", "/F or /Fern", "DL1PZ/Ausbildung"
+  are strings that would be transmitted and stay exactly as wrong as in
+  German — the trap is still whether a German word may be used. English
+  "/Training" or "/Remote operation" would invent strings DARC never set.
+  The DECISIONS.md entry stands.
+- BE202: the German distractors are German expansions that spell R, S, T;
+  "radio call sign", "site", "transmit frequency" keep doing that (NE209 /
+  EF212 rule). "Transmit frequency" for *Trägerfrequenz* loses "carrier",
+  but "carrier frequency" would not spell T and would leave c the only
+  distractor that does not fit the letters; the distractor is as wrong as
+  in German. Kept.
+- BE111: "grid locator" is an established English name of the Maidenhead
+  locator and is the stem's third alias, as *Standortkenner* is in German;
+  answer a ("fields and squares", the Maidenhead terms) is correct. Kept.
+- BE104 c: must stay German. EA6VQ called in English; c is wrong in German
+  because it answers in German. Translated, it would be a second correct
+  English reply. Kept.
+- VA303 a: "earth command stations" is the RR 25.2A term ("control signals
+  exchanged between earth command stations and space stations in the
+  amateur-satellite service"); "auf der Erde" is contained in it. Correct.
+- DECISIONS.md "RR provisions in the RR's own English wording": checked the
+  quoted wording against RR 1.56, 1.61, 1.96, 25.2 and 25.2A; correct, and
+  VA104 d being the older RR 25.2 wording does not make it right (the
+  question asks about the definition in RR 1.56). Kept unchanged.
+- BC216 c/d "channel spacing" for both *Kanalabstand* and *Kanalraster*,
+  BE415 glosses dropped, BC213 a "preferably", BF107 "exemplary": kept.
