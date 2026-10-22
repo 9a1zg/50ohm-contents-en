@@ -1,0 +1,1185 @@
+{
+  "pitanja": {
+    "ED124": {
+      "question": "What is the total capacitance of this circuit if $C_1$ = 200 nF, $C_2$ = 100 nF and $C_3$ = 100000 pF?",
+      "answer_a": "100 nF",
+      "answer_b": "250 nF",
+      "answer_c": "400 nF",
+      "answer_d": "200 nF"
+    },
+    "ED123": {
+      "question": "What is the total capacitance of the following circuit? Given: $C_1$ = 8 nF; $C_2$ = 4 nF; $C_3$ = 4 nF",
+      "answer_a": "4 nF",
+      "answer_b": "16 nF",
+      "answer_c": "1 nF",
+      "answer_d": "9 nF"
+    },
+    "ED122": {
+      "question": "What is the total capacitance of this circuit if $C_1$ = 2 μF, $C_2$ = 1 μF and $C_3$ = 1 μF?",
+      "answer_a": "1.0 μF",
+      "answer_b": "4400 nF",
+      "answer_c": "2.5 μF",
+      "answer_d": "4.0 μF"
+    },
+    "ED121": {
+      "question": "What is the total capacitance of the following circuit? Given: $C_1$ = 10 nF; $C_2$ = 10 nF; $C_3$ = 5 nF",
+      "answer_a": "10 nF",
+      "answer_b": "5 nF",
+      "answer_c": "20 nF",
+      "answer_d": "25 nF"
+    },
+    "ED120": {
+      "question": "What is the total capacitance when capacitors of 100 μF, 200000 nF and 200 μF are connected in series?",
+      "answer_a": "50 μF",
+      "answer_b": "320 nF",
+      "answer_c": "300.2 μF",
+      "answer_d": "102 μF"
+    },
+    "ED119": {
+      "question": "A series circuit consists of three capacitors of 0.33 μF each. What is the total capacitance of this circuit?",
+      "answer_a": "0.110 μF",
+      "answer_b": "0.990 μF",
+      "answer_c": "0.011 μF",
+      "answer_d": "0.099 μF"
+    },
+    "ED118": {
+      "question": "What is the total capacitance of three capacitors of 22 nF, 0.033 μF and 15000 pF connected in parallel?",
+      "answer_a": "0.070 μF",
+      "answer_b": "700 nF",
+      "answer_c": "40.3 nF",
+      "answer_d": "7021 pF"
+    },
+    "ED117": {
+      "question": "Three capacitors with the capacitances $C_1$ = 0.1 μF, $C_2$ = 150 nF and $C_3$ = 50000 pF are connected in parallel. What is the total capacitance?",
+      "answer_a": "0.3 μF",
+      "answer_b": "0.2 μF",
+      "answer_c": "0.027 μF",
+      "answer_d": "0.255 μF"
+    },
+    "ED116": {
+      "question": "What is the total resistance of the circuit shown?",
+      "answer_a": "950 Ω",
+      "answer_b": "120 Ω",
+      "answer_c": "2950 Ω",
+      "answer_d": "750 Ω"
+    },
+    "ED115": {
+      "question": "What is the total resistance of the circuit shown?",
+      "answer_a": "550 Ω",
+      "answer_b": "360 Ω",
+      "answer_c": "1150 Ω",
+      "answer_d": "383 Ω"
+    },
+    "ED114": {
+      "question": "What is the total resistance of the circuit shown?",
+      "answer_a": "250 Ω",
+      "answer_b": "550 Ω",
+      "answer_c": "300 Ω",
+      "answer_d": "350 Ω"
+    },
+    "ED113": {
+      "question": "What is the total resistance of this circuit if $R_1$ = 10 kΩ, $R_2$ = 2.5 kΩ, $R_3$ = 500 Ω and $R_4$ = 600 Ω?",
+      "answer_a": "1 kΩ",
+      "answer_b": "13.6 kΩ",
+      "answer_c": "200 Ω",
+      "answer_d": "7.6 kΩ"
+    },
+    "ED112": {
+      "question": "What is the total resistance of this circuit if $R_1$ = 1 kΩ, $R_2$ = 3 kΩ and $R_3$ = 1500 Ω?",
+      "answer_a": "2 kΩ",
+      "answer_b": "5.5 kΩ",
+      "answer_c": "3.5 kΩ",
+      "answer_d": "1 kΩ"
+    },
+    "ED111": {
+      "question": "What is the total resistance of the circuit? Given: $R_1$ = 1 kΩ, $R_2$ = 2000 Ω and $R_3$ = 2 kΩ",
+      "answer_a": "2 kΩ",
+      "answer_b": "2.5 kΩ",
+      "answer_c": "501 Ω",
+      "answer_d": "5.1 kΩ"
+    },
+    "ED110": {
+      "question": "What is the total resistance of the circuit? Given: $R_1$ = 500 Ω, $R_2$ = 1000 Ω and $R_3$ = 1 kΩ",
+      "answer_a": "1 kΩ",
+      "answer_b": "2.5 kΩ",
+      "answer_c": "501 Ω",
+      "answer_d": "5.1 kΩ"
+    },
+    "ED109": {
+      "question": "What is the total resistance of the circuit? Given: $R_1$ = 500 Ω, $R_2$ = 1.5 kΩ and $R_3$ = 2 kΩ",
+      "answer_a": "1 kΩ",
+      "answer_b": "4 kΩ",
+      "answer_c": "500 Ω",
+      "answer_d": "2 kΩ"
+    },
+    "ED108": {
+      "question": "What is the total resistance of the circuit? Given: $R_1$ = 500 Ω, $R_2$ = 500 Ω and $R_3$ = 1 kΩ",
+      "answer_a": "500 Ω",
+      "answer_b": "250 Ω",
+      "answer_c": "1 kΩ",
+      "answer_d": "2 kΩ"
+    },
+    "ED107": {
+      "question": "What power rating can be achieved by connecting together three resistors of equal value, each with an individual power rating of 1 W, if all 3 resistors are connected either in parallel or in series?",
+      "answer_a": "3 W both in parallel and in series.",
+      "answer_b": "3 W in parallel and 1 W in series.",
+      "answer_c": "1 W in parallel and 3 W in series.",
+      "answer_d": "1 W both in parallel and in series."
+    },
+    "ED106": {
+      "question": "Three resistors of equal value connected in parallel have a total resistance of 1.7 kΩ. What is the value of each individual resistor?",
+      "answer_a": "5.1 kΩ",
+      "answer_b": "560 Ω",
+      "answer_c": "10 kΩ",
+      "answer_d": "2.7 kΩ"
+    },
+    "ED105": {
+      "question": "Two resistors, $R_1$ = 50 Ω and $R_2$ = 200 Ω, are connected in parallel. What is the total resistance?",
+      "answer_a": "40 Ω",
+      "answer_b": "250 Ω",
+      "answer_c": "150 Ω",
+      "answer_d": "4 Ω"
+    },
+    "ED104": {
+      "question": "Two resistors, $R_1$ = 100 Ω and $R_2$ = 400 Ω, are connected in parallel. What is the total resistance?",
+      "answer_a": "80 Ω",
+      "answer_b": "500 Ω",
+      "answer_c": "300 Ω",
+      "answer_d": "4 Ω"
+    },
+    "ED103": {
+      "question": "The total voltage $U$ across the following potential divider is 9 V. The resistors have the values $R_1$ = 10 kΩ and $R_2$ = 20 kΩ. What is the partial voltage $U_2$?",
+      "answer_a": "6.0 V",
+      "answer_b": "3.0 V",
+      "answer_c": "4.5 V",
+      "answer_d": "7.5 V"
+    },
+    "ED102": {
+      "question": "How is the voltage divided between two resistors connected in series if $R_1 = \\frac{1}{6}$ of $R_2$?",
+      "answer_a": "$U_1 = \\frac{U_2}{6}$",
+      "answer_b": "$U_1 = 6\\cdot U_2$",
+      "answer_c": "$U_1 = \\frac{U_2}{5}$",
+      "answer_d": "$U_1 = 5\\cdot U_2$"
+    },
+    "ED101": {
+      "question": "How is the voltage divided between two resistors connected in series if $R_1$ is 5 times as large as $R_2$?",
+      "answer_a": "$U_1 = 5\\cdot U_2$",
+      "answer_b": "$U_1 = \\frac{U_2}{5}$",
+      "answer_c": "$U_1 = 6\\cdot U_2$",
+      "answer_d": "$U_1 = \\frac{U_2}{6}$"
+    },
+    "AD229": {
+      "question": "Which coupling of a band-pass filter is called \"critical coupling\"?",
+      "answer_a": "The coupling at which the resonance curve has its greatest width while still being completely flat at the resonance peak.",
+      "answer_b": "The coupling at which the resonance curve of the band-pass filter has its greatest possible width.",
+      "answer_c": "The coupling at which the resonance curve of the band-pass filter shows a ripple of 3 dB (peak-to-dip voltage).",
+      "answer_d": "The coupling at which the output voltage of the band-pass filter reaches 0.707 times the input voltage."
+    },
+    "AD228": {
+      "question": "The following picture shows a typical IF filter and four of its possible response curves (a to d). Which curve results from critical coupling and which from over-critical coupling?",
+      "answer_a": "Curve b shows critical coupling, curve a shows over-critical coupling.",
+      "answer_b": "Curve a shows critical coupling, curve b shows over-critical coupling.",
+      "answer_c": "Curve c shows critical coupling, curve b shows over-critical coupling.",
+      "answer_d": "Curve d shows critical coupling, curve c shows over-critical coupling."
+    },
+    "AD227": {
+      "question": "The following picture shows an inductively coupled band-pass filter and four of its possible response curves (a to d). Which of the following statements is correct?",
+      "answer_a": "The coupling is looser for curve c than for curve a.",
+      "answer_b": "The coupling is looser for curve b than for curve c.",
+      "answer_c": "The coupling is looser for curve a than for curve c.",
+      "answer_d": "The coupling is looser for curve b than for curve d."
+    },
+    "AD226": {
+      "question": "What is the Q factor $Q$ of a 2.2 μH inductor connected in parallel with a 56 pF capacitor and a 1 kΩ resistor?",
+      "answer_a": "5",
+      "answer_b": "50",
+      "answer_c": "15",
+      "answer_d": "0.2"
+    },
+    "AD225": {
+      "question": "What is the Q factor $Q$ of a 100 μH inductor connected in series with a 0.01 μF capacitor and a 10 Ω resistor?",
+      "answer_a": "10",
+      "answer_b": "1",
+      "answer_c": "0.1",
+      "answer_d": "100"
+    },
+    "AD224": {
+      "question": "What is the bandwidth $B$ of a 2.2 μH inductor connected in parallel with a 56 pF capacitor and a 1 kΩ resistor?",
+      "answer_a": "2.84 MHz",
+      "answer_b": "28.4 MHz",
+      "answer_c": "284 kHz",
+      "answer_d": "28.4 kHz"
+    },
+    "AD223": {
+      "question": "What is the bandwidth $B$ of a 100 μH inductor connected in series with a 0.01 μF capacitor and a 10 Ω resistor?",
+      "answer_a": "15.9 kHz",
+      "answer_b": "159 kHz",
+      "answer_c": "1.59 kHz",
+      "answer_d": "159 Hz"
+    },
+    "AD222": {
+      "question": "A crystal filter with a 3 dB bandwidth of 500 Hz is particularly suitable for use in a transceiver for ...",
+      "answer_a": "CW.",
+      "answer_b": "SSB.",
+      "answer_c": "AM.",
+      "answer_d": "FM."
+    },
+    "AD221": {
+      "question": "A crystal filter with a 3 dB bandwidth of 2.7 kHz is particularly suitable for use in a transceiver for ...",
+      "answer_a": "SSB.",
+      "answer_b": "AM.",
+      "answer_c": "FM.",
+      "answer_d": "CW."
+    },
+    "AD220": {
+      "question": "How is the bandwidth $B$ of a parallel tuned circuit obtained from the resonance curve?",
+      "answer_a": "The bandwidth is the difference between the two frequencies at which the voltage has fallen to 0.7 times the maximum voltage at the resonant frequency.",
+      "answer_b": "The bandwidth is the difference between the two frequencies at which the voltage has fallen to 0.5 times the maximum voltage at the resonant frequency.",
+      "answer_c": "The bandwidth is obtained by multiplying the resonant frequency by the factor 0.5.",
+      "answer_d": "The bandwidth is obtained by multiplying the resonant frequency by the factor 0.7."
+    },
+    "AD219": {
+      "question": "What is the bandwidth at -60 dB in the diagram shown?",
+      "answer_a": "About 4.0 kHz",
+      "answer_b": "About 6.5 kHz",
+      "answer_c": "About 6.0 kHz",
+      "answer_d": "About 2.5 kHz"
+    },
+    "AD218": {
+      "question": "How does the frequency of the tuned circuit in the following circuit change when the potentiometer is turned further towards X?",
+      "answer_a": "The frequency of the tuned circuit rises.",
+      "answer_b": "The frequency of the tuned circuit falls.",
+      "answer_c": "The frequency of the tuned circuit does not change.",
+      "answer_d": "The frequency first falls and then rises sharply."
+    },
+    "AD217": {
+      "question": "You want to lower the resonant frequency of a tuned circuit. Which of the following measures is suitable?",
+      "answer_a": "Insert a ferrite core into the coil",
+      "answer_b": "Pull the turns of the coil apart",
+      "answer_c": "Use a smaller capacitor value",
+      "answer_d": "Use a smaller inductor value"
+    },
+    "AD216": {
+      "question": "You want to lower the resonant frequency of a tuned circuit. Which of the following measures is suitable?",
+      "answer_a": "Push the turns of the coil closer together",
+      "answer_b": "Pull the turns of the coil apart",
+      "answer_c": "Use a smaller capacitor value",
+      "answer_d": "Use a smaller inductor value"
+    },
+    "AD215": {
+      "question": "You want to lower the resonant frequency of a tuned circuit. Which of the following measures is suitable?",
+      "answer_a": "Use a larger capacitor value",
+      "answer_b": "Use a smaller inductor value",
+      "answer_c": "Reduce the number of turns on the coil",
+      "answer_d": "Pull the turns of the coil apart"
+    },
+    "AD214": {
+      "question": "You want to raise the resonant frequency of a tuned circuit. Which of the following measures is suitable?",
+      "answer_a": "Reduce the number of turns on the coil",
+      "answer_b": "Push the turns of the coil closer together",
+      "answer_c": "Use a larger inductor value",
+      "answer_d": "Use a larger capacitor value"
+    },
+    "AD213": {
+      "question": "You want to raise the resonant frequency of a tuned circuit. Which of the following measures is suitable?",
+      "answer_a": "Use a smaller inductor value",
+      "answer_b": "Push the turns of the coil closer together",
+      "answer_c": "Insert a ferrite core into the coil",
+      "answer_d": "Increase the number of turns on the coil"
+    },
+    "AD212": {
+      "question": "What is the resonant frequency of this circuit if the capacitances are $C_1$ = 0.1 nF, $C_2$ = 1.5 nF, $C_3$ = 220 pF and the inductance of the inductor is 1.2 mH?",
+      "answer_a": "107.7 kHz",
+      "answer_b": "10.77 kHz",
+      "answer_c": "1.077 kHz",
+      "answer_d": "1.077 MHz"
+    },
+    "AD211": {
+      "question": "What is the resonant frequency $f_{\\textrm{res}}$ of a 2.2 μH inductor connected in parallel with a 56 pF capacitor and a 10 kΩ resistor?",
+      "answer_a": "14.34 MHz",
+      "answer_b": "143.4 MHz",
+      "answer_c": "1.434 MHz",
+      "answer_d": "143.4 kHz"
+    },
+    "AD210": {
+      "question": "What is the resonant frequency $f_{\\textrm{res}}$ of a 100 μH inductor connected in series with a 0.01 μF capacitor and a 100 Ω resistor?",
+      "answer_a": "159 kHz",
+      "answer_b": "15.9 kHz",
+      "answer_c": "1.59 kHz",
+      "answer_d": "1590 kHz"
+    },
+    "AD209": {
+      "question": "What is the resonant frequency $f_{\\textrm{res}}$ of a 10 μH inductor connected in series with a 1 nF capacitor and a 0.1 kΩ resistor?",
+      "answer_a": "1.592 MHz",
+      "answer_b": "159.2 kHz",
+      "answer_c": "15.92 MHz",
+      "answer_d": "15.92 kHz"
+    },
+    "AD208": {
+      "question": "What is the resonant frequency $f_{\\textrm{res}}$ of a 1.2 μH inductor connected in series with a 6.8 pF capacitor and a 10 Ω resistor?",
+      "answer_a": "55.7 MHz",
+      "answer_b": "5.57 MHz",
+      "answer_c": "557 MHz",
+      "answer_d": "557 kHz"
+    },
+    "AD207": {
+      "question": "At the resonant frequency, the impedance of this circuit is ...",
+      "answer_a": "equal to the resistance $R$.",
+      "answer_b": "infinitely high.",
+      "answer_c": "equal to the capacitive reactance $X_{\\textrm{C}}$.",
+      "answer_d": "equal to the inductive reactance $X_{\\textrm{L}}$."
+    },
+    "AD206": {
+      "question": "Which condition is met at resonance when an inductance and a capacitance are connected in series?",
+      "answer_a": "The magnitude of the inductive reactance is then equal to the magnitude of the capacitive reactance.",
+      "answer_b": "The magnitude of the loss resistance of the inductor is then equal to the magnitude of the loss resistance of the capacitor.",
+      "answer_c": "The magnitude of the electric field in the inductor is then equal to the magnitude of the electric field in the capacitor.",
+      "answer_d": "The magnitude of the magnetic field in the inductor is then equal to the magnitude of the magnetic field in the capacitor."
+    },
+    "AD205": {
+      "question": "Which of the following descriptions applies to this circuit, and what is it called?",
+      "answer_a": "It is a band-pass filter. Frequencies above the upper cut-off frequency and frequencies below the lower cut-off frequency are attenuated. It passes only a certain frequency range.",
+      "answer_b": "It is a high-pass filter. Frequencies below the cut-off frequency are attenuated, those above the cut-off frequency are passed.",
+      "answer_c": "It is a low-pass filter. Frequencies above the cut-off frequency are attenuated, those below the cut-off frequency are passed.",
+      "answer_d": "It is a band-stop filter. Frequencies above the upper cut-off frequency and frequencies below the lower cut-off frequency are passed. It attenuates only a certain frequency range."
+    },
+    "AD204": {
+      "question": "Which tuned circuit matches the impedance curve shown next to the circuit?"
+    },
+    "AD203": {
+      "question": "Where does the cut-off frequency of the audio amplifier lie if $R_{1}$ = 4.7 \\kiloOhm, $C_1$ = 6.8 nF and $C_2$ = 47 nF? The amplifier has a cut-off frequency of 1 MHz, and the input at pin 2 has a very high impedance of 1 MΩ.",
+      "answer_a": "Approx. 5 kHz",
+      "answer_b": "Approx. 720 Hz",
+      "answer_c": "Approx. 2.7 kHz",
+      "answer_d": "Approx. 294 Hz"
+    },
+    "AD202": {
+      "question": "What is the cut-off frequency of a low-pass filter with a 10 kΩ resistor and a 47 nF capacitor?",
+      "answer_a": "339 Hz",
+      "answer_b": "3.39 kHz",
+      "answer_c": "339 kHz",
+      "answer_d": "33.9 Hz"
+    },
+    "AD201": {
+      "question": "What is the cut-off frequency of a high-pass filter with a 4.7 kΩ resistor and a 2.2 nF capacitor?",
+      "answer_a": "15.4 kHz",
+      "answer_b": "1.54 kHz",
+      "answer_c": "154 kHz",
+      "answer_d": "154 Hz"
+    },
+    "ED216": {
+      "question": "Which capacitors should preferably be used in RF filters?",
+      "answer_a": "Ceramic or air-spaced capacitors",
+      "answer_b": "Aluminium electrolytic capacitors",
+      "answer_c": "Tantalum electrolytic capacitors",
+      "answer_d": "Film capacitors"
+    },
+    "ED215": {
+      "question": "What does the following circuit represent?",
+      "answer_a": "Acceptor circuit",
+      "answer_b": "Rejector circuit",
+      "answer_c": "Band-pass filter",
+      "answer_d": "Low-pass filter"
+    },
+    "ED214": {
+      "question": "What does the following circuit represent?",
+      "answer_a": "Rejector circuit",
+      "answer_b": "Acceptor circuit",
+      "answer_c": "Band-pass filter",
+      "answer_d": "Low-pass filter"
+    },
+    "ED213": {
+      "question": "Which circuit is a high-pass filter?"
+    },
+    "ED212": {
+      "question": "What does the following circuit represent?",
+      "answer_a": "High-pass filter",
+      "answer_b": "Rejector circuit",
+      "answer_c": "Band-pass filter",
+      "answer_d": "Low-pass filter"
+    },
+    "ED211": {
+      "question": "What does the following circuit represent?",
+      "answer_a": "High-pass filter",
+      "answer_b": "Rejector circuit",
+      "answer_c": "Band-pass filter",
+      "answer_d": "Low-pass filter"
+    },
+    "ED210": {
+      "question": "Which circuit could be used for low-pass filtering in a microphone amplifier?"
+    },
+    "ED209": {
+      "question": "What does the following circuit represent?",
+      "answer_a": "Low-pass filter",
+      "answer_b": "Rejector circuit",
+      "answer_c": "Band-pass filter",
+      "answer_d": "High-pass filter"
+    },
+    "ED208": {
+      "question": "What does the following circuit represent?",
+      "answer_a": "Low-pass filter",
+      "answer_b": "Rejector circuit",
+      "answer_c": "Band-pass filter",
+      "answer_d": "High-pass filter"
+    },
+    "ED207": {
+      "question": "How does a parallel tuned circuit behave at its resonant frequency?",
+      "answer_a": "Like a high resistance.",
+      "answer_b": "Like a low resistance.",
+      "answer_c": "Like a capacitor with a very small capacitance.",
+      "answer_d": "Like an inductor with a very large inductance."
+    },
+    "ED206": {
+      "question": "The impedance-versus-frequency response shown in the following picture is typical of ...",
+      "answer_a": "a parallel tuned circuit.",
+      "answer_b": "a capacitor.",
+      "answer_c": "an inductor.",
+      "answer_d": "a series tuned circuit."
+    },
+    "ED205": {
+      "question": "The impedance-versus-frequency response shown in the following picture is typical of ...",
+      "answer_a": "a series tuned circuit.",
+      "answer_b": "a parallel tuned circuit.",
+      "answer_c": "an inductance.",
+      "answer_d": "a capacitance."
+    },
+    "ED204": {
+      "question": "What is the filter response shown called?",
+      "answer_a": "Band-stop filter",
+      "answer_b": "Band-pass filter",
+      "answer_c": "Low-pass filter",
+      "answer_d": "High-pass filter"
+    },
+    "ED203": {
+      "question": "What is the filter response shown called?",
+      "answer_a": "Band-pass filter",
+      "answer_b": "Band-stop filter",
+      "answer_c": "High-pass filter",
+      "answer_d": "Low-pass filter"
+    },
+    "ED202": {
+      "question": "What is the filter response shown called?",
+      "answer_a": "High-pass filter",
+      "answer_b": "Low-pass filter",
+      "answer_c": "Band-pass filter",
+      "answer_d": "Band-stop filter"
+    },
+    "ED201": {
+      "question": "What is the filter response shown called?",
+      "answer_a": "Low-pass filter",
+      "answer_b": "High-pass filter",
+      "answer_c": "Band-pass filter",
+      "answer_d": "Band-stop filter"
+    },
+    "AD325": {
+      "question": "What must be taken into account when dimensioning the inductor in the bias tee shown?",
+      "answer_a": "Current rating",
+      "answer_b": "Voltage rating",
+      "answer_c": "Temperature coefficient",
+      "answer_d": "Q factor"
+    },
+    "AD324": {
+      "question": "What is the purpose of $C_1$ in the bias tee shown?",
+      "answer_a": "To keep the DC voltage away from the receiver input.",
+      "answer_b": "To smooth the DC voltage.",
+      "answer_c": "To isolate the RX and the LNA from each other at RF.",
+      "answer_d": "To improve the low-pass behaviour."
+    },
+    "AD323": {
+      "question": "What does the following circuit represent?",
+      "answer_a": "Bias tee",
+      "answer_b": "Band-stop filter",
+      "answer_c": "Pi filter",
+      "answer_d": "Mains filter"
+    },
+    "AD322": {
+      "question": "What is a bias tee (remote DC feed) used for?",
+      "answer_a": "To supply a DC voltage and carry an RF signal over a common line.",
+      "answer_b": "To distribute the DC voltage to two different devices.",
+      "answer_c": "To distribute an RF signal to two outputs.",
+      "answer_d": "To carry two different DC voltages over a common line."
+    },
+    "AD321": {
+      "question": "What is the efficiency $\\left(\\eta = \\dfrac{P_{\\textrm{L}}}{P_{\\textrm{IN}}}\\right)$ of the voltage stabiliser shown if a current $I_{\\textrm{L}}$ = 10 mA flows through the load resistor $R_{\\textrm{L}}$ = 470 Ω and a current $I_{\\textrm{Z}}$ = 15 mA flows through the Zener diode?",
+      "answer_a": "0.14",
+      "answer_b": "0.34",
+      "answer_c": "0.17",
+      "answer_d": "0.21"
+    },
+    "AD320": {
+      "question": "A linear voltage regulator stabilises an input voltage of 13.8 V to an output voltage of 5 V. The input current is 455 mA and the output current is 450 mA. What is the efficiency?",
+      "answer_a": "0.36",
+      "answer_b": "0.99",
+      "answer_c": "0.56",
+      "answer_d": "0.64"
+    },
+    "AD319": {
+      "question": "A linear voltage regulator stabilises an input voltage of 13.8 V to an output voltage of 9 V. The output current is 900 mA. What is the power dissipation in the voltage regulator?",
+      "answer_a": "4.32 W",
+      "answer_b": "8.10 W",
+      "answer_c": "12.42 W",
+      "answer_d": "1.53 W"
+    },
+    "AD318": {
+      "question": "What is the power dissipation in the linear voltage regulator IC1?",
+      "answer_a": "4.4 W",
+      "answer_b": "2.5 W",
+      "answer_c": "7.9 W",
+      "answer_d": "5.0 W"
+    },
+    "AD317": {
+      "question": "In this circuit with a 12 V fixed voltage regulator, the input voltage fluctuates between 15 V and 18 V. How large is the voltage fluctuation at the output?",
+      "answer_a": "The voltage fluctuation is almost zero volts.",
+      "answer_b": "The voltage fluctuation is approx. 3 V.",
+      "answer_c": "The voltage fluctuation is approx. 0.7 V.",
+      "answer_d": "The voltage fluctuation is between 0.7 V and 3 V."
+    },
+    "AD316": {
+      "question": "What relationship must there be between the input voltage and the output voltage of the following circuit for the linear voltage regulator IC1 to produce a stabilised output voltage?",
+      "answer_a": "The input voltage must be greater than the desired output voltage.",
+      "answer_b": "The input voltage must be equal to the desired output voltage.",
+      "answer_c": "The input voltage must be at least twice the desired output voltage.",
+      "answer_d": "The input voltage must be less than the desired output voltage."
+    },
+    "AD315": {
+      "question": "If the following signal is applied to the input of the circuit shown, the output voltage between A and B is approximately ...",
+      "answer_a": "5 V.",
+      "answer_b": "11.2 V.",
+      "answer_c": "6.2 V.",
+      "answer_d": "5.6 V."
+    },
+    "AD314": {
+      "question": "Which of the circuits shown could be fitted in the mains input of a switch-mode power supply to reduce the spread of interference into the mains?"
+    },
+    "AD313": {
+      "question": "Unwanted signals are observed in an amateur radio receiver about every 120 kHz. This is probably due to ...",
+      "answer_a": "unwanted radiation from a switch-mode power supply.",
+      "answer_b": "a poorly suppressed brush motor.",
+      "answer_c": "unwanted radiation from a linear power supply.",
+      "answer_d": "an amateur station with inadequate antenna matching."
+    },
+    "AD312": {
+      "question": "What is the main disadvantage of the switch-mode power supply shown?",
+      "answer_a": "The electronic switch in block E produces an unwanted signal spectrum.",
+      "answer_b": "The transformer causes high losses.",
+      "answer_c": "The bridge rectifier produces a voltage with ripple.",
+      "answer_d": "The diode at the output has to rectify high frequencies."
+    },
+    "AD311": {
+      "question": "What function does the electronic switch (block E) of the switch-mode power supply perform?",
+      "answer_a": "Pulse-width modulator",
+      "answer_b": "Surge arrester",
+      "answer_c": "Rectifier",
+      "answer_d": "Pulse rectifier"
+    },
+    "AD310": {
+      "question": "What is the fundamental frequency of the output voltage of a full-wave rectifier connected to a 50 Hz supply?",
+      "answer_a": "100 Hz",
+      "answer_b": "50 Hz",
+      "answer_c": "25 Hz",
+      "answer_d": "200 Hz"
+    },
+    "AD309": {
+      "question": "The following picture shows the voltage at the output of a power supply. The ripple and the hum frequency are ...",
+      "answer_a": "3 V; 100 Hz",
+      "answer_b": "3 V; 50 Hz",
+      "answer_c": "13.5 V ±1.5 V; 50 Hz",
+      "answer_d": "13.5 V ±1.5 V; 100 Hz"
+    },
+    "AD308": {
+      "question": "What is the waveform of the output voltage of the circuit shown?"
+    },
+    "AD307": {
+      "question": "Which rectifier circuit produces full-wave rectification with the polarity shown?"
+    },
+    "AD306": {
+      "question": "What is the voltage across the smoothing capacitor $C_{\\textrm{S}}$ with no load connected, when the 230 V AC mains voltage is applied and the turns ratio is 8:1?",
+      "answer_a": "About 40 V",
+      "answer_b": "About 20 V",
+      "answer_c": "About 29 V",
+      "answer_d": "About 58 V"
+    },
+    "AD305": {
+      "question": "Which of the following answer options shows the correct diode arrangement and polarity of a bridge rectifier?"
+    },
+    "AD304": {
+      "question": "With a transformation ratio of 5:1, the voltage rating of the diode in this circuit (maximum voltage plus a 20 % safety margin) should be no less than ...",
+      "answer_a": "156 V.",
+      "answer_b": "78 V.",
+      "answer_c": "90 V.",
+      "answer_d": "130 V."
+    },
+    "AD303": {
+      "question": "What is the minimum voltage rating to choose for the capacitor if the transformation ratio is 20:1 and a safety margin of 50 % on the voltage rating is to be allowed for?",
+      "answer_a": "25 V",
+      "answer_b": "16 V",
+      "answer_c": "35 V",
+      "answer_d": "10 V"
+    },
+    "AD302": {
+      "question": "Calculate the open-circuit voltage at terminals A - B for this circuit.",
+      "answer_a": "Approx. 21 V",
+      "answer_b": "Approx. 15 V",
+      "answer_c": "Approx. 30 V",
+      "answer_d": "Approx. 42 V"
+    },
+    "AD301": {
+      "question": "A photovoltaic module consists of four strings connected in parallel, each of 30 solar cells, and each cell has an open-circuit voltage of 0.6 V and a short-circuit current of 1 A. What open-circuit voltage and what short-circuit current does the module deliver?",
+      "answer_a": "Open-circuit voltage: 18 V, short-circuit current: 4 A",
+      "answer_b": "Open-circuit voltage: 18 V, short-circuit current: 30 A",
+      "answer_c": "Open-circuit voltage: 2.4 V, short-circuit current: 4 A",
+      "answer_d": "Open-circuit voltage: 2.4 V, short-circuit current: 30 A"
+    },
+    "ED304": {
+      "question": "What is the waveform of the voltage $U$?"
+    },
+    "ED303": {
+      "question": "What is the main disadvantage of a switch-mode power supply?",
+      "answer_a": "A switch-mode power supply can generate RF interference.",
+      "answer_b": "A switch-mode power supply has low efficiency.",
+      "answer_c": "A switch-mode power supply cannot deliver such high currents.",
+      "answer_d": "A switch-mode power supply has high losses."
+    },
+    "ED302": {
+      "question": "What are the characteristics of a switch-mode power supply?",
+      "answer_a": "High efficiency, low weight, small volume.",
+      "answer_b": "Low efficiency, low weight, small volume.",
+      "answer_c": "High efficiency, high weight, small volume.",
+      "answer_d": "High efficiency, low weight, large volume."
+    },
+    "ED301": {
+      "question": "What characteristics should DC voltage sources have?",
+      "answer_a": "DC voltage sources should have high voltage stability under load.",
+      "answer_b": "DC voltage sources should have low voltage stability under load.",
+      "answer_c": "DC voltage sources should raise the voltage under load.",
+      "answer_d": "DC voltage sources should have an AC component under load."
+    },
+    "ND110": {
+      "question": "What must be observed when using rechargeable and non-rechargeable batteries?",
+      "answer_a": "A short circuit must be avoided.",
+      "answer_b": "They must be used in pairs.",
+      "answer_c": "They must be operated with a minimum discharge current.",
+      "answer_d": "They should always be fully discharged."
+    },
+    "ND109": {
+      "question": "What connection does the earthing contact in an earthed plug (Schuko plug) make?",
+      "answer_a": "Connection to the PE conductor of the socket",
+      "answer_b": "Connection between the PE and N conductors in the socket",
+      "answer_c": "Connection to the N conductor of the socket",
+      "answer_d": "Connection to the L conductor of the socket"
+    },
+    "ND108": {
+      "question": "Which safety features are provided in high-quality DC power supply units?",
+      "answer_a": "Short-circuit current limiting and thermal shutdown",
+      "answer_b": "Automatic earthing of the DC output in the event of a short circuit",
+      "answer_c": "Overvoltage reduction to the maximum short-circuit current",
+      "answer_d": "Voltage stabilisation in the event of a short circuit"
+    },
+    "ND107": {
+      "question": "What can be the consequence of reversing the polarity of the lead from the power supply to the transceiver?",
+      "answer_a": "Damage to the radio",
+      "answer_b": "Distortion of the transmitted signal",
+      "answer_c": "Failure of the backup battery in the transceiver",
+      "answer_d": "Distortion of the received signal"
+    },
+    "ND106": {
+      "question": "What needs particular attention when connecting a DC power supply unit to a transceiver?",
+      "answer_a": "Connecting the power supply lead to the transceiver with the correct polarity",
+      "answer_b": "Correct polarity of the Schuko plug",
+      "answer_c": "Correct connection to the antenna",
+      "answer_d": "Connecting the SWR meter with the correct polarity"
+    },
+    "ND105": {
+      "question": "How are the terminals of a 13.8 V DC supply marked?",
+      "answer_a": "Positive terminal red, negative terminal black",
+      "answer_b": "Positive terminal blue, negative terminal red",
+      "answer_c": "Positive terminal black, negative terminal green-yellow",
+      "answer_d": "Positive terminal brown, negative terminal green-yellow"
+    },
+    "ND104": {
+      "question": "Why does the supply lead from the external power supply unit to the transceiver have two conductors?",
+      "answer_a": "So that the circuit can be completed through the transceiver.",
+      "answer_b": "So that current can flow to the transceiver from both poles of the power supply unit.",
+      "answer_c": "The transceiver uses one conductor; the other conductor is used for earthing.",
+      "answer_d": "So that the voltage drop does not become too large."
+    },
+    "ND103": {
+      "question": "Why does the supply lead from the DC power supply unit to the transceiver have two conductors?",
+      "answer_a": "The current flows out along one conductor and back along the other.",
+      "answer_b": "The current flows into both conductors and returns to the power supply unit via earth.",
+      "answer_c": "So that more current can flow in total.",
+      "answer_d": "The current flows out of both conductors and returns to the power supply unit via earth."
+    },
+    "ND102": {
+      "question": "What voltage does a power supply unit for a mobile transceiver usually deliver?",
+      "answer_a": "Approx. 13.8 V DC",
+      "answer_b": "Approx. 230 V DC",
+      "answer_c": "Approx. 13.8 V AC",
+      "answer_d": "Approx. 230 V AC"
+    },
+    "ND101": {
+      "question": "A mobile transceiver is connected to a power supply unit. What is the job of the power supply unit?",
+      "answer_a": "Producing a DC voltage from the 230 V AC mains.",
+      "answer_b": "Producing an AC voltage from a DC voltage.",
+      "answer_c": "Stabilising the 230 V AC voltage.",
+      "answer_d": "Providing an internet connection to the radio."
+    },
+    "AD433": {
+      "question": "Which module should be used to limit the audio bandwidth of a microphone amplifier?",
+      "answer_a": "Band-pass filter",
+      "answer_b": "Notch filter",
+      "answer_c": "High-pass filter",
+      "answer_d": "Amplitude limiter"
+    },
+    "AD432": {
+      "question": "What is the cause of self-oscillation in an amplifier?",
+      "answer_a": "Coupling between output and input",
+      "answer_b": "Insufficient gain",
+      "answer_c": "Excessive ripple on the power supply",
+      "answer_d": "Inadequate regulation of the power supply"
+    },
+    "AD431": {
+      "question": "What characteristic does a linear amplifier have?",
+      "answer_a": "The waveform at the output corresponds to the waveform at the input.",
+      "answer_b": "It is suitable only for sinusoidal signals.",
+      "answer_c": "The phase relationship between input and output is always 180 °.",
+      "answer_d": "The amplitude at the output equals the amplitude at the input."
+    },
+    "AD430": {
+      "question": "An RF amplifier is connected to a 12.5 V DC supply. When the RF output power of the amplifier is 90 W, the ammeter connected to the power supply reads 16 A. The efficiency of the amplifier is ...",
+      "answer_a": "45 %.",
+      "answer_b": "55 %.",
+      "answer_c": "100 %.",
+      "answer_d": "222 %."
+    },
+    "AD429": {
+      "question": "A driver stage of an RF amplifier needs an input power of 1 W to deliver 10 W at its output to the output stage. To do so it requires a DC power of 25 W. What is the efficiency of the driver stage?",
+      "answer_a": "40 %",
+      "answer_b": "25 %",
+      "answer_c": "15 %",
+      "answer_d": "10 %"
+    },
+    "AD428": {
+      "question": "A power amplifier raises an input power of 2.5 W to an output power of 38 W. This corresponds to a power gain of ...",
+      "answer_a": "11.8 dB.",
+      "answer_b": "15.2 dB.",
+      "answer_c": "17.7 dB.",
+      "answer_d": "23.6 dB."
+    },
+    "AD427": {
+      "question": "An AF amplifier raises an input voltage of 1 mV to an output voltage of 4 mV. The input and output resistances are equal. What is the voltage gain of the amplifier?",
+      "answer_a": "12 dB",
+      "answer_b": "3 dB",
+      "answer_c": "6 dB",
+      "answer_d": "9 dB"
+    },
+    "AD426": {
+      "question": "An RF power amplifier has a gain of 16 dB. What RF output power is to be expected if the amplifier is driven with 1 W of RF input power?",
+      "answer_a": "40 W",
+      "answer_b": "80 W",
+      "answer_c": "16 W",
+      "answer_d": "20 W"
+    },
+    "AD425": {
+      "question": "An RF power amplifier in class C operation is run with a drain voltage of 50 V and a drain current of 2 A. What output power can be expected from the amplifier?",
+      "answer_a": "$\\approx$ 85 W",
+      "answer_b": "$\\approx$ 70 W",
+      "answer_c": "$\\approx$ 60 W",
+      "answer_d": "$\\approx$ 40 W"
+    },
+    "AD424": {
+      "question": "An RF power amplifier in class A operation is run with a drain voltage of 50 V and a drain current of 2 A. What output power can be expected from the amplifier?",
+      "answer_a": "$\\approx$ 40 W",
+      "answer_b": "$\\approx$ 85 W",
+      "answer_c": "$\\approx$ 60 W",
+      "answer_d": "$\\approx$ 75 W"
+    },
+    "AD423": {
+      "question": "If a linear RF power amplifier in class AB operation is overdriven by an SSB signal, this leads to ...",
+      "answer_a": "splatter on adjacent frequencies.",
+      "answer_b": "parasitic oscillations of the amplifier.",
+      "answer_c": "jumps in the transmit frequency.",
+      "answer_d": "chirp in the transmitted signal."
+    },
+    "AD422": {
+      "question": "At which operating point can an RF power amplifier for an SSB transmitter be operated?",
+      "answer_a": "Class A, AB or B operation",
+      "answer_b": "Class AB, B or C operation",
+      "answer_c": "Class B or C operation",
+      "answer_d": "Class A, AB, B or C operation"
+    },
+    "AD421": {
+      "question": "What are the characteristics of an RF power amplifier in class C operation?",
+      "answer_a": "Efficiency 80 to 87 %, high harmonic content, the quiescent current is zero.",
+      "answer_b": "Efficiency up to 70 %, low harmonic content, low to medium quiescent current.",
+      "answer_c": "Efficiency up to 80 %, low harmonic content, very low quiescent current.",
+      "answer_d": "Efficiency approx. 40 %, very low harmonic content, high quiescent current."
+    },
+    "AD420": {
+      "question": "What are the characteristics of an RF power amplifier in class B operation?",
+      "answer_a": "Efficiency up to 80 %, low harmonic content, very low quiescent current.",
+      "answer_b": "Efficiency up to 70 %, low harmonic content, low to medium quiescent current.",
+      "answer_c": "Efficiency approx. 40 %, very low harmonic content, high quiescent current.",
+      "answer_d": "Efficiency 80 to 87 %, high harmonic content, the quiescent current is zero."
+    },
+    "AD419": {
+      "question": "What are the characteristics of an RF power amplifier in class A operation?",
+      "answer_a": "Efficiency approx. 40 %, very low harmonic content, high quiescent current.",
+      "answer_b": "Efficiency up to 70 %, low harmonic content, low to medium quiescent current.",
+      "answer_c": "Efficiency up to 80 %, low harmonic content, very low quiescent current.",
+      "answer_d": "Efficiency 80 to 87 %, high harmonic content, the quiescent current is zero."
+    },
+    "AD418": {
+      "question": "What is the order of magnitude of the quiescent current of an RF power amplifier in class C operation?",
+      "answer_a": "Zero amperes",
+      "answer_b": "About 10 to 20 % of the current at rated power",
+      "answer_c": "About 70 to 80 % of the current at rated power",
+      "answer_d": "Almost 100 % of the current at rated power"
+    },
+    "AD417": {
+      "question": "How does the collector current of an NPN transistor in a class B RF amplifier stage behave when the base-emitter voltage is increased?",
+      "answer_a": "It increases considerably.",
+      "answer_b": "It decreases slightly.",
+      "answer_c": "It remains constant.",
+      "answer_d": "It decreases considerably."
+    },
+    "AD416": {
+      "question": "The following picture shows an idealised transfer characteristic of a transistor with four operating points $\\text{AP}_1$ to $\\text{AP}_4$ marked on it. Which operating point corresponds to which amplifier class?",
+      "answer_a": "$\\text{AP}_1$ corresponds to class C, $\\text{AP}_2$ corresponds to class B, $\\text{AP}_3$ corresponds to class AB, $\\text{AP}_4$ corresponds to class A.",
+      "answer_b": "$\\text{AP}_1$ is not a suitable amplifier operating point, $\\text{AP}_2$ corresponds to class C, $\\text{AP}_3$ corresponds to class B, $\\text{AP}_4$ corresponds to class A.",
+      "answer_c": "$\\text{AP}_1$ is not a suitable amplifier operating point, $\\text{AP}_2$ corresponds to class A, $\\text{AP}_3$ corresponds to class B, $\\text{AP}_4$ corresponds to class C.",
+      "answer_d": "$\\text{AP}_1$ corresponds to class A, $\\text{AP}_2$ corresponds to class AB, $\\text{AP}_3$ corresponds to class B, $\\text{AP}_4$ corresponds to class C."
+    },
+    "AD415": {
+      "question": "The following common-emitter circuit is operated without the emitter capacitor. To approximately what value does the voltage gain fall?",
+      "answer_a": "10",
+      "answer_b": "1/10",
+      "answer_c": "1",
+      "answer_d": "0"
+    },
+    "AD414": {
+      "question": "How does the voltage gain of the following circuit change if capacitor $C_1$ is removed?",
+      "answer_a": "It decreases.",
+      "answer_b": "It remains constant.",
+      "answer_c": "It increases.",
+      "answer_d": "It falls to zero."
+    },
+    "AD413": {
+      "question": "What is the function of capacitor $C_1$ in the following circuit? It is used for ...",
+      "answer_a": "maximising the AC voltage gain.",
+      "answer_b": "reducing the AC voltage gain.",
+      "answer_c": "stabilising the operating point of the transistor.",
+      "answer_d": "setting the bias at the emitter."
+    },
+    "AD412": {
+      "question": "What is the function of capacitors $C_1$ and $C_2$ in the following circuit? They are used for ...",
+      "answer_a": "AC coupling and DC blocking.",
+      "answer_b": "setting the upper cut-off frequency.",
+      "answer_c": "producing the required phase shift.",
+      "answer_d": "boosting low-frequency signal components."
+    },
+    "AD411": {
+      "question": "What is the function of resistors $R_1$ and $R_2$ in the following circuit? They are used for ...",
+      "answer_a": "setting the base bias.",
+      "answer_b": "preventing phase reversals.",
+      "answer_c": "preventing self-oscillation.",
+      "answer_d": "setting the negative feedback."
+    },
+    "AD410": {
+      "question": "What can be said about the AC voltage gain $v_U$ and the phase shift $\\varphi$ between the output and input voltages of this circuit?",
+      "answer_a": "$v_U$ is large (e.g. 100 ... 300) and $\\varphi = 180 °$.",
+      "answer_b": "$v_U$ is large (e.g. 100 ... 300) and $\\varphi = 0 °$.",
+      "answer_c": "$v_U$ is small (e.g. 0.9 ... 0.98) and $\\varphi = 180 °$.",
+      "answer_d": "$v_U$ is small (e.g. 0.9 ... 0.98) and $\\varphi = 0 °$."
+    },
+    "AD409": {
+      "question": "This circuit is ...",
+      "answer_a": "a common-emitter amplifier.",
+      "answer_b": "an amplifier used as an emitter follower.",
+      "answer_c": "a common-collector amplifier.",
+      "answer_d": "an amplifier for DC voltage."
+    },
+    "AD408": {
+      "question": "The signal $U_{\\textrm{E}}$ is applied to the input of the following circuit. In which answer are all the signals shown assigned with the correct phase?"
+    },
+    "AD407": {
+      "question": "What phase shift occurs between the sinusoidal input and output voltages of a common-emitter transistor amplifier?",
+      "answer_a": "180 °",
+      "answer_b": "90 °",
+      "answer_c": "0 °",
+      "answer_d": "270 °"
+    },
+    "AD406": {
+      "question": "The following signal is applied to the input of this circuit. Which is a possible output signal $U_{\\textrm{A}}$?"
+    },
+    "AD405": {
+      "question": "What phase shift occurs between the sinusoidal input and output voltages of a common-collector transistor amplifier?",
+      "answer_a": "0 °",
+      "answer_b": "90 °",
+      "answer_c": "180 °",
+      "answer_d": "270 °"
+    },
+    "AD404": {
+      "question": "Among other things, this circuit can be used as ...",
+      "answer_a": "a buffer stage between oscillator and load.",
+      "answer_b": "a voltage amplifier with high gain.",
+      "answer_c": "a phase inverter stage.",
+      "answer_d": "a frequency multiplier."
+    },
+    "AD403": {
+      "question": "The output impedance of this circuit is ...",
+      "answer_a": "very low compared with the input impedance.",
+      "answer_b": "approximately equal to the input impedance, and low.",
+      "answer_c": "very high compared with the input impedance.",
+      "answer_d": "approximately equal to the input impedance, and high."
+    },
+    "AD402": {
+      "question": "What can be said about the AC voltage gain $v_U$ and the phase shift $\\varphi$ between the output and input voltages of this circuit?",
+      "answer_a": "$v_U$ is small (e.g. 0.9 ... 0.98) and $\\varphi = 0 °$.",
+      "answer_b": "$v_U$ is large (e.g. 100 ... 300) and $\\varphi = 0 °$.",
+      "answer_c": "$v_U$ is small (e.g. 0.9 ... 0.98) and $\\varphi = 180 °$.",
+      "answer_d": "$v_U$ is large (e.g. 100 ... 300) and $\\varphi = 180 °$."
+    },
+    "AD401": {
+      "question": "This circuit is ...",
+      "answer_a": "a common-collector amplifier.",
+      "answer_b": "a common-emitter amplifier.",
+      "answer_c": "a common-collector oscillator.",
+      "answer_d": "a common-emitter oscillator."
+    },
+    "ED403": {
+      "question": "What are RF power amplifiers used for?",
+      "answer_a": "Amplifying the transmitted signal",
+      "answer_b": "Modulating the transmitted signal",
+      "answer_c": "Mixing the transmitted signal",
+      "answer_d": "Filtering the transmitted signal"
+    },
+    "ED402": {
+      "question": "What kind of circuit is this?",
+      "answer_a": "AF amplifier",
+      "answer_b": "IF amplifier",
+      "answer_c": "RF amplifier",
+      "answer_d": "Tone generator"
+    },
+    "ED401": {
+      "question": "What is meant by power gain in electronics?",
+      "answer_a": "The output power is greater than the input power, and a voltage source is needed for this.",
+      "answer_b": "The output power is greater than the input power, although no voltage source is needed.",
+      "answer_c": "The output power is equal to the input power, although no voltage source is needed.",
+      "answer_d": "The output power is equal to the input power, because a voltage source is needed."
+    },
+    "AD510": {
+      "question": "Which signals are present at the output of a balanced mixer that is correctly balanced?",
+      "answer_a": "The two sidebands",
+      "answer_b": "Many mixing products",
+      "answer_c": "The reduced carrier and one sideband",
+      "answer_d": "The full carrier"
+    },
+    "AD509": {
+      "question": "What does the circuit shown make possible?",
+      "answer_a": "Deviation limiting and deviation setting in FM transceivers",
+      "answer_b": "RF level limiting and RF level setting in FM transceivers",
+      "answer_c": "The generation of amplitude modulation",
+      "answer_d": "The generation of phase modulation"
+    },
+    "AD508": {
+      "question": "This circuit is a modulator for generating ...",
+      "answer_a": "frequency-modulated signals.",
+      "answer_b": "phase-modulated signals.",
+      "answer_c": "AM signals with suppressed carrier.",
+      "answer_d": "AM signals."
+    },
+    "AD507": {
+      "question": "This circuit is ...",
+      "answer_a": "an AM modulator.",
+      "answer_b": "a USB modulator.",
+      "answer_c": "an FM modulator.",
+      "answer_d": "an LSB modulator."
+    },
+    "AD506": {
+      "question": "This circuit is ...",
+      "answer_a": "a product detector for demodulating SSB signals.",
+      "answer_b": "a slope detector for demodulating FM signals.",
+      "answer_c": "an envelope detector for demodulating AM signals.",
+      "answer_d": "a discriminator for demodulating FM signals."
+    },
+    "AD505": {
+      "question": "This circuit is ...",
+      "answer_a": "a PLL FM demodulator.",
+      "answer_b": "an SSB demodulator with a PLL-controlled BFO.",
+      "answer_c": "a PLL down-converter.",
+      "answer_d": "an AM modulator."
+    },
+    "AD504": {
+      "question": "This circuit is ...",
+      "answer_a": "a slope detector for demodulating FM signals.",
+      "answer_b": "a product detector for demodulating SSB signals.",
+      "answer_c": "a product detector for demodulating FM signals.",
+      "answer_d": "a diode detector for demodulating SSB signals."
+    },
+    "AD503": {
+      "question": "In this circuit, the terminal marked X is ...",
+      "answer_a": "the output for an AGC voltage.",
+      "answer_b": "the output for the AF signal.",
+      "answer_c": "the output for the oscillator signal.",
+      "answer_d": "the output for the IF signal."
+    },
+    "AD502": {
+      "question": "The signal shown is present at the IF input of the envelope detector. Which of the following signals appears at the point marked X in the circuit?"
+    },
+    "AD501": {
+      "question": "This circuit is ...",
+      "answer_a": "an envelope detector for demodulating AM signals.",
+      "answer_b": "an SSB modulator.",
+      "answer_c": "an FM demodulator.",
+      "answer_d": "a product detector for demodulating SSB signals."
+    },
+    "AD620": {
+      "question": "What type of frequency generation does the circuit shown use?",
+      "answer_a": "DDS (direct digital synthesis)",
+      "answer_b": "PLL (phase-locked loop)",
+      "answer_c": "VCO (voltage-controlled oscillator)",
+      "answer_d": "VFO (variable-frequency oscillator)"
+    },
+    "AD619": {
+      "question": "To measure the oscillator frequency, the probe should preferably be connected here to point ...",
+      "answer_a": "4.",
+      "answer_b": "1.",
+      "answer_c": "3.",
+      "answer_d": "2."
+    },
+    "AD618": {
+      "question": "What effect does measuring the oscillator frequency with a probe at point 3 have?",
+      "answer_a": "The oscillator frequency changes.",
+      "answer_b": "The transistor is overloaded.",
+      "answer_c": "The crystal is overloaded.",
+      "answer_d": "There is no effect."
+    },
+    "AD617": {
+      "question": "This oscillator circuit is a capacitive-feedback crystal oscillator in ...",
+      "answer_a": "common-collector configuration. The crystal oscillates at its fundamental frequency.",
+      "answer_b": "common-collector configuration. The crystal oscillates on its third overtone.",
+      "answer_c": "common-emitter configuration. The crystal is operated at parallel resonance.",
+      "answer_d": "common-emitter configuration. The crystal is operated at series resonance."
+    },
+    "AD616": {
+      "question": "What is the function of the two capacitors $C_1$ and $C_2$ in the following circuit?",
+      "answer_a": "In the LC oscillator shown, they form a capacitive potential divider for the feedback.",
+      "answer_b": "In the regenerative detector (audion) circuit shown, they provide the necessary feedback.",
+      "answer_c": "$C_1$ stabilises the base bias and $C_2$ the emitter bias.",
+      "answer_d": "$C_1$ compensates for the base-collector capacitance and $C_2$ for the base-emitter capacitance."
+    },
+    "AD615": {
+      "question": "At which point in the circuit should the RF output power be coupled out?",
+      "answer_a": "Point D",
+      "answer_b": "Point A",
+      "answer_c": "Point B",
+      "answer_d": "Point C"
+    },
+    "AD614": {
+      "question": "This circuit is ...",
+      "answer_a": "a capacitive-feedback three-point oscillator.",
+      "answer_b": "a common-collector RF amplifier.",
+      "answer_c": "a common-emitter RF amplifier.",
+      "answer_d": "a common-collector overtone oscillator."
+    },
+    "AD613": {
+      "question": "Which conditions must be met for oscillators to produce sustained (undamped) oscillations?",
+      "answer_a": "The oscillator signal observed at a point in the circuit must be amplified and phase-shifted along the signal path in the oscillator in such a way that it is fed back to the same point in phase and with at least the same amplitude.",
+      "answer_b": "The cut-off frequency of the amplifying element used must be at least equal to the oscillation frequency of the oscillator, and the resulting input signal must be returned to the input in antiphase via the feedback path.",
+      "answer_c": "The loop gain of the signal path in the oscillator must be less than 1, and the resulting oscillator signal must not be shifted in phase on the feedback path.",
+      "answer_d": "The loop gain of the signal path in the oscillator must be greater than 1, and the output signal must be shifted in phase on the feedback path so that it is returned to its starting point in antiphase."
+    },
+    "AD612": {
+      "question": "How should the DC supply of a VFO be designed to prevent the following RF power amplifier stages from acting back on it?",
+      "answer_a": "It must be well filtered and decoupled from the supply of the PA.",
+      "answer_b": "It must be coupled as directly as possible to the supply of the PA.",
+      "answer_c": "It must not be connected to the chassis lead of the PA.",
+      "answer_d": "The RF superimposed on the VFO supply by the PA must be filtered out with a high-pass filter."
+    },
+    "AD611": {
+      "question": "If RF signals are unintentionally coupled back into a VFO, this can lead to ...",
+      "answer_a": "frequency instability.",
+      "answer_b": "frequency synthesis.",
+      "answer_c": "negative feedback.",
+      "answer_d": "multipath propagation."
+    },
+    "AD610": {
+      "question": "As a rule, how should the output of an oscillator be connected?",
+      "answer_a": "It should be connected to a buffer stage.",
+      "answer_b": "It should be connected directly to an RF power amplifier.",
+      "answer_c": "It should be connected to a passive high-pass filter.",
+      "answer_d": "It should be connected to a passive notch filter."
+    },
+    "AD609": {
+      "question": "What causes \"chirp\" in Morse telegraphy?",
+      "answer_a": "Changes in the operating voltage of the oscillator during keying.",
+      "answer_b": "Changes in the amplitude of the oscillator because keying takes place in the wrong stage.",
+      "answer_c": "Edges of the keying signal that are too steep.",
+      "answer_d": "Keying the driver stage too fast."
+    },
+    "AD608": {
+      "question": "What must be ensured in the power supply of a VFO?",
+      "answer_a": "Voltage-stabilised DC supply",
+      "answer_b": "Supply taken directly from the rectifier",
+      "answer_c": "Current-stabilised DC supply",
+      "answer_d": "Stabilised AC supply"
+    },
+    "AD607": {
+      "question": "How should the VFO in a transmitter be operated so that its frequency remains stable?",
+      "answer_a": "It should be supplied with a stabilised DC voltage.",
+      "answer_b": "It should be housed in a low-loss Teflon enclosure.",
+      "answer_c": "It should be supplied with an unstabilised AC voltage.",
+      "answer_d": "It should be housed in a Pertinax enclosure."
+    },
+    "AD606": {
+      "question": "What are the characteristics of a GPSDO?",
+      "answer_a": "It has high short-term and long-term stability thanks to an external reference signal.",
+      "answer_b": "It has low short-term and high long-term stability thanks to an external reference signal.",
+      "answer_c": "It has high short-term and low long-term stability thanks to an internal reference signal.",
+      "answer_d": "It has high short-term and long-term stability thanks to an internal reference signal."
+    },
+    "AD605": {
+      "question": "Which of the oscillators listed has the greatest frequency stability?",
+      "answer_a": "OCXO",
+      "answer_b": "TCXO",
+      "answer_c": "VCO",
+      "answer_d": "XO"
+    },
+    "AD604": {
+      "question": "Which oscillator is suitable for an SSB SDR transmitter in the 3 cm band?",
+      "answer_a": "TCXO",
+      "answer_b": "VCO",
+      "answer_c": "LC oscillator",
+      "answer_d": "RC oscillator"
+    },
+    "AD603": {
+      "question": "What is a temperature-compensated crystal oscillator called?",
+      "answer_a": "TCXO",
+      "answer_b": "OCXO",
+      "answer_c": "VCO",
+      "answer_d": "VFO"
+    },
+    "AD602": {
+      "question": "A TCXO is a ...",
+      "answer_a": "temperature-compensated crystal oscillator.",
+      "answer_b": "capacitively tuned crystal oscillator.",
+      "answer_c": "temperature-compensated LC oscillator.",
+      "answer_d": "oscillator that is kept at a constant temperature."
+    },
+    "AD601": {
+      "question": "What is meant by a VCO? A VCO is a ...",
+      "answer_a": "voltage-controlled oscillator.",
+      "answer_b": "oscillator tuned by means of a variable capacitor.",
+      "answer_c": "crystal-stabilised reference oscillator.",
+      "answer_d": "variable crystal oscillator."
+    },
+    "ED507": {
+      "question": "The advantage of crystal oscillators over LC oscillators is that they ...",
+      "answer_a": "have better frequency stability.",
+      "answer_b": "have a broader resonance curve.",
+      "answer_c": "have a wider tuning range.",
+      "answer_d": "do not produce harmonics."
+    }
+  }
+}

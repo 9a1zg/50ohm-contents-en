@@ -593,6 +593,8 @@ real choice or a trap.
 | Toleranz | tolerance | |
 | Normreihe (E-Reihe) | preferred-value series (E series) | |
 | Belastbarkeit / Nennleistung | power rating | |
+| Einzelbelastbarkeit | individual power rating | ED107 |
+| Strombelastbarkeit | current rating | AD325 (inductor of a bias tee) |
 | Belastungsnennwert | power rating | EB514 |
 | Drahtwiderstand | wirewound resistor | |
 | Hochlastwiderstand / Präzisionswiderstand | high-power resistor / precision resistor | |
@@ -616,6 +618,7 @@ real choice or a trap.
 | Plattenkondensator | parallel-plate capacitor | |
 | Elektrolytkondensator (Elko) | electrolytic capacitor | |
 | Keramikkondensator / Folienkondensator / Luftkondensator | ceramic / film / air-spaced capacitor | |
+| Aluminium- / Tantal-Elektrolytkondensator | aluminium / tantalum electrolytic capacitor | |
 | Drehkondensator | variable capacitor | |
 | Styroflexkondensator | polystyrene (Styroflex) capacitor | |
 | Plattenabstand / Plattenfläche | plate spacing / plate area | |
@@ -718,6 +721,7 @@ real choice or a trap.
 | Reihen- und Parallelschaltung | series and parallel connection | |
 | Gesamtwiderstand / Gesamtkapazität | total resistance / total capacitance | |
 | Spannungsteiler (belastet / unbelastet) | potential divider (loaded / unloaded) | British *potential divider*; *voltage divider* also understood |
+| Teilspannung | partial voltage | the voltage across one resistor of a divider (ED103) |
 | Brückenschaltung / Wheatstone-Brücke | bridge circuit / Wheatstone bridge | |
 | Brückenzweig | bridge diagonal | the branch between the two dividers, where the meter sits |
 | Blindwiderstand | reactance | |
@@ -732,6 +736,9 @@ real choice or a trap.
 | Schwingkreise und Filter | tuned circuits and filters | |
 | Resonanz / Resonanzfrequenz | resonance / resonant frequency | |
 | Resonanzkurve | resonance curve | |
+| Übertragungskurve | response curve | band-pass filter curves (AD227, AD228) |
+| Impedanzfrequenzgang | impedance-versus-frequency response | ED205, ED206 |
+| Höcker- / Sattelspannung | peak / dip voltage | ripple of an over-coupled band-pass filter: "Welligkeit von 3 dB (Höcker- zu Sattelspannung)" → "a ripple of 3 dB (peak-to-dip voltage)" (AD229) |
 | Güte / Gütefaktor | Q factor; Q | |
 | Bandbreite | bandwidth | |
 | Grenzfrequenz | cut-off frequency | |
@@ -752,6 +759,7 @@ real choice or a trap.
 | Diplexer | diplexer | |
 | Kopplung (lose / kritisch / überkritisch) | coupling (loose / critical / over-critical) | |
 | Koppelkondensator | coupling capacitor | |
+| Wechselstromkopplung / Gleichspannungsentkopplung | AC coupling / DC blocking | AD412 |
 | Abblockkondensator / Entkoppelkondensator | decoupling capacitor; bypass capacitor | |
 | Strom- und Spannungsversorgung | power supplies | catalogue heading |
 | Stromversorgung / Spannungsversorgung | power supply | |
@@ -775,6 +783,9 @@ real choice or a trap.
 | Step-Up-Wandler / Step-Down-Wandler | boost converter / buck converter | |
 | Schaltfrequenz | switching frequency | |
 | Fernspeiseweiche / Bias-T | bias tee | |
+| Spannungskonstanz | voltage stability | of a DC source under load (ED301) |
+| Brummfrequenz | hum frequency | ripple frequency at a PSU output (AD309); *Restwelligkeit* stays *ripple* |
+| Überspannungsableiter | surge arrester | |
 | galvanische Trennung | galvanic isolation | |
 | Versorgungsspannung / Betriebsspannung | supply voltage / operating voltage | |
 | Verstärker | amplifier | |
@@ -792,6 +803,7 @@ real choice or a trap.
 | A-Betrieb / B-Betrieb / AB-Betrieb / C-Betrieb | class A / class B / class AB / class C operation | |
 | Gegentaktschaltung / Gegentaktendstufe | push-pull circuit / push-pull output stage | |
 | Gegenkopplung / Mitkopplung / Rückkopplung | negative feedback / positive feedback / feedback | |
+| Phasenumkehrstufe | phase inverter stage | |
 | Stromgegenkopplung / Spannungsgegenkopplung | negative current feedback / negative voltage feedback | |
 | Eingangsimpedanz / Ausgangsimpedanz | input impedance / output impedance | |
 | Eingangswiderstand / Ausgangswiderstand | input resistance / output resistance | |
@@ -806,6 +818,10 @@ real choice or a trap.
 | Eigenschwingungen / wilde Schwingungen / parasitäre Schwingungen | self-oscillation / parasitic oscillations | |
 | Oszillator | oscillator | |
 | Schwingbedingung | condition for oscillation | |
+| ungedämpfte Schwingungen | sustained (undamped) oscillations | AD613 |
+| Schleifenverstärkung | loop gain | |
+| Audion / Audionschaltung | regenerative detector (audion) | AD616 |
+| Tongenerator | tone generator | |
 | Dreipunktschaltung (Colpitts / Hartley) | three-point oscillator (Colpitts / Hartley) | |
 | LC-Oszillator | LC oscillator | |
 | Quarzoszillator | crystal oscillator | |
@@ -825,6 +841,7 @@ real choice or a trap.
 | Dämpfung | attenuation; loss | *damping* only for oscillations |
 | Modulator / Demodulator | modulator / demodulator | |
 | Mischer / Mischstufe | mixer / mixer stage | |
+| Abwärtsmischer | down-converter | "PLL-Abwärtsmischer" → "PLL down-converter" (AD505) |
 | Mischprodukt / Mischung | mixing product / mixing | |
 | Balancemischer / Ringmischer | balanced mixer / ring mixer (double-balanced mixer) | |
 | Treiber | driver | |
@@ -870,6 +887,7 @@ real choice or a trap.
 | Produktdetektor | product detector | |
 | Hüllkurvendemodulator | envelope detector | |
 | Flankendiskriminator | slope detector | |
+| Flankendemodulator / Flanken-Diskriminator | slope detector | same thing as *Flankendiskriminator*; a bare *Diskriminator* stays *discriminator* (AD504, AD506) |
 | BFO / Hilfsträgeroszillator | beat frequency oscillator (BFO) / carrier insertion oscillator | |
 | Automatische Verstärkungsregelung (AGC / AVR) / Regelspannung | automatic gain control (AGC) / AGC voltage | |
 | ALC (Automatic Level Control) | automatic level control (ALC) | |
@@ -1232,6 +1250,7 @@ real choice or a trap.
 | Störfestigkeit | immunity | |
 | Störungen elektronischer Geräte | interference to electronic equipment | |
 | Störquelle | source of interference | |
+| Bürstenmotor (schlecht entstört) | (poorly suppressed) brush motor | |
 | Ursachen / Abhilfe / Abhilfemaßnahmen | causes / remedies / remedial measures | |
 | Einstrahlung | radiated pick-up; direct pick-up | RSGB *breakthrough* for the effect on consumer equipment |
 | Einströmung | conducted pick-up (via leads) | |
@@ -1248,6 +1267,7 @@ real choice or a trap.
 | Netzspannung / Netzkabel / Netzfilter | mains voltage / mains lead / mains filter | British *lead* for a cable with plugs |
 | Steckdose | (mains) socket | not "outlet" |
 | Schutzkontaktstecker (Schuko) | Schuko plug (earthed plug) | |
+| Schutzkontakt | earthing contact | ND109: "Schutzkontakt-Stecker (Schuko-Stecker)" → "earthed plug (Schuko plug)" |
 | Schutzleiter (PE) / Außenleiter (L) / Neutralleiter (N) | protective earth conductor (PE) / line conductor (L) / neutral conductor (N) | |
 | Schutzklasse I / II | protection class I / II | |
 | Fehlerstromschutzschalter (FI / RCD) | residual current device (RCD) | British term |
@@ -1261,6 +1281,7 @@ real choice or a trap.
 | Blitzschutzsystem / Blitzschutzanlage | lightning protection system (LPS) | |
 | Blitzerdung | lightning earthing | |
 | Überspannung / Überspannungsschutz | overvoltage (surge) / surge protection | |
+| Kurzschlussstrombegrenzung / thermische Abschaltung | short-circuit current limiting / thermal shutdown | PSU safety features (ND108) |
 | statische Aufladung | static charge | |
 | Ableitwiderstand | bleeder resistor (static drain) | |
 | Berührungsspannung | touch voltage | |
@@ -1307,6 +1328,9 @@ the entries above, listed so that they are rendered the same way every time.
 | Ausgangsspannung / Eingangsspannung | output voltage / input voltage | |
 | Kollektorspannung | collector voltage | |
 | Gleichspannungsquelle / Gleichspannungsversorgung | DC voltage source / DC supply | |
+| zweipolig (Versorgungsleitung) | two-conductor; "has two conductors" | ND103, ND104 |
+| Mobilfunktransceiver / Mobilfunk-Transceiver | mobile transceiver | not *mobile phone* |
+| Masseleitung | chassis lead | AD612; cf. *Masse* → chassis (§4) |
 | Leistungsaufnahme / Stromaufnahme / Stromentnahme | power consumption (power drawn) / current drawn | |
 | häusliche Spannungsversorgung / Stromversorgung (230 V) | domestic mains supply (230 V) | |
 | Wechselspannungsverstärkung | AC voltage gain | |
