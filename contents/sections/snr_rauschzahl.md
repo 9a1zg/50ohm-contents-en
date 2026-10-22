@@ -6,7 +6,7 @@ The signal-to-noise ratio (SNR) is defined as the ratio of the wanted signal to 
 
 [question:AF227]
 
-The noise factor is often specified for RF preamplifiers. It describes the degradation of the SNR when a signal passes through this module. The noise factor is determined as the ratio of the incoming SNR value to the outgoing SNR value. It is usually converted to a logarithm and expressed in decibels ($\unit{\dB}$), as the *noise figure*. A noise factor of $\num{2}$ in linear notation corresponds to a noise figure of $\qty{3}{\dB}$ in logarithmic form.
+The noise factor is often specified for RF preamplifiers. It describes the degradation of the SNR when a signal passes through this module. The noise factor is determined as the ratio of the incoming SNR value to the outgoing SNR value. It is usually expressed logarithmically, in decibels ($\unit{\dB}$), as the *noise figure*. A noise factor of $\num{2}$ in linear notation corresponds to a noise figure of $\qty{3}{\dB}$ in logarithmic form.
 
 [question:AF228]
 [question:AF229]

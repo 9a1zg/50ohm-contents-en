@@ -1,4 +1,4 @@
-The frequency display of a receiver can also be checked. Unlike with a transmitter, however, the receive frequency set cannot normally simply be measured with a frequency counter at an output of the radio. The received RF signal is processed further early on in the receiver and, for example, converted to an intermediate frequency.
+The frequency display of a receiver can also be checked. Unlike with a transmitter, however, the receive frequency that has been set cannot normally simply be measured with a frequency counter at an output of the radio. The received RF signal is processed further early on in the receiver and, for example, converted to an intermediate frequency.
 
 To check the frequency display, therefore, a reference signal that is as accurate as possible is used. For this, a signal generator or an accurate reference oscillator of known frequency is connected to the antenna input of the receiver. The receiver is then tuned to this signal, and its frequency display is compared with the known frequency of the reference signal.
 

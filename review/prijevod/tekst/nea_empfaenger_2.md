@@ -88,3 +88,33 @@ translated and subscripts kept.
 - solutions/AA116.md — "$\frac{14,2\cdot \qty{\cancel{10^6}}{\mega\hertz}}{\cancel{10^6}}$" (twice): $14.2 \cdot 10^6$ is in hertz, not megahertz, as the slide working has it. Kept.
 - solutions/AI509.md — "$\qty{145}{\mega\hertz} - \qty{1450}{\mega\hertz}$" (and +): $\Delta f$ is 1450 Hz, as computed one line above and on the slide. Kept.
 - Typos with no effect on the English: sections/agc_2.md "bereites kennen gelernt"; sections/rauschen.md "die folgende Fragen"; sections/rit.md "eines Transceiver"; sections/squelch.md "SSB-modulierte Signalen"; sections/demodulator.md "eines sog. Hüllkurven-Demodulator"; sections/frequenzmessung_1.md the leading space before "In Abbildung" (kept as markup); picture 77 carries the ident `demodulator_pll` in the section and `a_fm_demodulation_pll` on the slide (idents never change).
+
+## Provjera
+
+Checked all 36 files against `git show a799af8~1:<file>`, paragraph by
+paragraph, and the prose against the English of the 39 embedded questions.
+Nothing dropped or added; numbers, formulas, tags and idents intact.
+`revizija-guard.py --rev a799af8~1 --brojevi`: 36 files, *struktura
+netaknuta*.
+
+Changes: omission 0, meaning 0, technical 0, style 8, glossary 0.
+
+- sections/rit.md — "would in turn receive you … change its frequency in turn" → "would then receive you on a slightly different frequency again and change its frequency in turn" (double "in turn").
+- sections/noise_reduction.md — *Diese können verschiedenste Ursachen haben* → "These can have …" (refers to noise and interference, not "this").
+- sections/rauschen.md — *die zueinander ins Verhältnis gesetzt werden* → "whose ratio is taken" (was "expressed as a ratio of one to the other").
+- sections/snr_rauschzahl.md — *mittels Logarithmierung in Dezibel dargestellt* → "expressed logarithmically, in decibels, as the *noise figure*" (was "converted to a logarithm and expressed …").
+- sections/frequenzmessung_2.md — "the receive frequency set cannot …" → "the receive frequency that has been set cannot …".
+- slides/squelch.md — *In Sendepausen* → "In the pauses between transmissions", as the section and the glossary row have it.
+- sections/ and slides/frequenzmessung_1.md — *bis auf eine bestimmte Abweichung genau einstellen* → "to within a certain tolerance" (was "deviation", which glossary §14 keeps away from frequency errors and which reads as FM deviation here).
+
+Judgement calls kept: noise factor / noise figure split and the *Rauschmaß*
+remark as German usage; squelch and notch-filter glosses dropped by the
+bracket rule; *phase control loop* inside the PLL description; "Dev." in the
+worked slides (the English questions AI506/AI507 say "deviate" /
+"deviation" for the same *Abweichung*, while the subscript `\text{Abw}`
+stays); `14.200.\qty{000}` matching AA116's "14.200.000 MHz"; "AM offers
+the simplest form of demodulation" (the slip is listed above). All 28
+glossary rows kept; no DECISIONS.md entry was added and none is needed.
+Suspected errors in the German confirmed as listed (AB409 slide sign,
+product-detector IF model, "Lange Torzeit: höhere Messgenauigkeit" against
+AI505 "resolution", MHz for Hz in AA116 and AI509).

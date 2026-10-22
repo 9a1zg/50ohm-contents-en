@@ -25,7 +25,7 @@
 ---
 
 <left>
-* Alignment instructions often require setting to within a certain deviation
+* Alignment instructions often require setting to within a certain tolerance
 * e.g. $\pm\qty{10}{\hertz}$
 * Know the place value of the digits
 * Watch the decimal point and the unit prefix or multiplier

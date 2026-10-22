@@ -19,7 +19,7 @@ The frequency $\qty{455}{\kilo\hertz}$ is common as the intermediate frequency o
 
 ---
 
-Alignment instructions often require a frequency to be set to within a certain deviation, for example $\pm\qty{10}{\hertz}$. In such cases it helps to keep the place value of the individual digits in mind. The power of ten displayed by the instrument, i.e. for $\qty{455}{\kilo\hertz}$ the value $\num{10^3}$ or $\num{1000}$, always applies to the digit directly before the decimal point. The digit to the left of it then stands for $\qty{10}{\kilo\hertz}$ or $\qty{10^4}{\hertz}$, and the digit one further to the left, the four in the example, for $\qty{100}{\kilo\hertz}$ or $\qty{10^5}{\hertz}$. To the right it goes the other way.
+Alignment instructions often require a frequency to be set to within a certain tolerance, for example $\pm\qty{10}{\hertz}$. In such cases it helps to keep the place value of the individual digits in mind. The power of ten displayed by the instrument, i.e. for $\qty{455}{\kilo\hertz}$ the value $\num{10^3}$ or $\num{1000}$, always applies to the digit directly before the decimal point. The digit to the left of it then stands for $\qty{10}{\kilo\hertz}$ or $\qty{10^4}{\hertz}$, and the digit one further to the left, the four in the example, for $\qty{100}{\kilo\hertz}$ or $\qty{10^5}{\hertz}$. To the right it goes the other way.
 
  Figure [ref:e_frequenzzaehler_stellen] shows an example with a higher frequency.
   

@@ -7,7 +7,7 @@ If the upper sideband (USB) is used and the received voice sounds too high, the 
 <indepth>
 Why would you want to shift the receive frequency slightly relative to the transmit frequency at all? Surely it should be enough for both stations to set the same frequency for transmitting and receiving. In practice, unfortunately, the actual transmit frequency of a transceiver differs slightly from the frequency set.
 
-If you now changed both the receive and the transmit frequency to correct this, the other station would in turn receive you on a slightly different frequency and then change its frequency in turn. This would go on and on, and you would "wander across the band". If you use the RIT, however, the setting ideally only has to be made once for each station you work.
+If you now changed both the receive and the transmit frequency to correct this, the other station would then receive you on a slightly different frequency again and change its frequency in turn. This would go on and on, and you would "wander across the band". If you use the RIT, however, the setting ideally only has to be made once for each station you work.
 
 As already mentioned in the chapter on modulation, slightly differing frequencies, on the other hand, are practically unnoticeable with AM or FM. Unlike SSB, these types of modulation have a carrier that can be used for demodulation.
 </indepth>

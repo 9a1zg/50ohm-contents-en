@@ -6,7 +6,7 @@
 ---
 
 <left>
-* Set the squelch during pauses in transmission so that the noise just disappears
+* In the pauses between transmissions, set the squelch so that the noise just disappears
 * If it is set too high, weak signals are blanked out
 </left>
 <right>
