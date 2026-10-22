@@ -44,7 +44,7 @@ The emitter resistor converts the current flowing through the collector-emitter 
 
 The signals are coupled in and out at the base and emitter through so-called coupling capacitors. Their job is to keep DC components that would shift the operating point away from the amplifier stage.
 
-The decoupling capacitor on the supply voltage (+) serves to divert unwanted RF and AF signals, so that feedback effects on the stage and on the supply voltage are avoided. In addition, the decoupling capacitor connects the collector, as far as the signal is concerned (for AC), to both the input and the output.
+The decoupling capacitor on the supply voltage (+) serves to divert unwanted RF and AF signals, so that feedback effects on the stage and on the supply voltage are avoided. In addition, the decoupling capacitor makes the collector, as far as the signal is concerned (for AC), common to the input and the output.
 
 With suitable design, the voltage gain of the common-collector circuit lies in the range from $\num{0.9}$ to $\num{0.98}$, and is always slightly less than $1$. 
 

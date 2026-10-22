@@ -24,7 +24,7 @@
 </left>
 <right>
 * The collector resistor converts the collector current into a voltage
-* The collector current flows on into the emitter current
+* The collector current becomes part of the emitter current
 * The emitter resistor produces a voltage drop and raises the emitter potential
 * Temperature-related changes in the collector current are compensated automatically
 </right>

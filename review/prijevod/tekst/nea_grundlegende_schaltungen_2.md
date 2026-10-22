@@ -96,3 +96,62 @@ None. The choices of note (the *Chirp* gloss, *engl. bias*, *eingerastet
 - sections/emitterschaltung.md table (also AD402, AD403, AD405) — the input impedance of the common-emitter circuit is given as "hoch", the same as the common collector's; it is usually described as medium (a few kΩ) and well below that of the common collector. Kept.
 - slides/transverter_2.md (AF502 solution) — "44,6667 MHz" where the question, AF502 and the section have 44.667 (rounding only). Kept.
 - Typos with no effect on the English: sections/oszillator_spannungsstabilitaet.md "Druchgang"; slides/oszillator_schaltungen.md "Eines der wichtigsten Schaltungen"; sections/frequenzvervielfacher_2.md missing full stop after "wie sie funktionieren", "im laufe"; sections/mischer.md "Multipliziert", "Oszilatorfrequenz"; sections/transverter_1.md caption "z. B. Für"; sections/verstaerker.md "Leicht", "i.d.R", "Sprachkommunkation"; slides/verstaerker.md caption "Amateurfunk Mikrofonverstärker"; sections/kollektorschaltung.md and emitterschaltung.md caption "Bezeichnugnen"; slides/kollektorschaltung.md "Versorgungspannung", "Ausgangsignal", "Versorungsspannung"; sections/emitterschaltung.md "Kollektor und Emitterschaltung", "zuammen", "Kollerktorwiderstand", "Kollektor-Emitter-Strecke, fließt"; slides/emitterschaltung.md "Bipoltransistor" (captions), "Ausgangsignal", "Verstärkungfaktor"; slides/transverter_2.md `f_{Osc,2}` without `\text` (markup, kept).
+
+## Provjera
+
+Checked all 44 files against `0b44d15~1` paragraph by paragraph, and the
+prose against the English AD401–AD415, AD607–AD610, AD612–AD620,
+AD701–AD705, AF301, AF311–AF314, AF501, AF502, ED401–ED403, EF201–EF206,
+EF301–EF303, EF307, EF308, EF403, EF405, EF501–EF505. Complete: nothing
+dropped or added. `revizija-guard.py --rev 0b44d15~1 --brojevi`: 44 files,
+*struktura netaknuta*.
+
+Changes: omission 0, meaning 0, technical 1, style 6, glossary 0.
+
+- Technical — sections/kollektorschaltung.md: *Zudem wird der Kollektor
+  durch den Abblockkondensator signalmäßig (für Wechselspannung) auf Ein- und
+  Ausgang gelegt* → "the decoupling capacitor makes the collector, as far as
+  the signal is concerned (for AC), common to the input and the output" (was
+  "connects the collector … to both the input and the output", which reads as
+  a short circuit between input and output; *auf Ein- und Ausgang legen* here
+  means the shared terminal, as the section's naming rule says). The slide's
+  "output is at the same potential as the input" stays as listed under
+  suspected errors.
+- Style — frequenzvervielfacher_1: harmonics falling into an amateur band
+  "is indeed what the regulatory authorities want, so as to avoid
+  interference" (was "which the regulatory authorities are quite happy
+  with", too casual for *durchaus gewünscht*).
+- Style — frequenzvervielfacher_2: *Technisch wird … realisiert* →
+  "Technically, a frequency multiplier is implemented" (was "In practice",
+  repeated two sentences later for *In der Praxis*); *Durch
+  Frequenzvervielfachung und ggf. deren Hintereinanderschaltung* →
+  "Frequency multiplication, possibly in several stages connected one after
+  the other, produces" (was an awkward "and connecting multipliers one after
+  the other where this is done, produce").
+- Style — slides/emitterschaltung: *Kollektorstrom fließt in den
+  Emitterstrom rein* → "The collector current becomes part of the emitter
+  current" (was "flows on into the emitter current").
+- Style — AD703: "the output frequency jumps by exactly $f_A$" (was "jumps
+  on by").
+- Style — AF314: the two headings *Lösungsweg 1 / 2* → "Method 1:" /
+  "Method 2:" (glossary *Lösungsweg* → solution; method): two ways to the
+  same answer, not two solutions.
+
+Judgement calls reviewed and kept: the *Chirp* gloss explained rather than
+translated back, "over" for *Durchgang*, crystal *Oberschwingungen/Obertöne*
+→ "harmonic frequencies (overtones)" / "on an overtone" (AD617), "connected
+to chassis as far as AC is concerned", the DDS index terms and *synthesiser*,
+"Comparison signal", ""locked"" with the bracket dropped, *Teilverhältnis /
+Teilerfaktor / Teilfaktor* → division ratio, "Frequencies are produced at
+the intermediate stages" (not the IF), `\textrm{Fundamental frequency}` as
+running words matching AF314, "class C amplifier", "balanced ring mixer",
+"Working:" under "Solution", transverter and converter terms, "sub-band",
+"known as splatter", "RF pick-up" (EF405), "operating point (bias)" and
+lower-case "bias", "cut off", "in antiphase", the AD703 sentence order. All
+36 new glossary rows kept; no DECISIONS.md entry was added and none is
+needed. The suspected errors in the German are confirmed as listed (SSB
+inversion "below" on the transverter_2 slide, conversion "by frequency
+multipliers", the collector-circuit output path and "same potential", 0.5 V
+vs 0.6 V, DC "from the mains voltage", "smallest selectable frequency"
+for the step, the converter "received … transmitted" example, "hoch" as the
+common-emitter input impedance, 44.6667 vs 44.667, and the typos).
