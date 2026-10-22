@@ -1,1 +1,1 @@
-Teach yourself the knowledge you need for the amateur radio examination. Our learning material will help you on your way!
+Simply teach yourself what you need to know for the amateur radio examination. Our learning material will help you on your way!

@@ -957,7 +957,7 @@
             ]
         },
         {
-            "title": "Current and voltage supply",
+            "title": "Power supplies",
             "abstract": "Radios have to be supplied with electrical voltage and current in order to work. In this chapter we learn the basics of supplying voltage and current with power supply units, batteries and rechargeable batteries. The dangers of electric current are also covered.",
             "ident": "nea_strom_spannungsversorgung",
             "video_url": null,
@@ -2098,7 +2098,7 @@
                     "video_url": "https://www.youtube.com/watch?v=iVZDwRE4cwg&t=205s"
                 },
                 {
-                    "title": "Contests",
+                    "title": "Contest",
                     "ident": "contest",
                     "status": "prod",
                     "class": "N",
@@ -2129,7 +2129,7 @@
         },
         {
             "title": "Antennas and transmission lines",
-            "abstract": "This chapter deals with everything to do with antennas and antenna cables. Besides the most important types of antenna, we cover topics such as installing antenna installations in motor vehicles, protecting people from electromagnetic radiation and safety when putting up and operating an antenna installation.",
+            "abstract": "This chapter deals with everything to do with antennas and antenna cables. Besides the most important types of antenna, we cover topics such as fitting antenna installations in motor vehicles, protecting people from electromagnetic radiation and safety when putting up and operating an antenna installation.",
             "ident": "nea_antennen_uebertragungsleitungen",
             "video_url": null,
             "sections": [

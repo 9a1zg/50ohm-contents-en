@@ -1,1 +1,1 @@
-To the course map
+Go to the course map

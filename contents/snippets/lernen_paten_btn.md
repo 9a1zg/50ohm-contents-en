@@ -1,1 +1,1 @@
-To the mentor map
+Go to the mentor map

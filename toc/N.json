@@ -501,7 +501,7 @@
         },
         {
             "title": "Antennas and feeders",
-            "abstract": "This chapter deals with everything to do with antennas and antenna cables. Besides the most important types of antenna, we cover topics such as installing antenna installations in motor vehicles, protecting people from electromagnetic radiation and safety when putting up and operating an antenna installation.",
+            "abstract": "This chapter deals with everything to do with antennas and antenna cables. Besides the most important types of antenna, we cover topics such as fitting antenna installations in motor vehicles, protecting people from electromagnetic radiation and safety when putting up and operating an antenna installation.",
             "ident": "n_antennen_und_leitungen",
             "video_url": "https://youtu.be/Oe2XpzhSVEQ?si=-WP1Hgj3uwPzsMpt",
             "sections": [
@@ -803,7 +803,7 @@
                     "video_url": "https://www.youtube.com/watch?v=iVZDwRE4cwg&t=205s"
                 },
                 {
-                    "title": "Contests",
+                    "title": "Contest",
                     "ident": "contest",
                     "status": "prod",
                     "class": "N",

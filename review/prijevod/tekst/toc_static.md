@@ -92,3 +92,31 @@ gives for applet controls is now obsolete (follow-up below).
 - html/applet_lambda_und_f.html — the slider is labelled "Periode:" although it sets the wavelength λ, as the text above it says (copied from the sine applet). Translated "Period:".
 - html/applet_rectangle.html — "Die Schalter erlauben Werte von 1 bis 500": the controls go from 1 to 499 in odd steps.
 - html/maidenhead.html — "interkativen", "Reinzoomst"; html/fourier.html — "Applett". No effect on the English.
+
+## Provjera
+
+Checked against `48a7f79~1`: all 492 distinct toc strings (titles and
+abstracts, every edition; the same German is the same English everywhere),
+the six static pages, the 20 snippets and the 28 changed applets line by
+line, and the six untouched applets and 25 empty/placeholder static files for
+visible German (none). Toc titles compared with the English slide headings
+of their sections. JSON valid; `revizija-guard.py --rev 48a7f79~1 --brojevi`:
+54 files, *struktura netaknuta*.
+
+Changes: omission 1, meaning 2, technical 0, style 3, glossary/decisions 3.
+
+- snippets/lernen_selbst_teaser — *einfach* had been dropped: "Simply teach yourself what you need to know for the amateur radio examination."
+- static/infos — "Class N technology … Class E and A technology" for *Technik Klasse N / Prüfungsteile Technik Klasse E und A* → "the Class N technical part … the technical parts for Class E and A" (they are examination parts, as in the table above); "how much technology should you learn?" → "how much technical material …".
+- static/pruefung — *Ausweis* → "identity document", not "identity card" (a passport will do as well).
+- toc (A, E, EA, NE, NEA) — *Strom- und Spannungsversorgung* "Current and voltage supply" → "Power supplies", the glossary's catalogue-heading row.
+- toc (N, NE, NEA) — *Contest* "Contests" → "Contest", the section's slide heading, as the unit's own DECISIONS.md entry requires.
+- static/infos — "10 watts EIRP … 0.5 watts … 1 watt ERP", "75 watts or 100 watts PEP", "10 watts ERP/EIRP", "750 watts PEP" → unit symbols (W), as DECISIONS.md *Units after a number*.
+- toc abstract (antennas chapter, six editions) — "installing antenna installations in motor vehicles" → "fitting antenna installations …".
+- snippets — buttons *Zur Patenkarte / Zur Lehrgangskarte* "To the mentor map / To the course map" → "Go to the mentor map / Go to the course map".
+
+Judgement calls, glossary rows and the DECISIONS.md entry: all kept as
+written. Note for the follow-up in `sections/sampling_quantisierung.md`:
+without the bracket, its "time quantisation" (German *Zeitquantisierung*,
+faithful) no longer visibly matches the applet's label "Time sampling"
+(*Zeit-Sampling*); the mismatch is the German's own, so translate as is and
+only drop the bracket.
