@@ -81,7 +81,7 @@ $\eta = \frac{P_{\mathrm{out}}}{P_{\mathrm{in}}} = \frac{U_{\mathrm{out}} \cdot 
 [picture:200:a_Festspannungsregler:Fixed voltage regulator]
 </left>
 <right>
-* Designed as an IC
+* Implemented as an IC
 * Work like linear voltage regulators, with a very accurate voltage reference and optimised electronic control
 * Even when the input side fluctuates strongly, the output side is very stable
 </right>

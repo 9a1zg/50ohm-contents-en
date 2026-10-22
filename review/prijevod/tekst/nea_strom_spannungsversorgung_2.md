@@ -67,3 +67,22 @@ bracket rule and is recorded in the glossary row.
 - sections/fernspeiseweiche.md — "Vorverstärkers (LNB)" calls an LNB (low-noise block downconverter) a preamplifier, and "Vorverstärker oder Empfangskonverter (LNA)" labels a converter as an LNA (low-noise amplifier). Kept.
 - solutions/AD319.md — "die überschüssige Spannung in Wärme umgesetzt": it is power (the excess voltage times the current) that is converted into heat. Kept.
 - Typos with no effect on the English: sections/schaltnetzteil_2.md "zum … Wechselspannungsnetzes", "Funkentstörfilter Filter" (photo 242), missing full stop after "[ref:a_EMV_Filter2]"; slides/schaltnetzteil_2.md "Netzspannungseite"; sections/spannungsstabilisierung.md "Kennline", "Festpannung", "bei Standard-Festspannungsregler", "eines Siliziumtransistor", "dadurch, indem", ident "a_diskrete_pannungsstabilisierung" (markup, kept); slides/spannungsstabilisierung.md "Linarer Spannungsregler", "linare"; sections/fernspeiseweiche.md "Spannungsverorgung" (caption), "Gleichspannungseite", "Versorgungstrom"; sections/sicherungen.md "zum auflöten".
+
+## Provjera
+
+Checked all 15 files paragraph by paragraph against the German
+(`aee23a7~1`), the embedded questions AD311–AD325 and EK204 in English, the
+14 new glossary rows and every judgement call above. Nothing dropped or
+added, numbers and formulas intact, the slips listed above confirmed and
+left as written. `revizija-guard.py --rev aee23a7~1 --brojevi`: 15 files,
+*struktura netaknuta*.
+
+Changes: omission 0, meaning 0, technical 0, style 5, glossary 1.
+
+- spannungsstabilisierung (section): *systembedingt* sentence → "The efficiency of linear voltage regulators is, by their very nature, often very low" instead of the stiff "…, by the very nature of the system"; glossary row *systembedingt* amended to "by its (their) very nature".
+- spannungsstabilisierung (slides): *Ausgelegt als IC* → "Implemented as an IC" ("Designed as an IC" reads as a design decision).
+- fernspeiseweiche (section): *DC-Seite (Gleichspannungsseite z.B. 12 V)* → "the DC side (e.g. 12 V)": the German bracket only expands DC into German, so by the bracket rule (DECISIONS.md) only the example stays; "(the DC voltage side, …)" repeated the term.
+- schaltnetzteil_2 (section): "on the side of the connection to the 230 V AC mains" → "on the side connected to the 230 V AC mains"; *Vergleiche auch* → "See also", as *vgl.* is "see" elsewhere in the unit.
+- AD319: the incomplete "Since …, :" before the formula → "Since the input and output currents of a linear voltage regulator are approximately equal, we have:" (*gilt:*).
+
+Kept: the slide bullet *Englisch: BIAS-T* → "Also called a remote DC feed" (names the other English term, as AD322's bracket does); *Masseleitung* → "chassis lead" (glossary §13, AD612); "low-dropout (LDO)" (glossary §14); "wanted RF frequency" (glossary, as §13 *Nutzfrequenz*); fuse wording aligned with netzgeraet_1. The other new glossary rows are kept as they stand.

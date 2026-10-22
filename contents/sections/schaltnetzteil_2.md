@@ -34,13 +34,13 @@ With switch-mode power supplies that are not adequately suppressed, the interfer
 
 ---
 
-To prevent interference from getting into the mains, a high-quality low-pass filter must be fitted in the switch-mode power supply on the side of the connection to the $\qty{230}{\volt}$ AC mains. The typical construction of the filter can be seen in Figure [ref:a-schaltnetzteilfilter].
+To prevent interference from getting into the mains, a high-quality low-pass filter must be fitted in the switch-mode power supply on the side connected to the $\qty{230}{\volt}$ AC mains. The typical construction of the filter can be seen in Figure [ref:a-schaltnetzteilfilter].
 
 <margin>
 [picture:367:a-schaltnetzteilfilter:Filter at the $\qty{230}{\volt}$ input of a switch-mode power supply]
 </margin>
 
-Compare also the filters in Figures [ref:a_EMV_Filter1] and [ref:a_EMV_Filter2]
+See also the filters in Figures [ref:a_EMV_Filter1] and [ref:a_EMV_Filter2]
 *Remember:* the PE conductor must not be connected to the L1 conductor or the N conductor.
 The choke T must not act as a transformer for the AC mains voltage.
 

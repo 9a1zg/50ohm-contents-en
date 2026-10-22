@@ -40,7 +40,7 @@ The power dissipation $P_V$ is the difference $P_{\mathrm{in}} - P_{\mathrm{out}
 
 [question:AD319]
 
-In linear voltage regulators the efficiency is often very low, by the very nature of the system. There is a question on this efficiency, which can be solved with the familiar formula from above, $\eta = \frac{P_{\mathrm{out}}}{P_{\mathrm{in}}}$. 
+The efficiency of linear voltage regulators is, by their very nature, often very low. There is a question on this efficiency, which can be solved with the familiar formula from above, $\eta = \frac{P_{\mathrm{out}}}{P_{\mathrm{in}}}$. 
 
 [question:AD320]
 

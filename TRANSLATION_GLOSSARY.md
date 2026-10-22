@@ -2212,7 +2212,7 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | *Merke:* | *Remember:* | as in the earlier units (stromkreis, kondensator_2) |
 | Referenzspannung / Spannungsreferenzquelle / Regelverhalten | reference voltage / voltage reference / regulation | spannungsstabilisierung; *unerwünschte Schwingungen im Regelverhalten* → the regulation "can break into unwanted oscillation" |
 | diskret aufgebaute Spannungsstabilisierung / linear geregelt | voltage stabiliser built from discrete components / linear regulated | *Spannungsstabilisierung* as a circuit → voltage stabiliser, as AD321; as a technique → voltage stabilisation (§5) |
-| systembedingt | by the very nature of the system | |
+| systembedingt | by its (their) very nature | "The efficiency of linear voltage regulators is, by their very nature, often very low" (spannungsstabilisierung) |
 | Fernspeiseweiche oder englisch BIAS-T / BIAS-T (Kurstext) | bias tee (remote DC feed) | the German's "oder englisch" gloss only gives the English term and is dropped; "(remote DC feed)" as AD322, at first mention and in the figure caption; the slide bullet *Englisch: BIAS-T* → "Also called a remote DC feed"; afterwards plain *bias tee* (fernspeiseweiche); §5 *Fernspeiseweiche / Bias-T* |
 | abgesetzter Vorverstärker / Empfangskonverter | remotely mounted preamplifier / receive converter | fernspeiseweiche |
 | Gleichspannungsversorgung(sleitung) / Versorgungsgleichspannung / DC-Anschluss / DC-Seite | DC supply (line) / DC supply voltage / DC connection / DC side | fernspeiseweiche |
