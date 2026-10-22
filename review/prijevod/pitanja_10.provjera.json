@@ -1,0 +1,32 @@
+{
+  "pitanja": {
+    "VC125": {
+      "question": "What must a radio amateur who commits an administrative offence when operating an amateur station expect?"
+    },
+    "VC120": {
+      "question": "In the case of home-built equipment, may a radio amateur deviate from the essential requirements on immunity within the meaning of the Act on the Electromagnetic Compatibility of Equipment (EMVG)?"
+    },
+    "VC119": {
+      "answer_a": "The radio amateur may deviate from the essential requirements under the Act on the Electromagnetic Compatibility of Equipment (EMVG) and can personally determine the degree of immunity of the amateur station."
+    },
+    "VD203": {
+      "answer_a": "a 2-letter prefix (country identifier), one digit and a 2- or 3-letter suffix.",
+      "answer_b": "a 2-letter suffix (country identifier), two digits and a 2- or 3-letter prefix.",
+      "answer_c": "a 1-letter prefix (country identifier), one or two digits and a 1-, 2- or 3-letter suffix.",
+      "answer_d": "a 2-letter suffix (country identifier), one digit and a 1-, 2- or 3-letter prefix."
+    },
+    "VE302": {
+      "answer_a": "You politely advise the neighbour to contact the Federal Network Agency (BNetzA) to have the cause of the interference examined."
+    },
+    "VE504": {
+      "answer_c": "The radio amateur's declaration that the power stays below the limit of 10 W EIRP",
+      "answer_d": "The radio amateur's declaration that the power does not exceed the limit of 750 W PEP"
+    },
+    "VE511": {
+      "answer_d": "The notification is the radio amateur's binding declaration that the Federal Immission Control Act (BImSchG) is complied with on the radio amateur's own responsibility."
+    },
+    "EK102": {
+      "question": "With what time reference is the field strength to be considered for compliance with the limits of the 26th Ordinance implementing the Federal Immission Control Act (Ordinance on Electromagnetic Fields, 26. BImSchV)?"
+    }
+  }
+}

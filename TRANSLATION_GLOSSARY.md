@@ -184,7 +184,7 @@ real choice or a trap.
 | Besondere Gebührenverordnung BNetzA (BNetzABGebV) | Special Fees Ordinance of the BNetzA (BNetzABGebV) | |
 | Gebühren und Beiträge | fees and contributions | |
 | Verwaltungs-Vollstreckungsgesetz | Administrative Enforcement Act | |
-| Bundes-Immissionsschutzgesetz (BImSchG) | Federal Immission Control Act (BImSchG) | as in the 26. BImSchV row (VD108, VE503, VE511) |
+| Bundes-Immissionsschutzgesetz (BImSchG) | Federal Immission Control Act (BImSchG) | as in the 26. BImSchV row (VD108, VE503, VE511); with the abbreviation also where the German leaves it out (VE511 d) |
 | Verordnung zum Gesetz über den Amateurfunk | Ordinance under the Act on Amateur Radio | the AFuV's formal title, beside *Gesetz über den Amateurfunk* (VE505) |
 | Gesetz über Funkanlagen (FuAG) | Act on Radio Equipment (FuAG) | not the FuAG's real title; translated as the German writes it (VC118) |
 | Frequenzverordnung (FreqV) / Anlage zur Frequenzverordnung | Frequency Ordinance (FreqV) / Annex to the Frequency Ordinance | VD101, VD702 |
@@ -211,7 +211,6 @@ real choice or a trap.
 | sachkundige Person | competent person | VE201, VE601 |
 | Haftpflichtversicherung / Antennenhaftpflichtversicherung / Gruppenversicherung | liability insurance / antenna liability insurance / group insurance | VE707 |
 | Grundstückseigentümer | owner of the property | VE707 |
-
 | Strafgesetzbuch (StGB) | Criminal Code (Strafgesetzbuch, StGB) | |
 | § 323c StGB (unterlassene Hilfeleistung) | Section 323c StGB (failure to render assistance) | § → "Section" in prose, "§" may stay in citations |
 | Abs. (Absatz) | para. (paragraph) / subsection | "§ 3 Abs. 1 AFuG" → "Section 3(1) AFuG" |
@@ -295,7 +294,7 @@ real choice or a trap.
 | Ziffer | digit | |
 | Suffix | suffix | the letters after the digit; see Rufzeichenzusatz |
 | Rufzeichenzusatz | call sign suffix (/p, /m, /mm, /am, /T) | Ofcom/RSGB usage; where *Suffix* and *Rufzeichenzusatz* meet in one sentence, write "the suffix /p added to the call sign" |
-| Landeskenner | country prefix | the nationality part of the call sign (RR Art. 19) |
+| Landeskenner | country prefix | the nationality part of the call sign (RR Art. 19); but **country identifier** where it glosses *Präfix* / *Suffix* (VD203): "suffix (country prefix)" would give the wrong answers away |
 | Heimatrufzeichen | home call sign | |
 | vorangestellt | placed in front; prefixed | "DL/ is prefixed" |
 | Stationsverantwortlicher / verantwortlicher Funkamateur | responsible radio amateur (station manager) | |

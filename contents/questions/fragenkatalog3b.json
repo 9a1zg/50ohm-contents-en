@@ -13138,7 +13138,7 @@
                                 {
                                     "number": "EK102",
                                     "class": "2",
-                                    "question": "With what time reference is the field strength to be considered for compliance with the limits of the 26th Ordinance implementing the Federal Immission Control Act (Ordinance on Electromagnetic Fields \u2013 26. BImSchV)?",
+                                    "question": "With what time reference is the field strength to be considered for compliance with the limits of the 26th Ordinance implementing the Federal Immission Control Act (Ordinance on Electromagnetic Fields, 26. BImSchV)?",
                                     "answer_a": "As the RMS value averaged over 6 minutes for limits under Annex 1b, as a short-term RMS value for limits under Annex 1a, and as an instantaneous peak value for limits under Annex 3",
                                     "answer_b": "As the RMS value averaged over 3 minutes for limits under Annex 1b, as a short-term RMS value for limits under Annex 1a, and as an instantaneous peak value for limits under Annex 3",
                                     "answer_c": "As maximum instantaneous values during the day, and as the RMS value averaged over 6 minutes during the night-time hours between nightfall and sunrise",
@@ -15374,7 +15374,7 @@
                         {
                             "number": "VC125",
                             "class": "1",
-                            "question": "What must a radio amateur expect who commits an administrative offence in operating an amateur station?",
+                            "question": "What must a radio amateur who commits an administrative offence when operating an amateur station expect?",
                             "answer_a": "The Federal Network Agency (BNetzA) can punish the offence with a fine.",
                             "answer_b": "The radio amateur must expect the amateur radio certificate to be withdrawn.",
                             "answer_c": "The radio amateur must expect the amateur radio installation to be seized by the BNetzA.",
@@ -15419,7 +15419,7 @@
                         {
                             "number": "VC120",
                             "class": "1",
-                            "question": "In home-built equipment, may a radio amateur deviate from the essential requirements on immunity within the meaning of the Act on the Electromagnetic Compatibility of Equipment (EMVG)?",
+                            "question": "In the case of home-built equipment, may a radio amateur deviate from the essential requirements on immunity within the meaning of the Act on the Electromagnetic Compatibility of Equipment (EMVG)?",
                             "answer_a": "Yes, radio amateurs can determine the degree of immunity of their equipment themselves.",
                             "answer_b": "Yes, but only in the direction of improving immunity",
                             "answer_c": "No, the immunity is specified and must be complied with.",
@@ -15429,7 +15429,7 @@
                             "number": "VC119",
                             "class": "1",
                             "question": "What applies regarding the immunity of the amateur station according to the wording of the Amateur Radio Act (Amateurfunkgesetz, AFuG)?",
-                            "answer_a": "The radio amateur may deviate from the essential requirements under the Act on the Electromagnetic Compatibility of Equipment (EMVG) and can determine the degree of immunity of the amateur station personally.",
+                            "answer_a": "The radio amateur may deviate from the essential requirements under the Act on the Electromagnetic Compatibility of Equipment (EMVG) and can personally determine the degree of immunity of the amateur station.",
                             "answer_b": "The radio amateur must have the amateur station undergo an immunity test by the BNetzA every 2 years.",
                             "answer_c": "With regard to their immunity, amateur stations are treated in the same way as other equipment.",
                             "answer_d": "Amateur stations must accept electromagnetic interference from other equipment even if that equipment does not meet the essential requirements under the Act on the Electromagnetic Compatibility of Equipment (EMVG)."
@@ -15829,10 +15829,10 @@
                                     "number": "VD203",
                                     "class": "1",
                                     "question": "How are personal German amateur call signs formed? They consist of ...",
-                                    "answer_a": "a 2-letter prefix (country prefix), one digit and a 2- or 3-letter suffix.",
-                                    "answer_b": "a 2-letter suffix (country prefix), two digits and a 2- or 3-letter prefix.",
-                                    "answer_c": "a 1-letter prefix (country prefix), one or two digits and a 1-, 2- or 3-letter suffix.",
-                                    "answer_d": "a 2-letter suffix (country prefix), one digit and a 1-, 2- or 3-letter prefix."
+                                    "answer_a": "a 2-letter prefix (country identifier), one digit and a 2- or 3-letter suffix.",
+                                    "answer_b": "a 2-letter suffix (country identifier), two digits and a 2- or 3-letter prefix.",
+                                    "answer_c": "a 1-letter prefix (country identifier), one or two digits and a 1-, 2- or 3-letter suffix.",
+                                    "answer_d": "a 2-letter suffix (country identifier), one digit and a 1-, 2- or 3-letter prefix."
                                 },
                                 {
                                     "number": "VD202",
@@ -16657,7 +16657,7 @@
                                     "number": "VE302",
                                     "class": "1",
                                     "question": "What is the appropriate reaction if interference to a neighbour's television or radio reception cannot be eliminated with the means available?",
-                                    "answer_a": "You politely recommend the neighbour to contact the Federal Network Agency (BNetzA) to have the cause of the interference examined.",
+                                    "answer_a": "You politely advise the neighbour to contact the Federal Network Agency (BNetzA) to have the cause of the interference examined.",
                                     "answer_b": "The neighbour should be politely told that the cause lies in the neighbour's own installation.",
                                     "answer_c": "The neighbour should be told that you are not responsible for this.",
                                     "answer_d": "You notify your amateur radio society."
@@ -16805,7 +16805,7 @@
                                     "answer_a": "The notification is the radio amateur's binding declaration that the statutory limits for the protection of persons in electromagnetic fields are complied with on the radio amateur's own responsibility.",
                                     "answer_b": "The notification is a non-binding declaration that radio amateurs act on their own responsibility.",
                                     "answer_c": "The notification has the same legal status as a site certificate, but applies only to non-commercial installations.",
-                                    "answer_d": "The notification is the radio amateur's binding declaration that the Federal Immission Control Act is complied with on the radio amateur's own responsibility."
+                                    "answer_d": "The notification is the radio amateur's binding declaration that the Federal Immission Control Act (BImSchG) is complied with on the radio amateur's own responsibility."
                                 },
                                 {
                                     "number": "VE510",
@@ -16867,8 +16867,8 @@
                                     "question": "Under the Ordinance on the Verification Procedure for Limiting Electromagnetic Fields (BEMFV), what is meant by the \"notification procedure for fixed amateur radio installations\"?",
                                     "answer_a": "A procedure that enables radio amateurs to ensure and document independently that there is no danger to persons",
                                     "answer_b": "A procedure that a certified measurement laboratory must carry out to ensure that there is no danger to persons",
-                                    "answer_c": "The radio amateur's declaration of staying below the limit of 10 W EIRP",
-                                    "answer_d": "The radio amateur's declaration of not exceeding the limit of 750 W PEP"
+                                    "answer_c": "The radio amateur's declaration that the power stays below the limit of 10 W EIRP",
+                                    "answer_d": "The radio amateur's declaration that the power does not exceed the limit of 750 W PEP"
                                 },
                                 {
                                     "number": "VE503",

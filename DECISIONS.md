@@ -230,9 +230,22 @@ and the checker's "Provjera" section).
   abbreviation only — "Act on the Electromagnetic Compatibility of
   Equipment (EMVG)" — as the catalogue headings already do; a German title
   of a dozen words in brackets helps no one. Where the German gives both
-  (VE505 "Funkanlagengesetz - FuAG"), so does the English. VC101, which
+  (VE505 "Funkanlagengesetz - FuAG"), so does the English, with a comma as
+  in the glossary — also the 26. BImSchV's "(Ordinance on Electromagnetic
+  Fields, 26. BImSchV)" (VE505, EK102). VC101, which
   asks which law it is and gives four bare titles, keeps four bare English
-  titles, so that no answer stands out by a bracket. (Batch 10.)
+  titles, so that no answer stands out by a bracket. The German title goes
+  in brackets only for the laws whose glossary row carries it (AFuG, AFuV,
+  TKG, TTDSG, FuAG, and the repealed
+  *Frequenznutzungsplanaufstellungsverordnung*, VD701); the other
+  statutes and ordinances take the glossary's English name with the
+  abbreviation — "Frequency Ordinance (FreqV)", "Federal Immission Control
+  Act (BImSchG)", also where the German leaves the abbreviation out
+  (VE511 d) — and a law the bank never abbreviates keeps its English name
+  alone ("Administrative Enforcement Act", VE704). Where the German writes
+  only the abbreviation (AFuG, AFuV, TKG, EMVG, BEMFV), so does the
+  English. One law, one name across the whole bank. (Batch 10; scope
+  stated by the checker.)
 - ***verschlüsseln … zur Verschleierung* is *encrypt* in German law,
   *encoded* in the RR.** The AFuG / AFuV questions (VC124 d, VD103 a,
   VD104) say "encrypt(ed) … to obscure the content / its meaning": German
