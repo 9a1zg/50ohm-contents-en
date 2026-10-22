@@ -1,12 +1,12 @@
-Möchte ein Funkamateur das Nachweisverfahren zur Begrenzung elektromagnetischer Felder nicht selbst durchführen, kann er dies - wie jeder andere Betreiber einer Sendeanlage - durch die Bundesnetzagentur durchführen lassen. Dazu muss eine sogenannte "Standortbescheinigung" beantragt werden.
+If a radio amateur does not want to carry out the verification procedure for limiting electromagnetic fields themselves, they can - like any other operator of transmitting equipment - have it carried out by the Federal Network Agency (Bundesnetzagentur, BNetzA). To do so, they must apply for what is called a "site certificate".
 
 <indepth>
-Die Erstellung der *Standortbescheinigung* ist auch für Funkamateure immer kostenpflichtig. Außerdem muss der Funkamateur alle notwendigen Unterlagen und Informationen für die Berechnungen bereitstellen. Dazu gehören ein Lageplan, eine Bauzeichnung mit dem Montageort der Antennen und Informationen zum Abstrahlverhalten von allen Antennen.
+Issuing a *site certificate* is always subject to a fee, for radio amateurs too. In addition, the radio amateur must provide all the documents and information needed for the calculations. These include a site plan, a construction drawing showing where the antennas are mounted, and information on the radiation characteristics of all the antennas.
 </indepth>
 
 [question:VC121]
 
-Aber auch die Bundesnetzagentur kann unter bestimmten Voraussetzungen eine Standortbescheinigung für eine ortsfeste Amateurfunkstelle verlangen. Dies gilt immer dann, wenn sich am vorgesehenen Standort bereits eine andere ortsfeste Funkanlage befindet, wie z. B. eine Sendeanlage für das Mobilfunknetz, und insgesamt eine Strahlungsleistung von $\qty{10}{\watt}$ EIRP oder höher erreicht wird.
+But the Federal Network Agency can also require a site certificate for a fixed amateur station under certain conditions. This always applies when another fixed radio installation, such as a transmitter for the mobile phone network, is already present at the planned location and a total radiated power of $\qty{10}{\watt}$ EIRP or more is reached.
 
 [question:VE519]
 [question:VE518]

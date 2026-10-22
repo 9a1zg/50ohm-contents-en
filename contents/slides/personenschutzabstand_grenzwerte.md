@@ -1,19 +1,19 @@
-* Der menschliche Körper kann [hochfrequente Strahlung absorbieren](https://50ohm.de/bfs)
-* Die Strahlung wird dabei in Wärme umgewandelt
-* Thermoregulation des Körpers schafft begrenzt einen Ausgleich
+* The human body can [absorb RF radiation](https://50ohm.de/bfs)
+* The radiation is converted into heat
+* The body's thermoregulation can compensate only to a limited extent
 
 ---
 
 <left>
-Eindringtiefe der Strahlung:
-* $\unit{\mega\hertz}$ ca. $\qtyrange{10}{30}{\centi\meter}$
-* $\unit{\giga\hertz}$ wenige $\unit{\centi\meter}$
-* $>\qty{10}{\giga\hertz}$ ca. $<\qty{1}{\milli\meter}$
+Penetration depth of the radiation:
+* $\unit{\mega\hertz}$ approx. $\qtyrange{10}{30}{\centi\meter}$
+* $\unit{\giga\hertz}$ a few $\unit{\centi\meter}$
+* $>\qty{10}{\giga\hertz}$ approx. $<\qty{1}{\milli\meter}$
 </left>
 <right>
-* Resonanz bei $\textrm{Körpergröße} \approx \frac{\lambda}{2}$
-* Hohe Aufnahme von Strahlungsenergie bei Resonanz
-* Deshalb sind die *Feldstärkegrenzwerte* für den Schutz von Personen in elektromagnetischen Feldern *von der Frequenz abhängig*
+* Resonance at $\textrm{body height} \approx \frac{\lambda}{2}$
+* High absorption of radiated energy at resonance
+* This is why the *field-strength limits* for the protection of persons in electromagnetic fields *depend on the frequency*
 </right>
 
 ---
@@ -22,40 +22,40 @@ Eindringtiefe der Strahlung:
 
 ---
 
-## Zeitbezug
+## Time reference
 
-* In der "26. Verordnung zur Durchführung des Bundes-Immissionsschutzgesetzes" wird ein zeitlicher Bezug zur Einhaltung der Feldstärke-Grenzwerte hinzugefügt
-* Es muss nach drei Fällen für Grenzwerte unterschieden werden
-
----
-### Momentaner Spitzenwert
-* Maximaler momentaner Spitzenwert
-* Elektrische Feldstärke in $\unit{\kilo\volt\per\meter}$
-* Grenzwerte sind bis $\qty{10}{\mega\hertz}$ frequenzabhängig
-* z.B. $\qty{0,083}{\kilo\volt\per\meter}$ bei $\qty{3,5}{\mega\hertz}$
+* The "26th Ordinance implementing the Federal Immission Control Act" adds a time reference for compliance with the field-strength limits
+* Limits must be distinguished according to three cases
 
 ---
-### 6-Minuten-Intervalle
-* Da nicht ständig gesendet wird, Verwendung des quadratischen Mittels der Feldstärke ($\unit{\volt\per\meter}$) über 6 Minuten
-* Grenzwerte sind frequenzabhängig
-* z.B. $\qty{28}{\volt\per\meter}$ bei $\qty{14}{\mega\hertz}$
-* Berechnung erfolgt mit Näherungsformel (im nächsten Abschnitt)
+### Instantaneous peak value
+* Maximum instantaneous peak value
+* Electric field strength in $\unit{\kilo\volt\per\meter}$
+* Limits depend on frequency up to $\qty{10}{\mega\hertz}$
+* e.g. $\qty{0.083}{\kilo\volt\per\meter}$ at $\qty{3.5}{\mega\hertz}$
 
 ---
-### Gepulste Felder
-* Schnelles Ein- und Ausschalten
-* Als Faktor für den momentanen Spitzenwert oder das 6-Minuten-Intervall
-* Grenzwerte sind frequenzabhängig
-* z.B. 32-fache des 6-Minuten-Intervalls bei $\qty{14}{\mega\hertz}$
+### 6-minute intervals
+* Since we do not transmit all the time, the RMS value of the field strength ($\unit{\volt\per\meter}$) over 6 minutes is used
+* Limits depend on frequency
+* e.g. $\qty{28}{\volt\per\meter}$ at $\qty{14}{\mega\hertz}$
+* Calculated with an approximation formula (in the next section)
+
+---
+### Pulsed fields
+* Rapid switching on and off
+* As a factor applied to the instantaneous peak value or the 6-minute interval
+* Limits depend on frequency
+* e.g. 32 times the 6-minute interval at $\qty{14}{\mega\hertz}$
 
 ---
 
 [question:EK102]
 
 ---
-## Körperhilfen
-* Aktive Körperhilfen (z.B. Herzschrittmacher) dürfen nicht in elektrische Felder gebracht werden, deren Stärke die Grenzwerte der aktiven Körperhilfe überschreiten
-* Der Grenzwert ist hier immer der maximale Momentanwert
+## Implants
+* Active implants (e.g. pacemakers) must not be brought into electric fields whose strength exceeds the limits of the active implant
+* The limit here is always the maximum instantaneous value
 
 ---
 

@@ -1,5 +1,5 @@
-* $\qty{10}{\meter}$-Band: $\qty{10}{\watt}$ ERP / $\qty{16,4}{\watt}$ EIRP
-* $\qty{2}{\meter}$- und $\qty{70}{\centi\meter}$-Band: $\qty{6,1}{\watt}$ ERP / $\qty{10}{\watt}$ EIRP
+* $\qty{10}{\meter}$ band: $\qty{10}{\watt}$ ERP / $\qty{16.4}{\watt}$ EIRP
+* $\qty{2}{\meter}$ and $\qty{70}{\centi\meter}$ bands: $\qty{6.1}{\watt}$ ERP / $\qty{10}{\watt}$ EIRP
 
 ---
 [question:VD724]
@@ -8,12 +8,12 @@
 [question:VD743]
 
 ---
-#### Beispiel
+#### Example
 
-Ein Funkgerät mit $\qty{5}{\watt}$ Sendeleistung und einem Gewinnfaktor von $\num{1,8}$ bezogen auf den isotropen Kugelstrahler darf damit betrieben werden:<br/>$\qty{5}{\watt} \cdot 1,8 = \qty{9}{\watt}$ EIRP
+A radio with $\qty{5}{\watt}$ transmit power may be operated with an antenna whose gain factor relative to the isotropic radiator is $\num{1.8}$:<br/>$\qty{5}{\watt} \cdot 1.8 = \qty{9}{\watt}$ EIRP
 
 <note>
-Dass ERP und EIRP verwendet wird, hängt (vermutlich) mit den vorangig verwendeten Antennen in den nutzbaren Bändern für Klasse N zusammen. Eine Begründung von Seiten der BNetzA gibt es nicht.
+That ERP is used for one and EIRP for the other is (probably) connected with the antennas mainly used on the bands available to Class N. The BNetzA has not given a reason.
 </note>
 ---
 [question:VD726]

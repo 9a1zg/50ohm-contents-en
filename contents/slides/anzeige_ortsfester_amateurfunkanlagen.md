@@ -1,13 +1,13 @@
-Für ortsfeste Amateurfunkstellen muss das Nachweisverfahren nur dann durchgeführt werden, wenn die Sendeanlage eine Strahlungsleistung von *$\qty{10}{\watt}$ EIRP* oder höher erreicht.
+For fixed amateur stations the verification procedure only has to be carried out if the transmitting equipment reaches a radiated power of *$\qty{10}{\watt}$ EIRP* or more.
 
 ---
 
-* Erlaubt in Klasse N:
-  * $\qty{70}{\centi\meter}$-Band: *$\qty{10}{\watt}$ EIRP*
-  * $\qty{2}{\meter}$-Band: *$\qty{10}{\watt}$ EIRP*
-  * $\qty{10}{\meter}$-Band: $\qty{10}{\watt}$ ERP
-  * $\qty{10}{\watt}$ ERP $\cdot 1,64 =$ *$\qty{16,4}{\watt}$ EIRP*
-* Auch in Klasse N kann es notwendig werden, das Nachweisverfahren durchzuführen
+* Permitted in Class N:
+  * $\qty{70}{\centi\meter}$ band: *$\qty{10}{\watt}$ EIRP*
+  * $\qty{2}{\meter}$ band: *$\qty{10}{\watt}$ EIRP*
+  * $\qty{10}{\meter}$ band: $\qty{10}{\watt}$ ERP
+  * $\qty{10}{\watt}$ ERP $\cdot 1.64 =$ *$\qty{16.4}{\watt}$ EIRP*
+* Even in Class N it can become necessary to carry out the verification procedure
 
 ---
 [question:VE508]
@@ -16,40 +16,40 @@ Für ortsfeste Amateurfunkstellen muss das Nachweisverfahren nur dann durchgefü
 [question:VE507]
 
 ---
-## Anzeige bei BNetzA
+## Notification to the BNetzA
 
 <left>
-[photo:79:n_Deckblatt_Anleitung:Deckblatt der Anleitung]
+[photo:79:n_Deckblatt_Anleitung:Cover of the instructions]
 </left>
 <right>
-* vor der Aufnahme des Betriebs der ortsfesten Amateurfunkanlage
-* bei zuständiger Außenstelle der BNetzA
-* Die zuständige Außenstelle kann auf der Webseite der Bundesnetzagentur ermittelt werden
+* before the fixed amateur radio installation is put into operation
+* to the competent regional office of the BNetzA
+* The competent regional office can be found on the website of the Federal Network Agency
 </right>
 
 ---
 [question:VE509]
 
 ---
-### Inhalt der Anzeige
+### Content of the notification
 
 
-Nachvollziehbare zeichnerische Darstellung mit
-* Standortbezogener Sicherheitsabstand
-* Vom Betreiber kontrollierbarer Bereich
+Comprehensible drawing showing
+* Site-specific safety distance
+* Area controllable by the operator
 
 ---
-### Zusätzlich zur Anzeige
+### In addition to the notification
 
-An der Funkstation liegend und auf Verlangen der BNetzA vorzulegen:
-* Einhaltung der Anforderungen
-* ggf. Antennendiagramme
-* Lageplan
-* Bauzeichnung oder Skizze mit Bemaßung
-* Konfiguration der Funkanlage
+To be kept at the radio station and presented to the BNetzA on request:
+* Compliance with the requirements
+* Antenna patterns, where applicable
+* Site plan
+* Construction drawing or sketch with dimensions
+* Configuration of the radio installation
 
 <note>
-Schlüsselwort für die richtige Antwort bei dieser und der nächsten Frage: "nachvollziehbar"
+Key word for the correct answer to this question and the next: "comprehensible"
 </note>
 
 ---
@@ -62,13 +62,13 @@ Schlüsselwort für die richtige Antwort bei dieser und der nächsten Frage: "na
 [question:VD107]
 
 ---
-### Änderungen
+### Changes
 
-* Fortlaufend prüfen, ob die Anlage gleich zu der in der Anzeige ist
-* Bei wesentlichen Änderungen erneute Anzeige durchführen
+* Check continuously whether the installation is still the same as in the notification
+* In the event of significant changes, notify again
 
 <note>
-z.B. weiterer Antennenmast, Antennenwechsel oder höhere Sendeleistung mit größerem Abstand
+e.g. an additional antenna mast, a change of antenna or a higher transmit power with a larger distance
 </note>
 
 ---
@@ -78,25 +78,25 @@ z.B. weiterer Antennenmast, Antennenwechsel oder höhere Sendeleistung mit grö�
 [question:VE510]
 
 ---
-### Nachweisverfahren
+### Verification procedure
 
 <left>
-* Berechnung des Personen-Sicherheitsabstands
-* Während des Sendebetriebs dürfen keine unbefugten Personen in diesem Bereich sein
-* Ist erfüllt, wenn dieses im kontrollierbaren Bereich stattfindet, z.B. eigenes Grundstück
+* Calculation of the safety distance for persons
+* No unauthorised persons may be in this area while transmitting
+* This is satisfied if the area lies within the controllable area, e.g. your own property
 </left>
 <right>
-Hilfsmittel:
-* Software "[Watt Wächter](https://50ohm.de/ww)"
-* vereinfachtes Bewertungsverfahren
-* Feldstärkemessung
-* Fernfeldberechnung
-* Nahfeldberechnung
+Aids:
+* "[Watt Wächter](https://50ohm.de/ww)" software
+* simplified assessment procedure
+* field-strength measurement
+* far-field calculation
+* near-field calculation
 </right>
 
 ---
 
-[photo:80:n_Bewertungsverfahren:In diesem Dokument sind die Bewertungsverfahren beschrieben.]
+[photo:80:n_Bewertungsverfahren:The assessment procedures are described in this document.]
 
 ---
 [question:VE506]
@@ -105,14 +105,14 @@ Hilfsmittel:
 [question:VE515]
 
 ---
-## Mehrere Aussendungen gleichzeitig
+## Several transmissions at the same time
 
-* Es können mehrere Aussendungen gleichzeitig an einer Anlage auf verschiedenen Frequenzen senden
-* In der Regel über verschiedene Antennen
-* Alle Antennen zusammen müssen für den Personenschutzabstand berücksichtigt werden
+* One installation can make several transmissions at the same time on different frequencies
+* Usually via different antennas
+* All the antennas together must be taken into account for the safety distance for the protection of persons
 
 <note>
-z.B. Clubstation
+e.g. club station
 </note>
 
 ---

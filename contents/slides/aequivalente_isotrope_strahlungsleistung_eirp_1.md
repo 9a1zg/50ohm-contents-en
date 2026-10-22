@@ -1,38 +1,38 @@
-## Kugelstrahler oder Isotroper Strahler
+## Spherical radiator or isotropic radiator
 
 <left>
-[picture:751:n_Kugelstrahler:Isotroper Strahler in der Mitte einer Kugel, der an allen Stellen der Kugeloberfläche die gleiche Strahlungsleistung erzeugt]
+[picture:751:n_Kugelstrahler:Isotropic radiator at the centre of a sphere, producing the same radiated power at every point on the surface of the sphere]
 </left>
 <right>
-* Theoretische Antenne
-* Unendlich klein
-* Funkwellen werden gleichmäßig in alle Richtungen abgestrahlt
-* Es existiert keine Hauptstrahlrichtung
+* Theoretical antenna
+* Infinitely small
+* Radio waves are radiated equally in all directions
+* There is no direction of maximum radiation
 </right>
 
 <note>
-isotrop: von altgriechisch ἴσος isos „gleich“ und τρόπος tropos „Drehung, Richtung“
+isotropic: from Ancient Greek ἴσος isos "equal" and τρόπος tropos "turn, direction"
 </note>
 
 ---
 ## EIRP
 
-*Equivalent isotropic radiated power*
+*Equivalent isotropically radiated power*
 
-* Bei Berechnung der Strahlungsleistung in Bezug zum isotropen Strahler wird von "äquivalenter isotroper Strahlungsleistung" gesprochen
-
----
-## Berechnung
-
-* Erfolgt gleich zu ERP
-* Hat eine Antennen einen Gewinnfaktor von $\num{3}$ bezogen auf den isotropen Strahler, dann strahlt diese Antenne in Hauptstrahlrichtung dreimal so stark wie ein isotroper Strahler in jede beliebige Richtung
-* Bei $\qty{5}{\watt}$ Sendeleistung auf Antenne mit Gewinnfaktor $\num{3}$ gegenüber dem isotropen Strahler ergibt das die Strahlungsleistung $\qty{15}{\watt}$ EIRP
+* When the radiated power is calculated relative to the isotropic radiator, we speak of the "equivalent isotropically radiated power"
 
 ---
-## Bezug zum Halbwellendipol
+## Calculation
 
-* Halbwellendipol hat den Gewinnfaktor $\num{1,64}$ gegenüber isotropen Strahler
-* Antenne mit Gewinnfaktor $\num{2}$ gegenüber Halbwellendipol hat einen Gewinnfaktor von $2 \cdot 1,64 = 3,28$ gegenüber isotropen Strahler
+* Done in the same way as for ERP
+* If an antenna has a gain factor of $\num{3}$ relative to the isotropic radiator, it radiates three times as strongly in its direction of maximum radiation as an isotropic radiator in any direction
+* $\qty{5}{\watt}$ of transmit power into an antenna with a gain factor of $\num{3}$ relative to the isotropic radiator gives a radiated power of $\qty{15}{\watt}$ EIRP
+
+---
+## Relation to the half-wave dipole
+
+* The half-wave dipole has a gain factor of $\num{1.64}$ relative to the isotropic radiator
+* An antenna with a gain factor of $\num{2}$ relative to the half-wave dipole has a gain factor of $2 \cdot 1.64 = 3.28$ relative to the isotropic radiator
 
 ---
 [question:NG402]

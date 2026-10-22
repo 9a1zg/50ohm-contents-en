@@ -1,87 +1,87 @@
-Das elektromagnetische Feld einer Antenne lässt sich, wie in Abbildung [ref:a_nahfernfeld] dargestellt, in das *Nahfeld* in unmittelbarer Umgebung der Antenne und das weiter entfernte *Fernfeld* unterteilen. Das Nahfeld wird zusätzlich in das *reaktive Nahfeld* und das *strahlende Nahfeld* gegliedert.
+As shown in Figure [ref:a_nahfernfeld], the electromagnetic field of an antenna can be divided into the *near field* in the immediate vicinity of the antenna and the more distant *far field*. The near field is further divided into the *reactive near field* and the *radiating near field*.
 
 <tip>
-In den [Erläuterungen der Bewertungsverfahren nach BEMFV](https://50ohm.de/bemfv) hat die BNetzA die Begriffe und Verfahren für die Ermittlung der Sicherheitsabstände erläutert.
-[photo:80:n_Bewertungsverfahren:In diesem Dokument sind die Bewertungsverfahren beschrieben.]
+In the [Explanations of the assessment procedures under the BEMFV](https://50ohm.de/bemfv), the Federal Network Agency (Bundesnetzagentur, BNetzA) has explained the terms and procedures for determining the safety distances.
+[photo:80:n_Bewertungsverfahren:The assessment procedures are described in this document.]
 </tip>
 
-[picture:1113:a_nahfernfeld:Abstandsdefinitionen für Nahfeld und Fernfeld nach der Bundesnetzagentur (BNetzA).]
+[picture:1113:a_nahfernfeld:Distance definitions for the near field and the far field according to the Federal Network Agency (BNetzA).]
 
 ---
 
-Nach der in der Abbildung verwendeten Definition der Bundesnetzagentur (BNetzA) erstreckt sich das reaktive Nahfeld bis zu einem Abstand von
+According to the definition of the Federal Network Agency (BNetzA) used in the figure, the reactive near field extends to a distance of
 
 $d \le \dfrac{\lambda}{2 \cdot \pi}$
 
-von der Antenne, wobei $\lambda$ die Wellenlänge bezeichnet. Bei größeren Abständen beginnt das strahlende Nahfeld. Der Abstand dieser Grenze ist somit von der Wellenlänge abhängig. Bei einer Wellenlänge von beispielsweise $\qty{20}{\meter}$ ergibt sich:
+from the antenna, where $\lambda$ is the wavelength. At greater distances the radiating near field begins. The distance of this boundary therefore depends on the wavelength. For a wavelength of $\qty{20}{\meter}$, for example, we get:
 
-$d = \frac{\qty{20}{\meter}}{2 \cdot \pi} \approx \qty{3,18}{\meter}$
+$d = \frac{\qty{20}{\meter}}{2 \cdot \pi} \approx \qty{3.18}{\meter}$
 
-Das reaktive Nahfeld reicht in diesem Beispiel also bis zu einem Abstand von etwa $\qty{3,18}{\meter}$ von der Antenne.
+In this example the reactive near field therefore extends to a distance of about $\qty{3.18}{\meter}$ from the antenna.
 
-Im reaktiven Nahfeld einer Antenne weisen die elektrische Feldstärke und die magnetische Feldstärke keine konstante Phasenbeziehung zueinander auf. Was das genau bedeutet, wird in der nebenstehenden Vertiefung genauer erklärt. 
+In the reactive near field of an antenna, the electric field strength and the magnetic field strength have no constant phase relationship to each other. What exactly this means is explained in more detail in the in-depth box alongside. 
 
 [question:AK101]
 
-Schaut man sich den Verlauf des elektrischen und magnetischen Feldes für eine Dipolantenne über diese Bereiche in Abbildung [ref:a_dipol_feld_e_h] an, so erkennt man, dass die beiden Feldgrößen nicht die gleichen Beträge haben. Das elektrische Feld ist wesentlich stärker als das magnetische Feld. Bei einer magnetischen Loop-Antenne in Abbildung [ref:a_loop_feld_e_h] ist es genau umgekehrt: Das magnetische Feld ist wesentlich stärker als das elektrische Feld.
+If you look at how the electric and magnetic fields of a dipole antenna vary across these regions in Figure [ref:a_dipol_feld_e_h], you can see that the two field quantities do not have the same magnitudes. The electric field is much stronger than the magnetic field. With a magnetic loop antenna, in Figure [ref:a_loop_feld_e_h], it is exactly the other way round: the magnetic field is much stronger than the electric field.
 
 <margin>
-[picture:1114:a_dipol_feld_e_h:Verlauf der elektrischen und magnetischen Feldstärke einer Dipolantenne über die Bereiche Nahfeld und Fernfeld (Logarithmisch).]
-[picture:1115:a_loop_feld_e_h:Verlauf der elektrischen und magnetischen Feldstärke einer Loopantenne über die Bereiche Nahfeld und Fernfeld (Logarithmisch).]
+[picture:1114:a_dipol_feld_e_h:Electric and magnetic field strength of a dipole antenna across the near-field and far-field regions (logarithmic).]
+[picture:1115:a_loop_feld_e_h:Electric and magnetic field strength of a loop antenna across the near-field and far-field regions (logarithmic).]
 </margin>
 
 <indepth>
-Für mathematisch Interessierte, die bereits mit komplexen Zahlen vertraut sind, soll hier vereinfacht erklärt werden, warum elektrische und magnetische Feldstärke im reaktiven Nahfeld keine ortsunabhängige Phasenbeziehung zueinander besitzen.
-Bei einem elektrisch kurzen Dipol setzen sich die Felder vereinfacht aus mehreren Anteilen zusammen:
+For the mathematically minded who are already familiar with complex numbers, here is a simplified explanation of why the electric and magnetic field strength in the reactive near field have no phase relationship to each other that is independent of position.
+For an electrically short dipole, the fields are made up, in simplified form, of several components:
 
-$ \underline{E}(r)~=~\left( \underbrace{\frac{A}{r^3}}_{\text{quasistatisch}} + \underbrace{j\,\frac{B}{r^2}}_{\text{induktiv}} + \underbrace{\frac{C}{r}}_{\text{Strahlung}} \right) e^{-jkr}$
+$ \underline{E}(r)~=~\left( \underbrace{\frac{A}{r^3}}_{\text{quasi-static}} + \underbrace{j\,\frac{B}{r^2}}_{\text{inductive}} + \underbrace{\frac{C}{r}}_{\text{radiation}} \right) e^{-jkr}$
 
-$ \underline{H}(r)~=~\left( \underbrace{j\,\frac{D}{r^2}}_{\text{induktiv}} + \underbrace{\frac{F}{r}}_{\text{Strahlung}} \right) e^{-jkr}. $
+$ \underline{H}(r)~=~\left( \underbrace{j\,\frac{D}{r^2}}_{\text{inductive}} + \underbrace{\frac{F}{r}}_{\text{radiation}} \right) e^{-jkr}. $
 
-Die unterstrichenen Größen sind komplex und beschreiben neben der Stärke auch die Phase der jeweiligen Feldanteile. Faktoren wie $j$ oder $-j$ in den vollständigen Feldgleichungen entsprechen dabei Phasenverschiebungen von $\qty{90}{\degree}$ beziehungsweise $\qty{-90}{\degree}$.
+The underlined quantities are complex and describe not only the strength but also the phase of each field component. Factors such as $j$ or $-j$ in the complete field equations correspond to phase shifts of $\qty{90}{\degree}$ and $\qty{-90}{\degree}$ respectively.
 
-Da die einzelnen Anteile unterschiedlich schnell mit dem Abstand $r$ abnehmen, verändert sich ihr Verhältnis zueinander. Dadurch hängt auch die Phasendifferenz zwischen elektrischer und magnetischer Feldstärke im Nahfeld vom Abstand, von der Richtung und von der Antennenform ab.
+Since the individual components decrease at different rates with the distance $r$, their ratio to each other changes. As a result, the phase difference between the electric and magnetic field strength in the near field also depends on the distance, the direction and the form of the antenna.
 
-Für ein vollständiges Verständnis sind die einzelnen Vektorkomponenten der Feldgleichungen zu betrachten. Diese Zusammenhänge gehen deutlich über die Lerninhalte der Klasse A hinaus und sind für die Prüfung nicht relevant.
+For a full understanding, the individual vector components of the field equations have to be considered. These relationships go well beyond the syllabus of Class A and are not relevant to the examination.
 </indepth>
 
-Insbesondere im reaktiven Nahfeld können aufgrund der starken, mit zunehmendem Abstand rasch abfallenden elektrischen oder magnetischen Feldanteile, hohe lokale Feldstärken auftreten. Dieser Bereich wird als *reaktiv* bezeichnet, weil ein großer Teil der Feldenergie nicht abgestrahlt wird, sondern zwischen Antenne und Feld hin- und herpendelt. Genau wie bei einem Kondensator (elektrisches Feld) oder einer Spule (magnetisches Feld) wird die im reaktiven Nahfeld gespeicherte Energie nicht verbraucht, sondern phasenverschoben zur Antenne zurückgegeben – dieses Pendeln zwischen Feld und Antenne entspricht dem Blindanteil der Antennenimpedanz, während nur der Wirkanteil (Strahlungswiderstand) tatsächlich abgestrahlte Leistung beschreibt.
+Especially in the reactive near field, high local field strengths can occur because of the strong electric or magnetic field components, which fall off rapidly with increasing distance. This region is called *reactive* because a large part of the field energy is not radiated but oscillates back and forth between the antenna and the field. Just as with a capacitor (electric field) or an inductor (magnetic field), the energy stored in the reactive near field is not consumed but returned to the antenna with a phase shift – this oscillation between field and antenna corresponds to the reactive part of the antenna impedance, while only the resistive part (radiation resistance) describes power actually radiated.
 
-Im *strahlenden Nahfeld* im Bereich
+In the *radiating near field*, in the region
 
 $\frac{\lambda}{2\pi} < d < 4\cdot\lambda$
 
-treten die abgestrahlten Feldanteile zunehmend in den Vordergrund. Elektrische und magnetische Feldstärke nähern sich dabei in ihrem Verhältnis immer mehr den Verhältnissen im Fernfeld an. Die Antenne strahlt allerdings nicht erst in diesem Bereich, sondern bereits grundsätzlich; lediglich die reaktiven Feldanteile verlieren mit zunehmendem Abstand an Bedeutung. Für viele vereinfachte Betrachtungen kann das strahlende Nahfeld bereits ähnlich wie das Fernfeld behandelt werden. Darauf gehen wir später noch genauer ein.
+the radiated field components increasingly come to the fore. The ratio of the electric and magnetic field strength comes closer and closer to that in the far field. The antenna does not, however, start radiating only in this region; it radiates in any case. It is merely that the reactive field components become less important with increasing distance. For many simplified considerations, the radiating near field can already be treated much like the far field. We will come back to this in more detail later.
 
-Das *Fernfeld* beginnt nach der hier verwendeten Definition bei einem Abstand von
+According to the definition used here, the *far field* begins at a distance of
 
 $d \ge 4\cdot\lambda$
 
-von der Antenne. In diesem Bereich nehmen die elektrische und die magnetische Feldstärke jeweils proportional zu $\frac{1}{d}$ ab. Außerdem stehen beide Feldkomponenten in einem festen Verhältnis zueinander und besitzen eine konstante Phasenbeziehung.
+from the antenna. In this region the electric and the magnetic field strength each decrease in proportion to $\frac{1}{d}$. In addition, the two field components are in a fixed ratio to each other and have a constant phase relationship.
 
 ---
 
-Das Verhältnis der Beträge von elektrischer und magnetischer Feldstärke wird als *Feldwellenwiderstand* bezeichnet:
+The ratio of the magnitudes of the electric and magnetic field strength is called the *wave impedance*:
 
 $Z_\mathrm{F}(d)=\left|\frac{E(d)}{H(d)}\right|$
 
-Abbildung [ref:a_feldwellenwiderstand] zeigt, wie sich der Feldwellenwiderstand mit zunehmendem Abstand von der Antenne verändert. Im reaktiven Nahfeld hängt er stark von der Antennenform, der betrachteten Richtung und dem Abstand ab. Er kann dort deutlich größer oder kleiner als der Feldwellenwiderstand des freien Raums sein.
+Figure [ref:a_feldwellenwiderstand] shows how the wave impedance changes with increasing distance from the antenna. In the reactive near field it depends strongly on the form of the antenna, the direction under consideration and the distance. There it can be considerably greater or smaller than the impedance of free space.
 
-Im strahlenden Nahfeld nähert sich das Verhältnis von elektrischer und magnetischer Feldstärke zunehmend dem Wert des freien Raums an. Im Fernfeld ist er schließlich konstant und beträgt näherungsweise:
+In the radiating near field, the ratio of the electric and magnetic field strength comes closer and closer to the value for free space. In the far field it is finally constant and is approximately:
 
 $Z_0 = \sqrt{\dfrac{\mu_0}{\varepsilon_0}} \approx \qty{120\pi}{\ohm} \approx \qty{377}{\ohm}$
 
-Der Feldwellenwiderstand des freien Raums verknüpft die elektrischen und magnetischen Feldgrößen miteinander. Er ist ein Maß dafür, wie stark die elektrische Feldstärke im Verhältnis zur magnetischen Feldstärke ist. 
+The impedance of free space links the electric and magnetic field quantities. It is a measure of how strong the electric field strength is in relation to the magnetic field strength. 
 
 [question:AK102]
 
-Diesen Wert müssen wir uns merken, da wir ihn zur Herleitung der Näherungsformel benötigen. 
+We must remember this value, since we need it to derive the approximation formula. 
 
-Wir fassen zusammen: 
+To sum up: 
 
-* Das Fernfeld einer Strahlungsquelle ist der Bereich, in dem die Vektoren der elektrischen Feldstärke (E), der magnetischen Feldstärke (H) sowie die Ausbreitungsrichtung senkrecht aufeinander stehen und keine Phasendifferenzen aufweisen. Zusätzlich muss der Feldwellenwiderstand dem des freien Raums entsprechen. 
-* Die Grenze zwischen Fernfeld und Nahfeld ist in erster Linie abhängig von der Wellenlänge. Jedoch spielt die Art der verwendeten Antenne und deren Umgebung durchaus eine Rolle. Bei den im Amateurfunk überwiegend verwendeten Drahtantennen (z.B. Dipole) bildet sich das Fernfeld in einem Abstand von etwa $4\cdot\lambda$ aus. 
+* The far field of a source of radiation is the region in which the vectors of the electric field strength (E), the magnetic field strength (H) and the direction of propagation are at right angles to each other and have no phase differences. In addition, the wave impedance must be equal to that of free space. 
+* The boundary between the far field and the near field depends primarily on the wavelength. However, the type of antenna used and its surroundings do play a part. With the wire antennas mostly used in amateur radio (e.g. dipoles), the far field forms at a distance of about $4\cdot\lambda$. 
 
 <margin>
-[picture:1116:a_feldwellenwiderstand:Verlauf des Feldwellenwiderstands über die Bereiche Nahfeld und Fernfeld (Logarithmisch).]
+[picture:1116:a_feldwellenwiderstand:Wave impedance across the near-field and far-field regions (logarithmic).]
 </margin>

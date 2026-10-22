@@ -522,6 +522,24 @@ and the checker's "Provjera" section).
   glossary's descriptive "half-wave coaxial balun". (Unit
   nea_antennen_uebertragungsleitungen_4.)
 
+- ***Gewinnfaktor* → gain factor, *Kugelstrahler* → isotropic radiator, and
+  *Feldwellenwiderstand* → wave impedance in the EMF-exposure chapters.**
+  The Class N text (effektive_strahlungsleistung_erp_1 onwards) gives antenna
+  gain as a *Gewinnfaktor* and sets it against the "Gewinn in Dezibel"; English
+  says *gain factor*, which needs no gloss, while the questions keep their "a
+  gain of 1.8 (as a power ratio)" (VD725, VD726). Where the text introduces
+  the reference antenna with both German words, *Kugelstrahler, fachsprachlich
+  isotroper Strahler*, the English keeps the pair as "a *spherical radiator*,
+  known technically as an *isotropic radiator*"; afterwards *Kugelstrahler* is
+  the *isotropic radiator*, the one English term. In nahfeld the ratio
+  $Z_\mathrm{F}(d) = |E/H|$, which varies with distance, is the *wave
+  impedance*, as AK102 ("the wave impedance of the medium concerned"); its
+  far-field value $Z_0$ is the *impedance of free space*. The German glosses
+  that only give the English expansion of ERP and EIRP are dropped (bracket
+  rule), and the German's "equivalent isotropic radiated power" is written
+  in the established form *equivalent isotropically radiated power*. (Unit
+  nea_personenschutzabstand_1.)
+
 ## Open questions for DARC
 
 - Suspected slips in the German original noticed while translating are listed

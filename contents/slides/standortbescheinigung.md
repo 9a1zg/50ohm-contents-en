@@ -1,12 +1,12 @@
 <left>
-* Eine Standortbescheinigung ersetzt die Anzeige und kann auf *Antrag kostenpflichtig* durch die BNetzA ausgestellt werden
-* Funkamateur muss alle notwendigen Unterlagen und Informationen für die Berechnung bereitstellen
+* A site certificate replaces the notification and can be issued by the BNetzA *on application, for a fee*
+* The radio amateur must provide all the documents and information needed for the calculation
 </left>
 <right>
 <fragment>
-* Lageplan
-* Bauzeichnung mit Montageort der Antennen
-* Informationen zum Abstrahlverhalten von allen Antennen
+* Site plan
+* Construction drawing showing where the antennas are mounted
+* Information on the radiation characteristics of all the antennas
 </fragment>
 </right>
 
@@ -15,10 +15,10 @@
 
 ---
 
-## Verpflichtende Standortbescheinigung
+## Mandatory site certificate
 
-* Am Standort der Amateurfunkstelle befinden sich bereits eine ortsfeste Funkanlage, die eine Standortbescheinigung benötigt
-* z. B. Kommerzielle Anlagen wie Mobilfunk
+* A fixed radio installation that needs a site certificate is already present at the location of the amateur station
+* e.g. commercial installations such as mobile phone networks
 
 ---
 [question:VE519]

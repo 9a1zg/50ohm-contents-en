@@ -1,18 +1,18 @@
-## Personenschutzgrenzwerte
+## Limits for the protection of persons
 
-* Müssen ab einer EIRP von $\qty{10}{\watt}$ nachgewiesen werden
-* Trotz kleiner Leistung kann es einen hohen Antennengewinn geben
-* Dann besteht eine Pflicht zur Nachweisführung
+* Compliance must be demonstrated from an EIRP of $\qty{10}{\watt}$
+* Even with low power, the antenna gain can be high
+* There is then an obligation to provide verification
 
 ---
 [question:EK104]
 ---
-## Sicherheitsabstand
+## Safety distance
 
-* Bewertungsverfahren nach BEMFV (Verordnung über das Nachweisverfahren zur Begrenzung elektromagnetischer Felder)
-* Fernfeldberechnung ist für das Fernfeld möglich
-* Fernfeld bildet sich bei Dipolen in einem Abstand von etwa bei 4λ aus
-* Bei Berechnung mit der Fernfeldnäherung gilt der Sicherheitsabstand von jedem Punkt der Antenne
+* Assessment procedures under the BEMFV (Ordinance on the Verification Procedure for Limiting Electromagnetic Fields)
+* Far-field calculation is possible for the far field
+* For dipoles, the far field forms at a distance of about 4λ
+* When calculating with the far-field approximation, the safety distance applies from every point of the antenna
 
 % TODO: Erklärung für die folgende Frage ist nicht schlüssig
 

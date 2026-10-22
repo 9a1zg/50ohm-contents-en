@@ -1,26 +1,26 @@
-Am Anfang dieses Kapitels haben wir uns mit dem Dipol als Grundform aller Antennen beschäftigt. Der Halbwellendipol strahlt Funkwellen senkrecht zur Drahtrichtung ab. Andere Antennenformen können ihre Funkwellen je nach Bauform bevorzugt in eine oder mehrere Richtungen abstrahlen und dafür weniger in andere Richtungen:
-* Eine Groundplane-Antenne strahlt in alle Himmelsrichtungen nahezu gleichmäßig ab, aber nicht nach oben oder unten.
-* Bei einer Yagi-Uda-Antenne werden die Funkwellen wie bei einer Taschenlampe in einem Strahl nach vorn gebündelt und in alle anderen Richtungen reduziert.
+At the beginning of this chapter we looked at the dipole as the basic form of all antennas. The half-wave dipole radiates radio waves at right angles to the direction of the wire. Depending on their design, other forms of antenna can radiate their radio waves preferentially in one or more directions, and less in other directions in return:
+* A ground-plane antenna radiates almost equally in all compass directions, but not upwards or downwards.
+* With a Yagi-Uda antenna the radio waves are concentrated into a forward beam, as with a torch, and reduced in all other directions.
 
-Die vom Nachweisverfahren zum Schutz von Personen in elektromagnetischen Feldern vorgegebenen Grenzwerte muss eine Sendeanlage in jede Richtung einhalten. Wenn in einem bestimmten Abstand von der Antenne die Grenzwerte in die Richtung eingehalten werden, in die sie am stärksten abstrahlt, dann wird sie die Grenzwerte im gleichen Abstand auch in alle anderen Richtungen einhalten. Daher interessiert uns besonders die Richtung der stärksten Abstrahlung. Diese wird als *Hauptstrahlrichtung* bezeichnet.
+Transmitting equipment must comply in every direction with the limits laid down by the verification procedure for the protection of persons in electromagnetic fields. If, at a certain distance from the antenna, the limits are complied with in the direction in which it radiates most strongly, it will also comply with the limits at the same distance in all other directions. We are therefore particularly interested in the direction of strongest radiation. This is called the *direction of maximum radiation*.
 
 ---
 
-Wie stark eine Antenne in ihre Hauptstrahlrichtung abstrahlt, wird durch den *Gewinnfaktor* bezogen auf den Halbwellendipol ausgedrückt. Dieser gibt an, wieviel besser eine Antenne im Vergleich zu einem Halbwellendipol in die jeweilige Hauptstrahlrichtung abstrahlt. Ein Gewinnfaktor von $\num{2}$ gegenüber dem Halbwellendipol bedeutet beispielsweise, dass eine Antenne in die Hauptstrahlrichtung doppelt so stark abstrahlt wie ein Halbwellendipol in seine Hauptstrahlrichtung.
+How strongly an antenna radiates in its direction of maximum radiation is expressed by the *gain factor* relative to the half-wave dipole. This states how much better an antenna radiates in its direction of maximum radiation than a half-wave dipole does in its own. A gain factor of $\num{2}$ relative to the half-wave dipole means, for example, that an antenna radiates twice as strongly in its direction of maximum radiation as a half-wave dipole in its direction of maximum radiation.
 
 <indepth>
 % TODO: Editionsspezifisch machen
-Anstelle des Gewinnfaktors von Antennen wird häufig der "Gewinn in Dezibel ($\unit{\dB}$)" angegeben. Mit der Einheit Dezibel beschäftigt sich der Kurs für die Klasse E.
+Instead of the gain factor of antennas, the "gain in decibels ($\unit{\dB}$)" is often given. The decibel unit is covered in the course for Class E.
 </indepth>
 
 ---
 
-Um nun anzugeben, wieviel eine konkrete Antenne in die Hauptstrahlrichtung abstrahlt wenn man eine bestimmte Sendeleistung eingibt, multipliziert man die Sendeleistung mit dem auf den Halbwellendipol bezogenen Gewinnfaktor. Dann erhält man die *effektive Strahlungsleistung*, die meist als ERP (vom englischen "effective radiated power") abgekürzt wird. Geben wir beispielsweise eine Sendeleistung von $\qty{5}{\watt}$ in eine Antenne mit einem Gewinnfaktor von $\num{2}$ gegenüber dem Halbwellendipol, dann ergibt sich eine Strahlungsleistung von $\qty{10}{\watt}$ ERP.
+To state how much a particular antenna radiates in its direction of maximum radiation when a certain transmit power is fed into it, the transmit power is multiplied by the gain factor relative to the half-wave dipole. This gives the *effective radiated power*, usually abbreviated to ERP. If, for example, we feed a transmit power of $\qty{5}{\watt}$ into an antenna with a gain factor of $\num{2}$ relative to the half-wave dipole, the result is a radiated power of $\qty{10}{\watt}$ ERP.
 
 <margin>
-Man kann sich die effektive Strahlungsleistung (ERP) auch so vorstellen: Es ist die Leistung, die man in einen Halbwellendipol einspeisen müsste, damit dieser in seiner Hauptstrahlrichtung genauso stark abstrahlt wie die betrachtete Antenne.
+The effective radiated power (ERP) can also be pictured like this: it is the power that would have to be fed into a half-wave dipole for it to radiate as strongly in its direction of maximum radiation as the antenna under consideration.
 </margin>
 
-Richtantennen können viel größere Gewinnfaktoren haben. Eine Yagi-Uda-Antenne aus 9 Elementen kann beispielsweise leicht einen Gewinnfaktor von $\num{10}$ oder mehr gegenüber dem Halbwellendipol erreichen. Gibt man in eine solche Antenne z. B. $\qty{100}{\watt}$ ein, beträgt die Strahlungsleistung bereits $\qty{1000}{\watt}$ ERP oder mehr!
+Directional antennas can have much larger gain factors. A 9-element Yagi-Uda antenna, for example, can easily reach a gain factor of $\num{10}$ or more relative to the half-wave dipole. If you feed, say, $\qty{100}{\watt}$ into such an antenna, the radiated power is already $\qty{1000}{\watt}$ ERP or more!
 
 [question:NG401]

@@ -1,38 +1,36 @@
-Kurze Wiederholung zu Antennen:
+Quick recap on antennas:
 
-* Groundplane-Antenne strahlt in alle Himmelsrichtungen nahezu gleichmäßig ab, aber nicht nach oben oder unten
-* Yagi-Uda-Antenne bündelt die Funkstrahlen nach vorn und reduziert in alle anderen Richtungen
-
----
-
-* Grenzwerte zum Personenschutz müssen in jede Richtung eingehalten werden
-* Werden sie in der Richtung der stärksten Abstrahlung eingehalten, gilt das im gleichen Abstand auch für alle anderen Richtungen
-* Richtung der stärksten Abstrahlung wird als *Hauptstrahlrichtung* bezeichnet
+* A ground-plane antenna radiates almost equally in all compass directions, but not upwards or downwards
+* A Yagi-Uda antenna concentrates the radio waves forwards and reduces them in all other directions
 
 ---
-## Gewinnfaktor
 
-* Wie viel besser eine Antenne in Hauptstrahlrichtung im Vergleich zu einem Halbwellendipol abstrahlt
-* Gewinnfaktor $\num{2}$: Antenne strahlt in Hauptstrahlrichtung doppelt so stark wie ein Halbwellendipol in seine Hauptstrahlrichtung
+* Limits for the protection of persons must be complied with in every direction
+* If they are complied with in the direction of strongest radiation, this also applies at the same distance to all other directions
+* The direction of strongest radiation is called the *direction of maximum radiation*
+
+---
+## Gain factor
+
+* How much better an antenna radiates in its direction of maximum radiation than a half-wave dipole
+* Gain factor $\num{2}$: the antenna radiates twice as strongly in its direction of maximum radiation as a half-wave dipole in its direction of maximum radiation
 
 <note>
-* Anstelle von Gewinnfaktor wird oft "Gewinn in Dezibel ($\unit{dB}$)" angegeben
-* Das ist Stoff für die Klasse E
+* Instead of the gain factor, the "gain in decibels ($\unit{dB}$)" is often given
+* That is material for Class E
 </note>
 
 ---
-## Effektive Strahlungsleistung (ERP)
+## Effective radiated power (ERP)
 
-*Effective radiated power*
-
-* Sendeleistung zur Antenne multipliziert mit dem auf den Halbwellendipol bezogenen Gewinnfaktor
-* Entspricht der Leistung, die man in einen Halbwellendipol einspeisen müsste, damit dieser genauso stark wie die betrachtete Antenne abstrahlt
+* Transmit power to the antenna multiplied by the gain factor relative to the half-wave dipole
+* Equal to the power that would have to be fed into a half-wave dipole for it to radiate as strongly as the antenna under consideration
 
 ---
-Beispiel: $\qty{5}{\watt}$ auf eine Antenne mit Gewinnfaktor $\num{2}$ ergibt die effektive Strahlungsleistung von $\qty{10}{\watt}$
+Example: $\qty{5}{\watt}$ into an antenna with a gain factor of $\num{2}$ gives an effective radiated power of $\qty{10}{\watt}$
 
 <note>
-9-Element Yagi-Uda kann einen Gewinnfaktor von 10 haben, also $\qty{100}{\watt}$ Eingangsleistung sind $\qty{1000}{\watt}$ ERP
+A 9-element Yagi-Uda can have a gain factor of 10, so $\qty{100}{\watt}$ of input power gives $\qty{1000}{\watt}$ ERP
 </note>
 
 ---

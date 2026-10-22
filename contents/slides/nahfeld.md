@@ -1,68 +1,68 @@
-## Nahfeld und seine Unterteilung
+## The near field and how it is divided
 
-* Das Nahfeld gliedert sich in das reaktive und das strahlende Nahfeld
-* In den meisten Fällen kann das strahlende Nahfeld wie das Fernfeld behandelt werden
+* The near field is divided into the reactive and the radiating near field
+* In most cases the radiating near field can be treated like the far field
 
 ---
-### Reaktives Nahfeld
+### Reactive near field
 
-* Im reaktiven Nahfeld besteht keine konstante Phasenbeziehung zwischen elektrischer und magnetischer Feldstärke
+* In the reactive near field there is no constant phase relationship between the electric and the magnetic field strength
 
 ---
 [question:AK101]
 
 ---
-## Fernfeld und konstante Phasenbeziehung
+## The far field and a constant phase relationship
 
-* Eine konstante Phasenbeziehung zwischen elektrischer und magnetischer Feldstärke entsteht erst im Fernfeld
-* Das eigentliche Fernfeld beginnt erst bei $4\cdot\lambda$
-* Wird die Fernfeld-Näherungsformel im strahlenden Nahfeld verwendet, ergibt sich eine höhere, konservative Feldstärke
-* Dies gilt nicht für magnetische und sehr kurze Antennen
-
----
-### Übergang vom reaktiven Nahfeld zum strahlenden Nahfeld
-
-* Der Übergang ist abhängig von der Wellenlänge
-* Erfüllte Bedingung: $d > \frac{\lambda}{2\pi}$
-* Beispiel: Bei $\lambda = \qty{20}{\meter}$ liegt der Übergang bei ca. $d \approx \qty{3,18}{\meter}$
+* A constant phase relationship between the electric and the magnetic field strength only arises in the far field
+* The far field proper only begins at $4\cdot\lambda$
+* If the far-field approximation formula is used in the radiating near field, the result is a higher, conservative field strength
+* This does not apply to magnetic antennas and very short antennas
 
 ---
-### Personenschutzabstände im Fernfeld
+### Transition from the reactive near field to the radiating near field
 
-* Im Fernfeld kann eine Näherungsformel zur Berechnung von Personenschutzabständen angewendet werden
-* Formel: $d = \dfrac{\sqrt{\qty{30}{\ohm}\cdot P_{\textrm{EIRP}}}}{E}$
-* Gilt für die meisten Antennenformen, wenn $d > \frac{\lambda}{2\pi}$ erfüllt ist
-* Bei kleinen Antennen oder Sicherheitsabständen im Nahfeld ist die Formel nicht anwendbar
+* The transition depends on the wavelength
+* Condition to be met: $d > \frac{\lambda}{2\pi}$
+* Example: at $\lambda = \qty{20}{\meter}$ the transition is at approx. $d \approx \qty{3.18}{\meter}$
+
+---
+### Safety distances for the protection of persons in the far field
+
+* In the far field, an approximation formula can be used to calculate the safety distances for the protection of persons
+* Formula: $d = \dfrac{\sqrt{\qty{30}{\ohm}\cdot P_{\textrm{EIRP}}}}{E}$
+* Applies to most antenna types if $d > \frac{\lambda}{2\pi}$ is satisfied
+* For small antennas, or safety distances within the near field, the formula cannot be used
 
 ---
 [question:AK103]
 
-## Definition des Fernfelds
+## Definition of the far field
 
-* Im Fernfeld stehen die Vektoren der elektrischen Feldstärke (E), der magnetischen Feldstärke (H) und der Ausbreitungsrichtung senkrecht aufeinander
-* Es gibt keine Phasendifferenzen zwischen E und H
-* Der Feldwellenwiderstand entspricht dem des freien Raums
-
----
-### Grenze zwischen Nahfeld und Fernfeld
-
-* Die Grenze ist primär abhängig von der Wellenlänge
-* Bei Drahtantennen (z. B. Dipole) bildet sich das Fernfeld typischerweise ab einem Abstand von etwa $4\cdot\lambda$
-* Übergangsbedingung im Nahfeld: $d > \frac{\lambda}{2\pi}$; bei $\lambda = \qty{20}{\meter}$ ca. $d \approx \qty{3,18}{\meter}$
+* In the far field, the vectors of the electric field strength (E), the magnetic field strength (H) and the direction of propagation are at right angles to each other
+* There are no phase differences between E and H
+* The wave impedance is equal to that of free space
 
 ---
-### Anwendung der Fernfeld-Näherungsformel
+### Boundary between the near field and the far field
 
-* Die Näherungsformel $d = \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_{\textrm{EIRP}}}}{E}$ gilt für die meisten Antennenformen
-* Sie wird angewendet, wenn der berechnete Sicherheitsabstand im strahlenden Nahfeld oder im Fernfeld liegt
-* Die Formel erspart aufwendige Messungen oder Simulationen zur Ermittlung der Personenschutzabstände
+* The boundary depends primarily on the wavelength
+* With wire antennas (e.g. dipoles) the far field typically forms from a distance of about $4\cdot\lambda$
+* Transition condition in the near field: $d > \frac{\lambda}{2\pi}$; at $\lambda = \qty{20}{\meter}$ approx. $d \approx \qty{3.18}{\meter}$
 
 ---
-### Bewertungsverfahren nach BEMFV
+### Applying the far-field approximation formula
+
+* The approximation formula $d = \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_{\textrm{EIRP}}}}{E}$ applies to most antenna types
+* It is used when the calculated safety distance lies in the radiating near field or in the far field
+* The formula saves elaborate measurements or simulations for determining the safety distances for the protection of persons
+
+---
+### Assessment procedures under the BEMFV
 
 <left>
-[photo:80:n_Bewertungsverfahren:In diesem Dokument sind die Bewertungsverfahren beschrieben.]
+[photo:80:n_Bewertungsverfahren:The assessment procedures are described in this document.]
 </left>
 <right>
-In den [Erläuterungen der Bewertungsverfahren nach BEMFV](https://50ohm.de/bemfv) hat die BNetzA die Begriffe und Verfahren für die Ermittlung der Sicherheitsabstände beschrieben.  
+In the [Explanations of the assessment procedures under the BEMFV](https://50ohm.de/bemfv), the BNetzA has described the terms and procedures for determining the safety distances.  
 </right>

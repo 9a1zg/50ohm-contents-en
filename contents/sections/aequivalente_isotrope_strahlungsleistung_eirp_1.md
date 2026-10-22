@@ -1,19 +1,19 @@
-Häufig wird die Strahlungsleistung allerdings gar nicht auf den Halbwellendipol bezogen, sondern auf einen sogenannten *Kugelstrahler*, der fachsprachlich auch als *isotroper Strahler* bezeichnet wird.
+Often, however, the radiated power is not related to the half-wave dipole at all, but to what is called a *spherical radiator*, known technically as an *isotropic radiator*.
 
-Beim isotropen Strahler handelt es sich um eine Antenne, die nur in der Theorie existiert. Sie ist unendlich klein - kleiner als ein Stecknadelkopf. Die Funkwellen werden von dieser theoretisch in alle Richtungen mit gleicher Stärke abgestrahlt. Der isotrope Strahler hat also keine Hauptstrahlrichtung.
+The isotropic radiator is an antenna that exists only in theory. It is infinitely small - smaller than a pinhead. In theory it radiates radio waves equally strongly in all directions. The isotropic radiator therefore has no direction of maximum radiation.
 
 <margin>
-[picture:751:n_Kugelstrahler:Isotroper Strahler in der Mitte einer Kugel, der an allen Stellen der Kugeloberfläche die gleiche Strahlungsleistung erzeugt]
+[picture:751:n_Kugelstrahler:Isotropic radiator at the centre of a sphere, producing the same radiated power at every point on the surface of the sphere]
 </margin>
 
-Wird die Strahlungsleistung auf den isotropen Strahler bezogen angegeben, dann spricht man von der "äquivalenten isotropen Strahlungsleistung". Dies wird nach dem englischen Begriff "equivalent isotropic radiated power" mit EIRP abgekürzt.
+When the radiated power is stated relative to the isotropic radiator, we speak of the "equivalent isotropically radiated power". It is abbreviated to EIRP.
 
 ---
 
-Die Berechnung erfolgt bei EIRP vom Prinzip her genauso wie bei ERP: Hat eine Antennen einen Gewinnfaktor von $\num{3}$ bezogen auf den isotropen Strahler, dann strahlt diese Antenne in Hauptstrahlrichtung dreimal so stark wie ein isotroper Strahler in jede beliebige Richtung. Gibt man $\qty{5}{\watt}$ Sendeleistung in eine Antenne mit einem Gewinnfaktor von $\num{3}$ gegenüber dem isotropen Strahler ein, dann hat diese eine Strahlungsleistung von $\qty{15}{\watt}$ EIRP.
+In principle, EIRP is calculated in the same way as ERP: if an antenna has a gain factor of $\num{3}$ relative to the isotropic radiator, it radiates three times as strongly in its direction of maximum radiation as an isotropic radiator in any direction. If you feed $\qty{5}{\watt}$ of transmit power into an antenna with a gain factor of $\num{3}$ relative to the isotropic radiator, it has a radiated power of $\qty{15}{\watt}$ EIRP.
 
 <indepth>
-Ein Halbwellendipol hat übrigens einen Gewinnfaktor von $\num{1,64}$ gegenüber dem isotropen Strahler. Mit diesem Wert kann man auch zwischen dem Gewinnfaktor bezogen auf den Halbwellendipol und dem Gewinnfaktor bezogen auf den isotropen Strahler umrechnen. Hat eine Antenne einen Gewinnfaktor von $\num{2}$ gegenüber dem Halbwellendipol, hat sie einen Gewinnfaktor von $2 \cdot 1,64 = 3,28$ gegenüber dem Kugelstrahler.
+Incidentally, a half-wave dipole has a gain factor of $\num{1.64}$ relative to the isotropic radiator. This value can also be used to convert between the gain factor relative to the half-wave dipole and the gain factor relative to the isotropic radiator. If an antenna has a gain factor of $\num{2}$ relative to the half-wave dipole, it has a gain factor of $2 \cdot 1.64 = 3.28$ relative to the isotropic radiator.
 </indepth>
 
 [question:NG402]

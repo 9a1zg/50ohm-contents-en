@@ -1,26 +1,26 @@
-In der Klasse N haben wir bereits die *effektive Strahlungsleistung* (ERP) kennengelernt. Im Gegensatz zur EIRP bezieht sie sich nicht auf einen isotropen Strahler, sondern auf einen Halbwellendipol. Für die Berechnung ist nur die Leistung maßgeblich, die tatsächlich am Speisepunkt der Antenne ankommt. Verluste in der Speiseleitung, beispielsweise durch Kabeldämpfung, müssen daher von der Senderausgangsleistung abgezogen werden.
+In Class N we have already met the *effective radiated power* (ERP). Unlike the EIRP, it is not relative to an isotropic radiator but to a half-wave dipole. For the calculation, only the power that actually arrives at the feed point of the antenna counts. Losses in the feeder, for example due to cable loss, must therefore be subtracted from the transmitter output power.
 
-Die effektive Strahlungsleistung ergibt sich aus der an der Antenne zugeführten Leistung und dem Antennengewinn in der betrachteten Richtung:
+The effective radiated power is obtained from the power supplied to the antenna and the antenna gain in the direction under consideration:
 
 $P_\mathrm{ERP}=P_\mathrm{Ant}\cdot G_\mathrm{d}$
 
-Dabei ist $G_\mathrm{d}$ der auf einen Halbwellendipol bezogene Antennengewinn als linearer Faktor.
+Here $G_\mathrm{d}$ is the antenna gain relative to a half-wave dipole, as a linear factor.
 
 [question:AG501]
 
-Die Leistung am Speisepunkt der Antenne lässt sich aus der Senderausgangsleistung und der Dämpfung der Speiseleitung bestimmen. Dazu wird die Dämpfung in einen linearen Dämpfungsfaktor $D$ umgerechnet. Bei einer Dämpfung von beispielsweise $\qty{10}{\dB}$ beträgt dieser Faktor $\num{0,1}$, sodass nur noch ein Zehntel der Senderleistung an der Antenne ankommt:
+The power at the feed point of the antenna can be determined from the transmitter output power and the loss in the feeder. To do this, the loss is converted into a linear attenuation factor $D$. With a loss of $\qty{10}{\dB}$, for example, this factor is $\num{0.1}$, so that only a tenth of the transmitter power arrives at the antenna:
 
 $P_\mathrm{Ant}=D\cdot P_\mathrm{Sender}$
 
-Erst diese tatsächlich zugeführte Leistung wird anschließend mit dem Antennengewinn multipliziert, um die ERP zu berechnen.
+Only this power actually supplied is then multiplied by the antenna gain to calculate the ERP.
 
 [question:AK104]
 
-Bei der nächsten Frage ist unbedingt auf die Rechenzeichen zu achten. Die Verluste werden von der Sendeleistung subtrahiert und danach mit dem Gewinnfaktor ($G_\mathrm{Antenne}$) multipliziert.
-Da die ERP berechnet werden soll, muss der Bezug auf einen Halbwellendipol erfolgen.
+In the next question, pay close attention to the arithmetic signs. The losses are subtracted from the transmit power and the result is then multiplied by the gain factor ($G_\mathrm{Antenne}$).
+Since the ERP is to be calculated, it must be relative to a half-wave dipole.
 
 [question:AG502]
 
-Einen Hinweis auf die richtige Lösung der nächsten Frage gibt schon die [Anlage 1 der AFUV](https://50ohm.de/a1). Dort ist als maximale Leistung für das $\qty{630}{\meter}$-Band $\qty{1}{\watt}$ ERP vorgegeben. Ein Halbwellendipol für diese Frequenz hätte eine Länge von etwa $\qty{315}{\meter}$ und ist daher für die meisten Funkamateure kaum realisierbar. In der Praxis kommen deshalb meist stark verkürzte Antennen zum Einsatz, deren Wirkungsgrad deutlich geringer ist als der eines unverkürzten Halbwellendipols. Ein Antennengewinn von $\qty{-20}{\dBd}$ ist daher durchaus plausibel. Da das verwendete Koaxialkabel nur eine geringe Länge hat, kann dessen Dämpfung in diesem Frequenzbereich vernachlässigt werden. Versuche nun, die folgende Frage zu lösen. 
+[Annex 1 to the Amateur Radio Ordinance (Amateurfunkverordnung, AFuV)](https://50ohm.de/a1) already gives a hint to the correct answer to the next question. It specifies a maximum power of $\qty{1}{\watt}$ ERP for the $\qty{630}{\meter}$ band. A half-wave dipole for this frequency would be about $\qty{315}{\meter}$ long and is therefore hardly feasible for most radio amateurs. In practice, heavily shortened antennas are therefore mostly used, whose efficiency is considerably lower than that of a full-size half-wave dipole. An antenna gain of $\qty{-20}{\dBd}$ is therefore entirely plausible. Since the coaxial cable used is only short, its loss in this frequency range can be neglected. Now try to solve the following question. 
 
 [question:AG503]

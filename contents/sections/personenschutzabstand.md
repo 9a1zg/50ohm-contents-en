@@ -1,10 +1,10 @@
-Die von Antennen abgegebenen Funkwellen gehören - wie wir gelernt haben - zu den elektromagnetischen Wellen. Jede elektromagnetische Welle besteht aus sogenannten elektrischen und magnetischen Feldern, die sich ausbreiten. Man spricht zusammenfassend von *elektromagnetischen Feldern*. Diese können auch eine Auswirkung auf Menschen haben, die sich darin aufhalten.
+The radio waves emitted by antennas are - as we have learnt - electromagnetic waves. Every electromagnetic wave consists of what are called electric and magnetic fields, which propagate. Taken together, they are referred to as *electromagnetic fields*. These can also have an effect on people who are in them.
 
-Insbesondere die bei höheren Sendeleistungen entstehenden Felder können den menschlichen Körper schädigen oder sich störend auf aktive Körperhilfen auswirken, beispielsweise auf Herzschrittmacher oder automatische Insulinpumpen. Damit es durch Amateurfunkanlagen zu keiner Gefährdung von Menschen kommen kann, muss sich jeder Funkamateur mit dem Personenschutz in elektromagnetischen Feldern auskennen.
+The fields produced at higher transmit powers in particular can harm the human body or interfere with active implants, for example pacemakers or automatic insulin pumps. So that amateur radio installations cannot endanger anyone, every radio amateur must know about the protection of persons in electromagnetic fields.
 
 [question:NK201]
 
-Der Gesetzgeber hat festgelegt, dass für die sogenannte "elektromagnetische Verträglichkeit in der Umwelt" (EMVU) bestimmte Grenzwerte für elektromagnetische Felder von ortsfesten Sendeanlagen einzuhalten sind. Diese Grenzwerte, die vor allem dem Schutz von Personen dienen sollen, finden sich in zwei Verordnungen, zum einen in der Anlage zur "26. Verordnung zur Durchführung des Bundes-Immissionsschutzgesetzes" (26. BImSchV) und zum anderen in der "Verordnung über das Nachweisverfahren zur Begrenzung elektromagnetischer Felder“ (BEMFV). Für die Einhaltung ist der Betreiber einer Sendeanlage verantwortlich. Das gilt für Mobilfunknetz-Betreiber genauso wie für jeden Funkamateur, der eine ortsfeste Amateurfunkanlage betreibt.
+The legislator has laid down that, for what is called "electromagnetic compatibility with the environment" (*elektromagnetische Verträglichkeit in der Umwelt*, EMVU), certain limits for electromagnetic fields from fixed transmitting equipment must be complied with. These limits, which are intended above all to protect persons, are found in two ordinances: in the annex to the "26th Ordinance implementing the Federal Immission Control Act" (Ordinance on Electromagnetic Fields, 26. BImSchV) and in the "Ordinance on the Verification Procedure for Limiting Electromagnetic Fields" (BEMFV). The operator of transmitting equipment is responsible for compliance. This applies to mobile network operators just as much as to every radio amateur who operates a fixed amateur radio installation.
 
 [question:VE501]
 [question:VE502]
@@ -12,14 +12,14 @@ Der Gesetzgeber hat festgelegt, dass für die sogenannte "elektromagnetische Ver
 
 ---
 
-Der Betreiber einer Sendeanlage ist aber nicht nur verpflichtet, diese Grenzwerte einzuhalten. Darüber hinaus muss vor der Inbetriebnahme einer Sendeanlage der Nachweis erbracht werden, dass die Grenzwerte zum Schutz von Personen auch tatsächlich eingehalten werden. Wie der Nachweis genau erbracht werden muss, ist in der "Verordnung über das Nachweisverfahren zur Begrenzung elektromagnetischer Felder" (BEMFV) geregelt. Funkamateure haben über das dort beschriebene Anzeigeverfahren für ortsfeste Amateurfunkstellen die Möglichkeit, selbst sicherzustellen und zu dokumentieren, dass alle Grenzwerte eingehalten werden und somit keine Gefahr für Menschen besteht.
+The operator of transmitting equipment is, however, not only obliged to comply with these limits. In addition, before transmitting equipment is put into service, verification must be provided that the limits for the protection of persons are actually complied with. Exactly how this verification is to be provided is laid down in the "Ordinance on the Verification Procedure for Limiting Electromagnetic Fields" (BEMFV). Through the notification procedure for fixed amateur stations described there, radio amateurs have the opportunity to ensure and document for themselves that all limits are complied with and that there is therefore no danger to people.
 
 <indepth>
-Nur Funkamateure genießen das Privileg, die Einhaltung der Grenzwerte für den Schutz von Personen selbst zu ermitteln und zu dokumentieren. Andere Betreiber von Sendeanlagen, beispielsweise Mobilfunknetz-Betreiber, müssen den Nachweis kostenpflichtig durch die Bundesnetzagentur führen lassen.
+Only radio amateurs enjoy the privilege of determining and documenting compliance with the limits for the protection of persons themselves. Other operators of transmitting equipment, for example mobile network operators, must have the verification carried out by the Federal Network Agency (Bundesnetzagentur, BNetzA), for a fee.
 </indepth>
 
 [question:VE503]
 [question:VE504]
 [question:VE511]
 
-Da es bei diesem Verfahren um den Schutz von Menschen geht, wird es in der Amateurfunkprüfung ausführlich behandelt. Im Folgenden werden wir uns daher näher mit den Details zum Nachweisverfahren beschäftigen. Da diese Regelungen allerdings nur dann gelten, wenn die von der Antenne abgestrahlte Leistung, die sogenannte *Strahlungsleistung*, einen gewissen Wert überschreitet, müssen wir uns zunächst damit beschäftigen.
+Since this procedure is about protecting people, it is covered in detail in the amateur radio examination. In what follows we will therefore look more closely at the details of the verification procedure. However, since these rules only apply when the power radiated by the antenna, the *radiated power* as it is called, exceeds a certain value, we must first look at that.
