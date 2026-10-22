@@ -1,0 +1,1133 @@
+{
+  "pitanja": {
+    "AB502": {
+      "question": "A power supply draws a current of 0.63 A at a voltage of 230 V. How much energy is converted over an operating time of 7 hours?",
+      "answer_a": "1.01 kWh",
+      "answer_b": "0.14 kWh",
+      "answer_c": "2.56 kWh",
+      "answer_d": "20.7 kWh"
+    },
+    "AB501": {
+      "question": "A 12 V rechargeable battery has a capacity of 5 Ah. What amount of stored energy does this correspond to?",
+      "answer_a": "60.0 Wh",
+      "answer_b": "12.0 Wh",
+      "answer_c": "2.4 Wh",
+      "answer_d": "5.0 Wh"
+    },
+    "AB601": {
+      "question": "Which picture correctly shows the direction of electron flow (the physical direction of current)?"
+    },
+    "NB703": {
+      "question": "In which of the circuits shown does the LED light up?"
+    },
+    "NB702": {
+      "question": "Which picture correctly shows the direction of conventional current flow?"
+    },
+    "NB701": {
+      "question": "Which component does the circuit symbol represent?",
+      "answer_a": "Switch",
+      "answer_b": "Chassis",
+      "answer_c": "Antenna",
+      "answer_d": "Earth"
+    },
+    "EC117": {
+      "question": "What is the value of an SMD resistor marked 223?",
+      "answer_a": "22 kΩ",
+      "answer_b": "223 ohms",
+      "answer_c": "22.3 kΩ",
+      "answer_d": "220 ohms"
+    },
+    "EC116": {
+      "question": "What is the value of an SMD resistor marked 221?",
+      "answer_a": "220 ohms",
+      "answer_b": "221 ohms",
+      "answer_c": "22.0 ohms",
+      "answer_d": "22.1 ohms"
+    },
+    "EC115": {
+      "question": "What is the value of the SMD resistor shown?",
+      "answer_a": "10 kΩ",
+      "answer_b": "103 ohms",
+      "answer_c": "1 kΩ",
+      "answer_d": "10.3 ohms"
+    },
+    "EC114": {
+      "question": "How is the resistance value of SMD resistors usually indicated?",
+      "answer_a": "The value is printed on the resistor as digits, the last digit giving the power of ten.",
+      "answer_b": "The value is printed on the resistor as colour bands, the last band giving the tolerance.",
+      "answer_c": "The value is printed on the resistor as colour bands, the last band giving the power of ten.",
+      "answer_d": "The value is printed on the resistor as digits, the number shown being the value of the resistor."
+    },
+    "EC113": {
+      "question": "The colour bands green, blue and red plus a silver band on a resistor with 4 colour bands indicate a resistance value between ...",
+      "answer_a": "5040 and 6160 ohms.",
+      "answer_b": "4760 and 6440 ohms.",
+      "answer_c": "4760 and 6840 ohms.",
+      "answer_d": "5240 and 6360 ohms."
+    },
+    "EC112": {
+      "question": "A resistor has a tolerance of 10 %. For a nominal resistance value of 5.6 kΩ, the actual value lies between ...",
+      "answer_a": "5040 and 6160 ohms.",
+      "answer_b": "4760 and 6440 ohms.",
+      "answer_c": "4.7 and 6.8 kΩ.",
+      "answer_d": "5.2 and 6.3 kΩ."
+    },
+    "EC111": {
+      "question": "Which of the following circuit symbols represents a PTC thermistor?"
+    },
+    "EC110": {
+      "question": "Which of the following components is an NTC thermistor?"
+    },
+    "EC109": {
+      "question": "Which component has the following circuit symbol?",
+      "answer_a": "NTC",
+      "answer_b": "PTC",
+      "answer_c": "LDR",
+      "answer_d": "VDR"
+    },
+    "EC108": {
+      "question": "Which resistors have a characteristic temperature dependence and are therefore particularly suitable for measuring temperature?",
+      "answer_a": "NTC thermistors",
+      "answer_b": "Light-dependent resistors (LDRs)",
+      "answer_c": "Metal-film resistors",
+      "answer_d": "Wirewound resistors"
+    },
+    "EC107": {
+      "question": "For the best performance, a dummy load for the VHF range should, for example, consist of ...",
+      "answer_a": "metal-oxide resistors without a spiral cut.",
+      "answer_b": "high-power wirewound resistors.",
+      "answer_c": "actively cooled heating coils.",
+      "answer_d": "heat-resistant reactances."
+    },
+    "EC106": {
+      "question": "Which of the following components could be used for an accurate dummy load that is to be used at 50 MHz?",
+      "answer_a": "Ten 500 ohm carbon-film resistors without a spiral cut, connected in parallel",
+      "answer_b": "A single 50 ohm wirewound resistor",
+      "answer_c": "Two 100 ohm wirewound resistors connected in parallel",
+      "answer_d": "Two spiral-cut 25 ohm carbon-film resistors connected in series"
+    },
+    "EC105": {
+      "question": "Which of the following components could be used for a well-functioning dummy load that is to be used at 28 MHz?",
+      "answer_a": "Ten 500 ohm carbon-film resistors",
+      "answer_b": "A 50 ohm wirewound resistor",
+      "answer_c": "Two 100 ohm wirewound resistors connected in parallel",
+      "answer_d": "A 50 ohm wirewound resistor connected in parallel with a 50 nF ceramic capacitor"
+    },
+    "EC104": {
+      "question": "What property should components have if they are used to build dummy loads for the VHF and UHF ranges?",
+      "answer_a": "Low self-inductance and self-capacitance",
+      "answer_b": "Low electrical and electronic conductance",
+      "answer_c": "High self-inductance and self-capacitance",
+      "answer_d": "High electrical and electronic conductance"
+    },
+    "EC103": {
+      "question": "Which resistors have low inductance and are particularly suitable for use at frequencies above 30 MHz?",
+      "answer_a": "Metal-oxide resistors",
+      "answer_b": "Metal-film resistors",
+      "answer_c": "Wirewound resistors",
+      "answer_d": "Light-dependent resistors (LDRs)"
+    },
+    "EC102": {
+      "question": "Which resistors have small manufacturing tolerances and little temperature dependence, and are particularly suitable as precision resistors?",
+      "answer_a": "Metal-film resistors",
+      "answer_b": "Metal-oxide resistors",
+      "answer_c": "Wirewound resistors",
+      "answer_d": "Light-dependent resistors (LDRs)"
+    },
+    "EC101": {
+      "question": "Which resistors are particularly suitable as high-power resistors at low frequencies?",
+      "answer_a": "Wirewound resistors",
+      "answer_b": "Metal-film resistors",
+      "answer_c": "Metal-oxide resistors",
+      "answer_d": "Light-dependent resistors (LDRs)"
+    },
+    "NC110": {
+      "question": "What is the tolerance of a resistor with 4 colour bands if the fourth band is brown?",
+      "answer_a": "$±$1 %",
+      "answer_b": "$±$0.1 %",
+      "answer_c": "$±$5 %",
+      "answer_d": "$±$10 %"
+    },
+    "NC109": {
+      "question": "What is the tolerance of a resistor with 4 colour bands if the fourth band is gold?",
+      "answer_a": "$±$5 %",
+      "answer_b": "$±$0.5 %",
+      "answer_c": "$±$0.1 %",
+      "answer_d": "$±$1 %"
+    },
+    "NC108": {
+      "question": "What is the tolerance of a resistor with 4 colour bands if the fourth band is silver?",
+      "answer_a": "$±$10 %",
+      "answer_b": "$±$5 %",
+      "answer_c": "$±$0.1 %",
+      "answer_d": "$±$1 %"
+    },
+    "NC107": {
+      "question": "The colour bands yellow, violet and orange on a resistor with 4 colour bands indicate a resistance value of ...",
+      "answer_a": "47 kΩ.",
+      "answer_b": "4.7 kΩ.",
+      "answer_c": "470 kΩ.",
+      "answer_d": "4.7 MΩ."
+    },
+    "NC106": {
+      "question": "The colour bands red, violet and orange on a resistor with 4 colour bands indicate a resistance value of ...",
+      "answer_a": "27 kΩ.",
+      "answer_b": "2.7 kΩ.",
+      "answer_c": "270 kΩ.",
+      "answer_d": "2.7 MΩ."
+    },
+    "NC105": {
+      "question": "The colour bands yellow, violet and red on a resistor with 4 colour bands indicate a resistance value of ...",
+      "answer_a": "4.7 kΩ.",
+      "answer_b": "47 kΩ.",
+      "answer_c": "470 kΩ.",
+      "answer_d": "4.7 MΩ."
+    },
+    "NC104": {
+      "question": "The colour bands red, violet and red on a resistor with 4 colour bands indicate a resistance value of ...",
+      "answer_a": "2.7 kΩ.",
+      "answer_b": "27 kΩ.",
+      "answer_c": "270 kΩ.",
+      "answer_d": "2.7 MΩ."
+    },
+    "NC103": {
+      "question": "When four colour bands are used, which three colour bands does a 1.2 kΩ resistor have at the start?",
+      "answer_a": "Brown, red, red",
+      "answer_b": "Red, orange, brown",
+      "answer_c": "Brown, red, orange",
+      "answer_d": "Red, brown, red"
+    },
+    "NC102": {
+      "question": "Which multiplier does a green colour band correspond to on a resistor with 4 colour bands?",
+      "answer_a": "100000",
+      "answer_b": "10000",
+      "answer_c": "1000000",
+      "answer_d": "10000000"
+    },
+    "NC101": {
+      "question": "Which component does the circuit symbol represent?",
+      "answer_a": "Resistor",
+      "answer_b": "Diode",
+      "answer_c": "Inductor",
+      "answer_d": "Capacitor"
+    },
+    "AC111": {
+      "question": "An AF signal of 10 kHz and 12 V$_{\\textrm{eff}}$ is applied to a capacitor with a capacitance of 1 μF. How much real power does it absorb in the steady state?",
+      "answer_a": "Approximately 0 W",
+      "answer_b": "0.9 W",
+      "answer_c": "0.75 W",
+      "answer_d": "9 W"
+    },
+    "AC110": {
+      "question": "Besides the capacitive reactance, a capacitor carrying alternating current also has losses, which can be combined mathematically into a parallel loss resistance. Capacitor losses are often specified by ...",
+      "answer_a": "the dissipation factor tan $\\delta$, which is the reciprocal of the Q factor.",
+      "answer_b": "the relative loss resistance in ohms per farad, from which the Q of the capacitor can be calculated.",
+      "answer_c": "the relative reactance in ohms per farad, from which the Q of the capacitor can be calculated.",
+      "answer_d": "the dissipation factor cos $\\phi$, which is the reciprocal of the Q factor."
+    },
+    "AC109": {
+      "question": "Does a real capacitor carrying alternating current have losses?",
+      "answer_a": "Yes, as a result of losses in the dielectric and the leads",
+      "answer_b": "No, a capacitor involves purely reactive power.",
+      "answer_c": "Yes, as a result of its reactance",
+      "answer_d": "No, there are no losses with alternating current."
+    },
+    "AC108": {
+      "question": "An AC voltage of 16 V at 50 Hz is applied to an unknown capacitor. A current of 32 mA is measured. What is the capacitance of the capacitor?",
+      "answer_a": "Approx. 6.37 μF",
+      "answer_b": "Approx. 0.637 μF",
+      "answer_c": "Approx. 0.45 μF",
+      "answer_d": "Approx. 4.5 μF"
+    },
+    "AC107": {
+      "question": "What is the magnitude of the capacitive reactance of a 100 pF capacitor at a frequency of 435 MHz?",
+      "answer_a": "Approx. 3.7 ohms",
+      "answer_b": "Approx. 0.27 ohms",
+      "answer_c": "Approx. 27.3 kΩ",
+      "answer_d": "Approx. 11.5 ohms"
+    },
+    "AC106": {
+      "question": "What is the magnitude of the capacitive reactance of a 100 pF capacitor at a frequency of 100 MHz?",
+      "answer_a": "Approx. 15.9 ohms",
+      "answer_b": "Approx. 159 ohms",
+      "answer_c": "Approx. 31.8 ohms",
+      "answer_d": "Approx. 3.2 ohms"
+    },
+    "AC105": {
+      "question": "What is the magnitude of the capacitive reactance of a 50 pF capacitor at a frequency of 145 MHz?",
+      "answer_a": "Approx. 22 ohms",
+      "answer_b": "Approx. 0.045 ohms",
+      "answer_c": "Approx. 18.2 kΩ",
+      "answer_d": "Approx. 69 ohms"
+    },
+    "AC104": {
+      "question": "What is the magnitude of the capacitive reactance of a 10 pF capacitor at a frequency of 100 MHz?",
+      "answer_a": "159 ohms",
+      "answer_b": "1.59 kΩ",
+      "answer_c": "318 ohms",
+      "answer_d": "31.8 ohms"
+    },
+    "AC103": {
+      "question": "Which of the following resistances has no heat losses?",
+      "answer_a": "The reactance",
+      "answer_b": "The metal-oxide resistor",
+      "answer_c": "The resistance (resistive part)",
+      "answer_d": "The NTC thermistor"
+    },
+    "AC102": {
+      "question": "What is the sign of the reactance of an ideal capacitor, and on which physical quantities does it depend? The reactance is ...",
+      "answer_a": "negative and dependent on the capacitance and the applied frequency.",
+      "answer_b": "negative and independent of the capacitance and the applied frequency.",
+      "answer_c": "positive and dependent on the capacitance and the applied frequency.",
+      "answer_d": "positive and independent of the capacitance and the applied frequency."
+    },
+    "AC101": {
+      "question": "A lossless capacitor is connected to an AC voltage source. What phase shift is there between voltage and current?",
+      "answer_a": "The current leads the voltage by 90 °.",
+      "answer_b": "The voltage leads the current by 90 °.",
+      "answer_c": "The voltage leads the current by 45 °.",
+      "answer_d": "The current leads the voltage by 45 °."
+    },
+    "EC207": {
+      "question": "For which of the following types of capacitor must the polarity be observed when fitting it?",
+      "answer_a": "Electrolytic capacitor",
+      "answer_b": "Ceramic capacitor",
+      "answer_c": "Polystyrene (Styroflex) capacitor",
+      "answer_d": "Parallel-plate capacitor"
+    },
+    "EC206": {
+      "question": "What is the name of a component in which plates mounted on an insulated spindle can be rotated between fixed plates?",
+      "answer_a": "Variable capacitor",
+      "answer_b": "Polystyrene (Styroflex) capacitor",
+      "answer_c": "Ceramic capacitor",
+      "answer_d": "Rotor capacitor"
+    },
+    "EC205": {
+      "question": "Which of the following quantities does the capacitance of a parallel-plate capacitor <u>not</u> depend on?",
+      "answer_a": "Voltage",
+      "answer_b": "Plate spacing",
+      "answer_c": "Plate area",
+      "answer_d": "Dielectric"
+    },
+    "EC204": {
+      "question": "In which case does the capacitance of a parallel-plate capacitor decrease?",
+      "answer_a": "When the plate spacing is increased",
+      "answer_b": "When the applied voltage is increased",
+      "answer_c": "When the plate area is increased",
+      "answer_d": "When the relative permittivity is increased"
+    },
+    "EC203": {
+      "question": "What reduces the capacitance of a parallel-plate capacitor? It is reduced by ...",
+      "answer_a": "a larger plate spacing.",
+      "answer_b": "a higher permittivity of the dielectric.",
+      "answer_c": "a higher voltage.",
+      "answer_d": "larger plate areas."
+    },
+    "EC202": {
+      "question": "How does the impedance of an ideal capacitor behave as the frequency increases?",
+      "answer_a": "It decreases.",
+      "answer_b": "It decreases to a minimum and then rises again.",
+      "answer_c": "It increases.",
+      "answer_d": "It increases to a maximum and then falls again."
+    },
+    "EC201": {
+      "question": "How does the voltage across a discharged capacitor vary with time when the capacitor is connected to a DC voltage source through a resistor?"
+    },
+    "NC201": {
+      "question": "Which component does the circuit symbol represent?",
+      "answer_a": "Capacitor",
+      "answer_b": "Inductor",
+      "answer_c": "Transistor",
+      "answer_d": "Battery"
+    },
+    "AC211": {
+      "question": "The following picture shows a core around which a cable is wound to make a choke. The core should normally be made of ...",
+      "answer_a": "ferrite.",
+      "answer_b": "plastic.",
+      "answer_c": "steel.",
+      "answer_d": "diamagnetic material."
+    },
+    "AC210": {
+      "question": "To reduce the radiation from the coil of a tuned circuit, the coil should ...",
+      "answer_a": "be housed in a conductive metal case.",
+      "answer_b": "have a hollow copper core.",
+      "answer_c": "be housed in an insulating plastic case.",
+      "answer_d": "have a tuned plastic core."
+    },
+    "AC209": {
+      "question": "Besides the inductive reactance, an inductor carrying alternating current also has losses, which can be combined mathematically into a series loss resistance. The losses in an inductor are also expressed by ...",
+      "answer_a": "the dissipation factor tan $\\delta$, which is the reciprocal of the Q factor.",
+      "answer_b": "the relative loss resistance in ohms per henry, from which the Q of the inductor can be calculated.",
+      "answer_c": "the relative reactance in ohms per henry, from which the Q of the inductor can be calculated.",
+      "answer_d": "the dissipation factor cos $\\varphi$, which is the reciprocal of the Q factor."
+    },
+    "AC208": {
+      "question": "A coil core has an inductance factor ($A_{\\textrm{L}}$ value) of 30 nH. Approximately how many turns are needed to make an inductance of 12 μH?",
+      "answer_a": "20",
+      "answer_b": "400",
+      "answer_c": "360",
+      "answer_d": "6"
+    },
+    "AC207": {
+      "question": "An inductor with an inductance of 2 mH is to be made on a toroidal core whose inductance factor ($A_{\\textrm{L}}$ value) is given as 250 nH. Approximately how many turns are needed?",
+      "answer_a": "89",
+      "answer_b": "3",
+      "answer_c": "2828",
+      "answer_d": "53"
+    },
+    "AC206": {
+      "question": "What is the inductance of a coil with 300 turns wound on a core with an inductance factor ($A_{\\textrm{L}}$ value) of 1250 nH?",
+      "answer_a": "112.5 mH",
+      "answer_b": "112.5 μH",
+      "answer_c": "11.25 mH",
+      "answer_d": "1.125 mH"
+    },
+    "AC205": {
+      "question": "What is the inductance of a coil with 14 turns wound on a core with an inductance factor ($A_{\\textrm{L}}$ value) of 1.5 nH?",
+      "answer_a": "0.294 μH",
+      "answer_b": "2.94 μH",
+      "answer_c": "29.4 nH",
+      "answer_d": "2.94 nH"
+    },
+    "AC204": {
+      "question": "What is the magnitude of the inductive reactance of an inductor of 3 μH at a frequency of 100 MHz?",
+      "answer_a": "Approx. 1885 ohms",
+      "answer_b": "Approx. 942.0 ohms",
+      "answer_c": "Approx. 1885 kΩ",
+      "answer_d": "Approx. 1.942 ohms"
+    },
+    "AC203": {
+      "question": "When you apply a DC voltage $U$ = 1 V to an inductor, you measure a current. Does the current become larger or smaller when an AC voltage with $U_{\\textrm{eff}}$ = 1 V is applied?",
+      "answer_a": "With a DC voltage, only the DC resistance of the inductor acts. With an AC voltage, the inductive reactance $X_{\\textrm{L}}$ comes into effect and increases the total resistance. The current becomes smaller.",
+      "answer_b": "With a DC voltage, only the DC resistance of the inductor acts. With an AC voltage, only the smaller inductive reactance $X_{\\textrm{L}}$ acts. The current becomes larger.",
+      "answer_c": "With a DC or AC voltage, only the ohmic resistance $X_{\\textrm{L}}$ of the inductor acts. The current stays the same.",
+      "answer_d": "With an AC voltage, only the AC resistance of the inductor acts. With a DC voltage, only the ohmic resistance $X_{\\textrm{L}}$ comes into effect. The current becomes larger."
+    },
+    "AC202": {
+      "question": "What is the sign of the reactance of an ideal inductor, and on which physical quantities does it depend? The reactance is ...",
+      "answer_a": "positive and dependent on the inductance and the applied frequency.",
+      "answer_b": "positive and independent of the inductance and the applied frequency.",
+      "answer_c": "negative and dependent on the inductance and the applied frequency.",
+      "answer_d": "negative and independent of the inductance and the applied frequency."
+    },
+    "AC201": {
+      "question": "In an ideal inductance connected to an AC voltage source, the current ...",
+      "answer_a": "lags the applied voltage by 90 °.",
+      "answer_b": "leads the applied voltage by 45 °.",
+      "answer_c": "lags the applied voltage by 45 °.",
+      "answer_d": "leads the applied voltage by 90 °."
+    },
+    "EC307": {
+      "question": "How does the inductance of a 12 μH coil change if the number of turns is doubled while the winding length stays the same?",
+      "answer_a": "The inductance rises to 48 μH.",
+      "answer_b": "The inductance rises to 24 μH.",
+      "answer_c": "The inductance falls to 6 μH.",
+      "answer_d": "The inductance falls to 3 μH."
+    },
+    "EC306": {
+      "question": "Assume two coils in the same surroundings, with the same number of turns and the same cross-sectional area. The first coil has an inductance of 12 μH. The second coil is twice as long as the first. What is the inductance of the second coil?",
+      "answer_a": "6 μH",
+      "answer_b": "24 μH",
+      "answer_c": "48 μH",
+      "answer_d": "3 μH"
+    },
+    "EC305": {
+      "question": "How can the inductance of a cylindrical coil be increased?",
+      "answer_a": "By compressing the coil lengthwise.",
+      "answer_b": "By stretching the coil lengthwise.",
+      "answer_c": "By inserting a copper core into the coil.",
+      "answer_d": "By fitting the coil in a screening can."
+    },
+    "EC304": {
+      "question": "Does a straight piece of conductor have inductance?",
+      "answer_a": "Yes, every conductor has inductance, whatever its shape.",
+      "answer_b": "No, the conductor must have at least one bend (a quarter, half or full turn).",
+      "answer_c": "Yes, as long as the reactance is 0 ohms.",
+      "answer_d": "No, in a vacuum, for example, no inductance arises."
+    },
+    "EC303": {
+      "question": "How does the impedance of an ideal inductor behave as the frequency increases?",
+      "answer_a": "It increases.",
+      "answer_b": "It decreases.",
+      "answer_c": "It decreases to a minimum and then rises again.",
+      "answer_d": "It increases to a maximum and then falls again."
+    },
+    "EC302": {
+      "question": "If two lamps are connected to a DC voltage source at the same time, one of them, lamp 1, through a resistor to balance the brightness and the other, lamp 2, through an iron-cored coil with many turns, then ...",
+      "answer_a": "lamp 1 lights up first.",
+      "answer_b": "lamp 2 lights up first.",
+      "answer_c": "lamp 1 and lamp 2 light up at exactly the same time.",
+      "answer_d": "lamp 2 flashes briefly and goes out again. Lamp 1 stays lit."
+    },
+    "EC301": {
+      "question": "A DC voltage is applied to an inductor through a resistor. Which of the following diagrams shows how the voltage across the inductor varies with time?"
+    },
+    "NC301": {
+      "question": "Which component does the circuit symbol represent?",
+      "answer_a": "Inductor",
+      "answer_b": "Capacitor",
+      "answer_c": "Diode",
+      "answer_d": "Battery"
+    },
+    "AC307": {
+      "question": "A transformer winding has a wire diameter of 0.5 mm. The permissible current density is 2.5 A/mm². What is the permissible current?",
+      "answer_a": "Approx. 0.49 A",
+      "answer_b": "Approx. 1.96 A",
+      "answer_c": "Approx. 1.25 A",
+      "answer_d": "Approx. 0.19 A"
+    },
+    "AC306": {
+      "question": "A transformer is used to match a 50 ohm transmission line to an end-fed half-wave antenna with a feed-point impedance of 2.5 kΩ. It should have a turns ratio of approximately ...",
+      "answer_a": "1:7.",
+      "answer_b": "1:3.",
+      "answer_c": "1:49.",
+      "answer_d": "1:14."
+    },
+    "AC305": {
+      "question": "To match an antenna with a feed-point impedance of 450 ohms to a 50 ohm transmission line, you should use a transformer with a turns ratio of ...",
+      "answer_a": "3:1.",
+      "answer_b": "4:1.",
+      "answer_c": "9:1.",
+      "answer_d": "16:1."
+    },
+    "AC304": {
+      "question": "In this circuit, $R$=6.4 kΩ. Ideally, the impedance between terminals a and b is ...",
+      "answer_a": "0.4 kΩ.",
+      "answer_b": "26 kΩ.",
+      "answer_c": "6.4 kΩ.",
+      "answer_d": "1.6 kΩ."
+    },
+    "AC303": {
+      "question": "In this circuit, $R$=16 kΩ. Ideally, the impedance between terminals a and b is ...",
+      "answer_a": "1 kΩ.",
+      "answer_b": "64 kΩ.",
+      "answer_c": "16 kΩ.",
+      "answer_d": "4 kΩ."
+    },
+    "AC302": {
+      "question": "A transformer steps a voltage of 230 V down to 6 V and delivers a current of 1.15 A. Neglecting losses, what current is to be expected in the primary winding as a result?",
+      "answer_a": "30 mA",
+      "answer_b": "22.7 mA",
+      "answer_c": "0.83 mA",
+      "answer_d": "33.3 mA"
+    },
+    "AC301": {
+      "question": "A voltage is induced in a coil by mutual induction when ...",
+      "answer_a": "a changing current flows through a magnetically coupled neighbouring coil.",
+      "answer_b": "a changing current flows through the coil while there is a dielectric object inside the coil.",
+      "answer_c": "a constant direct current flows through a magnetically coupled neighbouring coil.",
+      "answer_d": "the coil is in a constant magnetic field."
+    },
+    "EC404": {
+      "question": "A voltage of 45 V is applied to the primary winding of a transformer with 150 turns. The secondary voltage is 180 V. How many turns does the secondary winding have?",
+      "answer_a": "600 turns",
+      "answer_b": "850 turns",
+      "answer_c": "38 turns",
+      "answer_d": "30 turns"
+    },
+    "EC403": {
+      "question": "A voltage of 230 V is applied to the primary winding of a transformer with 600 turns. The secondary voltage is 11.5 V. How many turns does the secondary winding have?",
+      "answer_a": "30 turns",
+      "answer_b": "20 turns",
+      "answer_c": "52 turns",
+      "answer_d": "180 turns"
+    },
+    "EC402": {
+      "question": "The primary coil of a transformer has five times as many turns as the secondary coil. What secondary voltage is to be expected when the primary coil is connected to a 230 V supply?",
+      "answer_a": "46 V",
+      "answer_b": "9.2 V",
+      "answer_c": "23 V",
+      "answer_d": "1150 V"
+    },
+    "EC401": {
+      "question": "What is the voltage between points a and b in this circuit for a transformation ratio of 15:1?",
+      "answer_a": "About 15 V",
+      "answer_b": "About 1 V",
+      "answer_c": "About 22 V",
+      "answer_d": "About 11 V"
+    },
+    "AC408": {
+      "question": "The main function of an optocoupler is ...",
+      "answer_a": "the galvanic isolation of two circuits by means of light.",
+      "answer_b": "the generation of RF alternating current by means of light.",
+      "answer_c": "the indication of signals by means of light.",
+      "answer_d": "the generation of direct current by means of light."
+    },
+    "AC407": {
+      "question": "Which component can generate an electric current when light falls on it?",
+      "answer_a": "Photodiode",
+      "answer_b": "Light-dependent resistor",
+      "answer_c": "Varactor",
+      "answer_d": "Reactance"
+    },
+    "AC406": {
+      "question": "The following signal is applied as $U_1$ to the input of the circuit with germanium diodes. What does the resulting output signal $U_2$ look like?"
+    },
+    "AC405": {
+      "question": "The following signal is applied as $U_1$ to the input of the circuit with silicon diodes. What does the resulting output signal $U_2$ look like?"
+    },
+    "AC404": {
+      "question": "How does the capacitance of a varactor diode (varicap) behave?",
+      "answer_a": "It increases as the reverse voltage decreases.",
+      "answer_b": "It increases as the forward current decreases.",
+      "answer_c": "It increases as the reverse voltage increases.",
+      "answer_d": "It increases as the forward current increases."
+    },
+    "AC403": {
+      "question": "How does the forward voltage of a diode depend on temperature?",
+      "answer_a": "The voltage falls as the temperature rises.",
+      "answer_b": "The voltage is independent of temperature.",
+      "answer_c": "The voltage oscillates as the temperature rises.",
+      "answer_d": "The voltage rises as the temperature rises."
+    },
+    "AC402": {
+      "question": "How do the electrons behave in a forward-biased PN junction?",
+      "answer_a": "They move from N to P.",
+      "answer_b": "They move from P to N.",
+      "answer_c": "They stay in the N region.",
+      "answer_d": "They decay at the junction."
+    },
+    "AC401": {
+      "question": "A forward-biased PN junction allows ...",
+      "answer_a": "electrons to flow from N to P.",
+      "answer_b": "the current to be halved.",
+      "answer_c": "no current to flow.",
+      "answer_d": "electrons to flow from P to N."
+    },
+    "EC522": {
+      "question": "The following circuit of a stabiliser with a Zener diode is given. The current through the Zener diode is to be 25 mA and the load current is 20 mA. The value of the required series resistor is ...",
+      "answer_a": "approx. 202 ohms.",
+      "answer_b": "approx. 364 ohms.",
+      "answer_c": "approx. 188 ohms.",
+      "answer_d": "approx. 235 ohms."
+    },
+    "EC521": {
+      "question": "An unloaded Zener diode is to stabilise an operating voltage of 13.8 V to 5 V. A current of 30 mA is to flow through the Zener diode. The output of the circuit is not to be loaded. Calculate the value of the series resistor.",
+      "answer_a": "Approx. 293 ohms",
+      "answer_b": "Approx. 3.41 \\milliOhm",
+      "answer_c": "Approx. 460 ohms",
+      "answer_d": "Approx. 167 ohms"
+    },
+    "EC520": {
+      "question": "In which of the following circuits is the Zener diode correctly used for voltage stabilisation?"
+    },
+    "EC519": {
+      "question": "What is the purpose of the following circuit?",
+      "answer_a": "Voltage stabilisation",
+      "answer_b": "Voltage step-up",
+      "answer_c": "Indicator light",
+      "answer_d": "Electricity generation"
+    },
+    "EC518": {
+      "question": "What are Zener diodes primarily used for?",
+      "answer_a": "For voltage stabilisation",
+      "answer_b": "For current stabilisation",
+      "answer_c": "For two-way stabilisation",
+      "answer_d": "For power stabilisation"
+    },
+    "EC517": {
+      "question": "Which component does the circuit symbol represent?",
+      "answer_a": "Zener diode",
+      "answer_b": "Light-emitting diode",
+      "answer_c": "Varactor",
+      "answer_d": "Freewheeling diode"
+    },
+    "EC516": {
+      "question": "The following circuit with a light-emitting diode (LED) is operated from an operating voltage of 5.5 V. The current through the LED is to be 25 mA, and its forward voltage is 1.75 V. The required series resistor must have the following values:",
+      "answer_a": "150 ohms/0.1 W",
+      "answer_b": "150 ohms/0.06 W",
+      "answer_c": "70 ohms/0.1 W",
+      "answer_d": "70 ohms/0.06 W"
+    },
+    "EC515": {
+      "question": "A light-emitting diode with a forward voltage of 1.4 V and a forward current of 20 mA is to be connected to a voltage source of 5.0 V. Calculate the series resistor. The value of the required series resistor is ...",
+      "answer_a": "180 ohms.",
+      "answer_b": "250 ohms.",
+      "answer_c": "70 ohms.",
+      "answer_d": "320 ohms."
+    },
+    "EC514": {
+      "question": "What is the purpose of the following circuit?",
+      "answer_a": "Indicator light",
+      "answer_b": "Voltage step-up",
+      "answer_c": "Power monitoring",
+      "answer_d": "Electricity generation"
+    },
+    "EC513": {
+      "question": "Under which condition does a silicon diode conduct?",
+      "answer_a": "The anode is at 5.7 V and the cathode at 5.0 V.",
+      "answer_b": "The anode is at 5.7 V and the cathode at 6.4 V.",
+      "answer_c": "The anode is at 5.0 V and the cathode at 5.1 V.",
+      "answer_d": "The anode is at 5.0 V and the cathode at 5.7 V."
+    },
+    "EC512": {
+      "question": "The answer options show silicon diodes at different operating points. In which answer is the diode conducting?"
+    },
+    "EC511": {
+      "question": "The answer options show silicon diodes at different operating points. In which answer is the diode conducting?"
+    },
+    "EC510": {
+      "question": "The answer options show silicon diodes at different operating points. In which answer is the diode conducting?"
+    },
+    "EC509": {
+      "question": "The answer options show silicon diodes at different operating points. In which answer is the diode conducting?"
+    },
+    "EC508": {
+      "question": "Which diode is described by characteristic curve 4?",
+      "answer_a": "Light-emitting diode",
+      "answer_b": "Silicon diode",
+      "answer_c": "Schottky diode",
+      "answer_d": "Germanium diode"
+    },
+    "EC507": {
+      "question": "Which diode is described by characteristic curve 3?",
+      "answer_a": "Silicon diode",
+      "answer_b": "Light-emitting diode",
+      "answer_c": "Schottky diode",
+      "answer_d": "Germanium diode"
+    },
+    "EC506": {
+      "question": "Which diode is described by characteristic curve 2?",
+      "answer_a": "Germanium diode",
+      "answer_b": "Silicon diode",
+      "answer_c": "Schottky diode",
+      "answer_d": "Light-emitting diode"
+    },
+    "EC505": {
+      "question": "Which diode is described by characteristic curve 1?",
+      "answer_a": "Schottky diode",
+      "answer_b": "Silicon diode",
+      "answer_c": "Germanium diode",
+      "answer_d": "Light-emitting diode"
+    },
+    "EC504": {
+      "question": "What are the main properties of a Schottky diode?",
+      "answer_a": "Very low forward voltage and very high switching frequency.",
+      "answer_b": "Very low forward voltage and very low switching frequency.",
+      "answer_c": "Very high forward voltage and very high switching frequency.",
+      "answer_d": "Very high forward voltage and very low switching frequency."
+    },
+    "EC503": {
+      "question": "What are the typical threshold voltages of germanium and silicon diodes? They lie ...",
+      "answer_a": "between 0.2 and 0.4 V for germanium, and between 0.6 and 0.8 V for silicon.",
+      "answer_b": "between 0.6 and 0.8 V for germanium, and between 0.2 and 0.4 V for silicon.",
+      "answer_c": "between 1.4 and 1.6 V for germanium, and between 0.6 and 0.8 V for silicon.",
+      "answer_d": "between 0.6 and 0.8 V for germanium, and between 1.4 and 1.6 V for silicon."
+    },
+    "EC502": {
+      "question": "What can semiconductor diodes be used for, for example?",
+      "answer_a": "For rectifying AC voltages",
+      "answer_b": "For storing alternating currents",
+      "answer_c": "As resistors in power supply units",
+      "answer_d": "As amplifiers in power supplies"
+    },
+    "EC501": {
+      "question": "A reverse-biased diode is characterised in particular by ...",
+      "answer_a": "a high resistance.",
+      "answer_b": "a high capacitance.",
+      "answer_c": "a low impedance.",
+      "answer_d": "a high inductance."
+    },
+    "NC404": {
+      "question": "In which of the circuits shown does current flow?"
+    },
+    "NC403": {
+      "question": "What are the names of terminals 1 and 2 in the circuit symbol?",
+      "answer_a": "1 = anode; 2 = cathode",
+      "answer_b": "1 = cathode; 2 = anode",
+      "answer_c": "1 = base; 2 = cathode",
+      "answer_d": "1 = emitter; 2 = anode"
+    },
+    "NC402": {
+      "question": "Which component does the circuit symbol represent?",
+      "answer_a": "Light-emitting diode",
+      "answer_b": "Inductor",
+      "answer_c": "Capacitor",
+      "answer_d": "Battery"
+    },
+    "NC401": {
+      "question": "Which component does the circuit symbol represent?",
+      "answer_a": "Diode",
+      "answer_b": "Resistor",
+      "answer_c": "Inductor",
+      "answer_d": "Capacitor"
+    },
+    "AC524": {
+      "question": "In which of the following circuits is the freewheeling diode correctly used?"
+    },
+    "AC523": {
+      "question": "What power dissipation does a power MOSFET with $R_{\\textrm{DSon}}$ = 4 \\mOhm produce at a current of 25 A?",
+      "answer_a": "2.5 W",
+      "answer_b": "1 W",
+      "answer_c": "0.1 W",
+      "answer_d": "6.25 W"
+    },
+    "AC522": {
+      "question": "What value must $R_2$ have for a voltage of 2.8 V to be set up between gate and source? $U_{\\textrm{B}}$=44 V; $R_1$=10 kΩ; $R_3$=2.2 kΩ ...",
+      "answer_a": "Approx. 680 ohms",
+      "answer_b": "Approx. 1405 ohms",
+      "answer_c": "Approx. 68 ohms",
+      "answer_d": "Approx. 820 ohms"
+    },
+    "AC521": {
+      "question": "What is the gate-source voltage in the circuit drawn? $U_{\\textrm{B}} = 44 V$; $R_1 = 10 k\\Omega$; $R_2 = 1 k\\Omega$; $R_3 = 2.2 k\\Omega$ ...",
+      "answer_a": "4 V",
+      "answer_b": "8 V",
+      "answer_c": "0.7 V",
+      "answer_d": "4.4 V"
+    },
+    "AC520": {
+      "question": "What happens if one end of resistor $R_2$ loses contact with the circuit because of a faulty solder joint? In which answer are both statements correct?",
+      "answer_a": "The collector current is limited only by $R_{\\textrm{C}}$. The collector voltage falls to about 0.1 V.",
+      "answer_b": "A short-circuit current flows. The transistor is destroyed.",
+      "answer_c": "No collector current flows any more. The collector voltage rises to the operating voltage.",
+      "answer_d": "The collector current rises sharply. The collector voltage increases."
+    },
+    "AC519": {
+      "question": "What happens if one end of resistor $R_1$ loses contact with the circuit because of a faulty solder joint? Which description is correct?",
+      "answer_a": "No collector current flows any more. The collector voltage rises to the operating voltage.",
+      "answer_b": "A short-circuit current flows. The transistor is destroyed.",
+      "answer_c": "The collector current is limited only by $R_{\\textrm{C}}$. The collector voltage falls to about 0.1 V.",
+      "answer_d": "The collector current rises sharply. The collector voltage increases."
+    },
+    "AC518": {
+      "question": "The operating voltage is 10 V, the collector current is to be 2 mA, and the DC current gain of the transistor is 200. Ten times the base current is to flow through the bleeder resistor $R_2$. Calculate the series resistor $R_1$.",
+      "answer_a": "Approx. 85.5 kΩ",
+      "answer_b": "Approx. 940 kΩ",
+      "answer_c": "Approx. 76.4 kΩ",
+      "answer_d": "Approx. 540 kΩ"
+    },
+    "AC517": {
+      "question": "The operating voltage is 10 V, the collector current is to be 2 mA, and the DC current gain of the transistor is 200. Ten times the base current is to flow through the bleeder resistor $R_2$. The voltage drop across the emitter resistor is to be 1 V. Calculate the series resistor $R_1$.",
+      "answer_a": "Approx. 76.4 kΩ",
+      "answer_b": "Approx. 540 kΩ",
+      "answer_c": "Approx. 85.5 kΩ",
+      "answer_d": "Approx. 940 kΩ"
+    },
+    "AC516": {
+      "question": "In the base potential divider shown, why should the current through $R_2$ be about 10 times as large as the base current?",
+      "answer_a": "So that the operating point stays stable.",
+      "answer_b": "So that the base current does not change as the circuit warms up.",
+      "answer_c": "So that $R_2$ provides negative current feedback.",
+      "answer_d": "So that $R_2$ provides negative voltage feedback."
+    },
+    "AC515": {
+      "question": "The operating voltage is 12 V, the collector current is to be 5 mA, and the DC current gain of the transistor is 298. Calculate the series resistor $R_1$.",
+      "answer_a": "Approx. 680 kΩ",
+      "answer_b": "Approx. 715 kΩ",
+      "answer_c": "Approx. 68 kΩ",
+      "answer_d": "Approx. 2.3 kΩ"
+    },
+    "AC514": {
+      "question": "How is the current controlled in a field-effect transistor (FET)?",
+      "answer_a": "The gate-source voltage controls the resistance of the channel between source and drain.",
+      "answer_b": "The gate-source voltage controls the gate current.",
+      "answer_c": "The gate current controls the drain current.",
+      "answer_d": "The gate current controls the resistance of the channel between source and drain."
+    },
+    "AC513": {
+      "question": "What are the terminals of the transistor shown called?",
+      "answer_a": "1: drain, 2: source, 3: gate",
+      "answer_b": "1: anode, 2: collector, 3: gate",
+      "answer_c": "1: anode, 2: cathode, 3: gate",
+      "answer_d": "1: collector, 2: emitter, 3: base"
+    },
+    "AC512": {
+      "question": "What are the names of the terminals of a field-effect transistor?",
+      "answer_a": "Drain, gate, source",
+      "answer_b": "Emitter, base, collector",
+      "answer_c": "Emitter, drain, source",
+      "answer_d": "Gate, source, collector"
+    },
+    "AC511": {
+      "question": "Which of the following transistors is a depletion-mode P-channel MOSFET?"
+    },
+    "AC510": {
+      "question": "Which of the following transistors is a depletion-mode N-channel MOSFET?"
+    },
+    "AC509": {
+      "question": "Which of the following transistors is an enhancement-mode N-channel MOSFET?"
+    },
+    "AC508": {
+      "question": "The following transistor is ...",
+      "answer_a": "an enhancement-mode N-channel insulated-gate FET (MOSFET).",
+      "answer_b": "an enhancement-mode P-channel insulated-gate FET (MOSFET).",
+      "answer_c": "a depletion-mode N-channel insulated-gate FET (MOSFET).",
+      "answer_d": "a depletion-mode P-channel insulated-gate FET (MOSFET)."
+    },
+    "AC507": {
+      "question": "Which designations for the components are correct?",
+      "answer_a": "1: Depletion-mode N-channel junction FET\n2: Depletion-mode P-channel junction FET",
+      "answer_b": "1: Enhancement-mode N-channel junction FET\n2: Enhancement-mode P-channel junction FET",
+      "answer_c": "1: Depletion-mode P-channel junction FET\n2: Depletion-mode N-channel junction FET",
+      "answer_d": "1: Enhancement-mode P-channel junction FET\n2: Enhancement-mode N-channel junction FET"
+    },
+    "AC506": {
+      "question": "Which component does the circuit symbol represent?",
+      "answer_a": "Field-effect transistor",
+      "answer_b": "Bipolar transistor",
+      "answer_c": "Diode",
+      "answer_d": "Loudspeaker"
+    },
+    "AC505": {
+      "question": "In a bipolar transistor in the conducting state, the base-emitter PN junction is ...",
+      "answer_a": "forward-biased.",
+      "answer_b": "open-circuit.",
+      "answer_c": "short-circuited.",
+      "answer_d": "reverse-biased."
+    },
+    "AC504": {
+      "question": "To which terminal is the n-doped region of a PNP transistor connected?",
+      "answer_a": "Base",
+      "answer_b": "Emitter",
+      "answer_c": "Collector",
+      "answer_d": "Case"
+    },
+    "AC503": {
+      "question": "To which terminal is the p-doped region of an NPN transistor connected?",
+      "answer_a": "Base",
+      "answer_b": "Collector",
+      "answer_c": "Emitter",
+      "answer_d": "Case"
+    },
+    "AC502": {
+      "question": "A field-effect transistor is ...",
+      "answer_a": "voltage-controlled.",
+      "answer_b": "current-controlled.",
+      "answer_c": "power-controlled.",
+      "answer_d": "optically controlled."
+    },
+    "AC501": {
+      "question": "A bipolar transistor is ...",
+      "answer_a": "current-controlled.",
+      "answer_b": "voltage-controlled.",
+      "answer_c": "thermally controlled.",
+      "answer_d": "field-controlled."
+    },
+    "EC615": {
+      "question": "In a circuit, the voltages at the transistor terminals were measured with respect to chassis potential. In which of the following transistors does collector current flow?"
+    },
+    "EC614": {
+      "question": "In a circuit, the voltages at the transistor terminals were measured with respect to chassis potential. In which of the following transistors does collector current flow?"
+    },
+    "EC613": {
+      "question": "In a circuit, the voltages at the transistor terminals were measured with respect to chassis potential. In which of the following transistors does collector current flow?"
+    },
+    "EC612": {
+      "question": "In a circuit, the voltages at the transistor terminals were measured with respect to chassis potential. In which of the following transistors does collector current flow?"
+    },
+    "EC611": {
+      "question": "Through which transistor terminal does the largest current flow in the conducting state?",
+      "answer_a": "Emitter",
+      "answer_b": "Collector",
+      "answer_c": "Base",
+      "answer_d": "Case"
+    },
+    "EC610": {
+      "question": "Approximately what must the voltage $U_{BE}$ be for the transistor to be in the conducting state?",
+      "answer_a": "0.6 V",
+      "answer_b": "-0.6 V",
+      "answer_c": "0.6 V or -0.6 V",
+      "answer_d": "0 V"
+    },
+    "EC609": {
+      "question": "What are the terminals of the transistor shown called?",
+      "answer_a": "1 = collector, 2 = base, 3 = emitter",
+      "answer_b": "1 = emitter, 2 = base, 3 = collector",
+      "answer_c": "1 = collector, 2 = emitter, 3 = base",
+      "answer_d": "1 = base, 2 = emitter, 3 = collector"
+    },
+    "EC608": {
+      "question": "What are the names of the terminals of a bipolar transistor?",
+      "answer_a": "Emitter, base, collector",
+      "answer_b": "Emitter, drain, source",
+      "answer_c": "Gate, source, collector",
+      "answer_d": "Drain, gate, source"
+    },
+    "EC607": {
+      "question": "This component is ...",
+      "answer_a": "a PNP transistor.",
+      "answer_b": "an NPN transistor.",
+      "answer_c": "a P-channel FET.",
+      "answer_d": "an N-channel FET."
+    },
+    "EC606": {
+      "question": "This component is ...",
+      "answer_a": "an NPN transistor.",
+      "answer_b": "a PNP transistor.",
+      "answer_c": "an N-channel FET.",
+      "answer_d": "a P-channel FET."
+    },
+    "EC605": {
+      "question": "Which circuit symbol represents a bipolar transistor?"
+    },
+    "EC604": {
+      "question": "Which types of transistor are bipolar transistors?",
+      "answer_a": "NPN and PNP transistors",
+      "answer_b": "Dual-gate MOSFETs",
+      "answer_c": "Insulated-gate FETs",
+      "answer_d": "Junction FETs"
+    },
+    "EC603": {
+      "question": "What is meant by the current gain of a transistor?",
+      "answer_a": "A small base current controls a large collector current.",
+      "answer_b": "A small emitter current controls a large collector current.",
+      "answer_c": "A small emitter current controls a large base current.",
+      "answer_d": "A small collector current controls a large emitter current."
+    },
+    "EC602": {
+      "question": "A transistor is ...",
+      "answer_a": "a semiconductor component.",
+      "answer_b": "a laser component.",
+      "answer_c": "a non-conductor component.",
+      "answer_d": "a PTC thermistor component."
+    },
+    "EC601": {
+      "question": "Which component can be used as a switch, an amplifier or a resistor?",
+      "answer_a": "Transistor",
+      "answer_b": "Transformer",
+      "answer_c": "Capacitor",
+      "answer_d": "Diode"
+    },
+    "NC501": {
+      "question": "Which component does the circuit symbol represent?",
+      "answer_a": "Transistor",
+      "answer_b": "Inductor",
+      "answer_c": "Capacitor",
+      "answer_d": "Diode"
+    },
+    "AC604": {
+      "question": "What is typical of a monolithic microwave integrated circuit (MMIC)?",
+      "answer_a": "The input and output impedances correspond to common line impedances (e.g. 50 ohms).",
+      "answer_b": "The gain is constant from as low as 0 Hz.",
+      "answer_c": "They can be used only in the microwave range.",
+      "answer_d": "The gain range is narrowband."
+    },
+    "AC603": {
+      "question": "What advantage does a monolithic microwave integrated circuit (MMIC) have over a discrete transistor amplifier?",
+      "answer_a": "An MMIC offers high gain over a wide bandwidth with fewer components.",
+      "answer_b": "An MMIC offers high gain over a narrow bandwidth in a single component.",
+      "answer_c": "An MMIC offers a high input resistance and a low output resistance.",
+      "answer_d": "An MMIC offers adjustable input and output impedance."
+    },
+    "AC602": {
+      "question": "Which components does a monolithic microwave integrated circuit (MMIC) contain?",
+      "answer_a": "An MMIC contains all the active and passive components on a semiconductor substrate.",
+      "answer_b": "An MMIC contains only active components on a semiconductor substrate.",
+      "answer_c": "An MMIC contains only passive components on a semiconductor substrate.",
+      "answer_d": "An MMIC contains all the active and passive components on a printed circuit board."
+    },
+    "AC601": {
+      "question": "An integrated circuit is ...",
+      "answer_a": "a complex circuit on a semiconductor substrate.",
+      "answer_b": "a potted circuit built from discrete components.",
+      "answer_c": "a miniaturised circuit built from SMD components.",
+      "answer_d": "the interconnection of individual modules to form an electronic device."
+    },
+    "AD115": {
+      "question": "When the potential divider shown is loaded with $R_{\\textrm{L}}$, the following relationship results:",
+      "answer_a": "$I_1$ rises, $R_1$ converts more power into heat.",
+      "answer_b": "$I_1$ rises, $R_2$ converts more power into heat.",
+      "answer_c": "$I_1$ falls, $R_2$ converts more power into heat.",
+      "answer_d": "$I_2$ rises, $R_1$ converts less power into heat."
+    },
+    "AD114": {
+      "question": "What is the voltage $U_2$ in the circuit with the following values: $U_{\\textrm{B}} = 12 V$, $R_1 = 10 k\\Omega$, $R_2 = 2.2 k\\Omega$, $R_{\\textrm{L}} = 8.2 k\\Omega$?",
+      "answer_a": "1.8 V",
+      "answer_b": "2.2 V",
+      "answer_c": "5.4 V",
+      "answer_d": "8.2 V"
+    },
+    "AD113": {
+      "question": "The voltage across the bridge circuit is 11 V. The resistors have the following values: $R_1$ = 1 kΩ; $R_2$ = 10 kΩ; $R_3$ = 10 kΩ; $R_4$ = 1 kΩ. What is the voltage between A and B in the bridge diagonal (measured from A to B)?",
+      "answer_a": "$U_{AB} = 9 V$",
+      "answer_b": "$U_{AB} = -9 V$",
+      "answer_c": "$U_{AB} = 10 V$",
+      "answer_d": "$U_{AB} = -10 V$"
+    },
+    "AD112": {
+      "question": "The voltage across the bridge circuit is 10 V. All the resistors have a value of 50 ohms. What is the voltage between A and B in the bridge diagonal (measured from A to B)?",
+      "answer_a": "0 V",
+      "answer_b": "-5 V",
+      "answer_c": "5 V",
+      "answer_d": "2.5 V"
+    },
+    "AD111": {
+      "question": "What ratio must the resistors $R_1$ to $R_4$ have to one another for the meter in the bridge diagonal to show no voltage?",
+      "answer_a": "$\\dfrac{R_1}{R_2} = \\dfrac{R_3}{R_4}$",
+      "answer_b": "$\\dfrac{R_1}{R_2} = \\dfrac{R_4}{R_3}$",
+      "answer_c": "$\\dfrac{R_2}{R_1} = \\dfrac{R_3}{R_4}$",
+      "answer_d": "$\\dfrac{R_1}{R_4} = \\dfrac{R_2}{R_3}$"
+    },
+    "AD110": {
+      "question": "If $\\textrm{R}_1$ and $\\textrm{R}_3$ are each 2.2 kΩ and $\\textrm{R}_2$ and $\\textrm{R}_4$ are each 220 ohms, the total resistance of the circuit between points a and b is ...",
+      "answer_a": "1210 ohms.",
+      "answer_b": "1540 ohms.",
+      "answer_c": "4840 ohms.",
+      "answer_d": "2420 ohms."
+    },
+    "AD109": {
+      "question": "Within what range does the input resistance of the following circuit lie if $R$ can take any value from 0 ohms to 1 kΩ?",
+      "answer_a": "267 to 292 ohms",
+      "answer_b": "300 to 500 ohms",
+      "answer_c": "292 to 367 ohms",
+      "answer_d": "300 to 367 ohms"
+    },
+    "AD108": {
+      "question": "What power is dissipated in $R_2$ if $U$ = 15 V and the resistors $R_1$ to $R_3$ are each 10 kΩ?",
+      "answer_a": "2.5 mW",
+      "answer_b": "5.0 mW",
+      "answer_c": "1.5 mW",
+      "answer_d": "0.15 W"
+    },
+    "AD107": {
+      "question": "What is the current through $R_3$ if $U$ = 15 V and the resistors $R_1$ to $R_3$ are each 10 kΩ?",
+      "answer_a": "0.5 mA",
+      "answer_b": "1.0 mA",
+      "answer_c": "1.6 mA",
+      "answer_d": "4.5 mA"
+    },
+    "AD106": {
+      "question": "What is the voltage $U$ if a current of 1 mA flows through $R_3$ and the resistors $R_1$ to $R_3$ are each 10 kΩ?",
+      "answer_a": "30 V",
+      "answer_b": "20 V",
+      "answer_c": "15 V",
+      "answer_d": "40 V"
+    },
+    "AD105": {
+      "question": "Calculate the magnitude of the impedance $Z$ of a series circuit of $R$ = 100 ohms and $L$ = 100 μH at 1 MHz.",
+      "answer_a": "$|Z|$ = 636 ohms",
+      "answer_b": "$|Z|$ = 628 ohms",
+      "answer_c": "$|Z|$ = 188 ohms",
+      "answer_d": "$|Z|$ = 259 ohms"
+    },
+    "AD104": {
+      "question": "Calculate the magnitude of the impedance $Z$ of a series circuit of $R$ = 100 ohms and $C$ = 1 nF at 1 MHz.",
+      "answer_a": "$|Z|$ = 188 ohms",
+      "answer_b": "$|Z|$ = 159 ohms",
+      "answer_c": "$|Z|$ = 636 ohms",
+      "answer_d": "$|Z|$ = 259 ohms"
+    },
+    "AD103": {
+      "question": "What is the total capacitance of this circuit if $C_1$ = 0.1 nF, $C_2$ = 1.5 nF, $C_3$ = 220 pF and the self-capacitance of the inductor is 1 pF?",
+      "answer_a": "1821 pF",
+      "answer_b": "66 pF",
+      "answer_c": "1.6 nF",
+      "answer_d": "1 pF"
+    },
+    "AD102": {
+      "question": "What is the total inductance of three inductors of 2200 nH, 0.033 mH and 150 μH connected in series?",
+      "answer_a": "185.2 μH",
+      "answer_b": "155.5 μH",
+      "answer_c": "205.0 nH",
+      "answer_d": "205.0 μH"
+    },
+    "AD101": {
+      "question": "What is the total capacitance when three capacitors $C_1$ = 0.10 nF, $C_2$ = 47 pF and $C_3$ = 22 pF are connected in series?",
+      "answer_a": "13.0 pF",
+      "answer_b": "0.13 nF",
+      "answer_c": "169 pF",
+      "answer_d": "16.9 pF"
+    }
+  }
+}

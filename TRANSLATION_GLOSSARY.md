@@ -488,6 +488,9 @@ real choice or a trap.
 | Gleichstrom / Wechselstrom | direct current (DC) / alternating current (AC) | |
 | Gleichspannung / Wechselspannung | DC voltage / AC voltage | |
 | Widerstand (Größe) | resistance | trap: the component is a *resistor*, see §4 |
+| Gleichstromwiderstand / ohmscher Widerstand | DC resistance / ohmic resistance | AC203 |
+| Wechselstromwiderstand | impedance; AC resistance | "impedance" for an ideal C or L (EC202, EC303); "AC resistance" where the German contrasts it with *Gleichstromwiderstand* (AC203) |
+| induktiver Widerstand | inductive reactance | |
 | Leitwert | conductance | |
 | Leistung | power | |
 | Energie / Arbeit | energy / work | |
@@ -537,6 +540,8 @@ real choice or a trap.
 | Dielektrikum | dielectric | |
 | Durchschlagsfestigkeit | dielectric strength | |
 | Induktion | induction | |
+| Gegeninduktion | mutual induction | |
+| Stromdichte | current density | |
 | Momentaufnahme | snapshot | |
 | Ausbreitungsrichtung | direction of propagation | |
 | Ausbreitungsgeschwindigkeit | velocity of propagation | |
@@ -567,10 +572,12 @@ real choice or a trap.
 | Vielfache (ganzzahlige) | (integer) multiples | |
 | Teile (einer Frequenz) / Unterschwingungen | submultiples (of a frequency) / subharmonics | AB401, AB403 |
 | Wirkleistung / Blindleistung / Scheinleistung | real (active) power / reactive power / apparent power | |
+| Gleichstromverstärkung / Stromverstärkung | DC current gain / current gain | transistor |
 | Verlustleistung | power dissipation; power loss | |
 | Wirkungsgrad | efficiency | |
 | Wärme | heat | |
 | Zeitkonstante | time constant | |
+| eingeschwungener Zustand | steady state | |
 | Schwebung | beat | |
 
 ## 4. Components
@@ -588,6 +595,10 @@ real choice or a trap.
 | Belastbarkeit / Nennleistung | power rating | |
 | Belastungsnennwert | power rating | EB514 |
 | Drahtwiderstand | wirewound resistor | |
+| Hochlastwiderstand / Präzisionswiderstand | high-power resistor / precision resistor | |
+| induktionsarm | low-inductance | |
+| gewendelt / ungewendelt (Schichtwiderstand) | spiral-cut / without a spiral cut | film resistors trimmed with a helical groove; matters for dummy loads (EC106, EC107) |
+| Kennzeichnung (SMD-Widerstand) | marking | "mit der Kennzeichnung 223" → "marked 223" |
 | Kohleschichtwiderstand | carbon-film resistor | |
 | Metallschichtwiderstand | metal-film resistor | |
 | Metalloxidschichtwiderstand | metal-oxide resistor | |
@@ -606,6 +617,10 @@ real choice or a trap.
 | Elektrolytkondensator (Elko) | electrolytic capacitor | |
 | Keramikkondensator / Folienkondensator / Luftkondensator | ceramic / film / air-spaced capacitor | |
 | Drehkondensator | variable capacitor | |
+| Styroflexkondensator | polystyrene (Styroflex) capacitor | |
+| Plattenabstand / Plattenfläche | plate spacing / plate area | |
+| Dielektrizitätszahl / Dielektrizitätskonstante | relative permittivity / permittivity (dielectric constant) | |
+| Kondensatorgüte / Spulengüte | Q of the capacitor / Q of the inductor | |
 | Verlustfaktor | dissipation factor; loss tangent (tan δ) | |
 | Spannungsfestigkeit | voltage rating | |
 | Metallbeläge (Kondensator) | metal foils (electrodes) | wound capacitors |
@@ -615,12 +630,16 @@ real choice or a trap.
 | Wicklung | winding | |
 | Kern / Eisenkern / Ferritkern / Ringkern | core / iron core / ferrite core / toroidal core (toroid) | |
 | Luftspule | air-cored inductor | |
+| Wickellänge | winding length | |
+| Abschirmbecher | screening can | |
+| Eigeninduktivität | self-inductance | parasitic inductance of a component |
 | Induktivitätskonstante (A_L-Wert) | inductance factor (A_L value) | |
 | Drossel / HF-Drossel | choke / RF choke | |
 | Übertrager | transformer; signal transformer | where the German contrasts it with *Transformator*: *signal transformer* vs *power transformer* ("Übertrager und Transformatoren" → "Signal and power transformers") |
 | Transformator | transformer; power transformer | |
 | Primärwicklung / Sekundärwicklung | primary winding / secondary winding | |
 | Übersetzungsverhältnis / Windungsverhältnis | turns ratio | |
+| Transformationsverhältnis | transformation ratio | |
 | Autotransformator / Spartransformator | autotransformer | |
 | Mittelanzapfung / Anzapfung | centre tap / tap | British *centre* |
 | Diode | diode | |
@@ -639,26 +658,34 @@ real choice or a trap.
 | Durchlassspannung / Flussspannung | forward voltage | |
 | Sperrspannung | reverse voltage | |
 | Durchbruchspannung | breakdown voltage | |
+| Schwellspannung | threshold voltage | diode |
 | Kennlinie | characteristic (curve) | |
 | Siliziumdiode / Germaniumdiode / Schottkydiode | silicon diode / germanium diode / Schottky diode | |
 | Z-Diode / Zenerdiode | Zener diode | |
 | Kapazitätsdiode | varactor (variable-capacitance diode) | |
+| Varicap | varicap | "Kapazitätsdiode (Varicap)" → "varactor diode (varicap)" |
+| Freilaufdiode | freewheeling diode | |
+| Fotodiode / Optokoppler | photodiode / optocoupler | |
 | Leuchtdiode (LED) | light-emitting diode (LED) | |
 | Gleichrichterdiode | rectifier diode | |
 | Transistor | transistor | |
 | Bipolartransistor | bipolar transistor (BJT) | |
 | NPN / PNP | NPN / PNP | |
 | Basis / Emitter / Kollektor | base / emitter / collector | |
+| n-dotiert / p-dotiert | n-doped / p-doped | lower case as in the German |
 | Basisstrom / Kollektorstrom | base current / collector current | |
 | Basis-Emitter-Spannung | base-emitter voltage | |
 | Feldeffekttransistor (FET) | field-effect transistor (FET) | |
 | Sperrschicht-FET (N-Kanal / P-Kanal) | junction FET (JFET), N-channel / P-channel | |
 | MOSFET / LDMOS | MOSFET / LDMOS | |
+| Power-MOS-FET / Dual-Gate-MOS-FET | power MOSFET / dual-gate MOSFET | |
 | Gate / Source / Drain | gate / source / drain | |
 | Drainstrom / Gate-Source-Spannung | drain current / gate-source voltage | |
 | selbstsperrend / selbstleitend | enhancement-mode / depletion-mode | trap: literal "self-blocking" is wrong |
 | Massepotential | chassis potential; 0 V (common) | |
 | Integrierte Schaltkreise (IC) | integrated circuits (ICs) | |
+| Halbleitersubstrat | semiconductor substrate | |
+| vergossene Schaltung | potted circuit | |
 | Operationsverstärker | operational amplifier (op-amp) | |
 | MMIC | MMIC (monolithic microwave integrated circuit) | |
 | Spannungsregler (linear) / Festspannungsregler | (linear) voltage regulator / fixed voltage regulator | |
@@ -692,6 +719,7 @@ real choice or a trap.
 | Gesamtwiderstand / Gesamtkapazität | total resistance / total capacitance | |
 | Spannungsteiler (belastet / unbelastet) | potential divider (loaded / unloaded) | British *potential divider*; *voltage divider* also understood |
 | Brückenschaltung / Wheatstone-Brücke | bridge circuit / Wheatstone bridge | |
+| Brückenzweig | bridge diagonal | the branch between the two dividers, where the meter sits |
 | Blindwiderstand | reactance | |
 | induktiver / kapazitiver Blindwiderstand | inductive / capacitive reactance | |
 | Wirkwiderstand | resistance (resistive part) | |
@@ -740,6 +768,8 @@ real choice or a trap.
 | Siebung / Siebglied | smoothing / smoothing filter | |
 | Brummspannung / Restwelligkeit | ripple voltage / ripple | |
 | Spannungsstabilisierung | voltage stabilisation | |
+| Stabilisierungsschaltung (mit Z-Diode) | (Zener) stabiliser circuit | |
+| Spannungserhöhung | voltage step-up | |
 | Längstransistor | series pass transistor | |
 | Spannungswandler / DC/DC-Wandler | DC–DC converter | |
 | Step-Up-Wandler / Step-Down-Wandler | boost converter / buck converter | |
@@ -755,11 +785,14 @@ real choice or a trap.
 | Basisschaltung | common-base circuit | |
 | Sourceschaltung / Drainschaltung / Gateschaltung | common-source / common-drain / common-gate circuit | |
 | Arbeitspunkt / Arbeitspunkteinstellung | operating point (bias point) / biasing | |
+| Basisspannungsteiler | base potential divider | |
+| Emitterwiderstand | emitter resistor | |
 | Basisvorspannung / Vorspannung | base bias / bias | |
 | Ruhestrom | quiescent current | |
 | A-Betrieb / B-Betrieb / AB-Betrieb / C-Betrieb | class A / class B / class AB / class C operation | |
 | Gegentaktschaltung / Gegentaktendstufe | push-pull circuit / push-pull output stage | |
 | Gegenkopplung / Mitkopplung / Rückkopplung | negative feedback / positive feedback / feedback | |
+| Stromgegenkopplung / Spannungsgegenkopplung | negative current feedback / negative voltage feedback | |
 | Eingangsimpedanz / Ausgangsimpedanz | input impedance / output impedance | |
 | Eingangswiderstand / Ausgangswiderstand | input resistance / output resistance | |
 | Eingang / Ausgang | input / output | |
@@ -1280,6 +1313,10 @@ the entries above, listed so that they are rendered the same way every time.
 | Spannungsschwankung | voltage fluctuation | |
 | Schaltungspunkt | point in the circuit; node | |
 | Beschaltung | external circuitry | |
+| Lötstelle (fehlerhafte) | (faulty) solder joint | |
+| Leuchtanzeige | indicator light | |
+| Stromgewinnung | electricity generation | |
+| Heizwendel | heating coil | |
 | Anschluss / Anschlüsse | terminal; connection / terminals; leads (of a component) | |
 | Transistoranschlüsse | transistor terminals (leads) | |
 | Isolierschicht-FET (MOSFET) | insulated-gate FET (IGFET, MOSFET) | |

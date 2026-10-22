@@ -1713,20 +1713,20 @@
                                 {
                                     "number": "AB502",
                                     "class": "3",
-                                    "question": "Eine Stromversorgung nimmt bei einer Spannung von 230 V einen Strom von 0,63 A auf. Wieviel Energie wird bei einer Betriebsdauer von 7 Stunden umgesetzt?",
-                                    "answer_a": "1,01 kWh",
-                                    "answer_b": "0,14 kWh",
-                                    "answer_c": "2,56 kWh",
-                                    "answer_d": "20,7 kWh"
+                                    "question": "A power supply draws a current of 0.63 A at a voltage of 230 V. How much energy is converted over an operating time of 7 hours?",
+                                    "answer_a": "1.01 kWh",
+                                    "answer_b": "0.14 kWh",
+                                    "answer_c": "2.56 kWh",
+                                    "answer_d": "20.7 kWh"
                                 },
                                 {
                                     "number": "AB501",
                                     "class": "3",
-                                    "question": "Ein 12 V Akku hat eine Kapazit\u00e4t von 5 Ah. Welcher speicherbaren Energie entspricht das?",
-                                    "answer_a": "60,0 Wh",
-                                    "answer_b": "12,0 Wh",
-                                    "answer_c": "2,4 Wh",
-                                    "answer_d": "5,0 Wh"
+                                    "question": "A 12 V rechargeable battery has a capacity of 5 Ah. What amount of stored energy does this correspond to?",
+                                    "answer_a": "60.0 Wh",
+                                    "answer_b": "12.0 Wh",
+                                    "answer_c": "2.4 Wh",
+                                    "answer_d": "5.0 Wh"
                                 }
                             ]
                         },
@@ -1736,7 +1736,7 @@
                                 {
                                     "number": "AB601",
                                     "class": "3",
-                                    "question": "Welches Bild zeigt die physikalische Stromrichtung korrekt an?",
+                                    "question": "Which picture correctly shows the direction of electron flow (the physical direction of current)?",
                                     "answer_a": "",
                                     "answer_b": "",
                                     "answer_c": "",
@@ -1749,7 +1749,7 @@
                                 {
                                     "number": "NB703",
                                     "class": "1",
-                                    "question": "Bei welchem der abgebildeten Stromkreise leuchtet die LED?",
+                                    "question": "In which of the circuits shown does the LED light up?",
                                     "answer_a": "",
                                     "answer_b": "",
                                     "answer_c": "",
@@ -1762,7 +1762,7 @@
                                 {
                                     "number": "NB702",
                                     "class": "1",
-                                    "question": "Welches Bild zeigt die technische Stromrichtung korrekt an?",
+                                    "question": "Which picture correctly shows the direction of conventional current flow?",
                                     "answer_a": "",
                                     "answer_b": "",
                                     "answer_c": "",
@@ -1775,11 +1775,11 @@
                                 {
                                     "number": "NB701",
                                     "class": "1",
-                                    "question": "Welches Bauteil wird durch das Schaltzeichen symbolisiert?",
-                                    "answer_a": "Schalter",
-                                    "answer_b": "Masse",
-                                    "answer_c": "Antenne",
-                                    "answer_d": "Erde",
+                                    "question": "Which component does the circuit symbol represent?",
+                                    "answer_a": "Switch",
+                                    "answer_b": "Chassis",
+                                    "answer_c": "Antenna",
+                                    "answer_d": "Earth",
                                     "picture_question": "NB701_q"
                                 }
                             ]
@@ -1795,62 +1795,62 @@
                                 {
                                     "number": "EC117",
                                     "class": "2",
-                                    "question": "Welchen Wert hat ein SMD-Widerstand mit der Kennzeichnung 223?",
-                                    "answer_a": "22 kOhm",
-                                    "answer_b": "223 Ohm",
-                                    "answer_c": "22,3 kOhm",
-                                    "answer_d": "220 Ohm"
+                                    "question": "What is the value of an SMD resistor marked 223?",
+                                    "answer_a": "22 k\u03a9",
+                                    "answer_b": "223 ohms",
+                                    "answer_c": "22.3 k\u03a9",
+                                    "answer_d": "220 ohms"
                                 },
                                 {
                                     "number": "EC116",
                                     "class": "2",
-                                    "question": "Welchen Wert hat ein SMD-Widerstand mit der Kennzeichnung 221?",
-                                    "answer_a": "220 Ohm",
-                                    "answer_b": "221 Ohm",
-                                    "answer_c": "22,0 Ohm",
-                                    "answer_d": "22,1 Ohm"
+                                    "question": "What is the value of an SMD resistor marked 221?",
+                                    "answer_a": "220 ohms",
+                                    "answer_b": "221 ohms",
+                                    "answer_c": "22.0 ohms",
+                                    "answer_d": "22.1 ohms"
                                 },
                                 {
                                     "number": "EC115",
                                     "class": "2",
-                                    "question": "Welchen Wert hat der dargestellte SMD-Widerstand?",
-                                    "answer_a": "10 kOhm",
-                                    "answer_b": "103 Ohm",
-                                    "answer_c": "1 kOhm",
-                                    "answer_d": "10,3 Ohm",
+                                    "question": "What is the value of the SMD resistor shown?",
+                                    "answer_a": "10 k\u03a9",
+                                    "answer_b": "103 ohms",
+                                    "answer_c": "1 k\u03a9",
+                                    "answer_d": "10.3 ohms",
                                     "picture_question": "EC115_q"
                                 },
                                 {
                                     "number": "EC114",
                                     "class": "2",
-                                    "question": "Wie wird in der Regel bei SMD-Widerst\u00e4nden der Widerstandswert angegeben?",
-                                    "answer_a": "Auf dem Widerstand ist der Wert in Form von Zahlen abgedruckt, wobei die letzte Ziffer die Zehnerpotenz angibt.",
-                                    "answer_b": "Auf dem Widerstand ist der Wert in Form von Farbringen aufgedruckt, wobei der letzte Farbring die Toleranz angibt.",
-                                    "answer_c": "Auf dem Widerstand ist der Wert in Form von Farbringen aufgedruckt, wobei der letzte Farbring die Zehnerpotenz angibt.",
-                                    "answer_d": "Auf dem Widerstand ist der Wert in Form von Zahlen abgedruckt, wobei die angegebene Zahl dem Wert des Widerstands entspricht."
+                                    "question": "How is the resistance value of SMD resistors usually indicated?",
+                                    "answer_a": "The value is printed on the resistor as digits, the last digit giving the power of ten.",
+                                    "answer_b": "The value is printed on the resistor as colour bands, the last band giving the tolerance.",
+                                    "answer_c": "The value is printed on the resistor as colour bands, the last band giving the power of ten.",
+                                    "answer_d": "The value is printed on the resistor as digits, the number shown being the value of the resistor."
                                 },
                                 {
                                     "number": "EC113",
                                     "class": "2",
-                                    "question": "Die Farbringe gr\u00fcn, blau und rot sowie ein silberner auf einem Widerstand mit 4 Farbringen bedeuten einen Widerstandswert zwischen ...",
-                                    "answer_a": "5040 bis 6160 Ohm.",
-                                    "answer_b": "4760 bis 6440 Ohm.",
-                                    "answer_c": "4760 bis 6840 Ohm.",
-                                    "answer_d": "5240 bis 6360 Ohm."
+                                    "question": "The colour bands green, blue and red plus a silver band on a resistor with 4 colour bands indicate a resistance value between ...",
+                                    "answer_a": "5040 and 6160 ohms.",
+                                    "answer_b": "4760 and 6440 ohms.",
+                                    "answer_c": "4760 and 6840 ohms.",
+                                    "answer_d": "5240 and 6360 ohms."
                                 },
                                 {
                                     "number": "EC112",
                                     "class": "2",
-                                    "question": "Ein Widerstand hat eine Toleranz von 10 %. Bei einem nominalen Widerstandswert von 5,6 kOhm liegt der tats\u00e4chliche Wert zwischen ...",
-                                    "answer_a": "5040 bis 6160 Ohm.",
-                                    "answer_b": "4760 bis 6440 Ohm.",
-                                    "answer_c": "4,7 bis 6,8 kOhm.",
-                                    "answer_d": "5,2 bis 6,3 kOhm."
+                                    "question": "A resistor has a tolerance of 10 %. For a nominal resistance value of 5.6 k\u03a9, the actual value lies between ...",
+                                    "answer_a": "5040 and 6160 ohms.",
+                                    "answer_b": "4760 and 6440 ohms.",
+                                    "answer_c": "4.7 and 6.8 k\u03a9.",
+                                    "answer_d": "5.2 and 6.3 k\u03a9."
                                 },
                                 {
                                     "number": "EC111",
                                     "class": "2",
-                                    "question": "Welches der folgenden Schaltsymbole stellt einen PTC-Widerstand dar?",
+                                    "question": "Which of the following circuit symbols represents a PTC thermistor?",
                                     "answer_a": "",
                                     "answer_b": "",
                                     "answer_c": "",
@@ -1863,7 +1863,7 @@
                                 {
                                     "number": "EC110",
                                     "class": "2",
-                                    "question": "Welches der folgenden Bauteile ist ein NTC-Widerstand?",
+                                    "question": "Which of the following components is an NTC thermistor?",
                                     "answer_a": "",
                                     "answer_b": "",
                                     "answer_c": "",
@@ -1876,7 +1876,7 @@
                                 {
                                     "number": "EC109",
                                     "class": "2",
-                                    "question": "Welches Bauteil hat folgendes Schaltzeichen?",
+                                    "question": "Which component has the following circuit symbol?",
                                     "answer_a": "NTC",
                                     "answer_b": "PTC",
                                     "answer_c": "LDR",
@@ -1886,151 +1886,151 @@
                                 {
                                     "number": "EC108",
                                     "class": "2",
-                                    "question": "Welche Widerst\u00e4nde haben eine charakteristische Temperaturabh\u00e4ngigkeit und eignen sich daher besonders zur Temperaturmessung?",
-                                    "answer_a": "NTC-Widerst\u00e4nde",
-                                    "answer_b": "LDR-Widerst\u00e4nde",
-                                    "answer_c": "Metallschichtwiderst\u00e4nde",
-                                    "answer_d": "Drahtwiderst\u00e4nde"
+                                    "question": "Which resistors have a characteristic temperature dependence and are therefore particularly suitable for measuring temperature?",
+                                    "answer_a": "NTC thermistors",
+                                    "answer_b": "Light-dependent resistors (LDRs)",
+                                    "answer_c": "Metal-film resistors",
+                                    "answer_d": "Wirewound resistors"
                                 },
                                 {
                                     "number": "EC107",
                                     "class": "2",
-                                    "question": "Eine k\u00fcnstliche Antenne (Dummy Load) f\u00fcr den VHF-Bereich sollte f\u00fcr beste Eigenschaften beispielsweise aus ...",
-                                    "answer_a": "ungewendelten Metalloxidwiderst\u00e4nden bestehen.",
-                                    "answer_b": "hochbelastbaren Drahtwiderst\u00e4nden bestehen.",
-                                    "answer_c": "aktiv gek\u00fchlten Heizwendeln bestehen.",
-                                    "answer_d": "temperaturfesten Blindwiderst\u00e4nden bestehen."
+                                    "question": "For the best performance, a dummy load for the VHF range should, for example, consist of ...",
+                                    "answer_a": "metal-oxide resistors without a spiral cut.",
+                                    "answer_b": "high-power wirewound resistors.",
+                                    "answer_c": "actively cooled heating coils.",
+                                    "answer_d": "heat-resistant reactances."
                                 },
                                 {
                                     "number": "EC106",
                                     "class": "2",
-                                    "question": "Welche der folgenden Bauteile k\u00f6nnten f\u00fcr eine genaue k\u00fcnstliche Antenne (Dummy Load), die bei 50 MHz eingesetzt werden soll, verwendet werden?",
-                                    "answer_a": "Zehn ungewendelte 500 Ohm Kohleschichtwiderst\u00e4nde in Parallelschaltung",
-                                    "answer_b": "Ein einzelner 50 Ohm Drahtwiderstand",
-                                    "answer_c": "Zwei parallel geschaltete Drahtwiderst\u00e4nde von 100 Ohm",
-                                    "answer_d": "Zwei gewendelte 25 Ohm Kohleschichtwiderst\u00e4nde in Reihenschaltung"
+                                    "question": "Which of the following components could be used for an accurate dummy load that is to be used at 50 MHz?",
+                                    "answer_a": "Ten 500 ohm carbon-film resistors without a spiral cut, connected in parallel",
+                                    "answer_b": "A single 50 ohm wirewound resistor",
+                                    "answer_c": "Two 100 ohm wirewound resistors connected in parallel",
+                                    "answer_d": "Two spiral-cut 25 ohm carbon-film resistors connected in series"
                                 },
                                 {
                                     "number": "EC105",
                                     "class": "2",
-                                    "question": "Welche der folgenden Bauteile k\u00f6nnten f\u00fcr eine gut funktionierende k\u00fcnstliche Antenne (Dummy Load), die bei 28 MHz eingesetzt werden soll, verwendet werden?",
-                                    "answer_a": "Zehn Kohleschichtwiderst\u00e4nde von 500 Ohm",
-                                    "answer_b": "Ein 50 Ohm-Drahtwiderstand",
-                                    "answer_c": "Zwei parallel geschaltete Drahtwiderst\u00e4nde von 100 Ohm",
-                                    "answer_d": "Ein 50 Ohm-Drahtwiderstand in Parallelschaltung mit einem 50 nF Keramikkondensator."
+                                    "question": "Which of the following components could be used for a well-functioning dummy load that is to be used at 28 MHz?",
+                                    "answer_a": "Ten 500 ohm carbon-film resistors",
+                                    "answer_b": "A 50 ohm wirewound resistor",
+                                    "answer_c": "Two 100 ohm wirewound resistors connected in parallel",
+                                    "answer_d": "A 50 ohm wirewound resistor connected in parallel with a 50 nF ceramic capacitor"
                                 },
                                 {
                                     "number": "EC104",
                                     "class": "2",
-                                    "question": "Welche Eigenschaft sollten Bauteile aufweisen, welche f\u00fcr den Bau von k\u00fcnstlichen Antennen (Dummy Load) zum Einsatz im VHF- und UHF-Bereich verwendet werden.",
-                                    "answer_a": "geringe Eigeninduktivit\u00e4t und Eigenkapazit\u00e4t",
-                                    "answer_b": "geringen elektrischen und elektronischen Leitwert",
-                                    "answer_c": "hohe Eigeninduktivit\u00e4t und Eigenkapazit\u00e4t",
-                                    "answer_d": "hohen elektrischen und elektronischen Leitwert"
+                                    "question": "What property should components have if they are used to build dummy loads for the VHF and UHF ranges?",
+                                    "answer_a": "Low self-inductance and self-capacitance",
+                                    "answer_b": "Low electrical and electronic conductance",
+                                    "answer_c": "High self-inductance and self-capacitance",
+                                    "answer_d": "High electrical and electronic conductance"
                                 },
                                 {
                                     "number": "EC103",
                                     "class": "2",
-                                    "question": "Welche Widerst\u00e4nde sind induktionsarm und eignen sich besonders f\u00fcr den Einsatz bei Frequenzen oberhalb von 30 MHz.",
-                                    "answer_a": "Metalloxidschichtwiderst\u00e4nde",
-                                    "answer_b": "Metallschichtwiderst\u00e4nde",
-                                    "answer_c": "Drahtwiderst\u00e4nde",
-                                    "answer_d": "LDR-Widerst\u00e4nde"
+                                    "question": "Which resistors have low inductance and are particularly suitable for use at frequencies above 30 MHz?",
+                                    "answer_a": "Metal-oxide resistors",
+                                    "answer_b": "Metal-film resistors",
+                                    "answer_c": "Wirewound resistors",
+                                    "answer_d": "Light-dependent resistors (LDRs)"
                                 },
                                 {
                                     "number": "EC102",
                                     "class": "2",
-                                    "question": "Welche Widerst\u00e4nde haben geringe Fertigungstoleranzen und Temperaturabh\u00e4ngigkeit und sind besonders als Pr\u00e4zisionswiderst\u00e4nde geeignet?",
-                                    "answer_a": "Metallschichtwiderst\u00e4nde",
-                                    "answer_b": "Metalloxidschichtwiderst\u00e4nde",
-                                    "answer_c": "Drahtwiderst\u00e4nde",
-                                    "answer_d": "LDR-Widerst\u00e4nde"
+                                    "question": "Which resistors have small manufacturing tolerances and little temperature dependence, and are particularly suitable as precision resistors?",
+                                    "answer_a": "Metal-film resistors",
+                                    "answer_b": "Metal-oxide resistors",
+                                    "answer_c": "Wirewound resistors",
+                                    "answer_d": "Light-dependent resistors (LDRs)"
                                 },
                                 {
                                     "number": "EC101",
                                     "class": "2",
-                                    "question": "Welche Widerst\u00e4nde sind besonders als Hochlastwiderst\u00e4nde bei niedrigen Frequenzen geeignet?",
-                                    "answer_a": "Drahtwiderst\u00e4nde",
-                                    "answer_b": "Metallschichtwiderst\u00e4nde",
-                                    "answer_c": "Metalloxidschichtwiderst\u00e4nde",
-                                    "answer_d": "LDR-Widerst\u00e4nde"
+                                    "question": "Which resistors are particularly suitable as high-power resistors at low frequencies?",
+                                    "answer_a": "Wirewound resistors",
+                                    "answer_b": "Metal-film resistors",
+                                    "answer_c": "Metal-oxide resistors",
+                                    "answer_d": "Light-dependent resistors (LDRs)"
                                 },
                                 {
                                     "number": "NC110",
                                     "class": "1",
-                                    "question": "Welche Toleranz weist ein Widerstand mit 4 Farbcodes auf, wenn der vierte Farbring braun ist?",
+                                    "question": "What is the tolerance of a resistor with 4 colour bands if the fourth band is brown?",
                                     "answer_a": "$\u00b1$1 %",
-                                    "answer_b": "$\u00b1$0,1 %",
+                                    "answer_b": "$\u00b1$0.1 %",
                                     "answer_c": "$\u00b1$5 %",
                                     "answer_d": "$\u00b1$10 %"
                                 },
                                 {
                                     "number": "NC109",
                                     "class": "1",
-                                    "question": "Welche Toleranz weist ein Widerstand mit 4 Farbcodes auf, wenn der vierte Farbring ein goldener Farbring ist?",
-                                    "answer_a": " $\u00b1$5 %",
-                                    "answer_b": " $\u00b1$0,5 %",
-                                    "answer_c": " $\u00b1$0,1 %",
-                                    "answer_d": " $\u00b1$1 %"
+                                    "question": "What is the tolerance of a resistor with 4 colour bands if the fourth band is gold?",
+                                    "answer_a": "$\u00b1$5 %",
+                                    "answer_b": "$\u00b1$0.5 %",
+                                    "answer_c": "$\u00b1$0.1 %",
+                                    "answer_d": "$\u00b1$1 %"
                                 },
                                 {
                                     "number": "NC108",
                                     "class": "1",
-                                    "question": "Welche Toleranz weist ein Widerstand mit 4 Farbcodes auf, wenn der vierte Farbring ein silberner Farbring ist?",
-                                    "answer_a": " $\u00b1$10 %",
-                                    "answer_b": " $\u00b1$5 %",
-                                    "answer_c": " $\u00b1$0,1 %",
-                                    "answer_d": " $\u00b1$1 %"
+                                    "question": "What is the tolerance of a resistor with 4 colour bands if the fourth band is silver?",
+                                    "answer_a": "$\u00b1$10 %",
+                                    "answer_b": "$\u00b1$5 %",
+                                    "answer_c": "$\u00b1$0.1 %",
+                                    "answer_d": "$\u00b1$1 %"
                                 },
                                 {
                                     "number": "NC107",
                                     "class": "1",
-                                    "question": "Die Farbringe gelb, violett und orange auf einem Widerstand mit 4 Farbringen bedeuten einen Widerstandswert von ...",
-                                    "answer_a": "47 kOhm.",
-                                    "answer_b": "4,7 kOhm.",
-                                    "answer_c": "470 kOhm.",
-                                    "answer_d": "4,7 MOhm."
+                                    "question": "The colour bands yellow, violet and orange on a resistor with 4 colour bands indicate a resistance value of ...",
+                                    "answer_a": "47 k\u03a9.",
+                                    "answer_b": "4.7 k\u03a9.",
+                                    "answer_c": "470 k\u03a9.",
+                                    "answer_d": "4.7 M\u03a9."
                                 },
                                 {
                                     "number": "NC106",
                                     "class": "1",
-                                    "question": "Die Farbringe rot, violett und orange auf einem Widerstand mit 4 Farbringen bedeuten einen Widerstandswert von ...",
-                                    "answer_a": "27 kOhm.",
-                                    "answer_b": "2,7 kOhm.",
-                                    "answer_c": "270 kOhm.",
-                                    "answer_d": "2,7 MOhm."
+                                    "question": "The colour bands red, violet and orange on a resistor with 4 colour bands indicate a resistance value of ...",
+                                    "answer_a": "27 k\u03a9.",
+                                    "answer_b": "2.7 k\u03a9.",
+                                    "answer_c": "270 k\u03a9.",
+                                    "answer_d": "2.7 M\u03a9."
                                 },
                                 {
                                     "number": "NC105",
                                     "class": "1",
-                                    "question": "Die Farbringe gelb, violett und rot auf einem Widerstand mit 4 Farbringen bedeuten einen Widerstandswert von ...",
-                                    "answer_a": "4,7 kOhm.",
-                                    "answer_b": "47 kOhm.",
-                                    "answer_c": "470 kOhm.",
-                                    "answer_d": "4,7 MOhm."
+                                    "question": "The colour bands yellow, violet and red on a resistor with 4 colour bands indicate a resistance value of ...",
+                                    "answer_a": "4.7 k\u03a9.",
+                                    "answer_b": "47 k\u03a9.",
+                                    "answer_c": "470 k\u03a9.",
+                                    "answer_d": "4.7 M\u03a9."
                                 },
                                 {
                                     "number": "NC104",
                                     "class": "1",
-                                    "question": "Die Farbringe rot, violett und rot auf einem Widerstand mit 4 Farbringen bedeuten einen Widerstandswert von ...",
-                                    "answer_a": "2,7 kOhm.",
-                                    "answer_b": "27 kOhm.",
-                                    "answer_c": "270 kOhm.",
-                                    "answer_d": "2,7 MOhm."
+                                    "question": "The colour bands red, violet and red on a resistor with 4 colour bands indicate a resistance value of ...",
+                                    "answer_a": "2.7 k\u03a9.",
+                                    "answer_b": "27 k\u03a9.",
+                                    "answer_c": "270 k\u03a9.",
+                                    "answer_d": "2.7 M\u03a9."
                                 },
                                 {
                                     "number": "NC103",
                                     "class": "1",
-                                    "question": "Welche drei Farbringe hat ein 1,2 kOhm Widerstand am Anfang, wenn vier Farbringe verwendet werden?",
-                                    "answer_a": "Braun, rot, rot",
-                                    "answer_b": "Rot, orange, braun",
-                                    "answer_c": "Braun, rot, orange",
-                                    "answer_d": "Rot, braun, rot"
+                                    "question": "When four colour bands are used, which three colour bands does a 1.2 k\u03a9 resistor have at the start?",
+                                    "answer_a": "Brown, red, red",
+                                    "answer_b": "Red, orange, brown",
+                                    "answer_c": "Brown, red, orange",
+                                    "answer_d": "Red, brown, red"
                                 },
                                 {
                                     "number": "NC102",
                                     "class": "1",
-                                    "question": "Welchem Multiplikator entspricht ein gr\u00fcner Farbring auf einem Widerstand mit 4 Farbringen?",
+                                    "question": "Which multiplier does a green colour band correspond to on a resistor with 4 colour bands?",
                                     "answer_a": "100000",
                                     "answer_b": "10000",
                                     "answer_c": "1000000",
@@ -2039,11 +2039,11 @@
                                 {
                                     "number": "NC101",
                                     "class": "1",
-                                    "question": "Welches Bauteil wird durch das Schaltzeichen symbolisiert?",
-                                    "answer_a": "Widerstand",
+                                    "question": "Which component does the circuit symbol represent?",
+                                    "answer_a": "Resistor",
                                     "answer_b": "Diode",
-                                    "answer_c": "Spule",
-                                    "answer_d": "Kondensator",
+                                    "answer_c": "Inductor",
+                                    "answer_d": "Capacitor",
                                     "picture_question": "NC101_q"
                                 }
                             ]
@@ -2054,160 +2054,160 @@
                                 {
                                     "number": "AC111",
                                     "class": "3",
-                                    "question": "An einem Kondensator mit einer Kapazit\u00e4t von 1 \u03bcF wird ein NF-Signal mit 10 kHz und 12 V$_{\\textrm{eff}}$ angelegt. Wie gro\u00df ist die aufgenommene Wirkleistung im eingeschwungenen Zustand?",
-                                    "answer_a": "N\u00e4herungsweise 0 W",
-                                    "answer_b": "0,9 W",
-                                    "answer_c": "0,75 W",
+                                    "question": "An AF signal of 10 kHz and 12 V$_{\\textrm{eff}}$ is applied to a capacitor with a capacitance of 1 \u03bcF. How much real power does it absorb in the steady state?",
+                                    "answer_a": "Approximately 0 W",
+                                    "answer_b": "0.9 W",
+                                    "answer_c": "0.75 W",
                                     "answer_d": "9 W"
                                 },
                                 {
                                     "number": "AC110",
                                     "class": "3",
-                                    "question": "Neben dem kapazitiven Blindwiderstand treten im von Wechselstrom durchflossenen Kondensator auch Verluste auf, die rechnerisch in einem parallelgeschalteten Verlustwiderstand zusammengefasst werden k\u00f6nnen. Die Kondensatorverluste werden oft durch ...",
-                                    "answer_a": "den Verlustfaktor tan $\\delta$ angegeben, der dem Kehrwert des G\u00fctefaktors entspricht.",
-                                    "answer_b": "den relativen Verlustwiderstand in Ohm pro Farad angegeben, mit dem die Kondensatorg\u00fcte berechnet werden kann.",
-                                    "answer_c": "den relativen Blindwiderstand in Ohm pro Farad angegeben, mit dem die Kondensatorg\u00fcte berechnet werden kann.",
-                                    "answer_d": "den Verlustfaktor cos $\\phi$ angegeben, der dem Kehrwert des G\u00fctefaktors entspricht."
+                                    "question": "Besides the capacitive reactance, a capacitor carrying alternating current also has losses, which can be combined mathematically into a parallel loss resistance. Capacitor losses are often specified by ...",
+                                    "answer_a": "the dissipation factor tan $\\delta$, which is the reciprocal of the Q factor.",
+                                    "answer_b": "the relative loss resistance in ohms per farad, from which the Q of the capacitor can be calculated.",
+                                    "answer_c": "the relative reactance in ohms per farad, from which the Q of the capacitor can be calculated.",
+                                    "answer_d": "the dissipation factor cos $\\phi$, which is the reciprocal of the Q factor."
                                 },
                                 {
                                     "number": "AC109",
                                     "class": "3",
-                                    "question": "Kommt es in einem von Wechselstrom durchflossenen realen Kondensator zu Verlusten?",
-                                    "answer_a": "Ja, infolge von Verlusten in Dielektrikum und Zuleitung",
-                                    "answer_b": "Nein, beim Kondensator handelt es sich  um eine reine Blindleistung.",
-                                    "answer_c": "Ja, infolge des Blindwiderstands",
-                                    "answer_d": "Nein, bei Wechselstrom treten keine Verluste auf."
+                                    "question": "Does a real capacitor carrying alternating current have losses?",
+                                    "answer_a": "Yes, as a result of losses in the dielectric and the leads",
+                                    "answer_b": "No, a capacitor involves purely reactive power.",
+                                    "answer_c": "Yes, as a result of its reactance",
+                                    "answer_d": "No, there are no losses with alternating current."
                                 },
                                 {
                                     "number": "AC108",
                                     "class": "3",
-                                    "question": "An einem unbekannten Kondensator liegt eine Wechselspannung mit 16 V und 50 Hz. Es wird ein Strom von 32 mA gemessen. Welche Kapazit\u00e4t hat der Kondensator?",
-                                    "answer_a": "ca. 6,37 \u03bcF",
-                                    "answer_b": "ca. 0,637 \u03bcF",
-                                    "answer_c": "ca. 0,45 \u03bcF",
-                                    "answer_d": "ca. 4,5 \u03bcF"
+                                    "question": "An AC voltage of 16 V at 50 Hz is applied to an unknown capacitor. A current of 32 mA is measured. What is the capacitance of the capacitor?",
+                                    "answer_a": "Approx. 6.37 \u03bcF",
+                                    "answer_b": "Approx. 0.637 \u03bcF",
+                                    "answer_c": "Approx. 0.45 \u03bcF",
+                                    "answer_d": "Approx. 4.5 \u03bcF"
                                 },
                                 {
                                     "number": "AC107",
                                     "class": "3",
-                                    "question": "Wie gro\u00df ist der Betrag des kapazitiven Blindwiderstands eines Kondensators mit 100 pF bei einer Frequenz von 435 MHz ?",
-                                    "answer_a": "ca. 3,7 Ohm",
-                                    "answer_b": "ca. 0,27 Ohm",
-                                    "answer_c": "ca. 27,3 kOhm",
-                                    "answer_d": "ca. 11,5 Ohm"
+                                    "question": "What is the magnitude of the capacitive reactance of a 100 pF capacitor at a frequency of 435 MHz?",
+                                    "answer_a": "Approx. 3.7 ohms",
+                                    "answer_b": "Approx. 0.27 ohms",
+                                    "answer_c": "Approx. 27.3 k\u03a9",
+                                    "answer_d": "Approx. 11.5 ohms"
                                 },
                                 {
                                     "number": "AC106",
                                     "class": "3",
-                                    "question": "Wie gro\u00df ist der Betrag des kapazitiven Blindwiderstands eines Kondensators mit 100 pF bei einer Frequenz von 100 MHz?",
-                                    "answer_a": "ca. 15,9 Ohm",
-                                    "answer_b": "ca. 159 Ohm",
-                                    "answer_c": "ca. 31,8 Ohm",
-                                    "answer_d": "ca. 3,2 Ohm"
+                                    "question": "What is the magnitude of the capacitive reactance of a 100 pF capacitor at a frequency of 100 MHz?",
+                                    "answer_a": "Approx. 15.9 ohms",
+                                    "answer_b": "Approx. 159 ohms",
+                                    "answer_c": "Approx. 31.8 ohms",
+                                    "answer_d": "Approx. 3.2 ohms"
                                 },
                                 {
                                     "number": "AC105",
                                     "class": "3",
-                                    "question": "Wie gro\u00df ist der Betrag des kapazitiven Blindwiderstands eines Kondensators mit 50 pF bei einer Frequenz von 145 MHz ?",
-                                    "answer_a": "ca. 22 Ohm",
-                                    "answer_b": "ca. 0,045 Ohm",
-                                    "answer_c": "ca. 18,2 kOhm",
-                                    "answer_d": "ca. 69 Ohm"
+                                    "question": "What is the magnitude of the capacitive reactance of a 50 pF capacitor at a frequency of 145 MHz?",
+                                    "answer_a": "Approx. 22 ohms",
+                                    "answer_b": "Approx. 0.045 ohms",
+                                    "answer_c": "Approx. 18.2 k\u03a9",
+                                    "answer_d": "Approx. 69 ohms"
                                 },
                                 {
                                     "number": "AC104",
                                     "class": "3",
-                                    "question": "Wie gro\u00df ist der Betrag des kapazitiven Blindwiderstands eines Kondensators mit 10 pF bei einer Frequenz von 100 MHz?",
-                                    "answer_a": "159 Ohm",
-                                    "answer_b": "1,59 kOhm",
-                                    "answer_c": "318 Ohm",
-                                    "answer_d": "31,8 Ohm"
+                                    "question": "What is the magnitude of the capacitive reactance of a 10 pF capacitor at a frequency of 100 MHz?",
+                                    "answer_a": "159 ohms",
+                                    "answer_b": "1.59 k\u03a9",
+                                    "answer_c": "318 ohms",
+                                    "answer_d": "31.8 ohms"
                                 },
                                 {
                                     "number": "AC103",
                                     "class": "3",
-                                    "question": "Welcher der folgenden Widerst\u00e4nde hat keine W\u00e4rmeverluste?",
-                                    "answer_a": "Der Blindwiderstand",
-                                    "answer_b": "Der Metalloxidwiderstand",
-                                    "answer_c": "Der Wirkwiderstand",
-                                    "answer_d": "Der NTC-Widerstand"
+                                    "question": "Which of the following resistances has no heat losses?",
+                                    "answer_a": "The reactance",
+                                    "answer_b": "The metal-oxide resistor",
+                                    "answer_c": "The resistance (resistive part)",
+                                    "answer_d": "The NTC thermistor"
                                 },
                                 {
                                     "number": "AC102",
                                     "class": "3",
-                                    "question": "Welches Vorzeichen hat der Blindwiderstand eines idealen Kondensators und von welchen physikalischen Gr\u00f6\u00dfen h\u00e4ngt er ab? Der Blindwiderstand ist ...",
-                                    "answer_a": "negativ und abh\u00e4ngig von der Kapazit\u00e4t und der anliegenden Frequenz.",
-                                    "answer_b": "negativ und unabh\u00e4ngig von der Kapazit\u00e4t und der anliegenden Frequenz.",
-                                    "answer_c": "positiv und abh\u00e4ngig von der Kapazit\u00e4t und der anliegenden Frequenz.",
-                                    "answer_d": "positiv und unabh\u00e4ngig von der Kapazit\u00e4t und der anliegenden Frequenz."
+                                    "question": "What is the sign of the reactance of an ideal capacitor, and on which physical quantities does it depend? The reactance is ...",
+                                    "answer_a": "negative and dependent on the capacitance and the applied frequency.",
+                                    "answer_b": "negative and independent of the capacitance and the applied frequency.",
+                                    "answer_c": "positive and dependent on the capacitance and the applied frequency.",
+                                    "answer_d": "positive and independent of the capacitance and the applied frequency."
                                 },
                                 {
                                     "number": "AC101",
                                     "class": "3",
-                                    "question": "Ein verlustloser Kondensator wird an eine Wechselspannungsquelle angeschlossen. Welche Phasenverschiebung zwischen Spannung und Strom stellt sich ein?",
-                                    "answer_a": "Der Strom eilt der Spannung um 90 \u00b0 voraus.",
-                                    "answer_b": "Die Spannung eilt dem Strom um 90 \u00b0 voraus.",
-                                    "answer_c": "Die Spannung eilt dem Strom um 45 \u00b0 voraus.",
-                                    "answer_d": "Der Strom eilt der Spannung um 45 \u00b0 voraus."
+                                    "question": "A lossless capacitor is connected to an AC voltage source. What phase shift is there between voltage and current?",
+                                    "answer_a": "The current leads the voltage by 90 \u00b0.",
+                                    "answer_b": "The voltage leads the current by 90 \u00b0.",
+                                    "answer_c": "The voltage leads the current by 45 \u00b0.",
+                                    "answer_d": "The current leads the voltage by 45 \u00b0."
                                 },
                                 {
                                     "number": "EC207",
                                     "class": "2",
-                                    "question": "Bei welcher der folgenden Bauformen von Kondensatoren muss beim Einbau auf die Polarit\u00e4t geachtet werden?",
-                                    "answer_a": "Elektrolytkondensator",
-                                    "answer_b": "Keramikkondensator",
-                                    "answer_c": "Styroflexkondensator",
-                                    "answer_d": "Plattenkondensator"
+                                    "question": "For which of the following types of capacitor must the polarity be observed when fitting it?",
+                                    "answer_a": "Electrolytic capacitor",
+                                    "answer_b": "Ceramic capacitor",
+                                    "answer_c": "Polystyrene (Styroflex) capacitor",
+                                    "answer_d": "Parallel-plate capacitor"
                                 },
                                 {
                                     "number": "EC206",
                                     "class": "2",
-                                    "question": "Wie nennt man ein Bauelement, bei dem sich Platten auf einer isolierten Achse befinden, die zwischen fest stehenden Platten rotiert werden k\u00f6nnen?",
-                                    "answer_a": "Drehkondensator",
-                                    "answer_b": "Styroflexkondensator",
-                                    "answer_c": "Keramischer Kondensator",
-                                    "answer_d": "Rotorkondensator"
+                                    "question": "What is the name of a component in which plates mounted on an insulated spindle can be rotated between fixed plates?",
+                                    "answer_a": "Variable capacitor",
+                                    "answer_b": "Polystyrene (Styroflex) capacitor",
+                                    "answer_c": "Ceramic capacitor",
+                                    "answer_d": "Rotor capacitor"
                                 },
                                 {
                                     "number": "EC205",
                                     "class": "2",
-                                    "question": "Von welcher der nachfolgenden Gr\u00f6\u00dfen ist die Kapazit\u00e4t eines Plattenkondensators <u>nicht</u> abh\u00e4ngig?",
-                                    "answer_a": "Spannung",
-                                    "answer_b": "Plattenabstand",
-                                    "answer_c": "Plattenfl\u00e4che",
-                                    "answer_d": "Dielektrikum"
+                                    "question": "Which of the following quantities does the capacitance of a parallel-plate capacitor <u>not</u> depend on?",
+                                    "answer_a": "Voltage",
+                                    "answer_b": "Plate spacing",
+                                    "answer_c": "Plate area",
+                                    "answer_d": "Dielectric"
                                 },
                                 {
                                     "number": "EC204",
                                     "class": "2",
-                                    "question": "In welchem Fall sinkt die Kapazit\u00e4t eines Plattenkondensators?",
-                                    "answer_a": "Bei Vergr\u00f6\u00dferung des Plattenabstandes",
-                                    "answer_b": "Bei Erh\u00f6hung der angelegten Spannung",
-                                    "answer_c": "Bei Vergr\u00f6\u00dferung der Plattenoberfl\u00e4che",
-                                    "answer_d": "Bei Vergr\u00f6\u00dferung der Dielektrizit\u00e4tszahl"
+                                    "question": "In which case does the capacitance of a parallel-plate capacitor decrease?",
+                                    "answer_a": "When the plate spacing is increased",
+                                    "answer_b": "When the applied voltage is increased",
+                                    "answer_c": "When the plate area is increased",
+                                    "answer_d": "When the relative permittivity is increased"
                                 },
                                 {
                                     "number": "EC203",
                                     "class": "2",
-                                    "question": "Wodurch verringert sich die Kapazit\u00e4t eines Plattenkondensators? Durch ...",
-                                    "answer_a": "einen gr\u00f6\u00dferen Plattenabstand.",
-                                    "answer_b": "eine gr\u00f6\u00dfere Dielektrizit\u00e4tskonstante des Dielektrikums.",
-                                    "answer_c": "eine gr\u00f6\u00dfere Spannung.",
-                                    "answer_d": "gr\u00f6\u00dfere Plattenfl\u00e4chen."
+                                    "question": "What reduces the capacitance of a parallel-plate capacitor? It is reduced by ...",
+                                    "answer_a": "a larger plate spacing.",
+                                    "answer_b": "a higher permittivity of the dielectric.",
+                                    "answer_c": "a higher voltage.",
+                                    "answer_d": "larger plate areas."
                                 },
                                 {
                                     "number": "EC202",
                                     "class": "2",
-                                    "question": "Welches Verhalten zeigt der Wechselstromwiderstand eines idealen Kondensators mit zunehmender Frequenz?",
-                                    "answer_a": "Er sinkt.",
-                                    "answer_b": "Er sinkt bis zu einem Minimum und steigt dann wieder.",
-                                    "answer_c": "Er steigt.",
-                                    "answer_d": "Er steigt bis zu einem Maximum und sinkt dann wieder."
+                                    "question": "How does the impedance of an ideal capacitor behave as the frequency increases?",
+                                    "answer_a": "It decreases.",
+                                    "answer_b": "It decreases to a minimum and then rises again.",
+                                    "answer_c": "It increases.",
+                                    "answer_d": "It increases to a maximum and then falls again."
                                 },
                                 {
                                     "number": "EC201",
                                     "class": "2",
-                                    "question": "Welchen zeitlichen Verlauf hat die Spannung an einem entladenen Kondensator, wenn dieser \u00fcber einen Widerstand an eine Gleichspannungsquelle angeschlossen wird?",
+                                    "question": "How does the voltage across a discharged capacitor vary with time when the capacitor is connected to a DC voltage source through a resistor?",
                                     "answer_a": "",
                                     "answer_b": "",
                                     "answer_c": "",
@@ -2220,11 +2220,11 @@
                                 {
                                     "number": "NC201",
                                     "class": "1",
-                                    "question": "Welches Bauteil wird durch das Schaltzeichen symbolisiert?",
-                                    "answer_a": "Kondensator",
-                                    "answer_b": "Spule",
+                                    "question": "Which component does the circuit symbol represent?",
+                                    "answer_a": "Capacitor",
+                                    "answer_b": "Inductor",
                                     "answer_c": "Transistor",
-                                    "answer_d": "Batterie",
+                                    "answer_d": "Battery",
                                     "picture_question": "NC201_q"
                                 }
                             ]
@@ -2235,35 +2235,35 @@
                                 {
                                     "number": "AC211",
                                     "class": "3",
-                                    "question": "Das folgende Bild zeigt einen Kern, um den ein Kabel f\u00fcr den Bau einer Drossel gewickelt ist. Der Kern sollte \u00fcblicherweise aus ...",
-                                    "answer_a": "Ferrit bestehen.",
-                                    "answer_b": "Kunststoff bestehen.",
-                                    "answer_c": "Stahl bestehen.",
-                                    "answer_d": "diamagnetischem Material bestehen.",
+                                    "question": "The following picture shows a core around which a cable is wound to make a choke. The core should normally be made of ...",
+                                    "answer_a": "ferrite.",
+                                    "answer_b": "plastic.",
+                                    "answer_c": "steel.",
+                                    "answer_d": "diamagnetic material.",
                                     "picture_question": "AC211_q"
                                 },
                                 {
                                     "number": "AC210",
                                     "class": "3",
-                                    "question": "Um die Abstrahlungen der Spule eines abgestimmten Schwingkreises zu verringern, sollte die Spule ...",
-                                    "answer_a": "in einem leitenden Metallgeh\u00e4use untergebracht werden.",
-                                    "answer_b": "einen hohlen Kupferkern aufweisen.",
-                                    "answer_c": "in einem isolierenden Kunststoffgeh\u00e4use untergebracht werden.",
-                                    "answer_d": "einen abgestimmten Kunststoffkern aufweisen."
+                                    "question": "To reduce the radiation from the coil of a tuned circuit, the coil should ...",
+                                    "answer_a": "be housed in a conductive metal case.",
+                                    "answer_b": "have a hollow copper core.",
+                                    "answer_c": "be housed in an insulating plastic case.",
+                                    "answer_d": "have a tuned plastic core."
                                 },
                                 {
                                     "number": "AC209",
                                     "class": "3",
-                                    "question": "Neben dem induktiven Blindwiderstand treten in der mit Wechselstrom durchflossenen Spule auch Verluste auf, die rechnerisch in einem seriellen Verlustwiderstand zusammengefasst werden k\u00f6nnen. Als Ma\u00df f\u00fcr die Verluste in einer Spule wird auch ...",
-                                    "answer_a": "der Verlustfaktor tan $\\delta$ angegeben, der dem Kehrwert des G\u00fctefaktors entspricht.",
-                                    "answer_b": "der relative Verlustwiderstand in Ohm pro Henry angegeben, mit dem die Spuleng\u00fcte berechnet werden kann.",
-                                    "answer_c": "der relative Blindwiderstand in Ohm pro Henry angegeben, mit dem die Spuleng\u00fcte berechnet werden kann.",
-                                    "answer_d": "der Verlustfaktor cos $\\varphi$ angegeben, der dem Kehrwert des G\u00fctefaktors entspricht."
+                                    "question": "Besides the inductive reactance, an inductor carrying alternating current also has losses, which can be combined mathematically into a series loss resistance. The losses in an inductor are also expressed by ...",
+                                    "answer_a": "the dissipation factor tan $\\delta$, which is the reciprocal of the Q factor.",
+                                    "answer_b": "the relative loss resistance in ohms per henry, from which the Q of the inductor can be calculated.",
+                                    "answer_c": "the relative reactance in ohms per henry, from which the Q of the inductor can be calculated.",
+                                    "answer_d": "the dissipation factor cos $\\varphi$, which is the reciprocal of the Q factor."
                                 },
                                 {
                                     "number": "AC208",
                                     "class": "3",
-                                    "question": "Ein Spulenkern hat eine Induktivit\u00e4tskonstante ($A_{\\textrm{L}}$-Wert) von 30 nH. Wie gro\u00df ist die erforderliche Windungszahl zur Herstellung einer Induktivit\u00e4t von 12 \u03bcH in etwa?",
+                                    "question": "A coil core has an inductance factor ($A_{\\textrm{L}}$ value) of 30 nH. Approximately how many turns are needed to make an inductance of 12 \u03bcH?",
                                     "answer_a": "20",
                                     "answer_b": "400",
                                     "answer_c": "360",
@@ -2272,7 +2272,7 @@
                                 {
                                     "number": "AC207",
                                     "class": "3",
-                                    "question": "Mit einem Ringkern, dessen Induktivit\u00e4tskonstante ($A_{\\textrm{L}}$-Wert) mit 250 nH angegeben ist, soll eine Spule mit einer Induktivit\u00e4t von 2 mH hergestellt werden. Wie gro\u00df ist die erforderliche Windungszahl etwa?",
+                                    "question": "An inductor with an inductance of 2 mH is to be made on a toroidal core whose inductance factor ($A_{\\textrm{L}}$ value) is given as 250 nH. Approximately how many turns are needed?",
                                     "answer_a": "89",
                                     "answer_b": "3",
                                     "answer_c": "2828",
@@ -2281,71 +2281,71 @@
                                 {
                                     "number": "AC206",
                                     "class": "3",
-                                    "question": "Wie gro\u00df ist die Induktivit\u00e4t einer Spule mit 300 Windungen, die auf einen Kern mit einer Induktivit\u00e4tskonstante ($A_{\\textrm{L}}$-Wert) von 1250 nH gewickelt ist?",
-                                    "answer_a": "112,5 mH",
-                                    "answer_b": "112,5 \u03bcH",
-                                    "answer_c": "11,25 mH",
-                                    "answer_d": "1,125 mH"
+                                    "question": "What is the inductance of a coil with 300 turns wound on a core with an inductance factor ($A_{\\textrm{L}}$ value) of 1250 nH?",
+                                    "answer_a": "112.5 mH",
+                                    "answer_b": "112.5 \u03bcH",
+                                    "answer_c": "11.25 mH",
+                                    "answer_d": "1.125 mH"
                                 },
                                 {
                                     "number": "AC205",
                                     "class": "3",
-                                    "question": "Wie gro\u00df ist die Induktivit\u00e4t einer Spule mit 14 Windungen, die auf einen Kern mit einer Induktivit\u00e4tskonstante ($A_{\\textrm{L}}$-Wert) von 1,5 nH gewickelt ist?",
-                                    "answer_a": "0,294 \u03bcH",
-                                    "answer_b": "2,94 \u03bcH",
-                                    "answer_c": "29,4 nH",
-                                    "answer_d": "2,94 nH"
+                                    "question": "What is the inductance of a coil with 14 turns wound on a core with an inductance factor ($A_{\\textrm{L}}$ value) of 1.5 nH?",
+                                    "answer_a": "0.294 \u03bcH",
+                                    "answer_b": "2.94 \u03bcH",
+                                    "answer_c": "29.4 nH",
+                                    "answer_d": "2.94 nH"
                                 },
                                 {
                                     "number": "AC204",
                                     "class": "3",
-                                    "question": "Wie gro\u00df ist der Betrag des induktiven Blindwiderstands einer Spule mit 3 \u03bcH Induktivit\u00e4t bei einer Frequenz von 100 MHz?",
-                                    "answer_a": "ca. 1885 Ohm",
-                                    "answer_b": "ca. 942,0 Ohm",
-                                    "answer_c": "ca. 1885 kOhm",
-                                    "answer_d": "ca. 1,942 Ohm"
+                                    "question": "What is the magnitude of the inductive reactance of an inductor of 3 \u03bcH at a frequency of 100 MHz?",
+                                    "answer_a": "Approx. 1885 ohms",
+                                    "answer_b": "Approx. 942.0 ohms",
+                                    "answer_c": "Approx. 1885 k\u03a9",
+                                    "answer_d": "Approx. 1.942 ohms"
                                 },
                                 {
                                     "number": "AC203",
                                     "class": "3",
-                                    "question": "Beim Anlegen einer Gleichspannung $U$ = 1 V an eine Spule messen Sie einen Strom. Wird der Strom beim Anlegen von einer Wechselspannung mit $U_{\\textrm{eff}}$ = 1 V gr\u00f6\u00dfer oder kleiner?",
-                                    "answer_a": "Beim Betrieb mit Gleichspannung wirkt nur der Gleichstromwiderstand der Spule. Beim Betrieb mit Wechselspannung wird der induktive Widerstand $X_{\\textrm{L}}$ wirksam und erh\u00f6ht den Gesamtwiderstand. Der Strom wird kleiner.",
-                                    "answer_b": "Beim Betrieb mit Gleichspannung wirkt nur der Gleichstromwiderstand der Spule. Beim Betrieb mit Wechselspannung wirkt nur der kleinere induktive Widerstand $X_{\\textrm{L}}$. Der Strom wird gr\u00f6\u00dfer.",
-                                    "answer_c": "Beim Betrieb mit Gleich- oder Wechselspannung wirkt nur der ohmsche Widerstand $X_{\\textrm{L}}$ der Spule. Der Strom bleibt gleich.",
-                                    "answer_d": "Beim Betrieb mit Wechselspannung wirkt nur der Wechselstromwiderstand der Spule. Beim Betrieb mit Gleichspannung wird nur der ohmsche Widerstand $X_{\\textrm{L}}$ wirksam. Der Strom wird gr\u00f6\u00dfer."
+                                    "question": "When you apply a DC voltage $U$ = 1 V to an inductor, you measure a current. Does the current become larger or smaller when an AC voltage with $U_{\\textrm{eff}}$ = 1 V is applied?",
+                                    "answer_a": "With a DC voltage, only the DC resistance of the inductor acts. With an AC voltage, the inductive reactance $X_{\\textrm{L}}$ comes into effect and increases the total resistance. The current becomes smaller.",
+                                    "answer_b": "With a DC voltage, only the DC resistance of the inductor acts. With an AC voltage, only the smaller inductive reactance $X_{\\textrm{L}}$ acts. The current becomes larger.",
+                                    "answer_c": "With a DC or AC voltage, only the ohmic resistance $X_{\\textrm{L}}$ of the inductor acts. The current stays the same.",
+                                    "answer_d": "With an AC voltage, only the AC resistance of the inductor acts. With a DC voltage, only the ohmic resistance $X_{\\textrm{L}}$ comes into effect. The current becomes larger."
                                 },
                                 {
                                     "number": "AC202",
                                     "class": "3",
-                                    "question": "Welches Vorzeichen hat der Blindwiderstand einer idealen Spule und von welchen physikalischen Gr\u00f6\u00dfen h\u00e4ngt er ab? Der Blindwiderstand ist ...",
-                                    "answer_a": "positiv und abh\u00e4ngig von der Induktivit\u00e4t und der anliegenden Frequenz.",
-                                    "answer_b": "positiv und unabh\u00e4ngig von der Induktivit\u00e4t und der anliegenden Frequenz.",
-                                    "answer_c": "negativ und abh\u00e4ngig von der Induktivit\u00e4t und der anliegenden Frequenz.",
-                                    "answer_d": "negativ und unabh\u00e4ngig von der Induktivit\u00e4t und der anliegenden Frequenz."
+                                    "question": "What is the sign of the reactance of an ideal inductor, and on which physical quantities does it depend? The reactance is ...",
+                                    "answer_a": "positive and dependent on the inductance and the applied frequency.",
+                                    "answer_b": "positive and independent of the inductance and the applied frequency.",
+                                    "answer_c": "negative and dependent on the inductance and the applied frequency.",
+                                    "answer_d": "negative and independent of the inductance and the applied frequency."
                                 },
                                 {
                                     "number": "AC201",
                                     "class": "3",
-                                    "question": "In einer idealen Induktivit\u00e4t, die an einer Wechselspannungsquelle angeschlossen ist, eilt der Strom der angelegten Spannung ...",
-                                    "answer_a": "um 90 \u00b0 nach.",
-                                    "answer_b": "um 45 \u00b0 voraus.",
-                                    "answer_c": "um 45 \u00b0 nach.",
-                                    "answer_d": "um 90 \u00b0 voraus."
+                                    "question": "In an ideal inductance connected to an AC voltage source, the current ...",
+                                    "answer_a": "lags the applied voltage by 90 \u00b0.",
+                                    "answer_b": "leads the applied voltage by 45 \u00b0.",
+                                    "answer_c": "lags the applied voltage by 45 \u00b0.",
+                                    "answer_d": "leads the applied voltage by 90 \u00b0."
                                 },
                                 {
                                     "number": "EC307",
                                     "class": "2",
-                                    "question": "Wie \u00e4ndert sich die Induktivit\u00e4t einer Spule von 12 \u03bcH, wenn die Windungszahl bei gleicher Wickell\u00e4nge verdoppelt wird?",
-                                    "answer_a": "Die Induktivit\u00e4t steigt auf 48 \u03bcH.",
-                                    "answer_b": "Die Induktivit\u00e4t steigt auf 24 \u03bcH.",
-                                    "answer_c": "Die Induktivit\u00e4t sinkt auf 6 \u03bcH.",
-                                    "answer_d": "Die Induktivit\u00e4t sinkt auf 3 \u03bcH.",
+                                    "question": "How does the inductance of a 12 \u03bcH coil change if the number of turns is doubled while the winding length stays the same?",
+                                    "answer_a": "The inductance rises to 48 \u03bcH.",
+                                    "answer_b": "The inductance rises to 24 \u03bcH.",
+                                    "answer_c": "The inductance falls to 6 \u03bcH.",
+                                    "answer_d": "The inductance falls to 3 \u03bcH.",
                                     "picture_question": "EC307_q"
                                 },
                                 {
                                     "number": "EC306",
                                     "class": "2",
-                                    "question": "Vorausgesetzt sind zwei Spulen in gleicher Umgebung, mit gleicher Windungszahl und mit gleicher Querschnittsfl\u00e4che. Die erste Spule hat eine Induktivit\u00e4t von 12 \u03bcH. Die zweite Spule hat die doppelte L\u00e4nge der ersten Spule. Wie hoch ist die Induktivit\u00e4t der zweiten Spule?",
+                                    "question": "Assume two coils in the same surroundings, with the same number of turns and the same cross-sectional area. The first coil has an inductance of 12 \u03bcH. The second coil is twice as long as the first. What is the inductance of the second coil?",
                                     "answer_a": "6 \u03bcH",
                                     "answer_b": "24 \u03bcH",
                                     "answer_c": "48 \u03bcH",
@@ -2355,44 +2355,44 @@
                                 {
                                     "number": "EC305",
                                     "class": "2",
-                                    "question": "Wie kann man die Induktivit\u00e4t einer zylindrischen Spule vergr\u00f6\u00dfern?",
-                                    "answer_a": "Durch Stauchen der Spule in L\u00e4ngsrichtung.",
-                                    "answer_b": "Durch Auseinanderziehen der Spule in L\u00e4ngsrichtung.",
-                                    "answer_c": "Durch Einf\u00fchren eines Kupferkerns in die Spule.",
-                                    "answer_d": "Durch Einbau der Spule in einen Abschirmbecher."
+                                    "question": "How can the inductance of a cylindrical coil be increased?",
+                                    "answer_a": "By compressing the coil lengthwise.",
+                                    "answer_b": "By stretching the coil lengthwise.",
+                                    "answer_c": "By inserting a copper core into the coil.",
+                                    "answer_d": "By fitting the coil in a screening can."
                                 },
                                 {
                                     "number": "EC304",
                                     "class": "2",
-                                    "question": "Hat ein gerades Leiterst\u00fcck eine Induktivit\u00e4t?",
-                                    "answer_a": "Ja, jeder Leiter besitzt, unabh\u00e4ngig von der Form, eine Induktivit\u00e4t.",
-                                    "answer_b": "Nein, der Leiter muss wenigstens eine Kr\u00fcmmung (eine viertel, halbe oder ganze Windung) haben.",
-                                    "answer_c": "Ja, solange der Blindwiderstand 0 Ohm betr\u00e4gt.",
-                                    "answer_d": "Nein, beispielsweise im Vakuum entstehen keine Induktivit\u00e4ten."
+                                    "question": "Does a straight piece of conductor have inductance?",
+                                    "answer_a": "Yes, every conductor has inductance, whatever its shape.",
+                                    "answer_b": "No, the conductor must have at least one bend (a quarter, half or full turn).",
+                                    "answer_c": "Yes, as long as the reactance is 0 ohms.",
+                                    "answer_d": "No, in a vacuum, for example, no inductance arises."
                                 },
                                 {
                                     "number": "EC303",
                                     "class": "2",
-                                    "question": "Welches Verhalten zeigt der Wechselstromwiderstand einer idealen Spule mit zunehmender Frequenz?",
-                                    "answer_a": "Er steigt.",
-                                    "answer_b": "Er sinkt.",
-                                    "answer_c": "Er sinkt bis zu einem Minimum und steigt dann wieder.",
-                                    "answer_d": "Er steigt bis zu einem Maximum und sinkt dann wieder."
+                                    "question": "How does the impedance of an ideal inductor behave as the frequency increases?",
+                                    "answer_a": "It increases.",
+                                    "answer_b": "It decreases.",
+                                    "answer_c": "It decreases to a minimum and then rises again.",
+                                    "answer_d": "It increases to a maximum and then falls again."
                                 },
                                 {
                                     "number": "EC302",
                                     "class": "2",
-                                    "question": "Schaltet man zwei Leuchtmittel gleichzeitig an eine Gleichspannungsquelle, wobei ein Leuchtmittel, Lampe 1, zum Helligkeitsausgleich \u00fcber einen Widerstand und das andere, Lampe 2, \u00fcber eine Spule mit vielen Windungen und Eisenkern angeschlossen ist, so ...",
-                                    "answer_a": "leuchtet Lampe 1 zuerst.",
-                                    "answer_b": "leuchtet Lampe 2 zuerst.",
-                                    "answer_c": "leuchten Lampe 1 und Lampe 2 genau gleichzeitig.",
-                                    "answer_d": "leuchtet Lampe 2 kurz auf und geht wieder aus. Lampe 1 leuchtet.",
+                                    "question": "If two lamps are connected to a DC voltage source at the same time, one of them, lamp 1, through a resistor to balance the brightness and the other, lamp 2, through an iron-cored coil with many turns, then ...",
+                                    "answer_a": "lamp 1 lights up first.",
+                                    "answer_b": "lamp 2 lights up first.",
+                                    "answer_c": "lamp 1 and lamp 2 light up at exactly the same time.",
+                                    "answer_d": "lamp 2 flashes briefly and goes out again. Lamp 1 stays lit.",
                                     "picture_question": "EC302_q"
                                 },
                                 {
                                     "number": "EC301",
                                     "class": "2",
-                                    "question": "An eine Spule wird \u00fcber einen Widerstand eine Gleichspannung angelegt. Welches der nachfolgenden Diagramme zeigt den zeitlichen Verlauf der Spannung \u00fcber der Spule?",
+                                    "question": "A DC voltage is applied to an inductor through a resistor. Which of the following diagrams shows how the voltage across the inductor varies with time?",
                                     "answer_a": "",
                                     "answer_b": "",
                                     "answer_c": "",
@@ -2405,11 +2405,11 @@
                                 {
                                     "number": "NC301",
                                     "class": "1",
-                                    "question": "Welches Bauteil wird durch das Schaltzeichen symbolisiert?",
-                                    "answer_a": "Spule",
-                                    "answer_b": "Kondensator",
+                                    "question": "Which component does the circuit symbol represent?",
+                                    "answer_a": "Inductor",
+                                    "answer_b": "Capacitor",
                                     "answer_c": "Diode",
-                                    "answer_d": "Batterie",
+                                    "answer_d": "Battery",
                                     "picture_question": "NC301_q"
                                 }
                             ]
@@ -2420,103 +2420,103 @@
                                 {
                                     "number": "AC307",
                                     "class": "3",
-                                    "question": "Eine Transformatorwicklung hat einen Drahtdurchmesser von 0,5 mm. Die zul\u00e4ssige Stromdichte betr\u00e4gt 2,5 A/mm\u00b2. Wie gro\u00df ist der zul\u00e4ssige Strom?",
-                                    "answer_a": "ca. 0,49 A",
-                                    "answer_b": "ca. 1,96 A",
-                                    "answer_c": "ca. 1,25 A",
-                                    "answer_d": "ca. 0,19 A"
+                                    "question": "A transformer winding has a wire diameter of 0.5 mm. The permissible current density is 2.5 A/mm\u00b2. What is the permissible current?",
+                                    "answer_a": "Approx. 0.49 A",
+                                    "answer_b": "Approx. 1.96 A",
+                                    "answer_c": "Approx. 1.25 A",
+                                    "answer_d": "Approx. 0.19 A"
                                 },
                                 {
                                     "number": "AC306",
                                     "class": "3",
-                                    "question": "F\u00fcr die Anpassung einer 50 Ohm \u00dcbertragungsleitung an eine endgespeiste Halbwellenantenne mit einem Fu\u00dfpunktwiderstand von 2,5 kOhm wird ein \u00dcbertrager verwendet. Er sollte in etwa ein Windungverh\u00e4ltnis von ...",
-                                    "answer_a": "1:7 aufweisen.",
-                                    "answer_b": "1:3 aufweisen.",
-                                    "answer_c": "1:49 aufweisen.",
-                                    "answer_d": "1:14 aufweisen."
+                                    "question": "A transformer is used to match a 50 ohm transmission line to an end-fed half-wave antenna with a feed-point impedance of 2.5 k\u03a9. It should have a turns ratio of approximately ...",
+                                    "answer_a": "1:7.",
+                                    "answer_b": "1:3.",
+                                    "answer_c": "1:49.",
+                                    "answer_d": "1:14."
                                 },
                                 {
                                     "number": "AC305",
                                     "class": "3",
-                                    "question": "F\u00fcr die Anpassung einer Antenne mit einem Fu\u00dfpunktwiderstand von 450 Ohm an eine 50 Ohm-\u00dcbertragungsleitung sollte ein \u00dcbertrager mit einem Windungsverh\u00e4ltnis von ...",
-                                    "answer_a": "3:1 verwendet werden.",
-                                    "answer_b": "4:1 verwendet werden.",
-                                    "answer_c": "9:1 verwendet werden.",
-                                    "answer_d": "16:1 verwendet werden."
+                                    "question": "To match an antenna with a feed-point impedance of 450 ohms to a 50 ohm transmission line, you should use a transformer with a turns ratio of ...",
+                                    "answer_a": "3:1.",
+                                    "answer_b": "4:1.",
+                                    "answer_c": "9:1.",
+                                    "answer_d": "16:1."
                                 },
                                 {
                                     "number": "AC304",
                                     "class": "3",
-                                    "question": "In dieser Schaltung betr\u00e4gt $R$=6,4 kOhm. Die Impedanz zwischen den Anschl\u00fcssen a und b betr\u00e4gt im Idealfall ...",
-                                    "answer_a": "0,4 kOhm.",
-                                    "answer_b": "26 kOhm.",
-                                    "answer_c": "6,4 kOhm.",
-                                    "answer_d": "1,6 kOhm.",
+                                    "question": "In this circuit, $R$=6.4 k\u03a9. Ideally, the impedance between terminals a and b is ...",
+                                    "answer_a": "0.4 k\u03a9.",
+                                    "answer_b": "26 k\u03a9.",
+                                    "answer_c": "6.4 k\u03a9.",
+                                    "answer_d": "1.6 k\u03a9.",
                                     "picture_question": "AC304_q"
                                 },
                                 {
                                     "number": "AC303",
                                     "class": "3",
-                                    "question": "In dieser Schaltung betr\u00e4gt $R$=16 kOhm. Die Impedanz zwischen den Anschl\u00fcssen a und b betr\u00e4gt im Idealfall ...",
-                                    "answer_a": "1 kOhm.",
-                                    "answer_b": "64 kOhm.",
-                                    "answer_c": "16 kOhm.",
-                                    "answer_d": "4 kOhm.",
+                                    "question": "In this circuit, $R$=16 k\u03a9. Ideally, the impedance between terminals a and b is ...",
+                                    "answer_a": "1 k\u03a9.",
+                                    "answer_b": "64 k\u03a9.",
+                                    "answer_c": "16 k\u03a9.",
+                                    "answer_d": "4 k\u03a9.",
                                     "picture_question": "AC303_q"
                                 },
                                 {
                                     "number": "AC302",
                                     "class": "3",
-                                    "question": "Ein Transformator setzt die Spannung von 230 V auf 6 V herunter und liefert dabei einen Strom von 1,15 A. Wie gro\u00df ist der dadurch in der Prim\u00e4rwicklung zu erwartende Strom bei Vernachl\u00e4ssigung der Verluste?",
+                                    "question": "A transformer steps a voltage of 230 V down to 6 V and delivers a current of 1.15 A. Neglecting losses, what current is to be expected in the primary winding as a result?",
                                     "answer_a": "30 mA",
-                                    "answer_b": "22,7 mA",
-                                    "answer_c": "0,83 mA",
-                                    "answer_d": "33,3 mA"
+                                    "answer_b": "22.7 mA",
+                                    "answer_c": "0.83 mA",
+                                    "answer_d": "33.3 mA"
                                 },
                                 {
                                     "number": "AC301",
                                     "class": "3",
-                                    "question": "Durch Gegeninduktion wird in einer Spule eine Spannung erzeugt, wenn ...",
-                                    "answer_a": "ein ver\u00e4nderlicher Strom durch eine magnetisch gekoppelte benachbarte Spule flie\u00dft.",
-                                    "answer_b": "ein ver\u00e4nderlicher Strom durch die Spule flie\u00dft und sich dabei ein dielektrischer Gegenstand innerhalb der Spule befindet. ",
-                                    "answer_c": "ein konstanter Gleichstrom durch eine magnetisch gekoppelte benachbarte Spule flie\u00dft.",
-                                    "answer_d": "sich die Spule in einem konstanten Magnetfeld befindet."
+                                    "question": "A voltage is induced in a coil by mutual induction when ...",
+                                    "answer_a": "a changing current flows through a magnetically coupled neighbouring coil.",
+                                    "answer_b": "a changing current flows through the coil while there is a dielectric object inside the coil.",
+                                    "answer_c": "a constant direct current flows through a magnetically coupled neighbouring coil.",
+                                    "answer_d": "the coil is in a constant magnetic field."
                                 },
                                 {
                                     "number": "EC404",
                                     "class": "2",
-                                    "question": "An der Prim\u00e4rwicklung eines Transformators mit 150 Windungen liegt eine Spannung von 45 V an. Die Sekund\u00e4rspannung betr\u00e4gt 180 V. Wie gro\u00df ist die Sekund\u00e4rwindungszahl?",
-                                    "answer_a": "600 Windungen",
-                                    "answer_b": "850 Windungen",
-                                    "answer_c": "38 Windungen",
-                                    "answer_d": "30 Windungen"
+                                    "question": "A voltage of 45 V is applied to the primary winding of a transformer with 150 turns. The secondary voltage is 180 V. How many turns does the secondary winding have?",
+                                    "answer_a": "600 turns",
+                                    "answer_b": "850 turns",
+                                    "answer_c": "38 turns",
+                                    "answer_d": "30 turns"
                                 },
                                 {
                                     "number": "EC403",
                                     "class": "2",
-                                    "question": "An der Prim\u00e4rwicklung eines Transformators mit 600 Windungen liegt eine Spannung von 230 V an. Die Sekund\u00e4rspannung betr\u00e4gt 11,5 V. Wie gro\u00df ist die Sekund\u00e4rwindungszahl?",
-                                    "answer_a": "30 Windungen",
-                                    "answer_b": "20 Windungen",
-                                    "answer_c": "52 Windungen",
-                                    "answer_d": "180 Windungen"
+                                    "question": "A voltage of 230 V is applied to the primary winding of a transformer with 600 turns. The secondary voltage is 11.5 V. How many turns does the secondary winding have?",
+                                    "answer_a": "30 turns",
+                                    "answer_b": "20 turns",
+                                    "answer_c": "52 turns",
+                                    "answer_d": "180 turns"
                                 },
                                 {
                                     "number": "EC402",
                                     "class": "2",
-                                    "question": "Die Prim\u00e4rspule eines \u00dcbertragers hat die f\u00fcnffache Anzahl von Windungen der Sekund\u00e4rspule. Wie hoch ist die erwartete Sekund\u00e4rspannung, wenn die Prim\u00e4rspule an eine 230 V Spannungsversorgung angeschlossen wird?",
+                                    "question": "The primary coil of a transformer has five times as many turns as the secondary coil. What secondary voltage is to be expected when the primary coil is connected to a 230 V supply?",
                                     "answer_a": "46 V",
-                                    "answer_b": "9,2 V",
+                                    "answer_b": "9.2 V",
                                     "answer_c": "23 V",
                                     "answer_d": "1150 V"
                                 },
                                 {
                                     "number": "EC401",
                                     "class": "2",
-                                    "question": "Wie hoch ist die Spannung zwischen den Punkten a und b in dieser Schaltung f\u00fcr ein Transformationsverh\u00e4ltnis von 15:1?",
-                                    "answer_a": "Etwa 15 V",
-                                    "answer_b": "Etwa 1 V",
-                                    "answer_c": "Etwa 22 V",
-                                    "answer_d": "Etwa 11 V",
+                                    "question": "What is the voltage between points a and b in this circuit for a transformation ratio of 15:1?",
+                                    "answer_a": "About 15 V",
+                                    "answer_b": "About 1 V",
+                                    "answer_c": "About 22 V",
+                                    "answer_d": "About 11 V",
                                     "picture_question": "EC401_q"
                                 }
                             ]
@@ -2527,25 +2527,25 @@
                                 {
                                     "number": "AC408",
                                     "class": "3",
-                                    "question": "Die Hauptfunktion eines Optokopplers ist ...",
-                                    "answer_a": "die galvanische Entkopplung zweier Stromkreise durch Licht.",
-                                    "answer_b": "die Erzeugung von hochfrequentem Wechselstrom durch Licht.",
-                                    "answer_c": "die Signalanzeige durch Licht.",
-                                    "answer_d": "die Erzeugung von Gleichstrom durch Licht."
+                                    "question": "The main function of an optocoupler is ...",
+                                    "answer_a": "the galvanic isolation of two circuits by means of light.",
+                                    "answer_b": "the generation of RF alternating current by means of light.",
+                                    "answer_c": "the indication of signals by means of light.",
+                                    "answer_d": "the generation of direct current by means of light."
                                 },
                                 {
                                     "number": "AC407",
                                     "class": "3",
-                                    "question": "Welches Bauteil kann durch Lichteinfall elektrischen Strom erzeugen?",
-                                    "answer_a": "Fotodiode",
-                                    "answer_b": "Fotowiderstand",
-                                    "answer_c": "Kapazit\u00e4tsdiode",
-                                    "answer_d": "Blindwiderstand"
+                                    "question": "Which component can generate an electric current when light falls on it?",
+                                    "answer_a": "Photodiode",
+                                    "answer_b": "Light-dependent resistor",
+                                    "answer_c": "Varactor",
+                                    "answer_d": "Reactance"
                                 },
                                 {
                                     "number": "AC406",
                                     "class": "3",
-                                    "question": "Das folgende Signal wird als $U_1$ an den Eingang der Schaltung mit Germaniumdioden gelegt. Wie sieht das zugeh\u00f6rige Ausgangssignal $U_2$ aus?",
+                                    "question": "The following signal is applied as $U_1$ to the input of the circuit with germanium diodes. What does the resulting output signal $U_2$ look like?",
                                     "answer_a": "",
                                     "answer_b": "",
                                     "answer_c": "",
@@ -2559,7 +2559,7 @@
                                 {
                                     "number": "AC405",
                                     "class": "3",
-                                    "question": "Das folgende Signal wird als $U_1$ an den Eingang der Schaltung mit Siliziumdioden gelegt. Wie sieht das zugeh\u00f6rige Ausgangssignal $U_2$ aus?",
+                                    "question": "The following signal is applied as $U_1$ to the input of the circuit with silicon diodes. What does the resulting output signal $U_2$ look like?",
                                     "answer_a": "",
                                     "answer_b": "",
                                     "answer_c": "",
@@ -2573,63 +2573,63 @@
                                 {
                                     "number": "AC404",
                                     "class": "3",
-                                    "question": "Wie verh\u00e4lt sich die Kapazit\u00e4t einer Kapazit\u00e4tsdiode (Varicap)?",
-                                    "answer_a": "Sie nimmt mit abnehmender Sperrspannung zu.",
-                                    "answer_b": "Sie nimmt mit abnehmendem Durchlassstrom zu.",
-                                    "answer_c": "Sie nimmt mit zunehmender Sperrspannung zu.",
-                                    "answer_d": "Sie nimmt mit zunehmendem Durchlassstrom zu."
+                                    "question": "How does the capacitance of a varactor diode (varicap) behave?",
+                                    "answer_a": "It increases as the reverse voltage decreases.",
+                                    "answer_b": "It increases as the forward current decreases.",
+                                    "answer_c": "It increases as the reverse voltage increases.",
+                                    "answer_d": "It increases as the forward current increases."
                                 },
                                 {
                                     "number": "AC403",
                                     "class": "3",
-                                    "question": "Wie verh\u00e4lt sich die Durchlassspannung einer Diode in Abh\u00e4ngigkeit von der Temperatur?",
-                                    "answer_a": "Die Spannung sinkt bei steigender Temperatur.",
-                                    "answer_b": "Die Spannung ist unabh\u00e4ngig von der Temperatur.",
-                                    "answer_c": "Die Spannung oszilliert mit steigender Temperatur.",
-                                    "answer_d": "Die Spannung steigt bei steigender Temperatur."
+                                    "question": "How does the forward voltage of a diode depend on temperature?",
+                                    "answer_a": "The voltage falls as the temperature rises.",
+                                    "answer_b": "The voltage is independent of temperature.",
+                                    "answer_c": "The voltage oscillates as the temperature rises.",
+                                    "answer_d": "The voltage rises as the temperature rises."
                                 },
                                 {
                                     "number": "AC402",
                                     "class": "3",
-                                    "question": "Wie verhalten sich die Elektronen in einem in Durchlassrichtung betriebenen PN-\u00dcbergang?",
-                                    "answer_a": "Sie wandern von N nach P.",
-                                    "answer_b": "Sie wandern von P nach N.",
-                                    "answer_c": "Sie bleiben im N-Bereich.",
-                                    "answer_d": "Sie zerfallen beim \u00dcbergang."
+                                    "question": "How do the electrons behave in a forward-biased PN junction?",
+                                    "answer_a": "They move from N to P.",
+                                    "answer_b": "They move from P to N.",
+                                    "answer_c": "They stay in the N region.",
+                                    "answer_d": "They decay at the junction."
                                 },
                                 {
                                     "number": "AC401",
                                     "class": "3",
-                                    "question": "Ein in Durchlassrichtung betriebener PN-\u00dcbergang erm\u00f6glicht ...",
-                                    "answer_a": "den Elektronenfluss von N nach P.",
-                                    "answer_b": "die Halbierung des Stromflusses.",
-                                    "answer_c": "keinen Stromfluss.",
-                                    "answer_d": "den Elektronenfluss von P nach N."
+                                    "question": "A forward-biased PN junction allows ...",
+                                    "answer_a": "electrons to flow from N to P.",
+                                    "answer_b": "the current to be halved.",
+                                    "answer_c": "no current to flow.",
+                                    "answer_d": "electrons to flow from P to N."
                                 },
                                 {
                                     "number": "EC522",
                                     "class": "2",
-                                    "question": "Folgende Schaltung einer Stabilisierungsschaltung mit Z-Diode ist gegeben. Der Strom durch die Z-Diode soll 25 mA betragen und der Laststrom ist 20 mA. Der Wert des notwendigen Vorwiderstandes betr\u00e4gt ...",
-                                    "answer_a": "ca. 202 Ohm.",
-                                    "answer_b": "ca. 364 Ohm.",
-                                    "answer_c": "ca. 188 Ohm.",
-                                    "answer_d": "ca. 235 Ohm.",
+                                    "question": "The following circuit of a stabiliser with a Zener diode is given. The current through the Zener diode is to be 25 mA and the load current is 20 mA. The value of the required series resistor is ...",
+                                    "answer_a": "approx. 202 ohms.",
+                                    "answer_b": "approx. 364 ohms.",
+                                    "answer_c": "approx. 188 ohms.",
+                                    "answer_d": "approx. 235 ohms.",
                                     "picture_question": "EC522_q"
                                 },
                                 {
                                     "number": "EC521",
                                     "class": "2",
-                                    "question": "Eine unbelastete Z-Diode soll eine 13,8 V Betriebsspannung auf 5 V stabilisieren. Dabei soll ein Strom von 30 mA durch die Z-Diode flie\u00dfen. Der Ausgang der Schaltung soll nicht belastet werden. Berechnen Sie den Wert des Vorwiderstands.",
-                                    "answer_a": "ca. 293 Ohm",
-                                    "answer_b": "ca. 3,41 \\milliOhm",
-                                    "answer_c": "ca. 460 Ohm",
-                                    "answer_d": "ca. 167 Ohm",
+                                    "question": "An unloaded Zener diode is to stabilise an operating voltage of 13.8 V to 5 V. A current of 30 mA is to flow through the Zener diode. The output of the circuit is not to be loaded. Calculate the value of the series resistor.",
+                                    "answer_a": "Approx. 293 ohms",
+                                    "answer_b": "Approx. 3.41 \\milliOhm",
+                                    "answer_c": "Approx. 460 ohms",
+                                    "answer_d": "Approx. 167 ohms",
                                     "picture_question": "EC521_q"
                                 },
                                 {
                                     "number": "EC520",
                                     "class": "2",
-                                    "question": "In welcher der folgenden Schaltungen ist die Z-Diode zur Spannungsstabilisierung richtig eingesetzt?",
+                                    "question": "In which of the following circuits is the Zener diode correctly used for voltage stabilisation?",
                                     "answer_a": "",
                                     "answer_b": "",
                                     "answer_c": "",
@@ -2642,74 +2642,74 @@
                                 {
                                     "number": "EC519",
                                     "class": "2",
-                                    "question": "Wozu dient folgende Schaltung?",
-                                    "answer_a": "Spannungsstabilisierung",
-                                    "answer_b": "Spannungserh\u00f6hung",
-                                    "answer_c": "Leuchtanzeige",
-                                    "answer_d": "Stromgewinnung",
+                                    "question": "What is the purpose of the following circuit?",
+                                    "answer_a": "Voltage stabilisation",
+                                    "answer_b": "Voltage step-up",
+                                    "answer_c": "Indicator light",
+                                    "answer_d": "Electricity generation",
                                     "picture_question": "EC519_q"
                                 },
                                 {
                                     "number": "EC518",
                                     "class": "2",
-                                    "question": "F\u00fcr welchen Zweck werden Z-Dioden prim\u00e4r eingesetzt?",
-                                    "answer_a": "Zur Spannungsstabilisierung",
-                                    "answer_b": "Zur Stromstabilisierung",
-                                    "answer_c": "Zur Zweiwegstabilisierung",
-                                    "answer_d": "Zur Leistungsstabilisierung"
+                                    "question": "What are Zener diodes primarily used for?",
+                                    "answer_a": "For voltage stabilisation",
+                                    "answer_b": "For current stabilisation",
+                                    "answer_c": "For two-way stabilisation",
+                                    "answer_d": "For power stabilisation"
                                 },
                                 {
                                     "number": "EC517",
                                     "class": "2",
-                                    "question": "Welches Bauteil wird durch das Schaltzeichen symbolisiert?",
-                                    "answer_a": "Z-Diode",
-                                    "answer_b": "Leuchtdiode",
-                                    "answer_c": "Kapazit\u00e4tsdiode",
-                                    "answer_d": "Freilaufdiode",
+                                    "question": "Which component does the circuit symbol represent?",
+                                    "answer_a": "Zener diode",
+                                    "answer_b": "Light-emitting diode",
+                                    "answer_c": "Varactor",
+                                    "answer_d": "Freewheeling diode",
                                     "picture_question": "EC517_q"
                                 },
                                 {
                                     "number": "EC516",
                                     "class": "2",
-                                    "question": "Folgende Schaltung einer Leuchtdiode wird an einer Betriebsspannung von 5,5 V betrieben. Der Strom durch die Leuchtdiode soll 25 mA betragen, wobei die Durchlassspannung 1,75 V betr\u00e4gt. Der notwendige Vorwiderstand muss folgende Werte haben:",
-                                    "answer_a": "150 Ohm/0,1 W",
-                                    "answer_b": "150 Ohm/0,06 W",
-                                    "answer_c": "70 Ohm/0,1 W",
-                                    "answer_d": "70 Ohm/0,06 W",
+                                    "question": "The following circuit with a light-emitting diode (LED) is operated from an operating voltage of 5.5 V. The current through the LED is to be 25 mA, and its forward voltage is 1.75 V. The required series resistor must have the following values:",
+                                    "answer_a": "150 ohms/0.1 W",
+                                    "answer_b": "150 ohms/0.06 W",
+                                    "answer_c": "70 ohms/0.1 W",
+                                    "answer_d": "70 ohms/0.06 W",
                                     "picture_question": "EC516_q"
                                 },
                                 {
                                     "number": "EC515",
                                     "class": "2",
-                                    "question": "Eine Leuchtdiode mit einer Durchlassspannung von 1,4 V und einem Durchlassstrom von 20 mA soll an eine Spannungsquelle von 5,0 V angeschlossen werden. Berechnen Sie den Vorwiderstand. Die Gr\u00f6\u00dfe des ben\u00f6tigten Vorwiderstandes betr\u00e4gt ...",
-                                    "answer_a": "180 Ohm.",
-                                    "answer_b": "250 Ohm.",
-                                    "answer_c": "70 Ohm.",
-                                    "answer_d": "320 Ohm."
+                                    "question": "A light-emitting diode with a forward voltage of 1.4 V and a forward current of 20 mA is to be connected to a voltage source of 5.0 V. Calculate the series resistor. The value of the required series resistor is ...",
+                                    "answer_a": "180 ohms.",
+                                    "answer_b": "250 ohms.",
+                                    "answer_c": "70 ohms.",
+                                    "answer_d": "320 ohms."
                                 },
                                 {
                                     "number": "EC514",
                                     "class": "2",
-                                    "question": "Wozu dient die folgende Schaltung?",
-                                    "answer_a": "Leuchtanzeige",
-                                    "answer_b": "Spannungserh\u00f6hung",
-                                    "answer_c": "Leistungs\u00fcberwachung",
-                                    "answer_d": "Stromgewinnung",
+                                    "question": "What is the purpose of the following circuit?",
+                                    "answer_a": "Indicator light",
+                                    "answer_b": "Voltage step-up",
+                                    "answer_c": "Power monitoring",
+                                    "answer_d": "Electricity generation",
                                     "picture_question": "EC514_q"
                                 },
                                 {
                                     "number": "EC513",
                                     "class": "2",
-                                    "question": "Bei welcher Bedingung wird eine Siliziumdiode leitend?",
-                                    "answer_a": "An der Anode liegen 5,7 V, an der Kathode 5,0 V an.",
-                                    "answer_b": "An der Anode liegen 5,7 V, an der Kathode 6,4 V an.",
-                                    "answer_c": "An der Anode liegen 5,0 V, an der Kathode 5,1 V an.",
-                                    "answer_d": "An der Anode liegen 5,0 V, an der Kathode 5,7 V an."
+                                    "question": "Under which condition does a silicon diode conduct?",
+                                    "answer_a": "The anode is at 5.7 V and the cathode at 5.0 V.",
+                                    "answer_b": "The anode is at 5.7 V and the cathode at 6.4 V.",
+                                    "answer_c": "The anode is at 5.0 V and the cathode at 5.1 V.",
+                                    "answer_d": "The anode is at 5.0 V and the cathode at 5.7 V."
                                 },
                                 {
                                     "number": "EC512",
                                     "class": "2",
-                                    "question": "Die Auswahlantworten enthalten Siliziumdioden mit unterschiedlichen Arbeitspunkten. Bei welcher Antwort befindet sich die Diode in leitendem Zustand?",
+                                    "question": "The answer options show silicon diodes at different operating points. In which answer is the diode conducting?",
                                     "answer_a": "",
                                     "answer_b": "",
                                     "answer_c": "",
@@ -2722,7 +2722,7 @@
                                 {
                                     "number": "EC511",
                                     "class": "2",
-                                    "question": "Die Auswahlantworten enthalten Siliziumdioden mit unterschiedlichen Arbeitspunkten. Bei welcher Antwort befindet sich die Diode in leitendem Zustand?",
+                                    "question": "The answer options show silicon diodes at different operating points. In which answer is the diode conducting?",
                                     "answer_a": "",
                                     "answer_b": "",
                                     "answer_c": "",
@@ -2735,7 +2735,7 @@
                                 {
                                     "number": "EC510",
                                     "class": "2",
-                                    "question": "Die Auswahlantworten enthalten Siliziumdioden mit unterschiedlichen Arbeitspunkten. Bei welcher Antwort befindet sich die Diode in leitendem Zustand?",
+                                    "question": "The answer options show silicon diodes at different operating points. In which answer is the diode conducting?",
                                     "answer_a": "",
                                     "answer_b": "",
                                     "answer_c": "",
@@ -2748,7 +2748,7 @@
                                 {
                                     "number": "EC509",
                                     "class": "2",
-                                    "question": "Die Auswahlantworten enthalten Siliziumdioden mit unterschiedlichen Arbeitspunkten. Bei welcher Antwort befindet sich die Diode in leitendem Zustand?",
+                                    "question": "The answer options show silicon diodes at different operating points. In which answer is the diode conducting?",
                                     "answer_a": "",
                                     "answer_b": "",
                                     "answer_c": "",
@@ -2761,83 +2761,83 @@
                                 {
                                     "number": "EC508",
                                     "class": "2",
-                                    "question": "Welche Diode wird durch Kennlinie 4 charakterisiert?",
-                                    "answer_a": "Leuchtdiode",
-                                    "answer_b": "Siliziumdiode",
-                                    "answer_c": "Schottkydiode",
-                                    "answer_d": "Germaniumdiode",
+                                    "question": "Which diode is described by characteristic curve 4?",
+                                    "answer_a": "Light-emitting diode",
+                                    "answer_b": "Silicon diode",
+                                    "answer_c": "Schottky diode",
+                                    "answer_d": "Germanium diode",
                                     "picture_question": "EC508_q"
                                 },
                                 {
                                     "number": "EC507",
                                     "class": "2",
-                                    "question": "Welche Diode wird durch Kennlinie 3 charakterisiert?",
-                                    "answer_a": "Siliziumdiode",
-                                    "answer_b": "Leuchtdiode",
-                                    "answer_c": "Schottkydiode",
-                                    "answer_d": "Germaniumdiode",
+                                    "question": "Which diode is described by characteristic curve 3?",
+                                    "answer_a": "Silicon diode",
+                                    "answer_b": "Light-emitting diode",
+                                    "answer_c": "Schottky diode",
+                                    "answer_d": "Germanium diode",
                                     "picture_question": "EC507_q"
                                 },
                                 {
                                     "number": "EC506",
                                     "class": "2",
-                                    "question": "Welche Diode wird durch Kennlinie 2 charakterisiert?",
-                                    "answer_a": "Germaniumdiode",
-                                    "answer_b": "Siliziumdiode",
-                                    "answer_c": "Schottkydiode",
-                                    "answer_d": "Leuchtdiode",
+                                    "question": "Which diode is described by characteristic curve 2?",
+                                    "answer_a": "Germanium diode",
+                                    "answer_b": "Silicon diode",
+                                    "answer_c": "Schottky diode",
+                                    "answer_d": "Light-emitting diode",
                                     "picture_question": "EC506_q"
                                 },
                                 {
                                     "number": "EC505",
                                     "class": "2",
-                                    "question": "Welche Diode wird durch Kennlinie 1 charakterisiert?",
-                                    "answer_a": "Schottkydiode",
-                                    "answer_b": "Siliziumdiode",
-                                    "answer_c": "Germaniumdiode",
-                                    "answer_d": "Leuchtdiode",
+                                    "question": "Which diode is described by characteristic curve 1?",
+                                    "answer_a": "Schottky diode",
+                                    "answer_b": "Silicon diode",
+                                    "answer_c": "Germanium diode",
+                                    "answer_d": "Light-emitting diode",
                                     "picture_question": "EC505_q"
                                 },
                                 {
                                     "number": "EC504",
                                     "class": "2",
-                                    "question": "Welches sind die Haupteigenschaften einer Schottkydiode?",
-                                    "answer_a": "Sehr niedrige Durchlassspannung und sehr hohe Schaltfrequenz.",
-                                    "answer_b": "Sehr niedrige Durchlassspannung und sehr niedrige Schaltfrequenz.",
-                                    "answer_c": "Sehr hohe Durchlassspannung und sehr hohe Schaltfrequenz.",
-                                    "answer_d": "Sehr hohe Durchlassspannung und sehr niedrige Schaltfrequenz."
+                                    "question": "What are the main properties of a Schottky diode?",
+                                    "answer_a": "Very low forward voltage and very high switching frequency.",
+                                    "answer_b": "Very low forward voltage and very low switching frequency.",
+                                    "answer_c": "Very high forward voltage and very high switching frequency.",
+                                    "answer_d": "Very high forward voltage and very low switching frequency."
                                 },
                                 {
                                     "number": "EC503",
                                     "class": "2",
-                                    "question": "Welche typischen Schwellspannungen haben Germanium- und Siliziumdioden? Sie liegen bei ...",
-                                    "answer_a": "Germanium zwischen 0,2 bis 0,4 V, bei Silizium zwischen 0,6 bis 0,8 V.",
-                                    "answer_b": "Germanium zwischen 0,6 bis 0,8 V, bei Silizium zwischen 0,2 bis 0,4 V.",
-                                    "answer_c": "Germanium zwischen 1,4 bis 1,6 V, bei Silizium 0,6 bis 0,8 V.",
-                                    "answer_d": "Germanium zwischen 0,6 bis 0,8 V, bei Silizium 1,4 bis 1,6 V."
+                                    "question": "What are the typical threshold voltages of germanium and silicon diodes? They lie ...",
+                                    "answer_a": "between 0.2 and 0.4 V for germanium, and between 0.6 and 0.8 V for silicon.",
+                                    "answer_b": "between 0.6 and 0.8 V for germanium, and between 0.2 and 0.4 V for silicon.",
+                                    "answer_c": "between 1.4 and 1.6 V for germanium, and between 0.6 and 0.8 V for silicon.",
+                                    "answer_d": "between 0.6 and 0.8 V for germanium, and between 1.4 and 1.6 V for silicon."
                                 },
                                 {
                                     "number": "EC502",
                                     "class": "2",
-                                    "question": "Wof\u00fcr k\u00f6nnen Halbleiterdioden beispielsweise verwendet werden?",
-                                    "answer_a": "zur Gleichrichtung von Wechselspannung",
-                                    "answer_b": "zur Speicherung von Wechselstr\u00f6men",
-                                    "answer_c": "als Widerstand in Netzteilen",
-                                    "answer_d": "als Verst\u00e4rker in Stromversorgungen"
+                                    "question": "What can semiconductor diodes be used for, for example?",
+                                    "answer_a": "For rectifying AC voltages",
+                                    "answer_b": "For storing alternating currents",
+                                    "answer_c": "As resistors in power supply units",
+                                    "answer_d": "As amplifiers in power supplies"
                                 },
                                 {
                                     "number": "EC501",
                                     "class": "2",
-                                    "question": "Eine in Sperrrichtung betriebene Diode zeichnet sich insbesondere aus durch ...",
-                                    "answer_a": "einen hohen Widerstand.",
-                                    "answer_b": "eine hohe Kapazit\u00e4t.",
-                                    "answer_c": "eine geringe Impedanz.",
-                                    "answer_d": "eine hohe Induktivit\u00e4t."
+                                    "question": "A reverse-biased diode is characterised in particular by ...",
+                                    "answer_a": "a high resistance.",
+                                    "answer_b": "a high capacitance.",
+                                    "answer_c": "a low impedance.",
+                                    "answer_d": "a high inductance."
                                 },
                                 {
                                     "number": "NC404",
                                     "class": "1",
-                                    "question": "In welchem der abgebildeten Stromkreise flie\u00dft Strom?",
+                                    "question": "In which of the circuits shown does current flow?",
                                     "answer_a": "",
                                     "answer_b": "",
                                     "answer_c": "",
@@ -2850,31 +2850,31 @@
                                 {
                                     "number": "NC403",
                                     "class": "1",
-                                    "question": "Wie lauten die Bezeichnungen f\u00fcr die Anschl\u00fcsse 1 und 2 im Schaltsymbol?",
-                                    "answer_a": "1 = Anode; 2 = Kathode",
-                                    "answer_b": "1 = Kathode; 2 = Anode",
-                                    "answer_c": "1 = Basis; 2 = Kathode",
-                                    "answer_d": "1 = Emitter; 2 = Anode",
+                                    "question": "What are the names of terminals 1 and 2 in the circuit symbol?",
+                                    "answer_a": "1 = anode; 2 = cathode",
+                                    "answer_b": "1 = cathode; 2 = anode",
+                                    "answer_c": "1 = base; 2 = cathode",
+                                    "answer_d": "1 = emitter; 2 = anode",
                                     "picture_question": "NC403_q"
                                 },
                                 {
                                     "number": "NC402",
                                     "class": "1",
-                                    "question": "Welches Bauteil wird durch das Schaltzeichen symbolisiert?",
-                                    "answer_a": "Leuchtdiode",
-                                    "answer_b": "Spule",
-                                    "answer_c": "Kondensator",
-                                    "answer_d": "Batterie",
+                                    "question": "Which component does the circuit symbol represent?",
+                                    "answer_a": "Light-emitting diode",
+                                    "answer_b": "Inductor",
+                                    "answer_c": "Capacitor",
+                                    "answer_d": "Battery",
                                     "picture_question": "NC402_q"
                                 },
                                 {
                                     "number": "NC401",
                                     "class": "1",
-                                    "question": "Welches Bauteil wird durch das Schaltzeichen symbolisiert?",
+                                    "question": "Which component does the circuit symbol represent?",
                                     "answer_a": "Diode",
-                                    "answer_b": "Widerstand",
-                                    "answer_c": "Spule",
-                                    "answer_d": "Kondensator",
+                                    "answer_b": "Resistor",
+                                    "answer_c": "Inductor",
+                                    "answer_d": "Capacitor",
                                     "picture_question": "NC401_q"
                                 }
                             ]
@@ -2885,7 +2885,7 @@
                                 {
                                     "number": "AC524",
                                     "class": "3",
-                                    "question": "In welcher der folgenden Schaltungen ist die Freilaufdiode richtig eingesetzt?",
+                                    "question": "In which of the following circuits is the freewheeling diode correctly used?",
                                     "answer_a": "",
                                     "answer_b": "",
                                     "answer_c": "",
@@ -2898,124 +2898,124 @@
                                 {
                                     "number": "AC523",
                                     "class": "3",
-                                    "question": "Welche Verlustleistung erzeugt ein Power-MOS-FET mit $R_{\\textrm{DSon}}$ = 4 \\mOhm bei einem Strom von 25 A?",
-                                    "answer_a": "2,5 W",
+                                    "question": "What power dissipation does a power MOSFET with $R_{\\textrm{DSon}}$ = 4 \\mOhm produce at a current of 25 A?",
+                                    "answer_a": "2.5 W",
                                     "answer_b": "1 W",
-                                    "answer_c": "0,1 W",
-                                    "answer_d": "6,25 W"
+                                    "answer_c": "0.1 W",
+                                    "answer_d": "6.25 W"
                                 },
                                 {
                                     "number": "AC522",
                                     "class": "3",
-                                    "question": "Wie gro\u00df muss $R_2$ gew\u00e4hlt werden, damit sich eine Spannung von 2,8 V zwischen Gate und Source einstellt? $U_{\\textrm{B}}$=44 V; $R_1$=10 kOhm; $R_3$=2,2 kOhm ...",
-                                    "answer_a": "ca. 680 Ohm",
-                                    "answer_b": "ca. 1405 Ohm",
-                                    "answer_c": "ca. 68 Ohm",
-                                    "answer_d": "ca. 820 Ohm",
+                                    "question": "What value must $R_2$ have for a voltage of 2.8 V to be set up between gate and source? $U_{\\textrm{B}}$=44 V; $R_1$=10 k\u03a9; $R_3$=2.2 k\u03a9 ...",
+                                    "answer_a": "Approx. 680 ohms",
+                                    "answer_b": "Approx. 1405 ohms",
+                                    "answer_c": "Approx. 68 ohms",
+                                    "answer_d": "Approx. 820 ohms",
                                     "picture_question": "AC522_q"
                                 },
                                 {
                                     "number": "AC521",
                                     "class": "3",
-                                    "question": "Wie gro\u00df ist die Gate-Source-Spannung in der gezeichneten Schaltung? $U_{\\textrm{B}} = 44 V$; $R_1 = 10 k\\Omega$; $R_2 = 1 k\\Omega$; $R_3 = 2,2 k\\Omega$ ...",
+                                    "question": "What is the gate-source voltage in the circuit drawn? $U_{\\textrm{B}} = 44 V$; $R_1 = 10 k\\Omega$; $R_2 = 1 k\\Omega$; $R_3 = 2.2 k\\Omega$ ...",
                                     "answer_a": "4 V",
                                     "answer_b": "8 V",
-                                    "answer_c": "0,7 V ",
-                                    "answer_d": "4,4 V",
+                                    "answer_c": "0.7 V",
+                                    "answer_d": "4.4 V",
                                     "picture_question": "AC521_q"
                                 },
                                 {
                                     "number": "AC520",
                                     "class": "3",
-                                    "question": "Was passiert, wenn der Widerstand $R_2$ durch eine fehlerhafte L\u00f6tstelle an einer Seite keinen Kontakt mehr zur Schaltung hat? In welcher Antwort sind beide Aussagen richtig?",
-                                    "answer_a": "Der Kollektorstrom wird nur durch $R_{\\textrm{C}}$ begrenzt. Die Kollektorspannung sinkt auf zirka 0,1 V.",
-                                    "answer_b": "Es flie\u00dft Kurzschlussstrom. Der Transistor wird zerst\u00f6rt.",
-                                    "answer_c": "Es flie\u00dft kein Kollektorstrom mehr. Die Kollektorspannung steigt auf die Betriebsspannung an.",
-                                    "answer_d": "Der Kollektorstrom steigt stark an. Die Kollektorspannung erh\u00f6ht sich.",
+                                    "question": "What happens if one end of resistor $R_2$ loses contact with the circuit because of a faulty solder joint? In which answer are both statements correct?",
+                                    "answer_a": "The collector current is limited only by $R_{\\textrm{C}}$. The collector voltage falls to about 0.1 V.",
+                                    "answer_b": "A short-circuit current flows. The transistor is destroyed.",
+                                    "answer_c": "No collector current flows any more. The collector voltage rises to the operating voltage.",
+                                    "answer_d": "The collector current rises sharply. The collector voltage increases.",
                                     "picture_question": "AC520_q"
                                 },
                                 {
                                     "number": "AC519",
                                     "class": "3",
-                                    "question": "Was passiert, wenn der Widerstand $R_1$ durch eine fehlerhafte L\u00f6tstelle an einer Seite keinen Kontakt mehr zur Schaltung hat? Welche Beschreibung trifft zu?",
-                                    "answer_a": "Es flie\u00dft kein Kollektorstrom mehr. Die Kollektorspannung steigt auf die Betriebsspannung an.",
-                                    "answer_b": "Es flie\u00dft Kurzschlussstrom. Der Transistor wird zerst\u00f6rt.",
-                                    "answer_c": "Der Kollektorstrom wird nur durch $R_{\\textrm{C}}$ begrenzt. Die Kollektorspannung sinkt auf zirka 0,1 V.",
-                                    "answer_d": "Der Kollektorstrom steigt stark an. Die Kollektorspannung erh\u00f6ht sich.",
+                                    "question": "What happens if one end of resistor $R_1$ loses contact with the circuit because of a faulty solder joint? Which description is correct?",
+                                    "answer_a": "No collector current flows any more. The collector voltage rises to the operating voltage.",
+                                    "answer_b": "A short-circuit current flows. The transistor is destroyed.",
+                                    "answer_c": "The collector current is limited only by $R_{\\textrm{C}}$. The collector voltage falls to about 0.1 V.",
+                                    "answer_d": "The collector current rises sharply. The collector voltage increases.",
                                     "picture_question": "AC519_q"
                                 },
                                 {
                                     "number": "AC518",
                                     "class": "3",
-                                    "question": "Die Betriebsspannung betr\u00e4gt 10 V, der Kollektorstrom soll 2 mA betragen, die Gleichstromverst\u00e4rkung des Transistors betr\u00e4gt 200. Durch den Querwiderstand $R_2$ soll der zehnfache Basisstrom flie\u00dfen. Berechnen Sie den Vorwiderstand $R_1$.",
-                                    "answer_a": "ca. 85,5 kOhm",
-                                    "answer_b": "ca. 940 kOhm",
-                                    "answer_c": "ca. 76,4 kOhm",
-                                    "answer_d": "ca. 540 kOhm",
+                                    "question": "The operating voltage is 10 V, the collector current is to be 2 mA, and the DC current gain of the transistor is 200. Ten times the base current is to flow through the bleeder resistor $R_2$. Calculate the series resistor $R_1$.",
+                                    "answer_a": "Approx. 85.5 k\u03a9",
+                                    "answer_b": "Approx. 940 k\u03a9",
+                                    "answer_c": "Approx. 76.4 k\u03a9",
+                                    "answer_d": "Approx. 540 k\u03a9",
                                     "picture_question": "AC518_q"
                                 },
                                 {
                                     "number": "AC517",
                                     "class": "3",
-                                    "question": "Die Betriebsspannung betr\u00e4gt 10 V, der Kollektorstrom soll 2 mA betragen, die Gleichstromverst\u00e4rkung des Transistors betr\u00e4gt 200. Durch den Querwiderstand $R_2$ soll der zehnfache Basisstrom flie\u00dfen. Am Emitterwiderstand soll 1 V abfallen. Berechnen Sie den Vorwiderstand $R_1$.",
-                                    "answer_a": "ca. 76,4 kOhm",
-                                    "answer_b": "ca. 540 kOhm",
-                                    "answer_c": "ca. 85,5 kOhm",
-                                    "answer_d": "ca. 940 kOhm",
+                                    "question": "The operating voltage is 10 V, the collector current is to be 2 mA, and the DC current gain of the transistor is 200. Ten times the base current is to flow through the bleeder resistor $R_2$. The voltage drop across the emitter resistor is to be 1 V. Calculate the series resistor $R_1$.",
+                                    "answer_a": "Approx. 76.4 k\u03a9",
+                                    "answer_b": "Approx. 540 k\u03a9",
+                                    "answer_c": "Approx. 85.5 k\u03a9",
+                                    "answer_d": "Approx. 940 k\u03a9",
                                     "picture_question": "AC517_q"
                                 },
                                 {
                                     "number": "AC516",
                                     "class": "3",
-                                    "question": "Warum soll bei dem gezeigten Basisspannungsteiler der Strom durch $R_2$ etwa 10-mal gr\u00f6\u00dfer als der Basisstrom sein?",
-                                    "answer_a": "Damit der Arbeitspunkt stabil bleibt.",
-                                    "answer_b": "Damit sich der Basisstrom bei Erw\u00e4rmung nicht \u00e4ndert.",
-                                    "answer_c": "Damit $R_2$ eine Stromgegenkopplung bewirkt.",
-                                    "answer_d": "Damit $R_2$ eine Spannungsgegenkopplung bewirkt",
+                                    "question": "In the base potential divider shown, why should the current through $R_2$ be about 10 times as large as the base current?",
+                                    "answer_a": "So that the operating point stays stable.",
+                                    "answer_b": "So that the base current does not change as the circuit warms up.",
+                                    "answer_c": "So that $R_2$ provides negative current feedback.",
+                                    "answer_d": "So that $R_2$ provides negative voltage feedback.",
                                     "picture_question": "AC516_q"
                                 },
                                 {
                                     "number": "AC515",
                                     "class": "3",
-                                    "question": "Die Betriebsspannung betr\u00e4gt 12 V, der Kollektorstrom soll 5 mA betragen, die Gleichstromverst\u00e4rkung des Transistors betr\u00e4gt 298. Berechnen Sie den Vorwiderstand $R_1$.",
-                                    "answer_a": "ca. 680 kOhm",
-                                    "answer_b": "ca. 715 kOhm",
-                                    "answer_c": "ca. 68 kOhm",
-                                    "answer_d": "ca. 2,3 kOhm",
+                                    "question": "The operating voltage is 12 V, the collector current is to be 5 mA, and the DC current gain of the transistor is 298. Calculate the series resistor $R_1$.",
+                                    "answer_a": "Approx. 680 k\u03a9",
+                                    "answer_b": "Approx. 715 k\u03a9",
+                                    "answer_c": "Approx. 68 k\u03a9",
+                                    "answer_d": "Approx. 2.3 k\u03a9",
                                     "picture_question": "AC515_q"
                                 },
                                 {
                                     "number": "AC514",
                                     "class": "3",
-                                    "question": "Wie erfolgt die Steuerung des Stroms im Feldeffekttransistor (FET)?",
-                                    "answer_a": "Die Gate-Source-Spannung steuert den Widerstand des Kanals zwischen Source und Drain.",
-                                    "answer_b": "Die Gate-Source-Spannung steuert den Gatestrom.",
-                                    "answer_c": "Der Gatestrom steuert den Drainstrom.",
-                                    "answer_d": "Der Gatestrom steuert den Widerstand des Kanals zwischen Source und Drain."
+                                    "question": "How is the current controlled in a field-effect transistor (FET)?",
+                                    "answer_a": "The gate-source voltage controls the resistance of the channel between source and drain.",
+                                    "answer_b": "The gate-source voltage controls the gate current.",
+                                    "answer_c": "The gate current controls the drain current.",
+                                    "answer_d": "The gate current controls the resistance of the channel between source and drain."
                                 },
                                 {
                                     "number": "AC513",
                                     "class": "3",
-                                    "question": "Wie bezeichnet man die Anschl\u00fcsse des abgebildeten Transistors?",
-                                    "answer_a": "1: Drain, 2: Source, 3: Gate",
-                                    "answer_b": "1: Anode, 2: Kollektor, 3: Gate",
-                                    "answer_c": "1: Anode, 2: Kathode, 3: Gate",
-                                    "answer_d": "1: Kollektor, 2: Emitter, 3: Basis",
+                                    "question": "What are the terminals of the transistor shown called?",
+                                    "answer_a": "1: drain, 2: source, 3: gate",
+                                    "answer_b": "1: anode, 2: collector, 3: gate",
+                                    "answer_c": "1: anode, 2: cathode, 3: gate",
+                                    "answer_d": "1: collector, 2: emitter, 3: base",
                                     "picture_question": "AC513_q"
                                 },
                                 {
                                     "number": "AC512",
                                     "class": "3",
-                                    "question": "Wie lauten die Bezeichnungen der Anschl\u00fcsse eines Feldeffekttransistors?",
-                                    "answer_a": "Drain, Gate, Source",
-                                    "answer_b": "Emitter, Basis, Kollektor",
-                                    "answer_c": "Emitter, Drain, Source",
-                                    "answer_d": "Gate, Source, Kollektor"
+                                    "question": "What are the names of the terminals of a field-effect transistor?",
+                                    "answer_a": "Drain, gate, source",
+                                    "answer_b": "Emitter, base, collector",
+                                    "answer_c": "Emitter, drain, source",
+                                    "answer_d": "Gate, source, collector"
                                 },
                                 {
                                     "number": "AC511",
                                     "class": "3",
-                                    "question": "Welcher der folgenden Transistoren ist ein selbstleitender P-Kanal-MOSFET?",
+                                    "question": "Which of the following transistors is a depletion-mode P-channel MOSFET?",
                                     "answer_a": "",
                                     "answer_b": "",
                                     "answer_c": "",
@@ -3028,7 +3028,7 @@
                                 {
                                     "number": "AC510",
                                     "class": "3",
-                                    "question": "Welcher der folgenden Transistoren ist ein selbstleitender N-Kanal-MOSFET?",
+                                    "question": "Which of the following transistors is a depletion-mode N-channel MOSFET?",
                                     "answer_a": "",
                                     "answer_b": "",
                                     "answer_c": "",
@@ -3041,7 +3041,7 @@
                                 {
                                     "number": "AC509",
                                     "class": "3",
-                                    "question": "Welcher der folgenden Transistoren ist ein selbstsperrender N-Kanal-MOSFET?",
+                                    "question": "Which of the following transistors is an enhancement-mode N-channel MOSFET?",
                                     "answer_a": "",
                                     "answer_b": "",
                                     "answer_c": "",
@@ -3054,82 +3054,82 @@
                                 {
                                     "number": "AC508",
                                     "class": "3",
-                                    "question": "Der folgende Transistor ist ein ...",
-                                    "answer_a": "Selbstsperrender N-Kanal-Isolierschicht-FET (MOSFET).",
-                                    "answer_b": "Selbstsperrender P-Kanal-Isolierschicht-FET (MOSFET).",
-                                    "answer_c": "Selbstleitender N-Kanal-Isolierschicht-FET (MOSFET).",
-                                    "answer_d": "Selbstleitender P-Kanal-Isolierschicht-FET (MOSFET).",
+                                    "question": "The following transistor is ...",
+                                    "answer_a": "an enhancement-mode N-channel insulated-gate FET (MOSFET).",
+                                    "answer_b": "an enhancement-mode P-channel insulated-gate FET (MOSFET).",
+                                    "answer_c": "a depletion-mode N-channel insulated-gate FET (MOSFET).",
+                                    "answer_d": "a depletion-mode P-channel insulated-gate FET (MOSFET).",
                                     "picture_question": "AC508_q"
                                 },
                                 {
                                     "number": "AC507",
                                     "class": "3",
-                                    "question": "Welche Bezeichnungen f\u00fcr die Bauelemente sind richtig?",
-                                    "answer_a": "1: Selbstleitender N-Kanal-Sperrschicht-FET\n2: Selbstleitender P-Kanal-Sperrschicht-FET",
-                                    "answer_b": "1: Selbstsperrender N-Kanal-Sperrschicht-FET\n2: Selbstsperrender P-Kanal-Sperrschicht-FET",
-                                    "answer_c": "1: Selbstleitender P-Kanal-Sperrschicht-FET\n2: Selbstleitender N-Kanal-Sperrschicht-FET",
-                                    "answer_d": "1: Selbstsperrender P-Kanal-Sperrschicht-FET\n2: Selbstsperrender N-Kanal-Sperrschicht-FET",
+                                    "question": "Which designations for the components are correct?",
+                                    "answer_a": "1: Depletion-mode N-channel junction FET\n2: Depletion-mode P-channel junction FET",
+                                    "answer_b": "1: Enhancement-mode N-channel junction FET\n2: Enhancement-mode P-channel junction FET",
+                                    "answer_c": "1: Depletion-mode P-channel junction FET\n2: Depletion-mode N-channel junction FET",
+                                    "answer_d": "1: Enhancement-mode P-channel junction FET\n2: Enhancement-mode N-channel junction FET",
                                     "picture_question": "AC507_q"
                                 },
                                 {
                                     "number": "AC506",
                                     "class": "3",
-                                    "question": "Welches Bauteil wird durch das Schaltzeichen symbolisiert?",
-                                    "answer_a": "Feldeffekttransistor",
-                                    "answer_b": "Bipolartransistor",
+                                    "question": "Which component does the circuit symbol represent?",
+                                    "answer_a": "Field-effect transistor",
+                                    "answer_b": "Bipolar transistor",
                                     "answer_c": "Diode",
-                                    "answer_d": "Lautsprecher",
+                                    "answer_d": "Loudspeaker",
                                     "picture_question": "AC506_q"
                                 },
                                 {
                                     "number": "AC505",
                                     "class": "3",
-                                    "question": "Bei einem bipolaren Transistor in leitendem Zustand befindet sich der Basis-Emitter-PN-\u00dcbergang ...",
-                                    "answer_a": "in Durchlassrichtung.",
-                                    "answer_b": "im Leerlauf.",
-                                    "answer_c": "im Kurzschluss.",
-                                    "answer_d": "in Sperrrichtung."
+                                    "question": "In a bipolar transistor in the conducting state, the base-emitter PN junction is ...",
+                                    "answer_a": "forward-biased.",
+                                    "answer_b": "open-circuit.",
+                                    "answer_c": "short-circuited.",
+                                    "answer_d": "reverse-biased."
                                 },
                                 {
                                     "number": "AC504",
                                     "class": "3",
-                                    "question": "Mit welchem Anschluss ist der n-dotierte Bereich eines PNP-Transistors verbunden?",
-                                    "answer_a": "Basis",
+                                    "question": "To which terminal is the n-doped region of a PNP transistor connected?",
+                                    "answer_a": "Base",
                                     "answer_b": "Emitter",
-                                    "answer_c": "Kollektor",
-                                    "answer_d": "Geh\u00e4use"
+                                    "answer_c": "Collector",
+                                    "answer_d": "Case"
                                 },
                                 {
                                     "number": "AC503",
                                     "class": "3",
-                                    "question": "Mit welchem Anschluss ist der p-dotierte Bereich eines NPN-Transistors verbunden?",
-                                    "answer_a": "Basis",
-                                    "answer_b": "Kollektor",
+                                    "question": "To which terminal is the p-doped region of an NPN transistor connected?",
+                                    "answer_a": "Base",
+                                    "answer_b": "Collector",
                                     "answer_c": "Emitter",
-                                    "answer_d": "Geh\u00e4use"
+                                    "answer_d": "Case"
                                 },
                                 {
                                     "number": "AC502",
                                     "class": "3",
-                                    "question": "Ein Feldeffekttransistor ist ...",
-                                    "answer_a": "spannungsgesteuert.",
-                                    "answer_b": "stromgesteuert.",
-                                    "answer_c": "leistungsgesteuert.",
-                                    "answer_d": "optisch gesteuert."
+                                    "question": "A field-effect transistor is ...",
+                                    "answer_a": "voltage-controlled.",
+                                    "answer_b": "current-controlled.",
+                                    "answer_c": "power-controlled.",
+                                    "answer_d": "optically controlled."
                                 },
                                 {
                                     "number": "AC501",
                                     "class": "3",
-                                    "question": "Ein bipolarer Transistor ist ...",
-                                    "answer_a": "stromgesteuert.",
-                                    "answer_b": "spannungsgesteuert.",
-                                    "answer_c": "thermisch gesteuert.",
-                                    "answer_d": "feldgesteuert."
+                                    "question": "A bipolar transistor is ...",
+                                    "answer_a": "current-controlled.",
+                                    "answer_b": "voltage-controlled.",
+                                    "answer_c": "thermally controlled.",
+                                    "answer_d": "field-controlled."
                                 },
                                 {
                                     "number": "EC615",
                                     "class": "2",
-                                    "question": "In einer Schaltung wurden die Spannungen der Transistoranschl\u00fcsse gegen\u00fcber Massepotential gemessen. Bei welchem der folgenden Transistoren flie\u00dft Kollektorstrom?",
+                                    "question": "In a circuit, the voltages at the transistor terminals were measured with respect to chassis potential. In which of the following transistors does collector current flow?",
                                     "answer_a": "",
                                     "answer_b": "",
                                     "answer_c": "",
@@ -3142,7 +3142,7 @@
                                 {
                                     "number": "EC614",
                                     "class": "2",
-                                    "question": "In einer Schaltung wurden die Spannungen der Transistoranschl\u00fcsse gegen\u00fcber Massepotential gemessen. Bei welchem der folgenden Transistoren flie\u00dft Kollektorstrom?",
+                                    "question": "In a circuit, the voltages at the transistor terminals were measured with respect to chassis potential. In which of the following transistors does collector current flow?",
                                     "answer_a": "",
                                     "answer_b": "",
                                     "answer_c": "",
@@ -3155,7 +3155,7 @@
                                 {
                                     "number": "EC613",
                                     "class": "2",
-                                    "question": "In einer Schaltung wurden die Spannungen der Transistoranschl\u00fcsse gegen\u00fcber Massepotential gemessen. Bei welchem der folgenden Transistoren flie\u00dft Kollektorstrom?",
+                                    "question": "In a circuit, the voltages at the transistor terminals were measured with respect to chassis potential. In which of the following transistors does collector current flow?",
                                     "answer_a": "",
                                     "answer_b": "",
                                     "answer_c": "",
@@ -3168,7 +3168,7 @@
                                 {
                                     "number": "EC612",
                                     "class": "2",
-                                    "question": "In einer Schaltung wurden die Spannungen der Transistoranschl\u00fcsse gegen\u00fcber Massepotential gemessen. Bei welchem der folgenden Transistoren flie\u00dft Kollektorstrom?",
+                                    "question": "In a circuit, the voltages at the transistor terminals were measured with respect to chassis potential. In which of the following transistors does collector current flow?",
                                     "answer_a": "",
                                     "answer_b": "",
                                     "answer_c": "",
@@ -3181,65 +3181,65 @@
                                 {
                                     "number": "EC611",
                                     "class": "2",
-                                    "question": "Durch welchen Transistoranschluss fliesst im leitenden Zustand der gr\u00f6\u00dfte Strom?",
+                                    "question": "Through which transistor terminal does the largest current flow in the conducting state?",
                                     "answer_a": "Emitter",
-                                    "answer_b": "Kollektor",
-                                    "answer_c": "Basis",
-                                    "answer_d": "Geh\u00e4use"
+                                    "answer_b": "Collector",
+                                    "answer_c": "Base",
+                                    "answer_d": "Case"
                                 },
                                 {
                                     "number": "EC610",
                                     "class": "2",
-                                    "question": "Wie gro\u00df muss die Spannung $U_{BE}$ in etwa sein, sodass sich der Transistor im leitenden Betriebszustand befindet?",
-                                    "answer_a": "0,6 V",
-                                    "answer_b": "-0,6 V",
-                                    "answer_c": "0,6 V oder -0,6 V",
+                                    "question": "Approximately what must the voltage $U_{BE}$ be for the transistor to be in the conducting state?",
+                                    "answer_a": "0.6 V",
+                                    "answer_b": "-0.6 V",
+                                    "answer_c": "0.6 V or -0.6 V",
                                     "answer_d": "0 V",
                                     "picture_question": "EC610_q"
                                 },
                                 {
                                     "number": "EC609",
                                     "class": "2",
-                                    "question": "Wie bezeichnet man die Anschl\u00fcsse des abgebildeten Transistors?",
-                                    "answer_a": "1 = Kollektor, 2 = Basis, 3 = Emitter",
-                                    "answer_b": "1 = Emitter, 2 = Basis, 3 = Kollektor",
-                                    "answer_c": "1 = Kollektor, 2 = Emitter, 3 = Basis",
-                                    "answer_d": "1 = Basis, 2 = Emitter, 3 = Kollektor",
+                                    "question": "What are the terminals of the transistor shown called?",
+                                    "answer_a": "1 = collector, 2 = base, 3 = emitter",
+                                    "answer_b": "1 = emitter, 2 = base, 3 = collector",
+                                    "answer_c": "1 = collector, 2 = emitter, 3 = base",
+                                    "answer_d": "1 = base, 2 = emitter, 3 = collector",
                                     "picture_question": "EC609_q"
                                 },
                                 {
                                     "number": "EC608",
                                     "class": "2",
-                                    "question": "Wie lauten die Bezeichnungen der Anschl\u00fcsse eines bipolaren Transistors?",
-                                    "answer_a": "Emitter, Basis, Kollektor",
-                                    "answer_b": "Emitter, Drain, Source",
-                                    "answer_c": "Gate, Source, Kollektor",
-                                    "answer_d": "Drain, Gate, Source"
+                                    "question": "What are the names of the terminals of a bipolar transistor?",
+                                    "answer_a": "Emitter, base, collector",
+                                    "answer_b": "Emitter, drain, source",
+                                    "answer_c": "Gate, source, collector",
+                                    "answer_d": "Drain, gate, source"
                                 },
                                 {
                                     "number": "EC607",
                                     "class": "2",
-                                    "question": "Bei diesem Bauelement handelt es sich um einen ",
-                                    "answer_a": "PNP-Transistor.",
-                                    "answer_b": "NPN-Transistor.",
-                                    "answer_c": "P-Kanal-FET.",
-                                    "answer_d": "N-Kanal-FET.",
+                                    "question": "This component is ...",
+                                    "answer_a": "a PNP transistor.",
+                                    "answer_b": "an NPN transistor.",
+                                    "answer_c": "a P-channel FET.",
+                                    "answer_d": "an N-channel FET.",
                                     "picture_question": "EC607_q"
                                 },
                                 {
                                     "number": "EC606",
                                     "class": "2",
-                                    "question": "Bei diesem Bauelement handelt es sich um einen ",
-                                    "answer_a": "NPN-Transistor.",
-                                    "answer_b": "PNP-Transistor.",
-                                    "answer_c": "N-Kanal-FET.",
-                                    "answer_d": "P-Kanal-FET.",
+                                    "question": "This component is ...",
+                                    "answer_a": "an NPN transistor.",
+                                    "answer_b": "a PNP transistor.",
+                                    "answer_c": "an N-channel FET.",
+                                    "answer_d": "a P-channel FET.",
                                     "picture_question": "EC606_q"
                                 },
                                 {
                                     "number": "EC605",
                                     "class": "2",
-                                    "question": "Welches Schaltzeichen stellt einen bipolaren Transistor dar?",
+                                    "question": "Which circuit symbol represents a bipolar transistor?",
                                     "answer_a": "",
                                     "answer_b": "",
                                     "answer_c": "",
@@ -3252,46 +3252,46 @@
                                 {
                                     "number": "EC604",
                                     "class": "2",
-                                    "question": "Welche Transistortypen sind bipolare Transistoren?",
-                                    "answer_a": "NPN- und PNP-Transistoren",
-                                    "answer_b": "Dual-Gate-MOS-FETs",
-                                    "answer_c": "Isolierschicht-FETs",
-                                    "answer_d": "Sperrschicht-FETs"
+                                    "question": "Which types of transistor are bipolar transistors?",
+                                    "answer_a": "NPN and PNP transistors",
+                                    "answer_b": "Dual-gate MOSFETs",
+                                    "answer_c": "Insulated-gate FETs",
+                                    "answer_d": "Junction FETs"
                                 },
                                 {
                                     "number": "EC603",
                                     "class": "2",
-                                    "question": "Was versteht man unter Stromverst\u00e4rkung beim Transistor?",
-                                    "answer_a": "Mit einem geringen Basisstrom wird ein gro\u00dfer Kollektorstrom gesteuert.",
-                                    "answer_b": "Mit einem geringen Emitterstrom wird ein gro\u00dfer Kollektorstrom gesteuert.",
-                                    "answer_c": "Mit einem geringen Emitterstrom wird ein gro\u00dfer Basisstrom gesteuert.",
-                                    "answer_d": "Mit einem geringen Kollektorstrom wird ein gro\u00dfer Emitterstrom gesteuert."
+                                    "question": "What is meant by the current gain of a transistor?",
+                                    "answer_a": "A small base current controls a large collector current.",
+                                    "answer_b": "A small emitter current controls a large collector current.",
+                                    "answer_c": "A small emitter current controls a large base current.",
+                                    "answer_d": "A small collector current controls a large emitter current."
                                 },
                                 {
                                     "number": "EC602",
                                     "class": "2",
-                                    "question": "Ein Transistor ist ...",
-                                    "answer_a": "ein Halbleiterbauelement.",
-                                    "answer_b": "ein Laserbauelement.",
-                                    "answer_c": "ein Nichtleiterbauelement.",
-                                    "answer_d": "ein Kaltleiterbauelement."
+                                    "question": "A transistor is ...",
+                                    "answer_a": "a semiconductor component.",
+                                    "answer_b": "a laser component.",
+                                    "answer_c": "a non-conductor component.",
+                                    "answer_d": "a PTC thermistor component."
                                 },
                                 {
                                     "number": "EC601",
                                     "class": "2",
-                                    "question": "Welches Bauteil kann als Schalter, Verst\u00e4rker oder Widerstand eingesetzt werden?",
+                                    "question": "Which component can be used as a switch, an amplifier or a resistor?",
                                     "answer_a": "Transistor",
-                                    "answer_b": "Transformator",
-                                    "answer_c": "Kondensator",
+                                    "answer_b": "Transformer",
+                                    "answer_c": "Capacitor",
                                     "answer_d": "Diode"
                                 },
                                 {
                                     "number": "NC501",
                                     "class": "1",
-                                    "question": "Welches Bauteil wird durch das Schaltzeichen symbolisiert?",
+                                    "question": "Which component does the circuit symbol represent?",
                                     "answer_a": "Transistor",
-                                    "answer_b": "Spule",
-                                    "answer_c": "Kondensator",
+                                    "answer_b": "Inductor",
+                                    "answer_c": "Capacitor",
                                     "answer_d": "Diode",
                                     "picture_question": "NC501_q"
                                 }
@@ -3303,38 +3303,38 @@
                                 {
                                     "number": "AC604",
                                     "class": "3",
-                                    "question": "Was ist typisch f\u00fcr einen Monolithic Microwave Integrated Circuit (MMIC)?",
-                                    "answer_a": "Ein- und Ausgangsimpedanz entsprechen \u00fcblichen Leitungsimpedanzen (z. B. 50 Ohm).",
-                                    "answer_b": "Die Verst\u00e4rkung ist bereits ab 0 Hz konstant.",
-                                    "answer_c": "Sie sind nur im Mikrowellenbereich einsetzbar.",
-                                    "answer_d": "Der Verst\u00e4rkungsbereich ist schmalbandig."
+                                    "question": "What is typical of a monolithic microwave integrated circuit (MMIC)?",
+                                    "answer_a": "The input and output impedances correspond to common line impedances (e.g. 50 ohms).",
+                                    "answer_b": "The gain is constant from as low as 0 Hz.",
+                                    "answer_c": "They can be used only in the microwave range.",
+                                    "answer_d": "The gain range is narrowband."
                                 },
                                 {
                                     "number": "AC603",
                                     "class": "3",
-                                    "question": "Welchen Vorteil hat ein Monolithic Microwave Integrated Circuit (MMIC) gegen\u00fcber einem diskreten Transistorverst\u00e4rker?",
-                                    "answer_a": "Ein MMIC bietet breitbandig eine hohe Verst\u00e4rkung mit weniger Bauteilen.",
-                                    "answer_b": "Ein MMIC bietet schmalbandig eine hohe Verst\u00e4rkung in einem Bauteil.",
-                                    "answer_c": "Ein MMIC bietet einen hohen Eingangswiderstand und einen niedrigen Ausgangswiderstand.",
-                                    "answer_d": "Ein MMIC bietet einstellbare Eingangs- und Ausgangsimpedanz."
+                                    "question": "What advantage does a monolithic microwave integrated circuit (MMIC) have over a discrete transistor amplifier?",
+                                    "answer_a": "An MMIC offers high gain over a wide bandwidth with fewer components.",
+                                    "answer_b": "An MMIC offers high gain over a narrow bandwidth in a single component.",
+                                    "answer_c": "An MMIC offers a high input resistance and a low output resistance.",
+                                    "answer_d": "An MMIC offers adjustable input and output impedance."
                                 },
                                 {
                                     "number": "AC602",
                                     "class": "3",
-                                    "question": "Welche Bauteile sind in einem Monolithic Microwave Integrated Circuit (MMIC) enthalten?",
-                                    "answer_a": "Ein MMIC enth\u00e4lt alle aktiven und passiven Bauteile auf einem Halbleiter-Substrat.",
-                                    "answer_b": "Ein MMIC enth\u00e4lt nur aktive Bauteile auf einem Halbleiter-Substrat.",
-                                    "answer_c": "Ein MMIC enth\u00e4lt nur passive Bauteile auf einem Halbleiter-Substrat.",
-                                    "answer_d": "Ein MMIC enth\u00e4lt alle aktiven und passiven Bauteile auf einer Leiterplatte."
+                                    "question": "Which components does a monolithic microwave integrated circuit (MMIC) contain?",
+                                    "answer_a": "An MMIC contains all the active and passive components on a semiconductor substrate.",
+                                    "answer_b": "An MMIC contains only active components on a semiconductor substrate.",
+                                    "answer_c": "An MMIC contains only passive components on a semiconductor substrate.",
+                                    "answer_d": "An MMIC contains all the active and passive components on a printed circuit board."
                                 },
                                 {
                                     "number": "AC601",
                                     "class": "3",
-                                    "question": "Eine integrierte Schaltung ist ...",
-                                    "answer_a": "eine komplexe Schaltung auf einem Halbleitersubstrat.",
-                                    "answer_b": "eine aus einzelnen Bauteilen aufgebaute vergossene Schaltung.",
-                                    "answer_c": "eine miniaturisierte, aus SMD-Bauteilen aufgebaute Schaltung.",
-                                    "answer_d": "die Zusammenschaltung einzelner Baugruppen zu einem elektronischen Ger\u00e4t."
+                                    "question": "An integrated circuit is ...",
+                                    "answer_a": "a complex circuit on a semiconductor substrate.",
+                                    "answer_b": "a potted circuit built from discrete components.",
+                                    "answer_c": "a miniaturised circuit built from SMD components.",
+                                    "answer_d": "the interconnection of individual modules to form an electronic device."
                                 }
                             ]
                         }
@@ -3349,28 +3349,28 @@
                                 {
                                     "number": "AD115",
                                     "class": "3",
-                                    "question": "Wenn der dargestellte Spannungsteiler mit $R_{\\textrm{L}}$ belastet wird, dann ergibt sich folgender Zusammenhang:",
-                                    "answer_a": "$I_1$ steigt, $R_1$ setzt mehr Leistung in W\u00e4rme um.",
-                                    "answer_b": "$I_1$ steigt, $R_2$ setzt mehr Leistung in W\u00e4rme um.",
-                                    "answer_c": "$I_1$ sinkt, $R_2$ setzt mehr Leistung in W\u00e4rme um.",
-                                    "answer_d": "$I_2$ steigt, $R_1$ setzt weniger Leistung in W\u00e4rme um.",
+                                    "question": "When the potential divider shown is loaded with $R_{\\textrm{L}}$, the following relationship results:",
+                                    "answer_a": "$I_1$ rises, $R_1$ converts more power into heat.",
+                                    "answer_b": "$I_1$ rises, $R_2$ converts more power into heat.",
+                                    "answer_c": "$I_1$ falls, $R_2$ converts more power into heat.",
+                                    "answer_d": "$I_2$ rises, $R_1$ converts less power into heat.",
                                     "picture_question": "AD115_q"
                                 },
                                 {
                                     "number": "AD114",
                                     "class": "3",
-                                    "question": "Wie gro\u00df ist die Spannung $U_2$ in der Schaltung mit folgenden Werten: $U_{\\textrm{B}} = 12 V$, $R_1 = 10 k\\Omega$, $R_2 = 2,2 k\\Omega$, $R_{\\textrm{L}} = 8,2 k\\Omega$",
-                                    "answer_a": "1,8 V",
-                                    "answer_b": "2,2 V",
-                                    "answer_c": "5,4 V",
-                                    "answer_d": "8,2 V",
+                                    "question": "What is the voltage $U_2$ in the circuit with the following values: $U_{\\textrm{B}} = 12 V$, $R_1 = 10 k\\Omega$, $R_2 = 2.2 k\\Omega$, $R_{\\textrm{L}} = 8.2 k\\Omega$?",
+                                    "answer_a": "1.8 V",
+                                    "answer_b": "2.2 V",
+                                    "answer_c": "5.4 V",
+                                    "answer_d": "8.2 V",
                                     "picture_question": "AD114_q"
                                 },
                                 {
                                     "number": "AD113",
                                     "class": "3",
-                                    "question": "Die Spannung an der Br\u00fcckenschaltung betr\u00e4gt 11 V. Die Widerst\u00e4nde haben folgende Werte: $R_1$ = 1 kOhm; $R_2$ = 10 kOhm; $R_3$ = 10 kOhm; $R_4$ = 1 kOhm. Wie gro\u00df ist die Spannung zwischen A und B im Br\u00fcckenzweig (gemessen von A nach B)?",
-                                    "answer_a": "$U_{AB} = 9 V$ ",
+                                    "question": "The voltage across the bridge circuit is 11 V. The resistors have the following values: $R_1$ = 1 k\u03a9; $R_2$ = 10 k\u03a9; $R_3$ = 10 k\u03a9; $R_4$ = 1 k\u03a9. What is the voltage between A and B in the bridge diagonal (measured from A to B)?",
+                                    "answer_a": "$U_{AB} = 9 V$",
                                     "answer_b": "$U_{AB} = -9 V$",
                                     "answer_c": "$U_{AB} = 10 V$",
                                     "answer_d": "$U_{AB} = -10 V$",
@@ -3379,17 +3379,17 @@
                                 {
                                     "number": "AD112",
                                     "class": "3",
-                                    "question": "Die Spannung an der Br\u00fcckenschaltung betr\u00e4gt 10 V. Alle Widerst\u00e4nde haben einen Wert von 50 Ohm. Wie gro\u00df ist die Spannung zwischen A und B im Br\u00fcckenzweig (gemessen von A nach B)?",
+                                    "question": "The voltage across the bridge circuit is 10 V. All the resistors have a value of 50 ohms. What is the voltage between A and B in the bridge diagonal (measured from A to B)?",
                                     "answer_a": "0 V",
                                     "answer_b": "-5 V",
                                     "answer_c": "5 V",
-                                    "answer_d": "2,5 V",
+                                    "answer_d": "2.5 V",
                                     "picture_question": "AD112_q"
                                 },
                                 {
                                     "number": "AD111",
                                     "class": "3",
-                                    "question": "In welchem Verh\u00e4ltnis m\u00fcssen die Widerst\u00e4nde $R_1$ bis $R_4$ zueinander stehen, damit das Messinstrument im Br\u00fcckenzweig keine Spannung anzeigt?",
+                                    "question": "What ratio must the resistors $R_1$ to $R_4$ have to one another for the meter in the bridge diagonal to show no voltage?",
                                     "answer_a": "$\\dfrac{R_1}{R_2} = \\dfrac{R_3}{R_4}$",
                                     "answer_b": "$\\dfrac{R_1}{R_2} = \\dfrac{R_4}{R_3}$",
                                     "answer_c": "$\\dfrac{R_2}{R_1} = \\dfrac{R_3}{R_4}$",
@@ -3399,47 +3399,47 @@
                                 {
                                     "number": "AD110",
                                     "class": "3",
-                                    "question": "Wenn $\\textrm{R}_1$ und $\\textrm{R}_3$ je 2,2 kOhm haben und $\\textrm{R}_2$ und $\\textrm{R}_4$ je 220 Ohm betragen, hat die Schaltung zwischen den Punkten a und b einen Gesamtwiderstand von ...",
-                                    "answer_a": "1210 Ohm.",
-                                    "answer_b": "1540 Ohm.",
-                                    "answer_c": "4840 Ohm.",
-                                    "answer_d": "2420 Ohm.",
+                                    "question": "If $\\textrm{R}_1$ and $\\textrm{R}_3$ are each 2.2 k\u03a9 and $\\textrm{R}_2$ and $\\textrm{R}_4$ are each 220 ohms, the total resistance of the circuit between points a and b is ...",
+                                    "answer_a": "1210 ohms.",
+                                    "answer_b": "1540 ohms.",
+                                    "answer_c": "4840 ohms.",
+                                    "answer_d": "2420 ohms.",
                                     "picture_question": "AD110_q"
                                 },
                                 {
                                     "number": "AD109",
                                     "class": "3",
-                                    "question": "In welchem Bereich liegt der Eingangswiderstand der folgenden Schaltung, wenn $R$ alle Werte von 0 Ohm bis 1 kOhm annehmen kann? ",
-                                    "answer_a": "267 bis 292 Ohm",
-                                    "answer_b": "300 bis 500 Ohm",
-                                    "answer_c": "292 bis 367 Ohm",
-                                    "answer_d": "300 bis 367 Ohm",
+                                    "question": "Within what range does the input resistance of the following circuit lie if $R$ can take any value from 0 ohms to 1 k\u03a9?",
+                                    "answer_a": "267 to 292 ohms",
+                                    "answer_b": "300 to 500 ohms",
+                                    "answer_c": "292 to 367 ohms",
+                                    "answer_d": "300 to 367 ohms",
                                     "picture_question": "AD109_q"
                                 },
                                 {
                                     "number": "AD108",
                                     "class": "3",
-                                    "question": "Welche Leistung tritt in $R_2$ auf, wenn $U$ = 15 V und alle Widerst\u00e4nde $R_1$ bis $R_3$ je 10 kOhm betragen? ",
-                                    "answer_a": "2,5 mW",
-                                    "answer_b": "5,0 mW",
-                                    "answer_c": "1,5 mW",
-                                    "answer_d": "0,15 W",
+                                    "question": "What power is dissipated in $R_2$ if $U$ = 15 V and the resistors $R_1$ to $R_3$ are each 10 k\u03a9?",
+                                    "answer_a": "2.5 mW",
+                                    "answer_b": "5.0 mW",
+                                    "answer_c": "1.5 mW",
+                                    "answer_d": "0.15 W",
                                     "picture_question": "AD108_q"
                                 },
                                 {
                                     "number": "AD107",
                                     "class": "3",
-                                    "question": "Wie gro\u00df ist der Strom durch $R_3$, wenn $U$ = 15 V und alle Widerst\u00e4nde $R_1$ bis $R_3$ je 10 kOhm betragen?",
-                                    "answer_a": "0,5 mA",
-                                    "answer_b": "1,0 mA",
-                                    "answer_c": "1,6 mA",
-                                    "answer_d": "4,5 mA",
+                                    "question": "What is the current through $R_3$ if $U$ = 15 V and the resistors $R_1$ to $R_3$ are each 10 k\u03a9?",
+                                    "answer_a": "0.5 mA",
+                                    "answer_b": "1.0 mA",
+                                    "answer_c": "1.6 mA",
+                                    "answer_d": "4.5 mA",
                                     "picture_question": "AD107_q"
                                 },
                                 {
                                     "number": "AD106",
                                     "class": "3",
-                                    "question": "Wie gro\u00df ist die Spannung $U$, wenn durch $R_3$ ein Strom von 1 mA flie\u00dft und alle Widerst\u00e4nde $R_1$ bis $R_3$ je 10 kOhm betragen? ",
+                                    "question": "What is the voltage $U$ if a current of 1 mA flows through $R_3$ and the resistors $R_1$ to $R_3$ are each 10 k\u03a9?",
                                     "answer_a": "30 V",
                                     "answer_b": "20 V",
                                     "answer_c": "15 V",
@@ -3449,48 +3449,48 @@
                                 {
                                     "number": "AD105",
                                     "class": "3",
-                                    "question": "Berechne den Betrag des Scheinwiderstands $Z$ f\u00fcr eine Reihenschaltung aus $R$ = 100 Ohm und $L$ = 100 \u03bcH bei 1 MHz.",
-                                    "answer_a": "$|Z|$ = 636 Ohm",
-                                    "answer_b": "$|Z|$ = 628 Ohm",
-                                    "answer_c": "$|Z|$ = 188 Ohm",
-                                    "answer_d": "$|Z|$ = 259 Ohm"
+                                    "question": "Calculate the magnitude of the impedance $Z$ of a series circuit of $R$ = 100 ohms and $L$ = 100 \u03bcH at 1 MHz.",
+                                    "answer_a": "$|Z|$ = 636 ohms",
+                                    "answer_b": "$|Z|$ = 628 ohms",
+                                    "answer_c": "$|Z|$ = 188 ohms",
+                                    "answer_d": "$|Z|$ = 259 ohms"
                                 },
                                 {
                                     "number": "AD104",
                                     "class": "3",
-                                    "question": "Berechne den Betrag des Scheinwiderstands $Z$ f\u00fcr eine Reihenschaltung aus $R$ = 100 Ohm und $C$ = 1 nF bei 1 MHz.",
-                                    "answer_a": "$|Z|$ = 188 Ohm",
-                                    "answer_b": "$|Z|$ = 159 Ohm",
-                                    "answer_c": "$|Z|$ = 636 Ohm",
-                                    "answer_d": "$|Z|$ = 259 Ohm"
+                                    "question": "Calculate the magnitude of the impedance $Z$ of a series circuit of $R$ = 100 ohms and $C$ = 1 nF at 1 MHz.",
+                                    "answer_a": "$|Z|$ = 188 ohms",
+                                    "answer_b": "$|Z|$ = 159 ohms",
+                                    "answer_c": "$|Z|$ = 636 ohms",
+                                    "answer_d": "$|Z|$ = 259 ohms"
                                 },
                                 {
                                     "number": "AD103",
                                     "class": "3",
-                                    "question": "Wie gro\u00df ist die Gesamtkapazit\u00e4t dieser Schaltung, wenn $C_1$ = 0,1 nF, $C_2$ = 1,5 nF, $C_3$ = 220 pF und die Eigenkapazit\u00e4t der Spule 1 pF betr\u00e4gt?",
+                                    "question": "What is the total capacitance of this circuit if $C_1$ = 0.1 nF, $C_2$ = 1.5 nF, $C_3$ = 220 pF and the self-capacitance of the inductor is 1 pF?",
                                     "answer_a": "1821 pF",
                                     "answer_b": "66 pF",
-                                    "answer_c": "1,6 nF",
+                                    "answer_c": "1.6 nF",
                                     "answer_d": "1 pF",
                                     "picture_question": "AD103_q"
                                 },
                                 {
                                     "number": "AD102",
                                     "class": "3",
-                                    "question": "Wie gro\u00df ist die Gesamtinduktivit\u00e4t von drei in Reihe geschalteten Spulen von 2200 nH, 0,033 mH und 150 \u03bcH?",
-                                    "answer_a": "185,2 \u03bcH",
-                                    "answer_b": "155,5 \u03bcH",
-                                    "answer_c": "205,0 nH",
-                                    "answer_d": "205,0 \u03bcH"
+                                    "question": "What is the total inductance of three inductors of 2200 nH, 0.033 mH and 150 \u03bcH connected in series?",
+                                    "answer_a": "185.2 \u03bcH",
+                                    "answer_b": "155.5 \u03bcH",
+                                    "answer_c": "205.0 nH",
+                                    "answer_d": "205.0 \u03bcH"
                                 },
                                 {
                                     "number": "AD101",
                                     "class": "3",
-                                    "question": "Wie gro\u00df ist die Gesamtkapazit\u00e4t, wenn drei Kondensatoren $C_1$ = 0,10 nF, $C_2$ = 47 pF und $C_3$ = 22 pF in Reihe geschaltet werden?",
-                                    "answer_a": "13,0 pF",
-                                    "answer_b": "0,13 nF",
+                                    "question": "What is the total capacitance when three capacitors $C_1$ = 0.10 nF, $C_2$ = 47 pF and $C_3$ = 22 pF are connected in series?",
+                                    "answer_a": "13.0 pF",
+                                    "answer_b": "0.13 nF",
                                     "answer_c": "169 pF",
-                                    "answer_d": "16,9 pF"
+                                    "answer_d": "16.9 pF"
                                 },
                                 {
                                     "number": "ED124",
