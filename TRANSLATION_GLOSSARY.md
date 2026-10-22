@@ -1,0 +1,1472 @@
+# Translation glossary — German to English
+
+The authoritative terminology for the English translation of 50ohm.de, for
+DARC. Where this file and a translator's instinct disagree, this file wins;
+where this file is silent, follow the RSGB's usage (Foundation, Intermediate
+and Full licence manuals, *RSGB Radio Communication Handbook*) and, for
+regulatory terms, the wording of the ITU Radio Regulations (RR). Extend the
+file as new terms come up; do not rename or remove entries that translated
+text already relies on — change them only together with the text.
+
+The German term list was compiled from the German column of the Croatian
+glossary (`50ohm-contents-hr/TRANSLATION_GLOSSARY.md`, German terms only —
+none of its decisions) and from the most frequent technical nouns in the
+question bank (`contents/questions/fragenkatalog3b.json`, 1750 questions).
+
+## Rules from `TRANSLATION.md`, and the house style that follows from them
+
+- **Faithful, not localised.** This is the German exam in English. The
+  licence classes stay **N, E and A**; the Bundesnetzagentur, AFuG, AFuV,
+  TKG, EMVG, BEMFV and every other German rule, body and institution stay
+  German, under the English names given below. Nothing is adapted to the UK
+  or any other country (no Ofcom, no UK licence classes, no UK band edges).
+- **British English as used in IARU Region 1 and by the RSGB:**
+  *licence* (noun) / *license* (verb), *licensed*, *licensee*; *metre*
+  (unit) but *meter* (instrument: SWR meter, S meter, power meter);
+  *centre*, *colour*, *programme* (but computer *program*), *analogue*,
+  *aluminium*, *grey*, *fibre*, *behaviour*, *neighbour*, *travelling*,
+  *modelling*, *analyser*, *polarisation*. Use **-ise** spellings
+  (*authorisation*, *organisation*, *stabilisation*, *quantisation*,
+  *synchronisation*) — except inside a direct quotation of the ITU RR,
+  which spells *authorized*.
+- ***mains*** for the public electricity supply (Netz, Netzspannung,
+  Netzteil); ***earth*** for Erde / Erdung / Erder (never *ground*, except in
+  fixed technical names: *ground wave*, *ground-plane antenna*).
+- **Numbers:** decimal point, not comma (`3,5 MHz` → `3.5 MHz`); every
+  number stays the same number. A space between number and unit
+  (`100 W`, `14.2 MHz`). Band names: `80 m band`, `2 m band`, `70 cm band`
+  (no hyphen; German `80 m-Band`).
+- **Formulas and symbols stay exactly as in the German**, including German
+  subscripts (`U_\mathrm{eff}`, `R_\mathrm{ges}`, `I_\mathrm{C}`); only words
+  inside `\text{}` / `\textrm{}` are translated.
+- **Call signs, Q codes and international operating abbreviations** (DL1ABC,
+  QRV, QSO, CQ, CW, SSB, RST, PEP, EIRP, SWR, PLL, VFO) are not translated.
+  **German-only technical abbreviations in running text** are replaced by
+  their English equivalents: NF → AF, HF (Hochfrequenz) → RF, ZF → IF,
+  KW → HF, UKW → VHF, EMV → EMC, Akku → battery. Abbreviations that name
+  German law or bodies (AFuG, AFuV, BNetzA, TKG, TTDSG, EMVG, FuAG, BEMFV,
+  EMVU, VDE) stay.
+- **German law and institutions:** in the course text, at first use, the
+  English name with the German name and abbreviation in brackets —
+  *Amateur Radio Ordinance (Amateurfunkverordnung, AFuV)* — then the
+  abbreviation alone. **Exam questions stand alone:** where the German
+  question writes the full name, use the full form from this glossary;
+  where it writes only the abbreviation (BNetzA, AFuV), keep the
+  abbreviation alone.
+- **Exam questions:** `answer_a` is always the correct answer. Keep it
+  correct and b–d wrong; keep the four answers parallel in form (all
+  sentences, all noun phrases, same article pattern). A stem ending in `…`
+  is continued by its answers — make the English stem end so that each
+  answer completes it grammatically.
+- **Address:** *Sie* and *du* both become plain *you*.
+- **Markup:** DARCdown commands, file names, idents and `%` comments are
+  never changed (`README-FORMAT.md`).
+- **Capitalisation:** English sentence case for titles and headings
+  (*Ohm's law*, *Electric field*), proper names and defined legal titles
+  capitalised (*Amateur Radio Act*, *Call Sign Plan*).
+- **Call sign** is two words, also when used attributively (*call sign
+  holder*, *call sign plan*), as in the ITU RR — not the RSGB's *callsign*.
+
+Columns: **German | English | note**. A note appears only where there is a
+real choice or a trap.
+
+## 1. Regulation and licensing
+
+### 1.1 International bodies and instruments
+
+| German | English | Note |
+|---|---|---|
+| Internationale Fernmeldeunion (ITU) | International Telecommunication Union (ITU) | singular *Telecommunication* |
+| Radio Regulations (RR) / Vollzugsordnung für den Funkdienst (VO Funk) | Radio Regulations (RR) | the ITU treaty; keep "(RR)" where the German has it |
+| Artikel (RR) | Article | RR Article 25 = "Article 25" |
+| Anhang (RR), z. B. Anhang 14 | Appendix (e.g. Appendix 14) | RR has *Appendices*; AFuV has *Annexes* (Anlage) — do not mix |
+| Begriffsbestimmung | definition | |
+| Region 1 / 2 / 3 (ITU) | Region 1 / 2 / 3 | |
+| Funkdienst | radiocommunication service; service | RR term; "a primary service" |
+| Amateurfunkdienst | amateur service | RR 1.56; not "amateur radio service" (US usage) |
+| Amateurfunkdienst über Satelliten | amateur-satellite service | RR 1.57, hyphenated as in the RR |
+| primärer Funkdienst / sekundärer Funkdienst | primary service / secondary service | RR 5.23–5.28 wording |
+| auf primärer Basis zugewiesen | allocated on a primary basis | |
+| Zuweisung (Frequenzbereichszuweisung) | allocation (of a frequency band to a service) | RR: *allocation* to services, *allotment* to areas, *assignment* to stations |
+| Frequenzzuteilung | frequency assignment | German TKG term for authorising a frequency use; not *allocation* |
+| Seefunkdienst | maritime mobile service | RR term |
+| Küstenfunkstelle | coast station | RR term |
+| Luftfahrzeug | aircraft | |
+| Wasserfahrzeug | vessel | |
+| ISM-Frequenzbereich / ISM-Bereich | ISM band (industrial, scientific and medical) | |
+| Bodenkontrollstation | earth command station | RR 25.2A wording |
+| Steuersignale | control signals | |
+| Verschleierung (zum Zwecke der Verschleierung) | (for the purpose of) obscuring the meaning | RR 25.2A wording; not "concealment" |
+| verschlüsseln | encode; encrypt | RR says *encoded*; use *encrypt* only where the German clearly means cryptography |
+| ordnungsgemäß befugte Personen | duly authorised persons | |
+| ohne finanzielle Interessen / ohne wirtschaftliches Interesse | without pecuniary interest | RR 1.56 wording |
+| mit persönlichem Ziel | solely with a personal aim | RR 1.56 wording |
+| technische Studien | technical investigations | RR 1.56 wording |
+| eigene Ausbildung | self-training | RR 1.56 wording |
+| Funkverkehr untereinander | intercommunication | RR 1.56 wording |
+| Bemerkungen persönlicher Art | remarks of a personal character | RR 25.2 wording |
+| Morseprüfung / Morsequalifikation | Morse test / Morse qualification | |
+| nationale Verwaltung | (national) administration | RR term for the national regulator |
+| Funkstelle | station | RR 1.61; "radio station" only where needed for clarity |
+| Amateurfunkstelle | amateur station | RR 1.96 |
+| Zusatzeinrichtungen | accessory equipment | RR 1.61 wording "accessory equipment" |
+| Europäische Konferenz der Verwaltungen für Post und Telekommunikation (CEPT) | European Conference of Postal and Telecommunications Administrations (CEPT) | |
+| CEPT-Empfehlung T/R 61-01 / T/R 61-02 | CEPT Recommendation T/R 61-01 / T/R 61-02 | |
+| ECC-Empfehlung (05)06 | ECC Recommendation (05)06 | |
+| ERC-Report 32 | ERC Report 32 | |
+| CEPT-Länder / Nicht-CEPT-Länder | CEPT countries / non-CEPT countries | |
+| CEPT-Amateurfunkgenehmigung | CEPT radio amateur licence | |
+| CEPT-Novice-Amateurfunkgenehmigung | CEPT Novice Radio Amateur Licence | ECC (05)06 name |
+| CEPT-Novice-Amateurfunk-Prüfungsbescheinigung | CEPT Novice Radio Amateur Examination Certificate | |
+| Novice-Individualgenehmigung | individual novice licence | |
+| HAREC (Harmonized Amateur Radio Examination Certificate) | HAREC (Harmonised Amateur Radio Examination Certificate) | the CEPT document title is spelt *Harmonised* |
+| HAREC-Bescheinigung | HAREC certificate | |
+| harmonisierte Amateurfunk-Prüfungsbescheinigung | harmonised amateur radio examination certificate | |
+| gegenseitige Anerkennung | mutual recognition | |
+| vorübergehender Betrieb | temporary operation | |
+| Gastland | host country | |
+| Gastgenehmigung / Gastzulassung | guest licence | |
+| fester Wohnsitz | permanent residence | |
+| umsetzen (eine Empfehlung) | implement (a recommendation) | |
+| IARU (International Amateur Radio Union) | IARU (International Amateur Radio Union) | |
+| Intruder Monitoring (IARU-Monitoring-System) | Intruder Watch / IARU Monitoring System | |
+
+### 1.2 German law, bodies and documents
+
+| German | English | Note |
+|---|---|---|
+| Bundesnetzagentur (BNetzA) | Federal Network Agency (Bundesnetzagentur, BNetzA) | in exam questions: "the Federal Network Agency (BNetzA)" where the German writes the name; "BNetzA" where the German writes only the abbreviation |
+| Bundesnetzagentur für Elektrizität, Gas, Telekommunikation, Post und Eisenbahnen | Federal Network Agency for Electricity, Gas, Telecommunications, Post and Railway | full official name, rarely needed |
+| Außenstelle (der BNetzA) | (BNetzA) regional office | |
+| zuständige Stelle / zuständige Behörde | competent office / competent authority | |
+| Funkstörungsannahme (der BNetzA) | (BNetzA) radio interference reporting service | keep "Funkstörungsannahme" in brackets at first mention in course text |
+| Behörde | authority | |
+| Amateurfunkgesetz (AFuG) | Amateur Radio Act (Amateurfunkgesetz, AFuG) | |
+| Gesetz über den Amateurfunk | Act on Amateur Radio | the AFuG's formal title; VC101 asks for it, so keep it distinct from "Amateur Radio Act" |
+| Amateurfunkverordnung (AFuV) | Amateur Radio Ordinance (Amateurfunkverordnung, AFuV) | *Ordinance*, not *Regulation(s)* (avoids confusion with the RR) |
+| Anlage 1 der AFuV | Annex 1 to the AFuV | |
+| Telekommunikationsgesetz (TKG) | Telecommunications Act (Telekommunikationsgesetz, TKG) | |
+| Telekommunikation-Telemedien-Datenschutz-Gesetz (TTDSG) | Telecommunications and Telemedia Data Protection Act (Telekommunikation-Telemedien-Datenschutz-Gesetz, TTDSG) | renamed TDDDG in 2024; the question bank still says TTDSG — translate what the German says |
+| Telekommunikation-Digitale-Dienste-Datenschutz-Gesetz (TDDDG) | Telecommunications Digital Services Data Protection Act (TDDDG) | |
+| Gesetz über die elektromagnetische Verträglichkeit von Betriebsmitteln (EMVG) | Act on the Electromagnetic Compatibility of Equipment (Gesetz über die elektromagnetische Verträglichkeit von Betriebsmitteln, EMVG) | short: Electromagnetic Compatibility Act (EMVG) |
+| Gesetz über die elektromagnetische Verträglichkeit von Geräten (EMVG) | Act on the Electromagnetic Compatibility of Devices (EMVG) | older title, used in a catalogue heading; keep *Devices* vs *Equipment* as in the German |
+| Gesetz über die Bereitstellung von Funkanlagen auf dem Markt (FuAG) / Funkanlagengesetz | Act on Making Radio Equipment Available on the Market (Funkanlagengesetz, FuAG) / Radio Equipment Act | |
+| Verordnung über das Nachweisverfahren zur Begrenzung elektromagnetischer Felder (BEMFV) | Ordinance on the Verification Procedure for Limiting Electromagnetic Fields (BEMFV) | |
+| 26. Verordnung zur Durchführung des Bundes-Immissionsschutzgesetzes (26. BImSchV) | 26th Ordinance implementing the Federal Immission Control Act (Ordinance on Electromagnetic Fields, 26. BImSchV) | *immission* is the established English term in German environmental law |
+| Frequenzschutzbeitragsverordnung (FSBeitrV) | Frequency Protection Contribution Ordinance (FSBeitrV) | |
+| Frequenzschutzbeitrag | frequency protection contribution | annual fee |
+| Besondere Gebührenverordnung BNetzA (BNetzABGebV) | Special Fees Ordinance of the BNetzA (BNetzABGebV) | |
+| Gebühren und Beiträge | fees and contributions | |
+| Verwaltungs-Vollstreckungsgesetz | Administrative Enforcement Act | |
+| Strafgesetzbuch (StGB) | Criminal Code (Strafgesetzbuch, StGB) | |
+| § 323c StGB (unterlassene Hilfeleistung) | Section 323c StGB (failure to render assistance) | § → "Section" in prose, "§" may stay in citations |
+| Abs. (Absatz) | para. (paragraph) / subsection | "§ 3 Abs. 1 AFuG" → "Section 3(1) AFuG" |
+| Verfügung 13/2005 | Order 13/2005 | BNetzA order in its Official Gazette |
+| Amtsblatt | Official Gazette | |
+| Mitteilungen der BNetzA | BNetzA notices | |
+| Rufzeichenplan | Call Sign Plan | BNetzA document, capitalised |
+| Rufzeichenliste | call sign list | published by the BNetzA |
+| Verband der Elektrotechnik Elektronik Informationstechnik (VDE) | VDE (Association for Electrical, Electronic and Information Technologies) | keep "VDE" |
+| VDE-Normen / Norm VDE 0855-300 / Normenreihe VDE 0185-305 | VDE standards / standard VDE 0855-300 / series of standards VDE 0185-305 | |
+| anerkannte Regeln der Technik | recognised codes of practice (generally accepted rules of engineering) | legal term; use "generally accepted rules of engineering" in AFuV quotations |
+| Bundesland | federal state (Land) | "the building regulations of the relevant federal state" |
+| Baurecht / baurechtliche Bestimmungen | building law / building regulations | |
+| Baugenehmigung | building permit (planning permission) | |
+| Bauamt | building authority | |
+| Ordnungswidrigkeit | administrative offence | not "misdemeanour" |
+| Bußgeld / Geldbuße | (administrative) fine | |
+| ahnden | punish (with a fine) | |
+| Straftatbestand / Straftat | criminal offence | |
+| Widerruf (der Zulassung) | revocation (of the licence) | |
+| Außerbetriebnahme | taking out of service; shutdown | |
+| Einschränkung des Betriebes | restriction of operation | |
+| Antrag / auf Antrag | application / on application | |
+| Auflagen | conditions | |
+| Fernmeldegeheimnis | secrecy of telecommunications | |
+| Abhörverbot | prohibition of interception | |
+| Abhören des nichtöffentlich gesprochenen Wortes | eavesdropping on private (non-public) conversations | |
+| Nachrichten | messages | |
+| Allgemeinheit / unbestimmter Personenkreis | the general public / an unspecified group of people | |
+| CE-Kennzeichnung | CE marking | |
+| Inverkehrbringen | placing on the market | EU legal wording |
+| auf dem Markt bereitstellen | make available on the market | EU legal wording |
+| freier Warenverkehr | free movement of goods | |
+| Inbetriebnahme | putting into service | |
+| grundlegende Anforderungen | essential requirements | EU legal wording |
+| Schutzanforderungen | protection requirements | |
+| seriengefertigte Geräte | series-produced equipment | |
+| Selbstbaugerät / Eigenbaugerät | home-built equipment | |
+| Haftung / haften | liability / be liable | |
+| Eigentümer | owner | |
+| Datenschutz | data protection | |
+
+### 1.3 Licence, call sign and station
+
+| German | English | Note |
+|---|---|---|
+| Funkamateur | radio amateur | |
+| Nicht-Funkamateur | non-amateur; person who is not a radio amateur | |
+| Amateurfunk | amateur radio | |
+| Amateurfunkprüfung / Prüfung | amateur radio examination / examination | *exam* in informal text |
+| fachliche Prüfung | examination of competence | AFuV wording |
+| Prüfungsteil | part of the examination | |
+| Prüfungsfrage | examination question | |
+| Prüfungsfragen im Prüfungsteil: … | Examination questions in the examination part: … | catalogue heading pattern |
+| Amateurfunkzeugnis | amateur radio certificate | the BNetzA certificate of competence issued after the exam; not a licence |
+| Amateurfunk-Prüfungsbescheinigung / Prüfungsbescheinigung | amateur radio examination certificate / examination certificate | |
+| Prüfungsbescheid | examination result notice | |
+| Zulassung zur Teilnahme am Amateurfunkdienst | authorisation to participate in the amateur service | the AFuG's personal authorisation; same thing as "Amateurfunkzulassung" |
+| Zulassung zum Amateurfunkdienst | authorisation for the amateur service | VD403 variant; keep it distinct only if the German contrasts them |
+| Amateurfunkzulassung / Zulassung | amateur radio licence / licence | |
+| Zulassungsurkunde | licence document | |
+| Zulassungsklasse / Zeugnisklasse | licence class / certificate class | |
+| Klasse N / E / A | Class N / E / A | "Zulassung der Klasse A" → "Class A licence"; never renamed Foundation/Intermediate/Full |
+| Inhaber einer Zulassung der Klasse A | holder of a Class A licence; Class A licensee | |
+| Erteilung | issue (of a licence); grant | |
+| Mindestalter | minimum age | |
+| übertragbar / nicht übertragbar | transferable / not transferable | |
+| Berechtigungsumfang | scope of privileges; privileges | |
+| Rufzeichen | call sign | two words; RSGB writes *callsign* |
+| Amateurfunkrufzeichen | amateur call sign | |
+| personengebundenes Rufzeichen | personal call sign | |
+| Klubstation | club station | |
+| Klubstationsrufzeichen | club station call sign | |
+| Ausbildungsrufzeichen | training call sign | |
+| Rufzeichenzuteilung | call sign assignment | |
+| Zuteilung | assignment | |
+| Rufzeicheninhaber | call sign holder | |
+| Rufzeichenzuteilungsart / Rufzeichenart | category of call sign assignment / category of call sign | |
+| Rufzeichen für fernbediente und automatisch arbeitende Amateurfunkstellen | call signs for remotely controlled and automatically operating amateur stations | |
+| Präfix | prefix | |
+| Ziffer | digit | |
+| Suffix | suffix | the letters after the digit; see Rufzeichenzusatz |
+| Rufzeichenzusatz | call sign suffix (/p, /m, /mm, /am, /T) | Ofcom/RSGB usage; where *Suffix* and *Rufzeichenzusatz* meet in one sentence, write "the suffix /p added to the call sign" |
+| Landeskenner | country prefix | the nationality part of the call sign (RR Art. 19) |
+| Heimatrufzeichen | home call sign | |
+| vorangestellt | placed in front; prefixed | "DL/ is prefixed" |
+| Stationsverantwortlicher / verantwortlicher Funkamateur | responsible radio amateur (station manager) | |
+| Leiter einer Gruppe | leader of a group | |
+| Mitglied / Nichtmitglied | member / non-member | |
+| Betreiber | operator (of a station or installation) | for remote stations: "the operator of the remote station" |
+| Amateurfunkstation | amateur station | same as Amateurfunkstelle |
+| Amateurfunkanlage | amateur radio installation; amateur radio equipment | |
+| Funkanlage | radio equipment; radio installation | FuAG: *radio equipment* |
+| Sendefunkanlage / Sendeanlage | transmitting equipment; transmitter | |
+| Empfangsfunkanlage | receiving equipment | |
+| Antennenanlage | antenna installation | |
+| ortsfest | fixed | "ortsfeste Amateurfunkstelle" → "fixed amateur station" |
+| vorübergehend ortsfest (/p) | at a temporary fixed location (portable) | |
+| mobil (/m) | mobile | |
+| maritim mobil (/mm) | maritime mobile | |
+| an Bord eines Luftfahrzeugs (/am) | aeronautical mobile; on board an aircraft | |
+| Schiffsführer | master (of the ship) | |
+| Luftfahrzeugführer | pilot in command | |
+| Standort | location; site | |
+| Standortänderung | change of location | |
+| anzeigen (der BNetzA) | notify (the BNetzA) | |
+| Betriebsmeldung | operating notification | |
+| Ausbildungsfunkbetrieb / Ausbildungsfunkverkehr | training operation | supervised transmissions by trainees under the instructor's call sign |
+| Ausbilder | instructor | |
+| Auszubildender | trainee | |
+| Trainee (/T, /Trainee) | trainee | the suffix itself stays "/T" / "/Trainee" |
+| unmittelbare Anleitung und Aufsicht | direct guidance and supervision | |
+| Relaisfunkstelle | repeater (station) | AFuV definition; "Relaisfunkstellen und Funkbaken" → "repeaters and beacons" |
+| Funkbake / Bake | beacon | |
+| fernbedient | remotely controlled | |
+| automatisch arbeitend | automatically operating; unattended | |
+| Remote-Station | remote station | |
+| Remote-Betrieb | remote operation | |
+| mittelbare / unmittelbare Kontrolle | indirect / direct control | |
+| Nutzungsrecht | right of use | |
+| Ansprechpartner | contact person | |
+| Kontaktdaten | contact details | |
+| Frequenznutzung | frequency use | |
+| Frequenznutzungsparameter | frequency usage parameters | |
+| Frequenzbereich | frequency range; band | in band-edge questions "frequency range"; "frequency band" where the German means the band |
+| Amateurfunkband / Band | amateur band / band | |
+| Amateurfunkfrequenzen | amateur frequencies | |
+| ausgewiesene Frequenzen | designated frequencies | |
+| Anfangs- und Endfrequenz | lower and upper band edge; start and end frequency | |
+| Teilbereich | segment; sub-band | |
+| belegte Bandbreite | occupied bandwidth | RR 1.153 |
+| Leistungsgrenze | power limit | |
+| Senderausgangsleistung | transmitter output power | |
+| maximal zulässig | maximum permitted | |
+| Not- und Katastrophenfälle | emergencies and disasters | "in Not- und Katastrophenfällen" → "in emergencies and disasters" |
+| Nachrichtenübermittlung an Dritte / Nachrichten für Dritte | third-party traffic; passing messages for third parties | RSGB term *third-party traffic* |
+| Dritte | third parties | |
+| gewerblich-wirtschaftliche Zwecke | commercial purposes | |
+| geschäftsmäßiges Erbringen von Telekommunikationsdiensten | providing telecommunications services on a commercial basis | |
+| Völkerverständigung | international understanding; international goodwill | |
+| Unterstützung von Hilfsaktionen | supporting relief operations | |
+| experimentelle und technisch-wissenschaftliche Studien | experimental and technical-scientific studies | |
+| Weiterbildung | further education; self-training | |
+| persönliche Neigung | personal interest | |
+| offene Sprache | plain language | |
+| Sprachverschlüsselung | voice encryption | |
+| Not-, Dringlichkeits- und Sicherheitszeichen | distress, urgency and safety signals | RR terms; MAYDAY, PAN PAN, SÉCURITÉ unchanged |
+| unmodulierter / ungetasteter Träger | unmodulated / unkeyed carrier | |
+| Abgleicharbeiten | alignment work | |
+| freies Abstrahlen | unrestricted radiation | |
+| unerwünschte Aussendungen | unwanted emissions | RR 1.146 |
+| geringstmögliches Maß | the lowest possible level | |
+| Logbuch / Stationstagebuch | log / station log (logbook) | |
+| auf Verlangen / auf Anforderung (der BNetzA) | at the request of (the BNetzA) / on demand | |
+| technische Unterlagen | technical documentation | |
+| frequenztechnische Fragen | questions of frequency engineering | |
+| Störungsursachen | causes of interference | |
+| unverzüglich | without delay | |
+| schriftlich oder elektronisch | in writing or electronically | |
+| Anschrift | (postal) address | |
+| widersprechen | object | "unless the holder has objected" |
+| Sondergenehmigung | special permit | |
+| Ausnahmen | exceptions | |
+| Rahmenbedingungen | (general) conditions; framework | |
+
+### 1.4 EMF exposure (EMVU / BEMFV)
+
+| German | English | Note |
+|---|---|---|
+| EMVU (elektromagnetische Verträglichkeit in der Umwelt / elektromagnetische Umweltverträglichkeit) | EMVU (electromagnetic compatibility with the environment) | i.e. human exposure to RF fields; keep the German abbreviation, VE501 asks what it stands for |
+| Schutz von Personen in elektromagnetischen Feldern | protection of persons in electromagnetic fields | |
+| Personenschutz | protection of persons | |
+| Sachschutz | protection of property | |
+| aktive Körperhilfen | active implants (active medical implants) | e.g. pacemakers |
+| Herzschrittmacher | pacemaker | |
+| Sicherheitsabstand | safety distance | |
+| Personenschutz-Sicherheitsabstand / Personenschutzabstand | safety distance for the protection of persons | |
+| standortbezogener Sicherheitsabstand | site-specific safety distance | |
+| kontrollierbarer Bereich | controllable area | the area under the operator's control |
+| Anzeige (BEMFV) | notification | trap: *Anzeige* is also a meter reading / display, see §11 |
+| Anzeigeverfahren | notification procedure | |
+| Nachweisverfahren | verification procedure | |
+| Standortbescheinigung | site certificate | |
+| Bewertungsverfahren / vereinfachtes Bewertungsverfahren | assessment procedure / simplified assessment procedure | |
+| Watt Wächter | Watt Wächter (BNetzA calculation tool) | proper name, keep |
+| Feldstärkemessung | field-strength measurement | |
+| Fernfeldberechnung / Nahfeldberechnung | far-field calculation / near-field calculation | |
+| Grenzwert / Grenzwerte | limit / limit values | |
+| Dokumentation | documentation; records | |
+| Lageplan | site plan | |
+| Bauzeichnung | construction drawing | |
+| Bemaßung | dimensions | |
+| Antennendiagramm | antenna (radiation) pattern | |
+| Gesamtleistung | total power | |
+
+## 2. Operating
+
+| German | English | Note |
+|---|---|---|
+| Betrieb / Funkbetrieb | operation; operating | |
+| Sendebetrieb | transmitting; transmission | |
+| Amateurfunkverkehr / Funkverkehr | amateur radio communication / radio communication; traffic | |
+| Abwicklung des Amateurfunkverkehrs | conduct of amateur radio communication | catalogue heading |
+| Betriebsabwicklung | operating procedure(s) | |
+| betriebliche Kenntnisse | operating knowledge | parallel to *technical knowledge* and *knowledge of regulations* |
+| Kenntnisse von Vorschriften | knowledge of regulations | |
+| technische Kenntnisse | technical knowledge | |
+| Funkverbindung / Verbindung | contact (QSO) | not "radio connection"; in circuits *Verbindung* = connection |
+| Direktverbindung | direct contact | as opposed to via a repeater |
+| Gegenstation | the other station; the station worked | |
+| Funkgerät | radio; transceiver | |
+| Amateurfunkgerät | amateur radio equipment; amateur transceiver | |
+| Funkstation / Station | station | |
+| Anruf | call | |
+| allgemeiner Anruf (CQ) | general call (CQ) | |
+| gezielter Anruf | directed call | |
+| Anruffrequenz | calling frequency | |
+| Aktivitätszentrum | centre of activity | British *centre* |
+| Antwort / antworten | reply; answer | |
+| Rapport | (signal) report | |
+| RST-System | RST system | |
+| Lesbarkeit | readability | |
+| Signalstärke | signal strength | |
+| Tonqualität / Ton | tone (quality) | |
+| Signalbeurteilung | signal reports | catalogue heading |
+| S-Meter / S-Meter-Anzeige | S meter / S-meter reading | |
+| S-Stufe | S unit | "eine S-Stufe = 6 dB" → "one S unit" |
+| Buchstabieralphabet / Buchstabiertafel | phonetic alphabet | RSGB term |
+| internationales Buchstabieralphabet | international phonetic alphabet | lower case, so it is not taken for the linguists' IPA; the words themselves (Alfa, Juliett, X-ray) keep the ITU spelling |
+| buchstabieren | spell (out) | |
+| Stroke (/) | stroke | "Delta Lima 4 Stroke portable" unchanged |
+| betriebliche Abkürzungen | operating abbreviations | |
+| Abkürzung | abbreviation | |
+| Q-Gruppen / Q-Schlüssel | Q codes | |
+| Morsetelegrafie / Telegrafie | Morse telegraphy / telegraphy (CW) | |
+| Morsezeichen / Morsecode | Morse characters / Morse code | |
+| Telefonie / Sprechfunk | telephony; voice | "SSB-Telefonie" → "SSB telephony"; "FM-Sprechfunk" → "FM voice" |
+| Funkfernschreiben (RTTY) | radioteletype (RTTY) | |
+| Bandplan / IARU-Bandplan | band plan / IARU band plan | |
+| Frequenzplan | frequency plan | |
+| Contest | contest | |
+| Ausschreibung (Contest) | contest rules | |
+| Pile-Up | pile-up | |
+| Split-Betrieb | split operation | |
+| Listenbetrieb | list operation | |
+| DX / DX-Pedition | DX / DXpedition | |
+| DX-Cluster | DX cluster | |
+| Fuchsjagd / ARDF | direction finding (ARDF); foxhunt | RSGB: *ARDF* or *DF hunt*; use "foxhunt" only in informal course text |
+| Fuchs | fox; hidden transmitter | |
+| Relaisfunkstelle / Relais / Repeater | repeater | |
+| Ablage / Frequenzablage | (repeater) shift; offset | |
+| Eingabefrequenz / Ausgabefrequenz | input frequency / output frequency | repeater sense |
+| Baken | beacons | |
+| Satellit / Amateurfunksatellit | satellite / amateur satellite | |
+| Transponder | transponder | |
+| Uplink / Downlink | uplink / downlink | |
+| Digipeater | digipeater | |
+| Linkstrecke | link | |
+| Crossband-Betrieb | crossband operation | |
+| Doppeln | doubling | two stations transmitting at once |
+| Notfunk / Notfunkverkehr | emergency communications | |
+| Nachrichtenverkehr | message handling; traffic | |
+| Naturkatastrophen | natural disasters | |
+| Notfall / Notmeldung / Notruf | emergency / distress message / distress call | |
+| Hilfeleistung | assistance | |
+| QSL-Karte | QSL card | |
+| QSL-Vermittlung / QSL-Büro | QSL bureau | |
+| Logbuch / Stationstagebuch | log / station log | "Stationstagebuch und QSL-Karten" → "Station log and QSL cards" |
+| Hörerkennzeichen / SWL | short-wave listener identifier / SWL | |
+| Diplom | award | operating awards, not diplomas |
+| Uhrzeit / Zeitpunkt | time | |
+| Ortsdatum / Ortszeit | local date / local time | |
+| koordinierte Weltzeit (UTC) | Coordinated Universal Time (UTC) | |
+| Mitteleuropäische Zeit (MEZ) | Central European Time (CET) | |
+| Mitteleuropäische Sommerzeit (MESZ) | Central European Summer Time (CEST) | |
+| Maidenhead-Locator / Locator | Maidenhead locator / locator | |
+| Field / Square / Subsquare | field / square / subsquare | |
+| Großkreis / kurzer Weg / langer Weg | great circle / short path / long path | |
+| Azimut / Elevation | azimuth / elevation | |
+| Rotor / Rotorsteuerung | rotator / rotator controller | British *rotator* |
+| Beam-Karte | great-circle map (beam heading map) | |
+| Wasserfalldiagramm / Wasserfall-Darstellung | waterfall display | |
+| Amplitudenspektrum | (amplitude) spectrum display | |
+| Mikrofon | microphone | |
+| PTT | PTT | |
+| VOX | VOX | |
+| Skimmer / Reverse Beacon Network | skimmer / Reverse Beacon Network | |
+| Hotspot | hotspot | |
+| Sprechgruppe / Talkgroup | talkgroup | |
+| CB-Funk | CB radio | |
+| Deutschland | Germany | |
+| Österreich / Schweiz | Austria / Switzerland | |
+| Niederlande / Belgien | the Netherlands / Belgium | |
+| Dänemark / Schweden / Polen / Spanien | Denmark / Sweden / Poland / Spain | |
+| Kanada / Australien / Brasilien | Canada / Australia / Brazil | |
+| Ausland / im Ausland | abroad | |
+
+## 3. Electrical basics, quantities and mathematics
+
+| German | English | Note |
+|---|---|---|
+| Größe (physikalische) | quantity | not "size" |
+| Größen und Einheiten | quantities and units | |
+| Einheit | unit | |
+| Einheitenvorsatz | unit prefix | |
+| Zehnerpotenz | power of ten | |
+| Wert / Betrag | value / magnitude | |
+| Bezugsgröße / Bezug | reference quantity / reference | |
+| Formel / Formelsammlung | formula / formula sheet | |
+| gegeben / gesucht | given / required (to find) | worked-solution labels |
+| Lösungsweg | solution; method | |
+| Kehrwert | reciprocal | |
+| Verhältnis | ratio | |
+| Faktor | factor | |
+| Prozentsatz | percentage | |
+| Logarithmus (dekadisch / natürlich) | logarithm (common / natural) | |
+| Dezibel (dB) / Bel | decibel (dB) / bel | |
+| Pegel | level | |
+| Binäres Zahlensystem / Dualsystem | binary number system | |
+| Dualzahl / Binärzahl | binary number | |
+| Dezimalsystem / Dezimalzahl | decimal system / decimal number | |
+| Stellenwert | place value | |
+| Ladung / Elektrizitätsmenge | charge / quantity of electricity | |
+| Ladungsträger | charge carrier | |
+| Elektronen | electrons | |
+| Spannung | voltage | RSGB uses *voltage*; *potential difference* only where the German says Potentialdifferenz |
+| Strom / Stromstärke | current | trap: *Strom* in "Stromversorgung" = power (supply) |
+| Gleichstrom / Wechselstrom | direct current (DC) / alternating current (AC) | |
+| Gleichspannung / Wechselspannung | DC voltage / AC voltage | |
+| Widerstand (Größe) | resistance | trap: the component is a *resistor*, see §4 |
+| Leitwert | conductance | |
+| Leistung | power | |
+| Energie / Arbeit | energy / work | |
+| Wattstunde / Kilowattstunde | watt-hour / kilowatt-hour | |
+| Amperestunde (Ah) | ampere-hour (Ah) | |
+| Coulomb / Joule / Watt / Volt / Ampere / Ohm / Farad / Henry / Hertz | coulomb / joule / watt / volt / ampere / ohm / farad / henry / hertz | lower case as unit names |
+| Ohmsches Gesetz | Ohm's law | |
+| Proportionalitätsfaktor | constant of proportionality | |
+| Stromkreis | circuit | "Der Stromkreis" → "The circuit" |
+| technische / physikalische Stromrichtung | conventional current flow / electron flow | |
+| Verbraucher | load | not "consumer" |
+| Leiter | conductor | |
+| Nichtleiter / Isolator | non-conductor / insulator | trap: English *isolator* is a switch or a microwave device |
+| Halbleiter | semiconductor | |
+| Leitfähigkeit | conductivity | |
+| spezifischer Widerstand | resistivity | |
+| Querschnitt | cross-sectional area | |
+| Temperaturkoeffizient | temperature coefficient | |
+| Raumtemperatur | room temperature | |
+| Kupfer / Aluminium / Silizium / Germanium | copper / aluminium / silicon / germanium | British *aluminium*; *silicon* not *silicone* |
+| Spannungsquelle / Stromquelle | voltage source / current source | |
+| Strom- und Spannungsquellen | current and voltage sources | |
+| Konstantstromquelle | constant-current source | |
+| Ersatzschaltbild | equivalent circuit | |
+| Innenwiderstand | internal resistance | |
+| Leerlauf / Leerlaufspannung | open circuit / open-circuit voltage | |
+| Klemmenspannung | terminal voltage | |
+| Kurzschluss / Kurzschlussstrom | short circuit / short-circuit current | |
+| Leistungsanpassung / Spannungsanpassung / Stromanpassung | power matching / voltage matching / current matching | |
+| Pluspol / Minuspol | positive terminal / negative terminal | |
+| Klemme | terminal | |
+| Batterie / Akku (Akkumulator) | battery / rechargeable battery | |
+| Nennkapazität (Akku) | rated capacity | |
+| Solarzelle / Photovoltaikmodul | solar cell / photovoltaic (PV) module | |
+| Feld | field | |
+| elektrisches Feld | electric field | "Elektrisches Feld" → "Electric field" |
+| magnetisches Feld / Magnetfeld | magnetic field | |
+| elektromagnetisches Feld | electromagnetic field | |
+| Feldstärke | field strength | |
+| Feldlinien | field lines | |
+| homogenes Feld | uniform field | |
+| E-Feldkomponente / H-Feldkomponente | E-field component / H-field component | |
+| Dielektrikum | dielectric | |
+| Durchschlagsfestigkeit | dielectric strength | |
+| Induktion | induction | |
+| Momentaufnahme | snapshot | |
+| Ausbreitungsrichtung | direction of propagation | |
+| Ausbreitungsgeschwindigkeit | velocity of propagation | |
+| Lichtgeschwindigkeit | speed of light | |
+| Freiraum | free space | |
+| Feldwellenwiderstand (des Freiraums) | impedance of free space | 377 Ω |
+| Schwingung | oscillation | |
+| Sinusförmige Signale / Nichtsinusförmige Signale | sinusoidal signals / non-sinusoidal signals | |
+| Sinusschwingung / Rechteck- / Dreieck- / Sägezahnschwingung | sine wave / square wave / triangular wave / sawtooth wave | |
+| Rechtecksignal | square-wave signal | |
+| Amplitude | amplitude | |
+| Periode / Periodendauer | period | |
+| Frequenz | frequency | |
+| Kreisfrequenz | angular frequency | |
+| Wellenlänge | wavelength | |
+| Halbwelle | half cycle | not "half wave" for a sine wave; *half-wave* for antennas and rectifiers |
+| Phase / Phasenwinkel / Phasenverschiebung | phase / phase angle / phase shift (phase difference) | |
+| gleichphasig / gegenphasig | in phase / in antiphase | |
+| Spitzenwert / Scheitelwert | peak value | |
+| Spitze-Spitze-Wert | peak-to-peak value | |
+| Effektivwert | RMS value | *root-mean-square* |
+| Mittelwert | mean (average) value | |
+| Augenblickswert | instantaneous value | |
+| Grundschwingung / Grundfrequenz | fundamental / fundamental frequency | |
+| Harmonische | harmonic | |
+| Oberschwingung / Oberwelle | harmonic | trap: the German *n-te Oberwelle* is the *(n+1)th harmonic* (AB402: "third Oberwelle" = fourth harmonic). Where the German contrasts the two words, write "the third overtone (Oberwelle)" vs "the fourth harmonic" |
+| Oberschwingungsanteil / Oberwellenanteil | harmonic content | |
+| Vielfache (ganzzahlige) | (integer) multiples | |
+| Wirkleistung / Blindleistung / Scheinleistung | real (active) power / reactive power / apparent power | |
+| Verlustleistung | power dissipation; power loss | |
+| Wirkungsgrad | efficiency | |
+| Wärme | heat | |
+| Zeitkonstante | time constant | |
+| Schwebung | beat | |
+
+## 4. Components
+
+| German | English | Note |
+|---|---|---|
+| Bauteil / Bauelement | component | |
+| Schaltzeichen | circuit symbol | |
+| Schaltplan / Schaltbild | circuit diagram | British; not "schematic" in formal text |
+| Widerstand (Bauteil) | resistor | trap: the quantity is *resistance* |
+| Widerstandswert | resistance value | |
+| Farbring / Farbcode | colour band / colour code | British *colour* |
+| Toleranz | tolerance | |
+| Normreihe (E-Reihe) | preferred-value series (E series) | |
+| Belastbarkeit / Nennleistung | power rating | |
+| Drahtwiderstand | wirewound resistor | |
+| Kohleschichtwiderstand | carbon-film resistor | |
+| Metallschichtwiderstand | metal-film resistor | |
+| Metalloxidschichtwiderstand | metal-oxide resistor | |
+| SMD-Widerstand | SMD resistor (surface-mount) | |
+| Potentiometer | potentiometer | |
+| Trimmer / Trimmpotentiometer | preset (trimmer) | |
+| Kaltleiter (PTC) | PTC thermistor | |
+| Heißleiter (NTC) | NTC thermistor | |
+| LDR (Fotowiderstand) | light-dependent resistor (LDR) | |
+| VDR (Varistor) | varistor (VDR) | |
+| Lastwiderstand | load resistor | |
+| Vorwiderstand | series resistor; dropping resistor | for meters: *multiplier* |
+| Kondensator | capacitor | |
+| Kapazität | capacitance | trap: also "capacity" of a battery (Ah) |
+| Plattenkondensator | parallel-plate capacitor | |
+| Elektrolytkondensator (Elko) | electrolytic capacitor | |
+| Keramikkondensator / Folienkondensator / Luftkondensator | ceramic / film / air-spaced capacitor | |
+| Drehkondensator | variable capacitor | |
+| Verlustfaktor | dissipation factor; loss tangent (tan δ) | |
+| Spannungsfestigkeit | voltage rating | |
+| Spule | inductor; coil | *inductor* for the component, *coil* for the physical winding |
+| Induktivität | inductance | |
+| Windung / Windungszahl | turn / number of turns | |
+| Wicklung | winding | |
+| Kern / Eisenkern / Ferritkern / Ringkern | core / iron core / ferrite core / toroidal core (toroid) | |
+| Luftspule | air-cored inductor | |
+| Induktivitätskonstante (A_L-Wert) | inductance factor (A_L value) | |
+| Drossel / HF-Drossel | choke / RF choke | |
+| Übertrager | transformer; signal transformer | where the German contrasts it with *Transformator*: *signal transformer* vs *power transformer* ("Übertrager und Transformatoren" → "Signal and power transformers") |
+| Transformator | transformer; power transformer | |
+| Primärwicklung / Sekundärwicklung | primary winding / secondary winding | |
+| Übersetzungsverhältnis / Windungsverhältnis | turns ratio | |
+| Autotransformator / Spartransformator | autotransformer | |
+| Mittelanzapfung / Anzapfung | centre tap / tap | British *centre* |
+| Diode | diode | |
+| Halbleiterdiode | semiconductor diode | |
+| PN-Übergang / Grenzschicht | PN junction / junction | |
+| Sperrschicht | depletion layer | |
+| N-Seite / P-Seite (N-Teil / P-Teil) | N-type side / P-type side | |
+| Dotierung | doping | |
+| Atommangel / Überschuss (Elektronen) | deficiency / excess (of electrons) | holes / free electrons |
+| Anode / Kathode | anode / cathode | |
+| Durchlassrichtung / Sperrrichtung | forward direction (forward bias) / reverse direction (reverse bias) | |
+| Durchlassspannung / Flussspannung | forward voltage | |
+| Sperrspannung | reverse voltage | |
+| Durchbruchspannung | breakdown voltage | |
+| Kennlinie | characteristic (curve) | |
+| Siliziumdiode / Germaniumdiode / Schottkydiode | silicon diode / germanium diode / Schottky diode | |
+| Z-Diode / Zenerdiode | Zener diode | |
+| Kapazitätsdiode | varactor (variable-capacitance diode) | |
+| Leuchtdiode (LED) | light-emitting diode (LED) | |
+| Gleichrichterdiode | rectifier diode | |
+| Transistor | transistor | |
+| Bipolartransistor | bipolar transistor (BJT) | |
+| NPN / PNP | NPN / PNP | |
+| Basis / Emitter / Kollektor | base / emitter / collector | |
+| Basisstrom / Kollektorstrom | base current / collector current | |
+| Basis-Emitter-Spannung | base-emitter voltage | |
+| Feldeffekttransistor (FET) | field-effect transistor (FET) | |
+| Sperrschicht-FET (N-Kanal / P-Kanal) | junction FET (JFET), N-channel / P-channel | |
+| MOSFET / LDMOS | MOSFET / LDMOS | |
+| Gate / Source / Drain | gate / source / drain | |
+| Drainstrom / Gate-Source-Spannung | drain current / gate-source voltage | |
+| selbstsperrend / selbstleitend | enhancement-mode / depletion-mode | trap: literal "self-blocking" is wrong |
+| Massepotential | chassis potential; 0 V (common) | |
+| Integrierte Schaltkreise (IC) | integrated circuits (ICs) | |
+| Operationsverstärker | operational amplifier (op-amp) | |
+| MMIC | MMIC (monolithic microwave integrated circuit) | |
+| Spannungsregler (linear) / Festspannungsregler | (linear) voltage regulator / fixed voltage regulator | |
+| Quarz | crystal | *quartz crystal* only for the material |
+| Röhre / Elektronenröhre | valve (thermionic valve) | British *valve*, not *tube* |
+| Gasentladungsröhre / Gasableiter | gas discharge tube (GDT) | fixed English name; *tube* here |
+| Relais (Bauteil) | relay | trap: *Relais* in operating = repeater |
+| Schalter | switch | |
+| Sicherung | fuse | |
+| Feinsicherung / Schmelzsicherung | miniature fuse / fuse | |
+| Kühlkörper | heatsink | |
+| Gehäuse / Metallgehäuse / Kunststoffgehäuse | case; enclosure / metal case / plastic case | |
+| Leiterplatte | printed circuit board (PCB) | |
+| Lampe / Leuchtmittel | lamp / lamp (light source) | |
+| Lautsprecher / Kopfhörer | loudspeaker / headphones | |
+| Steckverbinder | connector | |
+| Stecker / Buchse | plug / socket | |
+| BNC / N / SMA / PL-259 / SO-239 | BNC / N / SMA / PL-259 / SO-239 | unchanged |
+| Masse (Schaltzeichen) | chassis | trap: in symbol questions *Masse* and *Erde* are separate answers → *chassis* vs *earth* |
+| Erde (Schaltzeichen) | earth | |
+| Antenne (Schaltzeichen) | antenna | |
+
+## 5. Circuits
+
+| German | English | Note |
+|---|---|---|
+| Schaltung | circuit | |
+| Reihenschaltung / Serienschaltung | series connection; series circuit | |
+| Parallelschaltung | parallel connection; parallel circuit | |
+| Reihen- und Parallelschaltung | series and parallel connection | |
+| Gesamtwiderstand / Gesamtkapazität | total resistance / total capacitance | |
+| Spannungsteiler (belastet / unbelastet) | potential divider (loaded / unloaded) | British *potential divider*; *voltage divider* also understood |
+| Brückenschaltung / Wheatstone-Brücke | bridge circuit / Wheatstone bridge | |
+| Blindwiderstand | reactance | |
+| induktiver / kapazitiver Blindwiderstand | inductive / capacitive reactance | |
+| Wirkwiderstand | resistance (resistive part) | |
+| Scheinwiderstand / Impedanz | impedance | |
+| Blindanteil / Wirkanteil | reactive part / resistive (real) part | |
+| Verlustwiderstand | loss resistance | |
+| Schwingkreis | tuned circuit; resonant circuit | RSGB: *tuned circuit* |
+| Reihenschwingkreis | series tuned circuit | |
+| Parallelschwingkreis | parallel tuned circuit | |
+| Schwingkreise und Filter | tuned circuits and filters | |
+| Resonanz / Resonanzfrequenz | resonance / resonant frequency | |
+| Resonanzkurve | resonance curve | |
+| Güte / Gütefaktor | Q factor; Q | |
+| Bandbreite | bandwidth | |
+| Grenzfrequenz | cut-off frequency | |
+| Filter | filter | |
+| Tiefpass / Tiefpassfilter | low-pass filter | |
+| Hochpass / Hochpassfilter | high-pass filter | |
+| Bandpass / Bandpassfilter / Bandfilter | band-pass filter | |
+| Bandsperre / Bandstoppfilter | band-stop filter | |
+| Sperrkreis | rejector (parallel-resonant trap) | RSGB *rejector circuit*; in antennas: *trap* |
+| Saugkreis | acceptor (series-resonant trap) | RSGB *acceptor circuit* |
+| Notchfilter / Kerbfilter | notch filter | |
+| Quarzfilter | crystal filter | |
+| Keramikfilter | ceramic filter | |
+| Oberwellenfilter | harmonic filter | |
+| Pi-Filter / Collins-Filter | pi network (pi filter) | |
+| Filtercharakteristik / Flankensteilheit | filter response / skirt steepness (roll-off) | |
+| Diplexer | diplexer | |
+| Kopplung (lose / kritisch / überkritisch) | coupling (loose / critical / over-critical) | |
+| Koppelkondensator | coupling capacitor | |
+| Abblockkondensator / Entkoppelkondensator | decoupling capacitor; bypass capacitor | |
+| Strom- und Spannungsversorgung | power supplies | catalogue heading |
+| Stromversorgung / Spannungsversorgung | power supply | |
+| Netzteil / Netzgerät | (mains) power supply unit (PSU) | |
+| Steckernetzteil | plug-in power supply (wall adaptor) | |
+| Schaltnetzteil | switch-mode power supply (SMPS) | |
+| linear geregeltes Netzteil | linear (regulated) power supply | |
+| Gleichrichter / Gleichrichtung | rectifier / rectification | |
+| Einweggleichrichter | half-wave rectifier | |
+| Vollweggleichrichter (Mittelpunktschaltung) | full-wave (centre-tap) rectifier | |
+| Brückengleichrichter | bridge rectifier | |
+| Ladekondensator | reservoir capacitor | RSGB term |
+| Siebkondensator / Glättungskondensator | smoothing capacitor | |
+| Siebung / Siebglied | smoothing / smoothing filter | |
+| Brummspannung / Restwelligkeit | ripple voltage / ripple | |
+| Spannungsstabilisierung | voltage stabilisation | |
+| Längstransistor | series pass transistor | |
+| Spannungswandler / DC/DC-Wandler | DC–DC converter | |
+| Step-Up-Wandler / Step-Down-Wandler | boost converter / buck converter | |
+| Schaltfrequenz | switching frequency | |
+| Fernspeiseweiche / Bias-T | bias tee | |
+| galvanische Trennung | galvanic isolation | |
+| Versorgungsspannung / Betriebsspannung | supply voltage / operating voltage | |
+| Verstärker | amplifier | |
+| Verstärkung / Verstärkungsfaktor | gain / gain factor | |
+| Spannungsverstärkung / Leistungsverstärkung | voltage gain / power gain | |
+| Emitterschaltung | common-emitter circuit | |
+| Kollektorschaltung (Emitterfolger) | common-collector circuit (emitter follower) | |
+| Basisschaltung | common-base circuit | |
+| Sourceschaltung / Drainschaltung / Gateschaltung | common-source / common-drain / common-gate circuit | |
+| Arbeitspunkt / Arbeitspunkteinstellung | operating point (bias point) / biasing | |
+| Basisvorspannung / Vorspannung | base bias / bias | |
+| Ruhestrom | quiescent current | |
+| A-Betrieb / B-Betrieb / AB-Betrieb / C-Betrieb | class A / class B / class AB / class C operation | |
+| Gegentaktschaltung / Gegentaktendstufe | push-pull circuit / push-pull output stage | |
+| Gegenkopplung / Mitkopplung / Rückkopplung | negative feedback / positive feedback / feedback | |
+| Eingangsimpedanz / Ausgangsimpedanz | input impedance / output impedance | |
+| Eingangswiderstand / Ausgangswiderstand | input resistance / output resistance | |
+| Eingang / Ausgang | input / output | |
+| Eingangssignal / Ausgangssignal | input signal / output signal | |
+| Treiberstufe | driver stage | |
+| Stufe | stage | |
+| Verzerrung | distortion | |
+| Übersteuerung | overdriving; overload | |
+| Begrenzung / Begrenzer | limiting / limiter | |
+| Linearität / linear | linearity / linear | |
+| Eigenschwingungen / wilde Schwingungen / parasitäre Schwingungen | self-oscillation / parasitic oscillations | |
+| Oszillator | oscillator | |
+| Schwingbedingung | condition for oscillation | |
+| Dreipunktschaltung (Colpitts / Hartley) | three-point oscillator (Colpitts / Hartley) | |
+| LC-Oszillator | LC oscillator | |
+| Quarzoszillator | crystal oscillator | |
+| VFO / VCO | VFO (variable-frequency oscillator) / VCO (voltage-controlled oscillator) | |
+| XO / TCXO / OCXO / GPSDO | XO / TCXO / OCXO / GPSDO | |
+| Frequenzstabilität / Langzeitstabilität | frequency stability / long-term stability | |
+| Phasenregelkreis / Phasenregelschleife (PLL) | phase-locked loop (PLL) | |
+| Phasenvergleicher | phase detector (phase comparator) | |
+| Schleifenfilter | loop filter | |
+| Frequenzteiler / Teiler | frequency divider / divider | |
+| Referenzsignal / Referenzoszillator | reference signal / reference oscillator | |
+| eingerastet | locked | |
+| Direkte Digitale Synthese (DDS) | direct digital synthesis (DDS) | |
+| Phasenakkumulator | phase accumulator | |
+| Frequenzvervielfacher / Vervielfacher | frequency multiplier / multiplier | |
+| Dämpfungsglied | attenuator | |
+| Dämpfung | attenuation; loss | *damping* only for oscillations |
+| Modulator / Demodulator | modulator / demodulator | |
+| Mischer / Mischstufe | mixer / mixer stage | |
+| Mischprodukt / Mischung | mixing product / mixing | |
+| Balancemischer / Ringmischer | balanced mixer / ring mixer (double-balanced mixer) | |
+| Treiber | driver | |
+| Pufferstufe | buffer stage | |
+
+## 6. Receivers and transmitters
+
+| German | English | Note |
+|---|---|---|
+| Sender | transmitter | |
+| Empfänger | receiver | |
+| Transceiver / Sendeempfänger | transceiver | |
+| Sender und Empfänger | transmitters and receivers | catalogue heading |
+| Empfängerstufen / Senderstufen | receiver stages / transmitter stages | |
+| Blockschaltbild / Blockdiagramm | block diagram | |
+| Baugruppe / Block | module; block | |
+| Geradeausempfänger | tuned radio frequency (TRF) receiver | |
+| Detektorempfänger | crystal set | |
+| Direktüberlagerungsempfänger / Direktmischer | direct-conversion receiver | |
+| Überlagerungsempfänger / Superhet | superheterodyne receiver (superhet) | |
+| Einfachsuper / Doppelsuper | single-conversion superhet / double-conversion superhet | |
+| Zwischenfrequenz (ZF) | intermediate frequency (IF) | |
+| ZF-Verstärker / ZF-Filter | IF amplifier / IF filter | |
+| Spiegelfrequenz | image frequency | |
+| Spiegelfrequenzunterdrückung | image rejection | |
+| Trennschärfe / Selektivität | selectivity | |
+| Nahselektion | close-in selectivity | |
+| Empfindlichkeit | sensitivity | |
+| Großsignalfestigkeit | strong-signal performance (large-signal handling) | |
+| Intercept-Punkt (IP3) | (third-order) intercept point (IP3) | |
+| Kreuzmodulation | cross-modulation | |
+| Intermodulation | intermodulation | |
+| Blocking / Zustopfen | blocking | |
+| Vorverstärker | preamplifier (preamp) | |
+| Vorselektion / Preselektor | preselector | |
+| Roofing-Filter | roofing filter | |
+| Rauschen / Eigenrauschen | noise / internal noise | |
+| Rauschzahl | noise factor (linear) / noise figure (in dB) | trap: German *Rauschzahl* covers both; AF229 "Rauschzahl F = 2" is a noise factor, AF228 "Rauschzahl von 1,8 dB" a noise figure |
+| Rauschmaß | noise figure (dB) | |
+| Signal-Rausch-Verhältnis (SNR) | signal-to-noise ratio (SNR) | |
+| Nutzsignal | wanted signal | |
+| Störsignal | unwanted signal; interfering signal | |
+| Produktdetektor | product detector | |
+| Hüllkurvendemodulator | envelope detector | |
+| Flankendiskriminator | slope detector | |
+| BFO / Hilfsträgeroszillator | beat frequency oscillator (BFO) / carrier insertion oscillator | |
+| Automatische Verstärkungsregelung (AGC / AVR) / Regelspannung | automatic gain control (AGC) / AGC voltage | |
+| ALC (Automatic Level Control) | automatic level control (ALC) | |
+| Pegelregelung | level control | |
+| RF-Gain / HF-Verstärkungsregler | RF gain (control) | |
+| Rauschsperre / Squelch | squelch | |
+| RIT | RIT (receiver incremental tuning) | |
+| Lautstärke | volume | |
+| Display / Anzeige | display | |
+| NF-Verstärker | audio-frequency (AF) amplifier | NF → AF |
+| HF-Verstärker | RF amplifier | HF (Hochfrequenz) → RF |
+| HF-Leistungsverstärker / Leistungsverstärker (PA) | RF power amplifier / power amplifier (PA) | |
+| Endstufe / Senderendstufe | output stage; power amplifier (PA) | |
+| Linearverstärker / Linear-Endstufe | linear amplifier | |
+| Schaltendstufe / Klasse-E-Verstärker | switching amplifier / class E amplifier | |
+| Ausgangsleistung / HF-Ausgangsleistung | output power / RF output power | |
+| Eingangsleistung | input power | |
+| Senderausgang | transmitter output | |
+| Nebenaussendungen / Nebenprodukte | spurious emissions / spurious products | RR 1.145 |
+| Außerbandaussendungen | out-of-band emissions | RR 1.144 |
+| Splatter | splatter | |
+| Tastklicks | key clicks | |
+| Chirp | chirp | |
+| Mikrofonverstärker / Sprachprozessor / Kompressor | microphone amplifier / speech processor / compressor | |
+| Konverter / Transverter | converter / transverter | "Konverter und Transverter" → "Converters and transverters" |
+| LNB (Low Noise Block) | LNB (low-noise block downconverter) | |
+| Digitale Signalverarbeitung (DSP) | digital signal processing (DSP) | |
+| Signalprozessor | (digital) signal processor | |
+| SDR (Software Defined Radio) | software-defined radio (SDR) | |
+| CAT-Schnittstelle | CAT interface | |
+| Schnittstelle | interface | |
+| Computer / Rechner | computer | |
+| Remote-Interface / Steuersignale | remote interface / control signals | |
+| Watchdog | watchdog | |
+
+## 7. Modulation and transmission modes
+
+| German | English | Note |
+|---|---|---|
+| Modulation / Modulationsverfahren / Modulationsart | modulation / modulation method / mode | *Modulationsart* on a transceiver = *mode* |
+| Modulation allgemein | modulation in general | |
+| Übertragungsverfahren | transmission method; mode | "Modulations- und Übertragungsverfahren" → "Modulation and transmission methods" |
+| Träger / Trägerfrequenz / Trägersignal | carrier / carrier frequency / carrier signal | |
+| Modulationssignal / Modulationsfrequenz | modulating signal / modulating frequency | |
+| Amplitudenmodulation (AM) | amplitude modulation (AM) | |
+| Modulationsgrad | modulation depth | AM; expressed in % |
+| Übermodulation | overmodulation | |
+| Hüllkurve / Modulationshüllkurve | envelope / modulation envelope | |
+| Seitenband / oberes (USB) / unteres (LSB) | sideband / upper (USB) / lower (LSB) | |
+| Einseitenbandmodulation (SSB) | single-sideband modulation (SSB) | |
+| Zweiseitenband (DSB) | double sideband (DSB) | |
+| Trägerunterdrückung | carrier suppression | |
+| Balancemodulator | balanced modulator | |
+| Seitenbandunterdrückung | sideband suppression | |
+| Frequenzmodulation (FM) | frequency modulation (FM) | |
+| Phasenmodulation (PM) | phase modulation (PM) | |
+| Winkelmodulation | angle modulation | |
+| Frequenzhub / Hub | (frequency) deviation | |
+| Modulationsindex | modulation index | |
+| Carson-Formel / Carson-Bandbreite | Carson's rule / Carson bandwidth | |
+| Preemphasis / Deemphasis | pre-emphasis / de-emphasis | |
+| CW (Tastfunk) / Tastung | CW / keying | |
+| Spitzenleistung (PEP) / Hüllkurvenspitzenleistung | peak envelope power (PEP) | |
+| mittlere Leistung | mean power | RR term *mean power* |
+| Zweitonsignal | two-tone (test) signal | |
+| Telefonie | telephony | |
+| Amateurfernsehen (ATV) | amateur television (ATV) | |
+| SSTV (Slow Scan Television) | slow-scan television (SSTV) | |
+| Standbilder / bewegte Bilder | still pictures / moving pictures | |
+| Polarmodulation | polar modulation | |
+
+## 8. Digital techniques
+
+| German | English | Note |
+|---|---|---|
+| Digitale Übertragungsverfahren | digital transmission methods; digital modes | catalogue heading "Digital transmission methods", parallel to its parent "Modulation and transmission methods" |
+| Digimode / Digimodes | digital mode / data modes | |
+| Bit / Byte / MBit | bit / byte / Mbit | |
+| Datenübertragungsrate / Bitrate | data rate / bit rate | |
+| Symbol / Symbolrate | symbol / symbol rate | |
+| Baud | baud | |
+| Datenmenge | amount of data | |
+| Datenpaket / Datenstrom | data packet / data stream | |
+| Umtastung | keying; shift keying | |
+| Amplitudenumtastung (ASK) / On-Off-Keying | amplitude-shift keying (ASK) / on-off keying (OOK) | |
+| Frequenzumtastung (FSK) / AFSK | frequency-shift keying (FSK) / AFSK | |
+| Phasenumtastung (PSK) / BPSK / QPSK | phase-shift keying (PSK) / BPSK / QPSK | |
+| Quadraturamplitudenmodulation (QAM) | quadrature amplitude modulation (QAM) | |
+| OFDM | orthogonal frequency-division multiplexing (OFDM) | |
+| Konstellationsdiagramm | constellation diagram | |
+| I/Q (Inphase- / Quadraturkomponente) | I/Q (in-phase / quadrature component) | |
+| Q-Anteil | Q component | |
+| Mapping / Mapper | mapping / mapper | |
+| Gray-Code | Gray code | |
+| Intersymbolinterferenz | intersymbol interference (ISI) | |
+| Shannon-Hartley-Gesetz | Shannon–Hartley theorem | |
+| AWGN (weißes gaußsches Rauschen) | additive white Gaussian noise (AWGN) | |
+| Kanal / Übertragungskanal | channel / transmission channel | |
+| Quellencodierung / Kanalcodierung | source coding / channel coding | |
+| Redundanz | redundancy | |
+| Prüfbit / Paritätsbit | check bit / parity bit | |
+| CRC (zyklische Redundanzprüfung) | cyclic redundancy check (CRC) | |
+| Vorwärtsfehlerkorrektur (FEC) | forward error correction (FEC) | |
+| Fehlerkorrektur / Fehlererkennung | error correction / error detection | |
+| Synchronisation | synchronisation | |
+| Vielfachzugriff / TDMA / FDMA / CDMA | multiple access / TDMA / FDMA / CDMA | |
+| Zeitschlitz | time slot | |
+| Color Code (DMR) | colour code (DMR) | British spelling in prose; "Color Code" when quoting a DMR menu item |
+| DMR / D-STAR / C4FM / FT8 / PSK31 / Olivia / RTTY | unchanged | mode names stay |
+| Digital Voice (DV) | digital voice (DV) | |
+| Paketvermittlung | packet switching | |
+| Netzwerk / Router / Subnetzmaske | network / router / subnet mask | |
+| Internet | the internet | lower case in British usage |
+| Abtastung / abtasten | sampling / sample | |
+| Abtastrate / Samplingrate | sampling rate | |
+| Sample / Samples | sample / samples | |
+| Abtasttheorem (Nyquist) | sampling theorem (Nyquist) | |
+| Aliasing / Antialiasingfilter | aliasing / anti-aliasing filter | |
+| Quantisierung | quantisation | |
+| Auflösung (Bit) | resolution | |
+| Wertebereich | (value) range | |
+| A/D-Umsetzer (ADC) | analogue-to-digital converter (ADC) | British *analogue* |
+| D/A-Umsetzer (DAC) | digital-to-analogue converter (DAC) | |
+| Umsetzer | converter | |
+| Fourier-Transformation / FFT | Fourier transform / FFT | |
+| Zeitbereich / Frequenzbereich | time domain / frequency domain | trap: *Frequenzbereich* in regulation = frequency range |
+| Frequenzspektrum | (frequency) spectrum | |
+| digitales Filter / FIR / IIR | digital filter / FIR / IIR | |
+| Latenz | latency | |
+| Takt / Taktgenerator | clock / clock generator | |
+| FPGA | FPGA | |
+| Software / Programm | software / program | computer *program*, not *programme* |
+
+## 9. Antennas and feeders
+
+| German | English | Note |
+|---|---|---|
+| Antenne | antenna | plural *antennas*; not *aerial* |
+| Antennen und Übertragungsleitungen | antennas and transmission lines | catalogue heading |
+| Antennenmerkmale | antenna characteristics | |
+| Strahler / Strahlerelement | radiator / radiating element (driven element) | |
+| Dipol / Dipol-Antenne | dipole | |
+| Halbwellendipol / λ/2-Dipol | half-wave dipole | |
+| mittengespeister Dipol | centre-fed dipole | |
+| Faltdipol | folded dipole | |
+| Viertelwellenstrahler / λ/4-Vertikalantenne | quarter-wave radiator / quarter-wave vertical | |
+| Vertikalantenne | vertical antenna (vertical) | |
+| Groundplane-Antenne | ground-plane antenna | fixed name; *ground* allowed here |
+| Radials / Gegengewicht | radials / counterpoise | |
+| Marconi-Antenne | Marconi antenna | |
+| Endgespeiste Antenne (End-Fed) | end-fed antenna | |
+| Langdrahtantenne | long-wire antenna | |
+| Windom-Antenne | Windom antenna (off-centre-fed dipole) | |
+| G5RV / W3DZZ / Zeppelin-Antenne | G5RV / W3DZZ / Zepp antenna | |
+| Delta-Loop-Antenne / Quad-Antenne | delta loop / quad | |
+| Magnetic-Loop-Antenne | magnetic loop (small transmitting loop) | |
+| Ganzwellen-Schleifenantenne | full-wave loop | |
+| Yagi-Uda-Antenne | Yagi-Uda antenna (Yagi) | |
+| Richtantenne | directional antenna; beam | |
+| Rundstrahler | omnidirectional antenna | |
+| Kreuzyagi | crossed Yagi | |
+| Direktor / Reflektor | director / reflector | |
+| parasitäre Elemente | parasitic elements | |
+| Boom / Boomlänge | boom / boom length | |
+| Parabolantenne / Parabolspiegel | parabolic dish / parabolic reflector | |
+| Offsetspiegel | offset dish | |
+| Erreger / Erregerantenne | feed; feed antenna | |
+| Hornstrahler | horn antenna | |
+| Helixantenne | helical antenna (helix) | |
+| Mehrbandantenne / Multibandantenne | multiband antenna | |
+| Monobandantenne | monoband antenna | |
+| Trap (Sperrkreis in Antenne) | trap | |
+| Verlängerungsspule | loading coil | |
+| Fußpunktspule | base loading coil | |
+| elektrische Verlängerung / Verkürzung | electrical lengthening / shortening | |
+| Magnetfußantenne | magnetic-mount antenna (mag-mount) | |
+| Isotropstrahler / Kugelstrahler / isotroper Strahler | isotropic radiator | |
+| Gewinn / Antennengewinn | gain / antenna gain | |
+| Gewinnfaktor | gain (as a power ratio) | VD725: "Gewinnfaktor 2,5" → "a gain of 2.5 (as a power ratio)" |
+| dBi / dBd | dBi / dBd | |
+| Strahlungsdiagramm / Richtdiagramm | radiation pattern | |
+| Hauptkeule / Nebenkeule / Rückkeule | main lobe / side lobe / back lobe | |
+| Hauptstrahlrichtung | direction of maximum radiation | |
+| Vor-Rück-Verhältnis | front-to-back ratio | |
+| Öffnungswinkel / Halbwertsbreite | beamwidth / half-power (-3 dB) beamwidth | |
+| Abstrahlwinkel / Erhebungswinkel | angle of radiation; elevation angle | RSGB *take-off angle* in propagation context |
+| Abstrahlung / Strahlung | radiation | |
+| Polarisation (horizontal / vertikal / zirkular) | polarisation (horizontal / vertical / circular) | British *-isation* |
+| Polarisationsdrehung | polarisation rotation (Faraday rotation) | |
+| Strahlungsleistung | radiated power | |
+| äquivalente isotrope Strahlungsleistung (EIRP) | equivalent isotropically radiated power (EIRP) | keep "EIRP" as the German does |
+| effektive Strahlungsleistung (ERP) | effective radiated power (ERP) | |
+| Strahlungsleistung (EIRP und ERP) | radiated power (EIRP and ERP) | catalogue heading |
+| Antenneneingangsleistung | power at the antenna input | |
+| Fußpunktwiderstand / Fußpunktimpedanz / Speisewiderstand | feed-point impedance (feed-point resistance) | |
+| Speisepunkt / Einspeisepunkt | feed point | |
+| Strombauch / Spannungsbauch | current maximum (antinode) / voltage maximum (antinode) | |
+| Stromknoten / Spannungsknoten | current minimum (node) / voltage minimum (node) | |
+| Stromverteilung / Stromkurve | current distribution | |
+| Erregung / Erregerfrequenz | excitation; feeding / feed frequency (operating frequency) | AG203: "Erregung auf 28 MHz" → "fed at 28 MHz" |
+| Resonanzlänge | resonant length | |
+| Verkürzungsfaktor (Antenne) | end-effect correction factor (shortening factor) | trap: for cables the same German word = *velocity factor* |
+| Verkürzungsfaktor (Kabel) | velocity factor | |
+| Übertragungsleitung / Leitung | transmission line / line | |
+| Speiseleitung / Antennenleitung / Antennenkabel | feeder; feed line | RSGB *feeder* |
+| Koaxialkabel / Koaxkabel | coaxial cable (coax) | |
+| Innenleiter / Außenleiter (Schirm) | inner conductor / outer conductor (braid, screen) | British *screen* |
+| Abschirmung | screening; shield | British *screening* |
+| PE-Schaumkabel / Polyethylen / PTFE | foam polyethylene cable / polyethylene / PTFE | |
+| Zweidrahtleitung / Hühnerleiter / Paralleldrahtleitung | twin feeder; open-wire feeder (ladder line) | |
+| symmetrisch / unsymmetrisch | balanced / unbalanced | |
+| Wellenwiderstand | characteristic impedance | |
+| Kabeldämpfung / Kabelverluste | cable loss (attenuation) | |
+| Kabeldämpfungsdiagramm | cable attenuation chart | |
+| Leitungsende / offenes / kurzgeschlossenes Ende | end of the line / open-circuit / short-circuit end | |
+| Lecherleitung | Lecher line | |
+| Viertelwellen-Transformator (λ/4-Leitung) | quarter-wave transformer | |
+| Anpassung | matching | |
+| Fehlanpassung | mismatch | |
+| Anpassung, Transformation, Symmetrierung und Mantelwellen | matching, impedance transformation, balancing and common-mode currents | catalogue heading |
+| Impedanztransformation | impedance transformation | |
+| Symmetrierung / Symmetrierglied | balancing / balun | |
+| Balun / Un-Un | balun / unun | |
+| Umwegleitung | half-wave coaxial balun (delay-line balun) | |
+| Mantelwellen | common-mode currents | the "sheath waves" on the outside of the braid; RSGB *common-mode current* |
+| Mantelwellensperre (MWS) | common-mode choke (choke balun) | keep "MWS" where the drawing label uses it |
+| stromkompensierte Drossel | common-mode choke | |
+| Gleichtakt / Gegentakt | common mode / differential mode | |
+| Gleichtaktanteil / Gegentaktanteil | common-mode component / differential-mode component | |
+| Antennenanpassgerät / Antennentuner | antenna tuning unit (ATU); antenna tuner | RSGB *ATU* |
+| Anpassglied / Anpassnetzwerk | matching network | |
+| Stehwellenverhältnis (SWR, VSWR) | standing wave ratio (SWR) | |
+| Reflexion / Reflexionsfaktor | reflection / reflection coefficient | |
+| Rückflussdämpfung | return loss | |
+| vorlaufende / rücklaufende Welle (Leistung) | forward / reflected wave (power) | |
+| stehende Welle | standing wave | |
+| Skineffekt | skin effect | |
+| Hohlleiter | waveguide | |
+| Mast / Antennenmast / Gittermast | mast / antenna mast / lattice tower | |
+| Windlast | wind load | |
+| Dachständer | roof-mounted mains overhead-line support | German distribution detail; describe as needed |
+| Freileitung / Hochspannungsleitung | overhead line / high-voltage line | |
+
+## 10. Propagation
+
+| German | English | Note |
+|---|---|---|
+| Wellenausbreitung / Ausbreitung | propagation | |
+| Wellenausbreitung und Ionosphäre | propagation and the ionosphere | |
+| Ausbreitungsbedingungen | propagation conditions | |
+| Kurzwelle (KW) | short wave; HF | "auf Kurzwelle" → "on HF"; "Kurzwellenausbreitung" → "HF propagation" |
+| Kurzwellenbereich / Kurzwellenbänder | HF range / HF bands | |
+| Mittelwelle / Langwelle | medium wave (MF) / long wave (LF) | |
+| Ultrakurzwelle (UKW) | very high frequency (VHF) | in broadcast context "UKW-Rundfunk" → "FM broadcast (VHF)" |
+| Dezimeterwelle (UHF) | decimetre wave (UHF) | |
+| Mikrowellen | microwaves | |
+| oberhalb 30 MHz | above 30 MHz | |
+| Ionosphäre | ionosphere | |
+| D-Region / E-Region / F-Region (F1, F2) | D region / E region / F region (F1, F2) | the German deliberately says *Region*; RSGB often says *layer* — keep *region* for consistency |
+| Schicht | layer | |
+| Ionisation / Rekombination | ionisation / recombination | |
+| Absorption | absorption | |
+| Raumwelle | sky wave | |
+| Bodenwelle | ground wave | fixed term; *ground* allowed here |
+| direkte Welle / Sichtverbindung | direct wave / line of sight | |
+| tote Zone | skip zone | |
+| Sprung / Sprungdistanz | hop / skip distance | |
+| Fernausbreitung | long-distance propagation (DX propagation) | |
+| kritische Frequenz (foF2) | critical frequency (foF2) | |
+| MUF / LUF / FOT | MUF / LUF / FOT | maximum usable / lowest usable / optimum working frequency |
+| Einfallswinkel / Einstrahlung (in die Ionosphäre) | angle of incidence / incidence | trap: *Einstrahlung* in EMC means radiated pick-up |
+| Brechung / Refraktion | refraction | |
+| Reflexion | reflection | |
+| Beugung | diffraction | |
+| Streuung / Scatter | scatter | |
+| Rainscatter / Aircraft-Scatter / Meteorscatter | rain scatter / aircraft scatter / meteor scatter | |
+| Troposphäre | troposphere | |
+| troposphärische Ausbreitung / Überreichweiten | tropospheric propagation / enhanced (anomalous) propagation | |
+| Inversionswetterlage / Inversionsschicht | temperature inversion / inversion layer | |
+| Ducting / Duct | ducting / duct | |
+| Sporadic-E (Es) | sporadic E (Es) | |
+| Aurora / Polarlicht | aurora | |
+| Erdmagnetfeld | geomagnetic field | |
+| Funkhorizont / Horizont | radio horizon / horizon | |
+| Erdkrümmung | curvature of the earth | |
+| Erdoberfläche | earth's surface | |
+| Atmosphäre | atmosphere | |
+| Mehrwegeausbreitung | multipath propagation | |
+| Fading / Schwund | fading | |
+| Flatterfading | flutter fading | |
+| Sonne / Sonnenaktivität | sun / solar activity | |
+| Sonnenfleckenzyklus / Sonnenflecken | sunspot cycle / sunspots | |
+| Sonnenfleckenrelativzahl | sunspot number | |
+| solarer Flux | solar flux | |
+| Sonnenwind / Flares | solar wind / solar flares | |
+| Mögel-Dellinger-Effekt | Mögel–Dellinger effect (sudden ionospheric disturbance, SID) | keep the German-usage name |
+| Greyline / Dämmerungszone | grey line | British *grey* |
+| Tag / Nacht / Nachtstunden | day / night / night-time hours | |
+| Ionosonde | ionosonde | |
+
+## 11. Measurement
+
+| German | English | Note |
+|---|---|---|
+| Messung / Messen | measurement / measuring | |
+| Messungen und Messinstrumente | measurements and measuring instruments | catalogue heading |
+| Messgerät / Messinstrument | meter; measuring instrument | *meter* (instrument) vs *metre* (unit) |
+| Messmittel | measuring equipment | |
+| Messobjekt | device under test (DUT) | |
+| Strommessgerät / Amperemeter | ammeter | |
+| Spannungsmessgerät / Voltmeter | voltmeter | |
+| Strom- und Spannungsmessgeräte | ammeters and voltmeters | catalogue heading |
+| Vielfachmessgerät / Multimeter | multimeter | |
+| Zeigerinstrument / Analoginstrument | moving-coil meter; analogue meter | |
+| Messbereich | (measuring) range | |
+| Nebenwiderstand (Shunt) | shunt | |
+| Vorwiderstand (Messgerät) | multiplier (series resistor) | |
+| Messgenauigkeit / Genauigkeit | accuracy | |
+| Auflösung | resolution | |
+| Anzeige (Messgerät) | reading; indication | trap: *Anzeige* in BEMFV = notification |
+| Skalenteil / Division | division | |
+| Parallaxenfehler | parallax error | |
+| Oszilloskop / Oszillogramm | oscilloscope / oscillogram (trace) | |
+| Tastkopf | probe | "10:1 Tastkopf" → "10:1 probe" |
+| Zeitbasis | timebase | |
+| Trigger | trigger | |
+| Vektorieller Netzwerkanalysator (VNA) | vector network analyser (VNA) | British *analyser* |
+| Netzwerkanalysator | network analyser | |
+| Spektrumanalysator | spectrum analyser | |
+| Stehwellenmessgerät / SWR-Meter | SWR meter | |
+| Leistungsmesser / Power-Meter | power meter | |
+| Frequenzmessung | frequency measurement | |
+| Frequenzzähler | frequency counter | |
+| Torzeit | gate time | |
+| Vorteiler | prescaler | |
+| Absorptionsfrequenzmesser | absorption wavemeter | RSGB term |
+| Dipmeter | dip oscillator (dip meter) | |
+| Feldstärkeanzeiger / Feldstärkemessgerät | field-strength meter | |
+| Dummy Load / künstliche Antenne / Abschlusswiderstand | dummy load / termination | |
+| Sonstige Messgeräte und Messmittel | other measuring instruments and equipment | catalogue heading |
+| Rauschgenerator / Signalgenerator | noise generator / signal generator | |
+| Messbrücke | measuring bridge | |
+| Kreuzzeigerinstrument | cross-needle meter | |
+| Thermoumformer | thermocouple converter | |
+| Zweitontest | two-tone test | |
+| ppm | ppm | |
+
+## 12. EMC and safety
+
+| German | English | Note |
+|---|---|---|
+| elektromagnetische Verträglichkeit (EMV) | electromagnetic compatibility (EMC) | |
+| Störung / Störungen | interference | uncountable; "Störungen" → "interference" |
+| Funkstörung | radio interference | |
+| störende Beeinflussung / Beeinträchtigung | interference / impairment | |
+| Störemissionen | interference emissions | |
+| Störfestigkeit | immunity | |
+| Störungen elektronischer Geräte | interference to electronic equipment | |
+| Störquelle | source of interference | |
+| Ursachen / Abhilfe / Abhilfemaßnahmen | causes / remedies / remedial measures | |
+| Einstrahlung | radiated pick-up; direct pick-up | RSGB *breakthrough* for the effect on consumer equipment |
+| Einströmung | conducted pick-up (via leads) | |
+| Direkteinstrahlung | direct pick-up | |
+| Beeinflussung von Rundfunk- / Fernsehempfang und Unterhaltungselektronik durch Einstrahlung | breakthrough | RSGB term for a strong wanted signal upsetting consumer electronics (an immunity problem, not a fault of the transmitter) |
+| Rundfunkempfang / Fernsehempfang | broadcast reception / television reception | |
+| Rundfunkempfänger / Fernsehgerät | broadcast receiver / television set | |
+| Kabelfernsehen | cable television | |
+| Türsprechanlage | door intercom | |
+| Haushalt | household | |
+| Nachbar / nachbarschaftlicher Frieden | neighbour / good relations with the neighbours | British *neighbour* |
+| vorschriftsmäßig (betrieben) | in compliance with the regulations | |
+| Netz / Stromnetz | mains | not "grid" or "network" in this sense |
+| Netzspannung / Netzkabel / Netzfilter | mains voltage / mains lead / mains filter | British *lead* for a cable with plugs |
+| Steckdose | (mains) socket | not "outlet" |
+| Schutzkontaktstecker (Schuko) | Schuko plug (earthed plug) | |
+| Schutzleiter (PE) / Außenleiter (L) / Neutralleiter (N) | protective earth conductor (PE) / line conductor (L) / neutral conductor (N) | |
+| Schutzklasse I / II | protection class I / II | |
+| Fehlerstromschutzschalter (FI / RCD) | residual current device (RCD) | British term |
+| Leitungsschutzschalter | miniature circuit breaker (MCB) | |
+| Erde / Erdung / Erder | earth / earthing / earth electrode | never *ground* |
+| Erdungsleitung | earthing conductor | |
+| Schutzerdung | protective earthing | |
+| Haupterdungsschiene | main earthing terminal (MET) | British wiring-regulations term |
+| Potentialausgleich | equipotential bonding | |
+| Blitzschutz | lightning protection | |
+| Blitzschutzsystem / Blitzschutzanlage | lightning protection system (LPS) | |
+| Blitzerdung | lightning earthing | |
+| Überspannung / Überspannungsschutz | overvoltage (surge) / surge protection | |
+| statische Aufladung | static charge | |
+| Ableitwiderstand | bleeder resistor (static drain) | |
+| Berührungsspannung | touch voltage | |
+| Stromschlag / elektrischer Schlag | electric shock | |
+| Lebensgefahr | danger to life | |
+| Lichtbogen | arc | |
+| Elektrofachkraft | qualified electrician | |
+| Sicherheitsvorschriften / Sicherheit | safety regulations / safety | |
+| Schutz von Personen | protection of persons | |
+| Personen- und Sachschutz | protection of persons and property | |
+| Elektromagnetische Verträglichkeit, Anwendung, Personen- und Sachschutz | electromagnetic compatibility, application, protection of persons and property | catalogue heading |
+| Isolierung | insulation | |
+| Kfz / Fahrzeug / Fahrzeugbatterie / Bordnetz | vehicle / vehicle battery / vehicle electrical system | |
+| Verpolung | reverse polarity | |
+| Überlastung | overload | |
+
+## 13. Other frequent words in the question bank
+
+Compounds and general words that recur in the questions; most follow from
+the entries above, listed so that they are rendered the same way every time.
+
+| German | English | Note |
+|---|---|---|
+| Hochfrequenz (HF) | radio frequency (RF) | trap: German *HF* = RF; English *HF* = short wave (3–30 MHz) |
+| Hochfrequenzschwingung / HF-Signal | RF oscillation / RF signal | |
+| Niederfrequenz (NF) / NF-Signal | audio frequency (AF) / AF (audio) signal | |
+| NF-Bandbreite / HF-Bandbreite | audio bandwidth / RF bandwidth | |
+| Funkwellen | radio waves | |
+| Sendeleistung | transmit power; transmitter power | |
+| Sendefrequenz / Empfangsfrequenz | transmit frequency / receive frequency | |
+| Betriebsfrequenz / Arbeitsfrequenz / Nutzfrequenz | operating frequency / working frequency / wanted frequency | |
+| Oszillatorfrequenz / Oszillatorsignal | oscillator frequency / oscillator signal | |
+| Signalfrequenz | signal frequency | |
+| Frequenzaufbereitung | frequency generation (frequency synthesis) | |
+| Sendesignal / Empfangssignal | transmitted signal / received signal | |
+| Sendeantenne / Empfangsantenne | transmitting antenna / receiving antenna | |
+| Amateurfunkantenne | amateur antenna | |
+| Antennenanschluss / Antenneneingang | antenna socket / antenna input | |
+| Antennenimpedanz | antenna impedance | |
+| Senderichtung | direction of transmission (beam direction) | "entgegengesetzt zur Senderichtung" → "in the opposite direction to the beam" |
+| Sendezweig / Empfangsteil | transmit path / receive section | |
+| Verstärkerstufen | amplifier stages | |
+| Empfängereingang | receiver input | |
+| Ausgangsspannung / Eingangsspannung | output voltage / input voltage | |
+| Kollektorspannung | collector voltage | |
+| Gleichspannungsquelle / Gleichspannungsversorgung | DC voltage source / DC supply | |
+| Wechselspannungsverstärkung | AC voltage gain | |
+| Spannungsschwankung | voltage fluctuation | |
+| Schaltungspunkt | point in the circuit; node | |
+| Beschaltung | external circuitry | |
+| Anschluss / Anschlüsse | terminal; connection / terminals; leads (of a component) | |
+| Transistoranschlüsse | transistor terminals (leads) | |
+| Isolierschicht-FET (MOSFET) | insulated-gate FET (IGFET, MOSFET) | |
+| Halbleitergrundstoff | base semiconductor material | |
+| Grenzfläche | boundary (interface) | |
+| Spulenwert / Kondensatorwert | inductor value / capacitor value | |
+| Kupferdraht / Draht | copper wire / wire | |
+| Durchmesser | diameter | |
+| Länge / Höhe | length / height | *Höhe über Grund* → height above ground — the one fixed phrase where *ground* is natural; *above the earth's surface* also fine |
+| Entfernung / Abstand | distance / spacing | |
+| Entkopplung | decoupling | |
+| Richtkoppler | directional coupler | |
+| Widerstandstransformation | impedance (resistance) transformation | |
+| Phasendrehung | phase reversal; phase rotation | |
+| Koaxialleitung / Leitungseingang | coaxial line / line input | |
+| Spiegelkörper (paraboloid geformter) | (paraboloidal) reflector | |
+| Feed (Erreger) | feed | |
+| Fuchs-Antenne | Fuchs antenna | proper name (Joseph Fuchs, end-fed half-wave); trap: not *fox* |
+| Raumwellenausbreitung / Kurzwellenausbreitung | sky-wave propagation / HF propagation | |
+| Überhorizontverbindungen | beyond-the-horizon contacts | |
+| Ionisationsgrad / Ionisationserscheinungen | degree of ionisation / ionisation phenomena | |
+| Fluxwerte | (solar) flux values | |
+| Strahlungsintensität / Strahlungsenergie | radiation intensity / radiated energy | |
+| Störwahrscheinlichkeit | likelihood of interference | |
+| Gebäudeerdungsanlage / Erdleitung | building earthing system / earth lead | |
+| Auslösecharakteristik | tripping characteristic | fuses, circuit breakers |
+| Satellitenfunk / Satellitenkommunikation / Weltraumkommunikation | satellite communication / space communication | |
+| Funkgespräch | (voice) contact; conversation | |
+| Amateurfunkvereinigung / Amateurfunkverband | amateur radio society / national amateur radio society | e.g. DARC, RSGB |
+| Deutscher Amateur-Radio-Club (DARC) | Deutscher Amateur-Radio-Club (DARC) | name stays German |
+| Amateurfunkliteratur | amateur radio literature | |
+| Behörden und Organisationen mit Sicherheitsaufgaben (BOS) | authorities and organisations with security tasks (BOS) | German public-safety radio users (police, fire, rescue); keep "BOS" |
+| Polizei / Feuerwehr / Rettungsdienst / Rettungsleitstelle | police / fire brigade / rescue service / emergency control centre | British *fire brigade* |
+| Flugfunkdienst / Seefunkdienst | aeronautical mobile service / maritime mobile service | |
+| Mayday | MAYDAY | |
+| Bundesrepublik Deutschland | Federal Republic of Germany | |
+| Irland / Estland / Armenien / Ukraine / Südafrika / Philippinen | Ireland / Estonia / Armenia / Ukraine / South Africa / the Philippines | |
+| kostenpflichtige Nachprüfung | inspection subject to a fee | |
+| Wortlaut | wording | "nach dem Wortlaut der AFuV" → "according to the wording of the AFuV" |
+| Regelwerk | set of rules; regulations | |
+| im Sinne des … | within the meaning of … | legal phrasing |
+| Voraussetzung | prerequisite; condition | |
+| Aussage | statement | "Welche Aussage ist richtig?" → "Which statement is correct?" |
+| Darstellung / Abbildung / Bild / Skizze | diagram / figure / picture / sketch | "Die Darstellung zeigt …" → "The diagram shows …" |
+| Auswahlantworten | answer options | |
+| Farbton / Helligkeit | colour (hue) / brightness | waterfall display |
+| zeitgleich | simultaneously | |
+| ca. / zirka / etwa | approximately; about | |
+| höchstens / mindestens | at most / at least | |
+| Erhöhung / Verringerung | increase / reduction | |
+| Einhaltung | compliance (with) | |
+
+## 14. Further terms from the course text, drawings and slides
+
+Terms that occur mostly outside the question bank (course sections,
+solutions, drawing labels, slides, site chrome). Placeholder call signs in
+the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
+
+| German | English | Note |
+|---|---|---|
+| statisches Feld / Streufeld | static field / stray field | |
+| Nahfeld (reaktives / strahlendes) / Fernfeld | near field (reactive / radiating) / far field | |
+| Maxwellsche Gleichungen | Maxwell's equations | |
+| Verschiebungsstrom | displacement current | |
+| Äther | (luminiferous) aether | historical |
+| Wellenberg / Wellental | crest / trough | |
+| Elektromagnetisches Spektrum | electromagnetic spectrum | |
+| Höhenstrahlung / Terahertzstrahlung | cosmic radiation / terahertz radiation | |
+| Wickelkondensator | wound (rolled) capacitor | |
+| Zylinderspule / Ringkernspule | solenoid / toroidal inductor | |
+| Primärwindung / Sekundärwindung | primary turn(s) / secondary turn(s) | usually *primary / secondary winding* |
+| Eigenkapazität / Wicklungskapazität | self-capacitance / inter-winding capacitance | |
+| Spule ohne Kern / mit Eisenkern / mit Ferritkern / veränderliche Spule | air-cored / iron-cored / ferrite-cored / variable inductor | symbol-chart labels |
+| HF-Trenntrafo / Übertrager (ü = 1:n) | RF isolating transformer / transformer (ratio 1:n) | |
+| Fertigungstoleranz | manufacturing tolerance | |
+| Multiplikator (Farbcode) | multiplier | |
+| Schleifkontakt / Anschlag (Potentiometer) | wiper / end stop | |
+| Durchkontaktierung | via (plated-through hole) | |
+| Mittelabgriff | centre tap | |
+| Knickspannung | knee voltage | |
+| PN-Grenzschicht / Diffusion | PN junction / diffusion | |
+| Basis-Emitter-Übergang | base-emitter junction | |
+| antiparallel geschaltete Dioden | diodes in inverse parallel (back-to-back) | |
+| HF-Diode | RF diode | |
+| durchgesteuert | fully on (saturated) | transistor |
+| Leitungsverluste (MOSFET) | conduction losses | |
+| Querwiderstand | bleeder resistor (divider current resistor) | |
+| Bias-Netzwerk | bias network | |
+| kapazitiver Teiler | capacitive divider | |
+| Eingangsanpassung / Ausgangsanpassung | input matching / output matching | |
+| Impedanzanpassung | impedance matching | |
+| hochohmig / niederohmig | high-impedance (high-resistance) / low-impedance (low-resistance) | |
+| Reale Spannungsquelle / reales Messgerät | real (practical) voltage source / real (practical) meter | |
+| Bezugsklemme / Bezugsleitung | reference terminal / reference conductor | |
+| Kurzschluss- und Verpolungsgefahr | risk of short circuit and reverse polarity | |
+| Sicherungshalter / Flachstecksicherung | fuseholder / blade fuse | |
+| Netzanschlusskabel | mains lead | |
+| Sicherheitsaufschlag | safety margin | |
+| Low-Drop-Spannungsregler | low-dropout (LDO) regulator | |
+| Impulsbreitenmodulator / Pulsbreite / Impulsdauer | pulse-width modulator / pulse width / pulse duration | |
+| Drosselspule | choke | |
+| Ferrit-Perle | ferrite bead | |
+| Verstärkerklasse (A / B / AB / C) | amplifier class (A / B / AB / C) | |
+| Transistorendstufe / Röhrenendstufe | transistor PA / valve PA | British *valve* |
+| Hüllkurvenverstärker | envelope amplifier | |
+| Aussteuerung | drive (level) | |
+| Kompression / Sättigung | compression / saturation | |
+| Steuerkennlinie | transfer characteristic | |
+| Dreifachsuper / Mehrfachsuper | triple-conversion / multiple-conversion superhet | |
+| Doppeldiodenmischer / additiver Diodenmischer | two-diode mixer / additive diode mixer | |
+| High-Level-Ringmischer / Polwender | high-level ring mixer / polarity reverser (commutator) | |
+| Powersweep / Zweitontest | power sweep / two-tone test | |
+| Abschwächer | attenuator | same as Dämpfungsglied |
+| breitbandiges Dämpfungsglied | broadband attenuator | |
+| Auto-Notch-Filter | automatic notch filter | |
+| Zündfunken | ignition sparks | |
+| Leitkreis | coupled-circuit band-pass filter | |
+| Tuning Word / Lookup-Tabelle | tuning word / look-up table | |
+| Mittenfrequenz | centre frequency | |
+| Frequenzauflösung | frequency resolution | |
+| Gibbs-Phänomen | Gibbs phenomenon | |
+| Laufzeit / Pufferspeicher / Jitter / Clipping | delay / buffer / jitter / clipping | |
+| zeitkontinuierlich / zeitdiskret | continuous-time / discrete-time | |
+| wertkontinuierlich / wertdiskret | continuous-value / discrete-value (quantised) | |
+| Digitalisierung | digitisation | |
+| Rekonstruktionsfilter | reconstruction filter | |
+| Quellencodierer / Kanalcodierer / Kanaldecodierer / Quellendecodierer | source encoder / channel encoder / channel decoder / source decoder | |
+| Sende- und Empfangsketten | transmit and receive chains | |
+| Gerade / ungerade Parität | even / odd parity | |
+| Hamming-Code | Hamming code | |
+| Zeitmultiplex / Frequenzmultiplex / Codemultiplex | time-division / frequency-division / code-division multiplexing | |
+| Übersprechen | crosstalk | |
+| Netzanteil / Hostanteil | network part / host part | IP addresses |
+| Fernschreiber | teleprinter | |
+| Eintonsignal | single-tone signal | |
+| Equalizer / Dynamikkompressor / Dynamikumfang | equaliser / compressor / dynamic range | British *equaliser* |
+| NF-Sprachprozessor | audio speech processor | |
+| Sendepegel | transmit level | |
+| FM-Hub / Hubbegrenzung / Hubeinstellung | FM deviation / deviation limiting / deviation setting | |
+| Steckverbindungs-System / Kontaktstift / Federkontakte | connector series / contact pin / spring contacts | |
+| Löten / Crimpen / Bajonettverschluss / Schraubverbindung | soldering / crimping / bayonet coupling / screw coupling | |
+| Überwurfmutter / Rändelung / Sechskant | coupling nut / knurling / hexagon | |
+| Erdnagel / Erdspieß | earth spike (earth rod) | |
+| Freisprecheinrichtung | hands-free kit | |
+| Bordnetzspannung | vehicle supply voltage | |
+| Zweiband-Dipol / Sperrkreis-Dipol | dual-band dipole / trap dipole | |
+| Fuchskreis | Fuchs matching circuit | |
+| Verlängerungsfaktor (Loop) | lengthening factor | |
+| Strahlungsrichtung / Strahlengang | direction of radiation / radiation path | |
+| Winkeldämpfung | off-axis attenuation | |
+| Dämpfungsfaktor | attenuation factor | |
+| SAT-Spiegel | satellite dish | |
+| Gitterturm | lattice tower | |
+| Rayleigh-Streuung | Rayleigh scattering | |
+| Fata Morgana | mirage | |
+| Doppler-Spread | Doppler spread | |
+| Short Skip / Twilight-DX | short skip / twilight DX | |
+| Shortwave Fade-Out | short-wave fade-out (SWF) | |
+| mittabstandstreue Azimutalprojektion | azimuthal equidistant projection | |
+| Sonnenlicht / Sommer / Winter | sunlight / summer / winter | |
+| Einzelzuteilung / Allgemeinzuteilung | individual assignment / general assignment | |
+| exterritoriale Station | extraterritorial station | |
+| Selbsterklärung | self-declaration | |
+| 5 Sicherheitsregeln der Elektrotechnik | five safety rules (of electrical work) | German DIN VDE 0105 rules |
+| Isolierhandschuhe | insulating gloves | |
+| Blitzschutzkonzept / Blitzschutzfachkraft | lightning protection concept / lightning protection specialist | |
+| Nachbargrundstück | neighbouring property | |
+| Pflicht zur Hilfeleistung | duty to render assistance | |
+| 5 W-Fragen | the five Ws (who, what, where, when, why) | emergency-message checklist |
+| Rapportsystem RSV | RSV report system | |
+| Mobilfuchsjagd | mobile direction finding | |
+| DX Century Club (DXCC) / CQ DX | DXCC / CQ DX | |
+| QSL-Manager / Callbook / ADIF | QSL manager / callbook / ADIF | |
+| Ausbildungspate | mentor | |
+| Ortsverband (DARC) | (DARC) local club | |
+| Aufstockungskurs | upgrade course | |
+| Kurse vor Ort / Selbststudium | local courses / self-study | |
+| Präsentation / Folie / Referentenansicht / Vollbild | presentation / slide / presenter view / full screen | |
+| Start / Suche / Infos | Home / Search / About | site navigation |
+| Eselsbrücke | mnemonic | |
+| Lösungsweg / Lösung über Ausschlussverfahren | solution / solution by elimination | |
+| Hausaufgaben | homework | |
+| Koordinatensystem / Achse / Nulllinie | coordinate system / axis / zero line | |
+| Sinuskurve / Sägezahnkurve | sine curve / sawtooth | |
+| Balkenanzeige / Sieben-Segment-Anzeige | bar graph / seven-segment display | |
+| Bedien- und Anzeigefeld | control and display panel | |
+| Starkes Signal / Schwaches Signal | strong signal / weak signal | |
+| Sammelschiene | busbar | |
+| Plastikgehäuse / Metalllegierung / Keramikdielektrikum | plastic case / metal alloy / ceramic dielectric | |
+
+## 15. Catalogue structure
+
+The 115 section titles of the question catalogue are translated in
+`review/prijevod/naslovi.json` and applied to
+`contents/questions/fragenkatalog3b.json`; they follow this glossary. The
+three parts:
+
+| German | English | Note |
+|---|---|---|
+| Prüfungsfragen im Prüfungsteil: Technische Kenntnisse | Examination questions in the examination part: Technical knowledge | |
+| Prüfungsfragen im Prüfungsteil: Betriebliche Kenntnisse | Examination questions in the examination part: Operating knowledge | |
+| Prüfungsfragen im Prüfungsteil: Kenntnisse von Vorschriften | Examination questions in the examination part: Knowledge of regulations | |
+| Regelungen / Weitere Regelungen | provisions / other provisions | |
+| Bestimmungen | provisions; regulations | |
+| Allgemeines / Sonstiges | General / Miscellaneous | |
+| Störfall / Störfälle | interference case / interference cases | EMVG heading |
+| Rufzeichenanwendung | use of call signs | "Rufzeichen und Rufzeichenanwendung" → "Call signs and their use" |

@@ -1,13 +1,13 @@
 {
     "sections": [
         {
-            "title": "Pr\u00fcfungsfragen im Pr\u00fcfungsteil: Technische Kenntnisse",
+            "title": "Examination questions in the examination part: Technical knowledge",
             "sections": [
                 {
-                    "title": "Allgemeine mathematische Grundkenntnisse und Gr\u00f6\u00dfen",
+                    "title": "Basic mathematical knowledge and quantities",
                     "sections": [
                         {
-                            "title": "Allgemeine mathematische Grundkenntnisse",
+                            "title": "Basic mathematical knowledge",
                             "questions": [
                                 {
                                     "number": "NA103",
@@ -39,7 +39,7 @@
                             ]
                         },
                         {
-                            "title": "Gr\u00f6\u00dfen und Einheiten",
+                            "title": "Quantities and units",
                             "questions": [
                                 {
                                     "number": "AA116",
@@ -449,7 +449,7 @@
                             ]
                         },
                         {
-                            "title": "Bin\u00e4res Zahlensystem",
+                            "title": "Binary number system",
                             "questions": [
                                 {
                                     "number": "EA208",
@@ -528,10 +528,10 @@
                     ]
                 },
                 {
-                    "title": "Elektrizit\u00e4ts-, Elektromagnetismus- und Funktheorie",
+                    "title": "Electrical, electromagnetic and radio theory",
                     "sections": [
                         {
-                            "title": "Leiter, Halbleiter und Isolator",
+                            "title": "Conductors, semiconductors and insulators",
                             "questions": [
                                 {
                                     "number": "AB109",
@@ -655,7 +655,7 @@
                             ]
                         },
                         {
-                            "title": "Strom- und Spannungsquellen",
+                            "title": "Current and voltage sources",
                             "questions": [
                                 {
                                     "number": "AB214",
@@ -857,7 +857,7 @@
                             ]
                         },
                         {
-                            "title": "Elektrisches Feld",
+                            "title": "Electric field",
                             "questions": [
                                 {
                                     "number": "EB105",
@@ -910,7 +910,7 @@
                             ]
                         },
                         {
-                            "title": "Magnetisches Feld",
+                            "title": "Magnetic field",
                             "questions": [
                                 {
                                     "number": "EB206",
@@ -972,7 +972,7 @@
                             ]
                         },
                         {
-                            "title": "Elektromagnetisches Feld",
+                            "title": "Electromagnetic field",
                             "questions": [
                                 {
                                     "number": "EB316",
@@ -1162,7 +1162,7 @@
                             ]
                         },
                         {
-                            "title": "Sinusf\u00f6rmige Signale",
+                            "title": "Sinusoidal signals",
                             "questions": [
                                 {
                                     "number": "AB303",
@@ -1354,7 +1354,7 @@
                             ]
                         },
                         {
-                            "title": "Nichtsinusf\u00f6rmige Signale",
+                            "title": "Non-sinusoidal signals",
                             "questions": [
                                 {
                                     "number": "AB409",
@@ -1461,7 +1461,7 @@
                             ]
                         },
                         {
-                            "title": "Ohmsches Gesetz",
+                            "title": "Ohm's law",
                             "questions": [
                                 {
                                     "number": "NB505",
@@ -1513,7 +1513,7 @@
                             ]
                         },
                         {
-                            "title": "Leistung",
+                            "title": "Power",
                             "questions": [
                                 {
                                     "number": "EB514",
@@ -1698,7 +1698,7 @@
                             ]
                         },
                         {
-                            "title": "Ladung und Energie",
+                            "title": "Charge and energy",
                             "questions": [
                                 {
                                     "number": "AB503",
@@ -1731,7 +1731,7 @@
                             ]
                         },
                         {
-                            "title": "Der Stromkreis",
+                            "title": "The electric circuit",
                             "questions": [
                                 {
                                     "number": "AB601",
@@ -1787,10 +1787,10 @@
                     ]
                 },
                 {
-                    "title": "Elektrische und elektronische Bauteile",
+                    "title": "Electrical and electronic components",
                     "sections": [
                         {
-                            "title": "Widerstand",
+                            "title": "Resistor",
                             "questions": [
                                 {
                                     "number": "EC117",
@@ -2049,7 +2049,7 @@
                             ]
                         },
                         {
-                            "title": "Kondensator",
+                            "title": "Capacitor",
                             "questions": [
                                 {
                                     "number": "AC111",
@@ -2230,7 +2230,7 @@
                             ]
                         },
                         {
-                            "title": "Spule",
+                            "title": "Inductor",
                             "questions": [
                                 {
                                     "number": "AC211",
@@ -2415,7 +2415,7 @@
                             ]
                         },
                         {
-                            "title": "\u00dcbertrager und Transformatoren",
+                            "title": "Signal and power transformers",
                             "questions": [
                                 {
                                     "number": "AC307",
@@ -3298,7 +3298,7 @@
                             ]
                         },
                         {
-                            "title": "Integrierte Schaltkreise",
+                            "title": "Integrated circuits",
                             "questions": [
                                 {
                                     "number": "AC604",
@@ -3341,10 +3341,10 @@
                     ]
                 },
                 {
-                    "title": "Elektronische Schaltungen und deren Merkmale",
+                    "title": "Electronic circuits and their characteristics",
                     "sections": [
                         {
-                            "title": "Reihen- und Parallelschaltung von Widerst\u00e4nden, Spulen und Kondensatoren",
+                            "title": "Series and parallel connection of resistors, inductors and capacitors",
                             "questions": [
                                 {
                                     "number": "AD115",
@@ -3727,7 +3727,7 @@
                             ]
                         },
                         {
-                            "title": "Schwingkreise und Filter",
+                            "title": "Tuned circuits and filters",
                             "questions": [
                                 {
                                     "number": "AD229",
@@ -4175,7 +4175,7 @@
                             ]
                         },
                         {
-                            "title": "Strom- und Spannungsversorgung",
+                            "title": "Power supplies",
                             "questions": [
                                 {
                                     "number": "AD325",
@@ -4569,7 +4569,7 @@
                             ]
                         },
                         {
-                            "title": "Verst\u00e4rker",
+                            "title": "Amplifiers",
                             "questions": [
                                 {
                                     "number": "AD433",
@@ -4921,7 +4921,7 @@
                             ]
                         },
                         {
-                            "title": "Modulator / Demodulator",
+                            "title": "Modulator / demodulator",
                             "questions": [
                                 {
                                     "number": "AD510",
@@ -5029,7 +5029,7 @@
                             ]
                         },
                         {
-                            "title": "Oszillator",
+                            "title": "Oscillator",
                             "questions": [
                                 {
                                     "number": "AD620",
@@ -5293,7 +5293,7 @@
                             ]
                         },
                         {
-                            "title": "Phasenregelkreise",
+                            "title": "Phase-locked loops",
                             "questions": [
                                 {
                                     "number": "AD705",
@@ -5346,7 +5346,7 @@
                             ]
                         },
                         {
-                            "title": "D\u00e4mpfungsglieder",
+                            "title": "Attenuators",
                             "questions": [
                                 {
                                     "number": "AD806",
@@ -5413,10 +5413,10 @@
                     ]
                 },
                 {
-                    "title": "Modulations- und \u00dcbertragungsverfahren",
+                    "title": "Modulation and transmission methods",
                     "sections": [
                         {
-                            "title": "Modulation allgemein",
+                            "title": "Modulation in general",
                             "questions": [
                                 {
                                     "number": "AE101",
@@ -5462,7 +5462,7 @@
                             ]
                         },
                         {
-                            "title": "Amplitudenmodulation AM, SSB, CW",
+                            "title": "Amplitude modulation AM, SSB, CW",
                             "questions": [
                                 {
                                     "number": "AE214",
@@ -5795,7 +5795,7 @@
                             ]
                         },
                         {
-                            "title": "Frequenz- und Phasenmodulation",
+                            "title": "Frequency and phase modulation",
                             "questions": [
                                 {
                                     "number": "AE313",
@@ -6062,7 +6062,7 @@
                             ]
                         },
                         {
-                            "title": "Digitale \u00dcbertragungsverfahren",
+                            "title": "Digital transmission methods",
                             "questions": [
                                 {
                                     "number": "AE422",
@@ -6459,10 +6459,10 @@
                     ]
                 },
                 {
-                    "title": "Sender und Empf\u00e4nger",
+                    "title": "Transmitters and receivers",
                     "sections": [
                         {
-                            "title": "Transceiver",
+                            "title": "Transceivers",
                             "questions": [
                                 {
                                     "number": "NF118",
@@ -6635,7 +6635,7 @@
                             ]
                         },
                         {
-                            "title": "Empf\u00e4nger",
+                            "title": "Receivers",
                             "questions": [
                                 {
                                     "number": "AF120",
@@ -6855,7 +6855,7 @@
                             ]
                         },
                         {
-                            "title": "Empf\u00e4ngerstufen",
+                            "title": "Receiver stages",
                             "questions": [
                                 {
                                     "number": "AF231",
@@ -7355,7 +7355,7 @@
                             ]
                         },
                         {
-                            "title": "Sender und Senderstufen",
+                            "title": "Transmitters and transmitter stages",
                             "questions": [
                                 {
                                     "number": "AF314",
@@ -7630,7 +7630,7 @@
                             ]
                         },
                         {
-                            "title": "Leistungsverst\u00e4rker",
+                            "title": "Power amplifiers",
                             "questions": [
                                 {
                                     "number": "AF428",
@@ -7955,7 +7955,7 @@
                             ]
                         },
                         {
-                            "title": "Konverter und Transverter",
+                            "title": "Converters and transverters",
                             "questions": [
                                 {
                                     "number": "AF502",
@@ -8027,7 +8027,7 @@
                             ]
                         },
                         {
-                            "title": "Digitale Signalverarbeitung",
+                            "title": "Digital signal processing",
                             "questions": [
                                 {
                                     "number": "AF637",
@@ -8451,7 +8451,7 @@
                             ]
                         },
                         {
-                            "title": "Remote-Station",
+                            "title": "Remote stations",
                             "questions": [
                                 {
                                     "number": "AF710",
@@ -8553,10 +8553,10 @@
                     ]
                 },
                 {
-                    "title": "Antennen und \u00dcbertragungsleitungen",
+                    "title": "Antennas and transmission lines",
                     "sections": [
                         {
-                            "title": "Antennen",
+                            "title": "Antennas",
                             "questions": [
                                 {
                                     "number": "AG127",
@@ -9053,7 +9053,7 @@
                             ]
                         },
                         {
-                            "title": "Antennenmerkmale",
+                            "title": "Antenna characteristics",
                             "questions": [
                                 {
                                     "number": "AG229",
@@ -9543,7 +9543,7 @@
                             ]
                         },
                         {
-                            "title": "\u00dcbertragungsleitungen",
+                            "title": "Transmission lines",
                             "questions": [
                                 {
                                     "number": "AG320",
@@ -9949,7 +9949,7 @@
                             ]
                         },
                         {
-                            "title": "Anpassung, Transformation, Symmetrierung und Mantelwellen",
+                            "title": "Matching, impedance transformation, balancing and common-mode currents",
                             "questions": [
                                 {
                                     "number": "AG429",
@@ -10349,7 +10349,7 @@
                             ]
                         },
                         {
-                            "title": "Strahlungsleistung (EIRP und ERP)",
+                            "title": "Radiated power (EIRP and ERP)",
                             "questions": [
                                 {
                                     "number": "AG503",
@@ -10500,10 +10500,10 @@
                     ]
                 },
                 {
-                    "title": "Wellenausbreitung und Ionosph\u00e4re",
+                    "title": "Propagation and the ionosphere",
                     "sections": [
                         {
-                            "title": "Ionosph\u00e4re",
+                            "title": "The ionosphere",
                             "questions": [
                                 {
                                     "number": "AH108",
@@ -10661,7 +10661,7 @@
                             ]
                         },
                         {
-                            "title": "Kurzwellenausbreitung",
+                            "title": "HF propagation",
                             "questions": [
                                 {
                                     "number": "AH223",
@@ -11053,7 +11053,7 @@
                             ]
                         },
                         {
-                            "title": "Wellenausbreitung oberhalb 30 MHz",
+                            "title": "Propagation above 30 MHz",
                             "questions": [
                                 {
                                     "number": "AH311",
@@ -11259,10 +11259,10 @@
                     ]
                 },
                 {
-                    "title": "Messungen und Messinstrumente",
+                    "title": "Measurements and measuring instruments",
                     "sections": [
                         {
-                            "title": "Strom- und Spannungsmessger\u00e4te",
+                            "title": "Ammeters and voltmeters",
                             "questions": [
                                 {
                                     "number": "AI105",
@@ -11402,7 +11402,7 @@
                             ]
                         },
                         {
-                            "title": "Vektorieller Netzwerk Analysator (VNA)",
+                            "title": "Vector network analyser (VNA)",
                             "questions": [
                                 {
                                     "number": "AI208",
@@ -11535,7 +11535,7 @@
                             ]
                         },
                         {
-                            "title": "Oszilloskop",
+                            "title": "Oscilloscope",
                             "questions": [
                                 {
                                     "number": "AI306",
@@ -11635,7 +11635,7 @@
                             ]
                         },
                         {
-                            "title": "Stehwellenmessger\u00e4t",
+                            "title": "SWR meter",
                             "questions": [
                                 {
                                     "number": "AI403",
@@ -11741,7 +11741,7 @@
                             ]
                         },
                         {
-                            "title": "Frequenzmessung",
+                            "title": "Frequency measurement",
                             "questions": [
                                 {
                                     "number": "AI511",
@@ -11892,7 +11892,7 @@
                             ]
                         },
                         {
-                            "title": "Sonstige Messger\u00e4te und Messmittel",
+                            "title": "Other measuring instruments and equipment",
                             "questions": [
                                 {
                                     "number": "AI615",
@@ -12054,10 +12054,10 @@
                     ]
                 },
                 {
-                    "title": "St\u00f6remissionen, -festigkeit, Schutzanforderungen, Ursachen, Abhilfe",
+                    "title": "Interference emissions and immunity, protection requirements, causes, remedies",
                     "sections": [
                         {
-                            "title": "St\u00f6rungen elektronischer Ger\u00e4te",
+                            "title": "Interference to electronic equipment",
                             "questions": [
                                 {
                                     "number": "AJ119",
@@ -12475,7 +12475,7 @@
                             ]
                         },
                         {
-                            "title": "Unerw\u00fcnschte Aussendungen",
+                            "title": "Unwanted emissions",
                             "questions": [
                                 {
                                     "number": "AJ225",
@@ -12918,10 +12918,10 @@
                     ]
                 },
                 {
-                    "title": "Elektromagnetische Vertr\u00e4glichkeit, Anwendung, Personen- und Sachschutz",
+                    "title": "Electromagnetic compatibility, application, protection of persons and property",
                     "sections": [
                         {
-                            "title": "St\u00f6rfestigkeit",
+                            "title": "Immunity",
                             "questions": [
                                 {
                                     "number": "NK102",
@@ -12944,7 +12944,7 @@
                             ]
                         },
                         {
-                            "title": "Schutz von Personen",
+                            "title": "Protection of persons",
                             "questions": [
                                 {
                                     "number": "AK115",
@@ -13165,7 +13165,7 @@
                             ]
                         },
                         {
-                            "title": "Sicherheit",
+                            "title": "Safety",
                             "questions": [
                                 {
                                     "number": "AK204",
@@ -13408,10 +13408,10 @@
             ]
         },
         {
-            "title": "Pr\u00fcfungsfragen im Pr\u00fcfungsteil: Betriebliche Kenntnisse",
+            "title": "Examination questions in the examination part: Operating knowledge",
             "sections": [
                 {
-                    "title": "Internationales Buchstabieralphabet",
+                    "title": "International phonetic alphabet",
                     "questions": [
                         {
                             "number": "BA110",
@@ -13506,10 +13506,10 @@
                     ]
                 },
                 {
-                    "title": "Betriebliche Abk\u00fcrzungen und Q-Gruppen",
+                    "title": "Operating abbreviations and Q codes",
                     "sections": [
                         {
-                            "title": "Betriebliche Abk\u00fcrzungen",
+                            "title": "Operating abbreviations",
                             "questions": [
                                 {
                                     "number": "BB110",
@@ -13604,7 +13604,7 @@
                             ]
                         },
                         {
-                            "title": "Q-Gruppen",
+                            "title": "Q codes",
                             "questions": [
                                 {
                                     "number": "BB206",
@@ -13665,10 +13665,10 @@
                     ]
                 },
                 {
-                    "title": "Frequenzbereiche",
+                    "title": "Frequency ranges",
                     "sections": [
                         {
-                            "title": "Frequenzbereiche",
+                            "title": "Frequency ranges",
                             "questions": [
                                 {
                                     "number": "BC106",
@@ -13727,7 +13727,7 @@
                             ]
                         },
                         {
-                            "title": "IARU-Bandpl\u00e4ne",
+                            "title": "IARU band plans",
                             "questions": [
                                 {
                                     "number": "BC222",
@@ -13932,10 +13932,10 @@
                     ]
                 },
                 {
-                    "title": "Rufzeichen und Landeskenner",
+                    "title": "Call signs and country prefixes",
                     "sections": [
                         {
-                            "title": "Rufzeichen",
+                            "title": "Call signs",
                             "questions": [
                                 {
                                     "number": "BD109",
@@ -14021,7 +14021,7 @@
                             ]
                         },
                         {
-                            "title": "Rufzeichenzus\u00e4tze",
+                            "title": "Call sign suffixes",
                             "questions": [
                                 {
                                     "number": "BD214",
@@ -14152,7 +14152,7 @@
                             ]
                         },
                         {
-                            "title": "Landeskenner",
+                            "title": "Country prefixes",
                             "questions": [
                                 {
                                     "number": "BD318",
@@ -14321,10 +14321,10 @@
                     ]
                 },
                 {
-                    "title": "Abwicklung des Amateurfunkverkehrs",
+                    "title": "Conduct of amateur radio communication",
                     "sections": [
                         {
-                            "title": "Betriebsabwicklung",
+                            "title": "Operating procedure",
                             "questions": [
                                 {
                                     "number": "BE118",
@@ -14491,7 +14491,7 @@
                             ]
                         },
                         {
-                            "title": "Signalbeurteilung",
+                            "title": "Signal reports",
                             "questions": [
                                 {
                                     "number": "BE210",
@@ -14592,7 +14592,7 @@
                             ]
                         },
                         {
-                            "title": "Contest, Pile-Up, DX-Pedition und Fuchsjagd",
+                            "title": "Contests, pile-ups, DXpeditions and direction finding (ARDF)",
                             "questions": [
                                 {
                                     "number": "BE313",
@@ -14714,7 +14714,7 @@
                             ]
                         },
                         {
-                            "title": "Relaisfunkstellen, Baken, Satelliten und Transponder",
+                            "title": "Repeaters, beacons, satellites and transponders",
                             "questions": [
                                 {
                                     "number": "BE416",
@@ -14865,7 +14865,7 @@
                     ]
                 },
                 {
-                    "title": "Notfunkverkehr und Nachrichtenverkehr bei Naturkatastrophen",
+                    "title": "Emergency communications and message handling in natural disasters",
                     "questions": [
                         {
                             "number": "BF109",
@@ -14951,7 +14951,7 @@
                     ]
                 },
                 {
-                    "title": "Stationstagebuch und QSL-Karten",
+                    "title": "Station log and QSL cards",
                     "questions": [
                         {
                             "number": "BG111",
@@ -15057,13 +15057,13 @@
             ]
         },
         {
-            "title": "Pr\u00fcfungsfragen im Pr\u00fcfungsteil: Kenntnisse von Vorschriften",
+            "title": "Examination questions in the examination part: Knowledge of regulations",
             "sections": [
                 {
                     "title": "Radio Regulations (ITU RR)",
                     "sections": [
                         {
-                            "title": "Definition des Amateurfunkdienstes und des Amateurfunkdienstes \u00fcber Satelliten",
+                            "title": "Definition of the amateur service and the amateur-satellite service",
                             "questions": [
                                 {
                                     "number": "VA104",
@@ -15104,7 +15104,7 @@
                             ]
                         },
                         {
-                            "title": "Definition der Amateurfunkstelle",
+                            "title": "Definition of the amateur station",
                             "questions": [
                                 {
                                     "number": "VA202",
@@ -15127,7 +15127,7 @@
                             ]
                         },
                         {
-                            "title": "Artikel 25",
+                            "title": "Article 25",
                             "questions": [
                                 {
                                     "number": "VA304",
@@ -15168,7 +15168,7 @@
                             ]
                         },
                         {
-                            "title": "Weitere Regelungen",
+                            "title": "Other provisions",
                             "questions": [
                                 {
                                     "number": "VA407",
@@ -15238,7 +15238,7 @@
                     ]
                 },
                 {
-                    "title": "Regelungen der CEPT (Europ\u00e4ische Konferenz der Verwaltungen f\u00fcr Post und Telekommunikation)",
+                    "title": "CEPT provisions (European Conference of Postal and Telecommunications Administrations)",
                     "questions": [
                         {
                             "number": "VB114",
@@ -15369,7 +15369,7 @@
                     ]
                 },
                 {
-                    "title": "Amateurfunkgesetz (AFuG)",
+                    "title": "Amateur Radio Act (Amateurfunkgesetz, AFuG)",
                     "questions": [
                         {
                             "number": "VC125",
@@ -15599,10 +15599,10 @@
                     ]
                 },
                 {
-                    "title": "Amateurfunkverordnung (AFuV)",
+                    "title": "Amateur Radio Ordinance (Amateurfunkverordnung, AFuV)",
                     "sections": [
                         {
-                            "title": "Allgemeines",
+                            "title": "General",
                             "questions": [
                                 {
                                     "number": "VD119",
@@ -15778,7 +15778,7 @@
                             ]
                         },
                         {
-                            "title": "Rufzeichen und Rufzeichenanwendung",
+                            "title": "Call signs and their use",
                             "questions": [
                                 {
                                     "number": "VD208",
@@ -15855,7 +15855,7 @@
                             ]
                         },
                         {
-                            "title": "Ausbildungsfunkbetrieb",
+                            "title": "Training operation",
                             "questions": [
                                 {
                                     "number": "VD306",
@@ -15914,7 +15914,7 @@
                             ]
                         },
                         {
-                            "title": "Klubstationen",
+                            "title": "Club stations",
                             "questions": [
                                 {
                                     "number": "VD408",
@@ -15991,7 +15991,7 @@
                             ]
                         },
                         {
-                            "title": "Relaisfunkstellen und Funkbaken",
+                            "title": "Repeaters and beacons",
                             "questions": [
                                 {
                                     "number": "VD504",
@@ -16032,7 +16032,7 @@
                             ]
                         },
                         {
-                            "title": "Remote-Stationen",
+                            "title": "Remote stations",
                             "questions": [
                                 {
                                     "number": "VD609",
@@ -16118,7 +16118,7 @@
                             ]
                         },
                         {
-                            "title": "Frequenzbereiche und Frequenznutzungsparameter",
+                            "title": "Frequency ranges and frequency usage parameters",
                             "questions": [
                                 {
                                     "number": "VD743",
@@ -16512,10 +16512,10 @@
                     ]
                 },
                 {
-                    "title": "Weitere Gesetze, Vorschriften und Bestimmungen",
+                    "title": "Other laws, regulations and provisions",
                     "sections": [
                         {
-                            "title": "Telekommunikationsgesetz (TKG)",
+                            "title": "Telecommunications Act (Telekommunikationsgesetz, TKG)",
                             "questions": [
                                 {
                                     "number": "VE103",
@@ -16547,7 +16547,7 @@
                             ]
                         },
                         {
-                            "title": "Telekommunikation-Telemedien-Datenschutz-Gesetz (TTDSG)",
+                            "title": "Telecommunications and Telemedia Data Protection Act (Telekommunikation-Telemedien-Datenschutz-Gesetz, TTDSG)",
                             "questions": [
                                 {
                                     "number": "VE204",
@@ -16588,7 +16588,7 @@
                             ]
                         },
                         {
-                            "title": "Gesetz \u00fcber die elektromagnetische Vertr\u00e4glichkeit von Ger\u00e4ten (EMVG), St\u00f6rf\u00e4lle",
+                            "title": "Act on the Electromagnetic Compatibility of Devices (EMVG), interference cases",
                             "questions": [
                                 {
                                     "number": "VE309",
@@ -16674,7 +16674,7 @@
                             ]
                         },
                         {
-                            "title": "Gesetz \u00fcber die Bereitstellung von Funkanlagen auf dem Markt (FuAG)",
+                            "title": "Act on Making Radio Equipment Available on the Market (FuAG)",
                             "questions": [
                                 {
                                     "number": "VE405",
@@ -16724,7 +16724,7 @@
                             ]
                         },
                         {
-                            "title": "EMVU (elektromagnetische Umweltvertr\u00e4glichkeit) / BEMFV",
+                            "title": "EMVU (electromagnetic compatibility with the environment) / BEMFV",
                             "questions": [
                                 {
                                     "number": "VE519",
@@ -16900,7 +16900,7 @@
                             ]
                         },
                         {
-                            "title": "Sicherheitsvorschriften",
+                            "title": "Safety regulations",
                             "questions": [
                                 {
                                     "number": "VE604",
@@ -16941,7 +16941,7 @@
                             ]
                         },
                         {
-                            "title": "Sonstiges",
+                            "title": "Miscellaneous",
                             "questions": [
                                 {
                                     "number": "VE707",
