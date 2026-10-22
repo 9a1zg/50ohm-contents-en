@@ -54,7 +54,7 @@ The number after the slash gives the number of ones in the subnet mask.
 
 [picture:706:netzwerk:Part of a network infrastructure]
 
-* They recognise this by the fact that their own IP address and subnet mask give the same network part as those of the other device.
+* They can be recognised by the fact that their own IP address and subnet mask give the same network part as those of the other device.
 
 --- data-transition="none"
 

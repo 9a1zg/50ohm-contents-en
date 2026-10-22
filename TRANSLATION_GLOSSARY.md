@@ -2448,7 +2448,7 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Abkürzungstabelle (Telegrafie): Bedeutung "Bitte (vom Englischen "Please")" … | the English meaning alone ("Please", "Report", "Thanks", "Very"); an origin that is not the meaning stays in brackets: CQ "General call (from "seek you")", SK "End of contact (from "Silent Key")" | DECISIONS.md; *Abkz. / Bedeutung* → Abbr. / Meaning; DE → "This is" (§14 *hier ist / von*); 73 → "Best regards"; *Trennzeichen* → separator (funkfernschreiben) |
 | Startsound / Benachrichtigungstöne | start-up sound / notification sounds | computersteuerung, NF117 |
 | Hardware-Modem / TNC (Terminal Node Controller) / Packet-Radio | hardware modem / TNC (Terminal Node Controller) / packet radio | computersteuerung, 9600_port |
-| DATA-Port / DATA-Anschluss / 9600-Anschluss / 9600-Baud-Anschluss | DATA port / data port / 9600 port / $\qty{9600}{\baud}$ port | as NF115, EF219 "analogue data port … called a 9600 port"; §6 *Datenanschluss* |
+| DATA-Port / DATA-Anschluss / 9600-Anschluss / 9600-Baud-Anschluss | DATA port / DATA port / 9600 port / $\qty{9600}{\baud}$ port | as NF115, EF219 "analogue data port … called a 9600 port"; §6 *Datenanschluss* |
 | Audiopfad / Audio-Weg / De-Emphasis-Prozess | audio path / audio path / de-emphasis | 9600_port; §7 *Deemphasis* |
 | Empfangsbericht (automatischer) / Skimmer-Stationen / Internetplattformen | (automatic) reception report / skimmer stations / internet platforms | EE405; the services' names (WSPRnet, Reverse Beacon Network, PSK Reporter) unchanged (automatische_empfangsberichte) |
 | Repeaternetzwerk / Relaisverbund / Richtfunkanbindung | repeater network / repeater network / radio link | NE402 "repeater network" (digital_voice) |

@@ -10,7 +10,7 @@ A *teleprinter* is a device for transmitting messages in text form by means of e
 
 ---
 
-First, a suitable computer must be connected to the radio. In the simplest case, the connection can be made directly via the audio socket or the USB interface. Basically you need an audio connection and, where necessary, control signals. Figure [ref:n_computersteuerung_verbindungen] shows some variants. A connection for control signals often found on transceivers is what is known as the CAT interface. CAT stands for Computer Aided Tuning or Computer Aided Transceiver. Through this interface you can control the transceiver and query values, for example frequency, transmit power and PTT status.
+For this, a suitable computer must first be connected to the radio. In the simplest case, the connection can be made directly via the audio socket or the USB interface. Basically you need an audio connection and, where necessary, control signals. Figure [ref:n_computersteuerung_verbindungen] shows some variants. A connection for control signals often found on transceivers is what is known as the CAT interface. CAT stands for Computer Aided Tuning or Computer Aided Transceiver. Through this interface you can control the transceiver and query values, for example frequency, transmit power and PTT status.
 
 <margin>
 [picture:630:n_computersteuerung_verbindungen:Examples of connections between computer and radio]

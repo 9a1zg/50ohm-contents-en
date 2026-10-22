@@ -89,3 +89,33 @@ One entry (Course text):
 - sections/automatische_empfangsberichte.md and slides — "WSPR steht für *Weak Signal Propagation Reporter Network*": WSPR is the Weak Signal Propagation Reporter; WSPRnet is the network. Kept.
 - slides/9600_port.md — caption "FM-Sender mit Zuführung des $\qty{9600}{\baud}$-Baud-Datensignals": the unit is given twice; the English writes it once.
 - Typos with no effect on the English: slides/automatische_empfangsberichte.md "Progagation"; sections/digimode_ssb.md "mithilfe digitalisierte Bilddaten", "zeigt ein Typisches SSTV-Bild", caption "eines SSTV Verbindung"; sections/9600_port.md "mit seinen begrenzten Frequenzgang", "In den Folgenden Fragen", "sollten der DATA-Port … angeschlossen werden"; slides/digimod_uebersteuerung.md "kann die ALC jedoch Problemen führen"; slides/funkfernschreiben.md note "nach Erklärungen Abkürzungen" (translated as meant: after the abbreviations have been explained); sections/paketvermittelte_netzwerke.md "über die sogenannten HAMCloud", "Die Nummern der Teilnehmern"; slides/paketvermittelte_netzwerke.md "Es zwei Möglichkeiten"; the idents `binar_stellenwert_dual` beside `binaer_…` (idents never change).
+
+## Provjera
+
+Checker, 9A1ZG. All 22 files compared paragraph by paragraph with
+`git show d2653e9~1:<file>`; every embedded question looked up in the English
+bank. Complete and faithful throughout; the judgement calls, the 20 glossary
+rows and the DECISIONS.md entry are kept (one row corrected). Guard
+`--rev d2653e9~1 --brojevi`: 22 files, *struktura netaknuta*.
+
+Changes: omission 1, meaning 1, technical 0, style 1, glossary 1.
+
+- sections/computersteuerung.md — omission: *Zunächst muss dafür* lost
+  "dafür"; now "For this, a suitable computer must first be connected to the
+  radio".
+- slides/paketvermittelte_netzwerke.md — meaning: *Man erkennt sie daran,
+  dass …* is impersonal ("they can be recognised by"), not the devices
+  recognising something as in the section's *Das erkennen sie daran*; now
+  "They can be recognised by the fact that …". The translator's judgement
+  call for this slide is reworked accordingly.
+- sections/digimod_uebersteuerung.md — style: "a response of the ALC is
+  often a sign" → "the ALC responding is often a sign".
+- TRANSLATION_GLOSSARY.md §14, row *DATA-Port / DATA-Anschluss …* — glossary:
+  gave *DATA-Anschluss* as "data port", but the text (9600_port, "what is
+  known as a DATA port") and the German label both mean the DATA port; now
+  "DATA port / DATA port / 9600 port / …". Plain *Datenanschluss* stays
+  "data port" (§6, computersteuerung).
+
+Suspected errors in the German original: all agreed (the RR Morse
+requirement was made national by WRC-03, not in the 1990s; SK predates
+"silent key"; classic SSTV is analogue; WSPR vs WSPRnet). Nothing added.
