@@ -1,11 +1,11 @@
-Funkwellen breiten sich geradlinig aus. Um zwei Orte auf der Erdoberfläche zu verbinden, gibt es daher immer genau zwei Wege (es sei denn, die beiden Orte befinden sich genau gegenüber). Daraus ergibt sich die Richtung, in die eine Richtantenne gedreht werden muss. Die Funkverbindung läuft also nicht über den direkten Weg zur Gegenstation, sondern über die dem kürzesten Weg entgegengesetzte Richtung.
+Radio waves travel in straight lines. There are therefore always exactly two paths connecting two places on the earth's surface (unless the two places are exactly opposite each other). This gives the direction in which a directional antenna has to be turned. The contact therefore does not run via the direct path to the other station, but in the direction opposite to the shortest path.
 
 [question:EH216]
 
-Einer der beiden Wege ist kürzer als der andere, deswegen sprechen wir vom *kurzen* und vom *langen Weg* (manchmal auch "direkter Weg" und "indirekter Weg"). Normalerweise läuft die Verbindung über den kurzen Weg, da mehr Wegstrecke auch immer mehr Dämpfung bedeutet und man daher auf dem kurzen Weg mit einer besseren Signalstärke rechnen kann. Es ist aber - abhängig von den Ausbreitungsbedingungen, der Tageszeit und der genutzten Frequenz - durchaus auch möglich, das Zielgebiet auf dem langen Weg zu erreichen. In der Klasse A werden wir diese Zusammenhänge genauer betrachten. 
+One of the two paths is shorter than the other, which is why we speak of the *short* and the *long path* (sometimes also "direct path" and "indirect path"). Normally the contact runs via the short path, since a longer distance always means more attenuation too, and so a better signal strength can be expected on the short path. Depending on the propagation conditions, the time of day and the frequency used, however, it is quite possible to reach the target area via the long path as well. In Class A we will look at these relationships more closely.
 
 <margin>
-[picture:873:n_kurzer_langer_weg:Kurzer und langer Weg]
+[picture:873:n_kurzer_langer_weg:Short and long path]
 </margin>
 
 [question:EH217]

@@ -1,12 +1,12 @@
-* Sonneneruptionen mit Plasma-Flares ionisieren die D-Region
-* Hohe Dämpfung der Raumwelle bis $\qty{300}{\mega\hertz}$
-* Totaler Ausfall der Raumwelle für wenige Minuten bis Stunden möglich
-* Kann nur tagsüber auftreten
-* Besonders stark bei Sonnenfleckenmaximum
+* Solar eruptions with plasma flares ionise the D region
+* High attenuation of the sky wave up to $\qty{300}{\mega\hertz}$
+* Total failure of the sky wave possible for a few minutes to hours
+* Can only occur during the day
+* Particularly strong at sunspot maximum
 
 <note>
-* Hans Mögel hat den Effekt 1930 in Deutschland beschrieben
-* John Howard Dellinger hat den Effekt 1935 in den USA beschreiben
+* Hans Mögel described the effect in Germany in 1930
+* John Howard Dellinger described the effect in the USA in 1935
 </note>
 
 ---

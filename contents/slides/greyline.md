@@ -1,37 +1,37 @@
-* Übergang zwischen Tag- und Nacht
-* Für den Kurzwellenfunk interessant
+* Transition between day and night
+* Of interest for HF radio
 
 ---
 [include:greyline]
 
 <note>
-Weltkarte mit aktueller Greyline
+World map with the current grey line
 </note>
 
 ---
 
 <left>
-Tag zu Nacht
-* D-Region wird abgebaut
-* E-Region kann noch vorhanden sein
-* $F_1$-Region baut langsam ab
-* $F_2$-Region bleibt geschwächt bestehen
+Day to night
+* D region decays
+* E region may still be present
+* $F_1$ region slowly decays
+* $F_2$ region remains, though weakened
 </left>
 <right>
-Nacht zu Tag
-* D-Region baut erst auf, wenn Sonne in unteren Regionen angekommen
-* E-Region baut sich langsam auf
-* $F_1$-Region vor E- und D-Region aufgebaut
-* $F_2$-Region wird wieder stärker
+Night to day
+* D region only builds up once the sun has reached the lower regions
+* E region slowly builds up
+* $F_1$ region builds up before the E and D regions
+* $F_2$ region becomes stronger again
 </right>
 
 ---
-## Greyline-DX
+## Grey-line DX
 
-* Kurzwellen werden an der schwachen D-Region flach gebrochen und weniger gedämpft
-* Die gebrochenen Kurzwellen werden in der F-Region flach reflektiert
-* Hohe Skip-Distanz
-* *Greyline-DX* oder *Twilight-DX*
+* HF waves are refracted at a low angle by the weak D region and attenuated less
+* The refracted HF waves are reflected at a low angle in the F region
+* Long skip distance
+* *Grey-line DX* or *twilight DX*
 
 ---
 [question:EH213]

@@ -1957,6 +1957,23 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Magnetstürme | magnetic storms | |
 | Raumstation ISS | International Space Station (ISS) | |
 | Notfunk-Ausbildungswochenende | emergency communications training weekend | photo caption (aurora_1) |
+| Lang- und Mittelwelle (Bodenwelle) | long and medium wave | bodenwelle; *Kurzwelle* → HF, as §10 |
+| Bodenbeschaffenheit / leitfähiger Boden | nature of the ground / conductive ground | bodenwelle |
+| Stadtbereich (Kommunikation im) | (communication) within a city | bodenwelle slides |
+| Tag-/Nachtgrenze / Tag- und Nacht-Gleiche | boundary between day and night / equinox | greyline |
+| Greyline-DX / Twilight-DX | grey-line DX / twilight DX | British *grey*, as §10 *grey line* |
+| Skip-Distanz | skip distance | as *Sprungdistanz* (§10) |
+| Strahlungsausbrüche / Plasma-Flares | bursts of radiation / plasma flares | moegel_dellinger_effekt |
+| Radio Blackouts | radio blackouts | |
+| Sonneneruption der Klasse X9.0 / aktive Sonnenfleckenregion | solar flare of class X9.0 / active sunspot region | |
+| Türöffnertag der Sendung mit der Maus / Maus-Stationen | Door Opener Day (*Türöffnertag*) of the children's television programme *Die Sendung mit der Maus* / Maus stations | the programme's name stays German; *children's television programme* tells the English reader what it is (moegel_dellinger_effekt) |
+| Drehwinkel (Richtantenne) | (beam) heading | as AH217, AH218 "beam heading"; *über zwei Drehrichtungen* → "with two different headings" (langer_kurzer_weg_2 slides) |
+| Richtantennen (engl. Beams) | directional antennas (beams) | the bracket stays: *beam* is a different English word and explains *beam map* |
+| Regenscatter (Rainscatter) / Englisch *Rainscatter* | rain scatter | the English name in brackets, and the slide bullet that only gives it, are dropped (scatter) |
+| Flatterfading (flutter fading) | flutter fading | the English gloss beside it is dropped (scatter slides); AH223 |
+| Verbindungslinie zwischen Sender und Empfänger | line between the transmitter and the receiver | aircraft scatter |
+| Dämmerung | twilight | backscatter |
+| Besserwisser | know-alls | speaker note |
 
 ## 15. Catalogue structure
 

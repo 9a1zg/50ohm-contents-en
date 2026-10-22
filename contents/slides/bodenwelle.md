@@ -1,25 +1,25 @@
 <left>
-* Die Bodenwelle reicht über den sichtbaren Horizont raus
-* Folgt der Erdkrümmung
-* Am besten für Frequenzen unter $\qty{3}{\mega\hertz}$
+* The ground wave reaches beyond the visible horizon
+* Follows the curvature of the earth
+* Best for frequencies below $\qty{3}{\mega\hertz}$
 </left>
 <right>
-[picture:866:e_reichweite_bodenwelle:Reichweite der Bodenwelle je nach Band]
+[picture:866:e_reichweite_bodenwelle:Range of the ground wave by band]
 </right>
 
 ---
-## Reichweite
+## Range
 
-* Reichweite ist von Frequenz und Bodenbeschaffenheit abhängig
-* Langwelle ($\qtyrange{30}{300}{\kilo\hertz}$) bis zu $\qty{1000}{\kilo\meter}$, Mittelwelle ($\qty{300}{\kilo\hertz}--\qty{3}{\mega\hertz}$) bis zu $\qty{250}{\kilo\meter}$
-* Gut nutzbar im $\qty{160}{\meter}$-Band
-* Im $\qty{10}{\meter}$-Band für Kommunikation im Stadtbereich nutzbar
-* VHF und höhere Frequenzen vernachlässigbar
+* Range depends on the frequency and the nature of the ground
+* Long wave ($\qtyrange{30}{300}{\kilo\hertz}$) up to $\qty{1000}{\kilo\meter}$, medium wave ($\qty{300}{\kilo\hertz}--\qty{3}{\mega\hertz}$) up to $\qty{250}{\kilo\meter}$
+* Works well on the $\qty{160}{\meter}$ band
+* Usable on the $\qty{10}{\meter}$ band for communication within a city
+* Negligible on VHF and higher frequencies
 
 <note>
-* Radio hat früher stark die Bodenwelle genutzt
-* Amateurfunk bekam die hohen "schlecht nutzbaren" Frequenzen
-* Bis die Ausbreitung über die Raumwelle entdeckt wurde
+* Broadcasting used to rely heavily on the ground wave
+* Amateur radio was given the high, "hardly usable" frequencies
+* Until propagation via the sky wave was discovered
 </note>
 
 ---
@@ -28,5 +28,5 @@
 [question:EH212]
 
 <note>
-* Dämpfung der D-Region hatten wir zu Anfang bereits
+* We already covered the attenuation of the D region at the start
 </note>

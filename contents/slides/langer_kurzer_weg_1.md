@@ -1,11 +1,11 @@
-* Durch die Kugelform der Erde kann ein Ziel geradlinig über zwei Wege erreicht werden
-* Funkwellen können sich je nach Ausbreitungsbedingungen besser über den längeren, indirekten Weg ausbreiten
+* Because the earth is a sphere, a destination can be reached in a straight line via two paths
+* Depending on the propagation conditions, radio waves may propagate better via the longer, indirect path
 
 ---
 [question:EH217]
 <note>
-* Wer hat, zeigt das Anhand eines Globus
-* Schwierige Formulierung mit "die dem kürzesten Weg entgegengesetzte Richtung"
+* If you have one, show this on a globe
+* Difficult wording with "the direction opposite to the shortest path"
 </note>
 ---
 [question:EH216]

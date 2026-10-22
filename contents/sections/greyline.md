@@ -1,6 +1,6 @@
-Die *Greyline* ist der Bereich der Tag-/Nachtgrenze, also alle Gebiete, die sich zu einer bestimmten Zeit kurz vor oder nach Sonnenauf- und -untergang befinden. Sie stellt einen Ring dar, der um die gesamte Erdkugel führt und in dem besondere Ausbreitungsbedingungen für Kurzwellen herrschen. Denn hier ist die dämpfende Wirkung der D-Region geschwächt oder noch nicht (bei Sonnenaufgang) bzw. nicht mehr (bei Sonnenuntergang) vorhanden, während die brechende Wirkung der E- und F-Regionen noch bzw. schon wirksam ist. 
+The *grey line* is the area of the boundary between day and night, that is, all the areas that at a given time are shortly before or after sunrise or sunset. It forms a ring that runs right round the globe, in which special propagation conditions prevail for HF waves. This is because here the attenuating effect of the D region is weakened, or not yet present (at sunrise) or no longer present (at sunset), while the refracting effect of the E and F regions is still (or already) in force.
 
-Damit sind - besonders in der Zeit um die Tag- und Nacht-Gleichen herum - DX-Verbindungen vor allem auf den unteren Kurzwellenbändern und dem $\qty{160}{\meter}$-Band möglich, die von Europa aus bis Australien, Neuseeland und in den Pazifik führen können.
+This makes DX contacts possible – especially around the time of the equinoxes – above all on the lower HF bands and the $\qty{160}{\meter}$ band, which can reach from Europe as far as Australia, New Zealand and the Pacific.
 
 [question:EH213]
 

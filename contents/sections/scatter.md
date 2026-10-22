@@ -1,16 +1,16 @@
-Der Begriff *Scatter* wird zusammenfassend für verschiedene besondere Formen der Reflexion und Streuung eines Funksignals benutzt, durch die größere Entfernungen überbrückt werden können.
+The term *scatter* is used collectively for various special forms of reflection and scattering of a radio signal by which greater distances can be covered.
 
-Bei *Regenscatter* (*Rainscatter*) werden Wellen an Regentropfen gestreut (wer nachlesen möchte: physikalisch ist das eine Rayleigh-Streuung). Weil hier die Tropfengröße zur Wellenlänge passen muss, erzielt man damit im $\qty{6}{\centi\meter}$ und $\qty{3}{\centi\meter}$-Band (bei $\qty{5,7}{\giga\hertz}$ und $\qty{10}{\giga\hertz}$) die besten Ergebnisse. Gestreut wird dabei in alle Richtungen, d.h. man richtet die Antenne üblichweise auf die Regenwolke aus und nicht auf den Standort der Gegenstation. CW und SSB Signale haben dabei häufig einen rauen Ton, ähnlich der Ausbreitung über Aurora.
+In *rain scatter*, waves are scattered by raindrops (for those who want to read up on it: physically this is Rayleigh scattering). Because the size of the drops has to suit the wavelength, the best results are achieved on the $\qty{6}{\centi\meter}$ and $\qty{3}{\centi\meter}$ bands (at $\qty{5.7}{\giga\hertz}$ and $\qty{10}{\giga\hertz}$). The scattering goes in all directions, i.e. the antenna is usually pointed at the rain cloud and not at the location of the other station. CW and SSB signals often have a rough tone, similar to propagation via aurora.
 
 [question:AH311]
 
-Auf der Kurzwelle kann der Bereich in der Ionosphäre, der die Raumwelle zur Erde hin bricht, sehr dynamisch sein, vor allem während der Dämmerung. Dadurch können Teile des Signals auch zur Seite und sogar zurück Richtung Sender gestreut werden. Das bezeichnet man als *Backscatter*. Solche Signale haben typischerweise eine sehr stark und schnell schwankende Signalstärke (*Flatterfading*).
+On HF, the area of the ionosphere that refracts the sky wave back towards the earth can be very dynamic, especially during twilight. As a result, parts of the signal can also be scattered sideways and even back towards the transmitter. This is called *backscatter*. Such signals typically have a signal strength that fluctuates very strongly and rapidly (*flutter fading*).
 
 [question:AH223]
 
 <margin>
 % Photo by DC2CB:
-[photo:331:a_regenscatter:$\qty{10}{\giga\hertz}$ Regenscatter (DL4M Juni 2025)]
+[photo:331:a_regenscatter:$\qty{10}{\giga\hertz}$ rain scatter (DL4M June 2025)]
 </margin>
 
 
@@ -18,10 +18,10 @@ Auf der Kurzwelle kann der Bereich in der Ionosphäre, der die Raumwelle zur Erd
 
 %TODO: bzw. Anekdote von COVID Lockdown
 
-Schließlich kann man sich auf VHF, UHF und SHF noch von ganz anderer Seite Hilfe holen, um über den Horizont hinaus zu senden, nämlich per *Aircraft-Scatter*: Hier dienen Flugzeuge als kurzzeitige Reflektoren, wenn sie sich auf oder in der Nähe der Verbindungslinie zwischen Sender und Empfänger befinden. Durch die schnelle Bewegung des Flugzeugs sind solche Verbindungsmöglichkeiten recht kurz, so dass eine schnelle QSO-Abwicklung gefragt ist. 
+Finally, on VHF, UHF and SHF you can get help from a quite different quarter to transmit beyond the horizon, namely by *aircraft scatter*: here aircraft act as short-lived reflectors when they are on or near the line between the transmitter and the receiver. Because the aircraft moves fast, such opportunities for a contact are quite short, so the QSO has to be completed quickly.
 
 <indepth>
-Spitzfindigkeit: Obwohl *Aircraft-Scatter* als "Scatter" bezeichnet, ist das physikalisch übrigens keine Streuung, sondern eine Reflexion.
+A fine point: although *aircraft scatter* is called "scatter", physically it is not scattering but reflection.
 </indepth>
 
 [question:AH310]
