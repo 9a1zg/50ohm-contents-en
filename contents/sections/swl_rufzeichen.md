@@ -1,21 +1,21 @@
-Ein Amateurfunkrufzeichen [index:Rufzeichen] identifiziert eine Amateurfunkstelle eindeutig. Es besteht aus Präfix, Ziffer und Suffix. Beim Rufzeichen *DL1FLO* ist *DL* das Präfix, *1* die Ziffer und *FLO* das Suffix.
+An amateur call sign [index:Call sign] uniquely identifies an amateur station. It consists of a prefix, a digit and a suffix. In the call sign *DL1FLO*, *DL* is the prefix, *1* the digit and *FLO* the suffix.
 
-Das Präfix lässt häufig das Land erkennen. In Deutschland legt der [Rufzeichenplan](https://50ohm.de/rzp) der Bundesnetzagentur fest, wie Rufzeichen gebildet und welchen Verwendungszwecken sie zugeteilt werden.
+The prefix often shows the country. In Germany, the [Call Sign Plan](https://50ohm.de/rzp) of the Federal Network Agency (Bundesnetzagentur, BNetzA) lays down how call signs are formed and for which purposes they are assigned.
 
 [question:VD201]
 
-Neben personengebundenen Rufzeichen gibt es unter anderem Rufzeichen für Klubstationen sowie für fernbediente und automatisch arbeitende Amateurfunkstellen.
+Besides personal call signs, there are, among others, call signs for club stations and for remotely controlled and automatically operating amateur stations.
 
 [question:VD202]
 
-Einige deutsche Rufzeichenbereiche lassen sich direkt zuordnen, z. B.:
+Some German call sign ranges can be assigned directly, e.g.:
 
-* *DL0* mit zwei- oder dreistelligem Suffix: Klubstation
-* *DL1* bis *DL9* mit zwei- oder dreistelligem Suffix: personengebundenes Rufzeichen der Klasse A
-* *DO1* bis *DO9* und *DA6* mit zwei- oder dreistelligem Suffix: personengebundenes Rufzeichen der Klasse E
-* *DN9* mit zwei- oder dreistelligem Suffix: personengebundenes Rufzeichen der Klasse N
+* *DL0* with a two- or three-letter suffix: club station
+* *DL1* to *DL9* with a two- or three-letter suffix: Class A personal call sign
+* *DO1* to *DO9* and *DA6* with a two- or three-letter suffix: Class E personal call sign
+* *DN9* with a two- or three-letter suffix: Class N personal call sign
 
-Hier solltest du den oben verlinkten Rufzeichenplan der Bundesnetzagentur zu Rate ziehen, um die Bedeutung der einzelnen deutschen Präfixe zu erkennen.
+Here you should consult the BNetzA's Call Sign Plan linked above to find out what the individual German prefixes mean.
 
 [question:BD103]
 [question:BD104]
@@ -23,9 +23,9 @@ Hier solltest du den oben verlinkten Rufzeichenplan der Bundesnetzagentur zu Rat
 [question:BD105]
 
 <indepth>
-Auch das Präfix DE ist Deutschland zugeteilt und könnte auch von der Behörde für Amateurfunkrufzeichen verwendet werden. Bei der Auswahl der amateurfunkinternen Landeskenner nach dem zweiten Weltkrieg hatte man vonseiten der damals zuständigen Hauptverwaltung für das Post- und Fernmeldewesen des Vereinigten Wirtschaftsgebietes *DE* von vornherein außer Acht gelassen wegen der Verwechslungsgefahr mit der Abkürzung *de* (= von) im CW-Verkehr. Zudem stand *DE* schon seit 1925 als Abkürzung für *Deutsche Empfangsstation* fest.
+The prefix DE is also allocated to Germany and could also be used by the authority for amateur call signs. When the country prefixes used within amateur radio were chosen after the Second World War, the authority responsible at the time, the Main Administration for Posts and Telecommunications of the United Economic Area (*Hauptverwaltung für das Post- und Fernmeldewesen des Vereinigten Wirtschaftsgebietes*), left *DE* out of consideration from the outset, because it could be confused with the abbreviation *de* (= "this is") in CW traffic. In addition, *DE* had already been established since 1925 as the abbreviation for *Deutsche Empfangsstation* (German receiving station).
 
-Ein DE-Kennzeichen sieht also ähnlich aus, ist aber kein Amateurfunkrufzeichen der Bundesnetzagentur. Es kennzeichnet eine deutsche Empfangsstation und berechtigt nicht zum Senden.
+So a DE identifier looks similar, but it is not an amateur call sign issued by the BNetzA. It identifies a German receiving station and does not entitle the holder to transmit.
 </indepth>
 
-Im nächsten Abschnitt schauen wir uns die internationalen Rufzeichen genauer an. 
+In the next section, we take a closer look at international call signs. 

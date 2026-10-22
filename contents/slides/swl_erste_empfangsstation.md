@@ -1,102 +1,102 @@
-## Die erste Empfangsstation
+## The first receiving station
 
-Eine einfache Empfangsstation besteht aus:
+A simple receiving station consists of:
 
-[picture:657:swl_erste_empfangsstation:Beispiel für eine erste Empfangsstation]
+[picture:657:swl_erste_empfangsstation:Example of a first receiving station]
 
-Der Empfänger macht die übertragene Information hör- oder sichtbar.
+The receiver makes the transmitted information audible or visible.
 
 <note>
-Die Antenne nimmt viele Signale gleichzeitig auf. Der Empfänger wählt daraus einen kleinen Frequenzbereich aus.
+The antenna picks up many signals at once. The receiver selects a small frequency range from them.
 </note>
 
 --- style="font-size: smaller;"
 
-### Welcher Empfänger passt?
+### Which receiver suits you?
 
-| l: Gerät | X: Typischer Einstieg |
-| Weltempfänger | Kurzwelle ohne Computer hören |
-| SDR-Stick | Spektrum und Wasserfall am Computer nutzen |
-| Handfunkgerät | lokalen Betrieb auf VHF und UHF hören |
-| Transceiver | hochwertige Empfangsmöglichkeiten nutzen, ohne zu senden |
-[table:swl_erste_empfangsstation_geraete:Empfänger für unterschiedliche Einstiegsbereiche]
+| l: Radio | X: Typical way in |
+| World-band receiver | Listening to HF without a computer |
+| SDR stick | Using the spectrum and waterfall on a computer |
+| Handheld | Listening to local activity on VHF and UHF |
+| Transceiver | Using high-quality reception features without transmitting |
+[table:swl_erste_empfangsstation_geraete:Receivers for different ways in]
 
 <note>
-Vor dem Kauf zuerst klären, welche Bänder gehört werden sollen. Ein Kurzwellenempfänger und ein VHF/UHF-Handfunkgerät erfüllen unterschiedliche Aufgaben.
+Before buying, first be clear about which bands you want to listen to. An HF receiver and a VHF/UHF handheld do different jobs.
 </note>
 
 ---
 
-### Empfang mit einem SDR
+### Reception with an SDR
 
 <left>
-[photo:346:swl_erste_empfangsstation_sdr:Spektrum und Wasserfall bei einem Empfangsversuch mit einem SDR]
+[photo:346:swl_erste_empfangsstation_sdr:Spectrum and waterfall during a reception attempt with an SDR]
 </left>
 <right>
-* Spektrum zeigt gleichzeitig einen größeren Frequenzbereich
-* Spitzen weisen auf aktive Signale hin
-* Wasserfall zeigt den zeitlichen Verlauf
-* Signale lassen sich schnell finden und auswählen
+* The spectrum shows a wider frequency range at the same time
+* Peaks indicate active signals
+* The waterfall shows the history over time
+* Signals can be found and selected quickly
 </right>
 
 <note>
-Das Foto zeigt den Empfang von Satellitenfunk. Es verdeutlicht zugleich, dass sich die SWL-Tätigkeit nicht auf Kurzwelle beschränkt.
+The photo shows reception of satellite signals. It also makes clear that SWL activity is not limited to short wave.
 </note>
 
 ---
 
-### Empfänger oder Transceiver?
+### Receiver or transceiver?
 
-* Ein *Receiver* ist ein reiner Empfänger
-* Ein *Transceiver* vereint *Transmitter* und *Receiver*
-* Beide können für den Empfang verwendet werden
+* A *receiver* only receives
+* A *transceiver* combines a *transmitter* and a *receiver*
+* Both can be used for reception
 
 <fragment>
-Ohne Zulassung darf ein Transceiver nicht zum Senden verwendet werden. Die PTT-Taste bleibt unbenutzt.
+Without a licence, a transceiver must not be used for transmitting. The PTT button stays unused.
 </fragment>
 
 ---
 
-### Darauf kommt es beim Empfänger an
+### What matters in a receiver
 
-* gewünschte Frequenzbereiche
-* AM, SSB, CW und gegebenenfalls FM
-* fein einstellbare Frequenz
-* passende Filterbandbreiten
-* Anschluss für eine externe Antenne
-* gut ablesbare Signalstärkeanzeige
+* The frequency ranges you want
+* AM, SSB, CW and, where needed, FM
+* Finely adjustable frequency
+* Suitable filter bandwidths
+* A socket for an external antenna
+* An easy-to-read signal strength indicator
 
 <note>
-Die genaue Bedienung, die Modulationsarten und die Filter folgen im nächsten Kapitel.
+How to operate the receiver, the types of modulation and the filters follow in detail in the next chapter.
 </note>
 
 ---
 
-### Die Antenne entscheidet mit
+### The antenna plays its part
 
-* Für Kurzwelle können bereits einige Meter Draht gute Signale liefern
-* Auf VHF und UHF werden meist abgestimmte Antennen verwendet
-* Eine Außenantenne empfängt häufig besser als eine Zimmerantenne
-* Antenne, Kabel und Empfänger müssen zueinander passen
+* On HF, just a few metres of wire can deliver good signals
+* On VHF and UHF, tuned antennas are mostly used
+* An outdoor antenna often receives better than an indoor antenna
+* Antenna, cable and receiver must suit each other
 
 <fragment>
-Außenantennen müssen sicher montiert werden. Blitzschutz, Abstände zu Energieleitungen und örtliche Vorschriften werden im Kapitel Sicherheit behandelt.
+Outdoor antennas must be mounted securely. Lightning protection, distances from power lines and local regulations are dealt with in the chapter on safety.
 </fragment>
 
 ---
 
-### Der erste Hörversuch
+### The first listening attempt
 
-1. gewünschtes Amateurfunkband auswählen
-2. passende Modulationsart einstellen
-3. Lautstärke angenehm einstellen
-4. langsam abstimmen oder Signale im Wasserfall auswählen
-5. gehörte Rufzeichen und Beobachtungen notieren
+1. Choose the amateur band you want
+2. Set the right mode
+3. Set the volume to a comfortable level
+4. Tune slowly, or select signals in the waterfall
+5. Note the call signs heard and your observations
 
 <fragment>
-Papier und Stift gehören von Anfang an zur Empfangsstation.
+Paper and pen are part of the receiving station from the start.
 </fragment>
 
 <note>
-Wenn möglich, an dieser Stelle einen Empfänger oder SDR praktisch vorführen. Das genaue Aufnehmen eines Rufzeichens ist wichtiger als möglichst viele Signale schnell durchzuschalten.
+If possible, demonstrate a receiver or SDR in practice at this point. Taking down one call sign accurately is more important than switching quickly through as many signals as possible.
 </note>

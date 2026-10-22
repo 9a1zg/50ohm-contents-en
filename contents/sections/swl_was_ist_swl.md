@@ -1,23 +1,23 @@
-Ein *Short Wave Listener* [index:Kurzwellenhörer] hört Funkübertragungen und versucht, die empfangenen Stationen sicher zu identifizieren. Trotz der deutschen Bezeichnung *Kurzwellenhörer* beschränkt sich das Hobby nicht auf Kurzwelle: Interessante Signale gibt es ebenso auf dem $\qty{2}{\meter}$- und dem $\qty{70}{\centi\meter}$-Band, über Relaisfunkstellen, Baken oder Amateurfunksatelliten.
+A *Short Wave Listener* [index:Short-wave listener] listens to radio transmissions and tries to identify the stations received with certainty. Despite the German name *Kurzwellenhörer* (short-wave listener), the hobby is not limited to short wave: there are interesting signals on the $\qty{2}{\meter}$ and $\qty{70}{\centi\meter}$ bands as well, via repeaters, from beacons or via amateur satellites.
 
-Der Empfang von Amateurfunkaussendungen ist ohne Zulassung zum Amateurfunkdienst möglich. Eine Amateurfunkprüfung bei der Bundesnetzagentur wird erst benötigt, wenn man selbst als Funkamateur senden möchte.
+Amateur radio transmissions can be received without an authorisation to participate in the amateur service. An amateur radio examination at the Federal Network Agency (Bundesnetzagentur, BNetzA) is only needed if you want to transmit yourself as a radio amateur.
 
 [question:VD102]
 
-Die SWL-Tätigkeit ist trotzdem mehr als passives Zuhören. Beim Hören werden beide Rufzeichen einer Funkverbindung, Datum, Uhrzeit, Band, Übertragungsverfahren und Empfangsrapport notiert. Aus diesen Angaben entsteht ein Hörbericht. Stimmt er mit dem Logbuch der gehörten Station überein, kann diese ihn durch eine sogenannte QSL-Karte bestätigen.
+Even so, being an SWL is more than passive listening. While listening, you note both call signs of a contact, the date, the time, the band, the transmission method and a reception report. From this information, a listener report is produced. If it agrees with the log of the station heard, that station can confirm it with what is known as a QSL card.
 
-Eine Funkverbindung nennt man in der Amateurfunkwelt übrigens *QSO*. Eine Empfangsbestätigung wird als *QSL* bezeichnet. Deshalb auch der Name der QSL-Karte.
+In the amateur radio world, by the way, a contact is called a *QSO*. A confirmation of receipt is called a *QSL*. Hence the name of the QSL card.
 
 <tip>
-Ein Ortsverband ist ein guter Startpunkt: Dort gibt es Hilfe bei der Empfängerauswahl, beim Antennenbau, bei der DE-Prüfung und bei der QSL-Vermittlung.
+A local club is a good place to start: there you can get help with choosing a receiver, building antennas, the DE examination and the QSL bureau.
 
-[Jetzt Mitglied im DARC werden!](https://50ohm.de/mw)
+[Become a DARC member now!](https://50ohm.de/mw)
 </tip>
 
 ---
 
-Als DARC-Mitglied kann man zunächst eine SWL-Nummer verwenden. Sie setzt sich aus dem Landeskenner DL, dem DOK des DARC-Ortsverbandes und der siebenstelligen Mitgliedsnummer zusammen, zum Beispiel *DL-B17/1234567*. Nach bestandener DE-Prüfung kann ein persönliches DE-Kennzeichen beantragt werden, z. B. *DE1EKA* oder *DE1JMU* .
+As a DARC member, you can start by using an SWL number. It is made up of the country prefix DL, the district local club identifier (Distriktsortskenner, DOK) of the DARC local club and the seven-digit membership number, for example *DL-B17/1234567*. After passing the DE examination, you can apply for a personal DE identifier, e.g. *DE1EKA* or *DE1JMU* .
 
 <attention>
-Ein DE-Kennzeichen ist ein Hörerkennzeichen für DARC- und VFDB-Mitglieder. Es ist keine Sendegenehmigung und darf nicht als Amateurfunkrufzeichen zum Senden verwendet werden.
+A DE identifier is a short-wave listener identifier for DARC and VFDB members. It is not a transmitting licence and must not be used as an amateur call sign for transmitting.
 </attention>

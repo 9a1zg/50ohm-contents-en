@@ -1,17 +1,17 @@
-Amateurfunkbänder werden meist nach einer ungefähren Wellenlänge bezeichnet. Das $\qty{80}{\meter}$-Band liegt beispielsweise im Bereich um $\qty{3,6}{\mega\hertz}$. Für den Empfang muss die Zuordnung zwischen Frequenzbereich und Bandname bekannt sein (vgl. Tabelle [ref:swl_frequenzbereiche_baender]).
+Amateur bands are usually named after an approximate wavelength. The $\qty{80}{\meter}$ band, for example, lies in the range around $\qty{3.6}{\mega\hertz}$. For reception, you need to know which frequency range goes with which band name (see Table [ref:swl_frequenzbereiche_baender]).
 
 
 <margin>
-| l: Frequenzbereich | l: Bandbezeichnung |
-| $\qtyrange{1,810}{2,000}{\mega\hertz}$ | $\qty{160}{\meter}$ |
-| $\qtyrange{3,5}{3,8}{\mega\hertz}$ | $\qty{80}{\meter}$ |
-| $\qtyrange{7,0}{7,2}{\mega\hertz}$ | $\qty{40}{\meter}$ |
-| $\qtyrange{14}{14,35}{\mega\hertz}$ | $\qty{20}{\meter}$ |
-| $\qtyrange{21}{21,45}{\mega\hertz}$ | $\qty{15}{\meter}$ |
-| $\qtyrange{28}{29,7}{\mega\hertz}$ | $\qty{10}{\meter}$ |
+| l: Frequency range | l: Band name |
+| $\qtyrange{1.810}{2.000}{\mega\hertz}$ | $\qty{160}{\meter}$ |
+| $\qtyrange{3.5}{3.8}{\mega\hertz}$ | $\qty{80}{\meter}$ |
+| $\qtyrange{7.0}{7.2}{\mega\hertz}$ | $\qty{40}{\meter}$ |
+| $\qtyrange{14}{14.35}{\mega\hertz}$ | $\qty{20}{\meter}$ |
+| $\qtyrange{21}{21.45}{\mega\hertz}$ | $\qty{15}{\meter}$ |
+| $\qtyrange{28}{29.7}{\mega\hertz}$ | $\qty{10}{\meter}$ |
 | $\qtyrange{144}{146}{\mega\hertz}$ | $\qty{2}{\meter}$ |
 | $\qtyrange{430}{440}{\mega\hertz}$ | $\qty{70}{\centi\meter}$ |
-[table:swl_frequenzbereiche_baender:Wichtige deutsche Amateurfunkbänder]
+[table:swl_frequenzbereiche_baender:Important German amateur bands]
 </margin>
 
 [question:SWL004]
@@ -24,15 +24,15 @@ Amateurfunkbänder werden meist nach einer ungefähren Wellenlänge bezeichnet. 
 [question:SWL011]
 
 <tip>
-Je höher die Frequenz, desto kürzer die Wellenlänge. Diese Beziehung hilft, grobe Zuordnungsfehler zu erkennen.
+The higher the frequency, the shorter the wavelength. This relationship helps you spot gross errors in matching them up.
 
-Anstatt alle Fragen auswendig zu lernen, kann man das auch mit den folgenden Faustformeln berechnen:
+Instead of learning all the questions by heart, you can also work the answer out with the following rule-of-thumb formulas:
 
 $ f~[\text{in~} \unit{\mega\hertz}] = \frac{300}{\lambda~[\text{in~} \unit{\meter}]} $
 
-und
+and
 
 $ \lambda~[\text{in~} \unit{\meter}] = \frac{300}{f~[\text{in~} \unit{\mega\hertz}]}. $
 </tip>
 
-Bandgrenzen können vom Land und den jeweiligen Nutzungsbestimmungen abhängen. Ein aktueller Bandplan ist daher beim praktischen Hören eine hilfreiche Orientierung.
+Band edges can depend on the country and on the conditions of use that apply there. An up-to-date band plan is therefore a helpful guide when listening in practice.

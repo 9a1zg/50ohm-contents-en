@@ -1,36 +1,36 @@
 --- style="font-size: smaller;"
 
-## Antennensicherheit
+## Antenna safety
 
 <left>
-[photo:83:swl_antennensicherheit_hausdach:Antennenanlage für KW, VHF und UHF auf einem Hausdach]
+[photo:83:swl_antennensicherheit_hausdach:Antenna installation for HF, VHF and UHF on a house roof]
 </left>
 <right>
-* standsicher gegen Wind und Wetter
-* großer Abstand zu Energieleitungen
-* Wege und Nachbargrundstücke nicht gefährden
-* Miet-, Bau- und Denkmalschutzrecht beachten
-* Blitzschutz und Potentialausgleich fachkundig planen
+* Stable against wind and weather
+* A large distance from power lines
+* Do not endanger paths and neighbouring properties
+* Observe tenancy, building and heritage protection law
+* Have lightning protection and equipotential bonding planned by experts
 </right>
 
 <note>
-Außenantennen nie allein und nie bei Gewitter auf- oder abbauen. Die Annäherung an eine Stromleitung kann lebensgefährlich sein.
+Never put up or take down outdoor antennas alone, and never during a thunderstorm. Getting close to a power line can be fatal.
 </note>
 
 ---
 
-### Haftung und Versicherung
+### Liability and insurance
 
-* Für Schäden haftet der Eigentümer oder Betreiber der Antennenanlage
-* Das gilt auch für reine Empfangsanlagen
-* Die DARC-Mitgliedschaft enthält eine Haftpflichtversicherung für vorschriftsmäßig aufgebaute Antennenanlagen des Mitglieds
+* The owner or operator of the antenna installation is liable for damage
+* This also applies to receive-only installations
+* DARC membership includes liability insurance for the member's antenna installations, provided they are erected in compliance with the regulations
 
 <fragment>
-Eine kleine, sicher montierte Antenne ist besser als eine große improvisierte Konstruktion.
+A small, securely mounted antenna is better than a large improvised construction.
 </fragment>
 
 <note>
-Der örtliche DARC-Ortsverband kann bei Planung und Aufbau helfen.
+The local DARC club can help with planning and putting it up.
 </note>
 
 ---

@@ -558,6 +558,23 @@ and the checker's "Provjera" section).
   (*H*eimat beside *H*ome, *Beenden* beside *terminate*) is dropped
   (bracket rule). (Unit nea_abkuerzungen.)
 
+- **SWL course: *DE identifier*, *DE examination*, *listener report*; the
+  German name *Kurzwellenhörer* kept where the text remarks on it.** The SWL
+  chapters (swl_1, swl_2) revolve around the DARC's listener examination and
+  the identifier it leads to. *DE-Kennzeichen* is the **DE identifier**, not
+  a "DE call sign": the text stresses that it is no call sign and no
+  transmitting licence, and the glossary already has *Hörerkennzeichen* →
+  short-wave listener identifier (§2); VD102's *Hörerrufzeichen ("DE-Reihe")*
+  stays "listener call sign ("DE series")", as the question writes it.
+  *DE-Prüfung* is the **DE examination** (*SWL-Prüfung*, where the German
+  says that, the SWL examination); *Hörbericht* the **listener report**, with
+  *Empfangsrapport* the reception report inside it (BE207). Where the German
+  remarks on its own name for the hobby ("trotz der deutschen Bezeichnung
+  *Kurzwellenhörer*"), the remark stays, as information about German usage
+  (*USB* entry above), with the English in brackets; the English *short-wave
+  listener* carries the same "short wave", so the point survives. (Unit
+  swl_1.)
+
 ## Open questions for DARC
 
 - Suspected slips in the German original noticed while translating are listed

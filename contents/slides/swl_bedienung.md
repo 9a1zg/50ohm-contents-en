@@ -1,46 +1,46 @@
-## Display und Bedienung
+## Display and controls
 
-[photo:95:swl_bedienung_display:Display mit Frequenzanzeige, Modulationsart, Spektrum und Wasserfalldiagramm]
+[photo:95:swl_bedienung_display:Display with frequency display, mode, spectrum and waterfall display]
 
 <note>
-Die Teilnehmenden zunächst selbst benennen lassen, was sie auf dem Display erkennen. Sichtbar sind unter anderem USB, die Frequenz, das S-Meter, das Spektrum und darunter der Wasserfall.
+First let the participants name for themselves what they can see on the display. Visible among other things are USB, the frequency, the S meter, the spectrum and, below it, the waterfall.
 </note>
 
 ---
 
-### Wichtige Anzeigen
+### Important indications
 
-* eingestellte Frequenz
-* gewählte Modulationsart, beispielsweise USB
-* S-Meter für die Signalstärke
-* Amplitudenspektrum
-* Wasserfalldiagramm
+* Frequency set
+* Selected mode, for example USB
+* S meter for the signal strength
+* Amplitude spectrum
+* Waterfall display
 
 <note>
-Die genaue Bedeutung des S-Meters folgt später zusammen mit dem RST-Rapport.
+What the S meter shows exactly follows later, together with the RST report.
 </note>
 
 ---
 
-### Spektrum und Wasserfall
+### Spectrum and waterfall
 
 <left>
-#### Amplitudenspektrum
+#### Amplitude spectrum
 
-* waagerecht: Frequenzbereich
-* senkrecht: Signalstärke
-* hohe Spitzen weisen auf starke Signale hin
+* Horizontal: frequency range
+* Vertical: signal strength
+* High peaks indicate strong signals
 </left>
 <right>
-#### Wasserfalldiagramm
+#### Waterfall display
 
-* ergänzt den zeitlichen Verlauf
-* neue Signale erscheinen oben
-* ältere Signale wandern nach unten
+* Adds the history over time
+* New signals appear at the top
+* Older signals move downwards
 </right>
 
 <note>
-Der Wasserfall macht auch kurze Signale oder gerade beendete Aussendungen sichtbar.
+The waterfall also makes short signals or transmissions that have just ended visible.
 </note>
 
 ---
@@ -49,14 +49,14 @@ Der Wasserfall macht auch kurze Signale oder gerade beendete Aussendungen sichtb
 
 ---
 
-### Abstimmen und filtern
+### Tuning and filtering
 
-* Mit dem *VFO* wird die Empfangsfrequenz eingestellt
-* Bei SSB wird fein abgestimmt, bis die Sprache natürlich klingt
-* Filter begrenzen den empfangenen Frequenzbereich
-* Die HF-Verstärkung beeinflusst die Empfindlichkeit
-* Die Lautstärke verändert nur das Audiosignal
+* The *VFO* sets the receive frequency
+* In SSB, fine-tune until the speech sounds natural
+* Filters limit the range of frequencies received
+* The RF gain affects the sensitivity
+* The volume only changes the audio signal
 
 <fragment>
-Beim Lernen immer nur eine Einstellung ändern und ihre Wirkung beobachten.
+While learning, always change only one setting at a time and watch its effect.
 </fragment>

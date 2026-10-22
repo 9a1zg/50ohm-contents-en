@@ -1,47 +1,47 @@
-Eine einfache Empfangsstation besteht aus drei Teilen:
+A simple receiving station consists of three parts:
 
-* einem Empfänger
-* einer passenden Antenne
-* einer Verbindung zwischen Antenne und Gerät
+* a receiver
+* a suitable antenna
+* a connection between the antenna and the radio
 
-Für erste Versuche genügt oft schon ein vorhandener Weltempfänger, ein kleiner SDR-USB-Stick oder ein Handfunkgerät. Wichtig ist, dass das Gerät die gewünschten Amateurfunkbänder und die dort benutzten Modulationsarten empfangen kann.
+For first attempts, an existing world-band receiver, a small SDR USB stick or a handheld transceiver is often enough. What matters is that the radio can receive the amateur bands you want and the types of modulation used there.
 
 <margin>
-[photo:346:swl_sdr:Empfang von Satellitenfunk mit einem SDR-Stick und einem Computer]
+[photo:346:swl_sdr:Receiving satellite signals with an SDR stick and a computer]
 </margin>
 
-Ein moderner SDR stellt einen größeren Frequenzbereich gleichzeitig als Spektrum und Wasserfall dar (vgl. [ref:swl_sdr]). Dadurch lassen sich aktive Stationen leichter finden. Ein klassischer Empfänger wird dagegen schrittweise über das Band abgestimmt. Beide Wege trainieren das genaue Hinhören.
+A modern SDR shows a wider frequency range at the same time as a spectrum and waterfall (see [ref:swl_sdr]). This makes active stations easier to find. A classic receiver, on the other hand, is tuned across the band step by step. Both ways train you to listen carefully.
 
 ---
 
-Der Empfänger wählt aus allen an der Antenne anliegenden Signalen einen kleinen Frequenzbereich aus und macht die darin enthaltene Information hör- oder sichtbar. Ein *Transceiver* vereint Empfänger und Sender in einem Gerät. Das Wort setzt sich aus *Transmitter* und *Receiver* zusammen.
+The receiver selects a small frequency range from all the signals present at the antenna and makes the information it contains audible or visible. A *transceiver* combines a receiver and a transmitter in one unit. The word is made up of *transmitter* and *receiver*.
 
 <tip>
-Auch wenn man kein Funkamateur ist, darf man ein Amateurfunkgerät kaufen. Nur das Senden ist ohne Zulassung nicht erlaubt. Wer keine Zulassung zum Amateurfunkdienst besitzt, darf mit einem Transceiver also Amateurfunkaussendungen empfangen, aber nicht senden. Die PTT-Taste bleibt unbenutzt.
+Even if you are not a radio amateur, you may buy amateur radio equipment. It is only transmitting that is not permitted without a licence. So anyone who does not hold an authorisation to participate in the amateur service may use a transceiver to receive amateur radio transmissions, but not to transmit. The PTT button stays unused.
 
-Vor dem Kauf sollte geklärt werden, welche Bänder gehört werden sollen. Ein Kurzwellenempfänger und ein VHF/UHF-Handfunkgerät erfüllen unterschiedliche Aufgaben. Auch hier können erfahrene Funkamateure im Ortsverband bei der Auswahl helfen.
+Before buying, you should be clear about which bands you want to listen to. An HF receiver and a VHF/UHF handheld do different jobs. Here, too, experienced radio amateurs in the local club can help you choose.
 
-[Jetzt Mitglied im DARC werden!](https://50ohm.de/mw)
+[Become a DARC member now!](https://50ohm.de/mw)
 </tip>
 
-Für die SWL-Tätigkeit sind vor allem folgende Eigenschaften wichtig:
+For SWL activity, the following features are particularly important:
 
-* Empfang der gewünschten Frequenzbereiche
-* Unterstützung von AM, SSB, CW und gegebenenfalls FM
-* fein einstellbare Frequenz und passende Filterbandbreiten
-* Anschluss für eine externe Antenne
-* gut ablesbare Signalstärkeanzeige
-
----
-
-Ein Empfänger muss nicht teuer sein. Wichtiger ist, das vorhandene Gerät sicher bedienen zu können. Dazu gehören die Wahl von Frequenz und Modulationsart, die Einstellung der Verstärkung sowie der sinnvolle Einsatz von Filtern. Zu breite Filter lassen benachbarte Stationen durch, zu schmale Filter können Sprache oder digitale Signale unverständlich machen.
+* reception of the frequency ranges you want
+* support for AM, SSB, CW and, where needed, FM
+* finely adjustable frequency and suitable filter bandwidths
+* a socket for an external antenna
+* an easy-to-read signal strength indicator
 
 ---
 
-Die Antenne hat großen Einfluss auf das Ergebnis. Für Kurzwelle können bereits einige Meter Draht gute Signale liefern. Auf VHF und UHF sind abgestimmte Vertikal- oder Richtantennen üblich. Eine Außenantenne empfängt meist besser als eine Zimmerantenne, muss aber sicher montiert und gegen Witterungseinflüsse geschützt werden.
+A receiver does not have to be expensive. It is more important to be able to operate the radio you have with confidence. That includes choosing the frequency and the mode, setting the gain and making sensible use of filters. Filters that are too wide let neighbouring stations through; filters that are too narrow can make speech or digital signals unintelligible.
+
+---
+
+The antenna has a great influence on the result. On HF, just a few metres of wire can deliver good signals. On VHF and UHF, tuned vertical or directional antennas are usual. An outdoor antenna usually receives better than an indoor antenna, but it must be mounted securely and protected against the weather.
 
 <attention>
-Auch wenn nur empfangen wird, gelten bei Außenantennen die Regeln für Blitzschutz, Abstände zu Energieleitungen, standsichere Montage und das Baurecht.
+Even if you only receive, the rules on lightning protection, distances from power lines, stable mounting and building law apply to outdoor antennas.
 </attention>
 
-Für die ersten Hörversuche werden das passende Band und die richtige Modulationsart gewählt und die Lautstärke angenehm eingestellt. Danach wird langsam über das Band gedreht oder man schaut im Wasserfall auf die Signale. Papier und Stift sollten von Anfang an bereitliegen. 
+For the first listening attempts, choose the right band and the right mode, and set the volume to a comfortable level. Then tune slowly across the band, or look at the signals in the waterfall. Have paper and pen ready from the start. 

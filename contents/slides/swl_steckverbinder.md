@@ -1,37 +1,37 @@
-## HF-Steckverbinder
+## RF connectors
 
-* Empfänger und Antenne werden meist mit einem Koaxialkabel verbunden
-* Der Innenleiter führt das Signal
-* Der Außenleiter schirmt die Verbindung ab
-* Der Steckverbinder führt beide Leiter zuverlässig weiter
+* The receiver and the antenna are usually connected with a coaxial cable
+* The inner conductor carries the signal
+* The outer conductor screens the connection
+* The connector carries both conductors on reliably
 
 <note>
-Für die DE-Prüfung müssen die vier Systeme PL, N, BNC und SMA an ihrer Form erkannt werden.
+For the DE examination, you must be able to recognise the four series PL, N, BNC and SMA by their shape.
 </note>
 
 ---
 
-### PL und N
+### PL and N
 
 <left>
 #### PL
 
-[photo:69:swl_steckverbinder_pl:PL-Stecker]
+[photo:69:swl_steckverbinder_pl:PL plug]
 
-* großes Schraubgewinde
-* häufig auf Kurzwelle und am $\qty{2}{\meter}$-Band
+* Large screw thread
+* Common on HF and on the $\qty{2}{\meter}$ band
 </left>
 <right>
 #### N
 
-[photo:73:swl_steckverbinder_n:N-Einbaubuchse und N-Stecker]
+[photo:73:swl_steckverbinder_n:N panel socket and N plug]
 
-* wetterfeste Schraubverbindung
-* gut für hohe Frequenzen geeignet
+* Weatherproof screw coupling
+* Well suited to high frequencies
 </right>
 
 <note>
-PL und N nicht miteinander verwechseln. Ein PL-Stecker kann eine N-Buchse mechanisch beschädigen.
+Do not confuse PL and N. A PL plug can mechanically damage an N socket.
 </note>
 
 ---
@@ -44,27 +44,27 @@ PL und N nicht miteinander verwechseln. Ein PL-Stecker kann eine N-Buchse mechan
 
 ---
 
-### BNC und SMA
+### BNC and SMA
 
 <left>
 #### BNC
 
-[photo:71:swl_steckverbinder_bnc:BNC-Winkeladapter mit Stecker und Kupplung]
+[photo:71:swl_steckverbinder_bnc:BNC right-angle adapter with plug and socket]
 
-* Bajonettverschluss
-* kurze Drehung zum Verriegeln
+* Bayonet coupling
+* A short turn locks it
 </left>
 <right>
 #### SMA
 
-[photo:74:swl_steckverbinder_sma:SMA-Stecker, stark vergrößert]
+[photo:74:swl_steckverbinder_sma:SMA plug, greatly enlarged]
 
-* sehr kleine Schraubverbindung
-* häufig an Handfunk- und SDR-Geräten
+* Very small screw coupling
+* Common on handhelds and SDR equipment
 </right>
 
 <note>
-Beim SMA-Foto ausdrücklich auf die starke Vergrößerung hinweisen.
+Point out explicitly that the SMA photo is greatly enlarged.
 </note>
 
 ---
@@ -77,13 +77,13 @@ Beim SMA-Foto ausdrücklich auf die starke Vergrößerung hinweisen.
 
 ---
 
-### Sicher verbinden
+### Connecting safely
 
-* Stecker und Buchse müssen zum gleichen System gehören
-* Steckverbinder nicht verkanten oder mit Gewalt anziehen
-* SMA-Steckverbinder sind besonders klein und empfindlich
-* Gute Abschirmung und geringe Verluste bleiben auch beim Empfang wichtig
+* The plug and socket must belong to the same series
+* Do not force connectors in at an angle or tighten them by force
+* SMA connectors are particularly small and delicate
+* Good screening and low losses remain important for reception too
 
 <note>
-Die zulässige Sendeleistung eines Steckverbinders ist für eine reine Empfangsstation nicht entscheidend. Frequenzbereich, mechanische Passung und Qualität der Verbindung bleiben wichtig.
+The permitted transmit power of a connector does not matter for a receive-only station. The frequency range, the mechanical fit and the quality of the connection remain important.
 </note>

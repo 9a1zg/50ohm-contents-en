@@ -2676,6 +2676,23 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Nachwuchsförderung / Nachwuchs | encouraging young people / young people | N_Ende |
 | Nach der Prüfung ist vor der Prüfung | after the exam is before the exam | motto rendered literally; the German's following *denn* clause explains it (N_Ende) |
 | DARC-Chat / DARC-Treff / Dienstags-Treff / AFUBarcamp / HAM RADIO / Funk.Tag / HAM-Challenge | unchanged | names of DARC services and events; *Dienstags-Treff* glossed "(Tuesday meeting)" once in the section (N_Ende) |
+| Kurzwellenhörer / Höramateur (deutsche Bezeichnung des SWL) | short-wave listener; the German names kept where the text remarks on them | "Trotz der deutschen Bezeichnung *Kurzwellenhörer* …" → "Despite the German name *Kurzwellenhörer* (short-wave listener), the hobby is not limited to short wave"; slide *deutsche Bezeichnung: Kurzwellenhörer oder Höramateur* → "German names: *Kurzwellenhörer* (short-wave listener) or *Höramateur* (listening amateur)"; the expansion *Short Wave Listener* stays as the German writes it; index term "Short-wave listener" (swl_vorwort, swl_was_ist_swl; DECISIONS.md) |
+| DE-Prüfung / SWL-Prüfung | DE examination / SWL examination | the DARC's listener examination; each as the German writes it; "die DE-Prüfung des DARC" → "the DARC's DE examination" (swl_vorwort, swl_steckverbinder, swl_rufzeichen; DECISIONS.md) |
+| DE-Kennzeichen / Hörerkennzeichen / SWL-Nummer / Mitgliedsnummer | DE identifier / short-wave listener identifier / SWL number / membership number | not *DE call sign*: the text insists it is no call sign; *Hörerkennzeichen* as §2; VD102's *Hörerrufzeichen* stays "listener call sign ("DE series")" (swl_was_ist_swl, swl_rufzeichen; DECISIONS.md) |
+| Hörbericht / Empfangsbericht / Empfangsrapport (SWL) | listener report / reception report / reception report | *Hörbericht* is the SWL's report of a contact heard; *Empfangsrapport* the signal report in it, as BE207 (swl_vorwort, swl_was_ist_swl) |
+| Sendegenehmigung | transmitting licence | the DE identifier "ist keine Sendegenehmigung" (swl_was_ist_swl) |
+| Weltempfänger / SDR-Stick / SDR-USB-Stick / aktive Mini-Whip-Antenne | world-band receiver / SDR stick / SDR USB stick / active Mini-Whip antenna | *Mini-Whip* capitalised as the design's name (swl_vorwort, swl_erste_empfangsstation) |
+| Außenantenne / Zimmerantenne / Empfangsantenne / (reine) Empfangsanlage / Empfangsstation | outdoor antenna / indoor antenna / receiving antenna / receive-only installation / receiving station | swl_erste_empfangsstation, swl_antennensicherheit, swl_steckverbinder |
+| Typischer Einstieg / Einstiegsbereiche (Tabelle der Empfänger) | typical way in / ways in | swl_erste_empfangsstation slides |
+| Signalstärkeanzeige | signal strength indicator | swl_erste_empfangsstation; the S meter (§2) |
+| Steckdosenleiste / Zuleitungen / netzspannungsführende Geräte | multi-socket extension lead / supply leads / equipment that carries mains voltage | NK305 "supply leads"; *gehören in fachkundige Hände* → "should be left to qualified people" (swl_elektrische_sicherheit) |
+| Ladegerät / aufgeblähte Akkus | charger / swollen batteries | first mention "rechargeable batteries", then *battery*, as DECISIONS.md *Akku* (swl_elektrische_sicherheit) |
+| Miet-, Bau- und Denkmalschutzrecht | tenancy law, building law and heritage protection law | swl_antennensicherheit |
+| Hauptverwaltung für das Post- und Fernmeldewesen des Vereinigten Wirtschaftsgebietes | Main Administration for Posts and Telecommunications of the United Economic Area | the post-war authority of the Bizone; German name in brackets (swl_rufzeichen) |
+| Deutsche Empfangsstation (DE, seit 1925) | *Deutsche Empfangsstation* (German receiving station) | the German expansion of DE kept, because it is what the letters stand for (swl_rufzeichen) |
+| Merkhilfen der SWL-Landeskennertabelle: Anfangsbuchstabe / LuXemburg / Franz. PAys-Bas | Initial letter / LuXembourg / French: PAys-Bas | as DECISIONS.md *German mnemonics*: the English name spells the same letters (LuXembourg), the French one stays; *OEsterreich (Austria)*, *Schönes Polen (beautiful Poland)*, *EspaniA* as internationale_landeskenner (swl_landeskenner) |
+| Daumenregel / Faustregel / Faustformeln | rule of thumb / rule of thumb / rule-of-thumb formulas | swl_modulationsarten, swl_ionosphaere, swl_frequenzbereiche |
+| VFDB | VFDB | the German telecommunications employees' radio club; unchanged, not expanded, as the German (swl_was_ist_swl) |
 
 ## 15. Catalogue structure
 

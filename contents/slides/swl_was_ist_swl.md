@@ -1,41 +1,41 @@
-## Was ist ein SWL?
+## What is an SWL?
 
-* *SWL* steht für *Short Wave Listener*
-* deutsche Bezeichnung: Kurzwellenhörer oder Höramateur
-* hört Funkübertragungen und identifiziert die empfangenen Stationen
-* dokumentiert gehörte Funkverbindungen
+* *SWL* stands for *Short Wave Listener*
+* German names: *Kurzwellenhörer* (short-wave listener) or *Höramateur* (listening amateur)
+* Listens to radio transmissions and identifies the stations received
+* Documents the contacts heard
 
 <note>
-Ein SWL ist ohne Amateurfunkzeugnis noch kein Funkamateur im gesetzlichen Sinn. Er kann sich trotzdem aktiv am Amateurfunkgeschehen beteiligen.
+Without an amateur radio certificate, an SWL is not yet a radio amateur in the legal sense. They can still take an active part in amateur radio.
 </note>
 
 ---
 
-### Nicht nur Kurzwelle
+### Not just short wave
 
-Interessante Signale gibt es unter anderem
+There are interesting signals, among other places,
 
-* auf den Kurzwellenbändern,
-* auf dem $\qty{2}{\meter}$- und dem $\qty{70}{\centi\meter}$-Band,
-* über Relaisfunkstellen,
-* von Baken und
-* über Amateurfunksatelliten.
+* on the HF bands,
+* on the $\qty{2}{\meter}$ and $\qty{70}{\centi\meter}$ bands,
+* via repeaters,
+* from beacons and
+* via amateur satellites.
 
 ---
 
-### Hören ja – Senden nein
+### Listening yes – transmitting no
 
 <left>
-[photo:117:swl_was_ist_swl_transceiver:Ein Transceiver für den Amateurfunk]
+[photo:117:swl_was_ist_swl_transceiver:A transceiver for amateur radio]
 </left>
 <right>
-* Funkgeräte dürfen gekauft werden
-* Amateurfunkaussendungen dürfen ohne Zulassung empfangen werden
-* Zum Senden auf den Amateurfunkbändern sind Amateurfunkprüfung, Zulassung und Rufzeichen erforderlich
+* Radios may be bought
+* Amateur radio transmissions may be received without a licence
+* Transmitting on the amateur bands requires an amateur radio examination, a licence and a call sign
 </right>
 
 <note>
-Ein Transceiver vereint Sender und Empfänger. Ohne Zulassung darf er zum Empfang verwendet werden; die PTT-Taste bleibt unbenutzt.
+A transceiver combines a transmitter and a receiver. Without a licence it may be used for reception; the PTT button stays unused.
 </note>
 
 ---
@@ -44,32 +44,32 @@ Ein Transceiver vereint Sender und Empfänger. Ohne Zulassung darf er zum Empfan
 
 ---
 
-### Aus Zuhören wird Beobachten
+### From listening to observing
 
-Für einen Hörbericht werden notiert:
+For a listener report, you note:
 
-* beide Rufzeichen der Funkverbindung
-* Datum und Uhrzeit in UTC
-* Frequenz oder Band
-* Übertragungsverfahren und Empfangsrapport
+* Both call signs of the contact
+* Date and time in UTC
+* Frequency or band
+* Transmission method and reception report
 
 <fragment>
-Eine Funkverbindung heißt *QSO*, ihre Empfangsbestätigung *QSL*.
+A contact is called a *QSO*, its confirmation of receipt a *QSL*.
 </fragment>
 
 ---
 
-### Kennzeichen und Gemeinschaft
+### Identifiers and community
 
-* DARC-Mitglieder können zunächst eine SWL-Nummer verwenden
-* DARC- und VFDB-Mitglieder können nach bestandener DE-Prüfung ein persönliches DE-Kennzeichen beantragen
-* QSL-Karten können über die QSL-Vermittlung ausgetauscht werden
-* Der örtliche Amateurfunkverein hilft beim Einstieg
+* DARC members can start by using an SWL number
+* After passing the DE examination, DARC and VFDB members can apply for a personal DE identifier
+* QSL cards can be exchanged via the QSL bureau
+* The local amateur radio club helps you get started
 
 <fragment>
-Ein DE-Kennzeichen ist keine Sendegenehmigung und kein Amateurfunkrufzeichen.
+A DE identifier is not a transmitting licence and not an amateur call sign.
 </fragment>
 
 <note>
-Beispiel für eine SWL-Nummer: DL-B17/1234567. Beispiel für ein DE-Kennzeichen: DE1SWL.
+Example of an SWL number: DL-B17/1234567. Example of a DE identifier: DE1SWL.
 </note>

@@ -1,19 +1,19 @@
 --- style="font-size: smaller;"
 
-## Sporadic-E
+## Sporadic E
 
 <left>
-[picture:733:swl_sporadic_e_ausbreitung:Brechung von Funkwellen an einem stark ionisierten Bereich der E-Region]
+[picture:733:swl_sporadic_e_ausbreitung:Refraction of radio waves at a strongly ionised area of the E region]
 </left>
 <right>
-* oberhalb von $\qty{30}{\mega\hertz}$ breiten sich Funkwellen normalerweise eher geradlinig aus
-* vorübergehend entstehen kleine, stark ionisierte Bereiche in der E-Region
-* Funkwellen werden dort gebrochen
-* auf dem $\qty{2}{\meter}$-Band werden plötzlich große Reichweiten möglich
+* Above $\qty{30}{\mega\hertz}$, radio waves normally travel more or less in straight lines
+* Small, strongly ionised areas form temporarily in the E region
+* Radio waves are refracted there
+* Long ranges suddenly become possible on the $\qty{2}{\meter}$ band
 </right>
 
 <note>
-Über Sporadic-E können auf dem 2-m-Band Stationen aus etwa 1000 bis 2000 km Entfernung hörbar werden.
+Via sporadic E, stations at distances of about 1000 to 2000 km can become audible on the 2 m band.
 </note>
 
 ---
@@ -22,17 +22,17 @@
 
 ---
 
-### Sporadic-E erkennen
+### Recognising sporadic E
 
-* tritt besonders häufig in den Sommermonaten auf
-* Öffnungen beginnen und enden manchmal sehr plötzlich
-* weit entfernte Stationen werden unerwartet stark hörbar
-* Ort und Zeitpunkt lassen sich nicht zuverlässig vorhersagen
+* Occurs particularly often in the summer months
+* Openings sometimes begin and end very suddenly
+* Distant stations become unexpectedly loud
+* Place and time cannot be reliably predicted
 
 <fragment>
-Bei einer Öffnung Frequenz, Uhrzeit und gehörte Rufzeichen im Logbuch festhalten.
+During an opening, record the frequency, the time and the call signs heard in the log.
 </fragment>
 
 <note>
-Eine Sporadic-E-Öffnung eignet sich besonders gut als praktische SWL-Beobachtung, weil sich die Ausbreitungsbedingungen innerhalb kurzer Zeit deutlich verändern können.
+A sporadic E opening is particularly well suited as a practical SWL observation, because the propagation conditions can change markedly within a short time.
 </note>

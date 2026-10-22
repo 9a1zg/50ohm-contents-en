@@ -1,25 +1,25 @@
-Damit Sprache, Töne oder Daten übertragen werden können, werden sie einer hochfrequenten Trägerwelle aufgeprägt. Dies nennt man *Modulation*. Beim Empfang muss deshalb die passende Modulationsart gewählt werden. Die Tabelle [ref:swl_modulationsarten_uebersicht] zeigt die wichtigsten Modulationsarten beim Amateurfunkempfang. Die Abkürzungen begegnen uns später auch bei den betrieblichen Abkürzungen.
+For speech, tones or data to be transmitted, they are impressed on a radio-frequency carrier wave. This is called *modulation*. When receiving, you must therefore select the right mode. Table [ref:swl_modulationsarten_uebersicht] shows the most important types of modulation for amateur radio reception. We will meet these abbreviations again later among the operating abbreviations.
 
 <margin>
-| l: Anzeige | l: Bedeutung | X: Typische Verwendung |
-| AM | Amplitudenmodulation | Rundfunk, einzelne Amateurfunkanwendungen |
-| LSB | unteres Seitenband von SSB | Sprechfunk auf Kurzwelle meist unterhalb von $\qty{10}{\mega\hertz}$ |
-| USB | oberes Seitenband von SSB | Sprechfunk meist oberhalb von $\qty{10}{\mega\hertz}$, digitale Verfahren |
-| CW | Continuous Wave | Morsetelegrafie |
-| FM | Frequenzmodulation | Sprechfunk vor allem auf VHF und UHF |
-[table:swl_modulationsarten_uebersicht:Wichtige Modulationsarten beim Amateurfunkempfang]
+| l: Display | l: Meaning | X: Typical use |
+| AM | Amplitude modulation | Broadcasting, some amateur radio applications |
+| LSB | Lower sideband of SSB | Voice on HF, mostly below $\qty{10}{\mega\hertz}$ |
+| USB | Upper sideband of SSB | Voice, mostly above $\qty{10}{\mega\hertz}$; digital modes |
+| CW | Continuous Wave | Morse telegraphy |
+| FM | Frequency modulation | Voice, mainly on VHF and UHF |
+[table:swl_modulationsarten_uebersicht:Important types of modulation for amateur radio reception]
 </margin>
 
 ---
 
-Bei *SSB* wird nur ein Seitenband übertragen. Deshalb muss beim Empfänger LSB oder USB richtig eingestellt sein. Mit dem falschen Seitenband klingt Sprache verzerrt und ist kaum verständlich. Außerdem muss die Frequenz genauer als bei AM oder FM abgestimmt werden.
+With *SSB*, only one sideband is transmitted. The receiver must therefore be set correctly to LSB or USB. With the wrong sideband, speech sounds distorted and is hardly intelligible. In addition, the frequency must be tuned more precisely than with AM or FM.
 
-Die Daumenregel im Amateurfunk ist hier: *LSB unterhalb von $\qty{10}{\mega\hertz}$, USB oberhalb von $\qty{10}{\mega\hertz}$*. 
+The rule of thumb in amateur radio here is: *LSB below $\qty{10}{\mega\hertz}$, USB above $\qty{10}{\mega\hertz}$*. 
 
 <tip>
-Wenn eine Stimme ungewöhnlich hoch, tief oder völlig unverständlich klingt, zuerst Frequenz und Seitenband kontrollieren.
+If a voice sounds unusually high, low or completely unintelligible, check the frequency and the sideband first.
 </tip>
 
 [question:NE209]
 
-Bei *CW* wird ein unmodulierter Träger ein- und ausgeschaltet. Der Empfänger erzeugt daraus einen hörbaren Ton. Die Tonfolgen bilden Morsezeichen. Die Abkürzung CW begegnet uns später erneut bei den betrieblichen Abkürzungen.
+With *CW*, an unmodulated carrier is switched on and off. The receiver turns this into an audible tone. The sequences of tones form Morse characters. We will meet the abbreviation CW again later among the operating abbreviations.

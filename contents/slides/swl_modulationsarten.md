@@ -1,43 +1,43 @@
-## Modulationsarten
+## Types of modulation
 
-* Sprache, Töne oder Daten werden einer hochfrequenten Trägerwelle aufgeprägt
-* Dieser Vorgang heißt *Modulation*
-* Beim Empfang muss die passende Modulationsart gewählt werden
+* Speech, tones or data are impressed on a radio-frequency carrier wave
+* This process is called *modulation*
+* When receiving, the right mode must be selected
 
 <note>
-Die zwei grundlegenden Eigenschaften einer Schwingung wiederholen: Amplitude und Frequenz. Je nach Modulationsart wird eine dieser Eigenschaften verändert oder der Träger ein- und ausgeschaltet.
+Recap the two basic properties of an oscillation: amplitude and frequency. Depending on the type of modulation, one of these properties is varied, or the carrier is switched on and off.
 </note>
 
 --- style="font-size: smaller;"
 
-### Anzeigen am Empfänger
+### Indications on the receiver
 
-| l: Anzeige | l: Bedeutung | X: Typische Verwendung |
-| AM | Amplitudenmodulation | Rundfunk und einzelne Amateurfunkanwendungen |
-| LSB | unteres Seitenband von SSB | Sprechfunk auf Kurzwelle meist unterhalb von $\qty{10}{\mega\hertz}$ |
-| USB | oberes Seitenband von SSB | Sprechfunk meist oberhalb von $\qty{10}{\mega\hertz}$ und digitale Verfahren |
-| CW | Continuous Wave | Morsetelegrafie |
-| FM | Frequenzmodulation | Sprechfunk vor allem auf VHF und UHF |
+| l: Display | l: Meaning | X: Typical use |
+| AM | Amplitude modulation | Broadcasting and some amateur radio applications |
+| LSB | Lower sideband of SSB | Voice on HF, mostly below $\qty{10}{\mega\hertz}$ |
+| USB | Upper sideband of SSB | Voice, mostly above $\qty{10}{\mega\hertz}$, and digital modes |
+| CW | Continuous Wave | Morse telegraphy |
+| FM | Frequency modulation | Voice, mainly on VHF and UHF |
 
 <note>
-Diese Kürzel werden später auch als betriebliche Abkürzungen behandelt.
+These abbreviations are also dealt with later as operating abbreviations.
 </note>
 
 ---
 
-### Beispiel: Einseitenbandmodulation – SSB
+### Example: single-sideband modulation – SSB
 
-* Bei SSB wird nur ein Seitenband übertragen
-* Der Empfänger muss auf *LSB* oder *USB* eingestellt werden
-* Ein falsches Seitenband lässt Sprache verzerrt und unverständlich klingen
-* Die Frequenz muss genauer als bei AM oder FM abgestimmt werden
+* With SSB, only one sideband is transmitted
+* The receiver must be set to *LSB* or *USB*
+* The wrong sideband makes speech sound distorted and unintelligible
+* The frequency must be tuned more precisely than with AM or FM
 
 <fragment>
-Daumenregel: LSB unterhalb von $\qty{10}{\mega\hertz}$, USB oberhalb von $\qty{10}{\mega\hertz}$.
+Rule of thumb: LSB below $\qty{10}{\mega\hertz}$, USB above $\qty{10}{\mega\hertz}$.
 </fragment>
 
 <note>
-Digitale Übertragungsverfahren werden in der Regel auch unterhalb von $\qty{10}{\mega\hertz}$ in USB empfangen. Klingt Sprache ungewöhnlich hoch oder tief, zuerst Seitenband und Frequenz kontrollieren.
+Digital modes are usually received in USB even below $\qty{10}{\mega\hertz}$. If speech sounds unusually high or low, check the sideband and the frequency first.
 </note>
 
 ---
@@ -46,13 +46,13 @@ Digitale Übertragungsverfahren werden in der Regel auch unterhalb von $\qty{10}
 
 ---
 
-### Beispiel: Morsetelegrafie – CW
+### Example: Morse telegraphy – CW
 
-* *CW* steht für *Continuous Wave*
-* Ein unmodulierter Träger wird ein- und ausgeschaltet
-* Der Empfänger macht daraus einen hörbaren Ton
-* Die Folge kurzer und langer Töne bildet Morsezeichen
+* *CW* stands for *Continuous Wave*
+* An unmodulated carrier is switched on and off
+* The receiver turns this into an audible tone
+* The sequence of short and long tones forms Morse characters
 
 <note>
-Die Bedeutung von CW als betriebliche Abkürzung wird später noch einmal aufgegriffen.
+The meaning of CW as an operating abbreviation is taken up again later.
 </note>

@@ -1,20 +1,20 @@
 --- style="font-size: smaller;"
 
-## Ionosphäre und Kurzwelle
+## The ionosphere and short wave
 
 <left>
-[picture:732:swl_ionosphaere_brechung:Brechung von Kurzwellen an der Ionosphäre]
+[picture:732:swl_ionosphaere_brechung:Refraction of short waves at the ionosphere]
 </left>
 <right>
-* liegt im oberen Bereich der Erdatmosphäre
-* Sonnenstrahlung erzeugt dort elektrisch geladene Teilchen
-* Kurzwellen werden gebrochen und zur Erde zurückgelenkt
-* die zurückkehrende Funkwelle heißt *Raumwelle*
-* große Empfangsentfernungen werden möglich
+* Lies in the upper part of the earth's atmosphere
+* There, radiation from the sun produces electrically charged particles
+* Short waves are refracted and bent back to earth
+* The returning radio wave is called the *sky wave*
+* Long reception distances become possible
 </right>
 
 <note>
-Physikalisch handelt es sich um eine Brechung beziehungsweise Refraktion. Für den Einstieg genügt die Vorstellung, dass die Funkwelle durch die Ionosphäre wieder zur Erde gelangt.
+Physically, this is refraction. For a start, it is enough to picture the radio wave getting back to earth by way of the ionosphere.
 </note>
 
 ---
@@ -23,20 +23,20 @@ Physikalisch handelt es sich um eine Brechung beziehungsweise Refraktion. Für d
 
 --- style="font-size: smaller;"
 
-### Ausbreitung und Sonnenzyklus
+### Propagation and the solar cycle
 
 <left>
-[picture:729:swl_ionosphaere_sonnenzyklus:Die Zahl der Sonnenflecken schwankt über den elfjährigen Sonnenzyklus]
+[picture:729:swl_ionosphaere_sonnenzyklus:The number of sunspots varies over the eleven-year solar cycle]
 </left>
 <right>
-* Bedingungen ändern sich mit Tageszeit, Jahreszeit und Frequenz
-* wesentlicher langfristiger Einfluss: der ungefähr elfjährige Sonnenzyklus
-* hohe Sonnenaktivität bedeutet mehr Sonnenflecken
-* höhere Kurzwellenfrequenzen werden häufiger über große Entfernungen nutzbar
+* Conditions change with the time of day, the season and the frequency
+* A major long-term influence: the solar cycle of about eleven years
+* High solar activity means more sunspots
+* Higher frequencies in the HF range become usable over long distances more often
 </right>
 
 <note>
-Der Sonnenzyklus ist nur einer von mehreren Einflüssen. Gute oder schlechte Bedingungen lassen sich damit nicht für einen einzelnen Zeitpunkt garantieren.
+The solar cycle is only one of several influences. It cannot guarantee good or poor conditions at any particular moment.
 </note>
 
 ---
@@ -45,18 +45,18 @@ Der Sonnenzyklus ist nur einer von mehreren Einflüssen. Gute oder schlechte Bed
 
 --- style="font-size: smaller;"
 
-### Wann und wo hören?
+### When and where to listen?
 
 <left>
-[picture:741:swl_ionosphaere_tote_zone:Brechung an der Ionosphäre sowie die tote Zone zwischen Boden- und Raumwelle]
+[picture:741:swl_ionosphaere_tote_zone:Refraction at the ionosphere, and the skip zone between the ground wave and the sky wave]
 </left>
 <right>
-* niedrige Kurzwellenbänder sind oft abends und nachts interessant (z.B. $\qty{80}{\meter}$)
-* höhere Kurzwellenbänder öffnen eher am Tag (z.B. $\qty{20}{\meter}$)
-* zwischen Boden- und Raumwelle kann eine *tote Zone* liegen
-* dadurch ist manchmal nur eine Station eines QSO hörbar
+* The lower HF bands are often interesting in the evening and at night (e.g. $\qty{80}{\meter}$)
+* The higher HF bands tend to open during the day (e.g. $\qty{20}{\meter}$)
+* There can be a *skip zone* between the ground wave and the sky wave
+* As a result, sometimes only one station of a QSO can be heard
 </right>
 
 <note>
-Die Angaben zu Tageszeit und Band sind Faustregeln. Gerade die wechselnden Bedingungen machen die Beobachtung für SWLs interessant.
+The statements on time of day and band are rules of thumb. It is precisely the changing conditions that make listening interesting for SWLs.
 </note>

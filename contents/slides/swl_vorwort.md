@@ -1,42 +1,42 @@
-## Willkommen im SWL-Kurs
+## Welcome to the SWL course
 
 <left>
-[photo:345:swl_vorwort_sdr_stick:Ein SDR-Stick als kostengünstiger Einstieg in den Amateurfunkempfang]
+[photo:345:swl_vorwort_sdr_stick:An SDR stick as an inexpensive way into amateur radio reception]
 </left>
 <right>
-[photo:344:swl_vorwort_mini_whip:Eine aktive Mini-Whip-Antenne für den Amateurfunkempfang]
+[photo:344:swl_vorwort_mini_whip:An active Mini-Whip antenna for amateur radio reception]
 </right>
 
 <note>
-Zum Einstieg die beiden wichtigsten Bausteine zeigen: Empfänger und Antenne. Für die ersten Schritte ist weder ein Sender noch eine große Station erforderlich.
+To begin, show the two most important building blocks: the receiver and the antenna. For the first steps, neither a transmitter nor a large station is needed.
 </note>
 
 ---
 
-### Amateurfunk erleben – ohne selbst zu senden
+### Experience amateur radio – without transmitting yourself
 
-* Funkamateure aus der Umgebung und aus fernen Ländern hören
-* Rufzeichen und Betriebsabläufe kennenlernen
-* Empfangsbeobachtungen im Logbuch dokumentieren
-* Hörberichte durch QSL-Karten bestätigen lassen
+* Listen to radio amateurs nearby and in distant countries
+* Get to know call signs and operating procedures
+* Record what you receive in the log
+* Have listener reports confirmed by QSL cards
 
 <note>
-SWL steht für Short Wave Listener. Das Hobby beschränkt sich trotz der deutschen Bezeichnung Kurzwellenhörer nicht auf die Kurzwelle.
+SWL stands for Short Wave Listener. Despite the German name *Kurzwellenhörer* (short-wave listener), the hobby is not limited to short wave.
 </note>
 
 ---
 
-### Was vermittelt dieser Kurs?
+### What does this course cover?
 
-* technische Grundlagen des Funkempfangs
-* Sprache und Abläufe auf den Amateurfunkbändern
-* Logbuch und SWL-QSL-Karten
-* rechtliche Grundlagen und Vorbereitung auf die DE-Prüfung
+* Technical basics of radio reception
+* Language and procedures on the amateur bands
+* Log and SWL QSL cards
+* Legal basics and preparation for the DE examination
 
 <fragment>
-Viele Inhalte bilden zugleich eine Grundlage für den späteren Amateurfunkkurs der Klasse N.
+Much of the content also lays a foundation for the later Class N amateur radio course.
 </fragment>
 
 <note>
-Der Kurs wurde von Matthias Jung, DL9MJ, und Florian Schmid, DL1FLO, geschrieben. Er verbindet die Prüfungsvorbereitung mit praktischen Hinweisen für den Einstieg.
+The course was written by Matthias Jung, DL9MJ, and Florian Schmid, DL1FLO. It combines exam preparation with practical tips for getting started.
 </note>

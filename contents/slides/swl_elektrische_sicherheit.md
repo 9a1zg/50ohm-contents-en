@@ -1,29 +1,29 @@
-## Elektrische Sicherheit
+## Electrical safety
 
-* Netzgeräte, Steckdosenleisten und Zuleitungen müssen unbeschädigt sein
-* Leitungen und Netzgeräte müssen für den vorgesehenen Strom geeignet sein
-* Reparaturen an netzspannungsführenden Geräten gehören in fachkundige Hände
-* Vor Arbeiten das Gerät ausschalten und von der Stromversorgung trennen
+* Power supply units, multi-socket extension leads and supply leads must be undamaged
+* Leads and power supply units must be suitable for the intended current
+* Repairs to equipment that carries mains voltage should be left to qualified people
+* Before working on equipment, switch it off and disconnect it from the power supply
 
 ---
 
-### Feinsicherungen
+### Miniature fuses
 
 <left>
-* schützen bei Kurzschluss oder Überlastung
-* unterbrechen im Fehlerfall den Stromfluss
-* dürfen niemals überbrückt werden
+* Protect in the event of a short circuit or overload
+* Interrupt the flow of current if a fault occurs
+* Must never be bridged
 </left>
 <right>
-[photo:88:swl_elektrische_sicherheit_feinsicherungen:Feinsicherungen]
+[photo:88:swl_elektrische_sicherheit_feinsicherungen:Miniature fuses]
 </right>
 
 <fragment>
-Ersatz nur mit gleichem Nennstrom und gleicher Auslösecharakteristik.
+Replace only with the same current rating and the same tripping characteristic.
 </fragment>
 
 <note>
-Löst eine neue Sicherung erneut aus, muss die Ursache gesucht werden. Ein höherer Sicherungswert kann Leitungen und Bauteile überhitzen lassen.
+If a new fuse blows again, the cause must be found. A fuse with a higher rating can let leads and components overheat.
 </note>
 
 ---
@@ -32,13 +32,13 @@ Löst eine neue Sicherung erneut aus, muss die Ursache gesucht werden. Ein höhe
 
 ---
 
-### Akkus, Kabel und Gewitter
+### Batteries, cables and thunderstorms
 
-* Akkus nur mit einem geeigneten Ladegerät laden
-* beschädigte oder aufgeblähte Akkus nicht weiter benutzen
-* Kabel stolperfrei und ohne mechanische Belastung verlegen
-* Außenantennen bei Gewitter nicht benutzen
+* Only charge rechargeable batteries with a suitable charger
+* Do not go on using damaged or swollen batteries
+* Lay cables so that nobody can trip over them and they are not under mechanical strain
+* Do not use outdoor antennas during a thunderstorm
 
 <note>
-Antennenleitungen nur rechtzeitig vor einem Gewitter und nur dann trennen, wenn dies gefahrlos möglich ist.
+Only disconnect antenna feeders in good time before a thunderstorm, and only if this can be done safely.
 </note>

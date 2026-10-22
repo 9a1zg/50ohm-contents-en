@@ -1,25 +1,25 @@
-Eine Empfangsantenne kann aus einem kurzen Draht im Zimmer bestehen oder als größere Außenanlage aufgebaut sein. Sobald eine Antenne im Freien montiert wird, müssen mechanische Sicherheit, Abstände und örtliche Vorschriften beachtet werden.
+A receiving antenna can consist of a short wire indoors or be set up as a larger outdoor installation. As soon as an antenna is mounted outdoors, mechanical safety, distances and local regulations must be taken into account.
 
-* Antennen und Masten müssen Wind und Wetter standhalten.
-* Zu Freileitungen und anderen Energieleitungen ist ein großer Sicherheitsabstand einzuhalten.
-* Für Blitzschutz und Potentialausgleich ist fachkundiger Rat (z. B. durch eine Blitzschutzfachkraft) erforderlich.
-* Wege, Nachbargrundstücke und öffentliche Flächen dürfen nicht gefährdet werden.
-* Miet-, Bau- und Denkmalschutzrecht müssen beachtet werden.
+* Antennas and masts must withstand wind and weather.
+* A large safety distance must be kept from overhead lines and other power lines.
+* For lightning protection and equipotential bonding, expert advice (e.g. from a lightning protection specialist) is needed.
+* Paths, neighbouring properties and public areas must not be endangered.
+* Tenancy law, building law and heritage protection law must be observed.
 
 <attention>
-Eine herabfallende Antenne oder die Annäherung an eine Stromleitung kann lebensgefährlich sein. Außenantennen nie allein und nie bei Gewitter auf- oder abbauen.
+A falling antenna or getting close to a power line can be fatal. Never put up or take down outdoor antennas alone, and never during a thunderstorm.
 </attention>
 
 ---
 
-Für Schäden gegenüber Dritten haftet grundsätzlich der Betreiber der Antennenanlage. Das gilt auch dann, wenn die Anlage nur zum Empfang genutzt wird.
+As a rule, the operator of the antenna installation is liable for damage to third parties. This also applies if the installation is used for reception only.
 
 <tip>
-Mitglieder des DARC haben automatisch eine Haftpflichtversicherung für von ihnen betriebene Antennenanlagen, sofern sie vorschriftsmäßig aufgebaut sind. Die Versicherungsleistung ist bereits im Mitgliedsbeitrag enthalten.
+Members of the DARC automatically have liability insurance for the antenna installations they operate, provided these are erected in compliance with the regulations. The insurance cover is already included in the membership fee.
 
-Für den Einstieg ist eine kleine, sicher montierte Empfangsantenne besser als eine große improvisierte Konstruktion. Der örtliche DARC-Ortsverband kann bei Planung und Aufbau helfen.
+To start with, a small, securely mounted receiving antenna is better than a large improvised construction. The local DARC club can help with planning and putting it up.
 
-[Jetzt Mitglied im DARC werden!](https://50ohm.de/mw)
+[Become a DARC member now!](https://50ohm.de/mw)
 </tip>
 
 [question:VE707]

@@ -1,33 +1,33 @@
-## Amateurfunkrufzeichen
+## Amateur call signs
 
 <left>
-[picture:654:swl_rufzeichen_aufbau:Aufbau der Amateurfunkrufzeichen K4EAX, WZ6Y und DL1FLO]
+[picture:654:swl_rufzeichen_aufbau:Structure of the amateur call signs K4EAX, WZ6Y and DL1FLO]
 </left>
 <right>
-Ein Rufzeichen besteht aus
+A call sign consists of
 
-* Präfix,
-* Ziffer und
-* Suffix.
+* a prefix,
+* a digit and
+* a suffix.
 
-Beispiel: *DL* – *1* – *FLO*
+Example: *DL* – *1* – *FLO*
 </right>
 
 <note>
-Ein Amateurfunkrufzeichen identifiziert eine Amateurfunkstelle weltweit eindeutig. Das Präfix lässt häufig das Land erkennen.
+An amateur call sign uniquely identifies an amateur station worldwide. The prefix often shows the country.
 </note>
 
 ---
 
-### Rufzeichenplan und Rufzeichenarten
+### Call Sign Plan and categories of call sign
 
-* Der Rufzeichenplan der Bundesnetzagentur regelt die Bildung deutscher Rufzeichen
-* personengebundene Rufzeichen
-* Klubstationsrufzeichen
-* Rufzeichen für fernbediente und automatisch arbeitende Amateurfunkstellen
+* The Call Sign Plan of the Federal Network Agency (Bundesnetzagentur, BNetzA) governs how German call signs are formed
+* Personal call signs
+* Club station call signs
+* Call signs for remotely controlled and automatically operating amateur stations
 
 <note>
-Der Rufzeichenplan ist eine wichtige Hilfe, um den Verwendungszweck eines deutschen Rufzeichens zu erkennen.
+The Call Sign Plan is an important aid for recognising what a German call sign is used for.
 </note>
 
 ---
@@ -40,16 +40,16 @@ Der Rufzeichenplan ist eine wichtige Hilfe, um den Verwendungszweck eines deutsc
 
 --- style="font-size: smaller;"
 
-### Häufige deutsche Rufzeichenbereiche
+### Common German call sign ranges
 
-| l: Beginn | X: Verwendung |
-| DL0 | Klubstation der Klasse A |
-| DL1 bis DL9 | personengebundenes Rufzeichen der Klasse A |
-| DO1 bis DO9 oder DA6 | personengebundenes Rufzeichen der Klasse E |
-| DN9 | personengebundenes Rufzeichen der Klasse N |
+| l: Starts with | X: Use |
+| DL0 | Class A club station |
+| DL1 to DL9 | Class A personal call sign |
+| DO1 to DO9 or DA6 | Class E personal call sign |
+| DN9 | Class N personal call sign |
 
 <note>
-Die vollständige Zuordnung steht im Rufzeichenplan. Für die SWL-Prüfung werden vor allem diese Beispiele benötigt.
+The complete assignment is given in the Call Sign Plan. For the SWL examination, it is mainly these examples that are needed.
 </note>
 
 ---
@@ -70,17 +70,17 @@ Die vollständige Zuordnung steht im Rufzeichenplan. Für die SWL-Prüfung werde
 
 ---
 
-### DE-Kennzeichen
+### DE identifiers
 
-* Auch *DE* ist Deutschland zugeteilt
-* Ein DE-Kennzeichen sieht einem Rufzeichen ähnlich
-* Es kennzeichnet eine deutsche Empfangsstation
-* Es wird nicht von der Bundesnetzagentur als Amateurfunkrufzeichen zugeteilt
+* *DE* is also allocated to Germany
+* A DE identifier looks like a call sign
+* It identifies a German receiving station
+* It is not assigned by the BNetzA as an amateur call sign
 
 <fragment>
-Ein DE-Kennzeichen berechtigt nicht zum Senden.
+A DE identifier does not entitle the holder to transmit.
 </fragment>
 
 <note>
-Die DE-Kennzeichen und ihre Beantragung werden später ausführlich behandelt.
+DE identifiers and how to apply for them are covered in detail later.
 </note>

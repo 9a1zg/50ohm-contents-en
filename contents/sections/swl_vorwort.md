@@ -1,17 +1,17 @@
-Willkommen in der faszinierenden Welt des Amateurfunks! Für den Einstieg braucht es weder einen Sender noch eine große Station. Schon mit einem geeigneten Empfänger (z.B. ein SDR-Stick in [ref:swl_sdr_stick]) und einer einfachen Antenne lässt sich der Amateurfunkverkehr aus der näheren Umgebung und aus weit entfernten Ländern beobachten.
+Welcome to the fascinating world of amateur radio! To get started, you need neither a transmitter nor a large station. Even with a suitable receiver (e.g. an SDR stick as in [ref:swl_sdr_stick]) and a simple antenna, you can follow amateur radio traffic from your own area and from far-off countries.
 
 <margin>
-[photo:345:swl_sdr_stick:Ein SDR-Stick ist ein kostengünstiger Einstieg in den Amateurfunkempfang.]
-[photo:344:swl_whip_antenne:Eine einfache aktive Mini-Whip-Antenne ist für den Einstieg in den Amateurfunkempfang ausreichend.]
+[photo:345:swl_sdr_stick:An SDR stick is an inexpensive way into amateur radio reception.]
+[photo:344:swl_whip_antenne:A simple active Mini-Whip antenna is enough to get started in amateur radio reception.]
 </margin>
 
-Ein Kurzwellenhörer wird international als *SWL* bezeichnet. Die Abkürzung steht für *Short Wave Listener*. SWLs lernen die Technik des Funkempfangs kennen, verfolgen den Betrieb auf den Amateurfunkbändern und dokumentieren gehörte Funkverbindungen. Mit sorgfältigen Empfangsberichten und QSL-Karten können sie aktiv an der internationalen Gemeinschaft der Funkamateure teilnehmen, ohne selbst zu senden.
+A short-wave listener, in German *Kurzwellenhörer*, is known internationally as an *SWL*. The abbreviation stands for *Short Wave Listener*. SWLs get to know the technology of radio reception, follow the activity on the amateur bands and document the contacts they hear. With careful reception reports and QSL cards, they can take an active part in the international community of radio amateurs without transmitting themselves.
 
-Dieser Kurs vermittelt die technischen, betrieblichen und rechtlichen Grundlagen für die DE-Prüfung des DARC. Er soll aber mehr sein als eine Sammlung von Prüfungsantworten: Praktische Hinweise helfen beim Aufbau einer eigenen Empfangsstation, beim Führen eines Logbuchs und beim Ausfüllen einer SWL-QSL-Karte.
+This course teaches the technical, operating and legal basics for the DARC's DE examination. But it is meant to be more than a collection of exam answers: practical tips help with setting up your own receiving station, keeping a log and filling in an SWL QSL card.
 
-Viele Inhalte überschneiden sich bewusst mit dem [Amateurfunkkurs der Klasse N](/N_course_index.html). Wer später selbst senden möchte, hat mit der SWL-Tätigkeit bereits wertvolle Erfahrungen gesammelt und kennt dann Rufzeichen, Betriebsabläufe, Abkürzungen und die Bedienung eines Empfängers.
+Much of the content deliberately overlaps with the [Class N amateur radio course](/N_course_index.html). Anyone who later wants to transmit will already have gained valuable experience as an SWL, and will know call signs, operating procedures, abbreviations and how to operate a receiver.
 
-Wir danken allen Mitwirkenden am Fragenkatalog, an den SWL-Unterlagen und an der Ausbildungsplattform *50ohm.de*. Ohne die Arbeit vieler ehrenamtlicher Helferinnen und Helfer und die Unterstützung der gesamten DARC-Community wäre dieses Angebot nicht möglich.
+We thank everyone who has contributed to the question catalogue, the SWL materials and the training platform *50ohm.de*. Without the work of many volunteers and the support of the whole DARC community, this would not be possible.
 
-vy 73 (Viele Grüße) und 55 (Viel Erfolg) wünschen
-Matthias Jung (DL9MJ) und Florian Schmid (DL1FLO)
+vy 73 (best regards) and 55 (every success) from
+Matthias Jung (DL9MJ) and Florian Schmid (DL1FLO)

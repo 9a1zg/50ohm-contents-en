@@ -1,21 +1,21 @@
-Moderne Empfänger zeigen neben der eingestellten Frequenz viele weitere Informationen an. Die wichtigsten Elemente sind:
+Besides the frequency they are set to, modern receivers display a lot of other information. The most important elements are:
 
-* Frequenzanzeige (z.B. $\qty{144,315}{\mega\hertz}$)
-* gewählte Modulationsart, zum Beispiel USB (Oberes Seitenband bei SSB)
-* S-Meter für die Signalstärke
-* Amplitudenspektrum
-* Wasserfalldiagramm
+* frequency display (e.g. $\qty{144.315}{\mega\hertz}$)
+* selected mode, for example USB (upper sideband in SSB)
+* S meter for the signal strength
+* amplitude spectrum
+* waterfall display
 
-Das *Amplitudenspektrum* zeigt auf der waagerechten Achse einen Frequenzbereich. Je höher die Darstellung eines Signals reicht, desto stärker ist es. Das *Wasserfalldiagramm* ergänzt den zeitlichen Verlauf: Neue Signale erscheinen oben und wandern nach unten. So erkennt man Aktivität auch dann, wenn eine Station gerade eine kurze Pause macht.
+The *amplitude spectrum* shows a frequency range on the horizontal axis. The higher the display of a signal reaches, the stronger the signal. The *waterfall display* adds the history over time: new signals appear at the top and move downwards. This lets you see activity even when a station is pausing briefly.
 
 <margin>
-[photo:95:swl_bedienung_display:Display mit Frequenzanzeige, Spektrum und Wasserfalldiagramm]
+[photo:95:swl_bedienung_display:Display with frequency display, spectrum and waterfall display]
 </margin>
 
 [question:NF105]
 
-Der große Abstimmknopf wird häufig *VFO* genannt. Bei SSB wird damit vorsichtig nachgestimmt, bis die Sprache natürlich klingt. Filter begrenzen den empfangenen Frequenzbereich. Die HF-Verstärkung beeinflusst die Empfindlichkeit, während die Lautstärke nur das Audiosignal verändert.
+The large tuning knob is often called the *VFO*. In SSB, you use it to retune carefully until the speech sounds natural. Filters limit the range of frequencies received. The RF gain affects the sensitivity, whereas the volume only changes the audio signal.
 
 <tip>
-Ändere beim Lernen immer nur eine Einstellung und beobachte ihre Wirkung. So entsteht schnell ein Gefühl für Filter, Verstärkung und Abstimmung.
+While you are learning, always change only one setting at a time and watch its effect. That way you quickly get a feel for filters, gain and tuning.
 </tip>
