@@ -47,6 +47,11 @@ on GitHub for DARC to take over.
   shuffles). A translation must keep it correct and keep b–d wrong, and keep
   the four answers parallel in form. A question stem ending in `…` is
   continued by its answers; keep that working in English.
+- **Units after a number: always the symbol**, SI style — `100 Ω`, `4.7 kΩ`,
+  `2 mΩ`, also where the German writes the word (`100 Ohm`). The unit *name*
+  (*ohm*, *hertz*) only where the unit itself is meant ("Which unit is used
+  for impedance? — The ohm"). One answer set never mixes the two.
+- **ca. / etwa:** *approx.* / *about*, consistently within an answer set.
 - **Address:** German *Sie*/*du* both become plain *you*.
 - **Markup:** DARCdown commands, file names, idents and `%` comments are
   never changed (see `README-FORMAT.md`).
