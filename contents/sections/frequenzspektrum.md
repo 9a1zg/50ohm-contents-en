@@ -10,9 +10,9 @@ The frequency range of electromagnetic waves is very large (Figure [ref:n_freque
 | r: | c: | r: | X: | l: |
 | from | | to | Name | Abbr. |
 | $\qty{30}{\kilo\hertz}$ | - | $\qty{300}{\kilo\hertz}$ | Low Frequency | LF |
-| | | | (long wave) | (LW) |
+| | | | (Long Wave) | (LW) |
 | $\qty{300}{\kilo\hertz}$ | - | $\qty{3000}{\kilo\hertz}$ | Medium Frequency | MF |
-| | | | (medium wave) | (MW) |
+| | | | (Medium Wave) | (MW) |
 | $\qty{3}{\mega\hertz}$ | - | $\qty{30}{\mega\hertz}$ | *High Frequency* | *HF* |
 | | | | Short Wave | SW |
 | $\qty{30}{\mega\hertz}$ | - | $\qty{300}{\mega\hertz}$ | *Very High Frequency* | *VHF* |

@@ -1,4 +1,4 @@
-If an electrical oscillation is fed to an antenna, the antenna radiates a radio wave. Radio waves, just like light, belong to the electromagnetic waves [index:Electromagnetic wave] and therefore travel at the speed of light [index:Speed of light]. In what is called free space, where there are no obstacles, this is approximately $\num{300000}$ kilometres per second.
+If an electrical oscillation is fed to an antenna, the antenna radiates a radio wave. Radio waves, just like light, are electromagnetic waves [index:Electromagnetic wave] and therefore travel at the speed of light [index:Speed of light]. In what is called free space, where there are no obstacles, this is approximately $\num{300000}$ kilometres per second.
 
 [question:NB301]
 

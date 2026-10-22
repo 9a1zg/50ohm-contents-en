@@ -41,7 +41,7 @@ Unless you get a static shock.
 
 * The positively charged terminal is called the positive terminal
 * The negatively charged terminal is called the negative terminal
-* The voltage can be of different sizes
+* The voltage can be higher or lower
 * Voltage sources whose terminals constantly oscillate between positive and negative voltage produce AC voltage
 
 <fragment>

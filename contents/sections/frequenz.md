@@ -24,7 +24,7 @@ In radio we also use electrical oscillations, but at much higher frequencies tha
 
 [question:NA212]
 
-In the entry-level amateur radio Class N, for example, you may use the frequencies from $\num{28}$ to $\qty{29.7}{\mega\hertz}$, from $\num{144}$ to $\qty{146}{\mega\hertz}$ and from $\qty{430}{\mega\hertz}$ to $\qty{440}{\mega\hertz}$. Class E and Class A add further frequency ranges.
+In Class N, the entry-level amateur radio class, you may, for example, use the frequencies from $\num{28}$ to $\qty{29.7}{\mega\hertz}$, from $\num{144}$ to $\qty{146}{\mega\hertz}$ and from $\qty{430}{\mega\hertz}$ to $\qty{440}{\mega\hertz}$. Class E and Class A add further frequency ranges.
 
 [question:VD723]
 

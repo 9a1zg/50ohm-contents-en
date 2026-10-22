@@ -1912,7 +1912,7 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | (eine Formel nach x) umstellen / sich herauskürzen | rearrange (a formula for x) / cancel out | |
 | über das Band drehen | tune across the band | |
 | Amplitudenspektrum (Funkgerätedisplay) | amplitude spectrum (spectrum display) | course text keeps *amplitude spectrum*, as NI401, and glosses it once with NF104's "spectrum display" (wasserfall) |
-| Langwelle (LW) / Mittelwelle (MW) in the frequency-range table | long wave (LW) / medium wave (MW) | the German everyday names *Kurzwelle (KW)*, *Ultrakurzwelle (UKW)*, *Dezimeterwelle* beside the English names are dropped there, as in BC101–BC106 (DECISIONS.md) |
+| Langwelle (LW) / Mittelwelle (MW) in the frequency-range table | long wave (LW) / medium wave (MW) | written "(Long Wave)", "(Medium Wave)" in the table, title case like its other names; the German everyday names *Kurzwelle (KW)*, *Ultrakurzwelle (UKW)*, *Dezimeterwelle* beside the English names are dropped there, as in BC101–BC106 (DECISIONS.md) |
 | Verordnung über den Amateurfunk (AFuV) | Amateur Radio Ordinance (Amateurfunkverordnung, AFuV) | the course text's informal title for the AFuV (frequenzzuteilung); not the formal title *Verordnung zum Gesetz über den Amateurfunk* (§1.2) |
 | Nutzungsbestimmungen | conditions of use | VD702 "detailed conditions of use" |
 | Nutzungsrechte (primäre / sekundäre) | (primary / secondary) rights of use | |

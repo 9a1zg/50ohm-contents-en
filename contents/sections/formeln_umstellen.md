@@ -10,7 +10,7 @@ Equations that already state the unit in which the values must be given are call
 
 In reality, however, this is only one equation, rearranged in the first case for the frequency and in the second case for the wavelength. 
 
-In technical calculations we keep having to rearrange equations so that the quantity we are looking for stands alone on one side. To do this, we apply the necessary mathematical operations (multiplying, dividing, adding, subtracting, ...) to both sides of the equation *at the same time*. With a little practice this is much easier than memorising every form of a relationship separately. In Class E, and in Class A too, it is in fact essential, because the formula sheet gives the equations only in their basic form.
+In technical calculations we keep having to rearrange equations so that the quantity we are looking for is on its own on one side. To do this, we apply the necessary mathematical operations (multiplying, dividing, adding, subtracting, ...) to both sides of the equation *at the same time*. With a little practice this is much easier than memorising every form of a relationship separately. In Class E, and in Class A too, it is in fact essential, because the formula sheet gives the equations only in their basic form.
 
 ---
 

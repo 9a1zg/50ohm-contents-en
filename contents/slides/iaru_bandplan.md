@@ -2,7 +2,7 @@
 
 * Union of national amateur radio societies
 * *Orderly coexistence of the different modes on the amateur bands worldwide*
-* Publish an IARU band plan
+* Publishes an IARU band plan
 * Radio amateurs should follow it
 
 <note>

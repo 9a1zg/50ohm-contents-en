@@ -30,7 +30,7 @@
 [photo:99:n_frequenzbereiche_afuv_anlage_1:Overview table, Annex 1, AFuV (correction needed in the power levels for Class N)]
 
 <note>
-For Class N, the official table now gives "6.1W ERP" on 2m and 70cm. Technically the same, but a different basis of assessment. The graphic here still has to be updated.
+For Class N, the official table now gives "6.1W ERP" on 2m and 70cm. Technically the same, but stated on a different basis. The graphic here still has to be updated.
 </note>
 ---
 [question:VD101]

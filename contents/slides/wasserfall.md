@@ -1,7 +1,7 @@
 ## Reception
 
 * The frequency is set on the radio with a tuning knob or buttons
-* Only stations on the frequency set can be heard
+* Only stations on the set frequency can be heard
 * "Tune across the band" slowly to hear other stations
 
 ---
@@ -12,7 +12,7 @@
 </left>
 <right>
 * Modern radios
-* Display of other stations transmitting above and below the frequency set
+* Display of other stations transmitting above and below the set frequency
 </right>
 <note>
 Explain the display

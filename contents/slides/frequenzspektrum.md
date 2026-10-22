@@ -1,7 +1,7 @@
 * The frequency range of electromagnetic waves is very large
 * Radio waves use only part of this spectrum
 * Usually between $\qty{30}{\kilo\hertz}$ and $\qty{300}{\giga\hertz}$
-* For the exam, $\qty{3}{\mega\hertz}$-$\qty{3}{\giga\hertz}$ with their names is important
+* Important for the exam: $\qty{3}{\mega\hertz}$-$\qty{3}{\giga\hertz}$ and the names of the ranges
 
 ---
 
@@ -14,9 +14,9 @@
 --- style="font-size: 0.5em;"
 | r: | c: | r: | X: | l: |
 | $\qty{30}{\kilo\hertz}$ | - | $\qty{300}{\kilo\hertz}$ | Low Frequency | LF |
-| | | | (long wave) | (LW) |
+| | | | (Long Wave) | (LW) |
 | $\qty{300}{\kilo\hertz}$ | - | $\qty{3000}{\kilo\hertz}$ | Medium Frequency | MF |
-| | | | (medium wave) | (MW) |
+| | | | (Medium Wave) | (MW) |
 | $\qty{3}{\mega\hertz}$ | - | $\qty{30}{\mega\hertz}$ | *High Frequency* | *HF* |
 | | | | Short Wave | SW |
 | $\qty{30}{\mega\hertz}$ | - | $\qty{300}{\mega\hertz}$ | *Very High Frequency* | *VHF* |

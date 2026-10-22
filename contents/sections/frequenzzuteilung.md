@@ -1,6 +1,6 @@
 The Telecommunications Act (Telekommunikationsgesetz, TKG) [index:Telecommunications Act] lays down the principle that every frequency use requires a prior *frequency assignment* [index:Frequency assignment]. This can be an individual assignment or a general assignment. An individual assignment [index:Frequency assignment:Individual assignment] exists, for example, when frequencies are assigned to a company for private mobile radio. A general assignment[index:Frequency assignment:General assignment], on the other hand, can be made for the general public or for a particular group of people, e.g. for radio amateurs. The assignments are documented in the Frequency Plan of the Federal Network Agency (Bundesnetzagentur, BNetzA).
 
-Radio amateurs may therefore operate only on frequencies assigned to them. Even though the frequency ranges are agreed internationally, only the national regulations are authoritative, although these are based on the international agreements.
+Radio amateurs may therefore operate only on frequencies assigned to them. Even though the frequency ranges are agreed internationally, only the national regulations are authoritative; these are, however, based on the international agreements.
 
 [question:VE102]
 [question:VD701]

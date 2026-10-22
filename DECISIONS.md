@@ -306,8 +306,9 @@ and the checker's "Provjera" section).
   names *(Kurzwelle) (KW)*, *(Ultrakurzwelle) (UKW)* and
   *(Dezimeterwelle)* only repeat the English row above them and are
   dropped, as in BC101–BC106; *(Langwelle) (LW)* and *(Mittelwelle) (MW)*
-  become "(long wave) (LW)" and "(medium wave) (MW)", the English everyday
-  names, and "Short Wave SW" stays. In the IARU band plan sections the
+  become "(Long Wave) (LW)" and "(Medium Wave) (MW)", the English everyday
+  names, capitalised like the other names in the table, and "Short Wave SW"
+  stays. In the IARU band plan sections the
   German names the band plan's English labels in brackets ("Baken
   ("beacons")"); where the label is the English term itself the bracket is
   dropped ("Beacons"), where it differs it stays ("FM voice ("FM

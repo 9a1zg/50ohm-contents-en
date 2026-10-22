@@ -72,3 +72,37 @@ activity*.
 - sections/frequenzzuteilung.md and slides — "Verordnung über den Amateurfunk (AFuV)" — not the AFuV's formal title (*Verordnung zum Gesetz über den Amateurfunk*).
 - slides/wellenlaenge.md vs sections/wellenlaenge.md — table n_funkwellen_baender gives the 70 cm wavelengths as 68–70 cm in the slides, 70–68 cm (descending, like the other rows) in the section.
 - sections vs slides of frequenzspektrum (picture 847 / 471) and amateurfunkbaender (749, 750 / 829, 830) — the same ident with different picture ids; probably separate slide versions of the drawings, worth a check.
+
+## Provjera
+
+All 34 files compared paragraph by paragraph with the German (`68bf629~1`),
+and the prose checked against the English questions it embeds (NA2xx, NB3xx–
+NB4xx, NF104–NF106, NI301, NI401, ND201, EA1xx, EB31x, BC1xx–BC2xx, VC110,
+VD101, VD70x–VD72x, VE102). Nothing dropped or added beyond the decided
+table rows; numbers, formulas and markup intact. `revizija-guard.py --rev
+68bf629~1 --brojevi`: 34 files, *struktura netaknuta*.
+
+Changes: omission 0, meaning 0, technical 1, style 8, glossary 1
+(17 edits in 12 content files, plus DECISIONS.md and the glossary).
+
+- frequenzzuteilung (slides, note): *andere Bemessungsgrundlage* → "stated on a different basis" instead of "a different basis of assessment" (ERP is a reference for stating power, not an assessment).
+- frequenzspektrum (section and slides, table): "(long wave)", "(medium wave)" → "(Long Wave)", "(Medium Wave)", title case like "Short Wave" and the other names in the table; DECISIONS.md entry and glossary row updated to match.
+- wasserfall (section and slides): "the frequency set" → "the set frequency" / "the frequency you have set" (read as "a set of frequencies").
+- gleich_und_wechselspannung: "voltages of different sizes" → "Different voltage sources can supply different voltages"; slides "The voltage can be higher or lower".
+- funkwellen: "belong to the electromagnetic waves" → "are electromagnetic waves".
+- frequenz: "In the entry-level amateur radio Class N" → "In Class N, the entry-level amateur radio class".
+- frequenzzuteilung: "…authoritative, although these are based on…" after "Even though" → "; these are, however, based on…".
+- formeln_umstellen: "stands alone on one side" → "is on its own on one side".
+- frequenzspektrum (slides): "For the exam, 3 MHz-3 GHz with their names is important" → "Important for the exam: 3 MHz-3 GHz and the names of the ranges".
+- iaru_bandplan (slides): "Publish an IARU band plan" → "Publishes".
+
+Judgement calls kept: the dropped German-name rows and band-plan label
+brackets (consistent with BC101–BC106 and the bracket rule), *FM voice* for
+*FM-Sprechfunk* beside the questions' *FM telephony* (the German also uses
+two words, *Sprechfunk* in the text, *Telefonie* in BC205/BC209), *amplitude
+spectrum (spectrum display)* (ties NI401 to NF104), *period or periodic
+time*, *tailored quantity equation*, *position* for the axis label *Ort*,
+*superscript number* for *Hochzahl*, *static shock*, the numeric date and
+"6.1W ERP" in the speaker notes. All new glossary rows and the new
+DECISIONS.md entry kept (the entry amended as above). The translator's list
+of suspected errors in the German confirmed.
