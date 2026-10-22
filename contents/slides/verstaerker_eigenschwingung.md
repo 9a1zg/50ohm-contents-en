@@ -1,7 +1,7 @@
-* Eigenschwingungen entstehen, wenn die Leistung innerhalb von Stufen oder vom Ausgang zurück auf den Eingang eines Verstärkers geführt wird
-* Eingangs- und Ausgangsschaltungen möglichst gut voneinander entkoppeln
-* Einzelne Stufen gut abschirmen
-* Je höher der Verstärkungsfaktor, umso mehr Eigenschwingungen und Rückkopplungen treten auf
+* Self-oscillation occurs when power is fed back within stages or from the output to the input of an amplifier
+* Decouple the input and output circuits from each other as well as possible
+* Screen individual stages well
+* The higher the gain factor, the more self-oscillation and feedback occur
 
 ---
 [question:AD432]

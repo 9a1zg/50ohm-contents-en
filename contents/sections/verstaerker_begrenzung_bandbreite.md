@@ -1,7 +1,7 @@
-Bei analogen Modulationsverfahren (FM, SSB, AM etc.) ist die belegte Bandbreite des Sendesignals direkt abhängig von der maximalen Modulationsfrequenz des aufmodulierten NF-Signals. Um die gesetzlichen Bestimmungen bzgl. der maximal zulässigen Bandbreite des Sendesignals einzuhalten, ist bei diesen Modulationsarten die maximale NF-Modulationsfrequenz zu begrenzen. Dies kann z.B. über ein Tiefpassfilter oder ein Bandpassfilter im Mikrofonverstärker erfolgen, das hohe Frequenzanteile unterdrückt (vgl. Abbildung [ref:bandbreite_begrenzung]).
+With analogue modulation methods (FM, SSB, AM etc.), the occupied bandwidth of the transmitted signal depends directly on the maximum modulating frequency of the AF signal modulated onto the carrier. To comply with the legal requirements on the maximum permitted bandwidth of the transmitted signal, the maximum AF modulating frequency must be limited with these modes. This can be done, for example, with a low-pass filter or a band-pass filter in the microphone amplifier, which suppresses high-frequency components (see Figure [ref:bandbreite_begrenzung]).
 
 <margin>
-[picture:354:bandbreite_begrenzung:Begrenzung der Bandbreite eines NF-Signals durch ein Bandpassfilter an der Position zwischen 1 und 2]
+[picture:354:bandbreite_begrenzung:Limiting the bandwidth of an AF signal with a band-pass filter at the position between 1 and 2]
 </margin>
 
 [question:AD433]

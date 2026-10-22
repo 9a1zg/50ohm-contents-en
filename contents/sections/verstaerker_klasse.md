@@ -1,10 +1,10 @@
-Wie wir in den vorherigen Abschnitten gesehen haben, haben Transistoren eine Kennlinie, die den Zusammenhang zwischen Eingangssignal (Basis-Emitter- oder Gate-Source-Spannung) und Ausgangssignal (Kollektor-/Drainstrom) darstellt. Hierbei gibt es im Bereich der Kennlinie verschiedene Abschnitte, in denen der Transistor eine lineare oder auch nichtlineare Charakteristik hat. Bereiche der Kennlinie, in denen eine Änderung der Steuergröße eine proportionale Änderung der Ausgangsgröße bewirkt, werden als linear bezeichnet. In linearer Darstellung sind diese Bereiche an einem geraden Verlauf, ohne Krümmung, zu erkennen. Andere Bereiche der Kennlinie, in denen eine Änderung der Steuergröße **keine** proportionale Änderung der Ausgangsgröße bewirkt, werden als nichtlinear bezeichnet.
+As we have seen in the previous sections, transistors have a characteristic that shows the relationship between the input signal (base-emitter or gate-source voltage) and the output signal (collector or drain current). Within the characteristic there are different regions in which the transistor behaves linearly or non-linearly. Regions of the characteristic in which a change in the control quantity produces a proportional change in the output quantity are called linear. On linear axes, these regions can be recognised by their straight course, without any curvature. Other regions of the characteristic, in which a change in the control quantity does **not** produce a proportional change in the output quantity, are called non-linear.
 
 <margin>
-[picture:1085:a_kennlinien_transistor_arbeitspunkt:Vereinfachte Eingangskennlinie eines Transistors mit verschiedenen Arbeitspunkten]  
+[picture:1085:a_kennlinien_transistor_arbeitspunkt:Simplified input characteristic of a transistor with different operating points]  
 </margin>
 
-Die Vorspannung an der Basis beziehungsweise am Gate legt zunächst den Ruhearbeitspunkt des Transistors fest. Zusammen mit der Größe des Eingangssignals bestimmt dieser, über welchen Bereich der Kennlinie der Transistor ausgesteuert wird und während welchen Anteils einer Signalperiode Strom fließt. Daraus ergeben sich die Verstärkerklassen A, A/B, B und C mit unterschiedlichen Eigenschaften hinsichtlich Wirkungsgrad, Linearität, Stromflusswinkel und Oberwellenanteil. Abbildung [ref:a_kennlinien_transistor_arbeitspunkt] zeigt die typischen Ruhearbeitspunkte der verschiedenen Verstärkerklassen für den A-, B-, A/B- und C-Betrieb. Durch den Aufbau der gesamten Verstärkerschaltung können deren jeweilige Vor- und Nachteile gezielt genutzt oder teilweise ausgeglichen werden. Im Folgenden werden wir uns die verschiedenen Verstärkerklassen anschauen. 
+The bias at the base or at the gate first sets the quiescent operating point of the transistor. Together with the size of the input signal, this determines over which region of the characteristic the transistor is driven and for what proportion of a signal period current flows. This gives the amplifier classes A, AB, B and C, with different properties in terms of efficiency, linearity, conduction angle and harmonic content. Figure [ref:a_kennlinien_transistor_arbeitspunkt] shows the typical quiescent operating points of the different amplifier classes for class A, B, AB and C operation. Through the design of the amplifier circuit as a whole, their respective advantages and disadvantages can be deliberately exploited or partly compensated for. In what follows, we will look at the different amplifier classes. 
 
 [question:AD416]
 
@@ -12,45 +12,45 @@ Die Vorspannung an der Basis beziehungsweise am Gate legt zunächst den Ruhearbe
 
 % A-Betrieb des Verstärkers:
 
-Beim *A-Betrieb* wird der Arbeitspunkt so gewählt, dass der Transistor während der gesamten Signalperiode leitend bleibt (Stromflusswinkel $\qty{360}{\degree}$). Für eine möglichst große und symmetrische Aussteuerung liegt der Ruhearbeitspunkt häufig ungefähr in der Mitte der Arbeitsgeraden, also zwischen Sperrung und Sättigung, sodass der Transistor vollständig im linearen Bereich arbeitet. Die Verstärkung des Eingangssignals (vgl. [ref:a_eingangsspannung]) erfolgt dann um den gewünschten Arbeitspunkt herum, der das Zentrum des Arbeitsbereiches definiert. Durch die Wahl des Arbeitspunktes ergibt sich ein entsprechender Ruhestrom ($I_\mathrm{A}$) des Transistors (vgl. [ref:a_ausgangsstrom_a]). Dieser fließt auch ohne vorhandenes Eingangssignal. Der Ruhestrom beeinflusst die Effizienz eines Verstärkers maßgeblich, da er dessen thermische Verlustleistung erhöht und damit dessen Wirkungsgrad reduziert. Im A-Betrieb erreicht man so üblicherweise einen Wirkungsgrad von ca. $\eta = \qty{40}{\percent}$, was für einen linearen Verstärker ein guter Wert ist. Der Oberwellenanteil ist im A-Betrieb sehr gering, da der Transistor vollständig im linearen Bereich arbeitet.
+In *class A operation*, the operating point is chosen so that the transistor remains conducting throughout the signal period (conduction angle $\qty{360}{\degree}$). For the largest and most symmetrical drive possible, the quiescent operating point is often placed roughly in the middle of the load line, that is, between cut-off and saturation, so that the transistor works entirely in the linear region. The input signal (see Figure [ref:a_eingangsspannung]) is then amplified around the desired operating point, which defines the centre of the working range. The choice of operating point results in a corresponding quiescent current ($I_\mathrm{A}$) of the transistor (see Figure [ref:a_ausgangsstrom_a]). This flows even when no input signal is present. The quiescent current has a major influence on how efficient an amplifier is, since it increases the power the amplifier dissipates as heat and so reduces its efficiency. In class A operation this typically gives an efficiency of approx. $\eta = \qty{40}{\percent}$, which is a good value for a linear amplifier. The harmonic content in class A operation is very low, since the transistor works entirely in the linear region.
 
-Alle Signale, deren Modulations-Information sich in deren Amplitude befindet, müssen in der Regel linear verstärkt werden, um die übertragene Information verzerrungsfrei zu übermitteln (SSB, AM etc.). Es gibt allerdings auch schaltungstechnische Tricks, durch die ein linearer A-Betrieb nicht unbedingt erforderlich ist. Signale, deren Modulations-Information sich nicht in der Amplitude sondern nur in der Frequenz befindet, können auch im nichtlinearen Bereich eines Verstärkers verstärkt werden (FM etc.) und anschließend gefiltert werden.
+All signals whose modulation information is contained in their amplitude must, as a rule, be amplified linearly so that the information is transmitted without distortion (SSB, AM etc.). There are, however, also circuit techniques that make linear class A operation not strictly necessary. Signals whose modulation information is contained not in the amplitude but only in the frequency can also be amplified in the non-linear region of an amplifier (FM etc.) and filtered afterwards.
 
-Zusammenfassung A-Betrieb:
+Summary of class A operation:
 
-- Wirkungsgrad ca. $\qty{40}{\percent}$
-- sehr geringer Oberwellenanteil
-- Eignet sich gut für AM und SSB
-- Ein Ausgangsstrom fließt über die gesamte Periode (Stromflusswinkel $\Theta =\qty{360}{\degree}$) des Eingangssignals
+- Efficiency approx. $\qty{40}{\percent}$
+- very low harmonic content
+- Well suited to AM and SSB
+- An output current flows over the entire period (conduction angle $\Theta =\qty{360}{\degree}$) of the input signal
 
 <margin>
-[picture:1086:a_eingangsspannung:Beispiel für eine HF-Eingangsspannung $U_\mathrm{BE}$ eines Transistors]
-[picture:1087:a_ausgangsstrom_a:Beispiel für einen HF-Ausgangsstrom $I_\mathrm{C}$ eines Transistors im A-Betrieb]
+[picture:1086:a_eingangsspannung:Example of an RF input voltage $U_\mathrm{BE}$ of a transistor]
+[picture:1087:a_ausgangsstrom_a:Example of an RF output current $I_\mathrm{C}$ of a transistor in class A operation]
 </margin>
 
 [question:AD419]
 
 % B-Betrieb des Verstärkers:
 
-Wird der Arbeitspunkt für den *B-Betrieb* gewählt, liegt der Transistor idealerweise gerade am Sperrpunkt. Ohne Eingangssignal fließt daher praktisch kein Ruhestrom. Bei einer sinusförmigen Ansteuerung, wie in Abbildung [ref:a_eingangsspannung] dargestellt, beginnt der Transistor erst ab einer bestimmten Eingangsspannung zu leiten. Ein einzelner Transistor ist deshalb nur während einer Halbwelle beziehungsweise über einen Stromflusswinkel von $\qty{180}{\degree}$ aktiv.
-Da im Ruhezustand nahezu keine Leistung aufgenommen wird, kann der theoretische Wirkungsgrad eines idealen B-Verstärkers bis zu rund $\qty{80}{\percent}$ betragen. Der Stromverlauf eines einzelnen Transistors ist jedoch nicht mehr sinusförmig und enthält daher einen hohen Oberwellenanteil. 
+If the operating point is chosen for *class B operation*, the transistor ideally sits exactly at the cut-off point. Practically no quiescent current therefore flows when there is no input signal. With a sinusoidal drive, as shown in Figure [ref:a_eingangsspannung], the transistor only starts to conduct above a certain input voltage. A single transistor is therefore active only during one half cycle, that is, over a conduction angle of $\qty{180}{\degree}$.
+Since almost no power is drawn in the quiescent state, the theoretical efficiency of an ideal class B amplifier can be up to around $\qty{80}{\percent}$. The current waveform of a single transistor, however, is no longer sinusoidal and therefore has a high harmonic content. 
 
-Um Oberwellen zu verringern beziehungsweise zu unterdrücken, gibt es in der Praxis verschiedene Lösungsmöglichkeiten:
+To reduce or suppress harmonics, there are various solutions in practice:
 
-- Eine Möglichkeit ist eine Gegentaktschaltung, im Englischen *push-pull amplifier*, mit zwei Transistoren, wie in Abbildung [ref:a_gegentakt] dargestellt. Dabei verstärkt jeder Transistor jeweils eine Halbwelle, sodass beide Halbwellen wieder zu einem vollständigen Sinussignal zusammengesetzt werden und der Oberwellenanteil deutlich reduziert wird.
-- Neben einer Gegentaktstufe kann bei schmalbandigen HF-Verstärkern ein abgestimmter Schwingkreis verwendet werden. Der Transistor liefert dabei nur während einer Halbwelle Stromimpulse. Der Schwingkreis speichert Energie und schwingt zwischen den Stromimpulsen weiter, sodass am Ausgang wieder ein nahezu sinusförmiges Signal über die vollständige Periode entsteht. Oder anders ausgedrückt: Der Schwingkreis wirkt wie ein Filter, das die Oberwellenanteile unterdrückt. Diese Lösung ist jedoch nur für schmalbandige HF-Verstärker geeignet, da ein Schwingkreis nur in einem engen Frequenzbereich resonant ist.
+- One possibility is a *push-pull* circuit with two transistors, as shown in Figure [ref:a_gegentakt]. Each transistor amplifies one half cycle, so that the two half cycles are put back together into a complete sine wave and the harmonic content is considerably reduced.
+- Besides a push-pull stage, a tuned circuit can be used in narrowband RF amplifiers. The transistor supplies current pulses during one half cycle only. The tuned circuit stores energy and goes on oscillating between the current pulses, so that an almost sinusoidal signal over the complete period appears at the output again. Or, put another way: the tuned circuit acts like a filter that suppresses the harmonic components. This solution is suitable only for narrowband RF amplifiers, however, since a tuned circuit is resonant only over a narrow frequency range.
 
 <margin>
-[picture:1089:a_ausgangsstrom_b:Beispiel für einen HF-Ausgangsstrom $I_\mathrm{C}$ eines Transistors im B-Betrieb]
-[picture:1091:a_gegentakt:Gegentaktstufe mit zwei Transistoren, die jeweils eine Halbwelle verstärken]
+[picture:1089:a_ausgangsstrom_b:Example of an RF output current $I_\mathrm{C}$ of a transistor in class B operation]
+[picture:1091:a_gegentakt:Push-pull stage with two transistors, each amplifying one half cycle]
 </margin>
 
-Zusammenfassung B-Betrieb:
-- Geringe Vorspannung bis zum Einsetzen des Kollektorstroms
-- Ruhestrom fast null
-- Wirkungsgrad ca. bis zu $\qty{80}{\percent}$
-- Geringer Oberwellenanteil mit Gegentaktstufe oder Schwingkreis
-- Stromflusswinkel von $\Theta = \qty{180}{\degree}$, d.h. nur eine Halbwelle wird verstärkt
+Summary of class B operation:
+- Small bias, up to the onset of collector current
+- Quiescent current almost zero
+- Efficiency up to approx. $\qty{80}{\percent}$
+- Low harmonic content with a push-pull stage or a tuned circuit
+- Conduction angle of $\Theta = \qty{180}{\degree}$, i.e. only one half cycle is amplified
 
 [question:AD420]
 [question:AD417]
@@ -59,41 +59,41 @@ Zusammenfassung B-Betrieb:
 
 % A/B-Betrieb des Verstärkers:
 
-Eine weitere Möglichkeit, einen Verstärker zu realisieren, ist der A/B-Betrieb, bei dem der Arbeitspunkt zwischen A- und B-Betrieb liegt. Der Ruhestrom ($I_\mathrm{A/B}$) ist dabei größer als im B-Betrieb, jedoch deutlich geringer als im A-Betrieb, wie in Abbildung [ref:a_ausgangsstrom_ab] dargestellt. Der Wirkungsgrad liegt zwischen $\qty{50}{\percent}$ und $\qty{80}{\percent}$ und der Oberwellenanteil ist mit entsprechender Schaltungstechnik ebenfalls gering.
+A further way of implementing an amplifier is class AB operation, in which the operating point lies between class A and class B operation. The quiescent current ($I_\mathrm{A/B}$) is larger than in class B operation, but considerably smaller than in class A operation, as shown in Figure [ref:a_ausgangsstrom_ab]. The efficiency is between $\qty{50}{\percent}$ and $\qty{80}{\percent}$, and with suitable circuit design the harmonic content is also low.
 
-Zusammenfassung A/B-Betrieb des Verstärkers
-- Höhere Vorspannung als im B-Betrieb, jedoch geringer als im A-Betrieb
-- Ruhestrom größer als im B-Betrieb, aber deutlich geringer als im A-Betrieb
-- Wirkungsgrad zwischen $\qty{50}{\percent}$ und $\qty{80}{\percent}$
-- Geringer Oberwellenanteil
-- Stromflusswinkel: $\qty{180}{\degree} < \Theta < \qty{360}{\degree}$
+Summary of class AB operation of the amplifier
+- Higher bias than in class B operation, but lower than in class A operation
+- Quiescent current larger than in class B operation, but considerably smaller than in class A operation
+- Efficiency between $\qty{50}{\percent}$ and $\qty{80}{\percent}$
+- Low harmonic content
+- Conduction angle: $\qty{180}{\degree} < \Theta < \qty{360}{\degree}$
 
-Insbesondere beim A/B- oder B-Betrieb eines Verstärkers ist Übersteuerung zu vermeiden, da diese schnell zu Verzerrungen des Signals führen kann. Diese äußern sich bei SSB in Form von Splatter auf benachbarten Frequenzen.
+Overdriving must be avoided, particularly in class AB or class B operation of an amplifier, since it can quickly lead to distortion of the signal. With SSB this shows itself as splatter on adjacent frequencies.
 [question:AD423]
 
 <margin>
-[picture:1088:a_ausgangsstrom_ab:Beispiel für einen HF-Ausgangsstrom $I_\mathrm{C}$ eines Transistors im A/B-Betrieb]
+[picture:1088:a_ausgangsstrom_ab:Example of an RF output current $I_\mathrm{C}$ of a transistor in class AB operation]
 </margin>
 
 ---
 
 % C-Betrieb des Verstärkers:
 
-Der sogenannte *C-Betrieb* ist stark nichtlinear, weil der Transistor nur während eines kleinen Teils der Eingangsschwingung leitet (vgl. Abbildung [ref:a_ausgangsstrom_c]). Der Stromflusswinkel beträgt weniger als $\qty{180}{\degree}$ und ohne Eingangssignal fließt idealerweise kein Ruhestrom. Dadurch können hohe Wirkungsgrade von typischerweise etwa $\qtyrange{80}{87}{\percent}$ erreicht werden.
+So-called *class C operation* is highly non-linear, because the transistor conducts only during a small part of the input cycle (see Figure [ref:a_ausgangsstrom_c]). The conduction angle is less than $\qty{180}{\degree}$, and ideally no quiescent current flows when there is no input signal. This makes high efficiencies of typically about $\qtyrange{80}{87}{\percent}$ possible.
 
-Da der Transistor nur kurze Stromimpulse erzeugt, enthält sein Ausgangssignal starke Oberwellenanteile. Ein abgestimmter Schwingkreis oder ein nachgeschaltetes Filter wählt die gewünschte Ausgangsfrequenz aus und unterdrückt die unerwünschten Oberwellen. Da diese Oberwellen innerhalb des Leistungsverstärkers und des Filters noch erhebliche Leistungen besitzen können, müssen die Schaltung und ihre Leitungen sorgfältig aufgebaut und abgeschirmt werden, damit keine unerwünschten Signale abgestrahlt werden.
+Since the transistor produces only short current pulses, its output signal contains strong harmonic components. A tuned circuit or a filter following the stage selects the wanted output frequency and suppresses the unwanted harmonics. Since these harmonics can still carry considerable power inside the power amplifier and the filter, the circuit and its leads must be carefully constructed and screened so that no unwanted signals are radiated.
 
-Der C-Betrieb eignet sich besonders für Signale mit konstanter Hüllkurve, beispielsweise für FM und CW. Für AM und SSB ist er ohne zusätzliche Maßnahmen ungeeignet, da die Amplitudeninformation durch die nichtlineare Verstärkung verzerrt würde. Deshalb werden für AM- und SSB-Verstärker in der Regel A-, B- oder A/B-Betrieb verwendet. Mit besonderen Verfahren wie der Polarmodulation können jedoch auch amplitudenmodulierte Signale mithilfe hocheffizienter, nichtlinearer Verstärker erzeugt werden. Darauf gehen wir in einem späteren Abschnitt noch genauer ein.
+Class C operation is particularly suitable for signals with a constant envelope, for example FM and CW. Without additional measures it is unsuitable for AM and SSB, since the amplitude information would be distorted by the non-linear amplification. For this reason, class A, B or AB operation is normally used for AM and SSB amplifiers. With special techniques such as polar modulation, however, amplitude-modulated signals can also be produced with highly efficient, non-linear amplifiers. We will come back to this in more detail in a later section.
 
-Zusammenfassung: C-Betrieb des Verstärkers
-- Ohne Vorspannung
-- Ruhestrom null
-- Wirkungsgrad ca. $\qtyrange{80}{87}{\percent}$
-- Erzeugt von allen Verstärkerklassen den höchsten Oberwellenanteil
-- Stromflusswinkel von $\Theta < \qty{180}{\degree}$, d.h. nur ein kleiner Teil der Sinuswelle wird verstärkt
+Summary: class C operation of the amplifier
+- No bias
+- Quiescent current zero
+- Efficiency approx. $\qtyrange{80}{87}{\percent}$
+- Produces the highest harmonic content of all the amplifier classes
+- Conduction angle of $\Theta < \qty{180}{\degree}$, i.e. only a small part of the sine wave is amplified
 
 <margin>
-[picture:1090:a_ausgangsstrom_c:Beispiel für einen HF-Ausgangsstrom $I_\mathrm{C}$ eines Transistors im C-Betrieb]
+[picture:1090:a_ausgangsstrom_c:Example of an RF output current $I_\mathrm{C}$ of a transistor in class C operation]
 </margin>
 
 [question:AD418]
@@ -104,16 +104,16 @@ Zusammenfassung: C-Betrieb des Verstärkers
 [question:AF402]
 [question:AF403]
 
-Fassen wir die gelernten Verstärkerklassen noch einmal in einer Übersicht zusammen:
+Let us sum up the amplifier classes we have learnt once more in an overview:
 
-| l: Eigenschaft | X: A-Betrieb | X: B-Betrieb | X: A/B-Betrieb | X: C-Betrieb |
-| Ruhestrom | $I_\mathrm{A}$ | 0 | $I_\mathrm{A/B}$ | 0 |
-| Wirkungsgrad | $\qty{40}{\percent}$ | bis zu $\qty{80}{\percent}$ | $\qtyrange{50}{80}{\percent}$ | $\qtyrange{80}{87}{\percent}$ |
-| Stromflusswinkel | $\Theta = \qty{360}{\degree}$ | $\Theta = \qty{180}{\degree}$ | $\qty{180}{\degree} < \Theta < \qty{360}{\degree}$ | $\Theta < \qty{180}{\degree}$ |
-| Maßnahmen gegen Oberwellen | Filter | Gegentaktstufe oder Filter | Gegentaktstufe oder Filter | Filter |
+| l: Property | X: Class A | X: Class B | X: Class AB | X: Class C |
+| Quiescent current | $I_\mathrm{A}$ | 0 | $I_\mathrm{A/B}$ | 0 |
+| Efficiency | $\qty{40}{\percent}$ | up to $\qty{80}{\percent}$ | $\qtyrange{50}{80}{\percent}$ | $\qtyrange{80}{87}{\percent}$ |
+| Conduction angle | $\Theta = \qty{360}{\degree}$ | $\Theta = \qty{180}{\degree}$ | $\qty{180}{\degree} < \Theta < \qty{360}{\degree}$ | $\Theta < \qty{180}{\degree}$ |
+| Measures against harmonics | Filter | Push-pull stage or filter | Push-pull stage or filter | Filter |
 
-Die Ausgangsleistung eines Verstärkers kann durch Kenntnis des Arbeitspunktes und damit dessen ungefähren Wirkungsgrads grob berechnet werden. Hierbei berechnet man zunächst die Gleichspannungsleistung aus dem Produkt von Spannung und Strom, die dem Verstärker zugeführt wird. Anschließend multipliziert man diese Leistung mit dem numerischen Faktor des Wirkungsgrads, wobei $\qty{100}{\percent}$ einem Wirkungsgrad von $1$ entsprechen. Beispielsweise entspricht ein Wirkungsgrad von $\qty{40}{\percent}$ dann einem Faktor von $0,4$. Versuche nun die folgenden Aufgaben zu lösen:
+The output power of an amplifier can be roughly calculated from a knowledge of the operating point and hence of its approximate efficiency. To do this, you first calculate the DC power supplied to the amplifier as the product of voltage and current. You then multiply this power by the efficiency expressed as a numerical factor, where $\qty{100}{\percent}$ corresponds to an efficiency of $1$. An efficiency of $\qty{40}{\percent}$, for example, then corresponds to a factor of $0.4$. Now try to solve the following problems:
 
 [question:AD424]
 
-Neben den klassischen Verstärkerklassen A, B, AB und C gibt es weitere hocheffiziente Verstärkerklassen wie die Klassen D, E und F. Bei Klasse-D- und Klasse-E-Verstärkern wird der Transistor gezielt als Schalter betrieben, sodass möglichst wenig Leistung im Transistor selbst verloren geht. Klasse-F-Verstärker nutzen zusätzlich abgestimmte Netzwerke für die Grundfrequenz und ausgewählte Oberwellen, um Strom- und Spannungsverläufe am Transistor günstig zu formen. Auf diese Weise können sehr hohe Wirkungsgrade erreicht werden. Solche Verstärker erfordern jedoch eine sorgfältige Schaltungsauslegung und sind im HF-Bereich häufig nur für einen begrenzten Frequenzbereich geeignet. Weitere Betriebsarten wie Klasse J oder Klasse S verfolgen ähnliche Ziele, sind für die Amateurfunkprüfung jedoch nicht relevant.
+Besides the classic amplifier classes A, B, AB and C, there are other highly efficient amplifier classes, such as classes D, E and F. In class D and class E amplifiers, the transistor is deliberately operated as a switch, so that as little power as possible is lost in the transistor itself. Class F amplifiers additionally use networks tuned to the fundamental and to selected harmonics in order to shape the current and voltage waveforms at the transistor favourably. In this way very high efficiencies can be achieved. Such amplifiers, however, require careful circuit design and, at RF, are often suitable only for a limited frequency range. Other modes of operation, such as class J or class S, pursue similar aims but are not relevant to the amateur radio examination.

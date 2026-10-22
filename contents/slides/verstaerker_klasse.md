@@ -1,87 +1,87 @@
-* *Verstärkerklasse A*: Kann das gesamte Signal verstärken
-* *Verstärkerklasse B*: Das halbe Signal wird gut verstärkt
-* *Verstärkerklasse A/B*: Kombination aus A und B mit Verstärkung von etwas mehr als dem halben Signal
-* *Verstärkerklasse C*: Weniger als das halbe Signal wird gut verstärkt
+* *Amplifier class A*: Can amplify the whole signal
+* *Amplifier class B*: Half of the signal is amplified well
+* *Amplifier class AB*: Combination of A and B, amplifying a little more than half of the signal
+* *Amplifier class C*: Less than half of the signal is amplified well
 
 <fragment>
-Die Verstärkerklassen werden durch die Wahl des Arbeitspunktes bestimmt
+The amplifier classes are determined by the choice of operating point
 </fragment>
 
 <note>
-Die Buchstabenbezeichnungen gehen auf eine frühe systematische Klassifizierung von Röhren- und Transistorverstärker zurück
+The letter designations go back to an early systematic classification of valve and transistor amplifiers
 </note>
 ---
 <left>
-[picture:377:a_kennlinien_transistor_arbeitspunkt:Kennlinie eines Transistors mit Arbeitspunkten]
+[picture:377:a_kennlinien_transistor_arbeitspunkt:Characteristic of a transistor with operating points]
 </left>
 <right>
-* Transistorkennlinie zeigt den Zusammenhang zwischen Eingangssignal und Ausgangssignal
-* Basis-Emitter- oder Gate-Source-Spannung und Kollektor- oder Drainstrom
-* In linearen Bereichen ist die Änderung proportional
-* Andere Bereiche sind nichtliniear
+* The transistor characteristic shows the relationship between input signal and output signal
+* Base-emitter or gate-source voltage and collector or drain current
+* In linear regions the change is proportional
+* Other regions are non-linear
 </right>
 ---
-### Arbeitspunkt
+### Operating point
 
-* Optimaler Betrieb bei optimaler Wahl des Arbeitspunktes auf der Kennlinie
-* Arbeitspunkt wird durch die Vorspannung an Basis oder Gate festgelegt
-* Verstärkung wirkt dann um den gewünschten Arbeitspunkt herum
+* Optimum operation with the best choice of operating point on the characteristic
+* The operating point is set by the bias at the base or gate
+* Amplification then takes place around the desired operating point
 
 ---
-### Ruhestrom
+### Quiescent current
 
-* Ruhestrom ergibt sich duch die Wahl des Arbeitspunktes
-* Fließt auch ohne Eingangssignal
-* Beeinflusst die Effizienz eines Verstärkers
-* Erhöht thermische Verlustleistung
-* Verringert Wirkungsgrad
+* The quiescent current results from the choice of operating point
+* Flows even without an input signal
+* Affects the efficiency of an amplifier
+* Increases the power dissipated as heat
+* Reduces the efficiency
 
 --- style="font-size: smaller;"
 ### AP1
 <left>
-[picture:377:a_kennlinien_transistor_arbeitspunkt:Kennlinie eines Transistors mit Arbeitspunkten]  
+[picture:377:a_kennlinien_transistor_arbeitspunkt:Characteristic of a transistor with operating points]  
 </left>
 <right>
-* C-Betrieb des Verstärkers
-* ohne Vorspannung
-* Ruhestrom null
-* Wirkungsgrad ca. $\qtyrange{80}{87}{\percent}$
-* hoher Oberwellenanteil
+* Class C operation of the amplifier
+* no bias
+* quiescent current zero
+* efficiency approx. $\qtyrange{80}{87}{\percent}$
+* high harmonic content
 </right>
 --- style="font-size: smaller;"
 ### AP2
 <left>
-[picture:377:a_kennlinien_transistor_arbeitspunkt:Kennlinie eines Transistors mit Arbeitspunkten]  
+[picture:377:a_kennlinien_transistor_arbeitspunkt:Characteristic of a transistor with operating points]  
 </left>
 <right>
-* B-Betrieb des Verstärkers
-* Geringe Vorspannung bis zum Einsetzen des Kollektorstroms
-* Ruhestrom fast null (gering)
-* Wirkungsgrad bis zu $\qty{80}{\percent}$
-* geringer Oberwellenanteil
+* Class B operation of the amplifier
+* Small bias, up to the onset of collector current
+* Quiescent current almost zero (low)
+* Efficiency up to $\qty{80}{\percent}$
+* low harmonic content
 </right>
 --- style="font-size: smaller;"
 ### AP3
 <left>
-[picture:377:a_kennlinien_transistor_arbeitspunkt:Kennlinie eines Transistors mit Arbeitspunkten]  
+[picture:377:a_kennlinien_transistor_arbeitspunkt:Characteristic of a transistor with operating points]  
 </left>
 <right>
-* A/B-Betrieb des Verstärkers
-* Höhere Vorspannung als im B-Betrieb, jedoch geringer als im A-Betrieb
-* Ruhestrom größer als im B-Betrieb, aber deutlich geringer als im A-Betrieb
-* Wirkungsgrad zwischen $\qty{50}{\percent}$ bis $\qty{80}{\percent}$
-* geringer Oberwellenanteil
+* Class AB operation of the amplifier
+* Higher bias than in class B operation, but lower than in class A operation
+* Quiescent current larger than in class B operation, but considerably smaller than in class A operation
+* Efficiency between $\qty{50}{\percent}$ and $\qty{80}{\percent}$
+* low harmonic content
 </right>
 --- style="font-size: smaller;"
 ### AP4
 <left>
-[picture:377:a_kennlinien_transistor_arbeitspunkt:Kennlinie eines Transistors mit Arbeitspunkten]  
+[picture:377:a_kennlinien_transistor_arbeitspunkt:Characteristic of a transistor with operating points]  
 </left>
 <right>
-* A-Betrieb des Verstärkers
-* Höhe der Vorspannung so gewählt, dass der Ruhestrom ca. $\qty{50}{\percent}$ des maximal zulässigen Wertes erreicht
-* Wirkungsgrad ca. $\qty{40}{\percent}$
-* sehr geringer Oberwellenanteil
+* Class A operation of the amplifier
+* Bias set so that the quiescent current reaches approx. $\qty{50}{\percent}$ of the maximum permitted value
+* Efficiency approx. $\qty{40}{\percent}$
+* very low harmonic content
 </right>
 ---
 [question:AD416]
@@ -92,52 +92,52 @@ Die Buchstabenbezeichnungen gehen auf eine frühe systematische Klassifizierung 
 ---
 [question:AD421]
 ---
-### Ausgangsleistung
+### Output power
 
-* Bei Kenntnis des Arbeitspunkt ist der Wirkungsgrad bekannt
-* Gleichspannungsleistung ausrechnen
-* Ausgangsleistung ist das Produkt aus Gleichspannungsleistung und Wirkungsgrad
+* If the operating point is known, the efficiency is known
+* Calculate the DC power
+* The output power is the product of the DC power and the efficiency
 
 ---
 [question:AD424]
 ---
-#### Lösungsweg
-* gegeben: $U=\qty{50}{\volt}$
-* gegeben: $I = \qty{2}{\ampere}$
-* gegeben: $\eta_\text{A} \approx \qty{40}{\percent}$
-* gesucht: $P_\text{ab}$
+#### Solution
+* given: $U=\qty{50}{\volt}$
+* given: $I = \qty{2}{\ampere}$
+* given: $\eta_\text{A} \approx \qty{40}{\percent}$
+* required: $P_\text{ab}$
 
 <fragment>
 $P_\text{zu} = U \cdot I = \qty{50}{\volt} \cdot \qty{2}{\ampere} = \qty{100}{\watt}$
 </fragment>
 <fragment>
-$\eta_\text{A} = \frac{P_\text{ab}}{P_\text{zu}} \Rightarrow P_\text{ab} = \eta_\text{A} \cdot P_\text{zu} = 0,4 \cdot \qty{100}{\watt} = \qty{40}{\watt}$
+$\eta_\text{A} = \frac{P_\text{ab}}{P_\text{zu}} \Rightarrow P_\text{ab} = \eta_\text{A} \cdot P_\text{zu} = 0.4 \cdot \qty{100}{\watt} = \qty{40}{\watt}$
 </fragment>
 ---
 [question:AD425]
 ---
-#### Lösungsweg
-* gegeben: $U=\qty{50}{\volt}$
-* gegeben: $I = \qty{2}{\ampere}$
-* gegeben: $\eta_\text{C} \approx \qty{85}{\percent}$
-* gesucht: $P_\text{ab}$
+#### Solution
+* given: $U=\qty{50}{\volt}$
+* given: $I = \qty{2}{\ampere}$
+* given: $\eta_\text{C} \approx \qty{85}{\percent}$
+* required: $P_\text{ab}$
 
 <fragment>
 $P_\text{zu} = U \cdot I = \qty{50}{\volt} \cdot \qty{2}{\ampere} = \qty{100}{\watt}$
 </fragment>
 <fragment>
-$\eta_\text{C} = \frac{P_\text{ab}}{P_\text{zu}} \Rightarrow P_\text{ab} = \eta_\text{C} \cdot P_\text{zu} = 0,85 \cdot \qty{100}{\watt} = \qty{85}{\watt}$
+$\eta_\text{C} = \frac{P_\text{ab}}{P_\text{zu}} \Rightarrow P_\text{ab} = \eta_\text{C} \cdot P_\text{zu} = 0.85 \cdot \qty{100}{\watt} = \qty{85}{\watt}$
 </fragment>
 ---
 [question:AD418]
 ---
 [question:AD417]
 ---
-### SSB-Betrieb
+### SSB operation
 
-* Lineare Verstärkung wird benötigt
-* Verstärkung im A-, A/B- oder B-Betrieb
-* Bei Übersteuerung kommt es zu Verzerrungen des Signals $\rightarrow$ Splatter auf benachbarten Frequenzen
+* Linear amplification is needed
+* Amplification in class A, AB or B operation
+* Overdriving leads to distortion of the signal $\rightarrow$ splatter on adjacent frequencies
 
 ---
 [question:AD422]
@@ -146,11 +146,11 @@ $\eta_\text{C} = \frac{P_\text{ab}}{P_\text{zu}} \Rightarrow P_\text{ab} = \eta_
 ---
 [question:AD423]
 ---
-### C-Betrieb
+### Class C operation
 
-* Nichtlinearer Betriebspunkt erzeugt Oberwellen
-* Müssen anschließend durch Filterung unterdrückt werden
-* Abschirmung durch ein Metallgehäuse
+* Non-linear operating point produces harmonics
+* These must then be suppressed by filtering
+* Screening by a metal case
 
 ---
 [question:AF402]

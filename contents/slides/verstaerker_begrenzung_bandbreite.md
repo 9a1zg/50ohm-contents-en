@@ -1,6 +1,6 @@
-* Bei analogen Modulationsverfahren ist die belegte Bandbreite abhängig von der maximalen Modulationsfrequenz des aufmodulierten Signals
-* Zur Einhaltung der Bandbreite des Sendesignals muss die NF-Modulationsfrequenz begrenzt werden
-* Beispielsweise Tiefpassfilter oder Bandpassfilter im Mikrofonverstärker
+* With analogue modulation methods, the occupied bandwidth depends on the maximum modulating frequency of the signal modulated onto the carrier
+* To keep to the bandwidth of the transmitted signal, the AF modulating frequency must be limited
+* For example, a low-pass filter or band-pass filter in the microphone amplifier
 
 ---
 [question:AD433]

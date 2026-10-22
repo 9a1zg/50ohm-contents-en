@@ -2278,6 +2278,16 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | ohne Arbeitspunktvoreinstellung | without a preset operating point; without its operating point being preset | AD406 (emitterschaltung) |
 | gesperrter Transistor / sperren | transistor cut off / cut off | AD406 |
 | Zur Erinnerung: | As a reminder: | solutions AD402, AD403, AD405 |
+| A/B-Betrieb / Verstärkerklasse A/B (Kurstext) | class AB operation / amplifier class AB | the course text writes *A/B*, the question bank and the course's own list "A, B, AB und C" write *AB*; English writes *class AB* throughout, as AD416, AD422, AD423; the subscript $I_\mathrm{A/B}$ stays (verstaerker_klasse) |
+| Verstärkerklassen / Klasse-D-, Klasse-E-, Klasse-F-Verstärker / Klasse J, Klasse S | amplifier classes / class D, class E, class F amplifiers / class J, class S | lower-case *class* in running text, as §5 *A-Betrieb* → class A operation; capitalised only at the start of a sentence, bullet or table cell |
+| Ruhearbeitspunkt / Arbeitsgerade / zwischen Sperrung und Sättigung / Sperrpunkt | quiescent operating point / load line / between cut-off and saturation / cut-off point | verstaerker_klasse; *Arbeitspunkt* → operating point (§5) |
+| Stromflusswinkel ($\Theta$) | conduction angle | verstaerker_klasse |
+| Steuergröße / Ausgangsgröße (Kennlinie) | control quantity / output quantity | the transistor characteristic (verstaerker_klasse) |
+| Einsetzen des Kollektorstroms | onset of collector current | "Geringe Vorspannung bis zum Einsetzen des Kollektorstroms" → "Small bias, up to the onset of collector current" (verstaerker_klasse) |
+| Stromimpulse / konstante Hüllkurve | current pulses / constant envelope | class B and class C operation (verstaerker_klasse) |
+| Gegentaktschaltung, im Englischen *push-pull amplifier* | *push-pull* circuit | the gloss only gives the English term and is dropped (bracket rule); §5 *Gegentaktschaltung* (verstaerker_klasse) |
+| zugeführte / aufgenommene Gleichstromleistung / Gleichstrom-Versorgungsleistung / Gleichspannungsleistung | DC input power supplied / DC power drawn / DC supply power / DC power | AF401 "the DC input power supplied"; $P_\mathrm{DC}$, $P_\text{zu}$, $P_\text{ab}$ stay (verstaerker_wirkungsgrad, verstaerker_klasse, AD429, AD430) |
+| Oszillation/Pfeifen (Rückkopplung Mikrofon–Lautsprecher) | oscillation/whistling | acoustic feedback in a PA system (verstaerker_eigenschwingung tip) |
 
 ## 15. Catalogue structure
 

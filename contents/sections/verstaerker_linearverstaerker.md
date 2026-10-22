@@ -1,4 +1,4 @@
-Ein Linearverstärker bildet das Eingangssignal exakt (linear) auf ein Ausgangssignal ab, allerdings um den entsprechenden Verstärkungsfaktor (Amplitudenvergrößerung) vergrößert. Hierbei bleiben die Signalformen zwischen Ein- und Ausgang des Verstärkers erhalten. Es finden keine Verzerrungen durch Nichtlinearitäten statt.
-Ein Linearverstärker wird für alle Modulationsarten benötigt, die Modulationsinformation in ihrer Amplitude oder Phase übertragen (z.B. SSB, AM, QAM, QPSK, PSK etc.).
+A linear amplifier maps the input signal exactly (linearly) onto an output signal, but enlarged by the corresponding gain factor (increase in amplitude). The waveforms are preserved between the input and the output of the amplifier. No distortion due to non-linearities takes place.
+A linear amplifier is needed for all modes that carry modulation information in their amplitude or phase (e.g. SSB, AM, QAM, QPSK, PSK etc.).
 
 [question:AD431]
