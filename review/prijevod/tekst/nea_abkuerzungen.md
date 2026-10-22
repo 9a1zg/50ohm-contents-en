@@ -76,3 +76,35 @@ its English meaning (*v*orbereitet, *z*weites Mal, gr*o*ße Leistung,
 - sections/locator.md — "in 18 mal 18 gleich große Bereiche": the fields are equal in angular extent (20° × 10°), not in area; near the poles they are much smaller. The in-depth box on the squares hints at this. Kept.
 - slides/q_schluessel.md — "Wann werden Sie mich zum Zeitpunkt *X* wieder rufen?": merges the section's two questions (*Wann werden Sie mich wieder rufen?* / *Werden Sie mich zum Zeitpunkt X wieder rufen?*) into one that asks "when" and gives the time. Rendered with the time in brackets.
 - Typos with no effect on the English: sections/betriebliche_abkuerzungen.md "Die Anwendung dieser Abkürzung" (*Abkürzungen*), "Morsetelegraphie" in the tables beside "Morsetelegrafie" in the prose; sections/locator.md "ähnlich der Felder" (*wie bei den Feldern*); slides/locator.md "Stufen des Maidenhead Locators" (hyphen), "DARC Geschäftsstelle"; slides/q_schluessel.md "angehangen" (*angehängt*).
+
+## Provjera
+
+Checked all 8 files paragraph by paragraph against `839ca81~1`, the embedded
+questions (BB106, BB107, VA407, BB201–BB206, BE107, BE111, BE115) in English,
+the glossary and DECISIONS.md. Nothing dropped or added apart from the
+closing line below; the Q code wordings follow §2 and the ITU entry; the
+table cells follow the funkfernschreiben convention. Kept as they are: all
+judgement calls, the 12 glossary rows, the DECISIONS.md entry on letter
+mnemonics, and the suspected errors in the German (all four are fair).
+`revizija-guard.py --rev 839ca81~1 --brojevi`: 8 files, *struktura netaknuta*.
+
+Changes: omission 0, meaning 1, technical 0, style 8, glossary 0.
+
+- N_Ende section, closing line: "On behalf of the *50ohm.de team*, we wish
+  you lots of fun with your new hobby!" → "With best wishes for lots of fun
+  with your new hobby, on behalf of the *50ohm.de team*" — the German has
+  no exclamation mark and no "we"; the signers below are its subject.
+- q_schluessel section: QRM 'Are you being disturbed by "*m*an-made"
+  interference?' → 'Are you suffering from …' (natural English, still
+  avoids "interfered with by … interference").
+- q_schluessel section and slide: *"abgearbeitet"* → '"worked" a caller'
+  instead of '"worked through"': *work* a station is the operating term.
+- q_schluessel margin: "bridge the greatest possible distances" → "cover"
+  (Germanism).
+- betriebliche_abkuerzungen section: "a firm part of everyday language
+  among radio amateurs" → "an established part of the everyday language of
+  radio amateurs".
+- N_Ende section: "prepare … in a focused way" → "prepare specifically";
+  "The members on the spot" → "The local members".
+- N_Ende slide: "Works for frequencies, training and young people" →
+  "Stands up for …" (*setzt sich ein*; "works for" reads as employment).

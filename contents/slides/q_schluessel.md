@@ -38,7 +38,7 @@ QTH Berlin $\rightarrow$ QTH?
 ---
 * "QRZ?" is often used on the amateur bands in place of "CQ"
 * Especially in a "pile-up", when many stations want to reach a sought-after station
-* After "working through" a caller, the sought-after station briefly sends "QRZ?" to invite further stations to call
+* After "working" a caller, the sought-after station briefly sends "QRZ?" to invite further stations to call
 
 ---
 

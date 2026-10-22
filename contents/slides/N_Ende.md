@@ -14,7 +14,7 @@
 ## DARC membership
 
 * Largest amateur radio society in Germany
-* Works for frequencies, training and young people
+* Stands up for frequencies, training and young people
 * Membership actively supports this work
 
 ---

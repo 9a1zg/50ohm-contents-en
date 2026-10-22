@@ -13,7 +13,7 @@ Some Q codes must be followed by a specific piece of information. For example, "
 In the following we discuss all the Q codes that appear in the examination, give memory aids and also explain the usual use in amateur radio where it differs from the original meaning. Table [ref:n_q_gruppen] also summarises this information compactly.
 
 * QRV: I am ready (in German "ich bin *v*orbereitet", "I am prepared")
-* QRM: Interference, or as a question: Are you being interfered with? Are you being disturbed by "*m*an-made" interference? This means interference caused by people or by equipment operated by people, e.g. a photovoltaic system or a transmission by a radio amateur on an adjacent frequency.
+* QRM: Interference, or as a question: Are you being interfered with? Are you suffering from "*m*an-made" interference? This means interference caused by people or by equipment operated by people, e.g. a photovoltaic system or a transmission by a radio amateur on an adjacent frequency.
 * QTH: My location ("*H*ome") is ..., e.g. "QTH Berlin" means roughly "My location is Berlin".
 
 [question:BB204]
@@ -24,7 +24,7 @@ In the following we discuss all the Q codes that appear in the examination, give
  
 [question:BB203]
 
-"QRZ?" strictly stands for the question "Who is calling me?". On the amateur bands, however, it is often heard in place of "CQ". This mostly happens in what is known as a "pile-up", when many stations are trying to reach a sought-after station. After the sought-after station has "worked through" a caller, it briefly sends "QRZ?" to invite further stations to call.
+"QRZ?" strictly stands for the question "Who is calling me?". On the amateur bands, however, it is often heard in place of "CQ". This mostly happens in what is known as a "pile-up", when many stations are trying to reach a sought-after station. After the sought-after station has "worked" a caller, it briefly sends "QRZ?" to invite further stations to call.
 
 [question:BE115]
 
@@ -35,7 +35,7 @@ In the following we discuss all the Q codes that appear in the examination, give
 [question:BB202]
 
 <margin>
-Some radio amateurs try to bridge the greatest possible distances with particularly low transmit power – usually less than $\qty{5}{\watt}$. This is called *QRP operation*, after the Q code of the same name. Telegraphy using CW or digital modes is particularly well suited to QRP operation.
+Some radio amateurs try to cover the greatest possible distances with particularly low transmit power – usually less than $\qty{5}{\watt}$. This is called *QRP operation*, after the Q code of the same name. Telegraphy using CW or digital modes is particularly well suited to QRP operation.
 </margin>
 
 * QRP: Even if you have only recently taken up amateur radio, you may already have heard the term "QRP". When we talk about QRP equipment or QRP contacts, we mean equipment or contacts with low transmit power. The original meaning is obvious: "QRP" is the request to reduce transmit power.
