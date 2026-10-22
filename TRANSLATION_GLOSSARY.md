@@ -1032,7 +1032,7 @@ real choice or a trap.
 | Paketvermittlung | packet switching | |
 | paketvermitteltes Netz / Paketweiterleitung | packet-switched network / packet forwarding | EE412 |
 | Internetprotokoll (IP) | Internet Protocol (IP) | capitalised as a proper name, though *the internet* is lower case |
-| Teilnetz / Standardgateway / Gegenstelle | subnet / default gateway / remote station | EE413 |
+| Teilnetz / Standardgateway / Gegenstelle (IP) | subnet / default gateway / remote end (peer) | EE413; *Gegenstelle* is not *remote station*, which is the remotely controlled *Remote-Station* (§1.3) |
 | Stationskennung (DMR-ID) / Reflektor | station identifier (DMR ID) / reflector | digital voice networks (NE402) |
 | Netzwerk / Router / Subnetzmaske | network / router / subnet mask | |
 | Internet | the internet | lower case in British usage |

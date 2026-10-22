@@ -1,0 +1,30 @@
+{
+  "pitanja": {
+    "AD801": {
+      "question": "What does this circuit represent?"
+    },
+    "AD802": {
+      "question": "What does this circuit represent?"
+    },
+    "AE422": {
+      "question": "For which type of channel impairment is orthogonal frequency-division multiplexing (OFDM) with redundant transmission particularly advantageous?",
+      "answer_d": "Signals from other OFDM transmitters via enhanced propagation"
+    },
+    "EE402": {
+      "question": "Which modulation is set on the transceiver to convert a narrow-band digital signal (e.g. BPSK31 or FT8), fed in as an audio (AF) signal, to RF while keeping its bandwidth?"
+    },
+    "EE413": {
+      "answer_c": "The remote end and the bandwidth used by the subnet"
+    },
+    "NE401": {
+      "answer_d": "The transmission should preferably use a fast method, so that the amateur bands are not occupied unnecessarily."
+    },
+    "AF227": {
+      "answer_a": "It states how many times stronger the wanted signal is than the noise signal.",
+      "answer_b": "It states how many times stronger the noise signal is than the wanted signal."
+    },
+    "AF230": {
+      "question": "You are receiving the signal of a satellite at 10 GHz. The cable between the LNB and the receiver is 20 m long. Why is the cable loss largely negligible despite the high receive frequency?"
+    }
+  }
+}

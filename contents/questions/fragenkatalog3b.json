@@ -5391,7 +5391,7 @@
                                 {
                                     "number": "AD802",
                                     "class": "3",
-                                    "question": "What does this circuit show?",
+                                    "question": "What does this circuit represent?",
                                     "answer_a": "Attenuator",
                                     "answer_b": "Amplifier",
                                     "answer_c": "High-pass filter",
@@ -5401,7 +5401,7 @@
                                 {
                                     "number": "AD801",
                                     "class": "3",
-                                    "question": "What does this circuit show?",
+                                    "question": "What does this circuit represent?",
                                     "answer_a": "Attenuator",
                                     "answer_b": "Amplifier",
                                     "answer_c": "High-pass filter",
@@ -6067,11 +6067,11 @@
                                 {
                                     "number": "AE422",
                                     "class": "3",
-                                    "question": "With which type of channel impairment is orthogonal frequency-division multiplexing (OFDM) with redundant transmission particularly advantageous?",
+                                    "question": "For which type of channel impairment is orthogonal frequency-division multiplexing (OFDM) with redundant transmission particularly advantageous?",
                                     "answer_a": "Multipath propagation",
                                     "answer_b": "Impulses from thunderstorms",
                                     "answer_c": "Broadband noise",
-                                    "answer_d": "Signals from distant OFDM transmitters via enhanced propagation"
+                                    "answer_d": "Signals from other OFDM transmitters via enhanced propagation"
                                 },
                                 {
                                     "number": "AE421",
@@ -6290,7 +6290,7 @@
                                     "question": "With the Internet Protocol (IP), what follows from the IP address and subnet mask set on a communication interface?",
                                     "answer_a": "The range of addresses that can be reached directly (i.e. without a router) via the interface",
                                     "answer_b": "The protocol and port number of the protocol used over the interface",
-                                    "answer_c": "The remote station and the bandwidth used by the subnet",
+                                    "answer_c": "The remote end and the bandwidth used by the subnet",
                                     "answer_d": "The default gateway and the maximum number of intermediate stations (hops)"
                                 },
                                 {
@@ -6394,7 +6394,7 @@
                                 {
                                     "number": "EE402",
                                     "class": "2",
-                                    "question": "Which modulation is set on the transceiver to convert a narrow-band digital signal (e.g. BPSK31 or FT8), fed in as an AF audio signal, to RF while keeping its bandwidth?",
+                                    "question": "Which modulation is set on the transceiver to convert a narrow-band digital signal (e.g. BPSK31 or FT8), fed in as an audio (AF) signal, to RF while keeping its bandwidth?",
                                     "answer_a": "Single-sideband modulation (SSB)",
                                     "answer_b": "Frequency modulation (FM)",
                                     "answer_c": "Amplitude modulation (AM)",
@@ -6452,7 +6452,7 @@
                                     "answer_a": "The transmitting and receiving stations must use the same transmission method (e.g. JS8, PSK, RTTY) and, where applicable, the same method parameters.",
                                     "answer_b": "The transmitting and receiving stations must have the same time zone setting (e.g. summer time) for the transmission to succeed.",
                                     "answer_c": "The transmission should preferably take place in the evening and night-time hours, because the frequencies are kept free for voice contacts during the day.",
-                                    "answer_d": "The transmission should preferably use a fast method, so that the amateur bands are not loaded unnecessarily."
+                                    "answer_d": "The transmission should preferably use a fast method, so that the amateur bands are not occupied unnecessarily."
                                 }
                             ]
                         }
@@ -6870,7 +6870,7 @@
                                 {
                                     "number": "AF230",
                                     "class": "3",
-                                    "question": "You are receiving the signal of a satellite at 10 GHz. The cable between the LNB and the receiver is 20 m long. Why is the cable loss rather negligible despite the high receive frequency?",
+                                    "question": "You are receiving the signal of a satellite at 10 GHz. The cable between the LNB and the receiver is 20 m long. Why is the cable loss largely negligible despite the high receive frequency?",
                                     "answer_a": "The LNB amplifies the received signal and mixes it down to a lower frequency, at which the cable loss is lower.",
                                     "answer_b": "The remote supply voltage that powers the LNB reduces the cable loss.",
                                     "answer_c": "Mixing the received signal with the TCXO frequency means that only the baseband is transmitted.",
@@ -6899,8 +6899,8 @@
                                     "number": "AF227",
                                     "class": "3",
                                     "question": "What is meant by the signal-to-noise ratio (SNR) of a receiver?",
-                                    "answer_a": "It states by what ratio the wanted signal is stronger than the noise signal.",
-                                    "answer_b": "It states by what ratio the noise signal is stronger than the wanted signal.",
+                                    "answer_a": "It states how many times stronger the wanted signal is than the noise signal.",
+                                    "answer_b": "It states how many times stronger the noise signal is than the wanted signal.",
                                     "answer_c": "It is the frequency spacing between the received signal and the interfering signal.",
                                     "answer_d": "It is the spacing between the receive frequency and the image frequency."
                                 },

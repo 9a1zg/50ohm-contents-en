@@ -82,3 +82,40 @@ in distractors get a made-up English expansion of the same acronym.
   and NE310 c have double spaces; AE402 b and EE404 d contain non-breaking
   spaces — all dropped. AF101 "Um wie viele" vs AF102 "Um wie viel" (same
   question type) → both "By how many".
+
+## Provjera
+
+175 questions checked (all five fields against the German from
+`upstream/main`), 10 fields in 8 questions changed via
+`pitanja_04.provjera.json` (`--retranslate`: 0 refused, 0 warnings):
+6 style, 2 meaning, 2 answer balance (AF227), plus one glossary fix.
+
+- AD801, AD802 question: "What does this circuit show?" → "What does this
+  circuit represent?" — a circuit does not "show"; same form as EF101,
+  ED208–ED215.
+- AE422 question: "With which type of channel impairment …" → "For which
+  type …" (idiom).
+- AE422 d: "distant OFDM transmitters" → "other OFDM transmitters" — the
+  German says *anderer*; "distant" added information.
+- EE402 question: "fed in as an AF audio signal" → "fed in as an audio (AF)
+  signal" (tautology).
+- EE413 c: "The remote station …" → "The remote end …" — *Gegenstelle* in
+  IP is the peer; "remote station" is the glossary term for *Remote-Station*
+  (remotely controlled station). Glossary row changed to "remote end (peer)".
+- NE401 d: "not loaded unnecessarily" → "not occupied unnecessarily"
+  (*belastet* of a band is occupancy, not electrical load).
+- AF227 a, b: "It states by what ratio …" → "It states how many times
+  stronger …". With *Signal-Rausch-Abstand* → "signal-to-noise ratio", the
+  word "ratio" in a/b echoed the stem and pointed straight at the a/b pair,
+  while c/d lost their German echo of *Abstand*; without the echo the four
+  answers are about as balanced as in German. Meaning of a/b unchanged.
+- AF230 question: "rather negligible" → "largely negligible" (calque of
+  *eher*).
+
+Judgement calls reviewed and kept: NE209 c "Ultra Small Bandwidth" is as
+plainly made up as *Unterer Schmalband Betrieb* and still spells USB;
+NF101–NF105 "display element N" reads correctly with every answer; NE405
+"links"; AE301, AE304, EE302 stems. The three new DECISIONS.md entries are
+correct and stay as written (*symmetrical attenuator* is the standard
+English term for equal input/output impedance; *…MA* expanded as *multiple
+access*; made-up acronym expansions).
