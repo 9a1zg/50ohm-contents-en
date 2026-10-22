@@ -8698,7 +8698,7 @@
                                     "class": "3",
                                     "question": "If this multiband antenna is fed at 14 MHz, the LC resonant circuits act ...",
                                     "answer_a": "as a capacitive shortening of the radiator.",
-                                    "answer_b": "as traps for the feed frequency.",
+                                    "answer_b": "as traps for the operating frequency.",
                                     "answer_c": "as an inductive lengthening of the radiator.",
                                     "answer_d": "as an increase in the radiation resistance of the antenna.",
                                     "picture_question": "AG113_q"
@@ -8707,7 +8707,7 @@
                                     "number": "AG112",
                                     "class": "3",
                                     "question": "If this multiband antenna is fed at 7 MHz, the LC resonant circuits act ...",
-                                    "answer_a": "as traps for the feed frequency.",
+                                    "answer_a": "as traps for the operating frequency.",
                                     "answer_b": "as an inductive lengthening of the radiator.",
                                     "answer_c": "as a capacitive shortening of the radiator.",
                                     "answer_d": "as an increase in the radiation resistance of the antenna.",
@@ -8718,7 +8718,7 @@
                                     "class": "3",
                                     "question": "If this multiband antenna is fed at 3.5 MHz, the LC resonant circuits act ...",
                                     "answer_a": "as an inductive lengthening of the radiator.",
-                                    "answer_b": "as traps for the feed frequency.",
+                                    "answer_b": "as traps for the operating frequency.",
                                     "answer_c": "as a capacitive shortening of the radiator.",
                                     "answer_d": "as an increase in the radiation resistance of the antenna.",
                                     "picture_question": "AG111_q"
@@ -8738,7 +8738,7 @@
                                     "question": "What type of antenna is shown here?",
                                     "answer_a": "Trap dipole",
                                     "answer_b": "Single-band dipole with harmonic filter",
-                                    "answer_c": "Dipole with common-wave filter",
+                                    "answer_c": "Dipole with common-frequency filter",
                                     "answer_d": "Acceptor-circuit dipole",
                                     "picture_question": "AG109_q"
                                 },
@@ -8828,7 +8828,7 @@
                                 {
                                     "number": "EG113",
                                     "class": "2",
-                                    "question": "A sharply focusing antenna for the microwave range often consists of ...",
+                                    "question": "A highly directional antenna for the microwave range often consists of ...",
                                     "answer_a": "a paraboloidal reflector and a feed antenna.",
                                     "answer_b": "a paraboloidal reflector and an isotropic radiator.",
                                     "answer_c": "a cylindrical convex reflector and a feed antenna.",
@@ -9270,7 +9270,7 @@
                                 {
                                     "number": "AG206",
                                     "class": "3",
-                                    "question": "The following picture shows the current distributions a to d on a dipole that can be fed at various resonant frequencies. For which feed frequency does current curve d apply?",
+                                    "question": "The following picture shows the current distributions a to d on a dipole that can be fed at various resonant frequencies. For which operating frequency does current curve d apply?",
                                     "answer_a": "It applies when the dipole is fed at 3.5 MHz.",
                                     "answer_b": "It applies when the dipole is fed at 28 MHz.",
                                     "answer_c": "It applies when the dipole is fed at 7 MHz.",
@@ -9280,7 +9280,7 @@
                                 {
                                     "number": "AG205",
                                     "class": "3",
-                                    "question": "The following picture shows the current distributions a to d on a dipole that can be fed at various resonant frequencies. For which feed frequency does current curve c apply?",
+                                    "question": "The following picture shows the current distributions a to d on a dipole that can be fed at various resonant frequencies. For which operating frequency does current curve c apply?",
                                     "answer_a": "It applies when the dipole is fed at 7 MHz.",
                                     "answer_b": "It applies when the dipole is fed at 28 MHz.",
                                     "answer_c": "It applies when the dipole is fed at 14 MHz.",
@@ -9290,7 +9290,7 @@
                                 {
                                     "number": "AG204",
                                     "class": "3",
-                                    "question": "The following picture shows the current distributions a to d on a dipole that can be fed at various resonant frequencies. For which feed frequency does current curve b apply?",
+                                    "question": "The following picture shows the current distributions a to d on a dipole that can be fed at various resonant frequencies. For which operating frequency does current curve b apply?",
                                     "answer_a": "It applies when the dipole is fed at 14 MHz.",
                                     "answer_b": "It applies when the dipole is fed at 28 MHz.",
                                     "answer_c": "It applies when the dipole is fed at 7 MHz.",
@@ -9300,7 +9300,7 @@
                                 {
                                     "number": "AG203",
                                     "class": "3",
-                                    "question": "The following picture shows the current distributions a to d on a dipole that can be fed at various resonant frequencies. For which feed frequency does current curve a apply?",
+                                    "question": "The following picture shows the current distributions a to d on a dipole that can be fed at various resonant frequencies. For which operating frequency does current curve a apply?",
                                     "answer_a": "It applies when the dipole is fed at 28 MHz.",
                                     "answer_b": "It applies when the dipole is fed at 14 MHz.",
                                     "answer_c": "It applies when the dipole is fed at 7 MHz.",
@@ -9534,7 +9534,7 @@
                                 {
                                     "number": "EG201",
                                     "class": "2",
-                                    "question": "The shortening factor is ...",
+                                    "question": "The velocity factor is ...",
                                     "answer_a": "the ratio of the velocity of propagation along a line to the velocity of propagation in a vacuum.",
                                     "answer_b": "the ratio of the diameter to the length of a conductor.",
                                     "answer_c": "the ratio of the conductor resistance to the feed-point impedance of the antenna.",
@@ -9692,7 +9692,7 @@
                                 {
                                     "number": "AG304",
                                     "class": "3",
-                                    "question": "A transmission line is operated matched when the resistance terminating it ...",
+                                    "question": "A transmission line is matched when the resistance terminating it ...",
                                     "answer_a": "has the value of the characteristic impedance of the line.",
                                     "answer_b": "is 50 \u03a9.",
                                     "answer_c": "is a pure (ohmic) resistance.",
@@ -9976,13 +9976,13 @@
                                     "question": "What can cause common-mode currents on coaxial cables?",
                                     "answer_a": "Balanced antennas, poor earthing of unbalanced antennas, or coupling into the coax screen",
                                     "answer_b": "Asymmetry of the power supply, or feeder dielectrics with a high resistance",
-                                    "answer_c": "Standing waves in coaxial cables with a braided sheath whose length is a multiple of $\\lambda$/2",
+                                    "answer_c": "Standing waves in coaxial cables with a braided screen whose length is a multiple of $\\lambda$/2",
                                     "answer_d": "Harmonics on feeders whose length is a multiple of $\\lambda$/4 or 5/8 $\\lambda$"
                                 },
                                 {
                                     "number": "AG426",
                                     "class": "3",
-                                    "question": "How does a current-compensated choke (e.g. coaxial cable wound on a ferrite core) counteract common-mode currents? It presents ...",
+                                    "question": "How does a current-compensated choke (e.g. coaxial cable wound on a ferrite core) counteract sheath currents? It presents ...",
                                     "answer_a": "a high impedance to common-mode components and a low impedance to differential-mode components.",
                                     "answer_b": "a high impedance to harmonics and a low impedance to fundamentals.",
                                     "answer_c": "a high impedance to all currents in the outer conductor and a low impedance to all currents in the inner conductor.",
@@ -10001,9 +10001,9 @@
                                     "number": "AG424",
                                     "class": "3",
                                     "question": "Delay lines are often used for matching antennas. How does the following circuit work?",
-                                    "answer_a": "The $\\lambda$/2 folded dipole has an impedance of 120 \u03a9 to earth at each of its terminals. The $\\lambda$/2 delay line produces a 1:1 impedance transformation with a phase rotation of 180 \u00b0. On the antenna cable side, 2 times 120 \u03a9 to earth are connected in parallel in phase, giving an output impedance of 60 \u03a9.",
+                                    "answer_a": "The $\\lambda$/2 folded dipole has an impedance of 120 \u03a9 to earth at each of its terminals. The $\\lambda$/2 delay line produces a 1:1 impedance transformation with a phase rotation of 180 \u00b0. On the antenna cable side, 2 \u00d7 120 \u03a9 to earth are connected in parallel in phase, giving an output impedance of 60 \u03a9.",
                                     "answer_b": "The $\\lambda$/2 folded dipole has an impedance of 240 \u03a9. The $\\lambda$/2 delay line produces a 4:1 impedance transformation with a phase rotation of 360 \u00b0, giving an output impedance of 60 \u03a9 on the antenna cable side.",
-                                    "answer_c": "The $\\lambda$/2 dipole has an impedance of 60 \u03a9. The $\\lambda$/2 delay line produces a 1:2 impedance transformation with a phase rotation of 180 \u00b0. On the antenna cable side, 2 times 120 \u03a9 to earth are connected in parallel in phase, giving an output impedance of 60 \u03a9.",
+                                    "answer_c": "The $\\lambda$/2 dipole has an impedance of 60 \u03a9. The $\\lambda$/2 delay line produces a 1:2 impedance transformation with a phase rotation of 180 \u00b0. On the antenna cable side, 2 \u00d7 120 \u03a9 to earth are connected in parallel in phase, giving an output impedance of 60 \u03a9.",
                                     "answer_d": "The $\\lambda$/2 dipole has an impedance of 240 \u03a9. The $\\lambda$/2 delay line produces a 4:1 impedance transformation with a phase rotation of 360 \u00b0, giving an output impedance of 60 \u03a9 on the antenna cable side.",
                                     "picture_question": "AG424_q"
                                 },
@@ -10012,9 +10012,9 @@
                                     "class": "3",
                                     "question": "What does this diagram show?",
                                     "answer_a": "It shows a $\\lambda$/2 folded dipole with a $\\lambda$/2 delay line. The arrangement matches the 240 \u03a9 feed-point impedance of the balanced antenna to an unbalanced 60 \u03a9 antenna cable.",
-                                    "answer_b": "It shows a balanced 60 \u03a9 loop dipole with a coaxial-cable balun. The arrangement matches the balanced antenna to an unbalanced 60 \u03a9 antenna cable.",
+                                    "answer_b": "It shows a balanced 60 \u03a9 folded dipole with a coaxial-cable balun. The arrangement matches the balanced antenna to an unbalanced 60 \u03a9 antenna cable.",
                                     "answer_c": "It shows a $\\lambda$/2 dipole with a balancing $\\lambda$/2 delay line. The arrangement matches the 120 \u03a9 feed-point impedance of the balanced antenna to an unbalanced 60 \u03a9 antenna cable.",
-                                    "answer_d": "It shows a balanced 60 \u03a9 loop dipole with a coaxial line circuit used as a stop filter to suppress unwanted emissions.",
+                                    "answer_d": "It shows a balanced 60 \u03a9 folded dipole with a coaxial line resonator used as a band-stop filter to suppress unwanted emissions.",
                                     "picture_question": "AG423_q"
                                 },
                                 {

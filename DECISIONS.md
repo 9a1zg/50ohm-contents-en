@@ -93,16 +93,23 @@ and the checker's "Provjera" section).
 - ***Verkürzungsfaktor* of an antenna → shortening factor** in exam
   questions (AG101–AG105, EG202), the glossary's bracketed form rather than
   "end-effect correction factor": it is what the German says, and the
-  questions only multiply by it. For cables it stays the **velocity factor**.
-  (Batch 06.)
-- **No echo the German does not have.** Where the glossary would give a stem
-  term and the correct answer the same English word although the German uses
-  two different ones, the stem takes a faithful alternative, so the correct
-  answer is not given away: AG425 *Mantelwellen* → "sheath currents" (answer
-  "common-mode components"), AG426 *stromkompensierte Drossel* →
-  "current-compensated choke" (same answer), EG201 *Verkürzungsfaktor* →
-  "shortening factor" (the answer defines the velocity factor). Same reasoning
-  as the checker's AF227 fix in batch 04. (Batch 06.)
+  questions only multiply by it. Wherever the factor belongs to a cable or
+  line it is the **velocity factor**, the established English term, with no
+  exception — also EG201, whose correct answer defines it as a ratio of
+  velocities (in English "shortening factor" is the antenna end effect, which
+  would make distractor b, diameter to length, look right). (Batch 06;
+  EG201 corrected by the checker.)
+- **No echo the German does not have — but never at the cost of the
+  established term.** Where the glossary would give a stem term and the
+  correct answer the same English word although the German uses two
+  different ones, the stem takes an alternative that is itself established
+  English for the same thing, so the correct answer is not given away:
+  *Mantelwellen* → "sheath currents" where the answer is *Gleichtaktanteile*
+  → "common-mode components" (AG425, AG426), *stromkompensierte Drossel* →
+  "current-compensated choke" (AG426). Where only the established term is
+  accurate, it stays even if it echoes the answer (EG201 *velocity factor*).
+  Same reasoning as the checker's AF227 fix in batch 04. (Batch 06, scope
+  narrowed by the checker.)
 - ***Mantelstrom* → sheath current** (EG404, AG428), the current on the
   outside of the braid; *Mantelwellen* stays *common-mode currents*. (Batch 06.)
 - ***Eingangswiderstand* / *Fußpunktwiderstand* of an antenna → input /

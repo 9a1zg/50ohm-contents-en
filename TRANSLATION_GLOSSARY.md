@@ -1115,12 +1115,12 @@ real choice or a trap.
 | magnetische Ringantenne | magnetic loop antenna | EG105 |
 | Ferritantenne / Ferritstabantenne | ferrite antenna / ferrite rod antenna | |
 | Patchantenne / Schlitzantenne | patch antenna / slot antenna | |
-| Sperrtopfantenne | sleeve dipole | a VHF/UHF antenna with a coaxial sleeve (EG107) |
+| Sperrtopfantenne | sleeve dipole | coaxial sleeve antenna, a VHF/UHF vertical whose λ/4 sleeve (*Sperrtopf*) acts as balun/choke (EG107) |
 | Winkeldipol | inverted-V dipole | EG103 |
-| Schleifendipol | loop dipole | a synonym of *Faltdipol* used in AG423 distractors; kept apart from *folded dipole* because the German changes the word |
+| Schleifendipol | folded dipole | a common German synonym of *Faltdipol*; English has one term. AG423 b/d are wrong because of the 60 Ω and what the arrangement does, not because of the word |
 | Ringdipol | ring dipole | AG225 |
 | Saugkreis-Dipol | acceptor-circuit dipole | distractor beside *Sperrkreis-Dipol* → trap dipole (AG109) |
-| Gleichwellenfilter | common-wave filter | made-up distractor beside *Oberwellenfilter* (AG109) |
+| Gleichwellenfilter | common-frequency filter | made-up distractor beside *Oberwellenfilter* (AG109); *Gleichwelle* is *common frequency* in English (Gleichwellenfunk → common-frequency broadcasting) |
 | Dreiband-Dipol | three-band dipole | |
 | Kurzwellenbeam | HF beam | |
 | Magnetic-Loop-Antenne | magnetic loop (small transmitting loop) | |
@@ -1156,7 +1156,7 @@ real choice or a trap.
 | Vor-Rück-Verhältnis | front-to-back ratio | |
 | Öffnungswinkel / Halbwertsbreite | beamwidth / half-power (-3 dB) beamwidth | "Halbwertsbreite (Öffnungswinkel)" → "half-power beamwidth (beam angle)" (AG221) |
 | Horizontaldiagramm | horizontal radiation pattern | |
-| Strahlungsdichte | power density | AG219 |
+| Strahlungsdichte | power density | power flux density in W/m² (AG219), as in RSGB EMC/exposure texts |
 | Abstrahlwinkel / Erhebungswinkel | angle of radiation; elevation angle | RSGB *take-off angle* in propagation context |
 | Abstrahlung / Strahlung | radiation | |
 | Polarisation (horizontal / vertikal / zirkular) | polarisation (horizontal / vertical / circular) | British *-isation* |
@@ -1173,9 +1173,9 @@ real choice or a trap.
 | Strombauch / Spannungsbauch | current maximum (antinode) / voltage maximum (antinode) | where the German pairs *Bauch* and *Knoten* (EG203–EG205): *antinode* / *node* |
 | Stromknoten / Spannungsknoten | current minimum (node) / voltage minimum (node) | |
 | Stromverteilung / Stromkurve | current distribution | |
-| Erregung / Erregerfrequenz | excitation; feeding / feed frequency (operating frequency) | AG203: "Erregung auf 28 MHz" → "fed at 28 MHz" |
+| Erregung / Erregerfrequenz | excitation; feeding / operating frequency | AG203: "Erregung auf 28 MHz" → "fed at 28 MHz"; *Erregerfrequenz* → "operating frequency" (AG111–AG113, AG203–AG206), not "feed frequency", which is not English usage |
 | Resonanzlänge | resonant length | |
-| Verkürzungsfaktor (Antenne) | end-effect correction factor (shortening factor) | trap: for cables the same German word = *velocity factor*. In exam questions written *shortening factor* (AG101–AG105, EG202); also EG201, where the correct answer defines the velocity factor and the stem must not give it away (see DECISIONS.md) |
+| Verkürzungsfaktor (Antenne) | end-effect correction factor (shortening factor) | trap: for cables the same German word = *velocity factor*. In exam questions written *shortening factor* (AG101–AG105, EG202). EG201, whose correct answer defines it for a line, is the cable sense: *velocity factor* |
 | Verkürzungsfaktor (Kabel) | velocity factor | |
 | Übertragungsleitung / Leitung | transmission line / line | |
 | Speiseleitung / Antennenleitung / Antennenkabel | feeder; feed line | RSGB *feeder* |
@@ -1204,7 +1204,7 @@ real choice or a trap.
 | Symmetrierung / Symmetrierglied | balancing / balun | |
 | Balun / Un-Un | balun / unun | |
 | Umwegleitung | half-wave coaxial balun (delay-line balun) | where λ/2 is given or *Balun* stands beside it: "$\lambda$/2 delay line" / "half-wave delay line" (AG420, AG423, AG424) |
-| Mantelwellen | common-mode currents | the "sheath waves" on the outside of the braid; RSGB *common-mode current*. *sheath currents* where the correct answer is *Gleichtaktanteile* and would echo the stem (AG425) |
+| Mantelwellen | common-mode currents | the "sheath waves" on the outside of the braid; RSGB *common-mode current*. *sheath currents* where the correct answer is *Gleichtaktanteile* and would echo the stem (AG425, AG426) |
 | Mantelstrom | sheath current | the current on the outside of the braid (EG404, AG428) |
 | Mantelwellensperre (MWS) | common-mode choke (choke balun) | keep "MWS" where the drawing label uses it |
 | stromkompensierte Drossel | common-mode choke | AG426: "current-compensated choke" (literal, a current EMC term), because the correct answer is "common-mode components" |

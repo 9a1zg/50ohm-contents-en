@@ -93,3 +93,56 @@ sheath current; antenna *Eingangs-/Fußpunktwiderstand* → impedance;
   the German, all dropped: trailing spaces in AG109, EG107, EG104,
   NG203–NG205, AG408, AG401 (questions); final newlines in AG309 c, AG424 a;
   double spaces in EG102 d, AG406 c.
+
+## Provjera
+
+175 questions checked (871 text fields; EG214's answers are pictures), German
+from `upstream/main` beside the English. 17 fields in 15 questions changed via
+`pitanja_06.provjera.json`, applied with `--retranslate`: 0 refused,
+0 warnings. By kind: answer correctness 3 (AG423 b/d, EG201), terminology /
+glossary 9, meaning 1 (AG427 c), style 4; glossary 7 rows fixed,
+DECISIONS.md 2 entries reworked.
+
+- AG423 b, d: *Schleifendipol* → "folded dipole", not "loop dipole". It is a
+  plain German synonym of *Faltdipol*, and "loop dipole" is not an English
+  term; b/d must be wrong for the German reasons (a folded dipole is not
+  60 Ω; d's arrangement is not a filter), not because of an invented word.
+- AG423 d: *koaxialer Leitungskreis, der als Sperrfilter* → "coaxial line
+  resonator used as a band-stop filter" (was "line circuit … stop filter").
+- EG201 question: "shortening factor" → "velocity factor". The answer defines
+  the cable/line factor, whose only English name is velocity factor; in
+  English "shortening factor" is the antenna end effect, which makes
+  distractor b (diameter to length) look right. The echo with "velocity of
+  propagation" in a is inherent in the English term, not added.
+- AG426 question: *Mantelwellen* → "sheath currents" (was "common-mode
+  currents"), as in AG425: the stem still echoed "common-mode components" in
+  a, which the translator's no-echo rule was meant to prevent.
+- AG111 b, AG112 a, AG113 b, AG203–AG206 questions: *Erregerfrequenz* →
+  "operating frequency"; "feed frequency" is not English usage.
+- AG109 c: *Gleichwellenfilter* → "common-frequency filter"; *Gleichwelle* is
+  "common frequency" in English, "common-wave" exists nowhere. Still a
+  made-up filter, as in German.
+- AG424 a, c: "2 times 120 Ω to earth" → "2 × 120 Ω to earth".
+- AG427 c: *geflochtenem Mantel* → "braided screen"; "braided sheath" reads as
+  the outer jacket.
+- AG304 question: "is operated matched when" → "is matched when".
+- EG113 question: *scharf bündelnde Antenne* → "highly directional antenna"
+  (was "sharply focusing").
+
+Flagged points: AG423 and EG201 corrected as above. DECISIONS.md: the antenna
+"shortening factor" entry kept for AG101–AG105/EG202 (clear, and what the
+German says), but now states that a cable or line factor is always the
+velocity factor, EG201 included; the "no echo" entry narrowed — the
+alternative must itself be established English for the same thing, and the
+established term wins where it is the only accurate one (EG201 removed,
+AG426 stem added). The other three new entries (*Mantelstrom*, antenna input
+impedance, *Cinch*) are sound. Glossary: *Schleifendipol* → folded dipole;
+*Gleichwellenfilter* → common-frequency filter; *Erregerfrequenz* →
+operating frequency; antenna *Verkürzungsfaktor* note no longer sends EG201
+to "shortening factor"; *Mantelwellen* note adds AG426; *Sperrtopfantenne* →
+sleeve dipole confirmed (coaxial sleeve antenna, note expanded);
+*Saugkreis-Dipol* → acceptor-circuit dipole confirmed (RSGB *acceptor*,
+series-resonant, beside *trap dipole*); *Strahlungsdichte* → power density
+confirmed (W/m², RSGB exposure usage). Left as is: "radiator" for the Yagi
+*Strahler* (EG111, EG212 — "driven element" would echo "fed" in EG212),
+"delay line" for *Umwegleitung* where λ/2 or *Balun* is given.

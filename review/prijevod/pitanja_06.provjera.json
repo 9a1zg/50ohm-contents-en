@@ -1,0 +1,51 @@
+{
+  "pitanja": {
+    "AG423": {
+      "answer_b": "It shows a balanced 60 Ω folded dipole with a coaxial-cable balun. The arrangement matches the balanced antenna to an unbalanced 60 Ω antenna cable.",
+      "answer_d": "It shows a balanced 60 Ω folded dipole with a coaxial line resonator used as a band-stop filter to suppress unwanted emissions."
+    },
+    "EG201": {
+      "question": "The velocity factor is ..."
+    },
+    "AG426": {
+      "question": "How does a current-compensated choke (e.g. coaxial cable wound on a ferrite core) counteract sheath currents? It presents ..."
+    },
+    "AG424": {
+      "answer_a": "The $\\lambda$/2 folded dipole has an impedance of 120 Ω to earth at each of its terminals. The $\\lambda$/2 delay line produces a 1:1 impedance transformation with a phase rotation of 180 °. On the antenna cable side, 2 × 120 Ω to earth are connected in parallel in phase, giving an output impedance of 60 Ω.",
+      "answer_c": "The $\\lambda$/2 dipole has an impedance of 60 Ω. The $\\lambda$/2 delay line produces a 1:2 impedance transformation with a phase rotation of 180 °. On the antenna cable side, 2 × 120 Ω to earth are connected in parallel in phase, giving an output impedance of 60 Ω."
+    },
+    "AG111": {
+      "answer_b": "as traps for the operating frequency."
+    },
+    "AG112": {
+      "answer_a": "as traps for the operating frequency."
+    },
+    "AG113": {
+      "answer_b": "as traps for the operating frequency."
+    },
+    "AG203": {
+      "question": "The following picture shows the current distributions a to d on a dipole that can be fed at various resonant frequencies. For which operating frequency does current curve a apply?"
+    },
+    "AG204": {
+      "question": "The following picture shows the current distributions a to d on a dipole that can be fed at various resonant frequencies. For which operating frequency does current curve b apply?"
+    },
+    "AG205": {
+      "question": "The following picture shows the current distributions a to d on a dipole that can be fed at various resonant frequencies. For which operating frequency does current curve c apply?"
+    },
+    "AG206": {
+      "question": "The following picture shows the current distributions a to d on a dipole that can be fed at various resonant frequencies. For which operating frequency does current curve d apply?"
+    },
+    "AG109": {
+      "answer_c": "Dipole with common-frequency filter"
+    },
+    "AG427": {
+      "answer_c": "Standing waves in coaxial cables with a braided screen whose length is a multiple of $\\lambda$/2"
+    },
+    "AG304": {
+      "question": "A transmission line is matched when the resistance terminating it ..."
+    },
+    "EG113": {
+      "question": "A highly directional antenna for the microwave range often consists of ..."
+    }
+  }
+}
