@@ -1,19 +1,19 @@
-Sender und Sendeanlagen benötigen normalerweise eine behördliche Zulassung. Funkamateure sind davon jedoch ausgenommen: Sie sind berechtigt, *im Handel erhältliche, selbst gefertigte oder auf Amateurfunkfrequenzen umgebaute Sendeanlagen* zu betreiben. Dieses Privileg ist auch der Grund dafür, dass Funkamateure ihr Fachwissen in einer technisch anspruchsvollen Prüfung nachweisen müssen.
+Transmitters and transmitting equipment normally require official approval. Radio amateurs, however, are exempt from this: they are entitled to operate *transmitting equipment that is commercially available, home-built or converted to amateur frequencies*. This privilege is also the reason why radio amateurs have to prove their expertise in a technically demanding examination.
 
 [question:VC109]
 
 %[class:N]
-Wenn man selber ein Funkgerät bauen möchte, braucht man verschiedene elektronische Bauteile, die unterschiedliche Eigenschaften aufweisen. Einige davon haben wir bereits kennengelernt, zum Beispiel die Batterie. In den folgenden Abschnitten werden wir näher auf weitere Bauteile eingehen sowie erste einfache Schaltungen damit entwickeln. Viele dieser Bauteile werden erst in den folgenden Klassen E und A genauer besprochen. Für die Klasse N reicht es aus, dass man die Symbole wiedererkennt.
+If you want to build a radio yourself, you need various electronic components with different properties. We have already met some of them, for example the battery. In the following sections we will look more closely at further components and develop our first simple circuits with them. Many of these components are only discussed in more detail in the following classes, E and A. For Class N it is enough to recognise the symbols.
 
-Aber jetzt geht es erstmal um einige Fragen zu den Anforderungen, die der Gesetzgeber an Funkgeräte stellt, und den Ausnahmen, die für den Selbstbau von Geräten durch Funkamateure gelten.
+But first, some questions about the requirements that the legislator places on radio equipment, and about the exceptions that apply when radio amateurs build equipment themselves.
 %[/class]
 
 ---
 
-Grundsätzlich gilt, dass alle *im Handel erhältlichen, seriengefertigten Funkanlagen* - also auch sämtliche kommerziell gefertigten Amateurfunkgeräte -  die *grundlegenden Anforderungen und Bestimmungen des Funkanlagengesetzes (FuAG)* einhalten müssen. Das bedeutet praktisch, dass kommerzielle Hersteller von Amateurfunkgeräten eine sogenannte  EU-Konformitätserklärung erstellen müssen, bevor sie die Geräte in Verkehr bringen. Im FuAG sind auch die Aufgaben von Importeuren und Händlern von Funkgeräten beschrieben. Wir Funkamateure dürfen vom Markt bereitgestellte Anlagen nur in Betrieb nehmen und nutzen, wenn sie den Anforderungen des FuAG entsprechen. Dazu müssen die Geräte ein CE-Kennzeichen tragen.
+In principle, all *commercially available, series-produced radio equipment* - including all commercially manufactured amateur radio equipment -  must comply with the *essential requirements and provisions of the Radio Equipment Act (Funkanlagengesetz, FuAG)*. In practice, this means that commercial manufacturers of amateur radio equipment must draw up what is known as an  EU declaration of conformity before they place the equipment on the market. The FuAG also describes the duties of importers and distributors of radio equipment. We radio amateurs may put into service and use equipment made available on the market only if it meets the requirements of the FuAG. For this, the equipment must bear the CE marking.
 
 <indepth>
-Mit der *CE-Kennzeichnung* erklärt der Hersteller oder Importeur eines Produkts, dass es den geltenden Anforderungen genügt, die in der Europäischen Union für solche Geräte verlangt werden.
+With the *CE marking*, the manufacturer or importer of a product declares that it meets the applicable requirements laid down in the European Union for such equipment.
 </indepth>
 
 [question:VE401]
@@ -21,6 +21,6 @@ Mit der *CE-Kennzeichnung* erklärt der Hersteller oder Importeur eines Produkts
 [question:VE403]
 [question:VE404]
 
-Es gibt jedoch eine Ausnahme für von Funkamateuren *selbst gebaute und umgebaute* Funkanlagen. Diese müssen weder die Anforderungen des Funkanlagengesetzes erfüllen noch eine CE-Kennzeichnung tragen.
+There is, however, an exception for radio equipment that radio amateurs have *built or converted themselves*. Such equipment need neither meet the requirements of the Radio Equipment Act nor bear the CE marking.
 
 [question:VE405]

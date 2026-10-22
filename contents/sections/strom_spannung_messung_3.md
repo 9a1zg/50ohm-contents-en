@@ -1,49 +1,49 @@
-In den Klassen N und E haben wir bereits gelernt, wie man Strom und Spannung korrekt misst und welche Eigenschaften die Innenwiderstände der Messgeräte haben. Werden die Messgeräte nicht richtig in die Schaltung eingebaut, erhält man falsche oder unsinnige Anzeigen oder kann im schlimmsten Fall das Messgerät beschädigen. In der Klasse A gibt es dazu noch zwei weitere Fragen, die die korrekte Strom- und Spannungsmessung abprüfen – allerdings in einem etwas komplexeren Kontext.
+In Classes N and E we have already learnt how to measure current and voltage correctly and what properties the internal resistances of the meters have. If the meters are not connected into the circuit correctly, you get wrong or meaningless readings or, in the worst case, can damage the meter. In Class A there are two more questions on this that test correct measurement of current and voltage – but in a somewhat more complex context.
 
-Bei der ersten Frage geht es um die Leistungsmessung eines Verstärkers (Power Amplifier, PA). Den Zusammenhang $P = U \cdot I$ kennen wir bereits: Die Leistung lässt sich bestimmen, indem man Spannung und Strom misst und anschließend beide Werte multipliziert. In Abbildung [ref:a_strom_spannung_messung] ist links die Spannungsversorgung in Form eines Netzteils angeschlossen, in der Mitte befindet sich die PA und rechts ist ein weiterer Verbraucher, der Sender (TRX), angeschlossen. Möchten wir nun die Leistung der PA ermitteln, darf ausschließlich der Strom gemessen werden, der in die PA fließt.
+The first question is about measuring the power of a power amplifier (PA). We already know the relationship $P = U \cdot I$: the power can be determined by measuring voltage and current and then multiplying the two values. In Figure [ref:a_strom_spannung_messung], the supply, in the form of a power supply unit, is connected on the left, the PA is in the middle, and on the right a further load, the transmitter (TRX), is connected. If we now want to determine the power of the PA, only the current flowing into the PA may be measured.
 
 <margin>
-[picture:1003:a_strom_spannung_messung:Messen der Leistung eines Verstärkers (PA)]
+[picture:1003:a_strom_spannung_messung:Measuring the power of an amplifier (PA)]
 </margin>
 
 [question:AI101]
 
-Für die nächste Frage erinnern wir uns an die Regeln aus der Klasse E, dass Spannungsmessgeräte immer parallel und Strommessgeräte immer in Reihe geschaltet werden. Dadurch ist die Frage sehr leicht zu lösen. 
+For the next question, let us remember the rules from Class E that voltmeters are always connected in parallel and ammeters always in series. This makes the question very easy to answer. 
 
 [question:AI102]
 
 ---
 
-Im Folgenden wollen wir uns zwei Kenngrößen beim Messen ansehen, die oft verwechselt werden:
+In the following, we want to look at two parameters of measurement that are often confused:
 
-- Auflösung
-- Messgenauigkeit (auch Toleranz oder Fehler genannt)
+- Resolution
+- Accuracy (also called tolerance or error)
 
-Die *Auflösung* bezeichnet die kleinste Änderung der Messgröße, die ein Gerät noch anzeigen kann. Beispiel: Ein Multimeter mit einer Auflösung von $\qty{0,1}{\volt}$ kann zwischen $\qty{10,5}{\volt}$ und $\qty{10,45}{\volt}$ nicht unterscheiden, wenn der Unterschied kleiner ist als die Auflösung. Ein Gerät mit $\qty{0,01}{\volt}$ Auflösung kann hingegen deutlich feiner unterscheiden. Die Auflösung wird in der Regel vom Hersteller des Messgeräts angegeben.
+*Resolution* is the smallest change in the measured quantity that a meter can still display. Example: a multimeter with a resolution of $\qty{0.1}{\volt}$ cannot distinguish between $\qty{10.5}{\volt}$ and $\qty{10.45}{\volt}$ if the difference is smaller than the resolution. A meter with a resolution of $\qty{0.01}{\volt}$, on the other hand, can distinguish much more finely. The resolution is normally stated by the manufacturer of the meter.
 
 <tip>
-Betrachten wir zunächst die *Auflösung* anhand einer Uhr. Besitzt die Uhr eine Stunden- und Minutenanzeige, so lässt sich die Zeit auf eine Minute genau angeben. Aber ob es nun 13 Uhr 3 Minuten und 10 Sekunden ist oder 13 Uhr 3 Minuten und 59 Sekunden lässt sich nicht ablesen. *Eine Minute* ist also die *kleinste Auflösung* der Uhr (entsprechend hat eine Uhr mit einem Sekundenzeiger eine kleinste Auflösung von einer Sekunde).
+Let us first look at *resolution* using a clock. If the clock shows hours and minutes, the time can be given to the nearest minute. But whether it is 13 hours, 3 minutes and 10 seconds or 13 hours, 3 minutes and 59 seconds cannot be read off. *One minute* is therefore the *finest resolution* of the clock (correspondingly, a clock with a second hand has a finest resolution of one second).
 </tip>
 
-Die *Messgenauigkeit* (auch Messfehler oder Toleranz) eines Geräts beschreibt, wie stark der angezeigte Wert höchstens vom tatsächlichen Wert abweichen darf – sowohl nach oben als auch nach unten, zum Beispiel $\pm\qty{5}{\percent}$. Eine einfache Faustregel lautet: Je größer der Messbereich ist, den ein Gerät abdecken soll, desto geringer ist in der Regel die Genauigkeit der Messung.
+The *accuracy* (also measurement error or tolerance) of a meter describes by how much, at most, the displayed value may deviate from the true value – both upwards and downwards, for example $\pm\qty{5}{\percent}$. A simple rule of thumb is: the larger the range a meter is meant to cover, the lower, as a rule, the accuracy of the measurement.
 
-Die Messgenauigkeit hängt unter anderem vom Innenwiderstand des Messgeräts ab, da dieser das Messergebnis beeinflusst.
-In der Klasse E haben wir gelernt: Ein Strommessgerät hat einen sehr geringen Innenwiderstand (ideal $\qty{0}{\ohm}$), ein Spannungsmessgerät dagegen einen sehr hohen Innenwiderstand (ideal $\qty{\infty}{\ohm}$). In der Klasse A wollen wir uns nun zusätzlich anschauen, wie genau unsere Messgeräte die tatsächlich anliegende Spannung bzw. Stromstärke erfassen können. Der angezeigte Messwert unterscheidet sich nämlich in der Regel vom tatsächlichen Wert – und das liegt an den nicht perfekten Innenwiderständen der Messgeräte, welche die Messung beeinflussen.
+The accuracy depends, among other things, on the internal resistance of the meter, since this affects the measurement result.
+In Class E we learnt that an ammeter has a very low internal resistance (ideally $\qty{0}{\ohm}$), whereas a voltmeter has a very high internal resistance (ideally $\qty{\infty}{\ohm}$). In Class A we now also want to look at how accurately our meters can record the voltage or current that is actually present. The displayed value usually differs from the true value – and this is due to the imperfect internal resistances of the meters, which affect the measurement.
 
 ---
 
-Schauen wir uns das Ersatzschaltbild eines realen Spannungsmessgeräts in Abbildung [ref:a_reale_spannungsmessung] zur folgenden Prüfungsfrage an. Neben dem idealen Strommesser enthält ein reales Spannungsmessgerät einen parallelgeschalteten Widerstand, z. B. von $\qty{10}{\mega\ohm}$. Wäre dieser Widerstand unendlich groß, existierte er praktisch nicht – und wir hätten ein ideales Messgerät. Das bedeutet jedoch, dass bei einer realen Spannungsmessung immer ein kleiner Strom durch diesen Widerstand fließt, der unser Messergebnis beeinflusst. Stellen wir uns beispielsweise vor, wir wollen die Spannung an einem Spannungsteiler messen: Durch den Innenwiderstand des Messgeräts wird der Spannungsteiler geringfügig belastet, sodass wir nicht exakt die Spannung messen, die ein ideales Messgerät anzeigen würde. 
+Let us look at the equivalent circuit of a real voltmeter in Figure [ref:a_reale_spannungsmessung] for the following examination question. Besides the ideal ammeter, a real voltmeter contains a resistor connected in parallel, e.g. of $\qty{10}{\mega\ohm}$. If this resistor were infinitely large, it would in practice not exist – and we would have an ideal meter. This means, however, that in a real voltage measurement a small current always flows through this resistor, and it affects our measurement result. Let us imagine, for example, that we want to measure the voltage at a potential divider: the internal resistance of the meter places a slight load on the potential divider, so that we do not measure exactly the voltage that an ideal meter would show. 
 
 <margin>
-[picture:1004:a_reale_spannungsmessung:Ersatzschaltbild reales Spannungsmessgerät]
+[picture:1004:a_reale_spannungsmessung:Equivalent circuit of a real voltmeter]
 </margin>
 
 ---
 
-Ähnlich wie beim Spannungsmessgerät verhält es sich auch beim Strommessgerät. Ein reales Strommessgerät besteht aus dem eigentlichen Strommesser und einem kleinen Widerstand, der in Reihe geschaltet ist und an dem immer eine kleine Spannung abfällt. Wäre dieser Widerstand null, würde er praktisch nicht existieren – und wir hätten wieder das ideale Messgerät.
+The ammeter behaves in a similar way to the voltmeter. A real ammeter consists of the actual ammeter and a small resistor connected in series, across which a small voltage is always dropped. If this resistor were zero, it would in practice not exist – and we would again have the ideal meter.
 
 <margin>
-[picture:1007:a_reale_strommessung:Ersatzschaltbild reales Strommessgerät]
+[picture:1007:a_reale_strommessung:Equivalent circuit of a real ammeter]
 </margin>
 
 ---
@@ -51,25 +51,25 @@ Schauen wir uns das Ersatzschaltbild eines realen Spannungsmessgeräts in Abbild
 [question:AI104]
 
 <tip>
-Bei dieser Frage ist der Hinweis "Kleinste Auflösung $\qty{100}{\micro\volt}$" nicht wichtig. Sie kann allein mit Hilfe des Ohmschen Gesetzes gelöst werden.
+In this question, the information "finest resolution $\qty{100}{\micro\volt}$" is not important. It can be solved with Ohm's law alone.
 </tip>
 
 ---
 
-Wie verhält es sich nun mit Kenngrößen, die aus Messwerten berechnet werden – etwa der Leistung in unserem Beispiel vom Anfang ($P = U \cdot I$) nach einer Strom- und Spannungsmessung? Die einzelnen Messgrößen wie Strom und Spannung weichen durch Messfehler jeweils vom tatsächlichen Wert ab, und diese Abweichungen wirken sich in der Berechnung entsprechend fort.
+What about parameters that are calculated from measured values – such as the power in our example from the beginning ($P = U \cdot I$) after measuring current and voltage? The individual measured quantities, such as current and voltage, each deviate from the true value because of measurement errors, and these deviations carry through into the calculation accordingly.
 
-Schauen wir uns ein konkretes Beispiel an: Angenommen, wir möchten die Leistung bestimmen und messen dazu eine Gleichspannung und einen Gleichstrom. Beide Messgeräte zeigen Werte an, die jeweils um fünf Prozent zu niedrig sind. Man darf nun nicht den Fehler machen und die Abweichungen der Einzelmessgrößen einfach addieren. Durch die Leistungsformel wird deutlich, dass sich die Fehler in diesem Fall multiplizieren. Schauen wir uns das im Detail an:
+Let us look at a concrete example: suppose we want to determine the power, and to do so we measure a DC voltage and a direct current. Both meters show values that are each five per cent too low. Now you must not make the mistake of simply adding the deviations of the individual measured quantities. The power formula makes it clear that in this case the errors multiply. Let us look at this in detail:
 
-$U_\text{Gemessen}=0,95 \cdot U_\text{Wahr}$ und $I_\text{Gemessen}=0,95 \cdot I_\text{Wahr}$
+$U_\text{Gemessen}=0.95 \cdot U_\text{Wahr}$ and $I_\text{Gemessen}=0.95 \cdot I_\text{Wahr}$
 
-Die Leistung berechnen wir mit unserer bekannten Formel:
+We calculate the power with our familiar formula:
 
 $P_\text{Gemessen}=U_\text{Gemessen} \cdot I_{Gemessen}$
 
-Nun setzen wir die wahren Werte ein: 
+Now we substitute the true values: 
 
-$P_\text{Gemessen} = 0,95 \cdot U_\text{Wahr} \cdot 0,95 \cdot I_\text{Wahr} = 0,9025 \cdot U_\text{Wahr} \cdot I_\text{Wahr}$
+$P_\text{Gemessen} = 0.95 \cdot U_\text{Wahr} \cdot 0.95 \cdot I_\text{Wahr} = 0.9025 \cdot U_\text{Wahr} \cdot I_\text{Wahr}$
 
-Das heißt, die gemessene Leistung ist etwa $\qty{9,75}{\percent}$ niedriger als die tatsächliche Leistung, denn $1-0,9025 \equiv \qty{9,75}{\percent}$. Mit diesem Wissen ist die folgende Prüfungsfrage lösbar, die konkreten Werte von Strom und Spannung sind für die Lösung nicht relevant.
+This means that the measured power is about $\qty{9.75}{\percent}$ lower than the actual power, because $1-0.9025 \equiv \qty{9.75}{\percent}$. With this knowledge the following examination question can be answered; the actual values of current and voltage are not relevant to the solution.
 
 [question:AI103]

@@ -1,30 +1,30 @@
-Wir teilen Materialien in drei Gruppen ein: *Leiter*, *Nichtleiter* und *Halbleiter*. Leiter sind Materialien, die in der Lage sind, elektrischen Strom zu leiten. Nichtleiter sind hingegen Materialien, die den elektrischen Strom nicht leiten, sondern als sogenannte *Isolatoren* wirken. Halbleiter sind wiederum Materialien, die nur unter bestimmten Umständen den elektrischen Strom leiten.
+We divide materials into three groups: *conductors*, *non-conductors* and *semiconductors*. Conductors are materials that are able to conduct electric current. Non-conductors, on the other hand, are materials that do not conduct electric current but act as what are known as *insulators*. Semiconductors, in turn, are materials that conduct electric current only under certain conditions.
 
-Betrachten wir zunächst die Leiter etwas näher. Viele Leiter sind Metalle. Beispielsweise sind Blitzableiter aus Stahl und Hochspannungsleitungen aus Stahl oder Aluminium. Aber auch salziges Wasser kann Strom leiten. Manche Leiter können Strom besser leiten als andere. In der Tabelle [ref:leiter] sind alle in den Prüfungsfragen vorkommenden Leiter-Materialien wiedergegeben, und zwar absteigend nach ihrer Leitfähigkeit sortiert.
+Let us first take a closer look at conductors. Many conductors are metals. For example, lightning conductors are made of steel, and high-voltage lines of steel or aluminium. But salty water can also conduct current. Some conductors can conduct current better than others. Table [ref:leiter] lists all the conductor materials that appear in the examination questions, sorted in descending order of conductivity.
 
 <indepth>
-Die *Leitfähigkeit* ist eine Materialeigenschaft, die von der inneren atomaren Struktur abhängt und außerdem von der Menge frei beweglicher Elektronen bestimmt wird.
+*Conductivity* is a property of a material that depends on its internal atomic structure and is also determined by the number of freely moving electrons.
 </indepth>
 
 <indepth>
-Der *Widerstand* ist das Gegenteil der Leitfähigkeit. Ein Material, das gut leitet, hat einen geringeren Widerstand als ein Material das schlecht leitet - und andersherum: ein schlecht leitendes Material hat einen höheren Widerstand als ein gut leitendes.
+*Resistance* is the opposite of conductivity. A material that conducts well has a lower resistance than a material that conducts poorly - and the other way round: a poorly conducting material has a higher resistance than a well-conducting one.
 </indepth>
 
 <margin>
-| c:Ordnung | X:Material |
-| 1 | *Silber* |
-| 2 | *Kupfer* |
+| c:Rank | X:Material |
+| 1 | *Silver* |
+| 2 | *Copper* |
 | 3 | Gold |
 | 4 | Aluminium |
-| 5 | Wolfram |
-| 6 | Zink |
-| 7 | *Zinn* |
-[table:leiter:Einige leitende Materialien, sortiert von den besonders gut leitenden zu den weniger gut leitenden Materialien]
+| 5 | Tungsten |
+| 6 | Zinc |
+| 7 | *Tin* |
+[table:leiter:Some conducting materials, sorted from particularly good conductors to less good conductors]
 </margin>
 
-Silber leitet beispielsweise elektrischen Strom besser als Kupfer. Zinn ist im Vergleich zu allen anderen genannten Materialien ein schlechter Leiter. Trotzdem wird Zinn in der Regel zum Löten verwendet, weil es im Vergleich zu den anderen Metallen einen sehr niedrigen Schmelzpunkt hat, was die Verarbeitung vereinfacht.
+Silver, for example, conducts electric current better than copper. Compared with all the other materials listed, tin is a poor conductor. Nevertheless, tin is normally used for soldering, because it has a very low melting point compared with the other metals, which makes it easier to work with.
 
-In der Liste haben wir die Materialien, welche man sich für die Prüfung merken sollte, hervorgehoben. Merkt man sich die Reihenfolge *Silber - Kupfer - Zinn*, dann kann man alle Prüfungsfragen zu Leitern lösen.
+In the list we have highlighted the materials you should remember for the exam. If you remember the order *silver - copper - tin*, you can answer all the examination questions on conductors.
 
 [question:NB101]
 [question:NB102]
@@ -32,21 +32,21 @@ In der Liste haben wir die Materialien, welche man sich für die Prüfung merken
 
 ---
 
-Kommen wir nun zu den Isolatoren, also den Nichtleitern. In der Tabelle [ref:nichtleiter]  sind alle Isolatoren aufgeführt, die in den Prüfungsfragen vorkommen. Wir haben wieder die Einträge hervorgehoben, die man sich für die Prüfung merken sollte.
+Now let us turn to insulators, i.e. non-conductors. Table [ref:nichtleiter]  lists all the insulators that appear in the examination questions. Again we have highlighted the entries you should remember for the exam.
 
 <margin>
-| l: Bezeichnung | l: Abkürzung |
-| *Porzellan* | |
-| *Polyethylen* | *PE* |
-| *Polystyrol* | *PS* |
-| Kork | |
-| Polyvinylchlorid | PVC |
-| Polytetrafluorethylen | PTFE |
-[table:nichtleiter:Einige nicht leitende Materialien]
+| l: Name | l: Abbreviation |
+| *Porcelain* | |
+| *Polyethylene* | *PE* |
+| *Polystyrene* | *PS* |
+| Cork | |
+| Polyvinyl chloride | PVC |
+| Polytetrafluoroethylene | PTFE |
+[table:nichtleiter:Some non-conducting materials]
 </margin>
 
 <indepth>
-*Porzellan* kennt man ja eher von Geschirr. Es wird aber auch gerne als Isolator verwendet, beispielsweise bei Hochspannungsleitungen.
+You probably know *porcelain* mainly from crockery. But it is also often used as an insulator, for example on high-voltage lines.
 </indepth>
 
 [question:NB104]

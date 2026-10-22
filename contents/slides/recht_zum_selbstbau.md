@@ -1,7 +1,7 @@
-* Sender und Sendeanlagen benötigen normalerweise eine behördliche Zulassung
-* Funkamateure sind davon ausgenommen
-* Sie sind berechtigt, *im Handel erhältliche, selbstgefertigte oder auf Amateurfunkfrequenzen umgebaute Sendeanlagen* zu betreiben
-* Dieses Privileg erhalten Funkamateure durch die technisch anspruchsvolle Prüfung
+* Transmitters and transmitting equipment normally require official approval
+* Radio amateurs are exempt from this
+* They are entitled to operate *transmitting equipment that is commercially available, home-built or converted to amateur frequencies*
+* Radio amateurs earn this privilege through the technically demanding examination
 
 ---
 
@@ -9,27 +9,27 @@
 
 ---
 
-## Bauteile
+## Components
 
-* Zum Selbstbau werden verschiede elektronische Bauteile benötigt
-* Diese weisen unterschiedliche Eigenschaften auf
-* In Klasse N gibt es nur wenige, einfache Schaltungen $\rightarrow$ mehr in Klasse E und A
-* Kenntnisse der Symbole und Bezeichnungen reichen
+* Building your own equipment requires various electronic components
+* These have different properties
+* In Class N there are only a few simple circuits $\rightarrow$ more in Classes E and A
+* Knowing the symbols and names is enough
 
 <note>
-Mehr dazu in den kommenden Abschnitten
+More on this in the coming sections
 </note>
 
 ---
 
-## Anforderungen an Funkgeräte
+## Requirements for radio equipment
 
-* Alle *im Handel erhältlichen, seriengefertigten Funkanlagen* müssen die *grundlegenden Anforderungen und Bestimmungen des Funkanlagengesetzes (FuAG)* einhalten
-* EU-Konformitätserklärung (*CE-Kennzeichnung*) vor in Verkehr bringen erstellen
-* Nur dann dürfen vom Markt bereitgestellte Anlagen in Betrieb genommen werden
+* All *commercially available, series-produced radio equipment* must comply with the *essential requirements and provisions of the Radio Equipment Act (Funkanlagengesetz, FuAG)*
+* Draw up an EU declaration of conformity (*CE marking*) before placing on the market
+* Only then may equipment made available on the market be put into service
 
 <note>
-* Kommerziell gefertigte Amateurfunkgeräte
+* Commercially manufactured amateur radio equipment
 </note>
 
 ---
@@ -42,11 +42,11 @@ Mehr dazu in den kommenden Abschnitten
 [question:VE404]
 ---
 
-## Selbstbau
+## Home construction
 
-* Ausnahme: von Funkamateuren *selbst gebaute und umgebaute* Funkanlagen
-* Müssen nicht die Anforderungen des Funkanlagengesetzes erfüllen
-* Müssen keine CE-Kennzeichnung tragen
+* Exception: radio equipment *built or converted by radio amateurs themselves*
+* Need not meet the requirements of the Radio Equipment Act
+* Need not bear the CE marking
 
 ---
 

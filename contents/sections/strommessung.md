@@ -1,27 +1,27 @@
-Während Spannungsmessgeräte die Spannung messen, messen Strommessgeräte den elektrischen Strom. Die Messung erfolgt in *Ampere* ($\unit{A}$). Entsprechend ist das Schaltsymbol des Strommessgeräts der Kreis mit einem A, wie in der Abbildung [ref:n_messgeraete_symbol_strommessgerät] gezeigt.
+While voltmeters measure voltage, ammeters measure electric current. It is measured in *amperes* ($\unit{A}$). Accordingly, the circuit symbol of the ammeter is the circle with an A, as shown in Figure [ref:n_messgeraete_symbol_strommessgerät].
 
 <margin>
-[picture:624:n_messgeraete_symbol_strommessgerät:Schaltsymbol Strommessgerät]
+[picture:624:n_messgeraete_symbol_strommessgerät:Circuit symbol of an ammeter]
 </margin>
 
 <margin>
-[picture:616:n_messgeraete_strommessung:Strommessung]
+[picture:616:n_messgeraete_strommessung:Current measurement]
 </margin>
 
-Während man für die Spannungsmessung parallel zu einem Bauteil messen muss, um die dort anliegende Spannung zu ermitteln, muss man für die Strommessung *in Serie* mit den Bauteilen messen, um die Stromstärke zu ermitteln, die durch das Bauteil hindurchfliesst. Dazu trennt man den Leiter an geeigneter Stelle auf und schaltet das Messgerät dazwischen. In der Abbildung [ref:n_messgeraete_strommessung] wird eine Möglichkeit gezeigt, wie ein Strommessgerät in einen Stromkreis eingesetzt werden kann.
+While for voltage measurement you have to measure in parallel with a component to determine the voltage across it, for current measurement you have to measure *in series* with the components to determine the current flowing through the component. To do this, you break the conductor at a suitable point and connect the meter in between. Figure [ref:n_messgeraete_strommessung] shows one way in which an ammeter can be inserted into a circuit.
 
 <danger>
-Strommessgeräte haben selber keinen Widerstand wie ein Verbraucher, damit sie während der Messung den Stromkreis nicht beeinflussen. Würde man ein Strommessgerät direkt an die beiden Pole einer Batterie anschließen, entsteht ein gefährlicher Kurzschluss. Das sollte unbedingt vermieden werden, da dadurch auch die Feinsicherung im Messgerät ausgelöst werden kann, die dann ersetzt werden muss.
+Ammeters themselves have no resistance like a load, so that they do not affect the circuit during the measurement. If you were to connect an ammeter directly to the two terminals of a battery, a dangerous short circuit would result. This must be avoided at all costs, as it can also blow the miniature fuse in the meter, which then has to be replaced.
 </danger>
 
 <webtip>
-Strom wird - wie Spannung - ebenfalls meistens mit einem Multimeter gemessen. Auch hier ist es wichtig, zunächst die Messleitungen mit den richtigen Anschlüssen des Messgeräts zu verbinden. Die schwarze Messleitung kommt in den "COM"-Anschluss und die rote Messleitung an den Anschluss, der in der Regel mit A beschriftet ist. Oft haben Messgeräte für die Strommessung mehrere Anschlüsse, die für den eingestellten Messbereich passend zu wählen sind. Je nach Messbereich sind diese dann beispielsweise mit "$\unit{\micro\ampere}$", "$\unit{\milli\ampere}$" oder "$\unit{\ampere}$" beschriftet.
+Like voltage, current is usually measured with a multimeter. Here too, it is important first to connect the test leads to the right sockets of the meter. The black test lead goes into the "COM" socket and the red test lead into the socket that is usually labelled A. Meters often have several sockets for current measurement, which must be chosen to suit the range set. Depending on the range, these are labelled, for example, "$\unit{\micro\ampere}$", "$\unit{\milli\ampere}$" or "$\unit{\ampere}$".
 
-Ähnlich der Spannungsmessung ist die richtige Einstellung am Messgerät zu wählen. Möchte man Gleichstrom messen, wählt man "A =". Will man hingegen Wechselstrom messen, dann ist "A ~" einzustellen.
+As with voltage measurement, choose the right setting on the meter. To measure direct current, select "A =". To measure alternating current, on the other hand, set "A ~".
 
-Ebenfalls entsprechend zur Spannungsmessung verhält es sich mit dem Messbereich: Zu Beginn sollte der größte Messbereich gewählt werden und dann - je nach Anzeigewert - bei Bedarf auf einen kleinen Messbereich gewechselt werden. Es kann dann auch erforderlich sein, die rote Messleitung in den zum Messbereich passenden Anschluss umzustecken.
+The range works in the same way as for voltage measurement: at the start, select the highest range and then - depending on the reading - change to a lower range if necessary. It may then also be necessary to move the red test lead to the socket that suits the range.
 
-Und auch hier noch einmal der Hinweis: Wechselspannungen größer $\qty{50}{\volt}$ und Gleichspannungen größer $\qty{120}{\volt}$ können lebensgefährlich sein.
+And here, too, a reminder: AC voltages above $\qty{50}{\volt}$ and DC voltages above $\qty{120}{\volt}$ can be life-threatening.
 </webtip>
 
 [question:NI102] 

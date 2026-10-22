@@ -1,60 +1,60 @@
-Damit es nicht zur Schlagzeile *"Funkamateur erleidet gefährlichen Stromschlag beim Senderbau"* kommt, müssen wichtige Regeln beachtet werden. Beim Aufbau einer Funkstation muss man sich an die anerkannten Regeln der Technik halten. Wie wir schon beim Thema Blitzschutz und Potentialausgleich gelernt haben, gibt der Verband der Elektrotechnik Elektronik und Informationstechnik e. V., kurz VDE, Normen heraus, die den jeweils aktuellen Stand der Technik dokumentieren und als anerkannt gelten. Diese Regeln dienen dem Schutz von Menschen, Tieren und Sachen.
+To avoid the headline *"Radio amateur suffers dangerous electric shock while building transmitter"*, important rules must be followed. When setting up a radio station, you must comply with the recognised codes of practice. As we have already learnt in the topic of lightning protection and equipotential bonding, the Association for Electrical, Electronic and Information Technologies (Verband der Elektrotechnik Elektronik und Informationstechnik e. V.), VDE for short, publishes standards that document the current state of the art and are regarded as recognised. These rules serve to protect people, animals and property.
 
 <indepth>
-Der VDE, also der Verband der Elektrotechnik Elektronik und Informationstechnik e. V., ist eine weltweit tätige Organisation, in der sich Personen und Unternehmen zusammengeschlossen haben, die in den Bereichen Elektrotechnik, Elektronik oder Informationstechnik tätig sind. Die Organisation verfolgt das Ziel, die Unfallverhütung zu verbessern und das Verantwortungsbewusstsein seiner Mitglieder zu fördern. Dazu werden die VDE-Normen herauszugeben. Es werden aber beispielsweise auch kostenpflichtige Zertifizierungen durchgeführt.
+The VDE, i.e. the Association for Electrical, Electronic and Information Technologies, is an organisation active worldwide in which people and companies working in the fields of electrical engineering, electronics or information technology have joined together. The organisation aims to improve accident prevention and to promote a sense of responsibility among its members. To this end it publishes the VDE standards. But it also carries out certification for a fee, for example.
 </indepth>
 
 [question:VE601]
 
 ---
 
-Die Hauptgefahr besteht durch Berührung einer elektrischen Spannung. In der Elektrotechnik spricht man von einer gefährlichen Spannung, wenn diese bei Wechselspannung über $\qty{50}{\volt}$ und bei Gleichspannung über $\qty{120}{\volt}$ liegt. Diese Grenzen wurden so gelegt, dass es zu keiner lebensbedrohlichen Beeinträchtigung des menschlichen Körpers kommen kann. Wechselspannung wird auch als "AC" (englisch "alternating current") und Gleichspannung als "DC" (englisch "direct current") abgekürzt.
+The main danger comes from touching an electrical voltage. In electrical engineering, a voltage is said to be dangerous if it is above $\qty{50}{\volt}$ for AC voltage and above $\qty{120}{\volt}$ for DC voltage. These limits were set so that no life-threatening harm to the human body can occur. Alternating voltage is also abbreviated "AC" (alternating current), and direct voltage "DC" (direct current).
 
 <indepth>
-Der Grund für die *unterschiedlichen Grenzwerte für Gleich- und Wechselspannung* hängt mit den unterschiedlichen Auswirkungen auf den Körper zusammen: Wechselspannung kann den Herzrhythmus beeinflussen, während es bei Gleichspannung eher zu Verbrennungen kommt.
+The reason for the *different limits for DC and AC voltage* lies in their different effects on the body: AC voltage can affect the heart rhythm, whereas DC voltage tends to cause burns.
 </indepth>
 
 [question:NK301]
 
 ---
 
-Bei einer Einwirkung des Stroms auf den Körper kann das Gewebe geschädigt werden. Wie stark die Schädigung ist, hängt von der Stromstärke und Dauer des Stromflusses ab. Auch der Weg, den der Strom durch den Körper nimmt, spielt eine große Rolle. Eine Stromstärke von über $\qty{30}{\milli\ampere}$ kann schon zu lebensgefährlichen Schäden führen (siehe Abbildung [ref:n_fehlerstrom]).
+When current acts on the body, tissue can be damaged. How severe the damage is depends on the magnitude of the current and on how long it flows. The path the current takes through the body also plays a major role. A current of more than $\qty{30}{\milli\ampere}$ can already cause life-threatening harm (see Figure [ref:n_fehlerstrom]).
 
 <margin>
-[picture:681:n_fehlerstrom:Stromschlag / Körperdurchströmung]
+[picture:681:n_fehlerstrom:Electric shock / current flowing through the body]
 </margin>
 
-Stromunfälle können verschiedene Auswirkungen auf den Körper haben:
-* *Herzrhythmusstörungen*, Herzkammerflimmern oder Herzstillstand, insbesondere bei einem Stromweg im Brustbereich
-* *Verbrennungen*, meist an den Ein- und Austrittstellen des elektrischen Stroms
-* *Verkrampfen der Muskulatur*
-* *Sekundärunfälle* wie einen Sturz, verursacht durch den hervorgerufenden Schreck oder eine Muskelverkrampfung
+Electrical accidents can have various effects on the body:
+* *Cardiac arrhythmias*, ventricular fibrillation or cardiac arrest, especially when the current path runs through the chest
+* *Burns*, mostly at the points where the electric current enters and leaves the body
+* *Muscle cramps*
+* *Secondary accidents* such as a fall, caused by the resulting fright or by a muscle cramp
 
 <attention>
-Die *5 Sicherheitsregeln der Elektrotechnik* sollten für alle Arbeiten an elektrischen Anlagen beachten werden. Diese sollten auch bei Arbeiten an Funkgeräten oder anderen elektrischen Geräten beachtet werden:
-1. *Freischalten*, z. B. Gerät ausschalten
-2. *Gegen Wiedereinschalten sichern*, z. B.  Stecker ziehen
-3. *Spannungsfreiheit feststellen*, z. B. mit einem Multimeter messen
-4. *Erden und Kurzschließen*, z. B. das Gehäuse und Zuleitungen erden
-5. *Benachbarte, unter Spannung stehende Teile abdecken oder abschranken* (findet bei einzelnen Geräten meist keine Anwendung)
+The *5 safety rules of electrical work* should be followed for all work on electrical installations. They should also be followed when working on radios or other electrical equipment:
+1. *Isolate*, e.g. switch the equipment off
+2. *Secure against reconnection*, e.g.  pull out the plug
+3. *Verify that no voltage is present*, e.g. measure with a multimeter
+4. *Earth and short-circuit*, e.g. earth the case and the supply leads
+5. *Cover or fence off adjacent live parts* (usually not applicable to individual pieces of equipment)
 </attention>
 
 <danger>
-In vielen Geräten sind Kondensatoren verbaut, die hohe Spannungen speichern können. Es können daher auch in abgeschalteten Geräten noch gefährliche Spannungen anliegen! Geräte sollten daher nur geöffnet werden, wenn man genau weiß, was man tut. Im Zweifel sollte man sich von einem erfahreneren Funkamateur oder einer Elektrofachkraft helfen lassen.
+Many pieces of equipment contain capacitors that can store high voltages. Dangerous voltages can therefore still be present even in equipment that has been switched off! Equipment should therefore only be opened if you know exactly what you are doing. If in doubt, get help from a more experienced radio amateur or a qualified electrician.
 </danger>
 
 ---
 
 %[class:N]
-Wie wir schon beim Einbau von Amateurfunkanlagen in Kraftfahrzeuge gelernt haben, kann es im Zusammenhang mit elektrischem Strom auch dazu kommen, dass ein Stromfluß durch die eigentlich nicht-leitende Luft auftritt und es zu einem Lichtbogen mit hohen Temperaturen und sehr hellem Leuchten kommt. Dies wird auch als Störlichtbogen bezeichnet.
+As we have already learnt when installing amateur radio equipment in motor vehicles, electric current can also flow through the air, which is actually non-conducting, producing an arc with high temperatures and a very bright glow. This is also called an arc fault.
 %[/class]
 
 %[class:NEA]
 <danger>
-Ein *Lichtbogen* ist eine elektrische Entladung, also ein Stromfluß, durch die eigentlich nicht-leitende Luft, die mit hohen Temperaturen und einem sehr hellen Leuchten einhergeht. In Folge kann es zu Bränden und zur Schädigung der Augen kommen.
+An *arc* is an electrical discharge, i.e. a current flowing through the air, which is actually non-conducting, accompanied by high temperatures and a very bright glow. It can result in fires and damage to the eyes.
 </danger>
 
-Im Falle eines Kurzschlusses kann es schnell zu einem Lichtbogen kommen, der Brände verursachen kann.
+In the event of a short circuit, an arc can quickly form, which can cause fires.
 %[/class]
 
 [question:NK303]
@@ -63,10 +63,10 @@ Im Falle eines Kurzschlusses kann es schnell zu einem Lichtbogen kommen, der Br�
 
 ---
 
-Erste-Hilfe-Maßnahmen sind in den ersten Minuten entscheidend für die Schwere der Unfallfolgen. Nach einem Stromunfall ist in jedem Fall ein Arzt aufzusuchen, da Herzrhythmusstörungen und Herzkammerflimmern auch noch Stunden nach dem Unfall auftreten können. 
+First aid in the first few minutes is decisive for how serious the consequences of the accident are. After an electrical accident, a doctor must be consulted in every case, because cardiac arrhythmias and ventricular fibrillation can still occur hours after the accident. 
 
 <indepth>
-Ein Arzt kann nach einem Stromunfall beispielsweise mit einem *Elektrokardiogramm (EKG)* überprüfen, ob das Herz unregelmäßig schlägt oder andere Störungen aufweist.
+After an electrical accident, a doctor can use an *electrocardiogram (ECG)*, for example, to check whether the heart is beating irregularly or shows other abnormalities.
 </indepth>
 
 [question:NK304]

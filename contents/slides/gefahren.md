@@ -1,7 +1,7 @@
-* Stromschlag vermeiden!
-* An anerkannte Regeln der Technik halten
-* Vom Verband der Elektrotechnik Elektronik und Informationstechnik e. V. (VDE)
-* Schutz von Menschen, Tieren und Sachen
+* Avoid electric shock!
+* Comply with the recognised codes of practice
+* From the Association for Electrical, Electronic and Information Technologies (VDE)
+* Protection of people, animals and property
 
 ---
 
@@ -9,16 +9,16 @@
 
 ---
 
-## Gefährliche Spannung
+## Dangerous voltage
 
-* Wechselspannung (AC) über $\qty{50}{\volt}$
-* Gleichspannung (DC) über $\qty{120}{\volt}$
-* Darunter kommt es zu keinen lebensbedrohlichen Beeinträchtigungen des menschlichen Körpers
+* Alternating voltage (AC) above $\qty{50}{\volt}$
+* Direct voltage (DC) above $\qty{120}{\volt}$
+* Below these values there is no life-threatening harm to the human body
 
 <note>
-* Der Grund für unterschiedliche Werte hängt mit den unterschiedlichen Auswirkungen auf den Körper zusammen
-* Wechselspannung kann den Herzrhythmus beeinflussen
- * Gleichspannung führt eher zu Verbrennungen
+* The reason for the different values lies in their different effects on the body
+* AC voltage can affect the heart rhythm
+ * DC voltage tends to cause burns
 </note>
 
 ---
@@ -27,44 +27,44 @@
 
 ---
 
-## Stromunfälle
+## Electrical accidents
 
 <left>
-* Abhängig von Stromstärke und Dauer des Stromflusses
-* Weg durch den Körper
-* Ab $\qty{30}{\milli\ampere}$ lebensgefährliche Schäden
+* Depend on the magnitude and duration of the current
+* Path through the body
+* Life-threatening harm from $\qty{30}{\milli\ampere}$
 </left>
 <right>
-[picture:681:n_fehlerstrom:Stromschlag / Körperdurchströmung]
+[picture:681:n_fehlerstrom:Electric shock / current flowing through the body]
 </right>
 
 ---
 
-### Auswirkungen auf den Körper
+### Effects on the body
 
-* *Herzrhythmusstörungen*, Herzkammerflimmern oder Herzstillstand, insbesondere bei einem Stromweg im Brustbereich
-* *Verbrennungen*, meist an den Ein- und Austrittstellen des elektrischen Stroms
-* *Verkrampfen der Muskulatur*
-* *Sekundärunfälle* wie einen Sturz, verursacht durch den hervorgerufenden Schreck oder eine Muskelverkrampfung
-* Zusätzlich *(Stör-)Lichtbogen* mit hellem Leuchten über die Luft möglich
+* *Cardiac arrhythmias*, ventricular fibrillation or cardiac arrest, especially when the current path runs through the chest
+* *Burns*, mostly at the points where the electric current enters and leaves the body
+* *Muscle cramps*
+* *Secondary accidents* such as a fall, caused by the resulting fright or by a muscle cramp
+* In addition, an *arc (arc fault)* with a bright glow through the air is possible
 
 --- style="font-size: smaller;"
 
-### 5 Sicherheitsregeln in der Elektrotechnik
+### 5 safety rules of electrical work
 
-1. *Freischalten*, z. B. Gerät ausschalten
-2. *Gegen Wiedereinschalten sichern*, z. B.  Stecker ziehen
-3. *Spannungsfreiheit feststellen*, z. B. mit einem Multimeter messen
-4. *Erden und Kurzschließen*, z. B. das Gehäuse und Zuleitungen erden
-5. *Benachbarte, unter Spannung stehende Teile abdecken oder abschranken* (findet bei einzelnen Geräten meist keine Anwendung)
+1. *Isolate*, e.g. switch the equipment off
+2. *Secure against reconnection*, e.g.  pull out the plug
+3. *Verify that no voltage is present*, e.g. measure with a multimeter
+4. *Earth and short-circuit*, e.g. earth the case and the supply leads
+5. *Cover or fence off adjacent live parts* (usually not applicable to individual pieces of equipment)
 
 ---
 
-### Gefahr beim Öffnen von Geräten
+### Danger when opening equipment
 
-* Kondensatoren können hohe Spannungen speichern
-* Es können in abgeschalteten Geräten noch gefährliche Spannungen anliegen
-* Beim Öffnen von Geräten erfahrenen Funkamateur oder Elektrofachkraft zu Hilfe holen
+* Capacitors can store high voltages
+* Dangerous voltages can still be present in equipment that has been switched off
+* When opening equipment, get help from an experienced radio amateur or a qualified electrician
 
 ---
 
@@ -76,17 +76,16 @@
 
 ---
 
-### Erste Hilfe
+### First aid
 
-* In den ersten Minuten entscheidend für die Schwere der Unfallfolgen
-* Unbedingt Arzt aufsuchen
-* Herzrhythmusstörungen und Herzkammerflimmern können Stunden nach dem Unfall auftreten
+* Decisive in the first few minutes for how serious the consequences of the accident are
+* Always see a doctor
+* Cardiac arrhythmias and ventricular fibrillation can occur hours after the accident
 
 <note>
-Der Arzt kann mit einem Elektrokardiogramm (EKG) den Herzschlag überprüfen
+The doctor can check the heartbeat with an electrocardiogram (ECG)
 </note>
 
 ---
 
 [question:NK304]
-

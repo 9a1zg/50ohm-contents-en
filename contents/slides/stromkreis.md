@@ -1,40 +1,40 @@
-## Analogie: Wasserkreislauf
+## Analogy: water circuit
 
 <left>
-[picture:667:n_stromkreis_wasserkreislauf:Wasserkreislauf]
+[picture:667:n_stromkreis_wasserkreislauf:Water circuit]
 </left>
 <right>
-1. Pumpe erzeugt Druck und pumpt das Wasser nach oben
-2. Wasser strömt durch ein offenes Ventil
-3. Wasserrad wird vom fließenden Wasser angetrieben
+1. Pump creates pressure and pumps the water upwards
+2. Water flows through an open valve
+3. Water wheel is driven by the flowing water
 </right>
 <note>
-Schließt man das Ventil, ist der Wasserkreislauf unterbrochen und das Wasserrad läuft nicht mehr. Die Analogie ist nur ein Modell und passt nicht auf alle Sachverhalte der Elektrotechnik, hilft aber beim Verständnis.
+If you close the valve, the water circuit is interrupted and the water wheel stops turning. The analogy is only a model and does not fit everything in electrical engineering, but it helps understanding.
 </note>
 
 ---
 
 <left>
-* Besteht aus einer Spannungsquelle und einem Verbraucher
-* Die Spannung bringt den Strom zum Fließen
-* Wie die Pumpe, die statt eines Drucks eine Spannung erzeugt
+* Consists of a voltage source and a load
+* The voltage makes the current flow
+* Like the pump, but producing a voltage instead of a pressure
 </left>
 <right>
-[picture:662:n_stromkreis_geschlossen:Geschlossener Stromkreis]
+[picture:662:n_stromkreis_geschlossen:Closed circuit]
 </right>
 
 ---
 
-## Schalter
+## Switch
 
 <left>
-* Unterbricht oder schließt Stromkreis
-* Bei offenem Schalter ist der Stromfluss unterbrochen
+* Interrupts or closes the circuit
+* With the switch open, the flow of current is interrupted
 
-[picture:663:n_stromkreis_offen:Offener Stromkreis]
+[picture:663:n_stromkreis_offen:Open circuit]
 </left>
 <right>
-[photo:202:n_stromkreis_schalter:Schaltzeichen und Bauformen von Schaltern]
+[photo:202:n_stromkreis_schalter:Circuit symbol and types of switch]
 </right>
 
 ---
@@ -43,17 +43,17 @@ Schließt man das Ventil, ist der Wasserkreislauf unterbrochen und das Wasserrad
 
 ---
 
-## Widerstand
+## Resistor
 
 <left>
-* Begrenzt den Stromfluss
-* Wandelt Strom in Wärme um
-* Stromkreis immer mit Widerstand betreiben!
-  * Ansonsten entsteht ein Kurzschluss
-  * Großer Strom kann fließen und Spannungsquelle oder Kabel können überhitzen
+* Limits the flow of current
+* Converts electricity into heat
+* Always operate a circuit with a resistor!
+  * Otherwise a short circuit occurs
+  * A large current can flow, and the voltage source or cables can overheat
 </left>
 <right>
-[photo:203:n_stromkreis_widerstand:Schaltzeichen und Bauformen von Widerständen]
+[photo:203:n_stromkreis_widerstand:Circuit symbols and types of resistor]
 </right>
 
 ---
@@ -62,14 +62,14 @@ Schließt man das Ventil, ist der Wasserkreislauf unterbrochen und das Wasserrad
 
 ---
 
-## Stromrichtung
+## Direction of current
 
-[picture:662:n_stromkreis_geschlossen:Geschlossener Stromkreis]
+[picture:662:n_stromkreis_geschlossen:Closed circuit]
 
-Vom Pluspol zum Minuspol: *technische Stromrichtung*
+From the positive terminal to the negative terminal: *conventional current flow*
 
 <note>
-In Richtung des Pfeils
+In the direction of the arrow
 </note>
 
 ---

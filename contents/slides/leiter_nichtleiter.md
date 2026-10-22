@@ -1,45 +1,45 @@
-Materialien lassen sich in drei Gruppen einteilen:
+Materials can be divided into three groups:
 
-1. Leiter
-2. Nichtleiter
-3. Halbleiter
+1. Conductors
+2. Non-conductors
+3. Semiconductors
 
 <note>
-* Leiter und Nichtleiter kommen auf den nächsten Folien
-* Halbleiter kommt etwas später im Abschnitt nach den Widerständen
+* Conductors and non-conductors follow on the next slides
+* Semiconductors come a little later, in the section after resistors
 </note>
 
 ---
 
-## Leiter
+## Conductors
 
-* Leiten elektrischen Strom
-* Sind meistens aus Metall
-* Manche können Strom besser leiten als andere
+* Conduct electric current
+* Are mostly made of metal
+* Some can conduct current better than others
 
 <note>
-* Auch salziges Wasser kann Strom leiten
-* Leitfähigkeit hängt von der atomaren Struktur und der Menge frei beweglicher Elektronen ab
-* Der *Widerstand* ist das Gegenteil der Leitfähigkeit: gut leitende Materialien haben einen geringen, schlecht leitende einen hohen Widerstand
+* Salty water can also conduct current
+* Conductivity depends on the atomic structure and the number of freely moving electrons
+* *Resistance* is the opposite of conductivity: materials that conduct well have a low resistance, those that conduct poorly a high one
 </note>
 
 --- style="font-size: 0.7em;"
 
-### Leiter, sortiert von besonders gut zu weniger gut leitend
+### Conductors, sorted from very good to less good
 
-| c:Ordnung | X:Material |
-| 1 | *Silber* |
-| 2 | *Kupfer* |
+| c:Rank | X:Material |
+| 1 | *Silver* |
+| 2 | *Copper* |
 | 3 | Gold |
 | 4 | Aluminium |
-| 5 | Wolfram |
-| 6 | Zink |
-| 7 | *Zinn* |
-[table:leiter:Einige leitende Materialien]
+| 5 | Tungsten |
+| 6 | Zinc |
+| 7 | *Tin* |
+[table:leiter:Some conducting materials]
 
 <note>
-* Zinn wird zum Löten verwendet, da es einen niedrigen Schmelzpunkt hat
-* Reihenfolge Silber, Kupfer, Zinn merken für die Prüfungsfragen
+* Tin is used for soldering because it has a low melting point
+* Remember the order silver, copper, tin for the examination questions
 </note>
 
 ---
@@ -52,26 +52,26 @@ Materialien lassen sich in drei Gruppen einteilen:
 
 ---
 
-## Nichtleiter
+## Non-conductors
 
-* Leiten keinen elektrischen Strom
-* Auch *Isolatoren* genannt
+* Do not conduct electric current
+* Also called *insulators*
 
 --- style="font-size: 0.7em;"
 
-### Isolatoren
+### Insulators
 
-| l: Bezeichnung | l: Abkürzung |
-| *Porzellan* | |
-| *Polyethylen* | *PE* |
-| *Polystyrol* | *PS* |
-| Kork | |
-| Polyvinylchlorid | PVC |
-| Polytetrafluorethylen | PTFE |
-[table:nichtleiter:Einige nicht-leitende Materialien]
+| l: Name | l: Abbreviation |
+| *Porcelain* | |
+| *Polyethylene* | *PE* |
+| *Polystyrene* | *PS* |
+| Cork | |
+| Polyvinyl chloride | PVC |
+| Polytetrafluoroethylene | PTFE |
+[table:nichtleiter:Some non-conducting materials]
 
 <note>
-* Porzellan wird als Isolator an Hochspannungsleitungen verwendet
+* Porcelain is used as an insulator on high-voltage lines
 </note>
 
 ---

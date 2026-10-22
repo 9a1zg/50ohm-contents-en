@@ -1,15 +1,15 @@
-Spannungen kann man mit einem Messgerät ermitteln. Dabei ist es sehr wichtig, das Messgerät richtig einzustellen und an den richtigen Stellen zu messen. Spannungen misst man mit einem Spannungsmessgerät. Da Spannungen in *Volt* ($\unit{V}$) gemessen werden, ist das Schaltsymbol für ein Spannungsmessgerät ein Kreis mit einem V, wie in Abbildung [ref:n_messgeraete_symbol_spannungsmessgerät] gezeigt.
+Voltages can be determined with a meter. It is very important to set the meter correctly and to measure at the right points. Voltages are measured with a voltmeter. Since voltages are measured in *volts* ($\unit{V}$), the circuit symbol for a voltmeter is a circle containing a V, as shown in Figure [ref:n_messgeraete_symbol_spannungsmessgerät].
 
 <margin>
-[picture:625:n_messgeraete_symbol_spannungsmessgerät:Schaltsymbol Spannungsmessgerät]
+[picture:625:n_messgeraete_symbol_spannungsmessgerät:Circuit symbol of a voltmeter]
 </margin>
 
 ---
 
-Eine Spannung misst man immer zwischen zwei Punkten. Wenn man die Spannung messen möchte, die an einem Bauteil anliegt, dann schließt man das Messgerät parallel zu diesem Bauteil an. Das heißt, einer der Messpunkte ist auf der einen Seite des Bauteils und der andere Messpunkt auf der anderen Seite des Bauteils. Wenn man z. B. die Spannung einer Batterie messen möchte, muss das Messgerät, wie in der Abbildung [ref:n_messgeraete_spannungsmessung] gezeigt, direkt am Pluspol und am Minuspol der Batterie angeschlossen werden.
+A voltage is always measured between two points. If you want to measure the voltage across a component, you connect the meter in parallel with that component. This means that one of the measuring points is on one side of the component and the other measuring point on the other side. If, for example, you want to measure the voltage of a battery, the meter must be connected directly to the positive and the negative terminal of the battery, as shown in Figure [ref:n_messgeraete_spannungsmessung].
 
 <margin>
-[picture:620:n_messgeraete_spannungsmessung:Spannungsmessung]
+[picture:620:n_messgeraete_spannungsmessung:Voltage measurement]
 </margin>
 
 <margin>
@@ -17,22 +17,22 @@ Eine Spannung misst man immer zwischen zwei Punkten. Wenn man die Spannung messe
 </margin>
   
 <webtip>
-Meistens verwendet man für Messungen ein Multimeter. Das ist ein kombiniertes Messgerät, um Spannungen, Ströme und auch andere Größen wie beispielsweise Widerstände zu messen. Wenn man an einer Schaltung etwas messen möchte, muss man sich vorher im Klaren darüber sein, welche Größe man eigentlich beobachten möchte, um das Multimeter richtig einstellen zu können.
+Measurements are usually made with a multimeter. This is a combined meter for measuring voltages, currents and also other quantities such as resistances. If you want to measure something in a circuit, you must first be clear about which quantity you actually want to observe, so that you can set the multimeter correctly.
 
-Bevor man mit dem Messen anfangen kann, müssen die beiden Messleitungen an das Messgerät angeschlossen werden. Obwohl sich dies einfach anhört, muss man aufpassen. Meistens haben Multimeter drei oder sogar vier Anschlüsse für Messleitungen. Der gemeinsame Anschluss, in den auf jeden Fall eine Messleitung kommt, ist in der Regel mit "COM" (englisch "common") gekennzeichnet. Hier schließt man üblicherweise die schwarze Messleitung an. Die rote kommt bei der Spannungsmessung in den Anschluss, der meist mit "V" gekennzeichnet ist.
+Before you can start measuring, the two test leads must be connected to the meter. Although this sounds simple, you have to be careful. Multimeters usually have three or even four sockets for test leads. The common socket, which always takes one of the test leads, is normally marked "COM" (for "common"). This is where the black test lead is usually connected. For voltage measurement, the red one goes into the socket usually marked "V".
 
-Um Spannungen zu messen, ist am Messgerät die Spannungsmessung auszuwählen. Möchte man Wechselspannung messen, ist bei vielen Multimetern "V ~" auszuwählen, für Gleichspannung hingegen "V =".
+To measure voltages, select voltage measurement on the meter. To measure AC voltage, select "V ~" on many multimeters; for DC voltage, select "V =" instead.
 
-Die meisten Multimeter verfügen über unterschiedliche Messbereiche für kleine und große Spannungen. Da vor dem Messen meist unklar ist, welche Größenordnung zu erwarten ist, sollte man am Anfang immer den größtmöglichen Messbereich wählen, um dem Gerät keinen Schaden zuzufügen. Je nach angezeigtem Messwert wird anschließend auf einen Messbereich für kleinere Werte umgeschaltet.
+Most multimeters have different ranges for small and large voltages. Since it is usually unclear before measuring what order of magnitude to expect, you should always select the highest possible range at the start, so as not to damage the meter. Depending on the value displayed, you then switch to a range for smaller values.
 
-Verwechselt man Strom- und Spannungsmessung oder überschreitet die Messbereichseinstellung, kann das Messgerät einen Schaden erleiden. Vor der Messung sollte man außerdem an das denken, was wir zu Gefahren von elektrischem Strom gelernt haben: Wechselspannungen größer $\qty{50}{\volt}$ und Gleichspannungen größer $\qty{120}{\volt}$ können lebensgefährlich sein!
+If you confuse current and voltage measurement or exceed the range set, the meter can be damaged. Before measuring, you should also remember what we have learnt about the dangers of electric current: AC voltages above $\qty{50}{\volt}$ and DC voltages above $\qty{120}{\volt}$ can be life-threatening!
 </webtip>
 
 
 [question:NI101] 
 [question:NI103]
 
-Wie wir bereits im Kapitel Strom- und Spannungsversorgung gelernt haben, kann man mehrere Batterien in Serie schalten, um eine höhere Spannung zu erhalten. Dazu wird der Pluspol der einen Batterie mit dem Minuspol der anderen Batterie verbunden. Die beiden Einzelspannungen der Batterie addieren sich dann. Schaltet man hingegen zwei Batterien so in Reihe, dass gleiche Pole miteinander verbunden sind, dann subtrahieren sich die Spannungen. Falls beide Batterien die gleiche Spannung haben, wird man keine Spannung, also $\qty{0}{\volt}$, messen.
+As we have already learnt in the chapter on power supplies, you can connect several batteries in series to obtain a higher voltage. To do this, the positive terminal of one battery is connected to the negative terminal of the other. The two individual voltages of the batteries then add up. If, on the other hand, you connect two batteries in series so that like terminals are connected together, the voltages subtract. If both batteries have the same voltage, you will measure no voltage, i.e. $\qty{0}{\volt}$.
 
 
 [question:NB205]

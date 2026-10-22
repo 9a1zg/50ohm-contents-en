@@ -1,11 +1,11 @@
-## Strom- und Spannungsmessung
+## Current and voltage measurement
 
 <left>
-* Spannung wird parallel zum Bauteil gemessen
-* Strom wird in Reihe mit dem Bauteil gemessen
+* Voltage is measured in parallel with the component
+* Current is measured in series with the component
 </left>
 <right>
-[picture:1003:a_strom_spannung_messung:Messen der Leistung eines Verstärkers (PA)]
+[picture:1003:a_strom_spannung_messung:Measuring the power of an amplifier (PA)]
 </right>
 
 ---
@@ -13,55 +13,55 @@
 ---
 [question:AI102]
 ---
-## Messgenauigkeit
+## Accuracy
 
-Der angezeigte Messwert unterscheidet sich meist vom tatsächlichen Wert
-* Innenwiderstand des Messgeräts
-* Auflösungsvermögen $\rightarrow$ *kleinste Auflösung*
-* Anzeige verändert sich erst nach Änderung um die kleinste Auflösung
-* Hersteller ermittelt die Abweichung
-* Abweichung wird im Datenblatt angegeben
+The displayed value usually differs from the true value
+* Internal resistance of the meter
+* Resolving power $\rightarrow$ *finest resolution*
+* The reading only changes when the value changes by the finest resolution
+* The manufacturer determines the deviation
+* The deviation is stated in the data sheet
 
 ---
 
 <left>
-[picture:1004:a_reale_spannungsmessung:Ersatzschaltbild reales Spannungsmessgerät]
+[picture:1004:a_reale_spannungsmessung:Equivalent circuit of a real voltmeter]
 </left>
 
 <right>
-[picture:1007:a_reale_strommessung:Ersatzschaltbild reales Strommessgerät]
+[picture:1007:a_reale_strommessung:Equivalent circuit of a real ammeter]
 </right>
 
 ---
 [question:AI103]
 --- style="font-size: smaller;"
-### Lösungsweg
+### Solution
 
-* Prozentrechnung – die absoluten Werte sind nicht relevant
-* gegeben: $U_{\mathrm{Abw}}$ mit $\qty{95}{\percent}$ vom Realwert
-* gegeben: $I_{\mathrm{Abw}}$ mit $\qty{95}{\percent}$ vom Realwert
-* gesucht: Abweichung der Leistung $P = U \cdot I$
+* Percentage calculation – the absolute values are not relevant
+* given: $U_{\mathrm{Abw}}$ at $\qty{95}{\percent}$ of the true value
+* given: $I_{\mathrm{Abw}}$ at $\qty{95}{\percent}$ of the true value
+* required: deviation of the power $P = U \cdot I$
 
 <fragment>
-$\begin{split} P_{\textrm{Abw}} &= 100\% - (U_{\mathrm{Abw}} \cdot I_{\mathrm{Abw}})\\ &= 100\% - (95\% \cdot 95\%)\\ &= 100\% - 90,25\%\\ &= 9,75\% \end{split}$
+$\begin{split} P_{\textrm{Abw}} &= 100\% - (U_{\mathrm{Abw}} \cdot I_{\mathrm{Abw}})\\ &= 100\% - (95\% \cdot 95\%)\\ &= 100\% - 90.25\%\\ &= 9.75\% \end{split}$
 </fragment>
 
 ---
-## Strom durch Multimeter
+## Current through the multimeter
 
-* Auch bei einer Spannungsmessung fließt ein Strom durch ein Messgerät
-* Es findet eine Stromteilung statt
-* Durch den hohen Innenwiderstand ist der abfließende Strom verhältnismäßig klein
+* A current flows through a meter even when it measures voltage
+* The current divides
+* Because of the high internal resistance, the current drawn off is relatively small
 
 ---
 [question:AI104]
 ---
-### Lösungsweg
-* gegeben: $U = \qty{0,5}{\volt}$
-* gegeben: $R = \qty{10}{\mega\ohm}$
-* gesucht: $I$
+### Solution
+* given: $U = \qty{0.5}{\volt}$
+* given: $R = \qty{10}{\mega\ohm}$
+* required: $I$
 
 <fragment>
-$$I = \frac{U}{R} = \frac{\qty{0,5}{\volt}}{\qty{10}{\mega\ohm}} = \qty{50}{\nano\ampere}$$
+$$I = \frac{U}{R} = \frac{\qty{0.5}{\volt}}{\qty{10}{\mega\ohm}} = \qty{50}{\nano\ampere}$$
 </fragment>
 

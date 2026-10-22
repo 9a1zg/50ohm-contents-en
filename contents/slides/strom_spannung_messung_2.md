@@ -1,14 +1,14 @@
 <left>
-* Der Strom wird im Stromkreis eingeschleift gemessen
-* Die Spannung wird über den Widerstand gemessen
-* Der Widerstand im Voltmeter soll hochohmig sein $\rightarrow$ Strom nimmt den Weg des geringsten Widerstandes
+* Current is measured with the meter inserted into the circuit
+* The voltage is measured across the resistor
+* The resistance of the voltmeter should be high $\rightarrow$ current takes the path of least resistance
 </left>
 <right>
-[picture:238:e_strom_und_spannungsmessung:Korrekte Anordnung zur Messung von Strom und Spannung an einem Widerstand]
+[picture:238:e_strom_und_spannungsmessung:Correct arrangement for measuring current and voltage at a resistor]
 </right>
 
 <note>
-* Wenn der Widerstand im Voltmeter niederohmig ist, wird dort mehr Strom durchfließen und die Messung am Amperemeter verfälschen
+* If the resistance of the voltmeter is low, more current will flow through it and falsify the ammeter reading
 </note>
 ---
 [question:EI101]

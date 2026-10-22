@@ -1,20 +1,20 @@
-Zeigerinstrumente haben im Amateurfunk auch heute noch ihre Bedeutung nicht verloren. Viele Messgeräte wie Multimeter oder SWR-Meter arbeiten weiterhin mit Zeigeranzeigen. Während bei digitalen Anzeigen oft die letzte Stelle hin- und herspringt, bleibt ein Zeiger stabil. Änderungen des Messwerts sind sofort erkennbar und oft intuitiv ables- und interpretierbar. Deshalb setzen auch viele digitale Funkgeräte oder SDR-Programme weiterhin auf animierte Zeigeranzeigen.
+Analogue meters have still not lost their importance in amateur radio today. Many meters, such as multimeters or SWR meters, still work with needle displays. While the last digit of a digital display often jumps back and forth, a needle stays steady. Changes in the measured value can be seen immediately and can often be read and interpreted intuitively. This is why many digital radios and SDR programs also continue to use animated needle displays.
 
-Abbildung [ref:e_zeigerinstrument_strom] zeigt ein Analoges Multimeter mit Zeigeranzeige. Wie bei digitalen Messgeräten sollte man auch bei Zeigerinstrumenten jede Messung im höchsten Messbereich beginnen. Das ist hier besonders wichtig: Ist der Messbereich zu niedrig eingestellt – etwa auf $\qty{10}{\volt}$, während tatsächlich $\qty{100}{\volt}$ anliegen – schlägt der Zeiger nach rechts aus, prallt an den Anschlag und kann das Messgerät so beschädigen. Nach der ersten Messung im hohen Bereich kann auf den kleinsten Bereich heruntergeschaltet, der den Wert noch darstellen kann. So ist ein Ablesen sehr genau möglich.
+Figure [ref:e_zeigerinstrument_strom] shows an analogue multimeter with a needle display. As with digital meters, every measurement with an analogue meter should start on the highest range. This is particularly important here: if the range is set too low – say to $\qty{10}{\volt}$ when $\qty{100}{\volt}$ is actually present – the needle swings to the right, hits the end stop and can damage the meter in this way. After the first measurement on the high range, you can switch down to the lowest range that can still display the value. This makes a very accurate reading possible.
 
 <margin>
-[photo:197:e_zeigerinstrument_strom:Hier ist der Messbereich $\qty{300}{\milli\ampere}$ eingestellt. Das Gerät zeigt etwa $\qty{37}{\milli\ampere}$ an.]
+[photo:197:e_zeigerinstrument_strom:Here the range is set to $\qty{300}{\milli\ampere}$. The meter reads about $\qty{37}{\milli\ampere}$.]
 </margin>
 
 <tip>
-Bei schräger Blickrichtung scheint der Zeiger einen falschen Wert anzuzeigen. In Abbildung [ref:e_zeigerinstrument_parallaxenfehler] würde man statt $\qty{7}{\volt}$ nur etwas mehr als $\qty{6,9}{\volt}$ ablesen. Dieser Effekt heißt Parallaxenfehler.
+If you look at it from an angle, the needle appears to show a wrong value. In Figure [ref:e_zeigerinstrument_parallaxenfehler] you would read only a little more than $\qty{6.9}{\volt}$ instead of $\qty{7}{\volt}$. This effect is called parallax error.
  
-[photo:196:e_zeigerinstrument_parallaxenfehler:ungünstiger Blickwinkel auf eine Skala]
+[photo:196:e_zeigerinstrument_parallaxenfehler:Unfavourable viewing angle on a scale]
   
-Viele Zeigerinstrumente haben einen Spiegel zwischen den Skalen. Wenn sich der Zeiger genau mit seinem Spiegelbild deckt, schaut man gerade darauf. Dann liest man den richtigen Wert ab.
+Many analogue meters have a mirror between the scales. When the needle exactly covers its mirror image, you are looking straight at it. You then read the correct value.
 </tip>
 
-Vor dem Ablesen muss zunächst die richtige Skala gewählt werden, die zum eingestellten Messbereich passt. Falls nötig, wird die gesamte Skala mit einer Zehnerpotenz multipliziert oder dividiert. Die Zeigeranzeige in den folgenden Prüfungsfragen besitzt eine $\qty{100}{\volt}$- und eine $\qty{30}{\volt}$-Skala. Ist der Messbereich auf $\qty{100}{\volt}$ eingestellt, wird direkt an der $\qty{100}{\volt}$-Skala abgelesen. Bei einem Messbereich von $\qty{10}{\volt}$ liest man ebenfalls an der $\qty{100}{\volt}$-Skala ab, muss den Wert jedoch durch zehn teilen bzw. das Komma um eine Stelle nach links verschieben. Wird der Messbereich auf $\qty{30}{\volt}$ oder $\qty{300}{\volt}$ eingestellt, erfolgt die Ablesung an der $\qty{30}{\volt}$-Skala.
+Before reading, you must first choose the right scale for the range set. If necessary, the whole scale is multiplied or divided by a power of ten. The needle display in the following examination questions has a $\qty{100}{\volt}$ scale and a $\qty{30}{\volt}$ scale. If the range is set to $\qty{100}{\volt}$, you read directly from the $\qty{100}{\volt}$ scale. With a range of $\qty{10}{\volt}$ you also read from the $\qty{100}{\volt}$ scale, but must divide the value by ten, i.e. move the decimal point one place to the left. If the range is set to $\qty{30}{\volt}$ or $\qty{300}{\volt}$, you read from the $\qty{30}{\volt}$ scale.
 
 [question:EI103]
 [question:EI104]

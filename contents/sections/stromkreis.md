@@ -1,60 +1,60 @@
-Stromkreise bilden die Grundlage der gesamten Elektrotechnik und spielen deshalb auch im Amateurfunk eine große Rolle. Grundsätzlich haben wir den Stromkreis schon kennengelernt. Schließt man an eine Stromquelle wie eine Batterie einen Verbraucher an, also z. B. eine Lampe, dann haben wir den Stromkreis geschlossen und es fließt Strom.
+Circuits form the basis of all electrical engineering and therefore also play a major role in amateur radio. In principle, we have already met the circuit. If you connect a load, e.g. a lamp, to a power source such as a battery, we have closed the circuit and current flows.
 
 <margin>
-[picture:667:n_stromkreis_wasserkreislauf:Wasserkreislauf]
+[picture:667:n_stromkreis_wasserkreislauf:Water circuit]
 </margin>
 
-Um das Ganze zu veranschaulichen, schauen wir uns zunächst einen ähnlichen Sachverhalt an. Die Abbildung [ref:n_stromkreis_wasserkreislauf] zeigt einen Wasserkreislauf, bei dem Folgendes passiert:
-1. Eine Pumpe erzeugt Druck und pumpt damit das Wasser nach oben
-2. Das Wasser strömt durch ein offenes Ventil durch
-3. Ein Wasserrad wird vom fließenden Wasser angetrieben
+To illustrate this, let us first look at a similar situation. Figure [ref:n_stromkreis_wasserkreislauf] shows a water circuit in which the following happens:
+1. A pump creates pressure and with it pumps the water upwards
+2. The water flows through an open valve
+3. A water wheel is driven by the flowing water
 
-Abschließend ist der Druck abgebaut und das Wasser kann durch die Pumpe erneut hochgepumpt werden. Schließt man das Ventil, so wird der Wasserkreislauf unterbrochen, und das Wasserrad läuft nicht mehr.
+At the end, the pressure has been used up and the water can be pumped up again by the pump. If you close the valve, the water circuit is interrupted and the water wheel stops turning.
 
 ---
 
-Ein Stromkreis wie in der Abbildung [ref:n_stromkreis_geschlossen] funktioniert so ähnlich wie der Wasserkreislauf. Auch wenn die Analogie des Wasserkreislaufs nur ein Modell ist und nicht für alle Sachverhalte in der Elektrotechnik herangezogen werden darf, kann es beim Verständnis des Stromkreises helfen.
+A circuit like the one in Figure [ref:n_stromkreis_geschlossen] works in a similar way to the water circuit. Even though the water circuit analogy is only a model and must not be applied to everything in electrical engineering, it can help in understanding the circuit.
 
 <margin>
-[picture:662:n_stromkreis_geschlossen:Geschlossener Stromkreis]
+[picture:662:n_stromkreis_geschlossen:Closed circuit]
 </margin>
 
-Statt einer Pumpe verwenden wir eine Spannungsquelle, zum Beispiel eine Batterie, die statt eines Drucks eine Spannung ($U$) erzeugt. Diese Spannung bringt den Strom ($I$) zum Fließen, genauso wie der Druck das Wasser zum Fließen bringt.
+Instead of a pump we use a voltage source, for example a battery, which produces a voltage ($U$) instead of a pressure. This voltage makes the current ($I$) flow, just as the pressure makes the water flow.
 
 ---
 
-Die Aufgabe des Ventils übernimmt ein *Schalter*. Mit diesem kann man den Stromkreis unterbrechen oder schließen. Es kann immer nur dann Strom fließen, wenn der Stromkreis geschlossen ist. Öffnet man den Schalter, wie in Abbildung [ref:n_stromkreis_offen] gezeigt, wird der Stromfluss unterbrochen. Das Symbol des Schalters sowie praktische Umsetzungen als Kipp- und Schiebeschalter sieht man in der Abbildung [ref:n_stromkreis_schalter].
+The job of the valve is done by a *switch*. With it, you can interrupt or close the circuit. Current can only ever flow when the circuit is closed. If you open the switch, as shown in Figure [ref:n_stromkreis_offen], the flow of current is interrupted. The symbol for the switch and practical versions as toggle and slide switches can be seen in Figure [ref:n_stromkreis_schalter].
 
 <margin>
-[picture:663:n_stromkreis_offen:Offener Stromkreis]
+[picture:663:n_stromkreis_offen:Open circuit]
 </margin>
 
 <margin>
-[photo:202:n_stromkreis_schalter:Schaltzeichen und Bauformen von Schaltern]
+[photo:202:n_stromkreis_schalter:Circuit symbol and types of switch]
 </margin>
 
 [question:NB701]
 
 ---
 
-In unserem Wasserbeispiel bremst das Wasserrad den Wasserfluss. Analog dazu wird im elektrischen Beispiel der Stromfluss durch einen *Widerstand* ($R$) gebremst. Ein Widerstand ist ein künstlicher Verbraucher, der Strom in Wärme umwandelt. Er hat nur den Zweck, den Stromfluss zu begrenzen. Verschiedene Arten von Widerständen sind in der Abbildung [ref:n_stromkreis_widerstand] dargestellt.
+In our water example, the water wheel slows the flow of water. In the same way, in the electrical example the flow of current is slowed by a *resistor* ($R$). A resistor is an artificial load that converts electricity into heat. Its only purpose is to limit the flow of current. Various types of resistor are shown in Figure [ref:n_stromkreis_widerstand].
 
 [question:NC101]
 
-Im geschlossenen Stromkreis fließt der Strom immer vom Pluspol der Batterie zum Minuspol der Batterie. Diese Flussrichtung wird in der Fachsprache als *technische Stromrichtung* bezeichnet und ist in der Abbildung [ref:n_stromkreis_geschlossen] durch Pfeile gekennzeichnet.
+In a closed circuit, the current always flows from the positive terminal of the battery to the negative terminal of the battery. In technical language, this direction of flow is called *conventional current flow*; it is marked by arrows in Figure [ref:n_stromkreis_geschlossen].
 
 ---
 
 <danger>
-Damit kein Kurzschluss entsteht, darf ein Stromkreis nicht nur aus Draht und geschlossenen Schaltern bestehen, sondern der Strom muss immer auch durch einen Widerstand, z. B. einen Verbraucher, fließen. Ein Kurzschluss kann sehr gefährlich sein, weil er eine unkontrollierte große Menge an Strom durch die Leitungen fließen lässt, was zu Beschädigungen an der Spannungsquelle, Geräten, schweren Verletzungen, einer Überhitzung oder möglicherweise sogar zu einem Brand führen kann.
+To prevent a short circuit, a circuit must not consist only of wire and closed switches; the current must always also flow through a resistance, e.g. a load. A short circuit can be very dangerous because it lets an uncontrolled large amount of current flow through the wires, which can lead to damage to the voltage source or equipment, serious injury, overheating or possibly even a fire.
 </danger>
 
 [question:NB702]
 
-Die folgende Frage ist etwas knifflig. Man könnte meinen, dass Strom fließen kann, da ein Plus-Pol mit einem Minus-Pol verbunden ist. Das reicht jedoch nicht, da sich die getrennten Ladungen innerhalb einer Spannungsquelle ausgleichen wollen. Damit das möglich ist, muss der Stromkreis vom Plus-Pol einer Spannungsquelle zum Minus-Pol *derselben* Spannungsquelle führen. Merke: Nur in einem geschlossenen Stromkreis kann Strom fließen!
+The following question is a little tricky. You might think that current can flow because a positive terminal is connected to a negative terminal. That is not enough, however, because the separated charges want to equalise within one voltage source. For that to be possible, the circuit must lead from the positive terminal of a voltage source to the negative terminal of the *same* voltage source. Remember: current can only flow in a closed circuit!
 
 <margin>
-[photo:203:n_stromkreis_widerstand:Schaltzeichen und Bauformen von Widerständen]
+[photo:203:n_stromkreis_widerstand:Circuit symbols and types of resistor]
 </margin>
 
 [question:NB207]

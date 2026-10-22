@@ -2012,6 +2012,26 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Entry Level License / Novice License (CEPT) | Entry Level Licence / Novice Licence | the CEPT labels in British spelling, as §14 *Klasse N (Entry Level License)* |
 | Lehrplan | syllabus | ECC Report 89, ERC Report 32, T/R 61-02 |
 | Umzug ins Ausland / Wohnsitz verlegen | moving abroad / move one's residence | funken_im_ausland |
+| behördliche Zulassung (für Sender und Sendeanlagen) | official approval | the approval radio amateurs are exempt from (recht_zum_selbstbau); not *licence*, which is the amateur's *Zulassung* (§1.3) |
+| EU-Konformitätserklärung / Importeure und Händler | EU declaration of conformity / importers and distributors | EU legal wording, as *Inverkehrbringen* (§1.2) |
+| Selbstbau | home construction; building your own equipment | as *Selbstbaugerät* → home-built equipment (§1.2) |
+| Hochspannungsleitungen im Stromnetz / Höchstspannungsleitung | high-voltage lines of the electricity grid / extra-high-voltage line | *grid* here, not *mains* (§12): the transmission network, not the household supply (spannung) |
+| Blitzableiter | lightning conductor | British |
+| elektrische Stromstärke (Kurstext) | electric current | English has one word for *Strom* and *Stromstärke* (§3); "Wir sprechen von der elektrischen Stromstärke" → "We speak of the electric current" (strom), as NA202 |
+| Stromquelle (wie eine Batterie, Kurstext) | power source | where the course means any source of electricity (stromkreis); *current source* (§3) stays for the circuit element |
+| physikalische Stromrichtung | electron flow (the physical direction of current) | as AB601; plain "physical direction of current" where the text speaks of ions carrying the charge, where *electron flow* would be wrong (physikalische_stromrichtung) |
+| Wasserkreislauf / Pumpe / Ventil / Wasserrad | water circuit / pump / valve / water wheel | the circuit analogy (stromkreis) |
+| Kippschalter / Schiebeschalter | toggle switch / slide switch | |
+| Herzstillstand / Elektrokardiogramm (EKG) | cardiac arrest / electrocardiogram (ECG) | the English abbreviation (gefahren) |
+| Sekundärunfälle / Schreck | secondary accidents / fright | NK302 (gefahren) |
+| 5 Sicherheitsregeln: Freischalten / Gegen Wiedereinschalten sichern / Spannungsfreiheit feststellen / Erden und Kurzschließen / Benachbarte, unter Spannung stehende Teile abdecken oder abschranken | Isolate / Secure against reconnection / Verify that no voltage is present / Earth and short-circuit / Cover or fence off adjacent live parts | the five rules of DIN VDE 0105-100 (EN 50110), British *isolate* and *earth* (gefahren) |
+| Messleitung / Anschluss (Multimeter) | test lead / socket | spannungsmessung, strommessung |
+| Zeigerinstrument / Zeiger / Zeigeranzeige | analogue meter / needle / needle display | §11 *Zeigerinstrument*; *needle* as §2 *Zeigerausschlag* (zeigerinstrumente_ablesen) |
+| kleinste Auflösung / Auflösungsvermögen | finest resolution / resolving power | AI104 "finest resolution" |
+| Messgenauigkeit (auch Toleranz oder Fehler) | accuracy (also tolerance or error) | strom_spannung_messung_3 |
+| Kenngröße (beim Messen) / Faustregel | parameter / rule of thumb | |
+| Stromteilung | current division ("the current divides") | |
+| reales Spannungsmessgerät / reales Strommessgerät | real voltmeter / real ammeter | drawing labels of 1004, 1007, which stay German until the drawings are done |
 
 ## 15. Catalogue structure
 

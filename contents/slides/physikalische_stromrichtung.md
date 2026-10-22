@@ -1,16 +1,16 @@
 <left>
-* Technische Stromrichtung vom Plus-Pol zum Minus-Pol
-* In der Wissenschaft hat sich später erst herausgestellt, dass sich in Metallen die negativ geladenen Teilchen (Elektronen) bewegen
-* Elektronen werden vom Minus-Pol der Spannungsquelle abgestoßen und vom Plus-Pol angezogen
-* Die *Physikalische Stromrichtung* ist entgegen gesetzt zur technischen Stromrichtung
+* Conventional current flow is from the positive terminal to the negative terminal
+* Only later did science discover that in metals it is negatively charged particles (electrons) that move
+* Electrons are repelled by the negative terminal of the voltage source and attracted by the positive terminal
+* *Electron flow* (the physical direction of current) is opposite to conventional current flow
 </left>
 <right>
-[picture:1002:a_physikalische_stromrechnung:Technische und physikalische Stromrichtung]
+[picture:1002:a_physikalische_stromrechnung:Conventional current flow and electron flow]
 </right>
 
 <note>
-- Elektronen bewegen sich nicht mit der Geschwindigkeit des Stroms, denn dieser erfolgt durch das elektrische Feld im Leiter
-- In leitfähigen Flüssigkeiten können sich auch die Ionen bewegen; dann stimmen technische und physikalische Stromrichtung überein
+- Electrons do not move at the speed of the current, because the current is carried by the electric field in the conductor
+- In conductive liquids, ions can also move; conventional and physical current directions then coincide
 </note>
 
 ---

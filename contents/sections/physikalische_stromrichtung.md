@@ -1,13 +1,13 @@
-Wir haben bereits gelernt, dass man unter elektrischem Strom die Bewegung von Ladungen versteht. In den Klassen N und E haben wir dazu auch die Stromrichtung kennengelernt. Dabei handelt es sich genau genommen um eine Definition: Der Strom fließt von Plus nach Minus. Diese Definition bezeichnet man als *technische Stromrichtung*. Betrachtet man jedoch die Physik etwas genauer, zeigt sich, dass sich die eigentlichen Ladungsträger – nämlich die Elektronen – in die entgegengesetzte Richtung bewegen.
+We have already learnt that electric current means the movement of charges. In Classes N and E we also met the direction of current. Strictly speaking, this is a definition: current flows from plus to minus. This definition is called *conventional current flow*. If, however, you look at the physics a little more closely, it turns out that the actual charge carriers – namely the electrons – move in the opposite direction.
 
 <margin>
-[picture:1002:a_physikalische_stromrechnung:Technische und physikalische Stromrichtung]
+[picture:1002:a_physikalische_stromrechnung:Conventional current flow and electron flow]
 </margin>
 
-Stromkreise baut man fast immer mit metallischen Leitern auf, zum Beispiel mit Drähten aus Kupfer. Die negativ geladenen Elektronen ($e^{-}$), die sich darin bewegen, werden vom Minuspol der Spannungsquelle abgestoßen und vom Pluspol angezogen. Diese Bewegungsrichtung der Ladungsträger nennt man *physikalische Stromrichtung*. Sie verläuft in Metallen von Minus nach Plus.
+Circuits are almost always built with metallic conductors, for example copper wires. The negatively charged electrons ($e^{-}$) moving in them are repelled by the negative terminal of the voltage source and attracted by the positive terminal. This direction of movement of the charge carriers is called *electron flow*, the physical direction of current. In metals it runs from minus to plus.
 
 <indepth>
-In den meisten Stromkreisen werden die Ladungen durch negativ geladene Elektronen transportiert. Das gilt für alle Metalle. In leitfähigen Flüssigkeiten kommt es auch vor, dass positive Ionen die Ladungen tragen. Dann stimmt die physikalische Stromrichtung mit der technischen überein.
+In most circuits, the charges are carried by negatively charged electrons. This applies to all metals. In conductive liquids it also happens that positive ions carry the charges. The physical direction of current is then the same as conventional current flow.
 </indepth>
 
 [question:AB601]

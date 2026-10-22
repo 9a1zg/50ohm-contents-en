@@ -1,23 +1,23 @@
 <left>
-* Spannungen lassen sich mit einem Messgerät ermitteln
-* Schaltsymbol "V mit einem Kreis"
-* Messgerät richtig einstellen
-* An den richtigen Stellen messen
+* Voltages can be determined with a meter
+* Circuit symbol "V in a circle"
+* Set the meter correctly
+* Measure at the right points
 </left>
 <right>
-[picture:625:n_messgeraete_symbol_spannungsmessgerät:Schaltsymbol Spannungsmessgerät]
+[picture:625:n_messgeraete_symbol_spannungsmessgerät:Circuit symbol of a voltmeter]
 </right>
 
 ---
 
-## Richtig messen
+## Measuring correctly
 
 <left>
-* Spannung wird zwischen zwei Punkten gemessen
-* Parallel zu dem zu messenden Bauteil
+* Voltage is measured between two points
+* In parallel with the component to be measured
 </left>
 <right>
-[picture:620:n_messgeraete_spannungsmessung:Spannungsmessung]
+[picture:620:n_messgeraete_spannungsmessung:Voltage measurement]
 </right>
 
 --- style="font-size: smaller;"
@@ -28,16 +28,16 @@
 [photo:11:n_messgeraete_multimeter:Multimeter]
 </left>
 <right>
-* Kombiniertes Messgerät für Spannung, Strom und weitere Größen
-* Schwarze Messleitung an "COM" (common), rote an "V"
-* Für Spannungsmessung "V ~" (Wechselspannung) oder "V =" (Gleichspannung) wählen
-* Zuerst größtmöglichen Messbereich wählen, dann ggf. verkleinern
+* Combined meter for voltage, current and other quantities
+* Black test lead to "COM" (common), red to "V"
+* For voltage measurement select "V ~" (AC voltage) or "V =" (DC voltage)
+* Select the highest possible range first, then reduce it if necessary
 </right>
 
 ---
 
-* Verwechslung von Strom-/Spannungsmessung oder falscher Messbereich kann das Messgerät beschädigen
-* Achtung: Wechselspannungen über $\qty{50}{\volt}$ und Gleichspannungen über $\qty{120}{\volt}$ können lebensgefährlich sein
+* Confusing current and voltage measurement, or the wrong range, can damage the meter
+* Caution: AC voltages above $\qty{50}{\volt}$ and DC voltages above $\qty{120}{\volt}$ can be life-threatening
 
 ---
 
@@ -52,7 +52,7 @@
 [question:NB205]
 
 <note>
-Serienschaltung von Batterien
+Batteries connected in series
 </note>
 
 ---
@@ -60,5 +60,5 @@ Serienschaltung von Batterien
 [question:NB206]
 
 <note>
-Spannungen können sich bei umgekehrter Serienschaltung von Batterien auch Subtrahieren
+Voltages can also subtract when batteries are connected in series the other way round
 </note>

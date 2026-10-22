@@ -1,10 +1,10 @@
-Wiederholung vom Anfang des Kurses:
-* Nach Trennung von positiven und negativen Ladungen versuchen diese wieder zusammenzukommen
-* Es liegt eine elektrische Spannung vor
-* Die Einheit ist Volt, abgekürzt $\unit{\volt}$
+Revision from the beginning of the course:
+* When positive and negative charges are separated, they try to come back together
+* An electric voltage is present
+* The unit is the volt, abbreviated $\unit{\volt}$
 
 <note>
-Benannt nach dem italienischen Physiker Alessandro Volta
+Named after the Italian physicist Alessandro Volta
 </note>
 
 ---
@@ -12,46 +12,46 @@ Benannt nach dem italienischen Physiker Alessandro Volta
 [question:NA201]
 
 ---
-## Einheitenvorzeichen
+## Unit prefixes
 
-* In der Funktechnik kommen sehr große und sehr kleine Spannungen vor
-* Wie bei der Frequenz helfen dabei Einheitenvorzeichen
-* $\qty{1}{\kilo\hertz}$ steht für $\qty{1000}{\hertz}$, genauso bedeutet $\qty{1}{\kilo\volt}$ dann $\qty{1000}{\volt}$
-* Genauso gibt es Einheitenvorzeichen für sehr kleine Werte, z. B. beim Milliliter: $\qty{1}{\liter}$ sind $\qty{1000}{\milli\liter}$ und $\qty{1000}{\milli\volt}$ sind $\qty{1}{\volt}$
+* Very large and very small voltages occur in radio engineering
+* As with frequency, unit prefixes help here
+* $\qty{1}{\kilo\hertz}$ stands for $\qty{1000}{\hertz}$; in the same way, $\qty{1}{\kilo\volt}$ means $\qty{1000}{\volt}$
+* There are also unit prefixes for very small values, e.g. the millilitre: $\qty{1}{\liter}$ is $\qty{1000}{\milli\liter}$, and $\qty{1000}{\milli\volt}$ is $\qty{1}{\volt}$
 
 ---
-## Kleine Spannungen
+## Small voltages
 
-| l: Bezeichnung | r: Abkürzung | l: Wert |
-| 1 Mikrovolt | $\qty{1}{\micro\volt}$ | $\qty{0,000001}{\volt}$ |
-| 1 Millivolt | $\qty{1}{\milli\volt}$ | $\qty{0,001}{\volt}$ |
-| 1 Volt | $\qty{1}{\volt}$ | $\qty{1}{\volt}$ |
-[table:n_spannung_einheitenvorzeichen_2:Kurzschreibweise für kleine Spannungen]
+| l: Name | r: Abbreviation | l: Value |
+| 1 microvolt | $\qty{1}{\micro\volt}$ | $\qty{0.000001}{\volt}$ |
+| 1 millivolt | $\qty{1}{\milli\volt}$ | $\qty{0.001}{\volt}$ |
+| 1 volt | $\qty{1}{\volt}$ | $\qty{1}{\volt}$ |
+[table:n_spannung_einheitenvorzeichen_2:Shorthand for small voltages]
 
-* Empfängereingang: $\qty{10}{\micro\volt}$
-* Mikrofon: $\qty{200}{\milli\volt}$
-* Batterie: $\qty{1,5}{\volt}$ oder $\qty{9}{\volt}$
+* Receiver input: $\qty{10}{\micro\volt}$
+* Microphone: $\qty{200}{\milli\volt}$
+* Battery: $\qty{1.5}{\volt}$ or $\qty{9}{\volt}$
 
 <note>
-* Kurz auf die Einheitenvorzeichen eingehen
-* Ähnlich zu "Milliliter" oder "Milligramm"
+* Briefly go over the unit prefixes
+* Similar to "millilitre" or "milligram"
 </note>
 
 ---
-## Große Spannungen
+## Large voltages
 
-| l: Bezeichnung | r: Abk. | r: Wert |
-| 1 Kilovolt | $\qty{1}{\kilo\volt}$ | $\qty{1000}{\volt}$ |
-| 1 Megavolt | $\qty{1}{\mega\volt}$ | $\qty{1000000}{\volt}$ |
-| 1 Gigavolt | $\qty{1}{\giga\volt}$ | $\qty{1000000000}{\volt}$ |
-[table:n_spannung_einheitenvorzeichen:Kurzschreibweise für große Spannungen]
+| l: Name | r: Abbr. | r: Value |
+| 1 kilovolt | $\qty{1}{\kilo\volt}$ | $\qty{1000}{\volt}$ |
+| 1 megavolt | $\qty{1}{\mega\volt}$ | $\qty{1000000}{\volt}$ |
+| 1 gigavolt | $\qty{1}{\giga\volt}$ | $\qty{1000000000}{\volt}$ |
+[table:n_spannung_einheitenvorzeichen:Shorthand for large voltages]
 
-* Steckdose: $\qty{230}{\volt}$
-* Elektrostatisch aufgeladene Antenne: $\qty{1,5}{\kilo\volt}$
-* Höchstspannungsleitung: $\qty{380}{\kilo\volt}$
+* Mains socket: $\qty{230}{\volt}$
+* Electrostatically charged antenna: $\qty{1.5}{\kilo\volt}$
+* Extra-high-voltage line: $\qty{380}{\kilo\volt}$
 
 <note>
-* Elektrostatisch aufgeladene Antenne bei Gewitter oder Regen
+* Electrostatically charged antenna during thunderstorms or rain
 </note>
 
 ---
