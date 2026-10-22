@@ -11,7 +11,7 @@
 
 ### Electrical safety
 
-With power supply units, especially those with a metal case, a connection to the mains that complies with the standards is important. The job of the protective earth conductor (green/yellow) is to conduct the voltage away to "earth" in the event of a fault and so to trip the household fuse, so that no dangerous voltage is present on the metal case. For a 3-core cable the core identification colours are laid down as follows:
+With power supply units, especially those with a metal case, a connection to the mains that complies with the standards is important. The job of the protective earth conductor (green/yellow) is to conduct the voltage away to "earth" in the event of a fault and so to trip the fuse in the house wiring, so that no dangerous voltage is present on the metal case. For a 3-core cable the core identification colours are laid down as follows:
 
 ---
 ### Core colours

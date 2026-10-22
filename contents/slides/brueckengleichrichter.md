@@ -2,7 +2,7 @@
 [picture:965:a_brueckenlgeichrichter:Bridge rectifier]
 </left>
 <right>
-* Extended and common rectifier circuit
+* A more elaborate and common rectifier circuit
 * Both half cycles are used
 * Pulsating DC voltage at the output, at twice the frequency of the input voltage
 </right>

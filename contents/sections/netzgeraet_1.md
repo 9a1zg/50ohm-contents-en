@@ -41,7 +41,7 @@ The output terminals for the DC voltage are coloured: red stands for positive an
 
 ---
 
-In the power supply unit and in the lead to the transceiver there are so-called miniature fuses. They can detect a fault (short circuit or overload) and interrupt the flow of current. These are often wire fuses, in which a thin wire melts when too much current flows. The circuit is then no longer closed and no more current can flow. This is called a *blown fuse* or, in technical language, a *thermal shutdown*.
+In the power supply unit and in the lead to the transceiver there are so-called miniature fuses. They can detect a fault (short circuit or overload) and interrupt the flow of current. These are often fuses in which a thin wire melts when too much current flows. The circuit is then no longer closed and no more current can flow. This is called a *blown fuse* or, in technical language, a *thermal shutdown*.
 
 <margin>
 [photo:88:n_feinsicherungen:Miniature fuses]

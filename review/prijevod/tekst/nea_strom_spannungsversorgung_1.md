@@ -97,3 +97,27 @@ once the first mention has said "rechargeable".
 - sections/brueckengleichrichter.md — item 2: "B80 C 5000/3300 … C kapazitive Last max. 2500 µF": the 2500 µF is not part of the designation and comes from the data sheet; harmless, but reads as if it were decoded from the code.
 - sections/akku.md — "$\qty{3,3}{\volt} \cdot 4 = \qty{13,2 }{\volt} \cdot 1 = \qty{13,2}{\volt}$": the "· 1" (parallel strings) is attached to the result rather than written as $3.3 \cdot 4 \cdot 1$; kept.
 - Typos with no effect on the English: sections/innenwiderstand.md "Ideallfall", "angeben" (for *angegeben*), "kennen gelernt"; sections/netzgeraet_1.md "die aktuell fließenden Stromstärke", "zuviel"; sections/batterien_und_akkus.md "Kurzschlusstrom"; sections/akku.md "geschalten", "belasten.Beschrieben" (space missing), "Zellen/ Akkus", comment "Endladestrom"; sections/gleichrichter_2.md "Um so größer", "des Kondensator", "Wir setzten"; sections/restwelligkeit.md "In der Folgenden Frage", "muss Frequenz als auch"; sections/spannungswandler.md "Step-UP", "Step-DOWN"; sections/brueckengleichrichter.md "dass der dieser"; slides/vollweggleichrichter.md ident "Vollwegleichrichter".
+
+## Provjera
+
+Checked against `git show 60e7aa0~1:<file>` for all 49 files, paragraph by
+paragraph, and against the English questions AB201–AB214, AB501,
+AD301–AD310, AG401, ED301–ED304, EK205, NB201–NB204, ND101–ND110, NK305,
+NK306. Nothing dropped or added; numbers, formulas and markup intact.
+`revizija-guard.py --rev 60e7aa0~1 --brojevi`: 49 files, *struktura
+netaknuta*. The DECISIONS.md entry (Akku) is kept; of the 32 glossary rows,
+27 are kept as they are and 5 reworked (below). The judgement calls and the
+suspected errors in the German are confirmed, apart from the ones changed
+below.
+
+Changes: 0 omission, 1 meaning, 3 technical, 4 style, 1 glossary/decision.
+
+- meaning — slides/spannungsquelle: *Haussicherung* "household fuse" → "the fuse in the house wiring": to a British reader "household fuse" is the plug fuse, not the circuit protection the protective earth trips; glossary row changed.
+- technical — sections/netzgeraet_1 and slides: *Schmelzsicherungen, in denen ein dünner Draht schmilzt* "wire fuses, in which …" → "fuses in which a thin wire melts": "wire fuse" is no established English term (and suggests the old rewirable fuse); *Schmelzsicherung* stays *fuse* (glossary §12); glossary row changed.
+- technical — sections/photovoltaik: *zu einem Verbund zusammengeschaltet* "connected together into an array" → "interconnected to form a single unit": in photovoltaics an *array* is a group of modules, not the cells inside one; glossary row (*Solarzellenverbund*) no longer offers "array".
+- technical — sections/schaltnetzteil_1: *Gute Regelbarkeit* "Good controllability" → "Good regulation", the term for a power supply's ability to hold its output; glossary row changed.
+- style — sections/restwelligkeit: "DC-coupled (galvanically coupled)" → "DC-coupled": the bracket doubled one German term into two English ones; glossary row now "DC coupling".
+- style — sections/brueckengleichrichter: *Durch den geringen Aufwand* "Because it takes so little effort" → "Because it is so simple to build".
+- style — slides/brueckengleichrichter: *Erweiterte … Gleichrichterschaltung* "Extended" → "A more elaborate".
+- style — solutions/AB202, AG401: *genauso groß wie* "exactly as large as" → "equal to".
+- glossary/decision — slides/batterien_und_akkus: "sometimes batteries" and "batteries can only be used once" → "non-rechargeable batteries", as the section and DECISIONS.md (Akku against Batterie) have it; on the slide the contrast was lost.

@@ -1,9 +1,9 @@
 --- style="font-size: smaller;"
 <left>
 * Voltage from charge separation in electrochemical processes
-* In a rechargeable battery the process is reversible; batteries can only be used once
+* In a rechargeable battery the process is reversible; non-rechargeable batteries can only be used once
 * Positive and negative terminals marked
-* Handheld transceivers mostly use rechargeable batteries, sometimes batteries
+* Handheld transceivers mostly use rechargeable batteries, sometimes non-rechargeable batteries
 * For independent operation, e.g. on a Field Day, often rechargeable batteries
 </left>
 <right>

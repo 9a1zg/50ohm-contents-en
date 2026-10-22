@@ -15,7 +15,7 @@ This voltage can be observed with an oscilloscope by displaying only the AC comp
 [photo:306:a_AC-Kopplung:AC/DC coupling of the oscilloscope input]
 The "GD" button switches the oscilloscope input to zero volts.
 With the AC/DC button not pressed, the oscilloscope input is capacitively coupled and only the AC component of the input signal is displayed.
-With the AC/DC button pressed, the oscilloscope input is DC-coupled (galvanically coupled), and the DC component of an AC voltage is displayed as well.
+With the AC/DC button pressed, the oscilloscope input is DC-coupled, and the DC component of an AC voltage is displayed as well.
 </indepth>
 
 In the following question, both the frequency and the amplitude of the ripple have to be determined. 

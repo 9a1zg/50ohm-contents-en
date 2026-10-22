@@ -1,4 +1,4 @@
-Because it takes so little effort, the bridge rectifier is a widely used rectifier circuit. It needs a transformer and 4 diodes.
+Because it is so simple to build, the bridge rectifier is a widely used rectifier circuit. It needs a transformer and 4 diodes.
 
 <latexonly>
 Figure [ref:a_brueckenlgeichrichter] shows such a bridge rectifier.

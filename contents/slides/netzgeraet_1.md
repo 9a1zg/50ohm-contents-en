@@ -91,7 +91,7 @@
 </left>
 <right>
 * Interrupt the flow of current in the event of a fault (short circuit or overload)
-* Wire fuses, in which a thin wire melts
+* Fuses in which a thin wire melts
 * *Blown fuse* or *thermal shutdown*
 </right>
 

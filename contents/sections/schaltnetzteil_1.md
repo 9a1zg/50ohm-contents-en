@@ -8,7 +8,7 @@ The switch-mode power supply has several advantages over a linear regulated powe
 
 * High efficiency, even at low rated voltages and with changing loads
 * Low weight and volume, because the high frequency allows smaller transformers and secondary smoothing capacitors to be used
-* Good controllability
+* Good regulation
 * Lower weight, smaller heatsinks and therefore less space needed than a linear regulated power supply (see the section: Voltage stabilisation)
  
 [question:ED302]

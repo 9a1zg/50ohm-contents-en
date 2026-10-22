@@ -18,7 +18,7 @@ Important parameters of a solar cell are the open-circuit voltage $U_\mathrm{OC}
 
 Just as with batteries or voltage sources connected in series and in parallel, the terminal voltage and the maximum load current of a photovoltaic module change with the way the individual solar cells are connected together.
 
-In a solar module, several solar cells are connected together into an array, as can be seen in Figure [ref:a_solarmodul]. Here, 
+In a solar module, several solar cells are interconnected to form a single unit, as can be seen in Figure [ref:a_solarmodul]. Here, 
 30 solar cells, each with an open-circuit voltage of $\qty{0.6}{\volt}$, are connected in series. The voltages of the individual cells add, giving a total voltage of
 
 $\qty{30}{} \cdot \qty{0.6}{\volt} = \qty{18}{\volt}$.
