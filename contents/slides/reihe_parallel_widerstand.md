@@ -100,7 +100,7 @@ $R_{\mathrm{ges}} = \dfrac{(R_{1} + R_{2}) \cdot R_{3}} {(R_{1} + R_{2}) + R_{3}
 
 ---
 
-### Power rating of resistors in series and parallel connection
+### Power rating of resistors connected in series and in parallel
 
 * In a series connection, the voltage divides.
 * In a parallel connection, the current divides.

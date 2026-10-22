@@ -2172,7 +2172,7 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Endstufennetzteil | power supply of a power amplifier | photo caption (reihe_parallel_kondensator) |
 | Teilabschnitte (zwischen Anzapfungen) | sections (between the taps) | reihenschaltung_spule |
 | komplexe Größe / Realteil / Imaginärteil / komplexe Ebene | complex quantity / real part / imaginary part / complex plane | $Z = R + jX$ (reihe_parallel_gemischt) |
-| Wirkwiderstand $R$ (neben Blind- und Scheinwiderstand) | resistive part, or simply the resistance $R$ | introduced once as "the resistive part, or simply the resistance $R$", afterwards *resistance*; *Scheinwiderstand* $Z$ → "impedance (in German *Scheinwiderstand*)", as §14 *Scheinwiderstand* (reihe_parallel_gemischt) |
+| Wirkwiderstand $R$ (neben Blind- und Scheinwiderstand) | resistive part, or simply the resistance $R$ | introduced once as "the resistive part, or simply the resistance $R$", afterwards *resistance*; *Scheinwiderstand* $|Z|$ → "the magnitude of the impedance, $|Z|$, which German calls the *Scheinwiderstand*", as §14 *Scheinwiderstand* and AD104/AD105 (reihe_parallel_gemischt) |
 
 ## 15. Catalogue structure
 

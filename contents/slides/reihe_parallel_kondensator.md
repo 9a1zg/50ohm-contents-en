@@ -1,6 +1,6 @@
 ## Series connection
 
-* Since the voltage is what determines how the electric field builds up (and it is divided in a series connection), the capacitance is calculated in exactly the opposite way to resistors.
+* Since it is the voltage that sets up the electric field (and it is divided in a series connection), the capacitance is calculated in exactly the opposite way to resistors.
 * Application: at high voltages, several capacitors are connected in series to prevent the risk of breakdown. What helps here is that the total voltage is divided between the capacitors.
 
 ---
@@ -37,8 +37,8 @@ $n$ is the number of capacitors
 
 ## Parallel connection
 
-* Here it is exactly the opposite of resistors, because the same voltage is applied to all the capacitors, and it is the voltage that determines how the electric field builds up.
-* Application: capacitors are connected in parallel to get from the preferred values to the value you need.
+* Here it is exactly the opposite of resistors, because the same voltage is applied to all the capacitors, and it is the voltage that sets up the electric field.
+* Application: capacitors are connected in parallel to make up the value you need from the preferred values.
 
 <note>
 * Capacitors connected in parallel act like one large capacitor

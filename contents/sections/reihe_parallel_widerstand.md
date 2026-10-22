@@ -72,12 +72,12 @@ Take care that the resistances used in the calculation always have the same unit
 
 ---
 
-Some of the questions contain resistor networks in which there is both a series and a parallel connection. Here we proceed by first converting, for example, the parallel connection into an equivalent resistance, which we then combine with the third resistor connected in series. Or simply the other way round, whichever the circuit diagram suggests.
+Some of the questions contain resistor networks with both a series and a parallel connection. Here we proceed by first converting, for example, the parallel connection into an equivalent resistance, which we then combine with the third resistor connected in series. Or simply the other way round, whichever the circuit diagram suggests.
 
 <tip>
 [picture:305:e_tipp_aufgabe:Example circuit]
 
-An important method of solution is "solving by inspection" ... take, for example, a circuit with a resistor $R_1$ in series with two resistors $R_2$ and $R_3$ connected in parallel. The values are $R_1 = \qty{1}{\kilo\ohm}$, $R_2 = \qty{2000}{\ohm}$ and $R_3 = \qty{2}{\kilo\ohm}$. But $\qty{2}{\kilo\ohm} = \qty{2000}{\ohm}$. The parallel connection of $R_2$ and $R_3$ gives a resistance half as large: $\qty{1000}{\ohm} = \qty{1}{\kilo\ohm}$. We put this in series with $R_1$ and get the result: $R_{\mathrm{ges}} = \qty{2}{\kilo\ohm}$.
+An important technique is "solving by inspection" ... take, for example, a circuit with a resistor $R_1$ in series with two resistors $R_2$ and $R_3$ connected in parallel. The values are $R_1 = \qty{1}{\kilo\ohm}$, $R_2 = \qty{2000}{\ohm}$ and $R_3 = \qty{2}{\kilo\ohm}$. But $\qty{2}{\kilo\ohm} = \qty{2000}{\ohm}$. The parallel connection of $R_2$ and $R_3$ gives a resistance half as large: $\qty{1000}{\ohm} = \qty{1}{\kilo\ohm}$. We put this in series with $R_1$ and get the result: $R_{\mathrm{ges}} = \qty{2}{\kilo\ohm}$.
 </tip>
 
 [question:ED111]

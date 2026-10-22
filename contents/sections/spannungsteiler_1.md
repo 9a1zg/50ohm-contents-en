@@ -1,4 +1,4 @@
-A series connection of two resistors is often used as a potential divider. In Class E we first look at the *unloaded potential divider*, as it appears in the following questions. In an unloaded potential divider, the voltages are proportional to the resistances. This means, for example, that a larger voltage is dropped across a resistor of high resistance, while a correspondingly smaller voltage can be measured across a resistor of low resistance.
+A series connection of two resistors is often used as a potential divider. In Class E we first look at the *unloaded potential divider*, as it appears in the following questions. In an unloaded potential divider, the voltages are proportional to the resistances. This means, for example, that a larger voltage is dropped across a high-value resistor, while a correspondingly smaller voltage can be measured across a low-value resistor.
 
 <margin>
 [picture:819:E 63. Spannungsteiler:Potential divider]

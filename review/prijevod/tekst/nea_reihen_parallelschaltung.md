@@ -83,3 +83,23 @@ from nea_bauelemente_1); everything else is a single term.
 - sections/reihe_parallel_gemischt.md — the introduction announces "die Parallelschaltung von Spulen und Kondensatoren", but the section then covers capacitors in parallel and series and the impedance of series R–C and R–L circuits; no parallel L–C circuit is calculated.
 - sections/reihenschaltung_spule.md and slides — "Bei einer Spule in Reihenschaltung addieren sich die Induktivitäten": *Spulen* meant.
 - Typos with no effect on the English: sections/reihe_parallel_widerstand.md "Paralelschaltungen", "Sie vom gleichen Strom … durchflossen" (verb missing), "die Wert des Gesamtwiderstands", "der Strom teil sich", "das dreifache", "am Besten", "je nach dem"; sections/reihe_parallel_widerstandsnetz_2.md "wird er Gesamtwiderstand", "Wheatstone Messbrücke"; sections/spannungsteiler_1.md "finden.:", "Wortwahl :", "Das Schauen wir uns"; sections/spannungsteiler_2.md "exisiert", "eines Spannungsteiler"; sections/brueckenschaltung.md "verinfachten", "Großen Drehknopf", "Multiplikator der Werte" (comma missing); sections/reihe_parallel_kondensator.md "Widerstanden"; sections/reihenschaltung_spule.md "Spulten"; sections/reihe_parallel_gemischt.md "gelenrt"; solutions/AD111.md "(Unbelastet)".
+
+## Provjera
+
+All 33 files compared with the German (`a5fe954~1`) paragraph by paragraph,
+embedded questions ED101–ED124 and AD101–AD115 looked up in English. Nothing
+dropped or added; numbers, formulas and markup intact (`revizija-guard.py
+--rev a5fe954~1 --brojevi`: 33 files, *struktura netaknuta*). The 22 glossary
+rows are kept (one note reworded, below); no DECISIONS.md entry was needed.
+All judgement calls are kept except where changed below; the list of
+suspected errors in the German stands as written.
+
+Changes: omission 0, meaning 0, technical 1, style 5, glossary 1.
+
+- Technical — sections/reihe_parallel_gemischt.md: *Scheinwiderstand $|Z|$* was "called the impedance $|Z|$", two sentences before "the letter $Z$ is used for … the impedance"; now "the magnitude of the impedance, $|Z|$, which German calls the *Scheinwiderstand*", as kondensator_2 / spule_2 and the wording of AD104/AD105 ("the magnitude of the impedance $Z$"); the picture caption, the Pythagoras sentence and the AD105 lead-in follow.
+- Glossary — §14 row *Wirkwiderstand* (from this unit): its note on *Scheinwiderstand* updated to the wording above.
+- Style — reihe_parallel_gemischt: "reactances, as we have already met them with …" (German word order) → "reactances, which we have already met with …".
+- Style — slides/reihe_parallel_kondensator: *entscheidend für das Entstehen des elektrischen Feldes* "what determines how the electric field builds up" → "it is the voltage that sets up the electric field" (twice); "to get from the preferred values to the value you need" → "to make up the value you need from the preferred values".
+- Style — spannungsteiler_1: *hochohmig / niederohmig* "a resistor of high / low resistance" → "a high-value / low-value resistor".
+- Style — reihe_parallel_widerstand: "An important method of solution is "solving by inspection"" → "An important technique is …"; "networks in which there is both a series and a parallel connection" → "networks with both …"; slide heading "… in series and parallel connection" → "… connected in series and in parallel".
+- Style — AD115: *der untere Teilwiderstand* "the lower resistance of the potential divider" → "the resistance of the lower part of the potential divider".

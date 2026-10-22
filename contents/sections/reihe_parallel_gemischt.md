@@ -18,7 +18,7 @@ Here too, the capacitances must be converted to the same unit before calculating
 
 ---
 
-In AC circuits, besides the familiar ohmic resistances, there are also reactances, as we have already met them with capacitors and inductors. The ordinary ohmic resistance is called the resistive part, or simply the resistance $R$. Reactances are denoted by $X$. Both kinds of resistance affect the current flowing in the circuit at the same time.
+In AC circuits, besides the familiar ohmic resistances, there are also reactances, which we have already met with capacitors and inductors. The ordinary ohmic resistance is called the resistive part, or simply the resistance $R$. Reactances are denoted by $X$. Both kinds of resistance affect the current flowing in the circuit at the same time.
 
 Since resistance and reactance act differently, they cannot simply be added. Instead, they are combined geometrically. You can picture this as a right-angled triangle, as in Figure [ref:a_dreieck]:
 
@@ -26,13 +26,13 @@ Since resistance and reactance act differently, they cannot simply be added. Ins
 
 - The resistance $R$ forms the horizontal side.
 - The reactance $X$ forms the vertical side.
-- The resulting total resistance is called the impedance $|Z|$ (in German *Scheinwiderstand*).
+- The resulting total resistance is the magnitude of the impedance, $|Z|$, which German calls the *Scheinwiderstand*.
 
 <margin>
-[picture:1067:a_dreieck:Right-angled triangle illustrating how the impedance $|Z|$ is calculated from the resistance $R$ and the reactance $X$]
+[picture:1067:a_dreieck:Right-angled triangle illustrating how the magnitude of the impedance $|Z|$ is calculated from the resistance $R$ and the reactance $X$]
 </margin>
 
-The impedance can be calculated with Pythagoras' theorem (see the formula sheet):
+The magnitude of the impedance can be calculated with Pythagoras' theorem (see the formula sheet):
 
 $ |Z| = \sqrt{R^2 + X^2} $
 
@@ -50,6 +50,6 @@ For the next question, before we can apply Pythagoras' theorem, the reactance $X
 
 [question:AD104]
 
-The next question deals with calculating the impedance of a series circuit of a resistor and an inductor. First we calculate $X_L$, then we again apply Pythagoras' theorem. Here too, the powers of ten must be taken into account so that the calculation can be carried out correctly.
+The next question deals with calculating the magnitude of the impedance of a series circuit of a resistor and an inductor. First we calculate $X_L$, then we again apply Pythagoras' theorem. Here too, the powers of ten must be taken into account so that the calculation can be carried out correctly.
 
 [question:AD105]
