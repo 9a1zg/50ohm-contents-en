@@ -1,40 +1,40 @@
 ---
 
-Mit einem *Logbuch* hat man die Möglichkeit, seine Funkaktivitäten zu dokumentieren. Ein Logbuch kann man entweder elektronisch oder auch handschriftlich führen. Ähnlich wie bei einem Logbuch auf dem Schiff oder in einem Flugzeug kann man so alle wichtigen Informationen zu den Funkverbindungen festhalten, die man getätigt hat. Seltener wird das Logbuch auch als Stationstagebuch bezeichnet.
+A *log* gives you a way of documenting your radio activities. A log can be kept either electronically or by hand. As with the logbook on a ship or in an aircraft, it lets you record all the important information about the contacts you have made. Less often, the log is also called the station log.
 
 <indepth>
-Folgende Daten werden üblicherweise in einem Logbuch für jede Funkverbindung festgehalten:
-* Rufzeichen der Gegenstation
-* Frequenz oder Band
-* Datum und Uhrzeit
-* Übertragungsverfahren (z. B. SSB, FT8, RTTY, ...)
-* Vergebener und erhaltener Rapport
-* Verwendete Sendeleistung
-* Bemerkungen (z.B. Name des QSO-Partners oder eigene verwendete Station)
+The following data are usually recorded in a log for each contact:
+* Call sign of the other station
+* Frequency or band
+* Date and time
+* Mode (e.g. SSB, FT8, RTTY, ...)
+* Report given and received
+* Transmitter power used
+* Remarks (e.g. the other operator's name or the station you used)
 </indepth>
 
 ---
 
-Viele Funkamateure führen freiwillig ein Logbuch. Es kann aber auch dazu kommen, dass man eine Aufforderung der Bundesnetzagentur erhält, die einen verpflichtet, ein Logbuch zu führen, beispielsweise um Störungsursachen zu ermitteln oder frequenztechnische Fragen zu klären.
+Many radio amateurs keep a log voluntarily. It can also happen, however, that you receive a request from the Federal Network Agency (Bundesnetzagentur, BNetzA) that obliges you to keep a log, for example to investigate causes of interference or to clarify questions of frequency engineering.
 
 [question:BG101]
 [question:VD109]
 [question:VD108]
 
-Wenn die Logbuchführung angeordnet wurde, dann ist darauf zu achten, das Logbuch so zu führen, dass es auch wirklich später einsehbar ist, und zwar unabhängig davon, wie das Logbuch geführt wird. Das ist vor allem auch dann zu beachten, wenn man die Art und Weise der Logbuchführung ändert.
+When keeping a log has been ordered, care must be taken to keep the log in such a way that it can really be inspected later, regardless of how the log is kept. This must be borne in mind above all when you change the way the log is kept.
 
 <tip>
-Jedes DARC-Mitglied kann die Vorzüge eines elektronischen, webbasierten Logbuchs – auf Basis von [Wavelog](https://50ohm.de/wl) – von überall unter [log.darc.de](https://50ohm.de/log) nutzen. Das Angebot umfasst die Möglichkeit, seine QSOs dort zu loggen, zu analysieren und auch mit Drittanbietern wie eQSL, LoTW, QRZ und dem DCL zu synchronisieren. Eine Anleitung findest du in diesem [Video](https://50ohm.de/wlv).
+Every DARC member can enjoy the advantages of an electronic, web-based log – based on [Wavelog](https://50ohm.de/wl) – from anywhere at [log.darc.de](https://50ohm.de/log). The service lets you log your QSOs there, analyse them and also synchronise them with third-party services such as eQSL, LoTW, QRZ and the DCL. You can find instructions in this [video](https://50ohm.de/wlv).
 
-[Jetzt Mitglied im DARC werden!](https://50ohm.de/mw)
+[Become a DARC member now!](https://50ohm.de/mw)
 </tip>
 
 ---
 
-Wechselt man beispielsweise von einem handschriftlich auf Papier geführten Logbuch zu einem elektronisch per Computer geführtem Logbuch, dann muss man das alte Papier-Logbuch trotzdem aufheben. Genauso andersherum: Wechselt man vom Computer auf Papier, muss der Computer mit der entsprechenden Software weiter vorgehalten werden oder das Logbuch muss ausgedruckt werden. Entsprechend ist auch beim Wechsel der Logbuch-Software zu verfahren. Die alte Software muss weiter verfügbar sein oder das bestehende Logbuch muss in die neue Software übertragen werden.
+If, for example, you change from a log kept by hand on paper to a log kept electronically on a computer, you must still keep the old paper log. The same applies the other way round: if you change from the computer to paper, the computer with the relevant software must continue to be kept available, or the log must be printed out. The same applies when you change logging software. The old software must remain available, or the existing log must be transferred to the new software.
 
 <tip>
-*Praxis-Tipp:* Mit dem ADIF-Dateiformat ist es leicht möglich eine Logdatei von einer Logbuch-Software auf eine andere zu übertragen. Genauso kann man so ein Logbuch von einem Computer auf einen anderen überspielen.
+*Practical tip:* With the ADIF file format it is easy to transfer a log file from one logging program to another. In the same way, you can copy a log from one computer to another.
 </tip>
 
 [question:BG102]
@@ -42,12 +42,12 @@ Wechselt man beispielsweise von einem handschriftlich auf Papier geführten Logb
 
 ---
 
-Zeiten sollten im Logbuch immer in der koordinierten Weltzeit eingetragen werden, die meist als *UTC* (von Universal Time Coordinated) bezeichnet wird. Das dient dazu, dass die Uhrzeit bei Funkverbindungen über unterschiedliche Zeitzonen hinweg nicht umgerechnet werden muss. Wenn es beispielsweise in Berlin 8:00 Uhr Ortszeit ist, dann ist es in New York erst 2:00 Uhr Ortszeit. Für beide ist es aber 07:00 UTC. Mit der UTC ist überall auf der Welt immer die gleiche Zeit.
+Times should always be entered in the log in Coordinated Universal Time, which is usually referred to as *UTC* (from Universal Time Coordinated). This means that the time does not have to be converted for contacts across different time zones. For example, when it is 8:00 local time in Berlin, it is only 2:00 local time in New York. For both, however, it is 07:00 UTC. With UTC, it is always the same time everywhere in the world.
 
 <indepth>
-Im Jahre 1972 wurde die UTC als universelle und weltweit einheitliche Uhrzeit eingeführt.
+In 1972, UTC was introduced as a universal time, uniform throughout the world.
 </indepth>
 
-Wie unsere Ortszeit in UTC umgerechnet wird, hängt davon ab, ob gerade Sommerzeit ist. Während der Winterzeit gilt bei uns die *Mitteleuropäische Zeit (MEZ)*. Um diese in UTC umzurechnen, muss man eine Stunde abziehen. Wenn im Sommer die *Mitteleuropäische Sommerzeit (MESZ)* verwendet wird, müssen jedoch 2 Stunden abgezogen werden.
+How our local time is converted to UTC depends on whether summer time is in force. In winter, *Central European Time (CET)* applies here. To convert it to UTC, you subtract one hour. When *Central European Summer Time (CEST)* is used in summer, however, 2 hours must be subtracted.
 
-Ein Beispiel: In Berlin ist es ist 9:00 MEZ. Um dies in UTC umzurechnen, muss eine Stunde abgezogen werden. Es ist also 08:00 UTC. Wenn es jedoch 9:00 MESZ in Berlin ist, dann müssen zwei Stunden abgezogen werden. Es ist dann also 7:00 UTC. Um andersherum die UTC in Ortszeit umzurechnen, muss man eine Stunde (MEZ) bzw. zwei Stunden (MESZ) dazuzählen.
+An example: in Berlin it is 9:00 CET. To convert this to UTC, one hour must be subtracted. So it is 08:00 UTC. If, however, it is 9:00 CEST in Berlin, two hours must be subtracted. It is then 7:00 UTC. Conversely, to convert UTC to local time, you add one hour (CET) or two hours (CEST).

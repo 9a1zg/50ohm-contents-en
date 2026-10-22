@@ -1,30 +1,30 @@
-Während das Logbuch der eigenen Dokumentation dient, bestätigen sich auch viele Funkamateure gegenseitig ihre Funkverbindungen. Dazu gibt es *QSL-Karten*, die an die jeweiligen Funkpartner geschickt werden. Sie dienen als Nachweis, dass eine Funkverbindung tatsächlich stattgefunden hat.
+While the log serves your own records, many radio amateurs also confirm their contacts to one another. This is what *QSL cards* are for: they are sent to the other station of each contact. They serve as proof that a contact actually took place.
 
-QSL-Karten ähneln Postkarten. Eine Seite enthält verschiedene Angaben zur Funkverbindung. Die andere Seite ist meist mit einem persönlichen Motiv versehen. Der Name leitet sich von der Q-Gruppe QSL ab, die für "ich bestätige den Empfang" steht.
+QSL cards resemble postcards. One side contains various details of the contact. The other side usually carries a personal picture. The name comes from the Q code QSL, which stands for "I am acknowledging receipt".
 
 <margin>
-[photo:62:n_qsl_karten_rueckseite_2:Beispiel für eine QSL-Karte, ausgestellt von DL4EAX zur Bestätigung einer Verbindung mit der Station JA1EBV]
+[photo:62:n_qsl_karten_rueckseite_2:Example of a QSL card, issued by DL4EAX to confirm a contact with the station JA1EBV]
 </margin>
 
-Eine QSL-Karte sollte mindestens folgende Angaben enthalten: 
-* Datum
-* Uhrzeit in UTC
-* Eigenes Rufzeichen
-* Rufzeichen der Gegenstation
-* Genutzte Frequenz oder Frequenzband
-* Verwendetes Übertragungsverfahren
-* Gegebener Rapport
+A QSL card should contain at least the following details: 
+* Date
+* Time in UTC
+* Own call sign
+* Call sign of the other station
+* Frequency or band used
+* Mode used
+* Report given
 
 ---
 
-Eine besondere Bedeutung haben QSL-Karten für *Amateurfunk-Diplome*. Das sind Auszeichnungen, die ein Funkamateur erhalten kann, wenn er eine bestimmte Anzahl an Funkverbindungen nach bestimmten Vorgaben erreicht hat. Um ein Diplom zu beantragen, muss man die geforderten Funkverbindungen durch QSL-Karten nachweisen können. Damit eine QSL-Karte für Diplome gewertet werden kann, sollte sie die vorgenannten Mindestangaben enthalten. Zusätzlich kann eine QSL-Karte auch weitere Informationen enthalten, beispielsweise zu verwendeten Transceivern oder Antennen. Häufig finden sich auch Hinweise auf Amateurfunkvereinigungen, denen der Funkamateur angehört. Eine Unterschrift der Karte ist seit einigen Jahren nicht mehr notwendig.
+QSL cards are particularly important for *amateur radio awards*. These are distinctions that a radio amateur can receive after making a certain number of contacts that meet certain requirements. To apply for an award, you must be able to prove the required contacts with QSL cards. For a QSL card to count towards awards, it should contain the minimum details listed above. A QSL card can also contain further information, for example on the transceivers or antennas used. It often also refers to amateur radio societies the radio amateur belongs to. For some years now, the card no longer needs to be signed.
 
 <indepth>
-Es gibt tausende unterschiedliche *Amateurfunk-Diplome* und andere Auszeichnungen, die meistens von Amateurfunkverbänden wie dem DARC herausgegeben werden. Beispielsweise gibt es Diplome dafür, dass eine bestimmte Anzahl unterschiedlicher Länder oder Inseln kontaktiert wurden oder Funkverbindungen mit einer bestimmten Anzahl an Mitgliedern unterschiedlicher Ortsverbände des DARC stattgefunden haben. Es gibt auch Kurzzeitdiplome zu besonderen Anlässen.
+There are thousands of different *amateur radio awards* and other distinctions, mostly issued by national amateur radio societies such as the DARC. For example, there are awards for having contacted a certain number of different countries or islands, or for contacts with a certain number of members of different DARC local clubs. There are also short-term awards for special occasions.
 
-Eine bekannte Auszeichnung ist der *DX Century Club* des US-amerikanischen Amateurfunkverbands, der American Radio Relay League (ARRL). Hier wird der Nachweis von Verbindungen mit 100 unterschiedlichen Ländern der Erde verlangt.
+A well-known award is the *DX Century Club* of the US national amateur radio society, the American Radio Relay League (ARRL). It requires proof of contacts with 100 different countries of the world.
 
-[photo:60:n_dx_urkunde_dxcc_dm4eax:Urkunde des DX Century Clubs]
+[photo:60:n_dx_urkunde_dxcc_dm4eax:DX Century Club certificate]
 </indepth>
 
 %[photo:12:n_qsl_karten_vorderseite:Gemeinsame QSL-Karte von DL4EAX und DM4EAX (Vorderseite)]
@@ -34,35 +34,35 @@ Eine bekannte Auszeichnung ist der *DX Century Club* des US-amerikanischen Amate
 
 ---
 
-Um eine QSL-Karte per Post an den jeweiligen Funkpartner übersenden zu können, benötigt man dessen Anschrift. Von vielen Funkamateuren aus der ganzen Welt kann man die Anschrift in der *internationalen Amateurfunk-Rufzeichenliste (Callbook)* finden, die von Amateurfunkverbänden auf Datenträger und online im Internet zur Verfügung gestellt wird.
+To send a QSL card by post to the other station, you need its address. For many radio amateurs from all over the world, the address can be found in the *international amateur radio call sign list (callbook)*, which national amateur radio societies make available on data media and online on the internet.
 
 <tip>
-Da der Versand per Post auf Dauer sehr kostspielig ist, betreiben Amateurfunkverbände ein eigenes weltweites Verteilsystem für QSL-Karten, die sogenannte *QSL-Vermittlung*. Als Mitglied eines teilnehmenden Amateurfunkverbandes kann man seine QSL-Karten über das Vermittlungsbüro - international "Bureau" genannt - versenden und empfangen. Die Vermittlungsbüros der Amateurfunkverbände tauschen die QSL-Karten untereinander aus. In Deutschland nimmt der DARC für seine Mitglieder an der weltweiten QSL-Vermittlung teil. Zu versendende Karten werden vom QSL-Manager des Ortsverbands eingesammelt und empfangene Karten an die Mitglieder verteilt.
+As sending cards by post is very expensive in the long run, national amateur radio societies run their own worldwide distribution system for QSL cards, known as the *QSL bureau*. As a member of a participating society, you can send and receive your QSL cards via the bureau. The societies' bureaus exchange the QSL cards with one another. In Germany, the DARC takes part in the worldwide QSL bureau system for its members. Cards to be sent are collected by the QSL manager of the local club, and cards received are distributed to the members.
 
-Besonders komfortabel ist der Versand von QSL-Karten über den *DARC QSL-Service*. Dort kann man einfach Auszüge aus einem elektronischen Logbuch hochladen. Dann werden vollautomatisch QSL-Karten für jede Verbindung gedruckt und direkt an die QSL-Vermittlung übergeben. Das Bildmotiv kann selbst gestaltet und jederzeit getauscht werden. Für Mitglieder des DARC ist dieser Service deutlich vergünstigt.
+Sending QSL cards via the *DARC QSL-Service* is particularly convenient. There you simply upload extracts from an electronic log. QSL cards are then printed fully automatically for every contact and handed straight to the QSL bureau. You can design the picture yourself and change it at any time. For DARC members, this service is much cheaper.
 
-[Jetzt Mitglied im DARC werden!](https://50ohm.de/mw)
+[Become a DARC member now!](https://50ohm.de/mw)
 </tip>
 
 <indepth>
-Manchmal sieht man auch Rufzeichen, die mit DE beginnen. Diese werden nicht von der Bundesnetzagentur vergeben.  Es handelt sich dabei um *Hörerkennzeichen*, die der DARC nach Prüfung einiger Grundkenntnisse an Mitglieder vergibt. Mit diesen Rufzeichen kann man nicht am Sendebetrieb teilnehmen. Sie werden aber von Kurzwellenhörern genutzt, sogenannten SWLs (vom englischen "short wave listener"), die bei Funkverbindungen zuhören. SWLs können eine mitgehörte Verbindung ebenfalls per QSL-Karte bestätigen, die sie an beide Beteiligten einer Funkverbindung senden.
+Sometimes you also see call signs beginning with DE. These are not assigned by the Federal Network Agency (Bundesnetzagentur, BNetzA).  They are *short-wave listener identifiers*, which the DARC issues to members after a test of some basic knowledge. These call signs cannot be used for transmitting. They are, however, used by short-wave listeners, known as SWLs, who listen in on contacts. SWLs can also confirm a contact they have listened to with a QSL card, which they send to both parties to the contact.
 </indepth>
 
-Manche Funkamateure bearbeiten ihre QSL-Karten nicht selbst, sondern lassen sich durch einen sogenannten *QSL-Manager* vertreten. Dieser übernimmt dann den Versand und den Empfang der QSL-Karten. Lässt sich eine Station beispielsweise von K8PYD vertreten, dann spricht man von "QSL via K8PYD". QSL-Karten sind dann nicht an den Funkamateur selbst, sondern an K8PYD zu senden.
+Some radio amateurs do not handle their QSL cards themselves but have a *QSL manager* act for them. The QSL manager then takes care of sending and receiving the QSL cards. If a station is represented by K8PYD, for example, this is given as "QSL via K8PYD". QSL cards are then to be sent not to the radio amateur but to K8PYD.
 
 [question:BG110]
 [question:BG109]
 
-Es gibt auch papierlose Alternativen zur QSL-Karte. Zum einen können elektronische QSL-Karten per E-Mail versendet werden. Zum anderen ist es möglich, Logbücher bei verschiedenen Plattformen hochzuladen, wodurch der Nachweis der Funkverbindung dann dort gespeichert wird und weltweit abrufbar ist.
+There are also paperless alternatives to the QSL card. On the one hand, electronic QSL cards can be sent by e-mail. On the other, logs can be uploaded to various platforms, where the proof of the contact is then stored and can be retrieved worldwide.
 
 [question:BG111]
 
 ---
 
-Genauso wie beim Logbuch, sollten alle Zeitangaben auf QSL-Karten stets in UTC erfolgen. Das hilft dem Empfänger, die Verbindung in seinem Logbuch leichter wiederzufinden. Wir erinnern uns: Für die Winterzeit gilt "UTC = MEZ minus 1 Stunde" und für die Sommerzeit gilt "UTC = MESZ minus 2 Stunden".
+As with the log, all times on QSL cards should always be given in UTC. This helps the recipient to find the contact in their log more easily. Remember: in winter, "UTC = CET minus 1 hour", and in summer, "UTC = CEST minus 2 hours".
 
 <attention>
-Auf einer QSL-Karte sollte eine möglichst *präzise Uhrzeit* eingetragen werden, da für viele Diplome eine eingereichte QSL-Karten nicht anerkannt wird, wenn die angegebene Uhrzeit vom Logbuch des Antragstellers um mehrere Minuten abweicht.
+A QSL card should carry as *precise a time* as possible, because for many awards a submitted QSL card is not accepted if the time given differs by several minutes from the applicant's log.
 </attention>
 
 [question:BG106]
@@ -70,11 +70,11 @@ Auf einer QSL-Karte sollte eine möglichst *präzise Uhrzeit* eingetragen werden
 [question:BG108]
 
 <margin>
-[photo:12:n_qsl_karten_vorderseite:Gemeinsame QSL-Karte von DL4EAX und DM4EAX (Vorderseite)]
+[photo:12:n_qsl_karten_vorderseite:Joint QSL card of DL4EAX and DM4EAX (front)]
 </margin>
 
 <margin>
-[photo:61:n_qsl_karten_rueckseite:Gemeinsame QSL-Karte von DL4EAX und DM4EAX (Rückseite)]
+[photo:61:n_qsl_karten_rueckseite:Joint QSL card of DL4EAX and DM4EAX (back)]
 </margin>
 
 <latexonly>

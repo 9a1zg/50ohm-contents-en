@@ -1,32 +1,32 @@
-* Mit einem Logbuch (auch *Stationstagebuch* genannt) hat man die Möglichkeit, seine Funkaktivitäten zu dokumentieren
-* Kann elektronisch oder handschriftlich geführt werden
-* Die Führung eines Logbuchs ist freiwillig
+* A log (also called a *station log*) gives you a way of documenting your radio activities
+* Can be kept electronically or by hand
+* Keeping a log is voluntary
 
 <note>
-* Für Conteste müssen oft Logbücher eingereicht werden
+* Logs often have to be submitted for contests
 </note>
 
 ---
 
-Folgende Daten werden üblicherweise in einem Logbuch für jede Funkverbindung festgehalten:
-* Rufzeichen der Gegenstation
-* Frequenz oder Band
-* Datum und Uhrzeit
-* Übertragungsverfahren (z. B. SSB, FT8, RTTY, ...)
-* Vergebener und erhaltener Rapport
-* Verwendete Sendeleistung
-* Bemerkungen (z.B. Name des QSO-Partners oder eigene verwendete Station)
+The following data are usually recorded in a log for each contact:
+* Call sign of the other station
+* Frequency or band
+* Date and time
+* Mode (e.g. SSB, FT8, RTTY, ...)
+* Report given and received
+* Transmitter power used
+* Remarks (e.g. the other operator's name or the station you used)
 
 ---
 [question:BG101]
 
 ---
-## Verpflichtende Logbuchführung
+## Mandatory log-keeping
 
-Es kann aber auch dazu kommen, dass man eine Aufforderung der Bundesnetzagentur erhält, die einen verpflichtet, ein Logbuch zu führen.
+It can also happen, however, that you receive a request from the Federal Network Agency (Bundesnetzagentur, BNetzA) that obliges you to keep a log.
 
-* Zur Untersuchung von Störungsursachen
-* Zur Klärung frequenztechnischer Fragen
+* To investigate causes of interference
+* To clarify questions of frequency engineering
 
 ---
 [question:VD109]
@@ -36,19 +36,19 @@ Es kann aber auch dazu kommen, dass man eine Aufforderung der Bundesnetzagentur 
 
 ---
 
-Jedes DARC-Mitglied kann ein elektronisches, webbasiertes Logbuch auf [log.darc.de](https://50ohm.de/log) nutzen (basierend auf Wavelog), inkl. Synchronisierung mit eQSL, LoTW, QRZ und DCL
+Every DARC member can use an electronic, web-based log at [log.darc.de](https://50ohm.de/log) (based on Wavelog), including synchronisation with eQSL, LoTW, QRZ and DCL
 
 <note>
-Hier DARC-Mitgliedschaft bewerben
+Promote DARC membership here
 </note>
 
 ---
-## Aufbewahrung des Logbuchs
+## Keeping the log available
 
-* Bei angeordneter Logbuchführung muss das Logbuch über eine bestimmte Zeit einsehbar bleiben, unabhängig von der Art der Führung
-* Wechsel Papier $\rightarrow$ elektronisch: altes Papierlogbuch weiter aufbewahren
-* Wechsel elektronisch $\rightarrow$ Papier: alten Computer mit Software weiter vorhalten oder Logbuch ausdrucken
-* Wechsel der Logbuch-Software: alte Software weiter vorhalten oder Daten übertragen, z.B. mit dem ADIF-Dateiformat
+* Where keeping a log has been ordered, the log must remain available for inspection for a certain period, regardless of how it is kept
+* Switching from paper $\rightarrow$ electronic: keep the old paper log
+* Switching from electronic $\rightarrow$ paper: keep the old computer with the software available, or print out the log
+* Changing the logging software: keep the old software available or transfer the data, e.g. with the ADIF file format
 
 ---
 
@@ -58,11 +58,11 @@ Hier DARC-Mitgliedschaft bewerben
 [question:BG103]
 
 ---
-## Koordinierte Weltzeit
+## Coordinated Universal Time
 
-* Zeiten in UTC (Universal Time Coordinated) führen
-* Uhrzeiten über unterschiedliche Zeitzonen müssen nicht umgerechnet werden
-* Keine Probleme mit Sommer-/Winterzeit
-* Berlin zu Mitteleuropäischer Zeit (MEZ): UTC+1
-* Berlin zu Mitteleuropäischer Sommerzeit (MESZ): UTC+2
+* Keep times in UTC (Universal Time Coordinated)
+* Times across different time zones do not have to be converted
+* No problems with summer/winter time
+* Berlin on Central European Time (CET): UTC+1
+* Berlin on Central European Summer Time (CEST): UTC+2
 

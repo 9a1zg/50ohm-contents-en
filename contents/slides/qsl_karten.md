@@ -1,26 +1,26 @@
 <left>
-* Nachweis darüber, dass eine Funkverbindung tatsächlich stattgefunden hat
-* Dienen als Beleg bei der Beantragung von Amateurfunk-Diplomen
-* Q-Gruppe QSL mit "ich bestätige den Empfang"
+* Proof that a contact actually took place
+* Serve as evidence when applying for amateur radio awards
+* Q code QSL with "I am acknowledging receipt"
 </left>
 <right>
-[photo:12:n_qsl_karten_vorderseite:Gemeinsame QSL-Karte von DL4EAX und DM4EAX (Vorderseite)]
+[photo:12:n_qsl_karten_vorderseite:Joint QSL card of DL4EAX and DM4EAX (front)]
 
-[photo:61:n_qsl_karten_rueckseite:Gemeinsame QSL-Karte von DL4EAX und DM4EAX (Rückseite)]
+[photo:61:n_qsl_karten_rueckseite:Joint QSL card of DL4EAX and DM4EAX (back)]
 </right>
 <note>
-* Diplom als Zertifikat über gewisses Funkkönnen
-* Es gibt sehr viele Diplome, oftmals von Amateurfunkvereinigungen
+* An award as a certificate of a certain operating skill
+* There are a great many awards, often from amateur radio societies
 </note>
 
 ---
 
 <left>
-[photo:60:n_dx_urkunde_dxcc_dm4eax:Urkunde des DX Century Clubs]
+[photo:60:n_dx_urkunde_dxcc_dm4eax:DX Century Club certificate]
 </left>
 <right>
-* Bekanntes Diplom: *DX Century Club* der amerikanischen ARRL
-* Nachweis von Verbindungen mit 100 unterschiedlichen Ländern
+* Well-known award: the *DX Century Club* of the American ARRL
+* Proof of contacts with 100 different countries
 </right>
 
 ---
@@ -28,62 +28,62 @@
 
 ---
 
-## Angaben
+## Details
 
-[photo:62:n_qsl_karten_rueckseite_2:Beispiel für eine QSL-Karte, ausgestellt von DL4EAX zur Bestätigung einer Verbindung mit der Station JA1EBV]
+[photo:62:n_qsl_karten_rueckseite_2:Example of a QSL card, issued by DL4EAX to confirm a contact with the station JA1EBV]
 
 ---
 
-Eine QSL-Karte sollte mindestens folgende Angaben enthalten:
-* Datum
-* Uhrzeit in UTC
-* Eigenes Rufzeichen
-* Rufzeichen der Gegenstation
-* Genutzte Frequenz oder Frequenzband
-* Verwendetes Übertragungsverfahren
-* Gegebener Rapport
-* Eine Unterschrift ist seit einigen Jahren nicht mehr notwendig
+A QSL card should contain at least the following details:
+* Date
+* Time in UTC
+* Own call sign
+* Call sign of the other station
+* Frequency or band used
+* Mode used
+* Report given
+* For some years now, a signature has no longer been necessary
 
 ---
 
 [question:BG105]
 
 ---
-## Vermittlung von QSL-Karten
+## Distributing QSL cards
 
-* Über teilnehmende Amateurfunkverbände in den Ländern
-* via Vermittlungsbüro - international "Bureau"
-* Weltweites alternatives Postnetz
-* In Deutschland bietet das der DARC e. V. für Mitglieder kostenlos an
+* Through participating national amateur radio societies in each country
+* Via the QSL bureau
+* Worldwide alternative postal network
+* In Germany, the DARC e. V. provides this free of charge for its members
 
 <note>
-* Austausch von QSL-Karten zwischen den Managern findet oftmals auf Veranstaltungen statt
-* Es gibt abenteuerliche Wege, wie die Karten zugestellt werden
+* QSL cards are often exchanged between the managers at events
+* Cards sometimes reach their recipients by adventurous routes
 </note>
 
 ---
 
-* DARC QSL-Service: automatischer Druck und Versand aus dem hochgeladenen elektronischen Logbuch
-* Bildmotiv frei wählbar und jederzeit änderbar
-* Für DARC-Mitglieder deutlich vergünstigt
+* DARC QSL-Service: automatic printing and sending from the uploaded electronic log
+* Picture freely selectable and changeable at any time
+* Much cheaper for DARC members
 
 ---
 
-## Short Wave Listener (SWL)
+## Short-wave listeners (SWL)
 
-* Rufzeichen mit Präfix DE
-* werden nicht von der Bundesnetzagentur, sondern vom DARC vergeben
-* sogenannte *Hörerkennzeichen* (short wave listener)
+* Call signs with the prefix DE
+* not assigned by the Federal Network Agency (Bundesnetzagentur, BNetzA), but by the DARC
+* known as *short-wave listener identifiers*
 
 ---
 
 ## Callbooks
 
-* Adressen in internationalen Amateurfunk-Rufzeichenlisten (Callbook)
-* Oder im Internet
-* Es gibt "QSL-Manager", die für andere Stationen den Versand übernehmen
-  * QSL-Manager kommen oft bei DX-Peditionen zum Einsatz
-  * Im via-Feld der QSL-Karte eintragen und die eigene Karte über diesen QSL-Manager schicken
+* Addresses in international amateur radio call sign lists (callbook)
+* Or on the internet
+* There are "QSL managers" who handle the sending of cards for other stations
+  * QSL managers are often used for DXpeditions
+  * Enter them in the via field of the QSL card and send your own card via this QSL manager
 
 ---
 [question:BG110]
@@ -92,27 +92,27 @@ Eine QSL-Karte sollte mindestens folgende Angaben enthalten:
 [question:BG109]
 
 ---
-## Elektronische QSL-Karten
+## Electronic QSL cards
 
-* Papierlose Alternativen
-  * Bekannt: eQSL, LoTW
-* Elektronische Logbücher lassen sich hochladen
-* Nur wenige Plattformen werden für Diplome anerkannt
+* Paperless alternatives
+  * Well known: eQSL, LoTW
+* Electronic logs can be uploaded
+* Only a few platforms are recognised for awards
 
 ---
 [question:BG111]
 
 ---
-## Uhrzeit auf QSL-Karten
+## Time on QSL cards
 
-* Genauso wie im Logbuch stets in UTC eintragen
-* Hilft dem Empfänger, die Verbindung im eigenen Logbuch leichter wiederzufinden
-* Winterzeit: UTC = MEZ $-$ 1 Stunde
-* Sommerzeit: UTC = MESZ $-$ 2 Stunden
+* As in the log, always enter it in UTC
+* Helps the recipient find the contact in their own log more easily
+* Winter time: UTC = CET $-$ 1 hour
+* Summer time: UTC = CEST $-$ 2 hours
 
 <note>
-* Uhrzeit möglichst präzise eintragen
-* Manche Diplome erkennen die QSL-Karte nicht an, wenn die Uhrzeit um mehrere Minuten vom Logbuch des Antragstellers abweicht
+* Enter the time as precisely as possible
+* Some awards do not accept the QSL card if the time differs by several minutes from the applicant's log
 </note>
 
 ---

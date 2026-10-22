@@ -2431,6 +2431,14 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Sicherungen ausschalten (Störungssuche im Haushalt) | switch off circuits at the fuse box | empfangsstoerungen slides; cf. §14 *Haussicherung* |
 | Standort des Operators / Remote-Standort / Bedienteil des Operators / Block 1–3 | operator's location / remote site / operator's control unit / Block 1–3 | as §6 *Kontrollseite / Remoteseite*, *Bedienteil*; *Block* capitalised as a label, as AF703 (remote_station) |
 | Laufzeiten im Netzwerk / Verarbeitungszeiten (Remote-Betrieb) | transit times in the network / processing times | AF709, AF710 (remote_station) |
+| Logbuchführung / verpflichtende (angeordnete) Logbuchführung / Aufbewahrung des Logbuchs | keeping a log / mandatory log-keeping / keeping the log available | as §2 *angeordnete Logbuchführung* (BG102, BG103); slide headings (logbuch) |
+| Logbuch-Software / Logdatei / Praxis-Tipp | logging software (logging program) / log file / practical tip | as §2 *Logbuchsoftware*; *Praxis-Tipp:* opening a tip box → "*Practical tip:*" (logbuch) |
+| Universal Time Coordinated / Sommerzeit / Winterzeit | Universal Time Coordinated / summer time / winter time | the German's expansion of UTC is kept as written (see the unit report of nea_logbuch_und_qsl_karten); British *summer time* (logbuch, qsl_karten) |
+| Amateurfunk-Diplom / Kurzzeitdiplom / Urkunde (DXCC) | amateur radio award / short-term award / certificate | as §2 *Diplom* → award (qsl_karten) |
+| Vermittlungsbüro / QSL-Vermittlung (international "Bureau") / via-Feld | (QSL) bureau / QSL bureau / via field | the gloss *international "Bureau" genannt* only gives the English word and is dropped (bracket rule, DECISIONS.md) (qsl_karten) |
+| Bildmotiv / persönliches Motiv (QSL-Karte) | picture / personal picture | the design on the front of a QSL card (qsl_karten) |
+| DARC QSL-Service / DCL / Wavelog / Drittanbieter | DARC QSL-Service / DCL / Wavelog / third-party services | names of DARC services and software unchanged (logbuch, qsl_karten) |
+| Datenträger | data media | callbooks "auf Datenträger und online" (qsl_karten) |
 
 ## 15. Catalogue structure
 
