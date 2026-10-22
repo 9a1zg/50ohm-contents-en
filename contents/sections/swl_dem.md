@@ -7,7 +7,7 @@ The title *Deutscher Empfangsmeister* (German Reception Master, DEM) is an offic
 For the basic level, DEM (Bronze), the published conditions include, among other things:
 
 * membership of the DARC or an affiliated association
-* at least one year of active SWL activity
+* at least one year as an active SWL
 * a DE identifier
 * an HF receiver ready for use on at least five amateur bands
 * the DLD-SWL 100, earned as an SWL

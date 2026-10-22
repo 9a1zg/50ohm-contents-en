@@ -1,4 +1,4 @@
-A DE identifier is applied for on the form provided for the purpose. After a DE examination, the examining board confirms the result. A copy of the examination papers or of an amateur radio licence is enclosed only if specifically requested.
+A DE identifier is applied for on the form provided for the purpose. In the case of a DE examination, the examining board confirms the result. A copy of the examination papers or of an amateur radio licence is enclosed only if specifically requested.
 
 For quick processing, the following are particularly important:
 
@@ -13,7 +13,7 @@ The application fee given in the current DARC rules is 5 euros. Since fees, bank
 Once the certificate has been received, the new DE identifier should be notified to the local club chair and to the local club's QSL manager. Only then can incoming QSL cards be allocated reliably. Changes of address or of local club should also be reported promptly to the DARC head office.
 
 <tip>
-By arrangement with the issuing office, courses can prepare their applications together. The certificates can then often be presented together.
+By arrangement with the issuing office, courses can prepare the applications as a batch. The certificates can then often be presented together.
 </tip>
 
 The QSL bureau links the local QSL managers with the bureaus of other amateur radio societies. Cards are pre-sorted by prefix; replies from abroad therefore take patience.

@@ -1,6 +1,6 @@
 We already came across the term QSO at the start of the SWL course. A QSO is a radio conversation between two stations. 
 
-In practice, a QSO usually begins with a short call, to which the other station replies. Information is then exchanged, for example about the antenna used, the transmit power or the location. At the end of the QSO, the stations usually say goodbye. The example opposite shows a QSO between the stations DL1FLO and DL9MJ. DL1FLO makes a general CQ call, to which DL9MJ replies. The two stations then exchange information about signal strength and say goodbye at the end of the QSO.
+In practice, a QSO usually begins with a short call, to which the other station replies. Information is then exchanged, for example about the antenna used, the transmit power or the location. At the end of the QSO, the stations usually say goodbye. The illustration opposite shows an example of a QSO between the stations DL1FLO and DL9MJ. DL1FLO makes a general CQ call, to which DL9MJ replies. The two stations then exchange information about signal strength and say goodbye at the end of the QSO.
 
 <qso>
 CQ CQ this is DL1FLO making a general call, this is DL1FLO, listening.

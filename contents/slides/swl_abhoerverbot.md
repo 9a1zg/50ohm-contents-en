@@ -9,7 +9,7 @@ You may receive radio transmissions that are intended for:
 
 <note>
 
-The legal basis is Section 5 TDDDG.
+The legal basis is Section 5 of the Telecommunications Digital Services Data Protection Act (Telekommunikation-Digitale-Dienste-Datenschutz-Gesetz, TDDDG).
 
 </note>
 

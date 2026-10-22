@@ -1,4 +1,4 @@
-You now know the basics for observing amateur radio communication knowingly and safely. You can operate a receiver, tell types of modulation apart, copy call signs, give reports and write complete listener reports. You also know the legal limits of reception and the way to the DE examination.
+You now know the basics for observing amateur radio communication in an informed and safe way. You can operate a receiver, tell types of modulation apart, copy call signs, give reports and write complete listener reports. You also know the legal limits of reception and the way to the DE examination.
 
 The best next step is practical experience:
 

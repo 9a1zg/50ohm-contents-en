@@ -1,6 +1,6 @@
 # The DE examination
 
-The DE examination demonstrates basic knowledge for activity as an SWL.
+The DE examination demonstrates the basic knowledge needed to be active as an SWL.
 
 The question catalogue contains questions from three areas:
 
@@ -42,6 +42,6 @@ The authority to conduct the examination can be delegated under the DARC rules.
 
 The DE examination is an internal examination of the DARC and the VFDB.
 
-It replaces neither the examination at the Federal Network Agency (Bundesnetzagentur, BNetzA) nor the authorisation to participate in the amateur service.
+It replaces neither the examination by the Federal Network Agency (Bundesnetzagentur, BNetzA) nor the authorisation to participate in the amateur service.
 
 Current documents: [50ohm.de/swl](https://50ohm.de/swl/)

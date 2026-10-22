@@ -21,7 +21,7 @@ Abbreviations that are understood internationally save time and help across lang
 * *CQ* is addressed to all receiving stations
 * *de* means *this is*
 * then comes the call sign of the calling station
-* for SWLs, a good opportunity to copy a first call sign reliably
+* for SWLs, a good opportunity to copy the first call sign reliably
 
 ---
 

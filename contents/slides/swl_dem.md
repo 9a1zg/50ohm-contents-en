@@ -6,7 +6,7 @@
 The **Deutscher Empfangsmeister (DEM)**, the German Reception Master, is a DARC award for many years of varied activity as a listening amateur.
 </right>
 <left>
-[photo:349:swl_dem_urkunde:Deutscher Empfangsmeister certificate in gold]
+[photo:349:swl_dem_urkunde:Deutscher Empfangsmeister certificate in Gold]
 </left>
 
 ---

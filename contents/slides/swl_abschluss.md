@@ -25,7 +25,7 @@ You now know about:
 
 # And then?
 
-With QSL cards, the DLD-SWL and perhaps later the *Deutscher Empfangsmeister* (German Reception Master), many goals remain open.
+With QSL cards, the DLD-SWL and perhaps later the *Deutscher Empfangsmeister* (German Reception Master), there are still many goals to aim for.
 
 And if you want to transmit yourself, the Class N amateur radio examination is the next possible step.
 

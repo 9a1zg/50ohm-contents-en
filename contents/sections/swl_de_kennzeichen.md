@@ -14,7 +14,7 @@ The identifier is issued by the DARC head office on application, documented in a
 Three letters can be proposed for a personal preferred identifier. There is no entitlement to it. Allocation depends on availability and on the allocation scheme.
 
 <attention>
-A DE identifier is unique worldwide, but it is not an amateur call sign and not a permission to transmit.
+A DE identifier is unique worldwide, but it is neither an amateur call sign nor a permission to transmit.
 </attention>
 
-The basic requirement for the assignment is membership of the DARC or the VFDB and one of the qualifications provided for: a passed DE examination, the title *Deutscher Empfangsmeister* or an existing amateur radio licence. If the holder leaves the association, the assignment lapses.
+As a rule, the requirement for the assignment is membership of the DARC or the VFDB and one of the qualifications provided for: a passed DE examination, the title *Deutscher Empfangsmeister* or an existing amateur radio licence. If the holder leaves the association, the assignment lapses.

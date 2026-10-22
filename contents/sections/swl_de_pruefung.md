@@ -14,7 +14,7 @@ The practice examinations on 50ohm.de help you practise. For the actual examinat
 
 ---
 
-Under the current DARC rules, the examination can be conducted by the local club chair, the district chair, a district AJW officer, the DL-AJW department or a member of the board. These persons can delegate the conduct of the examination to another member. In justified exceptional cases, for example physical disabilities or proven special prior knowledge, appropriate exceptions can be allowed.
+Under the current DARC rules, the examination can be conducted by the local club chair, the district chair, a district AJW officer, the DL-AJW department or a member of the board. These persons can delegate the conduct of the examination to another member. In justified exceptional cases, for example in the case of physical impairments or proven special prior knowledge, appropriate exceptions can be allowed.
 
 <attention>
 The DE examination is not a transmitting licence. Anyone who wants to operate an amateur station themselves needs to have passed the state amateur radio examination and to hold a licence from the Federal Network Agency (Bundesnetzagentur, BNetzA).

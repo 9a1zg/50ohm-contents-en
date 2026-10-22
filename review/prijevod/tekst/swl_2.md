@@ -85,3 +85,23 @@ Reception Master, DEM) — because the abbreviations spell the German words, as
 - sections/swl_q_gruppen.md and slides — QRM "Ich werde durch andere Stationen gestört": QRM is man-made interference in general, not only from other stations (q_schluessel names a photovoltaic system as an example). A narrowing. Kept, with the ITU wording plus "by other stations".
 - sections/swl_qso.md — "Die nebenstehende Abbildung zeigt ein Beispiel": the example is a `<qso>` dialogue block, not a figure. Rendered "The example opposite".
 - Typos and style with no effect on the English: sections/swl_qso.md "Am Ende des QSO wird sich in der Regel verabschiedet" (impersonal reflexive), trailing space after "DL1FLO hier ist DL9MJ" (kept); sections/swl_abschluss.md "Wünschen Matthias …" (capital after a line break).
+
+## Provjera
+
+Checked all 34 files against the German of ec2840b~1, paragraph by paragraph,
+and the embedded questions (VD206, BA101–BA110, BB102–BB107, BB201–BB204,
+BE201–BE208, NF103, BE308, BE408, BG105–BG110, VC101–VC111) in English. The
+8 glossary rows and the DECISIONS.md entry (award titles kept in German with
+a gloss) are kept unchanged; the judgement calls are kept except where noted
+below. Guard `--rev ec2840b~1 --brojevi`: 34 files, *struktura netaknuta*.
+
+Changes: omission 0, meaning 5, technical 1, glossary/convention 1, style 9.
+
+- sections/swl_qso — "The example opposite shows a QSO" → "The illustration opposite shows an example of a QSO": *Abbildung* and *Beispiel für* restored; the German's slip is reported, not corrected (meaning).
+- sections/swl_betriebsbeobachtung — "the DX station gives the call sign of the station it is working correctly" was ambiguous ("working correctly") → "correctly gives the call sign of the station it is working" (meaning).
+- sections/swl_betriebsbeobachtung — a CQ call is followed by "call signs" → "the call sign": the caller gives its own call sign (technical).
+- slides/swl_abkuerzungen — "copy a first call sign" → "copy the first call sign" (*das erste Rufzeichen*) (meaning).
+- sections/swl_antrag — *Bei einer DE-Prüfung* "After a DE examination" → "In the case of a DE examination": it names one of the qualifying routes, not a time (meaning).
+- sections/swl_de_kennzeichen — *grundsätzlich* was read as "basic requirement" → "As a rule, the requirement …" (meaning).
+- slides/swl_abhoerverbot — the TDDDG in full at its first mention in the file, as the brief and swl_rechtsgrundlagen's slides do (convention).
+- Style: swl_de_pruefung "physical disabilities" → "in the case of physical impairments"; slides "demonstrates basic knowledge for activity as an SWL" → "the basic knowledge needed to be active as an SWL", "the examination at the Federal Network Agency" → "by"; swl_de_kennzeichen "not … and not a permission" → "neither … nor"; swl_antrag "prepare their applications together … presented together" → "as a batch"; swl_dem "one year of active SWL activity" → "one year as an active SWL", slide caption "in gold" → "in Gold" (award level, as Bronze/Silver); swl_abschluss "knowingly and safely" (legal overtone) → "in an informed and safe way", slide "many goals remain open" → "there are still many goals to aim for".
