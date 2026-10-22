@@ -1,18 +1,18 @@
 {
     "sections": [
         {
-            "title": "Prüfungsfragen im Prüfungsteil: Kenntnisse von Vorschriften",
+            "title": "Examination questions in the examination part: Knowledge of regulations",
             "sections": [
                 {
-                    "title": "Amateurfunkverordnung (AFuV)",
+                    "title": "Amateur Radio Ordinance (Amateurfunkverordnung, AFuV)",
                     "sections": [
                         {
-                            "title": "Frequenzbereiche und Frequenznutzungsparameter",
+                            "title": "Frequency ranges and frequency usage parameters",
                             "questions": [
                                 {
                                     "number": "SWL004",
                                     "class": "SWL",
-                                    "question": "Welchem Amateurfunkband entspricht der Frequenzbereich von $\\qtyrange{1810}{2000}{\\kilo\\hertz}$?",
+                                    "question": "Which amateur band corresponds to the frequency range $\\qtyrange{1810}{2000}{\\kilo\\hertz}$?",
                                     "answer_a": "$\\qty{160}{\\meter}$",
                                     "answer_b": "$\\qty{80}{\\meter}$",
                                     "answer_c": "$\\qty{40}{\\meter}$",
@@ -21,7 +21,7 @@
                                 {
                                     "number": "SWL005",
                                     "class": "SWL",
-                                    "question": "Welchem Amateurfunkband entspricht der Frequenzbereich von $\\qtyrange{3,5}{3,8}{\\mega\\hertz}$?",
+                                    "question": "Which amateur band corresponds to the frequency range $\\qtyrange{3.5}{3.8}{\\mega\\hertz}$?",
                                     "answer_a": "$\\qty{80}{\\meter}$",
                                     "answer_b": "$\\qty{160}{\\meter}$",
                                     "answer_c": "$\\qty{40}{\\meter}$",
@@ -30,7 +30,7 @@
                                 {
                                     "number": "SWL006",
                                     "class": "SWL",
-                                    "question": "Welchem Amateurfunkband entspricht der Frequenzbereich von $\\qtyrange{7,0}{7,2}{\\mega\\hertz}$?",
+                                    "question": "Which amateur band corresponds to the frequency range $\\qtyrange{7.0}{7.2}{\\mega\\hertz}$?",
                                     "answer_a": "$\\qty{40}{\\meter}$",
                                     "answer_b": "$\\qty{160}{\\meter}$",
                                     "answer_c": "$\\qty{80}{\\meter}$",
@@ -39,7 +39,7 @@
                                 {
                                     "number": "SWL007",
                                     "class": "SWL",
-                                    "question": "Welchem Amateurfunkband entspricht der Frequenzbereich von $\\qtyrange{14}{14,35}{\\mega\\hertz}$?",
+                                    "question": "Which amateur band corresponds to the frequency range $\\qtyrange{14}{14.35}{\\mega\\hertz}$?",
                                     "answer_a": "$\\qty{20}{\\meter}$",
                                     "answer_b": "$\\qty{160}{\\meter}$",
                                     "answer_c": "$\\qty{80}{\\meter}$",
@@ -48,7 +48,7 @@
                                 {
                                     "number": "SWL008",
                                     "class": "SWL",
-                                    "question": "Welchem Amateurfunkband entspricht der Frequenzbereich von $\\qtyrange{21}{21,45}{\\mega\\hertz}$?",
+                                    "question": "Which amateur band corresponds to the frequency range $\\qtyrange{21}{21.45}{\\mega\\hertz}$?",
                                     "answer_a": "$\\qty{15}{\\meter}$",
                                     "answer_b": "$\\qty{10}{\\meter}$",
                                     "answer_c": "$\\qty{2}{\\meter}$",
@@ -57,7 +57,7 @@
                                 {
                                     "number": "SWL009",
                                     "class": "SWL",
-                                    "question": "Welchem Amateurfunkband entspricht der Frequenzbereich von $\\qtyrange{28}{29,7}{\\mega\\hertz}$?",
+                                    "question": "Which amateur band corresponds to the frequency range $\\qtyrange{28}{29.7}{\\mega\\hertz}$?",
                                     "answer_a": "$\\qty{10}{\\meter}$",
                                     "answer_b": "$\\qty{15}{\\meter}$",
                                     "answer_c": "$\\qty{2}{\\meter}$",
@@ -66,7 +66,7 @@
                                 {
                                     "number": "SWL010",
                                     "class": "SWL",
-                                    "question": "Welchem Amateurfunkband entspricht der Frequenzbereich von $\\qtyrange{144}{146}{\\mega\\hertz}$?",
+                                    "question": "Which amateur band corresponds to the frequency range $\\qtyrange{144}{146}{\\mega\\hertz}$?",
                                     "answer_a": "$\\qty{2}{\\meter}$",
                                     "answer_b": "$\\qty{15}{\\meter}$",
                                     "answer_c": "$\\qty{10}{\\meter}$",
@@ -75,7 +75,7 @@
                                 {
                                     "number": "SWL011",
                                     "class": "SWL",
-                                    "question": "Welchem Amateurfunkband entspricht der Frequenzbereich von $\\qtyrange{430}{440}{\\mega\\hertz}$?",
+                                    "question": "Which amateur band corresponds to the frequency range $\\qtyrange{430}{440}{\\mega\\hertz}$?",
                                     "answer_a": "$\\qty{70}{\\centi\\meter}$",
                                     "answer_b": "$\\qty{15}{\\meter}$",
                                     "answer_c": "$\\qty{10}{\\meter}$",
@@ -86,37 +86,37 @@
                     ]
                 },
                 {
-                    "title": "Weitere Gesetze, Vorschriften und Bestimmungen",
+                    "title": "Other laws, regulations and provisions",
                     "sections": [
                         {
-                            "title": "Gesetz über den Datenschutz und den Schutz der Privatsphäre in der Telekommunikation und bei digitalen Diensten  (TDDDG)",
+                            "title": "Act on Data Protection and the Protection of Privacy in Telecommunications and Digital Services (TDDDG)",
                             "questions": [
                                 {
                                     "number": "SWL001",
                                     "class": "SWL",
-                                    "question": "Darf eine Amateurfunkstelle zum Abhören des nicht-öffentlich gesprochenen Wortes verwendet werden?",
-                                    "answer_a": "Das Abhören des nicht-öffentlich gesprochenen Wortes ist ein Straftatbestand.",
-                                    "answer_b": "Der Betreiber einer Amateurfunkstation gilt als sachkundige Person und darf daher selbst entscheiden, auf welchen Frequenzen er hören darf.",
-                                    "answer_c": "Das Abhören des nicht-öffentlich gesprochenen Wortes bedarf einer besonderen Zulassung der BNetzA.",
-                                    "answer_d": "Jeder ist dazu berechtigt, wenn er dazu technisch zugelassene Empfänger benutzt."
+                                    "question": "May an amateur station be used to eavesdrop on private (non-public) conversations?",
+                                    "answer_a": "Eavesdropping on private (non-public) conversations is a criminal offence.",
+                                    "answer_b": "The operator of an amateur station counts as a competent person and may therefore decide which frequencies to listen on.",
+                                    "answer_c": "Eavesdropping on private (non-public) conversations requires a special authorisation from the BNetzA.",
+                                    "answer_d": "Anyone is entitled to do so if technically approved receivers are used."
                                 },
                                 {
                                     "number": "SWL002",
                                     "class": "SWL",
-                                    "question": "Bei welcher Handlung wird das Fernmeldegeheimnis verletzt?",
-                                    "answer_a": "Bei Empfang, Verwertung oder Weitergabe von Nachrichten, die nicht für Funkamateure, die Allgemeinheit oder einen unbestimmten Personenkreis bestimmt sind.",
-                                    "answer_b": "Bei Verwertung oder Weitergabe von Gesprächsinhalten und Daten aus Amateurfunkverbindungen, an denen der Funkamateur nicht selbst beteiligt war.",
-                                    "answer_c": "Bei Verwertung oder Weitergabe von Gesprächsinhalten und Daten aus Amateurfunkverbindungen, unabhängig davon, ob der Funkamateur selbst beteiligt war.",
-                                    "answer_d": "Bei Aufzeichnung und Weitergabe von Gesprächsinhalten und Daten aus Amateurfunkverbindungen, insbesondere, wenn die Weitergabe an Nicht-Funkamateure erfolgt."
+                                    "question": "By which action is the secrecy of telecommunications violated?",
+                                    "answer_a": "By receiving, using or passing on messages that are not intended for radio amateurs, the general public or an unspecified group of people.",
+                                    "answer_b": "By using or passing on conversation content and data from amateur radio contacts in which the radio amateur did not take part.",
+                                    "answer_c": "By using or passing on conversation content and data from amateur radio contacts, regardless of whether the radio amateur took part.",
+                                    "answer_d": "By recording and passing on conversation content and data from amateur radio contacts, in particular if they are passed on to persons who are not radio amateurs."
                                 },
                                 {
                                     "number": "SWL003",
                                     "class": "SWL",
-                                    "question": "Wie hat sich eine Person zu verhalten, die Nachrichten empfängt, die <u>nicht</u> für Funkamateure, die Allgemeinheit oder einen unbestimmten Personenkreis bestimmt sind?",
-                                    "answer_a": "Sie darf den Inhalt der Nachrichten sowie die Tatsache ihres Empfangs anderen nicht mitteilen. Das gilt nicht in Not- und Katastrophenfällen.",
-                                    "answer_b": "Sie darf Dritten zwar die Tatsache des Empfangs mitteilen, aber nicht den Inhalt und die näheren Umstände. Das gilt auch in Not- und Katastrophenfällen.",
-                                    "answer_c": "Sie darf anderen Funkamateuren zwar die Tatsache des Empfangs mitteilen, aber nicht den Inhalt.",
-                                    "answer_d": "Sie hat sofort den Empfänger auszuschalten und die Bundesnetzagentur zu informieren."
+                                    "question": "What must a person do on receiving messages that are <u>not</u> intended for radio amateurs, the general public or an unspecified group of people?",
+                                    "answer_a": "Neither the content of the messages nor the fact that they were received may be communicated to others. This does not apply in emergencies and disasters.",
+                                    "answer_b": "The fact of reception may be communicated to third parties, but not the content and the details. This also applies in emergencies and disasters.",
+                                    "answer_c": "The fact of reception may be communicated to other radio amateurs, but not the content.",
+                                    "answer_d": "The receiver must be switched off immediately and the Federal Network Agency (BNetzA) informed."
                                 }
                             ]
                         }

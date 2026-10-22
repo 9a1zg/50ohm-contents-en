@@ -24,7 +24,7 @@ $R = \frac{\rho\cdot l}{A_{\textrm{Dr}}}$
 * Aluminium: 0.028
 * Gold: 0.022
 * Silver: 0.016
-* Zinc: 0.11
+* Tin: 0.11
 * Iron: 0.1
 * Brass: 0.07
 </fragment>

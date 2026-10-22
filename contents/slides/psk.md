@@ -153,7 +153,7 @@ The coloured areas are the receiver's decision regions. The receiver assigns a r
 
 As long as a noisy point lies in the decision region of the symbol originally sent, the symbol is recognised correctly. If strong noise pushes the point across a decision boundary, a different symbol is recognised instead.
 
-The button "Transmit again" (*Erneut übertragen*) transmits the same bit stream once more with new noise. This shows clearly that, although the same symbols are sent, the received values come out slightly different each time.
+The button "Transmit again" transmits the same bit stream once more with new noise. This shows clearly that, although the same symbols are sent, the received values come out slightly different each time.
 
 As the noise increases, so does the probability of symbol errors, and with them bit errors. Suitable channel coding can detect and correct many such errors.
 </note>

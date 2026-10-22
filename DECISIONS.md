@@ -607,7 +607,24 @@ and the checker's "Provjera" section).
   that the course text gives for an applet control (entry *Labels in the
   applets* above) is no longer needed; the two places that have one
   (sections/sampling_quantisierung, slides/psk) are listed in the unit
-  report for removal. (Unit toc_static.)
+  report for removal. (Unit toc_static.) Done on 2026-10-23: both brackets
+  removed, and the two applets format their numbers with the `en-GB` locale
+  (only the locale string changed), so they show a decimal point.
+
+## Errors in the German original
+
+- **Where the BNetzA or DARC has officially corrected an error that the
+  German text still carries, the English follows the official correction.**
+  Example: slides/leiterwiderstand lists "Zink: 0,11", but 0.11 Ω·mm²/m is
+  the resistivity of tin (the section's own table says *Zinn*; zinc is about
+  0.06 Ω·mm²/m). The BNetzA corrected the same entry in its examination aids
+  (Hilfsmittel, 12.06.2024, note on p. 1: formula sheet p. 21, specific
+  resistance, "Ersetze Zink durch Zinn"); DARC's slide has not followed yet.
+  The English slide says "Tin: 0.11". The correction has to be one the
+  BNetzA or DARC has published (the examination aids, DARC's errata page,
+  see `TRANSLATION.md`), and it is noted in the unit report. Every other
+  suspected error in the German stays translated faithfully and is reported
+  (below). (2026-10-23.)
 
 ## Open questions for DARC
 

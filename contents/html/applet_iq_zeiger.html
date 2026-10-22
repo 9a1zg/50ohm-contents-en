@@ -138,7 +138,7 @@
 
       function formatNumber(value) {
         const normalized = Math.abs(value) < .005 ? 0 : value;
-        return normalized.toLocaleString('de-DE', {
+        return normalized.toLocaleString('en-GB', {
           minimumFractionDigits: 2,
           maximumFractionDigits: 2
         });

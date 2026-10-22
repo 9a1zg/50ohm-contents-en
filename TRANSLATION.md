@@ -72,8 +72,10 @@ on GitHub for DARC to take over.
 
 - `tools/qbank-prevedi.py --content <this repo>` writes translated questions
   and catalogue section titles into `contents/questions/fragenkatalog3b.json`
-  from a batch file, refusing anything whose numbers, formulas or markup differ
-  from the German, and keeping the file's CRLF formatting byte for byte.
+  (or, with `--file`, another question file such as
+  `contents/questions/fragenkatalog_swl.json`) from a batch file, refusing
+  anything whose numbers, formulas or markup differ from the German, and
+  keeping the file's formatting byte for byte.
 - `tools/revizija-guard.py` (with `OHM_HR_CONTENT` pointing here) checks
   structure for the Markdown content.
 
@@ -88,5 +90,17 @@ batch) and summarised here as the work goes.
   pass, followed by a final consistency pass over the whole bank
   (`review/prijevod/zavrsni.md`): units after a number as symbols, late
   glossary terms, identical German with identical English.
-- Next: the course text (sections, slides, solutions), then picture
-  descriptions and the static pages.
+- **SWL questions: done (2026-10-23).** The 11 questions and section titles
+  of DARC's SWL question set, `contents/questions/fragenkatalog_swl.json`
+  (`review/prijevod/swl_pitanja`).
+- **Course text: done (2026-10-23).** All 41 units of
+  `review/prijevod/tekst/jedinice.json` (sections, slides and worked
+  solutions), each translated and then checked by a second pass, plus the
+  foreword (`vorwort`), which is in no unit.
+- **Static pages: done (2026-10-23).** Tables of contents, static pages,
+  snippets and the applets' visible text (unit `toc_static`, translated and
+  checked); the course text no longer gives German applet labels in
+  brackets, and the applets format numbers with a decimal point.
+- **Not yet done:** picture descriptions (`contents/drawings/*.txt`,
+  `contents/photos/*.txt`) and the drawings' own labels, which are still
+  German.

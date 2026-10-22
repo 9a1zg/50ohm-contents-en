@@ -61,7 +61,7 @@ existing rule (bracket rule, units after a number, word subscripts).
 
 ## Suspected errors in the German original
 
-- sections/leiterwiderstand.md — table *Zinn* 0,11, slides/leiterwiderstand.md list *Zink* 0,11 for the same value. 0.11 Ω·mm²/m is tin; zinc is about 0.06. The slide should say *Zinn*. Translated as written ("Tin", "Zinc").
+- sections/leiterwiderstand.md — table *Zinn* 0,11, slides/leiterwiderstand.md list *Zink* 0,11 for the same value. 0.11 Ω·mm²/m is tin; zinc is about 0.06. The slide should say *Zinn*. Translated as written ("Tin", "Zinc"). — 2026-10-23: the slide now says "Tin", because the BNetzA itself made this correction in its examination aids (Hilfsmittel, 12.06.2024: "Ersetze Zink durch Zinn"); see DECISIONS.md *Errors in the German original*.
 - solutions/AB101.md and slides/leiterwiderstand.md — the same calculation (ρ = 0.018, l = 1.8 m, d = 0.2 mm) gives 1.03 Ω in the solution and "≈ 1.02 Ω" on the slide; 0.018 · 1.8 / 0.0314 = 1.03. The exam's correct answer, 1.02 Ω, corresponds to ρ ≈ 0.0178. The solution also writes ρ as "0,018 mm²/m", without the Ω.
 - solutions/AB102.md — stops after stating the cross-section; the value of $l$ (41.7 m) is never calculated.
 - sections/wechselstrom_leistung.md and solutions/AI105.md — "Die Erwärmung ist also proportional zur Stromstärke": the heating power is proportional to the *square* of the current, which is exactly why a thermocouple converter reads the RMS value. Translated faithfully.

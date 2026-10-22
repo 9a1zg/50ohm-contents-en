@@ -1,0 +1,56 @@
+{
+  "pitanja": {
+    "SWL004": {
+      "question": "Which amateur band corresponds to the frequency range $\\qtyrange{1810}{2000}{\\kilo\\hertz}$?"
+    },
+    "SWL005": {
+      "question": "Which amateur band corresponds to the frequency range $\\qtyrange{3.5}{3.8}{\\mega\\hertz}$?"
+    },
+    "SWL006": {
+      "question": "Which amateur band corresponds to the frequency range $\\qtyrange{7.0}{7.2}{\\mega\\hertz}$?"
+    },
+    "SWL007": {
+      "question": "Which amateur band corresponds to the frequency range $\\qtyrange{14}{14.35}{\\mega\\hertz}$?"
+    },
+    "SWL008": {
+      "question": "Which amateur band corresponds to the frequency range $\\qtyrange{21}{21.45}{\\mega\\hertz}$?"
+    },
+    "SWL009": {
+      "question": "Which amateur band corresponds to the frequency range $\\qtyrange{28}{29.7}{\\mega\\hertz}$?"
+    },
+    "SWL010": {
+      "question": "Which amateur band corresponds to the frequency range $\\qtyrange{144}{146}{\\mega\\hertz}$?"
+    },
+    "SWL011": {
+      "question": "Which amateur band corresponds to the frequency range $\\qtyrange{430}{440}{\\mega\\hertz}$?"
+    },
+    "SWL001": {
+      "question": "May an amateur station be used to eavesdrop on private (non-public) conversations?",
+      "answer_a": "Eavesdropping on private (non-public) conversations is a criminal offence.",
+      "answer_b": "The operator of an amateur station counts as a competent person and may therefore decide which frequencies to listen on.",
+      "answer_c": "Eavesdropping on private (non-public) conversations requires a special authorisation from the BNetzA.",
+      "answer_d": "Anyone is entitled to do so if technically approved receivers are used."
+    },
+    "SWL002": {
+      "question": "By which action is the secrecy of telecommunications violated?",
+      "answer_a": "By receiving, using or passing on messages that are not intended for radio amateurs, the general public or an unspecified group of people.",
+      "answer_b": "By using or passing on conversation content and data from amateur radio contacts in which the radio amateur did not take part.",
+      "answer_c": "By using or passing on conversation content and data from amateur radio contacts, regardless of whether the radio amateur took part.",
+      "answer_d": "By recording and passing on conversation content and data from amateur radio contacts, in particular if they are passed on to persons who are not radio amateurs."
+    },
+    "SWL003": {
+      "question": "What must a person do on receiving messages that are <u>not</u> intended for radio amateurs, the general public or an unspecified group of people?",
+      "answer_a": "Neither the content of the messages nor the fact that they were received may be communicated to others. This does not apply in emergencies and disasters.",
+      "answer_b": "The fact of reception may be communicated to third parties, but not the content and the details. This also applies in emergencies and disasters.",
+      "answer_c": "The fact of reception may be communicated to other radio amateurs, but not the content.",
+      "answer_d": "The receiver must be switched off immediately and the Federal Network Agency (BNetzA) informed."
+    }
+  },
+  "naslovi": {
+    "Prüfungsfragen im Prüfungsteil: Kenntnisse von Vorschriften": "Examination questions in the examination part: Knowledge of regulations",
+    "Amateurfunkverordnung (AFuV)": "Amateur Radio Ordinance (Amateurfunkverordnung, AFuV)",
+    "Frequenzbereiche und Frequenznutzungsparameter": "Frequency ranges and frequency usage parameters",
+    "Weitere Gesetze, Vorschriften und Bestimmungen": "Other laws, regulations and provisions",
+    "Gesetz über den Datenschutz und den Schutz der Privatsphäre in der Telekommunikation und bei digitalen Diensten  (TDDDG)": "Act on Data Protection and the Protection of Privacy in Telecommunications and Digital Services (TDDDG)"
+  }
+}

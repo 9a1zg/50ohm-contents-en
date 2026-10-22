@@ -59,7 +59,7 @@ If a brightness set with the analogue dimmer is to be reproduced with the step s
 [question:AF604]
 
 <indepth>
-Here you have the chance to try the whole thing out again. A continuous-time sine signal is digitised by an A/D converter and then turned back by a D/A converter into an analogue signal that is continuous-time but still discrete-value. The sliders let you set the time quantisation (*Zeit-Sampling*) and the value quantisation (*Wert-Quantisierung*) of the A/D and D/A converters.
+Here you have the chance to try the whole thing out again. A continuous-time sine signal is digitised by an A/D converter and then turned back by a D/A converter into an analogue signal that is continuous-time but still discrete-value. The sliders let you set the time quantisation and the value quantisation of the A/D and D/A converters.
 
 [include:quantisierung_und_sampling]
 </indepth>
