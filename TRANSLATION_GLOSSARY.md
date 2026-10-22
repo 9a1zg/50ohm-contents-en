@@ -2369,6 +2369,39 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Gemessene Frequenz / Anzeigefrequenz / Messwert (Gegeben) | measured frequency / displayed frequency / reading | AI506, AI507, AI509 solutions |
 | »das Komma schieben« | "move the decimal point" | AI506 |
 | Vorüberlegung (Überschrift in Lösungen) | Preliminary consideration | AI510 |
+| Malkreuz (im Block-Symbol des Mischers) | multiplication sign | aufbau_sender |
+| Mischer fügt … zusammen | the mixer combines … | aufbau_sender; *mixing* stays the term for the process (§5) |
+| Grundwelle (1. Harmonische) / Ordnungszahl | fundamental (1st harmonic) / ordinal number | nicht_sinus_signale, AJ205, AJ206 |
+| Oberwelle (Kurstext, neben *Harmonische*) / Oberwellen allgemein / Oberwellenanteil | overtone / harmonics / harmonic content | where the course text sets *Oberwelle* against *Harmonische* (nicht_sinus_signale: the 1st *Oberwelle* is the 2nd *Harmonische*), *overtone*, with the German words named once: "*overtones* (in German *Oberwellen* or *Oberschwingungen*)"; $f_\mathrm{Oberwelle,N}$ stays. Where *Oberwellen* only means unwanted multiples of a frequency (filters, spectrum analyser, AI614 "harmonics"), *harmonics*, as §3 (DECISIONS.md) |
+| Sprungstellen / Über- und Unterschwingen (Gibbs-Phänomen) | discontinuities / overshoot and undershoot | nicht_sinus_signale |
+| Doppelseitenband-Signal mit unterdrücktem Träger (DSB) | double-sideband suppressed-carrier signal (DSB) | as AE206 (modulatoren) |
+| Diodenring / Ringanordnung / gegenüberliegende Diodenpaare | diode ring / ring arrangement / opposite pairs of diodes | balanced modulator (modulatoren) |
+| ausbalanciert / Trägerabgleich / Amplitudensymmetrie / Phasenabgleich | balanced / carrier balancing / amplitude balance / phase adjustment | modulatoren; *symmetrisch, also ausbalanciert* → "symmetrical, that is, *balanced*" |
+| Gegentaktanregung | push-pull drive | modulatoren slides |
+| Filtermethode (SSB) | filter method | modulatoren |
+| Seitenbandfilter | sideband filter | AF305 |
+| im Kapitel „Mischer II" | in the second chapter on mixers | chapter titles not yet translated; descriptive, as in earlier units (modulatoren) |
+| breitbandiger Koppeltransformator | broadband coupling transformer | leistungsvertaerker |
+| Auslegungsfrequenz (Pi-Filter) | design frequency | leistungsvertaerker |
+| LDMOS (Laterally Diffused Metal-Oxide-Semiconductor) | LDMOS (*laterally diffused metal-oxide-semiconductor*) | lower case as an expansion (leistungsvertaerker) |
+| BIAS-Spannung / Gate-Vorspannung | bias voltage / gate bias | lower case, as §14 *Arbeitspunkt (BIAS)*; $U_\text{BIAS}$ stays (leistungsvertaerker, AF420, AF423, AF424) |
+| gleichspannungsmäßig / HF-mäßig (betrachten, entkoppeln) | (considered) as far as DC is concerned / for DC; (decoupled) as far as RF is concerned | as §14 *wechselspannungsmäßig*; *Gleichspannungsbetrachtung* (slides) → DC analysis (leistungsvertaerker) |
+| frei schwebendes Gate / unterer Zweig (Spannungsteiler) / Einstellwiderstand | floating gate / lower arm (of the potential divider) / preset resistor | leistungsvertaerker, AF421, AF424 |
+| Betriebsspannungszuführungen | supply lines | as §14 *Betriebsspannungsleitung* (leistungsvertaerker) |
+| Kurzwellen-Verstärker / Kurzwellen-Endstufe | HF amplifier / HF output stage | KW → HF (leistungsvertaerker, parasitaere_schwingungen); AF420 "LDMOS HF PA" |
+| TX-Anzeige / Parallel-Widerstand am Transformator | TX indicator / resistor in parallel with the transformer | parasitaere_schwingungen, AF416 |
+| ALC-Anzeige / Sendeleistungs-Anzeige / NF-Aussteuerung | ALC indicator / transmit power indicator / AF drive | alc |
+| TUNE-Taste / PWR-Regler / Handbuch (WSJTX) | TUNE button / PWR control / user guide | labels quoted as printed (alc indepth) |
+| Spalten der Anlage 1 AFuV: Frequenzbereiche / Maximale Leistung / Zusätzliche Nutzungsbestimmungen gemäß B | "Frequency ranges" (*Frequenzbereiche*) / "Maximum power" (*Maximale Leistung*) / "Additional conditions of use under B" (*Zusätzliche Nutzungsbestimmungen gemäß B*) | the examination aid is the German annex, so the heading to look for follows in brackets, as the formula-sheet keywords (DECISIONS.md) (ausgangsleistung) |
+| Hüllkurvenspitzenleistung | (German term for PEP) | kept as information about German usage: "The rarely used German term for PEP is *Hüllkurvenspitzenleistung*" (ausgangsleistung); §7 *Spitzenleistung (PEP) / Hüllkurvenspitzenleistung* → peak envelope power |
+| effektive Wirkleistung … während einer Periode … (Definition der PEP) / im Mittel an einen reellen Abschlusswiderstand | average real power … during one cycle … / the average power … into a resistive termination | as EB501 (ausgangsleistung, senderausgangsleistung) |
+| HF-Tastkopf / HF-Messkopf | RF probe / RF measuring head | AI605, AI608 (sender_messungen) |
+| Forward-Spannung (Diode) | forward voltage | as §4 *Durchlassspannung* (sender_messungen) |
+| Senderabschluss | transmitter termination | sender_messungen |
+| Spannungsverdoppler / Spitze-Spitze-Detektor / doppelte Spitzenwertgleichrichtung | voltage doubler / peak-to-peak detector / double peak rectification (rectifier) | AI606, AI607 (sender_messungen) |
+| berechnet (in Lösungsfolien, neben *gegeben / gesucht*) | calculated | sender_messungen slides |
+| auf den Holzweg geraten | go astray | AF414 |
+| (Emitter) unbeschaltet | no external circuitry (at the emitter) | as §13 *Beschaltung* (AF414) |
 
 ## 15. Catalogue structure
 

@@ -1,39 +1,39 @@
-Ein ideales rein sinusförmiges Signal besteht nur aus seiner *Grundwelle* welche auch *1. Harmonische* genannt wird. Sobald ein Signal nicht mehr der Sinusform entspricht und auch nur leicht davon abweicht, enthält das Signal *ganzzahlige Vielfache* seiner Grundschwingung, die auch *Oberwellen oder Oberschwingungen* genannt werden. Hierbei ist es wichtig zwischen den beiden Begriffen Oberwellen und Harmonischen zu differenzieren.
+An ideal, purely sinusoidal signal consists only of its *fundamental*, which is also called the *1st harmonic*. As soon as a signal no longer has the shape of a sine wave, even if it departs from it only slightly, the signal contains *integer multiples* of its fundamental, which are also called *overtones* (in German *Oberwellen* or *Oberschwingungen*). It is important here to distinguish between the two terms overtone and harmonic.
 
-Die Abbildung [ref:zusammenhang_oberwellen_harmonische] und die Tabelle [ref:a_harmonische] zeigt den Zusammenhang zwischen Oberwellen und Harmonischen, den man sich nur einmal einprägen muss. Die 1. Oberwelle entspricht hierbei der 2. Harmonischen der Grundschwingung und befindet sich auf der doppelten Frequenz der Grundschwingung. Die 2. Oberwelle entspricht der 3. Harmonischen der Grundschwingung und befindet sich auf der dreifachen Frequenz der Grundschwingung. Nach diesem Prinzip werden alle Harmonischen und Oberwellen auf die Grundwelle bezogen und mit einer Ordnungszahl $N$ durchnummeriert.
+Figure [ref:zusammenhang_oberwellen_harmonische] and Table [ref:a_harmonische] show the relationship between overtones and harmonics, which you only need to memorise once. The 1st overtone corresponds to the 2nd harmonic of the fundamental and lies at twice the frequency of the fundamental. The 2nd overtone corresponds to the 3rd harmonic of the fundamental and lies at three times the frequency of the fundamental. On this principle, all harmonics and overtones are referred to the fundamental and numbered with an ordinal number $N$.
 
 <margin>
-[picture:869:zusammenhang_oberwellen_harmonische:Zusammenhang zwischen Oberwellen und Harmonischen]
+[picture:869:zusammenhang_oberwellen_harmonische:Relationship between overtones and harmonics]
 
-| l: Vielfaches der Grundfrequenz | l: Harmonische | l: Oberwelle |
+| l: Multiple of the fundamental frequency | l: Harmonic | l: Overtone |
 | $f_0$ | 1 | ~ |
 | $2 \cdot f_0$ | 2 | 1 |
 | $3 \cdot f_0$ | 3 | 2 |
 | $4 \cdot f_0$ | 4 | 3 |
-[table:a_harmonische:Harmonische und Oberwellen]
+[table:a_harmonische:Harmonics and overtones]
 </margin>
 
 <indepth>
-Je nach Art der Verzerrung eines Signals entstehen im Verhältnis mehr geradzahlige oder ungeradzahlige Oberwellen in dessen Frequenzspektrum. Rechteckförmige Signale, welche z.B. durch Übersteuerung von Verstärkerstufen entstehen (hierbei werden die Spitzen der Amplituden begrenzt und abgeflacht), enthalten ungeradzahlige Harmonische bzw. geradzahlige Oberwellen.
+Depending on the kind of distortion of a signal, relatively more even or more odd overtones appear in its frequency spectrum. Square-wave signals, which arise e.g. from overdriving amplifier stages (the peaks of the amplitude are limited and flattened), contain odd harmonics, that is, even overtones.
 
 <webonly>
 [include:applet_rectangle]
 
-An den Sprungstellen zeigt die Fourier-Näherung das sogenannte Gibbs-Phänomen: Selbst bei sehr vielen Harmonischen bleibt dort ein kleines Über- und Unterschwingen bestehen.
+At the discontinuities the Fourier approximation shows what is known as the Gibbs phenomenon: even with a very large number of harmonics, a small overshoot and undershoot remains there.
 </webonly>
 
-Sägezahnförmige Signale enthalten überwiegend geradzahlige Harmonische bzw. ungeradzahlige Oberwellen.
+Sawtooth signals contain mainly even harmonics, that is, odd overtones.
 </indepth>
 
 [question:AB403]
 [question:AB401]
 [question:AB402]
 
-Ist die Grundfrequenz eines Signals bekannt, ergibt sich die Frequenz der $N$-ten Harmonischen durch Multiplikation der Grundfrequenz mit der Ordnungszahl $N$:
+If the fundamental frequency of a signal is known, the frequency of the $N$th harmonic is found by multiplying the fundamental frequency by the ordinal number $N$:
 
 $f_N = N \cdot f_0$
 
-Für die $N$-te Oberwelle gilt dagegen:
+For the $N$th overtone, on the other hand:
 
 $f_\mathrm{Oberwelle,N} = (N+1)\cdot f_0$
 
@@ -42,7 +42,7 @@ $f_\mathrm{Oberwelle,N} = (N+1)\cdot f_0$
 [question:AJ202]
 [question:AJ206]
 
-Auch wenn ein Signal auf dem Oszilloskop zunächst sinusförmig erscheint, kann das Signal trotzdem nennenswerte Oberwellenanteile (bzw. Harmonische der Grundwelle) enthalten. Um den Oberwellenanteil eines Signals quantitativ und qualitativ beurteilen zu können benötigt man einen *Spektrumanalysator* der das Signal im Frequenzbereich (Frequency-Domain) darstellen kann und hierbei die Amplitudenwerte der einzelnen Oberwellen logarithmisch darstellen kann, so dass deren Anteile am Gesamtsignal messbar sind.
+Even if a signal at first looks sinusoidal on the oscilloscope, it can still contain significant overtones (or harmonics of the fundamental). To assess the harmonic content of a signal quantitatively and qualitatively, you need a *spectrum analyser*, which can display the signal in the frequency domain and show the amplitudes of the individual harmonics on a logarithmic scale, so that their share of the total signal can be measured.
 
 [question:AI615]
 [question:AI614]

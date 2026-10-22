@@ -1,75 +1,75 @@
-Dioden haben wir bereits in verschiedenen Schaltungen kennengelernt. Nun betrachten wir, wie ihre nichtlineare Kennlinie genutzt werden kann, um ein hochfrequentes Trägersignal mit einem niederfrequenten Nutzsignal zu modulieren.
+We have already met diodes in various circuits. Now we look at how their non-linear characteristic can be used to modulate a radio-frequency carrier signal with an audio-frequency information signal.
 
-Werden ein HF-Signal und ein NF-Signal gemeinsam, wie in Abbildung [ref:a_am_modulator] gezeigt, einer Diode zugeführt, beeinflusst die NF-Spannung die Leitfähigkeit der Diode. Dadurch wird das HF-Signal abhängig vom momentanen Wert der NF unterschiedlich stark übertragen. Seine Amplitude verändert sich somit im Takt des NF-Signals.
+If an RF signal and an AF signal are fed to a diode together, as shown in Figure [ref:a_am_modulator], the AF voltage affects the conductivity of the diode. As a result, the RF signal is passed on more or less strongly, depending on the instantaneous value of the AF. Its amplitude therefore varies in step with the AF signal.
 
-Am Ausgang entstehen dadurch neben dem ursprünglichen HF-Träger zwei Seitenbänder oberhalb und unterhalb der Trägerfrequenz. Ein auf die Trägerfrequenz abgestimmter Schwingkreis unterdrückt unerwünschte weitere Frequenzanteile. Am Ausgang erhält man damit ein amplitudenmoduliertes Signal (AM).
+As a result, two sidebands, above and below the carrier frequency, appear at the output besides the original RF carrier. A tuned circuit resonant at the carrier frequency suppresses further, unwanted frequency components. The output is then an amplitude-modulated (AM) signal.
 
 <margin>
-[picture:772:a_am_modulator:Simpler AM-Modulator mit Diode und Schwingkreis]
+[picture:772:a_am_modulator:Simple AM modulator with diode and tuned circuit]
 </margin>
 
 <webonly>
-Die folgende Simulation zeigt die Funktionsweise des AM-Modulators, die Werte wurden so gewählt, dass die HF und NF gut zu erkennen sind. Die NF liegt bei $\qty{500}{\hertz}$, die HF bei $\qty{10}{\kilo\hertz}$. Die Amplitude des HF-Signals wird im Takt der NF verändert. Der Schwingkreis ist auf die Trägerfrequenz abgestimmt und unterdrückt unerwünschte Frequenzanteile. Wenn man den Schwingkreis entfernt, sieht man eine Vielzahl von Mischprodukten. Auch kann man mal die NF-Frequenz auf $\qty{1}{\kilo\hertz}$ umstellen, um zu sehen, wie sich die Seitenbänder verschieben.
+The following simulation shows how the AM modulator works; the values have been chosen so that the RF and the AF can be seen clearly. The AF is at $\qty{500}{\hertz}$, the RF at $\qty{10}{\kilo\hertz}$. The amplitude of the RF signal is varied in step with the AF. The tuned circuit is tuned to the carrier frequency and suppresses unwanted frequency components. If you remove the tuned circuit, you will see a large number of mixing products. You can also try changing the AF frequency to $\qty{1}{\kilo\hertz}$ to see how the sidebands shift.
 
 [include:applet_am_modulator]
 </webonly>
 
 <indepth>
-Ein AM-Signal lässt sich auch mathematisch beschreiben. Dazu betrachten wir zunächst ein normiertes sinusförmiges NF-Signal
+An AM signal can also be described mathematically. To do this, we first consider a normalised sinusoidal AF signal
 
 $m(t)=\cos(\omega t)$
 
-mit der Kreisfrequenz $\omega=2\pi f_\mathrm{m}$. Mit seiner Amplitude $\hat U_\mathrm{m}$ und einem zusätzlichen Gleichanteil $U_\mathrm{G}$ ergibt sich
+with the angular frequency $\omega=2\pi f_\mathrm{m}$. With its amplitude $\hat U_\mathrm{m}$ and an additional DC component $U_\mathrm{G}$ this gives
 
 $U_\mathrm{m}(t)=U_\mathrm{G}+\hat U_\mathrm{m}\cdot\cos(\omega t)$
 
-Dieses Signal wird nun mit dem hochfrequenten Trägersignal
+This signal is now multiplied by the radio-frequency carrier signal
 
 $U_\mathrm{T}(t)=\cos(\Omega t)$
 
-mit $\Omega=2\pi f_\mathrm{T}$ multipliziert. Für das AM-Signal folgt damit:
+with $\Omega=2\pi f_\mathrm{T}$. For the AM signal this gives:
 
 $U_\mathrm{AM}(t)=\left(U_\mathrm{G}+\hat U_\mathrm{m}\cdot\cos(\omega t)\right)\cdot\cos(\Omega t)$
 
-Ausmultipliziert ergibt sich:
+Multiplying out gives:
 
 $U_\mathrm{AM}(t)=U_\mathrm{G}\cdot\cos(\Omega t)+\hat U_\mathrm{m}\cdot\cos(\omega t)\cdot\cos(\Omega t)$
 
-Mit der Beziehung
+With the relationship
 
 $\cos(a)\cdot\cos(b)=\frac{1}{2}\left(\cos(a+b)+\cos(a-b)\right)$
 
-kann der zweite Term weiter zerlegt werden:
+the second term can be broken down further:
 
 $U_\mathrm{AM}(t)=U_\mathrm{G}\cdot\cos(\Omega t)+\frac{\hat U_\mathrm{m}}{2}\left(\cos((\Omega+\omega)t)+\cos((\Omega-\omega)t)\right)$
 
-Damit erkennt man unmittelbar die drei Bestandteile eines AM-Signals: Der erste Term beschreibt den *Träger* bei der Frequenz $\Omega$. Die beiden anderen Terme bilden das *obere und untere Seitenband* bei den Frequenzen $\Omega+\omega$ und $\Omega-\omega$.
+This shows at once the three components of an AM signal: the first term describes the *carrier* at the frequency $\Omega$. The two other terms form the *upper and lower sidebands* at the frequencies $\Omega+\omega$ and $\Omega-\omega$.
 
-Der Gleichanteil $U_\mathrm{G}$ ist dabei dafür verantwortlich, dass der Träger erhalten bleibt. Selbst wenn das Nutzsignal momentan null ist, wird weiterhin ein Trägersignal erzeugt.
+The DC component $U_\mathrm{G}$ is what keeps the carrier present. Even when the information signal is momentarily zero, a carrier signal is still generated.
 
-[picture:1127:a_am_modulation:Spektrum eines AM-Signals mit Träger und zwei Seitenbändern]
+[picture:1127:a_am_modulation:Spectrum of an AM signal with carrier and two sidebands]
 
 </indepth>
 
-Dieses Prinzip wird in der folgenden Frage deutlich: Eine Diode wird mit einem NF-Signal und einem HF-Signal gleichzeitig beaufschlagt und das Ausgangs-Signal wird mit einem LC-Schwingkreis ausgefiltert.
+This principle becomes clear in the following question: a diode is fed with an AF signal and an RF signal at the same time, and the output signal is filtered with an LC tuned circuit.
 
 [question:AD507]
 
 ---
 
-Mit vier Dioden in einer Ringanordnung lässt sich ein Modulator so aufbauen, dass der Träger am Ausgang unterdrückt wird. Eine solche Schaltung haben wir bereits im Kapitel „Mischer II“ als *Balancemischer* kennengelernt. Dort wurde sie verwendet, um ein HF-Signal auf eine Zwischenfrequenz umzusetzen. Im Sender nutzen wir dasselbe Grundprinzip nun zur Erzeugung eines modulierten Signals.
+With four diodes in a ring arrangement, a modulator can be built in such a way that the carrier is suppressed at the output. We have already met such a circuit as the *balanced mixer* in the second chapter on mixers. There it was used to convert an RF signal to an intermediate frequency. In the transmitter we now use the same basic principle to generate a modulated signal.
 
 <margin>
-[picture:759:a_balancemodulator:Balancemodulator mit Diodenring]
+[picture:759:a_balancemodulator:Balanced modulator with diode ring]
 </margin>
 
-Man erkennt einen Balancemischer beziehungsweise Balancemodulator typischerweise an dem Diodenring, wie er in Abbildung [ref:a_balancemodulator] dargestellt ist. Der Diodenring wird vom Oszillatorsignal $f_\mathrm{OSZ}$ angesteuert. Je nach Polarität des Oszillatorsignals leitet jeweils eines der beiden gegenüberliegenden Diodenpaare.
+A balanced mixer or balanced modulator can typically be recognised by the diode ring, as shown in Figure [ref:a_balancemodulator]. The diode ring is driven by the oscillator signal $f_\mathrm{OSZ}$. Depending on the polarity of the oscillator signal, one or the other of the two opposite pairs of diodes conducts.
 
-Dadurch wird das NF-Signal abwechselnd mit gleicher oder umgekehrter Polarität zum Ausgang übertragen. Vereinfacht betrachtet wird das NF-Signal also mit dem Oszillatorsignal multipliziert.
+As a result, the AF signal is passed to the output alternately with the same and with reversed polarity. In simplified terms, the AF signal is therefore multiplied by the oscillator signal.
 
-Der entscheidende Vorteil der symmetrischen Schaltung ist die *Trägerunterdrückung*: Die Anteile des Oszillatorsignals heben sich am Ausgang idealerweise gegenseitig auf. Ohne NF-Signal entsteht deshalb kein Ausgangssignal. Wird ein NF-Signal angelegt, entstehen dagegen das obere und das untere Seitenband, während der Träger unterdrückt bleibt.
+The decisive advantage of the balanced circuit is *carrier suppression*: ideally, the components of the oscillator signal cancel each other out at the output. Without an AF signal there is therefore no output signal. When an AF signal is applied, on the other hand, the upper and the lower sideband are produced, while the carrier remains suppressed.
 
-Das Ausgangssignal wird als *Doppelseitenband-Signal mit unterdrücktem Träger* (DSB) bezeichnet.
+The output signal is called a *double-sideband suppressed-carrier signal* (DSB).
 
 [question:AE206]
 [question:AF302]
@@ -77,37 +77,37 @@ Das Ausgangssignal wird als *Doppelseitenband-Signal mit unterdrücktem Träger*
 [question:AD510]
 
 <indepth>
-Die Trägerunterdrückung eines Balancemodulators lässt sich vereinfacht mit zwei symmetrischen Zweigen beschreiben:
+The carrier suppression of a balanced modulator can be described, in simplified form, by two symmetrical branches:
 
 $u_1(t)=\left(U_G+\hat U_\mathrm{m}\cos(\omega t)\right)\cos(\Omega t)$
 
 $u_2(t)=\left(U_G-\hat U_\mathrm{m}\cos(\omega t)\right)\cos(\Omega t)$
 
-Am Ausgang werden beide Signale voneinander abgezogen:
+At the output, one signal is subtracted from the other:
 
 $u_\mathrm{out}(t)=u_1(t)-u_2(t)$
 
-Damit ergibt sich:
+This gives:
 
 $u_\mathrm{out}(t)=U_G\cos(\Omega t)+\hat U_\mathrm{m}\cos(\omega t)\cos(\Omega t)-U_G\cos(\Omega t)+\hat U_\mathrm{m}\cos(\omega t)\cos(\Omega t)$
 
-Die beiden Trägeranteile $U_G\cos(\Omega t)$ heben sich auf. Übrig bleibt:
+The two carrier components $U_G\cos(\Omega t)$ cancel. What remains is:
 
 $u_\mathrm{out}(t)=2\hat U_\mathrm{m}\cos(\omega t)\cos(\Omega t)$
 
-Mit $\cos(a)\cos(b)=\frac{1}{2}\left(\cos(a+b)+\cos(a-b)\right)$ folgt:
+With $\cos(a)\cos(b)=\frac{1}{2}\left(\cos(a+b)+\cos(a-b)\right)$ it follows that:
 
 $u_\mathrm{out}(t)=\hat U_\mathrm{m}\left(\cos((\Omega+\omega)t)+\cos((\Omega-\omega)t)\right)$
 
-Das Ausgangssignal enthält damit nur noch das obere und das untere Seitenband. Der Träger bei $\Omega$ ist unterdrückt.
+The output signal therefore contains only the upper and the lower sideband. The carrier at $\Omega$ is suppressed.
 </indepth>
 
 ---
 
-Damit sich das Oszillatorsignal am Ausgang möglichst vollständig aufhebt, muss die Schaltung symmetrisch, also *ausbalanciert*, sein. Bereits kleine Unterschiede in Amplitude oder Phase zwischen den beiden Signalwegen führen dazu, dass ein Rest des Trägers am Ausgang verbleibt. Die Amplitudensymmetrie kann beispielsweise mit einem Potentiometer abgeglichen werden. Für den Phasenabgleich wird in manchen Schaltungen zusätzlich ein Trimmkondensator verwendet. Ziel des Abgleichs ist eine möglichst hohe Trägerunterdrückung, während die beiden Modulationsseitenbänder erhalten bleiben.
+For the oscillator signal to cancel out as completely as possible at the output, the circuit must be symmetrical, that is, *balanced*. Even small differences in amplitude or phase between the two signal paths leave a remnant of the carrier at the output. The amplitude balance can be adjusted with a potentiometer, for example. For the phase adjustment, some circuits also use a trimmer capacitor. The aim of the adjustment is the highest possible carrier suppression, while the two modulation sidebands are retained.
 
 <webonly>
-Das folgende Applet zeigt den Trägerabgleich. Wenn der Regler auf der rechten Seite verschoben wird, zeigt sich der Träger plötzlich im Spektrum. 
+The following applet shows the carrier balancing. When the slider on the right-hand side is moved, the carrier suddenly appears in the spectrum. 
 
 [include:applet_dsp]
 </webonly>
@@ -116,10 +116,10 @@ Das folgende Applet zeigt den Trägerabgleich. Wenn der Regler auf der rechten S
 
 ---
 
-Der Balancemodulator bildet die erste Stufe eines SSB-Modulators und erzeugt ein DSB-Signal. Hinter dem Balancemodulator folgt als zweite Stufe ein schmalbandiges Bandpassfilter, wie in Abbildung [ref:a_ssb_modulation]. Es lässt nur eines der beiden Seitenbänder passieren und unterdrückt das jeweils andere. Am Ausgang entsteht dadurch ein Einseitenband-Signal (SSB).
+The balanced modulator forms the first stage of an SSB modulator and generates a DSB signal. It is followed, as the second stage, by a narrowband band-pass filter, as in Figure [ref:a_ssb_modulation]. This lets only one of the two sidebands through and suppresses the other. The result at the output is a single-sideband (SSB) signal.
 
 <margin>
-[picture:500:a_ssb_modulation:Blockschaltbild zur Modulation von SSB mit der Filtermethode]
+[picture:500:a_ssb_modulation:Block diagram of SSB modulation by the filter method]
 </margin>
 
 [question:AF306]
@@ -129,22 +129,22 @@ Der Balancemodulator bildet die erste Stufe eines SSB-Modulators und erzeugt ein
 
 ---
 
-Eine gute Implementierung für ein Funkgerät, das sowohl USB als auch LSB erzeugen soll, besteht darin, das Bandpassfilter fest auf einen bestimmten Frequenzbereich auszulegen. Ob das obere oder das untere Seitenband ausgefiltert wird, wird nicht durch eine Änderung des Filters bestimmt, sondern durch die Frequenz des Oszillators im Balancemodulator. Dazu stehen zwei unterschiedliche Quarzoszillatoren zur Verfügung.
+A good implementation for a radio that is to generate both USB and LSB is to design the band-pass filter for one fixed frequency range. Whether the upper or the lower sideband is filtered out is not decided by changing the filter but by the frequency of the oscillator in the balanced modulator. For this purpose, two different crystal oscillators are provided.
 
-Wird beispielsweise für USB die Oszillatorfrequenz $\qty{8998,5}{\kilo\hertz}$ gewählt, entstehen durch die Modulation zwei Seitenbänder. Das obere Seitenband wird dabei genau in den Durchlassbereich des konstanten Filters verschoben, während das untere Seitenband außerhalb des Durchlassbereichs liegt und unterdrückt wird.
+If, for example, the oscillator frequency $\qty{8998.5}{\kilo\hertz}$ is chosen for USB, the modulation produces two sidebands. The upper sideband is shifted exactly into the passband of the fixed filter, while the lower sideband lies outside the passband and is suppressed.
 
-Für LSB wird auf die andere Quarzfrequenz von $\qty{9001,5}{\kilo\hertz}$ umgeschaltet. Dadurch verschiebt sich das gesamte DSB-Spektrum so, dass nun das untere Seitenband in den Durchlassbereich desselben Filters fällt und das obere Seitenband unterdrückt wird.
+For LSB, the radio switches to the other crystal frequency, $\qty{9001.5}{\kilo\hertz}$. This shifts the whole DSB spectrum so that the lower sideband now falls into the passband of the same filter and the upper sideband is suppressed.
 
-Der entscheidende Trick besteht also darin, das Filter unverändert zu lassen und stattdessen durch unterschiedliche Oszillatorfrequenzen die Lage des DSB-Signals zu verschieben. Ähnlich wie bei der Zwischenfrequenz eines Empfängers kann dadurch ein fest abgestimmtes, hochwertiges Filter für unterschiedliche Frequenzlagen genutzt werden.
+The decisive trick, then, is to leave the filter unchanged and instead to shift the position of the DSB signal by using different oscillator frequencies. As with the intermediate frequency of a receiver, this allows one high-quality filter, tuned to a fixed frequency, to be used for different frequency positions.
 
 [question:AF307]
 
 <margin>
 <latexonly>
-[picture:831:a_ssb_modulation_lsb:Frequenzen mit der Filtermethode bei LSB]
-[picture:940:a_ssb_modulation_lsb:Spektrum mit der Filtermethode bei LSB]
-[picture:832:a_ssb_modulation_usb:Frequenzen mit der Filtermethode bei USB]
-[picture:941:a_ssb_modulation_usb:Spektrum mit der Filtermethode bei USB]
+[picture:831:a_ssb_modulation_lsb:Frequencies with the filter method for LSB]
+[picture:940:a_ssb_modulation_lsb:Spectrum with the filter method for LSB]
+[picture:832:a_ssb_modulation_usb:Frequencies with the filter method for USB]
+[picture:941:a_ssb_modulation_usb:Spectrum with the filter method for USB]
 </latexonly>
 <webonly>
 [include:applet_dsp_filter]
@@ -153,14 +153,14 @@ Der entscheidende Trick besteht also darin, das Filter unverändert zu lassen un
 
 ---
 
-Für die Erzeugung eines frequenzmodulierten Signals (FM) kann eine *Kapazitätsdiode* verwendet werden. Sie ist in Schaltplänen an dem kleinen Kondensatorsymbol neben der Diode zu erkennen, wie in Abbildung [ref:a_fm_modulator].
+A *varactor diode* can be used to generate a frequency-modulated (FM) signal. In circuit diagrams it can be recognised by the small capacitor symbol next to the diode, as in Figure [ref:a_fm_modulator].
 
-Eine Kapazitätsdiode wird in Sperrrichtung betrieben. Ihre Kapazität hängt dabei von der anliegenden Sperrspannung ab. Wird sie als Teil des frequenzbestimmenden Schwingkreises eines Oszillators eingesetzt, verändert eine Änderung dieser Spannung die Resonanzfrequenz des Schwingkreises und damit die Frequenz des Oszillators.
+A varactor diode is operated in the reverse direction. Its capacitance depends on the reverse voltage applied. If it is used as part of the frequency-determining tuned circuit of an oscillator, a change in this voltage changes the resonant frequency of the tuned circuit and thus the frequency of the oscillator.
 
-Zur Frequenzmodulation wird der Gleichspannung an der Kapazitätsdiode das NF-Signal überlagert. Dadurch ändert sich ihre Kapazität im Takt des NF-Signals und die Oszillatorfrequenz wird entsprechend nach oben und unten verschoben. Auf diese Weise entsteht ein frequenzmoduliertes Signal.
+For frequency modulation, the AF signal is superimposed on the DC voltage across the varactor diode. Its capacitance then changes in step with the AF signal, and the oscillator frequency is shifted up and down accordingly. In this way a frequency-modulated signal is produced.
 
 <margin>
-[picture:155:a_fm_modulator:FM-Modulator mit Kapazitäts-Diode]
+[picture:155:a_fm_modulator:FM modulator with varactor diode]
 </margin>
 
 [question:AD508]
@@ -168,11 +168,11 @@ Zur Frequenzmodulation wird der Gleichspannung an der Kapazitätsdiode das NF-Si
 
 ---
 
-Mit großen NF-Spannungen kann man leicht viel größere Frequenzänderungen des Oszillators bewirken (FM-„Hub“) als zulässig. Daher ist eine „Hub“-Begrenzung durch eine Einstellung und Begrenzung der NF-Amplitude notwendig. Antiparallel geschaltete Dioden begrenzen die Spannung auf etwa die Dioden-Knickspannung. Ein Beispiel zeigen die Abbildungen [ref:a_fm_modulator_hub1] und [ref:a_fm_modulator_hub2].
+With large AF voltages it is easy to cause much larger changes in the oscillator frequency (FM "deviation") than are permitted. "Deviation" limiting, by setting and limiting the AF amplitude, is therefore necessary. Diodes connected in inverse parallel limit the voltage to about the knee voltage of the diodes. Figures [ref:a_fm_modulator_hub1] and [ref:a_fm_modulator_hub2] show an example.
 
 <margin>
-[picture:44:a_fm_modulator_hub1:Schaltung zur Hub-Begrenzung]
-[picture:828:a_fm_modulator_hub2:Begrenzung des Signals]
+[picture:44:a_fm_modulator_hub1:Circuit for deviation limiting]
+[picture:828:a_fm_modulator_hub2:Limiting of the signal]
 </margin>
 
 [question:AD509]

@@ -1,37 +1,37 @@
-### Halbleiter-Dioden in Modulatoren
+### Semiconductor diodes in modulators
 
-* Bisher als Gleichrichter bekannt
-* NF-Spannung ändert den Diodenwiderstand
-* NF-Signal steuert den Diodenstrom
-* HF-Signal wird im Takt des NF-Signals moduliert
-* Einfachste Variante hat einen Träger und zwei Seitenbänder
+* Known so far as rectifiers
+* AF voltage changes the diode resistance
+* AF signal controls the diode current
+* RF signal is modulated in step with the AF signal
+* Simplest version has a carrier and two sidebands
 
 ---
-### Diode im Amplitudenmodulator
+### Diode in an amplitude modulator
 <left>
-[picture:772:a_modulatoren_am_modulator:AM-Modulator]
+[picture:772:a_modulatoren_am_modulator:AM modulator]
 </left>
 <right>
-* Eine Diode wird gleichzeitig mit einem NF- und HF-Signal beaufschlagt
-* Ein LC-Schwingkreis filtert das Ausgangssignal
+* A diode is fed with an AF and an RF signal at the same time
+* An LC tuned circuit filters the output signal
 </right>
 
 ---
 [question:AD507]
 
 ---
-### Balancemischer zur Trägerunterdrückung
-* Vier Dioden in Ring-Anordnung unterdrücken den Träger
-* Eine Gegentakt-Schaltung hebt Trägersignale auf
-* Es bleiben nur die Seitenbänder übrig
-* Bereits im Kapitel "Mischer II" als Balancemischer gezeigt
+### Balanced mixer for carrier suppression
+* Four diodes in a ring arrangement suppress the carrier
+* A push-pull circuit cancels the carrier signals
+* Only the sidebands remain
+* Already shown as the balanced mixer in the second chapter on mixers
 
 ---
-### Balancemodulator im SSB-Modulator
-* Der Balancemodulator erzeugt ein Doppelseitenband-Signal (DSB)
-* Ein Bandpassfilter lässt nur ein Seitenband durch
-* Daraus entsteht ein SSB-Signal
-* Zwei Stufen sind notwendig
+### Balanced modulator in the SSB modulator
+* The balanced modulator generates a double-sideband (DSB) signal
+* A band-pass filter lets only one sideband through
+* This produces an SSB signal
+* Two stages are needed
  
 ---
 [question:AE206]
@@ -40,57 +40,57 @@
 [question:AF302]
 
 ---
-### Erkennung eines Balancemischers
+### Recognising a balanced mixer
 <left>
-[picture:759:a_modulatoren_dsb:Modulator für AM-Signale mit unterdrücktem Träger]
+[picture:759:a_modulatoren_dsb:Modulator for AM signals with suppressed carrier]
 </left>
 <right>
-* Ein Dioden-Ring kennzeichnet den Balancemischer
-* Es gibt keine vollständige Gegentaktanregung
-* Ein Transformator liefert das Äquivalent zu einer Mittelanzapfung
+* A diode ring identifies the balanced mixer
+* There is no complete push-pull drive
+* A transformer provides the equivalent of a centre tap
 </right>
 
 ---
 [question:AF308]
 
 <note>
-* NF-Modulation wird in den Brückenzweig zwischen T2-Mittelanzapfung und Masse eingespeist
-* Das Oszillator-Signal wird über T1 in den Diodenring eingespeist
-* Das DSB-Signal wird über T2 ausgekoppelt
-* Ohne Modulation liegen die Spannungsteiler auf Masse
-* So wird der Träger unterdrückt
-* Mit Modulation verschiebt sich das Potential und Strom fließt in T2
-* Das Ausgangssignal entsteht
+* AF modulation is fed into the bridge diagonal between the T2 centre tap and chassis
+* The oscillator signal is fed into the diode ring via T1
+* The DSB signal is coupled out via T2
+* Without modulation the potential dividers are at chassis potential
+* In this way the carrier is suppressed
+* With modulation the potential shifts and current flows in T2
+* The output signal is produced
 </note>
 
 ---
-### Trägerunterdrückung und Ausbalancierung
+### Carrier suppression and balancing
 
-* Trägerunterdrückung bewirkt die Auslöschung unerwünschter Signale
-* Die Modulator-Schaltung muss ausbalanciert sein
+* Carrier suppression cancels unwanted signals
+* The modulator circuit must be balanced
 
 ---
 [question:AD510]
 
 ---
-### Justierung im Modulator
+### Adjustment in the modulator
 
 <left>
-[picture:762:a_modulatoren_rc_traegerunterdrueckung:$R_1$ und $C_1$ zur Einstellung der Trägerunterdrückung nach Betrag und Phase]
+[picture:762:a_modulatoren_rc_traegerunterdrueckung:$R_1$ and $C_1$ for adjusting the carrier suppression in magnitude and phase]
 </left>
 <right>
-* Amplituden werden mit Potis justiert
-* Phasen werden mit C-Trimmern eingestellt
+* Amplitudes are adjusted with potentiometers
+* Phases are set with trimmer capacitors
 </right>
 
 ---
 [question:AF309]
 
 ---
-### Symmetrierung im Modulator
+### Balancing the modulator
 
-* Der Modulator wird symmetriert um den Träger zu unterdrücken
-* Die Modulations-Seitenbänder bleiben erhalten
+* The modulator is balanced to suppress the carrier
+* The modulation sidebands are retained
 
 ---
 [question:AF304]
@@ -99,30 +99,30 @@
 [question:AF303]
 
 ---
-### Zweite Stufe des SSB-Modulators
+### Second stage of the SSB modulator
 
 <left>
-[picture:98:a_modulatoren_blockschaltbild_sender:Blockschaltbild eines Senders]
+[picture:98:a_modulatoren_blockschaltbild_sender:Block diagram of a transmitter]
 </left>
 <right>
-* Hinter dem Balancemodulator folgt die zweite Stufe
-* Durch Filterung wird das gewünschte Seitenband gewählt
+* The balanced modulator is followed by the second stage
+* Filtering selects the wanted sideband
 </right>
 
 ---
 [question:AF305]
 
 ---
-### Quarz-Frequenz und Seitenbandlage
+### Crystal frequency and sideband position
 
 <left>
-[picture:500:a_modulatoren_quarzfilter:Quarzfilter zur Auswahl des Seitenbands]
+[picture:500:a_modulatoren_quarzfilter:Crystal filter for selecting the sideband]
 </left>
 <right>
-* Quarze bestimmen die Frequenz des unterdrückten Trägers
-* Beim LSB liegt der Träger $\qty{1,5}{\kilo\hertz}$ über der $\qty{9}{\mega\hertz}$-Mitte
-* Bei maximal $\qty{3}{\kilo\hertz}$ NF liegt das LSB $\qty{1,5}{\kilo\hertz}$ unter der Mitte
-* Für das USB gilt das umgekehrt
+* Crystals determine the frequency of the suppressed carrier
+* For LSB the carrier lies $\qty{1.5}{\kilo\hertz}$ above the $\qty{9}{\mega\hertz}$ centre
+* With at most $\qty{3}{\kilo\hertz}$ of AF, the LSB lies $\qty{1.5}{\kilo\hertz}$ below the centre
+* For USB it is the other way round
 </right>
 
 ---
@@ -131,62 +131,62 @@
 ---
 [question:AF307]
 ---
-#### Lösungsweg
-* gegeben: $f_Q = \qty{9}{\mega\hertz}$
-* gegeben: $f_{LSB} = \qty{9,0015}{\mega\hertz}$
-* gesucht: $f_{USB}$
+#### Solution
+* given: $f_Q = \qty{9}{\mega\hertz}$
+* given: $f_{LSB} = \qty{9.0015}{\mega\hertz}$
+* required: $f_{USB}$
 
 <fragment>
-$\begin{split}f_{USB} &= f_Q - (f_{LSB} - f_Q)\\ &= \qty{9}{\mega\hertz} - (\qty{9,0015}{\mega\hertz} - \qty{9}{\mega\hertz})\\ &= \qty{9}{\mega\hertz} - \qty{0,0015}{\mega\hertz}\\ &=\qty{8,9985}{\mega\hertz}\end{split}$ 
+$\begin{split}f_{USB} &= f_Q - (f_{LSB} - f_Q)\\ &= \qty{9}{\mega\hertz} - (\qty{9.0015}{\mega\hertz} - \qty{9}{\mega\hertz})\\ &= \qty{9}{\mega\hertz} - \qty{0.0015}{\mega\hertz}\\ &=\qty{8.9985}{\mega\hertz}\end{split}$ 
 </fragment>
 
 ---
-### Kapazitäts-Dioden in FM-Modulatoren
+### Varactor diodes in FM modulators
 
 <left>
-[picture:951:a_modulatoren_fm_modulator:FM-Modulator mit Varicap]
+[picture:951:a_modulatoren_fm_modulator:FM modulator with varicap]
 </left>
 <right>
-* FM-Modulatoren nutzen Kapazitäts-Dioden
-* Die Diode ist Teil eines Oszillator-Schwingkreises
-* Die Sperrspannung stellt eine feste Dioden-Kapazität ein
-* Ein NF-Signal ändert die Oszillator-Frequenz im Takt
+* FM modulators use varactor diodes
+* The diode is part of an oscillator tuned circuit
+* The reverse voltage sets a fixed diode capacitance
+* An AF signal changes the oscillator frequency in step with it
 </right>
 
 ---
 [question:AD508]
 
 ---
-### Einfluss der Kapazitäts-Diode
+### Influence of the varactor diode
 
 <left>
-[picture:158:a_modulatoren_fm_varicap:Varicap zur Beeinflussung Oszillator-Frequenz]
+[picture:158:a_modulatoren_fm_varicap:Varicap for varying the oscillator frequency]
 </left>
 <right>
-* Die Kapazitäts-Diode beeinflusst die Oszillator-Frequenz
-* Sie ist parallel zum Schwingkreis geschaltet
+* The varactor diode affects the oscillator frequency
+* It is connected in parallel with the tuned circuit
 </right>
 
 ---
 [question:AF310]
 
 ---
-### FM-Hub-Begrenzung
-* Hohe NF-Spannungen führen zu übermäßigen Frequenzänderungen
-* Eine Hub-Begrenzung ist notwendig
-* Anti-parallel geschaltete Dioden begrenzen die Spannung auf die Knickspannung
+### FM deviation limiting
+* High AF voltages lead to excessive frequency changes
+* Deviation limiting is necessary
+* Diodes connected in inverse parallel limit the voltage to the knee voltage
 
 ---
 [question:AD509]
 
 ---
-### Signal‑Analyse einer Diode
+### Signal analysis of a diode circuit
 <left>
-[picture:142:a_modulatoren_regelspannung:Schaltung mit einem Ausgang für eine Regelspannung]
+[picture:142:a_modulatoren_regelspannung:Circuit with an output for an AGC voltage]
 </left>
 <right>
-* Ein einzelnes Signal weist auf keinen Modulator hin
-* Ein Elko am Ausgang zeigt Gleichspannung an
+* A single signal does not point to a modulator
+* An electrolytic capacitor at the output indicates a DC voltage
 </right>
 
 ---

@@ -1,24 +1,24 @@
-Im vorherigen Kapitel haben wir bereits gelernt, dass für Funkamateure der Klasse N die Strahlungsleistung begrenzt ist, die eine Sendeantenne abgeben darf. Für die Klassen E und A hingegen ist auf den allermeisten Bändern nicht die Strahlungsleistung beschränkt, dafür aber die *Senderausgangsleistung*. Nur für einige wenige Frequenzbereiche gilt auch für die Klasse A eine Begrenzung der Strahlungsleistung.
+In the previous chapter we learnt that for Class N radio amateurs it is the radiated power that a transmitting antenna may emit that is limited. For Classes E and A, by contrast, on the great majority of bands it is not the radiated power that is limited but the *transmitter output power*. Only for a very few frequency ranges does a limit on the radiated power also apply to Class A.
 
-Die Senderausgangsleistung ist die Leistung, die ein Funkgerät am Antennenausgang abgibt, bevor Zusatzgeräte durchlaufen werden, wie z. B. ein externes SWR-Meter oder Anpassgeräte. Sie wird als sogenannte *peak envelope power (PEP)* angegeben. Für die Klasse N ist abweichend nicht die Senderausgangsleistung, sondern die tatsächlich von der Antenne abgegebene Strahlungsleistung maßgeblich. Wir werden darauf in einem späteren Kapitel zurückkommen, wenn wir uns im Zusammenhang mit dem Personenschutz die Strahlungsleistung von Antennen besprechen. Viele Funkgeräte verfügen über ein *Power-Meter*, das die aktuelle Senderausgangsleistung anzeigt. Es ist beispielsweise mit "P" oder "PO" oder "PWR" beschriftet.
+The transmitter output power is the power that a radio delivers at its antenna output before it passes through accessory equipment, such as an external SWR meter or matching units. It is given as what is known as the *peak envelope power (PEP)*. For Class N, by way of exception, it is not the transmitter output power that counts but the radiated power actually emitted by the antenna. We will come back to this in a later chapter, when we discuss the radiated power of antennas in connection with the protection of persons. Many radios have a *power meter*, which shows the current transmitter output power. It is labelled, for example, "P", "PO" or "PWR".
 
 <indepth>
-Um die peak envelope power (PEP) zu ermitteln, misst man - vereinfacht gesagt - am Senderausgang die durchschnittliche Leistung jeder einzelnen Periode der Hochfrequenzschwingung und verwendet dann den höchsten gemessenen Wert. In der Fachsprache nennt man dies die "effektive Wirkleistung am Ausgang einer Sendeendstufe während einer Periode der Hochfrequenzschwingung bei der höchsten Spitze der Modulationshüllkurve". Der selten verwendete deutsche Begriff für PEP ist Hüllkurvenspitzenleistung.
+To determine the peak envelope power (PEP), you measure – in simplified terms – the average power of each individual cycle of the RF oscillation at the transmitter output and then take the highest value measured. In technical language this is called "the average real power at the output of a transmitter output stage during one cycle of the RF oscillation at the highest crest of the modulation envelope". The rarely used German term for PEP is *Hüllkurvenspitzenleistung*.
 </indepth>
 
 [question:NF102]
 
 ---
 
-Die zulässige Senderausgangsleistung unterscheidet sich je nach Klasse und Frequenzbereich. Sie ist in der [Anlage 1 der Amateurfunkverordnung](https://50ohm.de/a1) festgelegt, die als Hilfsmittel bei der Prüfung vorliegt.
+The permitted transmitter output power differs according to class and frequency range. It is laid down in [Annex 1 to the Amateur Radio Ordinance (Amateurfunkverordnung, AFuV)](https://50ohm.de/a1), which is available as an aid in the examination.
 
 <margin>
-[photo:145:ausgangsleistung:Ausschnitt aus der Anlage 1 der Amateurfunkverordnung]
+[photo:145:ausgangsleistung:Extract from Annex 1 to the Amateur Radio Ordinance]
 </margin>
 
-Um die zulässige Sendeleistung aus der Anlage 1 zu ermitteln, sucht man zunächst anhand der Spalte "Frequenzbereiche" die richtige Zeile heraus. Dann kann man in der Spalte "Maximale Leistung" den Wert für die drei Klassen ablesen. Findet sich für eine Klasse kein Eintrag, darf diese Klasse den Frequenzbereich nicht verwenden.
+To find the permitted transmit power from Annex 1, you first look for the right row in the column "Frequency ranges" (*Frequenzbereiche*). You can then read off the value for the three classes in the column "Maximum power" (*Maximale Leistung*). If there is no entry for a class, that class may not use the frequency range.
 
-Wir empfehlen, die folgenden Fragen anhand der Anlage 1 zu beantworten, um Übung beim Ablesen der richtigen Werte zu bekommen.
+We recommend that you answer the following questions with the help of Annex 1, to get practice in reading off the right values.
 
 [question:VD727]
 [question:VD729]
@@ -29,7 +29,7 @@ Wir empfehlen, die folgenden Fragen anhand der Anlage 1 zu beantworten, um Übun
 [question:VD733]
 [question:VD734]
 
-Für den Frequenzbereich von $\qtyrange{1240}{1300}{\mega\hertz}$ gelten zusätzliche Regelungen, die nicht direkt in der Tabelle stehen. In der rechten Spalte "Zusätzliche Nutzungsbestimmungen gemäß B" kennzeichnen Zahlen ergänzende Angaben, die unter der Tabelle stehen. Für die folgende Frage ist der Punkt 11 zu beachten.
+For the frequency range from $\qtyrange{1240}{1300}{\mega\hertz}$, additional provisions apply that are not given directly in the table. In the right-hand column "Additional conditions of use under B" (*Zusätzliche Nutzungsbestimmungen gemäß B*), numbers mark supplementary information given below the table. For the following question, point 11 must be taken into account.
 
 [question:VD735]
 [question:VD736]

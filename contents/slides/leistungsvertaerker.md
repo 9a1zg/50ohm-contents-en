@@ -1,90 +1,90 @@
-## HF-Leistungsverstärker
+## RF power amplifiers
 
-* Verstärken das HF-Signal aus vorherigen Stufen
-* Ziel: Erreichen der gewünschten Ausgangsleistung
-* Zwei Typen: Breitbandige und selektive HF-Verstärker
+* Amplify the RF signal from the preceding stages
+* Aim: reaching the desired output power
+* Two types: broadband and selective RF amplifiers
 
 ---
-### Breitbandige HF-Verstärker
+### Broadband RF amplifiers
 
 <left>
-[picture:491:a_verstaerker_breitband_gegentaktverstaerker:Breitband-Gegentaktverstärker]
+[picture:491:a_verstaerker_breitband_gegentaktverstaerker:Broadband push-pull amplifier]
 </left>
 <right>
-* Gleichmäßige Verstärkung über einen weiten Frequenzbereich (z. B. $\qtyrange{1}{30}{\mega\hertz}$)
-* Erkennbar an breitbandigen Koppeltransformatoren
-* Keine Parallel- oder Serienkapazitäten als Schwingkreis
+* Uniform gain over a wide frequency range (e.g. $\qtyrange{1}{30}{\mega\hertz}$)
+* Recognisable by broadband coupling transformers
+* No parallel or series capacitances forming a tuned circuit
 </right>
 
 ---
 [question:AF412]
 
 ---
-### Selektive HF-Verstärker
+### Selective RF amplifiers
 
 
 <left>
-[picture:778:a_verstaerker_selektiver_hf_verstaerker:Selektiver HF-Verstärker]
+[picture:778:a_verstaerker_selektiver_hf_verstaerker:Selective RF amplifier]
 </left>
 <right>
-* Verstärkungsmaximum nur in einem schmalen Bereich (z. B. ein Amateurband)
-* Frequenzselektive Auslegung
-* Verwendung von Serien- oder Parallelschwingkreisen im HF-Signalpfad
+* Maximum gain only in a narrow range (e.g. one amateur band)
+* Frequency-selective design
+* Use of series or parallel tuned circuits in the RF signal path
 </right>
 
 ---
 [question:AF408]
 
 ---
-# Mehrstufige Verstärker
+# Multistage amplifiers
 
 
 <left>
-[picture:764:a_verstaerker_zweistufiger_breitband_hf_verstaerker:Zweistufiger Breitband-HF-Verstärker]
+[picture:764:a_verstaerker_zweistufiger_breitband_hf_verstaerker:Two-stage broadband RF amplifier]
 </left>
 <right>
-* Verstärker können mehrstufig durch Verkettung einzelner Stufen ausgeführt sein
+* Amplifiers can be built with several stages by chaining individual stages together
 </right>
 
 ---
 [question:AF413]
 
 ---
-## Impedanzanpassung zwischen Verstärkerstufen
+## Impedance matching between amplifier stages
 
-* Notwendig für maximale Verstärkung, minimale Verzerrung und optimalen Wirkungsgrad
-* Verhindert Reflexionen und Nichtlinearitäten
-
----
-### Methoden der Impedanzanpassung
-
-* Breitbandige Anpassung durch Transformator mit geeignetem Übersetzungsverhältnis
-* Frequenzselektive Anpassung durch angezapften Schwingkreis
+* Necessary for maximum gain, minimum distortion and optimum efficiency
+* Prevents reflections and non-linearities
 
 ---
+### Methods of impedance matching
 
-[picture:765:a_anpassung_breitbandige_anpassung:Breitbandige Anpassung zwischen zwei Stufen mittels Transformator mit geeignetem Übersetzungsverhältnis]
+* Broadband matching with a transformer with a suitable transformation ratio
+* Frequency-selective matching with a tapped tuned circuit
+
+---
+
+[picture:765:a_anpassung_breitbandige_anpassung:Broadband matching between two stages using a transformer with a suitable transformation ratio]
 
 ---
 [question:AF414]
 
 ---
 
-[picture:786:a_anpassung_mosfet:Breitbandige Ein- und Ausgangs-Anpassung auf niederohmige MOSFETs mittels Transformatoren]
+[picture:786:a_anpassung_mosfet:Broadband input and output matching to low-impedance MOSFETs using transformers]
 
 ---
 [question:AF417]
 
 ---
 
-[picture:779:a_anpassung_induktiver_spannungsteiler:Frequenzselektive Anpassung mit Spule als induktiver Spannungsteiler]
+[picture:779:a_anpassung_induktiver_spannungsteiler:Frequency-selective matching with an inductor as an inductive potential divider]
 
 ---
 [question:AF409]
 
 ---
 
-[picture:780:a_anpassung_kapazitiver_spannungsteiler:Frequenzselektive Anpassung mit Kondensator als kapazitiver Spannungsteiler]
+[picture:780:a_anpassung_kapazitiver_spannungsteiler:Frequency-selective matching with capacitors as a capacitive potential divider]
 
 
 ---
@@ -92,54 +92,54 @@
 
 ---
 
-[picture:768:a_anpassung_eingang_schwingkreis:Schwingkreis mit veränderbaren Kondensatoren zur Anpassung der Eingangsimpedanz]
+[picture:768:a_anpassung_eingang_schwingkreis:Tuned circuit with variable capacitors for matching the input impedance]
 
 ---
 [question:AF407]
 
 ---
 
-[picture:769:a_anpassung_ausgang_schwingkreis:Schwingkreis mit veränderbaren Kondensatoren zur Anpassung der Ausgangsimpedanz]
+[picture:769:a_anpassung_ausgang_schwingkreis:Tuned circuit with variable capacitors for matching the output impedance]
 
 ---
 [question:AF406]
 
 ---
-### Pi-Filter zur Impedanzanpassung
+### Pi filter for impedance matching
 
-* Passt Ein- und Ausgangsimpedanzen durch Verhältnis der Kapazitäten an
-* Spule definiert mit den Kapazitäten die Auslegungsfrequenz
-* Tiefpass-Charakter unterdrückt Oberwellen
+* Matches input and output impedances through the ratio of the capacitances
+* Inductor and capacitances determine the design frequency
+* Low-pass characteristic suppresses harmonics
 
 ---
 [question:AF405]
 
 ---
-### LC-Schaltung hinter HF-Leistungsverstärker
+### LC circuit after an RF power amplifier
 
-* Dient zur Impedanzanpassung und gleichzeitiger Unterdrückung von Oberwellen
+* Used for impedance matching and, at the same time, for suppressing harmonics
 
 ---
 [question:AF404]
 
 ---
-## Wirkungsgrad eines HF-Leistungsverstärkers
+## Efficiency of an RF power amplifier
 
-* Verhältnis zwischen abgegebener HF-Ausgangsleistung und zugeführter Gleichstrom-Versorgungsleistung
+* Ratio of the RF output power delivered to the DC supply power supplied
 
 ---
 [question:AF401]
 
 ---
-## BIAS-Spannung in Leistungsverstärkern
+## Bias voltage in power amplifiers
 
 <left>
-[picture:786:a_verstaerker_bias_arbeitspunkt:Arbeitspunktverstellung in einem Verstärker durch ein Poti]
+[picture:786:a_verstaerker_bias_arbeitspunkt:Adjusting the operating point of an amplifier with a potentiometer]
 </left>
 <right>
-* Betriebsspannungseinstellung durch Spannungsteiler
-* Feineinstellung über Trimmpotentiometer
-* Gleichspannungsbetrachtung: Kondensatoren ignorieren, Spulen als Kurzschluss betrachten
+* Operating voltage set by potential dividers
+* Fine adjustment with preset potentiometers
+* DC analysis: ignore capacitors, treat inductors as short circuits
 </right>
 
 ---
@@ -152,49 +152,49 @@
 [question:AF424]
 
 ---
-### Berechnung der BIAS-Spannung
+### Calculating the bias voltage
 
-* Anwendung des Ohmschen Gesetzes
-* Berücksichtigung von Parallel- und Serienschaltungen von Widerständen
-* Gate-Anschlüsse der Transistoren sind kapazitiv und bei Gleichspannungsbetrachtung vernachlässigbar
+* Applying Ohm's law
+* Taking into account parallel and series connections of resistors
+* Gate terminals of the transistors are capacitive and can be neglected in the DC analysis
 
 ---
 [question:AF421]
 
 --- style="font-size: smaller;"
-#### Lösungsweg
+#### Solution
 <left>
-* gegeben: $U_Z = \qty{6,2}{\volt}$
-* gegeben: $R_2 = \qty{270}{\ohm}$
-* gegeben: $R_3 = \qty{220}{\ohm}$
+* given: $U_Z = \qty{6.2}{\volt}$
+* given: $R_2 = \qty{270}{\ohm}$
+* given: $R_3 = \qty{220}{\ohm}$
 </left>
 <right>
-* gegeben: $R_4 = \qty{6,8}{\kilo\ohm}$
-* gegeben: $R_6 = \qty{150}{\ohm}$
-* gesucht: $U_{GS}$
+* given: $R_4 = \qty{6.8}{\kilo\ohm}$
+* given: $R_6 = \qty{150}{\ohm}$
+* required: $U_{GS}$
 </right>
 
 <left>
 <fragment>
-$\begin{split}R_E &= \frac{(R_3+R_6) \cdot R_4}{(R_3 + R_6) + R_4}\\ &= \frac{(\qty{220}{\ohm} + \qty{150}{\ohm}) \cdot \qty{6,8}{\kilo\ohm}}{\qty{220}{\ohm} + \qty{150}{\ohm} + \qty{6,8}{\kilo\ohm}}\\ &= \frac{\qty{2,516}{\mega\ohm}^2}{\qty{7170}{\ohm}}\\ &= \qty{351}{\ohm}\end{split}$
+$\begin{split}R_E &= \frac{(R_3+R_6) \cdot R_4}{(R_3 + R_6) + R_4}\\ &= \frac{(\qty{220}{\ohm} + \qty{150}{\ohm}) \cdot \qty{6.8}{\kilo\ohm}}{\qty{220}{\ohm} + \qty{150}{\ohm} + \qty{6.8}{\kilo\ohm}}\\ &= \frac{\qty{2.516}{\mega\ohm}^2}{\qty{7170}{\ohm}}\\ &= \qty{351}{\ohm}\end{split}$
 </fragment>
 </left>
 <right>
 <fragment>
-$\begin{split}\frac{U_Z}{U_{GS}} &= \frac{R_2 + R_E}{R_E}\\ \Rightarrow \frac{\qty{6,2}{\volt}}{U_{GS}} &= \frac{\qty{270}{\ohm}+\qty{351}{\ohm}}{\qty{351}{\ohm}}\\ &= 1,77\\ \Rightarrow U_{GS} &= \frac{\qty{6,2}{\volt}}{1,77}\\ &= \qty{3,50}{\volt}\end{split}$
+$\begin{split}\frac{U_Z}{U_{GS}} &= \frac{R_2 + R_E}{R_E}\\ \Rightarrow \frac{\qty{6.2}{\volt}}{U_{GS}} &= \frac{\qty{270}{\ohm}+\qty{351}{\ohm}}{\qty{351}{\ohm}}\\ &= 1.77\\ \Rightarrow U_{GS} &= \frac{\qty{6.2}{\volt}}{1.77}\\ &= \qty{3.50}{\volt}\end{split}$
 </fragment>
 </right>
 
 ---
-## HF-Entkopplung der Betriebsspannung
+## RF decoupling of the supply voltage
 
-* Verhindert Rückwirkungen zwischen Verstärkerstufen (z. B. Schwingneigung)
-* Umsetzung durch in Serie geschaltete Induktivitäten und Abblock-Kondensatoren
-* Tiefpass-Charakter: DC-Spannung bleibt erhalten, HF wird abgeblockt
+* Prevents interaction between amplifier stages (e.g. tendency to oscillate)
+* Implemented with series inductors and decoupling capacitors
+* Low-pass characteristic: the DC voltage is passed, RF is blocked
 
 ---
 
-[picture:781:a_entkopplung_drossel:Drossel zur Entkopplung der HF von der Betriebsspannung]
+[picture:781:a_entkopplung_drossel:Choke for decoupling the RF from the supply voltage]
 
 ---
 [question:AF411]
@@ -204,7 +204,7 @@ $\begin{split}\frac{U_Z}{U_{GS}} &= \frac{R_2 + R_E}{R_E}\\ \Rightarrow \frac{\q
 
 ---
 
-[picture:786:a_entkopplung_abblock_kondensatoren:Abblock-Kondensatoren zur Entkopplung der HF von der Betriebsspannung mit Tiefpass-Charakter]
+[picture:786:a_entkopplung_abblock_kondensatoren:Decoupling capacitors for decoupling the RF from the supply voltage, with a low-pass characteristic]
 
 ---
 [question:AF419]
@@ -213,33 +213,33 @@ $\begin{split}\frac{U_Z}{U_{GS}} &= \frac{R_2 + R_E}{R_E}\\ \Rightarrow \frac{\q
 [question:AF418]
 
 ---
-## HF-Eigenschaften von Kondensatoren
+## RF properties of capacitors
 
-* Große Kapazitäten (z. B. Elektrolytkondensatoren) nur bei niedrigen Frequenzen einsetzbar
-* Für HF-Anwendungen Kombination verschiedener Kapazitätswerte zur Abdeckung eines breiten Frequenzbereichs
+* Large capacitances (e.g. electrolytic capacitors) can only be used at low frequencies
+* For RF applications, a combination of different capacitance values to cover a wide frequency range
 
 ---
 [question:AF415]
 
 ---
-## Gesamtverstärkung eines Leistungsverstärkers
+## Total gain of a power amplifier
 
 <left>
-[picture:470:a_verstaerker_gesamtverstaerkung:Blockschaltbild eines Verstärkers mit Gewinn und Verlust je Stufe]
+[picture:470:a_verstaerker_gesamtverstaerkung:Block diagram of an amplifier with gain and loss per stage]
 </left>
 <right>
-* Ermittelt durch Differenz zwischen Ausgangs- und Eingangsleistung
-* Berechnung über vorzeichenrichtige Subtraktion der dBm-Werte
+* Found from the difference between output and input power
+* Calculated by subtracting the dBm values with the correct signs
 </right>
 
 ---
 [question:AF428]
 ---
-#### Lösungsweg
+#### Solution
 
-* gegeben: $P_1 = \qty{0,3}{\milli\watt}$ oder $\qty{-5}{\dBm}$
-* gegeben: $P_2 = \qty{20}{\watt}$ oder $\qty{43}{\dBm}$
-* gesucht: $g$
+* given: $P_1 = \qty{0.3}{\milli\watt}$ or $\qty{-5}{\dBm}$
+* given: $P_2 = \qty{20}{\watt}$ or $\qty{43}{\dBm}$
+* required: $g$
 
 <left>
 <fragment>
@@ -248,6 +248,6 @@ $\begin{split}g &= P_2 - P_1\\ &= \qty{43}{\dBm} - (\qty{-5}{\dBm})\\ &= \qty{43
 </left>
 <right>
 <fragment>
-$\begin{split}g &= \qty{10 \cdot \log_{10}{\left(\frac{P_2}{P_1}\right)}}{\dB}\\ &= \qty{10 \cdot \log_{10}{\left(\frac{\qty{20}{\watt}}{\qty{0,3}{\milli\watt}}\right)}}{\dB} \\ &\approx \qty{48}{\dB}\end{split}$
+$\begin{split}g &= \qty{10 \cdot \log_{10}{\left(\frac{P_2}{P_1}\right)}}{\dB}\\ &= \qty{10 \cdot \log_{10}{\left(\frac{\qty{20}{\watt}}{\qty{0.3}{\milli\watt}}\right)}}{\dB} \\ &\approx \qty{48}{\dB}\end{split}$
 </fragment>
 </right>

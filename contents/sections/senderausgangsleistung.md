@@ -1,17 +1,17 @@
-Funkamateure sind gesetzlich verpflichtet, bestimmte Grenzwerte für die Leistung ihrer Funkanlagen einzuhalten. Besonders wichtig ist dabei die Senderausgangsleistung sowie die Vermeidung unerwünschter Aussendungen – auf Letztere gehen wir im nächsten Kapitel ein. In diesem Kapitel befassen wir uns zunächst mit der Senderausgangsleistung.
+Radio amateurs are required by law to keep within certain limits on the power of their radio equipment. Particularly important here are the transmitter output power and the avoidance of unwanted emissions – we deal with the latter in the next chapter. In this chapter we look first at the transmitter output power.
 
-In vielen Amateurfunkbändern, die dem Amateurfunk primär zugewiesen sind, gilt die maximale Senderausgangsleistung – auf Englisch Peak Envelope Power (kurz PEP) – als maßgeblicher Grenzwert. Die genauen Leistungsvorgaben finden sich in der [Anlage 1](https://50ohm.de/a1) der AFuV.
+In many amateur bands that are allocated to amateur radio on a primary basis, the maximum transmitter output power, given as the peak envelope power (PEP), is the decisive limit. The exact power limits can be found in [Annex 1](https://50ohm.de/a1) to the Amateur Radio Ordinance (Amateurfunkverordnung, AFuV).
 
 ---
 
-Wie in Abbildung [ref:e_senderausgangsleisung] gezeigt, wird die Ausgangsleistung eines Senders immer direkt am Senderausgang gemessen – ohne dass zusätzliche Geräte, Filter oder Kabel dazwischengeschaltet sind. Um die Leistung eines SSB-Senders zu bestimmen, muss er mit einer geeigneten Modulation mit konstanter Amplitude betrieben werden. Ein einfaches Verfahren ist die Einspeisung eines Eintonsignals, etwa durch Drücken der Morsetaste im CW-Betrieb; noch besser ist jedoch eine Zweitonaussteuerung. Eine Messung mit Sprache ist ungeeignet, da die Ausgangsleistung hierbei stark schwankt.
+As shown in Figure [ref:e_senderausgangsleisung], the output power of a transmitter is always measured directly at the transmitter output – without any additional equipment, filters or cables connected in between. To determine the power of an SSB transmitter, it must be operated with suitable modulation of constant amplitude. A simple method is to feed in a single-tone signal, for instance by pressing the Morse key in CW mode; two-tone drive, however, is even better. A measurement with speech is unsuitable, since the output power then fluctuates strongly.
 
 <margin>
-[picture:916:e_senderausgangsleisung:Messung der Senderausgangsleistung]
+[picture:916:e_senderausgangsleisung:Measuring the transmitter output power]
 </margin>
 
 <indepth>
-Ein *Zweitonsignal* ist für die Leistungs- und Linearitätsmessung eines SSB-Senders ideal, weil es zwei saubere Sinustöne mit konstanter Amplitude enthält. Dadurch entstehen im Sender genau die Mischprodukte, die für reale Sprachsignale typisch sind, aber in einer klar definierten und reproduzierbaren Form.
+A *two-tone signal* is ideal for measuring the power and linearity of an SSB transmitter, because it contains two clean sine tones of constant amplitude. In the transmitter it produces exactly the mixing products that are typical of real speech signals, but in a clearly defined and reproducible form.
 </indepth>
 
 
@@ -20,14 +20,14 @@ Ein *Zweitonsignal* ist für die Leistungs- und Linearitätsmessung eines SSB-Se
 
 ---
 
-Die PEP beschreibt dabei die Spitzenleistung des Senders unter normalen Betriebsbedingungen: Sie ist die Leistung, die der Sender während einer Periode der Hochfrequenzschwingung an der höchsten Spitze der Modulationshüllkurve (vgl. Abbildung [ref:e_senderausgangsleisung_2]) im Mittel an einen reellen Abschlusswiderstand abgeben kann. Wie die PEP exakt misst – beispielsweise mithilfe eines Oszilloskops – werden wir erst in der Klasse A genauer behandeln.
+The PEP describes the peak power of the transmitter under normal operating conditions: it is the average power that the transmitter can deliver into a resistive termination during one cycle of the RF oscillation at the highest crest of the modulation envelope (see Figure [ref:e_senderausgangsleisung_2]). How exactly the PEP is measured – for example with an oscilloscope – we will not cover in detail until Class A.
 
 <margin>
-[picture:875:e_senderausgangsleisung_2:Höchste Spitze der Modulationshüllkurve]
+[picture:875:e_senderausgangsleisung_2:Highest crest of the modulation envelope]
 </margin>
 
 [question:EB501]
 
-Neben der Spitzenleistung eines Senders (PEP) gibt es auch noch die *mittlere Leistung*. Sie ist von der Hüllkurve unabhängig, weil die in ihrem zeitlichen Verlauf gemessene Leistung über einen Zeitraum gemittelt wird, der lang ist gegenüber der Periode der niedrigsten Modulationsfrequenz. Mit dieser Überlegung kann man die korrekte Antwort der folgenden Frage sehr einfach identifizieren.
+Besides the peak power of a transmitter (PEP), there is also the *mean power*. It does not depend on the envelope, because the power measured over time is averaged over an interval that is long compared with the period of the lowest modulating frequency. With this in mind, the correct answer to the following question is very easy to identify.
 
 [question:EB502]

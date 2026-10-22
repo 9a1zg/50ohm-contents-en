@@ -1,33 +1,33 @@
 <left>
-* Klasse N ist in Strahlungsleistung (ERP oder EIRP) an Antenne begrenzt
+* Class N is limited in radiated power (ERP or EIRP) at the antenna
 </left>
 <right>
-* Klassen E und A meistens auf *Senderausgangsleistung* (peak envelope power, PEP)
+* Classes E and A mostly in *transmitter output power* (peak envelope power, PEP)
 </right>
 <fragment>
-* Viele Funkgeräte zeigen die aktuelle Senderausgangsleistung im Power-Meter an.
+* Many radios show the current transmitter output power on the power meter.
 </fragment>
 <note>
-Deutscher Begriff für PEP: Hüllkurvenspitzenleistung - der höchste gemessene Wert der durchschnittlichen Leistung jeder Periode der Hochfrequenzschwingung
+German term for PEP: *Hüllkurvenspitzenleistung* – the highest measured value of the average power of each cycle of the RF oscillation
 </note>
 
 ---
 [question:NF102]
 
 ---
-## Zulässige Senderausgangsleistung
+## Permitted transmitter output power
 
-* In [Anlage 1 der AFuV](https://50ohm.de/a1)
-* Unterscheidet sich je nach Klasse und Frequenzbereich
-* Kein Eintrag in einer Spalte $\rightarrow$ diese Klasse darf den Frequenzbereich nicht nutzen
+* In [Annex 1 to the Amateur Radio Ordinance (Amateurfunkverordnung, AFuV)](https://50ohm.de/a1)
+* Differs according to class and frequency range
+* No entry in a column $\rightarrow$ this class may not use the frequency range
 
 <note>
-* Wir empfehlen, die folgenden 10 Fragen anhand der Anlage 1 zu beantworten, um Übung beim Ablesen der richtigen Werte zu bekommen.
+* We recommend that you answer the following 10 questions with the help of Annex 1, to get practice in reading off the right values.
 </note>
 
 ---
 
-[photo:145:ausgangsleistung:Ausschnitt aus der Anlage 1 der Amateurfunkverordnung]
+[photo:145:ausgangsleistung:Extract from Annex 1 to the Amateur Radio Ordinance]
 
 ---
 [question:VD727]
@@ -61,11 +61,11 @@ Deutscher Begriff für PEP: Hüllkurvenspitzenleistung - der höchste gemessene 
 
 ---
 
-* Für den Frequenzbereich von $\qtyrange{1240}{1300}{\mega\hertz}$ gelten zusätzliche Regelungen
-* stehen nicht direkt in der Tabelle
-* In der rechten Spalte "Zusätzliche Nutzungsbestimmungen gemäß B" kennzeichnen Zahlen ergänzende Angaben
-* Stehen unter der Tabelle
-* Für die folgende Frage ist der Punkt 11 zu beachten
+* Additional provisions apply to the frequency range from $\qtyrange{1240}{1300}{\mega\hertz}$
+* not given directly in the table
+* In the right-hand column "Additional conditions of use under B" (*Zusätzliche Nutzungsbestimmungen gemäß B*), numbers mark supplementary information
+* Given below the table
+* For the following question, point 11 must be taken into account
 
 ---
 [question:VD735]

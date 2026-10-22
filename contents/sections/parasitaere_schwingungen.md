@@ -1,13 +1,13 @@
-Parasitäre Schwingungen entstehen vornehmlich in HF-Leistungsversträrker-Stufen durch unerwünschte Rückkopplungen (Kapazitäten oder induktive Kopplungen zwischen Elementen) und haben normalerweise keinen Bezug zur Betriebsfrequenz des Senders. Sie äußern sich unter anderem durch Schwankungen der Ausgangsleistung des Senders wenn dieser abgestimmt wird (Schwankungen der TX-Anzeige).
+Parasitic oscillations arise mainly in RF power amplifier stages through unwanted feedback (capacitances or inductive coupling between components) and normally bear no relation to the operating frequency of the transmitter. Among other things, they show up as fluctuations in the transmitter's output power when it is tuned (fluctuations of the TX indicator).
 
 [question:AJ212]
 [question:AJ213]
 
 <margin>
-[photo:351:a_parasitics:Ferrit-Perlen an einem IC]
+[photo:351:a_parasitics:Ferrite beads on an IC]
 </margin>
 
-Um parisitäre Schwingungen zu unterdrücken können in VHF-Sendern beispielsweise Ferrit-Perlen (vgl. Abbildung [ref:a_parasitics]) eingesetzt werden, die am Emitter des Leistungstransistors angebracht werden (möglichst nah am Transistor). Bei breitbandigen Kurzwellen-Endstufen kann ein Parallel-Widerstand am Transformator zu dessen Bedämpfung und somit Verringerung der Schwingneigung des Verstärkers verwendet werden.
+To suppress parasitic oscillations in VHF transmitters, for example, ferrite beads (see Figure [ref:a_parasitics]) can be used, fitted on the emitter of the power transistor (as close to the transistor as possible). In broadband HF output stages, a resistor in parallel with the transformer can be used to damp it and so reduce the amplifier's tendency to oscillate.
 
 [question:AJ217]
 [question:AF416]

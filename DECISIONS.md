@@ -397,6 +397,25 @@ and the checker's "Provjera" section).
   "gebräuchlicher ist die englische Bezeichnung single-sideband
   modulation"), the bracket rule applies and the gloss is dropped. (Unit
   nea_modulation.)
+- ***Oberwelle* against *Harmonische* in the course text: *overtone*.**
+  The section on non-sinusoidal signals (nicht_sinus_signale, section and
+  slides) sets the two German words against each other — the 1st
+  *Oberwelle* is the 2nd *Harmonische* — and counts them differently. English
+  needs two words for that, so *Oberwelle* becomes *overtone* there, and the
+  German words are named once ("*overtones* (in German *Oberwellen* or
+  *Oberschwingungen*)") so that the reader can match the trap in AB402, whose
+  stem already says "third overtone (Oberwelle)". Where *Oberwellen* only
+  means unwanted multiples of a frequency (filters, harmonic content on a
+  spectrum analyser, AI614 "harmonics"), it stays *harmonics*, as the
+  glossary says. The formula subscript $f_\mathrm{Oberwelle,N}$ stays. (Unit
+  nea_sender_1.)
+- **Column headings of Annex 1 to the AFuV: English, with the German heading
+  in brackets.** The course tells the reader to read values from the columns
+  *Frequenzbereiche*, *Maximale Leistung* and *Zusätzliche
+  Nutzungsbestimmungen gemäß B* of Annex 1, which is the German examination
+  aid. As with the formula-sheet keywords, the English says what the column
+  is, the bracket what to look for: "the column "Maximum power" (*Maximale
+  Leistung*)". (Unit nea_sender_1, ausgangsleistung.)
 
 ## Open questions for DARC
 

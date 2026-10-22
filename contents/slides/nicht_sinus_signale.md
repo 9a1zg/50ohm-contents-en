@@ -1,38 +1,38 @@
-## Grundwelle und Harmonische
+## Fundamental and harmonics
 
-* Ein ideales sinusförmiges Signal besteht nur aus seiner Grundwelle (1. Harmonische)
-* Abweichungen von der Sinusform erzeugen ganzzahlige Vielfache der Grundfrequenz
-* Diese Vielfachen nennt man Harmonische
+* An ideal sinusoidal signal consists only of its fundamental (1st harmonic)
+* Departures from the sine shape produce integer multiples of the fundamental frequency
+* These multiples are called harmonics
 
 --- style="font-size: smaller;"
-### Darstellung in Frequenzspektrum
+### Representation in the frequency spectrum
 
 <left>
-[picture:869:zusammenhang_oberwellen_harmonische:Zusammenhang zwischen Oberwellen und Harmonischen]
+[picture:869:zusammenhang_oberwellen_harmonische:Relationship between overtones and harmonics]
 </left>
 <right>
-* 1. Harmonische = Grundfrequenz
-* 2. Harmonische = doppelte Frequenz der Grundfrequenz
-* 3. Harmonische = dreifache Frequenz der Grundfrequenz
-* Alle Harmonischen werden mit einer Ordnungszahl (n) durchnummeriert
+* 1st harmonic = fundamental frequency
+* 2nd harmonic = twice the fundamental frequency
+* 3rd harmonic = three times the fundamental frequency
+* All harmonics are numbered with an ordinal number (n)
 </right>
 <note>
-Je nach Signalverzerrung entstehen mehr geradzahlige oder ungeradzahlige Harmonische.
-Rechtecksignale (z. B. durch Verstärkerübersteuerung) enthalten vorrangig ungeradzahlige Harmonische.
-Sägezahnsignale enthalten überwiegend geradzahlige Harmonische.
+Depending on the signal distortion, more even or more odd harmonics are produced.
+Square-wave signals (e.g. from overdriving an amplifier) contain mainly odd harmonics.
+Sawtooth signals contain mainly even harmonics.
 </note>
 
 --- style="font-size: smaller;"
-### Oberwellen – Vielfache der Grundfrequenz
+### Overtones – multiples of the fundamental frequency
 
 <left>
-[picture:595:a_oberwellen:Signal aus Grundschwingung und Oberschwingungen]
+[picture:595:a_oberwellen:Signal made up of the fundamental and harmonics]
 </left>
 <right>
-* Ein nicht ideal sinusförmiges Signal enthält zusätzlich Oberwellen
-* Oberwellen sind ganzzahlige Vielfache der Grundfrequenz
-* 1. Oberwelle = 2. Harmonische = doppelte Frequenz der Grundfrequenz
-* 2. Oberwelle = 3. Harmonische = dreifache Frequenz der Grundfrequenz
+* A signal that is not ideally sinusoidal also contains overtones
+* Overtones are integer multiples of the fundamental frequency
+* 1st overtone = 2nd harmonic = twice the fundamental frequency
+* 2nd overtone = 3rd harmonic = three times the fundamental frequency
 </right>
 
 ---
@@ -45,12 +45,12 @@ Sägezahnsignale enthalten überwiegend geradzahlige Harmonische.
 [question:AB402]
 
 ---
-## Oberwellenanalyse mit dem Spektrumanalysator
+## Harmonic analysis with the spectrum analyser
 
-* Auch ein scheinbar sinusförmiges Signal kann nennenswerte Oberwellen enthalten
-* Oberwellenanteile werden mit einem Spektrumanalysator gemessen
-* Darstellung im Frequenzbereich (Frequency-Domain)
-* Amplituden der Oberwellen werden logarithmisch angezeigt
+* Even an apparently sinusoidal signal can contain significant harmonics
+* Harmonic content is measured with a spectrum analyser
+* Display in the frequency domain
+* Amplitudes of the harmonics are displayed logarithmically
 
 ---
 [question:AI615]
@@ -59,56 +59,56 @@ Sägezahnsignale enthalten überwiegend geradzahlige Harmonische.
 [question:AI614]
 
 ---
-## Berechnung von Harmonischen und Oberwellen
+## Calculating harmonics and overtones
 
-* Harmonische Frequenzen = Grundfrequenz × Ordnungszahl (n)
-* Oberwellenfrequenzen = Grundfrequenz × (n + 1)
+* Harmonic frequencies = fundamental frequency × ordinal number (n)
+* Overtone frequencies = fundamental frequency × (n + 1)
 
 ---
 [question:AJ201]
 
 ---
-#### Lösungsweg
-* gegeben: $f = \qty{3,730}{\mega\hertz}$
-* gesucht: $f$ der 2. Harmonischen
+#### Solution
+* given: $f = \qty{3.730}{\mega\hertz}$
+* required: $f$ of the 2nd harmonic
 
 <fragment>
-$2 \cdot f = 2 \cdot \qty{3,730}{\mega\hertz} = \qty{7,460}{\mega\hertz}$
+$2 \cdot f = 2 \cdot \qty{3.730}{\mega\hertz} = \qty{7.460}{\mega\hertz}$
 </fragment>
 
 ---
 [question:AJ205]
 
 ---
-#### Lösungsweg
-* gegeben: $f = \qty{144,690}{\mega\hertz}$
-* gesucht: $f$ als 2. ungeradzahlige Harmonische
+#### Solution
+* given: $f = \qty{144.690}{\mega\hertz}$
+* required: $f$ of the 2nd odd harmonic
 
 <fragment>
-2. ungeradzahlige Harmonische = 3. Harmonische
+2nd odd harmonic = 3rd harmonic
   
-$3 \cdot f = 3 \cdot \qty{144,690}{\mega\hertz} = \qty{434,070}{\mega\hertz}$
+$3 \cdot f = 3 \cdot \qty{144.690}{\mega\hertz} = \qty{434.070}{\mega\hertz}$
 </fragment>
 ---
 [question:AJ202]
 
 ---
-#### Lösungsweg
-* gegeben: $f = \qty{7,050}{\mega\hertz}$
-* gesucht: $f$ als 3. Harmonische
+#### Solution
+* given: $f = \qty{7.050}{\mega\hertz}$
+* required: $f$ of the 3rd harmonic
 
 <fragment>
-$3 \cdot f = 3 \cdot \qty{7,050}{\mega\hertz} = \qty{21,150}{\mega\hertz}$
+$3 \cdot f = 3 \cdot \qty{7.050}{\mega\hertz} = \qty{21.150}{\mega\hertz}$
 </fragment>
 
 ---
 [question:AJ206]
 
 ---
-#### Lösungsweg
-* gegeben: $f = \qty{144,300}{\mega\hertz}$
-* gesucht: mehrere Harmonische
+#### Solution
+* given: $f = \qty{144.300}{\mega\hertz}$
+* required: several harmonics
 
 <fragment>
-$\begin{split}2 \cdot \qty{144,300}{\mega\hertz} &= \qty{288,600}{\mega\hertz}\\ 3 \cdot \qty{144,300}{\mega\hertz} &= \bold{\qty{432,900}{\mega\hertz}}\\ &\vdots\\ 9 \cdot \qty{144,300}{\mega\hertz} &= \bold{\qty{1298,700}{\mega\hertz}}\end{split}$
+$\begin{split}2 \cdot \qty{144.300}{\mega\hertz} &= \qty{288.600}{\mega\hertz}\\ 3 \cdot \qty{144.300}{\mega\hertz} &= \bold{\qty{432.900}{\mega\hertz}}\\ &\vdots\\ 9 \cdot \qty{144.300}{\mega\hertz} &= \bold{\qty{1298.700}{\mega\hertz}}\end{split}$
 </fragment>

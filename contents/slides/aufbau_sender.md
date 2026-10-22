@@ -1,96 +1,96 @@
 --- data-transition="none"
-### 1. Mikrofon
+### 1. Microphone
 
 <left>
-[picture:735:aufbau_sender:Blockdiagramm eines einfachen Senders]
+[picture:735:aufbau_sender:Block diagram of a simple transmitter]
 </left>
 <right>
-* Wandelt Schallwellen in NF-Signal um
-* Oder Signal vom Audio-Ausgang eines Computers
+* Converts sound waves into an AF signal
+* Or signal from the audio output of a computer
 </right>
 
 --- data-transition="none"
 
-### 2. Niederfrequenz-Verstärker
+### 2. Audio-frequency amplifier
 
 <left>
-[picture:735:aufbau_sender:Blockdiagramm eines einfachen Senders]
+[picture:735:aufbau_sender:Block diagram of a simple transmitter]
 </left>
 <right>
-* Verstärkt das NF-Signal vom Mikrofon bzw. Computer
+* Amplifies the AF signal from the microphone or computer
 </right>
 
 --- data-transition="none"
 
-### 3. Mischer
+### 3. Mixer
 
 <left>
-[picture:735:aufbau_sender:Blockdiagramm eines einfachen Senders]
+[picture:735:aufbau_sender:Block diagram of a simple transmitter]
 </left>
 <right>
-* Mischt das NF-Signal mit dem HF-Träger vom Oszillator (4)
-* Der Hochfrequenzträger ist amplitudenmoduliert
+* Mixes the AF signal with the RF carrier from the oscillator (4)
+* The radio-frequency carrier is amplitude-modulated
 </right>
 <note>
-Wenn ein Mischer zwei Signale zusammenfügt, dann entspricht das mathematisch einer Multiplikation der beiden Signale. Daher findet sich auch das Malkreuz im Block-Symbol für den Mischer wieder. Wie ein Mischer genau funktioniert, ist Inhalt des Kurses für die Klasse A.
+When a mixer combines two signals, this corresponds mathematically to a multiplication of the two signals. This is why the multiplication sign appears in the block symbol for the mixer. Exactly how a mixer works is covered in the Class A course.
 </note>
 
 --- data-transition="none"
 
-### 4. Oszillator
+### 4. Oscillator
 
 <left>
-[picture:735:aufbau_sender:Blockdiagramm eines einfachen Senders]
+[picture:735:aufbau_sender:Block diagram of a simple transmitter]
 </left>
 <right>
-* Erzeugt hochfrequente Schwingung der Sendefrequenz
+* Generates a radio-frequency oscillation at the transmit frequency
 </right>
 
 --- data-transition="none"
 
-### 5. Bandpassfilter
+### 5. Band-pass filter
 
 <left>
-[picture:735:aufbau_sender:Blockdiagramm eines einfachen Senders]
+[picture:735:aufbau_sender:Block diagram of a simple transmitter]
 </left>
 <right>
-* Mischer erzeugt weitere, unerwünschte Frequenzen
-* Mit dem Bandpassfilter werden nur die gewünschten Frequenzen durchgelassen
+* Mixer produces other, unwanted frequencies
+* The band-pass filter lets only the wanted frequencies through
 </right>
 
 --- data-transition="none"
 
-### 6. Verstärker
+### 6. Amplifier
 
 <left>
-[picture:735:aufbau_sender:Blockdiagramm eines einfachen Senders]
+[picture:735:aufbau_sender:Block diagram of a simple transmitter]
 </left>
 <right>
-* Verstärkt das HF-Signal auf gewünschte Sendeleistung
+* Amplifies the RF signal to the desired transmit power
 </right>
 
 --- data-transition="none"
 
-### 7. Tiefpassfilter
+### 7. Low-pass filter
 
 <left>
-[picture:735:aufbau_sender:Blockdiagramm eines einfachen Senders]
+[picture:735:aufbau_sender:Block diagram of a simple transmitter]
 </left>
 <right>
-* Verstärker kann unerwünschte Frequenzen erzeugen
-* Nur die gewünschten Frequenzen werden durchgelassen
+* Amplifier can produce unwanted frequencies
+* Only the wanted frequencies are let through
 </right>
 
 --- data-transition="none"
 
-### 8. Antenne
+### 8. Antenna
 
 <left>
-[picture:735:aufbau_sender:Blockdiagramm eines einfachen Senders]
+[picture:735:aufbau_sender:Block diagram of a simple transmitter]
 </left>
 <right>
-* HF-Signal wird auf Antenne gegeben
-* Antenne strahlt es als Funkwelle ab
+* RF signal is fed to the antenna
+* Antenna radiates it as a radio wave
 </right>
 
 ---
@@ -104,7 +104,7 @@ Wenn ein Mischer zwei Signale zusammenfügt, dann entspricht das mathematisch ei
 
 ---
 
-Eine Amateurfunkanlage muss nach den allgemein anerkannten Regeln der Technik aufgebaut und betrieben werden. Das gilt natürlich auch ganz besonders für Sender.
+An amateur station must be set up and operated in accordance with the generally accepted rules of engineering. This of course applies very particularly to transmitters.
 
 ---
 [question:VD106]
