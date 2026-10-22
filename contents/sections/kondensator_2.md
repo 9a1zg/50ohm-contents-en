@@ -68,7 +68,7 @@ The phase shift between voltage and current is therefore $\qty{90}{\degree}$, wi
 [picture:943:a_blindleistung_kondensator:The product $U \cdot I$ gives the green power curve]
 </margin>
 
-The mean value of this power is zero, which means that no real power is converted. Instead, energy is periodically stored in the electric field of the capacitor and returned to the source. For an ideal, lossless capacitor we therefore speak of reactive power and a reactance.
+The mean value of this power is zero, which means that no real power is dissipated. Instead, energy is periodically stored in the electric field of the capacitor and returned to the source. For an ideal, lossless capacitor we therefore speak of reactive power and a reactance.
 
 Only an ohmic resistance absorbs real power, because in it voltage and current are in phase, that is, there is no phase shift. This means that voltage and current are positive or negative at the same time, so the instantaneous power $P = U \cdot I$ is always positive.
 

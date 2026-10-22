@@ -23,10 +23,10 @@ Remember: Kondensatoooor, Strom eilt vooor! (capacitor: the current leads)
 ---
 [question:AC111]
 <note>
-In the steady state almost no current flows any more, which is why the power is also almost 0W.
+In the steady state almost no current flows any more, which is why the power is also almost 0 W.
 </note>
 ---
-* Real power is converted only in an ohmic resistance (current and voltage in phase)
+* Real power is dissipated only in an ohmic resistance (current and voltage in phase)
 * A reactance absorbs no real energy
 * So it does not get warm
 * A capacitor that gets warm at radio frequency has a resistive part and should be replaced

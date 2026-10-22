@@ -796,7 +796,8 @@ real choice or a trap.
 | Übertrager | transformer; signal transformer | where the German contrasts it with *Transformator*: *signal transformer* vs *power transformer* ("Übertrager und Transformatoren" → "Signal and power transformers") |
 | Transformator | transformer; power transformer | |
 | Primärwicklung / Sekundärwicklung | primary winding / secondary winding | |
-| Übersetzungsverhältnis / Windungsverhältnis | turns ratio | |
+| Übersetzungsverhältnis ($ü$) | transformation ratio | the symbol $ü$ stays; as the bank renders *Transformationsverhältnis* for the same ratio (EC401, AD303, AD304), which the course text calls *Übersetzungsverhältnis* (uebertrager_1, gleichrichter_2) |
+| Windungsverhältnis / Windungszahlenverhältnis | turns ratio | AC305, AC306, AD306 |
 | Transformationsverhältnis | transformation ratio | |
 | Autotransformator / Spartransformator | autotransformer | |
 | Mittelanzapfung / Anzapfung | centre tap / tap | British *centre* |
@@ -2103,7 +2104,7 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | ESR / ESL | equivalent series resistance (ESR) / equivalent series inductance (ESL) | the symbols $R_\text{ESR}$, $R_\text{Isolator}$, $L_\text{ESL}$ stay |
 | Antennenanalyzer / vektorieller Network Analyzer | antenna analyser / vector network analyser (VNA) | British *analyser*, as §11 |
 | Zweikanal-Oszilloskop | dual-channel oscilloscope | |
-| Zeigerdiagramm / rotierender Zeiger / Einheitskreis | phasor diagram / rotating pointer / unit circle | *pointer* for the line in the drawing (phase, AB302) |
+| Zeigerdiagramm / rotierender Zeiger / Einheitskreis | phasor diagram / rotating phasor / unit circle | also the coloured lines B, C, D in the drawing: "the green phasor B" (phase, AB302); *Zeiger* of a meter stays *needle* |
 | Bogenmaß / Winkelmaß (Grad) | radians / degrees | "im Bogenmaß angeben" → "give in radians" |
 | Satz des Pythagoras / geometrische Addition | Pythagoras' theorem / geometric addition (geometric sum) | |
 | Scheinwiderstand (neben *Impedanz*) | impedance | English has one word for both; where the German equates $|Z|$ with the *Scheinwiderstand*, the German word is named once: "is what German calls the *Scheinwiderstand*" (kondensator_2, spule_2); otherwise *Scheinwiderstand* → impedance (§5) |

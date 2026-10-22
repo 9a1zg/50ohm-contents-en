@@ -13,7 +13,7 @@
 ---
 [question:AC301]
 --- style="font-size: 0.7em;"
-The ratio of the turns on the primary and secondary sides is the same as the ratio of the voltages, primary to secondary, but the same as the ratio of the currents, secondary to primary:
+The turns ratio, primary to secondary, is equal to the voltage ratio, primary to secondary, but to the current ratio, secondary to primary:
 
 $ü = \frac{N_P}{N_S} = \frac{U_P}{U_S} = \frac{I_S}{I_P}$
 

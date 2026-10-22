@@ -29,7 +29,7 @@ Remember: Bei Induktivitäten, Ströme sich verspäten -or- Induktivitääät, S
 * A reactance absorbs no real energy
 * An ideal inductor does not get warm
 * However, an inductor is made of wire and so has ohmic losses
-* In addition, the skin effect acts
+* In addition, there is the skin effect
 
 ---
 [question:AC202]

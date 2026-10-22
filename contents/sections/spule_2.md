@@ -50,7 +50,7 @@ For an ideal, lossless inductor we therefore speak of reactive power and a react
 [picture:944:a_Blindleistung_Spule:The product $U \cdot I$ gives the green power curve]
 </margin>
 
-If an inductor gets warm in radio-frequency applications, it has losses that cause this heating. The losses arise from the ohmic resistance of the wire, and in addition the skin effect acts, which in effect reduces the cross-sectional area of the wire. Here too, as with the capacitor, the Q factor $Q$ or the dissipation factor $\tan\delta$ is used to describe the losses.
+If an inductor gets warm in radio-frequency applications, it has losses that cause this heating. The losses arise from the ohmic resistance of the wire, and in addition there is the skin effect, which effectively reduces the cross-sectional area of the wire. Here too, as with the capacitor, the Q factor $Q$ or the dissipation factor $\tan\delta$ is used to describe the losses.
 
 [question:AC209]
 

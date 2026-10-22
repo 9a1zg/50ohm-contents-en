@@ -101,7 +101,7 @@ $L = \dfrac{\mu_0 \cdot \mu_r \cdot N^2 \cdot A_S}{l}$
 
 * In a DC circuit an inductor at first acts like an infinitely large resistance, but after switching on its resistance becomes that of the wire
 * With alternating current the magnetic field in the inductor is constantly reversed
-* This produces a self-induced voltage that opposes the current and gets in the way
+* This produces a self-induced voltage that acts in the opposite direction and gets in the way
 * The higher the frequency, the higher the AC resistance of the inductor
 
 ---

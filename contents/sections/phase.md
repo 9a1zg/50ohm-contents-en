@@ -1,9 +1,9 @@
-A sinusoidal AC voltage is generated, for example, by a coil rotating in a magnetic field (the generator principle, e.g. by a generator in a power station). The generator needs a defined length of time for one complete revolution, during which one complete period of the sinusoidal voltage is generated. For this reason, a time axis can be assigned to a sinusoidal AC voltage. This rotation can also be illustrated by a rotating pointer (phasor diagram) (see In depth).
+A sinusoidal AC voltage is generated, for example, by a coil rotating in a magnetic field (the generator principle, e.g. by a generator in a power station). The generator needs a defined length of time for one complete revolution, during which one complete period of the sinusoidal voltage is generated. For this reason, a time axis can be assigned to a sinusoidal AC voltage. This rotation can also be illustrated by a rotating phasor (phasor diagram) (see In depth).
 
 <indepth>
 [picture:878:a_phasenwinkel_zeit:Phase angle in degrees and radians, or as a fraction of the period]
 
-A sine wave can always be thought of as a pointer rotating in the unit circle. This representation helps to make certain things easier to understand. Figure [ref:a_phasenwinkel_zeit] shows the points A, B, C and D of this rotation and how they relate in time and in angle:
+A sine wave can always be thought of as a phasor rotating in the unit circle. This representation helps to make certain things easier to understand. Figure [ref:a_phasenwinkel_zeit] shows the points A, B, C and D of this rotation and how they relate in time and in angle:
 
 1. The horizontal axis labelled "Time" is the usual representation of a sine wave; here it is related to the period T. 
 2. A revolution can, however, also be given as an angle. A whole revolution is complete after 360 degrees.

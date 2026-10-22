@@ -1,4 +1,4 @@
-Why is there a $\qty{230}{\volt}$ AC mains? AC voltage has one decisive advantage over DC voltage: it can be converted to other voltages easily and with low losses by means of transformers. This allows the voltage to be adapted efficiently for transmission and use.
+Why do we have a $\qty{230}{\volt}$ AC mains supply? AC voltage has one decisive advantage over DC voltage: it can be converted to other voltages easily and with low losses by means of transformers. This allows the voltage to be adapted efficiently for transmission and use.
 
 Because of self-induction in coils, energy can be transferred with AC voltage between two coils, as shown in Figure [ref:e_netztrafo]. This gives a new component, the *transformer* (in German *Übertrager* or *Transformator*, *Trafo* for short). It consists of two coils that are magnetically coupled through an iron or ferrite core. To tell the two sides apart, we speak of the primary side, with the number of turns $N_P$, and the secondary side, with the number of turns $N_S$.
 
@@ -49,7 +49,7 @@ In the following question, the number of secondary turns is required.
 
 [question:EC403]
 
-Given are $N_P=600$, $U_P=\qty{230}{\volt}$ and $U_S=\qty{11.5}{\volt}$. The number of secondary turns $N_S$ is required.
+We are given $N_P=600$, $U_P=\qty{230}{\volt}$ and $U_S=\qty{11.5}{\volt}$. The number of secondary turns $N_S$ is required.
 
 $\frac{600}{N_S} = \frac{\qty{230}{\volt}}{\qty{11.5}{\volt}}$ 
 
@@ -65,7 +65,7 @@ The following transformer steps the output voltage $U_S$ up, so the number of se
 
 [question:EC404]
 
-Given are $N_P= 150$, $U_P=\qty{45}{\volt}$ and  $U_S=\qty{180}{\volt}$. $N_S$ is required.
+We are given $N_P= 150$, $U_P=\qty{45}{\volt}$ and  $U_S=\qty{180}{\volt}$. $N_S$ is required.
 
 We substitute:
 

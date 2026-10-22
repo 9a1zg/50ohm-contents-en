@@ -83,7 +83,7 @@ $C = \dfrac{\varepsilon_0 \cdot \varepsilon_r \cdot A}{d}$
 ## Charging curve
 
 <left>
-* An empty capacitor is connected to a DC voltage
+* An uncharged capacitor is connected to a DC voltage
 * The voltage rises steeply and then levels off towards the applied voltage 
 </left>
 <right>

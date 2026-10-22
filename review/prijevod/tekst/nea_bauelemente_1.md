@@ -77,3 +77,21 @@ two memory rhymes.
 - solutions/AC204.md — the result 1884 Ω (from 2π ≈ 6.28) differs from the exam's 1885 Ω (1884.96 Ω unrounded).
 - solutions/AC306.md — "$\frac{Z_P}{Z_S} = \frac{2500}{50} = 50$" puts the 2500 Ω on the primary side, while the text before it, uebertrager_2 and the result 1:7 take the 50 Ω side as primary; the turns are then written $N_2/N_1$ instead of $N_S/N_P$. Translated as written.
 - Typos with no effect on the English: sections/kondensator_1.md "Kondesators" (captions 1015, 185), "anggeben", "aufgerauhte", "ist eine spezielle Eigenschaft … ist die sogenannte" (verb twice), "vom Verwendeten"; sections/phase.md "Eine ganz Umdrehung", ".." after the reference; sections/spule_1.md "Ihre Schaltsymbole", "In der folgenden Frage,  steigt"; sections/spule_2.md "Im gegensatz", "Wechelstromwiderstand", "nach dem den Satz"; sections/uebertrager_1.md "Bei der Folgenden"; sections/uebertrager_2.md "dass das Impedanzverhältnis ist das Quadrat"; slides/spule_2.md "leitfähigereres", "gut leitfähigem"; slides/uebertrager_1.md "Übersetzungverhältnis", "verhalten sich wie zur Anzahl"; slides/uebertrager_2.md "Gegendinduktion", "nach ziehen"; solutions/AC111.md "in form"; AC306.md "Aus sicht".
+
+## Provjera
+
+All 46 files compared paragraph by paragraph with the German (`66c8363~1`),
+embedded questions checked against their English in the bank. Nothing
+dropped or added; the translation is faithful and technically sound. The
+two DECISIONS.md entries and 25 of the 27 new glossary rows kept as they
+are; the judgement calls kept except where listed below.
+`revizija-guard.py --rev 66c8363~1 --brojevi`: 46 files, *struktura netaknuta*.
+
+Changes: omission 0, meaning 2 (additions removed), technical 2, style 6, glossary 2.
+
+- Glossary §4: *Übersetzungsverhältnis* (ü) → **transformation ratio**, split from *Windungsverhältnis* → turns ratio. The old row gave both as "turns ratio", but the translator (rightly) used "transformation ratio" for ü to match EC401, AD303 and AD304 (*Transformationsverhältnis*, the same ratio), and the row was not updated. Text unchanged; row now matches it (also needed by gleichrichter_2 later).
+- Glossary §14 and phase, AB302: *rotierender Zeiger* → "rotating **phasor**" (not "pointer"), also the drawing's coloured lines ("the green phasor B"); phasor is the established English term, and the text already says "phasor diagram".
+- kondensator_2 (section, slides), AC103: *Wirkleistung umsetzen* → real power "dissipated", not "converted" (technical: what a resistance does with real power).
+- AC207: "In practice, 90 turns would be wound" → "90 turns would be wound": "In practice" was not in the German (*Man wird 90 Windungen aufbringen*).
+- spule_1 slides: *Selbstinduktionsspannung, die entgegengerichtet ist* → "that acts in the opposite direction", not "that opposes the current" (an addition).
+- Style: "An empty capacitor" → "An uncharged capacitor" (kondensator_1 slides); "the skin effect acts" → "there is the skin effect" (spule_2 section and slides); "Why is there a 230 V AC mains?" → "Why do we have a 230 V AC mains supply?" and "Given are" → "We are given" ×2 (uebertrager_1); the garbled "is the same as …, but the same as …" ratio sentence recast (uebertrager_2 slides); "0W" → "0 W" (kondensator_2 slides).
