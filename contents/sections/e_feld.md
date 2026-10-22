@@ -1,29 +1,29 @@
-Das physikalische Phänomen, das Funksignale überhaupt erst möglich macht, ist das elektromagnetische Feld. Dass sich dieses Feld im leeren Raum, ohne ein tragendes Medium, ausbreiten kann, war eine der bedeutendsten Entdeckungen des 19. Jahrhunderts. 
+The physical phenomenon that makes radio signals possible in the first place is the electromagnetic field. That this field can propagate through empty space, without a medium to carry it, was one of the most important discoveries of the 19th century. 
 
 <margin>
-Lange glaubte die Physik an die Existenz eines "Äthers", der überall existiert und in dem sich die elektromagnetischen Wellen ausbreiten wie Schall in Luft. Diese Vorstellung war falsch, aber umgangssprachlich hat sich der Begriff gehalten, z.B. sitzen wir am Empfänger und *lauschen  in den Äther*.
+For a long time, physics believed in the existence of an "aether" that is present everywhere and in which electromagnetic waves propagate as sound does in air. This idea was wrong, but the term has survived in everyday language as "the ether": we sit at the receiver, for example, and *listen in to the ether*.
 </margin>
 
 ---
 
-Wie der Name bereits nahelegt, besteht das elektromagnetische Feld aus zwei Komponenten, dem elektrischen und dem magnetischen Feld. Wenn sich das elektrische und das magnetische Feld zeitlich verändern, so kommen beide Feldkomponenten immer gemeinsam vor.
+As the name already suggests, the electromagnetic field consists of two components, the electric field and the magnetic field. When the electric and the magnetic field vary with time, the two field components always occur together.
 
-Beginnen wir aber mit dem zeitlich unveränderlichen elektrischen Feld, auch statisches Feld genannt. Das elektrische Feld wird allgemein mit dem Buchstaben $E$ bezeichnet.
+But let us begin with the electric field that does not vary with time, also called a static field. The electric field is generally denoted by the letter $E$.
 
 <margin>
-[picture:881:e_plattenkondensator: Ein Plattenkondensator mit anliegender Spannung und homogenem elektrischen Feld]
+[picture:881:e_plattenkondensator: A parallel-plate capacitor with a voltage applied and a uniform electric field]
 </margin>
   
 ---
 
-Abbildung [ref:e_plattenkondensator] zeigt schematisch einen *Plattenkondensator*, bei dem an den Platten eine Spannung $U$ anliegt. Die Platten sind voneinander isoliert, es fließt kein Strom. Die Spannung führt dazu, dass sich auf der linken Platte positive und auf der rechten Platte negative Ladungsträger ansammeln. Zwischen den beiden Platten bildet sich ein statisches elektrisches Feld $E$ aus. Nehmen wir an, dass die Ausdehnung der Platten in Länge und Breite sehr viel größer ist als der Abstand, dann ist die Stärke des Feldes vom Ort unabhängig -- wir sprechen von einem *homogenen* Feld. Die elektrische Feldstärke lässt sich dann ganz einfach berechnen:
+Figure [ref:e_plattenkondensator] shows a schematic of a *parallel-plate capacitor* with a voltage $U$ applied to its plates. The plates are insulated from each other, and no current flows. The voltage causes positive charge carriers to collect on the left plate and negative ones on the right plate. A static electric field $E$ builds up between the two plates. If we assume that the length and width of the plates are very much greater than their spacing, the strength of the field does not depend on position -- we speak of a *uniform* field. The electric field strength can then be calculated quite simply:
 
 $E = \frac{U}{d}$
 
-wobei $d$ der Abstand der Platten ist. 
+where $d$ is the spacing of the plates. 
 
 <unit>
-Aus der Gleichung $E = \frac{U}{d}$ ergibt sich auch die Einheit der elektrischen Feldstärke: $\unit{\volt\per\meter}$
+The equation $E = \frac{U}{d}$ also gives the unit of electric field strength: $\unit{\volt\per\meter}$
 </unit>
 
 [question:EB101]
@@ -31,48 +31,48 @@ Aus der Gleichung $E = \frac{U}{d}$ ergibt sich auch die Einheit der elektrische
 
 ---
 
-Um die elektrische Feldstärke in einem Plattenkondensator zu berechnen, müssen wir die anliegende Spannung kennen und den Plattenabstand. Plattenkondensatoren kommen vielfach in Antennenanpassgeräten vor. 
+To calculate the electric field strength in a parallel-plate capacitor, we need to know the applied voltage and the plate spacing. Parallel-plate capacitors are often found in antenna tuning units. 
 
 <danger>
-Bei diesen Fragen muss unbedingt die richtige Einheit beachtet werden!
+In these questions, it is essential to pay attention to the correct unit!
 </danger>
 
 [question:EB102]
 
-Hier kann man wieder einfach mit der Formel von oben rechnen: 
+Here, again, we can simply calculate with the formula from above: 
 
-$E = \frac{\qty{9}{\volt}}{\qty{0,6}{\centi\meter}} = \frac{\qty{9}{\volt}}{\qty{0,006}{\meter}} = \qty{1500}{\volt\per\meter}$
+$E = \frac{\qty{9}{\volt}}{\qty{0.6}{\centi\meter}} = \frac{\qty{9}{\volt}}{\qty{0.006}{\meter}} = \qty{1500}{\volt\per\meter}$
 
-Einen *Wickelkondensator* können wir uns so vorstellen wie einen Plattenkondensator mit sehr breiten Platten, die aufgewickelt wurden. Zwischen den Platten befindet sich allerdings ein isolierende Schicht, das *Dielektrikum*. Es erhöht die *Kapazität* des Kondensators -- die Fähigkeit, Ladungen zu speichern. Auf die Berechnung der Feldstärke im Innern hat das Dielektrikum aber keinen Einfluss.
+We can imagine a *wound capacitor* as a parallel-plate capacitor with very wide plates that have been rolled up. Between the plates, however, there is an insulating layer, the *dielectric*. It increases the *capacitance* of the capacitor -- its ability to store charge. The dielectric has no effect, however, on calculating the field strength inside.
 
 [question:EB103]
 
-Auch für diese Frage bemühen wir wieder unsere Formel: 
+For this question, too, we call on our formula again: 
 
-$E = \frac{\qty{300}{\volt}}{\qty{0,15}{\milli\meter}} = \frac{\qty{300}{\volt}}{\qty{0,00015}{\meter}} = \qty{2000000}{\volt\per\meter} = \qty{2000}{\kilo\volt\per\meter}$
+$E = \frac{\qty{300}{\volt}}{\qty{0.15}{\milli\meter}} = \frac{\qty{300}{\volt}}{\qty{0.00015}{\meter}} = \qty{2000000}{\volt\per\meter} = \qty{2000}{\kilo\volt\per\meter}$
 
-Dielektrika können nur eine begrenzte elektrische Feldstärke aushalten, bevor sie ihre Isolationsfähigkeit verlieren. Die Grenzfeldstärke, bei der das geschieht, wird auch als *Durchschlagsfeldstärke* bezeichnet. Wenn wir die Durchschlagsfeldstärke und die Dicke des Dielektrikums kennen, können wir die Spannung berechnen, die der Kondensator maximal aushalten kann.
+Dielectrics can withstand only a limited electric field strength before they lose their ability to insulate. The limiting field strength at which this happens is also called the *breakdown field strength*. If we know the breakdown field strength and the thickness of the dielectric, we can calculate the maximum voltage the capacitor can withstand.
 
-Wenn die Durchschlagsfeldstärke $E_d$ und die Dicke des Dielektrikums *d* ist, dann ist die Durchbruchspannung:
+If the breakdown field strength is $E_d$ and the thickness of the dielectric is *d*, the breakdown voltage is:
 
 $U_d =E_d \cdot d$
 
 [question:EB104]
 
-Hier rechnen wir mit der Formel von oben (Achtung auf die Einheiten aufpassen!):
+Here we calculate with the formula from above (careful: watch the units!):
 
-$\begin{split} U_d &= \qty{400}{\kilo\volt\per\centi\meter} \cdot \qty{0,15}{\milli\meter} \\ &= \qty{40000000}{\volt\per\meter} \cdot \qty{0,00015}{m} \\ &= \qty{6000}{\volt} \\ &= \qty{6}{\kilo\volt} \end{split}$
+$\begin{split} U_d &= \qty{400}{\kilo\volt\per\centi\meter} \cdot \qty{0.15}{\milli\meter} \\ &= \qty{40000000}{\volt\per\meter} \cdot \qty{0.00015}{m} \\ &= \qty{6000}{\volt} \\ &= \qty{6}{\kilo\volt} \end{split}$
 
 ---
 
-Eine weitere wichtige Fähigkeit ist es, in Skizzen die elektrischen Feldlinien von den später behandelten magnetischen Feldlinien zu unterscheiden. 
+Another important skill is telling the electric field lines in sketches apart from the magnetic field lines, which are covered later. 
 
-Mit einer einfachen Faustregel ist das recht einfach: elektrische Feldlinien haben einen Anfang und ein Ende, magnetische Feldlinien nicht! Die Richtung des elektrischen Feldes geht immer vom positiveren Potenzial zum negativeren. 
+With a simple rule of thumb this is quite easy: electric field lines have a beginning and an end, magnetic field lines do not! The electric field always points from the more positive potential to the more negative one. 
 
 [question:EB105]
 
 <margin>
-[picture:884:e_feldlinien_vertikalantenne:Feldlinien an einer Vertikalantenne]
+[picture:884:e_feldlinien_vertikalantenne:Field lines at a vertical antenna]
 </margin>
 
 

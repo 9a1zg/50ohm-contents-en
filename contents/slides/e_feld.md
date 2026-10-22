@@ -1,26 +1,26 @@
-## Homogenes elektrisches Feld
+## Uniform electric field
 
 <left>
-* In einem Kondensator wird elektrische Energie gespeichert
-* Die einfachste Art eines Kondensators ist der *Plattenkondensator*
+* Electrical energy is stored in a capacitor
+* The simplest kind of capacitor is the *parallel-plate capacitor*
 </left>
 <right>
-[picture:881:e_kondensator_homogenes_feld:Homogenes Feld in einem Plattenkondensator]
+[picture:881:e_kondensator_homogenes_feld:Uniform field in a parallel-plate capacitor]
 </right>
 
 ---
 <left>
-* An zwei elektrisch leitenden Platten wird jeweils der Plus- und Minus-Pol angeschlossen
-* Zwischen den Platten baut sich ein homogenes elektrisches Feld (*E-Feld*) auf
-* Elektrische Feldstärke: $E = \dfrac{U}{d}$ in $\unit{\volt\per\meter}$
-* Mit $d$ als Abstand der Platten
+* Two electrically conductive plates are connected, one to the positive and one to the negative terminal
+* A uniform electric field (*E-field*) builds up between the plates
+* Electric field strength: $E = \dfrac{U}{d}$ in $\unit{\volt\per\meter}$
+* With $d$ as the plate spacing
 </left>
 <right>
-[picture:881:e_kondensator_homogenes_feld:Homogenes Feld in einem Plattenkondensator]
+[picture:881:e_kondensator_homogenes_feld:Uniform field in a parallel-plate capacitor]
 </right>
 <note>
-* homogen Feld: gleichgerichtetes Feld, da alle Feldlinien in gleicher Richtung verlaufen
-* Die Kapazität wird erst in Klasse A berechnet
+* Uniform field: a field pointing in one direction, as all the field lines run in the same direction
+* Capacitance is not calculated until Class A
 </note>
 
 ---
@@ -30,44 +30,44 @@
 ---
 [question:EB102]
 ---
-## Wickelkondensator
+## Wound capacitor
 
 <left>
-* Bei einem Wickelkondensator wird zwischen den beiden Platten als Metallbeläge ein Isolator als *Dielektrikum* eingebracht
-* Vorteile: platzsparend und größere Plattenfläche möglich
+* In a wound capacitor, an insulator is placed between the two plates, which are metal foils, as the *dielectric*
+* Advantages: space-saving, and a larger plate area is possible
 </left>
 <right>
-[picture:49:e_wickelkondensator:Schematische Darstellung eines Wickelkondensators]
+[picture:49:e_wickelkondensator:Schematic diagram of a wound capacitor]
 </right>
 ---
 [question:EB103]
 ---
 [question:EB104]
 --- style="font-size: 0.7em;"
-### Lösungsweg
+### Solution
 
-Der Trick ist hier, dass die Durchschlagsfestigkeit die elektrische Feldstärke $E$ ist.
+The trick here is that the dielectric strength is the electric field strength $E$.
 
-* Gegeben: $d = \qty{0,15}{\milli\meter}$ und $E = \qty{400}{\kilo\volt\per\centi\meter}$
-* Gesucht: $U$
-* Lösung:
+* Given: $d = \qty{0.15}{\milli\meter}$ and $E = \qty{400}{\kilo\volt\per\centi\meter}$
+* Required: $U$
+* Solution:
 
 $E = \frac{U}{d} \Rightarrow U = E\cdot d$
-$U = 400 \cdot \frac{\qty{10^3}{\volt}}{\qty{10^{-2}}{\meter}}\cdot \qty{0,15e-3}{\meter}$
+$U = 400 \cdot \frac{\qty{10^3}{\volt}}{\qty{10^{-2}}{\meter}}\cdot \qty{0.15e-3}{\meter}$
 $U = \qty{6e3}{\volt} = \qty{6}{\kilo\volt}$
 
 ---
-## Vertikalantenne
+## Vertical antenna
 
 <left>
-* An einer Antenne entstehen ebenso elektrische Feldlinien
-* Die Feldlinien einer Vertikalantenne verlaufen vom "positiven Ende" zur Erde
+* Electric field lines also arise at an antenna
+* The field lines of a vertical antenna run from the "positive end" to earth
 </left>
 <right>
-[picture:884:e_feldlinien_vertikalantenne:Feldlinien an einer Vertikalantenne]
+[picture:884:e_feldlinien_vertikalantenne:Field lines at a vertical antenna]
 </right>
 <note>
-* Für die Klasse E reicht die Erkennung aus
+* For Class E, recognising them is enough
 </note>
 ---
 [question:EB105]

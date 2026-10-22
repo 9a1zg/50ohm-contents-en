@@ -1,61 +1,61 @@
-Im Jahre 1820 beobachtete der dänische Naturforscher Hans Christian Oerstedt, dass ein auf dem Tisch liegender Kompass abgelenkt wurde, wenn er durch einen Draht in der Nähe einen Strom schickte. Dieser zunächst für einen Gleichstrom beobachtete Effekt liefert die Grundlage für Elektromagneten und Elektromotoren. Man kann ihn mit Hilfe von magnetischen Feldlinien beschreiben - beispielsweise richtet sich eine Kompassnadel entlang dieser Feldlinien aus.
+In 1820 the Danish natural philosopher Hans Christian Ørsted observed that a compass lying on the table was deflected when he sent a current through a wire nearby. This effect, first observed with a direct current, is the basis of electromagnets and electric motors. It can be described with the help of magnetic field lines - a compass needle, for example, lines up along these field lines.
 
 ---
 
-Die magnetischen Feldlinien um einen stromdurchflossenen Leiter sind stets in sich geschlossen. Fließt ein konstanter Gleichstrom durch einen geraden, gestreckten Leiter, so verlaufen diese magnetischen Feldlinien in Form konzentrischer Kreise um den Leiter herum, wie in Abbildung [ref:e_konzentrisch] gezeigt.
+The magnetic field lines around a current-carrying conductor are always closed loops. If a constant direct current flows through a straight, extended conductor, these magnetic field lines form concentric circles around the conductor, as shown in Figure [ref:e_konzentrisch].
 
 [question:EB201]
 
 <margin>
-[picture:833:e_konzentrisch:Konzentrische magnetische Feldlinien um einen stromdurchflossenen Leiter]
+[picture:833:e_konzentrisch:Concentric magnetic field lines around a current-carrying conductor]
 </margin>
 
 ---
 
-Die so genannte *magnetische Feldstärke* hängt sowohl vom erzeugenden Strom $I$ als auch dem Abstand zum Leiter $r$ ab. Für einen sehr langen geraden Leiter im Vakuum gilt:
+The *magnetic field strength*, as it is called, depends both on the current $I$ producing it and on the distance $r$ from the conductor. For a very long straight conductor in a vacuum:
 
 $H(r) = \frac{I}{2\cdot\pi\cdot r}$
 
 <unit>
-Aus dieser Gleichung können wir direkt die Einheit der magnetischen Feldstärke ableiten, nämlich $\unit{\ampere\per\meter}$. 
+From this equation we can derive the unit of magnetic field strength directly, namely $\unit{\ampere\per\meter}$. 
 </unit>
 
 [question:EA104]
 
 ---
 
-Im Inneren einer Zylinderspule ergibt sich im Gegensatz zu einem geraden Leiter ein anderes Bild, weil ja jetzt der stromdurchflossene Leiter nicht gerade, sondern schraubenförmig aufgewickelt ist. Ist die Zylinderspule sehr lang verglichen mit dem Durchmesser, ergibt sich im Inneren eine lineare Form der Feldlinien, deren Feldstärke jeweils auch noch gleich ist (also eine konstante magnetische Feldstärke über den Querschnitt der Spule). Ein solches Feld bezeichnen wir als *homogenes magnetisches Feld*. Den Begriff hatten wir schon beim homogenen elektrischen Feld im Innern eines Plattenkondensators kennengelernt.
+Inside a solenoid, unlike a straight conductor, the picture is different, because the current-carrying conductor is now not straight but wound in a helix. If the solenoid is very long compared with its diameter, the field lines inside are straight, and their field strength is the same everywhere as well (that is, a constant magnetic field strength across the cross-section of the coil). We call such a field a *uniform magnetic field*. We have already met the term with the uniform electric field inside a parallel-plate capacitor.
 
 <margin>
-[picture:882:e_h_feld_spule:Magnetische Feldlinien in einer Zylinderspule]
+[picture:882:e_h_feld_spule:Magnetic field lines in a solenoid]
 </margin>
 
 [question:EB202]
 
-Dabei ist zu beachten, dass sich die magnetischen Feldlinien bei einer Zylinderspule auch außerhalb der Spule schließen. Dadurch entsteht ein sogenanntes Streufeld. Dieses *Streufeld* lässt sich verringern, indem man die Zylinderspule entlang ihrer Längsachse zu einem Kreis (oder "Toroid") formt, wie es beispielsweise bei einer Ringkernspule der Fall ist (vgl. Abbildung [ref:e_ringkern]). In diesem Fall können sich die magnetischen Feldlinien vollständig im Inneren der Spule schließen.
+Note that with a solenoid the magnetic field lines also close outside the coil. This produces what is called a stray field. This *stray field* can be reduced by bending the solenoid along its longitudinal axis into a circle (or "toroid"), as is the case with a toroidal inductor, for example (see Figure [ref:e_ringkern]). The magnetic field lines can then close entirely inside the coil.
 
 <margin>
-[picture:40:e_ringkern:Ringkernspule]
+[picture:40:e_ringkern:Toroidal inductor]
 </margin>
 
 [question:EB203]
 
-Für diese Prüfungsfrage berechnen wir zunächst den mittleren Umfang eines Rings mit mittlerem Durchmesser $d$. In der Aufgabe ist $d=\qty{2,6}{\centi\meter}$. Dabei bitte die Einheit beachten -- am Besten, wir gehen auf die Grundeinheit $\unit{\meter}$ zurück.
+For this exam question we first calculate the mean circumference of a ring with a mean diameter $d$. In the question, $d=\qty{2.6}{\centi\meter}$. Mind the unit here -- it is best to go back to the base unit $\unit{\meter}$.
 
-Der mittlere Umfang ($l_m$) ergibt sich aus folgender Beziehung:
+The mean circumference ($l_m$) is given by:
 
-$l_m = \pi \cdot d = \pi\cdot \qty{0,026}{\meter} = \qty{0,082}{\meter}$
+$l_m = \pi \cdot d = \pi\cdot \qty{0.026}{\meter} = \qty{0.082}{\meter}$
 
-Das Magnetfeld wird bei $N$ Windungen durch einen Strom erzeugt, der $N$-mal so groß ist, wie der im Leiter fließende Strom $I$. Daher gilt für die magnetische Feldstärke $H$ laut Formelsammlung:
+With $N$ turns, the magnetic field is produced by a current $N$ times as large as the current $I$ flowing in the conductor. The magnetic field strength $H$ is therefore, according to the formula sheet:
 
-$H = \frac{N\cdot I}{l_m} = \frac{6 \cdot \qty{2,5}{\ampere}}{\qty{0,082}{\meter}} = \qty{183}{\ampere\per\meter}$
+$H = \frac{N\cdot I}{l_m} = \frac{6 \cdot \qty{2.5}{\ampere}}{\qty{0.082}{\meter}} = \qty{183}{\ampere\per\meter}$
   
 ---
 
-Die Betrachtungen zum magnetischen Feld gelten auch für Wechselstrom. Im Abschnitt zum elektromagnetischen Feld werden wir uns noch näher damit beschäftigen. In einer Antenne fließt ein Wechselstrom, der wiederum ein zeitlich variierendes Magnetfeld zur Folge hat. Wie bereits besprochen, sind magnetische Feldlinien stets in sich geschlossen, vgl. Abbildung [ref:e_vertikalantenne_magnetfeld]. Daraus ergibt sich bereits die richtige Antwort auf diese Frage.
+What has been said about the magnetic field also applies to alternating current. We will look at this more closely in the section on the electromagnetic field. An alternating current flows in an antenna, and it in turn produces a magnetic field that varies with time. As already discussed, magnetic field lines are always closed loops, see Figure [ref:e_vertikalantenne_magnetfeld]. This already gives the correct answer to this question.
   
 <margin>
-[picture:883:e_vertikalantenne_magnetfeld:Magnetfeld an einer Vertikalantenne]
+[picture:883:e_vertikalantenne_magnetfeld:Magnetic field at a vertical antenna]
 </margin>
 
 [question:EB206]

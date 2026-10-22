@@ -1,26 +1,26 @@
-## Stromdurchflossener Leiter
+## Current-carrying conductor
 
 <left>
-* Fließt Strom durch einen Leiter, bilden sich konzentrische, magnetische Felder um den Leiter
+* When current flows through a conductor, concentric magnetic fields form around the conductor
 </left>
 <right>
-Grafik eines stromdurchflossenen Leiters mit konzentrischen magnetischen Feldlinien kommt noch
+Graphic of a current-carrying conductor with concentric magnetic field lines to follow
 </right>
 ---
 [question:EB201]
 ---
-## Homogenes magnetisches Feld
+## Uniform magnetic field
 
 <left>
-* Wird ein stromdurchflossener Leiter zu einer Zylinderspule aufgewickelt, entsteht im inneren ein homogenes magnetisches Feld (*H-Feld*)
-* Eine Spule speichert magnetische Energie
+* If a current-carrying conductor is wound into a solenoid, a uniform magnetic field (*H-field*) forms inside it
+* An inductor stores magnetic energy
 </left>
 <right>
-[picture:50:e_h_feld_spule:Magnetische Feldlinien in einer Zylinderspule]
-* Einheit: $\unit{\ampere\per\meter}$
+[picture:50:e_h_feld_spule:Magnetic field lines in a solenoid]
+* Unit: $\unit{\ampere\per\meter}$
 </right>
 <note>
-* H-Feld von magnetische Feldstärke H ein paar Folien weiter
+* H-field from magnetic field strength H, a few slides further on
 </note>
 
 ---
@@ -28,41 +28,41 @@ Grafik eines stromdurchflossenen Leiters mit konzentrischen magnetischen Feldlin
 ---
 [question:EA104]
 ---
-## Ringkern
+## Toroidal core
 
 <left>
-* Leiter wird auf einen magnetisch leitenden Ringkern gewickelt, z.B. Eisen
-* Vorteile: Platzsparend und stabiler
+* The conductor is wound on a magnetically conductive toroidal core, e.g. iron
+* Advantages: space-saving and more stable
 </left>
 <right>
-[picture:40:e_ringkern:Ringkernspule]
+[picture:40:e_ringkern:Toroidal inductor]
 </right>
 
 ---
 <left>
-* Magnetische Feldstärke $H = \dfrac{I\cdot N}{l_m}$ in $\unit{\ampere\per\meter}$
-* mit $N$ als Wicklungsanzahl und $l_m$ mittlere Länge des Rings
+* Magnetic field strength $H = \dfrac{I\cdot N}{l_m}$ in $\unit{\ampere\per\meter}$
+* with $N$ as the number of turns and $l_m$ the mean length of the ring
 </left>
 <right>
-[picture:40:e_ringkern:Ringkernspule]
+[picture:40:e_ringkern:Toroidal inductor]
 </right>
 
 ---
 [question:EB203]
 <note>
-* Kreisumfang als mittlere Länge des Rings mit Durchmesser ausrechnen
+* Calculate the circumference from the diameter as the mean length of the ring
 * $l_m = \pi \cdot d$
 </note>
 ---
 
-## Magnetfeld einer Antenne
+## Magnetic field of an antenna
 
 <left>
-* An einer Antenne wirkt das Magnetfeld um den Leiter
-* Hier an einer Vertikalantenne konzentrisch um die Antenne
+* At an antenna, the magnetic field acts around the conductor
+* Here, at a vertical antenna, concentrically around the antenna
 </left>
 <right>
-[picture:192:e_vertikalantenne_magnetfeld:Magnetfeld an einer Vertikalantenne]
+[picture:192:e_vertikalantenne_magnetfeld:Magnetic field at a vertical antenna]
 </right>
 ---
 [question:EB206]

@@ -2079,6 +2079,17 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Gehörlosenlehrer | teacher of the deaf | A. G. Bell |
 | Bauformen (Fotos von Kondensatoren, Spulen, Transistoren) | types | "Schaltzeichen und Bauformen von Kondensatoren" → "Circuit symbol and types of capacitors" (bauelemente); *package style* (*Bauform* above) stays for semiconductor and SMD packages |
 | Strom über Zeit / Leistung über Zeit (Folien) | current times time / power times time | ladung_energie slides; English "over time" would read as a division beside $Q = I\cdot t$ |
+| in den Äther lauschen (umgangssprachlich) | listen in to the ether | the colloquial survival of the *Äther* (physics: *aether*, above), spelt *ether* as English writes the idiom; "has survived in everyday language as "the ether"" bridges the two spellings (e_feld) |
+| zeitlich veränderlich / zeitlich variabel / zeitlich konstant / zeitlich unveränderlich | (that) varies with time; time-varying / constant with time; does not vary with time | EB301 "a current that varies with time" / "constant with time" (e_feld, em_feld) |
+| senkrecht aufeinander stehen / senkrecht auf | (be) at right angles to each other / at right angles to | EB304; *perpendicular* only for a line on a plane (em_feld) |
+| Durchschlagsfeldstärke / Grenzfeldstärke | breakdown field strength / limiting field strength | the field strength a dielectric withstands; *Durchschlagsfestigkeit* stays *dielectric strength* (§4, EB104) (e_feld) |
+| stromdurchflossener Leiter | current-carrying conductor | |
+| (Feldlinien) in sich geschlossen | (field lines) closed loops | "sind stets in sich geschlossen" → "are always closed loops" (h_feld) |
+| mittlerer Durchmesser / mittlerer Umfang / mittlere Länge (Ringkern) | mean diameter / mean circumference / mean length | EB203 |
+| Wicklungsanzahl | number of turns | as *Windungszahl* (§4) |
+| gleichgerichtetes Feld | a field pointing in one direction | the uniform field's lines all run one way (e_feld slides); not *rectified*, which is *gleichgerichtet* for a voltage |
+| Naturforscher | natural philosopher | the period term (Ørsted, 1820); the German's *Oerstedt* is written *Ørsted* (h_feld) |
+| Vektor | vector | em_feld indepth |
 
 ## 15. Catalogue structure
 
