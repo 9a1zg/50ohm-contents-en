@@ -2640,7 +2640,7 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | „heiß" (Sendergehäuse) / Herdplatte | "hot" / hotplate | AK203 "the transmitter case is "hot"" (schutzerdung_2) |
 | Prasselstörungen / Antennenzuführung | crackling interference / antenna feeder | static charges (statische_aufladung); EK207 |
 | der Rothammel | the Rothammel antenna book | the standard German antenna handbook, named so that the English reader knows what it is (statische_aufladung slides) |
-| erschrecken oder verkrampfen / Sekundärunfall | get a fright or cramp up / secondary accident | as gefahren (antennen_beruehrung_1) |
+| erschrecken oder verkrampfen / Erschrecken und Verkrampfen / Sekundärunfall | give you a fright or make your muscles cramp / fright and muscle cramp / secondary accident | as gefahren "fright … muscle cramp" (antennen_beruehrung_1) |
 | Abschnitt "Gefahren durch elektrischen Strom" | the section "Dangers of electric current" | section titles are not yet translated; quoted in English (antennen_beruehrung_1) |
 | direkter Strahlengang (einer Sendeantenne) | direct beam | EK201 "direct beam of transmitting antennas"; §14 *Strahlengang* → radiation path stays for the optics of a dish (strahlengang_aufenthalt) |
 | Gewebe / Wärmeabfuhr / Hoden | tissue / heat dissipation / testes | strahlengang_aufenthalt |

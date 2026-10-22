@@ -1,10 +1,10 @@
 % Quelle: % https://www.bfs.de/DE/themen/emf/hff/wirkung/hff-nachgewiesen/hff-nachgewiesen.html
 
-In amateur radio, parabolic antennas or helical antennas are often used at microwaves. What the two antennas have in common is that a very high antenna gain can be achieved with them. A few watts, even a few milliwatts, become considerable radiated powers. With parabolic antennas, a gain of $\qty{20}{\dB}$ is relatively easy to achieve. A transmit power of $\qty{1}{\watt}$ thus becomes a radiated power of $\qty{100}{\watt}$. If the dish has a gain of $\qty{30}{\dB}$, it is as much as $\qty{1000}{\watt}$. The electromagnetic fields in the radiation lobe are correspondingly strong.
+In amateur radio, parabolic antennas or helical antennas are often used at microwave frequencies. What the two antennas have in common is that a very high antenna gain can be achieved with them. A few watts, even a few milliwatts, become considerable radiated powers. With parabolic antennas, a gain of $\qty{20}{\dB}$ is relatively easy to achieve. A transmit power of $\qty{1}{\watt}$ thus becomes a radiated power of $\qty{100}{\watt}$. If the dish has a gain of $\qty{30}{\dB}$, it is as much as $\qty{1000}{\watt}$. The electromagnetic fields in the radiation lobe are correspondingly strong.
 
 RF electromagnetic fields act on the human body mainly thermally, that is, by heating tissue. Parts of the body with limited heat dissipation, such as the eyes, the brain or the testes, are particularly sensitive. For this reason, suitable protective measures are necessary in principle for everyone.
 
-Staying in the direct beam of a transmitting antenna, especially at microwaves, is dangerous. It must be avoided at all costs.
+Staying in the direct beam of a transmitting antenna, especially at microwave frequencies, is dangerous. It must be avoided at all costs.
 
 <indepth>
 The formula for calculating the antenna gain of parabolic antennas can be found on the formula sheet:

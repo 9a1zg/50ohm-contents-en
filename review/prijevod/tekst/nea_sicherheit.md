@@ -96,3 +96,23 @@ whose German it repeats).
 - solutions/AK201.md — "Dieser wird so dimensioniert, dass: * dass der Anfangsstrom …" (*dass* twice); `\qty{100}{\kilo\Ohm}` uses `\Ohm`, where the course writes `\ohm` (as in AK103). Formula left unchanged.
 - solutions/AK204.md — "* sie Hautverbrennungen verursachen können," after "aus folgenden Gründen potenziell gefährlich:" — the items mix a clause without conjunction (*sie … können*, plural for *Spannung*) with main clauses.
 - Typos with no effect on the English: sections/elektrische_geaete_oeffnen_1.md "von Netz trennt" (*vom*); sections/elektrische_geaete_oeffnen_2.md "den vorhanden Schaden" (*vorhandenen*), "anpasst werden" (*angepasst*); slides/elektrische_geaete_oeffnen_1.md "Energie …, die gefährlich werden können" (*kann*); sections/antennen_energieleitungen.md and slides double space in the danger box; sections/blitzerdung.md "wenn er einschlägt wird", "keine Litze) deren", "muss man wissen was" (commas missing), "einer vorhanden Blitzschutzanlage" (*vorhandenen*), the indepth sentence without a full stop; sections/blitzschutz.md "einen spezieller Schraubanschluss" (*speziellen*); slides/n_blitzschutz.md "geben VDE-Normen … raus" (*gibt*, colloquial); sections/schutzerdung_1.md "alle elektrische leitende Teile" (*elektrisch*), "Ursachen haben z.B." (comma); sections/schutzerdung_2.md "Zwischen den verschieden Leiter" (*verschiedenen Leitern*), "bei einigen Amateurfunkbänder" (*-bändern*), "niederohmig sein um" (comma), "zurück schreckt" (*zurückschreckt*); sections/statische_aufladung.md "durch  Regen" (double space); sections/antennen_beruehrung_1.md "Ein Sendeantenne" (*Eine*); sections/antennen_beruehrung_2.md "Wo die Spannungsbäuche entstehen hängt" (comma), caption 852 "Deshalb ist Verletzungsgefahr" (article missing); sections/strahlengang_aufenthalt.md "über die biologische Wirkungen von hochfrequenten Felder" (*biologischen*, *Feldern*; the same box as in personenschutzabstand_grenzwerte).
+
+## Provjera
+
+All 30 files compared paragraph by paragraph with the German (`012cd61~1`),
+and the prose checked against the English of the 18 embedded questions.
+Nothing dropped or added; the AK201 restructuring (verb moved up, the
+*führen.* line dropped) is right. The 21 glossary rows are kept, one
+reworked; no DECISIONS.md entry was needed, and none is added. Every
+judgement call in the report is kept. Guard (`--rev 012cd61~1 --brojevi`):
+30 files, *struktura netaknuta*.
+
+Changes: omission 0, meaning 0, technical 2, style 6, glossary 1.
+
+- solutions/AK203.md (technical): "this low-resistance point can be transformed in impedance by the λ/4 line" → "the impedance of this low-resistance point can be transformed by the λ/4 line"; the first sentence reordered so that "as a line" qualifies the electrical length ("has an electrical length, as a line, of about λ/4").
+- solutions/AK204.md (technical): *relevante Gefährdung* "a relevant hazard" (a calque) → "a significant hazard".
+- sections/strahlengang_aufenthalt.md (style, 2): "at microwaves" → "at microwave frequencies".
+- sections/elektrische_geaete_oeffnen_1.md (style): "How long for depends" → "How long they do so depends".
+- sections and slides/antennen_beruehrung_1.md (style, 2): "a fall from the ladder" → "a fall from a ladder"; slide "fright and cramp" → "fright and muscle cramp", as gefahren.
+- solutions/AK201.md (style): "within a reasonable time in practice" → "within a practicable time".
+- TRANSLATION_GLOSSARY.md (glossary): the row *erschrecken oder verkrampfen* gave "get a fright or cramp up", which the text does not use; now "give you a fright or make your muscles cramp / fright and muscle cramp", as the text and gefahren have it.
