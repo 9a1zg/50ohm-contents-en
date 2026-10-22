@@ -1,37 +1,37 @@
 --- style="font-size: smaller;"
-## Beim Senden
+## When transmitting
 
 <left>
-Funkwellen von
-* Antennen
-* Transceivern
-* Zuleitungen
+Radio waves from
+* antennas
+* transceivers
+* leads
 </left>
 <right>
-Elektrische Schwingungen gelangen in andere Leitungen
-* Geräusche aus Lautsprechern
-* Internetausfall (z.B. WLAN)
-* Schwierigkeiten beim Radio- oder Fernsehempfang
-* Fehler in Heizungssteuerung
+Electrical oscillations get into other cables
+* Noises from loudspeakers
+* Internet outage (e.g. Wi-Fi)
+* Problems with radio or television reception
+* Faults in heating controls
 </right>
 
 ---
 
-## Beim Senden
+## When transmitting
 
-* Einhalten der *Schutzanforderungen zur Gewährleistung der elektromagnetischen Verträglichkeit* im Sinne des *Gesetzes über die elektromagnetische Verträglichkeit von Betriebsmitteln (EMVG)*
-* Kein Gerät darf so starke Störungen erzeugen, dass andere Geräte nicht mehr funktionieren
+* Meet the *protection requirements for ensuring electromagnetic compatibility* within the meaning of the *Act on the Electromagnetic Compatibility of Equipment (Gesetz über die elektromagnetische Verträglichkeit von Betriebsmitteln, EMVG)*
+* No equipment may generate interference so strong that other equipment no longer works
 
 ---
 [question:VC118]
 
 ---
 
-## Beim Empfang
+## When receiving
 
-* Geräte und Anlagen müssen eine gewisse Störfestigkeit aufweisen
-* Funkamateur darf Störfestigkeit der eigenen Geräte und Anlagen selbst bestimmen
-* Die Abweichung vom EMVG ist ein Privileg
+* Equipment and installations must have a certain immunity
+* Radio amateurs may determine the immunity of their own equipment and installations themselves
+* Deviating from the EMVG is a privilege
 
 ---
 [question:VC120]
@@ -40,17 +40,17 @@ Elektrische Schwingungen gelangen in andere Leitungen
 [question:VC119]
 
 ---
-## Maßnahmen
+## Measures
 
-Zur Einhaltung der vorgeschriebenen elektromagnetischen Verträglichkeit (EMV)
+For compliance with the prescribed electromagnetic compatibility (EMC)
 
-* Abschirmen
-* Erden
+* Screening
+* Earthing
 
-von allen Geräten und Geräteteilen mit hochfrequenten Schwingungen.
+of all equipment and parts of equipment with RF oscillations.
 
 <fragment>
-Schutz vor Störungen in beide Richtungen
+Protection against interference in both directions
 </fragment>
 
 ---

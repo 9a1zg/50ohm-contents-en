@@ -1,68 +1,68 @@
-## Remote-Betrieb von Funkstationen
+## Remote operation of radio stations
 
-* Besteht aus mehreren Funktionsblöcken  
-* Moderne Geräte integrieren teilweise mehrere Blöcke  
-* Trennung zwischen Operator und Remote-Standort  
+* Consists of several functional blocks  
+* Modern equipment partly integrates several blocks  
+* Separation between operator and remote site  
 
 ---
 
-### Blockschaltbild einer Remote-Station
+### Block diagram of a remote station
 
 <left>
-[picture:501:a_remotebetrieb:Blockschaltbild Remote Betrieb]
+[picture:501:a_remotebetrieb:Block diagram of remote operation]
 </left>
 <right>
-* Logische Darstellung der Funktionsblöcke  
-* Steuerung, Netzwerkverbindung, Remote-Interface  
-* Transceiver und angeschlossene Geräte  
+* Logical representation of the functional blocks  
+* Control, network connection, remote interface  
+* Transceiver and connected equipment  
 </right>
 
 ---
 
-#### Computer und Bedienteil des Operators (Block 1)
+#### Operator's computer and control unit (Block 1)
 
 <left>
-[picture:501:a_remotebetrieb:Blockschaltbild Remote Betrieb]
+[picture:501:a_remotebetrieb:Block diagram of remote operation]
 </left>
 <right>
-* Wandelt Audio- und Steuersignale in Netzwerkpakete  
-* Empfangene Signale werden hör- und sichtbar gemacht  
+* Converts audio and control signals into network packets  
+* Received signals are made audible and visible  
 </right>
 
 ---
 
-#### Netzwerk
+#### Network
 
 <left>
-[picture:501:a_remotebetrieb:Blockschaltbild Remote Betrieb]
+[picture:501:a_remotebetrieb:Block diagram of remote operation]
 </left>
 <right>
-* Verbindet Operator mit Remote-Standort  
-* Nutzung des Internets möglich  
+* Connects the operator with the remote site  
+* The internet can be used  
 </right>
 
 ---
 
-#### Remote-Interface am Remote-Standort (Block 2)
+#### Remote interface at the remote site (Block 2)
 
 <left>
-[picture:501:a_remotebetrieb:Blockschaltbild Remote Betrieb]
+[picture:501:a_remotebetrieb:Block diagram of remote operation]
 </left>
 <right>
-* Setzt Netzwerkpakete in Steuer- und Audiosignale um  
-* Überträgt empfangene Audiosignale zum Operator zurück  
+* Converts network packets into control and audio signals  
+* Sends received audio signals back to the operator  
 </right>
 
 ---
 
-#### Transceiver/Verstärker/Tuner/Antennenrotor (Block 3)
+#### Transceiver/amplifier/tuner/antenna rotator (Block 3)
 
 <left>
-[picture:501:a_remotebetrieb:Blockschaltbild Remote Betrieb]
+[picture:501:a_remotebetrieb:Block diagram of remote operation]
 </left>
 <right>
-* Werden über das Remote-Interface gesteuert  
-* Rückmeldung der Steuerbefehle erfolgt über das Netzwerk  
+* Controlled via the remote interface  
+* Feedback on the control commands comes over the network  
 </right>
 
 ---
@@ -87,11 +87,11 @@
 
 ---
 
-### Verzögerungen im Remote-Betrieb
+### Delays in remote operation
 
-* Netzwerk- und Verarbeitungszeiten führen zu Latenzen  
-* Codierung und Decodierung von Audiosignalen verursachen Verzögerungen  
-* Muss beim Funkbetrieb berücksichtigt werden  
+* Network and processing times lead to latency  
+* Encoding and decoding of audio signals cause delays  
+* Must be taken into account in radio operation  
 
 ---
 
@@ -103,11 +103,11 @@
 
 ---
 
-### Watchdog zur Überwachung der Remote-Station
+### Watchdog for monitoring the remote station
 
-* Verhindert unkontrollierten Zustand bei Verbindungsabbruch  
-* Regelmäßiger Austausch von Datenpaketen zwischen Station und Operator  
-* Bei fehlender Rückantwort wechselt der Transceiver in sicheren Zustand  
+* Prevents an uncontrolled state if the connection is lost  
+* Regular exchange of data packets between station and operator  
+* If there is no reply, the transceiver switches to a safe state  
 
 ---
 
@@ -115,11 +115,11 @@
 
 ---
 
-### Fernabschaltung der Stromversorgung
+### Switching off the power supply remotely
 
-* Transceiver kann in einen undefinierten Zustand geraten  
-* Versorgungsspannung sollte aus der Ferne abschaltbar sein  
-* Lösung: IP-Steckdose zur Steuerung über das Netzwerk  
+* The transceiver may get into an undefined state  
+* It should be possible to switch off the supply voltage remotely  
+* Solution: IP-controlled mains socket, controlled over the network  
 
 ---
 
@@ -127,10 +127,10 @@
 
 ---
 
-### Störungen durch den Transceiver
+### Interference from the transceiver
 
-* Remote-Station kann durch eigene Signale gestört werden  
-* Entsprechende Maßnahmen zur Entstörung erforderlich  
+* The remote station can suffer interference from its own signals  
+* Appropriate interference-suppression measures are needed  
 
 ---
 

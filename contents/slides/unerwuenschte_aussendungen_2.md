@@ -1,23 +1,23 @@
-## Oberwellen
+## Harmonics
 
-* Ganzzahlige Vielfache der Grundfrequenz
-* Entstehen durch Signalformen, die nicht sinusförmig sind, insbesondere bei Übersteuerung
-* Beeinträchtigung anderer Funkdienste
-* Können reduziert werden
+* Integer multiples of the fundamental frequency
+* Arise from waveforms that are not sinusoidal, especially when overdriven
+* Impair other radio services
+* Can be reduced
 
 ---
 [question:EJ201]
 ---
 [question:EJ202]
 ---
-## Tiefpassfilter
+## Low-pass filter
 
 <left>
-* Nur Frequenzen unterhalb einer bestimmten Grenzfrequenz werden durchgelassen
-* Oberwellen können nicht passieren oder werden stark abgeschwächt
+* Only frequencies below a certain cut-off frequency are passed
+* Harmonics cannot pass or are heavily attenuated
 </left>
 <right>
-  [picture:591:tiefpass:Frequenzgang eines Tiefpassfilters]
+  [picture:591:tiefpass:Frequency response of a low-pass filter]
 </right>
 
 ---
@@ -33,36 +33,36 @@
 ---
 [question:EJ203]
 ---
-## Hochpassfilter
+## High-pass filter
 
 <left>
-* Nur Frequenzen oberhalb einer bestimmten Grenzfrequenz werden durchgelassen
-* Werden im Empfängereingang verwendet, damit tiefe Frequenzen nicht stören
+* Only frequencies above a certain cut-off frequency are passed
+* Used at receiver inputs so that low frequencies do not cause interference
 </left>
 <right>
-   [picture:592:hochpass:Frequenzgang eines Hochpassfilters]
+   [picture:592:hochpass:Frequency response of a high-pass filter]
 </right>
 <note>
-* Im Fernseher, damit starke UKW-Radiosender knapp unterhalb des Fernsehsignals nicht stören
+* In the television set, so that strong FM broadcast stations (VHF) just below the television signal do not cause interference
 </note>
 
 ---
-## Bandpassfilter
+## Band-pass filter
 
 <left>
-* Bei Einbandsendern
-* Sender im VHF/UHF/SHF-Bereich
-* Signale aus der Signalaufbereitung unterhalb der Sendefrequenz unterdrücken
+* In single-band transmitters
+* Transmitters for the VHF/UHF/SHF range
+* Suppress signals from the signal processing that lie below the transmit frequency
 </left>
 <right>
-   [picture:593:bandpass:Frequenzgang eines Bandpassfilters]
+   [picture:593:bandpass:Frequency response of a band-pass filter]
 </right>
 
 ---
-## Arbeitspunkt
-* Sender-Stufen und Leistungs-Endstufen sollen verzerrungsfrei arbeiten
-* Nach Veränderung des Arbeitspunkts auf Linearität (saubere Sinus-Verstärkung) prüfen
-* Aussendung auf Oberwellen prüfen
+## Operating point
+* Transmitter stages and power amplifiers should work without distortion
+* After changing the operating point, check the linearity (clean sine-wave amplification)
+* Check the emission for harmonics
 
 ---
 [question:EF404]
@@ -70,32 +70,32 @@
 %Die Fragen habe ich von Störenden Beeinflussungen hier her kopiert (DL9MJ)
 
 ---
-## Übersteuerung
+## Overdriving
 
-* Bei Übersteuerung von Sendern und Endstufen entstehen Nebenaussendungen
-* Diese stören benachbarte Stationen
-* Übersteuerung vermeiden
+* Overdriving transmitters and power amplifiers produces spurious emissions
+* These interfere with stations on adjacent frequencies
+* Avoid overdriving
 
 ---
 [question:EJ213]
 ---
 [question:EJ214]
 ---
-## Frequenzstabilität
+## Frequency stability
 
-* Nicht stabile Oszillatoren können zu Aussendungen außerhalb der Bandgrenzen führen
-* Das kann benachbarte Stationen stören
-* Ursache z.B. Selbstbaugerät mit nicht quarzstabilisierten Oszillator
+* Unstable oscillators can lead to emissions outside the band edges
+* This can interfere with stations on adjacent frequencies
+* Cause, e.g.: home-built equipment with an oscillator that is not crystal-controlled
 
 ---
 [question:EJ216]
 ---
-## Bandbreite
+## Bandwidth
 
-* Überschreitung der zulässigen Bandbreite kann insbesondere bei AFSK-modulierten FM-Sendern geschehen
-* Abhilfe durch Hub begrenzen
-* Oder Aussteuerung der NF reduzieren
-* Beachten bei Packet-Radio oder Digimodes
+* The permitted bandwidth may be exceeded, especially with AFSK-modulated FM transmitters
+* Remedy: limit the deviation
+* Or reduce the AF drive
+* Bear in mind with packet radio or digital modes
 
 ---
 [question:EJ212]

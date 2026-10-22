@@ -1,20 +1,20 @@
-Aber nicht nur von Antennen abgestrahlte, unerwünschte Aussendungen können Störungen verursachen. Auch der Transceiver selber oder dessen Zuleitungen können hochfrequente Schwingungen als Funkwellen abstrahlen. Es kann auch dazu kommen, dass elektrische Schwingungen in das Stromnetz gelangen.  Dadurch können - selbst wenn die Antenne weit weg ist - elektronische Geräte gestört werden, die sich in der Nähe eines Transceivers befinden oder in der Nachbarschaft am Stromnetz angeschlossen sind.
+But it is not only unwanted emissions radiated by antennas that can cause interference. The transceiver itself or its leads can also radiate RF oscillations as radio waves. Electrical oscillations may also get into the mains.  As a result – even if the antenna is far away – interference may be caused to electronic equipment that is close to a transceiver or connected to the mains in the neighbourhood.
 
-Grundsätzlich kann so jede Art von elektronischem Gerät gestört werden. Mögliche Folgen sind beispielsweise:
-* Geräusche aus Lautsprechern
-* Vorübergehender Ausfall von Internetzugang oder WLAN
-* Schwierigkeiten beim Radio- oder Fernsehempfang
-* Fehler in der Steuerung von Heizungen
+In principle, any kind of electronic equipment can suffer interference in this way. Possible consequences include, for example:
+* Noises from loudspeakers
+* Temporary loss of internet access or Wi-Fi
+* Problems with radio or television reception
+* Faults in the control of heating systems
 
-Das Gesetz über die elektromagnetische Verträglichkeit von Betriebsmitteln (EMVG) legt zur Vermeidung solcher Störungen bestimmte *Schutzanforderungen zur Gewährleistung der elektromagnetischen Verträglichkeit* fest, die von allen technischen Geräten eingehalten werden müssen. Einerseits wird verlangt, dass kein Gerät so starke Störungen erzeugen darf, dass andere Geräte nicht mehr funktionieren. Andererseits verlangt das Gesetz, dass alle Geräte eine gewisse Störfestigkeit aufweisen. Das bedeutet, dass sie unempfindlich gegenüber zu erwartenden elektromagnetischen Störungen sein müssen.
+To avoid such interference, the Act on the Electromagnetic Compatibility of Equipment (Gesetz über die elektromagnetische Verträglichkeit von Betriebsmitteln, EMVG) lays down certain *protection requirements for ensuring electromagnetic compatibility* that all technical equipment must meet. On the one hand, it requires that no equipment may generate interference so strong that other equipment no longer works. On the other hand, the Act requires all equipment to have a certain immunity. This means that it must be insensitive to the electromagnetic interference that can be expected.
 
-Diese Schutzanforderungen sind grundsätzlich auch von Amateurfunkstationen einzuhalten. Das Amateurfunkgesetz gibt Funkamateuren allerdings das Privileg, beim zweiten Aspekt, also der Störfestigkeit einer Amateurfunkanlage, von den gesetzlichen Vorgaben abzuweichen und selber festzulegen, wie störfest die Anlage sein soll.
+In principle, amateur stations must also meet these protection requirements. The Amateur Radio Act (Amateurfunkgesetz, AFuG), however, gives radio amateurs the privilege of deviating from the legal requirements on the second aspect, that is, the immunity of an amateur radio installation, and of deciding for themselves how immune the installation should be.
 
 [question:VC118]
 [question:VC120]
 [question:VC119]
 
-Zu den wichtigsten Maßnahmen für die vorgeschriebene elektromagnetische Verträglichkeit (EMV) gehören das *Abschirmen* und *Erden* von allen Geräten und Geräteteilen, in denen hochfrequente Schwingungen auftreten. Diese Maßnahmen können in beide Richtungen wirken: Einerseits schützen sie vor Störungen durch andere Geräte und andererseits können sie vermeiden, dass andere Geräte gestört werden.
+Among the most important measures for the prescribed electromagnetic compatibility (EMC) are *screening* and *earthing* all equipment and parts of equipment in which RF oscillations occur. These measures can work in both directions: on the one hand they protect against interference from other equipment, and on the other they can prevent interference to other equipment.
  
 [question:NK101]
 [question:NJ101]

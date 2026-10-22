@@ -1,15 +1,15 @@
-Möchte man die Sendeleistung eines Senders überprüfen, schließt man anstelle der Antenne eine sogenannte *Dummy Load* an (Abbildung [ref:n_antennenanpassung_dummy_load]). Eine Dummy Load wird auch als *Abschlusswiderstand* oder künstliche Antenne bezeichnet. Sie besteht aus einem Lastwiderstand (vgl. Kapitel Bauteile und Schaltkreise) und einem Kühlkörper.
+If you want to check the transmit power of a transmitter, you connect what is called a *dummy load* in place of the antenna (Figure [ref:n_antennenanpassung_dummy_load]). A dummy load is also called a *termination* or an artificial antenna. It consists of a load resistor (see the chapter on components and circuits) and a heatsink.
 
 <margin>
-[photo:68:n_antennenanpassung_dummy_load:Dummy Load]
+[photo:68:n_antennenanpassung_dummy_load:Dummy load]
 </margin>
 
-Eine Dummy Load wird bei Abgleicharbeiten und Messungen an Sendern genutzt. Die Sendeleistung wird im Gegensatz zu einer echten Antenne fast vollständig in Wärme umgesetzt. Somit wird verhindert, dass Signale abgestrahlt werden. Unnötige Aussendungen und eventuelle Störungen bei anderen Funkverbindungen werden dadurch vermieden.
+A dummy load is used for alignment work and measurements on transmitters. Unlike a real antenna, it converts almost all of the transmit power into heat. This prevents signals from being radiated. Unnecessary emissions and possible interference to other contacts are thus avoided.
 
-Es ist wichtig, dass in jedem Fall entweder eine möglichst angepasste Antenne oder eine Dummy Load am Transceiver angeschlossen ist, wenn mit diesem gesendet wird. Ansonsten wird die gesamte Sendeleistung am Antennenanschluss reflektiert und kann z. B. den Hochfrequenzverstärker (Endstufe) beschädigen.
+It is important that, whenever you transmit, either an antenna that is as well matched as possible or a dummy load is connected to the transceiver. Otherwise the entire transmit power is reflected at the antenna socket and can, for example, damage the RF amplifier (output stage).
 
 <indepth>
-Aus Sicht des Senders ist eine Dummy Load nicht von einer gut angepassten Antenne zu unterscheiden, da die Sendeleistung nicht reflektiert wird.
+From the transmitter's point of view, a dummy load cannot be distinguished from a well-matched antenna, since the transmit power is not reflected.
 </indepth>
 
 [question:VD111]
@@ -18,10 +18,10 @@ Aus Sicht des Senders ist eine Dummy Load nicht von einer gut angepassten Antenn
 
 ---
 
-Ganz vermeiden lassen sich Aussendungen zum Abstimmen nicht, beispielsweise bei der Benutzung von automatischen Antennenanpassgeräten. Wenn diese Art von Aussendungen allerdings so kurz wie möglich erfolgen, sind sie zulässig, auch wenn nur ein Träger ohne Modulation gesendet wird.
+Transmissions for tuning cannot be avoided altogether, for example when automatic antenna tuning units are used. If transmissions of this kind are kept as short as possible, however, they are permitted, even if only a carrier without modulation is transmitted.
 
 <attention>
-Wenn man sein Antennenanpassgerät abstimmt, sollte dies nur auf freien Frequenzen erfolgen. Ansonsten kann man andere Verbindungen stören.
+When you tune your antenna tuning unit, you should only do so on frequencies that are not in use. Otherwise you may interfere with other contacts.
 </attention>
 
 [question:VD112]

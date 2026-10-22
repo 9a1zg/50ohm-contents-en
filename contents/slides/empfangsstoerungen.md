@@ -1,16 +1,16 @@
-## Suche im eigenen Haushalt
+## Searching your own household
 
-Häufige Ursachen
-* Wechselrichter von Solaranlagen
-* Schaltnetzteile
-* LED-Leuchten
-* Powerline Communication
+Common causes
+* Inverters of solar installations
+* Switch-mode power supplies
+* LED lights
+* Powerline communication
 
 <note>
-* Verursacher eingrenzen
-* Geräte abschalten
-* Sicherungen ausschalten
-* Powerline hat oft Filter für Afu-Bänder, aber unklar, ob die auch die Updates erhalten
+* Narrow down the culprit
+* Switch devices off
+* Switch off circuits at the fuse box
+* Powerline often has filters for the amateur bands, but it is unclear whether these also get the updates
 </note>
 
 ---
@@ -18,17 +18,17 @@ Häufige Ursachen
 
 ---
 
-## Hinnehmbare Störungen
+## Interference that must be accepted
 
-* Versuchen, die Grenzwerte von Geräten in der Nachbarschaft festzustellen
-* Werden die Grenzwerte (EMVG und FuAG) eingehalten, muss die Störung hingenommen werden
-* Evtl. hat der Nachbar Kooperationsbereitschaft zur Behebung
+* Try to establish the limits of equipment in the neighbourhood
+* If the limits (EMVG and FuAG) are met, the interference must be accepted
+* The neighbour may be willing to cooperate in eliminating it
 
 <note>
-* EMVG: Gesetz über die elektromagnetische Verträglichkeit von Betriebsmitteln (EMVG)
-* FuAG: Funkanlagengesetzes
-* Das DARC-Referat für elektromagnetische Verträglichkeit hat Messgeräte
-* Hier DARC-Werbung machen
+* EMVG: Act on the Electromagnetic Compatibility of Equipment (Gesetz über die elektromagnetische Verträglichkeit von Betriebsmitteln, EMVG)
+* FuAG: Radio Equipment Act (Funkanlagengesetz, FuAG)
+* The DARC's department for electromagnetic compatibility has measuring equipment
+* Promote the DARC here
 </note>
 
 ---
@@ -36,11 +36,11 @@ Häufige Ursachen
 
 ---
 
-### BNetzA einbeziehen
+### Involving the BNetzA
 
-* Über Funkstörannahme der Bundesnetzagentur
-* Protokoll über Störungen erstellen
-* Zeitpunkt, Art und vermutete Quelle
+* Via the radio interference reporting service of the Federal Network Agency (Funkstörungsannahme)
+* Keep a record of the interference
+* Time, type and suspected source
 
 ---
 [question:VE309]

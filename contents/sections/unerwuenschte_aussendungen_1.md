@@ -1,14 +1,14 @@
-Wie wir bereits beim Sender gelernt haben, erzeugen sowohl Mischer als auch Verstärker unerwünschte Frequenzanteile. Gelangen solche unerwünschten Frequenzanteile an die Antenne, werden sie von dieser abgestrahlt. Dann spricht man von *unerwünschten Aussendungen*.
+As we have already learnt in the chapter on the transmitter, both mixers and amplifiers produce unwanted frequency components. If such unwanted frequency components reach the antenna, they are radiated by it. They are then called *unwanted emissions*.
 
-Die Frequenzen dieser unerwünschten Aussendungen liegen oft außerhalb der Amateurfunkbänder. Sie können stattdessen beispielsweise in Frequenzbereichen des Flugfunks oder des kommerziellen Rundfunks liegen.
+The frequencies of these unwanted emissions are often outside the amateur bands. They may instead lie, for example, in the frequency ranges of aeronautical radio or of commercial broadcasting.
 
-Damit wir weder andere Funkdienste noch unsere Nachbarn beim Rundfunkempfang stören, sollte ein Sender immer so betrieben werden, dass er keine unerwünschten Aussendungen hervorruft. Dies kann beispielsweise durch ein Bandpassfilter erreicht werden, das nur den gewünschten Frequenzbereich durchlässt, während es alle Frequenzen darüber und darunter sperrt.
+So that we interfere neither with other radio services nor with our neighbours' broadcast reception, a transmitter should always be operated in such a way that it does not cause any unwanted emissions. This can be achieved, for example, with a band-pass filter that passes only the wanted frequency range while blocking all frequencies above and below it.
 
-Da die tatsächlich verfügbaren Filter nicht perfekt sind, lassen sich unerwünschte Aussendungen damit nicht vollständig vermeiden. In der Praxis sind unerwünschten Aussendungen daher auf das *geringstmögliche Maß* zu beschränken.
+Since the filters actually available are not perfect, they cannot prevent unwanted emissions completely. In practice, unwanted emissions must therefore be kept to the *lowest possible level*.
 
 <indepth>
 % TODO: Editionsspezifisch machen
-Auch wenn das Amateurfunkgesetz nur allgemein verlangt, dass unerwünschte Aussendungen auf das geringstmögliche Maß zu beschränken sind, gibt es andere gesetzliche Regelungen, die konkrete Grenzwerte nennen. Diese werden im Kurs der Klasse A behandelt.
+Even though the Amateur Radio Act (Amateurfunkgesetz, AFuG) only requires in general terms that unwanted emissions be kept to the lowest possible level, there are other legal provisions that set specific limits. These are covered in the Class A course.
 </indepth>
 
 [question:NJ201]

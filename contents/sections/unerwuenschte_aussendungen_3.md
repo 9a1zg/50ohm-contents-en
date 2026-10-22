@@ -1,24 +1,24 @@
-In der Klasse E haben wir bereits unerwünschte Aussendungen in Form von *Oberwellen* und *Nebenaussendungen* kennengelernt. Oberwellen bzw. Harmonische eines Signals entstehen immer, wenn sich Abweichungen von der idealen Sinus-Kurve bilden und sind immer ganzzahlige Vielfache der Grundfrequenz, wie in Abbildung [ref:a_harmonische] dargestellt.
+In Class E we have already met unwanted emissions in the form of *harmonics* and *spurious emissions*. Overtones, or harmonics, of a signal always arise when there are departures from the ideal sine curve, and they are always integer multiples of the fundamental frequency, as shown in Figure [ref:a_harmonische].
 
-Ein Beispiel zeigt die folgende Prüfungsfrage: Wird ein Verstärker übersteuert, werden die Spitzen der Amplitude des Sinussignals begrenzt – dadurch entstehen Oberwellen.
+The following examination question gives an example: if an amplifier is overdriven, the peaks of the amplitude of the sine signal are limited – and this produces harmonics.
 
 [question:AJ207]
 
 <margin>
-[picture:868:a_harmonische: Oberwellen (OW), Harmonische (Harm.) und Nebenaussendungen (NA)]
+[picture:868:a_harmonische: Overtones (OW), harmonics (Harm.) and spurious emissions (NA)]
 </margin>
 
 ---
 
-Bei der Betrachtung von Vielfachen der Grundfrequenz eines Signals unterscheiden wir zwischen den Begriffen *Harmonische und Oberwellen* des Signals. Diese beiden Begriffe unterscheiden sich nur in deren Definition und Zählweise. Die 1. Harmonische eines Signals ist dessen Grundfrequenz selbst. Die 2. Harmonische entspricht der 1. Oberwelle eines Signals, die 3. Harmonische der 2. Oberwelle eines Signals und so weiter. Die nebenstehende Tabelle [ref:a_harmonische] zeigt den Zusammenhang. 
+When looking at multiples of the fundamental frequency of a signal, we distinguish between the *harmonics and overtones* of the signal. The two terms differ only in their definition and in the way they are counted. The 1st harmonic of a signal is its fundamental frequency itself. The 2nd harmonic corresponds to the 1st overtone of a signal, the 3rd harmonic to the 2nd overtone of a signal, and so on. Table [ref:a_harmonische] alongside shows the relationship. 
 
 <margin>
-| l: Vielfaches der Grundfrequenz | l: Harmonische | l: Oberwelle |
+| l: Multiple of the fundamental frequency | l: Harmonic | l: Overtone |
 | $f_0$ | 1 | ~ |
 | $2 \cdot f_0$ | 2 | 1 |
 | $3 \cdot f_0$ | 3 | 2 |
 | $4 \cdot f_0$ | 4 | 3 |
-[table:a_harmonische:Harmonische und Oberwellen]
+[table:a_harmonische:Harmonics and overtones]
 </margin>
 
 ---
@@ -27,68 +27,68 @@ Bei der Betrachtung von Vielfachen der Grundfrequenz eines Signals unterscheiden
 [question:AJ204]
 
 <tip>
-Der UKW-Rundfunk ist der "klassische" Rundfunk auf Ultrakurzwelle (UKW). Die Ausstrahlung von Radioprogrammen erfolgt im Frequenzbereich von $\qtyrange{87,6}{107,9}{\mega\hertz}$.
+VHF FM broadcasting is the "classic" radio broadcasting on very high frequencies (VHF). Radio programmes are broadcast in the frequency range from $\qtyrange{87.6}{107.9}{\mega\hertz}$.
 </tip>
 
-Sollen bestimmte Oberwellen oder Harmonische eines Signals einzeln unterdrückt werden, so kann dies neben des klassischen Oberwellenfilters (Tiefpass) auch durch sog. *Sperrkreise* erfolgen. Ein Sperrkreis unterdrückt genau eine Frequenz maximal und lässt ansonsten alle anderen nahezu ungehindert passieren.
+If particular overtones or harmonics of a signal are to be suppressed individually, this can be done not only with the classic harmonic filter (low-pass) but also with what are called *rejector circuits*. A rejector circuit suppresses exactly one frequency as strongly as possible and lets all other frequencies pass almost unhindered.
 
 [question:AJ210]
 
 ---
 
-Nach der Amateurfunkverordnung (AFuV) sind unerwünschte Aussendungen auf das geringstmögliche Maß zu beschränken. Für selbst gebaute Amateurfunkgeräte sowie für ursprünglich kommerziell vertriebene Geräte, die von einem Funkamateur verändert wurden, legt die [Verfügung 33/2007](https://50ohm.de/vfg33) der Bundesnetzagentur (BNetzA) konkrete Grenzwerte fest. Die Abbildung [ref:a_vfg33] zeigt einen Auszug aus dieser Verfügung mit den zulässigen Grenzwerten für unerwünschte Aussendungen. 
+Under the Amateur Radio Ordinance (Amateurfunkverordnung, AFuV), unwanted emissions must be kept to the lowest possible level. For home-built amateur radio equipment, and for equipment originally sold commercially that has been modified by a radio amateur, [Order 33/2007](https://50ohm.de/vfg33) of the Federal Network Agency (Bundesnetzagentur, BNetzA) sets specific limits. Figure [ref:a_vfg33] shows an extract from this order with the permitted limits for unwanted emissions. 
 
-Die Grenzwerte sind üblicherweise in $\unit{\dBc}$ angegeben und beschreiben, um wie viele Dezibel eine unerwünschte Aussendung gegenüber dem Trägersignal beziehungsweise dem maximalen Sendesignalpegel des Senders (PEP) abgeschwächt sein muss. Alternativ zur relativen Angabe in $\unit{\dBc}$ kann für unerwünschte Aussendungen auch ein absoluter Grenzwert der Leistung, beispielsweise in $\unit{\dBm}$ oder $\unit{\micro\watt}$, gelten. Maßgeblich ist dabei jeweils der höhere der aus beiden Grenzwerten resultierenden zulässigen Leistungswerte.
+The limits are usually given in $\unit{\dBc}$ and state by how many decibels an unwanted emission must be attenuated relative to the carrier signal or to the maximum transmitted signal level of the transmitter (PEP). As an alternative to the relative figure in $\unit{\dBc}$, an absolute power limit, for example in $\unit{\dBm}$ or $\unit{\micro\watt}$, may also apply to unwanted emissions. In each case, the higher of the two permitted power values that result from the two limits is the one that counts.
 
-Für Amateurfunkgeräte, die kommerziell in der Europäischen Union vertrieben werden, gelten ebenfalls Grenzwerte für unerwünschte Aussendungen. Diese sind EU-weit einheitlich geregelt. Im Unterschied zu den Grenzwerten der Verfügung 33/2007 hängen die zulässigen Werte hierbei teilweise von der Sendeleistung des Geräts ab. Die Abbildung [ref:a_etsi_vfg] stellt die Grenzwerte für kommerziell vertriebene Geräte den Vorgaben der Verfügung 33/2007 gegenüber.
+Limits for unwanted emissions also apply to amateur radio equipment sold commercially in the European Union. They are regulated uniformly throughout the EU. Unlike the limits of Order 33/2007, the permitted values here depend in part on the transmit power of the equipment. Figure [ref:a_etsi_vfg] compares the limits for commercially sold equipment with the requirements of Order 33/2007.
 
-Ein Beispiel verdeutlicht den Unterschied: Für ein kommerziell vertriebenes Handfunkgerät mit einer Sendeleistung von $\qty{5}{\watt}$ gilt im dargestellten Frequenzbereich ein Grenzwert von $\qty{-50}{\dBc}$. Wird dagegen ein entsprechendes $\qty{5}{\watt}$-Gerät für das 2-m- oder 70-cm-Band selbst gebaut, muss nach Verfügung 33/2007 ein Grenzwert von $\qty{-60}{\dBc}$ eingehalten werden.
+An example makes the difference clear: for a commercially sold handheld with a transmit power of $\qty{5}{\watt}$, a limit of $\qty{-50}{\dBc}$ applies in the frequency range shown. If, on the other hand, a corresponding $\qty{5}{\watt}$ set for the 2 m or 70 cm band is home-built, a limit of $\qty{-60}{\dBc}$ must be met under Order 33/2007.
 
-Bei einer Sendeleistung von $\qty{750}{\watt}$ bleibt dieser Grenzwert für das selbst gebaute Gerät bei $\qty{-60}{\dBc}$. Für ein kommerziell vertriebenes Gerät mit derselben Leistung gilt dagegen ein strengerer Grenzwert von $\qty{-70}{\dBc}$.
+At a transmit power of $\qty{750}{\watt}$, this limit remains at $\qty{-60}{\dBc}$ for the home-built set. For a commercially sold set of the same power, on the other hand, a stricter limit of $\qty{-70}{\dBc}$ applies.
 
-Die folgenden Prüfungsfragen beziehen sich auf selbst gebaute oder modifizierte Amateurfunkgeräte und somit auf die Grenzwerte für unerwünschte Aussendungen, wie sie in der Verfügung 33/2007 der Bundesnetzagentur festgelegt sind.
+The following examination questions refer to home-built or modified amateur radio equipment, and thus to the limits for unwanted emissions as laid down in Order 33/2007 of the BNetzA.
 
 <margin>
-[photo:319:a_vfg33:Auszug aus der Verfügung 33 von 2007.]
-[picture:1139:a_etsi_vfg:Vergleich der ETSI Norm EN 301783 mit der Verfügung 33 von 2007. Im Hintergrund sind die Amateurfunkbänder grau hinterlegt.]
+[photo:319:a_vfg33:Extract from Order 33 of 2007.]
+[picture:1139:a_etsi_vfg:Comparison of the ETSI standard EN 301783 with Order 33 of 2007. The amateur bands are shaded grey in the background.]
 </margin>
 
 ---
 
-Für den VHF/UHF/SHF-Bereich von $\qtyrange{50}{1000}{\mega\hertz}$ gilt, dass Nebenaussendungen und Oberwellen mindestens $\qty{60}{\dB}$ gegenüber dem maximalen Sendesignalspitzenpegel des Senders (PEP) gedämpft werden müssen, so lange sich die Leistung der Signale oberhalb eines Pegels von $\qty{0,25}{\micro\watt}$ befindet (vgl. Abbildung [ref:a_uagw]). 
+For the VHF/UHF/SHF range from $\qtyrange{50}{1000}{\mega\hertz}$, spurious emissions and harmonics must be attenuated by at least $\qty{60}{\dB}$ relative to the maximum peak level of the transmitter's transmitted signal (PEP), as long as the power of these signals is above a level of $\qty{0.25}{\micro\watt}$ (see Figure [ref:a_uagw]). 
 
 <margin>
-[picture:918:a_uagw:Oberwellendämpfung VHF/UHF/SHF-Bereich]
+[picture:918:a_uagw:Harmonic attenuation, VHF/UHF/SHF range]
 </margin>
 
 [question:AJ225]
 
 ---
 
-Für den Kurzwellenbereich von $\qtyrange{1,7}{35}{\mega\hertz}$ gilt, dass Nebenaussendungen und Oberwellen mindestens $\qty{40}{\dB}$ gegenüber dem maximalen Sendesignalspitzenpegel des Senders (PEP) gedämpft werden müssen, so lange sich die Leistung der Signale oberhalb eines Pegels von $\qty{0,25}{\micro\watt}$ befindet (vgl. Abbildung [ref:a_uagw2]).
+For the HF range from $\qtyrange{1.7}{35}{\mega\hertz}$, spurious emissions and harmonics must be attenuated by at least $\qty{40}{\dB}$ relative to the maximum peak level of the transmitter's transmitted signal (PEP), as long as the power of these signals is above a level of $\qty{0.25}{\micro\watt}$ (see Figure [ref:a_uagw2]).
 
 <margin>
-[picture:1140:a_uagw2:Oberwellendämpfung KW-Bereich]
+[picture:1140:a_uagw2:Harmonic attenuation, HF range]
 </margin>
 
 [question:AJ224]
 
 %TODO BILD VON DL1COM EINBAUEN
-Mit einem Spektrumanalysator lässt sich im Modus *Spurious Emissions* eine Messung der Oberwellen bzw. Harmonischen (engl. harmonics) durchführen, wie in Abbildung [ref:a_uagw] dargestellt. Der Spektrumanalysator erfasst dabei automatisch den Pegel des Trägers sowie die Unterdrückung der Harmonischen und zeigt diese zusätzlich auf dem Bildschirm an. Wenn man ein Gerät selbst baut, ist es entscheidend, durch Messungen sicherzustellen, dass die vorgeschriebenen Grenzwerte eingehalten werden. Ein kommerzieller Funkgerätehersteller bestätigt mit der CE-Erklärung zwar die Einhaltung dieser Grenzwerte, dennoch kommt es vor, dass einzelne Geräte die Vorgaben nicht erfüllen – in solchen Fällen kann die Bundesnetzagentur deren Betrieb und Verkauf verbieten.
+A spectrum analyser in *Spurious Emissions* mode can be used to measure the harmonics, as shown in Figure [ref:a_uagw]. The spectrum analyser automatically records the level of the carrier and the suppression of the harmonics, and also shows these on the screen. If you build equipment yourself, it is essential to make sure by measurement that the prescribed limits are met. A commercial manufacturer of radios does confirm compliance with these limits with the CE declaration, but it still happens that individual sets do not meet the requirements – in such cases the BNetzA can prohibit their operation and sale.
 
-Unerwünschte Aussendungen entstehen nicht nur durch Oberwellen, sondern können auch in der Frequenzaufbereitung von Sendern auftreten – etwa durch unerwünschte Mischprodukte, durch Schwankungen in der Versorgungsspannung oder durch eine Übersteuerung des NF-Signals. Das wollen wir uns im Folgenden noch etwas genauer anschauen. 
+Unwanted emissions arise not only from harmonics; they can also occur in the frequency generation of transmitters – for example from unwanted mixing products, from fluctuations in the supply voltage or from overdriving of the AF signal. We will look at this a little more closely below. 
 
-Zur Unterdrückung von unerwünschten Mischprodukten – aber auch der Oberwellen – wird nach Mischern häufig ein Bandpassfilter eingesetzt. Besonders bei Einbandsendern sowie bei Geräten für den VHF-, UHF- und SHF-Bereich kommen statt klassischer Oberwellen-Tiefpässe nämlich Bandpässe zum Einsatz. Bei diesen Funkgeräten müssen oft auch Signalanteile unterdrückt werden, die bereits innerhalb der Aufbereitung des Sendesignals entstehen und sich sogar unterhalb der eigentlichen Sendefrequenz befinden können.
+To suppress unwanted mixing products – but also harmonics – a band-pass filter is often used after mixers. Particularly in single-band transmitters and in equipment for the VHF, UHF and SHF ranges, band-pass filters are used instead of classic low-pass harmonic filters. In these radios, signal components often have to be suppressed that already arise within the processing of the transmitted signal and may even lie below the actual transmit frequency.
 
 [question:AJ211]
 [question:AJ209]
 [question:AJ208]
 
-Unerwünschte Aussendungen können auch in unmittelbarer Nähe zum Sendesignal vorliegen. Diese sind durch den Einsatz von Filtern nur schwer oder gar nicht zu unterdrücken und sollten daher bereits zu Beginn der Signalaufbereitung durch entsprechende Maßnahmen wirksam unterdrückt werden. Häufig entstehen solche *Nebenaussendung*, oder auch *Nebenprodukte* genannt (umgangssprachlich auch als "Splatter" bezeichnet), welche das Sendesignal ungewollt verbreitern, durch eine zu hohe Einstellung des Mikrofonverstärkers eines Senders. Hierdurch wird das NF-Signal verzerrt, was unerwünschte Nebenaussendungen zur Folge hat. Abbildung [ref:a_harmonische] zeigt die Nebenaussendungen. 
+Unwanted emissions can also be present in the immediate vicinity of the transmitted signal. They are difficult or impossible to suppress with filters and should therefore be suppressed effectively by appropriate measures right at the start of the signal processing. Such *spurious emissions*, also called *spurious products* (and informally also known as "splatter"), which unintentionally widen the transmitted signal, often arise from setting the microphone amplifier of a transmitter too high. This distorts the AF signal, which results in unwanted spurious emissions. Figure [ref:a_harmonische] shows the spurious emissions. 
 
 [question:AJ219]
 
-Auch durch eine nicht ausreichend stabilierte Versorgungsspannung von Senderendstufen können unerwünschte Aussendungen entstehen. Hierbei kann beispielsweise ein schlecht gefiltertes oder stabilisiertes Netzteil (mit Brummspannung behaftet) auf der Versorgungsspannungsseite zu AM-Aussendungen der Endstufe führen. Auch Einstreuungen von NF-Signalen auf der Netzversorgungsseite eines Senders können zu entsprechenden AM-Aussendungen führen. Dies ist oft bei CW-Aussendungen als "verbrummter" Träger/Ton wahrzunehmen, insbesondere bei älteren Sendern.
+Unwanted emissions can also arise from an inadequately stabilised supply voltage to transmitter output stages. For example, a poorly filtered or poorly stabilised power supply (with a ripple voltage on its output) can, on the supply-voltage side, lead to AM emissions from the output stage. AF signals coupled in on the mains supply side of a transmitter can also lead to corresponding AM emissions. With CW emissions this can often be noticed as a "buzzing" carrier or tone, especially with older transmitters.
 
 [question:AJ222]
 [question:AJ223]

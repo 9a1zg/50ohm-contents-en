@@ -1,22 +1,22 @@
 <left>
-* *Dummy Load* wird für Abgleicharbeiten und Messungen an Sendern verwendet
-* Ist ein Lastwiderstand
-* Sendeleistung wird fast vollständig in Wärme umgesetzt
-* auch: *Abschlusswiderstand* oder *künstliche Antenne*
+* A *dummy load* is used for alignment work and measurements on transmitters
+* It is a load resistor
+* Transmit power is converted almost entirely into heat
+* Also called a *termination* or an *artificial antenna*
 </left>
 <right>
-[photo:68:n_antennenanpassung_dummy_load:Dummy Load]
+[photo:68:n_antennenanpassung_dummy_load:Dummy load]
 </right>
 
 <note>
-* Dummy Load lässt sich am Funkgerät nicht von gut angepasster Antenne unterscheiden
+* To the radio, a dummy load cannot be distinguished from a well-matched antenna
 </note>
 
 ---
-## Abgleicharbeiten und Messungen
+## Alignment work and measurements
 
-* Immer an möglichst angepasster Antenne oder Dummy Load
-* Ansonsten kann die Reflektion der Leistung die Endstufe zerstören
+* Always into an antenna that is as well matched as possible, or into a dummy load
+* Otherwise the reflected power can destroy the output stage
 
 ---
 [question:VD111]
@@ -29,12 +29,12 @@
 
 ---
 
-## Abstimmen
+## Tuning
 
-* Aussendungen zum Abstimmen lassen sich nicht vermeiden
-* Z.B. bei automatischen Anpassgeräten
-* So kurz wie möglich
-* Auf freier Frequenz
+* Transmissions for tuning cannot be avoided
+* E.g. with automatic tuning units
+* As short as possible
+* On a frequency that is not in use
 
 ---
 [question:VD112]

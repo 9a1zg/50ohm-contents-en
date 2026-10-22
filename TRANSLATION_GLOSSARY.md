@@ -2402,6 +2402,35 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | berechnet (in Lösungsfolien, neben *gegeben / gesucht*) | calculated | sender_messungen slides |
 | auf den Holzweg geraten | go astray | AF414 |
 | (Emitter) unbeschaltet | no external circuitry (at the emitter) | as §13 *Beschaltung* (AF414) |
+| Störung / störende Beeinflussung (Kurstext, gegenübergestellt) | interference / breakthrough | where the course sets them apart (limits exceeded vs. limits kept but equipment upset by the wanted signal); German words named once: "interference (in German *Störung*) and breakthrough (*störende Beeinflussung*)"; slide heading *Störende Beeinflussung* → Breakthrough. The question bank keeps *interference* for both (EJ103, EJ110, EJ112) (DECISIONS.md) (stoerungen_vermeiden, stoerungen_elektronischer_geraete_1) |
+| Beeinflussung / beeinflussen (ohne *störend*) | effect / affect | "verschiedenen Beeinflussungen elektronischer Geräte" → "electronic equipment can be affected in various ways" (stoerungen_elektronischer_geraete_1, _2) |
+| Übersteuerung (Empfänger) / Übersteuerung (Sender, Verstärker) | overloading / overdriving | EJ103, EJ106, EJ107 "overloaded"; EJ213, AJ207 "overdriven" |
+| Abschlusswiderstand oder künstliche Antenne (Synonyme der Dummy Load) | termination or artificial antenna | dummy_load_1; §11 *Dummy Load* |
+| induktionsarme Widerstände / Anzapfung / Masseanschluss (Dummy Load) | resistors with as little inductance as possible / tap / chassis connection | AI603's *erdnahes Ende* stays "earthed end" (§11) (dummy_load_2) |
+| Teilspannung / Teilungsverhältnis (Spannungsteiler) | partial voltage / divider ratio | as *Spannungsteilerverhältnis* (dummy_load_2) |
+| *Anzeige:* (Werbung im Kurstext) | *Advertisement:* | trap: *Anzeige* is otherwise a reading or display (§11) or a BEMFV notification (§1.4) (dummy_load_2) |
+| DARC-Verlag / Bausatz | DARC-Verlag / kit | the publisher's name stays (dummy_load_2) |
+| Verfügung 33/2007 (der BNetzA) / Verfügung 33 von 2007 | Order 33/2007 / Order 33 of 2007 | as *Verfügung 13/2005* (§1.2) (unerwuenschte_aussendungen_3) |
+| Oberwellendämpfung (Bildunterschrift) | harmonic attenuation | captions 918, 1140 (unerwuenschte_aussendungen_3) |
+| maximaler Sendesignalspitzenpegel des Senders (PEP) / maximaler Sendesignalpegel | maximum peak level of the transmitter's transmitted signal (PEP) / maximum transmitted signal level | AJ224, AJ225 "maximum PEP of the transmitter" (unerwuenschte_aussendungen_3) |
+| Oberwellen bzw. Harmonische (engl. harmonics) (Spektrumanalysator) | harmonics | the German pairs its two words and glosses them with the English one, which is all English needs (bracket rule); *overtone* only where the text contrasts the two (§14 *Oberwelle*) (unerwuenschte_aussendungen_3) |
+| CE-Erklärung / ETSI Norm EN 301783 | CE declaration / ETSI standard EN 301783 | unerwuenschte_aussendungen_3 |
+| Einstreuungen von NF-Signalen (Netzversorgungsseite) | AF signals coupled in (on the mains supply side) | AJ223 (unerwuenschte_aussendungen_3) |
+| UKW-Rundfunk / UKW-Rundfunkbereich / UKW-Radiosender (Kurstext) | VHF FM broadcasting / FM broadcast band (VHF) / FM broadcast stations (VHF) | as §10 *Ultrakurzwelle (UKW)*; AJ204 "FM broadcast band" (unerwuenschte_aussendungen_2, _3, stoerungen_vermeiden) |
+| Bandstoppfilter (Bandsperren) | band-stop filters | the bracket only gives the other German name and is dropped (AJ208) |
+| *Ober*schwingungen (Hervorhebung der Vorsilbe) | *harmonics* | the German stresses *Ober-* ("upper"); English *harmonics* has no such prefix, so the whole word is italicised (AJ208) |
+| Funkstörungsannahme / Funkstörannahme (Folie) | radio interference reporting service (Funkstörungsannahme) | the slide's variant spelling written as the service's name; §1.2 (stoerungen_vermeiden, empfangsstoerungen) |
+| Referenten für elektromagnetische Verträglichkeit (DARC) / Referat für EMV / Distrikte | electromagnetic compatibility officers / department for electromagnetic compatibility / districts | as §1.2 *EMV-Beauftragter des RTA* → EMC officer; *Ortsverband* → local club (stoerungen_vermeiden, empfangsstoerungen) |
+| Jetzt Mitglied im DARC werden! | Become a DARC member now! | link text, as in earlier units |
+| Konfliktfall / Leib und Leben / Sachen von bedeutendem Wert | case of conflict / life and limb / property of considerable value | BNetzA powers (stoerungen_vermeiden) |
+| Garagentorsteuerung / Funk-Autoschlüssel / LED-Leuchten mit kapazitiven Sensoren | garage door control / radio car key / LED lights controlled by capacitive sensors | stoerungen_elektronischer_geraete_1 |
+| Mantelwellen-Sperren (Verdrosselung) / Gleichtaktströme / Klappringkerne aus Ferrit, Klappferrite | common-mode chokes (choking) / common-mode currents / clip-on ferrite cores, clip-on ferrites | as §12 *Mantelwellendrossel*, *Klappferritkern* (stoerungen_elektronischer_geraete_1) |
+| Aussetzer / Artefakte / Verstummen (DAB, DVB-T) | dropouts / artefacts / muting | British *artefacts* (stoerungen_elektronischer_geraete_2) |
+| Längsimpedanz / Eigenresonanz / Leistungscharakteristik (HF-Stufe) | series impedance / self-resonance / power response | AJ214 (stoerungen_elektronischer_geraete_2) |
+| Powerline Communication / Afu-Bänder | powerline communication / amateur bands | empfangsstoerungen slides |
+| Sicherungen ausschalten (Störungssuche im Haushalt) | switch off circuits at the fuse box | empfangsstoerungen slides; cf. §14 *Haussicherung* |
+| Standort des Operators / Remote-Standort / Bedienteil des Operators / Block 1–3 | operator's location / remote site / operator's control unit / Block 1–3 | as §6 *Kontrollseite / Remoteseite*, *Bedienteil*; *Block* capitalised as a label, as AF703 (remote_station) |
+| Laufzeiten im Netzwerk / Verarbeitungszeiten (Remote-Betrieb) | transit times in the network / processing times | AF709, AF710 (remote_station) |
 
 ## 15. Catalogue structure
 

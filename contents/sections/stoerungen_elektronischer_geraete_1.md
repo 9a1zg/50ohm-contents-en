@@ -1,82 +1,82 @@
-Beim Betrieb von Sendern – insbesondere von leistungsstarken Sendern – kann es zu verschiedenen Beeinflussungen elektronischer Geräte und Anlagen kommen. Solche *störenden Beeinflussungen* und einige grundlegende Handlungshinweise haben wir bereits in der Klasse N kennengelernt. Ziel ist es, diese Beeinflussungen möglichst zu vermeiden oder ihre Ursachen durch geeignete Gegenmaßnahmen zu beseitigen. In dieser Lektion wollen wir uns Ursachen und Gegenmaßnahmen genauer ansehen. Grundsätzlich können elektronische Geräte auf zwei Arten beeinflusst werden:
+When transmitters are operated – especially high-power transmitters – electronic equipment and installations can be affected in various ways. We have already met such *breakthrough*, and some basic advice on what to do about it, in Class N. The aim is to avoid these effects as far as possible, or to eliminate their causes by suitable countermeasures. In this lesson we want to look more closely at causes and countermeasures. In principle, electronic equipment can be affected in two ways:
 
-- *Einstrahlung* liegt vor, wenn Hochfrequenz über die Empfangsantenne (Abbildung [ref:e_antenne_einstrahlung]) oder wegen eines ungenügend geschirmten Gehäuses (Abbildung [ref:e_direkteinstrahlung]) direkt in die Elektronik eines Gerätes gelangt und dort zu Beeinflussungen führt.
-- *Einströmungen* liegen vor, wenn Hochfrequenz über Leitungen oder Kabel in ein Gerät gelangen wie z.B. über die Netzzuleitung, Antennenzuleitung, Lautsprecherkabel etc. (Abbildung [ref:e_einstroemung])
+- *Radiated pick-up* occurs when RF gets directly into the electronics of a device via the receiving antenna (Figure [ref:e_antenne_einstrahlung]) or because of an inadequately screened case (Figure [ref:e_direkteinstrahlung]) and affects it there.
+- *Conducted pick-up* occurs when RF gets into a device via leads or cables, e.g. via the mains lead, antenna feeder, loudspeaker cables etc. (Figure [ref:e_einstroemung])
 
 <margin>
-[picture:744:e_antenne_einstrahlung:Einstrahlung über die Empfangsantenne]
-[picture:746:e_direkteinstrahlung:Direkteinstrahlung in ein Gerät]
-[picture:747:e_einstroemung:Einströmung über Anschlussleitungen]
+[picture:744:e_antenne_einstrahlung:Radiated pick-up via the receiving antenna]
+[picture:746:e_direkteinstrahlung:Direct pick-up into a device]
+[picture:747:e_einstroemung:Conducted pick-up via connecting leads]
 </margin>
 
 [question:EJ102]
 [question:EJ101]
 
-Auch beim gesetzeskonformen Betrieb eines Senders können bei Empfängern in unmittelbarer Nachbarschaft Beeinflussungen beim Empfang anderer Frequenzen auftreten. Durch hohe Sendeleistungen von Amateurfunkstationen sowie den Einsatz von Antennen mit hohem Gewinn können lokal und im Strahlungsbereich der Antennen sehr hohe Feldstärken auftreten. Diese können Empfänger und deren Empfangsstufen übersteuern, was zu einer Verringerung der Empfängerempfindlichkeit bis hin zur vollständigen Blockierung des Empfangs führen kann. Dies kann beispielsweise dazu führen, dass Garagentorsteuerungen nicht mehr wie gewohnt funktionieren. Oft werden auch LED-Leuchten, welche über kapazitive Sensoren gesteuert werden, von Aussendungen beeinflusst. Hierbei spricht man von *Übersteuerung* oder *störender Beeinflussung* von Geräten. 
+Even when a transmitter is operated in accordance with the law, receivers in the immediate neighbourhood may be affected when receiving other frequencies. High transmit powers of amateur stations and the use of high-gain antennas can produce very high field strengths locally and within the radiation area of the antennas. These can overload receivers and their receiver stages, which can lead to a reduction in receiver sensitivity, up to complete blocking of reception. This can mean, for example, that garage door controls no longer work as usual. LED lights controlled by capacitive sensors are also often affected by transmissions. This is called *overloading* of equipment, or *breakthrough*. 
 
 [question:EJ106]
 [question:EJ107]
 [question:EJ103]
 [question:EJ112]
 
-Oft werden störende Beeinflussungen in der Nachbarschaft mit dem Betrieb einer Amateurfunkstation in Verbindung gebracht. Für den Nachweis eines evtl. Zusammenhangs durch Aussendungen der Amateurfunkstation ist die Auswertung und ggf. Führung eines Logbuchs über getätigte Aussendungen und Verbindungen sehr hilfreich. Hierdurch kann auch ggf. ausgeschlossen werden, dass vermutete Beeinflussungen in der Nachbarschaft auf die Amateurfunkstelle zurückzuführen sind.
+Breakthrough in the neighbourhood is often associated with the operation of an amateur station. To establish whether there may be a connection with the amateur station's transmissions, evaluating – and, where necessary, keeping – a log of the transmissions made and contacts held is very helpful. This can also, where appropriate, rule out that suspected effects in the neighbourhood are due to the amateur station.
 
 [question:EJ122]
 
-Der Funkamateur sollte in der Nachbarschaft hierbei in kooperativer Weise und lösungsorientiert unterstützen bzw. auch Vorschläge für eine Abhilfe unterbreiten. Oft lassen sich Probleme im direkten Gespräch einfacher lösen als unter Einschaltung von Behörden. Erst wenn alle Bemühungen fehlgeschlagen sind, kann die zuständige Außenstelle der Bundesnetzagentur um eine Prüfung der Gegebenheiten gebeten werden. Dies sollte allerdings wirklich das letzte Mittel der Problemlösung sein.
+The radio amateur should help the neighbours in a cooperative, solution-oriented way and also make suggestions for a remedy. Problems can often be solved more easily by talking directly than by involving the authorities. Only when all efforts have failed can the competent regional office of the Federal Network Agency (Bundesnetzagentur, BNetzA) be asked to examine the situation. This should, however, really be the last resort for solving the problem.
 
 [question:EJ124]
 
-Zu diesen Bemühungen zählen verschiedene Maßnahmen, wie zum Beispiel:
+These efforts include various measures, for example:
 
 %- Reduzierung der Sendeleistung der Amateurfunkanlage % Das sollte das letzte Mittel sein!
-- Abschirmung empfindlicher Geräte oder Leitungen
-- Einbau von Filtern und Mantelwellensperren auf der Empfangsseite des Nachbarn
-- Einrichtung einer wirksamen HF-Erdung
-- Verwendung von Außenantennen für den Empfang
+- Screening sensitive equipment or leads
+- Fitting filters and common-mode chokes on the neighbour's receiving side
+- Setting up an effective RF earth
+- Using outdoor antennas for reception
 
-Diese Maßnahmen wollen wir im Folgenden genauer betrachten.
+We want to look at these measures more closely below.
 
-Damit störende Beeinflussungen von Geräten vermieden werden, sollte ein Funkamateur stets nur die für eine *zufriedenstellende Kommunikation erforderliche Sendeleistung* für seine Aussendungen verwenden.
+To avoid breakthrough into equipment, a radio amateur should always use only the *transmit power necessary for satisfactory communication* for transmissions.
 
 [question:EJ104]
 [question:EJ105]
 
-Treten in einer Empfangsanlage mehrere starke Empfangssignale gleichzeitig auf (z.B. durch den Empfang eines lokalen TV-Senders und einer starken Amateurfunkstation in der Nachbarschaft) können im Empfänger unerwünschte Harmonische und deren Mischprodukte durch die Übersteuerung der Empfangsstufen des Empfängers entstehen. Dies nennt man *Intermodulation*. Durch Intermodulation werden *Phantomsignale* hervorgerufen, die nur bei Vorhandensein der beteiligten Signale entstehen.
+If several strong signals are present at the same time in a receiving installation (e.g. from receiving a local TV transmitter and a strong amateur station in the neighbourhood), unwanted harmonics and their mixing products can arise in the receiver through overloading of its receiver stages. This is called *intermodulation*. Intermodulation produces *phantom signals*, which arise only when the signals involved are present.
 
 [question:EJ120]
 
-Selbst in einer abgeschalteten Stereoanlage können starke HF-Signale durch Gleichrichtung in der NF-Endstufe an nichtlinearen Bauteilen wie Transistoren zu hörbaren Geräuschen in den Lautsprechern führen. Auch korrodierte Kontakte zwischen Metallen (Metall-Oxide) haben die Eigenschaft, dass sie Gleichricht-Effekte durch Nichlinearitäten  bilden können. Hierdurch können bei Aussendungen der Amateurfunkstation unerwünschte Mischprodukte auf der Sende- oder der Empfangsseite entstehen, die zu einer störenden Beeinflussung des Fernseh- und Rundfunkempfangs führen können.
+Even in a switched-off stereo system, strong RF signals can lead to audible noises in the loudspeakers through rectification at non-linear components such as transistors in the AF output stage. Corroded contacts between metals (metal oxides) also have the property that they can form rectifying effects through non-linearities. As a result, when the amateur station transmits, unwanted mixing products can arise on the transmitting or the receiving side, which can lead to breakthrough into television and broadcast reception.
 
 [question:EJ113]
 [question:EJ121]
 
 
-Nicht alle störenden Beeinflussungen lassen sich durch Maßnahmen auf der Sendeseite beheben. Oft ist auch das beeinflusste Gerät selbst nicht für den jeweiligen Einsatzort geeignet, erfüllt geltende gesetzliche Vorgaben nicht oder Zuleitungen und Abschirmungen sind nicht ausreichend gegen hochfrequente Einstrahlungen oder Einströmungen dimensioniert. In solchen Fällen bietet es sich an, Betroffenen Maßnahmen vorzuschlagen, so dass die Probeleme behoben werden können.
+Not all breakthrough can be remedied by measures on the transmitting side. Often the affected equipment itself is not suitable for the place where it is used, does not meet the applicable legal requirements, or its leads and screening are not designed adequately against radiated or conducted RF pick-up. In such cases it makes sense to suggest measures to those affected so that the problems can be remedied.
 
-Eine mögliche Maßnahme besteht darin, HF-Baugruppen möglichst durch ein geschlossenes Metallgehäuse zu schirmen.
+One possible measure is to screen RF modules with a metal case that is as fully enclosed as possible.
 
 [question:EJ108]
 
-Befindet sich eine Kurzwellen-Sendeantenne in der Nähe und parallel zu einer $\qty{230}{\volt}$-Wechselstromleitung, können Hochfrequenzströme in das Stromnetz eingekoppelt werden. Um Beeinflussungen im eigenen Haus möglichst gering zu halten, empfiehlt es sich, für Sendeantennen eine separate HF-Erdleitung zu verwenden.
+If an HF transmitting antenna is close to and parallel to a $\qty{230}{\volt}$ AC mains cable, RF currents can be coupled into the mains. To keep effects in your own home as small as possible, it is advisable to use a separate RF earth lead for transmitting antennas.
 
 [question:EJ109]
 [question:EJ111]
 
-Eine weitere Möglichkeit ist der *Einbau von Filtern in Zuleitungen von Geräten* sowie *Mantelwellen-Sperren (Verdrosselung)* von Zuleitungen.
+Another possibility is *fitting filters in the leads of equipment* and fitting *common-mode chokes (choking)* to leads.
 
-Insbesondere Filter können auf der Seite des beeinflussten Gerätes (TV, DVB-T2-Empfänger, DAB-Empfänger etc.) in den Empfangspfad eingebaut werden. So kann beispielsweise die Feldstärke eines Amateurfunk-Kurzwellensenders (z. B. im Bereich von $\qtyrange{3}{30}{\mega\hertz}$) den TV-Empfang (z. B. $\qtyrange{470}{690}{\mega\hertz}$) beeinflussen. Durch den Einbau eines Hochpassfilters lässt sich der Einfluss des Amateurfunksendesignals deutlich verringern: Frequenzanteile außerhalb des TV-Empfangsbereichs – in diesem Beispiel also die Kurzwelle – werden unterdrückt, sodass die Empfangsstufen des Geräts nicht mehr übersteuert werden können.
+Filters in particular can be fitted in the receive path on the side of the affected equipment (TV, DVB-T2 receiver, DAB receiver etc.). For example, the field strength of an amateur HF transmitter (e.g. in the range $\qtyrange{3}{30}{\mega\hertz}$) can affect TV reception (e.g. $\qtyrange{470}{690}{\mega\hertz}$). Fitting a high-pass filter can considerably reduce the influence of the amateur radio signal: frequency components outside the TV reception range – in this example, the HF range – are suppressed, so that the receiver stages of the equipment can no longer be overloaded.
 
 [question:EJ116]
 [question:EJ117]
 
-Oft wird das Sendesignal einer Amateurfunkstation in örtlicher Nähe zu anderen Geräten über den Schirm von Koaxialkabeln oder Zuleitungen in gestörte Empfänger oder Geräte eingekoppelt. Wenn es hierbei zu beeinflussungen kommt sollte auf den Zuleitungen zum beeinflussten Gerät ein sog. *Mantelwellensperre* installiert werden. Eine Mantelwellensperre blockiert *Gleichtaktströme* auf dem Mantel und dem Innenleiter des beeinflussten Gerätes. Als Mantelwellensperren werden typischerweise Ringkerne oder Klappringkerne aus Ferrit verwendet. Eine weitere Möglichkeit, um Beeinflussungen bei Steuerleitungen von elektrischen Anlagen und Geräten zu vermeiden ist die Verwendung von geschirmten Steuerkabeln (z.B. bei Türsprechanlagen, Telefonleitungen etc.)
+The transmitted signal of an amateur station is often coupled into nearby receivers or other equipment suffering interference via the braid of coaxial cables or via leads. If this leads to breakthrough, what is called a *common-mode choke* should be installed on the leads to the affected equipment. A common-mode choke blocks *common-mode currents* on the braid and the inner conductor to the affected equipment. Ferrite toroidal cores or clip-on ferrite cores are typically used as common-mode chokes. Another way of avoiding effects on the control lines of electrical installations and equipment is to use screened control cables (e.g. for door intercoms, telephone lines etc.)
 
 [question:EJ118]
 [question:EJ119]
 [question:EJ115]
 [question:EJ114]
 
-Auch schlechte Empfangsverhältnisse auf Seiten des beeinflussten Gerätes (z.B. TV-Zimmerantenne für Empfang) können leichter zu Beeinflussungen im Empfang führen. Eine mögliche Gegenmaßnahme wäre die Verwendung einer Außenantenne ggf. mit entsprechenden Vorfiltern.
+Poor reception conditions at the affected equipment (e.g. an indoor TV antenna for reception) can also make breakthrough into reception more likely. One possible countermeasure would be to use an outdoor antenna, with suitable pre-filters if necessary.
 
 [question:EJ123]

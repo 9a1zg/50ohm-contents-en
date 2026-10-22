@@ -1,12 +1,12 @@
-## Unerwünschte Aussendungen durch Mischprodukte
+## Unwanted emissions from mixing products
 
 <left>
-[picture:243:a_unerwuenschte_aussendungen_bandpassfilter:Frequenzgang eines Bandpassfilters]
+[picture:243:a_unerwuenschte_aussendungen_bandpassfilter:Frequency response of a band-pass filter]
 </left>
 <right>
-* Entstehen in der Frequenzaufbereitung von Sendern  
-* Mischprodukte entstehen in Mischern  
-* Bandpassfilter unterdrücken unerwünschte Signale  
+* Arise in the frequency generation of transmitters  
+* Mixing products arise in mixers  
+* Band-pass filters suppress unwanted signals  
 </right>
 
 ---
@@ -23,17 +23,17 @@
 
 --- style="font-size: smaller;"
 
-### Harmonische und Oberwellen
+### Harmonics and overtones
 
 <left>
-[picture:868:a_harmonische: Oberwellen (OW), Harmonische (Harm.) und Nebenaussendungen (NA)]
+[picture:868:a_harmonische: Overtones (OW), harmonics (Harm.) and spurious emissions (NA)]
 </left>
 <right>
-* Vielfache der Grundfrequenz eines Signals  
-* Unterschied in Definition und Zählweise  
-* 1. Harmonische = Grundfrequenz  
-* 2. Harmonische = 1. Oberwelle  
-* 3. Harmonische = 2. Oberwelle  
+* Multiples of the fundamental frequency of a signal  
+* Differ in definition and in the way they are counted  
+* 1st harmonic = fundamental frequency  
+* 2nd harmonic = 1st overtone  
+* 3rd harmonic = 2nd overtone  
 </right>
   
 ---
@@ -41,13 +41,13 @@
 [question:AJ204]
 
 ---
-#### Lösungsweg
-* gegeben: $f = \qty{29,5}{\mega\hertz}$
-* gegeben: $n = 3$
-* gegeben: Radiobereich: $\qtyrange{88,5}{108,0}{\mega\hertz}$
+#### Solution
+* given: $f = \qty{29.5}{\mega\hertz}$
+* given: $n = 3$
+* given: broadcast band: $\qtyrange{88.5}{108.0}{\mega\hertz}$
 
 <fragment>
-$f \cdot n = \qty{29,5}{\mega\hertz} \cdot 3 = \qty{88,5}{\mega\hertz}$
+$f \cdot n = \qty{29.5}{\mega\hertz} \cdot 3 = \qty{88.5}{\mega\hertz}$
 </fragment>
 
 ---
@@ -55,30 +55,30 @@ $f \cdot n = \qty{29,5}{\mega\hertz} \cdot 3 = \qty{88,5}{\mega\hertz}$
 [question:AJ203]
 
 ---
-#### Lösungsweg
-* gegeben: $f = \qty{7,20}{\mega\hertz}$
-* gegeben: $n = 4$
-* gesucht: 3. Oberwelle
+#### Solution
+* given: $f = \qty{7.20}{\mega\hertz}$
+* given: $n = 4$
+* required: 3rd overtone
 
 <fragment>
-$f \cdot n = \qty{7,20}{\mega\hertz} \cdot 4 = \qty{28,80}{\mega\hertz}$
+$f \cdot n = \qty{7.20}{\mega\hertz} \cdot 4 = \qty{28.80}{\mega\hertz}$
 </fragment>
 
 ---
 
-### Entstehung von Oberwellen
+### How harmonics arise
 
 <left>
-[picture:106:a_unerwuenschte_aussendungen_uebersteuerung:Übersteuertes Signal]
+[picture:106:a_unerwuenschte_aussendungen_uebersteuerung:Overdriven signal]
 </left>
 <right>
-* Ursache: Übersteuerung von Verstärkerstufen  
-* Begrenzung der Amplituden-Spitzen führt zu Verzerrungen  
-* Oberwellen treten auf, wenn Sinusform nicht ideal ist  
+* Cause: overdriving of amplifier stages  
+* Limiting of the amplitude peaks leads to distortion  
+* Harmonics occur when the sine shape is not ideal  
 </right>
 
 <note>
-Oberwellen und Harmonische entstehen immer, wenn sich Abweichungen von der idealen Sinus-Kurve bilden.
+Overtones and harmonics always arise when there are departures from the ideal sine curve.
 </note>
 
 ---
@@ -87,11 +87,11 @@ Oberwellen und Harmonische entstehen immer, wenn sich Abweichungen von der ideal
 
 ---
 
-## Sperrkreise zur Unterdrückung
+## Rejector circuits for suppression
 
-* Unterdrückung einzelner Oberwellen oder Harmonischer  
-* Sperrkreis: Dämpft genau eine Frequenz maximal  
-* Andere Frequenzen werden nahezu ungehindert durchgelassen  
+* Suppressing individual overtones or harmonics  
+* Rejector circuit: attenuates exactly one frequency as strongly as possible  
+* Other frequencies are passed almost unhindered  
 
 ---
 
@@ -99,12 +99,12 @@ Oberwellen und Harmonische entstehen immer, wenn sich Abweichungen von der ideal
 
 ---
 
-## Nebenaussendungen
+## Spurious emissions
 
-* Tritt in unmittelbarer Nähe zum Sendesignal auf  
-* Durch Filter schwer zu unterdrücken  
-* Entstehung durch übersteuerte Mikrofonverstärkung  
-* Verbreitert ungewollt das Sendesignal (Nebenaussendung, Nebenprodukte, "Splatter")  
+* Occur in the immediate vicinity of the transmitted signal  
+* Difficult to suppress with filters  
+* Caused by overdriven microphone gain  
+* Unintentionally widen the transmitted signal (spurious emissions, spurious products, "splatter")  
 
 ---
 
@@ -112,12 +112,12 @@ Oberwellen und Harmonische entstehen immer, wenn sich Abweichungen von der ideal
 
 ---
 
-## Störungen durch unstabile Versorgungsspannung
+## Interference from an unstable supply voltage
 
-* Schlechte Netzteile erzeugen Brummspannung  
-* Kann zu AM-Aussendungen führen  
-* NF-Einstreuungen beeinflussen Sender  
-* Besonders bei älteren Sendern problematisch  
+* Poor power supplies produce ripple voltage  
+* Can lead to AM emissions  
+* AF signals coupled in affect the transmitter  
+* A particular problem with older transmitters  
 
 ---
 
@@ -129,21 +129,21 @@ Oberwellen und Harmonische entstehen immer, wenn sich Abweichungen von der ideal
 
 ---
 
-## Gesetzliche Grenzwerte für Oberwellen und Nebenaussendungen
+## Legal limits for harmonics and spurious emissions
 
-* Funkamateure müssen Grenzwerte einhalten  
-* Zwei Frequenzbereiche mit unterschiedlichen Anforderungen  
+* Radio amateurs must comply with limits  
+* Two frequency ranges with different requirements  
 
 <note>
-Weitere Informationen in der [Verfügung 33](http://50ohm.de/vfg33) von 2007.
+Further information in [Order 33](http://50ohm.de/vfg33) of 2007.
 </note>
 
 ---
 
-### HF-Bereich ($\qtyrange{1,7}{35}{\mega\hertz}$)
+### HF range ($\qtyrange{1.7}{35}{\mega\hertz}$)
 
-* Dämpfung mindestens $\qty{40}{\dB}$
-* Signalleistung über $\qty{0,25}{\micro\watt}$ relevant
+* Attenuation at least $\qty{40}{\dB}$
+* Applies to signal powers above $\qty{0.25}{\micro\watt}$
 
 ---
 
@@ -151,10 +151,10 @@ Weitere Informationen in der [Verfügung 33](http://50ohm.de/vfg33) von 2007.
 
 ---
 
-### VHF/UHF/SHF-Bereich ($\qtyrange{50}{1000}{\mega\hertz}$)
+### VHF/UHF/SHF range ($\qtyrange{50}{1000}{\mega\hertz}$)
 
-* Dämpfung mindestens $\qty{60}{\dB}$
-* Signalleistung über $\qty{0,25}{\micro\watt}$ relevant
+* Attenuation at least $\qty{60}{\dB}$
+* Applies to signal powers above $\qty{0.25}{\micro\watt}$
 
 ---
 

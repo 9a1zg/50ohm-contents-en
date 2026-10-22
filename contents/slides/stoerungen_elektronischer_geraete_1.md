@@ -1,28 +1,28 @@
-* Starke Sender führen zu unterschiedlichen Störungen und Beeinflussungen von elektronischen Geräten und Anlagen
-* Ziel: Störungen vermeiden oder Ursachen durch Gegenmaßnahmen beseitigen
+* Strong transmitters cause various kinds of interference to, and effects on, electronic equipment and installations
+* Aim: avoid interference or eliminate its causes by countermeasures
 
 ---
-## Einströmung
+## Conducted pick-up
 
-* Hochfrequenz gelangt durch Leitungen oder Kabel in ein Gerät
-* Zum Beispiel über die Netzleitung, Antennenleitung, Lautsprecherkabel
+* RF gets into a device through leads or cables
+* For example via the mains lead, antenna lead, loudspeaker cables
 
 ---
 [question:EJ101]
 ---
-## Einstrahlung
+## Radiated pick-up
 
-* Hochfrequenz gelangt wegen ungenügend geschirmten Gehäuse in die Elektronik
-* Führt dort zu Störungen
+* RF gets into the electronics because of an inadequately screened case
+* Causes interference there
 
 ---
 [question:EJ102]
 ---
-## Störende Beeinflussung
+## Breakthrough
 
-* Kann trotz gesetzeskonformen Betrieb eines Senders beim Empfänger in Nähe auftreten
-* Garagentorsteuerungen oder Funk-Autoschlüssel funktionieren nicht mehr wie gewohnt
-* Störung von LED-Leuchten
+* Can occur in receivers nearby even when a transmitter is operated in accordance with the law
+* Garage door controls or radio car keys no longer work as usual
+* Interference to LED lights
 
 ---
 [question:EJ103]
@@ -33,48 +33,48 @@
 ---
 ## Intermodulation
 
-* Beim Auftreten von mehreren starken Empfangssignalen
-* Z.B. TV-Sender und starke Amateurfunkstation in der Nachbarschaft
-* Führt zu unerwünschten Oberwellen und deren Mischprodukten
-* Durch Intermodulation werden Phantomsignale hervorgerufen
+* When several strong signals are received
+* E.g. a TV transmitter and a strong amateur station in the neighbourhood
+* Leads to unwanted harmonics and their mixing products
+* Intermodulation produces phantom signals
 
 ---
 [question:EJ120]
 ---
 ## Oxidation
 
-* Korrodierte Kontakte (Metall-Oxide) zwischen Metallen bilden Nichtlinearitäten durch Gleichricht-Effekte
-* Unerwünschte Mischprodukte auf der Sende- und Empfangsseite
-* Kann zu Störungen im Fernseh- und Rundfunkempfang führen
+* Corroded contacts (metal oxides) between metals form non-linearities through rectifying effects
+* Unwanted mixing products on the transmitting and receiving side
+* Can lead to interference to television and broadcast reception
 
 ---
 [question:EJ121]
 ---
-## Erforderliche Sendeleistung
+## Necessary transmit power
 
-* Stets nur die für eine zufriedenstellende Kommunikation erforderliche Sendeleistung verwenden
-* Zur Vermeidung von Störungen von Geräten
+* Always use only the transmit power necessary for satisfactory communication
+* To avoid interference to equipment
 
 ---
 [question:EJ104]
 ---
 [question:EJ105]
 ---
-## Übersteuerung
+## Overloading
 
-* Hohe Feldstärken durch hohe Sendeleistungen oder im Strahlungsbereich einer Antenne
-* Empfänger und Empfangsstufen können übersteuert werden
-* Verringert die Empfängerempfindlichkeit bis hin zur Blockierung
+* High field strengths from high transmit powers or within the radiation area of an antenna
+* Receivers and receiver stages can be overloaded
+* Reduces receiver sensitivity, up to blocking
 
 ---
 [question:EJ106]
 ---
 [question:EJ107]
 ---
-## Weitere Maßnahmen
+## Further measures
 
-* Verringerung der Sendeleistung führt nicht immer zum Erfolg
-* Das gestörte Gerät oder die Zuleitung könnte nicht genügend abgeschirmt sein
+* Reducing the transmit power does not always succeed
+* The equipment suffering interference, or its lead, may not be adequately screened
 
 ---
 [question:EJ108]
@@ -83,20 +83,20 @@
 ---
 [question:EJ111]
 ---
-## Nachbarschaftshilfe
+## Helping the neighbours
 
-* Hilfe dem Nachbarn anbieten
-* Nur als letztes Mittel die Behörde einschalten
+* Offer the neighbour help
+* Involve the authorities only as a last resort
 
 ---
 [question:EJ124]
 ---
-## Filter
+## Filters
 
-* Sowohl auf Seite des störenden Geräts als auch auf Seiten des gestörten Geräts einbauen
-* Oberwellenaussendungen unterdrücken
-* Hochpass oder Bandpass auf Empfängerseite 
-* Übersteuerrung wird minimiert
+* Fit them both on the side of the interfering equipment and on the side of the equipment suffering interference
+* Suppress harmonic emissions
+* High-pass or band-pass on the receiver side 
+* Overloading is minimised
 
 ---
 [question:EJ116]
@@ -104,13 +104,13 @@
 [question:EJ117]
 ---
 
-## Mantelwellensperren
+## Common-mode chokes
 
-* Sendesignal der Amateurfunkstation wird über den Schirm von Koaxialkabeln oder Zuleitungen in Empfänger oder Geräte in örtlicher Nähe eingekoppelt
-* *Mantelwellensperren* in Zuleitungen von Geräten einbauen
-* Auch *Drossel* genannt
-* Ringkerne oder Klappferrite
-* Weitere Möglichkeit: Verwendung von geschirmten Steuerkabeln
+* The amateur station's transmitted signal is coupled into receivers or equipment nearby via the braid of coaxial cables or via leads
+* Fit *common-mode chokes* in the leads of equipment
+* Also called a *choke*
+* Toroidal cores or clip-on ferrites
+* Another option: use screened control cables
 
 ---
 [question:EJ118]
@@ -121,19 +121,19 @@
 ---
 [question:EJ114]
 ---
-## Logbuch
+## Log
 
-* Wenn die Funkanlage als Störquelle vermutet wird
-* Freiwilligen Nachweis führen
-* Ausschluss der Amateurfunkanlage als Störquelle
+* If the radio installation is suspected of being the source of interference
+* Keep evidence voluntarily
+* Rule out the amateur radio installation as the source of interference
 
 ---
 [question:EJ122]
 ---
-## Schlechte Empfangsverhältnisse
+## Poor reception conditions
 
-* Z.B. TV-Zimmerantenne für Empfang
-* Verwendung einer Außenantenne mit entsprechenden Vorfiltern
+* E.g. an indoor TV antenna for reception
+* Use an outdoor antenna with suitable pre-filters
 
 ---
 [question:EJ123]

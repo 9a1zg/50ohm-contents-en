@@ -1,59 +1,59 @@
-In den Lektionen der Klassen N und E haben wir bereits typische Beeinflussungen elektronischer Geräte und Anlagen kennengelernt – etwa durch direkte Einstrahlung in das Gehäuse oder durch Einkopplung in Zuleitungen – sowie passende Gegenmaßnahmen und Verhaltensweisen. In der Klasse A werden diese Aspekte noch etwas weiter vertieft. 
+In the lessons for Classes N and E we have already met typical ways in which electronic equipment and installations are affected – for example by direct pick-up into the case or by coupling into leads – together with suitable countermeasures and ways of dealing with them. In Class A these aspects are explored a little further. 
 
 [question:AJ105]
 
-Kommt es bei digitalen Eigenbauempfängern zu Empfangsstörungen so kann eine mögliche Ursache hierfür eine schlechte Schirmung des Empfängers sein. Hier bietet es sich an die Leiterplatte des Empfängers in ein geerdetes Metallgehäuse einzubauen. Insbesondere bei SDR-Empfängern oder Eigenbaulösungen in SDR-Technik ist eine gute Schirmung zur Vermeidung von Einstrahlungen unbedingt erforderlich. Umgekehrt werden so auch unerwünschte Abstrahlungen durch diese Geräte vermindert.
+If home-built digital receivers suffer interference to reception, one possible cause may be poor screening of the receiver. Here it makes sense to fit the receiver's printed circuit board into an earthed metal case. Particularly with SDR receivers or home-built designs using SDR technology, good screening is essential to avoid radiated pick-up. Conversely, this also reduces unwanted radiation from these devices.
 
 [question:AJ103]
 
 ---
 
-In der Klasse E haben wir uns bereits mit Einkopplungen in Netzleitungen beschäftigt. Es gibt jedoch eine weitere Gegenmaßnahme, die wir uns im Folgenden genauer ansehen wollen. Sollten Störungen über die Netzzuleitung einströmen, so bietet sich der Einbau eines Netzfilters in Form eines Tiefpassfilters (Vgl. Abbildung [ref:a_netzfilter] und Abbildung [ref:a_netzfilter_draw]) an. Diese Filter sind unter Beachtung der VDE-Vorschriften als fertige Geräte erhältlich. 
+In Class E we have already dealt with coupling into mains leads. There is, however, a further countermeasure that we want to look at more closely below. If interference is conducted in via the mains lead, it makes sense to fit a mains filter in the form of a low-pass filter (see Figure [ref:a_netzfilter] and Figure [ref:a_netzfilter_draw]). These filters are available as ready-made units that comply with the VDE regulations. 
 
 [question:AJ116]
 [question:AJ117]
 [question:AJ118]
 
 <margin>
-[photo:244:a_netzfilter:Netzfilter]
-[picture:367:a_netzfilter_draw:Schaltung eines Netzfilters]
+[photo:244:a_netzfilter:Mains filter]
+[picture:367:a_netzfilter_draw:Circuit of a mains filter]
 </margin>
 
-Unterschiedliche Übertragungsverfahren haben aufgrund ihrer Modulationscharakteristik unterschiedliche Wirkungen hinsichtlich Beeinflussungen von Geräten und Leitungen. Insbesondere die Modulationsarten CW sowie SSB (bei denen sich die Amplitude rasch ändert) führen oft zu Beeinflussungen in Lautsprecherzuleitungen und einer hierauf folgenden Gleichrichtung der HF an den Basis-Emitter-Strecken im NF-Teil von Verstärkern. Der Basis-Emitter-Übergang verhält sich hierbei wie eine Diode und richtet die HF gleich. Hierdurch wird die hierdurch demodulierte NF in den Lautsprechern hörbar.
+Different transmission methods have different effects on equipment and cables because of their modulation characteristics. The types of modulation CW and SSB in particular (in which the amplitude changes rapidly) often lead to effects in loudspeaker leads, followed by rectification of the RF at the base-emitter paths in the AF section of amplifiers. The base-emitter junction behaves like a diode and rectifies the RF. The AF demodulated in this way becomes audible in the loudspeakers.
 
 [question:AJ107]
 [question:AJ106]
 
-Um DVB-T Empfänger vor starken Signalen eines VHF/UHF Amateurfunksenders in unmittelbarer Nähe zu schützen sollte in die Antennenzuleitung des DVB-T-Empfängers ein Hochpassfilter eingebaut werden. Dies ist jedoch nur bei passiven Empfangsantennen wirksam. Insbesondere unselektive TV-Antennenvorverstärker werden durch benachbarte Sendesignale schnell übersteuert, da diese einen breiten Frequenzbereich verstärken.
-Bei aktiven Empfangsantennen muss ein Hochpassfilter vor dem Antennenvorverstärker der Antenne eingebaut werden.
-Beim Einbau von Filtern ist auch die Einfügedämpfung der Filter im Durchlassbereich zu beachten. Diese sollte so gering wie möglich sein und nicht mehr als $\qtyrange{2}{3}{\dB}$ betragen um das gewünschte Empfangssignal möglichst ungehindert passieren zu lassen.
+To protect DVB-T receivers from strong signals from a VHF/UHF amateur transmitter in the immediate vicinity, a high-pass filter should be fitted in the antenna feed cable of the DVB-T receiver. This is only effective with passive receiving antennas, however. Unselective TV antenna preamplifiers in particular are quickly overloaded by nearby transmitted signals, since they amplify a wide frequency range.
+With active receiving antennas, a high-pass filter must be fitted ahead of the antenna's preamplifier.
+When fitting filters, the insertion loss of the filters in the passband must also be taken into account. It should be as low as possible, and no more than $\qtyrange{2}{3}{\dB}$, so that the wanted received signal passes as unhindered as possible.
 
 [question:AJ113]
 [question:AJ114]
 [question:AJ108]
 
-Grundsätzlich macht es Sinn hinter einem starken Kurzwellensender ein Tiefpassfilter mit einer Grenzfrequenz von $\qtyrange{30}{40}{\mega\hertz}$ zu installieren. Auch durch Verwendung eines Antennen-Tuners in Tiefpass-Konfiguration (Pi- oder LC-Filter) kann eine Tiefpasswirkung erreicht werden, die Oberwellenaussendungen wirksam unterdrückt.
+In principle it makes sense to install a low-pass filter with a cut-off frequency of $\qtyrange{30}{40}{\mega\hertz}$ after a high-power HF transmitter. A low-pass effect that effectively suppresses harmonic emissions can also be obtained by using an antenna tuner in a low-pass configuration (pi or LC filter).
 
 [question:AJ112]
 [question:AJ104]
 
-Starke Sendesignale einer Amateurfunkstation können bei DAB, TV und UKW-Empfängern Empfangsstörungen, Störgeräusche oder Aussetzer/Artefakte/Verstummen  (insbesondere bei digitalen Empfängern wie DAB/DVB-T) hervorrufen. Diese Störungen werden oft durch Übersteuerung des Empfängereingangs durch hohe Signalstärken am Empfangsort hervorgerufen und führen zur Verringerung der Empfindlichkeit des Empfängers oder Übersteuerung der Eingangsstufe des Empfängers.
+Strong transmitted signals from an amateur station can cause interference to reception, noise or dropouts/artefacts/muting (particularly in digital receivers such as DAB/DVB-T) in DAB, TV and VHF FM receivers. This interference is often caused by overloading of the receiver input by high signal strengths at the receiving location, and leads to a reduction in the receiver's sensitivity or to overloading of the receiver's input stage.
 
 [question:AJ110]
 [question:AJ111]
 [question:AJ109]
 
-Um die vorgenannten Probleme zu vermeiden sollte seitens des Funkamateurs daher immer nur mit der minimal erforderlichen Sendeleistung für eine zufriedenstellende Kommunikation gearbeitet werden.
+To avoid the problems mentioned above, the radio amateur should therefore always work only with the minimum transmit power necessary for satisfactory communication.
 
 [question:AJ101]
 
-Zum Abblocken von HF-Störungen in Schaltungen und Geräten werden oft Abblockkondensatoren verwendet. Diese müssen die Eigenschaft haben die HF möglichst effizient gegen Masse abzuleiten. Hierfür eignen sich insbesondere Keramik-Kondensatoren sehr gut. Ungeeignet sind Elektrolyt- und Kunststoff-Folienkondensatoren, da diese durch ihren gewickelten Aufbau eine hohe Eigeninduktivität besitzen. Bei Tantal-Kondensatoren wird oft aufgrund der besseren HF-Ableitungseigenschaften ein Keramik-Kondensator parallel geschaltet, da diese alleinig nur für mittlere HF-Frequenzen bis ca. $\qty{30}{\mega\hertz}$ geeignet sind und Keramik-Kondensatoren weitaus höhere Frequenzen abblocken können.
-Um HF-Störungen wirksam abzuleiten muss eine wirksame Erdung mit niedriger Impedanz vorliegen.
+Decoupling capacitors are often used to block RF interference in circuits and equipment. They must be able to divert the RF to chassis as efficiently as possible. Ceramic capacitors are particularly well suited to this. Electrolytic and plastic film capacitors are unsuitable, since their wound construction gives them a high self-inductance. With tantalum capacitors, a ceramic capacitor is often connected in parallel because of its better RF bypassing properties, since tantalum capacitors on their own are suitable only for medium radio frequencies up to approx. $\qty{30}{\mega\hertz}$, whereas ceramic capacitors can block far higher frequencies.
+To divert RF interference effectively, there must be an effective earth with a low impedance.
 
 [question:AJ119]
 [question:AJ102]
 
-In Stromversorgungsleitungen von HF-Stufen werden oft Hochfrequenz-Drosseln eingesetzt. Diese stellen eine Längsimpedanz für Hochfrequenz dar und blocken wirksam hochfrequente Einströmungen in Stufen sowie auch HF-Rückströmungen in die Stromversorgung der Stufen ab.
-Bedingt durch den gewickelten Aufbau haben diese Drosseln auch Eigenkapazitäten, so dass sie in Verbindung mit Ihrer Induktivität unerwünschte Resonanzstellen (Schwingkreise) bilden. Hierdurch kann es in den HF-Stufen zu unerwünschten *Nebenresonanzen*, welche durch die *Eigenresonanzen* der HF-Drosseln hervorgerufen werden, kommen. Nebenresonanzen können die Charakteristik von HF-Stufen negativ beeinflussen. Hierdurch kann es zu unerwünschten Rückkopplungseffekten, insbesondere bei Verstärkern, kommen sowie zu Einbrüchen in der Leistungscharakteristik von HF-Stufen.
+RF chokes are often used in the supply lines of RF stages. They present a series impedance to RF and effectively block both RF entering the stages and RF flowing back into the stages' power supply.
+Because of their wound construction, these chokes also have self-capacitance, so that together with their inductance they form unwanted resonances (tuned circuits). This can give rise to unwanted *spurious resonances* in the RF stages, caused by the *self-resonances* of the RF chokes. Spurious resonances can adversely affect the characteristics of RF stages. This can lead to unwanted feedback effects, particularly in amplifiers, and to dips in the power response of RF stages.
 
 [question:AJ214]

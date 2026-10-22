@@ -1,21 +1,21 @@
-Es können allerdings nicht nur andere durch unsere Amateurfunkstation gestört werden, sondern es geht auch andersherum: Der Empfang unserer Amateurfunkanlage kann gestört sein. Häufige Verursacher sind Wechselrichter von Solaranlagen, Schaltnetzteile und LED-Leuchten.
+It is not only others who can suffer interference from our amateur station, however; it also works the other way round: the reception of our amateur radio installation can suffer interference. Common culprits are inverters of solar installations, switch-mode power supplies and LED lights.
 
-Die allererste Maßnahme bei einer Störung des Empfangs sollte bei uns selbst stattfinden. Häufig stammt die Störung nämlich von einem Gerät aus dem eigenen Haushalt.
+The very first measure when reception suffers interference should be taken at home. The interference often comes from a device in our own household.
 
 [question:VE307]
 
 ---
 
-Kann man den eigenen Haushalt ausschließen, sucht man in der Nachbarschaft weiter. Hat man die Störungsquelle ausfindig gemacht, sollte man versuchen festzustellen, ob das störende Gerät die zulässigen Grenzwerte überschreitet. Werden die Grenzwerte eingehalten, kann man nur auf die freiwillige Kooperationsbereitschaft des Nachbarn setzen, da wir grundsätzlich Störungen hinnehmen müssen, wenn das verursachende Gerät die gesetzlichen Anforderungen einhält.
+If your own household can be ruled out, you continue the search in the neighbourhood. Once you have found the source of interference, you should try to establish whether the interfering device exceeds the permitted limits. If the limits are met, you can only rely on the neighbour's voluntary willingness to cooperate, since in principle we have to accept interference if the device causing it meets the legal requirements.
 
 <tip>
-Bei der *Messung von störenden Geräten* können Mitglieder mit Fachwissen und Messgeräten von den Referenten für elektromagnetische Verträglichkeit des DARC unterstützt werden.
+When it comes to *measuring interfering devices*, members can get support, with expertise and measuring equipment, from the DARC's electromagnetic compatibility officers.
 
-[Jetzt Mitglied im DARC werden!](https://50ohm.de/mw)
+[Become a DARC member now!](https://50ohm.de/mw)
 </tip>
 
 [question:VE308]
 
-Als letztes Mittel bleibt, die Funkstörungsannahme der Bundesnetzagentur zu kontaktieren. Ist dieses nicht mehr zu vermeiden, sollte man sich entsprechend vorbereiten. Es kann sehr hilfreich sein zu notieren, wann welche Störungen auftreten, damit man dies der Bundesnetzagentur mitteilen kann. Auch vermutete Quellen sollten benannt werden.
+The last resort is to contact the radio interference reporting service (Funkstörungsannahme) of the Federal Network Agency (Bundesnetzagentur, BNetzA). If this can no longer be avoided, you should prepare accordingly. It can be very helpful to note when which interference occurs, so that you can tell the BNetzA. Suspected sources should also be named.
 
 [question:VE309]

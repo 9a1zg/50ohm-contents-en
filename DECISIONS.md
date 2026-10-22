@@ -416,6 +416,24 @@ and the checker's "Provjera" section).
   aid. As with the formula-sheet keywords, the English says what the column
   is, the bracket what to look for: "the column "Maximum power" (*Maximale
   Leistung*)". (Unit nea_sender_1, ausgangsleistung.)
+- ***Störung* against *störende Beeinflussung*: *interference* / *breakthrough*.**
+  The course text sets the two apart (stoerungen_vermeiden): a *Störung* is
+  present when the amateur station radiates unwanted frequency components
+  beyond the limits; a *störende Beeinflussung* when the limits are kept and
+  the affected equipment is still upset by the wanted signal, through
+  radiated pick-up via its antenna, direct pick-up or conducted pick-up.
+  English needs two words for that. *Breakthrough* is the RSGB's established
+  term for exactly the second case (glossary §12), and *interference* stays
+  for the first. The German words are named once where the distinction is
+  introduced: "a distinction is made between interference (in German
+  *Störung*) and breakthrough (*störende Beeinflussung*)"; the slide heading
+  *Störende Beeinflussung* is "Breakthrough", and *Übersteuerung oder
+  störende Beeinflussung* "*overloading* … or *breakthrough*"
+  (stoerungen_elektronischer_geraete_1). Plain *Beeinflussung* /
+  *beeinflussen*, without *störend*, is *effect* / *affect*. The exam
+  questions stand alone and never set the two against each other, so the
+  bank's *interference* for *störende Beeinflussung* (EJ103 "overloading or
+  interference", EJ110, EJ112, AJ108, AJ111) stays. (Unit nea_sender_2.)
 
 ## Open questions for DARC
 

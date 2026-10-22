@@ -1,44 +1,44 @@
-In der Klasse E haben wir die *Dummyload* bereits kennengelernt. Eine Dummyload ist ein Lastwiderstand, der die vom Sender abgegebene HF-Leistung in Wärme umsetzt. Sie ermöglicht es beispielsweise, einen Sender zu testen oder seine Ausgangsleistung zu bestimmen, ohne dass dabei ein Signal über eine Antenne abgestrahlt wird. In der Klasse A betrachten wir nun genauer, wie eine solche Dummyload aufgebaut werden kann.
+In Class E we have already met the *dummy load*. A dummy load is a load resistor that converts the RF power delivered by the transmitter into heat. It makes it possible, for example, to test a transmitter or to determine its output power without a signal being radiated from an antenna. In Class A we now look more closely at how such a dummy load can be built.
 
-Eine Dummyload für den HF-Bereich wird häufig aus mehreren einzelnen Widerständen zusammengesetzt. Dadurch lässt sich die entstehende Verlustleistung auf mehrere Bauteile verteilen und eine entsprechend hohe Gesamtbelastbarkeit erreichen. Die Widerstände können dabei parallel, in Reihe oder in einer Kombination aus Reihen- und Parallelschaltungen verbunden werden. Werden identische Widerstände mit gleicher Belastbarkeit verwendet und die Schaltung symmetrisch aufgebaut, verteilt sich die Verlustleistung gleichmäßig auf die einzelnen Widerstände. Die erforderliche Anzahl und Verschaltung der Widerstände kann mit den bekannten Regeln für Reihen- und Parallelschaltungen bestimmt werden. Bei einer HF-Dummyload ist außerdem wichtig, dass die Schaltung auch bei hohen Frequenzen möglichst einem rein ohmschen Widerstand von $\qty{50}{\ohm}$ entspricht. Deshalb werden geeignete, möglichst induktionsarme Widerstände verwendet und die Verbindungsleitungen möglichst kurz ausgeführt.
+A dummy load for radio frequencies is often made up of several individual resistors. This spreads the power dissipated over several components and gives a correspondingly high total power rating. The resistors can be connected in parallel, in series or in a combination of series and parallel connections. If identical resistors with the same power rating are used and the circuit is built symmetrically, the power dissipated is shared equally between the individual resistors. The number of resistors needed and the way they are connected can be worked out with the familiar rules for series and parallel connections. With an RF dummy load it is also important that the circuit behaves as closely as possible like a purely resistive $\qty{50}{\ohm}$, even at high frequencies. For this reason suitable resistors with as little inductance as possible are used, and the connecting leads are kept as short as possible.
 
-Abbildung [ref:dummy_load_aufbau1] zeigt eine fertig aufgebaute Dummyload von 50ohm.de. Hier werden beispielsweise $\num{20}$ Widerstände mit jeweils $\qty{1}{\kilo\ohm}$ parallel geschaltet. Für $n$ identische parallel geschaltete Widerstände gilt:
+Figure [ref:dummy_load_aufbau1] shows a finished dummy load from 50ohm.de. Here, for example, $\num{20}$ resistors of $\qty{1}{\kilo\ohm}$ each are connected in parallel. For $n$ identical resistors in parallel:
 
 $R_\mathrm{ges} = \frac{R}{n}$
 
-Damit ergibt sich:
+This gives:
 
 $R_\mathrm{ges} = \frac{\qty{1}{\kilo\ohm}}{20} = \qty{50}{\ohm}$
 
 <warning>
-Die maximal mögliche Verlustleistung der gesamten Dummyload ergibt sich näherungsweise aus der Summe der Belastbarkeiten aller Widerstände, sofern sich die Leistung gleichmäßig auf sie verteilt. Da die 50ohm.de Dummyload über keine Kühlung verfügt und nicht geschirmt ist, sollte sie nur für QRP-Sender mit geringer Ausgangsleistung verwendet werden. Für höhere Leistungen ist eine Dummyload mit Kühlung und Schirmung erforderlich, die auch für den Dauerbetrieb geeignet ist!
+The maximum possible power dissipation of the whole dummy load is approximately the sum of the power ratings of all the resistors, provided the power is shared equally between them. Since the 50ohm.de dummy load has no cooling and is not screened, it should only be used for QRP transmitters with a low output power. Higher powers call for a dummy load with cooling and screening that is also suitable for continuous operation!
 </warning>
 
-Die 50ohm.de Dummyload besitzt zusätzlich einen Spitzenwertgleichrichter aus einer Diode und einem Kondensator. Damit kann aus der anliegenden HF-Spannung eine Gleichspannung erzeugt werden, die beispielsweise mit einem Multimeter gemessen werden kann. Unter Berücksichtigung des Spannungsteilers und der Dioden-Durchlassspannung kann daraus die HF-Ausgangsleistung des Senders bestimmt werden.
+The 50ohm.de dummy load also has a peak rectifier made of a diode and a capacitor. With it, the RF voltage present can be turned into a DC voltage that can be measured with a multimeter, for example. Taking into account the potential divider and the forward voltage of the diode, the RF output power of the transmitter can be determined from this.
 
 [question:AI602]
 
 <margin>
-[photo:340:dummy_load_aufbau1:Die fertige 50ohm.de Dummyload]
-[photo:341:dummy_load_aufbau2:Aufbau der 50ohm.de Dummyload]
+[photo:340:dummy_load_aufbau1:The finished 50ohm.de dummy load]
+[photo:341:dummy_load_aufbau2:Construction of the 50ohm.de dummy load]
 
-*Anzeige:* Möchtest du auch eine coole 50ohm.de QRP-Dummyload bauen? Dann kannst du diese im [DARC-Verlag](https://darcverlag.de/50Ohm-Dummy-Load-DIY-Kit-Bausatz) als Bausatz bestellen.
+*Advertisement:* Would you like to build a cool 50ohm.de QRP dummy load too? You can order it as a kit from [DARC-Verlag](https://darcverlag.de/50Ohm-Dummy-Load-DIY-Kit-Bausatz).
 </margin>
 
-In der folgenden Prüfungsfrage besteht die Dummyload aus einer Kombination von Reihen- und Parallelschaltungen. Werden in jedem Zweig $N_\mathrm{S}$ gleiche Widerstände in Reihe geschaltet und anschließend $N_\mathrm{P}$ solcher Zweige parallel geschaltet, ergibt sich der Gesamtwiderstand zu:
+In the following examination question, the dummy load consists of a combination of series and parallel connections. If $N_\mathrm{S}$ identical resistors are connected in series in each branch and $N_\mathrm{P}$ such branches are then connected in parallel, the total resistance is:
 
 $R_\mathrm{ges} = \frac{N_\mathrm{S}}{N_\mathrm{P}} \cdot R$
 
-Die Anzahl aller verwendeten Widerstände beträgt dabei:
+The total number of resistors used is then:
 
 $n = N_\mathrm{S} \cdot N_\mathrm{P}$
 
-Sind alle Widerstände gleich belastet, addieren sich ihre zulässigen Verlustleistungen. Damit lässt sich eine Dummyload mit dem gewünschten Widerstand und gleichzeitig hoher Belastbarkeit aufbauen.
+If all the resistors carry the same load, their permitted power dissipations add up. In this way a dummy load can be built with the desired resistance and, at the same time, a high power rating.
 
 [question:AI601]
 
-Eine weitere Möglichkeit zur Bestimmung der HF-Ausgangsleistung besteht darin, die Dummyload mit einer Anzapfung ihres Widerstandsnetzwerks auszustatten. Befindet sich diese Anzapfung beispielsweise nahe dem Masseanschluss, liegt dort nur ein Teil der gesamten HF-Spannung an.
+Another way of determining the RF output power is to give the dummy load a tap on its resistor network. If this tap is, for example, close to the chassis connection, only part of the total RF voltage is present there.
 
-Die Widerstände bilden dabei einen Spannungsteiler. Ist dessen Teilungsverhältnis bekannt, kann aus der an der Anzapfung gemessenen HF-Spannung auf die gesamte Spannung an der Dummyload zurückgerechnet werden. Die Teilspannung kann beispielsweise mit einem HF-Tastkopf und einem digitalen Multimeter gemessen werden. Aus der so bestimmten Gesamtspannung lässt sich anschließend die HF-Leistung berechnen.
+The resistors then form a potential divider. If its divider ratio is known, the total voltage across the dummy load can be calculated back from the RF voltage measured at the tap. The partial voltage can be measured, for example, with an RF probe and a digital multimeter. The RF power can then be calculated from the total voltage found in this way.
 
 [question:AI603]

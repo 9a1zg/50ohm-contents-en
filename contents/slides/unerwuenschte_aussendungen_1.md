@@ -1,21 +1,21 @@
-* Mischer und Verstärker erzeugen unerwünschte Frequenzanteile
-* Gelangen diese an die Antenne und werden abgestrahlt $\rightarrow$ *unerwünschte Aussendungen*
-* Liegen oft außerhalb der Amateurfunkbänder, z.B. im Flugfunk oder kommerziellen Rundfunk
-* *Sender sollte immer so betrieben werden, dass er keine unerwünschten Aussendungen hervorruft*
-* Lassen sich durch ein Bandpassfilter reduzieren
-  * Lässt nur den gewünschten Frequenzbereich durch
-  * Sperrt alle Frequenzen darüber und darunter
+* Mixers and amplifiers produce unwanted frequency components
+* If these reach the antenna and are radiated $\rightarrow$ *unwanted emissions*
+* Often outside the amateur bands, e.g. in aeronautical radio or commercial broadcasting
+* *A transmitter should always be operated in such a way that it does not cause any unwanted emissions*
+* Can be reduced with a band-pass filter
+  * Passes only the wanted frequency range
+  * Blocks all frequencies above and below it
 
 <note>
-* Keine Störungen in anderen Funkbändern erzeugen
-* Nachbarn bei Radio und Fernsehen nicht stören
-* Filter sind nicht perfekt, deshalb auf das geringstmögliche Maß beschränken
+* Do not cause interference in other radio bands
+* Do not interfere with the neighbours' radio and television
+* Filters are not perfect, so keep them to the lowest possible level
 </note>
 
 ---
 
-* Amateurfunkverordnung (AFuV): *Unerwünschte Aussendungen* auf das geringstmögliche Maß beschränken
-* Es gibt weitere gesetzliche Regelungen für konkrete Grenzwerte $\rightarrow$ Klasse A
+* Amateur Radio Ordinance (Amateurfunkverordnung, AFuV): keep *unwanted emissions* to the lowest possible level
+* There are further legal provisions with specific limits $\rightarrow$ Class A
 
 ---
 [question:NJ201]

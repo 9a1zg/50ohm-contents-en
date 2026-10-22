@@ -1,20 +1,20 @@
-## Untersuchung von Störungen an Geräten
+## Investigating interference to equipment
 
-* Systematisches Abstecken der Anschlüsse  
-* Prüfung, ob Störung noch vorhanden ist  
-* Ursache: Einströmungen oder Direkteinstrahlung  
+* Unplug the connections systematically  
+* Check whether the interference is still present  
+* Cause: conducted pick-up or direct pick-up  
 
 ---
 
-### Netzfilter gegen Einströmungen
+### Mains filters against conducted pick-up
 
 <left>
-[picture:164:a_stoerungen_elektronischer_geraete_tiefpassfilter:Tiefpassfilter]
+[picture:164:a_stoerungen_elektronischer_geraete_tiefpassfilter:Low-pass filter]
 </left>
 <right>
-* Netzfilter als Tiefpassfilter  
-* Reduziert Störungen über die Netzzuleitung  
-* Erhältlich nach VDE-Vorschriften  
+* Mains filter as a low-pass filter  
+* Reduces interference via the mains lead  
+* Available in compliance with the VDE regulations  
 </right>
 
 ---
@@ -31,11 +31,11 @@
 
 ---
 
-### Schirmung von Eigenbauempfängern
+### Screening home-built receivers
 
-* Empfangsstörungen durch schlechte Schirmung  
-* Empfänger in geerdetes Metallgehäuse einbauen  
-* Besonders wichtig bei SDR-Technik  
+* Interference to reception from poor screening  
+* Fit the receiver into an earthed metal case  
+* Particularly important with SDR technology  
 
 ---
 
@@ -47,11 +47,11 @@
 
 ---
 
-### Störpotential unterschiedlicher Betriebsarten
+### Interference potential of different modes
 
-* CW und SSB erzeugen Störungen durch schnelle Amplitudenänderungen  
-* HF wird an Basis-Emitter-Übergängen gleichgerichtet  
-* Demodulierte NF hörbar in Lautsprechern  
+* CW and SSB cause interference through rapid changes of amplitude  
+* RF is rectified at base-emitter junctions  
+* Demodulated AF audible in the loudspeakers  
 
 ---
 
@@ -63,13 +63,13 @@
 
 ---
 
-### Schutz von DVB-T Empfängern
+### Protecting DVB-T receivers
 
-* Hochpassfilter schützt vor starken Signalen  
-* Wirksam nur bei passiven Antennen  
-* Unselektive Vorverstärker sind besonders störanfällig  
-* Filter vor Verstärker notwendig bei aktiven Antennen  
-* Einfügedämpfung sollte $\le\qtyrange{2}{3}{\dB}$ sein  
+* A high-pass filter protects against strong signals  
+* Effective only with passive antennas  
+* Unselective preamplifiers are particularly susceptible to interference  
+* With active antennas, the filter is needed ahead of the amplifier  
+* Insertion loss should be $\le\qtyrange{2}{3}{\dB}$  
 
 ---
 
@@ -85,15 +85,15 @@
 
 ---
 
-### Tiefpassfilter für Kurzwellensender
+### Low-pass filters for HF transmitters
 
 <left>
-[photo:201:a_stoerungen_elektrischer_geraete_tiefpassfilter:Tiefpassfilter für Kurzwelle mit Frequenzgang]
+[photo:201:a_stoerungen_elektrischer_geraete_tiefpassfilter:Low-pass filter for HF, with its frequency response]
 </left>
 <right>
-* Grenzfrequenz $\qtyrange{30}{40}{\mega\hertz}$
-* Antennen-Tuner in Tiefpass-Konfiguration als Alternative  
-* Reduzierung von Oberwellenaussendungen  
+* Cut-off frequency $\qtyrange{30}{40}{\mega\hertz}$
+* Antenna tuner in low-pass configuration as an alternative  
+* Reduction of harmonic emissions  
 </right>
 
 ---
@@ -106,11 +106,11 @@
 
 ---
 
-### Störungen durch starke Amateurfunksignale
+### Interference from strong amateur radio signals
 
-* Empfangsstörungen bei DAB, TV und UKW  
-* Ursache: Übersteuerung des Empfängereingangs  
-* Verringerung der Empfindlichkeit oder komplette Ausfälle  
+* Interference to reception with DAB, TV and VHF FM  
+* Cause: overloading of the receiver input  
+* Reduced sensitivity or complete dropouts  
 
 ---
 
@@ -126,10 +126,10 @@
 
 ---
 
-### Minimierung von Störungen durch Sendeleistung
+### Minimising interference through the transmit power
 
-* Betrieb mit minimal erforderlicher Leistung  
-* Vermeidung von unnötigen Störungen  
+* Operate with the minimum power necessary  
+* Avoid unnecessary interference  
 
 ---
 
@@ -137,13 +137,13 @@
 
 ---
 
-### Abblockkondensatoren gegen HF-Störungen
+### Decoupling capacitors against RF interference
 
-* Ableitung von HF gegen Masse  
-* Keramik-Kondensatoren am besten geeignet  
-* Elektrolyt- und Kunststoffkondensatoren ungeeignet  
-* Kombination mit Tantal-Kondensatoren möglich  
-* Erdung mit niedriger Impedanz notwendig  
+* Divert RF to chassis  
+* Ceramic capacitors best suited  
+* Electrolytic and plastic capacitors unsuitable  
+* Combination with tantalum capacitors possible  
+* Low-impedance earth necessary  
 
 ---
 
@@ -155,13 +155,13 @@
 
 ---
 
-### Hochfrequenz-Drosseln in Stromversorgungen
+### RF chokes in power supplies
 
-* Blockieren hochfrequente Einströmungen  
-* Verhindern HF-Rückströmungen in die Stromversorgung  
-* Eigenkapazitäten können Nebenresonanzen erzeugen  
-* Nebenresonanzen beeinflussen HF-Stufen negativ  
-* Verstärker können unerwünschte Rückkopplungen erhalten  
+* Block conducted RF  
+* Prevent RF flowing back into the power supply  
+* Self-capacitances can create spurious resonances  
+* Spurious resonances adversely affect RF stages  
+* Amplifiers may suffer unwanted feedback  
 
 ---
 

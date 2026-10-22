@@ -1,41 +1,41 @@
-## Gründe für Störungen
+## Reasons for interference
 
-* Unerwünschte Frequenzanteile, die nicht ausreichend unterdrückt werden
-* Unzureichend abgeschirmte oder unzureichend geerdete Geräte
-* Die gewünschten Aussendungen selber
+* Unwanted frequency components that are not sufficiently suppressed
+* Equipment that is inadequately screened or inadequately earthed
+* The wanted emissions themselves
 
 ---
 
-### Störung
+### Interference
 
 <left>
-[picture:745:stoerungen_vermeiden_oberschwingung:Störung des DVB-T2-Empfang eines Fernsehers durch die Oberschwingung einer Amateurfunkaussendung]
+[picture:745:stoerungen_vermeiden_oberschwingung:Interference to a television set's DVB-T2 reception from the harmonic of an amateur radio transmission]
 </left>
 <right>
-* Grenzwerte durch Amateurfunkanlage überschritten
-* Z.B. Oberschwingung
+* Limits exceeded by the amateur radio installation
+* E.g. a harmonic
 </right>
 
 ---
 
-### Störende Beeinflussung
+### Breakthrough
 
 <left>
-[picture:744:stoerungen_vermeiden_einstrahlung:Einstrahlung über die Empfangsantenne]
-[picture:746:stoerungen_vermeiden_direkteinstrahlung:Direkteinstrahlung in ein Gerät]
+[picture:744:stoerungen_vermeiden_einstrahlung:Radiated pick-up via the receiving antenna]
+[picture:746:stoerungen_vermeiden_direkteinstrahlung:Direct pick-up into a device]
 </left>
 <right>
-[picture:747:stoerungen_vermeiden_einstroemung:Einströmung über Anschlussleitungen]
-* Grenzwerte werden eingehalten
-* Wege können einzeln oder zusammen auftreten
+[picture:747:stoerungen_vermeiden_einstroemung:Conducted pick-up via connecting leads]
+* Limits are met
+* The routes can occur singly or together
 </right>
 
 ---
 
-## Umgang mit Störungen
+## Dealing with interference
 
-* Nachbarschaftskonflikte vermeiden
-* Höflich Hilfe zur Entstörung anbieten
+* Avoid conflicts with the neighbours
+* Politely offer help with suppressing the interference
 
 ---
 
@@ -43,56 +43,56 @@
 
 ---
 
-## Ursachenforschung
+## Looking for the cause
 
-* Prüfen auf Behebung mit eigenen Mitteln
-* Falls Ursache nicht ermittelt oder Störung nicht beseitigt werden kann $\rightarrow$ Nachbarn auf *Funkstörungsannahme der BNetzA* hinweisen
+* Check whether you can remedy it with your own resources
+* If the cause cannot be found or the interference cannot be eliminated $\rightarrow$ point the neighbour to the *radio interference reporting service of the BNetzA (Funkstörungsannahme)*
 
 <note>
-* Bei eigener Suche als DARC-Mitglied Hilfe beim Referat für elektromagnetische Verträglichkeit anfragen
-* Hier Werbung für DARC-Mitgliedschaft machen
+* When searching yourself, as a DARC member ask the department for electromagnetic compatibility for help
+* Promote DARC membership here
 </note>
 ---
 [question:VE302]
 
 ---
 
-## Ermittlung
+## Finding the cause
 
-* Kann einige Zeit in Anspruch nehmen
-* Zur Wahrung des Nachbarschaftsfriedens Sendeleistung reduzieren
+* Can take some time
+* Reduce the transmit power to keep good relations with the neighbours
 
 ---
 
 [question:VE301]
 
 ---
-## Überprüfung
+## Check
 
-Falls Amateurfunkaussendungen die Ursache der Probleme sind, wird in drei Fälle unterschieden
+If amateur radio transmissions are the cause of the problems, three cases are distinguished
 
 ---
 
-### 1. Fall
+### Case 1
 
-* Amateurfunkanlage wird *nicht vorschriftsmäßig* betrieben
-* Beispielsweise durch zu starke unerwünschte Aussendungen
-* Ggf. Anordnung einer kostenpflichtigen Betriebseinschränkung durch BNetzA
-* Möglich ist eine Begrenzung der Sendeleistung
+* The amateur radio installation is *not operated in compliance with the regulations*
+* For example because of unwanted emissions that are too strong
+* The BNetzA may order a restriction of operation subject to a fee
+* A limit on the transmit power is possible
 
 <note>
-* Z.B. durch zu starke unerwünschte Aussendungen
+* E.g. because of unwanted emissions that are too strong
 </note>
 
 ---
 
-### 2. Fall
+### Case 2
 
-* Amateurfunkanlage wird *vorschriftsmäßig* betrieben
-* Feldstärke am betroffenen Gerät ist kleiner als Verträglichkeit durch die Störfestigkeit
-* Betroffenes Gerät *hält Störfestigkeit nicht ein*
-* Verantwortung zur Behebung liegt beim Betreiber des betroffenen Geräts
-* Funkamateur darf Sendebetrieb unverändert fortsetzen
+* The amateur radio installation is operated *in compliance with the regulations*
+* The field strength at the affected equipment is lower than what its immunity lets it withstand
+* The affected equipment *does not meet the immunity requirements*
+* Responsibility for the remedy lies with the operator of the affected equipment
+* The radio amateur may continue transmitting unchanged
 
 ---
 [question:VE305]
@@ -102,11 +102,11 @@ Falls Amateurfunkaussendungen die Ursache der Probleme sind, wird in drei Fälle
 
 ---
 
-### 3. Fall
+### Case 3
 
-* Amateurfunkanlage wird *vorschriftsmäßig* betrieben
-* Betroffenes Gerät *hält Störfestigkeit ein*
-* Konfliktfall: BNetzA ist befugt, eine Lösung *in Zusammenarbeit mit allen Beteiligten* herzustellen
+* The amateur radio installation is operated *in compliance with the regulations*
+* The affected equipment *meets the immunity requirements*
+* Case of conflict: the BNetzA is empowered to bring about a solution *in cooperation with all those involved*
 
 ---
 
@@ -117,13 +117,13 @@ Falls Amateurfunkaussendungen die Ursache der Probleme sind, wird in drei Fälle
 
 ---
 
-## Anordnungen der BNetzA ohne Zusammenarbeit
+## Orders by the BNetzA without cooperation
 
-* Zum Schutz von Empfangs- und Sendegeräten, die Sicherheitszwecken dienen
-* Zum Schutz öffentlicher Telekommunikationsnetze, also beispielsweise dem Telefonnetz
-* Zum Schutz von Leib und Leben einer Person oder Sachen von bedeutendem Wert
+* To protect receiving and transmitting equipment that serves safety purposes
+* To protect public telecommunications networks, for example the telephone network
+* To protect the life and limb of a person, or property of considerable value
 
 <note>
-* Beispiel: Amateurfunkstation neben einem Krankenhaus
-* Leistungseinschränkungen in eine bestimmte Richtung
+* Example: amateur station next to a hospital
+* Power restrictions in a particular direction
 </note>
