@@ -2287,7 +2287,7 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Stromimpulse / konstante Hüllkurve | current pulses / constant envelope | class B and class C operation (verstaerker_klasse) |
 | Gegentaktschaltung, im Englischen *push-pull amplifier* | *push-pull* circuit | the gloss only gives the English term and is dropped (bracket rule); §5 *Gegentaktschaltung* (verstaerker_klasse) |
 | zugeführte / aufgenommene Gleichstromleistung / Gleichstrom-Versorgungsleistung / Gleichspannungsleistung | DC input power supplied / DC power drawn / DC supply power / DC power | AF401 "the DC input power supplied"; $P_\mathrm{DC}$, $P_\text{zu}$, $P_\text{ab}$ stay (verstaerker_wirkungsgrad, verstaerker_klasse, AD429, AD430) |
-| Oszillation/Pfeifen (Rückkopplung Mikrofon–Lautsprecher) | oscillation/whistling | acoustic feedback in a PA system (verstaerker_eigenschwingung tip) |
+| Oszillation/Pfeifen (Rückkopplung Mikrofon–Lautsprecher) | oscillation/howling | acoustic feedback in a PA system (verstaerker_eigenschwingung tip); *howling* (howl-round) is the English word for this, *whistle* is a receiver's beat note (*Pfeifstellen*) |
 
 ## 15. Catalogue structure
 

@@ -66,3 +66,21 @@ glossary row.
 - sections/verstaerker_klasse.md — class AB efficiency "zwischen 50 % und 80 %" (text, summary, table, AP3 slide), the same upper limit as class B; the question bank's description of the class between A and B (AD419–AD421, answer b: "Wirkungsgrad bis zu 70 %, … geringer bis mittlerer Ruhestrom") gives up to 70 %. Kept.
 - slides/verstaerker_eigenschwingung.md — "Je höher der Verstärkungsfaktor, umso mehr Eigenschwingungen und Rückkopplungen treten auf": the section says the amplifier *tends* more to self-oscillate (*neigt … zu*); the feedback itself does not grow with the gain. Kept.
 - Typos with no effect on the English: sections/verstaerker_wirkungsgrad.md "Der Wirkungsgrad eine HF-Leistungsverstärkers", "also  durch" (double space); slides/verstaerker_klasse.md "nichtliniear", "duch", "Bei Kenntnis des Arbeitspunkt", "zwischen 50 % bis 80 %", note "Röhren- und Transistorverstärker" (for *-verstärkern*); sections/verstaerker_klasse.md "Modulations-Information … nicht in der Amplitude sondern" (missing comma).
+
+## Provjera
+
+Checked all 12 files against the German (`e043420~1`) paragraph by
+paragraph, and the prose against the English questions it embeds (AF401–AF403,
+AD416–AD425, AD429–AD433, AJ215, AJ216, AJ218). Complete, numbers and
+formulas intact; `revizija-guard.py --rev e043420~1 --brojevi`: 12 files,
+*struktura netaknuta*.
+
+Changes: omission 0, meaning 0, technical 1, style 3, glossary 1.
+
+- technical — verstaerker_eigenschwingung tip: *Oszillation/Pfeifen* → "oscillation/howling" (was "whistling"): acoustic feedback in a PA system is *howling* (howl-round) in English; a *whistle* is a receiver's beat note (*Pfeifstellen*, EJ107).
+- glossary — §14 row *Oszillation/Pfeifen* changed to "oscillation/howling", with the reason.
+- style — verstaerker_klasse: "recognised by their straight course" → "recognised as straight portions of the curve"; "Let us sum up the amplifier classes we have learnt once more in an overview" → "Let us sum up once more, in an overview, the amplifier classes we have learnt about".
+- style — verstaerker_eigenschwingung tip: "audio amplifiers that are operated with a microphone at the input at events and the like" → "audio amplifiers used at events and the like with a microphone at the input".
+- style — verstaerker_linearverstaerker, section and slide: "No distortion (due to non-linearities) takes place" → "There is no distortion (due to non-linearities)".
+
+Judgement calls kept: *A/B* → *AB* (follows AD416, AD422, AD423 and the course's own "A, B, AB und C"), lower-case *class*, conduction angle, quiescent operating point, load line, the dropped *push-pull amplifier* gloss, *Effizienz*/*Wirkungsgrad* recast, "DC input power supplied" (AF401 a) / "DC power drawn", "modes" for *Modulationsarten*, "maximum modulating frequency", and "(see Figure [ref:…])" where the German writes a bare "(vgl. [ref:…])", since a reference renders as a number only. The nine new glossary rows not named above are kept unchanged; no DECISIONS.md entry was needed. The translator's suspected errors in the German are confirmed as worth passing to DARC (picture 1085 caption "Eingangskennlinie" for what AD416 calls a transfer characteristic; "im folgenden Kapitel" for the next section; PSK/QPSK as "phase" modes needing a linear amplifier; class AB 50–80 % against the bank's "up to 70 %"; the slide's "more feedback" with higher gain).

@@ -1,4 +1,4 @@
-As we have seen in the previous sections, transistors have a characteristic that shows the relationship between the input signal (base-emitter or gate-source voltage) and the output signal (collector or drain current). Within the characteristic there are different regions in which the transistor behaves linearly or non-linearly. Regions of the characteristic in which a change in the control quantity produces a proportional change in the output quantity are called linear. On linear axes, these regions can be recognised by their straight course, without any curvature. Other regions of the characteristic, in which a change in the control quantity does **not** produce a proportional change in the output quantity, are called non-linear.
+As we have seen in the previous sections, transistors have a characteristic that shows the relationship between the input signal (base-emitter or gate-source voltage) and the output signal (collector or drain current). Within the characteristic there are different regions in which the transistor behaves linearly or non-linearly. Regions of the characteristic in which a change in the control quantity produces a proportional change in the output quantity are called linear. On linear axes, these regions can be recognised as straight portions of the curve, without any curvature. Other regions of the characteristic, in which a change in the control quantity does **not** produce a proportional change in the output quantity, are called non-linear.
 
 <margin>
 [picture:1085:a_kennlinien_transistor_arbeitspunkt:Simplified input characteristic of a transistor with different operating points]  
@@ -104,7 +104,7 @@ Summary: class C operation of the amplifier
 [question:AF402]
 [question:AF403]
 
-Let us sum up the amplifier classes we have learnt once more in an overview:
+Let us sum up once more, in an overview, the amplifier classes we have learnt about:
 
 | l: Property | X: Class A | X: Class B | X: Class AB | X: Class C |
 | Quiescent current | $I_\mathrm{A}$ | 0 | $I_\mathrm{A/B}$ | 0 |
