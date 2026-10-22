@@ -1,22 +1,22 @@
-Das *SWL-Logbuch* [index:Logbuch] ist das Gedächtnis der Empfangsstation. Es kann auf Papier, in einer Tabellenkalkulation oder mit einer speziellen Logbuchsoftware geführt werden.
+The *SWL log* [index:Log] is the memory of the receiving station. It can be kept on paper, in a spreadsheet or with special logging software.
 
-Mindestens folgende Angaben sind sinnvoll:
+The following details, at least, are useful:
 
-* Datum und Uhrzeit in UTC
-* Frequenz oder Band
-* Übertragungsverfahren
-* Rufzeichen der gehörten Station
-* Empfangsrapport
-* Rufzeichen der Gegenstation
+* Date and time in UTC
+* Frequency or band
+* Mode
+* Call sign of the station heard
+* Reception report
+* Call sign of the station it was in contact with
 
-Zusätzlich können Empfänger, Antenne, eigener Standort, Störungen und besondere Ausbreitungsbedingungen notiert werden.
+The receiver, antenna, your own location, interference and any unusual propagation conditions can also be noted.
 
 <attention>
-Für einen SWL-Bericht genügt nicht nur das Rufzeichen einer Station. Auch die Gegenstation muss eindeutig gehört und eingetragen werden, damit der Empfänger der QSL-Karte den Bericht in seinem Logbuch prüfen kann.
+For an SWL report, the call sign of one station on its own is not enough. The other station must also be clearly heard and entered, so that the recipient of the QSL card can check the report in their log.
 </attention>
 
-Alle Zeiten werden in *UTC* geführt. In Deutschland gilt im Winter UTC = MEZ minus 1 Stunde, im Sommer UTC = MESZ minus 2 Stunden.
+All times are logged in *UTC*. In Germany, UTC = CET minus 1 hour in winter, and UTC = CEST minus 2 hours in summer.
 
 <tip>
-Notiere die Daten während des QSOs. Nachträgliches Ergänzen aus dem Gedächtnis führt leicht zu falschen Rufzeichen oder Uhrzeiten.
+Note down the details during the QSO. Filling them in afterwards from memory easily leads to wrong call signs or times.
 </tip>

@@ -1,24 +1,24 @@
-Der Titel *Deutscher Empfangsmeister* (DEM) ist eine offizielle Auszeichnung des DARC. Er baut auf längerer SWL-Aktivität, dem DLD-SWL und bestätigten Hörberichten aus verschiedenen Bändern und Kontinenten auf.
+The title *Deutscher Empfangsmeister* (German Reception Master, DEM) is an official DARC award. It builds on extended SWL activity, the DLD-SWL and confirmed listener reports from different bands and continents.
 
 <margin>
-[photo:349:DEM-Urkunde:Urkunde Deutscher Empfangsmeister (Kategorie Gold)]
+[photo:349:DEM-Urkunde:Deutscher Empfangsmeister certificate (Gold category)]
 </margin>
 
-Für die Grundstufe DEM (Bronze) gehören nach den veröffentlichten Bedingungen unter anderem dazu:
+For the basic level, DEM (Bronze), the published conditions include, among other things:
 
-* Mitgliedschaft im DARC oder einem korporativen Verband
-* mindestens ein Jahr aktive SWL-Tätigkeit
-* ein DE-Kennzeichen
-* ein auf mindestens fünf Amateurfunkbändern betriebsbereiter Kurzwellenempfänger
-* das als SWL erarbeitete DLD-SWL 100
-* die geforderten bestätigten Hörberichte auf mehreren Bändern
+* membership of the DARC or an affiliated association
+* at least one year of active SWL activity
+* a DE identifier
+* an HF receiver ready for use on at least five amateur bands
+* the DLD-SWL 100, earned as an SWL
+* the required confirmed listener reports on several bands
 
-Für DEM Silber und Gold steigen die Anforderungen an DLD-SWL-Klasse und Zahl der bestätigten Hörberichte deutlich. Jedes Rufzeichen wird pro Band nur einmal gewertet.
+For DEM Silver and Gold, the requirements for the DLD-SWL class and for the number of confirmed listener reports rise considerably. Each call sign counts only once per band.
 
-Wer den Titel erhält, kann ein Kennzeichen aus dem Bereich *DE0...* beantragen. Nach Möglichkeit bleibt das bisherige Suffix erhalten, ein Anspruch darauf besteht nicht.
+Anyone awarded the title can apply for an identifier from the *DE0...* range. Where possible, the existing suffix is kept, but there is no entitlement to this.
 
 <attention>
-Vor Beginn einer gezielten DEM-Sammlung und vor dem Antrag müssen die aktuellen [Ausschreibungsbedingungen](https://50ohm.de/swl/) geprüft werden.
+Before starting a targeted DEM collection and before applying, check the current [award conditions](https://50ohm.de/swl/).
 </attention>
 
-Der Weg zum DEM verlangt Geduld. Gerade darin liegt sein Reiz: Die Sammlung dokumentiert praktische Empfangserfahrung über viele Bänder, Länder und Ausbreitungsbedingungen.
+The road to the DEM takes patience. That is precisely its appeal: the collection documents practical reception experience across many bands, countries and propagation conditions.

@@ -1,40 +1,40 @@
-## Das SWL-Logbuch
+## The SWL log
 
-Das Logbuch kann auf Papier, in einer Tabellenkalkulation oder mit spezieller Software geführt werden.
+The log can be kept on paper, in a spreadsheet or with special software.
 
-Mindestens notieren:
+Note at least:
 
-* Datum und Uhrzeit in UTC
-* Rufzeichen der gehörten Station und ihrer Gegenstation
-* Frequenz oder Band
-* Übertragungsverfahren
-* Empfangsrapport
+* Date and time in UTC
+* Call sign of the station heard and of the station it was in contact with
+* Frequency or band
+* Mode
+* Reception report
 
 ---
 
-### Zusätzliche Beobachtungen
+### Additional observations
 
-* verwendeter Empfänger und Antenne
-* eigener Standort
-* Störungen und Empfangsbedingungen
-* besondere Ausbreitungsbedingungen
+* receiver and antenna used
+* your own location
+* interference and reception conditions
+* unusual propagation conditions
 
 <fragment>
-Die Daten während des QSOs notieren – nicht später aus dem Gedächtnis ergänzen.
+Note down the details during the QSO – do not fill them in later from memory.
 </fragment>
 
 ---
 
-### Koordinierte Weltzeit – UTC
+### Coordinated Universal Time – UTC
 
-* Winter: UTC = MEZ minus 1 Stunde
-* Sommer: UTC = MESZ minus 2 Stunden
+* Winter: UTC = CET minus 1 hour
+* Summer: UTC = CEST minus 2 hours
 
-Beispiele:
+Examples:
 
-* 15:30 MEZ $\rightarrow$ 14:30 UTC
-* 13:30 MESZ $\rightarrow$ 11:30 UTC
+* 15:30 CET $\rightarrow$ 14:30 UTC
+* 13:30 CEST $\rightarrow$ 11:30 UTC
 
 <note>
-Einheitliche UTC-Zeiten ermöglichen der angeschriebenen Station, den Hörbericht sicher in ihrem eigenen Logbuch wiederzufinden.
+Using UTC throughout means that the station written to can reliably find the listener report in its own log.
 </note>

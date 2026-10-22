@@ -1,21 +1,21 @@
-Die *DE-Prüfung* dokumentiert Grundkenntnisse und praktisches Können eines Höramateurs. Ihr Schwierigkeitsgrad liegt unterhalb der staatlichen Amateurfunkprüfung der Klasse N. Sie berechtigt zusammen mit den weiteren Voraussetzungen zur Beantragung eines DE-Kennzeichens und damit zum internationalen QSL-Austausch über den DARC.
+The *DE examination* documents a short-wave listener's basic knowledge and practical skills. Its level of difficulty is below that of the state Class N amateur radio examination. Together with the other requirements, it entitles you to apply for a DE identifier, and with it to exchange QSL cards internationally through the DARC.
 
-Die 70 möglichen Fragen stammen aus drei Bereichen:
+The 70 possible questions come from three areas:
 
-1. Technische Kenntnisse, etwa Empfänger, Modulationsarten, Steckverbinder, Wellenausbreitung und Sicherungen
-2. Betriebliche Kenntnisse, etwa Buchstabieralphabet, Abkürzungen, Q-Gruppen, Rufzeichen, Landeskenner und RST
-3. Kenntnisse von Vorschriften, etwa Amateurfunkrecht, Frequenzbereiche, Abhörverbot und Haftung
+1. Technical knowledge, e.g. receivers, types of modulation, connectors, propagation and fuses
+2. Operating knowledge, e.g. the phonetic alphabet, abbreviations, Q codes, call signs, country prefixes and RST
+3. Knowledge of regulations, e.g. amateur radio law, frequency ranges, the prohibition of interception and liability
 
-Die Prüfung wird schriftlich mit einem bereitgestellten Fragebogen durchgeführt. Jede richtige Antwort zählt einen Punkt. Insgesamt können 17 Punkte erreicht werden; mit mindestens 9 Punkten ist die Prüfung bestanden.
+The examination is taken in writing, on a question paper that is provided. Each correct answer scores one point. A total of 17 points can be scored; the examination is passed with at least 9 points.
 
 <tip>
-Die Probeprüfungen auf 50ohm.de helfen beim Üben. Maßgeblich für die tatsächliche Prüfung sind immer die aktuellen Unterlagen und Regeln des DARC, welche [hier](https://50ohm.de/swl/) zu finden sind.
+The practice examinations on 50ohm.de help you practise. For the actual examination, the DARC's current documents and rules, which can be found [here](https://50ohm.de/swl/), always apply.
 </tip>
 
 ---
 
-Die Prüfung kann nach den aktuellen DARC-Regularien durch den Ortsverbandsvorsitzenden, Distriktsvorsitzenden, einen AJW-Distriktsreferenten, das DL-AJW-Referat oder ein Vorstandsmitglied abgenommen werden. Die Durchführung kann von diesen Personen an ein anderes Mitglied delegiert werden. In begründeten Ausnahmefällen, etwa bei körperlichen Einschränkungen oder nachgewiesenen besonderen Vorkenntnissen, können entsprechende Ausnahmen zugelassen werden.
+Under the current DARC rules, the examination can be conducted by the local club chair, the district chair, a district AJW officer, the DL-AJW department or a member of the board. These persons can delegate the conduct of the examination to another member. In justified exceptional cases, for example physical disabilities or proven special prior knowledge, appropriate exceptions can be allowed.
 
 <attention>
-Die DE-Prüfung ist keine Sendegenehmigung. Wer selbst Amateurfunkbetrieb durchführen möchte, benötigt eine erfolgreiche staatliche Amateurfunkprüfung und eine Zulassung der Bundesnetzagentur.
+The DE examination is not a transmitting licence. Anyone who wants to operate an amateur station themselves needs to have passed the state amateur radio examination and to hold a licence from the Federal Network Agency (Bundesnetzagentur, BNetzA).
 </attention>

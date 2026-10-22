@@ -1,42 +1,42 @@
-# Dein DE-Kennzeichen
+# Your DE identifier
 
-Ein DE-Kennzeichen besteht aus:
+A DE identifier consists of:
 
-*DE* + *Ziffer* + *drei Buchstaben*
+*DE* + *digit* + *three letters*
 
-Beispiel: **DE1SWL**
+Example: **DE1SWL**
 
-Damit kennzeichnest du dich als geprüfte Empfangsstation innerhalb von DARC und VFDB.
-
----
-
-# Kennzeichenbereiche
-
-| Bereich | Verwendung |
-| DE0AAA bis DE0PZZ | Deutsche Empfangsmeister |
-| DE0QAA bis DE0QZZ | Ausbildungsempfangsstationen |
-| DE0RAA bis DE0ZZZ | Deutsche Empfangsmeister |
-| DE1AAA bis DE9ZZZ | geprüfte SWLs |
+With it, you identify yourself as a qualified receiving station within the DARC and the VFDB.
 
 ---
 
-# Vergabe des Kennzeichens
+# Identifier ranges
 
-- Die DARC-Geschäftsstelle vergibt das Kennzeichen und stellt die Urkunde aus.
-- Ein Wunschsuffix kann angegeben werden.
-- Ein Anspruch auf ein bestimmtes Kennzeichen besteht nicht.
-- Das Kennzeichen ist nicht übertragbar.
-- Es darf erst nach Ausstellung der Urkunde verwendet werden.
+| Range | Use |
+| DE0AAA to DE0PZZ | *Deutscher Empfangsmeister* (German Reception Master) |
+| DE0QAA to DE0QZZ | Training receiving stations |
+| DE0RAA to DE0ZZZ | *Deutscher Empfangsmeister* |
+| DE1AAA to DE9ZZZ | Qualified SWLs |
 
 ---
 
-# Voraussetzungen und Gültigkeit
+# Issue of the identifier
 
-Voraussetzung ist die Mitgliedschaft im DARC oder VFDB sowie beispielsweise:
+- The DARC head office issues the identifier and the certificate.
+- A preferred suffix can be given.
+- There is no entitlement to a particular identifier.
+- The identifier is not transferable.
+- It may be used only once the certificate has been issued.
 
-- eine bestandene DE-Prüfung
-- der Deutsche Empfangsmeister
-- eine Amateurfunkzulassung
+---
 
-Mit dem Ende der Mitgliedschaft erlischt auch das DE-Kennzeichen.
+# Requirements and validity
+
+The requirement is membership of the DARC or the VFDB, together with, for example:
+
+- a passed DE examination
+- the *Deutscher Empfangsmeister* title
+- an amateur radio licence
+
+When membership ends, the DE identifier lapses too.
 

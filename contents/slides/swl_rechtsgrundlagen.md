@@ -1,13 +1,13 @@
-# Gesetzliche Grundlagen
+# Legal basis
 
-Grundlage des Amateurfunks in Deutschland sind vor allem:
+The basis of amateur radio in Germany is above all:
 
-- das Amateurfunkgesetz (AFuG)
-- die Amateurfunkverordnung (AFuV)
+- the Amateur Radio Act (Amateurfunkgesetz, AFuG)
+- the Amateur Radio Ordinance (Amateurfunkverordnung, AFuV)
 
 <note>
 
-Das Gesetz legt den rechtlichen Rahmen fest. Die Verordnung regelt viele Einzelheiten, etwa Prüfungen, Zulassungen und Rufzeichen.
+The Act lays down the legal framework. The Ordinance regulates many details, such as examinations, licences and call signs.
 
 </note>
 
@@ -17,11 +17,11 @@ Das Gesetz legt den rechtlichen Rahmen fest. Die Verordnung regelt viele Einzelh
 
 ---
 
-# Zuständige Behörde
+# Competent authority
 
-Die **Bundesnetzagentur** ist in Deutschland für den Amateurfunk zuständig.
+The **Federal Network Agency (Bundesnetzagentur, BNetzA)** is responsible for amateur radio in Germany.
 
-Sie führt unter anderem die staatlichen Amateurfunkprüfungen durch und erteilt Zulassungen zur Teilnahme am Amateurfunkdienst.
+Among other things, it holds the state amateur radio examinations and issues authorisations to participate in the amateur service.
 
 ---
 
@@ -29,11 +29,11 @@ Sie führt unter anderem die staatlichen Amateurfunkprüfungen durch und erteilt
 
 ---
 
-# Funkamateur oder SWL?
+# Radio amateur or SWL?
 
-Als Funkamateur gilt rechtlich, wer ein Amateurfunkzeugnis oder eine anerkannte ausländische Prüfungsbescheinigung besitzt.
+In law, a radio amateur is anyone who holds an amateur radio certificate or a recognised foreign examination certificate.
 
-Eine bestandene DE-Prüfung macht dich zum geprüften SWL, ist aber **kein staatliches Amateurfunkzeugnis**.
+Passing the DE examination makes you a qualified SWL, but it is **not a state amateur radio certificate**.
 
 ---
 
@@ -41,13 +41,13 @@ Eine bestandene DE-Prüfung macht dich zum geprüften SWL, ist aber **kein staat
 
 ---
 
-# Teilnahme am Amateurfunkdienst
+# Participating in the amateur service
 
-Amateurfunkverkehr wird nur mit anderen Amateurfunkstellen abgewickelt.
+Amateur radio communication is carried on only with other amateur stations.
 
 <fragment>
 
-Als SWL empfängst und beobachtest du diesen Funkverkehr. Zum Senden benötigst du ein Amateurfunkzeugnis, eine Zulassung und ein zugeteiltes Rufzeichen.
+As an SWL, you receive and observe this communication. To transmit, you need an amateur radio certificate, a licence and an assigned call sign.
 
 </fragment>
 
@@ -57,8 +57,8 @@ Als SWL empfängst und beobachtest du diesen Funkverkehr. Zum Senden benötigst 
 
 ---
 
-# Das DE-Kennzeichen
+# The DE identifier
 
-Das DE-Kennzeichen bestätigt deine DARC- oder VFDB-interne SWL-Prüfung und kennzeichnet deine Empfangsberichte.
+The DE identifier confirms your SWL examination within the DARC or the VFDB and identifies your reception reports.
 
-Es ist **kein Amateurfunkrufzeichen** und berechtigt nicht zum Senden.
+It is **not an amateur call sign** and does not entitle you to transmit.

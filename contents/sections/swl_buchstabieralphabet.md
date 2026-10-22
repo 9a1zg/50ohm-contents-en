@@ -1,7 +1,7 @@
-Rufzeichen müssen auch bei schwachen und verrauschten Signalen eindeutig verstanden werden. Deshalb wird im Amateurfunk das internationale Buchstabieralphabet verwendet (vgl. Tabelle [ref:swl_buchstabieralphabet_tabelle]). Für jeden Buchstaben gibt es ein festes Wort. *DL1FLO* wird beispielsweise als *Delta Lima Eins Foxtrot Lima Oscar* gesprochen.
+Call signs must be understood unambiguously, even when signals are weak and noisy. That is why amateur radio uses the international phonetic alphabet (see Table [ref:swl_buchstabieralphabet_tabelle]). There is a fixed word for each letter. *DL1FLO*, for example, is spoken as *Delta Lima One Foxtrot Lima Oscar*.
 
 <margin>
-| c: Buchstabe | l: Wort | c: Buchstabe | l: Wort |
+| c: Letter | l: Word | c: Letter | l: Word |
 | A | Alfa | N | November |
 | B | Bravo | O | Oscar |
 | C | Charlie | P | Papa |
@@ -15,14 +15,14 @@ Rufzeichen müssen auch bei schwachen und verrauschten Signalen eindeutig versta
 | K | Kilo | X | X-ray |
 | L | Lima | Y | Yankee |
 | M | Mike | Z | Zulu |
-[table:swl_buchstabieralphabet_tabelle:Das internationale Buchstabieralphabet]
+[table:swl_buchstabieralphabet_tabelle:The international phonetic alphabet]
 </margin>
 
-In Deutschland ist bei der Nennung eines Amateurfunkrufzeichens zur Identifikation dieses internationale Alphabet zu verwenden. Nationale Buchstabiertafeln oder frei erfundene Wörter sind dafür nicht vorgesehen.
+In Germany, this international alphabet must be used when an amateur call sign is given for identification. National phonetic alphabets or made-up words are not provided for this purpose.
 
 [question:VD206]
 
-Bei Rufzeichenzusätzen wird der Schrägstrich als *stroke* gesprochen. Der Zusatz `/p` wird häufig als *stroke portable* buchstabiert.
+With call sign suffixes, the stroke is spoken as *stroke*. The suffix `/p` is often spelt out as *stroke portable*.
 
 [question:BA101]
 [question:BA102]

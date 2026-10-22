@@ -1,18 +1,18 @@
-## Internationales Buchstabieralphabet
+## International phonetic alphabet
 
-* Rufzeichen müssen auch bei schwachen Signalen eindeutig verstanden werden
-* Jedem Buchstaben ist ein festes Wort zugeordnet
-* Im Amateurfunk wird das internationale Buchstabieralphabet verwendet
+* Call signs must be understood unambiguously, even when signals are weak
+* Each letter is assigned a fixed word
+* Amateur radio uses the international phonetic alphabet
 
 <fragment>
-*DL1FLO* wird zu *Delta Lima Eins Foxtrot Lima Oscar*.
+*DL1FLO* becomes *Delta Lima One Foxtrot Lima Oscar*.
 </fragment>
 
 --- style="font-size: 0.65em;"
 
-### Das internationale Buchstabieralphabet
+### The international phonetic alphabet
 
-| c: Buchstabe | l: Wort | c: Buchstabe | l: Wort |
+| c: Letter | l: Word | c: Letter | l: Word |
 | A | Alfa | N | November |
 | B | Bravo | O | Oscar |
 | C | Charlie | P | Papa |
@@ -33,14 +33,14 @@
 
 ---
 
-### Rufzeichenzusätze
+### Call sign suffixes
 
-* Der Schrägstrich wird als *stroke* gesprochen
-* `/p` wird als *stroke portable* buchstabiert
+* The stroke is spoken as *stroke*
+* `/p` is spelt out as *stroke portable*
 
-Beispiel:
+Example:
 
-*DN9RO/p* $\rightarrow$ *Delta November Neun Romeo Oscar Stroke portable*
+*DN9RO/p* $\rightarrow$ *Delta November Nine Romeo Oscar Stroke portable*
 
 ---
 

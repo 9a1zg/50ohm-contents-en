@@ -1,46 +1,46 @@
-# Der Antrag
+# The application
 
-Das DE-Kennzeichen wird mit dem vorgesehenen Formular beantragt.
+The DE identifier is applied for on the form provided.
 
-Benötigt werden unter anderem:
+Among other things, you need:
 
-- Name und Mitgliedsnummer
-- Ortsverband und DOK
-- gegebenenfalls das gewünschte Suffix
-- die Bestätigung über die bestandene Prüfung
+- name and membership number
+- local club and DOK
+- the preferred suffix, if any
+- confirmation that you have passed the examination
 
 ---
 
-# Urkunde und Gebühr
+# Certificate and fee
 
-Nach der Bearbeitung erhältst du eine Urkunde mit deinem DE-Kennzeichen.
+Once your application has been processed, you receive a certificate with your DE identifier.
 
-Für die Vergabe wird derzeit eine Gebühr von **5 Euro** erhoben.
+A fee of **5 euros** is currently charged for issuing it.
 
 <note>
 
-Gebühren und Verfahren können sich ändern. Maßgeblich sind die jeweils aktuellen Informationen des DARC.
+Fees and procedures can change. The DARC's current information always applies.
 
 </note>
 
 ---
 
-# Nach der Vergabe
+# After issue
 
-Informiere den Ortsverbandsvorsitzenden und den QSL-Manager über dein neues DE-Kennzeichen.
+Tell your local club chair and the QSL manager about your new DE identifier.
 
-Änderungen deiner Anschrift oder des Ortsverbands meldest du der DARC-Geschäftsstelle.
+Report changes of your address or of your local club to the DARC head office.
 
 ---
 
-# QSL-Vermittlung
+# QSL bureau
 
-Mit deinem DE-Kennzeichen kannst du Empfangsberichte eindeutig kennzeichnen und über den DARC QSL-Karten austauschen.
+With your DE identifier, you can label reception reports unambiguously and exchange QSL cards through the DARC.
 
-Für eine zuverlässige Zustellung sind ein korrektes Kennzeichen, der DOK und eine gut lesbare Karte besonders wichtig.
+A correct identifier, the DOK and an easily readable card are particularly important for reliable delivery.
 
 <note>
 
-Bei Karten aus dem Ausland kann die Antwort mehrere Monate dauern.
+For cards from abroad, the reply can take several months.
 
 </note>

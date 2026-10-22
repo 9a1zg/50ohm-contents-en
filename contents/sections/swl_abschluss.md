@@ -1,16 +1,16 @@
-Du kennst nun die Grundlagen, um Amateurfunkverkehr bewusst und sicher zu beobachten. Du kannst einen Empfänger bedienen, Modulationsarten unterscheiden, Rufzeichen aufnehmen, Rapporte vergeben und vollständige Hörberichte schreiben. Ebenso kennst du die rechtlichen Grenzen des Empfangs und den Weg zur DE-Prüfung.
+You now know the basics for observing amateur radio communication knowingly and safely. You can operate a receiver, tell types of modulation apart, copy call signs, give reports and write complete listener reports. You also know the legal limits of reception and the way to the DE examination.
 
-Der beste nächste Schritt ist praktische Erfahrung:
+The best next step is practical experience:
 
-1. Suche einen DARC-Ortsverband und nimm Kontakt zu erfahrenen Funkamateuren auf.
-2. Richte eine einfache, sichere Empfangsstation ein.
-3. Höre regelmäßig auf unterschiedlichen Bändern.
-4. Führe vom ersten Tag an ein Logbuch.
-5. Übe mit dem vollständigen Fragenkatalog und mit Probeprüfungen.
-6. Vereinbare die DE-Prüfung und beantrage anschließend dein DE-Kennzeichen.
+1. Find a DARC local club and get in touch with experienced radio amateurs.
+2. Set up a simple, safe receiving station.
+3. Listen regularly on different bands.
+4. Keep a log from the very first day.
+5. Practise with the complete question catalogue and with practice examinations.
+6. Arrange to take the DE examination, and then apply for your DE identifier.
 
-Mit bestätigten SWL-QSL-Karten kannst du Diplome sammeln und später den Titel Deutscher Empfangsmeister anstreben. Vielleicht entsteht beim Hören auch der Wunsch, selbst zu senden. Dann ist die Amateurfunkprüfung der Klasse N der passende nächste Lernweg – vieles aus diesem Kurs kennst du bereits.
+With confirmed SWL QSL cards, you can collect awards and later aim for the title *Deutscher Empfangsmeister* (German Reception Master). Perhaps listening will also make you want to transmit yourself. Then the Class N amateur radio examination is the right next thing to study for – you already know much of it from this course.
 
-vy 73 und 55!
+vy 73 and 55!
 
-Wünschen Matthias DL9MJ und Florian DL1FLO
+With best wishes from Matthias DL9MJ and Florian DL1FLO

@@ -1,14 +1,14 @@
-## Der RST-Rapport
+## The RST report
 
-Mit einem Rapport beschreibt die empfangende Station die Qualität eines Signals.
+With a report, the receiving station describes the quality of a signal.
 
-| c: Buchstabe | l: Bedeutung | c: Werte |
-| R | Lesbarkeit – Readability | 1 bis 5 |
-| S | Signalstärke – Signal Strength | 1 bis 9 |
-| T | Tonqualität – Tone | 1 bis 9 |
+| c: Letter | l: Meaning | c: Values |
+| R | Readability | 1 to 5 |
+| S | Signal strength | 1 to 9 |
+| T | Tone | 1 to 9 |
 
 <note>
-Der T-Wert wird nur bei Telegrafie verwendet. Bei SSB-Telefonie besteht der Rapport daher nur aus R und S.
+The T value is used only in telegraphy. In SSB telephony, the report therefore consists of R and S only.
 </note>
 
 ---
@@ -25,17 +25,17 @@ Der T-Wert wird nur bei Telegrafie verwendet. Bei SSB-Telefonie besteht der Rapp
 
 ---
 
-### Lesbarkeit und Signalstärke
+### Readability and signal strength
 
 <left>
-* R1: nicht lesbar
-* R5: einwandfrei lesbar
-* Lesbarkeit wird subjektiv beurteilt
+* R1: unreadable
+* R5: perfectly readable
+* Readability is assessed subjectively
 </left>
 <right>
-[photo:123:swl_rst_s_meter:S-Meter eines Transceivers]
+[photo:123:swl_rst_s_meter:S meter of a transceiver]
 
-* Signalstärke am S-Meter ablesen
+* Read the signal strength from the S meter
 </right>
 
 ---
@@ -44,15 +44,15 @@ Der T-Wert wird nur bei Telegrafie verwendet. Bei SSB-Telefonie besteht der Rapp
 
 ---
 
-### Rapporte in SSB-Telefonie
+### Reports in SSB telephony
 
-* einwandfrei lesbar und S7 $\rightarrow$ *57*
-* einwandfrei lesbar und S9 $\rightarrow$ *59*
-* einwandfrei lesbar und S9 + $\qty{20}{\decibel}$ $\rightarrow$ *59 plus 20 dB*
-* der T-Wert entfällt
+* perfectly readable and S7 $\rightarrow$ *57*
+* perfectly readable and S9 $\rightarrow$ *59*
+* perfectly readable and S9 + $\qty{20}{\decibel}$ $\rightarrow$ *59 plus 20 dB*
+* there is no T value
 
 <note>
-In den folgenden Fragen ist die Lesbarkeit jeweils einwandfrei. Der R-Wert ist also 5; anschließend muss nur das S-Meter richtig abgelesen werden.
+In each of the following questions, readability is perfect. The R value is therefore 5; all that remains is to read the S meter correctly.
 </note>
 
 ---

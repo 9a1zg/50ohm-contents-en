@@ -1,19 +1,19 @@
-Das *Deutschland-Diplom-SWL* (DLD-SWL) ist eine offizielle Auszeichnung des DARC für Höramateure. Grundlage sind bestätigte Hörberichte von Amateurfunkstationen mit unterschiedlichen DOKs.
+The *Deutschland-Diplom-SWL* (Germany Award for SWLs, DLD-SWL) is an official DARC award for short-wave listeners. It is based on confirmed listener reports of amateur stations with different DOKs.
 
 <margin>
 [photo:350:DLD-SWL:Deutschland-Diplom-SWL]
 </margin>
 
-Der *DOK* ist die Distrikts-Ortsverbands-Kennziffer eines DARC- oder VFDB-Ortsverbandes. Jede wertbare Station vergibt nur den bei der QSL-Vermittlung registrierten DOK. Sonder-DOKs können nach den jeweils gültigen Diplomregeln ebenfalls zählen.
+The *DOK* is the district local club identifier (*Distrikts-Ortsverbands-Kennziffer*) of a DARC or VFDB local club. Each station that counts gives out only the DOK registered with the QSL bureau. Special DOKs can also count under the award rules in force at the time.
 
-Für das DLD-SWL 100 werden Bestätigungen von 100 verschiedenen DOKs benötigt. Für jeweils 100 weitere DOKs kann eine höhere Klasse bis zum DLD-SWL 1000 beantragt werden. Je nach Variante können Wertungen für einzelne Bänder, mehrere Bänder oder bestimmte Betriebsarten geführt werden.
+For the DLD-SWL 100, confirmations from 100 different DOKs are required. For each further 100 DOKs, a higher class can be applied for, up to the DLD-SWL 1000. Depending on the variant, scores can be kept for single bands, several bands or particular modes.
 
 <attention>
-Diplomregeln können aktualisiert werden. Vor dem Sammeln und vor dem Antrag gelten die aktuellen [Bestimmungen](https://50ohm.de/dld/) des DARC.
+Award rules can be updated. Before you start collecting and before you apply, the DARC's current [rules](https://50ohm.de/dld/) apply.
 </attention>
 
-Ein sorgfältiges Logbuch hilft, doppelte DOKs zu erkennen und fehlende Bestätigungen gezielt zu sammeln. Auf den QSL-Karten müssen die für die Wertung erforderlichen Angaben eindeutig lesbar sein.
+A carefully kept log helps you to spot duplicate DOKs and to collect missing confirmations in a targeted way. The details required for scoring must be clearly legible on the QSL cards.
 
 <tip>
-Das DLD-SWL ist nicht nur ein Sammelziel: Es motiviert dazu, unterschiedliche Bänder und Ausbreitungsbedingungen praktisch kennenzulernen.
+The DLD-SWL is not just something to collect: it encourages you to get to know different bands and propagation conditions in practice.
 </tip>

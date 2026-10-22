@@ -1,17 +1,17 @@
-Ein allgemeiner Anruf beginnt, wie wir schon gelernt haben, mit *CQ*. Danach folgen Rufzeichen und eine Hörpause. Antwortet eine Station, beginnt ein QSO. Für einen verwertbaren SWL-Bericht werden nun beide Rufzeichen und der weitere Ablauf aufmerksam verfolgt.
+As we have already learnt, a general call begins with *CQ*. It is followed by call signs and a pause for listening. If a station replies, a QSO begins. For a usable SWL report, both call signs and the rest of the contact are now followed closely.
 
-Bei einem *Contest* versuchen Stationen, in begrenzter Zeit möglichst viele wertbare Verbindungen zu führen. Häufig antworten viele Stationen gleichzeitig auf eine besonders interessante Station. Diese Situation heißt *Pile-up*.
+In a *contest*, stations try to make as many valid contacts as possible in a limited time. Often many stations reply at once to a particularly interesting station. This situation is called a *pile-up*.
 
-Bei einer DX-Pedition oder einem großen Pile-up arbeitet die gesuchte Station oft im *Split-Verkehr*: Sie sendet und empfängt auf unterschiedlichen Frequenzen. Hinweise wie `up 5` bedeuten, dass Antworten oberhalb der Sendefrequenz erwartet werden.
+During a DXpedition or in a large pile-up, the station being sought often works in *split operation*: it transmits and receives on different frequencies. Indications such as `up 5` mean that replies are expected above the transmit frequency.
 
 [question:BE308]
 
-Für den SWL ist Split eine besondere Hörübung. Man muss darauf vertrauen, dass die DX-Station das Rufzeichen der Gegenstation korrekt nennt. Nur wenn beide Rufzeichen eindeutig feststehen, ist der Hörbericht vollständig. 
+For the SWL, split is a special listening exercise. You have to trust that the DX station gives the call sign of the station it is working correctly. Only when both call signs are clearly established is the listener report complete. 
 
-Falls das Funkgerät zwei VFOs hat, kann die DX-Station auf einem VFO und die Gegenstation auf dem anderen VFO eingestellt werden. Durch Umschalten von VFO A auf VFO B kann der Gegenstation auch zugehört werden.
+If the radio has two VFOs, the DX station can be set on one VFO and the station it is working on the other. By switching from VFO A to VFO B, you can then listen to that station too.
 
 <tip>
-Im Contest werden Rufzeichen sehr schnell genannt. Notiere zunächst das sicher verstandene Fragment und bestätige es beim nächsten Durchgang.
+In a contest, call signs are given very quickly. First note down the part you have understood for certain, and confirm it at the next over.
 </tip>
 
-Die Abkürzung DX bezeichnet übrigens allgemein große Entfernungen. Welche Entfernung als DX empfunden wird, hängt vom Band und von den Ausbreitungsbedingungen ab.
+The abbreviation DX, by the way, stands for long distances in general. Which distance is felt to be DX depends on the band and on the propagation conditions.

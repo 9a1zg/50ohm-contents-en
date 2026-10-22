@@ -1,23 +1,23 @@
-## CQ, DX, Contest und Pile-up
+## CQ, DX, contest and pile-up
 
-* *CQ*: allgemeiner Anruf
-* *DX*: große Entfernung oder weit entfernte Station
-* *Contest*: möglichst viele wertbare Verbindungen in begrenzter Zeit
-* *Pile-up*: viele Stationen rufen gleichzeitig eine begehrte Station
+* *CQ*: general call
+* *DX*: long distance or a distant station
+* *Contest*: as many valid contacts as possible in a limited time
+* *Pile-up*: many stations calling a sought-after station at once
 
 <note>
-Im Contest werden Rufzeichen oft sehr schnell genannt. Zunächst das sicher verstandene Fragment notieren und beim nächsten Durchgang vervollständigen.
+In a contest, call signs are often given very quickly. First note down the part you have understood for certain, and complete it at the next over.
 </note>
 
 ---
 
-### Split-Verkehr
+### Split operation
 
-* Die gesuchte Station sendet und empfängt auf unterschiedlichen Frequenzen
-* Hinweise wie *up 5* geben den Abstand zur Antwortfrequenz an
-* Die gesuchte Station bleibt dadurch frei vom Pile-up hörbar
+* The station being sought transmits and receives on different frequencies
+* Indications such as *up 5* give the offset to the reply frequency
+* This keeps the station being sought audible, clear of the pile-up
 
-[picture:672:swl_betriebsbeobachtung_split:Sendefrequenz einer gesuchten Station und die um 5 kHz höhere Antwortfrequenz]
+[picture:672:swl_betriebsbeobachtung_split:Transmit frequency of a station being sought and the reply frequency 5 kHz higher]
 
 ---
 
@@ -25,12 +25,12 @@ Im Contest werden Rufzeichen oft sehr schnell genannt. Zunächst das sicher vers
 
 ---
 
-### Split aus Sicht des SWLs
+### Split from the SWL's point of view
 
-* Für den Hörbericht werden weiterhin beide Rufzeichen benötigt
-* Mit zwei VFOs kann zwischen Sende- und Antwortfrequenz gewechselt werden
-* Nur eindeutig verstandene Verbindungen werden dokumentiert
+* Both call signs are still needed for the listener report
+* With two VFOs, you can switch between the transmit and reply frequencies
+* Only contacts that have been clearly understood are logged
 
 <fragment>
-Manchmal nennt nur die DX-Station das vollständige Rufzeichen ihrer Gegenstation.
+Sometimes only the DX station gives the full call sign of the station it is working.
 </fragment>

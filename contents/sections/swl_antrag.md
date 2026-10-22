@@ -1,19 +1,19 @@
-Der Antrag auf ein DE-Kennzeichen wird mit dem dafür vorgesehenen Formblatt gestellt. Bei einer DE-Prüfung bestätigt die Prüfungskommission das Ergebnis. Eine Kopie der Prüfungsunterlagen oder einer Amateurfunkgenehmigung wird nur auf besondere Anforderung beigefügt.
+A DE identifier is applied for on the form provided for the purpose. After a DE examination, the examining board confirms the result. A copy of the examination papers or of an amateur radio licence is enclosed only if specifically requested.
 
-Für eine zügige Bearbeitung sind insbesondere wichtig:
+For quick processing, the following are particularly important:
 
-* vollständiger Name in der gewünschten Schreibweise
-* DARC- oder VFDB-Mitgliedsnummer
-* Ortsverband und DOK
-* gegebenenfalls gewünschte Suffixkombination
-* Bestätigung der erfüllten Voraussetzung
+* full name, spelt as you want it
+* DARC or VFDB membership number
+* local club and DOK
+* the preferred suffix combination, if any
+* confirmation that the requirement has been met
 
-Die in den aktuellen DARC-Regularien genannte Antragsgebühr beträgt 5 Euro. Da Gebühren, Kontodaten und Zuständigkeiten geändert werden können, werden sie vor dem Antrag auf der aktuellen [DARC-SWL-Seite](https://50ohm.de/swl/) oder beim Ortsverbandsvorsitzenden geprüft.
+The application fee given in the current DARC rules is 5 euros. Since fees, bank details and responsibilities can change, they should be checked before applying, on the current [DARC SWL page](https://50ohm.de/swl/) or with the local club chair.
 
-Nach Erhalt der Urkunde sollte das neue DE-Kennzeichen dem Ortsverbandsvorsitzenden und dem QSL-Manager des Ortsverbandes mitgeteilt werden. Nur so können eingehende QSL-Karten zuverlässig zugeordnet werden. Auch Änderungen von Anschrift oder Ortsverband werden der DARC-Geschäftsstelle zeitnah gemeldet.
+Once the certificate has been received, the new DE identifier should be notified to the local club chair and to the local club's QSL manager. Only then can incoming QSL cards be allocated reliably. Changes of address or of local club should also be reported promptly to the DARC head office.
 
 <tip>
-Lehrgänge können die Anträge nach Absprache mit der Vergabestelle gesammelt vorbereiten. Dann lassen sich die Urkunden häufig gemeinsam überreichen.
+By arrangement with the issuing office, courses can prepare their applications together. The certificates can then often be presented together.
 </tip>
 
-Die QSL-Vermittlung verbindet die örtlichen QSL-Manager mit den Vermittlungsbüros anderer Amateurfunkverbände. Karten werden nach Präfixen vorsortiert; Rückantworten aus dem Ausland brauchen deshalb Geduld.
+The QSL bureau links the local QSL managers with the bureaus of other amateur radio societies. Cards are pre-sorted by prefix; replies from abroad therefore take patience.

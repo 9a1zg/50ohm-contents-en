@@ -1,14 +1,14 @@
-Schon am Anfang des SWL-Kurses haben wir den Begriff QSO kennengelernt. Ein QSO ist ein Funkgespräch zwischen zwei Stationen. 
+We already came across the term QSO at the start of the SWL course. A QSO is a radio conversation between two stations. 
 
-In der Praxis wird ein QSO in der Regel mit einem kurzen Anruf begonnen, auf den die andere Station antwortet. Danach werden Informationen ausgetauscht, beispielsweise über die verwendete Antenne, die Sendeleistung oder den Standort. Am Ende des QSO wird sich in der Regel verabschiedet. Die nebenstehende Abbildung zeigt ein Beispiel für ein QSO zwischen den Stationen DL1FLO und DL9MJ. Die Station DL1FLO ruft mit einem allgemeinen CQ-Ruf, auf den die Station DL9MJ antwortet. Danach tauschen die beiden Stationen Informationen über die Signalstärke aus und verabschieden sich am Ende des QSO.
+In practice, a QSO usually begins with a short call, to which the other station replies. Information is then exchanged, for example about the antenna used, the transmit power or the location. At the end of the QSO, the stations usually say goodbye. The example opposite shows a QSO between the stations DL1FLO and DL9MJ. DL1FLO makes a general CQ call, to which DL9MJ replies. The two stations then exchange information about signal strength and say goodbye at the end of the QSO.
 
 <qso>
-CQ CQ hier ist DL1FLO mit einem allgemeinen Anruf, hier ist DL1FLO und geht auf Empfang.
-> DL1FLO hier ist DL9MJ 
-DL9MJ von DL1FLO du bist 5 und 9, QSL?
-> DL1FLO, DL9MJ, QSL du bist bei mir 5 und 7, 5 und 7 QSL?
-QSL Vielen Dank für das QSO, 73 bis zum nächsten Mal
+CQ CQ this is DL1FLO making a general call, this is DL1FLO, listening.
+> DL1FLO this is DL9MJ 
+DL9MJ this is DL1FLO, you are 5 and 9, QSL?
+> DL1FLO, DL9MJ, QSL you are 5 and 7 here, 5 and 7 QSL?
+QSL Many thanks for the QSO, 73 until next time
 > DL1FLO, DL9MJ 73
 </qso>
 
-Für einen vollständigen SWL-Bericht müssen beide beteiligten Amateurfunkrufzeichen richtig aufgenommen werden: das Rufzeichen der angeschriebenen Station und das Rufzeichen ihrer Gegenstation. Wie genau eine SWL-QSL-Karte ausgefüllt wird, schauen wir uns später an. 
+For a complete SWL report, both amateur call signs involved must be copied correctly: the call sign of the station you write to and the call sign of the station it was in contact with. We will look later at exactly how an SWL QSL card is filled in. 

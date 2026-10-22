@@ -1,26 +1,26 @@
-## Relaisfunkstellen
+## Repeaters
 
 <left>
-[picture:648:swl_relais_aufbau:Schematische Darstellung einer Relaisfunkstelle mit zwei Nutzern]
+[picture:648:swl_relais_aufbau:Schematic diagram of a repeater with two users]
 </left>
 <right>
-* empfangen auf einer Eingabefrequenz
-* senden das Signal auf einer anderen Ausgabefrequenz wieder aus
-* vergrößern die Reichweite mobiler und portabler Stationen
-* arbeiten häufig in FM auf 2 m und 70 cm
+* receive on an input frequency
+* retransmit the signal on a different output frequency
+* extend the range of mobile and portable stations
+* often work in FM on 2 m and 70 cm
 </right>
 
 ---
 
-### Relais hören
+### Listening to repeaters
 
-* Ein SWL hört normalerweise die Ausgabefrequenz
-* Dort sind alle Stationen der Funkrunde zu hören
-* Das S-Meter zeigt hauptsächlich die Signalstärke des Relais am eigenen Standort
-* Bei einer Relaisverbindung wird deshalb nur die Lesbarkeit *R* beurteilt
+* An SWL normally listens to the output frequency
+* There you can hear all the stations in the net
+* The S meter mainly shows the signal strength of the repeater at your own location
+* For a contact through a repeater, therefore, only the readability *R* is assessed
 
 <note>
-Eine nahe Relaisfunkstelle eignet sich wegen der meist starken Signale und regelmäßig wiederholten Rufzeichen gut für erste Hörübungen.
+Because its signals are usually strong and call signs are repeated regularly, a nearby repeater is well suited to your first listening exercises.
 </note>
 
 ---

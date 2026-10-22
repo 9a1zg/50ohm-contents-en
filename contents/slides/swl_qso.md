@@ -1,29 +1,29 @@
-## Das QSO
+## The QSO
 
-Ein QSO ist ein Funkgespräch zwischen zwei Stationen.
+A QSO is a radio conversation between two stations.
 
-1. Eine Station ruft allgemein oder gezielt
-2. Die Gegenstation antwortet
-3. Beide tauschen Rufzeichen, Rapporte und weitere Informationen aus
-4. Die Stationen verabschieden sich
+1. One station makes a general or a directed call
+2. The other station replies
+3. Both exchange call signs, reports and other information
+4. The stations say goodbye
 
 <fragment>
-Für einen SWL-Bericht müssen beide Rufzeichen eindeutig aufgenommen werden.
+For an SWL report, both call signs must be copied unambiguously.
 </fragment>
 
 ---
 
-### Beispiel für ein QSO
+### Example of a QSO
 
 <qso>
-CQ CQ hier ist DL1FLO mit einem allgemeinen Anruf, hier ist DL1FLO und geht auf Empfang.
-> DL1FLO hier ist DL9MJ
-DL9MJ von DL1FLO, du bist 5 und 9, QSL?
-> DL1FLO, DL9MJ, QSL, du bist bei mir 5 und 7, 5 und 7, QSL?
-QSL, vielen Dank für das QSO, 73 bis zum nächsten Mal.
+CQ CQ this is DL1FLO making a general call, this is DL1FLO, listening.
+> DL1FLO this is DL9MJ
+DL9MJ this is DL1FLO, you are 5 and 9, QSL?
+> DL1FLO, DL9MJ, QSL, you are 5 and 7 here, 5 and 7, QSL?
+QSL, many thanks for the QSO, 73 until next time.
 > DL1FLO, DL9MJ, 73.
 </qso>
 
 <note>
-Aus Sicht des SWLs werden DL1FLO und DL9MJ notiert. Dazu kommen Zeit, Frequenz, Übertragungsverfahren und der Empfangsrapport für die später angeschriebene Station.
+From the SWL's point of view, DL1FLO and DL9MJ are noted down. Added to them are the time, frequency, mode and the reception report for the station that will later be written to.
 </note>

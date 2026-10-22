@@ -575,6 +575,19 @@ and the checker's "Provjera" section).
   listener* carries the same "short wave", so the point survives. (Unit
   swl_1.)
 
+- **The DARC's SWL award titles keep their German names, with an English
+  gloss at first mention: *Deutschland-Diplom-SWL* (Germany Award for SWLs,
+  DLD-SWL), *Deutscher Empfangsmeister* (German Reception Master, DEM).**
+  They are names of DARC awards, and their abbreviations (DLD, DEM), which
+  the text uses throughout and which also appear on the certificates and in
+  the DE0 identifier range, spell the German words, as *DE* spells
+  *Deutsche Empfangsstation* (swl_1). An English title of our own would
+  break that link and could be taken for an official English name. The
+  gloss goes once per file (section, slides); afterwards the German name or
+  the abbreviation, as the German writes it; the German's inflected forms
+  (*der Deutsche Empfangsmeister*) take the base form of the title. Award
+  levels are translated (Bronze, Silver, Gold; DLD-SWL 100). (Unit swl_2.)
+
 ## Open questions for DARC
 
 - Suspected slips in the German original noticed while translating are listed

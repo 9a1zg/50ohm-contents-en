@@ -1,31 +1,31 @@
-# Das DLD für SWLs
+# The DLD for SWLs
 
 <left>
 [photo:350:swl_dld_urkunde:Deutschland-Diplom-SWL]
 </left>
 
 <right>
-* Das Deutschland-Diplom gibt es auch für Empfangsamateure: **DLD-SWL**.
-* Entscheidend sind bestätigte Empfangsberichte aus verschiedenen DOKs.
+* The *Deutschland-Diplom* (Germany Award) is also available to listening amateurs: **DLD-SWL**.
+* What counts is confirmed reception reports from different DOKs.
 </right>
 
 
 ---
 
-# Vom DOK zum Diplom
+# From DOK to award
 
-Der DOK bezeichnet die Distrikts-Ortsverbands-Kennziffer einer DARC-Station.
+The DOK is the district local club identifier (*Distrikts-Ortsverbands-Kennziffer*) of a DARC station.
 
-Für das **DLD-SWL 100** benötigst du Bestätigungen aus 100 verschiedenen DOKs. Weitere Stufen folgen in Schritten von 100 bis zum DLD 1000.
+For the **DLD-SWL 100** you need confirmations from 100 different DOKs. Further levels follow in steps of 100, up to the DLD 1000.
 
-Varianten sind unter anderem für einzelne Bänder und Betriebsarten möglich.
+Variants are possible for single bands and modes, among others.
 
 ---
 
-# Sorgfältig sammeln
+# Collect carefully
 
-Ein vollständiges Logbuch hilft dir, bestätigte DOKs im Blick zu behalten und Doppelungen zu vermeiden.
+A complete log helps you keep track of confirmed DOKs and avoid duplicates.
 
-Die jeweils aktuellen Diplomregeln findest du unter:
+You can find the current award rules at:
 
 [50ohm.de/dld](https://50ohm.de/dld/)

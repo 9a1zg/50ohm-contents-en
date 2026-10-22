@@ -1,26 +1,26 @@
-Mit einem *Rapport* beschreibt die empfangende Station die Qualität eines Signals. Im Amateurfunk ist dafür das RST-System üblich:
+With a *report*, the receiving station describes the quality of a signal. In amateur radio, the RST system is the usual one for this:
 
 <margin>
-| X: Buchstabe | X: Bedeutung | X: Werte |
-| R | Lesbarkeit (Readability) | 1 bis 5 |
-| S | Signalstärke (Signal Strength) | 1 bis 9 |
-| T | Tonqualität (Tone) | 1 bis 9, nur bei Telegrafie (Morsen) |
-[table:swl_rst_bestandteile:Bestandteile des RST-Rapports]
+| X: Letter | X: Meaning | X: Values |
+| R | Readability | 1 to 5 |
+| S | Signal strength | 1 to 9 |
+| T | Tone | 1 to 9, telegraphy (Morse) only |
+[table:swl_rst_bestandteile:Components of the RST report]
 </margin>
 
 [question:BE201]
 [question:BE202]
 [question:BE203]
 
-Die Lesbarkeit wird subjektiv beurteilt. *R5* bedeutet einwandfrei lesbar, *R1* nicht lesbar. Die Signalstärke wird am S-Meter des Empfängers abgelesen.
+Readability is assessed subjectively. *R5* means perfectly readable, *R1* unreadable. Signal strength is read from the receiver's S meter.
 
 <margin>
-[photo:123:swl_rst_s_meter:S-Meter eines Transceivers]
+[photo:123:swl_rst_s_meter:S meter of a transceiver]
 </margin>
 
 [question:NF103]
 
-Bei SSB-Telefonie wird kein T-Wert angegeben. Ein einwandfrei lesbares Signal mit *S7* erhält daher den Rapport *57*. Ein Signal mit *S9* und weiteren $\qty{20}{\decibel}$ wird als *59 plus 20 dB* angegeben.
+In SSB telephony no T value is given. A perfectly readable signal at *S7* therefore gets the report *57*. A signal at *S9* plus a further $\qty{20}{\decibel}$ is reported as *59 plus 20 dB*.
 
 [question:BE204]
 [question:BE205]
@@ -28,4 +28,4 @@ Bei SSB-Telefonie wird kein T-Wert angegeben. Ein einwandfrei lesbares Signal mi
 [question:BE207]
 [question:BE208]
 
-Für einen SWL-Bericht wird der Rapport aus der Sicht der eigenen Empfangsstation eingetragen. Er beschreibt, wie die angeschriebene Station am eigenen Empfänger angekommen ist.
+For an SWL report, the report is entered from the point of view of your own receiving station. It describes how the station written to arrived at your own receiver.

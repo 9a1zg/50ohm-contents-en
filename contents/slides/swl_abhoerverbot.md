@@ -1,15 +1,15 @@
-# Was darfst du hören?
+# What may you listen to?
 
-Du darfst Funksendungen empfangen, die bestimmt sind für:
+You may receive radio transmissions that are intended for:
 
-- dich als Betreiber der Funkanlage
-- Funkamateure
-- die Allgemeinheit
-- einen unbestimmten Personenkreis
+- you as the operator of the radio equipment
+- radio amateurs
+- the general public
+- an unspecified group of people
 
 <note>
 
-Die rechtliche Grundlage ist § 5 TDDDG.
+The legal basis is Section 5 TDDDG.
 
 </note>
 
@@ -19,11 +19,11 @@ Die rechtliche Grundlage ist § 5 TDDDG.
 
 ---
 
-# Nicht für dich bestimmt
+# Not intended for you
 
-Nachrichten, die weder für Funkamateure noch für die Allgemeinheit oder einen unbestimmten Personenkreis bestimmt sind, darfst du nicht gezielt empfangen.
+You may not deliberately receive messages that are intended neither for radio amateurs nor for the general public or an unspecified group of people.
 
-Auch das Verwerten oder Weitergeben solcher Nachrichten ist unzulässig.
+Using or passing on such messages is not permitted either.
 
 ---
 
@@ -31,14 +31,14 @@ Auch das Verwerten oder Weitergeben solcher Nachrichten ist unzulässig.
 
 ---
 
-# Versehentlich mitgehört?
+# Heard something by accident?
 
-Hast du eine nicht für dich bestimmte Nachricht unbeabsichtigt empfangen, gilt:
+If you have unintentionally received a message not intended for you:
 
-- Inhalt geheim halten
-- auch die Tatsache des Empfangs nicht weitergeben
+- keep the content secret
+- do not pass on even the fact that it was received
 
-Ausnahmen gelten insbesondere bei Notrufen und Katastrophenfällen.
+Exceptions apply in particular to distress calls and disasters.
 
 ---
 
@@ -46,12 +46,12 @@ Ausnahmen gelten insbesondere bei Notrufen und Katastrophenfällen.
 
 ---
 
-# Sicher auf der richtigen Seite
+# Staying safely on the right side
 
-Konzentriere dich beim Empfang auf:
+When listening, concentrate on:
 
-- Amateurfunkverkehr
-- Rundfunkaussendungen
-- andere ausdrücklich öffentliche Signale
+- amateur radio communication
+- broadcast transmissions
+- other expressly public signals
 
-Private oder nichtöffentliche Nachrichten werden weder aufgezeichnet noch weitererzählt.
+Private or non-public messages should be neither recorded nor passed on.

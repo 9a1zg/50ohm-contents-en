@@ -1,47 +1,47 @@
-# Die DE-Prüfung
+# The DE examination
 
-Die DE-Prüfung weist grundlegende Kenntnisse für die Tätigkeit als SWL nach.
+The DE examination demonstrates basic knowledge for activity as an SWL.
 
-Der Fragenkatalog enthält Fragen aus drei Bereichen:
+The question catalogue contains questions from three areas:
 
-- Technik
-- Betriebstechnik
-- Vorschriften
+- Technology
+- Operating practice
+- Regulations
 
 ---
 
-# Ablauf der Prüfung
+# How the examination works
 
-Der Prüfungsbogen enthält insgesamt **17 Fragen** aus den drei Bereichen.
+The examination paper contains a total of **17 questions** from the three areas.
 
-Jede richtige Antwort zählt einen Punkt. Mit mindestens **9 Punkten** ist die Prüfung bestanden.
+Each correct answer scores one point. The examination is passed with at least **9 points**.
 
 <note>
 
-Der gesamte Fragenkatalog umfasst 70 mögliche Prüfungsfragen.
+The complete question catalogue comprises 70 possible examination questions.
 
 </note>
 
 --- style="font-size: smaller;"
 
-# Wer nimmt die Prüfung ab?
+# Who conducts the examination?
 
-Die Prüfung kann im DARC unter anderem abgenommen werden durch:
+Within the DARC, the examination can be conducted by, among others:
 
-- Ortsverbandsvorsitzende
-- Distriktsvorsitzende
-- AJW-Referenten der Distrikte
-- den DL-AJW-Referenten
-- Mitglieder des DARC-Vorstands
+- local club chairs
+- district chairs
+- the districts' AJW officers
+- the DL-AJW officer
+- members of the DARC board
 
-Die Prüfungsberechtigung kann nach den DARC-Regeln delegiert werden.
+The authority to conduct the examination can be delegated under the DARC rules.
 
 ---
 
-# Keine staatliche Prüfung
+# Not a state examination
 
-Die DE-Prüfung ist eine vereinsinterne Prüfung von DARC und VFDB.
+The DE examination is an internal examination of the DARC and the VFDB.
 
-Sie ersetzt weder die Prüfung der Bundesnetzagentur noch die Zulassung zur Teilnahme am Amateurfunkdienst.
+It replaces neither the examination at the Federal Network Agency (Bundesnetzagentur, BNetzA) nor the authorisation to participate in the amateur service.
 
-Aktuelle Unterlagen: [50ohm.de/swl](https://50ohm.de/swl/)
+Current documents: [50ohm.de/swl](https://50ohm.de/swl/)

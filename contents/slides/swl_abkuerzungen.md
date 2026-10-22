@@ -1,27 +1,27 @@
-## Betriebliche Abkürzungen
+## Operating abbreviations
 
-| l: Abkürzung | X: Bedeutung |
-| CQ | allgemeiner Anruf |
-| CW | Continuous Wave; Morsetelegrafie |
-| DX | große Entfernung oder weit entfernte Station |
-| RX | Empfänger |
-| TX | Sender |
-| TRX | Transceiver oder Sendeempfänger |
+| l: Abbreviation | X: Meaning |
+| CQ | General call |
+| CW | Continuous Wave; Morse telegraphy |
+| DX | Long distance or a distant station |
+| RX | Receiver |
+| TX | Transmitter |
+| TRX | Transceiver, or combined transmitter and receiver |
 
 <note>
-Die international verständlichen Abkürzungen sparen Zeit und helfen über Sprachgrenzen hinweg. Ein SWL arbeitet im RX-Betrieb.
+Abbreviations that are understood internationally save time and help across language barriers. An SWL works in RX mode.
 </note>
 
 ---
 
-### Ein allgemeiner Anruf
+### A general call
 
 *CQ CQ CQ de DL1ABC*
 
-* *CQ* richtet sich an alle empfangenden Stationen
-* *de* bedeutet *von*
-* danach folgt das Rufzeichen der rufenden Station
-* für SWLs eine gute Gelegenheit, das erste Rufzeichen sicher aufzunehmen
+* *CQ* is addressed to all receiving stations
+* *de* means *this is*
+* then comes the call sign of the calling station
+* for SWLs, a good opportunity to copy a first call sign reliably
 
 ---
 

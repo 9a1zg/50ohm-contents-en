@@ -1,19 +1,19 @@
-Q-Gruppen bestehen aus drei Buchstaben und beginnen mit *Q*. Sie wurden für die Telegrafie entwickelt, werden aber im Amateurfunk auch im Sprechfunk benutzt. Mit Fragezeichen sind viele Gruppen eine Frage, ohne Fragezeichen eine Aussage oder Aufforderung.
+Q codes consist of three letters and begin with *Q*. They were developed for telegraphy, but in amateur radio they are also used in voice operation. With a question mark, many codes are a question; without one, a statement or a request.
 
 <margin>
-| l: Gruppe | X: Bedeutung |
-| QRM | Ich werde durch andere Stationen gestört |
-| QRN | Ich werde durch atmosphärische Störungen beeinträchtigt |
-| QRO? | Soll ich die Sendeleistung erhöhen? |
-| QRT | Stellen Sie die Übermittlung ein |
-| QRV | Ich bin bereit |
-| QRX? | Wann werden Sie mich wieder rufen? |
-| QRZ? | Von wem werde ich gerufen? |
-| QSB? | Schwankt die Stärke meiner Zeichen? |
-| QSL? | Können Sie mir Empfangsbestätigung geben? |
-| QSO? | Können Sie mit einer bestimmten Station verkehren? |
-| QTH | Mein Standort ist ... |
-[table:swl_q_gruppen_uebersicht:Wichtige Q-Gruppen für die DE-Prüfung]
+| l: Code | X: Meaning |
+| QRM | I am being interfered with by other stations |
+| QRN | I am troubled by static |
+| QRO? | Shall I increase transmitter power? |
+| QRT | Stop sending |
+| QRV | I am ready |
+| QRX? | When will you call me again? |
+| QRZ? | Who is calling me? |
+| QSB? | Are my signals fading? |
+| QSL? | Can you acknowledge receipt? |
+| QSO? | Can you communicate with ... direct? |
+| QTH | My location is ... |
+[table:swl_q_gruppen_uebersicht:Important Q codes for the DE examination]
 </margin>
 
 [question:BB201]
@@ -21,8 +21,8 @@ Q-Gruppen bestehen aus drei Buchstaben und beginnen mit *Q*. Sie wurden für die
 [question:BB203]
 [question:BB204]
 
-Für SWLs ist *QSL* besonders wichtig: Daraus leitet sich die Bezeichnung QSL-Karte ab. *QRM*, *QRN* und *QSB* beschreiben unterschiedliche Ursachen eines schwierigen Empfangs.
+For SWLs, *QSL* is particularly important: it gives the QSL card its name. *QRM*, *QRN* and *QSB* describe different causes of difficult reception.
 
 <tip>
-Merkhilfe: QRM ist eine *m*enschengemachte Störung, QRN eine *n*atürliche Störung und QSB geht mit der *S*ignalstärke *b*ergauf und *b*ergab.
+Memory aid: QRM is *m*an-made interference, QRN is *n*atural interference, and with QSB the *s*ignal strength goes "*b*ergauf und *b*ergab" (German for "uphill and downhill").
 </tip>

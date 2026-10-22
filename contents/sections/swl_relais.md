@@ -1,13 +1,13 @@
-Eine *Relaisfunkstelle* empfängt ein Signal auf ihrer Eingabefrequenz und sendet es auf einer anderen Ausgabefrequenz wieder aus. Dadurch können Mobil- und Portabelstationen ein größeres Gebiet erreichen.
+A *repeater* receives a signal on its input frequency and retransmits it on a different output frequency. This allows mobile and portable stations to reach a larger area.
 
-Als SWL hört man normalerweise die Ausgabefrequenz des Relais. Dort sind alle Stationen der Funkrunde zu hören, sofern sie das Relais erreichen. Die angezeigte Signalstärke beschreibt aber hauptsächlich das Signal des Relais am eigenen Standort und nicht die Feldstärke der gerade sprechenden Gegenstation.
+As an SWL, you normally listen to the repeater's output frequency. There you can hear all the stations in the net, provided they can reach the repeater. The signal strength displayed, however, mainly describes the repeater's signal at your own location, not the field strength of the station that happens to be speaking.
 
-Deshalb wird bei einer Verbindung über eine Relaisfunkstelle üblicherweise nur die Lesbarkeit *R* beurteilt.
+That is why, for a contact through a repeater, usually only the readability *R* is assessed.
 
 [question:BE408]
 
-Relais senden häufig in FM auf dem $\qty{2}{\meter}$- oder $\qty{70}{\centi\meter}$-Band. Zwischen den Durchgängen bleiben kurze Pausen, damit andere Stationen sich melden können. Kennungen oder automatische Ansagen helfen bei der Identifikation.
+Repeaters often transmit in FM on the $\qty{2}{\meter}$ or $\qty{70}{\centi\meter}$ band. Short pauses are left between overs so that other stations can call in. Identifiers or automatic announcements help with identification.
 
 <tip>
-Eine nahe Relaisfunkstelle eignet sich gut für erste Hörübungen: Die Signale sind meist stark, Rufzeichen werden regelmäßig wiederholt und die Gesprächsstruktur ist gut zu verfolgen.
+A nearby repeater is well suited to your first listening exercises: the signals are usually strong, call signs are repeated regularly and the structure of the conversation is easy to follow.
 </tip>

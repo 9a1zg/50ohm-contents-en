@@ -1,21 +1,21 @@
-Im Amateurfunk werden viele international verständliche Abkürzungen benutzt. Sie sparen Zeit und helfen über Sprachgrenzen hinweg.
+Amateur radio uses many abbreviations that are understood internationally. They save time and help across language barriers.
 
 <margin>
-| l: Abkürzung | X: Bedeutung                                            |
-| CQ           | allgemeiner Anruf; jede Station darf antworten          |
-| CW           | Continuous Wave; Morsetelegrafie                        |
-| DX           | große Entfernung beziehungsweise weit entfernte Station |
-| RX           | Empfänger                                               |
-| TX           | Sender                                                  |
-| TRX          | Transceiver, also Sendeempfänger                        |
-[table:swl_abkuerzungen_uebersicht:Prüfungsrelevante betriebliche Abkürzungen]
+| l: Abbreviation | X: Meaning                                              |
+| CQ           | General call; any station may reply                     |
+| CW           | Continuous Wave; Morse telegraphy                       |
+| DX           | Long distance, or a distant station                     |
+| RX           | Receiver                                                |
+| TX           | Transmitter                                             |
+| TRX          | Transceiver, that is, a combined transmitter and receiver |
+[table:swl_abkuerzungen_uebersicht:Operating abbreviations relevant to the examination]
 </margin>
 
-Ein Ruf wie *CQ CQ CQ de DL1ABC* richtet sich nicht an eine bestimmte Gegenstation, sondern ist ein allgemeiner Anruf. Das *de* bedeutet dabei *von*. Für einen SWL ist ein CQ-Ruf eine gute Gelegenheit, das Rufzeichen in Ruhe aufzunehmen und anschließend auf die antwortende Station zu warten.
+A call such as *CQ CQ CQ de DL1ABC* is not addressed to a particular station; it is a general call. Here, *de* means *this is*. For an SWL, a CQ call is a good opportunity to copy the call sign at leisure and then wait for the station that replies.
 
 [question:BB102]
 [question:BB103]
 [question:BB106]
 [question:BB107]
 
-Die Begriffe TX und TRX tauchen auch auf Geräteanzeigen auf. Ein SWL arbeitet im RX-Betrieb. Leuchtet an einem Transceiver versehentlich die TX-Anzeige, sendet das Gerät möglicherweise gerade.
+The terms TX and TRX also appear on equipment displays. An SWL works in RX mode. If the TX indicator on a transceiver lights up by mistake, the equipment may be transmitting.

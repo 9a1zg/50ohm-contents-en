@@ -1,30 +1,30 @@
-## SWL-QSL-Karten
+## SWL QSL cards
 
 <left>
-[photo:347:swl_qsl_vorderseite:Beispiel für die Vorderseite einer SWL-QSL-Karte]
+[photo:347:swl_qsl_vorderseite:Example of the front of an SWL QSL card]
 </left>
 <right>
-[photo:348:swl_qsl_datenseite:Beispiel für die Datenseite einer SWL-QSL-Karte]
+[photo:348:swl_qsl_datenseite:Example of the data side of an SWL QSL card]
 </right>
 
 <note>
-Mit einer SWL-QSL-Karte bittet ein Hörer die gehörte Amateurfunkstation um Bestätigung seines Empfangsberichts.
+With an SWL QSL card, a listener asks the amateur station they have heard to confirm their reception report.
 </note>
 
 --- style="font-size: smaller;"
 
-### Angaben auf der SWL-QSL-Karte
+### Details on the SWL QSL card
 
-* gehörte und angeschriebene Station – *TO RADIO*
-* deren Gegenstation – *QSO with* oder *Working/WKG*
-* Datum und Uhrzeit in UTC
-* Frequenz oder Band
-* Übertragungsverfahren
-* Empfangsrapport
-* eigene SWL-Nummer oder eigenes DE-Kennzeichen
+* station heard and written to – *TO RADIO*
+* the station it was in contact with – *QSO with* or *Working/WKG*
+* date and time in UTC
+* frequency or band
+* mode
+* reception report
+* your own SWL number or DE identifier
 
 <note>
-Die Angaben müssen mit dem Logbuch der angeschriebenen Station übereinstimmen. Beide Rufzeichen sind deshalb unverzichtbar.
+The details must agree with the log of the station written to. Both call signs are therefore indispensable.
 </note>
 
 ---
@@ -33,11 +33,11 @@ Die Angaben müssen mit dem Logbuch der angeschriebenen Station übereinstimmen.
 
 ---
 
-### Uhrzeit immer in UTC
+### Time always in UTC
 
-* Winter: UTC = MEZ minus 1 Stunde
-* Sommer: UTC = MESZ minus 2 Stunden
-* erleichtert das Auffinden des QSOs im ausländischen Logbuch
+* Winter: UTC = CET minus 1 hour
+* Summer: UTC = CEST minus 2 hours
+* makes it easier to find the QSO in a log abroad
 
 ---
 
@@ -53,15 +53,15 @@ Die Angaben müssen mit dem Logbuch der angeschriebenen Station übereinstimmen.
 
 ---
 
-### Versand und QSL-Vermittlung
+### Sending cards and the QSL bureau
 
-* Anschriften für Direktversand stehen in Callbooks oder im Internet
-* DARC-Mitglieder können die weltweite QSL-Vermittlung nutzen
-* Karten werden über den QSL-Manager des Ortsverbandes ausgetauscht
-* Auslandskarten können mehrere Monate unterwegs sein
+* Addresses for sending direct can be found in callbooks or on the internet
+* DARC members can use the worldwide QSL bureau
+* Cards are exchanged through the local club's QSL manager
+* Cards from abroad can take several months to arrive
 
 <note>
-Empfohlenes Format einer QSL-Karte: ungefähr 9 cm mal 14 cm aus stabilem Karton. Eine gut lesbare Datenseite ist wichtiger als eine aufwendige Gestaltung.
+Recommended format of a QSL card: about 9 cm by 14 cm, on stiff card. An easily readable data side is more important than an elaborate design.
 </note>
 
 ---
