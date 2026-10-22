@@ -28,8 +28,12 @@ on GitHub for DARC to take over.
   stays the same number; the tooling checks this.
 - **Formulas and symbols** stay exactly as in the German, including German
   subscripts such as `R_\mathrm{ges}` or `U_\mathrm{eff}`: they match the
-  labels in the drawings, which are not translated yet. Only words inside
-  `\text{}`/`\textrm{}` are translated.
+  labels in the drawings, which are not translated yet. That includes word
+  subscripts written with `\textrm{}`/`\mathrm{}` (`P_{\textrm{Sender}}`,
+  `G_{\textrm{Antenne}}`): they are symbols, used the same way in the course
+  text and the drawings, and get translated in one pass together with the
+  drawings, never piecemeal. Running words inside `\text{}` (a phrase, not a
+  subscript) are translated.
 - **Names of German law and institutions:** at first use in a text the
   English name with the German name and abbreviation, e.g. *Amateur Radio
   Ordinance (Amateurfunkverordnung, AFuV)*; afterwards the abbreviation. In
