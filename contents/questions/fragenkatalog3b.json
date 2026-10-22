@@ -62,7 +62,7 @@
                                 {
                                     "number": "AA114",
                                     "class": "3",
-                                    "question": "By how much has the receiver input voltage fallen if the S-meter reading drops from S9+20 dB to S8 because of a change in propagation conditions? The receiver input voltage falls by ...",
+                                    "question": "By how much has the receiver input voltage fallen if the S meter reading drops from S9+20 dB to S8 because of a change in propagation conditions? The receiver input voltage falls by ...",
                                     "answer_a": "26 dB.",
                                     "answer_b": "23 dB.",
                                     "answer_c": "6 dB.",
@@ -601,7 +601,7 @@
                                 {
                                     "number": "AB102",
                                     "class": "3",
-                                    "question": "You measure a resistance of 1.5 ohms between the ends of a copper wire with a cross-sectional area of 0.5 mm\u00b2. Approximately how long is the wire?",
+                                    "question": "You measure a resistance of 1.5 \u03a9 between the ends of a copper wire with a cross-sectional area of 0.5 mm\u00b2. Approximately how long is the wire?",
                                     "answer_a": "41.7 m",
                                     "answer_b": "3.0 m",
                                     "answer_c": "4.2 m",
@@ -611,10 +611,10 @@
                                     "number": "AB101",
                                     "class": "3",
                                     "question": "Approximately what is the resistance of a copper wire if the wire used has a length of 1.8 m and a diameter of 0.2 mm?",
-                                    "answer_a": "1.02 ohms",
-                                    "answer_b": "56.0 ohms",
-                                    "answer_c": "0.26 ohms",
-                                    "answer_d": "0.16 ohms"
+                                    "answer_a": "1.02 \u03a9",
+                                    "answer_b": "56.0 \u03a9",
+                                    "answer_c": "0.26 \u03a9",
+                                    "answer_d": "0.16 \u03a9"
                                 },
                                 {
                                     "number": "NB104",
@@ -718,35 +718,35 @@
                                     "question": "The open-circuit voltage of a DC voltage source is 13.8 V. When the voltage source delivers a current of 20 A, the terminal voltage is still 13.6 V. What is the internal resistance of the voltage source?",
                                     "answer_a": "10 m$\\Omega$",
                                     "answer_b": "20 m$\\Omega$",
-                                    "answer_c": "0.2 ohms",
-                                    "answer_d": "0.1 ohms"
+                                    "answer_c": "0.2 \u03a9",
+                                    "answer_d": "0.1 \u03a9"
                                 },
                                 {
                                     "number": "AB207",
                                     "class": "3",
                                     "question": "The open-circuit voltage of a DC voltage source is 13.5 V. When the voltage source delivers a current of 2 A, the terminal voltage falls to 13 V. What is the internal resistance of the voltage source?",
-                                    "answer_a": "0.25 ohms",
-                                    "answer_b": "6.75 ohms",
-                                    "answer_c": "4 ohms",
-                                    "answer_d": "1 ohm"
+                                    "answer_a": "0.25 \u03a9",
+                                    "answer_b": "6.75 \u03a9",
+                                    "answer_c": "4 \u03a9",
+                                    "answer_d": "1 \u03a9"
                                 },
                                 {
                                     "number": "AB206",
                                     "class": "3",
                                     "question": "The open-circuit voltage of a DC voltage source is 13.5 V. When the voltage source delivers a current of 0.9 A, the terminal voltage falls to 12.4 V. What is the internal resistance of the voltage source?",
-                                    "answer_a": "1.22 ohms",
-                                    "answer_b": "0.82 ohms",
-                                    "answer_c": "0.99 ohms",
-                                    "answer_d": "15.0 ohms"
+                                    "answer_a": "1.22 \u03a9",
+                                    "answer_b": "0.82 \u03a9",
+                                    "answer_c": "0.99 \u03a9",
+                                    "answer_d": "15.0 \u03a9"
                                 },
                                 {
                                     "number": "AB205",
                                     "class": "3",
-                                    "question": "The open-circuit voltage of a voltage source is 5.0 V. If a load resistor of 1.2 ohms is connected, the terminal voltage of the voltage source drops to 4.8 V. What is the internal resistance of the voltage source?",
-                                    "answer_a": "0.05 ohms",
-                                    "answer_b": "8.2 ohms",
-                                    "answer_c": "0.17 ohms",
-                                    "answer_d": "0.25 ohms"
+                                    "question": "The open-circuit voltage of a voltage source is 5.0 V. If a load resistor of 1.2 \u03a9 is connected, the terminal voltage of the voltage source drops to 4.8 V. What is the internal resistance of the voltage source?",
+                                    "answer_a": "0.05 \u03a9",
+                                    "answer_b": "8.2 \u03a9",
+                                    "answer_c": "0.17 \u03a9",
+                                    "answer_d": "0.25 \u03a9"
                                 },
                                 {
                                     "number": "AB204",
@@ -1187,7 +1187,7 @@
                                 {
                                     "number": "AB301",
                                     "class": "3",
-                                    "question": "A sinusoidal alternating current with an amplitude $I_{\\textrm{max}}$ of 0.5 amperes flows through a resistor of 20 ohms. How much power is converted into heat?",
+                                    "question": "A sinusoidal alternating current with an amplitude $I_{\\textrm{max}}$ of 0.5 A flows through a resistor of 20 \u03a9. How much power is converted into heat?",
                                     "answer_a": "2.5 W",
                                     "answer_b": "5.0 W",
                                     "answer_c": "10 W",
@@ -1467,10 +1467,10 @@
                                     "number": "NB505",
                                     "class": "1",
                                     "question": "What is the resistance value?",
-                                    "answer_a": "40.000 ohms",
-                                    "answer_b": "3.600 ohms",
-                                    "answer_c": "0.025 ohms",
-                                    "answer_d": "0.200 ohms",
+                                    "answer_a": "40.000 \u03a9",
+                                    "answer_b": "3.600 \u03a9",
+                                    "answer_c": "0.025 \u03a9",
+                                    "answer_d": "0.200 \u03a9",
                                     "picture_question": "NB505_q"
                                 },
                                 {
@@ -1518,7 +1518,7 @@
                                 {
                                     "number": "EB514",
                                     "class": "2",
-                                    "question": "A 50 ohm dummy load (artificial antenna) consists of 11 carbon-film resistors of 560 ohms connected in parallel, each with a power rating of 5 W. What is the resulting power rating of the dummy load?",
+                                    "question": "A 50 \u03a9 dummy load consists of 11 carbon-film resistors of 560 \u03a9 connected in parallel, each with a power rating of 5 W. What is the resulting power rating of the dummy load?",
                                     "answer_a": "55 W",
                                     "answer_b": "0.45 W",
                                     "answer_c": "250 W",
@@ -1527,7 +1527,7 @@
                                 {
                                     "number": "EB513",
                                     "class": "2",
-                                    "question": "An oscilloscope shows a sinusoidal peak-to-peak value of 25 V across a 1000 ohm resistor. The RMS current through the resistor is ...",
+                                    "question": "An oscilloscope shows a sinusoidal peak-to-peak value of 25 V across a 1000 \u03a9 resistor. The RMS current through the resistor is ...",
                                     "answer_a": "8.8 mA.",
                                     "answer_b": "12.5 mA.",
                                     "answer_c": "25 mA.",
@@ -1536,7 +1536,7 @@
                                 {
                                     "number": "EB512",
                                     "class": "2",
-                                    "question": "A resistor of 120 ohms has a power rating of 23.0 W. What is the maximum current that may flow through the resistor without overloading it?",
+                                    "question": "A resistor of 120 \u03a9 has a power rating of 23.0 W. What is the maximum current that may flow through the resistor without overloading it?",
                                     "answer_a": "438 mA",
                                     "answer_b": "192 mA",
                                     "answer_c": "43.7 mA",
@@ -1563,7 +1563,7 @@
                                 {
                                     "number": "EB509",
                                     "class": "2",
-                                    "question": "What is the minimum power for which a 100 ohm resistor must be rated if 10 V is to be dropped across it?",
+                                    "question": "What is the minimum power for which a 100 \u03a9 resistor must be rated if 10 V is to be dropped across it?",
                                     "answer_a": "1.00 W",
                                     "answer_b": "10.0 W",
                                     "answer_c": "0.01 W",
@@ -1572,7 +1572,7 @@
                                 {
                                     "number": "EB508",
                                     "class": "2",
-                                    "question": "How much power is dissipated in a 50 ohm dummy load when an RMS current of 2 A flows?",
+                                    "question": "How much power is dissipated in a 50 \u03a9 dummy load when an RMS current of 2 A flows?",
                                     "answer_a": "200 W",
                                     "answer_b": "100 W",
                                     "answer_c": "25 W",
@@ -1581,7 +1581,7 @@
                                 {
                                     "number": "EB507",
                                     "class": "2",
-                                    "question": "The RMS voltage across a 50 ohm dummy load is measured as 100 V. The power in the load is ...",
+                                    "question": "The RMS voltage across a 50 \u03a9 dummy load is measured as 100 V. The power in the load is ...",
                                     "answer_a": "200 W.",
                                     "answer_b": "50 W.",
                                     "answer_c": "100 W.",
@@ -1627,10 +1627,10 @@
                                     "number": "EB502",
                                     "class": "2",
                                     "question": "The mean power of a transmitter is ...",
-                                    "answer_a": "the average power supplied to the antenna feed line by a transmitter under normal operating conditions during an interval of time that is sufficiently long compared with the period of the lowest modulating frequency.",
+                                    "answer_a": "the average power supplied to the antenna feeder by a transmitter under normal operating conditions during an interval of time that is sufficiently long compared with the period of the lowest modulating frequency.",
                                     "answer_b": "the power measurable immediately after the transmitter output over the peaks of the period of an average RF oscillation, before it passes through accessory equipment (e.g. matching units).",
-                                    "answer_c": "the average power supplied to the antenna feed line by a transmitter under normal operating conditions during one cycle of the RF oscillation at the highest crest of the modulation envelope.",
-                                    "answer_d": "the product of the power supplied directly to the antenna and its gain in a given direction, relative to the half-wave dipole."
+                                    "answer_c": "the average power supplied to the antenna feeder by a transmitter under normal operating conditions during one cycle of the RF oscillation at the highest crest of the modulation envelope.",
+                                    "answer_d": "the product of the power supplied directly to the antenna and its gain (as a power ratio) in a given direction, relative to the half-wave dipole."
                                 },
                                 {
                                     "number": "EB501",
@@ -1638,8 +1638,8 @@
                                     "question": "The peak envelope power of a transmitter (PEP) is ...",
                                     "answer_a": "the average power that the transmitter can deliver into a resistive termination under normal operating conditions during one cycle of the RF oscillation at the highest crest of the modulation envelope.",
                                     "answer_b": "the power measurable immediately after the transmitter output over the peaks of the period of an average RF oscillation, before it passes through accessory equipment (e.g. matching units).",
-                                    "answer_c": "the average power supplied to the antenna feed line by a transmitter under normal operating conditions during an interval of time that is sufficiently long compared with the period of the lowest modulating frequency.",
-                                    "answer_d": "the product of the power supplied directly to the antenna and its gain in a given direction, relative to the half-wave dipole."
+                                    "answer_c": "the average power supplied to the antenna feeder by a transmitter under normal operating conditions during an interval of time that is sufficiently long compared with the period of the lowest modulating frequency.",
+                                    "answer_d": "the product of the power supplied directly to the antenna and its gain (as a power ratio) in a given direction, relative to the half-wave dipole."
                                 },
                                 {
                                     "number": "NB606",
@@ -1805,10 +1805,10 @@
                                     "number": "EC116",
                                     "class": "2",
                                     "question": "What is the value of an SMD resistor marked 221?",
-                                    "answer_a": "220 ohms",
-                                    "answer_b": "221 ohms",
-                                    "answer_c": "22.0 ohms",
-                                    "answer_d": "22.1 ohms"
+                                    "answer_a": "220 \u03a9",
+                                    "answer_b": "221 \u03a9",
+                                    "answer_c": "22.0 \u03a9",
+                                    "answer_d": "22.1 \u03a9"
                                 },
                                 {
                                     "number": "EC115",
@@ -1833,10 +1833,10 @@
                                     "number": "EC113",
                                     "class": "2",
                                     "question": "The colour bands green, blue and red plus a silver band on a resistor with 4 colour bands indicate a resistance value between ...",
-                                    "answer_a": "5040 and 6160 ohms.",
-                                    "answer_b": "4760 and 6440 ohms.",
-                                    "answer_c": "4760 and 6840 ohms.",
-                                    "answer_d": "5240 and 6360 ohms."
+                                    "answer_a": "5040 and 6160 \u03a9.",
+                                    "answer_b": "4760 and 6440 \u03a9.",
+                                    "answer_c": "4760 and 6840 \u03a9.",
+                                    "answer_d": "5240 and 6360 \u03a9."
                                 },
                                 {
                                     "number": "EC112",
@@ -1905,19 +1905,19 @@
                                     "number": "EC106",
                                     "class": "2",
                                     "question": "Which of the following components could be used for an accurate dummy load that is to be used at 50 MHz?",
-                                    "answer_a": "Ten 500 ohm carbon-film resistors without a spiral cut, connected in parallel",
-                                    "answer_b": "A single 50 ohm wirewound resistor",
-                                    "answer_c": "Two 100 ohm wirewound resistors connected in parallel",
-                                    "answer_d": "Two spiral-cut 25 ohm carbon-film resistors connected in series"
+                                    "answer_a": "Ten 500 \u03a9 carbon-film resistors without a spiral cut, connected in parallel",
+                                    "answer_b": "A single 50 \u03a9 wirewound resistor",
+                                    "answer_c": "Two 100 \u03a9 wirewound resistors connected in parallel",
+                                    "answer_d": "Two spiral-cut 25 \u03a9 carbon-film resistors connected in series"
                                 },
                                 {
                                     "number": "EC105",
                                     "class": "2",
                                     "question": "Which of the following components could be used for a well-functioning dummy load that is to be used at 28 MHz?",
-                                    "answer_a": "Ten 500 ohm carbon-film resistors",
-                                    "answer_b": "A 50 ohm wirewound resistor",
-                                    "answer_c": "Two 100 ohm wirewound resistors connected in parallel",
-                                    "answer_d": "A 50 ohm wirewound resistor connected in parallel with a 50 nF ceramic capacitor"
+                                    "answer_a": "Ten 500 \u03a9 carbon-film resistors",
+                                    "answer_b": "A 50 \u03a9 wirewound resistor",
+                                    "answer_c": "Two 100 \u03a9 wirewound resistors connected in parallel",
+                                    "answer_d": "A 50 \u03a9 wirewound resistor connected in parallel with a 50 nF ceramic capacitor"
                                 },
                                 {
                                     "number": "EC104",
@@ -2100,10 +2100,10 @@
                                     "number": "AC106",
                                     "class": "3",
                                     "question": "What is the magnitude of the capacitive reactance of a 100 pF capacitor at a frequency of 100 MHz?",
-                                    "answer_a": "Approx. 15.9 ohms",
-                                    "answer_b": "Approx. 159 ohms",
-                                    "answer_c": "Approx. 31.8 ohms",
-                                    "answer_d": "Approx. 3.2 ohms"
+                                    "answer_a": "Approx. 15.9 \u03a9",
+                                    "answer_b": "Approx. 159 \u03a9",
+                                    "answer_c": "Approx. 31.8 \u03a9",
+                                    "answer_d": "Approx. 3.2 \u03a9"
                                 },
                                 {
                                     "number": "AC105",
@@ -2367,7 +2367,7 @@
                                     "question": "Does a straight piece of conductor have inductance?",
                                     "answer_a": "Yes, every conductor has inductance, whatever its shape.",
                                     "answer_b": "No, the conductor must have at least one bend (a quarter, half or full turn).",
-                                    "answer_c": "Yes, as long as the reactance is 0 ohms.",
+                                    "answer_c": "Yes, as long as the reactance is 0 \u03a9.",
                                     "answer_d": "No, in a vacuum, for example, no inductance arises."
                                 },
                                 {
@@ -2429,7 +2429,7 @@
                                 {
                                     "number": "AC306",
                                     "class": "3",
-                                    "question": "A transformer is used to match a 50 ohm transmission line to an end-fed half-wave antenna with a feed-point impedance of 2.5 k\u03a9. It should have a turns ratio of approximately ...",
+                                    "question": "A transformer is used to match a 50 \u03a9 transmission line to an end-fed half-wave antenna with a feed-point impedance of 2.5 k\u03a9. It should have a turns ratio of approximately ...",
                                     "answer_a": "1:7.",
                                     "answer_b": "1:3.",
                                     "answer_c": "1:49.",
@@ -2438,7 +2438,7 @@
                                 {
                                     "number": "AC305",
                                     "class": "3",
-                                    "question": "To match an antenna with a feed-point impedance of 450 ohms to a 50 ohm transmission line, you should use a transformer with a turns ratio of ...",
+                                    "question": "To match an antenna with a feed-point impedance of 450 \u03a9 to a 50 \u03a9 transmission line, you should use a transformer with a turns ratio of ...",
                                     "answer_a": "3:1.",
                                     "answer_b": "4:1.",
                                     "answer_c": "9:1.",
@@ -2610,10 +2610,10 @@
                                     "number": "EC522",
                                     "class": "2",
                                     "question": "The following Zener diode stabiliser circuit is given. The current through the Zener diode is to be 25 mA and the load current is 20 mA. The value of the required series resistor is ...",
-                                    "answer_a": "approx. 202 ohms.",
-                                    "answer_b": "approx. 364 ohms.",
-                                    "answer_c": "approx. 188 ohms.",
-                                    "answer_d": "approx. 235 ohms.",
+                                    "answer_a": "approx. 202 \u03a9.",
+                                    "answer_b": "approx. 364 \u03a9.",
+                                    "answer_c": "approx. 188 \u03a9.",
+                                    "answer_d": "approx. 235 \u03a9.",
                                     "picture_question": "EC522_q"
                                 },
                                 {
@@ -2672,20 +2672,20 @@
                                     "number": "EC516",
                                     "class": "2",
                                     "question": "The following circuit with a light-emitting diode (LED) is supplied with an operating voltage of 5.5 V. The current through the LED is to be 25 mA, and its forward voltage is 1.75 V. The required series resistor must have the following values:",
-                                    "answer_a": "150 ohms/0.1 W",
-                                    "answer_b": "150 ohms/0.06 W",
-                                    "answer_c": "70 ohms/0.1 W",
-                                    "answer_d": "70 ohms/0.06 W",
+                                    "answer_a": "150 \u03a9/0.1 W",
+                                    "answer_b": "150 \u03a9/0.06 W",
+                                    "answer_c": "70 \u03a9/0.1 W",
+                                    "answer_d": "70 \u03a9/0.06 W",
                                     "picture_question": "EC516_q"
                                 },
                                 {
                                     "number": "EC515",
                                     "class": "2",
                                     "question": "A light-emitting diode with a forward voltage of 1.4 V and a forward current of 20 mA is to be connected to a voltage source of 5.0 V. Calculate the series resistor. The value of the required series resistor is ...",
-                                    "answer_a": "180 ohms.",
-                                    "answer_b": "250 ohms.",
-                                    "answer_c": "70 ohms.",
-                                    "answer_d": "320 ohms."
+                                    "answer_a": "180 \u03a9.",
+                                    "answer_b": "250 \u03a9.",
+                                    "answer_c": "70 \u03a9.",
+                                    "answer_d": "320 \u03a9."
                                 },
                                 {
                                     "number": "EC514",
@@ -2908,10 +2908,10 @@
                                     "number": "AC522",
                                     "class": "3",
                                     "question": "What value must $R_2$ have for a voltage of 2.8 V to be set up between gate and source? $U_{\\textrm{B}}$=44 V; $R_1$=10 k\u03a9; $R_3$=2.2 k\u03a9 ...",
-                                    "answer_a": "Approx. 680 ohms",
-                                    "answer_b": "Approx. 1405 ohms",
-                                    "answer_c": "Approx. 68 ohms",
-                                    "answer_d": "Approx. 820 ohms",
+                                    "answer_a": "Approx. 680 \u03a9",
+                                    "answer_b": "Approx. 1405 \u03a9",
+                                    "answer_c": "Approx. 68 \u03a9",
+                                    "answer_d": "Approx. 820 \u03a9",
                                     "picture_question": "AC522_q"
                                 },
                                 {
@@ -3304,7 +3304,7 @@
                                     "number": "AC604",
                                     "class": "3",
                                     "question": "What is typical of a monolithic microwave integrated circuit (MMIC)?",
-                                    "answer_a": "The input and output impedances correspond to common line impedances (e.g. 50 ohms).",
+                                    "answer_a": "The input and output impedances correspond to common line impedances (e.g. 50 \u03a9).",
                                     "answer_b": "The gain is constant from 0 Hz upwards.",
                                     "answer_c": "They can be used only in the microwave range.",
                                     "answer_d": "The gain range is narrowband."
@@ -3379,7 +3379,7 @@
                                 {
                                     "number": "AD112",
                                     "class": "3",
-                                    "question": "The voltage across the bridge circuit is 10 V. All the resistors have a value of 50 ohms. What is the voltage between A and B in the bridge diagonal (measured from A to B)?",
+                                    "question": "The voltage across the bridge circuit is 10 V. All the resistors have a value of 50 \u03a9. What is the voltage between A and B in the bridge diagonal (measured from A to B)?",
                                     "answer_a": "0 V",
                                     "answer_b": "-5 V",
                                     "answer_c": "5 V",
@@ -3399,21 +3399,21 @@
                                 {
                                     "number": "AD110",
                                     "class": "3",
-                                    "question": "If $\\textrm{R}_1$ and $\\textrm{R}_3$ are each 2.2 k\u03a9 and $\\textrm{R}_2$ and $\\textrm{R}_4$ are each 220 ohms, the total resistance of the circuit between points a and b is ...",
-                                    "answer_a": "1210 ohms.",
-                                    "answer_b": "1540 ohms.",
-                                    "answer_c": "4840 ohms.",
-                                    "answer_d": "2420 ohms.",
+                                    "question": "If $\\textrm{R}_1$ and $\\textrm{R}_3$ are each 2.2 k\u03a9 and $\\textrm{R}_2$ and $\\textrm{R}_4$ are each 220 \u03a9, the total resistance of the circuit between points a and b is ...",
+                                    "answer_a": "1210 \u03a9.",
+                                    "answer_b": "1540 \u03a9.",
+                                    "answer_c": "4840 \u03a9.",
+                                    "answer_d": "2420 \u03a9.",
                                     "picture_question": "AD110_q"
                                 },
                                 {
                                     "number": "AD109",
                                     "class": "3",
-                                    "question": "Within what range does the input resistance of the following circuit lie if $R$ can take any value from 0 ohms to 1 k\u03a9?",
-                                    "answer_a": "267 to 292 ohms",
-                                    "answer_b": "300 to 500 ohms",
-                                    "answer_c": "292 to 367 ohms",
-                                    "answer_d": "300 to 367 ohms",
+                                    "question": "Within what range does the input resistance of the following circuit lie if $R$ can take any value from 0 \u03a9 to 1 k\u03a9?",
+                                    "answer_a": "267 to 292 \u03a9",
+                                    "answer_b": "300 to 500 \u03a9",
+                                    "answer_c": "292 to 367 \u03a9",
+                                    "answer_d": "300 to 367 \u03a9",
                                     "picture_question": "AD109_q"
                                 },
                                 {
@@ -3449,20 +3449,20 @@
                                 {
                                     "number": "AD105",
                                     "class": "3",
-                                    "question": "Calculate the magnitude of the impedance $Z$ of a series circuit of $R$ = 100 ohms and $L$ = 100 \u03bcH at 1 MHz.",
-                                    "answer_a": "$|Z|$ = 636 ohms",
-                                    "answer_b": "$|Z|$ = 628 ohms",
-                                    "answer_c": "$|Z|$ = 188 ohms",
-                                    "answer_d": "$|Z|$ = 259 ohms"
+                                    "question": "Calculate the magnitude of the impedance $Z$ of a series circuit of $R$ = 100 \u03a9 and $L$ = 100 \u03bcH at 1 MHz.",
+                                    "answer_a": "$|Z|$ = 636 \u03a9",
+                                    "answer_b": "$|Z|$ = 628 \u03a9",
+                                    "answer_c": "$|Z|$ = 188 \u03a9",
+                                    "answer_d": "$|Z|$ = 259 \u03a9"
                                 },
                                 {
                                     "number": "AD104",
                                     "class": "3",
-                                    "question": "Calculate the magnitude of the impedance $Z$ of a series circuit of $R$ = 100 ohms and $C$ = 1 nF at 1 MHz.",
-                                    "answer_a": "$|Z|$ = 188 ohms",
-                                    "answer_b": "$|Z|$ = 159 ohms",
-                                    "answer_c": "$|Z|$ = 636 ohms",
-                                    "answer_d": "$|Z|$ = 259 ohms"
+                                    "question": "Calculate the magnitude of the impedance $Z$ of a series circuit of $R$ = 100 \u03a9 and $C$ = 1 nF at 1 MHz.",
+                                    "answer_a": "$|Z|$ = 188 \u03a9",
+                                    "answer_b": "$|Z|$ = 159 \u03a9",
+                                    "answer_c": "$|Z|$ = 636 \u03a9",
+                                    "answer_d": "$|Z|$ = 259 \u03a9"
                                 },
                                 {
                                     "number": "AD103",
@@ -6781,7 +6781,7 @@
                                 {
                                     "number": "AF105",
                                     "class": "3",
-                                    "question": "Because of \"fading\", the S-meter reading drops from S9 to S8. To what value does the receiver input voltage drop if 50 \u03bcV is present at the receiver input at S9? The receiver input voltage drops to",
+                                    "question": "Because of \"fading\", the S meter reading drops from S9 to S8. To what value does the receiver input voltage drop if 50 \u03bcV is present at the receiver input at S9? The receiver input voltage drops to",
                                     "answer_a": "25 \u03bcV",
                                     "answer_b": "37 \u03bcV",
                                     "answer_c": "40 \u03bcV",
@@ -6808,7 +6808,7 @@
                                 {
                                     "number": "AF102",
                                     "class": "3",
-                                    "question": "By how many S units should the S-meter reading of your receiver rise if the other station increases the transmit power from 100 W to 400 W?",
+                                    "question": "By how many S units should the S meter reading of your receiver rise if the other station increases the transmit power from 100 W to 400 W?",
                                     "answer_a": "By one S unit",
                                     "answer_b": "By two S units",
                                     "answer_c": "By four S units",
@@ -6817,7 +6817,7 @@
                                 {
                                     "number": "AF101",
                                     "class": "3",
-                                    "question": "By how many S units should the S-meter reading of your receiver rise if the other station increases the transmit power from 25 W to 100 W?",
+                                    "question": "By how many S units should the S meter reading of your receiver rise if the other station increases the transmit power from 25 W to 100 W?",
                                     "answer_a": "By one S unit",
                                     "answer_b": "By two S units",
                                     "answer_c": "By four S units",
@@ -9043,7 +9043,7 @@
                                 {
                                     "number": "NG101",
                                     "class": "1",
-                                    "question": "Which component does this circuit symbol represent?",
+                                    "question": "Which component does the circuit symbol represent?",
                                     "answer_a": "Antenna",
                                     "answer_b": "Earth",
                                     "answer_c": "Diode",
@@ -10376,7 +10376,7 @@
                                     "answer_a": "the product of the power supplied directly to the antenna and its gain (as a power ratio) in a given direction, relative to the half-wave dipole.",
                                     "answer_b": "the product of the power supplied directly to the antenna and its gain (as a power ratio) in a given direction, relative to the isotropic radiator.",
                                     "answer_c": "the average power supplied to the antenna feeder by a transmitter under normal operating conditions during one cycle of the RF oscillation at the highest crest of the modulation envelope.",
-                                    "answer_d": "the average power supplied by a transmitter to the antenna feeder under normal operating conditions during an interval of time that is sufficiently long compared with the period of the lowest modulating frequency."
+                                    "answer_d": "the average power supplied to the antenna feeder by a transmitter under normal operating conditions during an interval of time that is sufficiently long compared with the period of the lowest modulating frequency."
                                 },
                                 {
                                     "number": "EG511",
@@ -11521,7 +11521,7 @@
                                     "answer_a": "by measuring $L$ and $C$ and calculating it, or, for example, with a vector network analyser (VNA).",
                                     "answer_b": "with a frequency meter or an oscilloscope.",
                                     "answer_c": "with a digital multimeter set to frequency measurement.",
-                                    "answer_d": "from the S-meter reading with the tuned circuit connected to the receiver input."
+                                    "answer_d": "from the S meter reading with the tuned circuit connected to the receiver input."
                                 },
                                 {
                                     "number": "EI201",
@@ -12753,7 +12753,7 @@
                                     "class": "2",
                                     "question": "What does too high a microphone gain on an SSB transceiver usually cause?",
                                     "answer_a": "Interference to stations operating on closely adjacent frequencies",
-                                    "answer_b": "Interference to stations operating on another frequency band",
+                                    "answer_b": "Interference to stations operating on a different frequency band",
                                     "answer_c": "Interference to the power supply of the transceiver",
                                     "answer_d": "Interference to other electronic equipment"
                                 },

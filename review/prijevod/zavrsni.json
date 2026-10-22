@@ -1,0 +1,193 @@
+{
+  "pitanja": {
+    "AA114": {
+      "question": "By how much has the receiver input voltage fallen if the S meter reading drops from S9+20 dB to S8 because of a change in propagation conditions? The receiver input voltage falls by ..."
+    },
+    "AB101": {
+      "answer_a": "1.02 Ω",
+      "answer_b": "56.0 Ω",
+      "answer_c": "0.26 Ω",
+      "answer_d": "0.16 Ω"
+    },
+    "AB102": {
+      "question": "You measure a resistance of 1.5 Ω between the ends of a copper wire with a cross-sectional area of 0.5 mm². Approximately how long is the wire?"
+    },
+    "AB205": {
+      "answer_a": "0.05 Ω",
+      "answer_b": "8.2 Ω",
+      "answer_c": "0.17 Ω",
+      "answer_d": "0.25 Ω",
+      "question": "The open-circuit voltage of a voltage source is 5.0 V. If a load resistor of 1.2 Ω is connected, the terminal voltage of the voltage source drops to 4.8 V. What is the internal resistance of the voltage source?"
+    },
+    "AB206": {
+      "answer_a": "1.22 Ω",
+      "answer_b": "0.82 Ω",
+      "answer_c": "0.99 Ω",
+      "answer_d": "15.0 Ω"
+    },
+    "AB207": {
+      "answer_a": "0.25 Ω",
+      "answer_b": "6.75 Ω",
+      "answer_c": "4 Ω",
+      "answer_d": "1 Ω"
+    },
+    "AB208": {
+      "answer_c": "0.2 Ω",
+      "answer_d": "0.1 Ω"
+    },
+    "AB301": {
+      "question": "A sinusoidal alternating current with an amplitude $I_{\\textrm{max}}$ of 0.5 A flows through a resistor of 20 Ω. How much power is converted into heat?"
+    },
+    "AC106": {
+      "answer_a": "Approx. 15.9 Ω",
+      "answer_b": "Approx. 159 Ω",
+      "answer_c": "Approx. 31.8 Ω",
+      "answer_d": "Approx. 3.2 Ω"
+    },
+    "AC305": {
+      "question": "To match an antenna with a feed-point impedance of 450 Ω to a 50 Ω transmission line, you should use a transformer with a turns ratio of ..."
+    },
+    "AC306": {
+      "question": "A transformer is used to match a 50 Ω transmission line to an end-fed half-wave antenna with a feed-point impedance of 2.5 kΩ. It should have a turns ratio of approximately ..."
+    },
+    "AC522": {
+      "answer_a": "Approx. 680 Ω",
+      "answer_b": "Approx. 1405 Ω",
+      "answer_c": "Approx. 68 Ω",
+      "answer_d": "Approx. 820 Ω"
+    },
+    "AC604": {
+      "answer_a": "The input and output impedances correspond to common line impedances (e.g. 50 Ω)."
+    },
+    "AD104": {
+      "answer_a": "$|Z|$ = 188 Ω",
+      "answer_b": "$|Z|$ = 159 Ω",
+      "answer_c": "$|Z|$ = 636 Ω",
+      "answer_d": "$|Z|$ = 259 Ω",
+      "question": "Calculate the magnitude of the impedance $Z$ of a series circuit of $R$ = 100 Ω and $C$ = 1 nF at 1 MHz."
+    },
+    "AD105": {
+      "answer_a": "$|Z|$ = 636 Ω",
+      "answer_b": "$|Z|$ = 628 Ω",
+      "answer_c": "$|Z|$ = 188 Ω",
+      "answer_d": "$|Z|$ = 259 Ω",
+      "question": "Calculate the magnitude of the impedance $Z$ of a series circuit of $R$ = 100 Ω and $L$ = 100 μH at 1 MHz."
+    },
+    "AD109": {
+      "answer_a": "267 to 292 Ω",
+      "answer_b": "300 to 500 Ω",
+      "answer_c": "292 to 367 Ω",
+      "answer_d": "300 to 367 Ω",
+      "question": "Within what range does the input resistance of the following circuit lie if $R$ can take any value from 0 Ω to 1 kΩ?"
+    },
+    "AD110": {
+      "answer_a": "1210 Ω.",
+      "answer_b": "1540 Ω.",
+      "answer_c": "4840 Ω.",
+      "answer_d": "2420 Ω.",
+      "question": "If $\\textrm{R}_1$ and $\\textrm{R}_3$ are each 2.2 kΩ and $\\textrm{R}_2$ and $\\textrm{R}_4$ are each 220 Ω, the total resistance of the circuit between points a and b is ..."
+    },
+    "AD112": {
+      "question": "The voltage across the bridge circuit is 10 V. All the resistors have a value of 50 Ω. What is the voltage between A and B in the bridge diagonal (measured from A to B)?"
+    },
+    "AF101": {
+      "question": "By how many S units should the S meter reading of your receiver rise if the other station increases the transmit power from 25 W to 100 W?"
+    },
+    "AF102": {
+      "question": "By how many S units should the S meter reading of your receiver rise if the other station increases the transmit power from 100 W to 400 W?"
+    },
+    "AF105": {
+      "question": "Because of \"fading\", the S meter reading drops from S9 to S8. To what value does the receiver input voltage drop if 50 μV is present at the receiver input at S9? The receiver input voltage drops to"
+    },
+    "AG501": {
+      "answer_d": "the average power supplied to the antenna feeder by a transmitter under normal operating conditions during an interval of time that is sufficiently long compared with the period of the lowest modulating frequency."
+    },
+    "EB501": {
+      "answer_c": "the average power supplied to the antenna feeder by a transmitter under normal operating conditions during an interval of time that is sufficiently long compared with the period of the lowest modulating frequency.",
+      "answer_d": "the product of the power supplied directly to the antenna and its gain (as a power ratio) in a given direction, relative to the half-wave dipole."
+    },
+    "EB502": {
+      "answer_a": "the average power supplied to the antenna feeder by a transmitter under normal operating conditions during an interval of time that is sufficiently long compared with the period of the lowest modulating frequency.",
+      "answer_c": "the average power supplied to the antenna feeder by a transmitter under normal operating conditions during one cycle of the RF oscillation at the highest crest of the modulation envelope.",
+      "answer_d": "the product of the power supplied directly to the antenna and its gain (as a power ratio) in a given direction, relative to the half-wave dipole."
+    },
+    "EB507": {
+      "question": "The RMS voltage across a 50 Ω dummy load is measured as 100 V. The power in the load is ..."
+    },
+    "EB508": {
+      "question": "How much power is dissipated in a 50 Ω dummy load when an RMS current of 2 A flows?"
+    },
+    "EB509": {
+      "question": "What is the minimum power for which a 100 Ω resistor must be rated if 10 V is to be dropped across it?"
+    },
+    "EB512": {
+      "question": "A resistor of 120 Ω has a power rating of 23.0 W. What is the maximum current that may flow through the resistor without overloading it?"
+    },
+    "EB513": {
+      "question": "An oscilloscope shows a sinusoidal peak-to-peak value of 25 V across a 1000 Ω resistor. The RMS current through the resistor is ..."
+    },
+    "EB514": {
+      "question": "A 50 Ω dummy load consists of 11 carbon-film resistors of 560 Ω connected in parallel, each with a power rating of 5 W. What is the resulting power rating of the dummy load?"
+    },
+    "EC105": {
+      "answer_a": "Ten 500 Ω carbon-film resistors",
+      "answer_b": "A 50 Ω wirewound resistor",
+      "answer_c": "Two 100 Ω wirewound resistors connected in parallel",
+      "answer_d": "A 50 Ω wirewound resistor connected in parallel with a 50 nF ceramic capacitor"
+    },
+    "EC106": {
+      "answer_a": "Ten 500 Ω carbon-film resistors without a spiral cut, connected in parallel",
+      "answer_b": "A single 50 Ω wirewound resistor",
+      "answer_c": "Two 100 Ω wirewound resistors connected in parallel",
+      "answer_d": "Two spiral-cut 25 Ω carbon-film resistors connected in series"
+    },
+    "EC113": {
+      "answer_a": "5040 and 6160 Ω.",
+      "answer_b": "4760 and 6440 Ω.",
+      "answer_c": "4760 and 6840 Ω.",
+      "answer_d": "5240 and 6360 Ω."
+    },
+    "EC116": {
+      "answer_a": "220 Ω",
+      "answer_b": "221 Ω",
+      "answer_c": "22.0 Ω",
+      "answer_d": "22.1 Ω"
+    },
+    "EC304": {
+      "answer_c": "Yes, as long as the reactance is 0 Ω."
+    },
+    "EC515": {
+      "answer_a": "180 Ω.",
+      "answer_b": "250 Ω.",
+      "answer_c": "70 Ω.",
+      "answer_d": "320 Ω."
+    },
+    "EC516": {
+      "answer_a": "150 Ω/0.1 W",
+      "answer_b": "150 Ω/0.06 W",
+      "answer_c": "70 Ω/0.1 W",
+      "answer_d": "70 Ω/0.06 W"
+    },
+    "EC522": {
+      "answer_a": "approx. 202 Ω.",
+      "answer_b": "approx. 364 Ω.",
+      "answer_c": "approx. 188 Ω.",
+      "answer_d": "approx. 235 Ω."
+    },
+    "EI202": {
+      "answer_d": "from the S meter reading with the tuned circuit connected to the receiver input."
+    },
+    "EJ215": {
+      "answer_b": "Interference to stations operating on a different frequency band"
+    },
+    "NB505": {
+      "answer_a": "40.000 Ω",
+      "answer_b": "3.600 Ω",
+      "answer_c": "0.025 Ω",
+      "answer_d": "0.200 Ω"
+    },
+    "NG101": {
+      "question": "Which component does the circuit symbol represent?"
+    }
+  }
+}

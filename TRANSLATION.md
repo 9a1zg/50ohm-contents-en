@@ -73,3 +73,12 @@ on GitHub for DARC to take over.
 
 Tracked per batch in `review/prijevod/` (one batch file and one report per
 batch) and summarised here as the work goes.
+
+- **Exam questions: done (2026-10-22).** All 1750 questions of
+  `contents/questions/fragenkatalog3b.json` in 10 batches
+  (`pitanja_01`–`pitanja_10`), each translated and then checked by a second
+  pass, followed by a final consistency pass over the whole bank
+  (`review/prijevod/zavrsni.md`): units after a number as symbols, late
+  glossary terms, identical German with identical English.
+- Next: the course text (sections, slides, solutions), then picture
+  descriptions and the static pages.
