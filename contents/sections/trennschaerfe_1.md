@@ -1,5 +1,5 @@
-Die *Trennschärfe* eines Empfängers beschreibt dessen Vermögen das gewünschte Signal zu empfangen und naheliegende, unerwünschte Signale, zu unterdrücken.
+The *selectivity* of a receiver describes its ability to receive the wanted signal and to suppress unwanted signals close to it.
 
-Voraussetzung für eine hohe Trennschärfe eines Empfängers ist eine geringe Bandbreite, die idealerweise nur so breit ist wie die Bandbreite des zu empfangenden Signals.
+A precondition for high selectivity in a receiver is a narrow bandwidth, ideally only as wide as the bandwidth of the signal to be received.
 
 [question:EF210]

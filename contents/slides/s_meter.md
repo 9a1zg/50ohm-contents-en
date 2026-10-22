@@ -1,75 +1,75 @@
 <left>
-[photo:123:a_s_meter_balken:S-Meter als Balkenanzeigen im Display eines Funkgeräts]
-[picture:420:a_s_meter_nadel:S-Meter als analoges Messinstrument]
+[photo:123:a_s_meter_balken:S meter as a bar graph on the display of a radio]
+[picture:420:a_s_meter_nadel:S meter as an analogue meter]
 </left>
 <right>
-* Anzeige der Empfangsstärke des anliegenden HF-Signals
-* 9 S-Stufen und nachfolgender Bereich mit $\qty{+}{\dB}$
-* Bis S9: Eine S-Stufe entspricht $\qty{6}{\dB}$
-* $\qty{6}{\dB}$: $2\cdot U$ oder $4\cdot P$
+* Shows the received strength of the RF signal present
+* 9 S units, followed by a range in $\qty{+}{\dB}$
+* Up to S9: one S unit corresponds to $\qty{6}{\dB}$
+* $\qty{6}{\dB}$: $2\cdot U$ or $4\cdot P$
 </right>
 
 ---
 [question:AA113]
 ---
-#### Lösungsweg
+#### Solution
 
-* von S4 bis S7 sind 3-Stufen
+* from S4 to S7 is 3 S units
 * $3\cdot \qty{6}{\dB} = \qty{18}{\dB}$
 
 ---
 [question:AF104]
 ---
-#### Lösungsweg
+#### Solution
 
-* von S7 auf S9$\qty{+8}{\dB}$ sind $\qty{6}{\dB} + \qty{6}{\dB} + \qty{8}{\dB} = \qty{20}{\dB}$
-* $\qty{20}{\dB}$ entsprechen der $\num{100}$-fachen Leistung
+* from S7 to S9$\qty{+8}{\dB}$ is $\qty{6}{\dB} + \qty{6}{\dB} + \qty{8}{\dB} = \qty{20}{\dB}$
+* $\qty{20}{\dB}$ corresponds to $\num{100}$ times the power
 
 ---
 [question:AF101]
 ---
-#### Lösungsweg
+#### Solution
 
-* von $\qty{25}{\watt}$ auf $\qty{100}{\watt}$ sind $\frac{\qty{100}{\watt}}{\qty{25}{\watt}} = 4$-fache Leistung
-* $\num{4}$-fache Leistung entspricht einer S-Stufe
+* from $\qty{25}{\watt}$ to $\qty{100}{\watt}$ is $\frac{\qty{100}{\watt}}{\qty{25}{\watt}} = 4$ times the power
+* $\num{4}$ times the power corresponds to one S unit
 
 ---
 [question:AF102]
 ---
-### Lösungsweg
+### Solution
 
-* von $\qty{100}{\watt}$ auf $\qty{400}{\watt}$ sind $\frac{\qty{400}{\watt}}{\qty{100}{\watt}} = 4$-fache Leistung
-* $\num{4}$-fache Leistung entspricht einer S-Stufe
+* from $\qty{100}{\watt}$ to $\qty{400}{\watt}$ is $\frac{\qty{400}{\watt}}{\qty{100}{\watt}} = 4$ times the power
+* $\num{4}$ times the power corresponds to one S unit
 
 ---
 [question:AF103]
 ---
-#### Lösungsweg
+#### Solution
 
-* von $\qty{10}{\watt}$ auf $\qty{100}{\watt}$ sind $\frac{\qty{100}{\watt}}{\qty{10}{\watt}} = 10$-fache Leistung
-* $\num{10}$-fache Leistung entspricht $\qty{10}{\dB}$
-* von S8 auf S9 sind $\qty{6}{\dB}$
-* die restlichen $\qty{4}{\dB}$ kommen als $\qty{+4}{\dB}$ oben drauf
+* from $\qty{10}{\watt}$ to $\qty{100}{\watt}$ is $\frac{\qty{100}{\watt}}{\qty{10}{\watt}} = 10$ times the power
+* $\num{10}$ times the power corresponds to $\qty{10}{\dB}$
+* from S8 to S9 is $\qty{6}{\dB}$
+* the remaining $\qty{4}{\dB}$ are added on top as $\qty{+4}{\dB}$
 
 ---
 [question:AA114]
 ---
-#### Lösungsweg
+#### Solution
 
-* von S9$\qty{+20}{\dB}$ auf S8 sind $\qty{26}{\dB}$
+* from S9$\qty{+20}{\dB}$ to S8 is $\qty{26}{\dB}$
 
 ---
-### Spannung am Eingang
+### Voltage at the input
 
-* Kurzwelle bis $\qty{30}{\mega\hertz}$: S9 $\rightarrow\qty{50}{\micro\volt}$ an $\qty{50}{\ohm}$
-* VHF bei $\qty{144}{\mega\hertz}$: S9 $\rightarrow\qty{5}{\micro\volt}$ an $\qty{50}{\ohm}$
+* HF up to $\qty{30}{\mega\hertz}$: S9 $\rightarrow\qty{50}{\micro\volt}$ across $\qty{50}{\ohm}$
+* VHF at $\qty{144}{\mega\hertz}$: S9 $\rightarrow\qty{5}{\micro\volt}$ across $\qty{50}{\ohm}$
 
 ---
 [question:AF105]
 ---
-#### Lösungsweg
+#### Solution
 
-* von S9 auf S8 sind $\qty{6}{\dB}$
-* Das ist die halbe Spannung
+* from S9 to S8 is $\qty{6}{\dB}$
+* That is half the voltage
 * $\frac{\qty{50}{\micro\volt}}{2} = \qty{25}{\micro\volt}$
 

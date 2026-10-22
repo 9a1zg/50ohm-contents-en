@@ -1,61 +1,61 @@
 <left>
-* Einer der ersten und einfachsten Empfänger für AM
-* Energie wird direkt aus dem empfangenen Signal gezogen
-* Nur im Lokalbereich von starken Rundfunksendern nutzbar
+* One of the first and simplest receivers for AM
+* Energy is drawn directly from the received signal
+* Usable only in the local area of strong broadcast stations
 </left>
 <right>
-[photo:193:am_detektor:Detektorempfänger]
+[photo:193:am_detektor:Crystal set]
 </right>
 
 ---
 
 <left>
-[picture:799:am_detektor:Schaltbild eines einfachen Detektorempfängers]
-* Parallelschwingkreis aus Spule und variablen Kondensator
+[picture:799:am_detektor:Circuit diagram of a simple crystal set]
+* Parallel tuned circuit of an inductor and a variable capacitor
 </left>
 <right>
-[picture:800:am_detektor_antenne:Signal an der Antenne]
-[picture:801:am_detektor_diode:Gleichgerichtetes Signal an der Diode]
-[picture:802:am_detektor_kopfhoerer:Hörbares NF Signal]
+[picture:800:am_detektor_antenne:Signal at the antenna]
+[picture:801:am_detektor_diode:Rectified signal at the diode]
+[picture:802:am_detektor_kopfhoerer:Audible AF signal]
 </right>
 
 --- data-transition="none"
 
 <left>
-[picture:799:am_detektor:Schaltbild eines einfachen Detektorempfängers]
-* Signal von Antenne (rot) regt Schwingkreis an, wenn dieser auf die Frequenz abgestimmt ist
+[picture:799:am_detektor:Circuit diagram of a simple crystal set]
+* Signal from the antenna (red) sets the tuned circuit oscillating if it is tuned to the frequency
 </left>
 <right>
-[picture:800:am_detektor_antenne:Signal an der Antenne]
-[picture:801:am_detektor_diode:Gleichgerichtetes Signal an der Diode]
-[picture:802:am_detektor_kopfhoerer:Hörbares NF Signal]
+[picture:800:am_detektor_antenne:Signal at the antenna]
+[picture:801:am_detektor_diode:Rectified signal at the diode]
+[picture:802:am_detektor_kopfhoerer:Audible AF signal]
 </right>
 
 --- data-transition="none"
 
 <left>
-[picture:799:am_detektor:Schaltbild eines einfachen Detektorempfängers]
-* Diode (blau) richtet die AM-Modulation gleich
+[picture:799:am_detektor:Circuit diagram of a simple crystal set]
+* Diode (blue) rectifies the AM modulation
 </left>
 <right>
-[picture:800:am_detektor_antenne:Signal an der Antenne]
-[picture:801:am_detektor_diode:Gleichgerichtetes Signal an der Diode]
-[picture:802:am_detektor_kopfhoerer:Hörbares NF Signal]
+[picture:800:am_detektor_antenne:Signal at the antenna]
+[picture:801:am_detektor_diode:Rectified signal at the diode]
+[picture:802:am_detektor_kopfhoerer:Audible AF signal]
 </right>
 
 --- data-transition="none"
 
 <left>
-[picture:799:am_detektor:Schaltbild eines einfachen Detektorempfängers]
-* Hochohmiger Kopfhörer (grün) macht das Signal hörbar, da der Kopfhörer träge ist und den einzelnen Stromstößen nicht folgen kann
+[picture:799:am_detektor:Circuit diagram of a simple crystal set]
+* High-impedance headphones (green) make the signal audible, because the headphones are sluggish and cannot follow the individual current pulses
 </left>
 <right>
-[picture:800:am_detektor_antenne:Signal an der Antenne]
-[picture:801:am_detektor_diode:Gleichgerichtetes Signal an der Diode]
-[picture:802:am_detektor_kopfhoerer:Hörbares NF Signal]
+[picture:800:am_detektor_antenne:Signal at the antenna]
+[picture:801:am_detektor_diode:Rectified signal at the diode]
+[picture:802:am_detektor_kopfhoerer:Audible AF signal]
 </right>
 <note>
-* Kopfhörer wirkt wie ein Tiefpass und stellt die Hüllkurve wieder her
+* The headphones act like a low-pass filter and restore the envelope
 </note>
 
 ---

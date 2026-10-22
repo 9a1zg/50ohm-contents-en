@@ -1,15 +1,15 @@
-Dämpfungsglieder werden in der HF-Technik oft benötigt, um Signalpegel definiert abzuschwächen. Hierbei kann z.B. durch ein Leistungsdämpfungsglied die Ausgangsleistung eines Senders soweit reduziert werden, dass dessen Ausgangssignal die angeschlossenen Messgeräte nicht beschädigt oder übersteuert. Man verwendet Dämpfungsglieder auch um Eingangspegel für Verstärker und Empfänger auf ein definiertes Maß zu reduzieren.
+Attenuators are often needed in RF engineering to reduce signal levels by a defined amount. A power attenuator, for example, can reduce the output power of a transmitter far enough that its output signal does not damage or overload the measuring instruments connected to it. Attenuators are also used to reduce input levels for amplifiers and receivers to a defined level.
 
-Ein Dämpfungsglied muss hierbei immer für eine definierte Systemimpedanz bzgl. Ein- und Ausgang ausgelegt werden. Bei symmetrisch aufgebauten Dämpfungsgliedern sind die Ein- und Ausgangsimpedanzen identisch. Oft sind dies die in der HF-Technik üblichen $\qty{50}{\ohm}$. Damit ein Dämpfungsglied die geforderten Impedanzen an dessen Ein- und Ausgang zeigt ist ein impedanzrichtiger Abschluss auf beiden Seiten erforderlich. Dies wird durch ein geeignetes Widerstandsnetzwerk erreicht. 
+An attenuator must always be designed for a defined system impedance at its input and output. In symmetrical attenuators, the input and output impedances are identical. Often this is the $\qty{50}{\ohm}$ usual in RF engineering. For an attenuator to present the required impedances at its input and output, a termination with the correct impedance is needed on both sides. This is achieved by a suitable resistor network. 
 
-Es gibt hierbei verschiedene Schaltungsvarianten, die sich in der Anordnung der Widerstände unterscheiden. Die beiden gängigsten Varianten sind das T- (vgl. Abbildung [ref:a_daempfungsglied_t]) und das $\pi$-Dämpfungsglied (vgl. Abbildung [ref:a_daempfungsglied_pi]). Bei beiden Varianten wird die Dämpfung durch ein Widerstandsnetzwerk erreicht, welches die eingespeiste Leistung in Wärme umwandelt.
+There are various circuit variants, which differ in the arrangement of the resistors. The two commonest are the T attenuator (see Figure [ref:a_daempfungsglied_t]) and the $\pi$ attenuator (see Figure [ref:a_daempfungsglied_pi]). In both variants the attenuation is achieved by a resistor network that converts the power fed in into heat.
 
 <margin>
-[picture:342:a_daempfungsglied_pi:Dämpfungsglied in PI-Konfiguration mit Quelle und Lastwiderstand]
+[picture:342:a_daempfungsglied_pi:Attenuator in pi configuration with source and load resistor]
 </margin>
 
 <margin>
-[picture:341:a_daempfungsglied_t:Dämpfungsglied in T-Konfiguration mit Quelle und Lastwiderstand]
+[picture:341:a_daempfungsglied_t:Attenuator in T configuration with source and load resistor]
 </margin>
 
 [question:AD801]
@@ -17,27 +17,27 @@ Es gibt hierbei verschiedene Schaltungsvarianten, die sich in der Anordnung der 
 
 ---
 
-Die Dämpfung eines Dämpfungsglieds wird üblicherweise in dB (Dezibel) angegeben und bezieht sich auf die Leistung. So bedeutet z. B. $\qty{20}{\dB}$ eine Dämpfung der Eingangsleistung um den Faktor $\num{100}$. Die Ausgangsleistung nach diesem Dämpfungsglied beträgt somit nur noch $\frac{1}{100}$ der Eingangsleistung was im Falle von $\qty{100}{\watt}$ Eingangsleistung einer Ausgangsleistung von $\qty{1}{\watt}$ entspricht.
+The attenuation of an attenuator is usually given in dB (decibels) and refers to the power. For example, $\qty{20}{\dB}$ means attenuating the input power by a factor of $\num{100}$. The output power after this attenuator is then only $\frac{1}{100}$ of the input power, which, with an input power of $\qty{100}{\watt}$, corresponds to an output power of $\qty{1}{\watt}$.
 
-Bei ohmschen Dämpfungsgliedern erfolgt die Dämpfung durch Umwandlung der eingespeisten Leistung in Wärme. Wird z.B. ein $\qty{100}{\watt}$-Signal wie vorher beschrieben um $\qty{20}{\dB}$ gedämpft so werden $\qty{99}{\watt}$ im Dämpfungsglied in Wärme umgesetzt. Die verbleibende Leistung von $\qty{1}{\watt}$ steht dann noch am Ausgang des Dämpfungsglieds zur Verfügung.
+In resistive attenuators, the attenuation takes place by converting the power fed in into heat. If, for example, a $\qty{100}{\watt}$ signal is attenuated by $\qty{20}{\dB}$ as described above, $\qty{99}{\watt}$ is converted into heat in the attenuator. The remaining power of $\qty{1}{\watt}$ is then still available at the output of the attenuator.
 
 [question:AD806]
 [question:AD803]
 [question:AD804]
 [question:AD805]
 
-Ein symmetrisches Dämpfungsglied kann z.B. als T oder $\pi$-Netzwerk aus Widerständen aufgebaut werden. Die Namensgebung resultiert hierbei aus dem Erscheinungsbild der Widerstandsanordnung in der Schaltung.
+A symmetrical attenuator can be built, for example, as a T or $\pi$ network of resistors. The names come from how the arrangement of the resistors looks in the circuit.
 
 <indepth>
-Die Widerstandswerte für ein $\pi$-Dämpfungsglied für eine Impedanz von $\qty{50}{\ohm}$ können mit den folgenden Formeln berechnet werden:
+The resistor values for a $\pi$ attenuator for an impedance of $\qty{50}{\ohm}$ can be calculated with the following formulas:
 
 $R_1 = R_3 = \qty{50}{\ohm} \cdot \left( \frac{10^{\frac{a}{20}}+1}{10^{\frac{a}{20}}-1}\right)$
 
-Dabei ist $a$ die gewünschte Dämpfung in $\unit{\dB}$.
+Here $a$ is the required attenuation in $\unit{\dB}$.
 
 $R_2 = \frac{\qty{50}{\ohm}}{2} \cdot \left( 10^{\frac{a}{20}} - \frac{1}{10^{\frac{a}{20}}}\right)$
 
-Die Widerstandswerte für ein T-Dämpfungsglied für eine Impedanz von $\qty{50}{\ohm}$ können mit den folgenden Formeln berechnet werden:
+The resistor values for a T attenuator for an impedance of $\qty{50}{\ohm}$ can be calculated with the following formulas:
 
 $R_1 = R_2 = \qty{50}{\ohm} \cdot \left( \frac{10^{\frac{a}{20}}-1}{10^{\frac{a}{20}}+1} \right)$
 

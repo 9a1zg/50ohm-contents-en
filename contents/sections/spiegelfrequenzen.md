@@ -1,34 +1,34 @@
-Konzeptbedingt entstehen bei einem Überlagerungsempfänger durch den hierbei stattfindenden Mischprozess (vgl. Abbildung [ref:spiegelfrequenzen_mischen1]) mit der Oszillatorfrequenz des Empfängers immer zwei mögliche Empfangsfrequenzen:
+By the very nature of the concept, the mixing process that takes place in a superhet (see Figure [ref:spiegelfrequenzen_mischen1]) with the receiver's oscillator frequency always gives two possible receive frequencies:
 
 $f_\text{ZF} = \left|f_\text{e} \pm f_\text{o}\right|$
 
-Da wir im Überlagerungsempfänger auf eine niedrigere Zwischenfrequenz heruntermischen wollen, ist hier insbesondere die Differenzfrequenz interessant:
+Since in the superhet we want to mix down to a lower intermediate frequency, the difference frequency is of particular interest here:
 
 $f_\text{ZF} = \left|f_\text{e} - f_\text{o}\right|$
 
-Der Betrag ist dabei entscheidend: Für eine feste Oszillatorfrequenz $f_\text{o}$ und Zwischenfrequenz $f_\text{ZF}$ gibt es zwei mögliche Empfangsfrequenzen, die beide dieselbe Zwischenfrequenz erzeugen. Eine davon ist die gewünschte Empfangsfrequenz, die andere wird als *Spiegelfrequenz* bezeichnet.
+The magnitude is what matters here: for a fixed oscillator frequency $f_\text{o}$ and intermediate frequency $f_\text{ZF}$ there are two possible receive frequencies, both of which produce the same intermediate frequency. One of them is the wanted receive frequency; the other is called the *image frequency*.
 
 <margin>
-[picture:807:spiegelfrequenzen_mischen1:Mischvorgang mit Empfangsfrequenz $f_\text{e}$, Oszillatorfrequenz $f_\text{o}$ und der Zwischenfrequenz $f_\text{ZF}$]
+[picture:807:spiegelfrequenzen_mischen1:Mixing with receive frequency $f_\text{e}$, oscillator frequency $f_\text{o}$ and the intermediate frequency $f_\text{ZF}$]
 </margin>
 
 ---
 
 <margin>
-[picture:806:spiegelfrequenzen_fe1_fe2:Empfangsfrequenzen, die beide zur selben $f_\text{ZF}$ führen]
+[picture:806:spiegelfrequenzen_fe1_fe2:Receive frequencies that both lead to the same $f_\text{ZF}$]
 </margin>
 
-Beispiel: Nehmen wir an, unser Oszillator schwingt, wie in Abbildung [ref:spiegelfrequenzen_fe1_fe2] gezeigt, auf der Frequenz $f_\text{o}=\qty{3,955}{\mega\hertz}$. Die Zwischenfrequenz $f_\text{ZF}$ soll $\qty{0,455}{\mega\hertz}$ betragen. Durch den Betrag in unserer Formel gibt es nun zwei Möglichkeiten, welche Empfangsfrequenzen man hören kann, nämlich $f_\text{e1} = \qty{3,500}{\mega\hertz}$ und $f_\text{e2} = \qty{4,410}{\mega\hertz}$. Für beide Werte ergibt die Formel die Zwischenfrequenz $f_\text{ZF}$.
+Example: let us assume that our oscillator oscillates, as shown in Figure [ref:spiegelfrequenzen_fe1_fe2], at the frequency $f_\text{o}=\qty{3.955}{\mega\hertz}$. The intermediate frequency $f_\text{ZF}$ is to be $\qty{0.455}{\mega\hertz}$. Because of the magnitude in our formula, there are now two possible receive frequencies that can be heard, namely $f_\text{e1} = \qty{3.500}{\mega\hertz}$ and $f_\text{e2} = \qty{4.410}{\mega\hertz}$. For both values the formula gives the intermediate frequency $f_\text{ZF}$.
 
-Wenn $f_\text{e1}$ die gewünschte Empfangsfrequenz ist, so wird $f_\text{e2}$ die Spiegelfrequenz von $f_\text{e1}$ genannt. Ist $f_\text{e2}$ die gewünschte Empfangsfrequenz, so wird $f_\text{e1}$ die Spiegelfrequenz von $f_\text{e2}$ genannt.
+If $f_\text{e1}$ is the wanted receive frequency, $f_\text{e2}$ is called the image frequency of $f_\text{e1}$. If $f_\text{e2}$ is the wanted receive frequency, $f_\text{e1}$ is called the image frequency of $f_\text{e2}$.
 
-Der Abstand zwischen gewünschter Empfangsfrequenz und Spiegelfrequenz beträgt hierbei immer das Doppelte der Zwischenfrequenz (ZF), wie man in der Abbildung [ref:spiegelfrequenzen_fe1_fe2] leicht sehen kann. 
+The spacing between the wanted receive frequency and the image frequency is always twice the intermediate frequency (IF), as can easily be seen in Figure [ref:spiegelfrequenzen_fe1_fe2]. 
 
-Schwingt der Oszillator *oberhalb* der Empfangsfrequenz ($f_\mathrm{E} < f_\mathrm{OSZ}$) so befindet sich auch die Spiegelfrequenz um das doppelte der ZF *oberhalb* der Empfangsfrequenz ($f_\mathrm{S} = f_\mathrm{E} + 2\cdot f_\mathrm{ZF}$).
+If the oscillator oscillates *above* the receive frequency ($f_\mathrm{E} < f_\mathrm{OSZ}$), the image frequency is also *above* the receive frequency, by twice the IF ($f_\mathrm{S} = f_\mathrm{E} + 2\cdot f_\mathrm{ZF}$).
 
-Befindet sich der Oszillator hingegen *unterhalb* der Empfangsfrequenz ($f_\mathrm{E} > f_\mathrm{OSZ}$) so befindet sich auch die Spiegelfrequenz um das doppelte der ZF *unterhalb* der Empfangsfrequenz ($f_\mathrm{S} = f_\mathrm{E} - 2\cdot f_\mathrm{ZF}$). Diesen Zusammenhang findet man auch in der Formelsammlung. 
+If, on the other hand, the oscillator is *below* the receive frequency ($f_\mathrm{E} > f_\mathrm{OSZ}$), the image frequency is also *below* the receive frequency, by twice the IF ($f_\mathrm{S} = f_\mathrm{E} - 2\cdot f_\mathrm{ZF}$). This relationship can also be found in the formula sheet. 
 
-Versuche nun mit diesem Wissen die folgenden Fragen zu lösen.
+Now try to answer the following questions with this knowledge.
 
 [question:AF106]
 [question:AF201]
@@ -39,16 +39,16 @@ Versuche nun mit diesem Wissen die folgenden Fragen zu lösen.
 
 ---
 <margin>
-[picture:808:spiegelfrequenzen_mischen2:Zusätzlicher Bandpassfilter zur Spiegelfrequenzunterdrückung]
+[picture:808:spiegelfrequenzen_mischen2:Additional band-pass filter for image rejection]
 </margin>
 
-Die Spiegelfrequenz kann bei unzureichender Unterdrückung zu Empfangsstörungen führen, da Signale auf der Spiegelfrequenz ebenfalls auf die gleiche Zwischenfrequenz umgesetzt werden und dadurch im Empfänger hörbar werden können. Um dies zu vermeiden, wird die gewünschte Empfangsfrequenz, wie in Abbildung [ref:spiegelfrequenzen_mischen2] gezeigt, bereits vor dem Mischer mit einem Bandpassfilter selektiert. Die Spiegelfrequenz soll dabei möglichst stark unterdrückt werden.
+If it is not sufficiently suppressed, the image frequency can cause interference to reception, since signals on the image frequency are also converted to the same intermediate frequency and can therefore become audible in the receiver. To avoid this, the wanted receive frequency is selected with a band-pass filter before the mixer, as shown in Figure [ref:spiegelfrequenzen_mischen2]. The image frequency is to be suppressed as strongly as possible.
 
-Für eine wirksame Spiegelfrequenzunterdrückung ist ein möglichst großer Abstand zwischen gewünschter Empfangsfrequenz und Spiegelfrequenz vorteilhaft. Dieser Abstand wird größer, wenn eine höhere Zwischenfrequenz gewählt wird.
+For effective image rejection, the largest possible spacing between the wanted receive frequency and the image frequency is an advantage. This spacing becomes larger if a higher intermediate frequency is chosen.
 
-Dies lässt sich auch anhand von Abbildung [ref:spiegelfrequenzen_fe1_fe2] erkennen: Mit zunehmender ZF liegen die beiden möglichen Empfangsfrequenzen $f_\text{e1}$ und $f_\text{e2}$ weiter auseinander.
+This can also be seen from Figure [ref:spiegelfrequenzen_fe1_fe2]: as the IF increases, the two possible receive frequencies $f_\text{e1}$ and $f_\text{e2}$ lie further apart.
 
-Je größer dieser Frequenzabstand ist, desto leichter kann der vorgeschaltete Bandpass die gewünschte Empfangsfrequenz passieren lassen und die Spiegelfrequenz gleichzeitig stark dämpfen. Bei einem sehr kleinen Abstand müsste das Filter dagegen wesentlich steilere Flanken beziehungsweise eine höhere Selektivität besitzen. Die Anforderungen an die Vorselektion des Empfängers wären dadurch deutlich höher.
+The larger this frequency spacing, the more easily the band-pass filter ahead of the mixer can let the wanted receive frequency pass and at the same time strongly attenuate the image frequency. With a very small spacing, on the other hand, the filter would need much steeper skirts or a higher selectivity. The demands on the receiver's preselection would then be considerably higher.
 
 [question:AF109]
 [question:AF110]

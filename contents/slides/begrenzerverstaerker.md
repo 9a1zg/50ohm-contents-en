@@ -1,10 +1,10 @@
-[picture:828:begrenzverstärker:Wirkungsweise eine Begrenzverstärkers]
+[picture:828:begrenzverstärker:How a limiting amplifier works]
 
-* Anwendung in der ZF bei FM
-* Eingangssignal wird verstärkt
-* Anschließend die Amplituden begrenzt
-* Information ist in der Frequenzänderung weiterhin vorhanden
-* Amplitudenschwankungen werden unterdrückt
+* Used in the IF for FM
+* The input signal is amplified
+* Then the amplitudes are limited
+* The information is still present in the change of frequency
+* Amplitude fluctuations are suppressed
 
 ---
 [question:AF226]

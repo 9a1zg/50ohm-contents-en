@@ -1,7 +1,7 @@
 <margin>
-[picture:828:begrenzverstärker:Wirkungsweise eine Begrenzverstärkers]
+[picture:828:begrenzverstärker:How a limiting amplifier works]
 </margin>
 
-Beim FM-Empfang ist nur die Änderung der Frequenz des Eingangssignals für die Demodulation von Belang. Daher versucht man Amplitudenschwankungen und Störimpulse beim Empfang von FM-Signalen so gut wie möglich zu unterdrücken. Dies kann mit Hilfe eines Begrenzerverstärkers im ZF-Teil eines FM-Empfängers, der das Eingangssignal zunächst stark verstärkt und danach die Amplituden mit einer geeigneten Schaltung begrenzt erfolgen. Durch die Begrenzung bleibt die Information der Frequenzänderung (FM) erhalten. Amplitudenänderungen werden hierdurch jedoch stark unterdrückt, da der Signalpegel auf ein definiertes Maximum begrenzt wird und somit nur minimale Amplitudenschwankungen des Eingangssignals nach dem Begrenzerverstärker noch vorhanden sind.
+In FM reception, only the change in the frequency of the input signal matters for demodulation. For this reason, amplitude fluctuations and interference pulses are suppressed as well as possible when FM signals are received. This can be done with a limiting amplifier in the IF section of an FM receiver, which first amplifies the input signal strongly and then limits the amplitudes with a suitable circuit. The limiting preserves the information in the change of frequency (FM). Amplitude changes, however, are strongly suppressed, because the signal level is limited to a defined maximum, so that only minimal amplitude fluctuations of the input signal remain after the limiting amplifier.
 
 [question:AF226]

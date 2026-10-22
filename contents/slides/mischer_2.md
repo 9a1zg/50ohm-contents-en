@@ -1,37 +1,37 @@
-## Steuerkennlinien
+## Transfer characteristics
 
 <left>
-[picture:804:mischer_linear_vs_nichtlinear:Linearer Widerstand und nichtlineare Diode]
-Steuerkennlinien können linear oder nicht-linear sein
+[picture:804:mischer_linear_vs_nichtlinear:Linear resistor and non-linear diode]
+Transfer characteristics can be linear or non-linear
 </left>
 <right>
-* Im linearen Bereich finden keine Verzerrungen statt
-* Mathematisches Verhalten wie bei Addition
+* In the linear region there is no distortion
+* Mathematically it behaves like an addition
 </right>
 
 ---
-* Im nichtlinearen Bereich bewirkt die Steuerkennlinie die Verzerrung von einem Eingangssignal zu unterschiedlichen Änderungen am Ausgangssignal
-* Mathematischen Verhalten wie bei einer Multiplikation
-* Deshalb findet im nichtlinearen Bereich immer ein Mischprozess statt
-* Mischprodukte erzeugen immer zusätzliche Frequenzen im Ausgangssignal
+* In the non-linear region, the transfer characteristic distorts an input signal, producing unequal changes in the output signal
+* Mathematically it behaves like a multiplication
+* That is why a mixing process always takes place in the non-linear region
+* Mixing products always produce additional frequencies in the output signal
 
 ---
 [question:AF212]
 --- style="font-size: smaller;"
-## Ringmischer
+## Ring mixer
 
 <left>
-[picture:805:mischer_ringmischer:Balancemischer, Ringmischer oder auch Ringmodulator]
+[picture:805:mischer_ringmischer:Balanced mixer, ring mixer or ring modulator]
 </left>
 <right>
-* Am Ausgang eines Mischers soll nur das Mischprodukt erscheinen
-* Unerwünschte Mischprodukte und die Eingangssignale sollen maximal unterdrückt werden
-* 4 Dioden in Ringschaltung
-* Oszillator an $U_2$ schaltet immer zwei Dioden aktiv
-* In dieser Zeit kann eine gleichförmige Welle von $U_1$ zum Ausgang gelangen
+* Only the mixing product should appear at the output of a mixer
+* Unwanted mixing products and the input signals should be suppressed as far as possible
+* 4 diodes in a ring circuit
+* The oscillator at $U_2$ always switches two diodes on
+* During this time, a uniform wave can pass from $U_1$ to the output
 </right>
 <note>
-Nicht mit der Brückenschaltung verwechseln! 
+Do not confuse it with the bridge circuit! 
 </note>
 
 --- style="font-size: smaller;"

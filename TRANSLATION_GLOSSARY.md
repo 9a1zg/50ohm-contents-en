@@ -2310,6 +2310,37 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | zus. Nutzungsbedingungen (Tabellenkopf, Anlage 1 AFuV) / Auszug | add. conditions of use / extract | bandbreite; as §14 *Nutzungsbestimmungen* |
 | Dynamic Compressor / NF-Dynamikkompressor / Sprachkompressor | dynamic compressor / AF compressor / speech compressor | AE210 "AF compressor"; *NF-Sprachprozessor* stays *audio speech processor* (dynamik_kompressor_1, dynamik_compressor_2) |
 | prägnant und durchdringend (Signal) | punchy and penetrating | dynamik_kompressor_1 |
+| Geradeausempfänger ("Der Name kommt daher, dass …") | tuned radio frequency (TRF) receiver (in German *Geradeausempfänger*, literally "straight-through receiver") | where the German explains its own name (the frequency is not changed before the demodulator), the German word is named once with a literal gloss, as *Schwingkreis* above; otherwise plain *TRF receiver*, as EF102 (aufbau_empfaenger) |
+| Selektivität (Trennschärfe) / Selektivität, also Trennschärfe / Nahselektion oder auch Trennschärfe | selectivity / close-in selectivity, or simply selectivity | German has two words for one English term; the bracket or *also* is dropped (bracket rule). *Nahselektion* → close-in selectivity, as AF111, AF115; where a slide lists *Selektivität* and *Trennschärfe* as two bullets, "better selectivity" / "sharper selectivity" (ueberlagerungsempfaenger_einfachsuper_1, _2) |
+| hochohmiger Kopfhörer / träge (Kopfhörer) / Stromstöße | high-impedance headphones / sluggish / current pulses | crystal set (detektorempfänger) |
+| Rundfunksender im Lokalbereich / Fernempfang von Sendern im Fernbereich | local broadcast stations / long-distance reception of distant stations | detektorempfänger |
+| Eingangsfilterblock / Eingangsfilter | input filter block / input filter | superhet, filter ahead of the first mixer |
+| Wortneubildung | coinage | *superheterodyne* (ueberlagerungsempfaenger_einfachsuper_1) |
+| Lokal-Oszillator (LO) / Schaubild | local oscillator (LO) / diagram | ring mixer (mischer_2) |
+| Ringschaltung / Ringmodulator / Dioden-Gleichrichter | ring circuit / ring modulator / diode rectifier | mischer_2; *Balancemischer, Ringmischer oder Ringmodulator* → "balanced mixer, ring mixer or ring modulator" |
+| konzeptbedingt / prinzipbedingt | by the very nature of the concept / by its very principle | spiegelfrequenzen |
+| Spiegelfrequenzstörungen | image-frequency interference | AF107, AF203 |
+| Vorselektion (Empfänger) | preselection | as AF204 "The preselection"; *Preselektor* stays *preselector* (§6) (spiegelfrequenzen, doppelueberlagerungsempfaenger_doppelsuper) |
+| CO (Quarzoszillator) / Funktionsblöcke | CO (crystal oscillator) / functional blocks | double-conversion superhet, as AF117 |
+| Regelspannung … für die Steuerung der Eingangsempfindlichkeit (AGC) | a control voltage for controlling the input sensitivity (AGC) | where the German itself names the AGC after it; elsewhere *Regelspannung* → AGC voltage (§6) (doppelueberlagerungsempfaenger_doppelsuper) |
+| Störunterdrückungsverfahren | interference-suppression methods | doppelsuper tip |
+| Lösungsmöglichkeiten / 1. Lösung, 2. Lösung (Folien) | possible solutions / Solution 1, Solution 2 | two oscillator frequencies that are both correct; *Lösungsweg 1/2* for two methods to one answer stays "Method 1/2" (doppelueberlagerungsempfaenger_doppelsuper slides) |
+| Überlagerungsmischung | heterodyne mixing | BFO (bfo_1 slides) |
+| Hörfrequenz / Tonfrequenz (CW) | listening frequency / audio frequency | the pitch of the CW tone (bfo_2) |
+| nichtlinearer Grenzbereich | non-linear limit region | intermodulation_kreuzmodulation |
+| Grundsignale / Steigung / Schnittpunkt (IP3) | fundamental signals / slope / point of intersection | two-tone test and IP3 (intermodulation_kreuzmodulation) |
+| Intercept Point dritter Ordnung / Intercept Point 3. Ordnung | third-order intercept point / 3rd-order intercept point | the digit kept where the German writes one; as §6 *Intercept-Punkt (IP3)* |
+| Abschwächer (auch Attenuator genannt) / Dämpfungsglied (Attenuator) | attenuator | the bracket only gives the English word and is dropped (bracket rule); the slide heading *Attenuator* stays (vorverstaerker_daempfungsglied, intermodulation_kreuzmodulation) |
+| Leistungsdämpfungsglied / ohmsches Dämpfungsglied / T- und π-Dämpfungsglied / PI-Konfiguration | power attenuator / resistive attenuator / T and $\pi$ attenuator / pi configuration | daempfungsglieder |
+| Systemimpedanz / impedanzrichtiger Abschluss | system impedance / termination with the correct impedance | daempfungsglieder |
+| Störimpulse | interference pulses | FM limiter (begrenzerverstaerker) |
+| Antennenzuleitung / PTT-gesteuert | antenna feeder / PTT-controlled | preamplifier (vorverstaerker_daempfungsglied) |
+| Low Noise Block Converter (LNB) | low-noise block converter (LNB) | as the German writes it, lower case as a term; §6 gives the longer *low-noise block downconverter* (low_noise_block) |
+| Polarisationsrichtungen | polarisations | horizontal and vertical (low_noise_block) |
+| S-Wert | S reading | "ein S-Wert von S9" → "an S reading of S9"; *S-Stufe* stays *S unit* (§2) (s_meter, AA114) |
+| Grundrauschen oder Eigenrauschen | noise floor or internal noise | as §14 *Rauschflur* and §6 *Eigenrauschen* (s_meter tip) |
+| Ansprechverhalten / Ansprechzeit / Abfallzeit (AGC) / Empfängerausstattung | response / attack time / decay time / the receiver's features | AGC Slow, AGC Normal, AGC Fast, AGC Off are menu labels and stay (agc_1) |
+| Keramikresonatoren | ceramic resonators | AF208 |
 
 ## 15. Catalogue structure
 

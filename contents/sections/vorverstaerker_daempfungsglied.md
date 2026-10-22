@@ -1,22 +1,22 @@
-Kurzwellenempfänger können durch starke Signale schnell übersteuert werden, insbesondere im Eingangsbereich des Empfängers incl. des 1. Mischers. Dies äußert sich durch eine verzerrte und unverständliche Wiedergabe des gewünschten Signals.
+HF receivers can quickly be overloaded by strong signals, especially in the input section of the receiver, including the 1st mixer. This shows itself as distorted and unintelligible reproduction of the wanted signal.
 
 ---
 
-Um dies zu vermeiden können bei Transceivern sog. Abschwächer (auch *Attenuator* genannt) zugeschaltet werden. Diese dämpfen die Eingangssignale um einen vorgegebenen Wert, so dass der Empfängereingang nicht mehr übersteuert wird. Der Einfluss unerwünschter starker Signale auf schwächere Nutzsignale wird durch den Abschwächer stark verringert. Abbildung [ref:e_daempfungsglied] zeigt ein externes Dämpfungsglied. Die Abbildung [ref:e_att_blockschaltbild] zeigt die Blocksymbole der Dämpfungsglieder. Hier gibt es eine sogenannte T- und $\pi$-Variante. Die genaue Schaltung lernen wir in der Klasse A kennen. 
+To avoid this, so-called *attenuators* can be switched in on transceivers. They attenuate the input signals by a preset amount, so that the receiver input is no longer overloaded. The attenuator greatly reduces the influence of strong unwanted signals on weaker wanted signals. Figure [ref:e_daempfungsglied] shows an external attenuator. Figure [ref:e_att_blockschaltbild] shows the block symbols of attenuators. There are so-called T and $\pi$ versions. We will learn about the exact circuit in Class A. 
 
 <margin>
-[photo:199:e_daempfungsglied:Ein Dämpfungsglied]
-[picture:1054:e_att_blockschaltbild:Vorverstärker im Überlagerungsempfänger]
+[photo:199:e_daempfungsglied:An attenuator]
+[picture:1054:e_att_blockschaltbild:Preamplifier in a superhet]
 </margin>
 
 [question:EF217]
 
 ---
 
-Umgekehrt verhält es sich mit Signalen in höheren Frequenzbereichen (VHF und höher). Hier werden Signale oft bereits durch die Antennenzuleitung zum Gerät abgeschwächt und sollten daher ggf. durch einen *Vorverstärker*, der sich möglichst direkt an der Empfangs-/Sendeantenne befinden sollte, verstärkt werden. Hierdurch werden die Kabelverluste durch den Vorverstärker ausgeglichen. Der Vorverstärker muss hierbei im Sendefall abschaltbar sein (PTT-gesteuert) und im Empfangsfall ggf. deaktivierbar sein, damit starke lokale Signale den Empfänger nicht übersteuern können.
+The situation is the reverse for signals in higher frequency ranges (VHF and above). Here, signals are often already attenuated by the antenna feeder to the equipment and should therefore be amplified, where necessary, by a *preamplifier*, which should be located as close as possible to the receiving/transmitting antenna. The preamplifier then makes up for the cable losses. The preamplifier must be switched off when transmitting (PTT-controlled) and, where necessary, it must be possible to deactivate it when receiving, so that strong local signals cannot overload the receiver.
 
 <margin>
-[picture:839:vorverstaerker_daempfungsglied_amp:Vorverstärker im Überlagerungsempfänger]
+[picture:839:vorverstaerker_daempfungsglied_amp:Preamplifier in a superhet]
 </margin>
 
 [question:EF218]

@@ -1,6 +1,6 @@
-* Zwei starke HF-Signale am Eingang eines Empfängers $\rightarrow$ Störungen durch Inter- oder Kreuzmodulation
-* Bei *Intermodulation* zeigt die Empfängerstufe nichtlineares Verhalten $\rightarrow$ unerwünschte Frequenzen mit Überlagerungsstörungen
-* Bei *Kreuzmodulation* wird gewünschtes Signal durch ein starkes, benachbartes AM-Signal beeinflusst $\rightarrow$ Modulation des benachbarten Senders ist hörbar
+* Two strong RF signals at the input of a receiver $\rightarrow$ interference due to inter- or cross-modulation
+* With *intermodulation*, the receiver stage behaves non-linearly $\rightarrow$ unwanted frequencies that interfere by superimposition
+* With *cross-modulation*, the wanted signal is affected by a strong, adjacent AM signal $\rightarrow$ the modulation of the adjacent transmitter is audible
 
 ---
 [question:AF217]
@@ -11,36 +11,36 @@
 ---
 [question:AF218]
 ---
-### Saugkreis
+### Acceptor circuit
 
 <left>
-[picture:434:a_inter_kreuzmodulation_saugkreis:Saugkreis vor einem Empfänger]
+[picture:434:a_inter_kreuzmodulation_saugkreis:Acceptor circuit ahead of a receiver]
 </left>
 <right>
-* Unterdrückung des Störsignals vor dem Empfänger
-* Filter ist auf die Frequenz des Störsignals abgestimmt
-* Störsignal wird unterdrückt
+* Suppression of the interfering signal ahead of the receiver
+* The filter is tuned to the frequency of the interfering signal
+* The interfering signal is suppressed
 </right>
 
 ---
 [question:AF223]
 ---
-### Großsignalfestigkeit IP3
+### Strong-signal performance IP3
 
-* Interception Point dritter Ordnung IP3
-* Maß für den Punkt, an dem unerwünschte Mischprodukte 3. Ordnung den Amplitudenwert des Eingangssignal erreichen
-* Je höher der IP3 eines Empfängers, umso größere Signale können störungsfrei verarbeitet werden
+* Third-order intercept point IP3
+* Measure of the point at which unwanted 3rd-order mixing products reach the amplitude of the input signal
+* The higher the IP3 of a receiver, the larger the signals that can be processed without interference
 
 ---
 [question:AF221]
 ---
 ### Attenuator
 
-* Zuschaltbares Dämpfungsglied am Empfängereingang
-* Intermodulationsprodukte und Kreuzmodulation werden verringert
-* Nutzsignal wird um den Faktor des Dämpfungsglieds reduziert
-* Störsignale um den Faktor $\num{3}$ (3. Ordnung) in $\unit{dB}$ abgeschwächt
-* Beispiel: Attenuator $\qty{10}{\dB}\rightarrow$ Nutzsignal $\qty{10}{\dB}\rightarrow$ Mischprodukte $\qty{30}{\dB}$
+* Switchable attenuator at the receiver input
+* Intermodulation products and cross-modulation are reduced
+* The wanted signal is reduced by the factor of the attenuator
+* Interfering signals attenuated by a factor of $\num{3}$ (3rd order) in $\unit{dB}$
+* Example: attenuator $\qty{10}{\dB}\rightarrow$ wanted signal $\qty{10}{\dB}\rightarrow$ mixing products $\qty{30}{\dB}$
 
 ---
 [question:AF220]

@@ -1,39 +1,39 @@
-Als einfachsten Empfänger haben wir den Detektorempfänger im vorherigen Kapitel kennengelernt. Beim Detektorempfänger handelt es sich um einen sog. Geradeausempfänger, den wir auch schon in der Klasse N kennen gelernt haben. Beim Geradeausempfänger wie in Abbildung [ref:e_geradeausempfänger] gezeigt, wird das Signal nach Empfang und ggf. Verstärkung nur noch demoduliert. Dieses Empfängerkonzept hat jedoch den Nachteil einer schlechten Selektivität (Trennschärfe). Um das zu verbessern könnte man den Eingangsfilterblock (2) aus mehreren Filtern kombinieren um die Trennschärfe zu erhöhen. Dann müssten aber beim Wechsel der Empfangsfrequenz alle diese Filter angepasst werden und das ist sehr aufwändig. Aus diesem Grund wurde der *Überlagerungsempfänger* (vgl. Abbildung [ref:ueberlagerungsempfaenger_einfachsuper]) entwickelt, welcher in der Fachsprache auch *Superheterodyn* oder *Superhet* genannt wird.
+We met the crystal set as the simplest receiver in the previous chapter. The crystal set is a so-called tuned radio frequency (TRF) receiver, which we also met in Class N. In a TRF receiver, as shown in Figure [ref:e_geradeausempfänger], the signal is only demodulated after reception and, where necessary, amplification. This receiver concept, however, has the disadvantage of poor selectivity. To improve it, the input filter block (2) could be made up of several filters to increase the selectivity. But then all these filters would have to be adjusted whenever the receive frequency is changed, and that is very complicated. For this reason the *superheterodyne receiver* (see Figure [ref:ueberlagerungsempfaenger_einfachsuper]) was developed, which in technical language is also called the *superheterodyne* or, for short, the *superhet*.
 
 <margin>
-[picture:736:e_geradeausempfänger:Geradeausempfänger]
+[picture:736:e_geradeausempfänger:Tuned radio frequency (TRF) receiver]
 </margin>
 
 <margin>
-[picture:803:ueberlagerungsempfaenger_einfachsuper:Überlagerungsempfänger mit Verstärkern]
+[picture:803:ueberlagerungsempfaenger_einfachsuper:Superhet with amplifiers]
 </margin>
 
 ---
 
-Die Idee des Überlagerungsempfängers ist ebenso einfach wie genial. Anstelle abstimmbarer Filter wird ein variabler Oszillator (VFO, engl. Variable Frequency Oscillator) eingesetzt, mit dessen Hilfe das empfangene Signal zunächst auf eine feste Frequenz, die sogenannte Zwischenfrequenz $f_\mathrm{z}$ (oft auch ZF genannt), umgesetzt wird. Für diese feste Zwischenfrequenz lassen sich sehr trennscharfe und hochwertige Filter realisieren. Abbildung [ref:ueberlagerungsempfaenger_einfachsuper_filter] veranschaulicht dieses Prinzip.
+The idea of the superhet is as simple as it is ingenious. Instead of tunable filters, a variable-frequency oscillator (VFO) is used, with whose help the received signal is first converted to a fixed frequency, the so-called intermediate frequency $f_\mathrm{z}$ (often also called the IF). Very selective, high-quality filters can be made for this fixed intermediate frequency. Figure [ref:ueberlagerungsempfaenger_einfachsuper_filter] illustrates this principle.
 
 <margin>
-[picture:913:ueberlagerungsempfaenger_einfachsuper_filter:Überlagerungsempfänger mit Filtern]
+[picture:913:ueberlagerungsempfaenger_einfachsuper_filter:Superhet with filters]
 </margin>
 
-Das Eingangsfilter lässt zunächst nur den gewünschten Frequenzbereich, beispielsweise den Kurzwellenbereich, passieren. Anschließend setzt ein Mischer das Eingangssignal zusammen mit der Frequenz des VFO auf die konstante Zwischenfrequenz um, zum Beispiel auf $\qty{455}{\kilo\hertz}$. Im konkreten Beispiel kann der VFO zwischen $\qty{3,455}{\mega\hertz}$ und $\qty{30,455}{\mega\hertz}$ eingestellt werden, um den gesamten Bereich der Kurzwelle heruntermischen zu können. Der entscheidende Vorteil des Überlagerungsempfängers gegenüber dem Geradeausempfänger liegt genau in dieser konstanten Zwischenfrequenz: Die Filterung des Signals kann optimal auf eine feste Frequenz abgestimmt werden, wodurch eine sehr hohe Selektivität, also Trennschärfe, erreicht wird.
+The input filter first lets through only the wanted frequency range, for example the HF range. A mixer then converts the input signal, together with the frequency of the VFO, to the constant intermediate frequency, for example $\qty{455}{\kilo\hertz}$. In this specific example, the VFO can be set between $\qty{3.455}{\mega\hertz}$ and $\qty{30.455}{\mega\hertz}$, so that the entire HF range can be mixed down. The decisive advantage of the superhet over the TRF receiver lies precisely in this constant intermediate frequency: the filtering of the signal can be optimised for one fixed frequency, which achieves a very high selectivity.
 
 ---
 
-Da die Filter nicht abstimmbar sein müssen, können sie hinsichtlich Bandbreite und Flankensteilheit gezielt optimiert werden, etwa durch den Einsatz von Quarz-, Keramik- oder digitalen Filtern. So lassen sich beispielsweise für Sprachübertragung (SSB) Filter mit einer Bandbreite von etwa $\qty{2,4}{\kilo\hertz}$ und für Telegrafie (CW) schmalbandige Filter mit etwa $\qty{300}{\hertz}$ einsetzen. Auch für andere Übertragungsverfahren wie AM, FM oder digitale Modi können entsprechend angepasste Filter verwendet werden.
+Since the filters do not have to be tunable, their bandwidth and skirt steepness can be optimised specifically, for instance by using crystal, ceramic or digital filters. For example, filters with a bandwidth of about $\qty{2.4}{\kilo\hertz}$ can be used for voice transmission (SSB), and narrow filters of about $\qty{300}{\hertz}$ for telegraphy (CW). Suitably adapted filters can also be used for other modes such as AM, FM or digital modes.
 
-Durch dieses Konzept erreicht der Überlagerungsempfänger eine deutlich höhere Trennschärfe als der Geradeausempfänger. Ein weiterer Vorteil besteht darin, dass alle nachfolgenden Baugruppen stets mit derselben Zwischenfrequenz arbeiten und daher ebenfalls nicht abstimmbar ausgeführt werden müssen, was den Aufbau vereinfacht und die Empfangsqualität verbessert.
+With this concept the superhet achieves considerably better selectivity than the TRF receiver. A further advantage is that all the following modules always work at the same intermediate frequency and therefore do not have to be tunable either, which simplifies the construction and improves the reception quality.
 
 [question:EF102]
 
-Überlagerungsempfänger können mit einer oder mehreren Zwischenfrequenzen arbeiten. Im einfachsten Fall handelt es sich um einen Direktüberlagerungsempfänger, bei dem die Zwischenfrequenz die gewünschte NF-Frequenz ist. Zu diesem Zweck muss die Oszillatorfrequenz sehr nahe an der Empfangsfrequenz liegen.
+Superhets can work with one or more intermediate frequencies. In the simplest case it is a direct-conversion receiver, in which the intermediate frequency is the wanted audio frequency. For this, the oscillator frequency must be very close to the receive frequency.
 
 [question:EF208]
 
-Ein Überlagerungsempfänger hat jedoch auch einige Nachteile, insbesondere das Auftreten sogenannter Spiegelfrequenzen. Diese Problematik sowie fortgeschrittene Empfängerkonzepte wie der Mehrfachsuper mit mehreren Zwischenfrequenzen werden wir erst in der Klasse A genauer behandeln.
+A superhet does, however, also have some disadvantages, in particular the occurrence of so-called image frequencies. We will deal with this problem, and with more advanced receiver concepts such as the multiple-conversion superhet with several intermediate frequencies, in more detail only in Class A.
 
 <indepth>
-Der Erfinder des Überlagerungsempfängers lässt sich nicht eindeutig benennen. Dies liegt unter anderem daran, dass seine Entwicklung in die Zeit des Ersten Weltkriegs fällt, in der alle beteiligten Kriegsparteien intensiv an der Verbesserung der Funk- und Radiotechnik arbeiteten. Unabhängig voneinander beschäftigten sich um das Jahr 1918 mehrere Forscher mit diesem Funktionsprinzip, darunter Edwin Armstrong in den USA, Lucien Lévy in Frankreich sowie Walter Schottky in Deutschland.
+The inventor of the superhet cannot be named unambiguously. One reason for this is that it was developed during the First World War, when all the warring parties were working intensively on improving radio and wireless technology. Around the year 1918, several researchers were working on this principle independently of one another, among them Edwin Armstrong in the USA, Lucien Lévy in France and Walter Schottky in Germany.
   
-Der Begriff Heterodyn beziehungsweise Superheterodyn ist eine Wortneubildung. Er setzt sich aus dem lateinischen super („über“) sowie den griechischen Wörtern hetero („verschieden“) und dynamis („Kraft“ bzw. „Wirkung“) zusammen. Der Name beschreibt das grundlegende Funktionsprinzip des Überlagerungsempfängers: die Mischung zweier Signale unterschiedlicher Frequenz zur Erzeugung einer neuen Frequenz.
+The term heterodyne, or superheterodyne, is a coinage. It is made up of the Latin super ("above") and the Greek words hetero ("different") and dynamis ("power" or "effect"). The name describes the basic operating principle of the superhet: mixing two signals of different frequencies to produce a new frequency.
 </indepth>

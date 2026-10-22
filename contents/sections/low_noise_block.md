@@ -1,12 +1,12 @@
-Ein Low Noise Block Converter (LNB) wird häufig bei der Verarbeitung von hohen Frequenzen im $\unit{\giga\hertz}$-Bereich beim Amateurfunkverkehr über Satelliten verwendet. Abbildung [ref:a_lnb] zeigt eine mögliche Implementierung einer QO-100-Station. Hierbei wird die sehr hohe Empfangsfrequenz, die typischerweise durch einen SAT-Spiegel empfangen wird, bereits direkt im LNB auf eine deutlich niedrigere Frequenz heruntergemischt, um hohe Kabelverluste, die bei hohen Frequenzen auftreten würden, zu vermeiden.
+A low-noise block converter (LNB) is often used for processing high frequencies in the $\unit{\giga\hertz}$ range in amateur radio communication via satellite. Figure [ref:a_lnb] shows a possible implementation of a QO-100 station. Here the very high receive frequency, which is typically received with a satellite dish, is already mixed down directly in the LNB to a much lower frequency, to avoid the high cable losses that would occur at high frequencies.
 
 <margin>
-[picture:1094:a_lnb:LNB (blau) und Bias-T (rot) in einem QO-100 Transceiver]
+[picture:1094:a_lnb:LNB (blue) and bias tee (red) in a QO-100 transceiver]
 </margin>
 
 [question:AF230]
 
-Bei einem LNB handelt es sich um eine aktive Komponente, welche eine Spannungsversorgung benötigt. Diese erfolgt meist direkt über das Koaxialkabel, welches zum LNB führt. Hierfür wird in der Empfangsstelle ein sog. Bias-T in das Koaxialkabel eingebaut. Seine Aufgabe ist die Gleichspannungsversorgung des LNBs sowie die Trennung der Gleichspannung vom HF-Signal im weiteren Signalweg hin zum Empfänger.
-Ein LNB kann entweder horizontal oder vertikal polarisierte Signale empfangen. Die Umschaltung zwischen den beiden Polarisationsrichtungen erfolgt hierbei über die Höhe der Betriebsspannung mit welcher das LNB versorgt wird. Übliche Werte sind hier z.B. $\qty{12}{\volt}$ und $\qty{18}{\volt}$.
+An LNB is an active component that needs a power supply. This is usually provided directly via the coaxial cable leading to the LNB. For this, a so-called bias tee is fitted into the coaxial cable at the receiving station. Its job is to supply DC to the LNB and to separate the DC from the RF signal in the further signal path to the receiver.
+An LNB can receive either horizontally or vertically polarised signals. Switching between the two polarisations is done by means of the level of the operating voltage supplied to the LNB. Usual values here are, for example, $\qty{12}{\volt}$ and $\qty{18}{\volt}$.
 
 [question:AF231]

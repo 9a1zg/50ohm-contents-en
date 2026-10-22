@@ -1,10 +1,10 @@
 <left>
-* Empfang des gewünschten Signals
-* Bei gleichzeitiger Unterdrückung von naheliegenden, unerwünschten Signalen
+* Reception of the wanted signal
+* While at the same time suppressing nearby, unwanted signals
 </left>
 <right>
-* Hohe Trennschärfe $\rightarrow$ geringe Bandbreite notwendig
-* Idealerweise nur so breit wie das zu empfangene Signal
+* High selectivity $\rightarrow$ narrow bandwidth needed
+* Ideally only as wide as the signal to be received
 </right>
 
 ---

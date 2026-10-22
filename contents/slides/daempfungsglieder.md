@@ -1,45 +1,45 @@
 <left>
-[picture:342:daempfungsglied_pi:Dämpfungsglied in PI-Konfiguration mit Quelle und Lastwiderstand]
+[picture:342:daempfungsglied_pi:Attenuator in pi configuration with source and load resistor]
 </left>
 <right>
-* Schwächen Signalpegel definiert ab
-* Vermeidung von Übersteuerung oder Beschädigung von Messgeräten
-* Eingangspegel für Verstärker und Empfänger auf ein definiertes Maß reduzieren
+* Reduce signal levels by a defined amount
+* Avoid overloading or damaging measuring instruments
+* Reduce input levels for amplifiers and receivers to a defined level
 </right>
 <note>
-Der Name PI-Konfiguration stammt vom Aufbau der Widerstände als &Pi;
+The name pi configuration comes from the arrangement of the resistors as a &Pi;
 </note>
 
 ---
 <left>
-[picture:342:daempfungsglied_pi:Dämpfungsglied in PI-Konfiguration mit Quelle und Lastwiderstand]
+[picture:342:daempfungsglied_pi:Attenuator in pi configuration with source and load resistor]
 </left>
 <right>
-* Dämpfung über Widerstände und Umwandlung in Wärme
-* Bei symmetrischen Dämpfungsgliedern sind Ein- und Ausgangsimpedanzen gleich
-* Üblicherweise $\qty{50}{\ohm}$
+* Attenuation by resistors, with conversion into heat
+* In symmetrical attenuators the input and output impedances are equal
+* Usually $\qty{50}{\ohm}$
 </right>
 
 ---
 <left>
-[picture:341:daempfungsglied_t:Dämpfungsglied in T-Konfiguration mit Quelle und Lastwiderstand]
+[picture:341:daempfungsglied_t:Attenuator in T configuration with source and load resistor]
 </left>
 <right>
-* Dämpfung wird in $\unit{\dB}$ angegeben
-* z.B. $\qty{20}{\dB}$ = Faktor $\num{100}$
-* $\qty{100}{\watt}$ Eingangsleistung $\rightarrow\qty{1}{\watt}$ Ausgangsleistung
+* Attenuation is given in $\unit{\dB}$
+* e.g. $\qty{20}{\dB}$ = factor of $\num{100}$
+* $\qty{100}{\watt}$ input power $\rightarrow\qty{1}{\watt}$ output power
 </right>
 <note>
-Der Name T-Konfiguration stammt vom Aufbau der Widerstände als T
+The name T configuration comes from the arrangement of the resistors as a T
 </note>
 
 ---
 [question:AD806]
 --- style="font-size: smaller;"
-#### Lösungsweg
-* gegeben: $P_1 = \qty{100}{\watt}$
-* gegeben: $a = \qty{20}{\dB}$
-* gesucht: $\Delta P = P_2 - P_1$
+#### Solution
+* given: $P_1 = \qty{100}{\watt}$
+* given: $a = \qty{20}{\dB}$
+* required: $\Delta P = P_2 - P_1$
 
 <fragment>
 $\begin{split} a &= \qty{10 \cdot \log_{10}{\left(\frac{P_1}{P_2}\right)}}{\dB}\\ \Rightarrow \frac{a}{\qty{10}{\dB}} &= \log_{10}{\left(\frac{P_1}{P_2}\right)}\\ \Rightarrow 10^{\frac{a}{\qty{10}{\dB}}} &= \frac{P_1}{P_2}\\ \Rightarrow P_2 &= \frac{P_1}{10^{\frac{a}{\qty{10}{\dB}}}}\end{split}$
@@ -54,23 +54,23 @@ $\Delta P = P_2 - P_1 = \qty{100}{\watt} - \qty{1}{\watt} = \qty{99}{\watt}$
 ---
 [question:AD803]
 ---
-#### Lösungsweg
+#### Solution
 
-* $\qty{20}{\dB}$ entsprechen einer Leistungsdämpfung mit dem Faktor $\num{100}$
+* $\qty{20}{\dB}$ corresponds to a power attenuation by a factor of $\num{100}$
 
 ---
 [question:AD804]
 ---
-#### Lösungsweg
+#### Solution
 
-* $\qty{6}{\dB}$ entsprechen einer Leistungsdämpfung mit dem Faktor $\num{4}$
+* $\qty{6}{\dB}$ corresponds to a power attenuation by a factor of $\num{4}$
 
 ---
 [question:AD805]
 ---
-#### Lösungsweg
+#### Solution
 
-* Die Impedanz für die Gesamtschaltung ändert sich nicht – also $\qty{50}{\ohm}$
+* The impedance of the circuit as a whole does not change – so $\qty{50}{\ohm}$
 
 
 ---

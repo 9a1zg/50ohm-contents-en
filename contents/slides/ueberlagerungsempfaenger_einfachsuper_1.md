@@ -1,28 +1,28 @@
 <left>
-* Mischprozess mit einer Oszillatorfrequenz
-* Konstante *Zwischenfrequenz*
-* Bessere *Selektivität* des Empfangssignals
-* Filter müssen nicht veränderlich sein
-* Höhere *Trennschärfe*
+* Mixing process with an oscillator frequency
+* Constant *intermediate frequency*
+* Better *selectivity* for the received signal
+* Filters do not have to be variable
+* Sharper *selectivity*
 </left>
 <right>
-[picture:803:ueberlagerungsempfaenger_einfachsuper:Überlagerungsempfänger (Einfachsuper); die notwendigen Filter sind der Übersichtlichkeit halber in den Verstärkerstufen enthalten]
+[picture:803:ueberlagerungsempfaenger_einfachsuper:Superheterodyne receiver (single-conversion superhet); for clarity, the necessary filters are included in the amplifier stages]
 </right>
 <note>
-* Nicht veränderliche Filter können besser konstruiert werden
-* Das "super" im Namen stammt vom Lateinischen "über"
+* Filters that are not variable can be designed better
+* The "super" in the name comes from the Latin for "above"
 </note>
 
 ---
 [question:EF102]
 ---
 
-## Zwischenfrequenz
+## Intermediate frequency
 
-* Eine Frequenz, auf die für die weitere Verarbeitung gemischt wird
-* Im einfachsten Fall die NF $\rightarrow$ Direktüberlagerungsempfänger
-* Bei NF muss die Oszillatorfrequenz nahe der Empfangsfrequenz sein
-* Klasse A behandelt Mehrfachsuper-Empfänger mit mehreren Zwischenfrequenzen
+* A frequency to which the signal is mixed for further processing
+* In the simplest case the AF $\rightarrow$ direct-conversion receiver
+* For AF, the oscillator frequency must be close to the receive frequency
+* Class A covers multiple-conversion superhets with several intermediate frequencies
 
 ---
 [question:EF208]

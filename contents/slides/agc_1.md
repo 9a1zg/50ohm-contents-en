@@ -1,20 +1,20 @@
-* Automatische Verstärkungsregelung (Automatic-Gain-Control, *AGC*) regelt NF-Ausgangssignal bei schwankendem HF-Eingangssignal nach
-* Einsatz z.B. bei Fading
-* Lautstärkeschwankungen werden verringert
+* Automatic gain control (*AGC*) readjusts the AF output signal when the RF input signal fluctuates
+* Used e.g. with fading
+* Volume fluctuations are reduced
 
 ---
-## Funktionsweise
+## How it works
 
-* Erfassung des Empfangspegels am Ausgang des Empfängerzweigs
-* Damit wird die HF-Verstärkung geregelt
-* Beeinflussung der Empfangslautstärke nach der Demodulation
-* Anpassung des Ansprechsverhaltens (Ansprechzeit, Abfallzeit) möglich
+* Measurement of the received level at the output of the receive path
+* This is used to control the RF gain
+* Influences the received volume after demodulation
+* Response (attack time, decay time) can be adjusted
 <note>
-* Nicht verwechseln mit der Automatic-Level-Control (ALC) im Sender
+* Do not confuse with automatic level control (ALC) in the transmitter
 </note>
 
 ---
-## AGC-Modi
+## AGC modes
 
 <left>
 * AGC Slow
@@ -23,12 +23,12 @@
 * AGC Off
 </left>
 <right>
-* SSB: AGC Slow oder Normal
-* Morsen: AGC Normal oder Fast
-* Digimodes: AGC Fast oder Off
+* SSB: AGC Slow or Normal
+* Morse: AGC Normal or Fast
+* Data modes: AGC Fast or Off
 </right>
 <note>
-* Schnelleres Ansprechverhalten deshalb, damit starke Signale nicht schwache Signale überdecken können und die Regelung schnell nachführt
+* The faster response is there so that strong signals cannot mask weak signals and the control follows quickly
 </note>
 
 ---

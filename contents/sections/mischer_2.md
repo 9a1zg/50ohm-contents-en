@@ -1,45 +1,45 @@
 <margin>
-[picture:804:mischer_linear_vs_nichtlinear:Linearer Widerstand und nichtlineare Diode]
+[picture:804:mischer_linear_vs_nichtlinear:Linear resistor and non-linear diode]
 </margin>
 
 
-Bauelemente und Baugruppen können sich *linear* oder *nichtlinear* verhalten. Bei einem linearen Bauelement folgt die Ausgangsgröße der Eingangsgröße nach einem festen Zusammenhang. Ein idealer Widerstand besitzt beispielsweise eine lineare Kennlinie. Die Kennlinie einer Diode ist dagegen nichtlinear (vgl. [ref:mischer_linear_vs_nichtlinear]).
+Components and modules can behave *linearly* or *non-linearly*. In a linear component, the output quantity follows the input quantity according to a fixed relationship. An ideal resistor, for example, has a linear characteristic. The characteristic of a diode, on the other hand, is non-linear (see Figure [ref:mischer_linear_vs_nichtlinear]).
 
-Für einen Mischprozess reicht ein rein lineares Verhalten nicht aus. Werden mehrere Signale durch eine lineare Schaltung übertragen, können sie zwar verstärkt, abgeschwächt oder miteinander addiert werden, sie beeinflussen sich dabei jedoch nicht gegenseitig. Es entstehen dadurch keine neuen Frequenzanteile.
+Purely linear behaviour is not enough for a mixing process. When several signals pass through a linear circuit, they can be amplified, attenuated or added together, but they do not influence one another. No new frequency components are produced.
 
-Damit eine Mischung stattfinden kann, müssen die Eingangssignale miteinander verknüpft werden. Dies kann beispielsweise durch die nichtlineare Kennlinie einer Diode oder eines Transistors geschehen. Eine weitere häufig verwendete Möglichkeit besteht darin, das Eingangssignal mit Hilfe des Oszillatorsignals schnell ein- und auszuschalten beziehungsweise umzupolen. Auch ein solcher Schaltvorgang ist kein linearer Vorgang und bewirkt, dass beide Signale miteinander verknüpft werden.
+For mixing to take place, the input signals must be combined with one another. This can happen, for example, through the non-linear characteristic of a diode or a transistor. Another frequently used way is to switch the input signal on and off rapidly, or to reverse its polarity, with the help of the oscillator signal. Such a switching process is not a linear process either, and it causes the two signals to be combined.
 
-Genau diese Eigenschaft wird in einem Mischer gezielt ausgenutzt. Deshalb arbeiten Mischstufen mit nichtlinearen Bauelementen oder mit Schaltungen, in denen Transistoren oder Dioden durch das Oszillatorsignal geschaltet werden.
-In der Praxis bilden sich jedoch auch viele unerwünschte Mischprodukte höherer Ordnung, die durch technische Maßnahmen wie Filterung gezielt unterdrückt werden müssen.
+It is precisely this property that is deliberately exploited in a mixer. That is why mixer stages work with non-linear components, or with circuits in which transistors or diodes are switched by the oscillator signal.
+In practice, however, many unwanted higher-order mixing products are also formed, which have to be suppressed deliberately by technical measures such as filtering.
 
 [question:AF212]
 
-Ziel eines Mischers ist, dass an dessen Ausgang idealerweise nur die gewünschten Mischprodukte erscheinen und unerwünschte Mischprodukte sowie die Eingangssignale maximal unterdrückt werden.
+The aim of a mixer is that ideally only the wanted mixing products appear at its output, and that unwanted mixing products and the input signals are suppressed as far as possible.
 
-Am besten erreicht man dieses Ziel mit Hilfe eines sog. Balancemischers. Dieser ist mit 4 Dioden oder Transistoren in Ringschaltung aufgebaut [ref:mischer_ringmischer]. Durch seinen damit symmetrischen Aufbau werden die Eingangssignale im Ausgang maximal unterdrückt. Andere Mischerbauformen wie z.B. Doppeldiodenmischer, Dualtransistormischer sowie additive Diodenmischer leiten durch ihren unsymmetrischen Aufbau immer auch eines der Eingangssignale auf den Ausgang durch.
+This aim is best achieved with a so-called balanced mixer. It is built with 4 diodes or transistors in a ring circuit (see Figure [ref:mischer_ringmischer]). Because of the resulting balanced design, the input signals are suppressed as far as possible at the output. Other types of mixer, such as two-diode mixers, dual-transistor mixers and additive diode mixers, always pass one of the input signals through to the output as well, because of their unbalanced design.
 
 <indepth>
-Funktionsweise eines Ringmischers:
+How a ring mixer works:
 
-Der Lokal-Oszillator ($U_2$ im Schaubild) schaltet immer zwei gegenüberliegende Dioden während einer Halbwelle leitend, während die beiden anderen Dioden gesperrt sind. In der nächsten Halbwelle des Lokal-Oszillators kehren sich die Verhältnisse genau um. Hierfür muss die Amplitude des Lokal-Oszillators ($U_2$) ausreichend hoch sein, damit die Dioden während der positiven und negativen Halbwellen ausreichend durchgesteuert werden können.
+The local oscillator ($U_2$ in the diagram) always switches two opposite diodes into conduction during one half cycle, while the other two diodes are cut off. In the next half cycle of the local oscillator, the situation is exactly reversed. For this, the amplitude of the local oscillator ($U_2$) must be high enough for the diodes to be turned fully on during the positive and negative half cycles.
 
-Hierdurch arbeitet der Diodenring als Polwender für das am Eingang anliegende Signal ($U_1$).
-Zum erreichen eines guten Mischergebnisses bezüglich unerwünschter Mischprodukte und Unterdrückung des Eingangssignals muss dessen Amplitude deutlich kleiner sein als die Amplitude des Lokal-Oszillators.
-Optimale Werte werden durch sog. High-Level-Ringmischer erreicht, deren LO-Eingangspegel im Bereich von bis zu $\qty{10}{\milli\watt}$ liegen können.
+As a result, the diode ring acts as a polarity reverser for the signal applied to the input ($U_1$).
+To achieve a good mixing result in terms of unwanted mixing products and suppression of the input signal, its amplitude must be considerably smaller than the amplitude of the local oscillator.
+Optimum values are achieved by so-called high-level ring mixers, whose LO input levels can be in the range of up to $\qty{10}{\milli\watt}$.
 
 <webonly>
 [include:applet_ringmodulator]
 </webonly>
 <latexonly>
-[picture:805:mischer_ringmischer:Balancemischer, Ringmischer oder auch Ringmodulator]
+[picture:805:mischer_ringmischer:Balanced mixer, ring mixer or ring modulator]
 </latexonly>
 </indepth>
 
 <tip>
-Wichtig ist, dass man den Ringmischer von der Schaltung eines Dioden-Gleichrichters, welcher sehr ähnlich aussieht, dadurch unterscheiden kann, dass die Dioden beim Ringmischer hintereinander als Ring geschaltet sind (Kathode jeweils mit folgender Anode der folgenden Diode verbunden). Beim Gleichrichter hingegen sind immer 2 Kathoden und 2 Anoden verbunden.
+It is important to be able to tell the ring mixer apart from the circuit of a diode rectifier, which looks very similar: in the ring mixer the diodes are connected one after the other to form a ring (each cathode connected to the anode of the following diode). In the rectifier, on the other hand, 2 cathodes and 2 anodes are always connected together.
 </tip>
   
-Der Balancemischer, der auch als Ringmischer oder Ringmodulator bezeichnet wird, ist am besten geeignet um unerwünschte Ausgangssignale zu unterdrücken.
+The balanced mixer, which is also called a ring mixer or ring modulator, is the best suited for suppressing unwanted output signals.
 
 [question:AF213]
 [question:AF214]

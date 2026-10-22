@@ -1,11 +1,11 @@
-In der Klasse E haben wir bereits den Überlagerungsempfänger kennengelernt, der mit der Zwischenfrequenz (ZF) arbeitet, wie in Abbildung [ref:a_single_super] dargestellt.
+In Class E we have already met the superhet, which works with the intermediate frequency (IF), as shown in Figure [ref:a_single_super].
 
-Unter der *Nahselektion oder auch Trennschärfe* eines Empfängers versteht man dessen Fähigkeit, das gewünschte Empfangssignal möglichst gut von frequenzmäßig benachbarten, unerwünschten Signalen trennen zu können.
+The *close-in selectivity*, or simply *selectivity*, of a receiver is its ability to separate the wanted received signal as well as possible from unwanted signals that are close to it in frequency.
 
-Der ZF-Filter und dessen Filtercharakteristik bestimmen beim Überlagerungsempfänger maßgeblich die Nahselektionsfähigkeit des gesamten Empfangszweiges und legen dessen Qualität fest.
+In a superhet, the IF filter and its filter response largely determine the close-in selectivity of the entire receive path and define its quality.
 
 <margin>
-[picture:913:a_single_super:Filter eines Einfachsupers]
+[picture:913:a_single_super:Filters of a single-conversion superhet]
 </margin>
 
 [question:AF115]

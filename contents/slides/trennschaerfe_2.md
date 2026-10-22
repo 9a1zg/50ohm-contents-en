@@ -1,15 +1,15 @@
-* Trennschärfe eines Empfängers wird durch die Bandbreite der Filter im ZF-Bereich bestimmt
-* Bandbreite ist nach Modulationsart unterschiedlich
-* SSB $\rightarrow\qty{2,7}{\kilo\hertz}$
-* CW und RTTY $\rightarrow\qty{500}{\hertz}$ zur Trennung von nebenliegenden Signalen
+* The selectivity of a receiver is determined by the bandwidth of the filters in the IF section
+* The bandwidth differs according to the type of modulation
+* SSB $\rightarrow\qty{2.7}{\kilo\hertz}$
+* CW and RTTY $\rightarrow\qty{500}{\hertz}$ to separate them from adjacent signals
 * FM $\rightarrow\qty{12}{\kilo\hertz}$
 
 ---
-* Bandbreiten und Flankensteilheit durch technisch unterschiedliche Konzepte
-* Quarzfilter $\rightarrow$ stark steilflankig und sehr schmalbandig
-* Keramikfilter $\rightarrow$ steilflankig und schmalbandig
-* LC-Filter $\rightarrow$ nicht so steilflankig und größere Bandbreite
-* RC-Filter werden üblicherweise in HF nicht eingesetzt
+* Bandwidths and skirt steepness achieved by technically different concepts
+* Crystal filter $\rightarrow$ very steep skirts and very narrow
+* Ceramic filter $\rightarrow$ steep skirts and narrow
+* LC filter $\rightarrow$ less steep skirts and larger bandwidth
+* RC filters are not usually used at RF
 
 ---
 [question:AF208]

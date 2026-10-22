@@ -1,34 +1,34 @@
-Schauen wir uns zunächst an, wie ein Empfänger aufgebaut ist. In Abbildung [ref:aufbau_empfaenger_blockdiagramm] gehen wir zur Vereinfachung nicht auf die Ebene einzelner Bauteile, sondern betrachten Blöcke, die eine bestimmte Funktion haben. Diese Darstellung nennt man Blockdiagramm. Sie dient in der Elektrotechnik dazu, komplexe Geräte in einer vereinfachten Übersicht darzustellen. Hierzu lässt man Details weg, die zum Verständnis des gesamten Gerätes nicht erforderlich sind.
+Let us first look at how a receiver is built up. To keep things simple, in Figure [ref:aufbau_empfaenger_blockdiagramm] we do not go down to the level of individual components, but look at blocks that each have a particular function. This kind of diagram is called a block diagram. In electrical engineering it is used to show complex equipment in a simplified overview. To do this, details that are not needed to understand the equipment as a whole are left out.
 
 <margin>
-[picture:736:aufbau_empfaenger_blockdiagramm:Blockdiagramm eines einfachen Empfängers]
+[picture:736:aufbau_empfaenger_blockdiagramm:Block diagram of a simple receiver]
 </margin>
 
 <indepth>
-Der hier dargestellte Empfänger wird als Geradeausempfänger bezeichnet. Der Name kommt daher, dass das von der Antenne aufgenommene Signal in seiner Frequenz bis zum Demodulator nicht verändert wird.
+The receiver shown here is called a tuned radio frequency (TRF) receiver (in German *Geradeausempfänger*, literally "straight-through receiver"). The German name comes from the fact that the frequency of the signal picked up by the antenna is not changed on its way to the demodulator.
 </indepth>
 
 ---
 
-Betrachten wir die einzelnen Blöcke des Empfängers der Reihe nach von links nach rechts im Detail:
+Let us look at the individual blocks of the receiver in detail, one after the other from left to right:
 
-1. Antenne: Die Antenne nimmt eine Vielzahl von Funkwellen auf und leitet sie als elektrische Schwingungen weiter.
-2. Bandpassfilter: Um das gewünschte Signal herauszufiltern, folgt ein Bandpassfilter. Dieses lässt nur den gewünschten Frequenzbereich durch und sperrt alle anderen ungewünschten Frequenzen.
-3. HF-Verstärker: Als nächstes folgt ein Verstärker, der das herausgefilterte Signal verstärkt. Es handelt sich hierbei um einen Hochfrequenz-Verstärker (HF-Verstärker), da das Signal eine hohe Frequenz aufweist, beispielsweise $\qty{144,3}{\mega\hertz}$.
-4. Demodulator: Das verstärkte Signal wird vom Demodulator weiter verarbeitet. Demodulation ist das Gegenstück zur Modulation. Während bei der Modulation ein Signal (z. B. ein Sprachsignal) auf einen Hochfrequenzträger moduliert wird, passiert bei der Demodulation das Gegenteil: Aus dem modulierten Hochfrequenzträger wird das ursprüngliche Signal zurückgewonnen. Wir haben dann beispielsweise wieder das Sprachsignal, das am Sender in das Mikrofon gesprochen wurde. Man spricht auch vom Niederfrequenz-Signal, kurz NF-Signal, da es vergleichsweise niedrige Frequenzen aufweist, bei einem Sprachsignal beispielsweise Frequenzen unter $\qty{20}{\kilo\hertz}$.
-5. NF-Verstärker: Das demodulierte Signal wird dann verstärkt. Diesmal handelt es sich um einen Niederfrequenz-Verstärker (NF-Verstärker) zum Verstärken des Signals für den Lautsprecher. Das Symbol für den NF-Verstärker ist dasselbe wie für den Hochfrequenzverstärker.
-6. Lautsprecher: Das Signal wird jetzt durch den Lautsprecher von einer elektrischen Schwingung in eine Schallwelle umgewandelt und somit wieder hörbar gemacht.
+1. Antenna: The antenna picks up a large number of radio waves and passes them on as electrical oscillations.
+2. Band-pass filter: To filter out the wanted signal, a band-pass filter follows. It lets only the wanted frequency range through and blocks all other, unwanted frequencies.
+3. RF amplifier: Next comes an amplifier that amplifies the signal that has been filtered out. This is a radio-frequency amplifier (RF amplifier), because the signal is at a high frequency, for example $\qty{144.3}{\mega\hertz}$.
+4. Demodulator: The amplified signal is processed further by the demodulator. Demodulation is the counterpart of modulation. Whereas in modulation a signal (e.g. a speech signal) is modulated onto a radio-frequency carrier, demodulation does the opposite: the original signal is recovered from the modulated radio-frequency carrier. We then have, for example, the speech signal again that was spoken into the microphone at the transmitter. It is also called the audio-frequency signal, or AF signal for short, because it has comparatively low frequencies – for a speech signal, for example, frequencies below $\qty{20}{\kilo\hertz}$.
+5. AF amplifier: The demodulated signal is then amplified. This time it is an audio-frequency amplifier (AF amplifier), which amplifies the signal for the loudspeaker. The symbol for the AF amplifier is the same as for the radio-frequency amplifier.
+6. Loudspeaker: The loudspeaker now converts the signal from an electrical oscillation into a sound wave and so makes it audible again.
 
 <indepth>
-Beim *Bandpassfilter* symbolisieren die beiden durchgestrichenen Wellen, dass Frequenzen ober- und unterhalb des gewünschten Frequenzbereichs gesperrt werden. Die mittlere Welle steht dafür, dass der gewünschte Frequenzbereich durchgelassen wird.
+In the *band-pass filter* symbol, the two crossed-out waves indicate that frequencies above and below the wanted frequency range are blocked. The middle wave stands for the wanted frequency range being let through.
 </indepth>
 
 <indepth>
-Der *Demodulator* wird durch das Schaltzeichen der Diode dargestellt, die das wichtigste Bestandteil vieler Demodulatoren ist. Die Funktionsweise einer Diode wird später im Kapitel "Bauteile und Schaltkreise" erklärt.
+The *demodulator* is represented by the circuit symbol of the diode, which is the most important part of many demodulators. How a diode works is explained later, in the chapter on components and circuits.
 </indepth>
 
 [question:NF201]
 
-Je nachdem wie ein Empfänger genau aufgebaut ist, hat er unterschiedliche Eigenschaften. Eine wichtige Eigenschaft ist die Empfindlichkeit. Damit wird die Fähigkeit des Empfängers bezeichnet, schwache Signale zu empfangen. Je empfindlicher ein Empfänger ist, desto schwächere Signale kann er empfangen.
+Depending on exactly how a receiver is built, it has different properties. One important property is its sensitivity. This is the ability of the receiver to receive weak signals. The more sensitive a receiver is, the weaker the signals it can receive.
 
 [question:NF303]

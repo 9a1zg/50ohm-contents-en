@@ -1,8 +1,8 @@
-### Nahselektion oder Trennschärfe
+### Close-in selectivity, or selectivity
 
-* Fähigkeit des Empfängers, das gewünschte Empfangssignal möglichst gut von benachbarten Signalen trennen zu können
-* Wird maßgeblich durch die ZF-Filter bestimmt
-* Legt die Qualität des gesamten Empfangszweiges fest
+* Ability of the receiver to separate the wanted received signal as well as possible from adjacent signals
+* Largely determined by the IF filters
+* Defines the quality of the entire receive path
 
 ---
 [question:AF115]

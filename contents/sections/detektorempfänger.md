@@ -1,22 +1,22 @@
-Einer der ersten und einfachsten Empfänger für den Rundfunkempfang (AM) war der Detektorempfänger (vgl. Abbildung [ref:am_detektor]).
+One of the first and simplest receivers for broadcast reception (AM) was the crystal set (see Figure [ref:am_detektor]).
 
 <margin>
-[photo:193:am_detektor:Detektorempfänger]
+[photo:193:am_detektor:Crystal set]
 </margin>
 
-Beim Detektorempfänger wird ein Parallelschwingkreis, bestehend aus Spule und abstimmbarem Kondensator, durch ein empfangenes Rundfunksignal [ref:am_detektor_antenne], welches über die Antenne zugeführt wird, zum Schwingen angeregt. Voraussetzung hierfür ist, dass der Schwingkreis auf die Frequenz eines Rundfunksenders abgestimmt wird. Mittels einer Gleichrichter-Diode (Detektor) wird die im Empfangssignal enthaltene AM-Modulation gleichgerichtet (vgl. Abbildung [ref:am_detektor_diode]). Anschließend kann das demodulierte Signal mittels eines hochohmigen Kopfhörers direkt hörbar gemacht werden (vgl. Abbildung [ref:am_detektor_kopfhoerer]). Dies ist möglich, da der Kopfhörer träge ist und den einzelnen Stromstößen nicht folgen kann. Er wirkt quasi wie ein Tiefpass und stellt so die Hüllkurve wieder her, was der gewünschten Niederfrequenz entspricht.
+In the crystal set, a parallel tuned circuit consisting of an inductor and a variable capacitor is set oscillating by a received broadcast signal (Figure [ref:am_detektor_antenne]) fed in from the antenna. The condition for this is that the tuned circuit is tuned to the frequency of a broadcast station. A rectifier diode (the detector) rectifies the AM modulation contained in the received signal (see Figure [ref:am_detektor_diode]). The demodulated signal can then be made audible directly with high-impedance headphones (see Figure [ref:am_detektor_kopfhoerer]). This is possible because the headphones are sluggish and cannot follow the individual current pulses. They act more or less like a low-pass filter and so restore the envelope, which corresponds to the wanted audio frequency.
 
 ---
 
 <margin>
-[picture:799:am_detektor:Schaltbild eines einfachen Detektorempfängers]
-[picture:800:am_detektor_antenne:Signal an der Antenne]
-[picture:801:am_detektor_diode:Gleichgerichtetes Signal an der Diode]
-[picture:802:am_detektor_kopfhoerer:Hörbares NF Signal]
+[picture:799:am_detektor:Circuit diagram of a simple crystal set]
+[picture:800:am_detektor_antenne:Signal at the antenna]
+[picture:801:am_detektor_diode:Rectified signal at the diode]
+[picture:802:am_detektor_kopfhoerer:Audible AF signal]
 </margin>
 
-Ein Detektorempfänger verfügt nicht über eine Batterie, sondern bezieht seine Energie direkt aus dem empfangenen Signal. Daher sind Detektorempfänger normalerweise für den Empfang von starken Rundfunksendern im Lokalbereich verwendbar und nur eingeschränkt für den Fernempfang von Sendern im Fernbereich.
+A crystal set has no battery, but draws its energy directly from the received signal. Crystal sets are therefore normally usable for receiving strong local broadcast stations, and only to a limited extent for long-distance reception of distant stations.
 
-Der Kopfhörer muss beim Detektorempfänger hochohmig sein, damit dieser den Schwingkreis nicht zu sehr bedämpft und die Selektivität und Empfangsleistung des Empfängers nicht zu sehr beeinträchtigt.
+In a crystal set the headphones must have a high impedance, so that they do not damp the tuned circuit too much and do not impair the selectivity and receiving performance of the receiver too much.
 
 [question:EF101]
