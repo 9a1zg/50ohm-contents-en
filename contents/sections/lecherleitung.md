@@ -1,42 +1,42 @@
-Eine sogenannte *Lecherleitung* besteht aus zwei parallelen Leitern, auf denen sich durch die Überlagerung von hin- und rücklaufender Welle stehende HF-Wellen ausbilden. Sie kann am Ende entweder offen (vgl. Abbildung [ref:a_lecherleitung_offen]) oder kurzgeschlossen (vgl. Abbildung [ref:a_lecherleitung_kurzgeschlossen]) sein. In beiden Fällen entstehen charakteristische Strom- und Spannungsverteilungen, die beispielsweise zur Bestimmung der Wellenlänge genutzt werden können.
+A *Lecher line*, as it is called, consists of two parallel conductors on which standing RF waves form through the superposition of the forward and reflected waves. It can be either open at the end (see Figure [ref:a_lecherleitung_offen]) or short-circuited (see Figure [ref:a_lecherleitung_kurzgeschlossen]). In both cases characteristic current and voltage distributions arise, which can be used, for example, to determine the wavelength.
 
 <margin>
-[picture:1112:a_lecherleitung_offen:Lecherleitung mit offenem Ende]
+[picture:1112:a_lecherleitung_offen:Lecher line with an open end]
 </margin>
 
-Bei einer am Ende *offenen* Lecherleitung kann am Leitungsende kein Strom fließen. Dort befindet sich daher ein Stromminimum und gleichzeitig ein Spannungsmaximum. Aus dem Ohmschen Gesetz
+On a Lecher line that is *open* at the end, no current can flow at the end of the line. There is therefore a current minimum there and, at the same time, a voltage maximum. From Ohm's law
 
 $R=\frac{U}{I}$
 
-folgt, dass das Verhältnis von Spannung zu Strom an dieser Stelle idealisiert unendlich groß wird, also $R=\infty$. Strom und Spannung sind entlang der Leitung räumlich um $\frac{\lambda}{4}$ gegeneinander verschoben. Im Abstand von $\frac{\lambda}{4}$ vom offenen Leitungsende befindet sich daher ein Strommaximum und gleichzeitig ein Spannungsminimum. Da dort die Spannung idealisiert gegen null geht, ergibt sich nach dem Ohmschen Gesetz entsprechend $R=0$. Nach jeweils weiteren $\frac{\lambda}{4}$ wechseln sich Strommaximum und Spannungsmaximum ab. Nach einer Strecke von $\frac{\lambda}{2}$ liegt wieder die gleiche Strom- und Spannungsverteilung vor, wie in Abbildung [ref:a_lecherleitung_offen] dargestellt.
+it follows that the ratio of voltage to current at this point becomes, ideally, infinitely large, i.e. $R=\infty$. Along the line, current and voltage are displaced from each other in space by $\frac{\lambda}{4}$. At a distance of $\frac{\lambda}{4}$ from the open end of the line there is therefore a current maximum and, at the same time, a voltage minimum. Since the voltage there ideally tends to zero, Ohm's law correspondingly gives $R=0$. After each further $\frac{\lambda}{4}$, current maximum and voltage maximum alternate. After a distance of $\frac{\lambda}{2}$ the same current and voltage distribution is present again, as shown in Figure [ref:a_lecherleitung_offen].
 
 ---
 
-Bei einer am Ende *kurzgeschlossenen* Lecherleitung können die beiden Leiter am Leitungsende keine unterschiedliche Spannung besitzen. Dort gilt daher $U=0$. Es befindet sich dort ein Spannungsminimum und gleichzeitig ein Strommaximum. Mit $R=\frac{U}{I}$ folgt damit idealisiert $R=0$. Im Abstand von $\frac{\lambda}{4}$ vom Kurzschluss befindet sich dagegen ein Spannungsmaximum und gleichzeitig ein Stromminimum. Da der Strom dort idealisiert gegen null geht, wird das Verhältnis $\frac{U}{I}$ sehr groß und es gilt idealisiert $R=\infty$. Auch bei der kurzgeschlossenen Lecherleitung wechseln sich Strom- und Spannungsmaxima nach jeweils $\frac{\lambda}{4}$ ab. Nach einer Strecke von $\frac{\lambda}{2}$ liegt wieder die gleiche Strom- und Spannungsverteilung vor, wie in Abbildung [ref:a_lecherleitung_kurzgeschlossen] dargestellt.
+On a Lecher line that is *short-circuited* at the end, the two conductors cannot have different voltages at the end of the line. There, therefore, $U=0$. There is a voltage minimum there and, at the same time, a current maximum. With $R=\frac{U}{I}$ this ideally gives $R=0$. At a distance of $\frac{\lambda}{4}$ from the short circuit, on the other hand, there is a voltage maximum and, at the same time, a current minimum. Since the current there ideally tends to zero, the ratio $\frac{U}{I}$ becomes very large, and ideally $R=\infty$. On the short-circuited Lecher line, too, current and voltage maxima alternate every $\frac{\lambda}{4}$. After a distance of $\frac{\lambda}{2}$ the same current and voltage distribution is present again, as shown in Figure [ref:a_lecherleitung_kurzgeschlossen].
 
 
 <margin>
-[picture:1111:a_lecherleitung_kurzgeschlossen:Lecherleitung mit kurzgeschlossenem Ende]
+[picture:1111:a_lecherleitung_kurzgeschlossen:Lecher line with a short-circuited end]
 </margin>
 
-Welche Frequenz sich auf einer Lecherleitung als Resonanz ausbildet, hängt im Wesentlichen von ihrer Länge ab. Ändert sich die Leitungslänge, ändert sich damit auch die Resonanzfrequenz.
+Which frequency forms as a resonance on a Lecher line depends mainly on its length. If the length of the line changes, the resonant frequency changes too.
 
 [question:AG320]
 
-Bei einer Leitungslänge von $\frac{\lambda}{2}$ wiederholt sich die Strom- und Spannungsverteilung vollständig. Eine Lastimpedanz am Leitungsende erscheint daher am Leitungseingang wieder mit demselben Wert.
+With a line length of $\frac{\lambda}{2}$ the current and voltage distribution repeats completely. A load impedance at the end of the line therefore appears again at the input of the line with the same value.
 
-Ein besonders wichtiger Spezialfall ergibt sich, wenn die Lecherleitung bei der betrachteten Frequenz eine elektrische Länge von genau $\frac{\lambda}{4}$ besitzt. Wie wir an den Strom- und Spannungsverteilungen gesehen haben, vertauschen sich über eine Strecke von $\frac{\lambda}{4}$ ein Strommaximum und ein Spannungsmaximum miteinander. Dadurch wird auch eine hohe Impedanz in eine niedrige Impedanz und umgekehrt transformiert.
+A particularly important special case arises when the Lecher line has an electrical length of exactly $\frac{\lambda}{4}$ at the frequency under consideration. As we have seen from the current and voltage distributions, a current maximum and a voltage maximum swap places over a distance of $\frac{\lambda}{4}$. As a result, a high impedance is also transformed into a low impedance and vice versa.
 
-Bei einer am Ende *offenen* $\frac{\lambda}{4}$-Leitung ist die Impedanz am Leitungsende idealisiert unendlich groß. Nach einer Strecke von $\frac{\lambda}{4}$ befindet sich am Leitungseingang dagegen ein Spannungsminimum und ein Strommaximum. Die Eingangsimpedanz ist daher nahezu null ($Z_\mathrm{in} \approx \qty{0}{\ohm}$). Ein offenes Leitungsende wird durch eine $\frac{\lambda}{4}$ lange Leitung also näherungsweise in einen Kurzschluss transformiert.
+On a $\frac{\lambda}{4}$ line that is *open* at the end, the impedance at the end of the line is, ideally, infinitely large. After a distance of $\frac{\lambda}{4}$, at the input of the line, there is on the other hand a voltage minimum and a current maximum. The input impedance is therefore almost zero ($Z_\mathrm{in} \approx \qty{0}{\ohm}$). An open end of a line is thus transformed approximately into a short circuit by a $\frac{\lambda}{4}$ long line.
 
 ---
 
 [question:AG411]
 
-Umgekehrt besitzt eine am Ende *kurzgeschlossene* Leitung am Leitungsende die Impedanz $\qty{0}{\ohm}$. Nach einer Strecke von $\frac{\lambda}{4}$ liegt am Leitungseingang ein Spannungsmaximum und ein Stromminimum vor. Die Eingangsimpedanz wird dort daher sehr groß ($Z_\mathrm{in} \rightarrow \infty$). Ein Kurzschluss am Leitungsende wird durch eine $\frac{\lambda}{4}$ lange Leitung somit näherungsweise in einen Leerlauf transformiert.
+Conversely, a line that is *short-circuited* at the end has an impedance of $\qty{0}{\ohm}$ at the end of the line. After a distance of $\frac{\lambda}{4}$, at the input of the line, there is a voltage maximum and a current minimum. The input impedance there therefore becomes very large ($Z_\mathrm{in} \rightarrow \infty$). A short circuit at the end of the line is thus transformed approximately into an open circuit by a $\frac{\lambda}{4}$ long line.
 
 <indepth>
-Das Verhalten einer $\frac{\lambda}{4}$-Leitung lässt sich auch mit Schwingkreisen vergleichen. Eine offene $\frac{\lambda}{4}$-Leitung besitzt am Eingang eine sehr kleine Impedanz und verhält sich dort ähnlich wie ein *Reihenschwingkreis in Resonanz*. Eine kurzgeschlossene $\frac{\lambda}{4}$-Leitung besitzt am Eingang dagegen eine sehr große Impedanz und verhält sich ähnlich wie ein *Parallelschwingkreis in Resonanz*.
+The behaviour of a $\frac{\lambda}{4}$ line can also be compared with tuned circuits. An open $\frac{\lambda}{4}$ line has a very low impedance at its input and behaves there much like a *series tuned circuit at resonance*. A short-circuited $\frac{\lambda}{4}$ line, on the other hand, has a very high impedance at its input and behaves much like a *parallel tuned circuit at resonance*.
 </indepth>
 
-Im nächsten Abschnitt betrachten wir, wie sich mit Hilfe von $\frac{\lambda}{4}$-Leitungen gezielt Impedanztransformationen durchführen lassen.
+In the next section we look at how $\frac{\lambda}{4}$ lines can be used to carry out specific impedance transformations.

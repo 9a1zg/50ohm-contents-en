@@ -1,28 +1,28 @@
 <left>
-* Ein einfaches Multimeter kann keine frequenzabhängigen Widerstände messen
-* Dazu wird ein *vektorieller Netzwerkanalysator (VNA)* verwendet
+* A simple multimeter cannot measure frequency-dependent resistances
+* A *vector network analyser (VNA)* is used for this
 </left>
 <right>
-* Aktives Messgerät
-* Misst das Verhältnis von Spannung und Strom bei einer Frequenz
-* Oft kann ein Frequenzbereich angegeben werden
+* Active measuring instrument
+* Measures the ratio of voltage and current at a given frequency
+* A frequency range can often be specified
 </right>
 
 ---
-## Anwendungen
+## Applications
 
 <left>
-* Große und kleine Widerstände eines Schwingkreis
-* Resonanzfrequenz eines Schwingkreis
-* Filterverhalten
-* Impedanzmessung
-* Stehwellenverhältnisse
+* High and low resistances of a tuned circuit
+* Resonant frequency of a tuned circuit
+* Filter response
+* Impedance measurement
+* Standing wave ratios
 </left>
 <right>
-[photo:201:e_vna_tiefpassmessung:Messung eines Tiefpassfilters mit Grenzfrequenz bei $\qty{30}{\mega\hertz}$]
+[photo:201:e_vna_tiefpassmessung:Measurement of a low-pass filter with its cut-off frequency at $\qty{30}{\mega\hertz}$]
 </right>
 <note>
-* Im Bild wird von $\qtyrange{0}{100}{\mega\hertz}$ gemessen und der Durchgang bis ca. $\qty{30}{\mega\hertz}$ ist erkennbar
+* The picture shows a measurement over $\qtyrange{0}{100}{\mega\hertz}$; the passband up to approx. $\qty{30}{\mega\hertz}$ can be seen
 </note>
 ---
 [question:EI201]
@@ -33,12 +33,12 @@
 ---
 [question:EI204]
 ---
-## Kalibrierung
+## Calibration
 
-* Vor der Benutzung kalibrieren
-* Zustand *offen*: unendlicher Widerstand
-* Zustand *Kurzschluss*: Widerstand nahe Null
-* Zustand *angepasst*: z.B. mit $\qty{50}{\ohm}$ Widerstand sollte ein SWR von $\num{1}$ angezeigt werden
+* Calibrate before use
+* *Open* condition: infinite resistance
+* *Short circuit* condition: resistance close to zero
+* *Matched* condition: e.g. with a $\qty{50}{\ohm}$ resistor an SWR of $\num{1}$ should be displayed
 
 ---
 [question:EI205]

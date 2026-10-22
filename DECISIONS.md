@@ -501,6 +501,26 @@ and the checker's "Provjera" section).
   the male part (*N-Stecker: für … hohe Leistung*), it is *connector*, as in
   EG303. The connector chapters that follow (e.g. swl_steckverbinder) keep
   this. (Unit nea_antennen_uebertragungsleitungen_3.)
+- ***Mantelwellen* → common-mode currents, *Mantelstrom* → sheath current,
+  and the German word named once where the course defines the effect.**
+  The glossary's *common-mode currents* stays the term for *Mantelwellen*
+  (as in uebertragungsleitungen_2 and the EMC chapters), but the course and
+  the questions it embeds also speak of *Mantelströme* — EG404 and AG428
+  "sheath current", AG425 and AG426 "sheath currents" for *Mantelwellen*
+  (no echo of the answers' "common-mode components"). So that the reader
+  sees one effect under both names, mantelwellen_1 introduces it as
+  "*common-mode currents* (in German *Mantelwellen*, literally "sheath
+  waves")"; afterwards *Mantelwellen* is *common-mode currents* and
+  *Mantelstrom* *sheath current*, and *Mantelstrom mit zugehöriger
+  Mantelwelle* (mantelwellen_2) is "a sheath current, with its associated
+  sheath wave". Where the text gives two German names for the same device,
+  *stromkompensierte Drossel* … *auch als Mantelwellensperre bezeichnet*,
+  it is "*current-compensated choke* … also known as a *common-mode
+  choke*", as AG426 has the first; *Mantelwellensperre* alone stays
+  *common-mode choke*. *Umwegleitung* is the **delay line** throughout,
+  with "$\lambda/2$" where the German gives it (AG420, AG423, AG424), not the
+  glossary's descriptive "half-wave coaxial balun". (Unit
+  nea_antennen_uebertragungsleitungen_4.)
 
 ## Open questions for DARC
 

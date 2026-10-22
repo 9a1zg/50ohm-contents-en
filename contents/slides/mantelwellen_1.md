@@ -1,25 +1,25 @@
-* Ziel beim Aufbau einer Funkanlage: Nur die Antenne soll Signale abstrahlen bzw. aufnehmen
-* Dazu eignen sich geschirmte Leitungen, z.B. Koaxialkabel
-* Im Idealfall strahlen sie selbst nicht oder nehmen keine Strahlung auf
+* Aim when setting up a radio installation: only the antenna should radiate or pick up signals
+* Screened lines, e.g. coaxial cable, are suitable for this
+* Ideally they neither radiate nor pick up radiation themselves
 
 ---
 <left>
-* Unsymmetrisches Koaxialkabel wird an symmetrischen Dipol angeschlossen
-* Auf der Außenseite des Koaxialkabels können hochfrequente Ströme fließen
-* Dadurch strahlt das Kabel selbst $\rightarrow$ *Mantelwellen*
-* Mantelströme fehlen, was zur Verformung der Richtcharakteristik führt
+* Unbalanced coaxial cable is connected to a balanced dipole
+* RF currents can flow on the outside of the coaxial cable
+* As a result the cable itself radiates $\rightarrow$ *common-mode currents*
+* Sheath currents are missing, which distorts the radiation pattern
 </left>
 <right>
-[picture:633:e_mantelwelle_effekt:Mantelstrom bei $I_3$]
+[picture:633:e_mantelwelle_effekt:Sheath current at $I_3$]
 </right>
 <note>
-Koaxialkabel kann man sich als drei Leiter vorstellen:
+A coaxial cable can be thought of as three conductors:
   
-1. Außenseite des Innenleiters
-2. Innenseite des Außenleiters
-3. Außenseite des Außenleiters
+1. Outside of the inner conductor
+2. Inside of the outer conductor
+3. Outside of the outer conductor
 
-Mantelströme hängen mit dem Skineffekt zusammen, der in Klasse A kommt
+Sheath currents are related to the skin effect, which comes in Class A
 </note>
 ---
 [question:EG405]
@@ -28,10 +28,10 @@ Mantelströme hängen mit dem Skineffekt zusammen, der in Klasse A kommt
 ---
 [question:EG404]
 ---
-## Mantelwellen verhindern
+## Preventing common-mode currents
 
-* Durch ein *Symmetrierglied*, einen Balun (balanced-unbalanced)
-* Oder zur Dämpfung Koaxialkabel auf einen Ferritkern wickeln
+* With a *balancing device*, a balun (balanced-unbalanced)
+* Or, to attenuate them, wind the coaxial cable on a ferrite core
 
 ---
 [question:EG407]

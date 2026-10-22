@@ -1,51 +1,51 @@
-Idealerweise sind die Ströme durch den Innen- und Außenleiter eines Koaxialkabels genau gleich groß und in der Richtung entgegengesetzt. Deren Summe ist also Null und man spricht dann von einem reinen *Gegentaktsignal*. Genau dann treten keine Mantelwellen auf.
+Ideally, the currents through the inner and outer conductors of a coaxial cable are exactly equal in size and opposite in direction. Their sum is therefore zero, and this is called a pure *differential-mode signal*. Precisely then, no common-mode currents occur.
 
-Ist die Summe des Signals hingegen ungleich Null, dann ist ein sogenanntes *Gleichtaktsignal* vorhanden. Der Gleichtaktanteil eines Stroms im Koaxialkabel fließt stets auf der Außenseite des Außenleiters und ist damit ein Mantelstrom mit zugehöriger Mantelwelle um das Koaxialkabel herum.
+If, on the other hand, the sum of the signal is not zero, what is called a *common-mode signal* is present. The common-mode component of a current in the coaxial cable always flows on the outside of the outer conductor and is therefore a sheath current, with its associated sheath wave around the coaxial cable.
 
 [question:AG425]
 
-Dass ein um einen Ferritkern gewickeltes Koaxialkabel zur Unterdrückung von Mantelwellen geeignet sind, haben wir bereits gelernt. Dies ist eine Form der sogenannten *stromkompensierten Drossel*.
+We have already learnt that a coaxial cable wound on a ferrite core is suitable for suppressing common-mode currents. This is one form of what is called the *current-compensated choke*.
 
-Eine Drossel ist eine Spule, die hochfrequente Ströme blockieren soll. Die stromkompensierte Drossel ist eine Bauform der Drosselspule, bei der zwei getrennte Wicklungen auf den selben Magnetkern gewickelt werden. Hierbei wird die stromkompensierte Drossel so beschaltet, dass Gegentaktsignale, d. h. Signale bei denen der Strom in der einen Wicklung genau entgegengesetzt der anderen Wicklung sind und ansonsten die gleiche Größe aufweisen, kein Magnetfeld in den Kern induzieren. Die stromkompensierte Drossel lässt also Gegentaktsignale ungehindert hindurch. Gleichtaktanteile jedoch, also z. B. Ströme die nur auf dem Außenleiter und damit nur in einer Wicklung fließen, werden durch die Induktivität blockiert.
+A choke is an inductor intended to block RF currents. The current-compensated choke is a type of choke in which two separate windings are wound on the same magnetic core. The current-compensated choke is connected so that differential-mode signals, i.e. signals in which the current in one winding is exactly opposite to that in the other winding and otherwise of the same size, induce no magnetic field in the core. The current-compensated choke therefore lets differential-mode signals pass unhindered. Common-mode components, however, e.g. currents that flow only on the outer conductor and therefore only in one winding, are blocked by the inductance.
 
 [question:AG426]
 
 <margin>
-[picture:633:e_mantelwellen:Mantelwellen]
+[picture:633:e_mantelwellen:Common-mode currents]
 </margin>
 
 ---
 
-Eine Alternative zur stromkompensierten Drossel stellt ein HF-Trenntrafo dar. Da die Primär- und die Sekundärwicklung nicht miteinander verbunden sind, muss ein Strom der an einem Pol in den Trenntrafo hineinfließt (zumindest näherungsweise) auch in gleicher Größe aus dem anderen Pol wieder hinausfließen. Ein Gleichtaktanteil ist damit ausgeschlossen.
+An alternative to the current-compensated choke is an RF isolating transformer. Since the primary and secondary windings are not connected to each other, a current that flows into the isolating transformer at one terminal must (at least approximately) also flow out again at the other terminal with the same size. A common-mode component is thus ruled out.
 
 <indepth>
-Da zwischen den Windungen der Spule eines Trenntrafos eine Kapazität entsteht und die Spule auch eine Kapazität gegenüber der anderen Spule ausbildet, unterdrückt auch ein Trenntrafo den Gleichtaktanteil eines Signals nicht vollständig.
+Since capacitance forms between the turns of a winding of an isolating transformer, and the winding also has capacitance to the other winding, even an isolating transformer does not suppress the common-mode component of a signal completely.
 </indepth>
 
 [question:AJ115]
 
-Wenn ein Koaxialkabel frei von HF-Gleichtaktsignalen ist, dann weist der Außenleiter keine hochfrequente Spannung gegenüber der Erde auf. Dies liegt daran, dass sich bei einem Gegentaktsignal, also entgegengesetzten Strömen im Innen- und Außenleiter, ein elektrisches Feld ausschließlich zwischen Innen- und Außenleiter ausbildet. Von außen betrachtet heben sich die Wirkungen der beiden Ströme auf, da sie in der Summe Null ergeben. Das Vorhandensein von Mantelwellen hängt also unmittelbar mit dem Vorhandensein von HF-Spannungen auf dem Außenleiter zusammen.
+If a coaxial cable is free of RF common-mode signals, the outer conductor has no RF voltage to earth. This is because with a differential-mode signal, i.e. opposite currents in the inner and outer conductors, an electric field forms only between the inner and outer conductors. Seen from outside, the effects of the two currents cancel, since their sum is zero. The presence of common-mode currents is therefore directly linked to the presence of RF voltages on the outer conductor.
 
-Genau solche Spannungen am Außenleiter entstehen z. B., wenn wir eine symmetrische Antenne an das Kabel anschließen, denn am Speisepunkt weist jeder Dipolschenkel eine Spannung gegenüber Erde auf. Verbinden wir die Schenkel jeweils mit einem Leiter des Koaxialkabels, so wird auch der Außenleiter eine Spannung gegenüber Erde aufweisen.
+Exactly such voltages on the outer conductor arise, for example, when we connect a balanced antenna to the cable, because at the feed point each dipole leg has a voltage to earth. If we connect each leg to one conductor of the coaxial cable, the outer conductor will also have a voltage to earth.
 
-Gut geerdete Antennen hingegen, z. B. eine Groundplane Antenne mit vielen gut abgestimmten oder vergrabenen Radialen, weisen am Speisepunkt der Radiale eine Spannung von nahezu Null gegenüber der Erde auf. Schlecht geerdete Groundplane-Antennen hingegen können anfällig für Mantelwellen sein.
+Well-earthed antennas, on the other hand, e.g. a ground-plane antenna with many well-tuned or buried radials, have a voltage of almost zero to earth at the feed point of the radials. Poorly earthed ground-plane antennas, by contrast, can be prone to common-mode currents.
 
-Eine weitere Möglichkeit, wie Mantelwellen entstehen können, ist durch kontaktlose Einkopplung in den Koax-Schirm. Führt man beispielsweise ein Speisekabel parallel zu einem Dipolschenkel, so entsteht eine Kopplung über das elektromagnetische Nahfeld der Antenne.
+Another way in which common-mode currents can arise is through contactless coupling into the coax screen. If, for example, a feeder is run parallel to a dipole leg, coupling occurs via the electromagnetic near field of the antenna.
 
 [question:AG427]
 
-Bei vollständig symmetrischen Antennen kann ein sogenannter Spannungsbalun eingesetzt werden, um die Ströme im Koaxkabel zu symmetrieren. Eine beliebte Bauform ist ein Spartransformator, bei dem das Koaxialkabel in der Mitte und am Ende einer Spule angeschlossen wird, und die Antenne mit den beiden Enden der Spule verbunden wird.
+With completely balanced antennas, what is called a voltage balun can be used to balance the currents in the coax. A popular design is an autotransformer, in which the coaxial cable is connected to the centre and to one end of a coil, and the antenna to the two ends of the coil.
 
 % TODO: Bild Spannungsbalun / Spartransformator
 
-Bei dieser Bauform kommt es neben der gewünschten Symmetrierung zusätzlich zu einer Verdoppelung der Spannung ($ü = 2$) sowie einer entsprechenden Halbierung des Stroms, was einer 1:4 Impedanztransformation entspricht, d. h. an ein $\qty{50}{\ohm}$ Koaxialkabel ist eine Antenne mit einem Speisewiderstand von möglichst $\qty{200}{\ohm}$ anzuschließen.
+Besides the desired balancing, this design also doubles the voltage ($ü = 2$) and correspondingly halves the current, which corresponds to a 1:4 impedance transformation; i.e. a $\qty{50}{\ohm}$ coaxial cable should be connected to an antenna with a feed-point impedance of $\qty{200}{\ohm}$ if possible.
 
 [question:AG421]
 [question:AG422]
 
-Diese Bauform ist jedoch nur geeignet Mantelwellen zu unterdrücken, wenn sich die angeschlossene Antenne tatsächlich symmetrisch verhält und sie nicht aufgrund von Umgebungseinflüssen asymmetrisch belastet wird.
+However, this design is only suitable for suppressing common-mode currents if the connected antenna actually behaves in a balanced way and is not loaded unevenly by influences from its surroundings.
 
-Allen Bauteilen, die der Unterdrückung von Mantelwellen dienen, ist gemein, dass dennoch eine "kontaktlose" Einkopplung über die elektromagnetischen Nahfelder der Antennen direkt auf den Koaxschirm, also hinter der Mantelwellensperre, erfolgen kann. Hier kann z. B. eine weitere, zusätzliche Mantelwellensperre mit etwas Entfernung zur Antenne helfen.
+What all components used to suppress common-mode currents have in common is that "contactless" coupling via the electromagnetic near fields of the antennas directly onto the coax screen, i.e. beyond the common-mode choke, can still occur. Here, for example, a further, additional common-mode choke some distance from the antenna can help.
 
 [question:AG428]
 [question:AG429]

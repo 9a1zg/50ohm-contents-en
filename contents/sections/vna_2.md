@@ -1,14 +1,14 @@
-In der Klasse E haben wir bereits den *vektoriellen Netzwerkanalysator* (VNA) kennengelernt (vgl. Abbildung [ref:a_vna_swr]). In der Klasse A wollen wir uns seine Funktionsweise etwas genauer ansehen.
+In Class E we have already met the *vector network analyser* (VNA) (see Figure [ref:a_vna_swr]). In Class A we want to look at how it works in a little more detail.
 
-Für eine Messung erzeugt der VNA zunächst ein HF-Signal mit einer festgelegten Startfrequenz und gibt dieses an das Messobjekt, beispielsweise eine Antenne oder einen Schwingkreis, aus. Anschließend misst er das vom Messobjekt zurückkommende beziehungsweise reflektierte Signal. Dabei werden sowohl dessen Amplitude als auch dessen Phase erfasst. Um den Einfluss von Störungen zu verringern, können für einen Frequenzpunkt auch mehrere Messungen durchgeführt und gemittelt werden.
+For a measurement, the VNA first generates an RF signal at a set start frequency and applies it to the device under test, for example an antenna or a tuned circuit. It then measures the signal coming back, or reflected, from the device under test. Both its amplitude and its phase are recorded. To reduce the effect of interference, several measurements can also be made at one frequency point and averaged.
 
-Nach der Messung wird die Frequenz um einen festgelegten Schritt erhöht und der Vorgang wiederholt. Auf diese Weise durchläuft der VNA schrittweise den gesamten Bereich von der Start- bis zur Stoppfrequenz. Man bezeichnet diesen Vorgang auch als *Frequenz-Sweep*, oder früher gelegentlich auch als *Wobbeln*.
+After the measurement, the frequency is increased by a set step and the process is repeated. In this way the VNA steps through the whole range from the start frequency to the stop frequency. This process is also called a *frequency sweep*, or formerly, now and then, *wobbulation*.
 
-Aus den Messwerten für die einzelnen Frequenzpunkte kann der VNA verschiedene Größen bestimmen und über der Frequenz darstellen. Dazu gehören beispielsweise die Impedanz des Messobjekts und das Stehwellenverhältnis (SWR). So lässt sich beispielsweise unmittelbar erkennen, bei welchen Frequenzen eine Antenne gut angepasst ist beziehungsweise eine Resonanz besitzt.
+From the measured values at the individual frequency points, the VNA can determine various quantities and display them against frequency. These include, for example, the impedance of the device under test and the standing wave ratio (SWR). This shows at once, for example, at which frequencies an antenna is well matched or has a resonance.
 
 <margin>
-[photo:323:a_vna_swr:SWR-Messung einer Endgespeisten Drahtantenne. Das SWR ist nahezu $1$ bei $\qty{14}{\mega\hertz}$]
-[picture:526:a_vna_swr_2:Möglicher SWR-Verlauf einer Antenne.]
+[photo:323:a_vna_swr:SWR measurement of an end-fed wire antenna. The SWR is close to $1$ at $\qty{14}{\mega\hertz}$]
+[picture:526:a_vna_swr_2:Possible SWR curve of an antenna.]
 </margin>
 
 [question:AI201]
@@ -17,10 +17,10 @@ Aus den Messwerten für die einzelnen Frequenzpunkte kann der VNA verschiedene G
 
 ---
 
-Eine mögliche Anzeigeform des VNAs ist die Aufteilung der Impedanz in Wirk- und Blindanteil (Wirkwiderstand $R$ und Blindwiderstand $X$). Der Wirkwiderstand wird oft in $\unit{\ohm}$ und der Blindwiderstand gelegentlich auch als $j\unit{\ohm}$ angegeben. Die Anzeigen verschiedener Geräte sind nicht einheitlich. Das $j$ entstammt einer Schreibweise aus der Elektrotechnik, bei der dieses für die sogenannte imaginäre Einheit ($i$) der Mathematik steht. Positive Blindwiderstände stehen für induktives und negative Blindwiderstände für kapazitives Verhalten.
+One way a VNA can display the impedance is by splitting it into its resistive and reactive parts (resistance $R$ and reactance $X$). The resistance is often given in $\unit{\ohm}$, and the reactance sometimes also as $j\unit{\ohm}$. Different instruments do not all display it in the same way. The $j$ comes from a notation used in electrical engineering, in which it stands for what mathematics calls the imaginary unit ($i$). Positive reactances indicate inductive behaviour, negative reactances capacitive behaviour.
 
 <indepth>
-*Imaginäre Zahlen* sind ein beliebtes Hilfsmittel in der Elektrotechnik und der Mathematik. Um Gleichungen wie $x^2 = -1$ lösen zu können, hat man sich eine sogenannte imaginäre Zahl ($i$) ausgedacht, die mit sich selbst multipliziert eine negative Zahl ergibt: $i^2 = -1$. Keine reelle Zahl erfüllt eine solche Gleichung, da eine negative Zahl mal einer negativen Zahl eine positive Zahl ist. Deshalb bezeichnet man $i$ als "imaginär". Diese "ausgedachte" Zahl ergibt mit sich selbst multipliziert eine negative Zahl, nämlich $-1$. Addiert man reelle Zahlen (z. B. $54$) mit einer imaginären Zahl (z. B. $-12i$), so ergibt sich eine komplexe Zahl: $54 - 12i$. Eine komplexe Zahl kann z. B. verwendet werden, um einen Wirk- und Blindanteil eines Widerstands zu beschreiben. Auch kann man komplexe Zahlen in eine Amplitude und eine Phase umrechnen. Anstelle des Buchstabens $i$ verwendet man in der Elektrotechnik den Buchstaben $j$, um eine Verwechselung mit dem Formelzeichen $i$ (für Ströme) zu vermeiden.
+*Imaginary numbers* are a popular tool in electrical engineering and mathematics. To be able to solve equations such as $x^2 = -1$, a so-called imaginary number ($i$) was invented which, multiplied by itself, gives a negative number: $i^2 = -1$. No real number satisfies such an equation, since a negative number times a negative number is a positive number. This is why $i$ is called "imaginary". This "invented" number, multiplied by itself, gives a negative number, namely $-1$. Adding a real number (e.g. $54$) to an imaginary number (e.g. $-12i$) gives a complex number: $54 - 12i$. A complex number can be used, for example, to describe the resistive and reactive parts of an impedance. Complex numbers can also be converted into an amplitude and a phase. In electrical engineering the letter $j$ is used instead of $i$, to avoid confusion with the symbol $i$ (for currents).
 </indepth>
 
 [question:AI204]
@@ -29,7 +29,7 @@ Eine mögliche Anzeigeform des VNAs ist die Aufteilung der Impedanz in Wirk- und
 
 ---
 
-Viele VNAs verfügen über die Möglichkeit, den SWR-Verlauf über die Frequenz grafisch darzustellen. Liegt die Resonanzfrequenz einer Antenne zu tief, weiß man, dass diese gekürzt werden sollte. Liegt sie zu hoch, dann müsste die Antenne verlängert werden.
+Many VNAs can display the SWR curve against frequency graphically. If the resonant frequency of an antenna is too low, you know that the antenna should be shortened. If it is too high, the antenna would have to be lengthened.
 
 [question:AI207]
 [question:AI208]

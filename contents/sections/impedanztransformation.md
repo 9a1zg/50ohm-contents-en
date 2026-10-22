@@ -1,30 +1,30 @@
-Nicht jede Antenne besitzt an ihrem Speisepunkt genau die Impedanz, die für den Anschluss an eine bestimmte Speiseleitung oder einen Sender benötigt wird. Weicht die Impedanz beispielsweise von den üblichen $\qty{50}{\ohm}$ ab, muss sie entsprechend angepasst werden, damit die HF-Leistung möglichst verlustarm übertragen werden kann. Dazu wird die vorhandene Impedanz in eine andere, gewünschte Impedanz *transformiert*. Dies bezeichnet man als *Impedanztransformation* beziehungsweise *Impedanzanpassung*.
+Not every antenna has, at its feed point, exactly the impedance needed for connection to a particular feeder or transmitter. If the impedance differs, for example, from the usual $\qty{50}{\ohm}$, it must be matched accordingly so that the RF power can be transferred with as little loss as possible. To do this, the existing impedance is *transformed* into another, desired impedance. This is called *impedance transformation* or *impedance matching*.
 
-Für die Impedanzanpassung bzw. Impedanztransformation gibt es verschiedene Möglichkeiten. Häufig verwendet werden beispielsweise:
+There are various ways of carrying out impedance matching or impedance transformation. Frequently used are, for example:
 
-* Transformatoren,
-* $\frac{\lambda}{4}$-Leitungen oder
-* Anpassnetzwerke aus Spulen und Kondensatoren.
+* transformers,
+* $\frac{\lambda}{4}$ lines or
+* matching networks made of inductors and capacitors.
 
-Transformatoren haben wir bereits bei der endgespeisten Antenne mit 1:49 Unun kennengelernt. Im Folgenden betrachten wir deshalb zwei weitere Möglichkeiten genauer: die Impedanztransformation mit $\frac{\lambda}{4}$-Leitungen aus dem Vorherigen Abschnitt und die Anpassung mit LC-Netzwerken. Schauen wir zunächst nochmal auf die Transformationsleitungen, hier ist es übrigens egal ob wir eine symmetrische Speiseleitung oder eine unsymmetrische Koaxialleitung verwenden, die Transformation funktioniert in beiden Fällen:
+We have already met transformers with the end-fed antenna and its 1:49 unun. Below, we therefore look more closely at two further possibilities: impedance transformation with $\frac{\lambda}{4}$ lines from the previous section, and matching with LC networks. Let us first look again at transformer sections; incidentally, it makes no difference here whether we use a balanced feeder or an unbalanced coaxial line, as the transformation works in both cases:
 
-Bei einer Leitung, deren elektrische Länge $\lambda/4$ beträgt, werden Wirkwiderstände, die kleiner als der Wellenwiderstand der Leitung sind, zu Widerständen die größer als der Wellenwiderstand der Leitung sind. Umgekehrt werden Wirkwiderstände, die größer als der Wellenwiderstand der Leitung sind, zu Widerständen die kleiner als der Wellenwiderstand sind. Diesen Umstand macht man sich z.B. zunutze, um  hochohmige Antennen auf ein niederohmiges System ($\qty{50}{\ohm}$) anzupassen.
+On a line whose electrical length is $\lambda/4$, resistances lower than the characteristic impedance of the line become resistances higher than the characteristic impedance of the line. Conversely, resistances higher than the characteristic impedance of the line become resistances lower than the characteristic impedance. This is used, for example, to match high-impedance antennas to a low-impedance system ($\qty{50}{\ohm}$).
 
 [question:AG410]
 [question:AG409]
 
-Bei einer Leitungslänge von $\lambda/2$ hebt sich der Effekt jedoch wieder auf, so dass keine Impedanztransformation auftritt.
+With a line length of $\lambda/2$, however, the effect cancels out again, so that no impedance transformation takes place.
 
 [question:AG412]
 [question:AG416]
 
-Für die folgenden Fragen erinnern wir uns daran, dass ein Halbwellendipol stromgespeist wird (niederohmig) und ein Ganzwellendipol spannungsgespeist wird (hochohmig).
+For the following questions, remember that a half-wave dipole is current-fed (low impedance) and a full-wave dipole is voltage-fed (high impedance).
 
 [question:AG413]
 [question:AG414]
 [question:AG415]
 
-Möchte man auf einen bestimmten Widerstandswert transformieren, so ergibt sich der dazu notwendige Wellenwiderstand aus dem geometrischen Mittel aus Lastwiderstand $Z_\mathrm{A}$ und gewünschtem Speisewiderstand $Z_\mathrm{E}$ am anderen Ende des Kabels:
+To transform to a particular resistance value, the characteristic impedance needed is the geometric mean of the load resistance $Z_\mathrm{A}$ and the desired input impedance $Z_\mathrm{E}$ at the other end of the cable:
 
 $Z = \sqrt{Z_\mathrm{E} \cdot Z_\mathrm{A}}$
 
@@ -33,10 +33,10 @@ $Z = \sqrt{Z_\mathrm{E} \cdot Z_\mathrm{A}}$
 
 ---
 
-Oftmals werden jedoch auch Spulen und Kondensatoren zur Impedanzanpassung benutzt. Oft zu finden ist das sogenannte Pi-Filter, das neben seiner Wirkung als Tiefpass eine Impedanztransformation zur Folge hat. Entsprechend lässt sich ein solches Pi-Filter auch als Antennentuner benutzen.
+Often, however, inductors and capacitors are also used for impedance matching. Frequently found is what is called the pi filter, which as well as acting as a low-pass filter also brings about an impedance transformation. Such a pi filter can accordingly also be used as an antenna tuner.
 
 <indepth>
-*Der Name "Pi-Filter"* stammt von der Anordnung der Bauteile im Schaltbild, die an den griechischen Buchstaben $\pi$ erinnert, und hat nichts mit der Kreiszahl $\pi$ zu tun.
+*The name "pi filter"* comes from the arrangement of the components in the circuit diagram, which resembles the Greek letter $\pi$, and has nothing to do with the number $\pi$.
 </indepth>
 
 [question:AG406]

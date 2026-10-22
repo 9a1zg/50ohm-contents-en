@@ -1,15 +1,15 @@
-Ein einfaches Multimeter ist nicht geeignet, um frequenzabhängige Widerstände zu messen. Stattdessen kann man einen vektoriellen Netzwerkanalysator (VNA) verwenden. Hierbei handelt es sich um ein aktives Messgerät, welches für eine Vielzahl von Frequenzen (einen einstellbaren Frequenzbereich) bestimmt, wie sich Strom und Spannung zu einander Verhalten (Verhältnis der Amplituden und die Phasenverschiebung zwischen Spannung und Strom).
+A simple multimeter is not suitable for measuring frequency-dependent resistances. Instead, a vector network analyser (VNA) can be used. This is an active measuring instrument that determines, for a large number of frequencies (an adjustable frequency range), how current and voltage relate to each other (the ratio of their amplitudes and the phase shift between voltage and current).
 
 <margin>
-[photo:201:e_vna_tiefpassmessung:Messung eines Tiefpassfilters von $\qty{0}{\mega\hertz}$ bis $\qty{100}{\mega\hertz}$ mit Grenzfrequenz bei $\qty{30}{\mega\hertz}$]
+[photo:201:e_vna_tiefpassmessung:Measurement from $\qty{0}{\mega\hertz}$ to $\qty{100}{\mega\hertz}$ of a low-pass filter with its cut-off frequency at $\qty{30}{\mega\hertz}$]
 </margin>
 
 ---
 
-So lässt sich beispielsweise bestimmen, bei welcher Frequenz ein Schwingkreis oder Filter einen besonders hohen oder besonders niedrigen Widerstand (bzw. Impedanz) aufweist (vgl. Abbildung [ref:e_vna_tiefpassmessung]). Ebenso kann ermittelt werden, bei welcher Frequenz eine Antenne in Resonanz ist, indem man das SWR über einen Frequenzbereich hinweg betrachtet, wie in Abbildung [ref:e_vna_swr] dargestellt.
+This makes it possible, for example, to determine the frequency at which a tuned circuit or filter has a particularly high or particularly low resistance (or impedance) (see Figure [ref:e_vna_tiefpassmessung]). It can also be found at which frequency an antenna is resonant, by looking at the SWR over a range of frequencies, as shown in Figure [ref:e_vna_swr].
 
 <margin>
-[photo:323:e_vna_swr:SWR-Messung einer Endgespeisten Drahtantenne. Das SWR ist nahezu $1$ bei $\qty{14}{\mega\hertz}$]
+[photo:323:e_vna_swr:SWR measurement of an end-fed wire antenna. The SWR is close to $1$ at $\qty{14}{\mega\hertz}$]
 </margin>
 
 [question:EI201]
@@ -17,18 +17,18 @@ So lässt sich beispielsweise bestimmen, bei welcher Frequenz ein Schwingkreis o
 [question:EI203]
 [question:EI204]
 
-Viele VNAs sollten vor der Benutzung kalibriert werden, um ein möglichst genaues Messergebnis zu erhalten.
+Many VNAs should be calibrated before use in order to obtain as accurate a measurement as possible.
 
 [question:EI205]
 
 ---
 
-Zur Kalibrierung als auch zum Funktionstest misst man oft die Zustände "offen" (unendlicher Widerstand), "Kurzschluss" (Widerstand nahe Null) und "angepasst" (Lastwiderstand entsprechend des Ausgangswiderstands des Messgeräts).
+For calibration, and also as a functional check, the "open" condition (infinite resistance), the "short circuit" (resistance close to zero) and the "matched" condition (load resistance equal to the output resistance of the instrument) are often measured.
 
 <margin>
-[photo:327:e_vna_solt:SOL(T)-Kalibrierkit. Von links nach rechts - Load, Open, Closed]
+[photo:327:e_vna_solt:SOL(T) calibration kit. From left to right - Load, Open, Closed]
 </margin>
 
-Bei angeschlossenem Leitungsabschluss (z. B. $\qty{50}{\ohm}$ Abschlusswiderstand) sollte der VNA ein SWR von nahe $\num{1}$ anzeigen, da keine Leistung reflektiert wird. Ist nichts am Messanschluss angeschlossen oder wird dieser kurzgeschlossen, so ergibt sich ein SWR von nahe unendlich (vollständige Reflexion).
+With a line termination connected (e.g. a $\qty{50}{\ohm}$ terminating resistor), the VNA should display an SWR close to $\num{1}$, since no power is reflected. If nothing is connected to the test port, or if it is short-circuited, the result is an SWR close to infinity (total reflection).
 
 [question:EI206]

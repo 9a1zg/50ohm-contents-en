@@ -1,21 +1,21 @@
-Die Ausbreitung einer elektromagnetischen Welle erfolgt, wie wir gelernt haben, mit Lichtgeschwindigkeit. Im Freiraum ist dies die Vakuumlichtgeschwindigkeit; im Leiter müssen wir den Verkürzungsfaktor berücksichtigen.
+As we have learnt, an electromagnetic wave propagates at the speed of light. In free space this is the speed of light in a vacuum; in a conductor we have to take the velocity factor into account.
 
 <margin>
-[picture:442:a_kabel_phasenverschiebung:Koaxialkabel mit definierter Länge]
+[picture:442:a_kabel_phasenverschiebung:Coaxial cable of defined length]
 
-| X: Leitungslänge  | X: Phasenverschiebung |
+| X: Line length    | X: Phase shift        |
 | $\lambda/4$       | $\qty{90}{\degree}$   |
 | $\lambda/2$       | $\qty{180}{\degree}$  |
 | $3/4\cdot\lambda$ | $\qty{270}{\degree}$  |
 | $\lambda$         | $\qty{360}{\degree}$  |
-[table:a_kabel_phasenverschiebung_table:Phasenverschiebung in Abhängigkeit von der Leitungslänge]
+[table:a_kabel_phasenverschiebung_table:Phase shift as a function of line length]
 </margin>
 
-Innerhalb eines Leiters kommt es daher zwischen Anfang und Ende der Leitung zu einer Zeitverzögerung, da die Ausbreitungsgeschwindigkeit nicht unendlich ist: Wenn bei der Übertragung einer Sinusschwingung zu einem Zeitpunkt die positive Spitzenspannung an einem Ende anliegt, dann liegt diese erst ein wenig später am anderen Ende an. Da sich Sinusschwingungen wiederholen, geben wir diese Verzögerung als Phasenverschiebung von $\qty{0}{\degree}$ bis $\qty{360}{\degree}$ an, wobei $\qty{360}{\degree}$ einer Schwingungsperiode entspricht. Aufgrund der Wiederholung der Welle entspricht $\qty{360}{\degree}$ daher wieder $\qty{0}{\degree}$.
+Within a conductor there is therefore a time delay between the start and the end of the line, because the speed of propagation is not infinite: if, when a sine wave is transmitted, the positive peak voltage is present at one end at a given moment, it only arrives at the other end a little later. Since sine waves repeat, we state this delay as a phase shift from $\qty{0}{\degree}$ to $\qty{360}{\degree}$, where $\qty{360}{\degree}$ corresponds to one period of the oscillation. Because the wave repeats, $\qty{360}{\degree}$ therefore corresponds to $\qty{0}{\degree}$ again.
 
-Bei den folgenden Prüfungsfragen wurde der Verkürzungsfaktor bereits berücksichtigt, da von der *elektrischen Länge* eines Koaxialkabels die Rede ist, weshalb das Kabel mechanisch länger sein kann. Wir können daher die Länge direkt in die Phasenverschiebung in Grad umrechnen: Eine Wellenlänge ($\lambda$) entspricht genau $\qty{360}{\degree}$, und Bruchteile davon entsprechend einer proportional kleineren Phasenverschiebung. So entspricht beispielsweise $\lambda / 2$ genau $\frac{\qty{360}{\degree}}{2} = \qty{180}{\degree}$ oder $\lambda / 4$ genau $\frac{\qty{360}{\degree}}{4} = \qty{90}{\degree}$. Die Tabelle [ref:a_kabel_phasenverschiebung_table] zeigt die Phasenverschiebung in Abhängigkeit von der Leitungslänge.
+In the following exam questions the velocity factor has already been taken into account, since they speak of the *electrical length* of a coaxial cable, which is why the cable can be mechanically longer. We can therefore convert the length directly into the phase shift in degrees: one wavelength ($\lambda$) corresponds to exactly $\qty{360}{\degree}$, and fractions of it to a proportionally smaller phase shift. For example, $\lambda / 2$ corresponds to exactly $\frac{\qty{360}{\degree}}{2} = \qty{180}{\degree}$, or $\lambda / 4$ to exactly $\frac{\qty{360}{\degree}}{4} = \qty{90}{\degree}$. Table [ref:a_kabel_phasenverschiebung_table] shows the phase shift as a function of the line length.
 
 [question:AG407]
 [question:AG408]
 
-In den folgenden Abschnitten werden wir anschauen, wie diese Phasenverschiebung in der Praxis ausgenutzt werden kann.
+In the following sections we will look at how this phase shift can be put to use in practice.

@@ -1,89 +1,89 @@
-## Gegentaktsignal und Mantelwellen
+## Differential-mode signal and common-mode currents
 
-* Idealerweise fließen im Innen- und Außenleiter eines Koaxialkabels gleich große, entgegengesetzte Ströme
-* Deren Summe ist Null – reines Gegentaktsignal
-* Reines Gegentaktsignal verhindert das Auftreten von Mantelwellen
+* Ideally, equal and opposite currents flow in the inner and outer conductors of a coaxial cable
+* Their sum is zero – a pure differential-mode signal
+* A pure differential-mode signal prevents common-mode currents from occurring
 
 ---
-### Gleichtaktsignal und Mantelstrom
+### Common-mode signal and sheath current
 
-* Ist die Stromsumme ungleich Null, entsteht ein Gleichtaktsignal
-* Gleichtaktanteil fließt auf der Außenseite des Außenleiters als Mantelstrom
-* Mantelstrom erzeugt eine Mantelwelle um das Kabel
+* If the sum of the currents is not zero, a common-mode signal results
+* The common-mode component flows on the outside of the outer conductor as a sheath current
+* The sheath current produces a sheath wave around the cable
 
 ---
 [question:AG425]
 
 ---
-### Stromkompensierte Drossel
+### Current-compensated choke
 
-* Koaxialkabel, um einen Ferritkern gewickelt, unterdrückt Mantelwellen
-* Diese Bauform wird als stromkompensierte Drossel bezeichnet
+* Coaxial cable wound on a ferrite core suppresses common-mode currents
+* This design is called a current-compensated choke
 
 ---
 [question:AG426]
 
 ---
-## HF-Trenntrafo zur Mantelwellensperre
+## RF isolating transformer to block common-mode currents
 
-* Alternative: HF-Trenntrafo, bei dem Primär- und Sekundärwicklung nicht verbunden sind
-* Strom, der in einen Pol hineinfließt, fließt nahezu gleich groß aus dem anderen – Gleichtaktanteil entfällt
+* Alternative: an RF isolating transformer, whose primary and secondary windings are not connected
+* Current that flows in at one terminal flows out at the other with almost the same size – no common-mode component
 
 <note>
-Zwischen den Spulenwindungen bildet sich Kapazität, die den Gleichtaktanteil nicht vollständig unterdrückt
+Capacitance forms between the turns of the windings, so that the common-mode component is not suppressed completely
 </note>
 
 ---
 [question:AJ115]
 
 ---
-### HF-Spannungen und Mantelwellen
+### RF voltages and common-mode currents
 
-* Fehlen HF-Gleichtaktsignale: Außenleiter zeigt keine hochfrequente Spannung gegenüber Erde
-* Bei Gegentaktsignalen bildet sich das elektrische Feld ausschließlich zwischen Innen- und Außenleiter
-* Außenwirkung: Die Ströme heben sich auf – keine Mantelwellen
-* Mantelwellen hängen direkt mit HF-Spannungen am Außenleiter zusammen
-
----
-## Symmetrische Antennen und Außenleiterspannung
-
-* Bei symmetrischer Antenne weist jeder Dipolschenkel eine Spannung gegenüber Erde auf
-* Verbindung der Antennenschenkel mit den Leitern des Koaxialkabels führt zu einer HF-Spannung am Außenleiter
+* No RF common-mode signals: the outer conductor shows no RF voltage to earth
+* With differential-mode signals the electric field forms only between the inner and outer conductors
+* Seen from outside: the currents cancel – no common-mode currents
+* Common-mode currents are directly linked to RF voltages on the outer conductor
 
 ---
-### Einfluss der Erdung bei Antennen
+## Balanced antennas and outer-conductor voltage
 
-* Gut geerdete Antennen (z. B. Groundplane mit abgestimmten oder vergrabenen Radialen) haben nahezu $\qty{0}{\volt}$ am Speisepunkt
-* Schlecht geerdete Groundplane-Antennen können anfällig für Mantelwellen sein
+* With a balanced antenna, each dipole leg has a voltage to earth
+* Connecting the antenna legs to the conductors of the coaxial cable leads to an RF voltage on the outer conductor
 
 ---
-## Kontaktlose Einkopplung in den Koax-Schirm
+### Effect of earthing on antennas
 
-* Mantelwellen können durch kontaktlose Einkopplung entstehen
-* Führt man ein Speisekabel parallel zu einem Dipolschenkel, koppelt das Nahfeld der Antenne in den Koax-Schirm ein
+* Well-earthed antennas (e.g. a ground plane with tuned or buried radials) have almost $\qty{0}{\volt}$ at the feed point
+* Poorly earthed ground-plane antennas can be prone to common-mode currents
+
+---
+## Contactless coupling into the coax screen
+
+* Common-mode currents can arise through contactless coupling
+* If a feeder is run parallel to a dipole leg, the near field of the antenna couples into the coax screen
 
 ---
 [question:AG427]
 
 ---
-### Spannungsbalun / Spartransformator
+### Voltage balun / autotransformer
 
 <left>
-[picture:447:a_mantelwellen_spannungsbalun:Aufbau eines Spannungbaluns]
+[picture:447:a_mantelwellen_spannungsbalun:Construction of a voltage balun]
 </left>
 <right>
-* Bei vollständig symmetrischen Antennen kann ein Spannungsbalun die Ströme im Koaxialkabel symmetrieren
-* Typischer Spartransformator: Koaxialkabel in der Mitte und am Ende einer Spule angeschlossen, Antenne an beide Enden der Spule
+* With completely balanced antennas, a voltage balun can balance the currents in the coaxial cable
+* Typical autotransformer: coaxial cable connected to the centre and one end of a coil, antenna to both ends of the coil
 </right>
 
 ---
 
 <left>
-[picture:447:a_mantelwellen_spannungsbalun:Aufbau eines Spannungbaluns]
+[picture:447:a_mantelwellen_spannungsbalun:Construction of a voltage balun]
 </left>
 <right>
-* Verdopplung der Spannung ($ü = 2$) und Halbierung des Stroms führen zu einer 1:4 Impedanztransformation
-* An ein $\qty{50}{\ohm}$ Koaxialkabel wird idealerweise eine Antenne mit ca. $\qty{200}{\ohm}$ angeschlossen
+* Doubling the voltage ($ü = 2$) and halving the current give a 1:4 impedance transformation
+* A $\qty{50}{\ohm}$ coaxial cable is ideally connected to an antenna of approx. $\qty{200}{\ohm}$
 </right>
 
 ---
@@ -93,13 +93,13 @@ Zwischen den Spulenwindungen bildet sich Kapazität, die den Gleichtaktanteil ni
 [question:AG422]
 
 ---
-## Einschränkungen der Mantelwellensperre
+## Limitations of the common-mode choke
 
 
-* Spannungsbalun funktioniert nur, wenn die angeschlossene Antenne tatsächlich symmetrisch ist
-* Asymmetrische Belastung kann Mantelwellen begünstigen
-* Kontaktlose Einkopplung über die elektromagnetischen Nahfelder bleibt möglich
-* Eine zusätzliche Mantelwellensperre mit räumlichem Abstand kann unterstützend wirken
+* A voltage balun only works if the connected antenna is actually balanced
+* Uneven loading can encourage common-mode currents
+* Contactless coupling via the electromagnetic near fields remains possible
+* An additional common-mode choke some distance away can help
 
 ---
 [question:AG428]

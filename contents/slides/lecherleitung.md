@@ -1,8 +1,8 @@
-## Lecherleitung: Resonanzverhalten
-* Lecherleitung: am Ende offene Zweidrahtleitung
-* Bei $\lambda/4$-Betrieb wird das offene Ende ($\qty{\infty}{\ohm}$) in einen Kurzschluss ($\qty{0}{\ohm}$) transformiert
-* Im Resonanzfall wird die Leitung leitend, obwohl die Drähte nicht verbunden sind
-* Umgekehrt gilt: Eine kurzgeschlossene Leitung wird im Resonanzfall hochohmig
+## Lecher line: resonant behaviour
+* Lecher line: two-wire line open at the end
+* In $\lambda/4$ operation the open end ($\qty{\infty}{\ohm}$) is transformed into a short circuit ($\qty{0}{\ohm}$)
+* At resonance the line conducts, although the wires are not connected
+* Conversely, a short-circuited line becomes high-impedance at resonance
 
 ---
 [question:AG320]
@@ -11,12 +11,12 @@
 [question:AG411]
 ---
 
-### Koaxialkabel: Ähnlicher Effekt
+### Coaxial cable: a similar effect
 <left>
-[picture:445:a_lecherleitung_koaxialkabel:Koaxialkabel zur Impedanztransformation]
+[picture:445:a_lecherleitung_koaxialkabel:Coaxial cable for impedance transformation]
 </left>
 <right>
-* Mit Koaxialkabeln lässt sich ein vergleichbarer Impedanztransformationseffekt erzielen
+* A comparable impedance transformation effect can be achieved with coaxial cables
 </right>
 
 ---

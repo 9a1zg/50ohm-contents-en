@@ -1,31 +1,31 @@
-Eine weitere Möglichkeit zur Unterdrückung von Mantelwellen besteht darin, eine $\lambda / 2$-Umwegleitung zu verwenden.
+Another way of suppressing common-mode currents is to use a $\lambda / 2$ delay line.
 
 [question:AG420]
 
 <margin>
-[picture:562:e_umwegleitung:Umwegleitung]
+[picture:562:e_umwegleitung:Delay line]
 </margin>
 
-Wie eine solche Umwegleitung funktioniert, sei im Folgenden erklärt.
+How such a delay line works is explained below.
 
-Eine symmetrische Antenne benötigt an beiden Anschlusspunkten eine HF-Spannung gegenüber Erde. Hierbei müssen die Spannungen betragsmäßig gleich groß sein, jedoch mit umgekehrtem Vorzeichen, also $\qty{180}{\degree}$ phasenverschoben.
+A balanced antenna needs an RF voltage to earth at both of its terminals. The voltages must be equal in magnitude but of opposite sign, i.e. $\qty{180}{\degree}$ out of phase.
 
-Eine solche Phasenverschiebung lässt sich mittels einer $\lambda / 2$-Umwegleitung erreichen. So kann man beispielsweise *beide* Anschlusspunkte eines Faltdipols an den Innenleiter anschließen, wobei der eine Anschlusspunkt hinter einer Umwegleitung angeschlossen wird, die eine $\qty{180}{\degree}$-Phasenverschiebung erzeugt.
+Such a phase shift can be obtained with a $\lambda / 2$ delay line. For example, *both* terminals of a folded dipole can be connected to the inner conductor, one of them being connected via a delay line that produces a $\qty{180}{\degree}$ phase shift.
 
-Der Schirm des Koaxialkabels weist dann Erdpotential auf und es entstehen keine Mantelwellen.
+The screen of the coaxial cable is then at earth potential, and no common-mode currents arise.
 
-Aufpassen muss man jedoch mit den Impedanzen. Obwohl die Umwegeleitung nicht direkt die Impedanz transformiert, so ergibt der Anschluss einer Antenne auf diese Weise dennoch eine Transformation der Impedanz. Die Antenne muss einen vier mal höhere Impedanz als das Koaxialkabel aufweisen, damit Anpassung vorliegt. Ursache hierfür, ist dass jeder Anschlusspunkt der Antenne gegenüber Erde nur den halben Widerstand aufweist, beide Anschlusspunkte jedoch parallel, d.h. beide am Innenleiter, angeschlossen werden.
+You do, however, have to be careful with the impedances. Although the delay line does not itself transform the impedance, connecting an antenna in this way still results in an impedance transformation. The antenna must have four times the impedance of the coaxial cable for it to be matched. The reason for this is that each terminal of the antenna has only half the resistance to earth, but both terminals are connected in parallel, i.e. both to the inner conductor.
 
 ---
 
 <tip>
-Für die beiden folgenden Fragen zur Umwegeleitung reicht es sich zu *merken*, dass es sich bei der dargestellten Antenne um einen Faltdipol handelt und eine $\lambda/2$-Umwegleitung eine $\qty{180}{\degree}$-Phasenverschiebung erzeugt.
+For the two following questions on the delay line it is enough to *remember* that the antenna shown is a folded dipole and that a $\lambda/2$ delay line produces a $\qty{180}{\degree}$ phase shift.
 </tip>
 
 [question:AG423]
 
 <indepth>
-Der *Anschluss des Koax-Schirms* an den Mittelpunkt des Faltdipols ist optional und hat oft mechanische Gründe (z. B. kann so der Faltdipol leitend mit einem geerdeten Metallträger verbunden werden).
+*Connecting the coax screen* to the centre of the folded dipole is optional and often has mechanical reasons (e.g. it allows the folded dipole to be connected conductively to an earthed metal support).
 </indepth>
 
 ---
@@ -33,5 +33,5 @@ Der *Anschluss des Koax-Schirms* an den Mittelpunkt des Faltdipols ist optional 
 [question:AG424]
 
 <attention>
-Obwohl sich durch die Verschaltung insgesamt eine 1:4-Impedanztransformation ergibt, wird in der Umwegeleitung selbst keine Impedanztransformation vorgenommen.
+Although the circuit as a whole results in a 1:4 impedance transformation, no impedance transformation takes place in the delay line itself.
 </attention>

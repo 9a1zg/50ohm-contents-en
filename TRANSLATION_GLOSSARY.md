@@ -2582,6 +2582,25 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | einschleifen (SWR-Meter) | insert (in the line) | NI202, AI401 "inserted in the line"; "Das SWR-Meter wird … eingeschleift" → 'inserting the SWR meter in the line' (swr, swr_meter_1) |
 | Koppelleitung / kapazitive / induktive Kopplung (Richtkoppler) | coupling line / capacitive / inductive coupling | swr_meter_2; §14 *Messwerk* → meter movement, §11 *Kreuzzeigerinstrument* → cross-needle meter |
 | „Skineffekt" vom englischen Wort „skin" für „Haut" | "skin effect" | the gloss only translates the English word back (bracket rule) and is dropped (skineffekt) |
+| Mantelwellen (Definition im Kurstext) / Mantelstrom / Mantelwelle | common-mode currents (in German *Mantelwellen*, literally "sheath waves") / sheath current / sheath wave | where the course defines the effect (mantelwellen_1) the German word is named once, because the text and the questions also say *sheath current(s)* (EG404, AG425, AG426, AG428); *Mantelstrom mit zugehöriger Mantelwelle* → "a sheath current, with its associated sheath wave" (mantelwellen_2); everywhere else *Mantelwellen* → common-mode currents (§9, DECISIONS.md) |
+| stromkompensierte Drossel neben Mantelwellensperre (Kurstext) | current-compensated choke / common-mode choke | where the text gives both names ("eine sogenannte *stromkompensierte Drossel* … auch als *Mantelwellensperre* bezeichnet"), two English names are needed; *current-compensated choke* as AG426, embedded in the same text (mantelwellen_1, mantelwellen_2; DECISIONS.md) |
+| Symmetrierglied (Kurstext) | balancing device | as AG420 "balancing devices such as … a balun"; "ein sogenanntes *Symmetrierglied*, einen Balun" → "a *balancing device*, a balun" (mantelwellen_1) |
+| Gegentaktsignal / Gleichtaktsignal | differential-mode signal / common-mode signal | as §9 *Gleichtakt / Gegentakt* (mantelwellen_2) |
+| Spannungsbalun / Spartransformator | voltage balun / autotransformer | AG428, AG429; §4 *Spartransformator* (mantelwellen_2) |
+| (HF-)Trenntrafo / Pol (des Trenntrafos) | (RF) isolating transformer / terminal | AJ115; §14 *HF-Trenntrafo* (mantelwellen_2) |
+| Dreileitersystem / Außenseite des Innenleiters / Innenseite des Außenleiters / Außenseite des Außenleiters | three-conductor system / outside of the inner conductor / inside of the outer conductor / outside of the outer conductor | mantelwellen_1 |
+| kontaktlose Einkopplung (in den Koax-Schirm) | contactless coupling (into the coax screen) | AG427, AG429 "coupling into the coax screen" (mantelwellen_2) |
+| Umwegleitung / Umwegeleitung / λ/2-Umwegleitung (Kurstext) | delay line / delay line / $\lambda/2$ delay line | as AG420, AG423, AG424; also in captions, where the German has no λ/2 (umwegleitung; DECISIONS.md) |
+| Anschlusspunkte (einer Antenne) | terminals | AG424 "at each of its terminals" (umwegleitung) |
+| betragsgleich, 180° phasenverschoben | equal in magnitude, 180° out of phase | umwegleitung |
+| Frequenz-Sweep / Wobbeln | frequency sweep / wobbulation | the older German word gets its older English counterpart (*wobbulator*) (vna_2) |
+| Startfrequenz / Stoppfrequenz / Frequenzpunkt | start frequency / stop frequency / frequency point | vna_2 |
+| imaginäre Einheit / imaginäre Zahl / reelle Zahl / komplexe Zahl | imaginary unit / imaginary number / real number / complex number | as §14 *komplexe Größe* (vna_2) |
+| Zustände "offen" / "Kurzschluss" / "angepasst" (VNA) | "open" / "short circuit" / "matched" condition | as §11 *Betriebszustände Kurzschluss, Leerlauf und Anpassung* (EI206) (vna_1) |
+| Leitungsabschluss | line termination | vna_1; §11 *Abschlusswiderstand* → terminating resistor |
+| Zweidrahtleitung (Lecherleitung) | two-wire line | a Lecher line is not a feeder, so §9's *twin feeder* (AG311) is not used; AG320 "two parallel conductors" (lecherleitung slides) |
+| gewünschter Speisewiderstand $Z_\mathrm{E}$ (λ/4-Transformation) / geometrisches Mittel | desired input impedance $Z_\mathrm{E}$ / geometric mean | $Z_\mathrm{E}$ is the impedance wanted at the input end of the transformer section, not the antenna's feed point, which is $Z_\mathrm{A}$ (AG417, AG418); *Speise- und Lastwiderstand* → "the input impedance and the load resistance" (impedanztransformation) |
+| Kreiszahl | the number $\pi$; the mathematical constant | "hat nichts mit der Kreiszahl $\pi$ zu tun" → "has nothing to do with the number $\pi$" (impedanztransformation) |
 
 ## 15. Catalogue structure
 
