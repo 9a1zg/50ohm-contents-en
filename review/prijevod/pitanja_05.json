@@ -1,0 +1,1165 @@
+{
+  "pitanja": {
+    "AF223": {
+      "question": "Which configuration would help to suppress an unwanted interfering signal at the input of a receiver?"
+    },
+    "AF222": {
+      "question": "What, for example, can reduce the quality of a received signal?",
+      "answer_a": "Strong RF signals on a very nearby frequency",
+      "answer_b": "Battery operation of the receiver",
+      "answer_c": "Too low a noise figure of the receiver",
+      "answer_d": "Operating the receiver from a linear regulated power supply"
+    },
+    "AF221": {
+      "question": "Which receiver characteristic is assessed by means of the intercept point IP$_3$?",
+      "answer_a": "Strong-signal performance",
+      "answer_b": "Selectivity",
+      "answer_c": "Minimum discernible signal",
+      "answer_d": "Signal-to-noise ratio"
+    },
+    "AF220": {
+      "question": "How can intermodulation and cross-modulation be reduced during reception?",
+      "answer_a": "Switching in an attenuator ahead of the receiver input",
+      "answer_b": "Switching on the preamplifier",
+      "answer_c": "Switching on the noise blanker",
+      "answer_d": "Switching on the squelch"
+    },
+    "AF219": {
+      "question": "What causes cross-modulation?",
+      "answer_a": "The mixing of a strong unwanted signal with the wanted signal.",
+      "answer_b": "The reflection of harmonics in the receive amplifier.",
+      "answer_c": "The overdriving of an amplifier.",
+      "answer_d": "Overmodulation or excessive deviation."
+    },
+    "AF218": {
+      "question": "What is the main cause of intermodulation products in a receiver?",
+      "answer_a": "The RF stage becomes increasingly non-linear as the input signals become increasingly large.",
+      "answer_b": "The receiver is not tuned exactly to the frequency.",
+      "answer_c": "A crystal filter that is too narrow is used.",
+      "answer_d": "A preselector that is too narrow is used."
+    },
+    "AF217": {
+      "question": "Which phenomenon occurs when two signals are received simultaneously at a receiver stage that operates non-linearly?",
+      "answer_a": "Intermodulation",
+      "answer_b": "Frequency modulation",
+      "answer_c": "Increased signal-to-noise ratio",
+      "answer_d": "Doppler effect"
+    },
+    "AF216": {
+      "question": "A carrier insertion oscillator is used to demodulate SSB signals in the HF range. Which of the following oscillators is best suited for this?",
+      "answer_a": "Crystal-controlled oscillator",
+      "answer_b": "LC oscillator with a parallel tuned circuit",
+      "answer_c": "LC oscillator with a series tuned circuit",
+      "answer_d": "RC oscillator"
+    },
+    "AF215": {
+      "question": "How should a VFO that is already temperature-compensated be installed in a piece of equipment to ensure the best possible frequency stability?",
+      "answer_a": "It should be as well thermally insulated as possible from other heat sources in the equipment.",
+      "answer_b": "It should be mounted on its own heatsink.",
+      "answer_c": "It should be mounted on the same heatsink as the power amplifier.",
+      "answer_d": "It should be cooled separately by a small fan."
+    },
+    "AF214": {
+      "question": "Which mixer circuit suppresses unwanted mixing products and frequencies most effectively?",
+      "answer_a": "A balanced ring mixer",
+      "answer_b": "An unbalanced product detector",
+      "answer_c": "A single-ended transistor mixer",
+      "answer_d": "An additive diode mixer"
+    },
+    "AF213": {
+      "question": "Which mixer suppresses unwanted output signals most strongly?",
+      "answer_a": "Balanced mixer",
+      "answer_b": "Additive diode mixer",
+      "answer_c": "Dual-transistor mixer",
+      "answer_d": "Two-diode mixer"
+    },
+    "AF212": {
+      "question": "In which region of the transfer characteristic does the mixer stage of a superheterodyne receiver operate?",
+      "answer_a": "It operates in the non-linear region.",
+      "answer_b": "It operates in the capacitive region.",
+      "answer_c": "It operates in the inductive region.",
+      "answer_d": "It operates in the linear region."
+    },
+    "AF211": {
+      "question": "For the reception of CW signals, approximately what should the difference between the BFO frequency and the last IF be?",
+      "answer_a": "800 Hz",
+      "answer_b": "Half the intermediate frequency",
+      "answer_c": "Twice the intermediate frequency",
+      "answer_d": "4 kHz"
+    },
+    "AF210": {
+      "question": "What frequency range can the VFO of the receiver RF section drawn in the following block diagram have?",
+      "answer_a": "20 to 47 MHz or 53 to 80 MHz",
+      "answer_b": "20 to 47 MHz or 62 to 89 MHz",
+      "answer_c": "23 to 41 MHz or 53 to 80 MHz",
+      "answer_d": "23 to 41 MHz or 62 to 89 MHz"
+    },
+    "AF209": {
+      "question": "The following circuit represents a double-conversion superhet. What is the function of the three blocks marked X, Y and Z?",
+      "answer_a": "X and Y are mixers, Z is a product detector.",
+      "answer_b": "X is a mixer, Y is a product detector, Z is a mixer.",
+      "answer_c": "X and Y are product detectors, Z is an RF mixer.",
+      "answer_d": "X and Y are balanced mixers, Z is an IF amplifier."
+    },
+    "AF208": {
+      "question": "Which of the following band-pass filters, each with the same centre frequency, is most likely to have the narrowest bandwidth and the steepest skirts?",
+      "answer_a": "Crystal filter",
+      "answer_b": "LC filter",
+      "answer_c": "Ceramic filter",
+      "answer_d": "RC filter"
+    },
+    "AF207": {
+      "question": "For which signals is the receiver filter passband curve shown below suitable?",
+      "answer_a": "SSB signals",
+      "answer_b": "AM signals",
+      "answer_c": "OFDM signals",
+      "answer_d": "FM signals"
+    },
+    "AF206": {
+      "question": "Approximately what bandwidth should the IF amplifiers of an amateur radio receiver have for the following modes: SSB voice, RTTY (170 Hz shift), FM voice?",
+      "answer_a": "SSB: 2.7 kHz; RTTY: 500 Hz; FM: 12 kHz",
+      "answer_b": "SSB: 6 kHz; RTTY: 1.5 kHz; FM: 12 kHz",
+      "answer_c": "SSB: 2.7 kHz; RTTY: 340 Hz; FM: 3.6 kHz",
+      "answer_d": "SSB: 3.6 kHz; RTTY: 170 Hz; FM: 25 kHz"
+    },
+    "AF205": {
+      "question": "Which module of a receiver determines the selectivity?",
+      "answer_a": "The filters in the IF amplifier",
+      "answer_b": "The harmonic filter in the IF amplifier",
+      "answer_c": "The oscillator tuned circuit in the mixer stage",
+      "answer_d": "The PLL frequency synthesis"
+    },
+    "AF204": {
+      "question": "In a superheterodyne receiver, what determines the image rejection?",
+      "answer_a": "The preselection",
+      "answer_b": "The demodulator characteristic",
+      "answer_c": "The selectivity at IF",
+      "answer_d": "The low-pass filter in the audio amplifier"
+    },
+    "AF203": {
+      "question": "The crystal oscillator oscillates at 39 MHz. The receive frequency is to be 28.3 MHz. At which frequency is image-frequency interference to be expected?",
+      "answer_a": "49.7 MHz",
+      "answer_b": "39 MHz",
+      "answer_c": "67.3 MHz",
+      "answer_d": "17.6 MHz"
+    },
+    "AF202": {
+      "question": "The VCO oscillates at 134.9 MHz. The receive frequency is to be 145.6 MHz. Which image frequency can cause interference to reception?",
+      "answer_a": "124.2 MHz",
+      "answer_b": "134.9 MHz",
+      "answer_c": "280.5 MHz",
+      "answer_d": "156.3 MHz"
+    },
+    "AF201": {
+      "question": "What is the difference between the wanted radio frequency and the image frequency?",
+      "answer_a": "Twice the IF",
+      "answer_b": "Twice the wanted radio frequency",
+      "answer_c": "Three times the IF",
+      "answer_d": "The wanted radio frequency plus the IF"
+    },
+    "EF219": {
+      "question": "Some FM transceivers have an analogue data port (e.g. labelled DATA or called a 9600 port). Which point in the receive path shown is usually brought out to this port?",
+      "answer_a": "Point 4",
+      "answer_b": "Point 1",
+      "answer_c": "Point 2",
+      "answer_d": "Point 3"
+    },
+    "EF218": {
+      "question": "At what point in an amateur radio installation should a UHF preamplifier be inserted?",
+      "answer_a": "Directly at the UHF antenna, if possible",
+      "answer_b": "Immediately ahead of the receiver input, if possible",
+      "answer_c": "Between the transmitter output and the antenna cable",
+      "answer_d": "Between the SWR meter and the receiver input"
+    },
+    "EF217": {
+      "question": "Which module reduces overloading of a receiver input?",
+      "answer_a": "Attenuator",
+      "answer_b": "IF filter",
+      "answer_c": "Squelch",
+      "answer_d": "Oscillator"
+    },
+    "EF216": {
+      "question": "Which diagram shows the frequency response of a receiver notch filter?"
+    },
+    "EF215": {
+      "question": "Which module can suppress interference in a narrow frequency range on the receive side?",
+      "answer_a": "Notch filter",
+      "answer_b": "Low-pass filter",
+      "answer_c": "High-pass filter",
+      "answer_d": "Band-pass filter"
+    },
+    "EF214": {
+      "question": "Which module could be used in a receiver, where necessary, to blank out pulse-type interference?",
+      "answer_a": "Noise blanker",
+      "answer_b": "Notch filter",
+      "answer_c": "Passband tuning",
+      "answer_d": "Automatic gain control"
+    },
+    "EF213": {
+      "question": "What is the function of noise reduction (NR) in a receiver?",
+      "answer_a": "Reducing the noise component in the signal",
+      "answer_b": "Reducing the noise component in the supply voltage",
+      "answer_c": "Reducing the ambient noise in the headphones",
+      "answer_d": "Reducing the dynamic range in the IF signal"
+    },
+    "EF212": {
+      "question": "On a receiver, what does the abbreviation AGC on a switch stand for?",
+      "answer_a": "Automatic gain control",
+      "answer_b": "Automatic antenna tuner",
+      "answer_c": "Automatic ganging control",
+      "answer_d": "Automatic frequency correction"
+    },
+    "EF211": {
+      "question": "What reduces level fluctuations of the AF output signal that are caused by fluctuations in the RF input signal?",
+      "answer_a": "Automatic gain control",
+      "answer_b": "AF noise blanker",
+      "answer_c": "AF filter",
+      "answer_d": "AF bias control"
+    },
+    "EF210": {
+      "question": "What does a narrow receiver bandwidth lead to?",
+      "answer_a": "High selectivity.",
+      "answer_b": "Low selectivity.",
+      "answer_c": "Low image rejection.",
+      "answer_d": "High image rejection."
+    },
+    "EF209": {
+      "question": "What is the purpose of a BFO in a receiver?",
+      "answer_a": "To generate an auxiliary carrier so that CW or SSB signals become audible",
+      "answer_b": "To mix with a received signal to produce the IF",
+      "answer_c": "To suppress amplitude superposition",
+      "answer_d": "To suppress FM signals"
+    },
+    "EF208": {
+      "question": "In a direct-conversion receiver, where does the oscillator frequency for the mixer usually lie?",
+      "answer_a": "It lies very close to the receive frequency.",
+      "answer_b": "It lies very far above the receive frequency.",
+      "answer_c": "It lies very much lower than the receive frequency.",
+      "answer_d": "It lies at the intermediate frequency."
+    },
+    "EF207": {
+      "question": "How should an oscillator be built in order to avoid unwanted radiation?",
+      "answer_a": "It should be screened by a metal case.",
+      "answer_b": "It should not be screened.",
+      "answer_c": "It should have low-impedance RF decoupling.",
+      "answer_d": "Its supply voltage should be unsmoothed."
+    },
+    "EF206": {
+      "question": "What should a mixer stage be like in order to avoid unwanted radiation?",
+      "answer_a": "It should be well screened.",
+      "answer_b": "It should be decoupled at AF.",
+      "answer_c": "It should not be earthed.",
+      "answer_d": "It should be coupled as loosely as possible to the VFO."
+    },
+    "EF205": {
+      "question": "Which are the wanted products produced at the output of the mixer when the frequencies 136 MHz and 145 MHz are mixed?",
+      "answer_a": "9 MHz and 281 MHz",
+      "answer_b": "127 MHz and 154 MHz",
+      "answer_c": "272 MHz and 290 MHz",
+      "answer_d": "154 MHz and 281 MHz"
+    },
+    "EF204": {
+      "question": "The frequencies 136 MHz and 145 MHz are fed to a mixer. Which mixing frequencies are mainly produced?",
+      "answer_a": "9 MHz and 281 MHz",
+      "answer_b": "127 MHz and 154 MHz",
+      "answer_c": "272 MHz and 290 MHz",
+      "answer_d": "118 MHz and 163 MHz"
+    },
+    "EF203": {
+      "question": "Which are the wanted products produced at the output of the mixer when the frequencies 30 MHz and 39 MHz are mixed?",
+      "answer_a": "9 MHz and 69 MHz",
+      "answer_b": "9 MHz and 39 MHz",
+      "answer_c": "30 MHz and 39 MHz",
+      "answer_d": "39 MHz and 69 MHz"
+    },
+    "EF202": {
+      "question": "The frequencies 28 MHz and 38.7 MHz are fed to a mixer. Which mixing frequencies are mainly produced?",
+      "answer_a": "10.7 MHz and 66.7 MHz",
+      "answer_b": "17.3 MHz and 49.4 MHz",
+      "answer_c": "56 MHz and 77.4 MHz",
+      "answer_d": "45.3 MHz and 88.1 MHz"
+    },
+    "EF201": {
+      "question": "Which are the main output frequencies produced by the stage shown in the figure?",
+      "answer_a": "10.7 MHz and 52.7 MHz",
+      "answer_b": "42 MHz and 63.4 MHz",
+      "answer_c": "21 MHz and 63.4 MHz",
+      "answer_d": "21.4 MHz and 105.4 MHz"
+    },
+    "NF303": {
+      "question": "What does the sensitivity of a receiver refer to?",
+      "answer_a": "The ability to receive weak signals",
+      "answer_b": "The stability of the VFO",
+      "answer_c": "The bandwidth of the RF preamplifier",
+      "answer_d": "The ability to suppress strong signals"
+    },
+    "NF302": {
+      "question": "What must be set on the receiver to blank out the background noise in FM when no wanted signal is being received?",
+      "answer_a": "Squelch",
+      "answer_b": "VOX",
+      "answer_c": "RIT",
+      "answer_d": "Notch filter"
+    },
+    "NF301": {
+      "question": "What is the purpose of the S meter in a transceiver?",
+      "answer_a": "It indicates the received signal level.",
+      "answer_b": "It indicates the transmit power.",
+      "answer_c": "It indicates the receiver gain.",
+      "answer_d": "It indicates the audio volume."
+    },
+    "AF314": {
+      "question": "A crystal-controlled radio with an output frequency of 432 MHz causes interference at 144 MHz. The radio's crystal oscillator oscillates at a fundamental frequency of 12 MHz. With which sequence of multipliers can the interference frequency of 144 MHz occur?",
+      "answer_a": "Fundamental frequency $\\cdot 2 \\cdot 2 \\cdot 3 \\cdot 3$",
+      "answer_b": "Fundamental frequency $\\cdot 2 \\cdot 3 \\cdot 3 \\cdot 2$",
+      "answer_c": "Fundamental frequency $\\cdot 3 \\cdot 3 \\cdot 2\\cdot 2$",
+      "answer_d": "Fundamental frequency $\\cdot 3 \\cdot 2 \\cdot 3 \\cdot 2$"
+    },
+    "AF313": {
+      "question": "How should frequency multipliers in transmitting equipment be built and operated?",
+      "answer_a": "They should be well screened to minimise unwanted radiation.",
+      "answer_b": "They should have a high-pass filter for the multiplied signal at the output.",
+      "answer_c": "They should always be operated in the linear part of the characteristic.",
+      "answer_d": "They should be cooled very well."
+    },
+    "AF312": {
+      "question": "What kind of circuit is this?",
+      "answer_a": "Frequency multiplier",
+      "answer_b": "Oscillator",
+      "answer_c": "Frequency divider",
+      "answer_d": "Self-oscillating mixer stage"
+    },
+    "AF311": {
+      "question": "On what principle does analogue frequency multiplication work?",
+      "answer_a": "The signal is fed to a non-linear distorting stage and the desired harmonics are filtered out.",
+      "answer_b": "The signal, phase-shifted by plus and by minus 90 °, is fed to an additive mixer, which generates the desired harmonics.",
+      "answer_c": "The signal is filtered and fed to a ring mixer, which generates the desired harmonics.",
+      "answer_d": "The signal, phase-shifted by plus and by minus 90 °, is fed to a multiplicative mixer, which generates the desired harmonics."
+    },
+    "AF310": {
+      "question": "This circuit extract is part of a transmitter. What is the function of the diode?",
+      "answer_a": "It changes the resonant frequency of the tuned circuit in step with the AF voltage waveform and so modulates the oscillator frequency.",
+      "answer_b": "It stabilises the operating voltage for the oscillator in order to decouple it from the power supply of the other stages.",
+      "answer_c": "It limits the amplitudes of the input signal and so prevents overdriving of the oscillator stage.",
+      "answer_d": "It is used to generate amplitude modulation in step with the frequencies in the baseband."
+    },
+    "AF309": {
+      "question": "What are $R_1$ and $C_1$ used for in this circuit?",
+      "answer_a": "They are used to adjust the carrier suppression in magnitude and phase.",
+      "answer_b": "They are used to compensate for differences in frequency response and delay.",
+      "answer_c": "They are used to set the frequency deviation by means of the first carrier null.",
+      "answer_d": "They are used to set the modulation depth of the DSB signal generated."
+    },
+    "AF308": {
+      "question": "This circuit is a modulator for generating ...",
+      "answer_a": "AM signals with suppressed carrier.",
+      "answer_b": "phase-modulated signals.",
+      "answer_c": "frequency-modulated signals.",
+      "answer_d": "LSB signals."
+    },
+    "AF307": {
+      "question": "The following block diagram shows SSB generation with a 9 MHz crystal filter. Which frequency is mixed with the AF in the USB switch position?",
+      "answer_a": "8.9985 MHz",
+      "answer_b": "8.9970 MHz",
+      "answer_c": "9.0000 MHz",
+      "answer_d": "9.0030 MHz"
+    },
+    "AF306": {
+      "question": "Which circuit element is connected to the output of the AF amplifier in the following block diagram?",
+      "answer_a": "Balanced mixer",
+      "answer_b": "Balanced filter",
+      "answer_c": "Compressor",
+      "answer_d": "DSB filter"
+    },
+    "AF305": {
+      "question": "This block diagram shows an SSB transmitter. The stage at \\glqq?\" is ...",
+      "answer_a": "a crystal filter acting as a band-pass filter for the wanted sideband.",
+      "answer_b": "an RC high-pass filter for suppressing the lower sideband.",
+      "answer_c": "an RL low-pass filter for suppressing the upper sideband.",
+      "answer_d": "an IF notch filter for suppressing the unwanted sideband."
+    },
+    "AF304": {
+      "question": "In the usual analogue methods of generating an SSB signal, ...",
+      "answer_a": "the carrier is suppressed and one sideband is filtered out.",
+      "answer_b": "the carrier is added and one sideband is filtered out.",
+      "answer_c": "the carrier is suppressed and one sideband is added.",
+      "answer_d": "the carrier is suppressed and both sidebands are filtered out."
+    },
+    "AF303": {
+      "question": "How can an SSB signal be generated using analogue technology?",
+      "answer_a": "A double-sideband signal is generated in a balanced modulator. The sideband filter selects one sideband.",
+      "answer_b": "A double-sideband signal is generated in a balanced modulator. An acceptor circuit tuned to the carrier frequency filters out the carrier.",
+      "answer_c": "A double-sideband signal is generated in a balanced modulator. A rejector circuit tuned to the carrier frequency filters out the carrier.",
+      "answer_d": "A double-sideband signal is generated in a balanced modulator. One sideband is split off in a frequency divider."
+    },
+    "AF302": {
+      "question": "Which type of mixer is best suited to generating a double-sideband signal with suppressed carrier?",
+      "answer_a": "A balanced mixer",
+      "answer_b": "A mixer with a single FET",
+      "answer_c": "A mixer with a varactor diode",
+      "answer_d": "A crystal-controlled mixer"
+    },
+    "AF301": {
+      "question": "Which of the following modules can be used to generate a 14.3 MHz signal from a 5.3 MHz signal?",
+      "answer_a": "A mixer, a 9 MHz oscillator and a band-pass filter.",
+      "answer_b": "A multiplier, a selective amplifier and a low-pass filter.",
+      "answer_c": "A phase detector, a harmonic mixer and a high-pass filter.",
+      "answer_d": "A divide-by-3 frequency divider, an eight-times multiplier and a notch filter."
+    },
+    "EF310": {
+      "question": "When an SSB telephony signal is generated, what bandwidth should the subsequent filter that suppresses one sideband have?",
+      "answer_a": "2.4 kHz",
+      "answer_b": "800 Hz",
+      "answer_c": "455 kHz",
+      "answer_d": "10.7 MHz"
+    },
+    "EF309": {
+      "question": "Which of the points marked in an FM transmitter is best suited for feeding in a 9600 baud data signal?",
+      "answer_a": "Point 2",
+      "answer_b": "Point 1",
+      "answer_c": "Point 3",
+      "answer_d": "Point 4"
+    },
+    "EF308": {
+      "question": "What is the minimum bandwidth the AF amplifier shown in the block diagram should have for good speech intelligibility?",
+      "answer_a": "Approx. 2.5 kHz",
+      "answer_b": "Approx. 6.0 kHz",
+      "answer_c": "Approx. 1.0 kHz",
+      "answer_d": "Approx. 12.5 kHz"
+    },
+    "EF307": {
+      "question": "Which frequency response is best suited to the microphone amplifier of a voice transceiver?"
+    },
+    "EF306": {
+      "question": "What is the name of the stage in a transmitter that raises the quiet parts of a speech signal somewhat relative to the loud parts?",
+      "answer_a": "Compressor",
+      "answer_b": "Noise blanker",
+      "answer_c": "Clarifier",
+      "answer_d": "Notch filter"
+    },
+    "EF305": {
+      "question": "What does the ALC (automatic level control) in a transceiver do when the AF signal is too strong?",
+      "answer_a": "It reduces the amplitude of the signal in the transmit path before the power amplifier.",
+      "answer_b": "It increases the amplitude of the signal in the transmit path before the power amplifier.",
+      "answer_c": "It reduces the gain of amplifier stages in the receive section.",
+      "answer_d": "It increases the gain of amplifier stages in the receive section."
+    },
+    "EF304": {
+      "question": "The VFO of a transmitter is subject to fluctuating temperatures. What significant effect could this have?",
+      "answer_a": "The frequency of the oscillator changes slowly.",
+      "answer_b": "The frequency of the oscillator jumps rapidly between different values.",
+      "answer_c": "The amplitude of the oscillator frequency fluctuates slowly.",
+      "answer_d": "The amplitude of the oscillator jumps rapidly between different values."
+    },
+    "EF303": {
+      "question": "The block diagram shows the frequency generation of a multiband transmitter. Which frequency appears at output a when the VFO is set to 3.51 MHz?",
+      "answer_a": "14.04 MHz",
+      "answer_b": "7.02 MHz",
+      "answer_c": "21.06 MHz",
+      "answer_d": "28.08 MHz"
+    },
+    "EF302": {
+      "question": "A frequency of 21.360 MHz is measured at output a of this frequency generation circuit. What is the frequency of the VFO?",
+      "answer_a": "3.560 MHz",
+      "answer_b": "4.272 MHz",
+      "answer_c": "7.120 MHz",
+      "answer_d": "5.340 MHz"
+    },
+    "EF301": {
+      "question": "At what frequency must the crystal oscillator oscillate so that, according to the block diagram, the frequency 145.200 MHz is amplified by the PA?",
+      "answer_a": "12.1 MHz",
+      "answer_b": "36.3 MHz",
+      "answer_c": "18.15 MHz",
+      "answer_d": "24.2 MHz"
+    },
+    "NF404": {
+      "question": "What property should a filter connected after a VHF transmitter have? It should ...",
+      "answer_a": "pass the wanted frequency range.",
+      "answer_b": "pass all harmonics.",
+      "answer_c": "allow all spurious emissions to be radiated.",
+      "answer_d": "block the wanted frequency range."
+    },
+    "NF403": {
+      "question": "The following block diagram shows a simple transmitter. Which stage is at which position?",
+      "answer_a": "1 AF amplifier; \n2 Mixer; \n3 RF oscillator; \n4 Filter; \n5 RF amplifier; \n6 Filter",
+      "answer_b": "1 RF amplifier; \n2 Mixer; \n3 RF oscillator; \n4 Filter; \n5 AF amplifier; \n6 Filter",
+      "answer_c": "1 AF amplifier; \n2 Filter; \n3 RF oscillator; \n4 Mixer; \n5 RF amplifier; \n6 Mixer",
+      "answer_d": "1 RF amplifier; \n2 Filter; \n3 RF oscillator; \n4 AF amplifier; \n5 Mixer; \n6 AF amplifier"
+    },
+    "NF402": {
+      "question": "What stages does a simple transmitter consist of?",
+      "answer_a": "Oscillator, mixer, filter, power amplifier",
+      "answer_b": "Preamplifier, filter, demodulator, AF amplifier",
+      "answer_c": "Preamplifier, filter, AF amplifier, antenna",
+      "answer_d": "AF amplifier, filter, power amplifier, antenna"
+    },
+    "NF401": {
+      "question": "What does the following block diagram represent?",
+      "answer_a": "Transmitter",
+      "answer_b": "Receiver",
+      "answer_c": "Repeater",
+      "answer_d": "Antenna preamplifier"
+    },
+    "AF428": {
+      "question": "What is the total gain of the entire transmit path, disregarding possible cable losses?",
+      "answer_a": "48 dB",
+      "answer_b": "38 dB",
+      "answer_c": "43 dB",
+      "answer_d": "59 dB"
+    },
+    "AF427": {
+      "question": "How much power is dissipated as heat in the MMIC if the operating voltage is 9 V and $R_\\text{BIAS}$ has a value of 470 Ω?",
+      "answer_a": "43 mW",
+      "answer_b": "47 mW",
+      "answer_c": "90 mW",
+      "answer_d": "52 mW"
+    },
+    "AF426": {
+      "question": "Calculate $R_\\text{BIAS}$ for the MMIC circuit shown and choose the nearest preferred value. $U_\\text{CC}$ = 13.8 V; $U_\\text{D}$ = 4 V; $I_\\text{D}$ = 15 mA",
+      "answer_a": "680 Ω",
+      "answer_b": "820 Ω",
+      "answer_c": "270 Ω",
+      "answer_d": "560 Ω"
+    },
+    "AF425": {
+      "question": "The optimum operating point of the MMIC shown is specified as 4 V and 10 mA. The operating voltage is 13.5 V. Calculate the series resistor ($R_\\text{BIAS}$).",
+      "answer_a": "950 Ω",
+      "answer_b": "1350 Ω",
+      "answer_c": "95 Ω",
+      "answer_d": "400 Ω"
+    },
+    "AF424": {
+      "question": "How do the drain currents in the two output-stage transistors change when the wiper of $R_4$ is moved towards $U_\\text{BIAS}$?",
+      "answer_a": "The drain current in transistor 1 rises and the drain current in transistor 2 remains constant.",
+      "answer_b": "The drain current in transistor 1 rises and the drain current in transistor 2 rises.",
+      "answer_c": "The drain current in transistor 1 falls and the drain current in transistor 2 falls.",
+      "answer_d": "The drain current in transistor 1 falls and the drain current in transistor 2 remains constant."
+    },
+    "AF423": {
+      "question": "The quiescent current in the VHF LDMOS PA shown is to be increased. Which adjustments must be made?",
+      "answer_a": "Turn $R_1$ and $R_2$ towards $U_\\text{BIAS}$.",
+      "answer_b": "Turn $R_1$ and $R_2$ towards GND.",
+      "answer_c": "Turn $R_1$ towards $U_\\text{BIAS}$ and $R_2$ towards GND.",
+      "answer_d": "Turn $R_1$ towards GND and $R_2$ towards $U_\\text{BIAS}$."
+    },
+    "AF422": {
+      "question": "What is the purpose of the inductors marked X in the circuit?",
+      "answer_a": "They prevent RF from leaking into the power supply.",
+      "answer_b": "They prevent harmonics from being generated.",
+      "answer_c": "They act as load resistances for the transistors.",
+      "answer_d": "They transform the output impedance of the transistors to 50 Ω."
+    },
+    "AF421": {
+      "question": "What is the gate-source voltage when the wiper of $R_3$ is at end stop 1?",
+      "answer_a": "3.5 V",
+      "answer_b": "2.77 V",
+      "answer_c": "3.7 V",
+      "answer_d": "0.45 V"
+    },
+    "AF420": {
+      "question": "The operating point of the LDMOS HF PA is set with $R_3$. How does the drain current change when $R_3$ is turned towards 3?",
+      "answer_a": "The drain current in both transistors decreases.",
+      "answer_b": "The drain current in both transistors increases.",
+      "answer_c": "The drain current rises in $K_1$ and falls in $K_2$.",
+      "answer_d": "The drain current falls in $K_1$ and rises in $K_2$."
+    },
+    "AF419": {
+      "question": "What is the purpose of the circuit formed by the inductor, $C_2$ and $C_3$?",
+      "answer_a": "It reduces RF components on the supply voltage line.",
+      "answer_b": "It reduces hum components on the transmitted signal.",
+      "answer_c": "It reduces harmonics on the transmitted signal.",
+      "answer_d": "It acts as a pi filter for the transmitted signal."
+    },
+    "AF418": {
+      "question": "Which function do the inductor, $C_2$ and $C_3$ perform in the circuit?",
+      "answer_a": "Low-pass filter",
+      "answer_b": "High-pass filter",
+      "answer_c": "Band-pass filter",
+      "answer_d": "Band-stop filter"
+    },
+    "AF417": {
+      "question": "What is the purpose of $T_1$ and $T_2$ in this RF power amplifier?",
+      "answer_a": "To match 50 Ω to the low input impedance of the transistors and the low output impedance of the transistors to 50 Ω.",
+      "answer_b": "To match 50 Ω to the high input impedance of the transistors and the low output impedance of the transistors to 50 Ω.",
+      "answer_c": "To match 50 Ω to the low input impedance of the transistors and the high output impedance of the transistors to 50 Ω.",
+      "answer_d": "To match 50 Ω to the high input impedance of the transistors and the high output impedance of the transistors to 50 Ω."
+    },
+    "AF416": {
+      "question": "What is the purpose of the resistor $R$ in parallel with the transformer winding $T_2$?",
+      "answer_a": "It is meant to prevent parasitic oscillations from arising.",
+      "answer_b": "It is used to match the primary winding to the following PA.",
+      "answer_c": "It is used to increase the RF efficiency of the amplifier stage.",
+      "answer_d": "It is used to limit the collector current in the event of overdriving."
+    },
+    "AF415": {
+      "question": "Why have $C_1$ and $C_2$, $C_3$ and $C_4$, and $C_5$ and $C_6$ each been connected in parallel?",
+      "answer_a": "In each case, the capacitor of low capacitance is used to decouple high frequencies and the capacitor of high capacitance to decouple low frequencies.",
+      "answer_b": "The capacitance of a single capacitor is not sufficient at high frequencies.",
+      "answer_c": "The capacitor with the low capacitance is used for smoothing the low frequencies and the capacitor with the high capacitance for smoothing the high frequencies.",
+      "answer_d": "A ceramic capacitor must always be connected in parallel with an electrolytic capacitor, because otherwise the electrolytic capacitor would be destroyed at high frequencies."
+    },
+    "AF414": {
+      "question": "What is the purpose of the transformer $T_1$ in the following circuit?",
+      "answer_a": "It matches the output resistance of the common-emitter stage to the input of the following common-emitter stage.",
+      "answer_b": "It matches the output resistance of the common-emitter stage to the input of the following common-collector stage.",
+      "answer_c": "It matches the output resistance of the common-collector stage to the input of the following common-emitter stage.",
+      "answer_d": "It matches the output resistance of the common-collector stage to the input of the following PA."
+    },
+    "AF413": {
+      "question": "What kind of circuit is this? It is a ...",
+      "answer_a": "two-stage broadband RF amplifier.",
+      "answer_b": "selective RF amplifier.",
+      "answer_c": "push-pull amplifier in class B operation.",
+      "answer_d": "two-stage LC oscillator."
+    },
+    "AF412": {
+      "question": "What type of circuit is shown in the following figure? It is ...",
+      "answer_a": "a broadband push-pull amplifier.",
+      "answer_b": "a selective RF amplifier.",
+      "answer_c": "an oscillator that can be modulated.",
+      "answer_d": "a broadband frequency doubler."
+    },
+    "AF411": {
+      "question": "What is the purpose of X in the following circuit?",
+      "answer_a": "For RF decoupling",
+      "answer_b": "For tuning",
+      "answer_c": "For AC coupling",
+      "answer_d": "For coupling to the next stage"
+    },
+    "AF410": {
+      "question": "What is the purpose of $C_1$ and $C_2$ in the following circuit? They are used for ...",
+      "answer_a": "impedance matching.",
+      "answer_b": "preventing any tendency to oscillate.",
+      "answer_c": "forming a capacitive three-point circuit for the oscillator.",
+      "answer_d": "suppressing harmonics."
+    },
+    "AF409": {
+      "question": "What is the purpose of the tap at X in the following circuit?",
+      "answer_a": "It matches the input impedance of this stage to the preceding stage.",
+      "answer_b": "It provides the three-point feedback for the oscillator.",
+      "answer_c": "It provides the decoupling needed for the oscillator stage to start oscillating.",
+      "answer_d": "It increases the damping of the input tuned circuit."
+    },
+    "AF408": {
+      "question": "What kind of circuit is this?",
+      "answer_a": "It is a selective RF amplifier.",
+      "answer_b": "It is a selective mixer.",
+      "answer_c": "It is a broadband AF amplifier.",
+      "answer_d": "It is a frequency-multiplying oscillator."
+    },
+    "AF407": {
+      "question": "What is the function of the components marked X in the following circuit?",
+      "answer_a": "They transform the output impedance of the preceding stage to the input impedance of the transistor.",
+      "answer_b": "They protect the transistor against unwanted feedback and filter out self-oscillations of the transistor.",
+      "answer_c": "They are used to set the optimum operating point for the transistor.",
+      "answer_d": "They protect the transistor against thermal overload."
+    },
+    "AF406": {
+      "question": "What is the function of the components marked X in the following circuit? They ...",
+      "answer_a": "match the load impedance to the impedance required by the transistor circuit.",
+      "answer_b": "act as a rejector circuit.",
+      "answer_c": "are used for carrier suppression in SSB modulation.",
+      "answer_d": "act as a band-stop filter."
+    },
+    "AF405": {
+      "question": "What is the function of the output pi filter of an RF transmitter?",
+      "answer_a": "It provides impedance transformation and improves the suppression of harmonics.",
+      "answer_b": "It provides better harmonic matching to the antenna.",
+      "answer_c": "It improves the efficiency of the output stage by changing the ALC.",
+      "answer_d": "It protects the output stage when the antenna socket is open-circuit or short-circuited."
+    },
+    "AF404": {
+      "question": "What is the purpose of LC circuits immediately after an RF power amplifier? They are used for ...",
+      "answer_a": "frequency-dependent transformation of the transmitter output impedance to the antenna input impedance and for suppressing harmonics.",
+      "answer_b": "optimum setting of the operating point of the RF power amplifier.",
+      "answer_c": "reducing the reflected power when the antenna impedance is mismatched.",
+      "answer_d": "suppressing the RF carrier in SSB modulation."
+    },
+    "AF403": {
+      "question": "What measures must be taken for the output matching circuit and the output filter of an RF amplifier operating in class C? Both must be ...",
+      "answer_a": "housed in a metal case that provides good screening.",
+      "answer_b": "housed in a well-insulated plastic case.",
+      "answer_c": "installed ahead of the amplifier.",
+      "answer_d": "attached directly to the antenna."
+    },
+    "AF402": {
+      "question": "Which operating point of the power amplifier stage of a transmitter generally produces the highest harmonic content?",
+      "answer_a": "Class C operation",
+      "answer_b": "Class B operation",
+      "answer_c": "Class AB operation",
+      "answer_d": "Class A operation"
+    },
+    "AF401": {
+      "question": "How is the efficiency of an RF amplifier defined?",
+      "answer_a": "As the ratio of the RF output power to the DC input power supplied.",
+      "answer_b": "As the ratio of the strength of the wanted emission to the strength of the unwanted emissions.",
+      "answer_c": "As the ratio of the RF power to the power dissipated in the output valve or output transistor.",
+      "answer_d": "As the increase in output power relative to the input power."
+    },
+    "EF405": {
+      "question": "What should the power feed in a transmitter be like?",
+      "answer_a": "It should be well decoupled against RF pick-up.",
+      "answer_b": "It should have as high an impedance as possible.",
+      "answer_c": "It should be routed via the power amplifier case.",
+      "answer_d": "It should be designed with as little capacitance to chassis as possible."
+    },
+    "EF404": {
+      "question": "When should a transmitter be checked for possible harmonic emissions?",
+      "answer_a": "When the operating point of the output stage has been readjusted.",
+      "answer_b": "When an interfering signal is received.",
+      "answer_c": "Before every transmission.",
+      "answer_d": "When splatter interference can be heard."
+    },
+    "EF403": {
+      "question": "How is the output stage of an SSB transmitter designed?",
+      "answer_a": "As a linear amplifier",
+      "answer_b": "As a limiting amplifier",
+      "answer_c": "As a non-linear amplifier",
+      "answer_d": "As a multiplier"
+    },
+    "EF402": {
+      "question": "How and where is the output power of an SSB transmitter measured? The peak envelope power (PEP) is measured ...",
+      "answer_a": "directly at the transmitter output with single-tone or two-tone drive.",
+      "answer_b": "between the antenna tuner and the feed point of the antenna with an unmodulated carrier.",
+      "answer_c": "between the antenna tuner and the feed point with speech modulation.",
+      "answer_d": "directly at the transmitter output with an unmodulated carrier."
+    },
+    "EF401": {
+      "question": "The output power of a transmitter is the ...",
+      "answer_a": "power that can be measured immediately after the transmitter output, before it passes through any accessory equipment.",
+      "answer_b": "difference between forward and reflected power, measured immediately after the transmitter output.",
+      "answer_c": "power that can be measured immediately after the antenna and determined with a field-strength meter in the near field.",
+      "answer_d": "sum of forward and reflected power, measured immediately after the transmitter output."
+    },
+    "AF502": {
+      "question": "Between which frequencies must the crystal oscillator be switchable so that the lower 4 MHz of the 70 cm band can be received with this converter? The oscillator frequency $f_{\\textrm{OSZ}}$ is to lie below the wanted signal in each case.",
+      "answer_a": "44.667 MHz and 44.889 MHz",
+      "answer_b": "44.444 MHz and 44.667 MHz",
+      "answer_c": "44.889 MHz and 45.111 MHz",
+      "answer_d": "45.111 MHz and 45.333 MHz"
+    },
+    "AF501": {
+      "question": "Between which frequencies must the crystal oscillator be switchable so that the upper 4 MHz of the 70 cm band can be received with this converter? The oscillator frequency $f_{\\textrm{OSZ}}$ is to lie below the wanted signal in each case.",
+      "answer_a": "45.333 MHz and 45.556 MHz",
+      "answer_b": "45.556 MHz and 45.778 MHz",
+      "answer_c": "45.111 MHz and 45.333 MHz",
+      "answer_d": "44.889 MHz and 45.111 MHz"
+    },
+    "EF505": {
+      "question": "Why should the local oscillator (XO) in a transverter for satellite operation with an uplink frequency of 2.4 GHz be temperature-stabilised or locked to a higher-grade frequency standard?",
+      "answer_a": "Because the oscillator frequency is multiplied to obtain the transmit frequency, the frequency error is multiplied too and would be too large for SSB operation.",
+      "answer_b": "Because the oscillator frequency is mixed down to obtain the transmit frequency, the frequency error is reduced as a result.",
+      "answer_c": "Because the oscillator frequency is multiplied to obtain the transmit frequency, spurious emissions increase as the frequency error increases.",
+      "answer_d": "Because the oscillator frequency is mixed down to obtain the transmit frequency, the modulation depth decreases as the frequency error increases."
+    },
+    "EF504": {
+      "question": "What does the following circuit represent?",
+      "answer_a": "A 13 cm converter for a VHF transmitter",
+      "answer_b": "A 13 cm transverter to be connected ahead of a VHF transmitter",
+      "answer_c": "A 13 cm transverter to be connected ahead of a VHF receiver",
+      "answer_d": "Parts of an I/Q mixer for the 13 cm band"
+    },
+    "EF503": {
+      "question": "What does the following block diagram represent?",
+      "answer_a": "A transverter for the 2 m band",
+      "answer_b": "A receive converter for the 2 m band",
+      "answer_c": "A preamplifier for the 10 m band",
+      "answer_d": "A transceiver for the 10 m band"
+    },
+    "EF502": {
+      "question": "By what process does a transverter convert one frequency range into another?",
+      "answer_a": "By mixing",
+      "answer_b": "By multiplication",
+      "answer_c": "By frequency division",
+      "answer_d": "By feedback"
+    },
+    "EF501": {
+      "question": "Which of the following answers applies to the way a transverter works? A transverter converts ...",
+      "answer_a": "when receiving, e.g. a 70 cm signal into the 10 m band, and when transmitting, the 10 m transmit signal to the 70 cm band.",
+      "answer_b": "both when transmitting and when receiving, e.g. a 70 cm signal into the 10 m band.",
+      "answer_c": "both when transmitting and when receiving, e.g. a frequency-modulated signal into an amplitude-modulated signal.",
+      "answer_d": "both when transmitting and when receiving, e.g. a DMR signal into a D-STAR signal."
+    },
+    "AF637": {
+      "question": "In digital signal processing, what is meant by latency, and in what unit can it be stated?",
+      "answer_a": "The propagation time or delay of a signal, in seconds",
+      "answer_b": "The speed of a signal, in metres per second",
+      "answer_c": "The fluctuation of the frequency of a signal, in hertz per second",
+      "answer_d": "The fluctuation of the amplitude of a signal, in volts per second"
+    },
+    "AF636": {
+      "question": "According to the sampling theorem, what is the widest frequency range (e.g. relative to a centre or carrier frequency) that a digital data stream can represent unambiguously if it consists of an I and a Q component, <u>each</u> with a sampling rate of 10 million samples per second? The range between ...",
+      "answer_a": "-5 MHz and +5 MHz.",
+      "answer_b": "-10 MHz and +10 MHz.",
+      "answer_c": "0 Hz and 512 kHz.",
+      "answer_d": "0 Hz and 1024 kHz."
+    },
+    "AF635": {
+      "question": "According to the sampling theorem, what is the widest frequency range (e.g. relative to a centre or carrier frequency) that a digital data stream can represent unambiguously if it consists of an I and a Q component, <u>each</u> with a sampling rate of 96000 samples per second? The range between ...",
+      "answer_a": "-48 kHz and +48 kHz.",
+      "answer_b": "-24 kHz and +24 kHz.",
+      "answer_c": "0 Hz and 192 kHz.",
+      "answer_d": "0 Hz and 9.6 kHz."
+    },
+    "AF634": {
+      "question": "According to the sampling theorem, what is the widest frequency range (e.g. relative to a centre or carrier frequency) that a digital data stream can represent unambiguously if it consists of an I and a Q component, <u>each</u> with a sampling rate of 48000 samples per second? The range between ...",
+      "answer_a": "-24 kHz and +24 kHz.",
+      "answer_b": "-48 kHz and +48 kHz.",
+      "answer_c": "0 Hz and 96 kHz.",
+      "answer_d": "0 Hz and 6 kHz."
+    },
+    "AF633": {
+      "question": "What do the I and the Q components of an I/Q signal represent?",
+      "answer_a": "The in-phase (I) and the 90 ° phase-shifted (Q) components of a signal relative to a reference oscillation",
+      "answer_b": "The alternating current (I) as a function of the Q factor (Q) of a tuned circuit at its resonant frequency",
+      "answer_c": "The current component (I) and the reactive power component (Q) of a signal",
+      "answer_d": "The first (I) and the fourth (Q) harmonic relative to a normalised square-wave signal"
+    },
+    "AF632": {
+      "question": "What must the phase shift $\\varphi$ in the modulator circuit shown be for correct quadrature modulation?",
+      "answer_a": "90 °",
+      "answer_b": "180 °",
+      "answer_c": "0 °",
+      "answer_d": "45 °"
+    },
+    "AF631": {
+      "question": "Which of the following statements about digital filters is correct? Digital filters ...",
+      "answer_a": "can be implemented as FIR or IIR filters.",
+      "answer_b": "can be implemented without latency.",
+      "answer_c": "cannot be implemented in hardware.",
+      "answer_d": "cannot be implemented in software."
+    },
+    "AF630": {
+      "question": "What is the discrete Fourier transform by means of the FFT used for? It is a fast mathematical method of converting ...",
+      "answer_a": "a discrete-time signal into a frequency spectrum.",
+      "answer_b": "a discrete-time signal into an analogue signal.",
+      "answer_c": "a discrete resistance value into an impedance.",
+      "answer_d": "a resistance value into a discrete conductance."
+    },
+    "AF629": {
+      "question": "Which of the following blocks correctly completes the greatly simplified receive path for digital amateur television (DATV) shown?"
+    },
+    "AF628": {
+      "question": "Which of the following blocks correctly completes the greatly simplified receive path of a digital voice radio shown?"
+    },
+    "AF627": {
+      "question": "Which of the following blocks correctly completes the greatly simplified transmit path for digital amateur television (DATV) shown?"
+    },
+    "AF626": {
+      "question": "Which of the following blocks correctly completes the greatly simplified transmit path of a digital voice radio shown?"
+    },
+    "AF625": {
+      "question": "You want to reconstruct a speech signal with a sampling rate of $f_{\\textrm{A}}$ = 8000 samples per second. A reconstruction filter is to be used after the D/A converter. Which amplitude response is best suited to the filter?"
+    },
+    "AF624": {
+      "question": "Which type of filter is suitable as a reconstruction filter, and where should the filter be placed?",
+      "answer_a": "Low-pass filter after the D/A converter",
+      "answer_b": "High-pass filter after the D/A converter",
+      "answer_c": "Low-pass filter before the A/D converter",
+      "answer_d": "High-pass filter before the A/D converter"
+    },
+    "AF623": {
+      "question": "You want to digitise a speech signal with a sampling rate of $f_{\\textrm{A}}$ = 8000 samples per second. An anti-aliasing filter is to be used before the A/D converter. Which amplitude response is best suited to the filter?"
+    },
+    "AF622": {
+      "question": "Which type of filter is suitable for avoiding aliasing effects, and where should the filter be placed?",
+      "answer_a": "Low-pass filter before the A/D converter",
+      "answer_b": "High-pass filter before the A/D converter",
+      "answer_c": "Low-pass filter after the D/A converter",
+      "answer_d": "High-pass filter after the D/A converter"
+    },
+    "AF621": {
+      "question": "An oscillator with severe clock jitter is used for sampling with an A/D converter with 24-bit resolution. What effect will the jitter have?",
+      "answer_a": "Additional noise appears in the sampled result.",
+      "answer_b": "The screening plate of the A/D converter will produce disturbing noises through vibration.",
+      "answer_c": "Because of the high resolution, the fluctuation has no effect.",
+      "answer_d": "The sampled result is improved (dithering)."
+    },
+    "AF620": {
+      "question": "What are the functions of the individual blocks in the block diagram shown of a digital direct-sampling receiver?",
+      "answer_a": "1: Anti-aliasing filter, 2: Sampling clock generator, 3: Analogue-to-digital converter",
+      "answer_b": "1: Analogue-to-digital converter, 2: Anti-aliasing filter, 3: Sampling clock generator",
+      "answer_c": "1: Analogue-to-digital converter, 2: Sampling clock generator, 3: Anti-aliasing filter",
+      "answer_d": "1: Sampling clock generator, 2: Anti-aliasing filter, 3: Analogue-to-digital converter"
+    },
+    "AF619": {
+      "question": "An analogue speech signal with a bandwidth of 4 kHz is to be processed digitally. Which of the following sampling rates is the lowest that avoids aliasing effects?",
+      "answer_a": "9600 samples/s",
+      "answer_b": "4800 samples/s",
+      "answer_c": "4000 samples/s",
+      "answer_d": "2400 samples/s"
+    },
+    "AF618": {
+      "question": "An analogue signal with a bandwidth of $f_{\\textrm{max}}$ is to be processed digitally. Which of the following sampling rates is the lowest that avoids aliasing effects?",
+      "answer_a": "Just above $2 \\cdot f_{\\textrm{max}}$",
+      "answer_b": "Just above $f_{\\textrm{max}}$",
+      "answer_c": "Just below $\\dfrac{f_{\\mathrm{max}}}{2}$",
+      "answer_d": "Just below $f_{\\textrm{max}}$"
+    },
+    "AF617": {
+      "question": "The term aliasing refers to errors that ...",
+      "answer_a": "occur when sampling frequency components that are higher than half the sampling frequency.",
+      "answer_b": "occur in multipath propagation with differences in propagation time that are greater than half the duration of one cycle of the carrier.",
+      "answer_c": "occur when receiving a signal more than half of whose spectrum is disturbed.",
+      "answer_d": "occur when transmitting with multi-element beam antennas whose element spacing is greater than half the wavelength."
+    },
+    "AF616": {
+      "question": "Which statement applies to the sampling theorem? The theorem ...",
+      "answer_a": "determines the minimum sampling rate theoretically required to reconstruct a signal without errors.",
+      "answer_b": "states that an infinite sampling rate is theoretically required to reconstruct a band-limited signal without errors.",
+      "answer_c": "determines the maximum bandwidth that can theoretically be occupied by a transmission at a given data rate.",
+      "answer_d": "states that, regardless of the type of interference prevailing on a transmission channel, an unlimited data rate can theoretically be achieved."
+    },
+    "AF615": {
+      "question": "How is the sampling rate of an A/D converter defined?",
+      "answer_a": "Samples per unit of time",
+      "answer_b": "Samples multiplied by time",
+      "answer_c": "Samples per hertz",
+      "answer_d": "Samples multiplied by samples"
+    },
+    "AF614": {
+      "question": "A sine wave with a peak value of 1.5 V is fed into an A/D converter whose output is connected directly to a D/A converter. Both converters operate linearly with a resolution of 12 bits and a range of values from -1 V to 1 V. Which signal is to be expected at the output of the D/A converter?"
+    },
+    "AF613": {
+      "question": "A sine wave with a peak value of 1.5 V is fed into an A/D converter whose output is connected directly to a D/A converter. Both converters operate linearly with a resolution of 12 bits and a range of values from -2 V to 2 V. Which signal is to be expected at the output of the D/A converter?"
+    },
+    "AF612": {
+      "question": "A sine wave with a peak value of 1.5 V is fed into an A/D converter whose output is connected directly to a D/A converter. Both converters operate linearly with a resolution of 4 bits and a range of values from -2 V to 2 V. Which signal is to be expected at the output of the D/A converter?"
+    },
+    "AF611": {
+      "question": "What is the step size between the voltage levels of a linear D/A converter with 10-bit resolution and a range of values from 0 to 1 V?",
+      "answer_a": "Approx. 1 mV",
+      "answer_b": "Approx. 10 mV",
+      "answer_c": "Approx. 0.1 V",
+      "answer_d": "Approx. 1 V"
+    },
+    "AF610": {
+      "question": "What is the step size between the voltage levels of a linear D/A converter with 8-bit resolution and a range of values from 0 to 1 V?",
+      "answer_a": "Approx. 4 mV",
+      "answer_b": "Approx. 1 mV",
+      "answer_c": "Approx. 2 mV",
+      "answer_d": "Approx. 8 mV"
+    },
+    "AF609": {
+      "question": "How many different output values, e.g. voltages, can an ideal D/A converter with 10-bit resolution produce?",
+      "answer_a": "1024",
+      "answer_b": "10",
+      "answer_c": "100",
+      "answer_d": "256"
+    },
+    "AF608": {
+      "question": "What is the maximum number of ranges of input values, e.g. voltages, that an A/D converter with 8-bit resolution can distinguish?",
+      "answer_a": "256",
+      "answer_b": "8",
+      "answer_c": "64",
+      "answer_d": "1024"
+    },
+    "AF607": {
+      "question": "Why do quantisation errors occur in an A/D converter?",
+      "answer_a": "Only a limited number of discrete values is available.",
+      "answer_b": "The bandwidth of the input signal is limited.",
+      "answer_c": "Only integer frequencies can be used.",
+      "answer_d": "Only values between 0 and 1 can be used."
+    },
+    "AF606": {
+      "question": "What is the conversion of a continuous-time signal into a discrete-time signal called?",
+      "answer_a": "Sampling",
+      "answer_b": "Quantisation",
+      "answer_c": "Coding",
+      "answer_d": "Time-division multiplexing"
+    },
+    "AF605": {
+      "question": "What is the conversion of a continuous-value signal into a discrete-value signal called?",
+      "answer_a": "Quantisation",
+      "answer_b": "Sampling",
+      "answer_c": "Coding",
+      "answer_d": "Space-division multiplexing"
+    },
+    "AF604": {
+      "question": "Which of the following figures best represents a discrete-time and discrete-value signal?"
+    },
+    "AF603": {
+      "question": "Which of the following figures best represents a discrete-time and continuous-value signal?"
+    },
+    "AF602": {
+      "question": "Which of the following figures best represents a continuous-time and discrete-value signal?"
+    },
+    "AF601": {
+      "question": "Which of the following figures best represents a continuous-time and continuous-value signal?"
+    },
+    "EF603": {
+      "question": "What does the designation SDR on a transceiver or receiver indicate?",
+      "answer_a": "At least part of the signal processing is implemented in software.",
+      "answer_b": "Special antenna connectors for digital signals are used.",
+      "answer_c": "Analogue technology is used at least in the AF range to achieve a better sound.",
+      "answer_d": "Transmission or reception takes place via the internet and not by radio."
+    },
+    "EF602": {
+      "question": "What is the prerequisite for filtering an analogue signal by digital signal processing? The input signal must first be ...",
+      "answer_a": "digitised.",
+      "answer_b": "demodulated.",
+      "answer_c": "freed from noise.",
+      "answer_d": "freed from harmonics."
+    },
+    "EF601": {
+      "question": "The following block diagram shows the principle of digital signal processing. What are the functions of the two blocks 1 and 2?",
+      "answer_a": "1: A/D converter, 2: D/A converter",
+      "answer_b": "1: D/A converter, 2: A/D converter",
+      "answer_c": "Both D/A converters",
+      "answer_d": "Both A/D converters"
+    },
+    "AF710": {
+      "question": "What does latency mean in connection with remote operation?",
+      "answer_a": "The time delay in transmission between the user and the remote station",
+      "answer_b": "The temporary loss of the connection between the user and the remote station",
+      "answer_c": "A limited data rate of the network connection to the radio station",
+      "answer_d": "A limited speech quality due to compression of the voice transmission"
+    },
+    "AF709": {
+      "question": "Which technical peculiarity of using a remote station affects radio operation?",
+      "answer_a": "The signals arrive with a delay.",
+      "answer_b": "The signals arrive too early.",
+      "answer_c": "The impedance of the network cabling is greater than 50 Ω.",
+      "answer_d": "The impedance of the network cabling is less than 50 Ω."
+    },
+    "AF708": {
+      "question": "In remote operation, what can prevent the transmitter from staying on air permanently if the connection between the operator and the remote station fails?",
+      "answer_a": "Watchdog",
+      "answer_b": "VOX circuit at the operator's end",
+      "answer_c": "Firewall",
+      "answer_d": "Uninterruptible power supply"
+    },
+    "AF707": {
+      "question": "You are operating FM voice via your remote station. Because of a malfunction, the transceiver no longer responds to control signals. How can you end the transmission immediately?",
+      "answer_a": "Switching off the supply voltage remotely, e.g. by means of an IP-controlled mains socket",
+      "answer_b": "Interrupting the audio stream, e.g. by switching off the VPN",
+      "answer_c": "Shutting down the internet router at the control site",
+      "answer_d": "Shutting down the internet router at the remote site"
+    },
+    "AF706": {
+      "question": "You are using your distant remote station. Its own transmission causes problematic radiated or conducted pick-up. What can be impaired by this?",
+      "answer_a": "The transceiver or the components there that are used for remote control",
+      "answer_b": "The guying of the antenna installation",
+      "answer_c": "The operator's microphone or loudspeaker",
+      "answer_d": "The operator's local network"
+    },
+    "AF705": {
+      "question": "You are using telephony in remote operation with the set-up shown. Which component generates the RF carrier to be transmitted?",
+      "answer_a": "Block 3",
+      "answer_b": "Block 1",
+      "answer_c": "Block 2",
+      "answer_d": "Network"
+    },
+    "AF704": {
+      "question": "You are using telephony in remote operation with the set-up shown. Which component converts data packets from the network into audio and control signals for transmission?",
+      "answer_a": "Block 2",
+      "answer_b": "Block 1",
+      "answer_c": "Network",
+      "answer_d": "Block 3"
+    },
+    "AF703": {
+      "question": "You are using telephony in remote operation with the set-up shown. Which component converts the operator's audio and control signals into data packets for transmission over the network?",
+      "answer_a": "Block 1",
+      "answer_b": "Block 2",
+      "answer_c": "Network",
+      "answer_d": "Block 3"
+    },
+    "AF702": {
+      "question": "You want to carry out remote operation with the set-up shown in the block diagram. Which devices could you use as block 2?",
+      "answer_a": "Computer or remote interface",
+      "answer_b": "Computer or power supply",
+      "answer_c": "Remote tuner or transceiver",
+      "answer_d": "Amplifier or power supply"
+    },
+    "AF701": {
+      "question": "You want to carry out remote operation with the set-up shown in the block diagram. Which devices could you use as block 1?",
+      "answer_a": "Computer or control unit",
+      "answer_b": "Tuner or transceiver",
+      "answer_c": "Amplifier or power supply",
+      "answer_d": "Amplifier or computer"
+    },
+    "AG127": {
+      "question": "In the microwave range, what advantage does an offset dish offer over a rotationally symmetrical parabolic dish?",
+      "answer_a": "The feed antenna is outside the radiation path and causes no shadowing.",
+      "answer_b": "None, as both types work on the same principle.",
+      "answer_c": "The choice of possible types of feed antenna is greater.",
+      "answer_d": "Offset dishes always produce circular polarisation, regardless of the feed antenna."
+    },
+    "AG126": {
+      "question": "To produce circular polarisation with Yagi-Uda antennas, a horizontal Yagi-Uda antenna and a second one rotated by 90 ° about the axis of radiation are connected together. What must be observed so that circular polarisation is actually produced?",
+      "answer_a": "In one of the antennas, the wave must be delayed by $\\lambda$/4. This can be achieved either by inserting an additional quarter-wave delay line or by mechanically \"offsetting\" the two Yagi-Uda antennas by $\\lambda$/4 relative to each other.",
+      "answer_b": "In one of the antennas, the wave must be delayed by $\\lambda$/2. This can be achieved either by inserting an additional $\\lambda$/2 delay line or by mechanically \"offsetting\" the two Yagi-Uda antennas by $\\lambda$/2 relative to each other.",
+      "answer_c": "The antennas must be connected together via a half-wave Lecher line. To match the characteristic impedance, a $\\lambda$/4 transformer section must also be inserted between the feeder and the antennas.",
+      "answer_d": "The crossed elements of the two antennas must be rotated by 45 ° so that they form a diagonal cross (X) in plan view. The antennas are connected in parallel via line sections of equal length. Matching is done with a balun."
+    },
+    "AG125": {
+      "question": "Which antennas are well suited to NVIS propagation (near vertical incidence skywave), as used for emergency communications on HF?",
+      "answer_a": "Horizontal wires at a height of at most 0.25 wavelengths above ground.",
+      "answer_b": "A horizontal folded dipole made of wire at a height as close as possible to 0.8 wavelengths above ground.",
+      "answer_c": "Wires strung as an \"inverted V\" with the feed point at least one wavelength above ground.",
+      "answer_d": "A vertical antenna with a total length of between 0.5 and 0.625 (5/8) wavelengths over a good radial system."
+    },
+    "AG124": {
+      "question": "What is the name of the antenna shown in the following sketch (MWS = common-mode choke)? It is ...",
+      "answer_a": "an end-fed resonant multiband antenna.",
+      "answer_b": "a multiband antenna built with a magnetic balun.",
+      "answer_c": "an end-fed multiband antenna with a trap.",
+      "answer_d": "an electrically shortened Windom antenna."
+    },
+    "AG123": {
+      "question": "What is the name of the antenna shown (MWS = common-mode choke)?",
+      "answer_a": "End-fed multiband antenna",
+      "answer_b": "Windom antenna",
+      "answer_c": "W3DZZ",
+      "answer_d": "End-fed magnetic multiband antenna"
+    },
+    "AG122": {
+      "question": "What is the following antenna called in amateur radio literature?",
+      "answer_a": "Windom antenna",
+      "answer_b": "Fuchs antenna",
+      "answer_c": "Zepp antenna",
+      "answer_d": "Marconi antenna"
+    },
+    "AG121": {
+      "question": "What is the following antenna called in amateur radio literature?",
+      "answer_a": "G5RV antenna",
+      "answer_b": "Windom antenna",
+      "answer_c": "Fuchs antenna",
+      "answer_d": "Zepp antenna"
+    },
+    "AG120": {
+      "question": "What is the following antenna called in amateur radio literature?",
+      "answer_a": "Zepp antenna",
+      "answer_b": "Windom antenna",
+      "answer_c": "Fuchs antenna",
+      "answer_d": "Marconi antenna"
+    },
+    "AG119": {
+      "question": "In a quad antenna, the electrical length of each side is ...",
+      "answer_a": "a quarter of the wavelength.",
+      "answer_b": "half the wavelength.",
+      "answer_c": "three quarters of the wavelength.",
+      "answer_d": "a whole wavelength."
+    },
+    "AG118": {
+      "question": "A full-wave delta loop antenna for 7.1 MHz is to be made from wire. A correction factor of 1.02 is to be used in the calculation. How long must the wire be in total?",
+      "answer_a": "43.10 m",
+      "answer_b": "42.25 m",
+      "answer_c": "21.55 m",
+      "answer_d": "21.12 m"
+    },
+    "AG117": {
+      "question": "What is the following antenna usually called in amateur radio literature?",
+      "answer_a": "Delta loop (full-wave loop)",
+      "answer_b": "Triangle antenna",
+      "answer_c": "Coaxial stub antenna",
+      "answer_d": "Coax-fed three-line antenna"
+    },
+    "AG116": {
+      "question": "You want to build a dual-band antenna for 160 m and 80 m yourself. Which of the following answers contains the correct wire length $l$ between the traps and the correct resonant frequency $f_{\\textrm{res}}$ of the tuned circuits?",
+      "answer_a": "$l$ is about 40 m, $f_{\\textrm{res}}$ is about 3.65 MHz.",
+      "answer_b": "$l$ is about 80 m, $f_{\\textrm{res}}$ is about 3.65 MHz.",
+      "answer_c": "$l$ is about 40 m, $f_{\\textrm{res}}$ is about 1.85 MHz.",
+      "answer_d": "$l$ is about 80 m, $f_{\\textrm{res}}$ is about 1.85 MHz."
+    }
+  }
+}

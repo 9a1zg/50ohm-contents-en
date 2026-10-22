@@ -80,6 +80,16 @@ and the checker's "Provjera" section).
   the same acronym and about the same plausibility ("Ultra Small Bandwidth"
   mode), rather than a literal translation that no longer spells it.
   (Batch 04.)
+- **"What does the abbreviation X stand for?"** where X is English and the
+  German answers are German terms (EF212, AGC): in German no answer spells the
+  letters, in English the correct expansion does. Where a *faithful* rendering
+  of a distractor can also fit the letters, choose it — *Automatische
+  Gleichlaufsteuerung* → "Automatic ganging control" — so the correct answer
+  does not stand out alone; never invent a distractor to do it. (Batch 05.)
+- ***symmetrisch* on a circuit block is *balanced*** (AF306: *symmetrisches
+  Filter* → "balanced filter", beside "balanced mixer"), as for feeders; only
+  the attenuator, where it means equal input and output impedance, is
+  *symmetrical* (batch 04). (Batch 05.)
 
 ## Open questions for DARC
 

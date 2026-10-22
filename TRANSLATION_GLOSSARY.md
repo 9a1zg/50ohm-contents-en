@@ -788,6 +788,7 @@ real choice or a trap.
 | Spannungskonstanz | voltage stability | of a DC source under load (ED301) |
 | Brummfrequenz | hum frequency | ripple frequency at a PSU output (AD309); *Restwelligkeit* stays *ripple* |
 | Überspannungsableiter | surge arrester | |
+| Unterbrechungsfreie Spannungsversorgung (USV) | uninterruptible power supply (UPS) | AF708 |
 | galvanische Trennung | galvanic isolation | |
 | Versorgungsspannung / Betriebsspannung | supply voltage / operating voltage | |
 | Verstärker | amplifier | |
@@ -798,6 +799,7 @@ real choice or a trap.
 | Basisschaltung | common-base circuit | |
 | Sourceschaltung / Drainschaltung / Gateschaltung | common-source / common-drain / common-gate circuit | |
 | Arbeitspunkt / Arbeitspunkteinstellung | operating point (bias point) / biasing | |
+| Arbeitswiderstand | load resistance | collector/drain load (AF422) |
 | Basisspannungsteiler | base potential divider | |
 | Emitterwiderstand | emitter resistor | |
 | Basisvorspannung / Vorspannung | base bias / bias | |
@@ -818,6 +820,7 @@ real choice or a trap.
 | Begrenzung / Begrenzer | limiting / limiter | |
 | Linearität / linear | linearity / linear | |
 | Eigenschwingungen / wilde Schwingungen / parasitäre Schwingungen | self-oscillation / parasitic oscillations | |
+| Schwingungseinsatz | start of oscillation | AF409 |
 | Oszillator | oscillator | |
 | Schwingungserzeuger | generator of oscillations | ND201, ED501, ED506; kept apart from *signal generator* (*Messsender*) |
 | Schwingbedingung | condition for oscillation | |
@@ -844,6 +847,7 @@ real choice or a trap.
 | Direkte Digitale Synthese (DDS) | direct digital synthesis (DDS) | |
 | Phasenakkumulator | phase accumulator | |
 | Frequenzvervielfacher / Vervielfacher | frequency multiplier / multiplier | |
+| Verachtfacher / Vervielfachungskombination | eight-times multiplier / sequence of multipliers | AF301, AF314; *eight-times* in words, as the German has no digit |
 | Dämpfungsglied | attenuator | |
 | symmetrisches Dämpfungsglied | symmetrical attenuator | equal input and output impedance (AD805, AD806); trap: not *balanced*, which is *symmetrisch* for feeders (§9) |
 | Dämpfung | attenuation; loss | *damping* only for oscillations |
@@ -852,6 +856,7 @@ real choice or a trap.
 | Abwärtsmischer | down-converter | "PLL-Abwärtsmischer" → "PLL down-converter" (AD505) |
 | Mischprodukt / Mischung | mixing product / mixing | |
 | Balancemischer / Ringmischer | balanced mixer / ring mixer (double-balanced mixer) | |
+| Eintakt-Transistormischer / Dualtransistormischer | single-ended transistor mixer / dual-transistor mixer | AF213, AF214 |
 | Treiber | driver | |
 | Pufferstufe | buffer stage | |
 
@@ -869,6 +874,10 @@ real choice or a trap.
 | Geradeausempfänger | tuned radio frequency (TRF) receiver | |
 | Detektorempfänger | crystal set | |
 | Direktüberlagerungsempfänger / Direktmischer | direct-conversion receiver | |
+| digitaler Direktempfänger | digital direct-sampling receiver | AF620 |
+| Empfangszweig / Sendezweig | receive path / transmit path | |
+| Durchlasskurve | passband curve | AF207 |
+| Antennenvorverstärker | antenna preamplifier | |
 | Überlagerungsempfänger / Superhet | superheterodyne receiver (superhet) | |
 | Einfachsuper / Doppelsuper | single-conversion superhet / double-conversion superhet | |
 | Zwischenfrequenz (ZF) | intermediate frequency (IF) | |
@@ -890,8 +899,10 @@ real choice or a trap.
 | Datenanschluss (DATA, 9600-Port) | data port (9600 port) | NF115 |
 | Drehwinkelgeber (Encoder) | rotary encoder | |
 | Empfindlichkeit | sensitivity | |
+| Grenzempfindlichkeit | minimum discernible signal (MDS) | the receiver spec, a distractor in AF221 |
 | Großsignalfestigkeit | strong-signal performance (large-signal handling) | |
 | Intercept-Punkt (IP3) | (third-order) intercept point (IP3) | |
+| Interception Point IP$_3$ | intercept point IP$_3$ | the German's own spelling in AF221; English has only *intercept point* |
 | Kreuzmodulation | cross-modulation | |
 | Intermodulation | intermodulation | |
 | Blocking / Zustopfen | blocking | |
@@ -909,11 +920,16 @@ real choice or a trap.
 | Flankendiskriminator | slope detector | |
 | Flankendemodulator / Flanken-Diskriminator | slope detector | same thing as *Flankendiskriminator*; a bare *Diskriminator* stays *discriminator* (AD504, AD506) |
 | BFO / Hilfsträgeroszillator | beat frequency oscillator (BFO) / carrier insertion oscillator | |
+| Hilfsträger / Hilfsträgererzeugung | auxiliary carrier / generating an auxiliary carrier | EF209 (the BFO's job) |
 | Automatische Verstärkungsregelung (AGC / AVR) / Regelspannung | automatic gain control (AGC) / AGC voltage | |
 | ALC (Automatic Level Control) | automatic level control (ALC) | |
 | Pegelregelung | level control | |
 | RF-Gain / HF-Verstärkungsregler | RF gain (control) | |
 | Rauschsperre / Squelch | squelch | |
+| Noise-Blanker / Störaustaster | noise blanker | "NF-Störaustaster" → "AF noise blanker" (EF211) |
+| Rauschunterdrückung(sverfahren) (Noise Reduction) | noise reduction (NR) | DSP function (EF213) |
+| Clarifier | clarifier | |
+| Gleichlauf / Gleichlaufsteuerung | ganging (tracking) / ganging control | of ganged tuned circuits; EF212 "Automatische Gleichlaufsteuerung" → "Automatic ganging control" (see DECISIONS.md) |
 | RIT | RIT (receiver incremental tuning) | |
 | Lautstärke | volume | |
 | Display / Anzeige | display | |
@@ -921,6 +937,10 @@ real choice or a trap.
 | HF-Verstärker | RF amplifier | HF (Hochfrequenz) → RF |
 | HF-Leistungsverstärker / Leistungsverstärker (PA) | RF power amplifier / power amplifier (PA) | |
 | Endstufe / Senderendstufe | output stage; power amplifier (PA) | |
+| Endstufenröhre / Endstufentransistor | output valve / output transistor | AF401 |
+| Ausgangsanpassschaltung / Ausgangsfilter | output matching circuit / output filter | AF403 |
+| Stromzufuhr (im Sender) | power feed | EF405 |
+| Wärmeleistung (in Wärme umgesetzt) | power dissipated as heat | AF427 |
 | Linearverstärker / Linear-Endstufe | linear amplifier | |
 | Schaltendstufe / Klasse-E-Verstärker | switching amplifier / class E amplifier | |
 | Ausgangsleistung / HF-Ausgangsleistung | output power / RF output power | |
@@ -941,6 +961,10 @@ real choice or a trap.
 | Schnittstelle | interface | |
 | Computer / Rechner | computer | |
 | Remote-Interface / Steuersignale | remote interface / control signals | |
+| Bedienteil | control unit | the operator-side unit in remote operation (AF701) |
+| Remote-Tuner | remote tuner | |
+| Kontrollseite / Remoteseite | control site / remote site | AF707; not *remote end*, which is *Gegenstelle* (§8) |
+| IP-Steckdose | IP-controlled mains socket | |
 | Watchdog | watchdog | |
 
 ## 7. Modulation and transmission modes
@@ -977,6 +1001,7 @@ real choice or a trap.
 | Spitzenleistung (PEP) / Hüllkurvenspitzenleistung | peak envelope power (PEP) | |
 | mittlere Leistung | mean power | RR term *mean power* |
 | Zweitonsignal | two-tone (test) signal | |
+| Ein- oder Zweitonaussteuerung | single-tone or two-tone drive | PEP measurement (EF402) |
 | Telefonie | telephony | |
 | Amateurfernsehen (ATV) | amateur television (ATV) | |
 | SSTV (Slow Scan Television) | slow-scan television (SSTV) | |
@@ -1029,6 +1054,7 @@ real choice or a trap.
 | Color Code (DMR) | colour code (DMR) | British spelling in prose; "Color Code" when quoting a DMR menu item |
 | DMR / D-STAR / C4FM / FT8 / PSK31 / Olivia / RTTY | unchanged | mode names stay |
 | Digital Voice (DV) | digital voice (DV) | |
+| digitaler Sprechfunk / digitales Amateurfunkfernsehen (DATV) | digital voice / digital amateur television (DATV) | |
 | Paketvermittlung | packet switching | |
 | paketvermitteltes Netz / Paketweiterleitung | packet-switched network / packet forwarding | EE412 |
 | Internetprotokoll (IP) | Internet Protocol (IP) | capitalised as a proper name, though *the internet* is lower case |
@@ -1041,7 +1067,14 @@ real choice or a trap.
 | Sample / Samples | sample / samples | |
 | Abtasttheorem (Nyquist) | sampling theorem (Nyquist) | |
 | Aliasing / Antialiasingfilter | aliasing / anti-aliasing filter | |
+| Alias-Effekt / Anti-Alias-Filter | aliasing (effect) / anti-aliasing filter | "Unter dem Alias-Effekt werden Fehler verstanden" → "The term aliasing refers to errors" (AF617) |
+| Abtastratengenerator | sampling clock generator | AF620 |
+| Abtastergebnis | sampled result | |
+| Taktzittern (Jitter) | clock jitter | AF621 |
+| Schrittweite (D/A-Umsetzer) | step size | between voltage levels (AF610, AF611) |
+| Amplitudengang / Frequenzgang | amplitude response / frequency response | |
 | Quantisierung | quantisation | |
+| Raummultiplexing | space-division multiplexing | AF605 |
 | Auflösung (Bit) | resolution | |
 | Wertebereich | (value) range | |
 | A/D-Umsetzer (ADC) | analogue-to-digital converter (ADC) | British *analogue* |
@@ -1089,10 +1122,12 @@ real choice or a trap.
 | Boom / Boomlänge | boom / boom length | |
 | Parabolantenne / Parabolspiegel | parabolic dish / parabolic reflector | |
 | Offsetspiegel | offset dish | |
+| rotationssymmetrischer Parabolspiegel | rotationally symmetrical parabolic dish | AG127 |
 | Erreger / Erregerantenne | feed; feed antenna | |
 | Hornstrahler | horn antenna | |
 | Helixantenne | helical antenna (helix) | |
 | Mehrbandantenne / Multibandantenne | multiband antenna | |
+| Zweibandantenne | dual-band antenna | as *Zweiband-Dipol* (§14) |
 | Monobandantenne | monoband antenna | |
 | Trap (Sperrkreis in Antenne) | trap | |
 | Verlängerungsspule | loading coil | |
@@ -1141,6 +1176,7 @@ real choice or a trap.
 | Leitungsende / offenes / kurzgeschlossenes Ende | end of the line / open-circuit / short-circuit end | |
 | Lecherleitung | Lecher line | |
 | Viertelwellen-Transformator (λ/4-Leitung) | quarter-wave transformer | |
+| Verzögerungsleitung / Transformationsstück | delay line / transformer section | AG126 |
 | Anpassung | matching | |
 | Fehlanpassung | mismatch | |
 | Anpassung, Transformation, Symmetrierung und Mantelwellen | matching, impedance transformation, balancing and common-mode currents | catalogue heading |
@@ -1164,6 +1200,7 @@ real choice or a trap.
 | Hohlleiter | waveguide | |
 | Mast / Antennenmast / Gittermast | mast / antenna mast / lattice tower | |
 | Windlast | wind load | |
+| Abspannung | guying (guy wires) | AF706 |
 | Dachständer | roof-mounted mains overhead-line support | German distribution detail; describe as needed |
 | Freileitung / Hochspannungsleitung | overhead line / high-voltage line | |
 
@@ -1192,6 +1229,7 @@ real choice or a trap.
 | tote Zone | skip zone | |
 | Sprung / Sprungdistanz | hop / skip distance | |
 | Fernausbreitung | long-distance propagation (DX propagation) | |
+| NVIS (Near Vertical Incidence Skywave) | NVIS (near vertical incidence skywave) | the German writes *Incident* (AG125); English has *incidence* |
 | kritische Frequenz (foF2) | critical frequency (foF2) | |
 | MUF / LUF / FOT | MUF / LUF / FOT | maximum usable / lowest usable / optimum working frequency |
 | Einfallswinkel / Einstrahlung (in die Ionosphäre) | angle of incidence / incidence | trap: *Einstrahlung* in EMC means radiated pick-up |
@@ -1420,6 +1458,8 @@ the entries above, listed so that they are rendered the same way every time.
 | Voraussetzung | prerequisite; condition | |
 | Aussage | statement | "Welche Aussage ist richtig?" → "Which statement is correct?" |
 | Darstellung / Abbildung / Bild / Skizze | diagram / figure / picture / sketch | "Die Darstellung zeigt …" → "The diagram shows …" |
+| Draufsicht | plan view | |
+| Korrekturfaktor | correction factor | |
 | Auswahlantworten | answer options | |
 | Farbton / Helligkeit | colour (hue) / brightness | waterfall display |
 | zeitgleich | simultaneously | |
