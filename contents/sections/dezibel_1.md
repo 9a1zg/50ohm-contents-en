@@ -58,4 +58,4 @@ Decibel values that end in "$0$" can be estimated without any calculator at all:
 
 [question:EA107]
 
-Besides the unit $\unit{dB}$, in practice you will often also come across values such as $\unit{\dBi}$, $\unit{\dBm}$, $\unit{\dBW}$ or $\unit{\dBu}$. These additions indicate which reference quantity the decibel value in question refers to. In Class E we will meet $\unit{\dBi}$ and $\unit{\dBd}$ in particular, for antennas, in the antenna chapter. The others, such as $\unit{\dBm}$ and $\unit{\dBW}$, are only needed for Class A.
+Besides the unit $\unit{dB}$, in practice you will often also come across values such as $\unit{\dBi}$, $\unit{\dBm}$, $\unit{\dBW}$ or $\unit{\dBu}$. These suffixes indicate which reference quantity the decibel value in question refers to. In Class E we will meet $\unit{\dBi}$ and $\unit{\dBd}$ in particular, for antennas, in the antenna chapter. The others, such as $\unit{\dBm}$ and $\unit{\dBW}$, are only needed for Class A.

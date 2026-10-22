@@ -86,7 +86,7 @@ $P = \frac{U^2}{R} =\frac{(\qty{100}{\volt})^2}{\qty{50}{\ohm}} = \qty{200}{\wat
 
 [question:EB508]
 
-When the current is known, too, the power can be calculated, with the familiar formula $P = I^2 \cdot R$. Substituting:
+The power can also be calculated when the current is known, with the familiar formula $P = I^2 \cdot R$. Substituting:
   
 $P = (\qty{2}{\ampere})^2 \cdot \qty{50}{\ohm} = \qty{200}{\watt}$
 

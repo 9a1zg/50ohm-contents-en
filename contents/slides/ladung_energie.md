@@ -12,7 +12,7 @@ in ampere-seconds (As)
 Power times time
 
 $W = P\cdot t$
-in joules ($\unit{\joule}$), based on the second, or watt-hours ($\unit{\watt\hour}$)
+in joules ($\unit{\joule}$), with time in seconds, or watt-hours ($\unit{\watt\hour}$)
 
 ---
 [question:AA103]

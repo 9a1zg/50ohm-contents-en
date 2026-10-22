@@ -73,7 +73,7 @@ $\unit{\dBm}$ = decibels relative to $\unit{\milli\watt}$
 
 <note>
 * The difference is the gain
-* Gain is a factor and is not relative to the $\unit{mW}$, hence just $\unit{\dB}$
+* Gain is a factor and is not relative to $\unit{mW}$, hence just $\unit{\dB}$
 </note>
 
 --- style="font-size: 0.7em;"

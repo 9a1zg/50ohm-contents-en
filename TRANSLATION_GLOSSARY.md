@@ -2064,6 +2064,7 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Hilfsmaßeinheit / Pseudoeinheit | auxiliary unit / pseudo-unit | the dB (dezibel_2, AA112) |
 | (Dezibel) bezogen auf / Bezugswert | (decibels) relative to / reference value | "dBm = Dezibel bezogen auf mW" → "decibels relative to mW"; *Bezugsgröße* → reference quantity (§3) |
 | Signalkette | signal chain | |
+| Zusatz (an dB: dBm, dBi …) | suffix | "Diese Zusätze geben an, auf welche Bezugsgröße …" (dezibel_1, dezibel_2); not *addition* |
 | Referenzstrahler | reference radiator | dBi, dBd |
 | vorzeichenrichtige Subtraktion | subtracting with the correct signs | dBm values (dezibel_2) |
 | Hilfsmittel (Prüfung) | examination aids | the permitted aids, i.e. the formula sheet (AA108–AA110) |

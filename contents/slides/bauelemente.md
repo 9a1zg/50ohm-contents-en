@@ -23,7 +23,7 @@
 <left>
 * Also stores a small amount of energy
 * But technically works in a completely different way from the capacitor
-* In the simple cases, consists of a wound coil of wire
+* In simple cases, consists of a wound coil of wire
 </left>
 <right>
 [photo:207:n_bauelemente_spule:Circuit symbol and types of inductors]

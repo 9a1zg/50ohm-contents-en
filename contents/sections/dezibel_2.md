@@ -47,7 +47,7 @@ But even for $\unit{\dB}$ values that do not end in $0$, the corresponding facto
 * Which factor corresponds to a power ratio of $\qty{17}{\dB}$? $\qty{17}{\dB} = \qty{20}{\dB} - \qty{3}{\dB}$, so a factor of $100$ divided by $2$, which is $50$.
 </tip>
 
-The decibel ($\unit{\dB}$) basically describes a dimensionless ratio, for example of powers or voltages. That is why $\unit{\dB}$ is used above all to state gains and attenuations. In these cases no further addition is needed, since only the ratio of two quantities is being stated. Negative decibel values, by the way, indicate ratios smaller than $1$. For example, $\qty{-3}{\dB}$ corresponds to a ratio of $\frac{1}{2} = \num{0.5}$.
+The decibel ($\unit{\dB}$) fundamentally describes a dimensionless ratio, for example of powers or voltages. That is why $\unit{\dB}$ is used above all to state gains and attenuations. In these cases no suffix is needed, since only the ratio of two quantities is being stated. Negative decibel values, by the way, indicate ratios smaller than $1$. For example, $\qty{-3}{\dB}$ corresponds to a ratio of $\frac{1}{2} = \num{0.5}$.
 
 Decibel values can also be used to state an absolute level, however. This requires a fixed reference quantity $P_0$:
 
@@ -55,7 +55,7 @@ $p = 10\cdot \log_{10}\left(\frac{P}{P_0}\right)\unit{\dB}$
 
 ---
 
-This reference quantity can be, for example, a power of $\qty{1}{\milli\watt}$. In this case the decibel value gets a corresponding addition: if the level is relative to $\qty{1}{\milli\watt}$, we speak of $\unit{\dBm}$. This makes it unambiguous which absolute power value the decibel level refers to.
+This reference quantity can be, for example, a power of $\qty{1}{\milli\watt}$. In this case the decibel value gets a corresponding suffix: if the level is relative to $\qty{1}{\milli\watt}$, we speak of $\unit{\dBm}$. This makes it unambiguous which absolute power value the decibel level refers to.
 
 If, for example, you come across the statement "The transmitter has an output power of $\qty{20}{\dBm}$", this value can easily be converted into milliwatts. A level of $\qty{20}{\dB}$ corresponds to a power ratio of $100$ (that is, two zeros). This factor is multiplied by the reference quantity of $\qty{1}{\milli\watt}$:
 
@@ -93,7 +93,7 @@ Figure [ref:e_signalkette_2] shows another example of a signal chain, in which a
 </margin>
 
 <indepth>
-Why is it allowed to subtract an attenuation of $\qty{3}{\dB}$ from a level of $\qty{9}{\dBm}$? After all, the two values have different units! The bel ($\unit{\bel}$) and the decibel ($\unit{\dB}$) are an auxiliary unit (also called a pseudo-unit).
+Why is it permissible to subtract an attenuation of $\qty{3}{\dB}$ from a level of $\qty{9}{\dBm}$? After all, the two values have different units! The bel ($\unit{\bel}$) and the decibel ($\unit{\dB}$) are auxiliary units (also called pseudo-units).
 In principle, the numerical value could also be written without the unit $\unit{\dB}$. But adding $\unit{\dB}$ makes it clear that we are dealing with a logarithmic ratio of two quantities. Without this unit, you would have to describe in words what the numerical value means.
 </indepth>
 
@@ -101,7 +101,7 @@ To find the total gain of a multi-stage power amplifier, the difference between 
 
 [question:AF428]
   
-In Class E we also already met the additions $\unit{\dBd}$ and $\unit{\dBi}$, which are used when stating antenna gains. In this case the decibel value does not refer to a power or a voltage, but to a particular reference radiator. The usual ones are $\unit{\dBi}$, relative to the isotropic radiator, and $\unit{\dBd}$, relative to the half-wave dipole.
+In Class E we also already met the suffixes $\unit{\dBd}$ and $\unit{\dBi}$, which are used when stating antenna gains. In this case the decibel value does not refer to a power or a voltage, but to a particular reference radiator. The usual ones are $\unit{\dBi}$, relative to the isotropic radiator, and $\unit{\dBd}$, relative to the half-wave dipole.
 
 ---
 
@@ -138,7 +138,7 @@ So we calculate a ratio *$a$* of two voltages $U_1$ and $U_2$ by multiplying the
 In decibel calculations, always check carefully whether you are dealing with power ratios or voltage ratios!
 </attention>
 
-To determine voltage levels, we again first have to fix a reference voltage (see Table [ref:a_bezugsgroessen]). For received signals, we like to measure the (very small) voltages at the receiver input in $\unit{\micro\volt}$. The corresponding voltage level then has the unit $\unit{\dBuV}$. Example:
+To determine voltage levels, we again first have to fix a reference voltage (see Table [ref:a_bezugsgroessen]). For received signals, we usually measure the (very small) voltages at the receiver input in $\unit{\micro\volt}$. The corresponding voltage level then has the unit $\unit{\dBuV}$. Example:
 
 $\qty{10}{\micro\volt} \rightarrow 20 \cdot \log_{10}\left(\frac{\qty{10}{\micro\volt}}{\qty{1}{\micro\volt}}\right)=\qty{20}{\dBuV}$
 

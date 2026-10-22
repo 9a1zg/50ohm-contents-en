@@ -46,7 +46,7 @@ reference, *chassis* / *earth*).
 - dezibel_1 slides: *effektive Leistung EME-Station* (100 kW) → "Effective radiated power, EME station" — the figure includes antenna gain; *RMS power* (§11) would be the wrong sense; *Lautes / Leises KW-Signal* → "Loud / Quiet HF signal" (KW → HF, *laut / leise* kept apart from *stark / schwach*); *Zimmerlautstärke* → "normal room volume"; column "Bel" → "Bels"; *dezi wie in dezimeter* → "deci as in decimetre"; calculator keys "*log* key", "*=* key".
 - dezibel_2: *Achtung, hier ist … gemeint* → "Note: what is meant here is …"; *Lektion* → "lesson"; *Versuche … mit deinem Wissen zu lösen* → "Try to solve the question with what you know"; slides *liegt bei P = 1 mW vor* → "corresponds to P = 1 mW"; `\text{Faktor 10}` → `\text{factor 10}`.
 - leistung_2: `\text{ bzw. }` → `\text{ or }`; *Abschlusswiderstand* → "terminating resistor" (§11), *reiner Wirkwiderstand* → "pure resistance"; *effektive Leistung* (EB513) → "RMS power" (§11, AI105); EB513's missing full stop after "12.5 V" supplied; *Hochfrequenz – also der Wechselspannung* → "radio frequency – that is, of AC voltage".
-- ladung_energie: *Akkus oder Batterien* → "batteries or rechargeable batteries", *Batterien und Akkumulatoren* → "batteries and rechargeable batteries" (glossary *Akku*); *Energie pro Zeit* → "energy per unit time"; slides *Strom über Zeit / Leistung über Zeit* → "Current times time / Power times time" ("over time" would read as division beside $Q = I\cdot t$); the garbled *in Joule (J) auf Sekunde bezogen* → "in joules (J), based on the second".
+- ladung_energie: *Akkus oder Batterien* → "batteries or rechargeable batteries", *Batterien und Akkumulatoren* → "batteries and rechargeable batteries" (glossary *Akku*); *Energie pro Zeit* → "energy per unit time"; slides *Strom über Zeit / Leistung über Zeit* → "Current times time / Power times time" ("over time" would read as division beside $Q = I\cdot t$); the garbled *in Joule (J) auf Sekunde bezogen* → "in joules (J), with time in seconds" (checker; first "based on the second").
 - bauelemente: *Spule* → "inductor" (NC301); *Schaltzeichen und Bauformen* → "Circuit symbol and types of …" (not *package style*, which suits semiconductors but not inductors); slides *Masse* → "Chassis" (NB202, glossary §4), *Nicht zu verwechseln mit der Erdung* → "Not to be confused with earthing"; *Klasse E und A* → "Classes E and A".
 - Solutions: headings *Gegeben / Lösungsweg / Abkürzung* → "Given / Solution / Shortcut" (*Abkürzung* here is a short cut, not an abbreviation); the formula-sheet section names in brackets → "(levels, gain, power)", "(levels, power and voltage levels)", lower case as descriptions; *Hilfsmittel* → "examination aids"; *Eingangsleitung* (typo, AA106, AA107) → "Input power".
 - AB503: the label *Strom:* before $R = 100 Ω$ translated faithfully as "Current:" (see errors below).
@@ -66,3 +66,25 @@ reference, *chassis* / *earth*).
 - solutions/AA109.md — the given values are named $p_\text{Sender, Ausgang}$ and $g_\text{Endstufe}$, the final step uses $p_\text{Eingang}$ and $g_\text{Verstärkung}$; "$10 \cdot \qty{3}{\dBm}$" puts a unit on a logarithm. Likewise solutions/AA111.md "$20 \cdot \qty{1.176}{\dB}$" (log 15 has no unit).
 - slides/ladung_energie.md — "in Joule ($\unit{\joule}$) auf Sekunde bezogen" is garbled (probably *Wattsekunden*); translated by its evident meaning.
 - Typos with no effect on the English: sections/dezibel_2.md and slides captions "Signalkette mit drei/zwei Verstärken" (*Verstärkern*), "können wir das Dezibel können auch verwenden" (verb twice), "schonmal", "Wieviel"; sections/leistung_2.md "Im letzen Schritt", "Das bedeutet die Spitzenspannung beträgt $\hat{U} = \qty{12,5}{\volt}$ Wir" (full stop missing); solutions/AA106.md and AA107.md "Eingangsleitung" (*Eingangsleistung*); AA107.md, AA109.md "durch einfach Addition" (*einfache*); AA108.md–AA110.md "aus den Hilfsmittel" (*Hilfsmitteln*); AA110.md "Wir setzten" (*setzen*).
+
+## Provjera
+
+Checker, 2026-10-22: all 26 files compared with the German of `00b4eb0~1`
+line by line; embedded questions (EB503–EB514, EA107, AA102–AA112, AB502,
+AB503, AD426–AD428, AF428, NB202, NC201, NC301, NC501) read in English. The
+translation is complete and the numbers, formulas and markup are intact;
+`revizija-guard.py --rev 00b4eb0~1 --brojevi`: 26 files, *struktura
+netaknuta*. All judgement calls, the 22 glossary rows and the suspected
+errors in the German are kept (the *Bel*, *effektive Leistung EME-Station*,
+*Strom über Zeit* and *Bauformen* choices checked and found sound); one
+glossary row added.
+
+Changes: omission 0, meaning 1, technical 0, style 8, glossary 4.
+
+- slides/ladung_energie.md: *in Joule auf Sekunde bezogen* "based on the second" → "with time in seconds" — the evident meaning (J = W·s against W·h); "based on the second" said nothing to an English reader (meaning).
+- sections/dezibel_1.md, dezibel_2.md (3×): *Zusatz* to dB (dBm, dBi, dBd) "addition" → "suffix", the English word for it; glossary §14 row *Zusatz (an dB)* → suffix added (glossary).
+- sections/dezibel_2.md indepth: "The bel and the decibel are an auxiliary unit (also called a pseudo-unit)" → "are auxiliary units (also called pseudo-units)"; "Why is it allowed" → "Why is it permissible" (style).
+- sections/dezibel_2.md: *grundsätzlich* "basically" → "fundamentally"; *messen wir gern* "we like to measure" → "we usually measure" (style).
+- sections/leistung_2.md (EB508): "When the current is known, too, the power can be calculated, with …" → "The power can also be calculated when the current is known, with …" (style).
+- slides/dezibel_1.md: "not relative to the mW" → "not relative to mW"; slides/bauelemente.md: "In the simple cases" → "In simple cases"; solutions/AA107.md: the full sentence in brackets starts with a capital (style).
+
