@@ -1,0 +1,1229 @@
+{
+  "pitanja": {
+    "VB102": {
+      "question": "What is meant by the term HAREC (Harmonised Amateur Radio Examination Certificate)?",
+      "answer_a": "It is a harmonised amateur radio examination certificate in accordance with CEPT Recommendation T/R 61-02. The Class A amateur radio certificate corresponds to this recommendation.",
+      "answer_b": "It is a harmonised CEPT radio amateur licence in accordance with CEPT Recommendation T/R 61-01.",
+      "answer_c": "It is a harmonised CEPT Novice Radio Amateur Examination Certificate in accordance with ERC Report 32. The Class E amateur radio certificate corresponds to this recommendation.",
+      "answer_d": "It is a harmonised CEPT Novice Radio Amateur Licence in accordance with ECC Recommendation (05)06."
+    },
+    "VB101": {
+      "question": "Which of the following statements about the \"CEPT Novice Radio Amateur Examination Certificate\" is correct?",
+      "answer_a": "It can simplify the issue of a corresponding individual novice licence for radio amateurs in another country.",
+      "answer_b": "It entitles the holder to carry out amateur radio operation abroad under the German provisions.",
+      "answer_c": "It entitles the holder to carry out amateur radio operation under CEPT Recommendation T/R 61-01.",
+      "answer_d": "Holders of the CEPT Novice Radio Amateur Examination Certificate are generally not permitted to carry out amateur radio operation abroad."
+    },
+    "VC125": {
+      "question": "What must a radio amateur expect who commits an administrative offence in operating an amateur station?",
+      "answer_a": "The Federal Network Agency (BNetzA) can punish the offence with a fine.",
+      "answer_b": "The radio amateur must expect the amateur radio certificate to be withdrawn.",
+      "answer_c": "The radio amateur must expect the amateur radio installation to be seized by the BNetzA.",
+      "answer_d": "The Federal Network Agency (BNetzA) can order a re-examination subject to a fee."
+    },
+    "VC124": {
+      "question": "Which of the following acts are administrative offences within the meaning of the Amateur Radio Act (Amateurfunkgesetz, AFuG) and can be punished with fines of up to 5000 or 10000 euros?",
+      "answer_a": "(1) Operation without a licence and without the assignment of a call sign; (2) Providing telecommunications services on a commercial basis; (3) Passing messages to third parties",
+      "answer_b": "(1) Exceeding the permitted transmit power; (2) Permanently moving the amateur station to another location; (3) Operating without carrying the licence document",
+      "answer_c": "(1) Giving the call sign inadequately; (2) Exceeding the permitted bandwidth of an emission; (3) Simultaneous use of one call sign from different locations",
+      "answer_d": "(1) Encrypting amateur radio communication to obscure its content; (2) Operating a remote station without an operating notification; (3) Letting third parties use the call sign"
+    },
+    "VC123": {
+      "question": "What must a radio amateur with an assigned call sign expect in the event of continued violations of the AFuG or AFuV?",
+      "answer_a": "Revocation of the amateur radio licence",
+      "answer_b": "A ban on training operation",
+      "answer_c": "A re-examination subject to a fee",
+      "answer_d": "Confiscation of the amateur radio certificate"
+    },
+    "VC122": {
+      "question": "In the event of violations of the AFuG or AFuV, the Federal Network Agency (BNetzA) can ...",
+      "answer_a": "order operation to be restricted or the amateur station to be taken out of service.",
+      "answer_b": "order the amateur station to be dismantled immediately, on the spot.",
+      "answer_c": "order the amateur station to be rendered unusable by removing important parts from the transmitter.",
+      "answer_d": "order a re-examination of competence subject to a fee."
+    },
+    "VC121": {
+      "question": "Under the Amateur Radio Act (Amateurfunkgesetz, AFuG), can a radio amateur obtain a site certificate?",
+      "answer_a": "The BNetzA issues a site certificate on application.",
+      "answer_b": "The radio amateur cannot obtain a site certificate from the BNetzA, even on application.",
+      "answer_c": "The site certificate can be produced with the IT application \"Watt-Wächter\".",
+      "answer_d": "The BNetzA issues a site certificate when it assigns the call sign."
+    },
+    "VC120": {
+      "question": "In home-built equipment, may a radio amateur deviate from the essential requirements on immunity within the meaning of the Act on the Electromagnetic Compatibility of Equipment (EMVG)?",
+      "answer_a": "Yes, radio amateurs can determine the degree of immunity of their equipment themselves.",
+      "answer_b": "Yes, but only in the direction of improving immunity",
+      "answer_c": "No, the immunity is specified and must be complied with.",
+      "answer_d": "No, with regard to immunity, home-built amateur radio equipment must match commercially manufactured equipment."
+    },
+    "VC119": {
+      "question": "What applies regarding the immunity of the amateur station according to the wording of the Amateur Radio Act (Amateurfunkgesetz, AFuG)?",
+      "answer_a": "The radio amateur may deviate from the essential requirements under the Act on the Electromagnetic Compatibility of Equipment (EMVG) and can determine the degree of immunity of the amateur station personally.",
+      "answer_b": "The radio amateur must have the amateur station undergo an immunity test by the BNetzA every 2 years.",
+      "answer_c": "With regard to their immunity, amateur stations are treated in the same way as other equipment.",
+      "answer_d": "Amateur stations must accept electromagnetic interference from other equipment even if that equipment does not meet the essential requirements under the Act on the Electromagnetic Compatibility of Equipment (EMVG)."
+    },
+    "VC118": {
+      "question": "What must a radio amateur observe with regard to electromagnetic compatibility when operating an amateur station?",
+      "answer_a": "The radio amateur must comply with the protection requirements for ensuring electromagnetic compatibility within the meaning of the Act on the Electromagnetic Compatibility of Equipment (EMVG).",
+      "answer_b": "The radio amateur needs a current compatibility certificate from the BNetzA for the amateur station.",
+      "answer_c": "The amateur station may consist only of type-tested radio equipment that meets the requirements of the Act on Radio Equipment (FuAG).",
+      "answer_d": "The amateur station must be checked for compliance with electromagnetic compatibility by a certified master electrician. The acceptance report must be kept available for the BNetzA."
+    },
+    "VC117": {
+      "question": "Can an assigned call sign be changed by the Federal Network Agency (BNetzA)?",
+      "answer_a": "The call sign can be changed for important reasons, in particular when international requirements change.",
+      "answer_b": "On moving into the area of responsibility of another regional office of the Federal Network Agency (BNetzA), the radio amateur receives a new call sign assignment.",
+      "answer_c": "The assigned call sign is the property of the radio amateur and is not changed by the Federal Network Agency (BNetzA).",
+      "answer_d": "If the notification under the Ordinance on the Verification Procedure for Limiting Electromagnetic Fields (BEMFV) changes, the radio amateur receives a different call sign."
+    },
+    "VC116": {
+      "question": "Which personal call signs may a radio amateur use?",
+      "answer_a": "Only a call sign that the Federal Network Agency (BNetzA) has assigned to that radio amateur",
+      "answer_b": "Any call signs",
+      "answer_c": "Only a call sign assigned by an amateur radio society",
+      "answer_d": "When using another person's station, the personal call sign of the station holder"
+    },
+    "VC115": {
+      "question": "For what purpose may an amateur station <u>not</u> be operated under the Amateur Radio Act (Amateurfunkgesetz, AFuG)?",
+      "answer_a": "For providing telecommunications services on a commercial basis",
+      "answer_b": "For research into atmospheric propagation",
+      "answer_c": "For communication with space stations",
+      "answer_d": "For experimental studies"
+    },
+    "VC114": {
+      "question": "May the amateur station be operated for commercial purposes? An amateur station may ...",
+      "answer_a": "not be operated for commercial purposes.",
+      "answer_b": "be operated for commercial purposes once the business has been registered, stating the call sign.",
+      "answer_c": "be operated for the purpose of providing telecommunications services on a commercial basis.",
+      "answer_d": "be operated for commercial purposes after approval by the Federal Network Agency (BNetzA)."
+    },
+    "VC113": {
+      "question": "Under the Amateur Radio Act (Amateurfunkgesetz, AFuG), a radio amateur is the holder of an amateur radio certificate or a harmonised examination certificate who is concerned with the amateur service out of personal interest and <u>not</u> ...",
+      "answer_a": "out of commercial interest.",
+      "answer_b": "out of political or religious interest.",
+      "answer_c": "out of technical-scientific interest.",
+      "answer_d": "out of social or cultural interest."
+    },
+    "VC112": {
+      "question": "May a radio amateur transmit messages that do not concern the amateur service on behalf of and to third parties?",
+      "answer_a": "Only in emergencies and disasters",
+      "answer_b": "No, under no circumstances",
+      "answer_c": "Yes, at any time",
+      "answer_d": "Only when requested by the competent regional office of the Federal Network Agency (BNetzA)"
+    },
+    "VC111": {
+      "question": "With which stations may a radio amateur carry on radio communication?",
+      "answer_a": "Only with other amateur stations",
+      "answer_b": "With all stations active on the amateur bands",
+      "answer_c": "With other amateur stations and stations of the authorities and organisations with security tasks (BOS)",
+      "answer_d": "With other amateur stations and stations of the aeronautical and/or maritime mobile service"
+    },
+    "VC110": {
+      "question": "What applies to radio amateurs with regard to frequency use? With the amateur station, a radio amateur may ...",
+      "answer_a": "transmit on the frequencies designated for the amateur service.",
+      "answer_b": "transmit on all frequencies permitted for the radio amateur's ITU region.",
+      "answer_c": "use any frequencies, provided no other radiocommunication services suffer interference.",
+      "answer_d": "also transmit on frequencies not designated for the amateur service in the course of an emergency communications exercise."
+    },
+    "VC109": {
+      "question": "What right do radio amateurs have with regard to operating transmitting equipment? A radio amateur ...",
+      "answer_a": "is entitled to operate transmitting equipment that is commercially available, home-built or converted to amateur frequencies.",
+      "answer_b": "never needs a site certificate from the BNetzA for the amateur station.",
+      "answer_c": "need not observe the relevant BNetzA provisions on electrical safety.",
+      "answer_d": "may at any time use the amateur station to transmit messages that do not concern the amateur service on behalf of and to third parties."
+    },
+    "VC108": {
+      "question": "Under the Amateur Radio Act (Amateurfunkgesetz, AFuG), is a minimum age required for the issue of an amateur radio licence?",
+      "answer_a": "The Amateur Radio Act (Amateurfunkgesetz, AFuG) does not provide for a minimum age.",
+      "answer_b": "The minimum age for applying is 15 years.",
+      "answer_c": "From Class E upwards, the Amateur Radio Act (Amateurfunkgesetz, AFuG) provides for a minimum age of 16 years.",
+      "answer_d": "Having reached the age of majority is a prerequisite for the issue of Class A."
+    },
+    "VC107": {
+      "question": "May a radio amateur temporarily transfer the amateur radio licence to another person? The amateur radio licence is ...",
+      "answer_a": "tied to the person named in the licence document and is not transferable.",
+      "answer_b": "transferable to persons in the same household after prior notification to the Federal Network Agency (BNetzA).",
+      "answer_c": "transferable if the person is a radio amateur who has successfully passed the examination.",
+      "answer_d": "transferable if the persons concerned are foreign radio amateurs staying temporarily in Germany."
+    },
+    "VC106": {
+      "question": "Apart from having passed the amateur radio examination, what is absolutely necessary for you to be allowed to operate an amateur station?",
+      "answer_a": "An authorisation to participate in the amateur service",
+      "answer_b": "Submission of proof that the antenna installation has been professionally installed",
+      "answer_c": "Obtaining an EMVU certificate from the competent authority",
+      "answer_d": "Submission of calculation documents and supplementary measurement reports for the worst-case configuration of the antenna installation"
+    },
+    "VC105": {
+      "question": "Which of the following documents do you need to be a radio amateur within the meaning of the Amateur Radio Act (Amateurfunkgesetz, AFuG)?",
+      "answer_a": "An amateur radio certificate or a harmonised amateur radio examination certificate",
+      "answer_b": "A certificate of good conduct showing that you have no criminal record",
+      "answer_c": "A valid identity card or passport showing that you are resident in the Federal Republic",
+      "answer_d": "A certificate stating that you have successfully taken part in training operation in the Federal Republic of Germany"
+    },
+    "VC104": {
+      "question": "Which German authority performs the tasks and exercises the powers arising from the Amateur Radio Act (Amateurfunkgesetz, AFuG) and the Amateur Radio Ordinance (Amateurfunkverordnung, AFuV)?",
+      "answer_a": "The Federal Network Agency (BNetzA)",
+      "answer_b": "The National Metrology Institute (Physikalisch-Technische Bundesanstalt)",
+      "answer_c": "The Federal Institution for Posts and Telecommunications (Bundesanstalt für Post und Telekommunikation)",
+      "answer_d": "The Federal Agency for Public Safety Digital Radio (Bundesanstalt für den Digitalfunk der BOS)"
+    },
+    "VC103": {
+      "question": "Under the Amateur Radio Act (Amateurfunkgesetz, AFuG), an amateur station is a station that consists of ...",
+      "answer_a": "one or more transmitters and receivers, including the antenna installations and the accessory equipment necessary for their operation, and that can be operated on at least one of the frequencies designated for the amateur service in the Frequency Plan.",
+      "answer_b": "several transmitters and receivers and that can be operated on at least three of the frequencies designated for the amateur service in the Frequency Plan above 30 MHz.",
+      "answer_c": "several transmitters and receivers and that can be operated on at least three of the frequencies designated for the amateur service in the Frequency Plan below 30 MHz.",
+      "answer_d": "a receiver, including the antenna installations and the accessory equipment necessary for its operation, and that can be operated on at least one of the frequencies designated for the amateur service in the Frequency Plan."
+    },
+    "VC102": {
+      "question": "Within the meaning of the Amateur Radio Act (Amateurfunkgesetz, AFuG), the amateur service is a radiocommunication service that ...",
+      "answer_a": "is carried on by radio amateurs among themselves, for experimental and technical-scientific studies, for their own further education, for international understanding and for supporting relief operations in emergencies and disasters.",
+      "answer_b": "enjoys priority over other radiocommunication services on all frequencies designated in the Frequency Plan and may be carried on to support relief operations in emergencies and disasters.",
+      "answer_c": "may be carried on by radio amateurs with radio equipment specially approved for it, on all frequencies designated in the Frequency Plan and for their own further education.",
+      "answer_d": "is carried on by radio amateurs out of personal interest, out of commercial interests and for technical studies."
+    },
+    "VC101": {
+      "question": "Which law forms the legal basis for, and lays down the requirements and conditions for, participation in the amateur service in Germany?",
+      "answer_a": "The Act on Amateur Radio",
+      "answer_b": "The Telecommunications Act",
+      "answer_c": "The Act on Making Radio Equipment Available on the Market",
+      "answer_d": "The Act on the Electromagnetic Compatibility of Equipment"
+    },
+    "VD119": {
+      "question": "How is the term \"beacon\" defined according to the wording of the Amateur Radio Ordinance (Amateurfunkverordnung, AFuV)?",
+      "answer_a": "A \"beacon\" is an automatically operating amateur radio transmitter (also in satellites) that automatically produces continuously repeated transmissions for observing field strength or for reception tests.",
+      "answer_b": "A \"beacon\" is an automatically operating amateur radio transmitter (also in satellites) that automatically produces continuously repeated transmissions for position fixing on the high seas.",
+      "answer_c": "A \"beacon\" is an amateur radio transmitter that produces continuously repeated transmissions for position fixing in emergencies and disasters.",
+      "answer_d": "A \"beacon\" is an amateur radio transmitter that transmits continuously repeated signals to identify the HF band edges."
+    },
+    "VD118": {
+      "question": "How is the term \"repeater\" defined according to the wording of the Amateur Radio Ordinance (Amateurfunkverordnung, AFuV)?",
+      "answer_a": "A \"repeater\" is a remotely controlled or automatically operating amateur station, or a remotely controlled and automatically operating amateur station in satellites, that retransmits or forwards, when triggered remotely, received amateur radio transmissions, parts of them or other content fed in or stored.",
+      "answer_b": "A \"repeater\" is an amateur station permanently attended by a radio amateur that transmits, when triggered remotely, received amateur radio transmissions, parts of them or other signals fed in or stored, and thereby serves to make amateur stations easier to reach.",
+      "answer_c": "A \"repeater\" is a remotely controlled amateur station that is operated with the personal call sign of its holder.",
+      "answer_d": "A \"repeater\" is a remotely controlled amateur station that may only be operated at a geographically exposed location."
+    },
+    "VD117": {
+      "question": "How is the term \"club station\" defined according to the wording of the Amateur Radio Ordinance (Amateurfunkverordnung, AFuV)?",
+      "answer_a": "A \"club station\" is an amateur station operated by at least three members of a group of radio amateurs using a jointly used call sign.",
+      "answer_b": "A \"club station\" is an amateur station operated by at least four members of a group of radio amateurs using their personal call signs.",
+      "answer_c": "A \"club station\" is an amateur station operated at a geographically exposed location.",
+      "answer_d": "A \"club station\" is an amateur station that may only be operated by a registered association."
+    },
+    "VD116": {
+      "question": "For which purposes are assignments with exceptions to the technical and operating conditions of the Amateur Radio Ordinance (Amateurfunkverordnung, AFuV) possible?",
+      "answer_a": "For special experimental and technical-scientific studies with an amateur station",
+      "answer_b": "For exercises in handling radio communication in emergencies and disasters",
+      "answer_c": "For alignment work and measurements on transmitters without a termination",
+      "answer_d": "For the use of additional frequency ranges that are not designated for the amateur service in the Frequency Usage Plan"
+    },
+    "VD115": {
+      "question": "Is a special permit from the Federal Network Agency (BNetzA) required to operate an amateur station on board a vessel or an aircraft?",
+      "answer_a": "No special permit is required.",
+      "answer_b": "If the radio amateur also holds an aeronautical or maritime radio operator's certificate, no special permit is needed.",
+      "answer_c": "A special permit is required in every case.",
+      "answer_d": "A special permit is required for radiated powers of more than 10 W EIRP."
+    },
+    "VD114": {
+      "question": "Which data on the holder of a personal call sign are included in the call sign list published by the Federal Network Agency (BNetzA)?",
+      "answer_a": "Name, call sign and, unless the holder has objected, the address",
+      "answer_b": "Name, call sign and the e-mail address",
+      "answer_c": "Name, call sign and the telephone number",
+      "answer_d": "Name, call sign and, unless the holder has objected, the date of birth"
+    },
+    "VD113": {
+      "question": "Within what period must the holder of an amateur radio licence notify the BNetzA in writing or electronically of a change of name or address, even if the holder does not own, set up or operate an amateur station?",
+      "answer_a": "Without delay after the change",
+      "answer_b": "Before the change",
+      "answer_c": "Within 4 weeks after the change",
+      "answer_d": "At least 14 days before the change"
+    },
+    "VD112": {
+      "question": "Under what condition is it permitted to transmit an unmodulated or unkeyed carrier?",
+      "answer_a": "If it is brief, e.g. for tuning",
+      "answer_b": "Provided it is a digital signal",
+      "answer_c": "If propagation conditions do not allow long-distance contacts",
+      "answer_d": "Provided the transmit power is reduced to below 1 W"
+    },
+    "VD111": {
+      "question": "What must be observed with regard to emissions during alignment work and measurements on transmitters?",
+      "answer_a": "Suitable measures must be taken that effectively prevent the unrestricted radiation of signals.",
+      "answer_b": "The transmitter case must not be opened.",
+      "answer_c": "The antenna cable must be firmly connected.",
+      "answer_d": "Transmissions may only be made at half power."
+    },
+    "VD110": {
+      "question": "What does the Amateur Radio Ordinance (Amateurfunkverordnung, AFuV) say about unwanted emissions?",
+      "answer_a": "Unwanted emissions must be kept to the lowest possible level.",
+      "answer_b": "Unwanted emissions must be limited to 60 dB relative to the wanted signal.",
+      "answer_c": "Unwanted emissions must be limited to 40 dB relative to the wanted signal.",
+      "answer_d": "Unwanted emissions are not permitted."
+    },
+    "VD109": {
+      "question": "When must a radio amateur keep a written record of the operation of the amateur station, e.g. as a log?",
+      "answer_a": "At the request of the Federal Network Agency (BNetzA)",
+      "answer_b": "When operating on HF",
+      "answer_c": "When operating internationally",
+      "answer_d": "In the first 12 months after being licensed"
+    },
+    "VD108": {
+      "question": "For what purposes can the Federal Network Agency (BNetzA) require written records of radio operation?",
+      "answer_a": "To investigate causes of interference or to clarify questions of frequency engineering",
+      "answer_b": "To check the radio amateur's qualification and the content of the transmissions",
+      "answer_c": "As proof of compliance with limits under the Federal Immission Control Act (BImSchG)",
+      "answer_d": "As proof for billing the frequency usage contributions"
+    },
+    "VD107": {
+      "question": "In which case must a radio amateur submit technical documentation on the transmitting equipment to the Federal Network Agency (BNetzA) under the Amateur Radio Ordinance (Amateurfunkverordnung, AFuV)?",
+      "answer_a": "At the request of the Federal Network Agency (BNetzA)",
+      "answer_b": "With every technical modification to the transmitting equipment",
+      "answer_c": "Without delay after receiving the amateur radio licence",
+      "answer_d": "With transmit powers greater than 750 W"
+    },
+    "VD106": {
+      "question": "Which technical requirements, among others, does the Amateur Radio Ordinance (Amateurfunkverordnung, AFuV) impose on an amateur station?",
+      "answer_a": "It must be set up and maintained in accordance with the generally accepted rules of engineering.",
+      "answer_b": "All equipment needed for transmitting must carry a CE mark.",
+      "answer_c": "The transmit signal must be fed to the antenna through a coaxial cable.",
+      "answer_d": "By design, it must not be able to produce more power than its owner is permitted to use."
+    },
+    "VD105": {
+      "question": "May international distress, urgency and safety signals (e.g. MAYDAY, PAN PAN, SÉCURITÉ) be transmitted in amateur radio communication?",
+      "answer_a": "The use of these signals is expressly prohibited.",
+      "answer_b": "Amateur stations near the coast are permitted to transmit these signals.",
+      "answer_c": "In an emergency, the signals may be transmitted.",
+      "answer_d": "The use of these signals is permitted on the HF bands."
+    },
+    "VD104": {
+      "question": "Under the AFuV, which content of amateur radio communication may be encrypted for the purpose of obscuring its meaning?",
+      "answer_a": "Control signals for satellites, for remotely controlled and automatically operating stations and for remote operation",
+      "answer_b": "Control signals for satellites, confidential information and messages of a personal character",
+      "answer_c": "Content that is digitally encoded because of the transmission method used",
+      "answer_d": "Content concerning technical matters of the amateur service that are worth protecting"
+    },
+    "VD103": {
+      "question": "Only plain language may be used in amateur radio communication. What does <u>not</u> count as plain language and is therefore not permitted?",
+      "answer_a": "Voice encryption to obscure the content",
+      "answer_b": "Q codes and amateur radio abbreviations",
+      "answer_c": "Digital modes that need a decoder",
+      "answer_d": "Morse telegraphy and teleprinting"
+    },
+    "VD102": {
+      "question": "What applies to the reception of amateur radio transmissions?",
+      "answer_a": "No authorisation to participate in the amateur service is required.",
+      "answer_b": "Only receivers approved under the TKG may be used.",
+      "answer_c": "A listener call sign from the \"DE series\" must be assigned.",
+      "answer_d": "Recognition as an \"SWL\" is required, together with membership of an amateur radio society."
+    },
+    "VD101": {
+      "question": "Where can radio amateurs look up which frequency ranges they may use in Germany according to their certificate class?",
+      "answer_a": "In Annex 1 to the Amateur Radio Ordinance (Amateurfunkverordnung, AFuV) and, where applicable, further notices of the BNetzA",
+      "answer_b": "In the Radio Regulations (RR)",
+      "answer_c": "In the Amateur Radio Act (Amateurfunkgesetz, AFuG)",
+      "answer_d": "In the Annex to the Frequency Ordinance (FreqV) and the associated notices of the BNetzA"
+    },
+    "VD208": {
+      "question": "Is a radio amateur entitled to the assignment of a particular call sign?",
+      "answer_a": "No, there is no such entitlement.",
+      "answer_b": "Yes, if it has not yet been assigned.",
+      "answer_c": "No, unless special personal reasons can be shown and the call sign is free.",
+      "answer_d": "Yes, if it has already been assigned to the same radio amateur before."
+    },
+    "VD207": {
+      "question": "How can an amateur station be recognised on the air?",
+      "answer_a": "By the amateur call sign",
+      "answer_b": "By the frequency range used",
+      "answer_c": "By the class of emission used",
+      "answer_d": "By the modulation"
+    },
+    "VD206": {
+      "question": "Under Order 13/2005, which phonetic alphabet must be used when giving the call sign to identify an amateur station?",
+      "answer_a": "The international phonetic alphabet according to the Radio Regulations (Appendix 14)",
+      "answer_b": "The European phonetic alphabet of 1992",
+      "answer_c": "The English phonetic alphabet of the ITU conference in Madrid of 1932",
+      "answer_d": "The German phonetic alphabet according to DIN 5009"
+    },
+    "VD205": {
+      "question": "When must a radio amateur give the call sign?",
+      "answer_a": "At the beginning and end of every contact and at least every 10 minutes",
+      "answer_b": "When requested by another station taking part in the communication",
+      "answer_c": "At least every 15 minutes during a contact",
+      "answer_d": "No later than 5 minutes after an uninterrupted transmission"
+    },
+    "VD204": {
+      "question": "Why is \"DL250BTHVN\" a permissible German amateur call sign?",
+      "answer_a": "Because, for special general occasions, the Call Sign Plan also provides for call signs with a suffix of up to 7 characters, which may contain digits and ends with a letter.",
+      "answer_b": "Because personal call signs to which the Call Sign Plan does not apply are also issued to radio amateurs of particular merit.",
+      "answer_c": "Because special call signs with at least 3 digits are issued to certain public bodies, such as arts and cultural institutions.",
+      "answer_d": "Because this was laid down in a special order of the Federal Network Agency (BNetzA) on account of a special historical occasion with international effect."
+    },
+    "VD203": {
+      "question": "How are personal German amateur call signs formed? They consist of ...",
+      "answer_a": "a 2-letter prefix (country prefix), one digit and a 2- or 3-letter suffix.",
+      "answer_b": "a 2-letter suffix (country prefix), two digits and a 2- or 3-letter prefix.",
+      "answer_c": "a 1-letter prefix (country prefix), one or two digits and a 1-, 2- or 3-letter suffix.",
+      "answer_d": "a 2-letter suffix (country prefix), one digit and a 1-, 2- or 3-letter prefix."
+    },
+    "VD202": {
+      "question": "Which categories of call sign assignment exist in amateur radio, among others?",
+      "answer_a": "Personal call signs, call signs for remotely controlled and automatically operating amateur stations, club station call signs",
+      "answer_b": "Personal call signs, family call signs, club station call signs",
+      "answer_c": "Personal call signs, club station call signs, contest call signs",
+      "answer_d": "Personal call signs, call signs for remotely controlled and automatically operating amateur stations, mobile radio call signs"
+    },
+    "VD201": {
+      "question": "In which set of rules can the requirements for forming call signs for the amateur service in Germany be found?",
+      "answer_a": "In the Call Sign Plan of the Federal Network Agency (BNetzA)",
+      "answer_b": "In the Amateur Radio Act (Amateurfunkgesetz, AFuG)",
+      "answer_c": "In the Federal Law Gazette (BGBl)",
+      "answer_d": "In the Radio Regulations (RR) of the ITU"
+    },
+    "VD306": {
+      "question": "By whom must the call sign suffix \"/T\" or \"/Trainee\" be used during training operation?",
+      "answer_a": "By the trainee",
+      "answer_b": "By the instructor",
+      "answer_c": "By the trainee and the instructor",
+      "answer_d": "By the person responsible for the school station"
+    },
+    "VD305": {
+      "question": "What must be observed when carrying out training operation?",
+      "answer_a": "At the request of the Federal Network Agency (BNetzA), the instructor must provide information on the type and scope of the training operation.",
+      "answer_b": "During training operation, taking part in amateur radio contests is not permitted.",
+      "answer_c": "Training operation may only be carried out in the presence of the instructor at a club or school station.",
+      "answer_d": "Training operation may only be carried out in telephony (SSB or FM)."
+    },
+    "VD304": {
+      "question": "What must, among other things, be observed when carrying out training operation? Training operation may ...",
+      "answer_a": "only be carried out within the scope of privileges of the instructor's call sign assignment.",
+      "answer_b": "not be carried out in Morse telegraphy.",
+      "answer_c": "only be carried out with a maximum radiated power of 10 W EIRP.",
+      "answer_d": "only be carried out at a club station."
+    },
+    "VD303": {
+      "question": "Persons who are not radio amateurs may take part in training operation ...",
+      "answer_a": "only under the direct guidance and supervision of a radio amateur with an assigned Class A or E call sign.",
+      "answer_b": "only at club stations under the supervision of a radio amateur with an assigned Class A or E call sign.",
+      "answer_c": "at weekends as well, without any special conditions.",
+      "answer_d": "even without the guidance and supervision of the instructing radio amateur."
+    },
+    "VD302": {
+      "question": "Under the Amateur Radio Ordinance (Amateurfunkverordnung, AFuV), on what condition may a radio amateur carry out training operation?",
+      "answer_a": "As the holder of a Class A or E authorisation to participate in the amateur service",
+      "answer_b": "Only as the holder of a Class A authorisation to participate in the amateur service",
+      "answer_c": "Only after holding an authorisation to participate in the amateur service for at least 1 year",
+      "answer_d": "As the holder of a valid assignment of a training call sign"
+    },
+    "VD301": {
+      "question": "What purpose does training operation serve under the Amateur Radio Ordinance (Amateurfunkverordnung, AFuV)? It is intended for ...",
+      "answer_a": "practical preparation for taking the examination of competence to obtain an amateur radio certificate.",
+      "answer_b": "the sole purpose of demonstrating amateur radio operation.",
+      "answer_c": "the trainee's participation in the amateur service without supervision.",
+      "answer_d": "perfecting the radio amateur's skills in Morse telegraphy."
+    },
+    "VD408": {
+      "question": "Which statement is correct regarding a change of location of a club station?",
+      "answer_a": "Short-term changes of location need not be notified to the BNetzA.",
+      "answer_b": "Changes of location are not permitted for club stations.",
+      "answer_c": "Short-term changes of location must be notified to the BNetzA.",
+      "answer_d": "As a rule, changes of location need not be notified to the BNetzA."
+    },
+    "VD407": {
+      "question": "Which of the following radio amateurs may operate a Class A club station on the 40 m amateur band?",
+      "answer_a": "Holders of a Class A amateur radio licence",
+      "answer_b": "Holders of a Class E amateur radio licence",
+      "answer_c": "Holders of a Class N amateur radio licence",
+      "answer_d": "Holders of an amateur radio licence of any class"
+    },
+    "VD406": {
+      "question": "You are using a club station call sign and hold an amateur radio certificate of a different class from that of the club station's assignment. On which frequency ranges and with what power may you transmit? According to the scope of privileges ...",
+      "answer_a": "of the lower of the two classes.",
+      "answer_b": "of the higher of the two classes.",
+      "answer_c": "of the class of my personal licence.",
+      "answer_d": "of the class of the club station."
+    },
+    "VD405": {
+      "question": "Under the provisions of the Amateur Radio Ordinance (Amateurfunkverordnung, AFuV), may a radio amateur with an authorisation to participate in the amateur service operate with the club station's call sign without being a member of the group operating it?",
+      "answer_a": "Non-members may also operate at club stations.",
+      "answer_b": "Only the members of the group may operate the club station.",
+      "answer_c": "Operation must take place in the presence of a member of the group.",
+      "answer_d": "The radio amateur must notify the BNetzA of this at least two days beforehand."
+    },
+    "VD404": {
+      "question": "What is needed for a radio amateur to be allowed to share the call sign of a club station?",
+      "answer_a": "The radio amateur must hold an authorisation to participate in the amateur service.",
+      "answer_b": "The radio amateur must be a member of the group of radio amateurs that operates the club station.",
+      "answer_c": "The radio amateur must have an amateur radio certificate that corresponds to the class of the club station.",
+      "answer_d": "The radio amateur must hold a call sign of the highest amateur radio class."
+    },
+    "VD403": {
+      "question": "Under the Amateur Radio Act (Amateurfunkgesetz, AFuG), from when may a radio amateur operate a club station?",
+      "answer_a": "After having personally received an authorisation for the amateur service and the assignment of a club station call sign",
+      "answer_b": "Only 3 months after passing the amateur radio examination and the assignment of a club station call sign",
+      "answer_c": "Operation may take place on presentation of a harmonised examination certificate",
+      "answer_d": "Only after the BNetzA has checked the location and a club station call sign has been assigned"
+    },
+    "VD402": {
+      "question": "What requirement must be met for a call sign to be issued for operating a club station?",
+      "answer_a": "An authorisation to participate in the amateur service under Section 3(1) AFuG.",
+      "answer_b": "The radio amateur responsible for the club station must in every case be the operator of an automatically operating station.",
+      "answer_c": "The radio amateur responsible for the club station must in every case hold a call sign of the highest amateur radio class.",
+      "answer_d": "A HAREC certificate or an amateur radio certificate"
+    },
+    "VD401": {
+      "question": "What requirements must be met for a call sign to be issued for operating a club station?",
+      "answer_a": "The assignment of a call sign for operating a club station depends on the leader of a group of radio amateurs naming the responsible radio amateur.",
+      "answer_b": "The radio amateur responsible for the club station must in every case hold a call sign of the highest amateur radio class.",
+      "answer_c": "The responsible radio amateur must have held an amateur radio certificate for at least 2 years.",
+      "answer_d": "The leader of an amateur radio society constituted as a registered association (e. V.) must also be the radio amateur responsible for the club station applied for."
+    },
+    "VD504": {
+      "question": "When may the radio amateur responsible for a repeater exclude a particular radio amateur from operating through it?",
+      "answer_a": "If this serves to ensure interference-free operation of the repeater",
+      "answer_b": "If a radio amateur uses the repeater too often",
+      "answer_c": "If the repeater usage fee has not been paid",
+      "answer_d": "If a radio amateur has not yet reached the minimum age"
+    },
+    "VD503": {
+      "question": "What is the maximum permitted radiated power of a repeater above 30 MHz?",
+      "answer_a": "50 W ERP",
+      "answer_b": "750 W PEP for Class A, 75 W PEP for Class E and 10 W PEP for Class N",
+      "answer_c": "100 W PEP",
+      "answer_d": "150 W ERP"
+    },
+    "VD502": {
+      "question": "Under what conditions may a radio amateur operate an amateur station as a repeater?",
+      "answer_a": "If a call sign has been assigned to the radio amateur for the repeater and the conditions laid down in the assignment are met",
+      "answer_b": "If the repeater does not have a long range",
+      "answer_c": "If at least 20 signatures can be presented as proof of need and the conditions for repeaters are met",
+      "answer_d": "If the radio amateur can maintain the technical facilities personally"
+    },
+    "VD501": {
+      "question": "What is required for a radio amateur to be allowed to operate an amateur station as a repeater or beacon?",
+      "answer_a": "A call sign assignment for operating a remotely controlled or automatically operating amateur station is required.",
+      "answer_b": "A licence of the highest amateur radio class is required.",
+      "answer_c": "Operating a repeater or beacon requires having held a valid amateur radio licence for at least 2 years.",
+      "answer_d": "No special conditions have to be met."
+    },
+    "VD609": {
+      "question": "Who may be given access to a club station in remote operation?",
+      "answer_a": "Only members of the group of radio amateurs that operates the club station",
+      "answer_b": "Only members of the group of radio amateurs entered in the assignment document",
+      "answer_c": "Only radio amateurs registered with the Federal Network Agency (BNetzA) in writing or electronically",
+      "answer_d": "Only radio amateurs who cannot visit the club station in person"
+    },
+    "VD608": {
+      "question": "Why must the operator of the \"remote station\" give contact details to the BNetzA?",
+      "answer_a": "The operator must be reachable by the BNetzA as a contact person.",
+      "answer_b": "The contact details are used for monthly invoicing for the \"remote station\".",
+      "answer_c": "The amateur radio societies' Intruder Watch uses the contact details for data matching, so as to identify the operator of the \"remote station\" in the event of interference.",
+      "answer_d": "The contact details for remote operation are listed in the BNetzA's call sign list."
+    },
+    "VD607": {
+      "question": "Who may transmit with an amateur station in \"remote operation\"? Radio amateurs authorised by the operator of the amateur station who ...",
+      "answer_a": "hold a Class A licence.",
+      "answer_b": "hold a Class A or E licence.",
+      "answer_c": "hold a Class A, E or N licence.",
+      "answer_d": "have held a licence for at least one year."
+    },
+    "VD606": {
+      "question": "What must be observed when the right to use a \"remote station\" is transferred to other radio amateurs?",
+      "answer_a": "The operator must ensure that only radio amateurs authorised by the operator can use the station.",
+      "answer_b": "Access to the use of the \"remote station\" must be open to all radio amateurs.",
+      "answer_c": "The users of the \"remote station\" may not carry out training operation.",
+      "answer_d": "The radio amateurs must hold at least a Class E amateur radio licence."
+    },
+    "VD605": {
+      "question": "How must the operator ensure the operational safety of the \"remote station\"? The operator must ensure that ...",
+      "answer_a": "the \"remote station\" is under the operator's indirect control.",
+      "answer_b": "no home-built components are used for the \"remote station\".",
+      "answer_c": "the \"remote station\" has an uninterruptible power supply.",
+      "answer_d": "a technical log of the use of the \"remote station\" is kept."
+    },
+    "VD604": {
+      "question": "Which of the following amateur stations may be used as a \"remote station\"?",
+      "answer_a": "Class A club stations",
+      "answer_b": "Class E club stations",
+      "answer_c": "Amateur stations with a Class N personal call sign",
+      "answer_d": "Amateur stations with a Class E personal call sign"
+    },
+    "VD603": {
+      "question": "Who may operate a \"remote station\"?",
+      "answer_a": "Class A radio amateurs",
+      "answer_b": "Class A and E radio amateurs",
+      "answer_c": "Class A, E and N radio amateurs",
+      "answer_d": "Radio amateurs who have held a licence for at least one year"
+    },
+    "VD602": {
+      "question": "Is an operating notification to the BNetzA required for \"remote operation\"?",
+      "answer_a": "Yes, for the operator of the remote station",
+      "answer_b": "Yes, for the user of the remote station",
+      "answer_c": "Yes, for the operator and the user of the remote station",
+      "answer_d": "No, there is no obligation to notify."
+    },
+    "VD601": {
+      "question": "What do radio amateurs mean by \"remote operation\"?",
+      "answer_a": "Operation in which a distant amateur station is operated, e.g. via the internet",
+      "answer_b": "Operation over very long distances (more than 500 km on VHF, more than 2000 km on HF)",
+      "answer_c": "Local control of a radio station by a computer standing next to it",
+      "answer_d": "Operation in contests by several radio amateurs who share out the tasks"
+    },
+    "VD743": {
+      "question": "What is the maximum permitted effective radiated power (ERP) for radio amateurs with licence class N on the 10 m band?",
+      "answer_a": "10 W",
+      "answer_b": "5 W",
+      "answer_c": "100 W",
+      "answer_d": "25 W"
+    },
+    "VD742": {
+      "question": "In which of the following amateur frequency ranges is the maximum permitted occupied bandwidth of an emission 2 MHz, or 7 MHz for amplitude-modulated television transmissions?",
+      "answer_a": "430 to 440 MHz",
+      "answer_b": "2320 to 2450 MHz",
+      "answer_c": "3400 to 3475 MHz",
+      "answer_d": "10.0 to 10.5 GHz"
+    },
+    "VD741": {
+      "question": "In which of the following amateur frequency ranges is the maximum permitted occupied bandwidth of an emission 40 kHz?",
+      "answer_a": "144 to 146 MHz",
+      "answer_b": "430 to 440 MHz",
+      "answer_c": "1240 to 1300 MHz",
+      "answer_d": "7000 to 7200 kHz"
+    },
+    "VD740": {
+      "question": "In which of the following amateur frequency ranges is the maximum permitted occupied bandwidth of an emission 7 kHz?",
+      "answer_a": "28000 to 29000 kHz",
+      "answer_b": "14000 to 14350 kHz",
+      "answer_c": "21000 to 21450 kHz",
+      "answer_d": "10100 to 10150 kHz"
+    },
+    "VD739": {
+      "question": "In which of the following amateur frequency ranges is the maximum permitted occupied bandwidth of an emission 2.7 kHz?",
+      "answer_a": "3500 to 3800 kHz",
+      "answer_b": "10100 to 10150 kHz",
+      "answer_c": "135.7 to 137.8 kHz",
+      "answer_d": "28000 to 29700 kHz"
+    },
+    "VD738": {
+      "question": "In which amateur frequency ranges is the maximum permitted occupied bandwidth of an emission 800 Hz?",
+      "answer_a": "135.7 to 137.8 kHz, 472 to 479 kHz and 10100 to 10150 kHz",
+      "answer_b": "1810 to 2000 kHz, 3500 to 3800 kHz and 7000 to 7200 kHz",
+      "answer_c": "7000 to 7100 kHz and 14000 to 14350 kHz",
+      "answer_d": "18068 to 18168 kHz and 24890 to 24990 kHz"
+    },
+    "VD737": {
+      "question": "What is the maximum permitted transmitter output power for Class E call sign holders on the amateur bands between 1300 MHz and 250 GHz?",
+      "answer_a": "A maximum of 5 W PEP",
+      "answer_b": "A maximum of 75 W PEP",
+      "answer_c": "A maximum of 100 W PEP",
+      "answer_d": "A maximum of 1 W PEP"
+    },
+    "VD736": {
+      "question": "What is the maximum permitted transmitter output power for Class A call sign holders on the amateur bands between 1300 MHz and 250 GHz?",
+      "answer_a": "75 W PEP",
+      "answer_b": "100 W PEP",
+      "answer_c": "150 W PEP",
+      "answer_d": "750 W PEP"
+    },
+    "VD735": {
+      "question": "What is the maximum permitted transmit power for Class A call sign holders in the frequency range 1240 to 1300 MHz?",
+      "answer_a": "750 W PEP, but only a maximum of 5 W EIRP in the 1247 to 1263 MHz segment",
+      "answer_b": "100 W PEP",
+      "answer_c": "250 W PEP",
+      "answer_d": "75 W PEP, but only a maximum of 5 W EIRP in the 1247 to 1263 MHz segment"
+    },
+    "VD734": {
+      "question": "Which power limits apply to Class A and E call sign holders in the frequency ranges 144 to 146 MHz and 430 to 440 MHz?",
+      "answer_a": "A maximum of 750 W PEP for Class A and 75 W PEP for Class E",
+      "answer_b": "A maximum of 750 W PEP for both classes",
+      "answer_c": "A maximum of 100 W PEP for Class A and 50 W PEP for Class E",
+      "answer_d": "A maximum of 10 W PEP for both classes"
+    },
+    "VD733": {
+      "question": "Which power limits apply to Class A and E call sign holders in the frequency ranges 21.000 to 21.450 MHz and 28.000 to 29.700 MHz?",
+      "answer_a": "A maximum of 750 W PEP for Class A and a maximum of 100 W PEP for Class E",
+      "answer_b": "A maximum of 200 W PEP for both classes",
+      "answer_c": "A maximum of 100 W PEP for Class A and a maximum of 10 W PEP for Class E",
+      "answer_d": "A maximum of 100 W PEP for both classes"
+    },
+    "VD732": {
+      "question": "What is the maximum permitted transmitter output power for Class A call sign holders in the frequency ranges 21.000 to 21.450 MHz and 24.890 to 24.990 MHz?",
+      "answer_a": "750 W PEP",
+      "answer_b": "75 W PEP",
+      "answer_c": "150 W PEP",
+      "answer_d": "250 W PEP"
+    },
+    "VD731": {
+      "question": "What is the maximum permitted transmitter output power for Class A call sign holders in the frequency ranges 14.000 to 14.350 MHz and 18.068 to 18.168 MHz?",
+      "answer_a": "750 W PEP",
+      "answer_b": "75 W PEP",
+      "answer_c": "150 W PEP",
+      "answer_d": "250 W PEP"
+    },
+    "VD730": {
+      "question": "What is the maximum permitted transmitter output power for Class A call sign holders in the frequency range 10.1 to 10.15 MHz?",
+      "answer_a": "150 W PEP",
+      "answer_b": "75 W PEP",
+      "answer_c": "250 W PEP",
+      "answer_d": "750 W PEP"
+    },
+    "VD729": {
+      "question": "What applies to Class A and E call sign holders in the frequency range 3.5 to 3.8 MHz?",
+      "answer_a": "A maximum of 750 W PEP for Class A and a maximum of 100 W PEP for Class E",
+      "answer_b": "A maximum of 10 W PEP for both classes",
+      "answer_c": "A maximum of 750 W PEP for both classes",
+      "answer_d": "A maximum of 150 W PEP for Class A and a maximum of 10 W PEP for Class E"
+    },
+    "VD728": {
+      "question": "What is the maximum permitted transmitter output power for Class A call sign holders in the frequency range 3.5 to 3.8 MHz?",
+      "answer_a": "750 W PEP",
+      "answer_b": "75 W PEP",
+      "answer_c": "150 W PEP",
+      "answer_d": "100 W PEP"
+    },
+    "VD727": {
+      "question": "What applies to Class E call sign holders in the frequency range 1810 to 1850 kHz?",
+      "answer_a": "A maximum of 100 W PEP",
+      "answer_b": "A maximum of 75 W PEP",
+      "answer_c": "A maximum of 750 W PEP",
+      "answer_d": "A maximum of 10 W PEP"
+    },
+    "VD726": {
+      "question": "You hold a Class N authorisation for the amateur service and use a radio with a transmitter output power of 5 W. When transmitting on the 2 m band, may you use a directly connected antenna with a gain of 1.8 (as a power ratio) relative to the isotropic radiator (equivalent to a gain of 2.6 dBi)?",
+      "answer_a": "Yes, because the radiated power does not exceed the limit of 10 W EIRP.",
+      "answer_b": "Yes, except when the amateur station is operated at a fixed location.",
+      "answer_c": "No, because the result is a radiated power of more than 10 W EIRP.",
+      "answer_d": "No, because I may not use antennas with gain."
+    },
+    "VD725": {
+      "question": "You hold a Class N authorisation for the amateur service and use a radio with a transmitter output power of 5 W. When transmitting on the 2 m band, may you use a directly connected antenna with a gain of 2.5 (as a power ratio) relative to the isotropic radiator (equivalent to a gain of 4.0 dBi)?",
+      "answer_a": "No, because the result is a radiated power of more than 10 W EIRP.",
+      "answer_b": "No, because I may not use antennas with gain.",
+      "answer_c": "Yes, because the transmitter output power does not exceed the limit of 10 W EIRP.",
+      "answer_d": "Yes, provided it is a handheld transceiver."
+    },
+    "VD724": {
+      "question": "What is the maximum permitted equivalent isotropically radiated power (EIRP) for radio amateurs with licence class N on the 2 m and 70 cm bands?",
+      "answer_a": "10 W",
+      "answer_b": "5 W",
+      "answer_c": "100 W",
+      "answer_d": "25 W"
+    },
+    "VD723": {
+      "question": "On which frequency ranges may radio amateurs with a Class N licence transmit?",
+      "answer_a": "28 to 29.7 MHz, 144 to 146 MHz, 430 to 440 MHz",
+      "answer_b": "7 to 7.2 MHz, 14 to 14.35 MHz, 1240 to 1300 MHz",
+      "answer_c": "On all HF frequency ranges allocated to amateur radio in Germany",
+      "answer_d": "On all frequency ranges above HF allocated to amateur radio in Germany"
+    },
+    "VD722": {
+      "question": "Which answer gives the correct lower and upper band edges of the 13 cm amateur band in Germany?",
+      "answer_a": "2320 to 2450 MHz",
+      "answer_b": "2250 to 2340 MHz",
+      "answer_c": "2350 to 2520 MHz",
+      "answer_d": "2240 to 2300 MHz"
+    },
+    "VD721": {
+      "question": "Which answer gives the correct lower and upper band edges of the 23 cm amateur band in Germany?",
+      "answer_a": "1240 to 1300 MHz",
+      "answer_b": "1240 to 1290 MHz",
+      "answer_c": "1220 to 1300 MHz",
+      "answer_d": "1220 to 1290 MHz"
+    },
+    "VD720": {
+      "question": "Which answer gives the correct lower and upper band edges of the 70 cm amateur band in Germany?",
+      "answer_a": "430 to 440 MHz",
+      "answer_b": "430 to 438 MHz",
+      "answer_c": "432 to 440 MHz",
+      "answer_d": "432 to 438 MHz"
+    },
+    "VD719": {
+      "question": "Which answer gives the correct lower and upper band edges of the 2 m amateur band in Germany?",
+      "answer_a": "144 to 146 MHz",
+      "answer_b": "144 to 148 MHz",
+      "answer_c": "140 to 146 MHz",
+      "answer_d": "140 to 148 MHz"
+    },
+    "VD718": {
+      "question": "Which answer gives the correct lower and upper band edges of the 6 m amateur band in Germany?",
+      "answer_a": "50.0 to 52.00 MHz",
+      "answer_b": "50.0 to 54.0 MHz",
+      "answer_c": "50.8 to 51.8 MHz",
+      "answer_d": "51.08 to 52.00 MHz"
+    },
+    "VD717": {
+      "question": "Which answer gives the correct lower and upper band edges of the 10 m amateur band in Germany?",
+      "answer_a": "28 to 29.7 MHz",
+      "answer_b": "28 to 29 MHz",
+      "answer_c": "28 to 30.7 MHz",
+      "answer_d": "28 to 32 MHz"
+    },
+    "VD716": {
+      "question": "Which answer gives the correct lower and upper band edges of the 12 m amateur band in Germany?",
+      "answer_a": "24.89 to 24.99 MHz",
+      "answer_b": "24.89 to 25.168 MHz",
+      "answer_c": "24.168 to 24.99 MHz",
+      "answer_d": "24.068 to 24.168 MHz"
+    },
+    "VD715": {
+      "question": "Which answer gives the correct lower and upper band edges of the 15 m amateur band in Germany?",
+      "answer_a": "21 to 21.45 MHz",
+      "answer_b": "21 to 21.35 MHz",
+      "answer_c": "21 to 21.5 MHz",
+      "answer_d": "21 to 21.7 MHz"
+    },
+    "VD714": {
+      "question": "Which answer gives the correct lower and upper band edges of the 17 m amateur band in Germany?",
+      "answer_a": "18.068 to 18.168 MHz",
+      "answer_b": "18.1 to 18.158 MHz",
+      "answer_c": "18.89 to 18.99 MHz",
+      "answer_d": "18.68 to 19.99 MHz"
+    },
+    "VD713": {
+      "question": "Which answer gives the correct lower and upper band edges of the 20 m amateur band in Germany?",
+      "answer_a": "14 to 14.35 MHz",
+      "answer_b": "14 to 14.45 MHz",
+      "answer_c": "14 to 14.5 MHz",
+      "answer_d": "14 to 15 MHz"
+    },
+    "VD712": {
+      "question": "Which answer gives the correct lower and upper band edges of the 30 m amateur band in Germany?",
+      "answer_a": "10.1 to 10.15 MHz",
+      "answer_b": "10.1 to 10.25 MHz",
+      "answer_c": "10 to 10.15 MHz",
+      "answer_d": "10 to 10.25 MHz"
+    },
+    "VD711": {
+      "question": "Which answer gives the correct lower and upper band edges of the 40 m amateur band in Germany?",
+      "answer_a": "7 to 7.2 MHz",
+      "answer_b": "7.1 to 7.3 MHz",
+      "answer_c": "7 to 7.3 MHz",
+      "answer_d": "7.1 to 7.5 MHz"
+    },
+    "VD710": {
+      "question": "Which answer gives the correct lower and upper band edges of the 80 m amateur band in Germany?",
+      "answer_a": "3.5 to 3.8 MHz",
+      "answer_b": "3.5 to 3.6 MHz",
+      "answer_c": "3.8 to 3.9 MHz",
+      "answer_d": "3.8 to 4 MHz"
+    },
+    "VD709": {
+      "question": "Which answer gives the correct lower and upper band edges of the 160 m amateur band in Germany?",
+      "answer_a": "1810 to 2000 kHz",
+      "answer_b": "1805 to 1850 kHz",
+      "answer_c": "1800 to 1900 kHz",
+      "answer_d": "1800 to 1990 kHz"
+    },
+    "VD708": {
+      "question": "What does the note that the frequency range 433.05 to 434.79 MHz is allocated as an ISM band mean?",
+      "answer_a": "This frequency range is also used for industrial, scientific, medical, domestic or similar applications.",
+      "answer_b": "This frequency range is used for international satellite measurements; this can cause interference to normal radio communication.",
+      "answer_c": "This frequency range is used for industrial transmitters in machines and is permitted for amateur radio communication only on a secondary basis.",
+      "answer_d": "This frequency range is used by ISM devices. Transmit powers in the amateur service must be reduced in this frequency range."
+    },
+    "VD707": {
+      "question": "The 80 m amateur band is allocated, among others, to the amateur service and the maritime mobile service on a primary basis. Under what circumstances may you continue an amateur contact if you notice only after starting operation that the frequency you are using is also being used by a coast station?",
+      "answer_a": "You may not continue to use the frequency under any circumstances (except in a genuine emergency), because the coast station has been assigned a fixed frequency that it cannot change.",
+      "answer_b": "You may continue to use the frequency if it is clear from the continuously repeated, automatic Morse transmission that the coast station is not carrying on two-way communication but is evidently just occupying the frequency.",
+      "answer_c": "You may continue to use the frequency if your amateur station is located more than 200 km from a sea coast and you are using less than 100 W of transmit power.",
+      "answer_d": "You may continue the contact you have started with the other station until the coast station asks you to change frequency."
+    },
+    "VD706": {
+      "question": "In which of the following frequency ranges does the amateur service have primary status?",
+      "answer_a": "7000 to 7200 kHz",
+      "answer_b": "10100 to 10150 kHz",
+      "answer_c": "1850 to 1890 kHz",
+      "answer_d": "135.7 to 137.8 kHz"
+    },
+    "VD705": {
+      "question": "How is a secondary service defined under the Amateur Radio Ordinance (Amateurfunkverordnung, AFuV)?",
+      "answer_a": "A secondary service is a radiocommunication service whose stations shall not cause interference to stations of a primary service and cannot claim protection from interference from such stations.",
+      "answer_b": "A secondary service is a radiocommunication service whose frequency assignment was made later in time. The classification does not mean that the secondary service ranks below the primary service.",
+      "answer_c": "A secondary service must accept interference from others and cannot report the interference to the radio interference reporting service of the Federal Network Agency (BNetzA).",
+      "answer_d": "The division into primary and secondary services applies only to commercial stations or to stations of authorities and organisations with security tasks."
+    },
+    "VD704": {
+      "question": "How is a primary service defined under the Amateur Radio Ordinance (Amateurfunkverordnung, AFuV)?",
+      "answer_a": "A primary service is a radiocommunication service whose stations can claim protection from interference from stations of secondary services.",
+      "answer_b": "Commercial stations and stations of authorities and organisations with security tasks are always stations of the primary service.",
+      "answer_c": "Amateur stations are not stations of a primary service, since under the provisions of the Amateur Radio Act (Amateurfunkgesetz, AFuG) amateur radio is not a safety service.",
+      "answer_d": "The division into primary and secondary services applies only to commercial stations or to stations of authorities and organisations with security tasks."
+    },
+    "VD703": {
+      "question": "Under what conditions may a radio amateur carry on radio communication in the CB band with amateur radio equipment?",
+      "answer_a": "A radio amateur may not transmit in the CB band with an amateur station under any circumstances.",
+      "answer_b": "If the radio amateur has set up the amateur radio equipment so that the technical regulations for CB radios are met",
+      "answer_c": "If a permit to operate CB radios is held",
+      "answer_d": "If the transmit power is limited to 4 W ERP for FM and AM or 12 W PEP for SSB"
+    },
+    "VD702": {
+      "question": "Where can the frequency ranges designated for the amateur service in Germany and the associated detailed conditions of use be found?",
+      "answer_a": "In Annex 1 to the Amateur Radio Ordinance (Amateurfunkverordnung, AFuV) and, where applicable, further notices of the BNetzA",
+      "answer_b": "In Article 5 of the Radio Regulations (RR)",
+      "answer_c": "In the Frequency Plan (FreqP)",
+      "answer_d": "In the Annex to the Frequency Ordinance (FreqV)"
+    },
+    "VD701": {
+      "question": "May a radio amateur in Germany use all the frequency ranges allocated to the amateur service in the Radio Regulations (RR)?",
+      "answer_a": "No, only frequencies that have been implemented by national regulations may be used.",
+      "answer_b": "Yes, because the international provisions of the Radio Regulations (RR) also apply in Germany.",
+      "answer_c": "Yes, if the operation has been registered with the Federal Network Agency (BNetzA) beforehand.",
+      "answer_d": "No, the frequency ranges permitted in Germany follow from the Ordinance on Drawing Up the Frequency Usage Plan (Frequenznutzungsplanaufstellungsverordnung)."
+    },
+    "VE103": {
+      "question": "Which of the following is an administrative offence under the Telecommunications Act (Telekommunikationsgesetz, TKG)?",
+      "answer_a": "Using frequencies without a frequency assignment",
+      "answer_b": "Using public telecommunications facilities to link repeaters",
+      "answer_c": "A radio amateur passing amateur radio messages from or to third parties",
+      "answer_d": "Operating an amateur station for commercial purposes"
+    },
+    "VE102": {
+      "question": "Does every frequency use require a frequency assignment?",
+      "answer_a": "Every frequency use requires a prior frequency assignment.",
+      "answer_b": "A frequency assignment is required only from 0.1 W upwards.",
+      "answer_c": "There are exceptions to the need for a frequency assignment, e.g. the ISM frequencies.",
+      "answer_d": "Frequency use is permitted even without a frequency assignment."
+    },
+    "VE101": {
+      "question": "Does the Telecommunications Act (Telekommunikationsgesetz, TKG) contain provisions that apply to the amateur service?",
+      "answer_a": "Yes, some provisions of the TKG also apply to the amateur service.",
+      "answer_b": "No, for that there is the separate Amateur Radio Act (Amateurfunkgesetz, AFuG) with the Amateur Radio Ordinance (Amateurfunkverordnung, AFuV).",
+      "answer_c": "No, the amateur service is expressly excluded from the TKG.",
+      "answer_d": "Yes, all provisions of the TKG also apply to the amateur service."
+    },
+    "VE204": {
+      "question": "For which of the following devices does the Telecommunications and Telemedia Data Protection Act (Telekommunikation-Telemedien-Datenschutz-Gesetz, TTDSG) prohibit both manufacture and possession? For ...",
+      "answer_a": "transmitting equipment that is disguised as another object and is therefore suitable for eavesdropping on private (non-public) conversations",
+      "answer_b": "scanners that allow wideband listening to the radio spectrum",
+      "answer_c": "directional microphones that are suitable for eavesdropping unnoticed on another person's private (non-public) conversations",
+      "answer_d": "digital audio players that are also suitable for making sound recordings"
+    },
+    "VE203": {
+      "question": "What must a radio amateur do on receiving messages that are <u>not</u> intended for radio amateurs, the general public or an unspecified group of people?",
+      "answer_a": "Neither the content of the messages nor the fact that they were received may be communicated to others. This does not apply in emergencies and disasters.",
+      "answer_b": "The fact of reception may be communicated to third parties, but not the content and the details. This also applies in emergencies and disasters.",
+      "answer_c": "The fact of reception may be communicated to other radio amateurs, but not the content.",
+      "answer_d": "The receiver must be switched off immediately and the Federal Network Agency (BNetzA) informed."
+    },
+    "VE202": {
+      "question": "By which action does a radio amateur violate the secrecy of telecommunications?",
+      "answer_a": "By receiving, using or passing on messages that are not intended for radio amateurs, the general public or an unspecified group of people.",
+      "answer_b": "By using or passing on conversation content and data from amateur radio contacts in which the radio amateur did not take part.",
+      "answer_c": "By using or passing on conversation content and data from amateur radio contacts, regardless of whether the radio amateur took part.",
+      "answer_d": "By recording and passing on conversation content and data from amateur radio contacts, in particular if they are passed on to persons who are not radio amateurs."
+    },
+    "VE201": {
+      "question": "May a radio amateur use the amateur station to eavesdrop on private (non-public) conversations?",
+      "answer_a": "Eavesdropping on private (non-public) conversations is a criminal offence.",
+      "answer_b": "The radio amateur counts as a competent person and may therefore decide which frequencies to listen on.",
+      "answer_c": "Eavesdropping on private (non-public) conversations by the radio amateur requires a special authorisation from the BNetzA.",
+      "answer_d": "The radio amateur is entitled to do so if technically approved receivers are used."
+    },
+    "VE309": {
+      "question": "Reception at your amateur station suffers recurring interference. The cause is not in your household. You want to inform the radio interference reporting service of the Federal Network Agency (BNetzA). How should you support the authority in dealing with the case?",
+      "answer_a": "I keep a log of the time and type of the interference and name the suspected source.",
+      "answer_b": "I send an e-mail every single time the interference occurs.",
+      "answer_c": "I press for the inspection and measurement service to be sent out quickly and phone regularly to ask about progress.",
+      "answer_d": "I collect the contact details of all the neighbours and report them by e-mail."
+    },
+    "VE308": {
+      "question": "Does a radio amateur have to accept interference to reception from other equipment?",
+      "answer_a": "As a rule, the interference must be accepted if the interfering equipment meets the requirements of the Act on the Electromagnetic Compatibility of Equipment (EMVG) or the Radio Equipment Act (Funkanlagengesetz, FuAG).",
+      "answer_b": "Interference need not be accepted.",
+      "answer_c": "The interference must be accepted in every case.",
+      "answer_d": "As a rule, the interference must be accepted if the interfering device is of considerable importance to its operator (e.g. an alarm system)."
+    },
+    "VE307": {
+      "question": "Reception at your amateur station suffers interference on all bands. What should you do first?",
+      "answer_a": "Look for sources of interference in your own household, e.g. plug-in power supplies, LED lamps, computers and monitors.",
+      "answer_b": "Inform the radio interference reporting service of the Federal Network Agency (BNetzA) by telephone or e-mail.",
+      "answer_c": "Inform the Intruder Watch of an amateur radio society.",
+      "answer_d": "Stop receiving immediately and switch to transmitting, for example."
+    },
+    "VE306": {
+      "question": "Operating an amateur station on 144.250 MHz impairs a neighbour's cable television reception. A check shows that, at the location of the affected receiving installation, the radio amateur produces a field strength below the immunity limit for cable distribution systems recommended in the standard. What does this mean for the radio amateur?",
+      "answer_a": "The radio amateur may continue operating.",
+      "answer_b": "The radio amateur must stop operating the amateur station.",
+      "answer_c": "The radio amateur must set the transmit power so that reception is no longer impaired.",
+      "answer_d": "The radio amateur may increase the transmit power without restriction."
+    },
+    "VE305": {
+      "question": "Operating an amateur station on 145.550 MHz impairs a neighbour's VHF broadcast receiver through direct pick-up. A check shows that, at the location of the affected receiver, the radio amateur produces a field strength below the immunity limit for equipment recommended in the standard. What does this mean for the radio amateur?",
+      "answer_a": "The radio amateur may continue operating.",
+      "answer_b": "The radio amateur must set the transmit power so that reception is no longer impaired.",
+      "answer_c": "The radio amateur may increase the transmit power without restriction.",
+      "answer_d": "The radio amateur must stop operating the amateur station."
+    },
+    "VE304": {
+      "question": "Operating an amateur station impairs a neighbour's television reception. A check shows that both the television set and the amateur station comply with the regulations and that no further improvements are possible. What is the BNetzA empowered to do in this case?",
+      "answer_a": "The BNetzA can arrange remedial measures in cooperation with those involved.",
+      "answer_b": "The BNetzA has no powers in this respect.",
+      "answer_c": "To revoke the authorisation for the amateur service immediately",
+      "answer_d": "To initiate administrative fine proceedings"
+    },
+    "VE303": {
+      "question": "Operating an amateur station on 145.550 MHz impairs a neighbour's VHF broadcast reception. A check shows that both the amateur station and the broadcast receiving installation are operated in compliance with the regulations. What must the radio amateur expect?",
+      "answer_a": "Official remedial measures in cooperation with those involved",
+      "answer_b": "A restriction of operation subject to a fee, or a complete ban on operating the amateur station",
+      "answer_c": "Official measures under the AFuG, in the course of which the radio amateur's authorisation to participate in the amateur service may be withdrawn",
+      "answer_d": "Administrative offence proceedings with a ban on operation and a fine on the basis of the AFuG"
+    },
+    "VE302": {
+      "question": "What is the appropriate reaction if interference to a neighbour's television or radio reception cannot be eliminated with the means available?",
+      "answer_a": "You politely recommend the neighbour to contact the Federal Network Agency (BNetzA) to have the cause of the interference examined.",
+      "answer_b": "The neighbour should be politely told that the cause lies in the neighbour's own installation.",
+      "answer_c": "The neighbour should be told that you are not responsible for this.",
+      "answer_d": "You notify your amateur radio society."
+    },
+    "VE301": {
+      "question": "Operating an amateur station interferes with a neighbour's broadcast reception. What can the radio amateur do to keep good relations with the neighbours before the Federal Network Agency (BNetzA) is called in?",
+      "answer_a": "Reduce the transmit power for the time being.",
+      "answer_b": "Switch on passband tuning on the transceiver.",
+      "answer_c": "Operate only DX.",
+      "answer_d": "Operate only split."
+    },
+    "VE405": {
+      "question": "Is proof of compliance with the technical regulations under the provisions of the Radio Equipment Act (Funkanlagengesetz, FuAG) required for radio equipment assembled by radio amateurs?",
+      "answer_a": "Such amateur radio equipment need not meet the requirements of the Radio Equipment Act (Funkanlagengesetz, FuAG).",
+      "answer_b": "Such amateur radio equipment must meet the requirements of the Radio Equipment Act (Funkanlagengesetz, FuAG).",
+      "answer_c": "Such amateur radio equipment is not permitted under the Radio Equipment Act (Funkanlagengesetz, FuAG).",
+      "answer_d": "Such amateur radio equipment must be presented to the BNetzA for testing."
+    },
+    "VE404": {
+      "question": "Which regulations must commercially available receiving equipment comply with if it can receive frequencies allocated to amateur radio?",
+      "answer_a": "The provisions of the Radio Equipment Act (Funkanlagengesetz, FuAG) must be complied with.",
+      "answer_b": "In principle, amateur radio receivers do not have to comply with any provisions at all.",
+      "answer_c": "Essential requirements for amateur radio receivers are laid down in the Amateur Radio Ordinance (Amateurfunkverordnung, AFuV).",
+      "answer_d": "Amateur radio receivers may be operated only by radio amateurs; beyond that there are no further regulations."
+    },
+    "VE403": {
+      "question": "Which essential requirements does the Radio Equipment Act (Funkanlagengesetz, FuAG) impose on amateur radio equipment?",
+      "answer_a": "Series-produced equipment must meet the essential requirements of the Radio Equipment Act (Funkanlagengesetz, FuAG) and bear the CE marking.",
+      "answer_b": "The radio equipment must bear a national approval marking as specified by the BNetzA.",
+      "answer_c": "Home-built radio equipment must meet the essential requirements of the Radio Equipment Act (Funkanlagengesetz, FuAG) and bear the CE marking.",
+      "answer_d": "Series-produced amateur radio equipment is not subject to the Radio Equipment Act (Funkanlagengesetz, FuAG)."
+    },
+    "VE402": {
+      "question": "Which equipment falls within the scope of the Radio Equipment Act (Funkanlagengesetz, FuAG)?",
+      "answer_a": "Amateur radio equipment made available on the market",
+      "answer_b": "Home-built amateur radio equipment",
+      "answer_c": "Commercially manufactured radio equipment converted for amateur radio purposes",
+      "answer_d": "Kits for amateur radio equipment"
+    },
+    "VE401": {
+      "question": "Which law governs, among other things, the placing on the market, the free movement and the putting into service of amateur radio equipment made available on the market?",
+      "answer_a": "The Radio Equipment Act (Funkanlagengesetz, FuAG)",
+      "answer_b": "The Amateur Radio Ordinance (Amateurfunkverordnung, AFuV)",
+      "answer_c": "The Act on the Electromagnetic Compatibility of Equipment (EMVG)",
+      "answer_d": "There are no rules for such amateur radio equipment."
+    },
+    "VE519": {
+      "question": "Can the Federal Network Agency (BNetzA) require a site certificate for the operation of a fixed amateur station?",
+      "answer_a": "Only if fixed radio installations that themselves need a site certificate are already present at the location of the planned fixed amateur station.",
+      "answer_b": "No, the notification procedure applies to amateur radio installations",
+      "answer_c": "Only if the amateur station is used commercially",
+      "answer_d": "Yes, if the effective radiated power of the amateur station exceeds 750 W"
+    },
+    "VE518": {
+      "question": "You want to set up an amateur station at a location where other fixed radio installations are already present. What special point must you observe regarding the protection of persons in electromagnetic fields?",
+      "answer_a": "If the total power of all radio installations at the location reaches or exceeds 10 W EIRP, a site certificate is required.",
+      "answer_b": "If the transmitter output power of the amateur station exceeds 10 W, it may not be operated at this location.",
+      "answer_c": "It is not permitted to operate an amateur station at a location where radio installations of other radiocommunication services are also present.",
+      "answer_d": "A mechanical transmit changeover switch is required that prevents the amateur radio installation from transmitting at the same time as one of the other radio installations."
+    },
+    "VE517": {
+      "question": "You want to operate an amateur station with several transmitting antennas and determine the safety distances for the protection of persons. It turns out that the safety distances of several antennas overlap. What must you now observe?",
+      "answer_a": "The antennas concerned must be considered together if they are to be used for transmitting at the same time.",
+      "answer_b": "The safety distance of the antenna with the highest radiated power applies to the entire antenna installation.",
+      "answer_c": "It must be ensured that transmission is restricted to one of the antennas at all times.",
+      "answer_d": "The safety distances must be multiplied by the number of transmitting antennas as a safety factor."
+    },
+    "VE516": {
+      "question": "Which transmissions of amateur radio installations must be taken into account when determining the site-specific safety distance?",
+      "answer_a": "All transmissions of the fixed amateur station that the radio amateur intends to make simultaneously",
+      "answer_b": "Only transmissions of amateur stations operated at a fixed location with a radiated power (EIRP) greater than 10 W",
+      "answer_c": "Only the transmissions at the maximum transmit power that the amateur radio installation can deliver",
+      "answer_d": "All transmissions with a radiated power (EIRP) greater than 10 W, including transmissions in mobile operation."
+    },
+    "VE515": {
+      "question": "Which procedures can radio amateurs use to produce the verification for limiting electromagnetic fields?",
+      "answer_a": "The assessment procedure using the \"Watt Wächter\" application, the simplified assessment procedure, field-strength measurement, far-field calculation and near-field calculation",
+      "answer_b": "Radio amateurs must commission a certified company to produce the verification for limiting electromagnetic fields.",
+      "answer_c": "Because of their expert knowledge, radio amateurs can estimate compliance with the electromagnetic limits.",
+      "answer_d": "Radio amateurs are expressly exempt from the verification for limiting electromagnetic fields."
+    },
+    "VE514": {
+      "question": "What must a radio amateur observe after notifying the Federal Network Agency (BNetzA) of the fixed amateur station under the BEMFV?",
+      "answer_a": "Documentation of compliance with the requirements, with all necessary records, must be kept available, and it must be checked continuously whether the conditions under which the notification was made still apply. In the event of significant changes, the amateur station must be notified again.",
+      "answer_b": "By notifying the fixed amateur station, the radio amateur has fulfilled the obligations regarding the protection of persons in electromagnetic fields and need observe nothing further in this respect.",
+      "answer_c": "The notification procedure must be carried out again every year to keep it up to date.",
+      "answer_d": "Once the fixed amateur station has been put into service, the documentation of compliance with the requirements, with all necessary records, must be submitted to the competent regional office of the Federal Network Agency (BNetzA)."
+    },
+    "VE513": {
+      "question": "In addition to the notification of a fixed amateur radio installation under the Ordinance on the Verification Procedure for Limiting Electromagnetic Fields (BEMFV), which documents must the radio amateur keep available from the time it is put into service and present to the Federal Network Agency (BNetzA) on request?",
+      "answer_a": "Comprehensible documentation of compliance with the requirements, where applicable antenna patterns, a site plan, a construction drawing or sketch with dimensions, and the configuration of the radio installation",
+      "answer_b": "The notification form with the data of the fixed amateur radio installation and a scale sketch of the site-specific safety distance and the controllable area",
+      "answer_c": "The authorisation to participate in the amateur service, the data sheets of all amateur radio equipment and the log, because they must be available at all times for a possible inspection by the Federal Network Agency (BNetzA)",
+      "answer_d": "A photographic record of the amateur radio installation including the antennas, and an informal list of all measured values together with antenna patterns"
+    },
+    "VE512": {
+      "question": "Which documents must be submitted to the competent regional office of the BNetzA in addition to the notification of a fixed amateur radio installation under the Ordinance on the Verification Procedure for Limiting Electromagnetic Fields (BEMFV)?",
+      "answer_a": "A comprehensible drawing of the site-specific safety distance and of the area controllable by the operator must be attached to the notification.",
+      "answer_b": "Antenna patterns, a site plan, a construction drawing or sketch with dimensions must be attached to the notification.",
+      "answer_c": "No further documents need to be attached.",
+      "answer_d": "A block diagram of the amateur station must be attached."
+    },
+    "VE511": {
+      "question": "What status does the notification of a fixed amateur radio installation have in the context of EMVU?",
+      "answer_a": "The notification is the radio amateur's binding declaration that the statutory limits for the protection of persons in electromagnetic fields are complied with on the radio amateur's own responsibility.",
+      "answer_b": "The notification is a non-binding declaration that radio amateurs act on their own responsibility.",
+      "answer_c": "The notification has the same legal status as a site certificate, but applies only to non-commercial installations.",
+      "answer_d": "The notification is the radio amateur's binding declaration that the Federal Immission Control Act is complied with on the radio amateur's own responsibility."
+    },
+    "VE510": {
+      "question": "When must a notification of a fixed amateur radio installation under the Ordinance on the Verification Procedure for Limiting Electromagnetic Fields (BEMFV) be submitted again to the competent office of the BNetzA?",
+      "answer_a": "If the existing notification no longer corresponds to the actual circumstances, the operator must carry out the notification procedure again.",
+      "answer_b": "The notification must be updated every year. If no changes have been made to the amateur radio installation, an informal message is sufficient.",
+      "answer_c": "When the national certificate class changes",
+      "answer_d": "When requested by the competent office of the BNetzA"
+    },
+    "VE509": {
+      "question": "To which office and at what time must the notification under the Ordinance on the Verification Procedure for Limiting Electromagnetic Fields (BEMFV) be submitted for a fixed amateur radio installation with an EIRP of 10 W or more?",
+      "answer_a": "The notification must be submitted to the competent regional office of the BNetzA before the amateur radio installation is put into operation.",
+      "answer_b": "The notification must be submitted to the competent regional office of the BNetzA no later than three months after operation has started.",
+      "answer_c": "If the notification no longer corresponds to the actual circumstances, any regional office of the BNetzA must be informed of this.",
+      "answer_d": "The notification must be submitted to any regional office of the BNetzA before the amateur radio installation is put into operation."
+    },
+    "VE508": {
+      "question": "Who must notify the BNetzA of their amateur station under the Ordinance on the Verification Procedure for Limiting Electromagnetic Fields (BEMFV)?",
+      "answer_a": "All radio amateurs who operate fixed amateur stations with a power of 10 W EIRP or more",
+      "answer_b": "All radio amateurs who operate portable or mobile",
+      "answer_c": "All radio amateurs of certificate class A",
+      "answer_d": "All radio amateurs who are active on HF"
+    },
+    "VE507": {
+      "question": "For which amateur stations must the radio amateur document the protection of persons in electromagnetic fields?",
+      "answer_a": "For all fixed amateur stations with an equivalent isotropically radiated power of 10 W EIRP or more",
+      "answer_b": "For all amateur stations",
+      "answer_c": "For all fixed amateur stations",
+      "answer_d": "For all amateur stations with an equivalent isotropically radiated power of 10 W EIRP or more"
+    },
+    "VE506": {
+      "question": "What must a radio amateur do to protect persons when operating fixed amateur radio installations under the Ordinance on the Verification Procedure for Limiting Electromagnetic Fields (BEMFV)?",
+      "answer_a": "The safety distance required to comply with the limits must be determined by calculation or measurement for a radio installation with an EIRP of 10 W or more and documented in a comprehensible form.",
+      "answer_b": "Up to a power of 100 W PEP, the standardised safety distance of 10 m can be assumed.",
+      "answer_c": "Up to a power of 100 W PEP, the standardised safety distance of 25 m can be assumed.",
+      "answer_d": "The safety distance required to comply with the limits must be determined by a certified measurement laboratory."
+    },
+    "VE505": {
+      "question": "Where are the limits for the protection of persons and active implants in electromagnetic fields laid down?",
+      "answer_a": "In the 26th Ordinance implementing the Federal Immission Control Act (Ordinance on Electromagnetic Fields, 26. BImSchV) and in the Ordinance on the Verification Procedure for Limiting Electromagnetic Fields (BEMFV)",
+      "answer_b": "In the Directive on the electromagnetic compatibility of electrical and electronic products (EMC Directive) and in the Act on the Electromagnetic Compatibility of Equipment (EMVG)",
+      "answer_c": "In the Act on Making Radio Equipment Available on the Market (Funkanlagengesetz, FuAG) and in the Telecommunications Act (Telekommunikationsgesetz, TKG)",
+      "answer_d": "In the Act on Amateur Radio (Amateurfunkgesetz, AFuG) and in the Ordinance under the Act on Amateur Radio (Amateurfunkverordnung, AFuV)"
+    },
+    "VE504": {
+      "question": "Under the Ordinance on the Verification Procedure for Limiting Electromagnetic Fields (BEMFV), what is meant by the \"notification procedure for fixed amateur radio installations\"?",
+      "answer_a": "A procedure that enables radio amateurs to ensure and document independently that there is no danger to persons",
+      "answer_b": "A procedure that a certified measurement laboratory must carry out to ensure that there is no danger to persons",
+      "answer_c": "The radio amateur's declaration of staying below the limit of 10 W EIRP",
+      "answer_d": "The radio amateur's declaration of not exceeding the limit of 750 W PEP"
+    },
+    "VE503": {
+      "question": "In which statutory provision is the procedure for the protection of persons in electromagnetic fields of fixed amateur stations laid down?",
+      "answer_a": "In the Ordinance on the Verification Procedure for Limiting Electromagnetic Fields (BEMFV)",
+      "answer_b": "In the Amateur Radio Act (Amateurfunkgesetz, AFuG)",
+      "answer_c": "In the Radio Regulations (RR)",
+      "answer_d": "In the Federal Immission Control Act (BImSchG)"
+    },
+    "VE502": {
+      "question": "Who is responsible for ensuring electromagnetic compatibility with the environment?",
+      "answer_a": "The operator of the fixed amateur station",
+      "answer_b": "The Federal Network Agency (BNetzA)",
+      "answer_c": "The manufacturer of the amateur radio equipment",
+      "answer_d": "The builder of the antenna installation"
+    },
+    "VE501": {
+      "question": "What does the abbreviation EMVU stand for?",
+      "answer_a": "Electromagnetic compatibility with the environment (Elektromagnetische Verträglichkeit in der Umwelt)",
+      "answer_b": "Electromagnetic compatibility of devices (Elektromagnetische Verträglichkeit von Geräten)",
+      "answer_c": "Electronic measurement of electromagnetic incompatibilities (Elektronische Messung von elektromagnetischen Unverträglichkeiten)",
+      "answer_d": "A citizens' initiative for protection against electromagnetic incompatibilities"
+    },
+    "VE604": {
+      "question": "Under what conditions must standard VDE 0855-300 for equipotential bonding and earthing of radio installations, and the series of standards VDE 0185-305 for lightning protection, be applied?",
+      "answer_a": "Standard VDE 0855-300 applies to all amateur radio transmitting installations. The series of standards VDE 0185-305 applies only to buildings with a lightning protection system.",
+      "answer_b": "Both standards must be applied when buildings can be struck by lightning.",
+      "answer_c": "If the antenna installation is far enough away from the building, the series of standards VDE 0185-305 need not be applied.",
+      "answer_d": "Standard VDE 0855-300 applies to buildings on which antennas are erected. Wire antennas and free-standing antenna masts are exempt from it."
+    },
+    "VE603": {
+      "question": "In which set of rules are recognised codes of practice for the lightning protection of amateur antenna installations to be found?",
+      "answer_a": "VDE standards",
+      "answer_b": "Provisions of the Amateur Radio Act (Amateurfunkgesetz, AFuG)",
+      "answer_c": "Lightning protection regulations of the competent building control authority",
+      "answer_d": "Rules of the amateur radio societies"
+    },
+    "VE602": {
+      "question": "Under which building regulations must outdoor antenna installations be erected?",
+      "answer_a": "The building regulations of the relevant federal state apply.",
+      "answer_b": "The provisions of the Amateur Radio Act (Amateurfunkgesetz, AFuG) apply.",
+      "answer_c": "Only the recommendations of the amateur radio societies need to be observed.",
+      "answer_d": "No special regulations need to be observed for private amateur radio installations."
+    },
+    "VE601": {
+      "question": "How must the power supply of home-built equipment be constructed to be electrically safe?",
+      "answer_a": "In accordance with the recognised codes of practice, as laid down for example in the VDE standards.",
+      "answer_b": "No special regulations apply, since a radio amateur is a competent person.",
+      "answer_c": "The regulations of the local electricity supplier apply.",
+      "answer_d": "It must be constructed in accordance with the CEPT recommendations."
+    },
+    "VE707": {
+      "question": "Who is liable for damage to third parties that may be caused by the antenna installation of an amateur station?",
+      "answer_a": "The owner or operator of the antenna installation",
+      "answer_b": "The amateur radio society, if the operator of the amateur station is a member of such a society",
+      "answer_c": "The Federal Network Agency (BNetzA), since the monthly contributions include a share for group insurance for radio amateurs' antenna installations.",
+      "answer_d": "The owner of the property, who must take out antenna liability insurance even if not the operator of the amateur station."
+    },
+    "VE706": {
+      "question": "May an amateur station also be operated on board a ship that is in international waters?",
+      "answer_a": "Yes, with the consent of the master",
+      "answer_b": "Yes, with the consent of any crew member",
+      "answer_c": "Yes, with a permit from the BNetzA",
+      "answer_d": "Yes, with a permit from the Federal Maritime and Hydrographic Agency"
+    },
+    "VE705": {
+      "question": "What requirement must be met for you to be allowed to operate amateur radio on board an aircraft?",
+      "answer_a": "Consent of the pilot in command",
+      "answer_b": "Permission from the Federal Network Agency (BNetzA) for aeronautical radio operation",
+      "answer_c": "Use of a permanently installed station of the aeronautical mobile service",
+      "answer_d": "Use of frequencies allocated to the aeronautical mobile service"
+    },
+    "VE704": {
+      "question": "What consequences must the radio amateur expect if the fees and contributions due are not paid?",
+      "answer_a": "Measures under the provisions of the Administrative Enforcement Act.",
+      "answer_b": "Withdrawal of the amateur radio certificate.",
+      "answer_c": "A fine.",
+      "answer_d": "A re-examination subject to a fee."
+    },
+    "VE703": {
+      "question": "In which case must the radio amateur pay fees under the Special Fees Ordinance of the BNetzA (BNetzABGebV)? For the ...",
+      "answer_a": "issue of the authorisation to participate in the amateur service and assignment of a personal call sign.",
+      "answer_b": "examination of the documents to be submitted under the Ordinance on the Verification Procedure for Limiting Electromagnetic Fields (BEMFV).",
+      "answer_c": "testing of the electromagnetic compatibility of an amateur station.",
+      "answer_d": "short-term relocation of the fixed amateur station to another location."
+    },
+    "VE702": {
+      "question": "In which case must the radio amateur pay annual contributions under the Frequency Protection Contribution Ordinance (FSBeitrV)? Whenever the radio amateur ...",
+      "answer_a": "holds an authorisation for the amateur service.",
+      "answer_b": "has an amateur station.",
+      "answer_c": "owns and has set up an amateur station.",
+      "answer_d": "owns, has set up and operates an amateur station."
+    },
+    "VE701": {
+      "question": "Which regular contributions does a radio amateur with a call sign assignment have to pay?",
+      "answer_a": "Annual frequency protection contributions under the TKG and the EMVG",
+      "answer_b": "Annual assignment contributions under the provisions of the AFuG",
+      "answer_c": "No contributions if the radio amateur is a member of an amateur radio society",
+      "answer_d": "No contributions if the radio amateur has a call sign assignment but has not set up or does not operate an amateur station"
+    }
+  }
+}

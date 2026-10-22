@@ -217,6 +217,46 @@ and the checker's "Provjera" section).
   The four answers stay the same set in
   every question, so the shorter VHF / UHF answers do not single out the
   correct one. (Batch 09; reworked by the checker.)
+- **German statutes in exam questions: the English name, then the German
+  short title and the abbreviation.** Where the German names a law by its
+  one-word short title (*Amateurfunkgesetz*, *Funkanlagengesetz*,
+  *Telekommunikationsgesetz*), every field that names it gets the glossary's
+  English name with the German title and abbreviation in brackets — "Radio
+  Equipment Act (Funkanlagengesetz, FuAG)" — also where the German leaves
+  out the abbreviation (as BE406 c, VA406). Where the German writes the
+  long formal title (*Gesetz über die elektromagnetische Verträglichkeit von
+  Betriebsmitteln*, *Verordnung über das Nachweisverfahren zur Begrenzung
+  elektromagnetischer Felder*), the English long title takes the
+  abbreviation only — "Act on the Electromagnetic Compatibility of
+  Equipment (EMVG)" — as the catalogue headings already do; a German title
+  of a dozen words in brackets helps no one. Where the German gives both
+  (VE505 "Funkanlagengesetz - FuAG"), so does the English. VC101, which
+  asks which law it is and gives four bare titles, keeps four bare English
+  titles, so that no answer stands out by a bracket. (Batch 10.)
+- ***verschlüsseln … zur Verschleierung* is *encrypt* in German law,
+  *encoded* in the RR.** The AFuG / AFuV questions (VC124 d, VD103 a,
+  VD104) say "encrypt(ed) … to obscure the content / its meaning": German
+  statutes are translated faithfully, and the German means cryptography.
+  The RR 25.2A question (VA303) keeps the RR's own "encoded for the purpose
+  of obscuring … meaning". (Batch 10.)
+- **"What does the German abbreviation X stand for?"** (VE501, EMVU): each
+  answer that expands the abbreviation is translated and followed by the
+  German expansion in brackets — "Electromagnetic compatibility with the
+  environment (Elektromagnetische Verträglichkeit in der Umwelt)" — so the
+  English reader can match the letters as the German reader does. Such a
+  bracket adds information (bracket rule above) and goes with every
+  expansion, the correct one and the distractors alike; an answer that is a
+  description rather than an expansion (VE501 d, a citizens' initiative) is
+  only translated. The counterpart of the EF212 rule for English
+  abbreviations. (Batch 10.)
+- ***Nachprüfung* as a sanction → re-examination** (VC122 *fachliche
+  Nachprüfung* → "re-examination of competence"; VC123, VC125, VE704 bare
+  *kosten-/gebührenpflichtige Nachprüfung* → "re-examination subject to a
+  fee"). The glossary's earlier "inspection subject to a fee", written
+  before any question used it, presumed that the station is what gets
+  checked; *fachliche* in VC122 shows it is the person's competence, and
+  "re-examination" covers the bare word without deciding more than the
+  German. (Batch 10.)
 
 ## Open questions for DARC
 

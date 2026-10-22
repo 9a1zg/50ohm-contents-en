@@ -97,7 +97,7 @@ real choice or a trap.
 | Bodenkontrollstation | earth command station | RR 25.2A wording |
 | Steuersignale | control signals | |
 | Verschleierung (zum Zwecke der Verschleierung) | (for the purpose of) obscuring the meaning | RR 25.2A wording; not "concealment" |
-| verschlüsseln | encode; encrypt | RR says *encoded*; use *encrypt* only where the German clearly means cryptography |
+| verschlüsseln | encode; encrypt | RR says *encoded*; use *encrypt* only where the German clearly means cryptography — as in German law: AFuG / AFuV *zur Verschleierung … verschlüsseln* → encrypt (VC124, VD103, VD104; DECISIONS.md) |
 | ordnungsgemäß befugte Personen | duly authorised persons | |
 | ohne finanzielle Interessen / ohne wirtschaftliches Interesse | without pecuniary interest | RR 1.56 wording |
 | mit persönlichem Ziel | solely with a personal aim | RR 1.56 wording |
@@ -145,6 +145,9 @@ real choice or a trap.
 | Mitteilungen im Zusammenhang mit dem definitionsgemäßen Zweck des Amateurfunkdienstes | communications incidental to the purpose of the amateur service as defined | RR 25.2 wording (VA302) |
 | Mitteilungen von geringer Bedeutung, die es nicht rechtfertigen, öffentliche Telekommunikationsdienste in Anspruch zu nehmen | messages of minor importance, for which recourse to public telecommunications services is not justified | older RR 25.2 wording, distractor VA104 |
 | sich für Funktechnik interessieren | interested in radio technique | RR 1.56 wording (VA104) |
+| Weltraumfunkstelle | space station | RR 1.64 (VC115) |
+| Sicherheitsfunkdienst | safety service | RR 1.59 (VD704) |
+| Richtlinie Elektromagnetische Verträglichkeit von Elektro- und Elektronikprodukten (EMV-Richtlinie) | Directive on the electromagnetic compatibility of electrical and electronic products (EMC Directive) | the EU EMC Directive; *EMC Directive* is its established English short name (VE505) |
 
 ### 1.2 German law, bodies and documents
 
@@ -170,9 +173,9 @@ real choice or a trap.
 | Telekommunikationsgesetz (TKG) | Telecommunications Act (Telekommunikationsgesetz, TKG) | |
 | Telekommunikation-Telemedien-Datenschutz-Gesetz (TTDSG) | Telecommunications and Telemedia Data Protection Act (Telekommunikation-Telemedien-Datenschutz-Gesetz, TTDSG) | renamed TDDDG in 2024; the question bank still says TTDSG — translate what the German says |
 | Telekommunikation-Digitale-Dienste-Datenschutz-Gesetz (TDDDG) | Telecommunications Digital Services Data Protection Act (TDDDG) | |
-| Gesetz über die elektromagnetische Verträglichkeit von Betriebsmitteln (EMVG) | Act on the Electromagnetic Compatibility of Equipment (Gesetz über die elektromagnetische Verträglichkeit von Betriebsmitteln, EMVG) | short: Electromagnetic Compatibility Act (EMVG) |
+| Gesetz über die elektromagnetische Verträglichkeit von Betriebsmitteln (EMVG) | Act on the Electromagnetic Compatibility of Equipment (Gesetz über die elektromagnetische Verträglichkeit von Betriebsmitteln, EMVG) | short: Electromagnetic Compatibility Act (EMVG); in exam questions, where the German writes the long title, "Act on the Electromagnetic Compatibility of Equipment (EMVG)" without the German title (DECISIONS.md) |
 | Gesetz über die elektromagnetische Verträglichkeit von Geräten (EMVG) | Act on the Electromagnetic Compatibility of Devices (EMVG) | older title, used in a catalogue heading; keep *Devices* vs *Equipment* as in the German |
-| Gesetz über die Bereitstellung von Funkanlagen auf dem Markt (FuAG) / Funkanlagengesetz | Act on Making Radio Equipment Available on the Market (Funkanlagengesetz, FuAG) / Radio Equipment Act | |
+| Gesetz über die Bereitstellung von Funkanlagen auf dem Markt (FuAG) / Funkanlagengesetz | Act on Making Radio Equipment Available on the Market (Funkanlagengesetz, FuAG) / Radio Equipment Act | in exam questions *Funkanlagengesetz (FuAG)* → "Radio Equipment Act (Funkanlagengesetz, FuAG)" (VE4, DECISIONS.md) |
 | Verordnung über das Nachweisverfahren zur Begrenzung elektromagnetischer Felder (BEMFV) | Ordinance on the Verification Procedure for Limiting Electromagnetic Fields (BEMFV) | |
 | 26. Verordnung zur Durchführung des Bundes-Immissionsschutzgesetzes (26. BImSchV) | 26th Ordinance implementing the Federal Immission Control Act (Ordinance on Electromagnetic Fields, 26. BImSchV) | *immission* is the established English term in German environmental law |
 | Anhang 1a / 1b / 3 (26. BImSchV) | Annex 1a / 1b / 3 | annexes of German ordinances are *Annex*, as AFuV *Anlage*; RR *Appendix* is only for the ITU (EK102) |
@@ -181,6 +184,34 @@ real choice or a trap.
 | Besondere Gebührenverordnung BNetzA (BNetzABGebV) | Special Fees Ordinance of the BNetzA (BNetzABGebV) | |
 | Gebühren und Beiträge | fees and contributions | |
 | Verwaltungs-Vollstreckungsgesetz | Administrative Enforcement Act | |
+| Bundes-Immissionsschutzgesetz (BImSchG) | Federal Immission Control Act (BImSchG) | as in the 26. BImSchV row (VD108, VE503, VE511) |
+| Verordnung zum Gesetz über den Amateurfunk | Ordinance under the Act on Amateur Radio | the AFuV's formal title, beside *Gesetz über den Amateurfunk* (VE505) |
+| Gesetz über Funkanlagen (FuAG) | Act on Radio Equipment (FuAG) | not the FuAG's real title; translated as the German writes it (VC118) |
+| Frequenzverordnung (FreqV) / Anlage zur Frequenzverordnung | Frequency Ordinance (FreqV) / Annex to the Frequency Ordinance | VD101, VD702 |
+| Frequenzplan (FreqP) | Frequency Plan (FreqP) | the BNetzA's plan, capitalised as a named document, also in the AFuG's "im Frequenzplan … ausgewiesenen Frequenzen" (VC102, VC103, VD702); cf. §2 *Frequenzplan* |
+| Frequenznutzungsplan | Frequency Usage Plan | the Frequency Plan's former name (VD116) |
+| Frequenznutzungsplanaufstellungsverordnung | Ordinance on Drawing Up the Frequency Usage Plan (Frequenznutzungsplanaufstellungsverordnung) | repealed ordinance, distractor VD701; the one-word German title stays in brackets |
+| Bundesgesetzblatt (BGBl) | Federal Law Gazette (BGBl) | VD201 |
+| Physikalisch-Technische Bundesanstalt | National Metrology Institute (Physikalisch-Technische Bundesanstalt) | as *Kraftfahrt-Bundesamt* (VC104) |
+| Bundesanstalt für Post und Telekommunikation | Federal Institution for Posts and Telecommunications (Bundesanstalt für Post und Telekommunikation) | VC104 |
+| Bundesanstalt für den Digitalfunk der Behörden und Organisationen mit Sicherheitsaufgaben (BDBOS) | Federal Agency for Public Safety Digital Radio (Bundesanstalt für den Digitalfunk der BOS) | the agency's own English name; German short name in brackets (VC104) |
+| Bundesamt für Seeschifffahrt und Hydrographie | Federal Maritime and Hydrographic Agency | the agency's own English name (VE706) |
+| Bauaufsichtsbehörde | building control authority | VE603 |
+| eingetragener Verein (e. V.) | registered association (e. V.) | VD117, VD401 |
+| Führungszeugnis / Personalausweis / Reisepass | certificate of good conduct / identity card / passport | VC105 |
+| Volljährigkeit | age of majority | VC108 |
+| Ordnungswidrigkeitenverfahren / Bußgeldverfahren | administrative offence proceedings / administrative fine proceedings | VE303, VE304 |
+| Betriebsverbot / Betriebseinschränkung | ban on operation / restriction of operation | VE303 |
+| Beschlagnahmung | seizure | VC125 |
+| Entzug / Einzug (des Amateurfunkzeugnisses) | withdrawal / confiscation (of the amateur radio certificate) | VC123, VC125, VE704 |
+| Unbrauchbarmachen | rendering unusable | VC122 |
+| kostenpflichtig / gebührenpflichtig | subject to a fee | |
+| behördliche Abhilfemaßnahmen | official remedial measures | VE303 |
+| Sonderverfügung | special order | VD204 |
+| sachkundige Person | competent person | VE201, VE601 |
+| Haftpflichtversicherung / Antennenhaftpflichtversicherung / Gruppenversicherung | liability insurance / antenna liability insurance / group insurance | VE707 |
+| Grundstückseigentümer | owner of the property | VE707 |
+
 | Strafgesetzbuch (StGB) | Criminal Code (Strafgesetzbuch, StGB) | |
 | § 323c StGB (unterlassene Hilfeleistung) | Section 323c StGB (failure to render assistance) | § → "Section" in prose, "§" may stay in citations |
 | Abs. (Absatz) | para. (paragraph) / subsection | "§ 3 Abs. 1 AFuG" → "Section 3(1) AFuG" |
@@ -359,12 +390,29 @@ real choice or a trap.
 | See- und Binnenschifffahrtsfunk | maritime and inland waterway radio service | BD205 |
 | angeordnete Logbuchführung | (where) keeping a log has been ordered | BG102, BG103 |
 | Zulassungsklasse N | licence class N | VB105 |
+| Rufzeicheninhaber der Klasse A / Funkamateure der Klasse A | Class A call sign holders / Class A radio amateurs | VD603, VD727–VD737 |
+| Hörerrufzeichen ("DE-Reihe") | listener call sign ("DE series") | VD102 |
+| Familienrufzeichen / Contestrufzeichen / Mobilfunkrufzeichen | family call signs / contest call signs / mobile radio call signs | made-up categories in VD202 |
+| Zuteilungsurkunde | assignment document | VD609; cf. *Zulassungsurkunde* → licence document |
+| Schulstation | school station | VD305, VD306 |
+| (Rufzeichen) mitbenutzen | share (a call sign) | VD404 |
+| Betriebssicherheit (Remote-Station) | operational safety | VD605 |
+| Bandwacht (der Amateurfunkverbände) | Intruder Watch | the societies' monitoring service, part of the IARU Monitoring System, as *Intruder Monitoring* (VD608) |
+| Relaisnutzungsgebühr | repeater usage fee | VD504 |
+| Flugfunkzeugnis / Seefunkzeugnis | aeronautical / maritime radio operator's certificate | VD115 |
+| Notfunkübung | emergency communications exercise | VC110 |
+| Feldstärkebeobachtung / Empfangsversuche | observing field strength / reception tests | AFuV definition of *Funkbake* (VD119) |
+| fernausgelöst | when triggered remotely | AFuV definition of *Relaisfunkstelle* (VD118) |
+| Frequenznutzungsbeiträge / Zuteilungsbeiträge | frequency usage contributions / assignment contributions | VD108, VE701 |
+| Verträglichkeitsbescheinigung / EMVU-Bescheinigung | compatibility certificate / EMVU certificate | VC106, VC118 |
+| baumustergeprüft | type-tested | VC118 |
+| zertifizierter Elektromeister / Abnahmeprotokoll | certified master electrician / acceptance report | VC118 |
 
 ### 1.4 EMF exposure (EMVU / BEMFV)
 
 | German | English | Note |
 |---|---|---|
-| EMVU (elektromagnetische Verträglichkeit in der Umwelt / elektromagnetische Umweltverträglichkeit) | EMVU (electromagnetic compatibility with the environment) | i.e. human exposure to RF fields; keep the German abbreviation, VE501 asks what it stands for |
+| EMVU (elektromagnetische Verträglichkeit in der Umwelt / elektromagnetische Umweltverträglichkeit) | EMVU (electromagnetic compatibility with the environment) | i.e. human exposure to RF fields; keep the German abbreviation; VE501 asks what it stands for, and its answers give the English with the German expansion in brackets (DECISIONS.md) |
 | Schutz von Personen in elektromagnetischen Feldern | protection of persons in electromagnetic fields | |
 | Personenschutz | protection of persons | |
 | Sachschutz | protection of property | |
@@ -397,6 +445,10 @@ real choice or a trap.
 | Bemaßung | dimensions | |
 | Antennendiagramm | antenna (radiation) pattern | |
 | Gesamtleistung | total power | |
+| Nachweis zur Begrenzung elektromagnetischer Felder | verification for limiting electromagnetic fields | as *Nachweisverfahren* (VE515) |
+| Anzeigeformblatt / zeichnerische Darstellung | notification form / drawing | VE512, VE513 |
+| (zertifiziertes) Messlabor | (certified) measurement laboratory | VE504, VE506 |
+| (mechanischer) Sendeumschalter | (mechanical) transmit changeover switch | VE518 |
 
 ## 2. Operating
 
@@ -1533,6 +1585,7 @@ real choice or a trap.
 | Rundfunkempfang / Fernsehempfang | broadcast reception / television reception | |
 | Rundfunkempfänger / Fernsehgerät | broadcast receiver / television set | |
 | Kabelfernsehen | cable television | |
+| Kabelverteilanlage | cable distribution system | VE306 |
 | Türsprechanlage | door intercom | |
 | Haushalt | household | |
 | Nachbar / nachbarschaftlicher Frieden | neighbour / good relations with the neighbours | British *neighbour* |
@@ -1665,7 +1718,7 @@ the entries above, listed so that they are rendered the same way every time.
 | Mayday | MAYDAY | |
 | Bundesrepublik Deutschland | Federal Republic of Germany | |
 | Irland / Estland / Armenien / Ukraine / Südafrika / Philippinen | Ireland / Estonia / Armenia / Ukraine / South Africa / the Philippines | |
-| kostenpflichtige Nachprüfung | inspection subject to a fee | |
+| kostenpflichtige / gebührenpflichtige Nachprüfung / fachliche Nachprüfung | re-examination subject to a fee / re-examination of competence | a sanction in VC122, VC123, VC125, VE704; *fachliche* makes it a re-test, and the bare word is the same sanction (DECISIONS.md) |
 | Wortlaut | wording | "nach dem Wortlaut der AFuV" → "according to the wording of the AFuV" |
 | Regelwerk | set of rules; regulations | |
 | im Sinne des … | within the meaning of … | legal phrasing |
