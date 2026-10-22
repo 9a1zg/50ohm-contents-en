@@ -87,3 +87,39 @@ where the text remarks on it. swl_2 follows this.
 - sections/swl_elektrische_sicherheit.md — "müssen Nennstrom und Auslösecharakteristik dem vorgesehenen Ersatz entsprechen": circular; what is meant is that the replacement must match the specified (original) values, as NK305 says ("same current rating and the same tripping characteristic"). Rendered "must match those specified for the replacement".
 - sections/swl_antennensicherheit.md — "Für Schäden … haftet grundsätzlich der Betreiber der Antennenanlage", while the slide and VE707 say *Eigentümer oder Betreiber*. Not wrong ("grundsätzlich"), but the two places differ. Kept as each says.
 - Typos with no effect on the English: sections/swl_vorwort.md "mit einem geeigneten Empfänger (z.B. ein SDR-Stick …)" (*einem SDR-Stick*); sections/swl_bedienung.md "USB (Oberes Seitenband bei SSB)" (*oberes*); sections/swl_was_ist_swl.md "*DE1JMU* ." (space before the full stop, kept).
+
+## Provjera
+
+Checked all 26 files paragraph by paragraph against `de26800~1`, the embedded
+questions (VD102, NE209, NF105, NG202–NG205, NH101, NH201, NH306, NK305,
+VE707, VD201, VD202, BD103–BD106, BD303, BD305, BD311) in English, the
+glossary and DECISIONS.md. Nothing dropped or added; numbers, tables and
+captions complete. Kept as they are: all judgement calls, the 17 glossary
+rows (they agree with §2 *Kurzwellenhörer*, *Hörerkennzeichen* and the
+N_Ende *DOK* row), the DECISIONS.md entry on the SWL course terms, and the
+suspected errors in the German (all fair). *Zulassung zum Amateurfunkdienst*
+as "authorisation to participate in the amateur service" kept, because VD102
+follows it directly with that wording. `revizija-guard.py --rev de26800~1
+--brojevi`: 26 files, *struktura netaknuta*.
+
+Changes: omission 0, meaning 1, technical 0, style 7, glossary 0.
+
+- swl_steckverbinder section and slide note: *nicht entscheidend* "does not
+  matter" → "is not a deciding factor" (the German says it is not decisive,
+  not that it is irrelevant).
+- swl_vorwort section: *Schon mit einem geeigneten Empfänger* "Even with" →
+  "With just" ("even" read as a concession).
+- swl_steckverbinder section and slide: *verkanten* "force connectors in at
+  an angle … by force" → "insert connectors at an angle" (no doubled
+  "force").
+- swl_bedienung slide note: "What the S meter shows exactly follows later" →
+  "The exact meaning of the S meter reading is covered later".
+- swl_ionosphaere slide note: "For a start, it is enough" → "At this stage,
+  it is enough".
+- swl_elektrische_sicherheit section: "A receiver also needs electrical
+  energy" → "Even a receiver needs electrical power".
+- swl_elektrische_sicherheit section and slide note: "can let leads and
+  components overheat" → "can allow leads and components to overheat".
+- swl_elektrische_sicherheit section: the German's prescriptive present
+  (*werden nicht weiter benutzt*, *werden … verlegt*, *wird … nicht benutzt*,
+  *werden nur dann getrennt*) as "should …" instead of statements of fact.

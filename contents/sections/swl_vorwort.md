@@ -1,4 +1,4 @@
-Welcome to the fascinating world of amateur radio! To get started, you need neither a transmitter nor a large station. Even with a suitable receiver (e.g. an SDR stick as in [ref:swl_sdr_stick]) and a simple antenna, you can follow amateur radio traffic from your own area and from far-off countries.
+Welcome to the fascinating world of amateur radio! To get started, you need neither a transmitter nor a large station. With just a suitable receiver (e.g. an SDR stick as in [ref:swl_sdr_stick]) and a simple antenna, you can follow amateur radio traffic from your own area and from far-off countries.
 
 <margin>
 [photo:345:swl_sdr_stick:An SDR stick is an inexpensive way into amateur radio reception.]

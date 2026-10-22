@@ -17,7 +17,7 @@ First let the participants name for themselves what they can see on the display.
 * Waterfall display
 
 <note>
-What the S meter shows exactly follows later, together with the RST report.
+The exact meaning of the S meter reading is covered later, together with the RST report.
 </note>
 
 ---

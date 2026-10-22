@@ -14,7 +14,7 @@
 </right>
 
 <note>
-Physically, this is refraction. For a start, it is enough to picture the radio wave getting back to earth by way of the ionosphere.
+Physically, this is refraction. At this stage, it is enough to picture the radio wave getting back to earth by way of the ionosphere.
 </note>
 
 ---

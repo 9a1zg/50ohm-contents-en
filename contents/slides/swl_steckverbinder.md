@@ -80,10 +80,10 @@ Point out explicitly that the SMA photo is greatly enlarged.
 ### Connecting safely
 
 * The plug and socket must belong to the same series
-* Do not force connectors in at an angle or tighten them by force
+* Do not insert connectors at an angle or tighten them by force
 * SMA connectors are particularly small and delicate
 * Good screening and low losses remain important for reception too
 
 <note>
-The permitted transmit power of a connector does not matter for a receive-only station. The frequency range, the mechanical fit and the quality of the connection remain important.
+The permitted transmit power of a connector is not a deciding factor for a receive-only station. The frequency range, the mechanical fit and the quality of the connection remain important.
 </note>

@@ -23,7 +23,7 @@ Replace only with the same current rating and the same tripping characteristic.
 </fragment>
 
 <note>
-If a new fuse blows again, the cause must be found. A fuse with a higher rating can let leads and components overheat.
+If a new fuse blows again, the cause must be found. A fuse with a higher rating can allow leads and components to overheat.
 </note>
 
 ---

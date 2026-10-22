@@ -22,7 +22,7 @@ For the DE examination, you must be able to recognise four series by their shape
 [question:NG205]
 
 <attention>
-Never force connectors in at an angle or tighten them by force. SMA plugs are small and mechanically delicate. Before connecting, make sure the plug and socket belong to the same series.
+Never insert connectors at an angle or tighten them by force. SMA plugs are small and mechanically delicate. Before connecting, make sure the plug and socket belong to the same series.
 </attention>
 
-For receive-only installations, the permitted transmit power of a connector does not matter. Good screening, low losses and a connector that suits the frequency range are still important.
+For receive-only installations, the permitted transmit power of a connector is not a deciding factor. Good screening, low losses and a connector that suits the frequency range are still important.
