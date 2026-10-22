@@ -1,74 +1,74 @@
-Um den Sicherheitsabstand zu Berechnen gibt es eine Näherungsformel. Wir finden Sie in der Formelsammlung: 
+There is an approximation formula for calculating the safety distance. We find it on the formula sheet: 
 
 $ E = \frac{\sqrt{\qty{30}{\ohm}\cdot P_\text{EIRP}}}{d} $
 
-Diese kann man schnell zum Sicherheitsabstand $d$ umstellen: 
+It can quickly be rearranged for the safety distance $d$: 
 
 $ d = \frac{\sqrt{\qty{30}{\ohm}\cdot P_\text{EIRP}}}{E} $
 
-Die Formelsammlung hat noch einen Hinweis, dass die obige Formel erst für Berechnungen im Fernfeld (bzw. strahlenden Nahfeld) ab $ d > \frac{\lambda}{2\pi} $ gilt. Warum das so ist, werden wir in der Klasse A genauer besprechen. Für die Berechnung des Sicherheitsabstandes ist es aber wichtig, dass wir uns im Fernfeld (bzw. strahlenden Nahfeld) befinden und diese Bedingung erfüllt ist.
+The formula sheet also notes that the formula above only applies to calculations in the far field (or radiating near field), from $ d > \frac{\lambda}{2\pi} $. We will discuss why this is so in more detail in Class A. For calculating the safety distance, however, it is important that we are in the far field (or radiating near field) and that this condition is met.
 
 <indepth>
-Das Fernfeld einer Strahlungsquelle, ist der Bereich, in dem die Vektoren der elektrischen Feldstärke ($E$), der magnetischen Feldstärke ($H$) senkrecht aufeinander stehen und keine Phasendifferenzen aufweisen. 
+The far field of a radiation source is the region in which the vectors of the electric field strength ($E$) and the magnetic field strength ($H$) are perpendicular to each other and show no phase difference. 
 
-Die Grenze zwischen Fernfeld und Nahfeld ist in erster Linie abhängig von der Wellenlänge. Das Fernfeld bildet sich, laut den [Erläuterungen zur BEMFV](https://50ohm.de/ebemfv), in einem Abstand von etwa $4\cdot\lambda$ aus. 
+The boundary between the far field and the near field depends primarily on the wavelength. According to the [Explanations of the BEMFV](https://50ohm.de/ebemfv), the far field forms at a distance of about $4\cdot\lambda$. 
 
-Das Nahfeld unterteilt sich in das *reaktive* und das *strahlende Nahfeld*. Praktisch ist, dass im strahlenden Nahfeld trotzdem die Formel für das Fernfeld verwendet werden kann. Das liegt daran, dass die Näherungsformel hier sehr konservative Abschätzungen liefert, das heißt die tatsächlichen Feldstärken sind geringer als die errechneten. Man ist auf der sicheren Seite. 
+The near field is divided into the *reactive* and the *radiating near field*. Conveniently, the formula for the far field can nevertheless be used in the radiating near field. This is because the approximation formula gives very conservative estimates there, that is, the actual field strengths are lower than the calculated ones. You are on the safe side. 
   
-Mit der Formel $ d > \frac{\lambda}{2\pi} $ stellen wir also sicher, dass wir außerhalb des *reaktiven Nahfelds* sind.
+With the formula $ d > \frac{\lambda}{2\pi} $ we therefore make sure that we are outside the *reactive near field*.
 </indepth>
 
 %TODO Applet basteln: https://www.leifiphysik.de/elektrizitaetslehre/elektromagnetische-wellen/versuche/dipolstrahlung-animation
 
-Auf diesen Sachverhalt zielt die folgende Frage ab:
+The following question addresses exactly this point:
 
 [question:EK105]
 
-Für $\qty{3,5}{\mega\hertz}$ beginnt das Fernfeld (strahlendes Nahfeld) erst bei $\qty{13,64}{\meter}$.
+For $\qty{3.5}{\mega\hertz}$ the far field (radiating near field) only begins at $\qty{13.64}{\meter}$.
 
- $\begin{split} d &> \frac{\lambda}{2 \cdot \pi}\\ d &> \frac{\qty{85,7}{\meter}}{2 \cdot \pi}\\ d &> \qty{13,64}{\meter}\end{split}$
+ $\begin{split} d &> \frac{\lambda}{2 \cdot \pi}\\ d &> \frac{\qty{85.7}{\meter}}{2 \cdot \pi}\\ d &> \qty{13.64}{\meter}\end{split}$
  
-Der mit $\qty{3,65}{\meter}$ ermittelte Abstand liegt deutlich im reaktiven Nahfeld und ist deshalb ungültig. Statt der Näherungsformel für das Fernfeld muss eine andere Methode gewählt werden. In Frage kommen Messungen der E- und H-Feldanteile, Simulations- oder Nahfeldberechnungen.
+The distance of $\qty{3.65}{\meter}$ that was determined lies well inside the reactive near field and is therefore invalid. Instead of the far-field approximation formula, another method must be chosen. Possible methods are measurements of the E- and H-field components, simulations or near-field calculations.
 
-Damit die folgende Frage beantwortet werden kann, muss berechnet werden wo das Fernfeld (strahlendes Nahfeld) für das $\qty{160}{\meter}$- und $\qty{80}{\meter}$-Band beginnt.
+To answer the following question, you have to calculate where the far field (radiating near field) begins for the $\qty{160}{\meter}$ and $\qty{80}{\meter}$ bands.
 
 [question:EK106]
 
-Für $\qty{160}{\meter}$ gilt: $d > \frac{\qty{160}{\meter}}{2\pi} = \qty{25,5}{\meter}$
+For $\qty{160}{\meter}$: $d > \frac{\qty{160}{\meter}}{2\pi} = \qty{25.5}{\meter}$
  
-Für $\qty{80}{\meter}$ gilt: $d > \frac{\qty{80}{\meter}}{2\pi} = \qty{12,7}{\meter}$
+For $\qty{80}{\meter}$: $d > \frac{\qty{80}{\meter}}{2\pi} = \qty{12.7}{\meter}$
 
-Die Berechnung ist ungültig, wenn die Entfernung für $\qty{160}{\meter}$ kleiner als $\qty{25,5}{\meter}$ und für $\qty{80}{\meter}$ kleiner als $\qty{12,7}{\meter}$ ist.
+The calculation is invalid if the distance is less than $\qty{25.5}{\meter}$ for $\qty{160}{\meter}$ and less than $\qty{12.7}{\meter}$ for $\qty{80}{\meter}$.
 
 %%%%
 
-In der folgenden Frage muss nun erstmals ein richtiger Sicherheitsabstand berechnet werden. 
+In the following question, a real safety distance now has to be calculated for the first time. 
 
 [question:EK108]
 
-Zunächst müssen wir die Strahlungsleistung in $P_\textrm{EIRP}$ berechnen. Außerdem fällt uns auf, dass der Antennengewinn in $\unit{\dBd}$ angegeben ist. Hierzu nutzen wir wieder die Formel aus der Formelsammlung:
+First we have to calculate the radiated power as $P_\textrm{EIRP}$. We also notice that the antenna gain is given in $\unit{\dBd}$. For this we again use the formula from the formula sheet:
 
-$P_\text{EIRP} = P_\text{Sender} \cdot 10^{\frac{g_d-a+\qty{2,15}{\dB}}{\qty{10}{\dB}}} = \qty{100}{\watt} \cdot 10^{\frac{\qty{7,5}{\dBd}-\qty{1,5}{\dB}+\qty{2,15}{\dB}}{\qty{10}{\dB}}} \approx \qty{653}{\watt}$
+$P_\text{EIRP} = P_\text{Sender} \cdot 10^{\frac{g_d-a+\qty{2.15}{\dB}}{\qty{10}{\dB}}} = \qty{100}{\watt} \cdot 10^{\frac{\qty{7.5}{\dBd}-\qty{1.5}{\dB}+\qty{2.15}{\dB}}{\qty{10}{\dB}}} \approx \qty{653}{\watt}$
 
-Die Summe der Gewinne und Dämpfungen des gesamten Antennensystems ist der Antennengewinn von $\qty{7,5}{\dBd}$, abzüglich der Kabeldämpfung von $\qty{1,5}{\dB}$ und plus der Gewinn von $\qty{2,15}{\dBi}$ für den isotropen Strahler (der Antennengewinn bezieht sich auf den Dipol).
+The sum of the gains and losses of the whole antenna system is the antenna gain of $\qty{7.5}{\dBd}$, minus the cable loss of $\qty{1.5}{\dB}$, plus the gain of $\qty{2.15}{\dBi}$ for referring it to the isotropic radiator (the antenna gain is relative to the dipole).
 
-Alternativ können wir, wie schon in den vorherigen Kapiteln, für die Gewinne und die Dämpfung die jeweiligen Faktoren ermittelt werden.
-$\qty{7,5}{\dB} - \qty{1,5}{dB} = \qty{6}{\dB}$, das entspricht einem Faktor von $\num{4}$. Der Faktor für $\qty{2,15}{\dBi}$ ist $\num{1,64}$.
+Alternatively, as in the previous chapters, we can determine the corresponding factors for the gains and the loss.
+$\qty{7.5}{\dB} - \qty{1.5}{dB} = \qty{6}{\dB}$, which corresponds to a factor of $\num{4}$. The factor for $\qty{2.15}{\dBi}$ is $\num{1.64}$.
 
-$P_\textrm{EIRP} = \qty{100}{\watt} \cdot 4 \cdot 1,64 = \qty{656}{\watt}$
+$P_\textrm{EIRP} = \qty{100}{\watt} \cdot 4 \cdot 1.64 = \qty{656}{\watt}$
 
 ---
 
-Die Ergebnisse der beiden Rechenwege sollten eigentlich gleich sein. Sie weichen aber etwas voneinander ab. Das ist das Ergebnis von Rundungen bei den beiden Faktoren. Die gerundet berechnete Leistung ist aber ausreichend genau, um die Frage korrekt zu lösen. Wir setzen also diesen Wert in die Abstandsformel ein:
+The results of the two methods should really be the same. They differ slightly, however. This is the result of rounding the two factors. The power calculated with the rounded factors is nevertheless accurate enough to answer the question correctly. So we put this value into the distance formula:
 
 $ d = \frac{\sqrt{\qty{30}{\ohm}\cdot P_\text{EIRP}}}{E} = \frac{\sqrt{\qty{30}{\ohm}\cdot \qty{656}{\watt}}}{\qty{28}{\volt\per\meter}} \approx \qty{5}{\meter}  $
 
-Der Sicherheitsabstand von $\qty{5}{\meter}$ wurde mit der Formel für das Fernfeld ermittelt. Deshalb ist er nur dann gültig, wenn der er auch im Fernfeld (bzw. strahlenden Nahfeld) liegt. Das wie oben schnell geprüft werden.
+The safety distance of $\qty{5}{\meter}$ was determined with the formula for the far field. It is therefore only valid if it also lies in the far field (or radiating near field). This can be checked quickly, as above.
 
-$\begin{split} d &> \frac{\lambda}{2\pi}\\ d &> \frac{\qty{10}{\meter}}{2\pi}\\ d &> \qty{1,6}{\meter} \end{split}$
+$\begin{split} d &> \frac{\lambda}{2\pi}\\ d &> \frac{\qty{10}{\meter}}{2\pi}\\ d &> \qty{1.6}{\meter} \end{split}$
 
-Der berechnete Sicherheitsabstand von $\qty{5}{\meter}$ ist größer als $\qty{1,6}{\meter}$ und liegt eindeutig im Fernfeld (bzw. strahlenden Nahfeld). Die Berechnung ist damit gültig. Die richtige Antwort ist $\qty{5}{\meter}$.
+The calculated safety distance of $\qty{5}{\meter}$ is greater than $\qty{1.6}{\meter}$ and clearly lies in the far field (or radiating near field). The calculation is therefore valid. The correct answer is $\qty{5}{\meter}$.
 
 <indepth>
-In der Tabelle steht für $\qty{6}{\dB}$ ein Faktor von $\num{4}$. Das ist ein gerundeter Wert und beträgt eigentlich $\num{3,981071706}$. Deshalb kommt es zum Rundungsfehler.
+The table gives a factor of $\num{4}$ for $\qty{6}{\dB}$. This is a rounded value; the exact value is $\num{3.981071706}$. That is where the rounding error comes from.
 </indepth>

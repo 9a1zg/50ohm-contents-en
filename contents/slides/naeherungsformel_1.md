@@ -1,19 +1,19 @@
-## Näherungsformel für Feldstärke
+## Approximation formula for field strength
 <left>
-* Berechnung der elektrischen Feldstärke
-* Im Abstand zu einem Strahler
-* Bei gegebener Leistung und Gewinn
-* Gilt nur im Freiraum <br/> ($d > \frac{\lambda}{2\pi}$)
+* Calculating the electric field strength
+* At a distance from a radiator
+* For a given power and gain
+* Only valid in free space <br/> ($d > \frac{\lambda}{2\pi}$)
 </left>
 <right>
 $\begin{split} E &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_A \cdot G_i}}{d}\\ &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_{\textrm{EIRP}}}}{d} \end{split}$
 </right>
 
 ---
-## Näherungsformel für Abstand
+## Approximation formula for distance
 <left>
-* Bei gegebener Feldstärke
-* Umstellen nach $d$
+* For a given field strength
+* Rearrange for $d$
 </left>
 <right>
 $\begin{split} d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_A \cdot G_i}}{E}\\ &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_{\textrm{EIRP}}}}{E} \end{split}$
@@ -22,21 +22,21 @@ $\begin{split} d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_A \cdot G_i}}{E}\\ &= \d
 ---
 [question:EK108]
 ---
-### Lösungsweg
+### Solution
 <left>
-* gegeben: $E = \qty{28}{\volt\per\meter}$
-* gegeben: $g_d = \qty{7,5}{\dBd}$
-* gegeben: $P_S = \qty{100}{\watt}$
+* given: $E = \qty{28}{\volt\per\meter}$
+* given: $g_d = \qty{7.5}{\dBd}$
+* given: $P_S = \qty{100}{\watt}$
 </left>
 <right>
-* gegeben: $a_{\textrm{Kabel}} = \qty{1,5}{\dB}$
-* gesucht: $P_{\textrm{EIRP}}$
-* gesucht: $d$
+* given: $a_{\textrm{Kabel}} = \qty{1.5}{\dB}$
+* required: $P_{\textrm{EIRP}}$
+* required: $d$
 </right>
 
 <left>
 <fragment>
-$\begin{split} P_{\textrm{EIRP}} &= P_S \cdot 10^{\frac{g_d - a + \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ &= \qty{100}{\watt} \cdot 10^{\frac{\qty{7,5}{\dBd} - \qty{1,5}{\dB} + \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ &\approx \qty{100}{\watt} \cdot 6,5\\ &= \qty{650}{\watt} \end{split}$
+$\begin{split} P_{\textrm{EIRP}} &= P_S \cdot 10^{\frac{g_d - a + \qty{2.15}{\dB}}{\qty{10}{\dB}}}\\ &= \qty{100}{\watt} \cdot 10^{\frac{\qty{7.5}{\dBd} - \qty{1.5}{\dB} + \qty{2.15}{\dB}}{\qty{10}{\dB}}}\\ &\approx \qty{100}{\watt} \cdot 6.5\\ &= \qty{650}{\watt} \end{split}$
 </fragment>
 </left>
 <right>
@@ -46,28 +46,28 @@ $\begin{split} d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_{\textrm{EIRP}}}}{E}\\ &
 </right>
 
 ---
-### Bonusfrage
+### Bonus question
 
-Liegen die errechneten $\qty{5}{\meter}$ nicht im Nahfeld für das $\qty{10}{\meter}$-Band aus der Frage?
+Is the calculated $\qty{5}{\meter}$ not in the near field for the $\qty{10}{\meter}$ band in the question?
 
 <fragment>
-$\begin{split} d &> \frac{\lambda}{2\pi}\\ \qty{5}{\meter} &> \frac{\qty{10}{\meter}}{2\pi}\\ \qty{5}{\meter} &\gtrapprox \qty{1,6}{\meter} \end{split}$
+$\begin{split} d &> \frac{\lambda}{2\pi}\\ \qty{5}{\meter} &> \frac{\qty{10}{\meter}}{2\pi}\\ \qty{5}{\meter} &\gtrapprox \qty{1.6}{\meter} \end{split}$
 </fragment>
 
 ---
 [question:EK106]
 ---
-### Lösung
+### Solution
 
-* Personenschutz-Sicherheitsabstand gilt nur im Freiraum
+* The safety distance for the protection of persons is only valid in free space
 * $d > \frac{\lambda}{2\pi}$
-* $\qty{160}{\meter}$-Band: $\qty{25,5}{\meter}$
-* $\qty{80}{\meter}$-Band: $\qty{12,7}{\meter}$
+* $\qty{160}{\meter}$ band: $\qty{25.5}{\meter}$
+* $\qty{80}{\meter}$ band: $\qty{12.7}{\meter}$
 
 ---
 [question:EK105]
 
 <note>
-Liegt im Nahfeld, was wir vorher ausgerechnet haben
+It lies in the near field, as we calculated before
 </note>
 

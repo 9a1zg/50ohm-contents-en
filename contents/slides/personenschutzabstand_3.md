@@ -1,32 +1,32 @@
-## Feldwellenwiderstand und Feldstärken
-* Feldwellenwiderstand im Vakuum:
+## Wave impedance and field strengths
+* Wave impedance in a vacuum:
 * $Z_{F0} = \sqrt{\dfrac{\mu_0}{\varepsilon_0}}$
-* $\mu_0$ ist die magnetische Feldkonstante, $\varepsilon_0$ die elektrische Feldkonstante  
-* Magnetische Feldstärke wird über $\mu_0$, magnetische Flussdichte und Magnetisierung berechnet  
+* $\mu_0$ is the magnetic constant, $\varepsilon_0$ the electric constant  
+* The magnetic field strength is calculated from $\mu_0$, the magnetic flux density and the magnetisation  
 
 ---
 
-* In einem Medium (z. B. Luft) gilt:
+* In a medium (e.g. air):
 * $Z_{F} = \sqrt{\dfrac{\mu}{\varepsilon}}$
-* Elektrische und magnetische Feldstärke hängen vom Wellenwiderstand des Mediums ab
+* The electric and magnetic field strengths depend on the wave impedance of the medium
 
 ---
 [question:AK102]
 
 ---
-### Leistung am Einspeisepunkt der Antenne
+### Power at the feed point of the antenna
 
-* Antenneneingangsleistung ergibt sich aus der Sendeleistung abzüglich der Kabeldämpfung  
-* Kabelverluste werden als Dämpfungsfaktor (z. B. $\qty{10}{\dB}$ → $\num{0,1}$) berücksichtigt  
-* Formel: $P_{Ant} = D \cdot P_{Sender}$
+* The power at the antenna input is the transmitter power minus the cable loss  
+* Cable losses are taken into account as an attenuation factor (e.g. $\qty{10}{\dB}$ → $\num{0.1}$)  
+* Formula: $P_{Ant} = D \cdot P_{Sender}$
 
 ---
 [question:AK104]
 
 ---
-## Maximale Sendeleistung gemäß BEMFV
+## Maximum transmit power under the BEMFV
 
-* Sicherheitsabstand muss im Fernfeld liegen:  
+* The safety distance must lie in the far field:  
 
 <fragment>
 $d > \dfrac{\lambda}{2\pi}$  
@@ -37,14 +37,14 @@ $d > \dfrac{\lambda}{2\pi}$
 [question:AK107]
 
 --- style="font-size: smaller;"
-#### Lösungsweg
+#### Solution
 <left>
-* gegeben: $g_d = \qty{6}{\dBd}$
-* gegeben: $E = \qty{28}{\volt\per\meter}$
+* given: $g_d = \qty{6}{\dBd}$
+* given: $E = \qty{28}{\volt\per\meter}$
 </left>
 <right>
-* gegeben: $d = \qty{5}{\meter}$
-* gesucht: $P_S$
+* given: $d = \qty{5}{\meter}$
+* required: $P_S$
 </right>
 
 <fragment>
@@ -54,7 +54,7 @@ $\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ \Rightarrow 
 </fragment>
 <fragment>
 <right>
-$\begin{split}P_{EIRP} &= P_S \cdot 10^{\frac{g_d - a + 2,15dB}{\qty{10}{\dB}}}\\ \Rightarrow P_S &= \frac{P_{EIRP}}{10^{\frac{g_d - a + 2,15dB}{\qty{10}{\dB}}}}\\ &= \frac{\qty{653}{\watt}}{10^{\frac{\qty{6}{\dBd} - \qty{0}{\dB} + 2,15dB}{\qty{10}{\dB}}}}\\ &\approx \frac{\qty{653}{\watt}}{6,53}\\ &= \qty{100}{\watt}\end{split}$
+$\begin{split}P_{EIRP} &= P_S \cdot 10^{\frac{g_d - a + 2.15dB}{\qty{10}{\dB}}}\\ \Rightarrow P_S &= \frac{P_{EIRP}}{10^{\frac{g_d - a + 2.15dB}{\qty{10}{\dB}}}}\\ &= \frac{\qty{653}{\watt}}{10^{\frac{\qty{6}{\dBd} - \qty{0}{\dB} + 2.15dB}{\qty{10}{\dB}}}}\\ &\approx \frac{\qty{653}{\watt}}{6.53}\\ &= \qty{100}{\watt}\end{split}$
 </right>
 </fragment>
 
@@ -63,24 +63,24 @@ $\begin{split}P_{EIRP} &= P_S \cdot 10^{\frac{g_d - a + 2,15dB}{\qty{10}{\dB}}}\
 [question:AK113]
 
 --- style="font-size: smaller;"
-#### Lösungsweg
+#### Solution
 <left>
-* gegeben: $g_i = \qty{12,15}{\dBi}$
-* gegeben: $P_A = \qty{250}{\watt}$
+* given: $g_i = \qty{12.15}{\dBi}$
+* given: $P_A = \qty{250}{\watt}$
 </left>
 <right>
-* gegeben: $d = \qty{30}{\meter}$
-* gesucht: $E$
+* given: $d = \qty{30}{\meter}$
+* required: $E$
 </right>
 
 <fragment>
 <left>
-$\begin{split}G_i &= 10^{\frac{g_i}{\qty{10}{\dB}}}\\ &= 10^{\frac{\qty{12,15}{\dBi}}{\qty{10}{\dB}}}\\ &\approx 16,4\end{split}$
+$\begin{split}G_i &= 10^{\frac{g_i}{\qty{10}{\dB}}}\\ &= 10^{\frac{\qty{12.15}{\dBi}}{\qty{10}{\dB}}}\\ &\approx 16.4\end{split}$
 </left>
 </fragment>
 <fragment>
 <right>
-$\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_A \cdot G_i}}{d}\\ &= \frac{\sqrt{\qty{30}{\ohm} \cdot \qty{250}{\watt} \cdot 16,4}}{\qty{30}{\meter}}\\ &\approx \frac{\qty{350}{\volt}}{\qty{30}{\meter}}\\ &\approx \qty{11,7}{\volt\per\meter}\end{split}$
+$\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_A \cdot G_i}}{d}\\ &= \frac{\sqrt{\qty{30}{\ohm} \cdot \qty{250}{\watt} \cdot 16.4}}{\qty{30}{\meter}}\\ &\approx \frac{\qty{350}{\volt}}{\qty{30}{\meter}}\\ &\approx \qty{11.7}{\volt\per\meter}\end{split}$
 </right>
 </fragment>
 
@@ -89,19 +89,19 @@ $\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_A \cdot G_i}}{d}\\ &= \fra
 [question:AK114]
 
 --- style="font-size: smaller;"
-#### Lösungsweg
-* gegeben: $P_{ERP} = \qty{100}{\watt}$
-* gegeben: $d = \qty{100}{\meter}$
-* gesucht: $E$
+#### Solution
+* given: $P_{ERP} = \qty{100}{\watt}$
+* given: $d = \qty{100}{\meter}$
+* required: $E$
 
 <fragment>
 <left>
-$\begin{split}P_{EIRP} &= P_{ERP} \cdot 1,64\\ &= \qty{100}{\watt} \cdot 1,64\\ &= \qty{164}{\watt}\end{split}$
+$\begin{split}P_{EIRP} &= P_{ERP} \cdot 1.64\\ &= \qty{100}{\watt} \cdot 1.64\\ &= \qty{164}{\watt}\end{split}$
 </left>
 </fragment>
 <fragment>
 <right>
-$\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ &= \frac{\sqrt{\qty{30}{\ohm} \cdot \qty{164}{\watt}}}{\qty{100}{\meter}}\\ &\approx \qty{0,7}{\volt\per\meter}\end{split}$
+$\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ &= \frac{\sqrt{\qty{30}{\ohm} \cdot \qty{164}{\watt}}}{\qty{100}{\meter}}\\ &\approx \qty{0.7}{\volt\per\meter}\end{split}$
 </right>
 </fragment>
 
@@ -110,18 +110,18 @@ $\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ &= \frac{\sq
 [question:AK115]
 
 --- style="font-size: smaller;"
-#### Lösungsweg
-* gegeben: $P_{ERP} = \qty{100}{\watt}$
-* gegeben: $d = \qty{100}{\meter}$
-* gesucht: $E$
+#### Solution
+* given: $P_{ERP} = \qty{100}{\watt}$
+* given: $d = \qty{100}{\meter}$
+* required: $E$
 
 <fragment>
 <left>
-$\begin{split}P_{EIRP} &= P_{ERP} \cdot 1,64\\ &= \qty{100}{\watt} \cdot 1,64\\ &= \qty{164}{\watt}\end{split}$
+$\begin{split}P_{EIRP} &= P_{ERP} \cdot 1.64\\ &= \qty{100}{\watt} \cdot 1.64\\ &= \qty{164}{\watt}\end{split}$
 </left>
 </fragment>
 <fragment>
 <right>
-$\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ &= \frac{\sqrt{\qty{30}{\ohm} \cdot \qty{164}{\watt}}}{\qty{100}{\meter}}\\ &\approx \qty{0,7}{\volt\per\meter}\end{split}$
+$\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ &= \frac{\sqrt{\qty{30}{\ohm} \cdot \qty{164}{\watt}}}{\qty{100}{\meter}}\\ &\approx \qty{0.7}{\volt\per\meter}\end{split}$
 </right>
 </fragment>

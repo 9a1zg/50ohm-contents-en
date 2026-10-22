@@ -1,35 +1,35 @@
-In der Klasse E haben wir bereits eine Näherungsformel kennengelernt, mit der sich der Sicherheitsabstand zu einer Antenne berechnen lässt:
+In Class E we have already met an approximation formula with which the safety distance from an antenna can be calculated:
 
 $d = \frac{\sqrt{\qty{30}{\ohm}\cdot P_{\textrm{EIRP}}}}{E}$
 
-Diese Formel kann für viele Antennenformen angewendet werden, wenn die Bedingung
+This formula can be applied to many types of antenna if the condition
 
 $d > \frac{\lambda}{2\pi}$
 
-erfüllt ist, wir uns also außerhalb des reaktiven Nahfelds befinden. Im Folgenden betrachten wir, woher diese Einschränkung und der in der Formel auftretende Wert von $\qty{30}{\ohm}$ stammen.
+is met, that is, if we are outside the reactive near field. Below we look at where this restriction and the value of $\qty{30}{\ohm}$ that appears in the formula come from.
 
-In allgemeiner Form lautet die Näherungsformel:
+In general form, the approximation formula is:
 
 $d = \frac{\sqrt{\frac{Z_0}{4\pi}\cdot P_{\textrm{EIRP}}}}{E}$
 
-Dabei bezeichnet $Z_0$ den Feldwellenwiderstand des freien Raums. Wie wir im vorherigen Kapitel gesehen haben, nähert sich dieser mit zunehmendem Abstand von der Antenne dem Fernfeldwert
+Here $Z_0$ denotes the impedance of free space. As we saw in the previous chapter, with increasing distance from the antenna it approaches the far-field value
 
 $Z_0 \approx \qty{120\pi}{\ohm} \approx \qty{377}{\ohm}$
 
-an (vgl. Abbildung [ref:a_feldwellenwiderstand]). Setzen wir diesen Wert in den Ausdruck $\frac{Z_0}{4\pi}$ ein, erhalten wir:
+(see Figure [ref:a_feldwellenwiderstand]). If we put this value into the expression $\frac{Z_0}{4\pi}$, we get:
 
 $\frac{Z_0}{4\pi} \approx \frac{\qty{120\pi}{\ohm}}{4\pi} = \qty{30}{\ohm}$
 
-Damit ergibt sich die aus der Klasse E bekannte Näherungsformel. Gleichzeitig wird deutlich, weshalb sie nicht im reaktiven Nahfeld verwendet werden darf: Dort ist der Feldwellenwiderstand nicht konstant, sondern hängt stark vom Abstand, von der Antennenform und von der betrachteten Richtung ab. Für Berechnungen im reaktiven Nahfeld, also für Abstände $d \le \frac{\lambda}{2\pi}$, sind daher in der Regel ausführlichere Rechnungen, numerische Simulationen oder Messungen erforderlich. 
+This gives the approximation formula known from Class E. At the same time it becomes clear why it must not be used in the reactive near field: there the wave impedance is not constant but depends strongly on the distance, on the form of the antenna and on the direction considered. For calculations in the reactive near field, i.e. for distances $d \le \frac{\lambda}{2\pi}$, more detailed calculations, numerical simulations or measurements are therefore generally required. 
 
 <margin>
-[picture:1116:a_feldwellenwiderstand:Verlauf des Feldwellenwiderstands über die Bereiche Nahfeld und Fernfeld (logarithmisch).]
+[picture:1116:a_feldwellenwiderstand:Variation of the wave impedance across the near-field and far-field regions (logarithmic).]
 </margin>
 
-Wird die Fernfeld-Näherungsformel bei einer Dipolantenne bereits im strahlenden Nahfeld angewendet, ergibt sich in der Regel ein größerer Sicherheitsabstand als tatsächlich erforderlich. Der Feldwellenwiderstand liegt dort unterhalb von $\qty{377}{\ohm}$, während die Näherungsformel mit dem höheren Fernfeldwert rechnet. Das Ergebnis ist daher konservativ und liegt auf der sicheren Seite. Diese Vorgehensweise wird von der Bundesnetzagentur akzeptiert.
+If the far-field approximation formula is applied to a dipole antenna already in the radiating near field, it generally gives a larger safety distance than is actually required. The wave impedance there is below $\qty{377}{\ohm}$, while the approximation formula works with the higher far-field value. The result is therefore conservative and on the safe side. This approach is accepted by the Federal Network Agency (Bundesnetzagentur, BNetzA).
 
-Für magnetische Antennen und elektrisch sehr kurze Antennen gilt dies jedoch nicht. Abbildung [ref:a_feldwellenwiderstand] zeigt beispielsweise, dass der Feldwellenwiderstand einer magnetischen Loop-Antenne im strahlenden Nahfeld deutlich über $\qty{377}{\ohm}$ liegen kann. Die Fernfeld-Näherungsformel würde in diesem Fall einen zu kleinen Sicherheitsabstand ergeben. Deshalb müssen für solche Antennen andere Verfahren eingesetzt werden, beispielsweise spezielle Programme zur Nahfeldberechnung (Simulationen) oder Messungen.
+This does not apply, however, to magnetic antennas and electrically very short antennas. Figure [ref:a_feldwellenwiderstand], for example, shows that the wave impedance of a magnetic loop antenna in the radiating near field can be well above $\qty{377}{\ohm}$. In that case the far-field approximation formula would give a safety distance that is too small. For such antennas, other procedures must therefore be used, for example special programs for near-field calculation (simulations) or measurements.
 
 [question:AK103]
 
-Für die Berechnung der Personenschutzabstände kann im Fernfeld die bekannte Näherungsformel verwendet werden. Dadurch lassen sich aufwendige Messungen oder Simulationen häufig vermeiden. Besonders im Portabelbetrieb ermöglicht sie eine schnelle überschlägliche Abschätzung des erforderlichen Sicherheitsabstands.
+In the far field, the familiar approximation formula can be used to calculate the safety distances for the protection of persons. This often avoids elaborate measurements or simulations. In portable operation in particular, it allows a quick rough estimate of the required safety distance.

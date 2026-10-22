@@ -1,22 +1,22 @@
-## Winkeldämpfung bei Richtantennen
+## Off-axis attenuation with directional antennas
 <left>
-[picture:950:a_richtantenne_personenschutz:In einem Winkel von $\qty{40}{\degree}$ unterhalb der Achse der Hauptstrahlungskeule ist die Strahlungsleistung $\qty{6}{\dB}$ geringer als bei dem Winkel $\qty{0}{\degree}$.]
+[picture:950:a_richtantenne_personenschutz:At an angle of $\qty{40}{\degree}$ below the axis of the main lobe, the radiated power is $\qty{6}{\dB}$ lower than at an angle of $\qty{0}{\degree}$.]
 </left>
 <right>
-* In der Mitte der Strahlungskeule wird die maximale Leistung abgestrahlt; in anderen Richtungen (z. B. $\qty{40}{\degree}$ unterhalb) ist sie um $\qty{6}{\dB}$ (Faktor $\num{0,25}$) geringer  
+* The maximum power is radiated in the centre of the radiation lobe; in other directions (e.g. $\qty{40}{\degree}$ below) it is $\qty{6}{\dB}$ (factor $\num{0.25}$) lower  
 </right>
 ---
-* Wird nur ein Viertel der maximalen Strahlungsleistung angesetzt, so reduziert sich der Sicherheitsabstand um den Faktor $ \sqrt{1/4}=1/2 $  
-* Formel: $ E=\dfrac{\sqrt{\qty{30}{\ohm} \cdot P_\textrm{EIRP}}}{d} $ umgestellt zu $ d=\dfrac{\sqrt{\qty{30}{\ohm} \cdot P_\textrm{EIRP}}}{E} $  
-* Beispiel: Ein Sicherheitsabstand von $\qty{20}{\meter}$ verringert sich auf $\qty{10}{\meter}$ bei 1/4 der Strahlungsleistung
+* If only a quarter of the maximum radiated power is assumed, the safety distance is reduced by the factor $ \sqrt{1/4}=1/2 $  
+* Formula: $ E=\dfrac{\sqrt{\qty{30}{\ohm} \cdot P_\textrm{EIRP}}}{d} $ rearranged to $ d=\dfrac{\sqrt{\qty{30}{\ohm} \cdot P_\textrm{EIRP}}}{E} $  
+* Example: a safety distance of $\qty{20}{\meter}$ is reduced to $\qty{10}{\meter}$ at 1/4 of the radiated power
 
 ---
 [question:AK105]
 
 ---
-#### Lösungsweg
+#### Solution
 
-* Bei Sicherheitsabständen ist die dort befindliche elektrische Feldstärke $E$ in $\unit{\volt\per\meter}$ entscheidend.
-* An der zweiten Position liegt eine um $\qty{6}{\dB}$ geringere Spannung vor, also die halbe Spannung
-* Dadurch kann der Sicherheitsabstand um die Hälfte von $\qty{20}{\meter}$ auf $\qty{10}{\meter}$ verringert werden
+* For safety distances, what matters is the electric field strength $E$ at that point, in $\unit{\volt\per\meter}$.
+* At the second position the voltage is $\qty{6}{\dB}$ lower, i.e. half the voltage
+* The safety distance can therefore be halved, from $\qty{20}{\meter}$ to $\qty{10}{\meter}$
 

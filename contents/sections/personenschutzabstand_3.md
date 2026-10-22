@@ -1,6 +1,6 @@
-Bei der Anzeige einer ortsfesten Amateurfunkanlage können die erforderlichen Personenschutzabstände mit verschiedenen Verfahren ermittelt werden. Neben der oben beschriebenen Fernfeldberechnung sind auch Messungen und Simulationen zulässig. Die dafür üblichen Grenzwerte haben wir bereits in der Klasse E kennengelernt. 
+When a fixed amateur radio installation is notified, the required safety distances for the protection of persons can be determined by various procedures. Besides the far-field calculation described above, measurements and simulations are also permitted. We have already met the limits normally used for this in Class E. 
 
-Da sich Messungen und Simulationen in einer schriftlichen Prüfung nur schwer sinnvoll abfragen lassen, beschränken sich die folgenden Prüfungsfragen auf Berechnungen mit der Näherungsformel. Bei allen Aufgaben ist die dafür erforderliche Bedingung $d > \frac{\lambda}{2\pi}$ erfüllt. Die Überprüfung dieser Bedingung wurde bereits in den Fragen der Klasse E behandelt. Versuche nun, die folgenden Aufgaben mithilfe der Näherungsformel aus dem vorherigen Kapitel zu lösen.
+Since measurements and simulations are hard to test meaningfully in a written examination, the following examination questions are limited to calculations with the approximation formula. In all the problems, the condition $d > \frac{\lambda}{2\pi}$ required for it is met. Checking this condition has already been covered in the Class E questions. Now try to solve the following problems using the approximation formula from the previous chapter.
 
 ---
 
@@ -12,19 +12,19 @@ Da sich Messungen und Simulationen in einer schriftlichen Prüfung nur schwer si
 [question:AK112]
 
 <indepth>
-Warum wird in den Fragen in diesem Abschnitt auf Modulationsverfahren RTTY und FM hingewiesen?
-Bei der Anzeige einer ortsfesten Amateurfunkanlage (nach § 9, BEMFV) ist bei der Konfiguration der Umrechnungsfaktor $\textrm{Faktor}_\textrm{FmodPers}$ einzutragen.
+Why do the questions in this section mention the modulation methods RTTY and FM?
+When a fixed amateur radio installation is notified (under Section 9 BEMFV), the conversion factor $\textrm{Faktor}_\textrm{FmodPers}$ has to be entered in the configuration.
 
-Mit dem Faktor wird die angegebene Spitzenleistung (PEP) in die mittlere Leistung $P$ umgerechnet. Die so korrigierte Leistung kann in die Fernfeldformel zur Berechnung des Personenschutzabstands eingesetzt werden. 
+The factor converts the stated peak envelope power (PEP) into the mean power $P$. The power corrected in this way can be put into the far-field formula for calculating the safety distance for the protection of persons. 
 
-RTTY und FM haben den Faktor $\num{1}$, so wie die meisten Modulationsverfahren.
+RTTY and FM have a factor of $\num{1}$, like most modulation methods.
 </indepth>
 
-In § 8 BEMFV ist u. a. festgelegt, dass der standortbezogene Sicherheitsabstand innerhalb des kontrollierbaren Bereichs liegen muss. Oft ist dieser Abstand durch die örtlichen Gegebenheiten festgelegt und kann nicht verändert werden. In diesen Fällen muss die maximale Sendeleistung angepasst werden.
+Section 8 BEMFV lays down, among other things, that the site-specific safety distance must lie within the controllable area. This distance is often fixed by the local conditions and cannot be changed. In such cases the maximum transmit power must be adjusted.
  
 [question:AK107]
 
-Bei den drei nächsten Fragen ist die Vorgehensweise mehr oder weniger gleich. Für die Berechnung der elektrischen Feldstärke wird Leistung am Speisepunkt der Antenne, der Gewinnfaktor und die Entfernung gebraucht.
+The method for the next three questions is more or less the same. To calculate the electric field strength, you need the power at the feed point of the antenna, the gain factor and the distance.
 
 [question:AK113]
 [question:AK114]

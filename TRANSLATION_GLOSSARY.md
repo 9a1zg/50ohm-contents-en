@@ -2613,6 +2613,18 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | kontrollierter Bereich (neben kontrollierbarer Bereich) | controlled area | written as the German writes it (personenschutzabstand_2); *kontrollierbarer Bereich* stays *controllable area* (§1.4) |
 | Anleitung zur Durchführung der Anzeige ortsfester Amateurfunkanlagen nach §9 der BEMFV / Erläuterung(en) der Bewertungsverfahren nach BEMFV | Instructions for notifying fixed amateur radio installations under Section 9 BEMFV / Explanation(s) of the assessment procedures under the BEMFV | BNetzA documents, in German only; as link text the English title alone, where a solution cites one as its source without a link the German title follows in brackets so that it can be found (AK103) (personenschutzabstand_2, nahfeld) |
 | Mobilfunknetz-Betreiber / Sendeanlage für das Mobilfunknetz | mobile network operator / transmitter for the mobile phone network | personenschutzabstand, standortbescheinigung |
+| Näherungsformel / Fernfeld-Näherungsformel / Fernfeldformel / Abstandsformel (Sicherheitsabstand) | approximation formula / far-field approximation formula / far-field formula / distance formula | as §1.4 *Näherungsformel für die Fernfeldberechnung* and EK105, EK106 (naeherungsformel_1, naeherungsformel_2, personenschutzabstand_3) |
+| Fernfeld (bzw. strahlendes Nahfeld) / Freiraum (Folien) | far field (or radiating near field) / free space | §14 *Nahfeld (reaktives / strahlendes)*; *Gilt nur im Freiraum* → "Only valid in free space" (naeherungsformel_1 slides) |
+| Erläuterungen zur BEMFV (Linktext) | Explanations of the BEMFV | link text, translated as written; the document's full title is the row *Erläuterung(en) der Bewertungsverfahren nach BEMFV* above (naeherungsformel_1) |
+| Umrechnungsfaktor $\textrm{Faktor}_\textrm{FmodPers}$ | conversion factor $\textrm{Faktor}_\textrm{FmodPers}$ | the symbol is the field name in the BEMFV notification, which the reader has to fill in, so it stays German like the formula subscripts (personenschutzabstand_3, naeherungsformel_2 slides) |
+| Strahlungskeule / Hauptstrahlungskeule / Winkeldämpfung | radiation lobe / main lobe / off-axis attenuation | with §9 *Hauptkeule* and §14 *Winkeldämpfung* (personenschutzabstand_richtantennen) |
+| Hilfsmittel der Bundesnetzagentur / Kapitel „Pegel" / „Strahlungsleistung und Gewinn" (Formelsammlung) | the Federal Network Agency's examination aids / the section "Levels" (*Pegel*) / "Radiated power and gain" (*Strahlungsleistung und Gewinn*) | formula-sheet section names as keywords, English with the German in brackets (DECISIONS.md) (AK105) |
+| Benötigte Formeln / Angaben aus der Aufgabenstellung / Lösungs(s)chritte / Interpretation / Umstellung der Formel (Lösungen) | Formulas needed / Data from the question / Solution steps / Interpretation / Rearranging the formula | headings of the worked solutions AK106–AK115 |
+| Teil 1 / Teil 2 des Lösungsansatzes / Einsetzen / Interpretation der Formel (Lösungen) | Approach, part 1 / Approach, part 2 / Substituting / Interpreting the formula | AK105 |
+| Leistungszusammenhang EIRP und ERP | relationship between EIRP and ERP | AK106–AK113 |
+| Bonusfrage (Folien) | Bonus question | naeherungsformel_1 slides |
+| Portabelbetrieb | portable operation | naeherungsformel_2 |
+| Feldwellenwiderstand im Vakuum / Wellenwiderstand des Mediums | wave impedance in a vacuum / wave impedance of the medium | AK102 (personenschutzabstand_3 slides) |
 
 ## 15. Catalogue structure
 
