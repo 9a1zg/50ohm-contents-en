@@ -101,3 +101,36 @@ including antenna wires.
 - slides/polarisation_2.md — "Breitet sich das E-Feld horizontal aus, wird von horizontaler Polarisation gesprochen" (and vertical, circular): what counts is the *orientation* of the E-field vector, as the section and EG222 say, not the direction in which the field spreads. Translated as written ("extends").
 - sections/antennenformen_3.md — the attention box on the 5/4 λ optimum for centre-fed dipoles carries the German's own `% TODO: Frage ist falsch` about AG223. Kept as it is.
 - Typos with no effect on the English: sections/rundstrahler.md "von Gesamtgebilde" (*vom*), "wird abgestrahlte Welle" (*die abgestrahlte*), "auf einem hohem Mast" (*hohen*); sections/endgespeiste_antennen.md "machmal" (*manchmal*); slides/endgespeiste_antennen.md "Anpassglieder ist Teil" (*sind*); sections/polarisation_2.md "zirkuar" (*zirkular*), "die in derselben Ebene befinden" (*sich … befinden*); sections/antennenformen_2.md "aben" (*haben*), "verscheidenen" (*verschiedenen*), "Nicht zu Verwechseln" (*verwechseln*); sections/antennenformen_3.md "mindests" (*mindestens*), "notig" (*nötig*); sections/antenne_laenge_resonanz.md and sections/verkuerzungsfaktor_2.md "in dem man" (*indem*); slides/antenne_laenge_resonanz.md "Die Drähte einer Antennen" (*Antenne*); slides/antennenformen_2.md "bei dem starken magnetische Feld" (*magnetischen*).
+
+## Provjera
+
+Checker: all 34 files compared paragraph by paragraph with the German of
+`54dbfdd~1`; embedded questions read in English (NG101–NG111, NG304, NG305,
+NB304, EB305–EB310, EG101–EG110, EG201, EG202, EG213–EG219, EG222, AG101–AG105,
+AG117–AG124, AG201, AG202, AG223, AG313, AG315, AG316, AG419). Nothing
+dropped or added; numbers and formulas intact. `revizija-guard.py --rev
+54dbfdd~1 --brojevi`: 34 files, *struktura netaknuta*.
+
+Changes: omissions 0, meaning 0, technical 1, glossary 1, style 7.
+
+- polarisation_2 (section, twice): *Sie entsprechen der elektrischen Feldkomponente* "They are in line with the electric field component" → "They lie in the direction of the electric field component" — "in line with" reads as "consistent with"; the point is the orientation of the elements (technical).
+- antennenformen_3: *eine möglichst flache Abstrahlung* "A radiation angle as low as possible is often desired" → "The lowest possible angle of radiation is often wanted", the glossary/EG219 wording (*flache Abstrahlung* → low angle of radiation) (glossary).
+- rundstrahler: "one of the so-called vertical antennas" → "is classed as a vertical antenna" (English *so-called* sounds sceptical); "Somewhat more elaborate - but often more effective, too - is … to bury" → "A somewhat more elaborate method - but often a more effective one, too - is … to bury" (style).
+- dipol: three "therefore" in a row reduced ("So a half-wave dipole … has to be 5 m long. Each section must therefore …"); "Each of its two sections" → "Each section" (*Jedes Teilstück*) (style).
+- slides/polarisation note: "the reason was that the existing Yagi-Uda antennas could go on being used" → "the reason was so that existing Yagi-Uda antennas could continue to be used" (style).
+- antennenformen_2: "a less good earth" → "a poorer earth" (style).
+- antennenformen_3: "and so far away from the gas-filled airship" → "and therefore far away …" (*und damit*) (style).
+- AG101, AG102: *zunächst* "Each wire therefore first has" → "has, to begin with," (before the factor is applied) (style).
+
+Judgement calls reviewed and kept: the DECISIONS.md entry (*Verkürzungsfaktor*:
+shortening factor for antennas, velocity factor for lines, both named once in
+verkuerzungsfaktor_1 — the added bracket is needed because EG201 and EG202,
+embedded one after the other, use the two English names for one German term);
+all 21 new glossary rows and the *Fuchskreis* note; "Adjustment" for the dipol
+slide heading *Anpassung*; "transformation ratio" for *Übersetzungsverhältnis*
+(glossary §4); "horn antennas or parabolic antennas" kept in antennenformen_2
+because EG106, which the paragraph leads into, uses those words; the
+faithful renderings of the suspected slips in the German (characteristic
+impedance on the antenne_laenge_resonanz slide, "extends" on the
+polarisation_2 slides, 42,23 m in AG118's slide). The list of suspected
+errors in the German is confirmed.

@@ -8,7 +8,7 @@ If one part of a dipole is pointed vertically upwards and the other parallel to 
 Even though the vertical part of vertical antennas such as the up-and-outer antenna is called the *radiator*, this does not mean that it is the only part of the antenna that radiates the radio wave. Rather, the radio wave is given off by the whole structure consisting of radiator and counterpoise. Only with certain designs is the radiated wave determined almost exclusively by the radiator, for example with a ground plane whose counterpoises are arranged horizontally and exactly symmetrically. But even with these antennas, what is known as a "near field" can form at the counterpoises in some circumstances, and it can have high field strengths. For this reason, radials must always be taken into account as well when considering the safety distance.
 </indepth>
 
-The up-and-outer antenna is one of the so-called vertical antennas, because its radiator is arranged upright (vertically). As with the dipole, the length of the two parts of the up-and-outer antenna together is $\lambda{} / 2$, i.e. half a wavelength. The radiator and the counterpoise are therefore each $\lambda{} / 4$ long.
+The up-and-outer antenna is classed as a vertical antenna, because its radiator is arranged upright (vertically). As with the dipole, the length of the two parts of the up-and-outer antenna together is $\lambda{} / 2$, i.e. half a wavelength. The radiator and the counterpoise are therefore each $\lambda{} / 4$ long.
 
 If the radial running parallel to the ground is now multiplied, the result is a *ground-plane antenna*, which is often used in amateur radio.
 
@@ -28,7 +28,7 @@ The radial of an up-and-outer antenna can also be replaced by the ground. This g
 </margin>
 
 <tip>
-In practice it is sometimes not at all easy to make a good connection between the antenna cable and *earth*. In the simplest case, an earth spike is used: a metal rod is pushed into the ground and connected to the antenna cable in place of the radial. Somewhat more elaborate - but often more effective, too - is, for example, to bury many wires in the ground and arrange them all round the antennas like the radials of a ground plane. In this way a good connection to earth can be made that is also suitable for radio frequencies.
+In practice it is sometimes not at all easy to make a good connection between the antenna cable and *earth*. In the simplest case, an earth spike is used: a metal rod is pushed into the ground and connected to the antenna cable in place of the radial. A somewhat more elaborate method - but often a more effective one, too - is, for example, to bury many wires in the ground and arrange them all round the antennas like the radials of a ground plane. In this way a good connection to earth can be made that is also suitable for radio frequencies.
 </tip>
 
 As with the up-and-outer antenna, the vertical radiator of the Marconi antenna is $\lambda{} / 4$ long. Since earth is used instead of a counterpoise, the Marconi antenna can also be described as a "$\lambda{} / 4$ vertical antenna fed against earth".

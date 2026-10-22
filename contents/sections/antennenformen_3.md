@@ -37,7 +37,7 @@ A short piece of wire (at least a twentieth of the wavelength), see Figure [ref:
 
 Instead of a Fuchs circuit or a transformer, a $\lambda / 4$ length of twin feeder can also be used. This is then called a *Zepp antenna*, short for Zeppelin antenna (see Figure [ref:a_zeppelinantenn]). How a line transforms an impedance will be looked at more closely in a later section.
 
-The name goes back to the use of these antennas on airships. Because of the $\lambda / 4$ long twin feeder, the high voltage only occurs at its end, and so far away from the gas-filled airship (see Figure [ref:a_zeppelinantenne_foto]).
+The name goes back to the use of these antennas on airships. Because of the $\lambda / 4$ long twin feeder, the high voltage only occurs at its end, and therefore far away from the gas-filled airship (see Figure [ref:a_zeppelinantenne_foto]).
 
 <margin>
 [picture:314:a_zeppelinantenne:Construction of a Zepp antenna]
@@ -84,7 +84,7 @@ Since frequency bands have different propagation conditions at different times o
 
 % TODO: Darstellung von $5/8 \lambda$ prüfen
 
-That an antenna is resonant does not yet mean that it also has a good radiation pattern. A radiation angle as low as possible is often desired. For vertical antennas fed against earth, a length of approx. $5/8 \lambda$ turns out to be the optimum.
+That an antenna is resonant does not yet mean that it also has a good radiation pattern. The lowest possible angle of radiation is often wanted. For vertical antennas fed against earth, a length of approx. $5/8 \lambda$ turns out to be the optimum.
 
 <indepth>
 A simple wire with earth as the other pole is not resonant at a length of $5/8 \lambda$. Resonances only occur at $1/4$, $3/4$, $5/4$ and so on. Matching is therefore necessary. This is usually achieved by inserting a coil that lengthens the electrical length from $5/8$ to $6/8$ (i.e. $3/4$). Such coils are often seen on vehicle antennas.

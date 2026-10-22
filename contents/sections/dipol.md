@@ -10,7 +10,7 @@ The term *dipole* comes from Greek and means something like "two poles".
 
 ---
 
-In practice, what is known as the half-wave dipole is often used, which has a length of $\lambda / 2$, i.e. half a wavelength. Example: in the $\qty{10}{\meter}$ band, the wavelength is about $\qty{10}{\meter}$. Half the wavelength is therefore $\qty{5}{\meter}$. A half-wave dipole for the $\qty{10}{\meter}$ band must therefore be $\qty{5}{\meter}$ long. Each of its two sections must therefore have a length of approx. $\qty{2.5}{\meter}$. The half-wave dipole is then said to be at *resonance*.
+In practice, what is known as the half-wave dipole is often used, which has a length of $\lambda / 2$, i.e. half a wavelength. Example: in the $\qty{10}{\meter}$ band, the wavelength is about $\qty{10}{\meter}$. Half the wavelength is therefore $\qty{5}{\meter}$. So a half-wave dipole for the $\qty{10}{\meter}$ band has to be $\qty{5}{\meter}$ long. Each section must therefore have a length of approx. $\qty{2.5}{\meter}$. The half-wave dipole is then said to be at *resonance*.
 
 <indepth>
 There are also other *variants of the dipole antenna*, for example the full-wave dipole, the shortened dipole or the off-centre-fed dipole, in which the antenna cable is not connected at the centre and the two parts are correspondingly of different lengths.

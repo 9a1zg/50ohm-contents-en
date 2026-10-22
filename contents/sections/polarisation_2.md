@@ -2,11 +2,11 @@ In Class N we learnt that an antenna can be vertically or horizontally polarised
 
 [question:EB309]
 
-The antenna elements of this antenna are parallel to the ground. They are in line with the electric field component. So this is a horizontally polarised antenna.
+The antenna elements of this antenna are parallel to the ground. They lie in the direction of the electric field component. So this is a horizontally polarised antenna.
 
 [question:EB310]
 
-The antenna elements of this antenna are at right angles to the ground. They are in line with the electric field component. So this is a vertically polarised antenna.
+The antenna elements of this antenna are at right angles to the ground. They lie in the direction of the electric field component. So this is a vertically polarised antenna.
 
 ---
 

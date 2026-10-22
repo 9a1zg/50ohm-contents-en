@@ -13,7 +13,7 @@
 
 <note>
 * On HF, polarisation no longer matters in the far field
-* DVB-T from Berlin-Alexanderplatz is horizontal - with a stubby rod antenna, vertical gives poor reception; the reason was that the existing Yagi-Uda antennas could go on being used
+* DVB-T from Berlin-Alexanderplatz is horizontal - with a stubby rod antenna, vertical gives poor reception; the reason was so that existing Yagi-Uda antennas could continue to be used
 </note>
 
 ---

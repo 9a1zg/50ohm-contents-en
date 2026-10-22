@@ -50,7 +50,7 @@ The Fuchs circuit and the Fuchs antenna are named after *Dr Josef Fuchs* (amateu
 </person>
 
 <indepth>
-An end-fed antenna also needs a *counterpoise*, e.g. in the form of a $\lambda / 4$ wire or some other form of RF earth. However, the currents at the feed point of EFHWs are considerably smaller, which is why a less good earth can be enough, e.g. a short piece of wire only a tenth or even a twentieth of the wavelength long. Sometimes even just the screen of the feeder or other metal parts (actually intended for other purposes) serve as the earth.
+An end-fed antenna also needs a *counterpoise*, e.g. in the form of a $\lambda / 4$ wire or some other form of RF earth. However, the currents at the feed point of EFHWs are considerably smaller, which is why a poorer earth can be enough, e.g. a short piece of wire only a tenth or even a twentieth of the wavelength long. Sometimes even just the screen of the feeder or other metal parts (actually intended for other purposes) serve as the earth.
   
 End-fed *long-wire antennas*, whose length is well over one wavelength, must not be confused with end-fed half-wave dipoles. The confusion arises because end-fed half-wave dipoles are often also operated on higher frequencies, where they are then de facto long-wire antennas for those frequencies.
 </indepth>
