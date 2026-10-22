@@ -1,6 +1,6 @@
 Radio amateurs are required by law to keep within certain limits on the power of their radio equipment. Particularly important here are the transmitter output power and the avoidance of unwanted emissions – we deal with the latter in the next chapter. In this chapter we look first at the transmitter output power.
 
-In many amateur bands that are allocated to amateur radio on a primary basis, the maximum transmitter output power, given as the peak envelope power (PEP), is the decisive limit. The exact power limits can be found in [Annex 1](https://50ohm.de/a1) to the Amateur Radio Ordinance (Amateurfunkverordnung, AFuV).
+In many amateur bands that are allocated to amateur radio on a primary basis, the maximum transmitter output power – the peak envelope power (PEP) – is the decisive limit. The exact power limits can be found in [Annex 1](https://50ohm.de/a1) to the Amateur Radio Ordinance (Amateurfunkverordnung, AFuV).
 
 ---
 

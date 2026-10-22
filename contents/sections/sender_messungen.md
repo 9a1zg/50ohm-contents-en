@@ -1,6 +1,6 @@
 Important measurements on transmitters for the radio amateur are measurements of output power or the measurement of RF voltages in RF parts of a circuit. When transmitter output power is measured, the transmitter must be terminated with a defined impedance that matches its output impedance. In amateur radio the usual impedance (transmitter termination) is $\qty{50}{\ohm}$. The termination can also be part of the measuring circuit itself, but this only makes sense at low power.
 
-RF voltages are measured with an RF probe, by diode rectification followed by smoothing of the resulting DC voltage with a capacitor after the diode. Figure [ref:hf_messkopf_0] shows the principle of an RF probe with simple rectification and smoothing of the DC voltage. The RF voltage is terminated at the input with the correct impedance by a resistor (or a combination of resistors). It is then rectified by a diode, whose output voltage is the peak value minus the forward voltage of the diode, and which is held in the capacitor that follows. Figure [ref:hf_messkopf_1] shows a home-built RF probe, Figure [ref:hf_messkopf_2] its circuit diagram.
+RF voltages are measured with an RF probe, by diode rectification followed by smoothing of the resulting DC voltage with a capacitor after the diode. Figure [ref:hf_messkopf_0] shows the principle of an RF probe with simple rectification and smoothing of the DC voltage. The RF voltage is terminated at the input with the correct impedance by a resistor (or a combination of resistors). It is then rectified by a diode; the output voltage is the peak value minus the forward voltage of the diode and is held in the capacitor that follows. Figure [ref:hf_messkopf_1] shows a home-built RF probe, Figure [ref:hf_messkopf_2] its circuit diagram.
 
 <margin>
 [picture:576:hf_messkopf_0:Principle of an RF probe with simple rectification and smoothing of the DC voltage]
@@ -10,7 +10,7 @@ RF voltages are measured with an RF probe, by diode rectification followed by sm
 
 [question:AI608]
 
-At higher RF power, an attenuator with a suitable power rating must be connected ahead of it, to absorb most of the transmitter output power that is to be measured. The attenuator must be taken into account when the power is calculated.
+At higher RF power, an attenuator with a suitable power rating must be connected ahead of the measuring circuit, to absorb most of the transmitter output power that is to be measured. The attenuator must be taken into account when the power is calculated.
 
 [question:AI609]
 
@@ -51,7 +51,7 @@ In a later measurement, the value displayed is corrected by the appropriate corr
 
 Let us now look at the calculation for these circuits in detail. With RF probes that have only one diode, what can be measured at the measurement output is the peak voltage of the RF voltage applied, minus the forward voltage of the diode used and minus the effect of any potential divider ahead of it. An RF probe with simple rectification followed by smoothing is calculated as follows:
 
-The RF input signal is terminated at the input with the correct impedance by the resistor provided (or a combination of individual resistors). In the circuit shown (see Figure [ref:hf_messkopf_0]) the RF voltage is halved by the potential divider that follows (which also has an effect on the impedance). It is then peak-rectified by a diode, whose output voltage is the peak value minus the forward voltage of the diode, and which is held in the capacitor that follows.
+The RF input signal is terminated at the input with the correct impedance by the resistor provided (or a combination of individual resistors). In the circuit shown (see Figure [ref:hf_messkopf_0]) the RF voltage is halved by the potential divider that follows (which also has an effect on the impedance). It is then peak-rectified by a diode; the output voltage is the peak value minus the forward voltage of the diode and is held in the capacitor that follows.
 
 ---
 

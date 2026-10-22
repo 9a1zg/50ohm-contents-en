@@ -104,7 +104,7 @@ When a mixer combines two signals, this corresponds mathematically to a multipli
 
 ---
 
-An amateur station must be set up and operated in accordance with the generally accepted rules of engineering. This of course applies very particularly to transmitters.
+An amateur station must be set up and operated in accordance with the generally accepted rules of engineering. This of course applies especially to transmitters.
 
 ---
 [question:VD106]

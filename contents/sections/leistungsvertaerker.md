@@ -5,7 +5,7 @@ RF power amplifiers can basically be divided into two designs:
 1. *Broadband RF amplifiers* have as uniform a gain as possible over a relatively wide frequency range, for example over large parts of the HF range of $\qtyrange{1}{30}{\mega\hertz}$, see Figure [ref:a_breitbandverstärker].
 2. *Selective RF amplifiers*, on the other hand, are tuned to a comparatively narrow frequency range, for example to a single amateur band, see Figure [ref:a_selektiver_verstaerker].
 
-Broadband RF amplifiers can often be recognised by broadband coupling transformers between the individual amplifier stages. Together with capacitors, these do not form resonant circuits tuned to a particular frequency. The principle of the push-pull amplifier, which we already know, is also found again in many RF power amplifiers.
+Broadband RF amplifiers can often be recognised by broadband coupling transformers between the individual amplifier stages. Together with capacitors, these do not form resonant circuits tuned to a particular frequency. The principle of the push-pull amplifier, which we already know, is also found in many RF power amplifiers.
 
 <margin>
 [picture:491:a_breitbandverstärker:Broadband RF power amplifier with push-pull circuit]

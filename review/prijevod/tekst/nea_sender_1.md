@@ -97,3 +97,40 @@ Two entries (Course text):
 - solutions/AF417.md — "an die $\qty{50}{\ohm}$ des nachfolgenden Senders": $T_2$ matches the transistors to the 50 Ω of what follows the amplifier (filter, antenna), not to a following transmitter. Kept ("of the transmitter that follows").
 - slides/alc.md — "Wenn ALC-Anzeige anspricht, ist Sender durch zu starkes NF-Signal übersteuert" and "Bei SSB ist ein geringfügiges Übersteuern erwünscht": the section says that when the ALC indicator reacts the control is becoming active, and that with SSB a slight *response of the ALC* is desirable, not overdriving. Kept.
 - Typos with no effect on the English: sections/leistungsvertaerker.md "Kondenstatoren", "Der untere Teil der Schaltung, ist", "wird hier nur die über einen Spannungsteiler die BIAS-Spannung", "Der Rest ist der Schaltung ist", "Ein ähnliche Funktion"; sections/parasitaere_schwingungen.md "Leistungsversträrker", "parisitäre"; slides/parasitaere_schwingungen.md caption "Transformatur"; sections/alc.md "grade" (twice, for "gerade"); sections/senderausgangsleistung.md "Wie die PEP exakt misst" (no subject); sections/ausgangsleistung.md "wenn wir uns … die Strahlungsleistung … besprechen"; solutions AB403 "die niedrigsten Frequenz", AD508 "Schwinkreises", AD509 "Maximum, dass sich", AF305 "in der zweite Stufe", AI611 "ingesamt"; the idents `e_senderausgangsleisung` (idents never change).
+
+## Provjera
+
+Checked all 39 files line by line against `f5c26e7~1` (German), with every
+embedded question looked up in `contents/questions/fragenkatalog3b.json`.
+Nothing dropped or added; numbers, formulas and markup intact;
+`revizija-guard.py --rev f5c26e7~1 --brojevi`: 39 files, *struktura
+netaknuta*. The two DECISIONS.md entries (*Oberwelle* → overtone where the text
+sets it against *Harmonische*, as AB402 already does; Annex 1 column headings
+in English with the German in brackets) and the 33 glossary rows are kept. They
+are correct and consistent with the questions. All judgement calls are kept. The
+suspected German slips are confirmed (sawtooth: all harmonics; MΩ² in AF421;
+7.071 for 7.125 V in AI610; *Betriebsspannungseinstellung*; AF417 "following
+transmitter"; the ALC slides) and stay translated faithfully.
+
+Changes: omission 1, meaning 1, technical 0, style 6, glossary 0.
+
+- sections/alc.md (digital modes): "is too strong and is overdriving the
+  transmitter" → "is too strong and is being overdriven". In the German
+  (*übersteuert wird*), the audio signal is what gets overdriven. The
+  transmitter was not named. (meaning)
+- sections/ausgangsleistung.md: *haben wir bereits gelernt* → "we have already
+  learnt" ("already" was dropped). (omission)
+- sections/alc.md (tip): "the ALC only just no longer responds" → "the ALC just
+  stops responding". (style)
+- sections/senderausgangsleistung.md: "the maximum transmitter output power,
+  given as the peak envelope power (PEP)" → "– the peak envelope power (PEP) –".
+  This keeps the German apposition without adding "given as". (style)
+- sections/sender_messungen.md: "connected ahead of it" → "ahead of the
+  measuring circuit", because "it" had no antecedent (wording as AI609). The
+  two "rectified by a diode, whose output voltage … and which is held …"
+  sentences are recast so that "held" clearly refers to the voltage, not the
+  diode. (style ×2)
+- sections/ and slides/aufbau_sender.md: *ganz besonders* "very particularly" →
+  "especially". (style)
+- sections/leistungsvertaerker.md: "is also found again in" → "is also found
+  in" (*wiederfinden*). (style)

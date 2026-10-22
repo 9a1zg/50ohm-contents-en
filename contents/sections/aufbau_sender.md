@@ -25,7 +25,7 @@ For the following question it is important to remember that a transmitter needs 
 
 [question:NF402]
 
-An amateur station must be set up and operated in accordance with the generally accepted rules of engineering. This of course applies very particularly to transmitters.
+An amateur station must be set up and operated in accordance with the generally accepted rules of engineering. This of course applies especially to transmitters.
 
 [question:VD106]
 

@@ -15,12 +15,12 @@ With SSB transmissions, a slight response of the ALC is quite desirable, since i
 </margin>
 
 <tip>
-In practice, you can find the optimum point, at which the ALC is only just not yet acting, by slowly increasing the AF drive up to the point at which the ALC responds. You then turn the AF drive back down a little, so that the ALC only just no longer responds and the transmit power indicator still shows the desired output power (possibly a little less).
+In practice, you can find the optimum point, at which the ALC is only just not yet acting, by slowly increasing the AF drive up to the point at which the ALC responds. You then turn the AF drive back down a little, so that the ALC just stops responding and the transmit power indicator still shows the desired output power (possibly a little less).
 </tip>
 
 ---
 
-With transmissions in digital modes such as FT8 or WSPR, a response of the ALC is often a sign that the audio signal from the PC is too strong and is overdriving the transmitter. This can lead to unwanted *splatter* on the band. The audio signal should therefore always be checked carefully with these modes.
+With transmissions in digital modes such as FT8 or WSPR, a response of the ALC is often a sign that the audio signal from the PC is too strong and is being overdriven. This can lead to unwanted *splatter* on the band. The audio signal should therefore always be checked carefully with these modes.
 
 <indepth>
 The [user guide](https://50ohm.de/wsjtx) of the WSJTX software gives a good recommendation on this: as a first step, press the TUNE button to switch the transceiver to transmit and produce a steady tone. This tone can be checked by ear with the radio's monitor function, or visually on the waterfall display of the TRX. There should be no distortion, clicks or other interference. Then turn the PWR control slowly down from its maximum until the RF output of the transmitter drops slightly – this is generally regarded as a good level for the audio drive. The ALC indicator and the output power of the transceiver can also help to find the optimum AF signal level.
