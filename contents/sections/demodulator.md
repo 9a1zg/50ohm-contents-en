@@ -1,80 +1,80 @@
-Im Gegensatz zur Modulation, die auf der Senderseite stattfindet, bewirkt die Demodulation von Signalen im Empfänger, dass ein moduliertes Signal z. B. wieder in NF umgewandelt wird und somit hörbar wird oder eine Bitfolge bei einer digitalen Übertragung entsteht.
+In contrast to modulation, which takes place on the transmitting side, the demodulation of signals in the receiver converts a modulated signal back, e.g. into AF, so that it becomes audible, or produces a bit sequence in a digital transmission.
 
-Je nachdem welche Modulationsart auf der Senderseite verwendet wurde muss auf der Empfängerseite eine entsprechende Demodulation stattfinden. Hierfür gibt es unterschiedliche Schaltungskonzepte, die die Demodulation ermöglichen. Wie Modulation im Digitalen funktioniert, werden wir uns in einem späteren Kapitel anschauen. In diesem Kapitel werden wir uns zunächst mit der Demodulation von analogen Signalen beschäftigen.
+Depending on which type of modulation was used on the transmitting side, a corresponding demodulation must take place on the receiving side. There are various circuit concepts that make demodulation possible. We will look at how modulation works in the digital domain in a later chapter. In this chapter we will first deal with the demodulation of analogue signals.
 
-Die einfachste Form der Demodulation eines Hochfrequenz-Signals stellt die Amplituden-Modulation (AM) dar.
-AM-Signale können mittels eines sog. Hüllkurven-Demodulator wie in Abbildung [ref:demodulator_huellkurvendemodulator_am] demoduliert werden. Hierzu wird das hochfrequente Signal zunächst nach der gewünschten Empfangsfrequenz selektiert z. B. mittels eines angepassten Schwingkreises und anschließend über eine Diode gleichgerichtet. Ein der Diode nachgeschalteter Kondensator wird auf den momentanen Spitzenwert des Signals aufgeladen und gleichzeitig über einen zu diesem parallel geschalteten Widerstand mit einer geeigneten Zeitkonstante entladen. Diese Zeitkonstante liegt deutlich über der Periodendauer des HF-Signals jedoch deutlich unter der Periodendauer des NF-Signals.
+Amplitude modulation (AM) offers the simplest form of demodulation of a radio-frequency signal.
+AM signals can be demodulated by means of a so-called envelope detector, as in Figure [ref:demodulator_huellkurvendemodulator_am]. For this, the radio-frequency signal is first selected for the desired receive frequency, e.g. by means of a suitably tuned resonant circuit, and then rectified by a diode. A capacitor following the diode is charged to the instantaneous peak value of the signal and at the same time discharged, with a suitable time constant, through a resistor connected in parallel with it. This time constant is well above the period of the RF signal but well below the period of the AF signal.
 
 <margin>
-[picture:141:demodulator_huellkurvendemodulator_am:Hüllkurvendemodulator zur Demodulation von AM-Signalen]
+[picture:141:demodulator_huellkurvendemodulator_am:Envelope detector for demodulating AM signals]
 </margin>
 
 [question:AD501]
 
-Am Anschluss X in Abbildung [ref:demodulator_huellkurvendemodulator_am_2] wird jeweils die gleichgerichtete Spitzenspannung des HF-Signals abgebildet, die zwischen den Spitzen des HF-Signals entsprechend der Zeitkonstante des parallel zum Kondensator geschalteten Widerstandes leicht abfällt. Die Hüllkurve des Signals entspricht damit der aufmodulierten NF, die aufgrund der Zeitkonstante des Kondensators mit einem Sägezahn-Signal (Trägerfrequenz) überlagert ist und entspricht dem Signal in Abbildung [ref:demodulator_huellkurvendemodulator_am_abbx]. In den nachfolgenden NF-Verarbeitungsstufen (nicht abgebildet) werden die Reste dieser Trägerfrequenz dann ausgefiltert, so dass die reine NF als Ausgangssignal verbleibt (vgl. Abbildung [ref:demodulator_huellkurvendemodulator_am_clean]).
+At terminal X in Figure [ref:demodulator_huellkurvendemodulator_am_2], the rectified peak voltage of the RF signal appears at each peak; between the peaks of the RF signal it falls slightly, according to the time constant of the resistor connected in parallel with the capacitor. The envelope of the signal thus corresponds to the AF modulated onto the carrier, overlaid, because of the time constant of the capacitor, with a sawtooth signal (carrier frequency), and corresponds to the signal in Figure [ref:demodulator_huellkurvendemodulator_am_abbx]. In the following AF processing stages (not shown), the remnants of this carrier frequency are then filtered out, so that the pure AF remains as the output signal (see Figure [ref:demodulator_huellkurvendemodulator_am_clean]).
 
 <margin>
-[picture:607:demodulator_huellkurvendemodulator_am_2:Hüllkurvendemodulator zur Demodulation von AM-Signalen mit Darstellung des ZF-Eingangssignals welches am Eingang des Demodulators anliegt]
-[picture:146:demodulator_huellkurvendemodulator_am_abbx:Demoduliertes Signal am Punkt X des Hüllkurvendemodulators]
-[picture:147:demodulator_huellkurvendemodulator_am_clean:Gefiltertes Signal am Ausgang des Hüllkurvendemodulators]
+[picture:607:demodulator_huellkurvendemodulator_am_2:Envelope detector for demodulating AM signals, showing the IF input signal present at the input of the demodulator]
+[picture:146:demodulator_huellkurvendemodulator_am_abbx:Demodulated signal at point X of the envelope detector]
+[picture:147:demodulator_huellkurvendemodulator_am_clean:Filtered signal at the output of the envelope detector]
 </margin>
 
 [question:AD502]
 
 ---
 <margin>
-[picture:841:demodulator_flankendiskriminator:Schwingkreis der als Flankendiskriminator verwendet wird]
+[picture:841:demodulator_flankendiskriminator:Tuned circuit used as a slope detector]
 
-[picture:149:demodulator_flankendiskriminator_schaltung:FM-Flankendiskriminator]
+[picture:149:demodulator_flankendiskriminator_schaltung:FM slope detector]
 </margin>
 
-Eine sehr ähnliche Schaltung wie der vorgenannte Hüllkurven-Demodulator kann zur Demodulation von FM-Signalen verwendet werden.
-Ausgehend von der Zwischenfrequenz im FM-Empfänger läuft, wie in Abbildung [ref:demodulator_flankendiskriminator], das Signal in einen Schwingkreis, der mit seiner Resonanzfrequenz $f_\text{res}$ leicht oberhalb oder unterhalb der ZF-Frequenz $f_\text{ZF}$ abgestimmt ist. Hierdurch liegt das zu demodulierende FM-Signal auf der Flanke des Schwingkreises und wandelt Frequenzänderungen der FM in Amplitudenänderungen um. Mittels des nachgeschalteten AM-Demodulators wird das nunmehr in ein AM-Signal umgewandelte FM-Signal dann demoduliert und hörbar gemacht. Diese Schaltung, gezeigt in Abbildung [ref:demodulator_flankendiskriminator_schaltung] wird Flankendiskriminator genannt.
+A circuit very similar to the envelope detector described above can be used to demodulate FM signals.
+Starting from the intermediate frequency in the FM receiver, the signal passes, as in Figure [ref:demodulator_flankendiskriminator], into a tuned circuit whose resonant frequency $f_\text{res}$ is tuned slightly above or below the IF $f_\text{ZF}$. As a result, the FM signal to be demodulated lies on the slope of the tuned circuit's response, so that the frequency changes of the FM are converted into amplitude changes. The FM signal, now converted into an AM signal, is then demodulated by the following AM demodulator and made audible. This circuit, shown in Figure [ref:demodulator_flankendiskriminator_schaltung], is called a slope detector.
 
 [question:AD504]
 
 ---
 
-FM-modulierte Signale lassen sich ebenfalls mittels einer PLL (Phase Locked Loop) demodulieren (vgl. Abbildung [ref:demodulator_pll]). In einer PLL wird ein spannungsgesteuerter Oszillator (VCO) über eine Phasenregelschleife frequenzfolgend an ein Eingangssignal gekoppelt. Wenn sich die Frequenz des Eingangssignals ändert (FM-Modulation) folgt die Regelspannung des VCO der FM-Modulation. Diese Regelspannung entspricht dann genau der Modulation des FM-Signals und somit der aufmodulierten NF und kann an der PLL abgegriffen werden zur weiteren Verarbeitung.
+FM signals can also be demodulated by means of a PLL (phase-locked loop) (see Figure [ref:demodulator_pll]). In a PLL, a voltage-controlled oscillator (VCO) is locked to an input signal by a phase control loop so that it follows its frequency. When the frequency of the input signal changes (frequency modulation), the control voltage of the VCO follows the FM. This control voltage then corresponds exactly to the modulation of the FM signal, and thus to the AF modulated onto it, and can be taken from the PLL for further processing.
 
 <margin>
-[picture:77:demodulator_pll:PLL zur Demodulation von FM-Signalen]
+[picture:77:demodulator_pll:PLL for demodulating FM signals]
 </margin>
 
 [question:AD505]
 
 ---
 
-Um SSB-modulierte Signale zu demodulieren verwendet man einen sog. Produktdetektor. Dieser ist im Wesentlichen ein Ringmischer, welchen wir schon im Empfängerkapitel kennen gelernt haben, der als Eingangssignale die ZF des Empfängers sowie einen BFO (Beat Frequency Oscillator) verwendet. Durch Mischung (Produkt) dieser beiden Eingangssignale entsteht als eines der Mischprodukte das gewünschte NF-Signal (SSB-Signal), welches am Ausgang zur weiteren Verarbeitung abgegriffen werden kann. Für bestmögliche Verständlichkeit der demodulierten NF muss der BFO auf die Frequenz des unterdrückten Trägers des SSB-Signals abgestimmt werden.
+To demodulate SSB signals, a so-called product detector is used. This is essentially a ring mixer, which we have already met in the chapter on receivers, with the receiver's IF and a BFO (beat frequency oscillator) as its input signals. Mixing these two input signals (forming their product) produces, as one of the mixing products, the desired AF signal (SSB signal), which can be taken from the output for further processing. For the best possible intelligibility of the demodulated AF, the BFO must be tuned to the frequency of the suppressed carrier of the SSB signal.
 
 
 <indepth>
-[picture:153:demodulator_produktdetektor:Produktdetektor zur Demodulation von SSB-Signalen]
-[picture:1125:a_produktdetektor_spannung:Beispiel für Spannungen am Produktdetektor]
+[picture:153:demodulator_produktdetektor:Product detector for demodulating SSB signals]
+[picture:1125:a_produktdetektor_spannung:Example of voltages at the product detector]
 
-Zur Demodulation eines SSB-Signals wird häufig ein sogenannter *Produktdetektor* eingesetzt. Dieser kann beispielsweise als Ringmischer aufgebaut sein. Als Eingangssignale erhält er das SSB-Signal auf der Zwischenfrequenz (ZF) und das Signal eines *Beat Frequency Oscillators (BFO)*.
+A so-called *product detector* is often used to demodulate an SSB signal. It can, for example, be built as a ring mixer. As its input signals it receives the SSB signal at the intermediate frequency (IF) and the signal of a *beat frequency oscillator (BFO)*.
 
-Die Funktionsweise lässt sich vereinfacht mit einem schaltenden Mischer erklären. Das BFO-Signal schaltet den Ringmischer abwechselnd in zwei Zustände. Vereinfacht kann man sich das BFO daher als ein Signal vorstellen, das zwischen den Werten $+1$ und $-1$ umschaltet, wie im oberen Verlauf der Abbildung [ref:a_produktdetektor_spannung] dargestellt.
+How it works can be explained in simplified form with a switching mixer. The BFO signal switches the ring mixer alternately between two states. In simplified terms, the BFO can therefore be thought of as a signal that switches between the values $+1$ and $-1$, as shown in the upper trace of Figure [ref:a_produktdetektor_spannung].
 
-Das ZF-Signal wird dadurch abwechselnd unverändert durchgeschaltet oder in seiner Polarität umgekehrt. In der vereinfachten Darstellung kann das ZF-Signal deshalb als Produkt aus dem NF-Signal und dem BFO-Schaltsignal betrachtet werden:
+As a result, the IF signal is alternately passed through unchanged or inverted in polarity. In the simplified representation, the IF signal can therefore be regarded as the product of the AF signal and the BFO switching signal:
 
 $u_\mathrm{ZF}(t)=u_\mathrm{NF}(t)\cdot s_\mathrm{BFO}(t)$
 
-Im Produktdetektor wird dieses Signal erneut mit dem BFO-Signal multipliziert:
+In the product detector, this signal is multiplied by the BFO signal once again:
 
 $u_\mathrm{ZF}(t)\cdot s_\mathrm{BFO}(t)=u_\mathrm{NF}(t)\cdot s_\mathrm{BFO}(t)\cdot s_\mathrm{BFO}(t)$
 
-Da das vereinfachte BFO-Schaltsignal nur die Werte $+1$ und $-1$ annimmt, gilt:
+Since the simplified BFO switching signal only takes the values $+1$ and $-1$, the following holds:
 
 $s_\mathrm{BFO}^2(t)=1$
 
-Damit bleibt als niederfrequenter Anteil wieder das ursprüngliche NF-Signal übrig:
+So the original AF signal remains as the low-frequency component:
 
 $u_\mathrm{NF}(t)=u_\mathrm{ZF}(t)\cdot s_\mathrm{BFO}(t)$
 
-Neben dem gewünschten NF-Signal entstehen beim Mischvorgang weitere hochfrequente Mischprodukte. Diese werden am Ausgang des Produktdetektors durch einen Tiefpass unterdrückt.
+Besides the desired AF signal, the mixing process produces further high-frequency mixing products. These are suppressed at the output of the product detector by a low-pass filter.
 
-Damit das ursprüngliche NF-Signal mit der richtigen Tonhöhe wiedergewonnen wird, muss die Frequenz des BFO passend zur Frequenz des unterdrückten Trägers des SSB-Signals eingestellt sein.
+For the original AF signal to be recovered at the correct pitch, the frequency of the BFO must be set to match the frequency of the suppressed carrier of the SSB signal.
 </indepth>
 
 [question:AD506]

@@ -1,18 +1,18 @@
 <left>
-* *Notch-Filter* oder Kerbfilter
-* Schmalbandiges Filter
-* Unterdrückt eine bestimmte NF-Frequenz
-* Realisierbar im NF-Bereich oder ZF-Bereich
+* *Notch filter*
+* Narrowband filter
+* Suppresses one particular AF frequency
+* Can be implemented in the AF or IF section
 </left>
 <right>
-[picture:242:frequenzverlauf_notchfilter:Filtercharakteristik eines Notch-Filters]
+[picture:242:frequenzverlauf_notchfilter:Filter response of a notch filter]
 </right>
 <note>
-* Störendes Signal, z.B. Träger ausblenden
-* Im ZF-Bereich können stärkere Störsignale wirksamer unterdrückt werden
-* Hat dann weniger Einfluss auf die AGC
-* Notch-Filter sind im Funkgerät oft anpassbar (Frequenz, Bandbreite, Filtercharakteristik)
-* Auch als Auto-Notch-Filter möglich
+* Blanking out an interfering signal, e.g. a carrier
+* In the IF section, stronger interfering signals can be suppressed more effectively
+* They then have less influence on the AGC
+* Notch filters in the radio can often be adjusted (frequency, bandwidth, filter response)
+* Also possible as an automatic notch filter
 </note>
 
 ---

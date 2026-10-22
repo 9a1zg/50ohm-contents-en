@@ -1,4 +1,4 @@
-Normalerweise verwendet man die PTT-Taste, um einen Transceiver auf Sendung zu schalten. Es gibt bei vielen Transceivern aber auch die Möglichkeit, den Sendebetrieb automatisch dadurch auszulösen, dass man spricht. Dies nennt sich *voice-operated exchange*, kurz *VOX*. Sobald man spricht, schaltet der Transceiver auf Sendung. Hört man auf zu sprechen, endet der Sendebetrieb nach einer kurzen Verzögerung.
+Normally you use the PTT button to switch a transceiver to transmit. Many transceivers, however, also offer the option of triggering transmission automatically by speaking. This is called *voice-operated exchange*, or *VOX* for short. As soon as you speak, the transceiver switches to transmit. When you stop speaking, transmission ends after a short delay.
 
 [question:NF109]
 [question:NF110]

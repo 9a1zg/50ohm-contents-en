@@ -1,38 +1,38 @@
 <left>
-* Abgleich von Funkgeräten
-* Nach Reparatur oder durch Veränderungen durch Alterung
-* *Frequenzzähler* zur Messung von Oszillatorfrequenzen
+* Alignment of radios
+* After repair or because of changes due to ageing
+* *Frequency counter* for measuring oscillator frequencies
 </left>
 <right>
-[photo:189:e_frequenzzaehler2:Multimeter, das im Frequenzmessbereich $\qty{455}{\kilo\hertz}$ anzeigt. Darüber erscheinen ein Symbol für niedrige Batteriespannung, die Luftfeuchtigkeit und die Temperatur. Diese Werte haben nichts mit der Frequenzmessung zu tun.]
+[photo:189:e_frequenzzaehler2:Multimeter showing $\qty{455}{\kilo\hertz}$ in the frequency measurement range. Above it are a symbol for low battery voltage, the humidity and the temperature. These values have nothing to do with the frequency measurement.]
 </right>
 
 ---
 [question:EI501]
 ---
 <left>
-* Anzeige der Frequenz
-* Bei älteren Geräten steht hinten ein $10^x$-Multiplikator
+* Display of the frequency
+* On older instruments there is a $10^x$ multiplier at the end
 </left>
 <right>
-[photo:187:e_frequenzzaehler1:Display eines Frequenzzählers, der $455 \cdot \qty{10^3}{\hertz}$ anzeigt]
+[photo:187:e_frequenzzaehler1:Display of a frequency counter showing $455 \cdot \qty{10^3}{\hertz}$]
 </right>
 <note>
-* $\qty{455}{\kilo\hertz}$ ist häufig eine Zwischenfrequenz von Überlagerungsempfängern
-* Die wird gemessen, wenn der Empfänger auf ein starkes Signal abgestimmt ist
+* $\qty{455}{\kilo\hertz}$ is often an intermediate frequency of superhet receivers
+* It is measured when the receiver is tuned to a strong signal
 </note>
 
 ---
 
 <left>
-* Abgleichanleitung verlangt oft Einstellung bis auf eine bestimmte Abweichung
-* z.B. $\pm\qty{10}{\hertz}$
-* Stellenwert der Ziffern kennen
-* Auf Komma und Einheitenpräfix oder Multiplikator achten
+* Alignment instructions often require setting to within a certain deviation
+* e.g. $\pm\qty{10}{\hertz}$
+* Know the place value of the digits
+* Watch the decimal point and the unit prefix or multiplier
 </left>
 <right>
-[picture:793:e_frequenzzaehler_stellen:Diese Anzeige stellt eine Frequenz in $\unit{\mega\hertz}$ dar. Das ist zugleich der Stellenwert der Ziffer vor dem Komma.]
-[picture:104:e_frequenzzaehler_weniger_stellen:Manche Anzeigen eines Frequenzzählers haben weniger Nachkommastellen]
+[picture:793:e_frequenzzaehler_stellen:This display shows a frequency in $\unit{\mega\hertz}$. That is also the place value of the digit before the decimal point.]
+[picture:104:e_frequenzzaehler_weniger_stellen:Some frequency counter displays have fewer decimal places]
 </right>
 
 ---
@@ -41,14 +41,14 @@
 [question:EI503]
 ---
 
-## Wertebereich
+## Range of values
 
-* Außerhalb des angegebenen Wertebereichs messen Frequenzzähler ungenau oder gar nicht
-* Für höhere Frequenzen gibt es Frequenzteiler
-* Angelegte Frequenz wird durch einen festen Wert geteilt
-* Ergebnis wird als elektrische Schwingung ausgegeben
-* *Vorteiler* genannt, da zwischen Messobjekt und Zähler geschaltet
-* 10:1-Teiler bei $\qty{2,4}{\giga\hertz} \rightarrow \qty{240}{\mega\hertz}$
+* Outside the specified range of values, frequency counters measure inaccurately or not at all
+* There are frequency dividers for higher frequencies
+* The applied frequency is divided by a fixed value
+* The result is delivered as an electrical oscillation
+* Called a *prescaler*, as it is connected between the device under test and the counter
+* 10:1 divider at $\qty{2.4}{\giga\hertz} \rightarrow \qty{240}{\mega\hertz}$
 
 ---
 

@@ -2341,6 +2341,34 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Grundrauschen oder Eigenrauschen | noise floor or internal noise | as §14 *Rauschflur* and §6 *Eigenrauschen* (s_meter tip) |
 | Ansprechverhalten / Ansprechzeit / Abfallzeit (AGC) / Empfängerausstattung | response / attack time / decay time / the receiver's features | AGC Slow, AGC Normal, AGC Fast, AGC Off are menu labels and stay (agc_1) |
 | Keramikresonatoren | ceramic resonators | AF208 |
+| Regelkreis / Regelwirkung (AGC) | control loop / control action | "geschlossener Regelkreis" → "closed control loop"; *AGC-Regelspannung* (caption) → "AGC voltage", not "AGC AGC voltage" (agc_2) |
+| Regelspannung (VCO einer PLL) | control voltage | the VCO's tuning voltage in a PLL demodulator; *AGC voltage* (§6) only where it controls the gain (demodulator) |
+| Phasenregelschleife (inside a description of a PLL) | phase control loop | "In einer PLL wird ein VCO über eine Phasenregelschleife … gekoppelt" → "is locked … by a phase control loop", so the sentence does not read "In a PLL … via a phase-locked loop"; elsewhere §5 *phase-locked loop (PLL)* (demodulator) |
+| aufmodulierte NF | the AF modulated onto the carrier | envelope detector, PLL (demodulator) |
+| Rauschzahl … mittels Logarithmierung in Dezibel dargestellt / Rauschmaß (laut DIN) | noise factor … expressed in decibels as the *noise figure* / *Rauschmaß* named as the German term | §6 trap: the ratio is the noise factor, its dB value the noise figure; the DIN remark that the dB value is called *Rauschmaß* and that "diese Bezeichnung nicht sehr verbreitet ist" is about the German word and is kept as such ("this German term"), as DECISIONS.md *USB* (snr_rauschzahl). On slides *Rauschmaß* → noise figure |
+| Pegeländerung der Rauschleistung / Bezugsbandbreite | change in level of the noise power / reference bandwidth | rauschen, AB409 |
+| über das Band wandern | wander across the band | both stations chasing each other's frequency (rit) |
+| Sprachfrequenzen gespiegelt (LSB) | speech frequencies inverted | rit tip |
+| "Clarifier" / "CLAR RX" (Herstellerbezeichnung der RIT) | "Clarifier" / "CLAR RX" | manufacturers' control labels, quoted as printed; the function itself is §6 *clarifier* (rit) |
+| Rauschsperre … Meist wird … der englische Begriff Squelch (Abkürzung: SQL) verwendet | squelch (abbreviation: SQL) | one English word for both; the sentence that only gives the English term is dropped (bracket rule) and the abbreviation moves to the first mention (squelch) |
+| Sendepausen (Squelch einstellen) | pauses between transmissions | "so dass es gerade nicht mehr rauscht" → "so that the noise just disappears" (squelch) |
+| Kerbe / "Daher auch der Name Notch-Filter" | notch / "hence the name notch filter" | *Notch-Filter (Kerbfilter)* → notch filter (bracket rule); the explanation of the name works in English as it stands (notchfilter) |
+| feste Trägerkomponenten | steady carrier components | automatic notch filter (notchfilter) |
+| impulsförmige Störungen | pulse-type interference | as EF214 (noise_reduction) |
+| Kurzwellenfunkgerät | HF radio | photo caption (noise_reduction) |
+| neu abgleichen / Abgleich / Abgleichanleitung | realign / alignment / alignment instructions | as §1.3 *Abgleicharbeiten* (frequenzmessung_1) |
+| abgesetzte Drei (Anzeige) / vor dem Komma / Nachkommastellen | the separate three / before the decimal point / decimal places | frequency counter display; English writes a decimal point (frequenzmessung_1) |
+| Frequenzmessbereich / Bedienungsanleitung | frequency measurement range / operating manual | frequenzmessung_1 |
+| Perioden beziehungsweise Flanken oder Nulldurchgänge / direkt zählender Frequenzzähler | periods, or rather edges or zero crossings / direct-counting frequency counter | gate time (frequenzmessung_2) |
+| Aktualisierung (Anzeige) / Notbehelf | updating / makeshift | frequenzmessung_2 |
+| GPS-synchronisierter Oszillator (ohne Abkürzung) / … (GPSDO) | GPS-synchronised oscillator / GPS-disciplined oscillator (GPSDO) | as AI511 "synchronised to GPS"; where the German adds *GPSDO*, the abbreviation decides (frequenzmessung_2, frequenzgenauigkeit) |
+| Frequenzgenauigkeit / relative Abweichung | frequency accuracy / relative deviation | *maximal zu erwartende Frequenzabweichung* → "maximum frequency error to be expected", as §14 *Frequenzabweichung* (frequenzgenauigkeit) |
+| Abw. (Größe in Lösungsfolien, $\textrm{Abw.} = \qty{10}{\ppm}$) | Dev. | an abbreviated word naming a quantity, translated like `\text{Ordnung}` → `\text{order}`; the subscript in $f_{B,\mathrm{max},\text{Abw}}$ stays (frequenzgenauigkeit slides) |
+| Lösungsweg Teil 1 / Teil 2 (Folien) | Solution, part 1 / Solution, part 2 | frequenzgenauigkeit slides |
+| Hinweis bzgl. Umrechnung/Darstellung von 10er Potenzen | Note on converting and writing powers of 10 | the digit kept for the number check (frequenzgenauigkeit) |
+| Gemessene Frequenz / Anzeigefrequenz / Messwert (Gegeben) | measured frequency / displayed frequency / reading | AI506, AI507, AI509 solutions |
+| »das Komma schieben« | "move the decimal point" | AI506 |
+| Vorüberlegung (Überschrift in Lösungen) | Preliminary consideration | AI510 |
 
 ## 15. Catalogue structure
 

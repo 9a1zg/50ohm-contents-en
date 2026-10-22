@@ -1,23 +1,23 @@
-In der Klasse E haben wir die AGC (Automatic Gain Control) bereites kennen gelernt. Bei starken Eingangssignalen wird durch die AGC die Verstärkung von Verstärkerstufen im Empfängerzweig reduziert und bei schwachen Eingangssignalen entsprechend erhöht. Hierdurch wird die Amplitude des demodulierten Signals und damit die Lautstärke des NF-Signals konstant gehalten.
+In Class E we have already met AGC (automatic gain control). With strong input signals, the AGC reduces the gain of amplifier stages in the receive path, and with weak input signals it increases it accordingly. This keeps the amplitude of the demodulated signal, and thus the volume of the AF signal, constant.
 
-Ohne eine AGC würden starke Signale die NF übersteuern und schwache Signale nur sehr leise in der NF hörbar sein. Die NF-Lautstärke müsste immer von Hand nachgeregelt werden. Die AGC gleicht somit die Dynamik des Empfangssignals aus und passt die Empfindlichkeit des Empfängerzweiges in Abhängigkeit der HF-Eingangssignale dynamisch an.
+Without AGC, strong signals would overdrive the AF stages and weak signals would be only very faintly audible in the AF. The AF volume would constantly have to be readjusted by hand. The AGC thus evens out the dynamic range of the received signal and dynamically adapts the sensitivity of the receive path to the RF input signals.
 
 [question:AF224]
 
 <margin>
-[picture:1055:e_agc:AGC im Überlagerungsempfänger]
+[picture:1055:e_agc:AGC in a superhet]
 </margin>
 
 ---
 
-Damit die AGC die Verstärkung automatisch an die Stärke des Empfangssignals anpassen kann, benötigt sie eine Information über dessen Amplitude. Dazu kann ein Teil des ZF-Signals gleichgerichtet und anschließend geglättet werden, wie in Abbildung [ref:e_agc_regelspannung] gezeigt.
+For the AGC to be able to adapt the gain automatically to the strength of the received signal, it needs information about the signal's amplitude. For this, part of the IF signal can be rectified and then smoothed, as shown in Figure [ref:e_agc_regelspannung].
 
-Die Diode richtet das hochfrequente ZF-Signal gleich. Ein nachgeschaltetes RC-Glied unterdrückt die schnellen Wechselanteile, sodass eine Gleichspannung entsteht, deren Höhe von der Amplitude des ZF-Signals abhängt. Je stärker das empfangene Signal ist, desto größer ist auch der Betrag dieser Spannung. 
+The diode rectifies the high-frequency IF signal. A following RC network suppresses the fast AC components, so that a DC voltage is produced whose level depends on the amplitude of the IF signal. The stronger the received signal, the greater the magnitude of this voltage. 
 
-Diese *Regelspannung* wird zu den regelbaren HF- oder ZF-Verstärkerstufen zurückgeführt und dort zur Steuerung ihrer Verstärkung verwendet. Auf diese Weise entsteht ein geschlossener Regelkreis: Ein stärkeres Empfangssignal führt zu einer stärkeren Regelwirkung und damit zu einer geringeren Verstärkung.
+This *AGC voltage* is fed back to the controllable RF or IF amplifier stages, where it is used to control their gain. In this way a closed control loop is formed: a stronger received signal leads to a stronger control action and thus to lower gain.
 
 <margin>
-[picture:142:e_agc_regelspannung:AGC-Regelspannung]
+[picture:142:e_agc_regelspannung:AGC voltage]
 </margin>
 
 [question:AD503]

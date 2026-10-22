@@ -1,13 +1,13 @@
 <left>
-* Empfangssignal gestört durch Rauschen oder Impulse
-* Schwaches Signal mit Rauschanteilen
-* Zündfunken, Schaltnetzteile, Maschinen etc.
+* Received signal degraded by noise or pulses
+* Weak signal with noise components
+* Ignition sparks, switch-mode power supplies, machinery etc.
 </left>
 <right>
-* Noise Reduction (*NR*)
-* $\rightarrow$ Aktive Differenzierung von Nutzsignal und Rauschen
-* Noise Blanker (*NB*)
-* $\rightarrow$ Tastet impulsförmige Störungen aus
+* Noise reduction (*NR*)
+* $\rightarrow$ Actively distinguishes between wanted signal and noise
+* Noise blanker (*NB*)
+* $\rightarrow$ Blanks out pulse-type interference
 </right>
 
 ---

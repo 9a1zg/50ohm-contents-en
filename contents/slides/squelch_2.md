@@ -1,5 +1,5 @@
-* Vergleicht das empfangene Signal mit einem eingestellten Schwellwert
-* Eingangssignal für Squelch wird an der ZF oder NF abgegriffen
+* Compares the received signal with a set threshold
+* Input signal for the squelch is taken from the IF or AF
 
 ---
 [question:AF225]

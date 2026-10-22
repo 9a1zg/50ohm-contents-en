@@ -1,12 +1,12 @@
-## Frequenzmessung bei Empfängern
+## Frequency measurement on receivers
 
-* Empfangsfrequenz lässt sich meist nicht direkt messen, da kein Messpunkt vorhanden ist  
-* Zum Überprüfen wird ein genauer Oszillator oder Frequenzgenerator an die Antennenbuchse angeschlossen  
-* Vergleich der Generatorfrequenz mit der Empfängeranzeige  
-* GPS-synchronisierte Oszillatoren/OCXOs bieten höhere Genauigkeit
+* The receive frequency usually cannot be measured directly, as there is no measuring point  
+* For checking, an accurate oscillator or signal generator is connected to the antenna socket  
+* Comparison of the generator frequency with the receiver's display  
+* GPS-synchronised oscillators/OCXOs offer greater accuracy
 
 <note>
-Ein direkt angeschlossener Frequenzgenerator kann einen Empfängereingang leicht beschädigen. Im Zweifelsfall sollte die Messung mit der niedrigsten Spannung des Generators und einem Dämpfungsglied begonnen werden.
+A signal generator connected directly can easily damage a receiver input. If in doubt, the measurement should be started with the generator's lowest voltage and an attenuator.
 </note>
 
 ---
@@ -19,14 +19,14 @@ Ein direkt angeschlossener Frequenzgenerator kann einen Empfängereingang leicht
 
 ---
 
-## Frequenzmessung bei Sendern
+## Frequency measurement on transmitters
 
-* Frequenzmessung bei Sendern ist einfacher  
-* Frequenzzähler wird über ein Dämpfungsglied an die Antennenbuchse angeschlossen  
-* Messung sinnvoll nur bei unmoduliertem Träger
+* Frequency measurement on transmitters is simpler  
+* Frequency counter is connected to the antenna socket via an attenuator  
+* Measurement only makes sense with an unmodulated carrier
 
 <note>
-SSB-Sender erzeugen ohne Modulation kein Signal. Um ihre Sendefrequenz zu messen, kann man ein Audiosignal mit bekannter Frequenz in die Mikrofonbuchse einspeisen. Bei USB wird die Audiofrequenz vom Messwert des Frequenzzählers am Senderausgang abgezogen, bei LSB addiert.
+SSB transmitters produce no signal without modulation. To measure their transmit frequency, an audio signal of known frequency can be fed into the microphone socket. With USB, the audio frequency is subtracted from the reading of the frequency counter at the transmitter output; with LSB it is added.
 </note>
 
 ---
@@ -39,7 +39,7 @@ SSB-Sender erzeugen ohne Modulation kein Signal. Um ihre Sendefrequenz zu messen
 
 ---
 
-* Die Frequenzmessung mittels Oszilloskop ist nur ein Notbehelf, da diese Geräte selten eine so genaue Zeitbasis wie Frequenzzähler haben.
+* Measuring frequency with an oscilloscope is only a makeshift, as these instruments seldom have as accurate a timebase as frequency counters.
 
 ---
 
@@ -47,11 +47,11 @@ SSB-Sender erzeugen ohne Modulation kein Signal. Um ihre Sendefrequenz zu messen
 
 ---
 
-* Einfache Frequenzzähler arbeiten fast immer mit einer sogenannten *Torzeit*  
-* Das Gerät schaltet den Eingang für eine bestimmte Zeit ein, zählt die Perioden und berechnet daraus die Frequenz  
-* Eine Torzeit von $\qty{1}{\second}$ liefert direkt die Frequenz in $\unit{\hertz}$  
-* Kurze Torzeit: schnelle Aktualisierung
-* Lange Torzeit: höhere Messgenauigkeit
+* Simple frequency counters almost always work with a so-called *gate time*  
+* The instrument switches the input on for a certain time, counts the periods and calculates the frequency from them  
+* A gate time of $\qty{1}{\second}$ gives the frequency in $\unit{\hertz}$ directly  
+* Short gate time: fast updating
+* Long gate time: higher measurement accuracy
 
 ---
 

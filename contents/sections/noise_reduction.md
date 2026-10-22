@@ -1,15 +1,15 @@
 % TODO: Idee Soundbeispiele dafür Zeigen.
 
-Das Empfangssignal eines Transceivers wird beispielsweise durch Rauschen oder impulsförmige Störungen beeinträchtigt. Diese können verschiedenste Ursachen haben. Ein schwaches Empfangssignal kann durch Rauschanteile überlagert sein oder es sind z.B. Störungen durch Zündfunken von Fahrzeugen, Aussendungen von Schaltnetzteilen oder Maschinen aller Art im Signal vorhanden.
+The received signal of a transceiver is degraded, for example, by noise or pulse-type interference. This can have a wide variety of causes. A weak received signal may be overlaid with noise components, or there may be interference in the signal, e.g. from the ignition sparks of vehicles, or emissions from switch-mode power supplies or machinery of all kinds.
 
-Moderne Empfänger verfügen über entsprechende Systeme, welche Rauschanteile im Empfangssignal erkennen und unterdrücken können. Diese Funktion nennt man *Noise Reduction (NR)*. Sind diese digital ausgeführt nennt man sie auch Digital Noise Reduction (DNR). Die digitale Rauschunterdrückung hat hierbei den Vorteil, dass sie aktiv zwischen Nutzsignal und Rauschen differenzieren kann, soweit das Nutzsignal nicht zu weit im Rauschen verschwindet. Hierdurch ist eine effektive Rauschunterdrückung möglich.
+Modern receivers have suitable systems that can detect and suppress noise components in the received signal. This function is called *noise reduction (NR)*. If it is implemented digitally, it is also called digital noise reduction (DNR). Digital noise reduction has the advantage that it can actively distinguish between the wanted signal and the noise, as long as the wanted signal is not buried too deeply in the noise. This makes effective noise reduction possible.
 
 <margin>
-[photo:326:e_dnr:DNR Taste am Kurzwellenfunkgerät FT-710]
+[photo:326:e_dnr:DNR button on the FT-710 HF radio]
 </margin>
 
 [question:EF213]
 
-Impulsförmige Störungen können hingegen mittels eines Störaustasters bzw. *Noise Blankers (NB)* aus dem Empfangssignal ausgetastet werden.
+Pulse-type interference, on the other hand, can be blanked out of the received signal by means of a *noise blanker (NB)*.
 
 [question:EF214]

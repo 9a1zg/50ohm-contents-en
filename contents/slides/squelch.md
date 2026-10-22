@@ -1,16 +1,16 @@
-* Auf einer "leeren" Frequenz hört man Rauschen
-* Bei FM ist das Rauschen besonders laut
-* Mit der *Rauschsperre* kann das Rauschen ausgeblendet werden
-* Englisch *Squelch* (SQL)
+* On an "empty" frequency you hear noise
+* With FM the noise is particularly loud
+* The *squelch* can blank out the noise
+* Abbreviated *SQL*
 
 ---
 
 <left>
-* In Sendepausen Squelch so einstellen, dass es gerade nicht mehr rauscht
-* Bei zu starker Einstellung werden schwache Signale ausgeblendet
+* Set the squelch during pauses in transmission so that the noise just disappears
+* If it is set too high, weak signals are blanked out
 </left>
 <right>
-[picture:737:squelch:Zeitlicher Verlauf der Amplitude auf einer Frequenz, zu sehen ist eine starke und eine schwache Sendung, drumherum keine Sendung (Rauschen), der Squelch blendet sowohl Rauschen als auch schwache Signale aus, wenn die Amplitude unter dem eingestellten Wert liegt.]
+[picture:737:squelch:Amplitude on a frequency over time, showing one strong and one weak transmission with no transmission (noise) around them; the squelch blanks out both the noise and weak signals when the amplitude is below the set value.]
 </right>
 
 ---

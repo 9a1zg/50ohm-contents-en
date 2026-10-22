@@ -1,15 +1,15 @@
-Wenn man eine Frequenz abhört, auf der gerade keine Station sendet, dann hört man Rauschen. Bei FM ist das Rauschen besonders laut und kann daher sehr störend sein. Fast jeder FM-Empfänger verfügt daher über eine *Rauschsperre*, mit der dieses Rauschen ausgeblendet werden kann. Meist wird für diese Funktion der englische Begriff *Squelch* (Abkürzung: SQL) verwendet.
+If you listen on a frequency on which no station is transmitting at the moment, you hear noise. With FM the noise is particularly loud and can therefore be very annoying. Almost every FM receiver therefore has a *squelch* (abbreviation: SQL), with which this noise can be blanked out.
 
 <webmargin>
-[picture:737:squelch:Zeitlicher Verlauf der Amplitude auf einer Frequenz, zu sehen ist eine starke und eine schwache Sendung, drumherum keine Sendung (Rauschen), der Squelch blendet sowohl Rauschen als auch schwache Signale aus, wenn die Amplitude unter dem eingestellten Wert liegt.]
+[picture:737:squelch:Amplitude on a frequency over time, showing one strong and one weak transmission with no transmission (noise) around them; the squelch blanks out both the noise and weak signals when the amplitude is below the set value.]
 </webmargin>
 
-Damit die Rauschsperre richtig funktioniert, muss sie über die dafür vorgesehenen Drehregler oder Tasten so eingestellt werden, dass es in Sendepausen gerade nicht mehr rauscht. Ist sie zu schwach eingestellt, dann rauscht es. Wird die Rauschsperre aber zu stark eingestellt, dann werden auch schwache Signale ausgeblendet.
+For the squelch to work properly, it must be set with the rotary control or buttons provided so that the noise just disappears in the pauses between transmissions. If it is set too low, there is noise. But if the squelch is set too high, weak signals are blanked out too.
 
 <indepth>
-Die Rauschsperre nutzt den Umstand, dass das Rauschen immer eine kleinere Amplitude hat als die Hochfrequenzträger, die man sinnvoll empfangen kann. Wäre die Amplitude des Hochfrequenzträgers nämlich schwächer als das Rauschen, könnte man nicht mehr demodulieren. Daher funktioniert die Rauschsperre so, dass erst dann, wenn eine bestimmte Amplitude überschritten wird, das demodulierte Signal zum Lautsprecher durchgeschaltet wird. Ansonsten bleibt er stumm.
+The squelch makes use of the fact that the noise always has a smaller amplitude than the RF carriers that can usefully be received. If the amplitude of the RF carrier were weaker than the noise, it could no longer be demodulated. The squelch therefore works by switching the demodulated signal through to the loudspeaker only once a certain amplitude is exceeded. Otherwise the loudspeaker stays silent.
 
-Für AM- und SSB-modulierte Signalen gibt es auch Rauschsperren. Diese funktionieren technisch jedoch anders als bei frequenzmodulierten Signalen. Am Ende erzeugen sie aber das gleiche Ergebnis. 
+There are also squelch circuits for AM and SSB signals. Technically, however, they work differently from those for frequency-modulated signals. In the end, though, they produce the same result. 
 </indepth>
 
 [question:NF302]

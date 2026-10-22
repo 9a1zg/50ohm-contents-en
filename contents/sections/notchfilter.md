@@ -1,17 +1,17 @@
-Ein *Notch-Filter (Kerbfilter)* ist ein sehr schmalbandiges Filter, welches eine bestimmte Frequenz im NF-Spektrum des Empfangssignals unterdrücken soll. Dies dient zum Beispiel dazu einen störenden Träger in einer Übertragung gezielt auszublenden, den Rest der Übertragung jedoch nahezu unbeeinflusst hiervon zu lassen. Notchfilter können sowohl im NF-Bereich als auch im ZF-Bereich realisiert werden. Filter im ZF-Bereich haben hierbei den Vorteil, dass diese insbesondere stärkere Störsignale wirksamer unterdrücken und deren Einfluss auf die AGC reduzieren können.
+A *notch filter* is a very narrowband filter intended to suppress one particular frequency in the AF spectrum of the received signal. This serves, for example, to blank out an interfering carrier in a transmission selectively while leaving the rest of the transmission almost unaffected. Notch filters can be implemented either in the AF section or in the IF section. Filters in the IF section have the advantage that they can suppress stronger interfering signals in particular more effectively and reduce their influence on the AGC.
 
 [question:EF215]
 
 <margin>
-[picture:242:frequenzverlauf_notchfilter:Filtercharakteristik eines Notch-Filters]
+[picture:242:frequenzverlauf_notchfilter:Filter response of a notch filter]
 </margin>
 
 ---
 
-Die Filtercharakteristik eines Notch-Filters ist derart gestaltet, dass nur ein kleiner Frequenzteil des NF-Signals sehr stark unterdrückt wird. Hierdurch ergibt sich eine Kerbe im Spektrum. Daher auch der Name Notch-Filter.
+The filter response of a notch filter is designed so that only a small part of the frequency range of the AF signal is suppressed very strongly. This produces a notch in the spectrum – hence the name notch filter.
 
 [question:EF216]
 
 <tip>
-Viele moderne Geräte realisieren Notch-Filter mittels digitaler Filtertechnologie. Hierbei können oft Bandbreite sowie die Filtercharakteristik und Frequenz genau parametrisiert werden. Ein weiterer Vorteil sind in diesem Zusammenhang sog. Auto-Notch-Filter, die feste Trägerkomponenten im NF-Signal automatisch erkennen und automatisch ausblenden können.
+Many modern radios implement notch filters using digital filter technology. The bandwidth, the filter response and the frequency can often be set precisely. A further advantage in this context is the so-called automatic notch filter, which can detect steady carrier components in the AF signal and blank them out automatically.
 </tip>

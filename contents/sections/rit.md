@@ -1,15 +1,15 @@
-Bei einem Transceiver kann man die Empfangsfrequenz mittels der *RIT* (Receiver Incremental Tuning) gegenüber der Sendefrequenz geringfügig verstellen. Dies wird primär bei Sprechfunk mit SSB-Modulation angewendet, wenn die Stimme der Gegenstation zu hoch oder zu tief klingt, weil die Sendefrequenz der Gegenstation leicht zu hoch oder zu tief ist. Korrigiert man das mit der RIT, so kann man die andere Station klar hören, ohne die eigene Sendefrequenz zu verstellen. Bei manchen Funkgeräteherstellern wird die RIT übrigens auch als "Clarifier" oder "CLAR RX" bezeichnet.
+On a transceiver, the *RIT* (receiver incremental tuning) can be used to shift the receive frequency slightly relative to the transmit frequency. This is used mainly in SSB voice operation, when the other station's voice sounds too high or too low because its transmit frequency is slightly too high or too low. If you correct this with the RIT, you can hear the other station clearly without changing your own transmit frequency. Incidentally, some radio manufacturers also call the RIT the "Clarifier" or "CLAR RX".
 
 <tip>
-Wird das obere Seitenband (USB) verwendet und die empfangene Stimme klingt zu hoch, dann muss die Empfangsfrequenz erhöht werden. Klingt sie zu tief, dann muss sie verringert werden. Wird jedoch das untere Seitenband (LSB) verwendet, in dem die Sprachfrequenzen ja gespiegelt sind, verhält es sich genau andersherum: Ist die Stimme zu hoch, dann muss die Empfangsfrequenz gesenkt werden, ist die Stimme zu tief, muss die Empfangsfrequenz erhöht werden.
+If the upper sideband (USB) is used and the received voice sounds too high, the receive frequency must be raised. If it sounds too low, it must be lowered. If, however, the lower sideband (LSB) is used, in which the speech frequencies are inverted, it is exactly the other way round: if the voice is too high, the receive frequency must be lowered; if the voice is too low, the receive frequency must be raised.
 </tip>
 
 <indepth>
-Wieso will man überhaupt die Empfangsfrequenz geringfügig gegenüber der Sendefrequenz verstellen? Es sollte doch ausreichen, dass beide Stationen dieselbe Frequenz zum Senden und zum Empfangen einstellen. In der Praxis ist es aber leider so, dass die tatsächliche Sendefrequenz eines Transceiver geringfügig von der eingestellten Frequenz abweicht.
+Why would you want to shift the receive frequency slightly relative to the transmit frequency at all? Surely it should be enough for both stations to set the same frequency for transmitting and receiving. In practice, unfortunately, the actual transmit frequency of a transceiver differs slightly from the frequency set.
 
-Würde man nun zur Korrektur sowohl die Empfangs- als auch die Sendefrequenz ändern, würde einen die Gegenstation auch wieder auf einer geringfügig abweichenden Frequenz empfangen und dann ihrerseits wieder die Frequenz ändern. Dies würde sich immer weiter fortsetzen und man würde "über das Band wandern". Verwendet man jedoch die RIT, muss die Einstellung im besten Fall nur einmal für eine Gegenstation vorgenommen werden.
+If you now changed both the receive and the transmit frequency to correct this, the other station would in turn receive you on a slightly different frequency and then change its frequency in turn. This would go on and on, and you would "wander across the band". If you use the RIT, however, the setting ideally only has to be made once for each station you work.
 
-Wie schon bei der Modulation erwähnt, fallen leicht abweichende Frequenzen bei AM oder FM hingegen praktisch nicht auf. Diese Modulationsarten verfügen nämlich im Gegensatz zu SSB über einen Träger, der für die Demodulation herangezogen werden kann.
+As already mentioned in the chapter on modulation, slightly differing frequencies, on the other hand, are practically unnoticeable with AM or FM. Unlike SSB, these types of modulation have a carrier that can be used for demodulation.
 </indepth>
 
 [question:NF111]

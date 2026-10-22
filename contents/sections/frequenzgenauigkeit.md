@@ -1,30 +1,30 @@
-Die *Frequenzgenauigkeit* gibt an, wie stark eine erzeugte, eingestellte oder gemessene Frequenz von ihrem tatsächlichen Wert abweichen kann. Sie wird häufig in Prozent ($\unit{\percent}$), in *parts per million* ($\unit{\ppm}$) oder direkt als relative Abweichung angegeben.
+The *frequency accuracy* states how far a generated, set or measured frequency can deviate from its actual value. It is often given in per cent ($\unit{\percent}$), in *parts per million* ($\unit{\ppm}$) or directly as a relative deviation.
 
-Dabei gilt:
+The following applies:
 
 $\qty{1}{\percent} = 1 \cdot 10^{-2}$
 
-und
+and
 
 $\qty{1}{\ppm} = 1 \cdot 10^{-6}$
 
-Bei einem Frequenzzähler hängt die erreichbare Genauigkeit wesentlich von seiner *Zeitbasis* ab. Der Frequenzzähler bestimmt die Frequenz des Eingangssignals mithilfe einer internen Referenzfrequenz. Weicht diese Referenz von ihrem Sollwert ab, wirkt sich diese Abweichung entsprechend auf das Messergebnis aus.
+With a frequency counter, the achievable accuracy depends essentially on its *timebase*. The frequency counter determines the frequency of the input signal with the help of an internal reference frequency. If this reference deviates from its nominal value, the deviation affects the result of the measurement accordingly.
 
-Als Zeitbasis werden deshalb möglichst stabile Oszillatoren eingesetzt. Hochwertige Frequenzzähler verwenden beispielsweise einen TCXO oder OCXO. Für besonders genaue Messungen kann häufig auch eine externe Frequenzreferenz angeschlossen werden, beispielsweise ein GPS-synchronisierter Oszillator (GPSDO).
+Oscillators that are as stable as possible are therefore used as the timebase. High-quality frequency counters use, for example, a TCXO or OCXO. For particularly accurate measurements, an external frequency reference can often be connected as well, for example a GPS-disciplined oscillator (GPSDO).
 
-Ist die relative Frequenzgenauigkeit bekannt, kann daraus die maximal zu erwartende Frequenzabweichung berechnet werden:
+If the relative frequency accuracy is known, the maximum frequency error to be expected can be calculated from it:
 
 $\Delta f = f \cdot a$
 
-Dabei ist $f$ die betrachtete Frequenz und $a$ die relative Frequenzgenauigkeit.
+Here $f$ is the frequency in question and $a$ the relative frequency accuracy.
 
 <indepth>
-  Hinweis bzgl. Umrechnung/Darstellung von 10er Potenzen:
+  Note on converting and writing powers of 10:
   
   $1 \cdot {\num{10^{-2}}} = \frac{1}{\num{10^2}}$
   $1 \cdot {\num{10^{-6}}} = \frac{1}{\num{10^6}}$
   
-  usw.
+  and so on.
 </indepth>
   
 [question:AA115]

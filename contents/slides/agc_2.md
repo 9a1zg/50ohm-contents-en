@@ -1,14 +1,14 @@
-* Starke Signale werden reduziert
-* Leise Signale werden erhöht
-* Amplitude des demodulierten Signals wird konstant gehalten
-* $\rightarrow$ NF-Signal hat konstant gleiche Lautstärke
+* Strong signals are reduced
+* Quiet signals are boosted
+* Amplitude of the demodulated signal is kept constant
+* $\rightarrow$ AF signal always has the same volume
 
 ---
-### Ohne AGC
+### Without AGC
 
-* Starke Signale übersteuern die NF
-* Schwache Signale sind sehr leise
-* Lautstärke muss von Hand nachgeregelt werden
+* Strong signals overdrive the AF stages
+* Weak signals are very quiet
+* Volume has to be readjusted by hand
 
 ---
 [question:AF224]

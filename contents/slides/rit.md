@@ -1,27 +1,27 @@
-* Hört sich in SSB die Gegenstation zu hoch oder tief an $\rightarrow$ *Empfangsfrequenz* korrigieren
-* Dazu den Regler *RIT* (Receiver Incremental Tuning) verwenden
-  * Bei manchen Funkgeräten "Clarifier" oder "CLAR RX"
-* Beim Verstellen der *Sendefrequenz* versteht mich die Gegenstation schlecht
-* Ursache sind nicht ganz genaue Oszillatoren in Funkgeräten oder Frequenzanzeigefehler
-* Ändern beide Stationen jedes Mal die Sendefrequenz entsteht "über das Band wandern"
+* If the other station sounds too high or too low in SSB $\rightarrow$ correct the *receive frequency*
+* Use the *RIT* control (receiver incremental tuning) for this
+  * On some radios "Clarifier" or "CLAR RX"
+* Adjusting the *transmit frequency* makes it hard for the other station to understand me
+* The cause is oscillators in radios that are not quite accurate, or errors in the frequency display
+* If both stations change their transmit frequency each time, they "wander across the band"
 
 ---
 
-## Einstellrichtung
+## Direction of adjustment
 
-* Bei USB
-  * Stimme zu hoch $\rightarrow$ Empfangsfrequenz erhöhen
-  * zu tief $\rightarrow$ senken
-* Bei LSB genau andersherum, da die Sprachfrequenzen gespiegelt sind
+* With USB
+  * Voice too high $\rightarrow$ raise the receive frequency
+  * too low $\rightarrow$ lower it
+* With LSB exactly the other way round, as the speech frequencies are inverted
 
 ---
 [question:NF111]
 
 ---
-## RIT bei AM und FM
+## RIT with AM and FM
 
-* Nicht notwendig
-* Verfügen über einen Träger, der zur Demodulation verwendet wird
+* Not necessary
+* They have a carrier that is used for demodulation
 
 ---
 [question:NF112]

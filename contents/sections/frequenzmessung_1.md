@@ -1,11 +1,11 @@
-Funkgeräte müssen manchmal neu abgeglichen werden, zum Beispiel nach Reparaturen oder wenn sich Bauteile durch Alterung verändert haben. Bei Empfängern gehört zum Abgleich die Kontrolle der Oszillatorfrequenzen. Dafür verwendet man üblicherweise einen Frequenzzähler.
+Radios sometimes have to be realigned, for example after repairs or when components have changed through ageing. For receivers, alignment includes checking the oscillator frequencies. A frequency counter is normally used for this.
 
 [question:EI501]
 
-Abbildung [ref:e_frequenzzaehler1] zeigt das Display eines Frequenzzählers. Die abgesetzte Drei ganz rechts steht wie bei manchen Taschenrechnern für $\num{10^3}$. Also misst der Zähler die Frequenz $\qty{455}\cdot \qty{10^3}{\hertz}$ oder $\qty{455}{\kilo\hertz}$. Neuere Messgeräte zeigen statt der Zehnerpotenz den Einheitenvorsatz direkt an.
+Figure [ref:e_frequenzzaehler1] shows the display of a frequency counter. The separate three on the far right stands, as on some pocket calculators, for $\num{10^3}$. So the counter is measuring the frequency $\qty{455}\cdot \qty{10^3}{\hertz}$, or $\qty{455}{\kilo\hertz}$. Newer instruments display the unit prefix directly instead of the power of ten.
 
 <margin>
-[photo:187:e_frequenzzaehler1:Display eines Frequenzzählers, der $\qty{455}\cdot \qty{10^3}{\hertz}$ anzeigt]
+[photo:187:e_frequenzzaehler1:Display of a frequency counter showing $\qty{455}\cdot \qty{10^3}{\hertz}$]
 </margin>
 
 % Ich hab das mal aus Platzgründen entfernt
@@ -14,30 +14,30 @@ Abbildung [ref:e_frequenzzaehler1] zeigt das Display eines Frequenzzählers. Die
 %</margin>
 
 <indepth>
-Die Frequenz $\qty{455}{\kilo\hertz}$ kommt häufig als Zwischenfrequenz von Überlagerungsempfängern vor und kann gemessen werden, wenn der Empfänger auf ein starkes Signal abgestimmt ist.
+The frequency $\qty{455}{\kilo\hertz}$ is common as the intermediate frequency of superhet receivers and can be measured when the receiver is tuned to a strong signal.
 </indepth>
 
 ---
 
-In Abgleichanleitungen wird oft verlangt, eine Frequenz bis auf eine bestimmte Abweichung genau einzustellen, zum Beispiel $\pm\qty{10}{\hertz}$. In solchen Fällen ist es hilfreich, sich den Stellenwert der einzelnen Ziffern vor Augen zu führen. Die vom Messgerät angezeigte Zehnerpotenz, also bei $\qty{455}{\kilo\hertz}$ der Wert $\num{10^3}$ oder $\num{1000}$, gilt immer für die Stelle direkt vor dem Komma. Die Stelle links davon steht dann für $\qty{10}{\kilo\hertz}$ oder $\qty{10^4}{\hertz}$ und die Stelle noch eins weiter links, im Beispiel die Vier, für $\qty{100}{\kilo\hertz}$ oder $\qty{10^5}{\hertz}$. Nach rechts geht es in die andere Richtung.
+Alignment instructions often require a frequency to be set to within a certain deviation, for example $\pm\qty{10}{\hertz}$. In such cases it helps to keep the place value of the individual digits in mind. The power of ten displayed by the instrument, i.e. for $\qty{455}{\kilo\hertz}$ the value $\num{10^3}$ or $\num{1000}$, always applies to the digit directly before the decimal point. The digit to the left of it then stands for $\qty{10}{\kilo\hertz}$ or $\qty{10^4}{\hertz}$, and the digit one further to the left, the four in the example, for $\qty{100}{\kilo\hertz}$ or $\qty{10^5}{\hertz}$. To the right it goes the other way.
 
- In Abbildung [ref:e_frequenzzaehler_stellen] sehen wir ein Beispiel mit einer höheren Frequenz.
+ Figure [ref:e_frequenzzaehler_stellen] shows an example with a higher frequency.
   
 <margin>
-[picture:793:e_frequenzzaehler_stellen:Diese Anzeige stellt eine Frequenz in $\unit{\mega\hertz}$ dar. Das ist zugleich der Stellenwert der Ziffer vor dem Komma.]
+[picture:793:e_frequenzzaehler_stellen:This display shows a frequency in $\unit{\mega\hertz}$. That is also the place value of the digit before the decimal point.]
 </margin>
 
 <attention>
-Eingänge von Frequenzzählern können einen hohen Innenwiderstand haben. Das kennen wir von Spannungsmessern und Oszilloskopen. Es kommen aber auch Anschlüsse mit $\qty{50}{\ohm}$ vor. Sie sind meistens besonders empfindlich und der in der Bedienungsanleitung des Zählers angegebene Höchstwert für Spannung oder Leistung darf keinesfalls überschritten werden.
+Frequency counter inputs can have a high internal resistance. We know this from voltmeters and oscilloscopes. But there are also inputs with $\qty{50}{\ohm}$. These are usually particularly sensitive, and the maximum voltage or power given in the counter's operating manual must never be exceeded.
 </attention>
 
 [question:EI502]
 [question:EI503]
 
-Frequenzzähler werden für einen bestimmten Wertebereich gebaut, zum Beispiel $\qty{100}{\kilo\hertz}$ bis $\qty{2}{\giga\hertz}$. Außerhalb dieses Bereichs messen sie ungenau oder gar nicht. Zum Messen höherer Frequenzen gibt es Frequenzteiler. Sie teilen die Frequenz eines Signals, das man an ihren Eingang anlegt, durch einen festen Wert und geben das Ergebnis als elektrische Schwingung am Ausgang aus. Man nennt sie auch Vorteiler, weil sie zwischen Messobjekt und Zähler geschaltet werden.
+Frequency counters are built for a particular range of values, for example $\qty{100}{\kilo\hertz}$ to $\qty{2}{\giga\hertz}$. Outside this range they measure inaccurately or not at all. For measuring higher frequencies there are frequency dividers. They divide the frequency of a signal applied to their input by a fixed value and deliver the result as an electrical oscillation at their output. They are also called prescalers, because they are connected between the device under test and the counter.
 
 %TODO Bild Frequenzteiler
 
-Häufig teilen Vorteiler die Frequenz durch zehn. Wenn man an den Eingang so eines 10:1-Teilers $\qty{2,4}{\giga\hertz}$ anlegt, zeigt der Frequenzzähler dahinter $\qty{240}{\mega\hertz}$ an.
+Prescalers often divide the frequency by ten. If $\qty{2.4}{\giga\hertz}$ is applied to the input of such a 10:1 divider, the frequency counter after it displays $\qty{240}{\mega\hertz}$.
 
 [question:EI504]

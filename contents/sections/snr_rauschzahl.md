@@ -1,16 +1,16 @@
-Das Signal-to-Noise Ratio (SNR) ist definiert als das Verhältnis von Nutzsignal zu Rauschsignal (Noise), wie in Abbildung [ref:a_snr] dargestellt. Je höher das SNR eines empfangenen Signals ist, desto mehr hebt sich das Nutzsignal vom Rauschen bei gegebener Bandbreite ab.
+The signal-to-noise ratio (SNR) is defined as the ratio of the wanted signal to the noise signal, as shown in Figure [ref:a_snr]. The higher the SNR of a received signal, the more the wanted signal stands out from the noise for a given bandwidth.
 
 <margin>
-[picture:1097:a_snr:Signal-to-Noise Ratio (SNR)]
+[picture:1097:a_snr:Signal-to-noise ratio (SNR)]
 </margin>
 
 [question:AF227]
 
-Die Rauschzahl wird häufig bei HF-Vorverstärkern angegeben. Diese beschreibt die Verschlechterung des SNR bei Durchgang eines Signals durch diese Baugruppe. Hierbei wird die Rauschzahl als Verhältnis des eingehenden SNR-Wertes zum ausgehenden SNR-Wert bestimmt. Die Rauschzahl wird üblicherweise mittels Logarithmierung in Dezibel ($\unit{\dB}$) dargestellt. Eine Rauschzahl von $\num{2}$ in linearer Notation entspricht in logarithmischer Darstellung $\qty{3}{\dB}$.
+The noise factor is often specified for RF preamplifiers. It describes the degradation of the SNR when a signal passes through this module. The noise factor is determined as the ratio of the incoming SNR value to the outgoing SNR value. It is usually converted to a logarithm and expressed in decibels ($\unit{\dB}$), as the *noise figure*. A noise factor of $\num{2}$ in linear notation corresponds to a noise figure of $\qty{3}{\dB}$ in logarithmic form.
 
 [question:AF228]
 [question:AF229]
 
 <indepth>
-Laut DIN wird die in $\unit{\decibel}$ dargestellte Rauschzahl als Rauschmaß bezeichnet. Leider gibt es noch eine anderslautende Definition des Rauschmaßes, sodass diese Bezeichnung nicht sehr verbreitet ist.
+According to DIN, the noise factor expressed in $\unit{\decibel}$ is called the *Rauschmaß* in German. Unfortunately there is also a different definition of the *Rauschmaß*, so this German term is not very widespread.
 </indepth>

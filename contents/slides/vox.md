@@ -1,10 +1,10 @@
-* Automatischer Sendebetrieb durch Sprechen statt PTT
+* Automatic transmission by speaking instead of PTT
 * *voice-operated exchange* (*VOX*)
-* Beim Sprechen schaltet Transceiver auf Sendung
-* Bei Stille endet der Sendebetrieb nach kurzer Verzögerung
+* When you speak, the transceiver switches to transmit
+* When you are silent, transmission ends after a short delay
 
 <note>
-Pegel und Verzögerung lassen sich oft einstellen
+Level and delay can often be adjusted
 </note>
 
 ---
