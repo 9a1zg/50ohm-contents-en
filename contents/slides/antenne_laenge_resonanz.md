@@ -1,32 +1,32 @@
-* Die Drähte einer Antennen können eine beliebige Länge oder Form haben
-* Jedoch ist dann deren Wellenwiderstand anders
-* Dieser Wellenwiderstand muss an die Speiseleitung angepasst werden, z.B. durch einen HF-Transformator
+* The wires of an antenna can have any length or shape
+* However, their characteristic impedance is then different
+* This characteristic impedance must be matched to the feeder, e.g. with an RF transformer
 
 ---
 [question:EG102]
 ---
 [question:EG109]
 ---
-### Lösungsweg
+### Solution
 
-Anstatt direkt die ungefähre Wellenlänge des $\qty{10}{\meter}$-Bands zu verwenden, wird hier erst die angegebene Frequenz in die exakte Wellenlänge umgerechnet.
+Instead of using the approximate wavelength of the $\qty{10}{\meter}$ band directly, the given frequency is first converted into the exact wavelength here.
 
-$\begin{split} l &= \frac{5}{8}\lambda\\ &= \frac{5}{8} \cdot \frac{\qty{300}{\mega\meter\per\second}}{\qty{28,5}{\mega\hertz}}\\ &\approx \frac{5}{8} \cdot \qty{10,53}{\meter}\\ &\approx \qty{6,58}{\meter}\\ \end{split}$
+$\begin{split} l &= \frac{5}{8}\lambda\\ &= \frac{5}{8} \cdot \frac{\qty{300}{\mega\meter\per\second}}{\qty{28.5}{\mega\hertz}}\\ &\approx \frac{5}{8} \cdot \qty{10.53}{\meter}\\ &\approx \qty{6.58}{\meter}\\ \end{split}$
 
 ---
 
-## Faltdipol
+## Folded dipole
 
 <left>
-* Ein Draht einer Wellenlänge wird an den Enden zur Länge eines Halbwellen-Dipols umgebogen
-* Die Einspeisung ist immer noch in der Mitte
+* A wire one wavelength long is bent back at the ends to the length of a half-wave dipole
+* It is still fed at the centre
 </left>
 <right>
-[picture:933:e_antenne_laenge_resonanz:Ein Faltdipol]
+[picture:933:e_antenne_laenge_resonanz:A folded dipole]
 </right>
 <note>
-* Weniger Strom durch den Leiter, aber eine höhere Impedanz an der Einspeisung
-* Mehr dazu etwas später bei Fußpunktimpedanz
+* Less current through the conductor, but a higher impedance at the feed point
+* More on this a little later under feed-point impedance
 </note>
 ---
 [question:EG110]

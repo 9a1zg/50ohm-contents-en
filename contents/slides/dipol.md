@@ -1,54 +1,54 @@
 <left>
-[picture:589:n_dipol:Darstellung einer Dipol-Antenne]
+[picture:589:n_dipol:Diagram of a dipole antenna]
 </left>
 <right>
-* Grundform der Antenne
-* Besteht aus zwei Teilen, üblicherweise Drähte oder Metallstäbe
-* Je ein Leiter des Antennenkabels wird an ein Teil angeschlossen
+* Basic form of antenna
+* Consists of two parts, usually wires or metal rods
+* One conductor of the antenna cable is connected to each part
 </right>
 <note>
-Dipol (griechisch): Zweipol
+Dipole (Greek): two poles
 </note>
 
 ---
 
 <left>
-* In der Praxis wird häufig der Halbwellendipol verwendet
-* Ist eine halbe Wellenlänge lang
+* In practice, the half-wave dipole is often used
+* It is half a wavelength long
 </left>
 <right>
 <fragment>
-Beispiel:
-* Wellenlänge von $\qty{10}{\meter}$
-* halbe Wellenlänge $\qty{5}{\meter}$
-* Jedes Teilstück des Dipols ca. $\qty{2,5}{\meter}$
+Example:
+* Wavelength of $\qty{10}{\meter}$
+* Half the wavelength $\qty{5}{\meter}$
+* Each section of the dipole approx. $\qty{2.5}{\meter}$
 </fragment>
 </right>
 <note>
-* Weitere Varianten: Ganzwellendipol, verkürzter Dipol, asymmetrisch gespeister Dipol (Kabel nicht in der Mitte angeschlossen)
-* Verkürzungsfaktor kommt erst in Klasse E
+* Other variants: full-wave dipole, shortened dipole, off-centre-fed dipole (cable not connected at the centre)
+* The shortening factor only comes in Class E
 </note>
 
 ---
 
-## Abstrahlung
-* Dipol richtiger Länge $\rightarrow$ gute Abstrahlung/Aufnahme der Funkwelle
-* Auf höheren oder niedrigeren Frequenzen funktioniert er zunehmend schlechter
+## Radiation
+* Dipole of the right length $\rightarrow$ good radiation/pick-up of the radio wave
+* On higher or lower frequencies it works increasingly poorly
 
 <note>
-Wie bei Instrumenten: Kontrabass (lange Saiten) für tiefe Töne, Geige (kurze Saiten) für hohe Töne. Bei Antennen genauso: lange Dipole für tiefe, kurze Dipole für hohe Frequenzen.
+As with instruments: double bass (long strings) for low notes, violin (short strings) for high notes. Antennas are just the same: long dipoles for low frequencies, short dipoles for high frequencies.
 </note>
 
 ---
 [question:NG103]
 
 ---
-## Anpassung
+## Adjustment
 
-Dipol-Antenne auf die gewünschte Frequenz bringen durch gleichmäßiges Kürzen oder Verlängern
+Bring the dipole antenna to the desired frequency by shortening or lengthening it equally
 
-* Zu hohe Resonanzfrequenz: Beide Seiten gleichmäßig verlängern
-* Zu niedrige Resonanzfrequenz: Beide Seiten gleichmäßig verkürzen
+* Resonant frequency too high: lengthen both ends equally
+* Resonant frequency too low: shorten both ends equally
 
 ---
 [question:NG304]

@@ -1,4 +1,4 @@
-In der Klasse E haben wir den Verkürzungsfaktor kennengelernt. Bei bekanntem Verkürzungsfaktor lässt sich die Antennenlänge eines Halbwellendipols bzw. eines Viertel-Lambda-Schenkels einer Antenne leicht berechnen, in dem man die Hälfte bzw. ein Viertel der Wellenlänge mit dem Verkürzungsfaktor (meist $\num{0,95}$) multipliziert.
+In Class E we met the shortening factor. If the shortening factor is known, the length of a half-wave dipole, or of a quarter-wave leg of an antenna, is easily calculated by multiplying half or a quarter of the wavelength by the shortening factor (usually $\num{0.95}$).
 
 [question:AG101]
 [question:AG102]
@@ -8,34 +8,34 @@ In der Klasse E haben wir den Verkürzungsfaktor kennengelernt. Bei bekanntem Ve
 
 ---
 
-Der Verkürzungsfaktor bei Antennen ergibt sich daraus, dass die Drähte nicht unendlich dünn sind und sich somit eine zusätzliche Kapazität zwischen Leiter und Umgebung ausbildet.
+The shortening factor of antennas results from the fact that the wires are not infinitely thin, so that an additional capacitance forms between the conductor and its surroundings.
 
 [question:AG202]
 
 ---
 
-Bei elektrischen Schleifenantennen gibt es im Gegensatz zum Verkürzungsfaktor einen Korrekturfaktor, der überraschenderweise einer *Verlängerung* entspricht.
+With electric loop antennas, unlike the shortening factor, there is a correction factor that, surprisingly, corresponds to a *lengthening*.
 
 <indepth>
-  Ein Verlängerungsfaktor bedeutet <u>nicht</u>, dass sich die Welle mit *Überlichtgeschwindigkeit* ausbreitet, sondern sich nur Punkte gleicher Phase mit entsprechender Geschwindigkeit bewegen (Phasengeschwindigkeit statt Gruppengeschwindigkeit). Die Phasengeschwindigkeit kann im Gegensatz zur Gruppengeschwindigkeit Werte über der Lichtgeschwindigkeit annehmen, da hier keine Informationen übertragen werden, sondern es sich vielmehr um eine Rechengröße handelt.
+  A lengthening factor does <u>not</u> mean that the wave travels *faster than light*, only that points of equal phase move at the corresponding speed (phase velocity instead of group velocity). Unlike the group velocity, the phase velocity can take values above the speed of light, since no information is transmitted with it; rather, it is a quantity used in calculations.
 </indepth>
 
 [question:AG118]
 
 ---
 
-Bei einer Paralleldrahtleitung befindet sich die elektromagnetische Welle weitgehend zwischen den Leitern und dringt aufgrund des Skineffekts auch nicht tief in das Metall ein, so dass der Verkürzungsfaktor annähernd $\num{1}$ entsprechend einer Freiraumausbreitung beträgt.
+On an open-wire line, the electromagnetic wave is largely between the conductors and, because of the skin effect, does not penetrate deeply into the metal either, so the velocity factor is approximately $\num{1}$, corresponding to propagation in free space.
 
 % TODO: Komma in Frage Q1636 nicht richtig dargestellt.
 [question:AG313]
 
 ---
 
-Im Koaxialkabel befindet sich die elektromagnetische Welle weitgehend zwischen den Leitern im Dielektrikum und dringt ebenfalls aufgrund des Skineffekts nicht tief in den metallischen Leiter ein. Aus diesem Grunde spielt hier nur das Dielektrikum als Medium eine Rolle und die sonstige Geometrie des Kabels (z. B. Durchmesser) ist zu vernachlässigen. Der Verkürzungsfaktor berechnet sich dann wie folgt:
+In a coaxial cable, the electromagnetic wave is largely between the conductors, in the dielectric, and, again because of the skin effect, does not penetrate deeply into the metal conductor. For this reason, only the dielectric matters here as the medium, and the rest of the cable's geometry (e.g. its diameter) can be neglected. The velocity factor is then calculated as follows:
 
 $v_\mathrm{k} = \dfrac{1}{\sqrt{\epsilon_\mathrm{r}}}$
 
-Der Formelsammlung können wir für Polyäthylen eine relative Dielektrizitätszahl von $\epsilon_\mathrm{r} = 2,29$ entnehmen.
+From the formula sheet we can take a relative permittivity of $\epsilon_\mathrm{r} = 2.29$ for polyethylene (*Polyäthylen*).
 
 % TODO: lt. Formelsammlung Polyäthylen, lt. Fragen Polyethylen
 

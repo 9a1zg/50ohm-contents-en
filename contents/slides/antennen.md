@@ -1,13 +1,13 @@
 <left>
-[picture:657:n_trx_kabel_und_antenne:Schematische Darstellung einer Amateurfunkstation mit Funkgerät, Speiseleitung und Antenne]
+[picture:657:n_trx_kabel_und_antenne:Schematic diagram of an amateur station with radio, feeder and antenna]
 
-[photo:63:n_handfunk_antenne:So kann es in der Praxis aussehen - VHF/UHF-Handfunkgerät mit externer Antenne]
+[photo:63:n_handfunk_antenne:This is what it can look like in practice - VHF/UHF handheld transceiver with an external antenna]
 </left>
 <right>
-* Gibt elektrische Schwingungen als Funkwellen ab
-* Funkwellen breiten sich in der Ferne aus
-* Nimmt beim Empfang Funkwellen auf
-* Leitet sie als elektrische Schwingungen über das Antennenkabel zum Funkgerät
+* Gives off electrical oscillations as radio waves
+* Radio waves spread out into the distance
+* Picks up radio waves when receiving
+* Passes them on as electrical oscillations via the antenna cable to the radio
 </right>
 
 ---

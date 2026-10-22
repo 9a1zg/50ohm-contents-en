@@ -1,41 +1,41 @@
-Die Grundform der Antenne ist die *Dipol-Antenne* (Abbildung [ref:n_dipol]). Sie wird von Funkamateuren in Kurzform auch einfach als Dipol bezeichnet. Ein Dipol besteht aus zwei Teilen, üblicherweise sind dies Drähte oder Metallstäbe. Einer der Leiter des Antennenkabels wird an das eine Teil, der andere Leiter an das andere Teil angeschlossen.
+The basic form of antenna is the *dipole antenna* (Figure [ref:n_dipol]). Radio amateurs also simply call it a dipole for short. A dipole consists of two parts, which are usually wires or metal rods. One conductor of the antenna cable is connected to one part, the other conductor to the other part.
 
 <margin>
-[picture:589:n_dipol:Darstellung einer Dipol-Antenne]
+[picture:589:n_dipol:Diagram of a dipole antenna]
 </margin>
 
 <wordorigin>
-Der Begriff *Dipol* kommt aus dem Griechischen und bedeutet soviel wie "Zweipol".
+The term *dipole* comes from Greek and means something like "two poles".
 </wordorigin>
 
 ---
 
-In der Praxis wird häufig der sogenannte Halbwellendipol verwendet, der eine Länge von $\lambda / 2$ aufweist, also einer halben Wellenlänge. Beispiel: Im $\qty{10}{\meter}$-Band beträgt die Wellenlänge rund $\qty{10}{\meter}$. Die halbe Wellenlänge ist demnach $\qty{5}{\meter}$. Ein Halbwellendipol für das $\qty{10}{\meter}$-Band hat also $\qty{5}{\meter}$ lang zu sein. Jedes Teilstück muss daher eine Länge von ca. $\qty{2,5}{\meter}$ haben. Man spricht dann davon, dass der Halbwellendipol in *Resonanz* ist.
+In practice, what is known as the half-wave dipole is often used, which has a length of $\lambda / 2$, i.e. half a wavelength. Example: in the $\qty{10}{\meter}$ band, the wavelength is about $\qty{10}{\meter}$. Half the wavelength is therefore $\qty{5}{\meter}$. A half-wave dipole for the $\qty{10}{\meter}$ band must therefore be $\qty{5}{\meter}$ long. Each of its two sections must therefore have a length of approx. $\qty{2.5}{\meter}$. The half-wave dipole is then said to be at *resonance*.
 
 <indepth>
-Es gibt auch andere *Varianten der Dipol-Antenne*, beispielsweise den Ganzwellendipol, den verkürzten Dipol oder den asymmetrisch gespeisten Dipol, bei dem das Antennenkabel nicht in der Mitte angeschlossen wird und die beiden Teile entsprechend unterschiedlich lang sind.
+There are also other *variants of the dipole antenna*, for example the full-wave dipole, the shortened dipole or the off-centre-fed dipole, in which the antenna cable is not connected at the centre and the two parts are correspondingly of different lengths.
 </indepth>
 
 ---
 
-Ein Dipol der richtigen Länge hat eine gute *Abstrahlung*. Er gibt bei Sendebetrieb möglichst viel der elektrischen Schwingung als Funkwelle ab bzw. nimmt beim Empfang möglichst viel von einer Funkwelle als elektrische Schwingung auf. Verwendet man den Dipol auf höheren oder niedrigeren Frequenzen, dann funktioniert er zunehmend schlechter.
+A dipole of the right length gives good *radiation*. When transmitting, it gives off as much of the electrical oscillation as possible as a radio wave, and when receiving, it picks up as much of a radio wave as possible as an electrical oscillation. If the dipole is used on higher or lower frequencies, it works increasingly poorly.
 
 <indepth>
-*Resonanz* gibt es nicht nur bei Antennen, sondern beispielsweise auch bei Instrumenten in der Musik. Dies wird am Beispiel von Kontrabass und Geige deutlich: Ein Kontrabass hat vergleichsweise lange Saiten und erzeugt tiefe Töne, also tiefe Frequenzen. Eine Geige hingegen hat eher kurze Saiten und erzeugt hohe Töne, also hohe Frequenzen. Bei Antennen ist es im Prinzip genauso. Lange Dipol-Antennen eignen sich für tiefe Frequenzen und kurze Dipol-Antennen für hohe Frequenzen.
+*Resonance* occurs not only in antennas but also, for example, in musical instruments. The double bass and the violin make this clear: a double bass has comparatively long strings and produces low notes, i.e. low frequencies. A violin, on the other hand, has rather short strings and produces high notes, i.e. high frequencies. In principle, antennas are just the same. Long dipole antennas are suited to low frequencies and short dipole antennas to high frequencies.
 </indepth>
 
 [question:NG103]
 
-Liegt die Resonanzfrequenz unterhalb der gewünschten Frequenz, dann ist der Dipol zu lang. Die Dipol-Antenne kann auf die gewünschte Frequenz gebracht werden, indem man sie an beiden Seiten gleichmäßig kürzt.
+If the resonant frequency is below the desired frequency, the dipole is too long. The dipole antenna can be brought to the desired frequency by shortening both ends equally.
 
 [question:NG304]
 
 ---
 
-Andersherum kann eine zu hohe Resonanzfrequenz eines Dipols nach unten verändert werden, indem man beide Seiten gleichmäßig verlängert.
+Conversely, a resonant frequency of a dipole that is too high can be brought down by lengthening both ends equally.
 
 <tip>
-Ein Draht oder Metallstab lässt sich viel einfacher kürzen als verlängern. Daher ist es beim Bau eines Dipols zweckmäßig ihn zunächst etwas länger als berechnet auszulegen und dann schrittweise vorsichtig zu kürzen, bis Resonanz erreicht ist.
+A wire or metal rod is much easier to shorten than to lengthen. When building a dipole, it is therefore advisable to make it somewhat longer than calculated at first and then to shorten it carefully, step by step, until resonance is reached.
 </tip>
 
 [question:NG305]

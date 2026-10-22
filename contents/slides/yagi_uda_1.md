@@ -1,15 +1,15 @@
 <left>
-[picture:613:n_yagi_uda:Yagi-Uda-Antenne mit Einspeisung am Dipol am vorletzten Element]
+[picture:613:n_yagi_uda:Yagi-Uda antenna fed at the dipole, the second-to-last element]
 </left>
 <right>
-* Vor und hinter dem Dipol werden leitende Stäbe geschickt angeordnet
-* Bündelt Funkwellen in eine bestimmte Richtung
-* Gehört zu den *Richtantennen* $\rightarrow$ wird auf die Gegenstation ausgerichtet
+* Conducting rods are cleverly arranged in front of and behind the dipole
+* Concentrates radio waves in a particular direction
+* Is one of the *directional antennas* $\rightarrow$ is pointed at the other station
 </right>
 <note>
-* Bündelung vergleichbar mit Licht aus Taschenlampe
-* Mehr zur Yagi-Uda-Antenne in Klasse E/A
-* Die Yagi-Uda-Antenne ist nach ihren Erfindern, den japanischen Wissenschaftlern Hidetsugu Yagi und Shintaro Uda benannt, die ihre Entdeckung erstmals im Jahre 1926 veröffentlicht haben.
+* Concentration comparable to the light from a torch
+* More on the Yagi-Uda antenna in Class E/A
+* The Yagi-Uda antenna is named after its inventors, the Japanese scientists Hidetsugu Yagi and Shintaro Uda, who first published their discovery in 1926.
 </note>
 
 ---

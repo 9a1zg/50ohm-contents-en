@@ -1,18 +1,18 @@
-Eine Antenne kann vertikal ([ref:n_vpol_antenne]) oder horizontal ([ref:n_hpol_antenne]) polarisiert sein. Das erkennt man bei den meisten Antennenbauformen  daran, dass die Antennen-Elemente senkrecht (vertikal) oder waagerecht (horizontal) ausgerichtet sind.
+An antenna can be vertically ([ref:n_vpol_antenne]) or horizontally ([ref:n_hpol_antenne]) polarised. With most antenna designs  this can be recognised from whether the antenna elements are arranged upright (vertically) or level (horizontally).
 
 % TODO Big Picture: In Bild n_vpol_antenne horizontalen und vertikalen Pfeil mit Beschriftung einfügen
 <margin>
-[picture:51:n_vpol_antenne:vertikal polarisierte Antenne]
+[picture:51:n_vpol_antenne:vertically polarised antenna]
 </margin>
 
 % TODO Big Picture: In Bild n_hpol_antenne horizontalen und vertikalen Pfeil mit Beschriftung einfügen
 <margin>
-[picture:326:n_hpol_antenne:horizontal polarisierte Antenne]
+[picture:326:n_hpol_antenne:horizontally polarised antenna]
 </margin>
 
-Beim Funkbetrieb auf VHF, UHF und höheren Frequenzen sollten zwei Funkstationen ihre Antennen immer in der gleichen Polarisation betreiben. Werden unterschiedliche Polarisationen verwendet, z. B. eine Station horizontal, die andere vertikal, ergibt sich eine deutlich schlechtere Verbindung.
+When operating on VHF, UHF and higher frequencies, two stations should always use the same polarisation for their antennas. If different polarisations are used, e.g. one station horizontal and the other vertical, the contact is considerably worse.
 
-Durch besondere Antennenbauformen kann man drehende Funkwellen erzeugen. Diese heißen "zirkular polarisiert". Je nach Drehrichtung unterscheidet man "linkszirkular" und "rechtszirkular" polarisierte Funkwellen. Genaueres hierzu wird in den Kursen für die Klassen E und A behandelt.
+Special antenna designs can produce rotating radio waves. These are called "circularly polarised". Depending on the direction of rotation, a distinction is made between "left-hand circularly" and "right-hand circularly" polarised radio waves. This is covered in more detail in the courses for Classes E and A.
 
 [question:NB304]
 

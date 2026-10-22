@@ -1,111 +1,111 @@
-## Endspeisung des Halbwellendipols
+## End feeding of the half-wave dipole
 
 <left>
-[picture:310:a_antennenformen_fuchskreis:Fuchskreis]
+[picture:310:a_antennenformen_fuchskreis:Fuchs circuit]
 </left>
 
 <right>
-* Eine Halbwellenantenne kann auch an einem Ende gespeist werden
-* Bei einer Drahtlänge von λ/2 (oder Vielfachen) ist der Speisewiderstand hochohmig (ca. $\qtyrange{2000}{2500}{\ohm}$)
-* Als Anpassungsmöglichkeit dient der Fuchskreis
+* A half-wave antenna can also be fed at one end
+* With a wire length of λ/2 (or multiples), the feed-point impedance is high (approx. $\qtyrange{2000}{2500}{\ohm}$)
+* The Fuchs circuit is one way of matching it
 </right>
 ---
 [question:AG419]
 
 ---
-### Transformator zur Impedanzanpassung
+### Transformer for impedance matching
 
-* Ein Transformator mit einem Übersetzungsverhältnis von 1:7 bewirkt eine 1:49-Impedanztransformation, da das Windungsverhältnis im Quadrat eingeht
-* Dabei werden Spannung und Strom um den Faktor $\num{7}$ multipliziert bzw. dividiert
-* Häufig kommt es zu Verwechslungen, wenn statt des Impedanzverhältnisses das reine Windungsverhältnis angegeben wird
+* A transformer with a transformation ratio of 1:7 gives a 1:49 impedance transformation, as the turns ratio enters squared
+* Voltage and current are multiplied and divided respectively by a factor of $\num{7}$
+* Confusion often arises when the plain turns ratio is given instead of the impedance ratio
 
 ---
 [question:AG123]
 
 ---
-### Gegengewicht bei der Impedanzanpassung
+### Counterpoise with impedance matching
 
 <left>
-[picture:260:a_antennenformen_endfed_multiband:Endgespeiste, resonante Multibandantenne]
+[picture:260:a_antennenformen_endfed_multiband:End-fed resonant multiband antenna]
 </left>
 
 <right>
-* Als Gegengewicht wird oft ein kurzes Drahtende (mindestens 1/20 λ) oder ein Teil der koaxialen Zuleitung verwendet
-* Eine Mantelwellensperre verhindert, dass das weitere Kabel zum Antennenteil wird
+* A short piece of wire (at least 1/20 λ) or part of the coaxial feed cable is often used as the counterpoise
+* A common-mode choke prevents the rest of the cable from becoming part of the antenna
 </right>
 ---
 [question:AG124]
 
 ---
-## Zeppelinantenne als Alternative
+## Zepp antenna as an alternative
 
 <left>
-[picture:314:a_antennenformen_zeppelinantenne:Zeppelinantenne]
+[picture:314:a_antennenformen_zeppelinantenne:Zepp antenna]
 </left>
 
 <right>
-* Anstelle eines Fuchskreises oder Transformators kann auch eine Zweidrahtleitung mit einer Länge von λ/4 verwendet werden
-* Diese Bauweise wird als Zeppelinantenne bezeichnet
+* Instead of a Fuchs circuit or a transformer, a λ/4 length of twin feeder can also be used
+* This design is called a Zepp antenna
 </right>
 ---
 [question:AG120]
 
 --- style="font-size: smaller;"
-## Impedanzanpassung bei Ganzwellen-Schleifen
+## Impedance matching of full-wave loops
 
 <left>
-[picture:311:a_antennenformen_deltaloop:Delta-Loop]
+[picture:311:a_antennenformen_deltaloop:Delta loop]
 </left>
 <right>
-* Eine Delta-Loop-Antenne hat bei gleichlangen Schenkeln eine Speiseimpedanz von ca. $\qty{100}{\ohm}$
-* Durch den Einsatz einer λ/4-Leitung mit einem Wellenwiderstand von $\qty{75}{\ohm}$ wird eine Anpassung auf ca. $\qty{50}{\ohm}$ erreicht
-* Optimal ist der Wellenwiderstand als geometrisches Mittel $(\sqrt{\qty{50}{\ohm}\cdot \qty{100}{\ohm}} \approx \qty{70,7}{\ohm})$
+* A delta loop antenna with sides of equal length has a feed-point impedance of approx. $\qty{100}{\ohm}$
+* Inserting a λ/4 line with a characteristic impedance of $\qty{75}{\ohm}$ gives a match to approx. $\qty{50}{\ohm}$
+* The optimum characteristic impedance is the geometric mean $(\sqrt{\qty{50}{\ohm}\cdot \qty{100}{\ohm}} \approx \qty{70.7}{\ohm})$
 </right>
 ---
 [question:AG117]
 
 ---
-## Quadrat-Ganzwellenschleifenantenne
+## Square full-wave loop antenna
 
-* Wird die Ganzwellenschleife als Quadrat ausgeführt, so muss die Länge jeder Seite exakt 1/4 λ betragen
+* If the full-wave loop is made as a square, each side must be exactly 1/4 λ long
 
 ---
 [question:AG119]
 
 ---
-## Multibandantennen (Teil 1)
+## Multiband antennas (part 1)
 
 <left>
-[picture:313:a_antennenformen_g5rv:G5RV-Antenne]
+[picture:313:a_antennenformen_g5rv:G5RV antenna]
 </left>
 
 <right>
-* Multibandantennen ermöglichen den Betrieb auf vielen Frequenzbändern
-* Beispiele: G5RV-Antenne (zwei gleichlange Schenkel + Zweidrahtleitung) und asymmetrisch angeregte Windomantenne
+* Multiband antennas allow operation on many frequency bands
+* Examples: G5RV antenna (two legs of equal length + twin feeder) and the off-centre-fed Windom antenna
 </right>
 ---
 [question:AG121]
 
 ---
-## Multibandantennen (Teil 2)
+## Multiband antennas (part 2)
 
 <left>
-[picture:309:a_antennenformen_windom:Windom-Antenne]
+[picture:309:a_antennenformen_windom:Windom antenna]
 </left>
 
 <right>
-* Durch geschickte Abmessungen werden zahlreiche Resonanzen realisiert, wodurch viele Amateurfunkbänder genutzt werden können
+* Clever dimensions produce numerous resonances, so that many amateur bands can be used
 </right>
 ---
 [question:AG122]
 
 ---
-## Resonanz und Abstrahlcharakteristik
+## Resonance and radiation pattern
 
-* Resonanz allein garantiert nicht zwangsläufig eine gute Abstrahlcharakteristik
-* Bei gegenüber Erde erregten Vertikalantennen ist eine Länge von ca. 5/8 λ optimal
-* Da ein einzelner Draht mit Erde als Gegenpol bei 5/8 λ nicht resonant ist, wird meist eine Spule eingesetzt, die die elektrische Länge auf 6/8 λ (also 3/4 λ) verlängert
-* Bei mittengespeisten Dipolen liegt das optimale Verhältnis häufig bei 5/4 λ
+* Resonance alone does not necessarily guarantee a good radiation pattern
+* For vertical antennas fed against earth, a length of approx. 5/8 λ is optimum
+* As a single wire with earth as the other pole is not resonant at 5/8 λ, a coil is usually inserted that lengthens the electrical length to 6/8 λ (i.e. 3/4 λ)
+* For centre-fed dipoles, the optimum ratio is often 5/4 λ
 
 ---
 [question:AG223]

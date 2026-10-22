@@ -1,57 +1,57 @@
-In der Klasse N haben wir gelernt, dass eine Antenne vertikal oder horizontal polarisiert sein kann. Das erkennt man bei den meisten Antennenbauformen daran, dass die Antennen-Elemente senkrecht (vertikal) oder waagerecht (horizontal) ausgerichtet sind. In der Klasse E werden nun konkrete Antennenformen abgefragt.
+In Class N we learnt that an antenna can be vertically or horizontally polarised. With most antenna designs this can be recognised from whether the antenna elements are arranged upright (vertically) or level (horizontally). In Class E, the questions now ask about specific antenna types.
 
 [question:EB309]
 
-Die Antennenelemente dieser Antenne sind parallel zum Erdboden. Sie entsprechen der elektrischen Feldkomponente. Also handelt es sich um eine horizontal polarisierte Antenne.
+The antenna elements of this antenna are parallel to the ground. They are in line with the electric field component. So this is a horizontally polarised antenna.
 
 [question:EB310]
 
-Die Antennenelemente dieser Antenne sind senkrecht zum Erdboden. Sie entsprechen der elektrischen Feldkomponente. Also handelt es sich um eine vertikal polarisierte Antenne.
+The antenna elements of this antenna are at right angles to the ground. They are in line with the electric field component. So this is a vertically polarised antenna.
 
 ---
 
-Dass die Polarisationsrichtung oft mit der geometrischen Anordnung der Antennenelemente übereinstimmt liegt daran, dass meistens Antennen eingesetzt werden, bei denen die Leiteranordnung geometrisch mit der Richtung des elektrischen Feldes übereinstimmt. Die Angabe "horizontal" oder "vertikal" bezieht sich nämlich vereinbarungsgemäß auf die Ausrichtung des elektrischen Feldes und nicht auf die Ausrichtung des magnetischen Feldanteils.
+That the direction of polarisation often coincides with the geometrical arrangement of the antenna elements is because the antennas mostly used are ones whose conductors are arranged geometrically in the direction of the electric field. By convention, "horizontal" or "vertical" refers to the orientation of the electric field, not to the orientation of the magnetic field component.
 
 <indepth>
-Die einfache Merkregel, dass geometrisch vertikal angeordnete Antennen vertikal polarisieren und horizontal angeordnete Antennen horizontal polarisieren stimmt *nicht im Allgemeinen*. So weist beispielsweise eine horizontal liegende Magnetic-Loop-Antenne eine vertikale Polarisation auf und eine vertikal liegende Magnetic-Loop entsprechend eine horizontale Polarisation. Bei einer Ganzwellenschleifenantenne (z.B. Delta-Loop) hingegen hängt die Polarisationsrichtung von der Positionierung der Einspeisung ab. Bei Dipol- und Yagi-Uda-Antennen kann man die Polarisation aber anhand der mechanischen Ausrichtung der Drähte erkennen, da sich in dieser Richtung auch das elektrische Feld ausbildet.
+The simple rule that geometrically vertical antennas are vertically polarised and horizontal antennas horizontally polarised is *not true in general*. For example, a magnetic loop antenna lying horizontally has vertical polarisation, and a magnetic loop standing vertically accordingly has horizontal polarisation. With a full-wave loop antenna (e.g. a delta loop), on the other hand, the direction of polarisation depends on where the feed point is placed. With dipole and Yagi-Uda antennas, however, the polarisation can be recognised from the mechanical orientation of the wires, since the electric field also forms in that direction.
 </indepth>
 
 [question:EG222]
 
-Die Bezugsebene der Polarisation ist bei terrestrischen Funkstellen stets die Erdoberfläche. Maßgebend für die Angabe der Polarisation ist die Ausrichtung des elektrischen Feldes.
+For terrestrial stations, the reference plane for polarisation is always the earth's surface. The polarisation is stated according to the orientation of the electric field.
 
 [question:EB305]
 
-Der hier vorkommende Poynting-Vektor ist ein Vektor, der sowohl auf der elektrischen als auch der magnetischen Feldkomponente senkrecht steht, also in Ausbreitungsrichtung zeigt. Für die Feststellung der Polarisation ist aber die Ausrichtung der *elektrischen Feldkomponente* maßgeblich.
+The Poynting vector that appears here is a vector at right angles to both the electric and the magnetic field component, i.e. it points in the direction of propagation. What determines the polarisation, however, is the orientation of the *electric field component*.
 
 ---
 
 [question:EB306]
 
 <margin>
-[picture:886:e_funkhorizont:Horizontale Polarisation]
+[picture:886:e_funkhorizont:Horizontal polarisation]
 </margin>
 
-Die elektrische Feldkomponente ist parallel zum Erdboden, also handelt es sich um eine horizontale Polarisation. Nebenbei: der Richtungspfeil "S" zeigt in Ausbreitungsrichtung, es handelt sich um den Poynting-Vektor.
+The electric field component is parallel to the ground, so this is horizontal polarisation. Incidentally, the arrow "S" points in the direction of propagation; it is the Poynting vector.
 
 ---
 
 [question:EB307]
 
-Hier ist die magnetische Feldkomponente parallel zur Erdoberfläche. Die elektrische Feldkomponente steht darauf senkrecht, also handelt es sich um eine vertikale Polarisation. 
+Here the magnetic field component is parallel to the earth's surface. The electric field component is at right angles to it, so this is vertical polarisation. 
 
 <margin>
-[picture:936:e_funkhorizont:Vertikale Polarisation]
+[picture:936:e_funkhorizont:Vertical polarisation]
 </margin>
 
 ---
 
-In den bisherigen Beispielen waren die elektrischen und magnetischen Feldkomponenten *zeitlich* in Phase (ihre Sinusschwingungen haben ihre Nulldurchgänge zur selben Zeit). Dennoch stehen sie *räumlich* senkrecht aufeinander. 
+In the examples so far, the electric and magnetic field components were in phase *in time* (their sine waves pass through zero at the same moment). Nevertheless, they are at right angles to each other *in space*. 
 
-Wir können aber die elektrische Feldkomponente  auch so erzeugen, dass sich ihre Ausrichtung im Raum zeitlich ändert, zum Beispiel, indem man zwei senkrecht auf einander stehende Dipole verwendet. Wenn diese Dipole in Ausbreitungsrichtung eine Viertelwellenlänge voneinander entfernt sind und in gleicher Phase gespeist werden, dreht sich die abgestrahlte elektrische Feldkomponente zeitlich kreisförmig im Raum. Wir können auch zwei senkrecht auf einander stehende Dipole verwenden, die in derselben Ebene befinden. Speisen wir diese Dipole mit zwei sinusförmigen Signalen, die zeitlich um 90° gegen einander verschoben sind, ergibt sich dasselbe Bild. Die magnetische Feldkomponente steht immer noch und zu jeder Zeit senkrecht auf der elektrischen, sie dreht sich also ebenfalls im Raum. Diese Wellen nennt man *zirkuar polarisiert*.
+However, we can also produce the electric field component  in such a way that its orientation in space changes with time, for example by using two dipoles at right angles to each other. If these dipoles are a quarter wavelength apart in the direction of propagation and are fed in phase, the radiated electric field component rotates in a circle in space over time. We can also use two dipoles at right angles to each other that lie in the same plane. If we feed these dipoles with two sinusoidal signals shifted in time by 90° relative to each other, we get the same picture. The magnetic field component is still at right angles to the electric one at every moment, so it rotates in space as well. These waves are called *circularly polarised*.
 
 <margin>
-[picture:935:e_funkhorizont:Zirkulare Polarisation]
+[picture:935:e_funkhorizont:Circular polarisation]
 </margin>
 
 [question:EB308]

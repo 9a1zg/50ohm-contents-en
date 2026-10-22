@@ -1,16 +1,16 @@
 <left>
-[picture:615:n_antennenformen_schaltbild_endfed:Schaltbild einer endgespeisten Antenne]
+[picture:615:n_antennenformen_schaltbild_endfed:Circuit diagram of an end-fed antenna]
 </left>
 <right>
-* Statt in der Mitte das Antennenkabel an einem Ende des Dipols anschließen
-* Häufige Bauform: Endgespeister Halbwellendipol ($\lambda / 2$ lang)
-* Benötigt ein spezielles Anpassglied, da sie nicht den richtigen Speisewiderstand hat
+* Connect the antenna cable at one end of the dipole instead of at the centre
+* Common design: end-fed half-wave dipole ($\lambda / 2$ long)
+* Needs a special matching network, as it does not have the right feed-point impedance
 </right>
 <note>
-* Vorteil: Anschluss der Speiseleitung nicht am Mittelpunkt, sondern an einem Ende
-* Ein Teil der Speiseleitung wird oft als Gegengewicht genutzt $\rightarrow$ kann Störungen verursachen
-* Vermeidbar z.B. durch ein $\lambda / 4$-Radial als Gegengewicht, gute Erdverbindung oder eine Mantelwellensperre
-* Anpassglieder ist Teil von Klasse E
+* Advantage: the feeder is connected not at the centre but at one end
+* Part of the feeder is often used as the counterpoise $\rightarrow$ can cause interference
+* Avoidable, e.g. with a $\lambda / 4$ radial as the counterpoise, a good earth connection or a common-mode choke
+* Matching networks are part of Class E
 </note>
 
 ---
@@ -18,11 +18,11 @@
 
 ---
 
-* Im Kurzwellenbereich oft besonders lang, im VHF/UHF-Bereich unüblich
-* Endgespeiste Antenne mit Draht länger als $\lambda$: *Langdraht-Antenne*
+* Often particularly long on HF, unusual on VHF/UHF
+* End-fed antenna with a wire longer than $\lambda$: *long-wire antenna*
 
 <note>
-Der Begriff wird manchmal auch fälschlicherweise für den endgespeisten Halbwellendipol benutzt, obwohl dieser kürzer als $\lambda$ ist
+The term is sometimes also wrongly used for the end-fed half-wave dipole, although this is shorter than $\lambda$
 </note>
 
 ---

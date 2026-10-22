@@ -1,25 +1,25 @@
-* Polarisation einer Antenne bezieht sich auf die Ausrichtung des elektrischen Feldes
-* In Hauptstrahlrichtung
-* In Bezug zur Erdoberfläche
-* Die Polarisationsrichtung kann nicht immer an der Bauform der Antenne erkannt werden
+* The polarisation of an antenna refers to the orientation of the electric field
+* In the direction of maximum radiation
+* Relative to the earth's surface
+* The direction of polarisation cannot always be recognised from the design of the antenna
 
 <note>
-* Beispielsweise Magloop oder Delta-Loop
+* For example, mag loop or delta loop
 </note>
 
 ---
 [question:EG222]
 ---
 
-## Horizontale Polarisation
+## Horizontal polarisation
 
 <left>
-* Die Lage des E-Feldes gibt die Polarisation an
-* Breitet sich das E-Feld horizontal aus, wird von horizontaler Polarisation gesprochen
-* Ist von Bauform der Antenne abhängig
+* The orientation of the E field gives the polarisation
+* If the E field extends horizontally, this is called horizontal polarisation
+* Depends on the design of the antenna
 </left>
 <right>
-[picture:194:e_horizontale_polarisation:Horizontale Polarisation in einem Feld]
+[picture:194:e_horizontale_polarisation:Horizontal polarisation in a field]
 </right>
 
 ---
@@ -29,31 +29,31 @@
 ---
 [question:EB309]
 ---
-## Vertikale Polarisation
+## Vertical polarisation
 
 <left>
-* Die Lage des E-Feldes gibt die Polarisation an
-* Breitet sich das E-Feld vertikal aus, wird von vertikaler Polarisation gesprochen
-* Ist von Bauform der Antenne abhängig
+* The orientation of the E field gives the polarisation
+* If the E field extends vertically, this is called vertical polarisation
+* Depends on the design of the antenna
 </left>
 <right>
-[picture:203:e_vertikale_polarisation:Vertikale Polarisation in einem Feld]
+[picture:203:e_vertikale_polarisation:Vertical polarisation in a field]
 </right>
 ---
 [question:EB307]
 ---
 [question:EB310]
 ---
-## Zirkulare Polarisation
+## Circular polarisation
 
 <left>
-* Die Lage des E-Feldes gibt die Polarisation an
-* Breitet sich das E-Feld zirkular aus, wird von zirkularer Polarisation gesprochen
-* Es ist rechts- und linksdrehend möglich
-* Ist von Bauform der Antenne abhängig
+* The orientation of the E field gives the polarisation
+* If the E field extends circularly, this is called circular polarisation
+* Right-hand and left-hand rotation are both possible
+* Depends on the design of the antenna
 </left>
 <right>
-[picture:204:e_zirkulare_polarisation:Zirkulare Polarisation in einem Feld]
+[picture:204:e_zirkulare_polarisation:Circular polarisation in a field]
 </right>
 ---
 [question:EB308]

@@ -1,11 +1,11 @@
-Zirkulare Polarisation (vgl. Abbildung [ref:a_zirkular]) wird in der Regel erst auf Frequenzen im VHF-Bereich oder auf noch höheren Frequenzen eingesetzt, da sich der Aufbau zirkular polarisierter Kurzwellenantennen eher unpraktisch gestaltet. Aus diesem Grund wird in der Regel auf der Kurzwelle horizontale oder vertikale Polarisation verwendet.
+Circular polarisation (see Figure [ref:a_zirkular]) is generally only used on frequencies in the VHF range or higher, because building circularly polarised HF antennas tends to be impractical. For this reason, horizontal or vertical polarisation is generally used on HF.
 
 <margin>
-[picture:935:a_zirkular:Zirkulare Polarisation]
+[picture:935:a_zirkular:Circular polarisation]
 </margin>
 
 <indepth>
-Zirkulare Polarisation wird vor allem im Bereich der *Satelliten- bzw. Weltraumkommunikation* eingesetzt, da bei dieser eine mechanische Drehung der Antenne um die Achse in Richtung der Ausbreitung keine Rolle spielt. Somit kann ein Satellit unabhängig von der aktuellen Drehung im Raum ohne Polarisationsverluste arbeiten.
+Circular polarisation is used above all in *satellite and space communication*, because there a mechanical rotation of the antenna about the axis in the direction of propagation does not matter. A satellite can therefore work without polarisation losses, whatever its current rotation in space.
 </indepth>
 
 [question:AG201]

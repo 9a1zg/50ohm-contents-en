@@ -1,44 +1,44 @@
-Wenn man einen Teil eines Dipols senkrecht nach oben und den anderen parallel zum Erdboden ausrichtet, erhält man eine "Up- and Outer"-Antenne (Abbildung [ref:n_up_and_outer]). Den senkrechten Teil dieser Antenne bezeichnet man als *Strahler*, den waagerechten Teil als *Radial* oder *Gegengewicht*.
+If one part of a dipole is pointed vertically upwards and the other parallel to the ground, the result is an "up-and-outer" antenna (Figure [ref:n_up_and_outer]). The vertical part of this antenna is called the *radiator*, the horizontal part the *radial* or *counterpoise*.
 
 <margin>
-[picture:659:n_up_and_outer:Up- and Outer-Antenne]
+[picture:659:n_up_and_outer:Up-and-outer antenna]
 </margin>
 
 <indepth>
-Auch wenn der senkrechte Teil von Vertikalantennen wie der Up- and Outer-Antenne als *Strahler* bezeichnet wird, bedeutet das nicht, dass er das einzige Teil der Antenne ist, das die Funkwelle abstrahlt. Vielmehr wird die Funkwelle von Gesamtgebilde bestehend aus Strahler und Gegengewicht abgegeben. Nur bei bestimmten Bauformen wird abgestrahlte Welle fast ausschließlich vom Strahler bestimmt, beispielsweise bei einer Groundplane mit horizontal und exakt symmetrisch angeordneten Gegengewichten. Doch auch bei diesen Antennen bildet sich an den Gegengewichten unter Umständen ein sogenanntes "Nahfeld" aus, welches hohe Feldstärken aufweisen kann. Aus diesem Grunde sind Radials bei der Betrachtung des Sicherheitsabstands stets mit zu berücksichtigen.
+Even though the vertical part of vertical antennas such as the up-and-outer antenna is called the *radiator*, this does not mean that it is the only part of the antenna that radiates the radio wave. Rather, the radio wave is given off by the whole structure consisting of radiator and counterpoise. Only with certain designs is the radiated wave determined almost exclusively by the radiator, for example with a ground plane whose counterpoises are arranged horizontally and exactly symmetrically. But even with these antennas, what is known as a "near field" can form at the counterpoises in some circumstances, and it can have high field strengths. For this reason, radials must always be taken into account as well when considering the safety distance.
 </indepth>
 
-Die Up- and Outer-Antenne gehört zu den sogenannten Vertikalantennen, da der Strahler senkrecht (vertikal) angeordnet ist. Wie beim Dipol beträgt die Länge beider Teile der Up- and Outer-Antenne zusammen $\lambda{} / 2$, also eine halbe Wellenlänge. Der Strahler und das Gegengewicht sind demzufolge also jeweils $\lambda{} / 4$ lang.
+The up-and-outer antenna is one of the so-called vertical antennas, because its radiator is arranged upright (vertically). As with the dipole, the length of the two parts of the up-and-outer antenna together is $\lambda{} / 2$, i.e. half a wavelength. The radiator and the counterpoise are therefore each $\lambda{} / 4$ long.
 
-Wird das parallel zum Erdboden geführte Radial nun vervielfacht, dann entsteht eine *Groundplane-Antenne*, die im Amateurfunk häufig verwendet wird.
+If the radial running parallel to the ground is now multiplied, the result is a *ground-plane antenna*, which is often used in amateur radio.
 
 [question:NG105]
 [question:NG106]
 
 ---
 
-Man kann das Radial einer Up- and Outer-Antenne auch durch den Erdboden ersetzen. Dann erhält man die in Abbildung [ref:n_marconi_antenne] gezeigte *Marconi-Antenne*. Das Gegengewicht, also der zweite Teil der Antenne, wird jetzt durch die *Erde* gebildet, die im Idealfall sehr gut leitet. Für die Darstellung der Erde wird in Schaltbildern das in Abbildung [ref:n_schaltzeichen_erde] gezeigte Symbol verwendet.
+The radial of an up-and-outer antenna can also be replaced by the ground. This gives the *Marconi antenna* shown in Figure [ref:n_marconi_antenne]. The counterpoise, i.e. the second part of the antenna, is now formed by the *earth*, which ideally conducts very well. In circuit diagrams, earth is represented by the symbol shown in Figure [ref:n_schaltzeichen_erde].
 
 <margin>
-[picture:669:n_marconi_antenne:Marconi-Antenne]
+[picture:669:n_marconi_antenne:Marconi antenna]
 </margin>
 
 <margin>
-[picture:544:n_schaltzeichen_erde:Schaltzeichen für Erde]
+[picture:544:n_schaltzeichen_erde:Circuit symbol for earth]
 </margin>
 
 <tip>
-In der Praxis ist es manchmal gar nicht so einfach, eine gute Verbindung zwischen Antennenkabel und der *Erde* herzustellen. Im einfachsten Fall verwendet man einen Erdnagel: Ein Metallstab wird in den Erdboden gesteckt und anstelle des Radials mit dem Antennenkabel verbunden. Etwas aufwändiger - aber oft auch wirkungsvoller - ist es beispielsweise, viele Drähte im Erdboden zu vergraben und diese wie Radials einer Groundplane rund um die Antennen anzuordnen. So kann eine gute Verbindung zur Erde hergestellt werden, die auch für Hochfrequenz geeignet ist.
+In practice it is sometimes not at all easy to make a good connection between the antenna cable and *earth*. In the simplest case, an earth spike is used: a metal rod is pushed into the ground and connected to the antenna cable in place of the radial. Somewhat more elaborate - but often more effective, too - is, for example, to bury many wires in the ground and arrange them all round the antennas like the radials of a ground plane. In this way a good connection to earth can be made that is also suitable for radio frequencies.
 </tip>
 
-Wie bei der Up- and Outer-Antenne ist der vertikale Strahler der Marconi-Antenne $\lambda{} / 4$ lang. Da anstelle eines Gegengewichts die Erde verwendet wird, kann man die Marconi-Antenne auch als eine "gegen Erde erregte $\lambda{} / 4$-Vertikalantenne" beschreiben.
+As with the up-and-outer antenna, the vertical radiator of the Marconi antenna is $\lambda{} / 4$ long. Since earth is used instead of a counterpoise, the Marconi antenna can also be described as a "$\lambda{} / 4$ vertical antenna fed against earth".
 
 [question:NG104]
 [question:NG102]
 
-Sowohl die Groundplane- als auch die Marconi-Antenne strahlen gleichmäßig in alle Himmelsrichtungen. Deshalb nennt man diese beiden Antennen auch "Rundstrahler". Im Gegensatz zu Richtantennen eignen sich Rundstrahler, um Funkamateure oder Relaisfunkstellen in unterschiedlichen Richtungen im Umkreis zu erreichen. Eine Richtantenne müsste immer wieder neu ausgerichtet werden.
+Both the ground-plane and the Marconi antenna radiate equally in all directions. That is why these two antennas are also called "omnidirectional antennas". Unlike directional antennas, omnidirectional antennas are suitable for reaching radio amateurs or repeaters in different directions all around. A directional antenna would have to be re-aimed again and again.
 
-Damit ein Rundstrahler gut funktioniert, sollte er möglichst hoch und rundherum frei positioniert werden. Die optimale Position ist daher auf einem hohem Mast, der umgebende Gebäude und Bäume überragt, oder dem Hausdach.
+For an omnidirectional antenna to work well, it should be positioned as high as possible and clear all round. The best position is therefore on a high mast that rises above the surrounding buildings and trees, or on the roof of the house.
 
 [question:NG110]
 
@@ -47,6 +47,6 @@ Damit ein Rundstrahler gut funktioniert, sollte er möglichst hoch und rundherum
 [question:NG111]
 
 <indepth>
-Die in der falschen Antwort erwähnten *Magnetfußantennen* werden übrigens gerne für mobilen Funkbetrieb auf einem Autodach betrieben. Das Autodach bildet dann - ähnlich der Erde bei der Marconi-Antenne - das Gegengewicht. Auf den Funkbetrieb aus Kraftfahrzeugen werden wir im Kapitel Einbau Kfz noch näher eingehen.
+The *magnetic-mount antennas* mentioned in the wrong answer, by the way, are popular for mobile operation on a car roof. The car roof then forms the counterpoise - similar to the earth in the Marconi antenna. We will look at operating from motor vehicles in more detail in the chapter on installation in vehicles.
 </indepth>
 

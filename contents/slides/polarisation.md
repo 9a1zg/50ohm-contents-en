@@ -1,29 +1,29 @@
 <left>
-[picture:51:n_vpol_antenne:vertikal polarisierte Antenne]
+[picture:51:n_vpol_antenne:vertically polarised antenna]
 </left>
 <right>
-[picture:326:n_hpol_antenne:horizontal polarisierte Antenne]
+[picture:326:n_hpol_antenne:horizontally polarised antenna]
 </right>
 
 ---
 
-* Polarisation kann *vertikal* oder *horizontal* sein
-* Lässt sich bei den meisten Antennen leicht erkennen
-* Auf VHF und höher sollten alle die gleiche Polarisation verwenden
+* Polarisation can be *vertical* or *horizontal*
+* Easy to recognise with most antennas
+* On VHF and above, everyone should use the same polarisation
 
 <note>
-* Bei Kurzwelle ist die Polarisation im Fernfeld nicht mehr entscheidend
-* DVB-T von Berlin-Alexanderplatz ist horizontal - mit Stummel-Stabantenne in vertikal schlechter Empfang; Grund war die Weiterverwendung der vorhandenen Yagi-Uda-Antennen
+* On HF, polarisation no longer matters in the far field
+* DVB-T from Berlin-Alexanderplatz is horizontal - with a stubby rod antenna, vertical gives poor reception; the reason was that the existing Yagi-Uda antennas could go on being used
 </note>
 
 ---
 
-* *Zirkular* polarisiert
-* Drehende Funkwellen mit besonderer Antennenbauform
-* Unterscheidung in "linkszirkular" und "rechtszirkular" polarisiert
+* *Circularly* polarised
+* Rotating radio waves from a special antenna design
+* Distinguished as "left-hand circular" and "right-hand circular" polarisation
 
 <note>
-Genaueres dazu in den Kursen für Klasse E und A
+More on this in the courses for Classes E and A
 </note>
 
 ---

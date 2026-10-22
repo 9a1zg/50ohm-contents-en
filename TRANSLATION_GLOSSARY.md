@@ -1838,7 +1838,7 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Freisprecheinrichtung | hands-free kit | |
 | Bordnetzspannung | vehicle supply voltage | |
 | Zweiband-Dipol / Sperrkreis-Dipol | dual-band dipole / trap dipole | |
-| Fuchskreis | Fuchs matching circuit | |
+| Fuchskreis | Fuchs matching circuit | *Fuchs circuit* after the first mention in a file; *Fuchsantenne* → Fuchs antenna (antennenformen_2, antennenformen_3) |
 | Verlängerungsfaktor (Loop) | lengthening factor | |
 | Strahlungsrichtung / Strahlengang | direction of radiation / radiation path | |
 | Winkeldämpfung | off-axis attenuation | |
@@ -2526,6 +2526,27 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Notfunkfrequenzen | emergency communications frequencies | IARU Region 1 band plans; BF109 "centres of activity for emergency communications" (notfunk) |
 | "Notfall" oder "Emergency" (Rufworte im Notfall) | "Notfall" (German for "emergency") or "Emergency" | the German word is what is said on a national contact, kept with a gloss (DECISIONS.md, `<qso>` entry) (notfunk) |
 | Amateurfunkmedien | amateur radio media | notfunk slides |
+| Up- and Outer-Antenne | up-and-outer antenna | a dipole with one leg vertical (radiator) and one horizontal (radial); in quotation marks at first mention, as the German has it (rundstrahler) |
+| Dipolschenkel / Schenkel / Teilstück (Dipol) | leg (of a dipole) / leg / section | *Schenkel* of a delta loop → side; *gleichlange Schenkel* of a G5RV → two legs of equal length (rundstrahler, dipol, antennenformen_2, antennenformen_3) |
+| gegen Erde (oder eine Fahrzeugkarosserie) erregt | fed against earth (or a vehicle body) | as NG104 "a λ/4 vertical antenna fed against earth" (rundstrahler, antennenformen_2, antennenformen_3) |
+| Ortsverbindungen (UKW) | local contacts | rundstrahler slides |
+| End-Fed (kurz) / endgespeister Halbwellendipol (englisch: end fed half wave, EFHW) | end-fed / end-fed half-wave dipole (EFHW) | the German's English gloss is the English term itself and is dropped (bracket rule); the abbreviation stays, as the text goes on to use it (endgespeiste_antennen, antennenformen_2) |
+| Stummel-Stabantenne | stubby rod antenna | DVB-T example (polarisation slides) |
+| Poynting-Vektor | Poynting vector | EB305 (polarisation_2) |
+| magnetische Ringantennen (Magnetic-Loops) / Magnetantennen / Magloop | magnetic loop antennas / magnetic antennas / mag loop | the bracket that only gives the English name is dropped (bracket rule) (antennenformen_2, polarisation_2) |
+| elektrische Schleifenantenne | electric loop antenna | the full-wave loop as against the *magnetic* loop (verkuerzungsfaktor_2) |
+| Keule (Strahlungsdiagramm) / hertzscher Dipol / Richtwirkung | lobe / Hertzian dipole / directional properties | with §9 *Hauptkeule*; *Richtwirkung* as a slide heading (antennenformen_2) |
+| Sperrtopf / Kreuz-Yagi-Uda | sleeve / crossed Yagi-Uda | the λ/4 *Topf* of the *Sperrtopfantenne* (sleeve dipole, §9) is its sleeve; where *Sperrtopf* stands for the antenna, *sleeve dipole*, as EG107 (antennenformen_2) |
+| Zeppelinantenne (Kurstext) | Zepp antenna, short for Zeppelin antenna | as AG120 and §9 *Zepp antenna*; the German name explains the airship story that follows, so the first mention says what *Zepp* is short for (antennenformen_3) |
+| Mantelwellensperre (Abkürzung MWS) | common-mode choke (in German *Mantelwellensperre*, abbreviated MWS) | the drawings and AG123, AG124 use the German abbreviation (antennenformen_3) |
+| Un-Un (1 zu 49) / Pigtail / Symbolbild | unun (1 to 49) / pigtail / illustrative photo | captions (antennenformen_3) |
+| Erde als Gegenpol / Erdpotential | earth as the other pole / earth potential | antennenformen_2, antennenformen_3 |
+| Verkürzungsfaktor (Kurstext) | shortening factor (antennas) / velocity factor (lines, cables) | where the course introduces it for lines including antenna wires: "the *velocity factor* $k_\mathrm{v}$ (for antennas usually called the *shortening factor*; German has one word for both, *Verkürzungsfaktor*)" (DECISIONS.md) (verkuerzungsfaktor_1, _2) |
+| Vakuumlichtgeschwindigkeit / Überlichtgeschwindigkeit / Phasengeschwindigkeit / Gruppengeschwindigkeit | speed of light in a vacuum / faster than light / phase velocity / group velocity | verkuerzungsfaktor_1, _2 |
+| Polyäthylen (Formelsammlung) | polyethylene (*Polyäthylen*) | the formula sheet's spelling in brackets, as a formula-sheet keyword to look for (DECISIONS.md); the questions write *Polyethylen* → polyethylene (verkuerzungsfaktor_2) |
+| Anpassgerät bzw. Tuner | antenna tuning unit or tuner | as §9 *Antennenanpassgerät* (antenne_laenge_resonanz) |
+| plattgedrückte Ganzwellenschleife | flattened full-wave loop | the folded dipole (antenne_laenge_resonanz) |
+| Anpassung (Folienüberschrift: Dipol auf die Frequenz bringen) | adjustment | where it means bringing a dipole to the wanted frequency by changing its length, not impedance matching (dipol slides) |
 
 ## 15. Catalogue structure
 

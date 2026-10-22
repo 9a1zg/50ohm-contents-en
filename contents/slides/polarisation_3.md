@@ -1,14 +1,14 @@
 --- style="font-size: 0.7em;"
 
-### Zirkulare Polarisation
+### Circular polarisation
 
-[picture:935:a_polarisation_rechts_zirkular:Rechtshändige zirkulare Polarisation]
+[picture:935:a_polarisation_rechts_zirkular:Right-hand circular polarisation]
 
-* Wird primär im VHF-Bereich und höheren Frequenzen eingesetzt  
-* Kurzwellenantennen in zirkularer Polarisation sind bei niedrigen Frequenzen unpraktisch
-* In der Satelliten- und Weltraumkommunikation:
-* Mechanische Antennendrehung spielt keine Rolle
-* Verlustfreie Übertragung trotz wechselnder Ausrichtung
+* Mainly used in the VHF range and at higher frequencies  
+* HF antennas with circular polarisation are impractical at low frequencies
+* In satellite and space communication:
+* Mechanical rotation of the antenna does not matter
+* Lossless transmission despite changing orientation
 
 ---
 

@@ -1,80 +1,80 @@
-Wie wir bereits gelernt haben, kann ein Halbwellendipol auch an einem Ende gespeist werden. Der Speisewiderstand ist bei einer Drahtlänge von $\lambda / 2$ oder Vielfachen davon hochohmig (ca. $\qtyrange{2000}{2500}{\ohm}$).
+As we have already learnt, a half-wave dipole can also be fed at one end. With a wire length of $\lambda / 2$ or multiples of it, the feed-point impedance is high (approx. $\qtyrange{2000}{2500}{\ohm}$).
 
-Für die Anpassung einer solchen endgespeisten Antenne gibt es verschiedene Möglichkeiten. Im Folgenden betrachten wir drei typische Varianten:
+There are various ways of matching such an end-fed antenna. Below we look at three typical variants:
 
-* Fuchskreis
-* Transformator zur Impedanzanpassung
-* Zeppelinantenne
+* Fuchs circuit
+* Transformer for impedance matching
+* Zepp antenna
 
-Eine Möglichkeit der Anpassung ist der bereits besprochene Fuchskreis (vgl. Abbildung [ref:a_fuchskreis]). Dabei handelt es sich um einen Parallelschwingkreis, der auf die Betriebsfrequenz abgestimmt wird. Er transformiert die niedrige Impedanz der Speiseleitung auf die hohe Speiseimpedanz der endgespeisten Halbwellenantenne und gleicht zugleich vorhandene Blindanteile aus.
+One way of matching is the Fuchs circuit already discussed (see Figure [ref:a_fuchskreis]). It is a parallel tuned circuit tuned to the operating frequency. It transforms the low impedance of the feeder to the high feed-point impedance of the end-fed half-wave antenna and at the same time compensates for any reactive components.
 
 <margin>
-[picture:310:a_fuchskreis:Fuchskreis zur Anpassung einer endgespeisten Halbwellenantenne]
+[picture:310:a_fuchskreis:Fuchs circuit for matching an end-fed half-wave antenna]
 </margin>
 
 [question:AG419]
 
 ---
 
-Eine andere Möglichkeit ist ein Transformator (vgl. Abbildung [ref:a_unun_1_49]) mit einem Übersetzungsverhältnis von $ü = 1:7$. Da sowohl Spannung als auch Strom um den Faktor $\num{7}$ multipliziert bzw. dividiert werden, ergibt sich für den Widerstand eine Transformation von $1:7^2 = 1:49$ entsprechend $(1 \cdot \qty{50}{\ohm}) : (49 \cdot \qty{50}{\ohm}) = \qty{50}{\ohm} : \qty{2450}{\ohm}$.
+Another possibility is a transformer (see Figure [ref:a_unun_1_49]) with a transformation ratio of $ü = 1:7$. Since voltage and current are multiplied and divided respectively by a factor of $\num{7}$, the resistance is transformed by $1:7^2 = 1:49$, corresponding to $(1 \cdot \qty{50}{\ohm}) : (49 \cdot \qty{50}{\ohm}) = \qty{50}{\ohm} : \qty{2450}{\ohm}$.
 
 <margin>
-[photo:332:a_unun_1_49:1 zu 49 Un-Un zur Anpassung einer endgespeisten Halbwellenantenne]
-[picture:315:a_endspeisung_1:Endgespeister Halbwellendipol mit Pigtail]
-[picture:260:a_endspeisung_2:Endgespeister Halbwellendipol mit Koaxialkabel als Gegengewicht]
+[photo:332:a_unun_1_49:1 to 49 unun for matching an end-fed half-wave antenna]
+[picture:315:a_endspeisung_1:End-fed half-wave dipole with pigtail]
+[picture:260:a_endspeisung_2:End-fed half-wave dipole with coaxial cable as counterpoise]
 </margin>
 
 <attention>
-Hinsichtlich der *Impedanztransformation* (Transformation des Widerstands) geht das Windungsverhältnis eines Transformators im Quadrat ein, d.h. ein Transformator mit einem Windungsverhältnis von 1:7 sorgt für eine 1:49-Impedanztransformation. Bei Baluns und Un-Uns ist oft nicht angegeben, ob es sich um das Windungs- oder das Impedanzverhältnis handelt. Es besteht also die Möglichkeit der Verwechselung. Üblich ist die Angabe des Impedanzverhältnisses. Bei einem Transformator mit einem Windungsverhältnis ($ü$) von 1:7 spricht man dann z. B. von einem 1:49-Un-Un.
+For *impedance transformation* (the transformation of the resistance), the turns ratio of a transformer enters squared, i.e. a transformer with a turns ratio of 1:7 gives a 1:49 impedance transformation. With baluns and ununs it is often not stated whether the turns ratio or the impedance ratio is meant, so the two can be confused. It is usual to give the impedance ratio. A transformer with a turns ratio ($ü$) of 1:7 is then called, for example, a 1:49 unun.
 </attention>
 
-Als Gegengewicht wird oft ein kurzes Drahtende (mindestens ein zwanzigstel der Wellenlänge), vgl. Abbildung [ref:a_endspeisung_1] oder ein Teil der koaxialen Zuleitung (mindests $\qty{0.05}{\lambda}$) verwendet, vgl. Abbildung [ref:a_endspeisung_2]. Eine Mantelwellensperre (Abkürzung MWS) verhindert, dass das weitere Zuleitungskabel zum Teil der Antenne wird.
+A short piece of wire (at least a twentieth of the wavelength), see Figure [ref:a_endspeisung_1], or part of the coaxial feed cable (at least $\qty{0.05}{\lambda}$), see Figure [ref:a_endspeisung_2], is often used as the counterpoise. A common-mode choke (in German *Mantelwellensperre*, abbreviated MWS) prevents the rest of the feed cable from becoming part of the antenna.
 
 [question:AG123]
 [question:AG124]
 
 ---
 
-Anstelle eines Fuchskreises oder Transformators kann auch eine Zweidrahtleitung der Länge $\lambda / 4$ verwendet werden. Dann spricht man von einer *Zeppelinantenne* (vgl. Abbildung[ref:a_zeppelinantenn]). Wie eine Leitung eine Impedanz transformiert werden wir in einem späteren Abschnitt noch genauer betrachten.
+Instead of a Fuchs circuit or a transformer, a $\lambda / 4$ length of twin feeder can also be used. This is then called a *Zepp antenna*, short for Zeppelin antenna (see Figure [ref:a_zeppelinantenn]). How a line transforms an impedance will be looked at more closely in a later section.
 
-Die Bezeichnung geht auf den Einsatz dieser Antennen an Luftschiffen zurück. Durch die $\lambda / 4$ lange Zweidrahtleitung tritt die hohe Spannung erst an ihrem Ende und damit weit entfernt vom gasgefüllten Luftschiff auf (vgl. Abbildung [ref:a_zeppelinantenne_foto]).
+The name goes back to the use of these antennas on airships. Because of the $\lambda / 4$ long twin feeder, the high voltage only occurs at its end, and so far away from the gas-filled airship (see Figure [ref:a_zeppelinantenne_foto]).
 
 <margin>
-[picture:314:a_zeppelinantenne:Aufbau einer Zeppelinantenne]
-[photo:336:a_zeppelinantenne_foto:Zeppelinantenne (Symbolbild)]
+[picture:314:a_zeppelinantenne:Construction of a Zepp antenna]
+[photo:336:a_zeppelinantenne_foto:Zepp antenna (illustrative photo)]
 </margin>
 
 [question:AG120]
 
 ---
 
-Ebenso wie bei einem endgespeisten Halbwellendipol kann auch bei anderen Antennenformen eine Speiseleitung mit abweichendem Wellenwiderstand zur Anpassung verwendet werden. Für die Klasse E haben wir bereits die Ganzwellen-Schleifen-Antennen kennengelernt; darunter auch die Delta-Loop und die Quad-Antenne. Eine Delta-Loop-Antenne (vgl. Abbildung [ref:a_delta_loop]) hat bei gleichlangen Schenkeln eine Speiseimpedanz von etwa $\qty{100}{\ohm}$. Durch Einfügen einer $\lambda / 4$-Leitung mit einem Wellenwiderstand von $\qty{75}{\ohm}$ erfolgt eine Transformation auf die im Amateurfunk üblichen $\qty{50}{\ohm}$.
+Just as with an end-fed half-wave dipole, a feeder with a different characteristic impedance can also be used for matching with other types of antenna. For Class E we have already met the full-wave loop antennas, among them the delta loop and the quad antenna. A delta loop antenna (see Figure [ref:a_delta_loop]) with sides of equal length has a feed-point impedance of about $\qty{100}{\ohm}$. Inserting a $\lambda / 4$ line with a characteristic impedance of $\qty{75}{\ohm}$ transforms this to the $\qty{50}{\ohm}$ usual in amateur radio.
 
 <margin>
-[picture:311:a_delta_loop:Delta-Loop-Antenne]
+[picture:311:a_delta_loop:Delta loop antenna]
 </margin>
 
 [question:AG117]
 
 <indepth>
-Der optimale Wert für den Wellenwiderstand einer $\lambda / 4$-Speiseleitung, die zur Anpassung verwendet wird, errechnet sich aus dem *geometrischen Mittel* der beiden Impedanzen, z. B. $\qty{50}{\ohm}$ und $\qty{100}{\ohm}$ entsprechend $\sqrt{\qty{50}{\ohm} \cdot \qty{100}{\ohm}} \approx \qty{70,7}{\ohm}$.
+The optimum value for the characteristic impedance of a $\lambda / 4$ feeder used for matching is the *geometric mean* of the two impedances, e.g. of $\qty{50}{\ohm}$ and $\qty{100}{\ohm}$, giving $\sqrt{\qty{50}{\ohm} \cdot \qty{100}{\ohm}} \approx \qty{70.7}{\ohm}$.
 </indepth>
 
-Führt man die Ganzwellenschleife als Quadrat aus, dann muss die Länge jeder Seite entsprechend ein Viertel der Wellenlänge betragen.
+If the full-wave loop is made as a square, each side must accordingly be a quarter of the wavelength long.
 
 [question:AG119]
 
 <attention>
-Wie beim Dipol weicht die mechanische Länge einer Ganzwellen-Schleifenantenne von der elektrischen Länge ab. Im Gegensatz zum Verkürzungsfaktor bei Dipolen gibt es bei Ganzwellenschleifen hingegen überraschenderweise einen *Verlängerungsfaktor*, d.h. die Antenne muss wenige Prozent länger sein, als eine Wellenlänge im Freiraum wäre.
+As with the dipole, the mechanical length of a full-wave loop antenna differs from its electrical length. Unlike the shortening factor of dipoles, however, full-wave loops surprisingly have a *lengthening factor*, i.e. the antenna must be a few per cent longer than one wavelength in free space would be.
 </attention>
 
 ---
 
-Da Frequenzbänder unterschiedliche Ausbreitungsbedingungen zu unterschiedlichen Tages-, Jahres- und Sonnenzykluszeiten aufweisen, möchten Funkamateure gerne auf möglichst vielen Frequenzbändern Betrieb machen können. Zwei Beispiele für Multibandantennen sind die *G5RV-Antenne mit zwei gleichlangen Schenkeln* (vgl. Abbildung [ref:a_g5rv]) und einer Zweidrahtleitung sowie die *asymmetrisch angeregte Windomantenne* (vgl. Abbildung [ref:a_windom]), bei denen sich durch geschickte Abmessungen viele Resonanzen und damit eine Nutzung auf möglichst vielen Amateurfunkbändern ergeben.
+Since frequency bands have different propagation conditions at different times of day, seasons and phases of the solar cycle, radio amateurs like to be able to operate on as many frequency bands as possible. Two examples of multiband antennas are the *G5RV antenna with two legs of equal length* (see Figure [ref:a_g5rv]) and a twin feeder, and the *off-centre-fed Windom antenna* (see Figure [ref:a_windom]); in both, clever dimensions give many resonances and thus use on as many amateur bands as possible.
 
 <margin>
-[picture:313:a_g5rv:G5RV-Antenne]
-[picture:309:a_windom:Windomantenne]
+[picture:313:a_g5rv:G5RV antenna]
+[picture:309:a_windom:Windom antenna]
 </margin>
 
 [question:AG121]
@@ -84,15 +84,15 @@ Da Frequenzbänder unterschiedliche Ausbreitungsbedingungen zu unterschiedlichen
 
 % TODO: Darstellung von $5/8 \lambda$ prüfen
 
-Dass eine Antenne resonant ist, bedeutet noch nicht, dass sie auch eine gute Abstrahlcharakteristik aufweist. Oftmals ist es gewünscht, eine möglichst flache Abstrahlung zu erreichen. Bei gegenüber Erde erregten Vertikalantennen ergibt sich eine Länge von ca. $5/8 \lambda$ als Optimum.
+That an antenna is resonant does not yet mean that it also has a good radiation pattern. A radiation angle as low as possible is often desired. For vertical antennas fed against earth, a length of approx. $5/8 \lambda$ turns out to be the optimum.
 
 <indepth>
-Ein einfacher Draht mit Erde als Gegenpol ist bei einer Länge von $5/8 \lambda$ nicht resonant. Resonanzen ergeben sich nur bei $1/4$, $3/4$, $5/4$ usw. Daher ist eine Anpassung notig. Dies wird in der Regel durch Einfügen einer Spule erreicht, welche die elektrische Länge von $5/8$ auf $6/8$ (also $3/4$) verlängert. Solche Spulen sieht man oft bei Antennen für den KFZ-Bereich.
+A simple wire with earth as the other pole is not resonant at a length of $5/8 \lambda$. Resonances only occur at $1/4$, $3/4$, $5/4$ and so on. Matching is therefore necessary. This is usually achieved by inserting a coil that lengthens the electrical length from $5/8$ to $6/8$ (i.e. $3/4$). Such coils are often seen on vehicle antennas.
 % TODO: Bild VHF oder CB-KFZ-Antenne
 </indepth>
 
 <attention>
-Das Optimum von $5/8 \lambda$ gilt nur für gegenüber Erde erregte Antennen. Betrachtet man beispielsweise mittengespeiste Dipole, die sich entweder im Freiraum oder vertikal, knapp über dem Erdboden befinden, dann liegt das Optimum bei $5/4 \lambda$.
+The optimum of $5/8 \lambda$ only applies to antennas fed against earth. If, for example, centre-fed dipoles are considered that are either in free space or vertical, just above the ground, the optimum is $5/4 \lambda$.
 % TODO: Frage ist falsch, siehe 2. Review von DL9JBE.
 </attention>
 

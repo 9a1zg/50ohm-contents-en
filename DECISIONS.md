@@ -460,6 +460,22 @@ and the checker's "Provjera" section).
   the bracket goes. A control described without its label ("the slider on the
   right-hand side", modulatoren) is simply translated. (Unit
   nea_digitale_uebertragungsverfahren_2, psk.)
+- ***Verkürzungsfaktor* in the course text: *shortening factor* for
+  antennas, *velocity factor* for lines and cables**, as in the exam
+  questions (AG101–AG105, EG202 against EG201, AG313, AG315, AG316). German
+  has one word, and the course treats it as one quantity: verkuerzungsfaktor_1
+  introduces it for "Leitungen, einschließlich Antennendrähten", defines it
+  as a ratio of velocities (EG201 "velocity factor") and then applies it to
+  wire antennas (EG202 "shortening factor"). There the English names it once
+  with both terms and the German word: "the *velocity factor* $k_\mathrm{v}$
+  (for antennas usually called the *shortening factor*; German has one word
+  for both, *Verkürzungsfaktor*)", on the slide "(for antennas: *shortening
+  factor*)". Everywhere else each place takes the term for what it is about:
+  antenna lengths, the cause of the factor (wires not infinitely thin), the
+  dipole slide note and the loop's counterpart → *shortening factor*;
+  open-wire lines and coaxial cables → *velocity factor*. The loop
+  antenna's *Verlängerungsfaktor* is the *lengthening factor* (glossary §14).
+  (Unit nea_antennen_uebertragungsleitungen_1.)
 
 ## Open questions for DARC
 

@@ -1,7 +1,7 @@
-Wenn man hinter und vor einem Dipol leitende Stäbe geschickt anordnet, entsteht eine *Yagi-Uda-Antenne*. Diese bündelt die Funkwellen beim Senden in eine bestimmte Richtung und nimmt beim Empfang die Funkwellen aus dieser Richtung besonders gut auf. Yagi-Uda-Antennen gehören zu den *Richtantennen*, da man sie auf die Gegenstation ausrichtet, mit der man funkt. Der Effekt von Richtantennen ist vergleichbar mit dem gebündelten Licht aus einer Taschenlampe oder einem Scheinwerfer.
+If conducting rods are cleverly arranged behind and in front of a dipole, the result is a *Yagi-Uda antenna*. When transmitting, it concentrates the radio waves in a particular direction, and when receiving, it picks up radio waves from that direction particularly well. Yagi-Uda antennas are *directional antennas*, because they are pointed at the other station you are in contact with. The effect of directional antennas is comparable to the concentrated beam of light from a torch or a searchlight.
 
 <person>
-Die Yagi-Uda-Antenne ist nach ihren Erfindern, den japanischen Wissenschaftlern *Hidetsugu Yagi* und *Shintaro Uda* benannt, die ihre Entdeckung erstmals im Jahre 1926 veröffentlicht haben.
+The Yagi-Uda antenna is named after its inventors, the Japanese scientists *Hidetsugu Yagi* and *Shintaro Uda*, who first published their discovery in 1926.
 </person>
 
 [question:NG108]
