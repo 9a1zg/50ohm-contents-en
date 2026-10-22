@@ -493,6 +493,7 @@ real choice or a trap.
 | Energie / Arbeit | energy / work | |
 | Wattstunde / Kilowattstunde | watt-hour / kilowatt-hour | |
 | Amperestunde (Ah) | ampere-hour (Ah) | |
+| Amperesekunde (As) | ampere-second (As) | |
 | Coulomb / Joule / Watt / Volt / Ampere / Ohm / Farad / Henry / Hertz | coulomb / joule / watt / volt / ampere / ohm / farad / henry / hertz | lower case as unit names |
 | Ohmsches Gesetz | Ohm's law | |
 | Proportionalitätsfaktor | constant of proportionality | |
@@ -508,6 +509,9 @@ real choice or a trap.
 | Temperaturkoeffizient | temperature coefficient | |
 | Raumtemperatur | room temperature | |
 | Kupfer / Aluminium / Silizium / Germanium | copper / aluminium / silicon / germanium | British *aluminium*; *silicon* not *silicone* |
+| Silber / Gold / Zinn / Zink / Wolfram / Chrom / Eisen / Messing / Bronze | silver / gold / tin / zinc / tungsten / chromium / iron / brass / bronze | trap: *Wolfram* is *tungsten* |
+| Porzellan / Polyethylen / Polystyrol / Polyvinylchlorid / Polytetrafluorethylen / Kork | porcelain / polyethylene / polystyrene / polyvinyl chloride / polytetrafluoroethylene / cork | |
+| Bor / Phosphor / Bismut / Tellur | boron / phosphorus / bismuth / tellurium | |
 | Spannungsquelle / Stromquelle | voltage source / current source | |
 | Strom- und Spannungsquellen | current and voltage sources | |
 | Konstantstromquelle | constant-current source | |
@@ -561,6 +565,7 @@ real choice or a trap.
 | Oberschwingung / Oberwelle | harmonic | trap: the German *n-te Oberwelle* is the *(n+1)th harmonic* (AB402: "third Oberwelle" = fourth harmonic). Where the German contrasts the two words, write "the third overtone (Oberwelle)" vs "the fourth harmonic" |
 | Oberschwingungsanteil / Oberwellenanteil | harmonic content | |
 | Vielfache (ganzzahlige) | (integer) multiples | |
+| Teile (einer Frequenz) / Unterschwingungen | submultiples (of a frequency) / subharmonics | AB401, AB403 |
 | Wirkleistung / Blindleistung / Scheinleistung | real (active) power / reactive power / apparent power | |
 | Verlustleistung | power dissipation; power loss | |
 | Wirkungsgrad | efficiency | |
@@ -581,6 +586,7 @@ real choice or a trap.
 | Toleranz | tolerance | |
 | Normreihe (E-Reihe) | preferred-value series (E series) | |
 | Belastbarkeit / Nennleistung | power rating | |
+| Belastungsnennwert | power rating | EB514 |
 | Drahtwiderstand | wirewound resistor | |
 | Kohleschichtwiderstand | carbon-film resistor | |
 | Metallschichtwiderstand | metal-film resistor | |
@@ -602,6 +608,7 @@ real choice or a trap.
 | Drehkondensator | variable capacitor | |
 | Verlustfaktor | dissipation factor; loss tangent (tan δ) | |
 | Spannungsfestigkeit | voltage rating | |
+| Metallbeläge (Kondensator) | metal foils (electrodes) | wound capacitors |
 | Spule | inductor; coil | *inductor* for the component, *coil* for the physical winding |
 | Induktivität | inductance | |
 | Windung / Windungszahl | turn / number of turns | |
@@ -620,8 +627,12 @@ real choice or a trap.
 | Halbleiterdiode | semiconductor diode | |
 | PN-Übergang / Grenzschicht | PN junction / junction | |
 | Sperrschicht | depletion layer | |
+| Verarmungszone | depletion region | AB109; kept apart from *Sperrschicht* (depletion layer) because the German uses a different word |
 | N-Seite / P-Seite (N-Teil / P-Teil) | N-type side / P-type side | |
 | Dotierung | doping | |
+| Dotierungsatome / Fremdatome | dopant atoms / foreign (impurity) atoms | |
+| N-leitend / P-leitend (Halbleitermaterial) | N-type / P-type (semiconductor material) | |
+| Elektronenlöcher / Löcher | holes | |
 | Atommangel / Überschuss (Elektronen) | deficiency / excess (of electrons) | holes / free electrons |
 | Anode / Kathode | anode / cathode | |
 | Durchlassrichtung / Sperrrichtung | forward direction (forward bias) / reverse direction (reverse bias) | |
@@ -709,6 +720,7 @@ real choice or a trap.
 | Oberwellenfilter | harmonic filter | |
 | Pi-Filter / Collins-Filter | pi network (pi filter) | |
 | Filtercharakteristik / Flankensteilheit | filter response / skirt steepness (roll-off) | |
+| Durchlassdämpfung | passband loss (insertion loss) | |
 | Diplexer | diplexer | |
 | Kopplung (lose / kritisch / überkritisch) | coupling (loose / critical / over-critical) | |
 | Koppelkondensator | coupling capacitor | |
@@ -1013,6 +1025,7 @@ real choice or a trap.
 | Abstrahlwinkel / Erhebungswinkel | angle of radiation; elevation angle | RSGB *take-off angle* in propagation context |
 | Abstrahlung / Strahlung | radiation | |
 | Polarisation (horizontal / vertikal / zirkular) | polarisation (horizontal / vertical / circular) | British *-isation* |
+| rechtsdrehend / linksdrehend; rechtszirkular / linkszirkular (Polarisation) | right-hand circular / left-hand circular (polarisation) | |
 | Polarisationsdrehung | polarisation rotation (Faraday rotation) | |
 | Strahlungsleistung | radiated power | |
 | äquivalente isotrope Strahlungsleistung (EIRP) | equivalent isotropically radiated power (EIRP) | keep "EIRP" as the German does |
@@ -1148,6 +1161,7 @@ real choice or a trap.
 | Skalenteil / Division | division | |
 | Parallaxenfehler | parallax error | |
 | Oszilloskop / Oszillogramm | oscilloscope / oscillogram (trace) | |
+| Schirmbild | screen display (oscilloscope screen) | |
 | Tastkopf | probe | "10:1 Tastkopf" → "10:1 probe" |
 | Zeitbasis | timebase | |
 | Trigger | trigger | |
@@ -1166,6 +1180,7 @@ real choice or a trap.
 | Dummy Load / künstliche Antenne / Abschlusswiderstand | dummy load / termination | |
 | Sonstige Messgeräte und Messmittel | other measuring instruments and equipment | catalogue heading |
 | Rauschgenerator / Signalgenerator | noise generator / signal generator | |
+| Messsender (Messender) | signal generator | |
 | Messbrücke | measuring bridge | |
 | Kreuzzeigerinstrument | cross-needle meter | |
 | Thermoumformer | thermocouple converter | |
@@ -1259,6 +1274,8 @@ the entries above, listed so that they are rendered the same way every time.
 | Ausgangsspannung / Eingangsspannung | output voltage / input voltage | |
 | Kollektorspannung | collector voltage | |
 | Gleichspannungsquelle / Gleichspannungsversorgung | DC voltage source / DC supply | |
+| Leistungsaufnahme / Stromaufnahme / Stromentnahme | power consumption (power drawn) / current drawn | |
+| häusliche Spannungsversorgung / Stromversorgung (230 V) | domestic mains supply (230 V) | |
 | Wechselspannungsverstärkung | AC voltage gain | |
 | Spannungsschwankung | voltage fluctuation | |
 | Schaltungspunkt | point in the circuit; node | |

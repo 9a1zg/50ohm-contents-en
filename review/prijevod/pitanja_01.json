@@ -1,0 +1,1209 @@
+{
+  "pitanja": {
+    "NA103": {
+      "question": "According to the data sheet, 100 m of a particular wire weighs 210 g. A piece of wire of the same material weighs 55 g. Approximately how long is the piece of wire?",
+      "answer_a": "26.2 m",
+      "answer_b": "382 m",
+      "answer_c": "115 m",
+      "answer_d": "38.2 m"
+    },
+    "NA102": {
+      "question": "Antennas are to be made from 250 m of wire. Each antenna needs 18.5 m. What is the maximum number of antennas that can be made from the available wire?",
+      "answer_a": "13",
+      "answer_b": "14",
+      "answer_c": "12",
+      "answer_d": "15"
+    },
+    "NA101": {
+      "question": "A 20 m long wire is cut at 2/3 of its length. Approximately how long are the resulting pieces?",
+      "answer_a": "13.33 m and 6.67 m",
+      "answer_b": "12.22 m and 7.78 m",
+      "answer_c": "11.11 m and 8.89 m",
+      "answer_d": "14.44 m and 5.56 m"
+    },
+    "AA116": {
+      "question": "The frequency generation of a transmitter has an accuracy of 10 ppm. The digital display shows a transmit frequency of 14.200.000 MHz. Within what limits can the actual frequency lie?",
+      "answer_a": "Between 14.199858 and 14.200142 MHz",
+      "answer_b": "Between 14.199986 and 14.200014 MHz",
+      "answer_c": "Between 14.199990 and 14.200010 MHz",
+      "answer_d": "Between 14.198580 and 14.201420 MHz"
+    },
+    "AA115": {
+      "question": "An accuracy of 1 ppm at a frequency of 435 MHz corresponds to ...",
+      "answer_a": "435 Hz.",
+      "answer_b": "43.5 Hz.",
+      "answer_c": "4.35 MHz.",
+      "answer_d": "4.35 kHz."
+    },
+    "AA114": {
+      "question": "By how much has the receiver input voltage fallen if the S-meter reading drops from S9+20 dB to S8 because of a change in propagation conditions? The receiver input voltage falls by ...",
+      "answer_a": "26 dB.",
+      "answer_b": "23 dB.",
+      "answer_c": "6 dB.",
+      "answer_d": "20 dB."
+    },
+    "AA113": {
+      "question": "What is the difference in dB between the S units S4 and S7?",
+      "answer_a": "18 dB",
+      "answer_b": "9 dB",
+      "answer_c": "15 dB",
+      "answer_d": "3 dB"
+    },
+    "AA112": {
+      "question": "The level 120 dB$μ$V/m corresponds to an electric field strength of ...",
+      "answer_a": "1 V/m.",
+      "answer_b": "0.78 V/m.",
+      "answer_c": "41.6 V/m.",
+      "answer_d": "1000 kV/m."
+    },
+    "AA111": {
+      "question": "A voltage ratio of 15 corresponds to ...",
+      "answer_a": "23.5 dB.",
+      "answer_b": "15 dB.",
+      "answer_c": "54 dB.",
+      "answer_d": "11.7 dB."
+    },
+    "AA110": {
+      "question": "What powers do the levels 0 dBm, 3 dBm and 20 dBm correspond to?",
+      "answer_a": "1 mW, 2 mW, 100 mW",
+      "answer_b": "1 mW, 1.4 mW, 10 mW",
+      "answer_c": "0 mW, 30 mW, 200 mW",
+      "answer_d": "0 mW, 3 mW, 20 mW"
+    },
+    "AA109": {
+      "question": "A transmitter with an output power of 1 W is connected to a power amplifier with a gain of 10 dB. What is the output level of the power amplifier?",
+      "answer_a": "40 dBm",
+      "answer_b": "30 dBm",
+      "answer_c": "20 dBm",
+      "answer_d": "10 dBm"
+    },
+    "AA108": {
+      "question": "The output level of a transmitter is 20 dBW. This corresponds to an output power of ...",
+      "answer_a": "$10^2$ W.",
+      "answer_b": "$10^{0.5}$ W.",
+      "answer_c": "$10^{20}$ W.",
+      "answer_d": "$10^1$ W."
+    },
+    "AA107": {
+      "question": "A transmitter with an output power of 1 W is connected to a power amplifier with a gain of 10 dB. What is the output level of the power amplifier?",
+      "answer_a": "10 dBW",
+      "answer_b": "1 dBW",
+      "answer_c": "3 dBW",
+      "answer_d": "20 dBW"
+    },
+    "AA106": {
+      "question": "An RF power amplifier has a gain of 16 dB and a maximum output power of 100 W. What RF output power is to be expected if the amplifier is driven with 1 W of RF input power?",
+      "answer_a": "40 W",
+      "answer_b": "4 W",
+      "answer_c": "16 W",
+      "answer_d": "20 W"
+    },
+    "AA105": {
+      "question": "A power gain of 40 corresponds to ...",
+      "answer_a": "16 dB.",
+      "answer_b": "36.8 dB.",
+      "answer_c": "32 dB.",
+      "answer_d": "73.8 dB."
+    },
+    "AA104": {
+      "question": "Which unit is normally used for the symbol rate?",
+      "answer_a": "baud (Bd)",
+      "answer_b": "bits per second (bit/s)",
+      "answer_c": "hertz (Hz)",
+      "answer_d": "decibel (dB)"
+    },
+    "AA103": {
+      "question": "Which unit is normally used for energy?",
+      "answer_a": "joule (J) or watt-hour (Wh)",
+      "answer_b": "volt (V) or watt per ampere (W/A)",
+      "answer_c": "watt (W) or joule per hour (J/h)",
+      "answer_d": "watt (W) or volt-ampere (VA)"
+    },
+    "AA102": {
+      "question": "Which unit is normally used for electric charge?",
+      "answer_a": "ampere-second (As)",
+      "answer_b": "kilowatt (kW)",
+      "answer_c": "joule (J)",
+      "answer_d": "ampere (A)"
+    },
+    "AA101": {
+      "question": "Which unit is normally used for impedance?",
+      "answer_a": "ohm",
+      "answer_b": "farad",
+      "answer_c": "siemens",
+      "answer_d": "henry"
+    },
+    "EA116": {
+      "question": "3750 kHz corresponds to ...",
+      "answer_a": "3.750 MHz.",
+      "answer_b": "37500000 Hz.",
+      "answer_c": "0.03750 GHz.",
+      "answer_d": "0.3750 GHz."
+    },
+    "EA115": {
+      "question": "0.22 μF corresponds to ...",
+      "answer_a": "220 nF.",
+      "answer_b": "22 nF.",
+      "answer_c": "220 pF.",
+      "answer_d": "22 pF."
+    },
+    "EA114": {
+      "question": "$5 \\cdot 10^{-1}$ W corresponds to ...",
+      "answer_a": "500 mW.",
+      "answer_b": "5 W.",
+      "answer_c": "-500 mW.",
+      "answer_d": "-5 W."
+    },
+    "EA113": {
+      "question": "$2\\cdot 10^{-7}$ W corresponds to ...",
+      "answer_a": "0.2 μW.",
+      "answer_b": "2 μW.",
+      "answer_c": "20 μW.",
+      "answer_d": "200 μW."
+    },
+    "EA112": {
+      "question": "0.002 MΩ corresponds to ...",
+      "answer_a": "$2\\cdot 10^{3} \\Omega$.",
+      "answer_b": "$20\\cdot 10^{3} \\Omega$.",
+      "answer_c": "$2\\cdot 10^{2} \\Omega$.",
+      "answer_d": "$2000\\cdot 10^{2} \\Omega$."
+    },
+    "EA111": {
+      "question": "0.01 mV corresponds to ...",
+      "answer_a": "$10\\cdot 10^{-6}$ V.",
+      "answer_b": "$1\\cdot 10^{-7}$ V.",
+      "answer_c": "$10\\cdot 10^{-5}$ V.",
+      "answer_d": "$0.01\\cdot 10^{3}$ V."
+    },
+    "EA110": {
+      "question": "4200000 Hz corresponds to ...",
+      "answer_a": "$4.2\\cdot 10^6$ Hz.",
+      "answer_b": "$4.2\\cdot 10^5$ Hz.",
+      "answer_c": "$42\\cdot 10^6$ Hz.",
+      "answer_d": "$42\\cdot 10^{-5}$ Hz."
+    },
+    "EA109": {
+      "question": "0.042 A corresponds to ...",
+      "answer_a": "$42\\cdot 10^{-3}$ A.",
+      "answer_b": "$42\\cdot 10^3$ A.",
+      "answer_c": "$42\\cdot 10^{-2}$ A.",
+      "answer_d": "$42\\cdot 10^{-1}$ A."
+    },
+    "EA108": {
+      "question": "0.00042 A corresponds to ...",
+      "answer_a": "$420\\cdot 10^{-6}$ A.",
+      "answer_b": "$420\\cdot 10^6$ A.",
+      "answer_c": "$420\\cdot 10^{-5}$ A.",
+      "answer_d": "$42\\cdot 10^{-6}$ A."
+    },
+    "EA107": {
+      "question": "By how many decibels does the power level change when the power is doubled?",
+      "answer_a": "3 dB",
+      "answer_b": "6 dB",
+      "answer_c": "1.5 dB",
+      "answer_d": "12 dB"
+    },
+    "EA106": {
+      "question": "Which unit is normally used for the data rate?",
+      "answer_a": "bits per second (bit/s)",
+      "answer_b": "baud (Bd)",
+      "answer_c": "hertz (Hz)",
+      "answer_d": "decibel (dB)"
+    },
+    "EA105": {
+      "question": "Which unit is normally used for bandwidth?",
+      "answer_a": "hertz (Hz)",
+      "answer_b": "baud (Bd)",
+      "answer_c": "bits per second (bit/s)",
+      "answer_d": "decibel (dB)"
+    },
+    "EA104": {
+      "question": "Which unit is normally used for magnetic field strength?",
+      "answer_a": "ampere per metre (A/m)",
+      "answer_b": "watt per metre (W/m)",
+      "answer_c": "volt per metre (V/m)",
+      "answer_d": "henry per metre (H/m)"
+    },
+    "EA103": {
+      "question": "Which unit is normally used for electric field strength?",
+      "answer_a": "volt per metre (V/m)",
+      "answer_b": "watt per metre (W/m)",
+      "answer_c": "ampere per metre (A/m)",
+      "answer_d": "henry per metre (H/m)"
+    },
+    "EA102": {
+      "question": "Which unit is normally used for inductance?",
+      "answer_a": "henry (H)",
+      "answer_b": "farad (F)",
+      "answer_c": "ohm ($\\Omega$)",
+      "answer_d": "ampere-hour (Ah)"
+    },
+    "EA101": {
+      "question": "Which unit is normally used for capacitance?",
+      "answer_a": "farad (F)",
+      "answer_b": "ohm ($\\Omega$)",
+      "answer_c": "ampere-hour (Ah)",
+      "answer_d": "henry (H)"
+    },
+    "NA213": {
+      "question": "Which statement is correct for an oscillation of 145000000 cycles per second?",
+      "answer_a": "Its frequency is 145 MHz.",
+      "answer_b": "Its period is 145 μs.",
+      "answer_c": "Its amplitude is 145 pps.",
+      "answer_d": "Its velocity of propagation is 145 km/s."
+    },
+    "NA212": {
+      "question": "144000000 Hz corresponds to ...",
+      "answer_a": "144 MHz",
+      "answer_b": "144 kHz",
+      "answer_c": "1.44 GHz",
+      "answer_d": "1.44 kHz"
+    },
+    "NA211": {
+      "question": "0.010 W corresponds to ...",
+      "answer_a": "10 mW",
+      "answer_b": "10 μW",
+      "answer_c": "100 nW",
+      "answer_d": "100 pW"
+    },
+    "NA210": {
+      "question": "1 W corresponds to ...",
+      "answer_a": "1000 mW",
+      "answer_b": "1000 μW",
+      "answer_c": "1000 nW",
+      "answer_d": "1000 pW"
+    },
+    "NA209": {
+      "question": "42 mA corresponds to ...",
+      "answer_a": "0.042 A.",
+      "answer_b": "0.0042 A.",
+      "answer_c": "4.2 A.",
+      "answer_d": "0.42 A."
+    },
+    "NA208": {
+      "question": "4.2 V corresponds to ...",
+      "answer_a": "4200 mV",
+      "answer_b": "4.200 μV",
+      "answer_c": "4200 kV",
+      "answer_d": "4200 MV"
+    },
+    "NA207": {
+      "question": "If s stands for second, the unit of frequency is ...",
+      "answer_a": "Hz = $\\dfrac{1}{\\textrm{s}}$",
+      "answer_b": "Hz = s",
+      "answer_c": "Hz = s$^2$",
+      "answer_d": "Hz = $\\dfrac{1}{\\textrm{s}^2}$"
+    },
+    "NA206": {
+      "question": "Which unit is normally used for the frequency of an electrical oscillation?",
+      "answer_a": "hertz (Hz)",
+      "answer_b": "metre (m)",
+      "answer_c": "metre per second (m/s)",
+      "answer_d": "second per metre (s/m)"
+    },
+    "NA205": {
+      "question": "Which unit is normally used for wavelength?",
+      "answer_a": "metre (m)",
+      "answer_b": "metre per second (m/s)",
+      "answer_c": "hertz (Hz)",
+      "answer_d": "second per metre (s/m)"
+    },
+    "NA204": {
+      "question": "Which unit is normally used for electrical power?",
+      "answer_a": "watt (W)",
+      "answer_b": "kilowatt-hour (kWh)",
+      "answer_c": "joule (J)",
+      "answer_d": "ampere-hour (Ah)"
+    },
+    "NA203": {
+      "question": "Which unit is normally used for electrical resistance?",
+      "answer_a": "ohm ($\\Omega$)",
+      "answer_b": "volt (V)",
+      "answer_c": "ampere (A)",
+      "answer_d": "watt (W)"
+    },
+    "NA202": {
+      "question": "Which unit is normally used for electric current?",
+      "answer_a": "ampere (A)",
+      "answer_b": "volt (V)",
+      "answer_c": "ohm ($\\Omega$)",
+      "answer_d": "ampere-hour (Ah)"
+    },
+    "NA201": {
+      "question": "Which unit is normally used for voltage?",
+      "answer_a": "volt (V)",
+      "answer_b": "ampere (A)",
+      "answer_c": "ohm ($\\Omega$)",
+      "answer_d": "ampere-hour (Ah)"
+    },
+    "EA208": {
+      "question": "Calculate the decimal value of the binary number 11111000. The decimal number is:",
+      "answer_a": "248",
+      "answer_b": "78",
+      "answer_c": "156",
+      "answer_d": "142"
+    },
+    "EA207": {
+      "question": "Calculate the decimal value of the binary number 10011100. The decimal number is:",
+      "answer_a": "156",
+      "answer_b": "142",
+      "answer_c": "78",
+      "answer_d": "248"
+    },
+    "EA206": {
+      "question": "Calculate the decimal value of the binary number 10001110. The decimal number is:",
+      "answer_a": "142",
+      "answer_b": "78",
+      "answer_c": "156",
+      "answer_d": "248"
+    },
+    "EA205": {
+      "question": "Calculate the decimal value of the binary number 01001110. The decimal number is:",
+      "answer_a": "78",
+      "answer_b": "156",
+      "answer_c": "142",
+      "answer_d": "248"
+    },
+    "EA204": {
+      "question": "How many different values can be represented by a five-digit binary number?",
+      "answer_a": "32",
+      "answer_b": "5",
+      "answer_c": "64",
+      "answer_d": "128"
+    },
+    "EA203": {
+      "question": "How many different states can be represented by a binary number consisting of a sequence of 4 bits?",
+      "answer_a": "16",
+      "answer_b": "4",
+      "answer_c": "6",
+      "answer_d": "8"
+    },
+    "EA202": {
+      "question": "How many different states can be represented by a binary number consisting of a sequence of 3 bits?",
+      "answer_a": "8",
+      "answer_b": "4",
+      "answer_c": "6",
+      "answer_d": "16"
+    },
+    "EA201": {
+      "question": "What is the advantage of the binary number system over the decimal number system in electronic circuits?",
+      "answer_a": "The binary digits 0 and 1 can be represented as two electrical states and can therefore be processed easily by switching elements (e.g. transistors).",
+      "answer_b": "The accuracy of the binary system (with two digits) is higher by a factor of 5 than that of the decimal system (with 10 digits).",
+      "answer_c": "The intermediate range between 0 and 1 can be represented with high accuracy by analogue amplifier circuits.",
+      "answer_d": "More than one bit of information can be transmitted per digit (1 binary digit allows 8 decimal digits to be transmitted)."
+    },
+    "AB109": {
+      "question": "How does the depletion region behave in the semiconductor diode shown here?",
+      "answer_a": "It widens.",
+      "answer_b": "It narrows.",
+      "answer_c": "It does not change.",
+      "answer_d": "It disappears."
+    },
+    "AB108": {
+      "question": "The following picture shows the basic structure of a semiconductor diode. How is the depletion layer formed?",
+      "answer_a": "At the junction, electrons migrate from the N-type side into the P-type side. This partly reduces the excess of electrons on the N-type side and partly neutralises the deficiency of electrons on the P-type side. An insulating layer forms on both sides of the boundary.",
+      "answer_b": "At the junction, electrons migrate from the P-type side into the N-type side. This partly reduces the excess of electrons on the P-type side and partly neutralises the deficiency of electrons on the N-type side. An insulating layer forms on both sides of the boundary.",
+      "answer_c": "At the junction, atoms migrate from the P-type side into the N-type side. This reduces the deficiency of atoms on the P-type side and increases the deficiency of atoms on the N-type side. A conducting layer forms on both sides of the boundary.",
+      "answer_d": "At the junction, atoms migrate from the N-type side into the P-type side. This reduces the deficiency of atoms on the N-type side and increases the deficiency of atoms on the P-type side. A conducting layer forms on both sides of the boundary."
+    },
+    "AB107": {
+      "question": "P-type semiconductor material is characterised by ...",
+      "answer_a": "an excess of mobile holes.",
+      "answer_b": "an absence of dopant atoms.",
+      "answer_c": "an absence of atoms in the lattice of the semiconductor crystal.",
+      "answer_d": "an excess of mobile electrons."
+    },
+    "AB106": {
+      "question": "N-type semiconductor material is characterised by ...",
+      "answer_a": "an excess of mobile electrons.",
+      "answer_b": "an absence of dopant atoms.",
+      "answer_c": "an absence of atoms in the lattice of the semiconductor crystal.",
+      "answer_d": "an excess of mobile holes."
+    },
+    "AB105": {
+      "question": "What is meant by doping?",
+      "answer_a": "Introducing foreign atoms of a different chemical valency into a base semiconductor material in order to provide free charge carriers.",
+      "answer_b": "Removing atoms from the base semiconductor material in order to reduce its electrical conductivity.",
+      "answer_c": "Introducing magnetic north or south poles into a base semiconductor material in order to increase its inductance.",
+      "answer_d": "Removing impurities from a base semiconductor material in order to generate electrons."
+    },
+    "AB104": {
+      "question": "What are semiconductor materials?",
+      "answer_a": "Some substances (e.g. silicon) are good insulators in the pure state at room temperature. However, small additions of suitable other substances (e.g. boron, phosphorus) or high temperatures turn them into conductors.",
+      "answer_b": "Some substances (e.g. silicon) are good conductors in the pure state at room temperature. However, small additions of suitable other substances (e.g. boron, phosphorus) or high temperatures reduce their conductivity.",
+      "answer_c": "Some substances (e.g. silicon) are good conductors in the pure state at room temperature. Small additions of suitable other substances (e.g. bismuth, tellurium) halve their resistance.",
+      "answer_d": "Some substances (e.g. silicon) are good electrolytes in the pure state at room temperature. With small additions of suitable other substances (e.g. bismuth, tellurium) they can be made into either N-type or P-type material for the anodes or cathodes of batteries."
+    },
+    "AB103": {
+      "question": "How does the resistance of a metal normally change with temperature?",
+      "answer_a": "The resistance rises as the temperature increases, i.e. the temperature coefficient is positive.",
+      "answer_b": "The resistance falls as the temperature increases, i.e. the temperature coefficient is negative.",
+      "answer_c": "The resistance does not change as the temperature increases, i.e. the temperature coefficient is zero.",
+      "answer_d": "The resistance oscillates as the temperature increases, i.e. the temperature coefficient is complex."
+    },
+    "AB102": {
+      "question": "You measure a resistance of 1.5 ohms between the ends of a copper wire with a cross-sectional area of 0.5 mm². Approximately how long is the wire?",
+      "answer_a": "41.7 m",
+      "answer_b": "3.0 m",
+      "answer_c": "4.2 m",
+      "answer_d": "16.5 m"
+    },
+    "AB101": {
+      "question": "Approximately what is the resistance of a copper wire if the wire used has a length of 1.8 m and a diameter of 0.2 mm?",
+      "answer_a": "1.02 ohms",
+      "answer_b": "56.0 ohms",
+      "answer_c": "0.26 ohms",
+      "answer_d": "0.16 ohms"
+    },
+    "NB104": {
+      "question": "In which group are all the materials non-conductors (insulators) at room temperature?",
+      "answer_a": "Porcelain, polyethylene (PE), polystyrene (PS)",
+      "answer_b": "Polytetrafluoroethylene (PTFE), polyvinyl chloride (PVC), tungsten",
+      "answer_c": "Polystyrene (PS), brass, cork",
+      "answer_d": "Porcelain, polyethylene (PE), bronze"
+    },
+    "NB103": {
+      "question": "Which of the following metals has the poorest electrical conductivity at room temperature?",
+      "answer_a": "Tin",
+      "answer_b": "Copper",
+      "answer_c": "Gold",
+      "answer_d": "Aluminium"
+    },
+    "NB102": {
+      "question": "Which of the following metals has the highest electrical conductivity at room temperature?",
+      "answer_a": "Silver",
+      "answer_b": "Copper",
+      "answer_c": "Gold",
+      "answer_d": "Tin"
+    },
+    "NB101": {
+      "question": "Which of the following metals has the highest electrical conductivity at room temperature?",
+      "answer_a": "Copper",
+      "answer_b": "Aluminium",
+      "answer_c": "Tungsten",
+      "answer_d": "Zinc"
+    },
+    "AB214": {
+      "question": "A DC–DC converter converts 5 V to 12 V. It draws 3 A and delivers 1 A. What is its efficiency?",
+      "answer_a": "80.0 %",
+      "answer_b": "125 %",
+      "answer_c": "13.9 %",
+      "answer_d": "28.6 %"
+    },
+    "AB213": {
+      "question": "A DC–DC converter converts 12 V to 5 V. It draws 2 A and delivers 3 A. What is its efficiency?",
+      "answer_a": "62.5 %",
+      "answer_b": "160 %",
+      "answer_c": "27.7 %",
+      "answer_d": "41.7 %"
+    },
+    "AB212": {
+      "question": "What is the primary function of a solar cell?",
+      "answer_a": "Converting radiant energy into electrical energy.",
+      "answer_b": "Converting electrical energy into radiant energy.",
+      "answer_c": "Converting radiant energy into thermal energy.",
+      "answer_d": "Converting thermal energy into radiant energy."
+    },
+    "AB211": {
+      "question": "Ideally, for how long could an amateur radio receiver drawing a current of 0.8 A be operated from a fully charged 60 Ah rechargeable battery until the battery is discharged to 10 % of its capacity?",
+      "answer_a": "67 hours and 30 minutes",
+      "answer_b": "43 hours and 12 minutes",
+      "answer_c": "74 hours and 60 minutes",
+      "answer_d": "48 hours and 0 minutes"
+    },
+    "AB210": {
+      "question": "The battery pack of a handheld transceiver is marked: 7.4 V - 2200 mAh - 16.28 Wh. Which term applies to the figure 2200 mAh?",
+      "answer_a": "Rated capacity",
+      "answer_b": "Rated power",
+      "answer_c": "Maximum charging current per hour",
+      "answer_d": "Maximum discharge current per hour"
+    },
+    "AB209": {
+      "question": "The following battery circuit consists of cells of 2 V each. Each cell can deliver a charge of 10 Ah. What are the ratings of the battery?",
+      "answer_a": "12 V/10 Ah",
+      "answer_b": "12 V/60 Ah",
+      "answer_c": "2 V/10 Ah",
+      "answer_d": "2 V/60 Ah"
+    },
+    "AB208": {
+      "question": "The open-circuit voltage of a DC voltage source is 13.8 V. When the voltage source delivers a current of 20 A, the terminal voltage stays at 13.6 V. What is the internal resistance of the voltage source?",
+      "answer_a": "10 m$\\Omega$",
+      "answer_b": "20 m$\\Omega$",
+      "answer_c": "0.2 ohms",
+      "answer_d": "0.1 ohms"
+    },
+    "AB207": {
+      "question": "The open-circuit voltage of a DC voltage source is 13.5 V. When the voltage source delivers a current of 2 A, the terminal voltage falls to 13 V. What is the internal resistance of the voltage source?",
+      "answer_a": "0.25 ohms",
+      "answer_b": "6.75 ohms",
+      "answer_c": "4 ohms",
+      "answer_d": "1 ohm"
+    },
+    "AB206": {
+      "question": "The open-circuit voltage of a DC voltage source is 13.5 V. When the voltage source delivers a current of 0.9 A, the terminal voltage falls to 12.4 V. What is the internal resistance of the voltage source?",
+      "answer_a": "1.22 ohms",
+      "answer_b": "0.82 ohms",
+      "answer_c": "0.99 ohms",
+      "answer_d": "15.0 ohms"
+    },
+    "AB205": {
+      "question": "The open-circuit voltage of a voltage source is 5.0 V. If a load resistor of 1.2 ohms is connected, the terminal voltage of the voltage source drops to 4.8 V. What is the internal resistance of the voltage source?",
+      "answer_a": "0.05 ohms",
+      "answer_b": "8.2 ohms",
+      "answer_c": "0.17 ohms",
+      "answer_d": "0.25 ohms"
+    },
+    "AB204": {
+      "question": "What relationship must there be between the internal resistance $R_\\textrm{i}$ of a current source and a load resistor $R_\\textrm{L}$ connected directly to it for current matching?",
+      "answer_a": "$R_{\\textrm{L}} \\ll R_{\\textrm{i}}$",
+      "answer_b": "$R_{\\textrm{L}} \\gg R_{\\textrm{i}}$",
+      "answer_c": "$R_{\\textrm{L}} = R_{\\textrm{i}}$",
+      "answer_d": "$R_{\\textrm{L}} = \\dfrac{1}{R_{\\textrm{i}}}$"
+    },
+    "AB203": {
+      "question": "What relationship must there be between the internal resistance $R_{\\textrm{i}}$ of a voltage source and a load resistor $R_{\\textrm{L}}$ connected directly to it for voltage matching?",
+      "answer_a": "$R_{\\textrm{L}} \\gg R_{\\textrm{i}}$",
+      "answer_b": "$R_{\\textrm{L}} \\ll R_{\\textrm{i}}$",
+      "answer_c": "$R_{\\textrm{L}} = R_{\\textrm{i}}$",
+      "answer_d": "$R_{\\textrm{L}} = \\frac{1}{R_{\\textrm{i}}}$"
+    },
+    "AB202": {
+      "question": "What relationship must there be between the internal resistance $R_\\textrm{i}$ of a current or voltage source and a load resistor $R_\\textrm{L}$ connected directly to it for power matching?",
+      "answer_a": "$R_\\textrm{L} = R_\\textrm{i}$",
+      "answer_b": "$R_\\textrm{L} \\gg R_\\textrm{i}$",
+      "answer_c": "$R_\\textrm{L} \\ll R_\\textrm{i}$",
+      "answer_d": "$R_\\textrm{L} = \\dfrac{1}{R_\\textrm{i}}$"
+    },
+    "AB201": {
+      "question": "What properties should current sources and voltage sources have, as far as possible?",
+      "answer_a": "Current sources should have the highest possible internal resistance and voltage sources the lowest possible internal resistance.",
+      "answer_b": "Current sources and voltage sources should have the lowest possible internal resistance.",
+      "answer_c": "Current sources and voltage sources should have the highest possible internal resistance.",
+      "answer_d": "Current sources should have the lowest possible internal resistance and voltage sources the highest possible internal resistance."
+    },
+    "NB207": {
+      "question": "Can current flow in the following circuit of two identical voltage sources? Which reason is correct?",
+      "answer_a": "No, because there is no closed circuit.",
+      "answer_b": "No, because this is only possible with different voltage sources.",
+      "answer_c": "Yes, because the positive terminal is connected to the negative terminal.",
+      "answer_d": "Yes, because the voltage sources are never exactly identical."
+    },
+    "NB206": {
+      "question": "What voltage does the voltmeter in the following circuit show?",
+      "answer_a": "0 V",
+      "answer_b": "3 V",
+      "answer_c": "-3 V",
+      "answer_d": "1.5 V"
+    },
+    "NB205": {
+      "question": "What magnitude does the voltmeter in the following circuit show?",
+      "answer_a": "3 V",
+      "answer_b": "0 V",
+      "answer_c": "2.25 V",
+      "answer_d": "1.5 V"
+    },
+    "NB204": {
+      "question": "The following circuit consists of voltage sources of 1.5 V each. What voltage is measured between the contacts marked \"+\" and \"-\"?",
+      "answer_a": "9 V",
+      "answer_b": "1.5 V",
+      "answer_c": "0.25 V",
+      "answer_d": "6 V"
+    },
+    "NB203": {
+      "question": "What are the names of terminals 1 and 2 in the circuit symbol?",
+      "answer_a": "1 = positive terminal; 2 = negative terminal",
+      "answer_b": "1 = negative terminal; 2 = positive terminal",
+      "answer_c": "1 = north pole; 2 = south pole",
+      "answer_d": "1 = south pole; 2 = north pole"
+    },
+    "NB202": {
+      "question": "What does this circuit symbol represent?",
+      "answer_a": "Chassis",
+      "answer_b": "Antenna",
+      "answer_c": "Switch",
+      "answer_d": "Battery"
+    },
+    "NB201": {
+      "question": "Which component does the circuit symbol represent?",
+      "answer_a": "Battery",
+      "answer_b": "Diode",
+      "answer_c": "Resistor",
+      "answer_d": "Capacitor"
+    },
+    "EB105": {
+      "question": "What are the field lines of a vertical antenna marked X called?",
+      "answer_a": "Electric field lines",
+      "answer_b": "Magnetic field lines",
+      "answer_c": "Radial field lines",
+      "answer_d": "Horizontal field lines"
+    },
+    "EB104": {
+      "question": "A capacitor in a transmitter output stage has a 0.15 mm thick PTFE film as its dielectric. The dielectric strength of PTFE is approximately 400 kV/cm. What is the maximum voltage that could be applied to the capacitor without the film breaking down?",
+      "answer_a": "6 kV",
+      "answer_b": "60 kV",
+      "answer_c": "26 V",
+      "answer_d": "2.6 kV"
+    },
+    "EB103": {
+      "question": "A voltage of 300 V is applied to the metal foils of a wound capacitor with a 0.15 mm thick plastic dielectric. Approximately what is the electric field strength between the metal foils?",
+      "answer_a": "2000 kV/m",
+      "answer_b": "200 V/m",
+      "answer_c": "2000 V/m",
+      "answer_d": "200 kV/m"
+    },
+    "EB102": {
+      "question": "9 V is applied to a parallel-plate capacitor with a plate spacing of 0.6 cm. Approximately what is the electric field strength between the two plates?",
+      "answer_a": "1500 V/m",
+      "answer_b": "150 V/m",
+      "answer_c": "540 V/m",
+      "answer_d": "5.4 V/m"
+    },
+    "EB101": {
+      "question": "Approximately what kind of field is set up between two parallel capacitor plates when a DC voltage is applied?",
+      "answer_a": "Uniform electric field",
+      "answer_b": "Uniform magnetic field",
+      "answer_c": "Polarised electric field",
+      "answer_d": "Polarised magnetic field"
+    },
+    "EB206": {
+      "question": "What are the field lines of a vertical antenna marked X called?",
+      "answer_a": "Magnetic field lines",
+      "answer_b": "Electric field lines",
+      "answer_c": "Open field lines",
+      "answer_d": "Vertical field lines"
+    },
+    "EB205": {
+      "question": "Which effect reduces the inductance of an inductor carrying RF current when a copper or aluminium core is inserted?",
+      "answer_a": "The RF magnetic field cannot penetrate the core, which reduces the cross-sectional area of the field.",
+      "answer_b": "Copper and aluminium are ferromagnetic and weaken the field.",
+      "answer_c": "The conductive metal short-circuits the field, so that it disappears inside the inductor.",
+      "answer_d": "Copper and aluminium are non-magnetic and have no effect on the field."
+    },
+    "EB204": {
+      "question": "Which of the following materials is a ferromagnetic substance at room temperature?",
+      "answer_a": "Iron",
+      "answer_b": "Chromium",
+      "answer_c": "Copper",
+      "answer_d": "Aluminium"
+    },
+    "EB203": {
+      "question": "A toroidal core has a mean diameter of 2.6 cm and carries 6 turns of copper wire. What is the mean magnetic field strength in the toroidal core if the current is 2.5 A?",
+      "answer_a": "183.6 A/m",
+      "answer_b": "1.836 A/m",
+      "answer_c": "5769 A/m",
+      "answer_d": "5.769 A/m"
+    },
+    "EB202": {
+      "question": "Approximately what kind of field is set up inside a long solenoid when a direct current flows?",
+      "answer_a": "Uniform magnetic field",
+      "answer_b": "Uniform electric field",
+      "answer_c": "Concentric magnetic field",
+      "answer_d": "Centred magnetic field"
+    },
+    "EB201": {
+      "question": "When a constant direct current flows through a straight conductor, the ...",
+      "answer_a": "magnetic field lines are concentric circles around the conductor.",
+      "answer_b": "electric field lines are concentric circles around the conductor.",
+      "answer_c": "magnetic field lines are star-shaped around the conductor.",
+      "answer_d": "electric field lines are parallel to the magnetic field lines around the conductor."
+    },
+    "EB316": {
+      "question": "A wavelength $\\lambda$ of 10 cm in free space corresponds approximately to a frequency of ...",
+      "answer_a": "3 GHz.",
+      "answer_b": "1 GHz.",
+      "answer_c": "3 MHz.",
+      "answer_d": "10 GHz."
+    },
+    "EB315": {
+      "question": "Which frequency corresponds approximately to a wavelength $\\lambda$ of 30 mm in free space?",
+      "answer_a": "10 GHz",
+      "answer_b": "100 GHz",
+      "answer_c": "100 MHz",
+      "answer_d": "1 GHz"
+    },
+    "EB314": {
+      "question": "Which frequency $f$ corresponds approximately to a wavelength of 80.0 m in free space?",
+      "answer_a": "3.75 MHz",
+      "answer_b": "3.65 MHz",
+      "answer_c": "3.56 MHz",
+      "answer_d": "3.57 MHz"
+    },
+    "EB313": {
+      "question": "Which wavelength $\\lambda$ corresponds approximately to the frequency 28.5 MHz in free space?",
+      "answer_a": "10.5 m",
+      "answer_b": "15.0 m",
+      "answer_c": "9.49 m",
+      "answer_d": "9.49 cm"
+    },
+    "EB312": {
+      "question": "Which wavelength $\\lambda$ corresponds approximately to the frequency $f$ = 21 MHz?",
+      "answer_a": "14.29 m",
+      "answer_b": "7.15 m",
+      "answer_c": "12.86 m",
+      "answer_d": "6.43 m"
+    },
+    "EB311": {
+      "question": "Which wavelength $\\lambda$ corresponds approximately to the frequency 1.84 MHz in free space?",
+      "answer_a": "163 m",
+      "answer_b": "6.13 m",
+      "answer_c": "316 m",
+      "answer_d": "61.3 m"
+    },
+    "EB310": {
+      "question": "The polarisation of the transmitted signal in the direction of maximum radiation of this directional antenna is ...",
+      "answer_a": "vertical.",
+      "answer_b": "horizontal.",
+      "answer_c": "right-hand circular.",
+      "answer_d": "left-hand circular."
+    },
+    "EB309": {
+      "question": "The polarisation of the transmitted signal in the direction of maximum radiation of this directional antenna is ...",
+      "answer_a": "horizontal.",
+      "answer_b": "vertical.",
+      "answer_c": "right-hand circular.",
+      "answer_d": "left-hand circular."
+    },
+    "EB308": {
+      "question": "The following picture shows a snapshot of an electromagnetic field. What polarisation does the wave shown have?",
+      "answer_a": "Circular polarisation",
+      "answer_b": "Horizontal polarisation",
+      "answer_c": "Vertical polarisation",
+      "answer_d": "Diagonal polarisation"
+    },
+    "EB307": {
+      "question": "The following picture shows a snapshot of an electromagnetic field. What polarisation does the wave shown have?",
+      "answer_a": "Vertical polarisation",
+      "answer_b": "Horizontal polarisation",
+      "answer_c": "Left-hand circular polarisation",
+      "answer_d": "Right-hand circular polarisation"
+    },
+    "EB306": {
+      "question": "The following picture shows a snapshot of an electromagnetic field. What polarisation does the wave shown have?",
+      "answer_a": "Horizontal polarisation",
+      "answer_b": "Vertical polarisation",
+      "answer_c": "Right-hand circular polarisation",
+      "answer_d": "Left-hand circular polarisation"
+    },
+    "EB305": {
+      "question": "The polarisation of an electromagnetic wave is determined by the direction ...",
+      "answer_a": "of the electric field (E-field vector).",
+      "answer_b": "of the magnetic north pole (relative to the antenna).",
+      "answer_c": "of propagation (S vector/Poynting vector).",
+      "answer_d": "of the immediate near field ($\\lambda/4$ region)."
+    },
+    "EB304": {
+      "question": "Which statement applies to electromagnetic radiation in the undisturbed far field?",
+      "answer_a": "The E-field component, the H-field component and the direction of propagation are at right angles to each other.",
+      "answer_b": "The E-field component and the H-field component are at right angles to each other. The direction of propagation has no fixed relationship to them.",
+      "answer_c": "The E-field component and the H-field component are in phase and parallel to each other. The direction of propagation is at right angles to them.",
+      "answer_d": "The direction of propagation is parallel to the E-field component and perpendicular to the H-field component."
+    },
+    "EB303": {
+      "question": "In free-space propagation in the far field, the angle between the electric and magnetic field components of an electromagnetic field is ...",
+      "answer_a": "90 °.",
+      "answer_b": "45 °.",
+      "answer_c": "180 °.",
+      "answer_d": "360 °."
+    },
+    "EB302": {
+      "question": "How does an electromagnetic wave propagate? It propagates ...",
+      "answer_a": "through an interaction between the electric and magnetic fields.",
+      "answer_b": "only via the electric field. The magnetic field has an effect only in the near field.",
+      "answer_c": "only via the magnetic field. The electric field has an effect only in the near field.",
+      "answer_d": "through the independent propagation of the electric and magnetic fields."
+    },
+    "EB301": {
+      "question": "What, for example, gives rise to an electromagnetic field?",
+      "answer_a": "An electromagnetic field arises when a current that varies with time flows through an electrical conductor.",
+      "answer_b": "An electromagnetic field arises when a current that is constant with time flows through an electrical conductor.",
+      "answer_c": "An electromagnetic field arises when a voltage that is constant with time is applied to an electrical conductor.",
+      "answer_d": "An electromagnetic field arises when a voltage that is constant with time is applied to an electrical insulator."
+    },
+    "NB304": {
+      "question": "Which polarisations are usually distinguished in the propagation of radio waves in amateur radio, and why should they be taken into account?",
+      "answer_a": "A distinction is made between horizontal, vertical, and left-hand and right-hand circular polarisation. The polarisation of the transmitting and receiving antennas should be matched to ensure low-loss transmission.",
+      "answer_b": "A distinction is made between transverse, longitudinal and orthogonal polarisation. The polarisation of the radio must be matched to the mains to avoid short circuits.",
+      "answer_c": "A distinction is made between coherent, incoherent and correlated polarisation. The polarisation of the radio waves should be changed regularly to increase immunity to interference.",
+      "answer_d": "A distinction is made between parallel, coaxial and wireless polarisation. The polarisation of the antenna cables must be matched to the antennas to minimise losses."
+    },
+    "NB303": {
+      "question": "Which wavelength $\\lambda$ corresponds approximately to a frequency of 433.500 MHz in free space?",
+      "answer_a": "0.69 m",
+      "answer_b": "58.0 cm",
+      "answer_c": "2.06 m",
+      "answer_d": "198 cm"
+    },
+    "NB302": {
+      "question": "Which frequency $f$ corresponds approximately to a wavelength of 2.08 m in free space?",
+      "answer_a": "144 MHz",
+      "answer_b": "149 MHz",
+      "answer_c": "433 MHz",
+      "answer_d": "437 MHz"
+    },
+    "NB301": {
+      "question": "The velocity of propagation of electromagnetic waves in free space is approximately ...",
+      "answer_a": "300000 km/s.",
+      "answer_b": "3000000 km/s.",
+      "answer_c": "30000 km/s.",
+      "answer_d": "3000 km/s."
+    },
+    "AB303": {
+      "question": "The magnitude of the phase difference between the two sinusoidal signals shown in the figure is ...",
+      "answer_a": "45 °.",
+      "answer_b": "0 °.",
+      "answer_c": "90 °.",
+      "answer_d": "180 °."
+    },
+    "AB302": {
+      "question": "Which answer gives the correct phase angles of the sinusoidal AC voltage shown, at the point marked X$_3$?",
+      "answer_a": "$\\dfrac{3\\pi}{2}; 270 °$",
+      "answer_b": "$\\dfrac{\\pi}{3}; 270 °$",
+      "answer_c": "$3\\pi; 180 °$",
+      "answer_d": "$\\dfrac{3\\pi}{4}; 135 °$"
+    },
+    "AB301": {
+      "question": "A sinusoidal alternating current with an amplitude $I_{\\textrm{max}}$ of 0.5 amperes flows through a resistor of 20 ohms. How much power is converted into heat?",
+      "answer_a": "2.5 W",
+      "answer_b": "5.0 W",
+      "answer_c": "10 W",
+      "answer_d": "3.5 W"
+    },
+    "EB411": {
+      "question": "What is the frequency of the signal shown on this screen display?",
+      "answer_a": "8.33 MHz",
+      "answer_b": "83.3 MHz",
+      "answer_c": "8.33 kHz",
+      "answer_d": "833 kHz"
+    },
+    "EB410": {
+      "question": "What is the frequency of the voltage shown in this oscillogram?",
+      "answer_a": "50 Hz",
+      "answer_b": "100 Hz",
+      "answer_c": "500 Hz",
+      "answer_d": "20 Hz"
+    },
+    "EB409": {
+      "question": "Approximately what is the frequency of the voltage shown in this oscillogram?",
+      "answer_a": "83.3 kHz",
+      "answer_b": "833 kHz",
+      "answer_c": "8.33 MHz",
+      "answer_d": "83.3 MHz"
+    },
+    "EB408": {
+      "question": "A period of 50 μs corresponds to a frequency of ...",
+      "answer_a": "20 kHz.",
+      "answer_b": "2 MHz.",
+      "answer_c": "200 kHz.",
+      "answer_d": "20 MHz."
+    },
+    "EB407": {
+      "question": "What is the peak-to-peak value ($U_{\\textrm{ss}}$) of the voltage shown in the figure?",
+      "answer_a": "40 V",
+      "answer_b": "20 V",
+      "answer_c": "10 V",
+      "answer_d": "4 V"
+    },
+    "EB406": {
+      "question": "What is the peak-to-peak value of the voltage shown on this screen display?",
+      "answer_a": "12 V",
+      "answer_b": "6 V",
+      "answer_c": "8.5 V",
+      "answer_d": "2 V"
+    },
+    "EB405": {
+      "question": "Which of the DC voltages drawn in the following diagram dissipate approximately the same power in a resistance as the sinusoidal AC voltage shown?",
+      "answer_a": "0.7 V and -0.7 V",
+      "answer_b": "1 V and -1 V",
+      "answer_c": "0.5 V and -0.5 V",
+      "answer_d": "0 V"
+    },
+    "EB404": {
+      "question": "A sinusoidal AC voltage has a peak value of 12 V. Approximately what is the RMS value of the AC voltage?",
+      "answer_a": "8.5 V",
+      "answer_b": "6.0 V",
+      "answer_c": "17 V",
+      "answer_d": "24 V"
+    },
+    "EB403": {
+      "question": "A sinusoidal signal has an RMS value of 12 V. Approximately what is the peak-to-peak value?",
+      "answer_a": "34 V",
+      "answer_b": "24 V",
+      "answer_c": "17 V",
+      "answer_d": "8.5 V"
+    },
+    "EB402": {
+      "question": "The peak-to-peak value of the 230 V domestic mains supply is ...",
+      "answer_a": "651 V.",
+      "answer_b": "163 V.",
+      "answer_c": "325 V.",
+      "answer_d": "460 V."
+    },
+    "EB401": {
+      "question": "The peak value of a 230 V single-phase domestic mains supply is ...",
+      "answer_a": "325 V.",
+      "answer_b": "163 V.",
+      "answer_c": "460 V.",
+      "answer_d": "650 V."
+    },
+    "NB405": {
+      "question": "What is marked 2 in the oscillogram?",
+      "answer_a": "Period",
+      "answer_b": "Amplitude",
+      "answer_c": "Current",
+      "answer_d": "Voltage"
+    },
+    "NB404": {
+      "question": "What is marked 1 in the oscillogram?",
+      "answer_a": "Amplitude",
+      "answer_b": "Frequency",
+      "answer_c": "Period",
+      "answer_d": "Wavelength"
+    },
+    "NB403": {
+      "question": "What is marked 2 in the snapshot of a wave shown?",
+      "answer_a": "Wavelength",
+      "answer_b": "Amplitude",
+      "answer_c": "Voltage",
+      "answer_d": "Current"
+    },
+    "NB402": {
+      "question": "What is marked 1 in the snapshot of a wave shown?",
+      "answer_a": "Amplitude",
+      "answer_b": "Frequency",
+      "answer_c": "Period",
+      "answer_d": "Wavelength"
+    },
+    "NB401": {
+      "question": "Which picture shows a sinusoidal AC voltage?"
+    },
+    "AB409": {
+      "question": "How does the level of thermal noise at the receiver output change when switching from a crystal filter with a bandwidth of 2.5 kHz to a crystal filter with a bandwidth of 0.5 kHz with the same passband loss and skirt steepness? The noise power level ...",
+      "answer_a": "decreases by about 7 dB.",
+      "answer_b": "increases by about 7 dB.",
+      "answer_c": "decreases by about 14 dB.",
+      "answer_d": "increases by about 14 dB."
+    },
+    "AB408": {
+      "question": "For measurement purposes, you feed a noise signal from a signal generator, distributed evenly over all frequencies (white noise), into the antenna input of your receiver. Which statement about the power measured when receiving this signal is correct?",
+      "answer_a": "It is proportional to the bandwidth of the receiver.",
+      "answer_b": "It is inversely proportional to the bandwidth of the receiver.",
+      "answer_c": "It is proportional to the signal-to-noise ratio of the receiver.",
+      "answer_d": "It is inversely proportional to the input resistance of the receiver."
+    },
+    "AB407": {
+      "question": "Which signal matches the following frequency spectrum?"
+    },
+    "AB406": {
+      "question": "Which signal matches the following frequency spectrum?"
+    },
+    "AB405": {
+      "question": "Which frequency spectrum matches the following periodic signal?"
+    },
+    "AB404": {
+      "question": "Which frequency spectrum matches the following sinusoidal signal?"
+    },
+    "AB403": {
+      "question": "A periodic oscillation that looks like the following signal consists ...",
+      "answer_a": "of the fundamental with integer multiples of its frequency (harmonics).",
+      "answer_b": "of the fundamental and submultiples of its frequency (subharmonics).",
+      "answer_c": "of the fundamental with no other frequencies.",
+      "answer_d": "of the fundamental with random frequency fluctuations."
+    },
+    "AB402": {
+      "question": "The third overtone (Oberwelle) corresponds to ...",
+      "answer_a": "the fourth harmonic.",
+      "answer_b": "the third harmonic.",
+      "answer_c": "the second harmonic.",
+      "answer_d": "the second odd harmonic."
+    },
+    "AB401": {
+      "question": "What are harmonics?",
+      "answer_a": "Harmonics are the integer (1, 2, 3, ...) multiples of a frequency.",
+      "answer_b": "Harmonics are the integer (1, 2, 3, ...) submultiples of a frequency.",
+      "answer_c": "Harmonics are exclusively the odd (1, 3, 5, ...) multiples of a frequency.",
+      "answer_d": "Harmonics are exclusively the even (2, 4, 6, ...) submultiples of a frequency."
+    },
+    "NB505": {
+      "question": "What is the resistance value?",
+      "answer_a": "40.000 ohms",
+      "answer_b": "3.600 ohms",
+      "answer_c": "0.025 ohms",
+      "answer_d": "0.200 ohms"
+    },
+    "NB504": {
+      "question": "What voltage causes a current of 90 mA to flow through the resistor?",
+      "answer_a": "9.000 V",
+      "answer_b": "1.111 kV",
+      "answer_c": "9.000 kV",
+      "answer_d": "1.111 V"
+    },
+    "NB503": {
+      "question": "Which of the following expressions correctly represents the relationship between current, voltage and resistance?",
+      "answer_a": "$R = \\dfrac{U}{I}$",
+      "answer_b": "$R = U \\cdot I$",
+      "answer_c": "$R = \\dfrac{I}{U}$",
+      "answer_d": "$I =R \\cdot U$"
+    },
+    "NB502": {
+      "question": "Which of the following expressions correctly represents the relationship between current, voltage and resistance?",
+      "answer_a": "$I = \\dfrac{U}{R}$",
+      "answer_b": "$R = U \\cdot I$",
+      "answer_c": "$R = \\dfrac{I}{U}$",
+      "answer_d": "$I =R \\cdot U$"
+    },
+    "NB501": {
+      "question": "Which of the following expressions correctly represents the relationship between current, voltage and resistance?",
+      "answer_a": "$U = R \\cdot I $",
+      "answer_b": "$R = U \\cdot I$",
+      "answer_c": "$R = \\dfrac{I}{U}$",
+      "answer_d": "$I =R \\cdot U$"
+    },
+    "EB514": {
+      "question": "A 50 ohm dummy load (artificial antenna) consists of 11 carbon-film resistors of 560 ohms connected in parallel, each with a power rating of 5 W. What is the resulting power rating of the dummy load?",
+      "answer_a": "55 W",
+      "answer_b": "0.45 W",
+      "answer_c": "250 W",
+      "answer_d": "5 W"
+    },
+    "EB513": {
+      "question": "An oscilloscope shows a sinusoidal peak-to-peak value of 25 V across a 1000 ohm resistor. The RMS current through the resistor is ...",
+      "answer_a": "8.8 mA.",
+      "answer_b": "12.5 mA.",
+      "answer_c": "25 mA.",
+      "answer_d": "40 A."
+    },
+    "EB512": {
+      "question": "A resistor of 120 ohms has a power rating of 23.0 W. What is the maximum current that may flow through the resistor without overloading it?",
+      "answer_a": "438 mA",
+      "answer_b": "192 mA",
+      "answer_c": "43.7 mA",
+      "answer_d": "2.28 A"
+    },
+    "EB511": {
+      "question": "A resistor of 100 kΩ has a maximum voltage rating of 1000 V and a maximum power rating of 6 W. What is the maximum DC voltage that may be applied to the resistor without overloading it?",
+      "answer_a": "775 V",
+      "answer_b": "100 V",
+      "answer_c": "0.07 kV",
+      "answer_d": "1.00 kV"
+    },
+    "EB510": {
+      "question": "A resistor of 10 kΩ has a maximum voltage rating of 700 V and a maximum power rating of 1 W. What is the maximum DC voltage that may be applied to the resistor to operate it within its specified ratings?",
+      "answer_a": "100 V",
+      "answer_b": "0.01 kV",
+      "answer_c": "0.7 kV",
+      "answer_d": "775 V"
+    },
+    "EB509": {
+      "question": "What is the minimum power for which a 100 ohm resistor must be rated if 10 V is to be dropped across it?",
+      "answer_a": "1.00 W",
+      "answer_b": "10.0 W",
+      "answer_c": "0.01 W",
+      "answer_d": "0.10 W"
+    },
+    "EB508": {
+      "question": "How much power is dissipated in a 50 ohm dummy load when an RMS current of 2 A flows?",
+      "answer_a": "200 W",
+      "answer_b": "100 W",
+      "answer_c": "25 W",
+      "answer_d": "250 W"
+    },
+    "EB507": {
+      "question": "The RMS voltage across a 50 ohm dummy load is measured as 100 V. The power in the load is ...",
+      "answer_a": "200 W.",
+      "answer_b": "50 W.",
+      "answer_c": "100 W.",
+      "answer_d": "400 W."
+    },
+    "EB506": {
+      "question": "In which answer are all the relationships shown between resistance, power, voltage and current correct?",
+      "answer_a": "$R = \\dfrac{U^2}{P};  R = \\dfrac{P}{I^2}$",
+      "answer_b": "$R = U^2\\cdot I;  R = \\dfrac{P}{I^2}$",
+      "answer_c": "$R = \\dfrac{P}{U^2};  R = P\\cdot I^2$",
+      "answer_d": "$R = \\dfrac{U^2}{P};  R = P\\cdot I^2$"
+    },
+    "EB505": {
+      "question": "In which answer are all the relationships shown between current, voltage, resistance and power correct?",
+      "answer_a": "$I = \\sqrt{\\dfrac{P}{R}};  U = \\sqrt{P\\cdot R}$",
+      "answer_b": "$I = \\sqrt{P\\cdot R};  U = \\sqrt{\\dfrac{P}{R}}$",
+      "answer_c": "$I = \\sqrt{\\dfrac{R}{P}};  U = \\sqrt{P\\cdot R}$",
+      "answer_d": "$I = \\dfrac{\\sqrt{P}}{R};  U = \\sqrt{P}\\cdot R$"
+    },
+    "EB504": {
+      "question": "The electrical power $P$ is converted into heat in a resistor $R$. You know the quantities $P$ and $R$. Which of the formulas can you use to determine the voltage across the resistor $R$?",
+      "answer_a": "$U = \\sqrt{P\\cdot R}$",
+      "answer_b": "$U = R\\cdot P$",
+      "answer_c": "$U = \\sqrt{\\dfrac{P}{R}}$",
+      "answer_d": "$U = \\dfrac{P}{R}$"
+    },
+    "EB503": {
+      "question": "Do the formulas for the power in a purely resistive (ohmic) resistor also apply to AC voltage?",
+      "answer_a": "Yes, if the calculation uses RMS values.",
+      "answer_b": "No, because the periodic change in current and voltage is then neglected.",
+      "answer_c": "Yes, if the calculation uses peak values.",
+      "answer_d": "No, because the reactive power is not taken into account."
+    },
+    "EB502": {
+      "question": "The mean power of a transmitter is ...",
+      "answer_a": "the average power supplied to the antenna feed line by a transmitter under normal operating conditions during an interval of time that is sufficiently long compared with the period of the lowest modulating frequency.",
+      "answer_b": "the power measurable immediately after the transmitter output over the peaks of the period of an average RF oscillation, before it passes through accessory equipment (e.g. matching units).",
+      "answer_c": "the average power supplied to the antenna feed line by a transmitter under normal operating conditions during one cycle of the RF oscillation at the highest crest of the modulation envelope.",
+      "answer_d": "the product of the power supplied directly to the antenna and its gain in a given direction, relative to the half-wave dipole."
+    },
+    "EB501": {
+      "question": "The peak envelope power of a transmitter (PEP) is ...",
+      "answer_a": "the average power that the transmitter can deliver into a resistive termination under normal operating conditions during one cycle of the RF oscillation at the highest crest of the modulation envelope.",
+      "answer_b": "the power measurable immediately after the transmitter output over the peaks of the period of an average RF oscillation, before it passes through accessory equipment (e.g. matching units).",
+      "answer_c": "the average power supplied to the antenna feed line by a transmitter under normal operating conditions during an interval of time that is sufficiently long compared with the period of the lowest modulating frequency.",
+      "answer_d": "the product of the power supplied directly to the antenna and its gain in a given direction, relative to the half-wave dipole."
+    },
+    "NB606": {
+      "question": "A lamp for DC operation is marked 12 V / 48 W. On a 12 V supply, the current drawn is ...",
+      "answer_a": "4 A.",
+      "answer_b": "250 mA.",
+      "answer_c": "750 mA.",
+      "answer_d": "36 A."
+    },
+    "NB605": {
+      "question": "A lamp is rated at 12 V and 3 W. How much current flows when it is connected to 12 V?",
+      "answer_a": "250 mA",
+      "answer_b": "400 mA",
+      "answer_c": "4 A",
+      "answer_d": "2.5 A"
+    },
+    "NB604": {
+      "question": "A mobile transceiver is powered from the electrical system of a motor vehicle with a nominal voltage of 12 V and has a power consumption of 100 W when transmitting. What is the current drawn?",
+      "answer_a": "8.33 A",
+      "answer_b": "16.6 A",
+      "answer_c": "1200 A",
+      "answer_d": "0.12 A"
+    },
+    "NB603": {
+      "question": "A voltage of 3.2 V is dropped across a series resistor at a current of 20 mA. How much power is converted into heat in it?",
+      "answer_a": "64.0 mW",
+      "answer_b": "0.16 mW",
+      "answer_c": "6.25 mW",
+      "answer_d": "20 mW"
+    },
+    "NB602": {
+      "question": "A voltage of 50 V is dropped across a series resistor at a current of 50 mA. How much power is converted into heat in it?",
+      "answer_a": "2.5 W",
+      "answer_b": "1 kW",
+      "answer_c": "1 W",
+      "answer_d": "250 mW"
+    },
+    "NB601": {
+      "question": "What power does a transceiver draw at 13.8 V DC if the ammeter in the power supply unit reads 1.5 A?",
+      "answer_a": "20.7 W",
+      "answer_b": "1.53 W",
+      "answer_c": "2.07 W",
+      "answer_d": "9.2 W"
+    },
+    "AB503": {
+      "question": "How much energy is converted into heat by the resistor within one hour?",
+      "answer_a": "1 Wh or 3600 J",
+      "answer_b": "2 Wh or 7200 J",
+      "answer_c": "0.1 Wh or 360 J",
+      "answer_d": "0.5 Wh or 1800 J"
+    }
+  }
+}

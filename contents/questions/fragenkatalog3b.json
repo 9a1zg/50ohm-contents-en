@@ -12,16 +12,16 @@
                                 {
                                     "number": "NA103",
                                     "class": "1",
-                                    "question": "Laut Datenblatt wiegen 100 m eines bestimmten Drahtes 210 g. Ein vorliegendes Drahtst\u00fcck desselben Materials wiegt 55 g. Wie lang ist das Drahtst\u00fcck in etwa?",
-                                    "answer_a": "26,2 m",
+                                    "question": "According to the data sheet, 100 m of a particular wire weighs 210 g. A piece of wire of the same material weighs 55 g. Approximately how long is the piece of wire?",
+                                    "answer_a": "26.2 m",
                                     "answer_b": "382 m",
                                     "answer_c": "115 m",
-                                    "answer_d": "38,2 m"
+                                    "answer_d": "38.2 m"
                                 },
                                 {
                                     "number": "NA102",
                                     "class": "1",
-                                    "question": "Aus 250 m Draht sollen Antennen hergestellt werden. Pro Antenne werden 18,5 m ben\u00f6tigt. Wie viele Antennen k\u00f6nnen maximal aus dem vorhandenen Draht hergestellt werden?",
+                                    "question": "Antennas are to be made from 250 m of wire. Each antenna needs 18.5 m. What is the maximum number of antennas that can be made from the available wire?",
                                     "answer_a": "13",
                                     "answer_b": "14",
                                     "answer_c": "12",
@@ -30,11 +30,11 @@
                                 {
                                     "number": "NA101",
                                     "class": "1",
-                                    "question": "Ein 20 m langer Draht wird bei 2/3 seiner L\u00e4nge zertrennt. Wie lang sind die resultierenden St\u00fccke in etwa?",
-                                    "answer_a": "13,33 m und 6,67 m",
-                                    "answer_b": "12,22 m und 7,78 m",
-                                    "answer_c": "11,11 m und 8,89 m",
-                                    "answer_d": "14,44 m und 5,56 m"
+                                    "question": "A 20 m long wire is cut at 2/3 of its length. Approximately how long are the resulting pieces?",
+                                    "answer_a": "13.33 m and 6.67 m",
+                                    "answer_b": "12.22 m and 7.78 m",
+                                    "answer_c": "11.11 m and 8.89 m",
+                                    "answer_d": "14.44 m and 5.56 m"
                                 }
                             ]
                         },
@@ -44,25 +44,25 @@
                                 {
                                     "number": "AA116",
                                     "class": "3",
-                                    "question": "Die Frequenzerzeugung eines Senders hat eine Genauigkeit von 10 ppm. Die digitale Anzeige zeigt eine Sendefrequenz von 14,200.000 MHz an. In welchen Grenzen kann sich die tats\u00e4chliche Frequenz bewegen?",
-                                    "answer_a": "Zwischen 14,199858 bis 14,200142 MHz",
-                                    "answer_b": "Zwischen 14,199986 bis 14,200014 MHz",
-                                    "answer_c": "Zwischen 14,199990 bis 14,200010 MHz",
-                                    "answer_d": "Zwischen 14,198580 bis 14,201420 MHz"
+                                    "question": "The frequency generation of a transmitter has an accuracy of 10 ppm. The digital display shows a transmit frequency of 14.200.000 MHz. Within what limits can the actual frequency lie?",
+                                    "answer_a": "Between 14.199858 and 14.200142 MHz",
+                                    "answer_b": "Between 14.199986 and 14.200014 MHz",
+                                    "answer_c": "Between 14.199990 and 14.200010 MHz",
+                                    "answer_d": "Between 14.198580 and 14.201420 MHz"
                                 },
                                 {
                                     "number": "AA115",
                                     "class": "3",
-                                    "question": "Eine Genauigkeit von 1 ppm bei einer Frequenz von 435 MHz entspricht ...",
+                                    "question": "An accuracy of 1 ppm at a frequency of 435 MHz corresponds to ...",
                                     "answer_a": "435 Hz.",
-                                    "answer_b": "43,5 Hz.",
-                                    "answer_c": "4,35 MHz.",
-                                    "answer_d": "4,35 kHz."
+                                    "answer_b": "43.5 Hz.",
+                                    "answer_c": "4.35 MHz.",
+                                    "answer_d": "4.35 kHz."
                                 },
                                 {
                                     "number": "AA114",
                                     "class": "3",
-                                    "question": "Wie stark ist die Empf\u00e4ngereingangsspannung abgesunken, wenn die S-Meter-Anzeige durch \u00c4nderung der Ausbreitungsbedingungen von S9+20 dB auf S8 zur\u00fcckgeht? Die Empf\u00e4ngereingangsspannung sinkt um ...",
+                                    "question": "By how much has the receiver input voltage fallen if the S-meter reading drops from S9+20 dB to S8 because of a change in propagation conditions? The receiver input voltage falls by ...",
                                     "answer_a": "26 dB.",
                                     "answer_b": "23 dB.",
                                     "answer_c": "6 dB.",
@@ -71,7 +71,7 @@
                                 {
                                     "number": "AA113",
                                     "class": "3",
-                                    "question": "Wie gro\u00df ist der Unterschied zwischen den S-Stufen S4 und S7 in dB?",
+                                    "question": "What is the difference in dB between the S units S4 and S7?",
                                     "answer_a": "18 dB",
                                     "answer_b": "9 dB",
                                     "answer_c": "15 dB",
@@ -80,34 +80,34 @@
                                 {
                                     "number": "AA112",
                                     "class": "3",
-                                    "question": "Der Pegelwert 120 dB$\u03bc$V/m entspricht einer elektrischen Feldst\u00e4rke von ...",
+                                    "question": "The level 120 dB$\u03bc$V/m corresponds to an electric field strength of ...",
                                     "answer_a": "1 V/m.",
-                                    "answer_b": "0,78 V/m.",
-                                    "answer_c": "41,6 V/m.",
+                                    "answer_b": "0.78 V/m.",
+                                    "answer_c": "41.6 V/m.",
                                     "answer_d": "1000 kV/m."
                                 },
                                 {
                                     "number": "AA111",
                                     "class": "3",
-                                    "question": "Einem Spannungsverh\u00e4ltnis von 15 entsprechen ...",
-                                    "answer_a": "23,5 dB.",
+                                    "question": "A voltage ratio of 15 corresponds to ...",
+                                    "answer_a": "23.5 dB.",
                                     "answer_b": "15 dB.",
                                     "answer_c": "54 dB.",
-                                    "answer_d": "11,7 dB."
+                                    "answer_d": "11.7 dB."
                                 },
                                 {
                                     "number": "AA110",
                                     "class": "3",
-                                    "question": "Welcher Leistung entsprechen die Pegel 0 dBm, 3 dBm und 20 dBm?",
+                                    "question": "What powers do the levels 0 dBm, 3 dBm and 20 dBm correspond to?",
                                     "answer_a": "1 mW, 2 mW, 100 mW",
-                                    "answer_b": "1 mW, 1,4 mW, 10 mW",
+                                    "answer_b": "1 mW, 1.4 mW, 10 mW",
                                     "answer_c": "0 mW, 30 mW, 200 mW",
                                     "answer_d": "0 mW, 3 mW, 20 mW"
                                 },
                                 {
                                     "number": "AA109",
                                     "class": "3",
-                                    "question": "Ein Sender mit 1 W Ausgangsleistung ist an eine Endstufe mit einer Verst\u00e4rkung von 10 dB angeschlossen. Wie gro\u00df ist der Ausgangspegel der Endstufe?",
+                                    "question": "A transmitter with an output power of 1 W is connected to a power amplifier with a gain of 10 dB. What is the output level of the power amplifier?",
                                     "answer_a": "40 dBm",
                                     "answer_b": "30 dBm",
                                     "answer_c": "20 dBm",
@@ -116,16 +116,16 @@
                                 {
                                     "number": "AA108",
                                     "class": "3",
-                                    "question": "Der Ausgangspegel eines Senders betr\u00e4gt 20 dBW. Dies entspricht einer Ausgangsleistung von ...",
+                                    "question": "The output level of a transmitter is 20 dBW. This corresponds to an output power of ...",
                                     "answer_a": "$10^2$ W.",
-                                    "answer_b": "$10^{0,5}$ W.",
+                                    "answer_b": "$10^{0.5}$ W.",
                                     "answer_c": "$10^{20}$ W.",
                                     "answer_d": "$10^1$ W."
                                 },
                                 {
                                     "number": "AA107",
                                     "class": "3",
-                                    "question": "Ein Sender mit 1 W Ausgangsleistung ist an eine Endstufe mit einer Verst\u00e4rkung von 10 dB angeschlossen. Wie gro\u00df ist der Ausgangspegel der Endstufe?",
+                                    "question": "A transmitter with an output power of 1 W is connected to a power amplifier with a gain of 10 dB. What is the output level of the power amplifier?",
                                     "answer_a": "10 dBW",
                                     "answer_b": "1 dBW",
                                     "answer_c": "3 dBW",
@@ -134,7 +134,7 @@
                                 {
                                     "number": "AA106",
                                     "class": "3",
-                                    "question": "Ein HF-Leistungsverst\u00e4rker hat eine Verst\u00e4rkung von 16 dB mit maximal 100 W Ausgangsleistung. Welche HF-Ausgangsleistung ist zu erwarten, wenn der Verst\u00e4rker mit 1 W HF-Eingangsleistung angesteuert wird?",
+                                    "question": "An RF power amplifier has a gain of 16 dB and a maximum output power of 100 W. What RF output power is to be expected if the amplifier is driven with 1 W of RF input power?",
                                     "answer_a": "40 W",
                                     "answer_b": "4 W",
                                     "answer_c": "16 W",
@@ -143,61 +143,61 @@
                                 {
                                     "number": "AA105",
                                     "class": "3",
-                                    "question": "Einer Leistungsverst\u00e4rkung von 40 entsprechen ...",
+                                    "question": "A power gain of 40 corresponds to ...",
                                     "answer_a": "16 dB.",
-                                    "answer_b": "36,8 dB.",
+                                    "answer_b": "36.8 dB.",
                                     "answer_c": "32 dB.",
-                                    "answer_d": "73,8 dB."
+                                    "answer_d": "73.8 dB."
                                 },
                                 {
                                     "number": "AA104",
                                     "class": "3",
-                                    "question": "Welche Einheit wird \u00fcblicherweise f\u00fcr die Symbolrate verwendet?",
-                                    "answer_a": "Baud (Bd)",
-                                    "answer_b": "Bit pro Sekunde (Bit/s)",
-                                    "answer_c": "Hertz (Hz)",
-                                    "answer_d": "Dezibel (dB)"
+                                    "question": "Which unit is normally used for the symbol rate?",
+                                    "answer_a": "baud (Bd)",
+                                    "answer_b": "bits per second (bit/s)",
+                                    "answer_c": "hertz (Hz)",
+                                    "answer_d": "decibel (dB)"
                                 },
                                 {
                                     "number": "AA103",
                                     "class": "3",
-                                    "question": "Welche Einheit wird \u00fcblicherweise f\u00fcr die Energie verwendet?",
-                                    "answer_a": "Joule (J) bzw. Wattstunden (Wh)",
-                                    "answer_b": "Volt (V) bzw. Watt pro Ampere (W/A)",
-                                    "answer_c": "Watt (W) bzw. Joule pro Stunde (J/h)",
-                                    "answer_d": "Watt (W) bzw. Voltampere (VA)"
+                                    "question": "Which unit is normally used for energy?",
+                                    "answer_a": "joule (J) or watt-hour (Wh)",
+                                    "answer_b": "volt (V) or watt per ampere (W/A)",
+                                    "answer_c": "watt (W) or joule per hour (J/h)",
+                                    "answer_d": "watt (W) or volt-ampere (VA)"
                                 },
                                 {
                                     "number": "AA102",
                                     "class": "3",
-                                    "question": "Welche Einheit wird \u00fcblicherweise f\u00fcr die elektrische Ladung verwendet?",
-                                    "answer_a": "Amperesekunde (As)",
-                                    "answer_b": "Kilowatt (kW)",
-                                    "answer_c": "Joule (J)",
-                                    "answer_d": "Ampere (A)"
+                                    "question": "Which unit is normally used for electric charge?",
+                                    "answer_a": "ampere-second (As)",
+                                    "answer_b": "kilowatt (kW)",
+                                    "answer_c": "joule (J)",
+                                    "answer_d": "ampere (A)"
                                 },
                                 {
                                     "number": "AA101",
                                     "class": "3",
-                                    "question": "Welche Einheit wird \u00fcblicherweise f\u00fcr die Impedanz verwendet?",
-                                    "answer_a": "Ohm",
-                                    "answer_b": "Farad",
-                                    "answer_c": "Siemens",
-                                    "answer_d": "Henry"
+                                    "question": "Which unit is normally used for impedance?",
+                                    "answer_a": "ohm",
+                                    "answer_b": "farad",
+                                    "answer_c": "siemens",
+                                    "answer_d": "henry"
                                 },
                                 {
                                     "number": "EA116",
                                     "class": "2",
-                                    "question": "3750 kHz entspricht ...",
-                                    "answer_a": "3,750 MHz.",
+                                    "question": "3750 kHz corresponds to ...",
+                                    "answer_a": "3.750 MHz.",
                                     "answer_b": "37500000 Hz.",
-                                    "answer_c": "0,03750 GHz.",
-                                    "answer_d": "0,3750 GHz."
+                                    "answer_c": "0.03750 GHz.",
+                                    "answer_d": "0.3750 GHz."
                                 },
                                 {
                                     "number": "EA115",
                                     "class": "2",
-                                    "question": "0,22 \u03bcF entspricht ...",
+                                    "question": "0.22 \u03bcF corresponds to ...",
                                     "answer_a": "220 nF.",
                                     "answer_b": "22 nF.",
                                     "answer_c": "220 pF.",
@@ -206,7 +206,7 @@
                                 {
                                     "number": "EA114",
                                     "class": "2",
-                                    "question": "$5 \\cdot 10^{-1}$ W entspricht ...",
+                                    "question": "$5 \\cdot 10^{-1}$ W corresponds to ...",
                                     "answer_a": "500 mW.",
                                     "answer_b": "5 W.",
                                     "answer_c": "-500 mW.",
@@ -215,8 +215,8 @@
                                 {
                                     "number": "EA113",
                                     "class": "2",
-                                    "question": "$2\\cdot 10^{-7}$ W entspricht ...",
-                                    "answer_a": "0,2 \u03bcW.",
+                                    "question": "$2\\cdot 10^{-7}$ W corresponds to ...",
+                                    "answer_a": "0.2 \u03bcW.",
                                     "answer_b": "2 \u03bcW.",
                                     "answer_c": "20 \u03bcW.",
                                     "answer_d": "200 \u03bcW."
@@ -224,7 +224,7 @@
                                 {
                                     "number": "EA112",
                                     "class": "2",
-                                    "question": "0,002 MOhm entspricht ...",
+                                    "question": "0.002 M\u03a9 corresponds to ...",
                                     "answer_a": "$2\\cdot 10^{3} \\Omega$.",
                                     "answer_b": "$20\\cdot 10^{3} \\Omega$.",
                                     "answer_c": "$2\\cdot 10^{2} \\Omega$.",
@@ -233,25 +233,25 @@
                                 {
                                     "number": "EA111",
                                     "class": "2",
-                                    "question": "0,01 mV entspricht ...",
+                                    "question": "0.01 mV corresponds to ...",
                                     "answer_a": "$10\\cdot 10^{-6}$ V.",
                                     "answer_b": "$1\\cdot 10^{-7}$ V.",
                                     "answer_c": "$10\\cdot 10^{-5}$ V.",
-                                    "answer_d": "$0,01\\cdot 10^{3}$ V."
+                                    "answer_d": "$0.01\\cdot 10^{3}$ V."
                                 },
                                 {
                                     "number": "EA110",
                                     "class": "2",
-                                    "question": "4200000 Hz entspricht ...",
-                                    "answer_a": "$4,2\\cdot 10^6$ Hz.",
-                                    "answer_b": "$4,2\\cdot 10^5$ Hz.",
+                                    "question": "4200000 Hz corresponds to ...",
+                                    "answer_a": "$4.2\\cdot 10^6$ Hz.",
+                                    "answer_b": "$4.2\\cdot 10^5$ Hz.",
                                     "answer_c": "$42\\cdot 10^6$ Hz.",
                                     "answer_d": "$42\\cdot 10^{-5}$ Hz."
                                 },
                                 {
                                     "number": "EA109",
                                     "class": "2",
-                                    "question": "0,042 A entspricht ...",
+                                    "question": "0.042 A corresponds to ...",
                                     "answer_a": "$42\\cdot 10^{-3}$ A.",
                                     "answer_b": "$42\\cdot 10^3$ A.",
                                     "answer_c": "$42\\cdot 10^{-2}$ A.",
@@ -260,7 +260,7 @@
                                 {
                                     "number": "EA108",
                                     "class": "2",
-                                    "question": "0,00042 A entspricht ...",
+                                    "question": "0.00042 A corresponds to ...",
                                     "answer_a": "$420\\cdot 10^{-6}$ A.",
                                     "answer_b": "$420\\cdot 10^6$ A.",
                                     "answer_c": "$420\\cdot 10^{-5}$ A.",
@@ -269,88 +269,88 @@
                                 {
                                     "number": "EA107",
                                     "class": "2",
-                                    "question": "Um wie viel Dezibel ver\u00e4ndert sich der Leistungspegel, wenn die Leistung verdoppelt wird?",
+                                    "question": "By how many decibels does the power level change when the power is doubled?",
                                     "answer_a": "3 dB",
                                     "answer_b": "6 dB",
-                                    "answer_c": "1,5 dB",
+                                    "answer_c": "1.5 dB",
                                     "answer_d": "12 dB"
                                 },
                                 {
                                     "number": "EA106",
                                     "class": "2",
-                                    "question": "Welche Einheit wird \u00fcblicherweise f\u00fcr die Daten\u00fcbertragungsrate verwendet?",
-                                    "answer_a": "Bit pro Sekunde (Bit/s)",
-                                    "answer_b": "Baud (Bd)",
-                                    "answer_c": "Hertz (Hz)",
-                                    "answer_d": "Dezibel (dB)"
+                                    "question": "Which unit is normally used for the data rate?",
+                                    "answer_a": "bits per second (bit/s)",
+                                    "answer_b": "baud (Bd)",
+                                    "answer_c": "hertz (Hz)",
+                                    "answer_d": "decibel (dB)"
                                 },
                                 {
                                     "number": "EA105",
                                     "class": "2",
-                                    "question": "Welche Einheit wird \u00fcblicherweise f\u00fcr die Bandbreite verwendet?",
-                                    "answer_a": "Hertz (Hz)",
-                                    "answer_b": "Baud (Bd)",
-                                    "answer_c": "Bit pro Sekunde (Bit/s)",
-                                    "answer_d": "Dezibel (dB)"
+                                    "question": "Which unit is normally used for bandwidth?",
+                                    "answer_a": "hertz (Hz)",
+                                    "answer_b": "baud (Bd)",
+                                    "answer_c": "bits per second (bit/s)",
+                                    "answer_d": "decibel (dB)"
                                 },
                                 {
                                     "number": "EA104",
                                     "class": "2",
-                                    "question": "Welche Einheit wird \u00fcblicherweise f\u00fcr die magnetische Feldst\u00e4rke verwendet?",
-                                    "answer_a": "Ampere pro Meter (A/m)",
-                                    "answer_b": "Watt pro Meter (W/m)",
-                                    "answer_c": "Volt pro Meter (V/m)",
-                                    "answer_d": "Henry pro Meter (H/m)"
+                                    "question": "Which unit is normally used for magnetic field strength?",
+                                    "answer_a": "ampere per metre (A/m)",
+                                    "answer_b": "watt per metre (W/m)",
+                                    "answer_c": "volt per metre (V/m)",
+                                    "answer_d": "henry per metre (H/m)"
                                 },
                                 {
                                     "number": "EA103",
                                     "class": "2",
-                                    "question": "Welche Einheit wird \u00fcblicherweise f\u00fcr die elektrische Feldst\u00e4rke verwendet?",
-                                    "answer_a": "Volt pro Meter (V/m)",
-                                    "answer_b": "Watt pro Meter (W/m)",
-                                    "answer_c": "Ampere pro Meter (A/m)",
-                                    "answer_d": "Henry pro Meter (H/m)"
+                                    "question": "Which unit is normally used for electric field strength?",
+                                    "answer_a": "volt per metre (V/m)",
+                                    "answer_b": "watt per metre (W/m)",
+                                    "answer_c": "ampere per metre (A/m)",
+                                    "answer_d": "henry per metre (H/m)"
                                 },
                                 {
                                     "number": "EA102",
                                     "class": "2",
-                                    "question": "Welche Einheit wird \u00fcblicherweise f\u00fcr die Induktivit\u00e4t verwendet?",
-                                    "answer_a": "Henry (H)",
-                                    "answer_b": "Farad (F)",
-                                    "answer_c": "Ohm ($\\Omega$)",
-                                    "answer_d": "Amperestunden (Ah)"
+                                    "question": "Which unit is normally used for inductance?",
+                                    "answer_a": "henry (H)",
+                                    "answer_b": "farad (F)",
+                                    "answer_c": "ohm ($\\Omega$)",
+                                    "answer_d": "ampere-hour (Ah)"
                                 },
                                 {
                                     "number": "EA101",
                                     "class": "2",
-                                    "question": "Welche Einheit wird \u00fcblicherweise f\u00fcr die Kapazit\u00e4t verwendet?",
-                                    "answer_a": "Farad (F)",
-                                    "answer_b": "Ohm ($\\Omega$)",
-                                    "answer_c": "Amperestunden (Ah)",
-                                    "answer_d": "Henry (H)"
+                                    "question": "Which unit is normally used for capacitance?",
+                                    "answer_a": "farad (F)",
+                                    "answer_b": "ohm ($\\Omega$)",
+                                    "answer_c": "ampere-hour (Ah)",
+                                    "answer_d": "henry (H)"
                                 },
                                 {
                                     "number": "NA213",
                                     "class": "1",
-                                    "question": "Welche Aussage ist f\u00fcr eine Schwingung von 145000000 Perioden pro Sekunde richtig?",
-                                    "answer_a": "Ihre Frequenz betr\u00e4gt 145 MHz.",
-                                    "answer_b": "Ihre Periodendauer betr\u00e4gt 145 \u03bcs.",
-                                    "answer_c": "Ihre Amplitude betr\u00e4gt 145 pps.",
-                                    "answer_d": "Ihre Ausbreitungsgeschwindigkeit betr\u00e4gt 145 km/s."
+                                    "question": "Which statement is correct for an oscillation of 145000000 cycles per second?",
+                                    "answer_a": "Its frequency is 145 MHz.",
+                                    "answer_b": "Its period is 145 \u03bcs.",
+                                    "answer_c": "Its amplitude is 145 pps.",
+                                    "answer_d": "Its velocity of propagation is 145 km/s."
                                 },
                                 {
                                     "number": "NA212",
                                     "class": "1",
-                                    "question": "144000000 Hz entspricht ...",
+                                    "question": "144000000 Hz corresponds to ...",
                                     "answer_a": "144 MHz",
                                     "answer_b": "144 kHz",
-                                    "answer_c": "1,44 GHz",
-                                    "answer_d": "1,44 kHz"
+                                    "answer_c": "1.44 GHz",
+                                    "answer_d": "1.44 kHz"
                                 },
                                 {
                                     "number": "NA211",
                                     "class": "1",
-                                    "question": "0,010 W entspricht ...",
+                                    "question": "0.010 W corresponds to ...",
                                     "answer_a": "10 mW",
                                     "answer_b": "10 \u03bcW",
                                     "answer_c": "100 nW",
@@ -359,7 +359,7 @@
                                 {
                                     "number": "NA210",
                                     "class": "1",
-                                    "question": "1 W entspricht ...",
+                                    "question": "1 W corresponds to ...",
                                     "answer_a": "1000 mW",
                                     "answer_b": "1000 \u03bcW",
                                     "answer_c": "1000 nW",
@@ -368,25 +368,25 @@
                                 {
                                     "number": "NA209",
                                     "class": "1",
-                                    "question": "42 mA entspricht ...",
-                                    "answer_a": "0,042 A.",
-                                    "answer_b": "0,0042 A.",
-                                    "answer_c": "4,2 A.",
-                                    "answer_d": "0,42 A."
+                                    "question": "42 mA corresponds to ...",
+                                    "answer_a": "0.042 A.",
+                                    "answer_b": "0.0042 A.",
+                                    "answer_c": "4.2 A.",
+                                    "answer_d": "0.42 A."
                                 },
                                 {
                                     "number": "NA208",
                                     "class": "1",
-                                    "question": "4,2 V entspricht ...",
+                                    "question": "4.2 V corresponds to ...",
                                     "answer_a": "4200 mV",
-                                    "answer_b": "4,200 \u03bcV",
+                                    "answer_b": "4.200 \u03bcV",
                                     "answer_c": "4200 kV",
                                     "answer_d": "4200 MV"
                                 },
                                 {
                                     "number": "NA207",
                                     "class": "1",
-                                    "question": "Wenn s f\u00fcr Sekunde steht, gilt f\u00fcr die Einheit der Frequenz ...",
+                                    "question": "If s stands for second, the unit of frequency is ...",
                                     "answer_a": "Hz = $\\dfrac{1}{\\textrm{s}}$",
                                     "answer_b": "Hz = s",
                                     "answer_c": "Hz = s$^2$",
@@ -395,56 +395,56 @@
                                 {
                                     "number": "NA206",
                                     "class": "1",
-                                    "question": "Welche Einheit wird \u00fcblicherweise f\u00fcr die Frequenz einer elektrischen Schwingung verwendet?",
-                                    "answer_a": "Hertz (Hz)",
-                                    "answer_b": "Meter (m)",
-                                    "answer_c": "Meter pro Sekunde (m/s)",
-                                    "answer_d": "Sekunde pro Meter (s/m)"
+                                    "question": "Which unit is normally used for the frequency of an electrical oscillation?",
+                                    "answer_a": "hertz (Hz)",
+                                    "answer_b": "metre (m)",
+                                    "answer_c": "metre per second (m/s)",
+                                    "answer_d": "second per metre (s/m)"
                                 },
                                 {
                                     "number": "NA205",
                                     "class": "1",
-                                    "question": "Welche Einheit wird \u00fcblicherweise f\u00fcr die Wellenl\u00e4nge verwendet?",
-                                    "answer_a": "Meter (m)",
-                                    "answer_b": "Meter pro Sekunde (m/s)",
-                                    "answer_c": "Hertz (Hz)",
-                                    "answer_d": "Sekunde pro Meter (s/m)"
+                                    "question": "Which unit is normally used for wavelength?",
+                                    "answer_a": "metre (m)",
+                                    "answer_b": "metre per second (m/s)",
+                                    "answer_c": "hertz (Hz)",
+                                    "answer_d": "second per metre (s/m)"
                                 },
                                 {
                                     "number": "NA204",
                                     "class": "1",
-                                    "question": "Welche Einheit wird \u00fcblicherweise f\u00fcr die elektrische Leistung verwendet?",
-                                    "answer_a": "Watt (W)",
-                                    "answer_b": "Kilowattstunden (kWh)",
-                                    "answer_c": "Joule (J)",
-                                    "answer_d": "Amperestunden (Ah)"
+                                    "question": "Which unit is normally used for electrical power?",
+                                    "answer_a": "watt (W)",
+                                    "answer_b": "kilowatt-hour (kWh)",
+                                    "answer_c": "joule (J)",
+                                    "answer_d": "ampere-hour (Ah)"
                                 },
                                 {
                                     "number": "NA203",
                                     "class": "1",
-                                    "question": "Welche Einheit wird \u00fcblicherweise f\u00fcr den elektrische Widerstand verwendet?",
-                                    "answer_a": "Ohm ($\\Omega$)",
-                                    "answer_b": "Volt (V)",
-                                    "answer_c": "Ampere (A)",
-                                    "answer_d": "Watt (W)"
+                                    "question": "Which unit is normally used for electrical resistance?",
+                                    "answer_a": "ohm ($\\Omega$)",
+                                    "answer_b": "volt (V)",
+                                    "answer_c": "ampere (A)",
+                                    "answer_d": "watt (W)"
                                 },
                                 {
                                     "number": "NA202",
                                     "class": "1",
-                                    "question": "Welche Einheit wird \u00fcblicherweise f\u00fcr die elektrische Stromst\u00e4rke verwendet?",
-                                    "answer_a": "Ampere (A)",
-                                    "answer_b": "Volt (V)",
-                                    "answer_c": "Ohm ($\\Omega$)",
-                                    "answer_d": "Amperestunden (Ah)"
+                                    "question": "Which unit is normally used for electric current?",
+                                    "answer_a": "ampere (A)",
+                                    "answer_b": "volt (V)",
+                                    "answer_c": "ohm ($\\Omega$)",
+                                    "answer_d": "ampere-hour (Ah)"
                                 },
                                 {
                                     "number": "NA201",
                                     "class": "1",
-                                    "question": "Welche Einheit wird \u00fcblicherweise f\u00fcr die elektrische Spannung verwendet?",
-                                    "answer_a": "Volt (V)",
-                                    "answer_b": "Ampere (A)",
-                                    "answer_c": "Ohm ($\\Omega$)",
-                                    "answer_d": "Amperestunden (Ah)"
+                                    "question": "Which unit is normally used for voltage?",
+                                    "answer_a": "volt (V)",
+                                    "answer_b": "ampere (A)",
+                                    "answer_c": "ohm ($\\Omega$)",
+                                    "answer_d": "ampere-hour (Ah)"
                                 }
                             ]
                         },
@@ -454,7 +454,7 @@
                                 {
                                     "number": "EA208",
                                     "class": "2",
-                                    "question": "Berechnen Sie den dezimalen Wert der Dualzahl 11111000. Die Dezimalzahl lautet:",
+                                    "question": "Calculate the decimal value of the binary number 11111000. The decimal number is:",
                                     "answer_a": "248",
                                     "answer_b": "78",
                                     "answer_c": "156",
@@ -463,7 +463,7 @@
                                 {
                                     "number": "EA207",
                                     "class": "2",
-                                    "question": "Berechnen Sie den dezimalen Wert der Dualzahl 10011100. Die Dezimalzahl lautet:",
+                                    "question": "Calculate the decimal value of the binary number 10011100. The decimal number is:",
                                     "answer_a": "156",
                                     "answer_b": "142",
                                     "answer_c": "78",
@@ -472,7 +472,7 @@
                                 {
                                     "number": "EA206",
                                     "class": "2",
-                                    "question": "Berechnen Sie den dezimalen Wert der Dualzahl 10001110. Die Dezimalzahl lautet:",
+                                    "question": "Calculate the decimal value of the binary number 10001110. The decimal number is:",
                                     "answer_a": "142",
                                     "answer_b": "78",
                                     "answer_c": "156",
@@ -481,7 +481,7 @@
                                 {
                                     "number": "EA205",
                                     "class": "2",
-                                    "question": "Berechnen Sie den dezimalen Wert der Dualzahl 01001110. Die Dezimalzahl lautet:",
+                                    "question": "Calculate the decimal value of the binary number 01001110. The decimal number is:",
                                     "answer_a": "78",
                                     "answer_b": "156",
                                     "answer_c": "142",
@@ -490,7 +490,7 @@
                                 {
                                     "number": "EA204",
                                     "class": "2",
-                                    "question": "Wie viele unterschiedliche Werte k\u00f6nnen mit einer f\u00fcnfstelligen Dualzahl dargestellt werden?",
+                                    "question": "How many different values can be represented by a five-digit binary number?",
                                     "answer_a": "32",
                                     "answer_b": "5",
                                     "answer_c": "64",
@@ -499,7 +499,7 @@
                                 {
                                     "number": "EA203",
                                     "class": "2",
-                                    "question": "Wie viele unterschiedliche Zust\u00e4nde k\u00f6nnen mit einer Dualzahl dargestellt werden, die aus einer Folge von 4 Bit besteht?",
+                                    "question": "How many different states can be represented by a binary number consisting of a sequence of 4 bits?",
                                     "answer_a": "16",
                                     "answer_b": "4",
                                     "answer_c": "6",
@@ -508,7 +508,7 @@
                                 {
                                     "number": "EA202",
                                     "class": "2",
-                                    "question": "Wie viele unterschiedliche Zust\u00e4nde k\u00f6nnen mit einer Dualzahl dargestellt werden, die aus einer Folge von 3 Bit besteht?",
+                                    "question": "How many different states can be represented by a binary number consisting of a sequence of 3 bits?",
                                     "answer_a": "8",
                                     "answer_b": "4",
                                     "answer_c": "6",
@@ -517,11 +517,11 @@
                                 {
                                     "number": "EA201",
                                     "class": "2",
-                                    "question": "Was ist der Vorteil des bin\u00e4ren Zahlensystems gegen\u00fcber dem dezimalen Zahlensystem in elektronischen Schaltungen?",
-                                    "answer_a": "Die bin\u00e4ren Ziffern 0 und 1 k\u00f6nnen als zwei elektrische Zust\u00e4nde dargestellt und dadurch einfach mittels Schaltelementen (z. B. Transistoren) verarbeitet werden.",
-                                    "answer_b": "Die Genauigkeit des bin\u00e4ren Systems (mit zwei Ziffern) ist um den Faktor 5 h\u00f6her als die des Dezimalsystems (mit 10 Ziffern).",
-                                    "answer_c": "Der Zwischenbereich zwischen 0 und 1 kann von analogen Verst\u00e4rkerschaltungen mit hoher Genauigkeit abgebildet werden.",
-                                    "answer_d": "Je Ziffer kann mehr als ein Bit an Information \u00fcbertragen werden (1 bin\u00e4re Ziffer erlaubt die \u00dcbertragung von 8 Dezimalziffern)."
+                                    "question": "What is the advantage of the binary number system over the decimal number system in electronic circuits?",
+                                    "answer_a": "The binary digits 0 and 1 can be represented as two electrical states and can therefore be processed easily by switching elements (e.g. transistors).",
+                                    "answer_b": "The accuracy of the binary system (with two digits) is higher by a factor of 5 than that of the decimal system (with 10 digits).",
+                                    "answer_c": "The intermediate range between 0 and 1 can be represented with high accuracy by analogue amplifier circuits.",
+                                    "answer_d": "More than one bit of information can be transmitted per digit (1 binary digit allows 8 decimal digits to be transmitted)."
                                 }
                             ]
                         }
@@ -536,121 +536,121 @@
                                 {
                                     "number": "AB109",
                                     "class": "3",
-                                    "question": "Wie verh\u00e4lt sich die Verarmungszone in der hier dargestellten Halbleiterdiode?",
-                                    "answer_a": "Sie erweitert sich.",
-                                    "answer_b": "Sie verengt sich.",
-                                    "answer_c": "Sie ver\u00e4ndert sich nicht.",
-                                    "answer_d": "Sie verschwindet. ",
+                                    "question": "How does the depletion region behave in the semiconductor diode shown here?",
+                                    "answer_a": "It widens.",
+                                    "answer_b": "It narrows.",
+                                    "answer_c": "It does not change.",
+                                    "answer_d": "It disappears.",
                                     "picture_question": "AB109_q"
                                 },
                                 {
                                     "number": "AB108",
                                     "class": "3",
-                                    "question": "Das folgende Bild zeigt den prinzipiellen Aufbau einer Halbleiterdiode. Wie entsteht die Sperrschicht?",
-                                    "answer_a": "An der Grenzschicht wandern Elektronen aus dem N-Teil in den P-Teil. Dadurch wird auf der N-Seite der Elektronen\u00fcberschuss teilweise abgebaut, auf der P-Seite der Elektronenmangel teilweise neutralisiert. Es bildet sich auf beiden Seiten der Grenzfl\u00e4che eine isolierende Schicht.",
-                                    "answer_b": "An der Grenzschicht wandern Elektronen aus dem P-Teil in den N-Teil. Dadurch wird auf der P-Seite der Elektronen\u00fcberschuss teilweise abgebaut, auf der N-Seite der Elektronenmangel teilweise neutralisiert. Es bildet sich auf beiden Seiten der Grenzfl\u00e4che eine isolierende Schicht.",
-                                    "answer_c": "An der Grenzschicht wandern Atome aus dem P-Teil in den N-Teil. Dadurch wird auf der P-Seite der Atommangel abgebaut, auf der N-Seite der Atommangel vergr\u00f6\u00dfert. Es bildet sich auf beiden Seiten der Grenzfl\u00e4che eine leitende Schicht.",
-                                    "answer_d": "An der Grenzschicht wandern Atome aus dem N-Teil in den P-Teil. Dadurch wird auf der N-Seite der Atommangel abgebaut, auf der P-Seite der Atommangel vergr\u00f6\u00dfert. Es bildet sich auf beiden Seiten der Grenzfl\u00e4che eine leitende Schicht.",
+                                    "question": "The following picture shows the basic structure of a semiconductor diode. How is the depletion layer formed?",
+                                    "answer_a": "At the junction, electrons migrate from the N-type side into the P-type side. This partly reduces the excess of electrons on the N-type side and partly neutralises the deficiency of electrons on the P-type side. An insulating layer forms on both sides of the boundary.",
+                                    "answer_b": "At the junction, electrons migrate from the P-type side into the N-type side. This partly reduces the excess of electrons on the P-type side and partly neutralises the deficiency of electrons on the N-type side. An insulating layer forms on both sides of the boundary.",
+                                    "answer_c": "At the junction, atoms migrate from the P-type side into the N-type side. This reduces the deficiency of atoms on the P-type side and increases the deficiency of atoms on the N-type side. A conducting layer forms on both sides of the boundary.",
+                                    "answer_d": "At the junction, atoms migrate from the N-type side into the P-type side. This reduces the deficiency of atoms on the N-type side and increases the deficiency of atoms on the P-type side. A conducting layer forms on both sides of the boundary.",
                                     "picture_question": "AB108_q"
                                 },
                                 {
                                     "number": "AB107",
                                     "class": "3",
-                                    "question": "P-leitendes Halbleitermaterial ist gekennzeichnet durch ...",
-                                    "answer_a": "einen \u00dcberschuss an beweglichen Elektronenl\u00f6chern.",
-                                    "answer_b": "ein Fehlen von Dotierungsatomen.",
-                                    "answer_c": "ein Fehlen von Atomen im Gitter des Halbleiterkristalls.",
-                                    "answer_d": "einen \u00dcberschuss an beweglichen Elektronen."
+                                    "question": "P-type semiconductor material is characterised by ...",
+                                    "answer_a": "an excess of mobile holes.",
+                                    "answer_b": "an absence of dopant atoms.",
+                                    "answer_c": "an absence of atoms in the lattice of the semiconductor crystal.",
+                                    "answer_d": "an excess of mobile electrons."
                                 },
                                 {
                                     "number": "AB106",
                                     "class": "3",
-                                    "question": "N-leitendes Halbleitermaterial ist gekennzeichnet durch ...",
-                                    "answer_a": "einen \u00dcberschuss an beweglichen Elektronen.",
-                                    "answer_b": "ein Fehlen von Dotierungsatomen.",
-                                    "answer_c": "ein Fehlen von Atomen im Gitter des Halbleiterkristalls.",
-                                    "answer_d": "einen \u00dcberschuss an beweglichen Elektronenl\u00f6chern."
+                                    "question": "N-type semiconductor material is characterised by ...",
+                                    "answer_a": "an excess of mobile electrons.",
+                                    "answer_b": "an absence of dopant atoms.",
+                                    "answer_c": "an absence of atoms in the lattice of the semiconductor crystal.",
+                                    "answer_d": "an excess of mobile holes."
                                 },
                                 {
                                     "number": "AB105",
                                     "class": "3",
-                                    "question": "Was versteht man unter Dotierung?",
-                                    "answer_a": "Das Einbringen von chemisch anderswertigen Fremdatomen in einen Halbleitergrundstoff, um freie Ladungstr\u00e4ger zur Verf\u00fcgung zu stellen.",
-                                    "answer_b": "Das Entfernen von Atomen aus dem Halbleitergrundstoff, um die elektrische Leitf\u00e4higkeit zu senken.",
-                                    "answer_c": "Das Einbringen von magnetischen Nord- oder S\u00fcdpolen in einen Halbleitergrundstoff, um die Induktivit\u00e4t zu erh\u00f6hen.",
-                                    "answer_d": "Das Entfernen von Verunreinigungen aus einem Halbleitergrundstoff, um Elektronen zu generieren."
+                                    "question": "What is meant by doping?",
+                                    "answer_a": "Introducing foreign atoms of a different chemical valency into a base semiconductor material in order to provide free charge carriers.",
+                                    "answer_b": "Removing atoms from the base semiconductor material in order to reduce its electrical conductivity.",
+                                    "answer_c": "Introducing magnetic north or south poles into a base semiconductor material in order to increase its inductance.",
+                                    "answer_d": "Removing impurities from a base semiconductor material in order to generate electrons."
                                 },
                                 {
                                     "number": "AB104",
                                     "class": "3",
-                                    "question": "Was versteht man unter Halbleitermaterialien?",
-                                    "answer_a": "Einige Stoffe (z. B. Silizium) sind in reinem Zustand bei Raumtemperatur gute Isolatoren. Durch geringf\u00fcgige Zus\u00e4tze von geeigneten anderen Stoffen (z. B. Bor, Phosphor) oder bei hohen Temperaturen werden sie jedoch zu Leitern.",
-                                    "answer_b": "Einige Stoffe (z. B. Silizium) sind in reinem Zustand bei Raumtemperatur gute Leiter. Durch geringf\u00fcgige Zus\u00e4tze von geeigneten anderen Stoffen (z. B. Bor, Phosphor) oder bei hohen Temperaturen nimmt jedoch ihre Leitf\u00e4higkeit ab.",
-                                    "answer_c": "Einige Stoffe (z. B. Silizium) sind in reinem Zustand bei Raumtemperatur gute Leiter. Durch geringf\u00fcgige Zus\u00e4tze von geeigneten anderen Stoffen (z. B. Bismut, Tellur) f\u00e4llt ihr Widerstand auf den halben Wert.",
-                                    "answer_d": "Einige Stoffe (z. B. Silizium) sind in reinem Zustand bei Raumtemperatur gute Elektrolyten. Durch geringf\u00fcgige Zus\u00e4tze von geeigneten anderen Stoffen (z. B. Bismut, Tellur) kann man daraus entweder N-leitendes- oder P-leitendes Material f\u00fcr Anoden bzw. Kathoden von Batterien herstellen."
+                                    "question": "What are semiconductor materials?",
+                                    "answer_a": "Some substances (e.g. silicon) are good insulators in the pure state at room temperature. However, small additions of suitable other substances (e.g. boron, phosphorus) or high temperatures turn them into conductors.",
+                                    "answer_b": "Some substances (e.g. silicon) are good conductors in the pure state at room temperature. However, small additions of suitable other substances (e.g. boron, phosphorus) or high temperatures reduce their conductivity.",
+                                    "answer_c": "Some substances (e.g. silicon) are good conductors in the pure state at room temperature. Small additions of suitable other substances (e.g. bismuth, tellurium) halve their resistance.",
+                                    "answer_d": "Some substances (e.g. silicon) are good electrolytes in the pure state at room temperature. With small additions of suitable other substances (e.g. bismuth, tellurium) they can be made into either N-type or P-type material for the anodes or cathodes of batteries."
                                 },
                                 {
                                     "number": "AB103",
                                     "class": "3",
-                                    "question": "Wie \u00e4ndert sich der Widerstand eines Metalls mit der Temperatur im Regelfall?",
-                                    "answer_a": "Der Widerstand steigt mit zunehmender Temperatur, d. h. der Temperaturkoeffizient ist positiv.",
-                                    "answer_b": "Der Widerstand sinkt mit zunehmender Temperatur, d. h. der Temperaturkoeffizient ist negativ.",
-                                    "answer_c": "Der Widerstand \u00e4ndert sich nicht mit zunehmender Temperatur, d. h. der Temperaturkoeffizient ist Null.",
-                                    "answer_d": "Der Widerstand oszilliert mit zunehmender Temperatur, d. h. der Temperaturkoeffizient ist komplex."
+                                    "question": "How does the resistance of a metal normally change with temperature?",
+                                    "answer_a": "The resistance rises as the temperature increases, i.e. the temperature coefficient is positive.",
+                                    "answer_b": "The resistance falls as the temperature increases, i.e. the temperature coefficient is negative.",
+                                    "answer_c": "The resistance does not change as the temperature increases, i.e. the temperature coefficient is zero.",
+                                    "answer_d": "The resistance oscillates as the temperature increases, i.e. the temperature coefficient is complex."
                                 },
                                 {
                                     "number": "AB102",
                                     "class": "3",
-                                    "question": "Zwischen den Enden eines Kupferdrahtes mit einem Querschnitt von 0,5 mm\u00b2 messen Sie einen Widerstand von 1,5 Ohm. Wie lang ist der Draht etwa?",
-                                    "answer_a": "41,7 m",
-                                    "answer_b": "3,0 m",
-                                    "answer_c": "4,2 m",
-                                    "answer_d": "16,5 m"
+                                    "question": "You measure a resistance of 1.5 ohms between the ends of a copper wire with a cross-sectional area of 0.5 mm\u00b2. Approximately how long is the wire?",
+                                    "answer_a": "41.7 m",
+                                    "answer_b": "3.0 m",
+                                    "answer_c": "4.2 m",
+                                    "answer_d": "16.5 m"
                                 },
                                 {
                                     "number": "AB101",
                                     "class": "3",
-                                    "question": "Welchen Widerstand hat ein Kupferdraht etwa, wenn der verwendete Draht eine L\u00e4nge von 1,8 m und einen Durchmesser von 0,2 mm hat?",
-                                    "answer_a": "1,02 Ohm",
-                                    "answer_b": "56,0 Ohm",
-                                    "answer_c": "0,26 Ohm",
-                                    "answer_d": "0,16 Ohm"
+                                    "question": "Approximately what is the resistance of a copper wire if the wire used has a length of 1.8 m and a diameter of 0.2 mm?",
+                                    "answer_a": "1.02 ohms",
+                                    "answer_b": "56.0 ohms",
+                                    "answer_c": "0.26 ohms",
+                                    "answer_d": "0.16 ohms"
                                 },
                                 {
                                     "number": "NB104",
                                     "class": "1",
-                                    "question": "Die Materialien welcher Gruppe sind bei Raumtemperatur alle Nichtleiter (Isolatoren)?",
-                                    "answer_a": "Porzellan, Polyethylen (PE), Polystyrol (PS)",
-                                    "answer_b": "Polytetrafluorethylen (PTFE), Polyvinylchlorid (PVC), Wolfram",
-                                    "answer_c": "Polystyrol (PS), Messing, Kork",
-                                    "answer_d": "Porzellan, Polyethylen (PE), Bronze"
+                                    "question": "In which group are all the materials non-conductors (insulators) at room temperature?",
+                                    "answer_a": "Porcelain, polyethylene (PE), polystyrene (PS)",
+                                    "answer_b": "Polytetrafluoroethylene (PTFE), polyvinyl chloride (PVC), tungsten",
+                                    "answer_c": "Polystyrene (PS), brass, cork",
+                                    "answer_d": "Porcelain, polyethylene (PE), bronze"
                                 },
                                 {
                                     "number": "NB103",
                                     "class": "1",
-                                    "question": "Welches der genannten Metalle hat bei Raumtemperatur die schlechteste elektrische Leitf\u00e4higkeit?",
-                                    "answer_a": "Zinn",
-                                    "answer_b": "Kupfer",
+                                    "question": "Which of the following metals has the poorest electrical conductivity at room temperature?",
+                                    "answer_a": "Tin",
+                                    "answer_b": "Copper",
                                     "answer_c": "Gold",
                                     "answer_d": "Aluminium"
                                 },
                                 {
                                     "number": "NB102",
                                     "class": "1",
-                                    "question": "Welches der genannten Metalle hat bei Raumtemperatur die h\u00f6chste elektrische Leitf\u00e4higkeit?",
-                                    "answer_a": "Silber",
-                                    "answer_b": "Kupfer",
+                                    "question": "Which of the following metals has the highest electrical conductivity at room temperature?",
+                                    "answer_a": "Silver",
+                                    "answer_b": "Copper",
                                     "answer_c": "Gold",
-                                    "answer_d": "Zinn"
+                                    "answer_d": "Tin"
                                 },
                                 {
                                     "number": "NB101",
                                     "class": "1",
-                                    "question": "Welches der genannten Metalle hat bei Raumtemperatur die h\u00f6chste elektrische Leitf\u00e4higkeit?",
-                                    "answer_a": "Kupfer",
+                                    "question": "Which of the following metals has the highest electrical conductivity at room temperature?",
+                                    "answer_a": "Copper",
                                     "answer_b": "Aluminium",
-                                    "answer_c": "Wolfram",
-                                    "answer_d": "Zink"
+                                    "answer_c": "Tungsten",
+                                    "answer_d": "Zinc"
                                 }
                             ]
                         },
@@ -660,52 +660,52 @@
                                 {
                                     "number": "AB214",
                                     "class": "3",
-                                    "question": "Ein Spannungswandler wandelt 5 V in 12 V um. Dabei nimmt er 3 A auf und gibt 1 A ab. Wie gro\u00df ist sein Wirkungsgrad?",
-                                    "answer_a": "80,0 %",
+                                    "question": "A DC\u2013DC converter converts 5 V to 12 V. It draws 3 A and delivers 1 A. What is its efficiency?",
+                                    "answer_a": "80.0 %",
                                     "answer_b": "125 %",
-                                    "answer_c": "13,9 %",
-                                    "answer_d": "28,6 %"
+                                    "answer_c": "13.9 %",
+                                    "answer_d": "28.6 %"
                                 },
                                 {
                                     "number": "AB213",
                                     "class": "3",
-                                    "question": "Ein Spannungswandler setzt 12 V auf 5 V um. Er nimmt 2 A auf und gibt 3 A ab. Wie gro\u00df ist sein Wirkungsgrad?",
-                                    "answer_a": "62,5 %",
+                                    "question": "A DC\u2013DC converter converts 12 V to 5 V. It draws 2 A and delivers 3 A. What is its efficiency?",
+                                    "answer_a": "62.5 %",
                                     "answer_b": "160 %",
-                                    "answer_c": "27,7 %",
-                                    "answer_d": "41,7 %"
+                                    "answer_c": "27.7 %",
+                                    "answer_d": "41.7 %"
                                 },
                                 {
                                     "number": "AB212",
                                     "class": "3",
-                                    "question": "Was ist die prim\u00e4re Aufgabe einer Solarzelle?",
-                                    "answer_a": "Die Umwandlung von Strahlungsenergie in elektrische Energie.",
-                                    "answer_b": "Die Umwandlung von elektrischer Energie in Strahlungsenergie.",
-                                    "answer_c": "Die Umwandlung von Strahlungsenergie in thermische Energie.",
-                                    "answer_d": "Die Umwandlung von thermischer Energie in Strahlungsenergie."
+                                    "question": "What is the primary function of a solar cell?",
+                                    "answer_a": "Converting radiant energy into electrical energy.",
+                                    "answer_b": "Converting electrical energy into radiant energy.",
+                                    "answer_c": "Converting radiant energy into thermal energy.",
+                                    "answer_d": "Converting thermal energy into radiant energy."
                                 },
                                 {
                                     "number": "AB211",
                                     "class": "3",
-                                    "question": "Wie lange k\u00f6nnte man idealerweise mit einem voll geladenen Akku mit 60 Ah einen Amateurfunkempf\u00e4nger betreiben, bis dieser auf 10 % seiner Kapazit\u00e4t entladen ist und einen Strom von 0,8 A aufnimmt?",
-                                    "answer_a": "67 Stunden und 30 Minuten",
-                                    "answer_b": "43 Stunden und 12 Minuten",
-                                    "answer_c": "74 Stunden und 60 Minuten",
-                                    "answer_d": "48 Stunden und 0 Minuten"
+                                    "question": "Ideally, for how long could an amateur radio receiver drawing a current of 0.8 A be operated from a fully charged 60 Ah rechargeable battery until the battery is discharged to 10 % of its capacity?",
+                                    "answer_a": "67 hours and 30 minutes",
+                                    "answer_b": "43 hours and 12 minutes",
+                                    "answer_c": "74 hours and 60 minutes",
+                                    "answer_d": "48 hours and 0 minutes"
                                 },
                                 {
                                     "number": "AB210",
                                     "class": "3",
-                                    "question": "Auf dem Akku-Pack eines Handfunksprechger\u00e4tes stehen folgende Angaben: 7,4 V - 2200 mAh - 16,28 Wh. Welcher Begriff ist f\u00fcr die Angabe 2200 mAh zutreffend.",
-                                    "answer_a": "Nennkapazit\u00e4t",
-                                    "answer_b": "Nennleistung",
-                                    "answer_c": "maximaler Ladestrom pro Stunde",
-                                    "answer_d": "maximaler Entladestrom pro Stunde"
+                                    "question": "The battery pack of a handheld transceiver is marked: 7.4 V - 2200 mAh - 16.28 Wh. Which term applies to the figure 2200 mAh?",
+                                    "answer_a": "Rated capacity",
+                                    "answer_b": "Rated power",
+                                    "answer_c": "Maximum charging current per hour",
+                                    "answer_d": "Maximum discharge current per hour"
                                 },
                                 {
                                     "number": "AB209",
                                     "class": "3",
-                                    "question": "Folgende Schaltung eines Akkus besteht aus Zellen von je 2 V. Jede Zelle kann 10 Ah Ladung liefern. Welche Daten hat der Akku?",
+                                    "question": "The following battery circuit consists of cells of 2 V each. Each cell can deliver a charge of 10 Ah. What are the ratings of the battery?",
                                     "answer_a": "12 V/10 Ah",
                                     "answer_b": "12 V/60 Ah",
                                     "answer_c": "2 V/10 Ah",
@@ -715,43 +715,43 @@
                                 {
                                     "number": "AB208",
                                     "class": "3",
-                                    "question": "Die Leerlaufspannung einer Gleichspannungsquelle betr\u00e4gt 13,8 V. Wenn die Spannungsquelle einen Strom von 20 A abgibt, bleibt die Klemmenspannung auf 13,6 V. Wie gro\u00df ist der Innenwiderstand der Spannungsquelle?",
+                                    "question": "The open-circuit voltage of a DC voltage source is 13.8 V. When the voltage source delivers a current of 20 A, the terminal voltage stays at 13.6 V. What is the internal resistance of the voltage source?",
                                     "answer_a": "10 m$\\Omega$",
                                     "answer_b": "20 m$\\Omega$",
-                                    "answer_c": "0,2 Ohm",
-                                    "answer_d": "0,1 Ohm"
+                                    "answer_c": "0.2 ohms",
+                                    "answer_d": "0.1 ohms"
                                 },
                                 {
                                     "number": "AB207",
                                     "class": "3",
-                                    "question": "Die Leerlaufspannung einer Gleichspannungsquelle betr\u00e4gt 13,5 V. Wenn die Spannungsquelle einen Strom von 2 A abgibt, sinkt die Klemmenspannung auf 13 V. Wie gro\u00df ist der Innenwiderstand der Spannungsquelle?",
-                                    "answer_a": "0,25 Ohm",
-                                    "answer_b": "6,75 Ohm",
-                                    "answer_c": "4 Ohm",
-                                    "answer_d": "1 Ohm"
+                                    "question": "The open-circuit voltage of a DC voltage source is 13.5 V. When the voltage source delivers a current of 2 A, the terminal voltage falls to 13 V. What is the internal resistance of the voltage source?",
+                                    "answer_a": "0.25 ohms",
+                                    "answer_b": "6.75 ohms",
+                                    "answer_c": "4 ohms",
+                                    "answer_d": "1 ohm"
                                 },
                                 {
                                     "number": "AB206",
                                     "class": "3",
-                                    "question": "Die Leerlaufspannung einer Gleichspannungsquelle betr\u00e4gt 13,5 V. Wenn die Spannungsquelle einen Strom von 0,9 A abgibt, sinkt die Klemmenspannung auf 12,4 V. Wie gro\u00df ist der Innenwiderstand der Spannungsquelle?",
-                                    "answer_a": "1,22 Ohm",
-                                    "answer_b": "0,82 Ohm",
-                                    "answer_c": "0,99 Ohm",
-                                    "answer_d": "15,0 Ohm"
+                                    "question": "The open-circuit voltage of a DC voltage source is 13.5 V. When the voltage source delivers a current of 0.9 A, the terminal voltage falls to 12.4 V. What is the internal resistance of the voltage source?",
+                                    "answer_a": "1.22 ohms",
+                                    "answer_b": "0.82 ohms",
+                                    "answer_c": "0.99 ohms",
+                                    "answer_d": "15.0 ohms"
                                 },
                                 {
                                     "number": "AB205",
                                     "class": "3",
-                                    "question": "Die Leerlaufspannung einer Spannungsquelle betr\u00e4gt 5,0 V. Schlie\u00dft man einen Belastungswiderstand mit 1,2 Ohm an, so geht die Klemmenspannung der Spannungsquelle auf 4,8 V zur\u00fcck. Wie hoch ist der Innenwiderstand der Spannungsquelle?",
-                                    "answer_a": "0,05 Ohm",
-                                    "answer_b": "8,2 Ohm",
-                                    "answer_c": "0,17 Ohm",
-                                    "answer_d": "0,25 Ohm"
+                                    "question": "The open-circuit voltage of a voltage source is 5.0 V. If a load resistor of 1.2 ohms is connected, the terminal voltage of the voltage source drops to 4.8 V. What is the internal resistance of the voltage source?",
+                                    "answer_a": "0.05 ohms",
+                                    "answer_b": "8.2 ohms",
+                                    "answer_c": "0.17 ohms",
+                                    "answer_d": "0.25 ohms"
                                 },
                                 {
                                     "number": "AB204",
                                     "class": "3",
-                                    "question": "In welchem Zusammenhang m\u00fcssen der Innenwiderstand $R_\\textrm{i}$ einer Stromquelle und ein direkt daran angeschlossener Lastwiderstand $R_\\textrm{L}$ stehen, damit Stromanpassung vorliegt?",
+                                    "question": "What relationship must there be between the internal resistance $R_\\textrm{i}$ of a current source and a load resistor $R_\\textrm{L}$ connected directly to it for current matching?",
                                     "answer_a": "$R_{\\textrm{L}} \\ll R_{\\textrm{i}}$",
                                     "answer_b": "$R_{\\textrm{L}} \\gg R_{\\textrm{i}}$",
                                     "answer_c": "$R_{\\textrm{L}} = R_{\\textrm{i}}$",
@@ -760,7 +760,7 @@
                                 {
                                     "number": "AB203",
                                     "class": "3",
-                                    "question": "In welchem Zusammenhang m\u00fcssen der Innenwiderstand $R_{\\textrm{i}}$ einer Spannungsquelle und ein direkt daran angeschlossener Lastwiderstand $R_{\\textrm{L}}$ stehen, damit Spannungsanpassung vorliegt?",
+                                    "question": "What relationship must there be between the internal resistance $R_{\\textrm{i}}$ of a voltage source and a load resistor $R_{\\textrm{L}}$ connected directly to it for voltage matching?",
                                     "answer_a": "$R_{\\textrm{L}} \\gg R_{\\textrm{i}}$",
                                     "answer_b": "$R_{\\textrm{L}} \\ll R_{\\textrm{i}}$",
                                     "answer_c": "$R_{\\textrm{L}} = R_{\\textrm{i}}$",
@@ -769,7 +769,7 @@
                                 {
                                     "number": "AB202",
                                     "class": "3",
-                                    "question": "In welchem Zusammenhang m\u00fcssen der Innenwiderstand $R_\\textrm{i}$ einer Strom- oder Spannungsquelle und ein direkt daran angeschlossener Lastwiderstand $R_\\textrm{L}$ stehen, damit Leistungsanpassung vorliegt?",
+                                    "question": "What relationship must there be between the internal resistance $R_\\textrm{i}$ of a current or voltage source and a load resistor $R_\\textrm{L}$ connected directly to it for power matching?",
                                     "answer_a": "$R_\\textrm{L} = R_\\textrm{i}$",
                                     "answer_b": "$R_\\textrm{L} \\gg R_\\textrm{i}$",
                                     "answer_c": "$R_\\textrm{L} \\ll R_\\textrm{i}$",
@@ -778,80 +778,80 @@
                                 {
                                     "number": "AB201",
                                     "class": "3",
-                                    "question": "Welche Eigenschaften sollten Strom- und Spannungsquellen nach M\u00f6glichkeit aufweisen?",
-                                    "answer_a": "Stromquellen sollten einen m\u00f6glichst hohen Innenwiderstand und Spannungsquellen einen m\u00f6glichst niedrigen Innenwiderstand haben.",
-                                    "answer_b": "Strom- und Spannungsquellen sollten einen m\u00f6glichst niedrigen Innenwiderstand haben.",
-                                    "answer_c": "Strom- und Spannungsquellen sollten einen m\u00f6glichst hohen Innenwiderstand haben.",
-                                    "answer_d": "Stromquellen sollten einen m\u00f6glichst niedrigen Innenwiderstand und Spannungsquellen einen m\u00f6glichst hohen Innenwiderstand haben."
+                                    "question": "What properties should current sources and voltage sources have, as far as possible?",
+                                    "answer_a": "Current sources should have the highest possible internal resistance and voltage sources the lowest possible internal resistance.",
+                                    "answer_b": "Current sources and voltage sources should have the lowest possible internal resistance.",
+                                    "answer_c": "Current sources and voltage sources should have the highest possible internal resistance.",
+                                    "answer_d": "Current sources should have the lowest possible internal resistance and voltage sources the highest possible internal resistance."
                                 },
                                 {
                                     "number": "NB207",
                                     "class": "1",
-                                    "question": "Kann in folgender Schaltung von zwei gleichen Spannungsquellen Strom flie\u00dfen? Welche Begr\u00fcndung ist richtig?",
-                                    "answer_a": "Nein, weil kein geschlossener Stromkreis vorhanden ist.",
-                                    "answer_b": "Nein, weil dies nur bei verschiedenen Spannungsquellen m\u00f6glich ist.",
-                                    "answer_c": "Ja, weil der Pluspol mit dem Minuspol verbunden ist.",
-                                    "answer_d": "Ja, weil die Spannungsquellen nie exakt identisch sind.",
+                                    "question": "Can current flow in the following circuit of two identical voltage sources? Which reason is correct?",
+                                    "answer_a": "No, because there is no closed circuit.",
+                                    "answer_b": "No, because this is only possible with different voltage sources.",
+                                    "answer_c": "Yes, because the positive terminal is connected to the negative terminal.",
+                                    "answer_d": "Yes, because the voltage sources are never exactly identical.",
                                     "picture_question": "NB207_q"
                                 },
                                 {
                                     "number": "NB206",
                                     "class": "1",
-                                    "question": "Welche Spannung zeigt das Spannungsmessger\u00e4t in folgender Schaltung? ",
+                                    "question": "What voltage does the voltmeter in the following circuit show?",
                                     "answer_a": "0 V",
                                     "answer_b": "3 V",
                                     "answer_c": "-3 V",
-                                    "answer_d": "1,5 V",
+                                    "answer_d": "1.5 V",
                                     "picture_question": "NB206_q"
                                 },
                                 {
                                     "number": "NB205",
                                     "class": "1",
-                                    "question": "Welchen Betrag zeigt das Spannungsmessger\u00e4t in folgender Schaltung? ",
+                                    "question": "What magnitude does the voltmeter in the following circuit show?",
                                     "answer_a": "3 V",
                                     "answer_b": "0 V",
-                                    "answer_c": "2,25 V",
-                                    "answer_d": "1,5 V",
+                                    "answer_c": "2.25 V",
+                                    "answer_d": "1.5 V",
                                     "picture_question": "NB205_q"
                                 },
                                 {
                                     "number": "NB204",
                                     "class": "1",
-                                    "question": "Folgende Schaltung besteht aus Spannungsquellen von je 1,5 V. Welche Spannung misst man zwischen den Kontakten, die mit \"+\" und \"-\" gekennzeichnet sind?",
+                                    "question": "The following circuit consists of voltage sources of 1.5 V each. What voltage is measured between the contacts marked \"+\" and \"-\"?",
                                     "answer_a": "9 V",
-                                    "answer_b": "1,5 V",
-                                    "answer_c": "0,25 V",
+                                    "answer_b": "1.5 V",
+                                    "answer_c": "0.25 V",
                                     "answer_d": "6 V",
                                     "picture_question": "NB204_q"
                                 },
                                 {
                                     "number": "NB203",
                                     "class": "1",
-                                    "question": "Wie lauten die Bezeichnungen f\u00fcr die Anschl\u00fcsse 1 und 2 im Schaltsymbol?",
-                                    "answer_a": "1 = Plus-Pol; 2 = Minus-Pol",
-                                    "answer_b": "1 = Minus-Pol; 2 = Plus-Pol",
-                                    "answer_c": "1 = Nord-Pol; 2 = S\u00fcd-Pol",
-                                    "answer_d": "1 = S\u00fcd-Pol; 2 = Nord-Pol",
+                                    "question": "What are the names of terminals 1 and 2 in the circuit symbol?",
+                                    "answer_a": "1 = positive terminal; 2 = negative terminal",
+                                    "answer_b": "1 = negative terminal; 2 = positive terminal",
+                                    "answer_c": "1 = north pole; 2 = south pole",
+                                    "answer_d": "1 = south pole; 2 = north pole",
                                     "picture_question": "NB203_q"
                                 },
                                 {
                                     "number": "NB202",
                                     "class": "1",
-                                    "question": "Was wird durch dieses Schaltzeichen symbolisiert?",
-                                    "answer_a": "Masse",
-                                    "answer_b": "Antenne",
-                                    "answer_c": "Schalter",
-                                    "answer_d": "Batterie",
+                                    "question": "What does this circuit symbol represent?",
+                                    "answer_a": "Chassis",
+                                    "answer_b": "Antenna",
+                                    "answer_c": "Switch",
+                                    "answer_d": "Battery",
                                     "picture_question": "NB202_q"
                                 },
                                 {
                                     "number": "NB201",
                                     "class": "1",
-                                    "question": "Welches Bauteil wird durch das Schaltzeichen symbolisiert?",
-                                    "answer_a": "Batterie",
+                                    "question": "Which component does the circuit symbol represent?",
+                                    "answer_a": "Battery",
                                     "answer_b": "Diode",
-                                    "answer_c": "Widerstand",
-                                    "answer_d": "Kondensator",
+                                    "answer_c": "Resistor",
+                                    "answer_d": "Capacitor",
                                     "picture_question": "NB201_q"
                                 }
                             ]
@@ -862,26 +862,26 @@
                                 {
                                     "number": "EB105",
                                     "class": "2",
-                                    "question": "Wie werden die mit X gekennzeichneten Feldlinien einer Vertikalantenne bezeichnet?",
-                                    "answer_a": "Elektrische Feldlinien",
-                                    "answer_b": "Magnetische Feldlinien",
-                                    "answer_c": "Radiale Feldlinien",
-                                    "answer_d": "Horizontale Feldlinien",
+                                    "question": "What are the field lines of a vertical antenna marked X called?",
+                                    "answer_a": "Electric field lines",
+                                    "answer_b": "Magnetic field lines",
+                                    "answer_c": "Radial field lines",
+                                    "answer_d": "Horizontal field lines",
                                     "picture_question": "EB105_q"
                                 },
                                 {
                                     "number": "EB104",
                                     "class": "2",
-                                    "question": "Ein Kondensator in einer Senderendstufe hat eine 0,15 mm starke PTFE-Folie als Dielektrikum. Die Durchschlagsfestigkeit von PTFE betr\u00e4gt ca. 400 kV/cm. Wie gro\u00df w\u00e4re die maximale Spannung, die an den Kondensator angelegt werden kann, ohne dass die Folie durchschlagen wird?",
+                                    "question": "A capacitor in a transmitter output stage has a 0.15 mm thick PTFE film as its dielectric. The dielectric strength of PTFE is approximately 400 kV/cm. What is the maximum voltage that could be applied to the capacitor without the film breaking down?",
                                     "answer_a": "6 kV",
                                     "answer_b": "60 kV",
                                     "answer_c": "26 V",
-                                    "answer_d": "2,6 kV"
+                                    "answer_d": "2.6 kV"
                                 },
                                 {
                                     "number": "EB103",
                                     "class": "2",
-                                    "question": "An den Metallbel\u00e4gen eines Wickelkondensators mit 0,15 mm starkem Kunststoff-Dielektrikum liegt eine Spannung von 300 V. Wie hoch ist die elektrische Feldst\u00e4rke zwischen den Metallbel\u00e4gen ungef\u00e4hr?",
+                                    "question": "A voltage of 300 V is applied to the metal foils of a wound capacitor with a 0.15 mm thick plastic dielectric. Approximately what is the electric field strength between the metal foils?",
                                     "answer_a": "2000 kV/m",
                                     "answer_b": "200 V/m",
                                     "answer_c": "2000 V/m",
@@ -891,20 +891,20 @@
                                 {
                                     "number": "EB102",
                                     "class": "2",
-                                    "question": "An einem Plattenkondensator mit 0,6 cm Plattenabstand werden 9 V angelegt. Wie gro\u00df ist die elektrische Feldst\u00e4rke zwischen den beiden Platten n\u00e4herungsweise?",
+                                    "question": "9 V is applied to a parallel-plate capacitor with a plate spacing of 0.6 cm. Approximately what is the electric field strength between the two plates?",
                                     "answer_a": "1500 V/m",
                                     "answer_b": "150 V/m",
                                     "answer_c": "540 V/m",
-                                    "answer_d": "5,4 V/m"
+                                    "answer_d": "5.4 V/m"
                                 },
                                 {
                                     "number": "EB101",
                                     "class": "2",
-                                    "question": "Welches Feld stellt sich zwischen zwei parallelen Kondensatorplatten bei Anliegen einer Gleichspannung in N\u00e4herung ein?",
-                                    "answer_a": "Homogenes elektrisches Feld",
-                                    "answer_b": "Homogenes magnetisches Feld",
-                                    "answer_c": "Polarisiertes elektrisches Feld",
-                                    "answer_d": "Polarisiertes magnetisches Feld",
+                                    "question": "Approximately what kind of field is set up between two parallel capacitor plates when a DC voltage is applied?",
+                                    "answer_a": "Uniform electric field",
+                                    "answer_b": "Uniform magnetic field",
+                                    "answer_c": "Polarised electric field",
+                                    "answer_d": "Polarised magnetic field",
                                     "picture_question": "EB101_q"
                                 }
                             ]
@@ -915,59 +915,59 @@
                                 {
                                     "number": "EB206",
                                     "class": "2",
-                                    "question": "Wie werden die mit X gekennzeichneten Feldlinien einer Vertikalantenne bezeichnet?",
-                                    "answer_a": "Magnetische Feldlinien",
-                                    "answer_b": "Elektrische Feldlinien",
-                                    "answer_c": "Offene Feldlinien",
-                                    "answer_d": "Vertikale Feldlinien",
+                                    "question": "What are the field lines of a vertical antenna marked X called?",
+                                    "answer_a": "Magnetic field lines",
+                                    "answer_b": "Electric field lines",
+                                    "answer_c": "Open field lines",
+                                    "answer_d": "Vertical field lines",
                                     "picture_question": "EB206_q"
                                 },
                                 {
                                     "number": "EB205",
                                     "class": "2",
-                                    "question": "Welcher Effekt verringert die Induktivit\u00e4t einer von hochfrequentem Strom durchflossenen Spule beim Einf\u00fchren eines Kupfer- oder Aluminiumkerns?",
-                                    "answer_a": "Das hochfrequente Magnetfeld kann nicht in den Kern eindringen, was den Querschnitt des Feldes verringert.",
-                                    "answer_b": "Kupfer und Aluminium sind ferromagnetisch und schw\u00e4chen das Feld ab.",
-                                    "answer_c": "Das leitf\u00e4hige Metall schlie\u00dft das Feld kurz, sodass es im Inneren der Spule verschwindet.",
-                                    "answer_d": "Kupfer und Aluminium sind nicht magnetisch und haben keinen Einfluss auf das Feld."
+                                    "question": "Which effect reduces the inductance of an inductor carrying RF current when a copper or aluminium core is inserted?",
+                                    "answer_a": "The RF magnetic field cannot penetrate the core, which reduces the cross-sectional area of the field.",
+                                    "answer_b": "Copper and aluminium are ferromagnetic and weaken the field.",
+                                    "answer_c": "The conductive metal short-circuits the field, so that it disappears inside the inductor.",
+                                    "answer_d": "Copper and aluminium are non-magnetic and have no effect on the field."
                                 },
                                 {
                                     "number": "EB204",
                                     "class": "2",
-                                    "question": "Welcher der nachfolgenden Werkstoffe ist bei Raumtemperatur ein ferromagnetischer Stoff?",
-                                    "answer_a": "Eisen",
-                                    "answer_b": "Chrom",
-                                    "answer_c": "Kupfer",
+                                    "question": "Which of the following materials is a ferromagnetic substance at room temperature?",
+                                    "answer_a": "Iron",
+                                    "answer_b": "Chromium",
+                                    "answer_c": "Copper",
                                     "answer_d": "Aluminium"
                                 },
                                 {
                                     "number": "EB203",
                                     "class": "2",
-                                    "question": "Ein Ringkern hat einen mittleren Durchmesser von 2,6 cm und tr\u00e4gt 6 Windungen Kupferdraht. Wie gro\u00df ist die mittlere magnetische Feldst\u00e4rke im Ringkern, wenn der Strom 2,5 A betr\u00e4gt?",
-                                    "answer_a": "183,6 A/m",
-                                    "answer_b": "1,836 A/m",
+                                    "question": "A toroidal core has a mean diameter of 2.6 cm and carries 6 turns of copper wire. What is the mean magnetic field strength in the toroidal core if the current is 2.5 A?",
+                                    "answer_a": "183.6 A/m",
+                                    "answer_b": "1.836 A/m",
                                     "answer_c": "5769 A/m",
-                                    "answer_d": "5,769 A/m",
+                                    "answer_d": "5.769 A/m",
                                     "picture_question": "EB203_q"
                                 },
                                 {
                                     "number": "EB202",
                                     "class": "2",
-                                    "question": "Welches Feld stellt sich im Inneren einer langen Zylinderspule bei Flie\u00dfen eines Gleichstroms n\u00e4herungsweise ein?",
-                                    "answer_a": "Homogenes magnetisches Feld",
-                                    "answer_b": "Homogenes elektrisches Feld",
-                                    "answer_c": "Konzentrisches magnetisches Feld",
-                                    "answer_d": "Zentriertes magnetisches Feld",
+                                    "question": "Approximately what kind of field is set up inside a long solenoid when a direct current flows?",
+                                    "answer_a": "Uniform magnetic field",
+                                    "answer_b": "Uniform electric field",
+                                    "answer_c": "Concentric magnetic field",
+                                    "answer_d": "Centred magnetic field",
                                     "picture_question": "EB202_q"
                                 },
                                 {
                                     "number": "EB201",
                                     "class": "2",
-                                    "question": "Wenn ein konstanter Gleichstrom durch einen gestreckten Leiter flie\u00dft, sind die ...",
-                                    "answer_a": "magnetischen Feldlinien konzentrische Kreise um den Leiter.",
-                                    "answer_b": "elektrischen Feldlinien konzentrische Kreise um den Leiter.",
-                                    "answer_c": "magnetischen Feldlinien sternf\u00f6rmig um den Leiter.",
-                                    "answer_d": "elektrischen Feldlinien parallel zu den magnetischen Feldlinien um den Leiter."
+                                    "question": "When a constant direct current flows through a straight conductor, the ...",
+                                    "answer_a": "magnetic field lines are concentric circles around the conductor.",
+                                    "answer_b": "electric field lines are concentric circles around the conductor.",
+                                    "answer_c": "magnetic field lines are star-shaped around the conductor.",
+                                    "answer_d": "electric field lines are parallel to the magnetic field lines around the conductor."
                                 }
                             ]
                         },
@@ -977,7 +977,7 @@
                                 {
                                     "number": "EB316",
                                     "class": "2",
-                                    "question": "Eine Wellenl\u00e4nge $\\lambda$ von 10 cm im Freiraum entspricht in etwa einer Frequenz von ...",
+                                    "question": "A wavelength $\\lambda$ of 10 cm in free space corresponds approximately to a frequency of ...",
                                     "answer_a": "3 GHz.",
                                     "answer_b": "1 GHz.",
                                     "answer_c": "3 MHz.",
@@ -986,7 +986,7 @@
                                 {
                                     "number": "EB315",
                                     "class": "2",
-                                    "question": "Welche Frequenz entspricht in etwa einer Wellenl\u00e4nge $\\lambda$ von 30 mm im Freiraum?",
+                                    "question": "Which frequency corresponds approximately to a wavelength $\\lambda$ of 30 mm in free space?",
                                     "answer_a": "10 GHz",
                                     "answer_b": "100 GHz",
                                     "answer_c": "100 MHz",
@@ -995,111 +995,111 @@
                                 {
                                     "number": "EB314",
                                     "class": "2",
-                                    "question": "Welcher Frequenz $f$ entspricht in etwa eine Wellenl\u00e4nge von 80,0 m im Freiraum?",
-                                    "answer_a": "3,75 MHz",
-                                    "answer_b": "3,65 MHz",
-                                    "answer_c": "3,56 MHz",
-                                    "answer_d": "3,57 MHz"
+                                    "question": "Which frequency $f$ corresponds approximately to a wavelength of 80.0 m in free space?",
+                                    "answer_a": "3.75 MHz",
+                                    "answer_b": "3.65 MHz",
+                                    "answer_c": "3.56 MHz",
+                                    "answer_d": "3.57 MHz"
                                 },
                                 {
                                     "number": "EB313",
                                     "class": "2",
-                                    "question": "Welcher Wellenl\u00e4nge $\\lambda$ entspricht in etwa die Frequenz 28,5 MHz im Freiraum? ",
-                                    "answer_a": "10,5 m",
-                                    "answer_b": "15,0 m",
-                                    "answer_c": "9,49 m",
-                                    "answer_d": "9,49 cm"
+                                    "question": "Which wavelength $\\lambda$ corresponds approximately to the frequency 28.5 MHz in free space?",
+                                    "answer_a": "10.5 m",
+                                    "answer_b": "15.0 m",
+                                    "answer_c": "9.49 m",
+                                    "answer_d": "9.49 cm"
                                 },
                                 {
                                     "number": "EB312",
                                     "class": "2",
-                                    "question": "Welcher Wellenl\u00e4nge $\\lambda$ entspricht in etwa die Frequenz $f$ = 21 MHz?",
-                                    "answer_a": "14,29 m",
-                                    "answer_b": "7,15 m",
-                                    "answer_c": "12,86 m",
-                                    "answer_d": "6,43 m"
+                                    "question": "Which wavelength $\\lambda$ corresponds approximately to the frequency $f$ = 21 MHz?",
+                                    "answer_a": "14.29 m",
+                                    "answer_b": "7.15 m",
+                                    "answer_c": "12.86 m",
+                                    "answer_d": "6.43 m"
                                 },
                                 {
                                     "number": "EB311",
                                     "class": "2",
-                                    "question": "Welcher Wellenl\u00e4nge $\\lambda$ entspricht in etwa die Frequenz 1,84 MHz im Freiraum?",
+                                    "question": "Which wavelength $\\lambda$ corresponds approximately to the frequency 1.84 MHz in free space?",
                                     "answer_a": "163 m",
-                                    "answer_b": "6,13 m",
+                                    "answer_b": "6.13 m",
                                     "answer_c": "316 m",
-                                    "answer_d": "61,3 m"
+                                    "answer_d": "61.3 m"
                                 },
                                 {
                                     "number": "EB310",
                                     "class": "2",
-                                    "question": "Die Polarisation des Sendesignals in der Hauptstrahlrichtung dieser Richtantenne ist ...",
-                                    "answer_a": "vertikal.",
+                                    "question": "The polarisation of the transmitted signal in the direction of maximum radiation of this directional antenna is ...",
+                                    "answer_a": "vertical.",
                                     "answer_b": "horizontal.",
-                                    "answer_c": "rechtsdrehend.",
-                                    "answer_d": "linksdrehend.",
+                                    "answer_c": "right-hand circular.",
+                                    "answer_d": "left-hand circular.",
                                     "picture_question": "EB310_q"
                                 },
                                 {
                                     "number": "EB309",
                                     "class": "2",
-                                    "question": "Die Polarisation des Sendesignals in der Hauptstrahlrichtung dieser Richtantenne ist ...",
+                                    "question": "The polarisation of the transmitted signal in the direction of maximum radiation of this directional antenna is ...",
                                     "answer_a": "horizontal.",
-                                    "answer_b": "vertikal.",
-                                    "answer_c": "rechtsdrehend.",
-                                    "answer_d": "linksdrehend.",
+                                    "answer_b": "vertical.",
+                                    "answer_c": "right-hand circular.",
+                                    "answer_d": "left-hand circular.",
                                     "picture_question": "EB309_q"
                                 },
                                 {
                                     "number": "EB308",
                                     "class": "2",
-                                    "question": "Das folgende Bild zeigt eine Momentaufnahme eines elektromagnetischen Feldes. Welche Polarisation hat die skizzierte Welle?",
-                                    "answer_a": "Zirkulare Polarisation",
-                                    "answer_b": "Horizontale Polarisation",
-                                    "answer_c": "Vertikale Polarisation",
-                                    "answer_d": "Diagonale Polarisation",
+                                    "question": "The following picture shows a snapshot of an electromagnetic field. What polarisation does the wave shown have?",
+                                    "answer_a": "Circular polarisation",
+                                    "answer_b": "Horizontal polarisation",
+                                    "answer_c": "Vertical polarisation",
+                                    "answer_d": "Diagonal polarisation",
                                     "picture_question": "EB308_q"
                                 },
                                 {
                                     "number": "EB307",
                                     "class": "2",
-                                    "question": "Das folgende Bild zeigt eine Momentaufnahme eines elektromagnetischen Feldes. Welche Polarisation hat die skizzierte Welle?",
-                                    "answer_a": "Vertikale Polarisation",
-                                    "answer_b": "Horizontale Polarisation",
-                                    "answer_c": "Linkszirkulare Polarisation",
-                                    "answer_d": "Rechtszirkulare Polarisation",
+                                    "question": "The following picture shows a snapshot of an electromagnetic field. What polarisation does the wave shown have?",
+                                    "answer_a": "Vertical polarisation",
+                                    "answer_b": "Horizontal polarisation",
+                                    "answer_c": "Left-hand circular polarisation",
+                                    "answer_d": "Right-hand circular polarisation",
                                     "picture_question": "EB307_q"
                                 },
                                 {
                                     "number": "EB306",
                                     "class": "2",
-                                    "question": "Das folgende Bild zeigt eine Momentaufnahme eines elektromagnetischen Feldes. Welche Polarisation hat die skizzierte Welle?",
-                                    "answer_a": "Horizontale Polarisation",
-                                    "answer_b": "Vertikale Polarisation",
-                                    "answer_c": "Rechtszirkulare Polarisation",
-                                    "answer_d": "Linkszirkulare Polarisation",
+                                    "question": "The following picture shows a snapshot of an electromagnetic field. What polarisation does the wave shown have?",
+                                    "answer_a": "Horizontal polarisation",
+                                    "answer_b": "Vertical polarisation",
+                                    "answer_c": "Right-hand circular polarisation",
+                                    "answer_d": "Left-hand circular polarisation",
                                     "picture_question": "EB306_q"
                                 },
                                 {
                                     "number": "EB305",
                                     "class": "2",
-                                    "question": "Die Polarisation einer elektromagnetischen Welle ist durch die Richtung ...",
-                                    "answer_a": "des elektrischen Feldes (Vektor des E-Feldes) bestimmt.",
-                                    "answer_b": "des magnetischen Nordpols (relativ zur Antenne) bestimmt.",
-                                    "answer_c": "der Ausbreitung (S-Vektor/Poynting-Vektor) bestimmt.",
-                                    "answer_d": "des unmittelbaren Nahfeldes ($\\lambda/4$-Bereich) bestimmt."
+                                    "question": "The polarisation of an electromagnetic wave is determined by the direction ...",
+                                    "answer_a": "of the electric field (E-field vector).",
+                                    "answer_b": "of the magnetic north pole (relative to the antenna).",
+                                    "answer_c": "of propagation (S vector/Poynting vector).",
+                                    "answer_d": "of the immediate near field ($\\lambda/4$ region)."
                                 },
                                 {
                                     "number": "EB304",
                                     "class": "2",
-                                    "question": "Welche Aussage trifft auf die elektromagnetische Ausstrahlung im ungest\u00f6rten Fernfeld zu?",
-                                    "answer_a": "Die E-Feldkomponente, die H-Feldkomponente und die Ausbreitungsrichtung stehen in einem rechten Winkel zueinander.",
-                                    "answer_b": "Die E-Feldkomponente und die H-Feldkomponente stehen in einem rechten Winkel zueinander. Die Ausbreitungsrichtung hat keine feste Beziehung dazu.",
-                                    "answer_c": "Die E-Feldkomponente und die H-Feldkomponente sind phasengleich und sind parallel zueinander. Die Ausbreitungsrichtung verl\u00e4uft dazu in einem rechten Winkel.",
-                                    "answer_d": "Die Ausbreitungsrichtung befindet sich parallel zur E-Feldkomponente und verl\u00e4uft senkrecht zur H-Feldkomponente."
+                                    "question": "Which statement applies to electromagnetic radiation in the undisturbed far field?",
+                                    "answer_a": "The E-field component, the H-field component and the direction of propagation are at right angles to each other.",
+                                    "answer_b": "The E-field component and the H-field component are at right angles to each other. The direction of propagation has no fixed relationship to them.",
+                                    "answer_c": "The E-field component and the H-field component are in phase and parallel to each other. The direction of propagation is at right angles to them.",
+                                    "answer_d": "The direction of propagation is parallel to the E-field component and perpendicular to the H-field component."
                                 },
                                 {
                                     "number": "EB303",
                                     "class": "2",
-                                    "question": "Der Winkel zwischen den elektrischen und magnetischen Feldkomponenten eines elektromagnetischen Feldes betr\u00e4gt bei Freiraumausbreitung im Fernfeld ...",
+                                    "question": "In free-space propagation in the far field, the angle between the electric and magnetic field components of an electromagnetic field is ...",
                                     "answer_a": "90 \u00b0.",
                                     "answer_b": "45 \u00b0.",
                                     "answer_c": "180 \u00b0.",
@@ -1108,43 +1108,43 @@
                                 {
                                     "number": "EB302",
                                     "class": "2",
-                                    "question": "Wie erfolgt die Ausbreitung einer elektromagnetischen Welle? Die Ausbreitung erfolgt ...",
-                                    "answer_a": "durch eine Wechselwirkung zwischen elektrischem und magnetischem Feld.",
-                                    "answer_b": "nur \u00fcber das elektrische Feld. Das magnetische Feld wirkt sich nur im Nahfeld aus.",
-                                    "answer_c": "nur \u00fcber das magnetische Feld. Das elektrische Feld wirkt sich nur im Nahfeld aus.",
-                                    "answer_d": "durch die unabh\u00e4ngige Ausbreitung von elektrischem und magnetischem Feld."
+                                    "question": "How does an electromagnetic wave propagate? It propagates ...",
+                                    "answer_a": "through an interaction between the electric and magnetic fields.",
+                                    "answer_b": "only via the electric field. The magnetic field has an effect only in the near field.",
+                                    "answer_c": "only via the magnetic field. The electric field has an effect only in the near field.",
+                                    "answer_d": "through the independent propagation of the electric and magnetic fields."
                                 },
                                 {
                                     "number": "EB301",
                                     "class": "2",
-                                    "question": "Wodurch entsteht ein elektromagnetisches Feld beispielsweise?",
-                                    "answer_a": "Ein elektromagnetisches Feld entsteht, wenn ein zeitlich ver\u00e4nderlicher Strom durch einen elektrischen Leiter flie\u00dft.",
-                                    "answer_b": "Ein elektromagnetisches Feld entsteht, wenn ein zeitlich konstanter Strom durch einen elektrischen Leiter flie\u00dft.",
-                                    "answer_c": "Ein elektromagnetisches Feld entsteht, wenn eine zeitlich konstante Spannung an einem elektrischen Leiter anliegt.",
-                                    "answer_d": "Ein elektromagnetisches Feld entsteht, wenn eine zeitlich konstante Spannung an einem elektrischen Isolator anliegt."
+                                    "question": "What, for example, gives rise to an electromagnetic field?",
+                                    "answer_a": "An electromagnetic field arises when a current that varies with time flows through an electrical conductor.",
+                                    "answer_b": "An electromagnetic field arises when a current that is constant with time flows through an electrical conductor.",
+                                    "answer_c": "An electromagnetic field arises when a voltage that is constant with time is applied to an electrical conductor.",
+                                    "answer_d": "An electromagnetic field arises when a voltage that is constant with time is applied to an electrical insulator."
                                 },
                                 {
                                     "number": "NB304",
                                     "class": "1",
-                                    "question": "Welche Polarisationen unterscheidet man \u00fcblicherweise bei der Funkwellenausbreitung im Amateurfunk und wieso sollte man diese beachten?",
-                                    "answer_a": "Man unterscheidet horizontale, vertikale sowie links- und rechtszirkulare Polarisation. Die Polarisation von Sende- und Empfangsantenne sollten angeglichen sein, um eine verlustarme \u00dcbertragung zu gew\u00e4hrleisten.",
-                                    "answer_b": "Man unterscheidet transversale, longitudinale und orthogonale Polarisation. Die Polarisation des Funkger\u00e4ts muss an das Stromnetz angepasst sein, um Kurzschl\u00fcsse zu vermeiden.",
-                                    "answer_c": "Man unterscheidet koh\u00e4rente, inkoh\u00e4rente und korrelierte Polarisation. Die Polarisation der Funkwellen sollte regelm\u00e4\u00dfig ge\u00e4ndert werden, um die St\u00f6rfestigkeit zu erh\u00f6hen.",
-                                    "answer_d": "Man unterscheidet parallele, koaxiale und drahtlose Polarisation. Die Polarisation der Antennenkabel muss auf die Antennen abgestimmt sein, um Verluste zu minimieren."
+                                    "question": "Which polarisations are usually distinguished in the propagation of radio waves in amateur radio, and why should they be taken into account?",
+                                    "answer_a": "A distinction is made between horizontal, vertical, and left-hand and right-hand circular polarisation. The polarisation of the transmitting and receiving antennas should be matched to ensure low-loss transmission.",
+                                    "answer_b": "A distinction is made between transverse, longitudinal and orthogonal polarisation. The polarisation of the radio must be matched to the mains to avoid short circuits.",
+                                    "answer_c": "A distinction is made between coherent, incoherent and correlated polarisation. The polarisation of the radio waves should be changed regularly to increase immunity to interference.",
+                                    "answer_d": "A distinction is made between parallel, coaxial and wireless polarisation. The polarisation of the antenna cables must be matched to the antennas to minimise losses."
                                 },
                                 {
                                     "number": "NB303",
                                     "class": "1",
-                                    "question": "Welcher Wellenl\u00e4nge $\\lambda$ entspricht in etwa eine Frequenz von 433,500 MHz im Freiraum?",
-                                    "answer_a": "0,69 m",
-                                    "answer_b": "58,0 cm",
-                                    "answer_c": "2,06 m",
+                                    "question": "Which wavelength $\\lambda$ corresponds approximately to a frequency of 433.500 MHz in free space?",
+                                    "answer_a": "0.69 m",
+                                    "answer_b": "58.0 cm",
+                                    "answer_c": "2.06 m",
                                     "answer_d": "198 cm"
                                 },
                                 {
                                     "number": "NB302",
                                     "class": "1",
-                                    "question": "Welcher Frequenz $f$ entspricht in etwa eine Wellenl\u00e4nge von 2,08 m im Freiraum?",
+                                    "question": "Which frequency $f$ corresponds approximately to a wavelength of 2.08 m in free space?",
                                     "answer_a": "144 MHz",
                                     "answer_b": "149 MHz",
                                     "answer_c": "433 MHz",
@@ -1153,7 +1153,7 @@
                                 {
                                     "number": "NB301",
                                     "class": "1",
-                                    "question": "Die Ausbreitungsgeschwindigkeit elektromagnetischer Wellen betr\u00e4gt im Freiraum etwa ...",
+                                    "question": "The velocity of propagation of electromagnetic waves in free space is approximately ...",
                                     "answer_a": "300000 km/s.",
                                     "answer_b": "3000000 km/s.",
                                     "answer_c": "30000 km/s.",
@@ -1167,8 +1167,8 @@
                                 {
                                     "number": "AB303",
                                     "class": "3",
-                                    "question": "Der Betrag der Phasendifferenz zwischen den beiden in der Abbildung dargestellten Sinussignalen ist ...",
-                                    "answer_a": "45 \u00b0. ",
+                                    "question": "The magnitude of the phase difference between the two sinusoidal signals shown in the figure is ...",
+                                    "answer_a": "45 \u00b0.",
                                     "answer_b": "0 \u00b0.",
                                     "answer_c": "90 \u00b0.",
                                     "answer_d": "180 \u00b0.",
@@ -1177,7 +1177,7 @@
                                 {
                                     "number": "AB302",
                                     "class": "3",
-                                    "question": "Welche Antwort enth\u00e4lt die richtigen Phasenwinkel der dargestellten sinusf\u00f6rmigen Wechselspannung an der mit X$_3$ bezeichneten Stelle?",
+                                    "question": "Which answer gives the correct phase angles of the sinusoidal AC voltage shown, at the point marked X$_3$?",
                                     "answer_a": "$\\dfrac{3\\pi}{2}; 270 \u00b0$",
                                     "answer_b": "$\\dfrac{\\pi}{3}; 270 \u00b0$",
                                     "answer_c": "$3\\pi; 180 \u00b0$",
@@ -1187,26 +1187,26 @@
                                 {
                                     "number": "AB301",
                                     "class": "3",
-                                    "question": "Ein sinusf\u00f6rmiger Wechselstrom mit einer Amplitude $I_{\\textrm{max}}$ von 0,5 Ampere flie\u00dft durch einen Widerstand von 20 Ohm. Wieviel Leistung wird in W\u00e4rme umgesetzt?",
-                                    "answer_a": "2,5 W",
-                                    "answer_b": "5,0 W",
+                                    "question": "A sinusoidal alternating current with an amplitude $I_{\\textrm{max}}$ of 0.5 amperes flows through a resistor of 20 ohms. How much power is converted into heat?",
+                                    "answer_a": "2.5 W",
+                                    "answer_b": "5.0 W",
                                     "answer_c": "10 W",
-                                    "answer_d": "3,5 W"
+                                    "answer_d": "3.5 W"
                                 },
                                 {
                                     "number": "EB411",
                                     "class": "2",
-                                    "question": "Welche Frequenz hat das in diesem Schirmbild dargestellte Signal?",
-                                    "answer_a": "8,33 MHz",
-                                    "answer_b": "83,3 MHz",
-                                    "answer_c": "8,33 kHz",
+                                    "question": "What is the frequency of the signal shown on this screen display?",
+                                    "answer_a": "8.33 MHz",
+                                    "answer_b": "83.3 MHz",
+                                    "answer_c": "8.33 kHz",
                                     "answer_d": "833 kHz",
                                     "picture_question": "EB411_q"
                                 },
                                 {
                                     "number": "EB410",
                                     "class": "2",
-                                    "question": "Welche Frequenz hat die in diesem Oszillogramm dargestellte Spannung?",
+                                    "question": "What is the frequency of the voltage shown in this oscillogram?",
                                     "answer_a": "50 Hz",
                                     "answer_b": "100 Hz",
                                     "answer_c": "500 Hz",
@@ -1216,17 +1216,17 @@
                                 {
                                     "number": "EB409",
                                     "class": "2",
-                                    "question": "Welche Frequenz hat die in diesem Oszillogramm dargestellte Spannung in etwa?",
-                                    "answer_a": "83,3 kHz",
+                                    "question": "Approximately what is the frequency of the voltage shown in this oscillogram?",
+                                    "answer_a": "83.3 kHz",
                                     "answer_b": "833 kHz",
-                                    "answer_c": "8,33 MHz",
-                                    "answer_d": "83,3 MHz",
+                                    "answer_c": "8.33 MHz",
+                                    "answer_d": "83.3 MHz",
                                     "picture_question": "EB409_q"
                                 },
                                 {
                                     "number": "EB408",
                                     "class": "2",
-                                    "question": "Die Periodendauer von 50 \u03bcs entspricht einer Frequenz von ...",
+                                    "question": "A period of 50 \u03bcs corresponds to a frequency of ...",
                                     "answer_a": "20 kHz.",
                                     "answer_b": "2 MHz.",
                                     "answer_c": "200 kHz.",
@@ -1235,7 +1235,7 @@
                                 {
                                     "number": "EB407",
                                     "class": "2",
-                                    "question": "Wie gro\u00df ist der Spitzen-Spitzen-Wert ($U_{\\textrm{ss}}$) der in der Abbildung dargestellten Spannung?",
+                                    "question": "What is the peak-to-peak value ($U_{\\textrm{ss}}$) of the voltage shown in the figure?",
                                     "answer_a": "40 V",
                                     "answer_b": "20 V",
                                     "answer_c": "10 V",
@@ -1245,45 +1245,45 @@
                                 {
                                     "number": "EB406",
                                     "class": "2",
-                                    "question": "Wie gro\u00df ist der Spitzen-Spitzen-Wert der in diesem Schirmbild dargestellten Spannung?",
+                                    "question": "What is the peak-to-peak value of the voltage shown on this screen display?",
                                     "answer_a": "12 V",
                                     "answer_b": "6 V",
-                                    "answer_c": "8,5 V",
+                                    "answer_c": "8.5 V",
                                     "answer_d": "2 V",
                                     "picture_question": "EB406_q"
                                 },
                                 {
                                     "number": "EB405",
                                     "class": "2",
-                                    "question": "Welche der im folgenden Diagramm eingezeichneten Gleichspannungen setzen an einem Wirkwiderstand etwa die gleiche Leistung um wie die dargestellte sinusf\u00f6rmige Wechselspannung?",
-                                    "answer_a": "0,7 V und -0,7 V",
-                                    "answer_b": "1 V und -1 V",
-                                    "answer_c": "0,5 V und -0,5 V",
+                                    "question": "Which of the DC voltages drawn in the following diagram dissipate approximately the same power in a resistance as the sinusoidal AC voltage shown?",
+                                    "answer_a": "0.7 V and -0.7 V",
+                                    "answer_b": "1 V and -1 V",
+                                    "answer_c": "0.5 V and -0.5 V",
                                     "answer_d": "0 V",
                                     "picture_question": "EB405_q"
                                 },
                                 {
                                     "number": "EB404",
                                     "class": "2",
-                                    "question": "Eine sinusf\u00f6rmige Wechselspannung hat einen Spitzenwert von 12 V. Wie gro\u00df ist in etwa der Effektivwert der Wechselspannung?",
-                                    "answer_a": "8,5 V",
-                                    "answer_b": "6,0 V",
+                                    "question": "A sinusoidal AC voltage has a peak value of 12 V. Approximately what is the RMS value of the AC voltage?",
+                                    "answer_a": "8.5 V",
+                                    "answer_b": "6.0 V",
                                     "answer_c": "17 V",
                                     "answer_d": "24 V"
                                 },
                                 {
                                     "number": "EB403",
                                     "class": "2",
-                                    "question": "Ein sinusf\u00f6rmiges Signal hat einen Effektivwert von 12 V. Wie gro\u00df ist in etwa der Spitzen-Spitzen-Wert?",
+                                    "question": "A sinusoidal signal has an RMS value of 12 V. Approximately what is the peak-to-peak value?",
                                     "answer_a": "34 V",
                                     "answer_b": "24 V",
                                     "answer_c": "17 V",
-                                    "answer_d": "8,5 V"
+                                    "answer_d": "8.5 V"
                                 },
                                 {
                                     "number": "EB402",
                                     "class": "2",
-                                    "question": "Der Spitze-Spitze-Wert der h\u00e4uslichen 230 V-Spannungsversorgung betr\u00e4gt ...",
+                                    "question": "The peak-to-peak value of the 230 V domestic mains supply is ...",
                                     "answer_a": "651 V.",
                                     "answer_b": "163 V.",
                                     "answer_c": "325 V.",
@@ -1292,7 +1292,7 @@
                                 {
                                     "number": "EB401",
                                     "class": "2",
-                                    "question": "Der Spitzenwert an einer h\u00e4uslichen, einphasigen 230 V-Stromversorgung betr\u00e4gt ...",
+                                    "question": "The peak value of a 230 V single-phase domestic mains supply is ...",
                                     "answer_a": "325 V.",
                                     "answer_b": "163 V.",
                                     "answer_c": "460 V.",
@@ -1301,47 +1301,47 @@
                                 {
                                     "number": "NB405",
                                     "class": "1",
-                                    "question": "Was ist im Oszillogramm mit 2 markiert?",
-                                    "answer_a": "Periode",
+                                    "question": "What is marked 2 in the oscillogram?",
+                                    "answer_a": "Period",
                                     "answer_b": "Amplitude",
-                                    "answer_c": "Strom",
-                                    "answer_d": "Spannung",
+                                    "answer_c": "Current",
+                                    "answer_d": "Voltage",
                                     "picture_question": "NB405_q"
                                 },
                                 {
                                     "number": "NB404",
                                     "class": "1",
-                                    "question": "Was ist im Oszillogramm mit 1 markiert?",
+                                    "question": "What is marked 1 in the oscillogram?",
                                     "answer_a": "Amplitude",
-                                    "answer_b": "Frequenz",
-                                    "answer_c": "Periode",
-                                    "answer_d": "Wellenl\u00e4nge",
+                                    "answer_b": "Frequency",
+                                    "answer_c": "Period",
+                                    "answer_d": "Wavelength",
                                     "picture_question": "NB404_q"
                                 },
                                 {
                                     "number": "NB403",
                                     "class": "1",
-                                    "question": "Was ist in der dargestellten Momentaufnahme einer Welle mit 2 markiert?",
-                                    "answer_a": "Wellenl\u00e4nge",
+                                    "question": "What is marked 2 in the snapshot of a wave shown?",
+                                    "answer_a": "Wavelength",
                                     "answer_b": "Amplitude",
-                                    "answer_c": "Spannung",
-                                    "answer_d": "Strom",
+                                    "answer_c": "Voltage",
+                                    "answer_d": "Current",
                                     "picture_question": "NB403_q"
                                 },
                                 {
                                     "number": "NB402",
                                     "class": "1",
-                                    "question": "Was ist in der dargestellten Momentaufnahme einer Welle mit 1 markiert?",
+                                    "question": "What is marked 1 in the snapshot of a wave shown?",
                                     "answer_a": "Amplitude",
-                                    "answer_b": "Frequenz",
-                                    "answer_c": "Periode",
-                                    "answer_d": "Wellenl\u00e4nge",
+                                    "answer_b": "Frequency",
+                                    "answer_c": "Period",
+                                    "answer_d": "Wavelength",
                                     "picture_question": "NB402_q"
                                 },
                                 {
                                     "number": "NB401",
                                     "class": "1",
-                                    "question": "Welches Bild zeigt eine sinusf\u00f6rmige Wechselspannung?",
+                                    "question": "Which picture shows a sinusoidal AC voltage?",
                                     "answer_a": "",
                                     "answer_b": "",
                                     "answer_c": "",
@@ -1359,25 +1359,25 @@
                                 {
                                     "number": "AB409",
                                     "class": "3",
-                                    "question": "Wie verh\u00e4lt sich der Pegel des thermischen Rauschens am Empf\u00e4ngerausgang, wenn von einem Quarzfilter mit einer Bandbreite von 2,5 kHz auf ein Quarzfilter mit einer Bandbreite von 0,5 kHz mit gleicher Durchlassd\u00e4mpfung und Flankensteilheit umgeschaltet wird? Der Rauschleistungspegel ...",
-                                    "answer_a": "verringert sich um etwa 7 dB.",
-                                    "answer_b": "erh\u00f6ht sich um etwa 7 dB.",
-                                    "answer_c": "verringert sich um etwa 14 dB.",
-                                    "answer_d": "erh\u00f6ht sich um etwa 14 dB."
+                                    "question": "How does the level of thermal noise at the receiver output change when switching from a crystal filter with a bandwidth of 2.5 kHz to a crystal filter with a bandwidth of 0.5 kHz with the same passband loss and skirt steepness? The noise power level ...",
+                                    "answer_a": "decreases by about 7 dB.",
+                                    "answer_b": "increases by about 7 dB.",
+                                    "answer_c": "decreases by about 14 dB.",
+                                    "answer_d": "increases by about 14 dB."
                                 },
                                 {
                                     "number": "AB408",
                                     "class": "3",
-                                    "question": "F\u00fcr Messzwecke speisen Sie in den Antenneneingang Ihres Empf\u00e4ngers ein gleichm\u00e4\u00dfig \u00fcber alle Frequenzen verteiltes Rauschsignal aus einem Messender ein (wei\u00dfes Rauschen). Welche Aussage \u00fcber die Leistung, die man beim Empfang dieses Signals misst, stimmt?",
-                                    "answer_a": "Sie ist proportional zur Bandbreite des Empf\u00e4ngers.",
-                                    "answer_b": "Sie ist umgekehrt proportional zur Bandbreite des Empf\u00e4ngers.",
-                                    "answer_c": "Sie ist proportional zum Signal-Rausch-Abstand des Empf\u00e4ngers",
-                                    "answer_d": "Sie ist umgekehrt proportional zum Eingangswiderstand des Empf\u00e4ngers."
+                                    "question": "For measurement purposes, you feed a noise signal from a signal generator, distributed evenly over all frequencies (white noise), into the antenna input of your receiver. Which statement about the power measured when receiving this signal is correct?",
+                                    "answer_a": "It is proportional to the bandwidth of the receiver.",
+                                    "answer_b": "It is inversely proportional to the bandwidth of the receiver.",
+                                    "answer_c": "It is proportional to the signal-to-noise ratio of the receiver.",
+                                    "answer_d": "It is inversely proportional to the input resistance of the receiver."
                                 },
                                 {
                                     "number": "AB407",
                                     "class": "3",
-                                    "question": "Welches Signal passt zu folgendem Frequenzspektrum?",
+                                    "question": "Which signal matches the following frequency spectrum?",
                                     "answer_a": "",
                                     "answer_b": "",
                                     "answer_c": "",
@@ -1391,7 +1391,7 @@
                                 {
                                     "number": "AB406",
                                     "class": "3",
-                                    "question": "Welches Signal passt zu folgendem Frequenzspektrum?",
+                                    "question": "Which signal matches the following frequency spectrum?",
                                     "answer_a": "",
                                     "answer_b": "",
                                     "answer_c": "",
@@ -1405,7 +1405,7 @@
                                 {
                                     "number": "AB405",
                                     "class": "3",
-                                    "question": "Welches Frequenzspektrum passt zu folgendem periodischen Signal?",
+                                    "question": "Which frequency spectrum matches the following periodic signal?",
                                     "answer_a": "",
                                     "answer_b": "",
                                     "answer_c": "",
@@ -1419,7 +1419,7 @@
                                 {
                                     "number": "AB404",
                                     "class": "3",
-                                    "question": "Welches Frequenzspektrum passt zu folgendem sinusf\u00f6rmigen Signal?",
+                                    "question": "Which frequency spectrum matches the following sinusoidal signal?",
                                     "answer_a": "",
                                     "answer_b": "",
                                     "answer_c": "",
@@ -1433,30 +1433,30 @@
                                 {
                                     "number": "AB403",
                                     "class": "3",
-                                    "question": "Eine periodische Schwingung, die wie das folgende Signal aussieht, besteht ...",
-                                    "answer_a": "aus der Grundschwingung mit ganzzahligen Vielfachen dieser Frequenz (Oberschwingungen).",
-                                    "answer_b": "aus der Grundschwingung und Teilen dieser Frequenz (Unterschwingungen).",
-                                    "answer_c": "aus der Grundschwingung ohne weitere Frequenzen.",
-                                    "answer_d": "aus der Grundschwingung mit zuf\u00e4lligen Frequenzschwankungen.",
+                                    "question": "A periodic oscillation that looks like the following signal consists ...",
+                                    "answer_a": "of the fundamental with integer multiples of its frequency (harmonics).",
+                                    "answer_b": "of the fundamental and submultiples of its frequency (subharmonics).",
+                                    "answer_c": "of the fundamental with no other frequencies.",
+                                    "answer_d": "of the fundamental with random frequency fluctuations.",
                                     "picture_question": "AB403_q"
                                 },
                                 {
                                     "number": "AB402",
                                     "class": "3",
-                                    "question": "Die dritte Oberwelle entspricht ...",
-                                    "answer_a": "der vierten Harmonischen.",
-                                    "answer_b": "der dritten Harmonischen.",
-                                    "answer_c": "der zweiten Harmonischen.",
-                                    "answer_d": "der zweiten ungeradzahligen Harmonischen."
+                                    "question": "The third overtone (Oberwelle) corresponds to ...",
+                                    "answer_a": "the fourth harmonic.",
+                                    "answer_b": "the third harmonic.",
+                                    "answer_c": "the second harmonic.",
+                                    "answer_d": "the second odd harmonic."
                                 },
                                 {
                                     "number": "AB401",
                                     "class": "3",
-                                    "question": "Was sind Harmonische?",
-                                    "answer_a": "Harmonische sind die ganzzahligen (1, 2, 3, ...) Vielfachen einer Frequenz.",
-                                    "answer_b": "Harmonische sind die ganzzahligen (1, 2, 3, ...) Teile einer Frequenz.",
-                                    "answer_c": "Harmonische sind ausschlie\u00dflich die ungeradzahligen (1, 3, 5, ...) Vielfachen einer Frequenz.",
-                                    "answer_d": "Harmonische sind ausschlie\u00dflich die geradzahligen (2, 4, 6, ...) Teile einer Frequenz."
+                                    "question": "What are harmonics?",
+                                    "answer_a": "Harmonics are the integer (1, 2, 3, ...) multiples of a frequency.",
+                                    "answer_b": "Harmonics are the integer (1, 2, 3, ...) submultiples of a frequency.",
+                                    "answer_c": "Harmonics are exclusively the odd (1, 3, 5, ...) multiples of a frequency.",
+                                    "answer_d": "Harmonics are exclusively the even (2, 4, 6, ...) submultiples of a frequency."
                                 }
                             ]
                         },
@@ -1466,27 +1466,27 @@
                                 {
                                     "number": "NB505",
                                     "class": "1",
-                                    "question": "Welcher Widerstandswert liegt vor?",
-                                    "answer_a": "40,000 Ohm",
-                                    "answer_b": "3,600 Ohm",
-                                    "answer_c": "0,025 Ohm",
-                                    "answer_d": "0,200 Ohm",
+                                    "question": "What is the resistance value?",
+                                    "answer_a": "40.000 ohms",
+                                    "answer_b": "3.600 ohms",
+                                    "answer_c": "0.025 ohms",
+                                    "answer_d": "0.200 ohms",
                                     "picture_question": "NB505_q"
                                 },
                                 {
                                     "number": "NB504",
                                     "class": "1",
-                                    "question": "Welche Spannung l\u00e4sst einen Strom von 90 mA durch den Widerstand flie\u00dfen?",
-                                    "answer_a": "9,000 V",
-                                    "answer_b": "1,111 kV",
-                                    "answer_c": "9,000 kV",
-                                    "answer_d": "1,111 V",
+                                    "question": "What voltage causes a current of 90 mA to flow through the resistor?",
+                                    "answer_a": "9.000 V",
+                                    "answer_b": "1.111 kV",
+                                    "answer_c": "9.000 kV",
+                                    "answer_d": "1.111 V",
                                     "picture_question": "NB504_q"
                                 },
                                 {
                                     "number": "NB503",
                                     "class": "1",
-                                    "question": "Welcher der nachfolgenden Ausdr\u00fccke stellt den Zusammenhang zwischen Strom, Spannung und Widerstand korrekt dar?",
+                                    "question": "Which of the following expressions correctly represents the relationship between current, voltage and resistance?",
                                     "answer_a": "$R = \\dfrac{U}{I}$",
                                     "answer_b": "$R = U \\cdot I$",
                                     "answer_c": "$R = \\dfrac{I}{U}$",
@@ -1495,7 +1495,7 @@
                                 {
                                     "number": "NB502",
                                     "class": "1",
-                                    "question": "Welcher der nachfolgenden Ausdr\u00fccke stellt den Zusammenhang zwischen Strom, Spannung und Widerstand korrekt dar?",
+                                    "question": "Which of the following expressions correctly represents the relationship between current, voltage and resistance?",
                                     "answer_a": "$I = \\dfrac{U}{R}$",
                                     "answer_b": "$R = U \\cdot I$",
                                     "answer_c": "$R = \\dfrac{I}{U}$",
@@ -1504,7 +1504,7 @@
                                 {
                                     "number": "NB501",
                                     "class": "1",
-                                    "question": "Welcher der nachfolgenden Ausdr\u00fccke stellt den Zusammenhang zwischen Strom, Spannung und Widerstand korrekt dar?",
+                                    "question": "Which of the following expressions correctly represents the relationship between current, voltage and resistance?",
                                     "answer_a": "$U = R \\cdot I $",
                                     "answer_b": "$R = U \\cdot I$",
                                     "answer_c": "$R = \\dfrac{I}{U}$",
@@ -1518,61 +1518,61 @@
                                 {
                                     "number": "EB514",
                                     "class": "2",
-                                    "question": "Eine k\u00fcnstliche 50 Ohm-Antenne (Dummy Load) besteht aus 11 parallel geschalteten 560 Ohm-Kohleschichtwiderst\u00e4nden mit einem Belastungsnennwert von jeweils 5 W. Welcher Belastungsnennwert ergibt sich f\u00fcr die k\u00fcnstliche Antenne?",
+                                    "question": "A 50 ohm dummy load (artificial antenna) consists of 11 carbon-film resistors of 560 ohms connected in parallel, each with a power rating of 5 W. What is the resulting power rating of the dummy load?",
                                     "answer_a": "55 W",
-                                    "answer_b": "0,45 W",
+                                    "answer_b": "0.45 W",
                                     "answer_c": "250 W",
                                     "answer_d": "5 W"
                                 },
                                 {
                                     "number": "EB513",
                                     "class": "2",
-                                    "question": "Ein Oszilloskop zeigt einen sinusf\u00f6rmigen Spitze-Spitze-Wert von 25 V an einem 1000 Ohm Widerstand an. Der Effektivstrom durch den Widerstand betr\u00e4gt ...",
-                                    "answer_a": "8,8 mA.",
-                                    "answer_b": "12,5 mA.",
+                                    "question": "An oscilloscope shows a sinusoidal peak-to-peak value of 25 V across a 1000 ohm resistor. The RMS current through the resistor is ...",
+                                    "answer_a": "8.8 mA.",
+                                    "answer_b": "12.5 mA.",
                                     "answer_c": "25 mA.",
                                     "answer_d": "40 A."
                                 },
                                 {
                                     "number": "EB512",
                                     "class": "2",
-                                    "question": "Ein Widerstand von 120 Ohm hat eine Belastbarkeit von 23,0 W. Welcher Strom darf h\u00f6chstens durch den Widerstand flie\u00dfen, damit er nicht \u00fcberlastet wird?",
+                                    "question": "A resistor of 120 ohms has a power rating of 23.0 W. What is the maximum current that may flow through the resistor without overloading it?",
                                     "answer_a": "438 mA",
                                     "answer_b": "192 mA",
-                                    "answer_c": "43,7 mA",
-                                    "answer_d": "2,28 A"
+                                    "answer_c": "43.7 mA",
+                                    "answer_d": "2.28 A"
                                 },
                                 {
                                     "number": "EB511",
                                     "class": "2",
-                                    "question": "Ein Widerstand von 100 kOhm hat eine maximale Spannungsfestigkeit von 1000 V und eine maximale Belastbarkeit von 6 W. Welche Gleichspannung darf h\u00f6chstens an den Widerstand angelegt werden ohne ihn zu \u00fcberlasten?",
+                                    "question": "A resistor of 100 k\u03a9 has a maximum voltage rating of 1000 V and a maximum power rating of 6 W. What is the maximum DC voltage that may be applied to the resistor without overloading it?",
                                     "answer_a": "775 V",
                                     "answer_b": "100 V",
-                                    "answer_c": "0,07 kV",
-                                    "answer_d": "1,00 kV"
+                                    "answer_c": "0.07 kV",
+                                    "answer_d": "1.00 kV"
                                 },
                                 {
                                     "number": "EB510",
                                     "class": "2",
-                                    "question": "Ein Widerstand von 10 kOhm hat eine maximale Spannungsfestigkeit von 700 V und eine maximale Belastbarkeit von 1 W. Welche Gleichspannung darf h\u00f6chstens an den Widerstand angelegt werden, um ihn im spezifizierten Bereich zu betreiben?",
+                                    "question": "A resistor of 10 k\u03a9 has a maximum voltage rating of 700 V and a maximum power rating of 1 W. What is the maximum DC voltage that may be applied to the resistor to operate it within its specified ratings?",
                                     "answer_a": "100 V",
-                                    "answer_b": "0,01 kV",
-                                    "answer_c": "0,7 kV",
+                                    "answer_b": "0.01 kV",
+                                    "answer_c": "0.7 kV",
                                     "answer_d": "775 V"
                                 },
                                 {
                                     "number": "EB509",
                                     "class": "2",
-                                    "question": "F\u00fcr welche Leistung muss ein 100 Ohm-Widerstand mindestens ausgelegt sein, wenn an ihm 10 V abfallen sollen?",
-                                    "answer_a": "1,00 W",
-                                    "answer_b": "10,0 W",
-                                    "answer_c": "0,01 W",
-                                    "answer_d": "0,10 W"
+                                    "question": "What is the minimum power for which a 100 ohm resistor must be rated if 10 V is to be dropped across it?",
+                                    "answer_a": "1.00 W",
+                                    "answer_b": "10.0 W",
+                                    "answer_c": "0.01 W",
+                                    "answer_d": "0.10 W"
                                 },
                                 {
                                     "number": "EB508",
                                     "class": "2",
-                                    "question": "Wieviel Leistung wird an einer k\u00fcnstlichen 50 Ohm-Antenne umgesetzt, wenn ein effektiver Strom von 2 A flie\u00dft?",
+                                    "question": "How much power is dissipated in a 50 ohm dummy load when an RMS current of 2 A flows?",
                                     "answer_a": "200 W",
                                     "answer_b": "100 W",
                                     "answer_c": "25 W",
@@ -1581,7 +1581,7 @@
                                 {
                                     "number": "EB507",
                                     "class": "2",
-                                    "question": "Der Effektivwert der Spannung an einer k\u00fcnstlichen 50 Ohm-Antenne wird mit 100 V gemessen. Die Leistung an der Last betr\u00e4gt ...",
+                                    "question": "The RMS voltage across a 50 ohm dummy load is measured as 100 V. The power in the load is ...",
                                     "answer_a": "200 W.",
                                     "answer_b": "50 W.",
                                     "answer_c": "100 W.",
@@ -1590,7 +1590,7 @@
                                 {
                                     "number": "EB506",
                                     "class": "2",
-                                    "question": "In welcher Antwort sind alle dargestellten Zusammenh\u00e4nge zwischen Widerstand, Leistung, Spannung und Strom richtig?",
+                                    "question": "In which answer are all the relationships shown between resistance, power, voltage and current correct?",
                                     "answer_a": "$R = \\dfrac{U^2}{P};  R = \\dfrac{P}{I^2}$",
                                     "answer_b": "$R = U^2\\cdot I;  R = \\dfrac{P}{I^2}$",
                                     "answer_c": "$R = \\dfrac{P}{U^2};  R = P\\cdot I^2$",
@@ -1599,7 +1599,7 @@
                                 {
                                     "number": "EB505",
                                     "class": "2",
-                                    "question": "In welcher Antwort sind alle dargestellten Zusammenh\u00e4nge zwischen Strom, Spannung, Widerstand und Leistung richtig?",
+                                    "question": "In which answer are all the relationships shown between current, voltage, resistance and power correct?",
                                     "answer_a": "$I = \\sqrt{\\dfrac{P}{R}};  U = \\sqrt{P\\cdot R}$",
                                     "answer_b": "$I = \\sqrt{P\\cdot R};  U = \\sqrt{\\dfrac{P}{R}}$",
                                     "answer_c": "$I = \\sqrt{\\dfrac{R}{P}};  U = \\sqrt{P\\cdot R}$",
@@ -1608,7 +1608,7 @@
                                 {
                                     "number": "EB504",
                                     "class": "2",
-                                    "question": "An einem Widerstand $R$ wird die elektrische Leistung $P$ in W\u00e4rme umgesetzt. Sie kennen die Gr\u00f6\u00dfen $P$ und $R$. Nach welcher der Formeln k\u00f6nnen Sie die Spannung ermitteln, die an dem Widerstand $R$ anliegt?",
+                                    "question": "The electrical power $P$ is converted into heat in a resistor $R$. You know the quantities $P$ and $R$. Which of the formulas can you use to determine the voltage across the resistor $R$?",
                                     "answer_a": "$U = \\sqrt{P\\cdot R}$",
                                     "answer_b": "$U = R\\cdot P$",
                                     "answer_c": "$U = \\sqrt{\\dfrac{P}{R}}$",
@@ -1617,34 +1617,34 @@
                                 {
                                     "number": "EB503",
                                     "class": "2",
-                                    "question": "Gelten die Formeln f\u00fcr die Leistung an einem rein ohmschen Widerstand auch bei Wechselspannung?",
-                                    "answer_a": "Ja, wenn mit den Effektivwerten gerechnet wird.",
-                                    "answer_b": "Nein, da die periodische \u00c4nderung von Strom und Spannung dann vernachl\u00e4ssigt wird.",
-                                    "answer_c": "Ja, wenn mit den Spitzenwerten gerechnet wird.",
-                                    "answer_d": "Nein, da die Blindleistung nicht ber\u00fccksichtigt wird."
+                                    "question": "Do the formulas for the power in a purely resistive (ohmic) resistor also apply to AC voltage?",
+                                    "answer_a": "Yes, if the calculation uses RMS values.",
+                                    "answer_b": "No, because the periodic change in current and voltage is then neglected.",
+                                    "answer_c": "Yes, if the calculation uses peak values.",
+                                    "answer_d": "No, because the reactive power is not taken into account."
                                 },
                                 {
                                     "number": "EB502",
                                     "class": "2",
-                                    "question": "Die mittlere Leistung eines Senders ist ...",
-                                    "answer_a": "die durchschnittliche Leistung, die ein Sender unter normalen Betriebsbedingungen an die Antennenspeiseleitung w\u00e4hrend eines Zeitintervalls abgibt, das im Verh\u00e4ltnis zur Periode der tiefsten Modulationsfrequenz ausreichend lang ist.",
-                                    "answer_b": "die unmittelbar nach dem Senderausgang messbare Leistung \u00fcber die Spitzen der Periode einer durchschnittlichen Hochfrequenzschwingung, bevor Zusatzger\u00e4te (z. B. Anpassger\u00e4te) durchlaufen werden.",
-                                    "answer_c": "die durchschnittliche Leistung, die ein Sender unter normalen Betriebsbedingungen w\u00e4hrend einer Periode der Hochfrequenzschwingung bei der h\u00f6chsten Spitze der Modulationsh\u00fcllkurve der Antennenspeiseleitung zuf\u00fchrt.",
-                                    "answer_d": "das Produkt aus der Leistung, die unmittelbar der Antenne zugef\u00fchrt wird, und ihrem Gewinnfaktor in einer Richtung, bezogen auf den Halbwellendipol."
+                                    "question": "The mean power of a transmitter is ...",
+                                    "answer_a": "the average power supplied to the antenna feed line by a transmitter under normal operating conditions during an interval of time that is sufficiently long compared with the period of the lowest modulating frequency.",
+                                    "answer_b": "the power measurable immediately after the transmitter output over the peaks of the period of an average RF oscillation, before it passes through accessory equipment (e.g. matching units).",
+                                    "answer_c": "the average power supplied to the antenna feed line by a transmitter under normal operating conditions during one cycle of the RF oscillation at the highest crest of the modulation envelope.",
+                                    "answer_d": "the product of the power supplied directly to the antenna and its gain in a given direction, relative to the half-wave dipole."
                                 },
                                 {
                                     "number": "EB501",
                                     "class": "2",
-                                    "question": "Die Spitzenleistung eines Senders (PEP) ist ...",
-                                    "answer_a": "die Leistung, die der Sender unter normalen Betriebsbedingungen w\u00e4hrend einer Periode der Hochfrequenzschwingung bei der h\u00f6chsten Spitze der Modulationsh\u00fcllkurve durchschnittlich an einen reellen Abschlusswiderstand abgeben kann.",
-                                    "answer_b": "die unmittelbar nach dem Senderausgang messbare Leistung \u00fcber die Spitzen der Periode einer durchschnittlichen Hochfrequenzschwingung, bevor Zusatzger\u00e4te (z. B. Anpassger\u00e4te) durchlaufen werden.",
-                                    "answer_c": "die durchschnittliche Leistung, die ein Sender unter normalen Betriebsbedingungen an die Antennenspeiseleitung w\u00e4hrend eines Zeitintervalls abgibt, das im Verh\u00e4ltnis zur Periode der tiefsten Modulationsfrequenz ausreichend lang ist.",
-                                    "answer_d": "das Produkt aus der Leistung, die unmittelbar der Antenne zugef\u00fchrt wird, und ihrem Gewinnfaktor in einer Richtung, bezogen auf den Halbwellendipol."
+                                    "question": "The peak envelope power of a transmitter (PEP) is ...",
+                                    "answer_a": "the average power that the transmitter can deliver into a resistive termination under normal operating conditions during one cycle of the RF oscillation at the highest crest of the modulation envelope.",
+                                    "answer_b": "the power measurable immediately after the transmitter output over the peaks of the period of an average RF oscillation, before it passes through accessory equipment (e.g. matching units).",
+                                    "answer_c": "the average power supplied to the antenna feed line by a transmitter under normal operating conditions during an interval of time that is sufficiently long compared with the period of the lowest modulating frequency.",
+                                    "answer_d": "the product of the power supplied directly to the antenna and its gain in a given direction, relative to the half-wave dipole."
                                 },
                                 {
                                     "number": "NB606",
                                     "class": "1",
-                                    "question": "Ein gleichspannungsbetriebenes Leuchtmittel ist mit der Angabe 12 V / 48 W bedruckt.  Bei einer 12 V-Versorgung betr\u00e4gt die Stromentnahme ...",
+                                    "question": "A lamp for DC operation is marked 12 V / 48 W. On a 12 V supply, the current drawn is ...",
                                     "answer_a": "4 A.",
                                     "answer_b": "250 mA.",
                                     "answer_c": "750 mA.",
@@ -1653,35 +1653,35 @@
                                 {
                                     "number": "NB605",
                                     "class": "1",
-                                    "question": "Ein Leuchtmittel hat einen Nennwert von 12 V und 3 W. Wie viel Strom flie\u00dft beim Anschluss an 12 V?",
+                                    "question": "A lamp is rated at 12 V and 3 W. How much current flows when it is connected to 12 V?",
                                     "answer_a": "250 mA",
                                     "answer_b": "400 mA",
                                     "answer_c": "4 A",
-                                    "answer_d": "2,5 A"
+                                    "answer_d": "2.5 A"
                                 },
                                 {
                                     "number": "NB604",
                                     "class": "1",
-                                    "question": "Ein Mobil-Transceiver (Sendeempf\u00e4nger) wird aus dem Bordnetz eines Kraftfahrzeuges mit 12 V Nennspannung betrieben und hat bei Sendebetrieb eine Leistungsaufnahme von 100 W. Wie gro\u00df ist dann die Stromaufnahme?",
-                                    "answer_a": "8,33 A",
-                                    "answer_b": "16,6 A",
+                                    "question": "A mobile transceiver is powered from the electrical system of a motor vehicle with a nominal voltage of 12 V and has a power consumption of 100 W when transmitting. What is the current drawn?",
+                                    "answer_a": "8.33 A",
+                                    "answer_b": "16.6 A",
                                     "answer_c": "1200 A",
-                                    "answer_d": "0,12 A"
+                                    "answer_d": "0.12 A"
                                 },
                                 {
                                     "number": "NB603",
                                     "class": "1",
-                                    "question": "An einem Vorwiderstand f\u00e4llt bei einem Strom von 20 mA eine Spannung von 3,2 V ab. Wieviel Leistung wird an diesem in W\u00e4rme umgesetzt?",
-                                    "answer_a": "64,0 mW",
-                                    "answer_b": "0,16 mW",
-                                    "answer_c": "6,25 mW",
+                                    "question": "A voltage of 3.2 V is dropped across a series resistor at a current of 20 mA. How much power is converted into heat in it?",
+                                    "answer_a": "64.0 mW",
+                                    "answer_b": "0.16 mW",
+                                    "answer_c": "6.25 mW",
                                     "answer_d": "20 mW"
                                 },
                                 {
                                     "number": "NB602",
                                     "class": "1",
-                                    "question": "An einem Vorwiderstand f\u00e4llt bei einem Strom von 50 mA eine Spannung von 50 V ab. Wieviel Leistung wird an diesem in W\u00e4rme umgesetzt?",
-                                    "answer_a": "2,5 W",
+                                    "question": "A voltage of 50 V is dropped across a series resistor at a current of 50 mA. How much power is converted into heat in it?",
+                                    "answer_a": "2.5 W",
                                     "answer_b": "1 kW",
                                     "answer_c": "1 W",
                                     "answer_d": "250 mW"
@@ -1689,11 +1689,11 @@
                                 {
                                     "number": "NB601",
                                     "class": "1",
-                                    "question": "Welche Leistung nimmt ein Transceiver bei 13,8 V Gleichspannung auf, wenn das Strommessger\u00e4t im Netzteil 1,5 A anzeigt?",
-                                    "answer_a": "20,7 W",
-                                    "answer_b": "1,53 W",
-                                    "answer_c": "2,07 W",
-                                    "answer_d": "9,2 W"
+                                    "question": "What power does a transceiver draw at 13.8 V DC if the ammeter in the power supply unit reads 1.5 A?",
+                                    "answer_a": "20.7 W",
+                                    "answer_b": "1.53 W",
+                                    "answer_c": "2.07 W",
+                                    "answer_d": "9.2 W"
                                 }
                             ]
                         },
@@ -1703,11 +1703,11 @@
                                 {
                                     "number": "AB503",
                                     "class": "3",
-                                    "question": "Wie viel Energie wird vom Widerstand innerhalb einer Stunde in W\u00e4rme umgewandelt?",
-                                    "answer_a": "1 Wh bzw. 3600 J",
-                                    "answer_b": "2 Wh bzw. 7200 J",
-                                    "answer_c": "0,1 Wh bzw. 360 J",
-                                    "answer_d": "0,5 Wh bzw. 1800 J",
+                                    "question": "How much energy is converted into heat by the resistor within one hour?",
+                                    "answer_a": "1 Wh or 3600 J",
+                                    "answer_b": "2 Wh or 7200 J",
+                                    "answer_c": "0.1 Wh or 360 J",
+                                    "answer_d": "0.5 Wh or 1800 J",
                                     "picture_question": "AB503_q"
                                 },
                                 {
