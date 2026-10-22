@@ -1,1 +1,1 @@
-Auszug Digitaltechnik (E und A)
+Extract: digital technology (E and A)

@@ -1,1 +1,1 @@
-Kurs Klasse A (mit N und E)
+Class A course (with N and E)

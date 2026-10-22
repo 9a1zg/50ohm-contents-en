@@ -1,29 +1,29 @@
 {
-    "title": "Aufbaukurs N -> E",
-    "abstract": "Du bist in Klasse N und möchtest in die Klasse E aufsteigen? Dann ist dieser Kurs genau das Richtige für dich!",
+    "title": "Upgrade course N -> E",
+    "abstract": "You hold Class N and want to move up to Class E? Then this course is just right for you!",
     "chapters": [
         {
-            "title": "Elektrische Schwingungen und Funkwellen",
-            "abstract": "Dieses Kapitel vermittelt die physikalischen Grundlagen elektrischer Schwingungen und elektromagnetischer Wellen als Basis der Funktechnik. Es behandelt den Zusammenhang zwischen Spannung, Frequenz, Wellenlänge und Spektrum sowie deren Darstellung und mathematische Beschreibung. Abschließend werden die praktische Einordnung von Funkwellen im Frequenzspektrum, die Frequenzzuteilung und die Amateurfunkbänder erläutert.",
+            "title": "Electrical oscillations and radio waves",
+            "abstract": "This chapter teaches the physical basics of electrical oscillations and electromagnetic waves as the foundation of radio engineering. It covers the relationship between voltage, frequency, wavelength and spectrum, and how they are represented and described mathematically. Finally, it explains where radio waves fit into the frequency spectrum in practice, frequency assignment and the amateur bands.",
             "ident": "e_elektrische_schwingungen_funkwellen",
             "video_url": null,
             "sections": [
                 {
-                    "title": "Zehnerpotenzen",
+                    "title": "Powers of ten",
                     "ident": "zehnerpotenzen",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Formeln umstellen I",
+                    "title": "Rearranging formulas I",
                     "ident": "formeln_umstellen",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Wellenlänge II",
+                    "title": "Wavelength II",
                     "ident": "wellenlaenge_2",
                     "status": "prod",
                     "class": "E",
@@ -32,13 +32,13 @@
             ]
         },
         {
-            "title": "Wellenausbreitung",
-            "abstract": "Dieses Kapitel beschreibt, wie sich Funkwellen unter realen atmosphärischen und ionosphärischen Bedingungen ausbreiten. Es behandelt die verschiedenen Ausbreitungsmechanismen wie Bodenwelle, Raumwelle und Brechung sowie deren Abhängigkeit von Tageszeit, Jahreszeit und Sonnenaktivität. Zudem werden typische Effekte wie Fading, tote Zonen, Sprungdistanz sowie MUF und LUF erläutert, die für die praktische Funkverbindung entscheidend sind.",
+            "title": "Propagation",
+            "abstract": "This chapter describes how radio waves propagate under real atmospheric and ionospheric conditions. It covers the various propagation mechanisms such as ground wave, sky wave and refraction, and how they depend on the time of day, the season and solar activity. It also explains typical effects such as fading, skip zones, skip distance, and the MUF and LUF, which are decisive for radio contacts in practice.",
             "ident": "e_wellenausbreitung",
             "video_url": null,
             "sections": [
                 {
-                    "title": "Troposphäre II",
+                    "title": "Troposphere II",
                     "ident": "troposphaere_2",
                     "status": "prod",
                     "class": "E",
@@ -52,21 +52,21 @@
                     "video_url": null
                 },
                 {
-                    "title": "Sporadic-E II",
+                    "title": "Sporadic E II",
                     "ident": "sporadic_e_2",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Ionosphäre II",
+                    "title": "Ionosphere II",
                     "ident": "ionosphaere_2",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Tote Zone I",
+                    "title": "Skip zone I",
                     "ident": "tote_zone_1",
                     "status": "prod",
                     "class": "E",
@@ -80,42 +80,42 @@
                     "video_url": null
                 },
                 {
-                    "title": "Sprungdistanz I",
+                    "title": "Skip distance I",
                     "ident": "sprungdistanz_1",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "MUF und LUF",
+                    "title": "MUF and LUF",
                     "ident": "muf_luf_1",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Bodenwelle",
+                    "title": "Ground wave",
                     "ident": "bodenwelle",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Greyline",
+                    "title": "Grey line",
                     "ident": "greyline",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Mögel-Dellinger-Effekt",
+                    "title": "Mögel–Dellinger effect",
                     "ident": "moegel_dellinger_effekt",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Langer und kurzer Weg I",
+                    "title": "Long path and short path I",
                     "ident": "langer_kurzer_weg_1",
                     "status": "prod",
                     "class": "E",
@@ -124,76 +124,76 @@
             ]
         },
         {
-            "title": "Strom, Spannung, Widerstand, Leistung, Energie",
-            "abstract": "Dieses Kapitel vermittelt die grundlegenden elektrischen Größen Strom, Spannung, Widerstand, Leistung und Energie und zeigt, wie sie physikalisch zusammenhängen. Es behandelt den sicheren Umgang mit elektrischen Schaltungen, das Messen elektrischer Größen, das Ohmsche Gesetz sowie Bauelemente und deren Eigenschaften. Darüber hinaus werden praktische Konzepte wie Wechselstrom, Dezibel und Schaltzeichen eingeführt, die für das Verständnis moderner Funk- und Elektronikschaltungen unerlässlich sind.",
+            "title": "Current, voltage, resistance, power, energy",
+            "abstract": "This chapter teaches the basic electrical quantities current, voltage, resistance, power and energy, and shows how they are physically related. It covers handling electrical circuits safely, measuring electrical quantities, Ohm's law, and components and their properties. It also introduces practical concepts such as alternating current, decibels and circuit symbols, which are essential for understanding modern radio and electronic circuits.",
             "ident": "e_strom_spannung_widerstand_leistung_energie",
             "video_url": null,
             "sections": [
                 {
-                    "title": "Strom- und Spannungsmessung II",
+                    "title": "Current and voltage measurement II",
                     "ident": "strom_spannung_messung_2",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Zeigerinstrumente ablesen",
+                    "title": "Reading analogue meters",
                     "ident": "zeigerinstrumente_ablesen",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Spitzen- und Effektivwert",
+                    "title": "Peak and RMS values",
                     "ident": "spitze_effektiv_wert",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Oszilloskop I",
+                    "title": "Oscilloscope I",
                     "ident": "oszilloskop_1",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "SMD-Widerstände",
+                    "title": "SMD resistors",
                     "ident": "widerstand_smd",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Widerstandsmaterialien",
+                    "title": "Resistor materials",
                     "ident": "widerstand_materialien",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Widerstandstoleranzen",
+                    "title": "Resistor tolerances",
                     "ident": "widerstand_toleranz",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Heißleiter und Kaltleiter",
+                    "title": "NTC and PTC thermistors",
                     "ident": "widerstand_ntc_ptc",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Leistung II",
+                    "title": "Power II",
                     "ident": "leistung_2",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Dezibel I",
+                    "title": "Decibels I",
                     "ident": "dezibel_1",
                     "status": "prod",
                     "class": "E",
@@ -202,27 +202,27 @@
             ]
         },
         {
-            "title": "Elektromagnetisches Feld",
-            "abstract": "Dieses Kapitel führt in die grundlegenden Konzepte elektrischer und magnetischer Felder ein und zeigt, wie beide zusammen ein elektromagnetisches Feld bilden. Es schafft damit die physikalische Grundlage für das Verständnis von Funkwellen, Antennen und elektromagnetischer Ausbreitung.",
+            "title": "Electromagnetic field",
+            "abstract": "This chapter introduces the basic concepts of electric and magnetic fields and shows how the two together form an electromagnetic field. It thus lays the physical foundation for understanding radio waves, antennas and electromagnetic propagation.",
             "ident": "e_em_feld",
             "video_url": null,
             "sections": [
                 {
-                    "title": "Elektrisches Feld",
+                    "title": "Electric field",
                     "ident": "e_feld",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Magnetisches Feld",
+                    "title": "Magnetic field",
                     "ident": "h_feld",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Elektromagnetisches Feld",
+                    "title": "Electromagnetic field",
                     "ident": "em_feld",
                     "status": "prod",
                     "class": "E",
@@ -231,27 +231,27 @@
             ]
         },
         {
-            "title": "Bauelemente",
-            "abstract": "Dieses Kapitel vermittelt die grundlegenden Eigenschaften und das Zusammenspiel wichtiger elektronischer Bauelemente wie Kondensatoren, Spulen, Dioden, Transistoren und integrierte Schaltungen. Es bildet die Basis zum Verständnis elektronischer Schaltungen und ihrer Funktion in Sendern, Empfängern und anderen Funkgeräten.",
+            "title": "Components",
+            "abstract": "This chapter teaches the basic properties and interplay of important electronic components such as capacitors, inductors, diodes, transistors and integrated circuits. It forms the basis for understanding electronic circuits and how they work in transmitters, receivers and other radio equipment.",
             "ident": "e_bauelemente",
             "video_url": null,
             "sections": [
                 {
-                    "title": "Kondensator I",
+                    "title": "Capacitor I",
                     "ident": "kondensator_1",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Spule I",
+                    "title": "Inductor I",
                     "ident": "spule_1",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Übertrager I",
+                    "title": "Transformer I",
                     "ident": "uebertrager_1",
                     "status": "prod",
                     "class": "E",
@@ -274,34 +274,34 @@
             ]
         },
         {
-            "title": "Reihen- und Parallelschaltung von Bauelementen",
-            "abstract": "In diesem Kapitel werden die grundlegenden Regeln für Reihen- und Parallelschaltungen von Bauelementen behandelt. Ziel ist es, das Verhalten einfacher und gemischter Netzwerke zu verstehen und z. B. Gesamtwiderstände, Spannungen und Ströme systematisch zu berechnen.",
+            "title": "Series and parallel connection of components",
+            "abstract": "This chapter covers the basic rules for connecting components in series and in parallel. The aim is to understand the behaviour of simple and mixed networks and, for example, to calculate total resistances, voltages and currents systematically.",
             "ident": "e_reihen_parallelschaltung",
             "video_url": null,
             "sections": [
                 {
-                    "title": "Widerstand in Reihen- und Parallelschaltung",
+                    "title": "Resistors in series and parallel",
                     "ident": "reihe_parallel_widerstand",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Widerstandsnetzwerke I",
+                    "title": "Resistor networks I",
                     "ident": "reihe_parallel_widerstandsnetz_1",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Spannungsteiler I",
+                    "title": "Potential divider I",
                     "ident": "spannungsteiler_1",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Kondensator in Reihen- und Parallelschaltung",
+                    "title": "Capacitors in series and parallel",
                     "ident": "reihe_parallel_kondensator",
                     "status": "prod",
                     "class": "E",
@@ -310,34 +310,34 @@
             ]
         },
         {
-            "title": "Strom- und Spannungsversorgung",
-            "abstract": "Funkgeräte müssen mit elektrischer Spannung und Strom versorgt werden, damit sie funktionieren. In diesem Kapitel lernen wir die Grundlagen der Spannungs- und Stromversorgung mit Netzgeräten, Batterien und Akkus. Auch die Gefahren vom elektrischen Strom werden behandelt.",
+            "title": "Current and voltage supply",
+            "abstract": "Radios have to be supplied with electrical voltage and current in order to work. In this chapter we learn the basics of supplying voltage and current with power supply units, batteries and rechargeable batteries. The dangers of electric current are also covered.",
             "ident": "e_strom_spannungsversorgung",
             "video_url": null,
             "sections": [
                 {
-                    "title": "Spannungsquellen",
+                    "title": "Voltage sources",
                     "ident": "spannungsquelle",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Gleichrichter I",
+                    "title": "Rectifiers I",
                     "ident": "gleichrichter_1",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Schaltnetzteil I",
+                    "title": "Switch-mode power supply I",
                     "ident": "schaltnetzteil_1",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Sicherungen",
+                    "title": "Fuses",
                     "ident": "sicherungen",
                     "status": "prod",
                     "class": "E",
@@ -346,48 +346,48 @@
             ]
         },
         {
-            "title": "Grundlegende Schaltungen",
-            "abstract": "In diesem Kapitel werden grundlegende Schaltungsblöcke der Funktechnik vorgestellt, die für die Erzeugung, Verarbeitung und Umsetzung von Hochfrequenzsignalen notwendig sind. Dazu zählen Filter und Schwingkreise, Oszillatoren, Mischer, Frequenzvervielfacher sowie Verstärker und Frequenzumsetzer. Diese Baugruppen bilden die Basis moderner Sender- und Empfängerschaltungen.",
+            "title": "Basic circuits",
+            "abstract": "This chapter introduces the basic circuit blocks of radio engineering that are needed to generate, process and convert radio-frequency signals. They include filters and tuned circuits, oscillators, mixers, frequency multipliers, amplifiers and frequency converters. These modules form the basis of modern transmitter and receiver circuits.",
             "ident": "e_grundlegende_schaltungen",
             "video_url": null,
             "sections": [
                 {
-                    "title": "Filter und Schwingkreise I",
+                    "title": "Filters and tuned circuits I",
                     "ident": "schwingkreis_1",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Oszillatoren",
+                    "title": "Oscillators",
                     "ident": "oszillatoren",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Frequenzvervielfacher I",
+                    "title": "Frequency multipliers I",
                     "ident": "frequenzvervielfacher_1",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Mischer",
+                    "title": "Mixers",
                     "ident": "mischer",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Konverter und Transverter",
+                    "title": "Converters and transverters",
                     "ident": "transverter_1",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Verstärker",
+                    "title": "Amplifiers",
                     "ident": "verstaerker",
                     "status": "prod",
                     "class": "E",
@@ -397,40 +397,40 @@
         },
         {
             "title": "Modulation",
-            "abstract": "In diesem Kapitel beschäftigen wir uns damit, dass es durch die sogenannte Modulation möglich ist, Informationen wie die menschliche Sprache, auf eine Funkwelle aufzuprägen. Dabei lernen die grundlegenden Modulationsarten AM, FM und SSB kennen.",
+            "abstract": "In this chapter we look at how so-called modulation makes it possible to impress information such as human speech onto a radio wave. In doing so, we get to know the basic types of modulation, AM, FM and SSB.",
             "ident": "e_modulation",
             "video_url": null,
             "sections": [
                 {
-                    "title": "Unmodulierter Träger",
+                    "title": "Unmodulated carrier",
                     "ident": "unmodulierter_traeger",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Einseitenbandmodulation (SSB) II",
+                    "title": "Single-sideband modulation (SSB) II",
                     "ident": "ssb_2",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Frequenzmodulation (FM) II",
+                    "title": "Frequency modulation (FM) II",
                     "ident": "fm_2",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Bandbreite II",
+                    "title": "Bandwidth II",
                     "ident": "bandbreite_2",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Dynamikkompressor I",
+                    "title": "Compressor I",
                     "ident": "dynamik_kompressor_1",
                     "status": "prod",
                     "class": "E",
@@ -439,27 +439,27 @@
             ]
         },
         {
-            "title": "Empfänger",
-            "abstract": "In diesem Kapitel wird der grundsätzliche Aufbau von Funkempfängern sowie deren wichtigste Baugruppen und Funktionen behandelt. Es werden verschiedene Empfängerkonzepte vorgestellt und zentrale Eigenschaften wie Trennschärfe, Verstärkungsregelung, Rauschverhalten und Frequenzaufbereitung erklärt. Ziel ist es, das Zusammenwirken der einzelnen Stufen eines Empfängers und deren Einfluss auf den Empfang zu verstehen.",
+            "title": "Receivers",
+            "abstract": "This chapter covers the basic structure of radio receivers and their most important modules and functions. Various receiver concepts are presented, and key properties such as selectivity, gain control, noise performance and frequency generation are explained. The aim is to understand how the individual stages of a receiver work together and how they affect reception.",
             "ident": "e_empfaenger",
             "video_url": null,
             "sections": [
                 {
-                    "title": "Detektorempfänger",
+                    "title": "Crystal set",
                     "ident": "detektorempfänger",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Überlagerungsempfänger (Einfachsuper) I",
+                    "title": "Superheterodyne receiver (single-conversion superhet) I",
                     "ident": "ueberlagerungsempfaenger_einfachsuper_1",
                     "status": "beta",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Trennschärfe I",
+                    "title": "Selectivity I",
                     "ident": "trennschaerfe_1",
                     "status": "prod",
                     "class": "E",
@@ -473,35 +473,35 @@
                     "video_url": null
                 },
                 {
-                    "title": "Vorverstärker und Dämpfungsglied",
+                    "title": "Preamplifier and attenuator",
                     "ident": "vorverstaerker_daempfungsglied",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Automatische Verstärkungsregelung (AGC) I",
+                    "title": "Automatic gain control (AGC) I",
                     "ident": "agc_1",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Notch-Filter",
+                    "title": "Notch filter",
                     "ident": "notchfilter",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Rauschunterdrückung",
+                    "title": "Noise reduction",
                     "ident": "noise_reduction",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Frequenzmessung I",
+                    "title": "Frequency measurement I",
                     "ident": "frequenzmessung_1",
                     "status": "prod",
                     "class": "E",
@@ -510,8 +510,8 @@
             ]
         },
         {
-            "title": "Sender",
-            "abstract": "In diesem Kapitel wird der grundlegende Aufbau eines Funksenders sowie das Zusammenspiel seiner einzelnen Baugruppen behandelt. Thematisiert werden unter anderem Ausgangsleistung, Leistungsbegrenzung, Messmittel und Lasten sowie die Entstehung und Vermeidung unerwünschter Aussendungen. Ein weiterer Schwerpunkt liegt auf elektromagnetischer Verträglichkeit und dem verantwortungsvollen Umgang mit Störungen im Sendebetrieb.",
+            "title": "Transmitters",
+            "abstract": "This chapter covers the basic structure of a radio transmitter and how its individual modules work together. Topics include output power, power limiting, measuring equipment and loads, and how unwanted emissions arise and are avoided. A further focus is on electromagnetic compatibility and on dealing responsibly with interference when transmitting.",
             "ident": "e_sender",
             "video_url": null,
             "sections": [
@@ -523,21 +523,21 @@
                     "video_url": null
                 },
                 {
-                    "title": "Senderausgangsleistung",
+                    "title": "Transmitter output power",
                     "ident": "senderausgangsleistung",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Unerwünschte Aussendungen II",
+                    "title": "Unwanted emissions II",
                     "ident": "unerwuenschte_aussendungen_2",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Störende Beeinflussung elektronischer Geräte I",
+                    "title": "Breakthrough into electronic equipment I",
                     "ident": "stoerungen_elektronischer_geraete_1",
                     "status": "prod",
                     "class": "E",
@@ -546,62 +546,62 @@
             ]
         },
         {
-            "title": "Digitale Übertragungsverfahren",
-            "abstract": "Dieses Kapitel beschäftigt sich mit den digitalen Übertragungsverfahren. Wir lernen, was digital von analog unterscheidet, die Grundlagen von Telegrafie und Funkfernschreiben und welche digitalen Verfahren für Sprachübertragungen genutzt werden und welche Besonderheiten diese haben.",
+            "title": "Digital transmission methods",
+            "abstract": "This chapter deals with digital transmission methods. We learn what distinguishes digital from analogue, the basics of telegraphy and radioteletype, which digital methods are used for voice transmission and what is special about them.",
             "ident": "e_digitale_uebertragungsverfahren",
             "video_url": null,
             "sections": [
                 {
-                    "title": "Binäres Zahlensystem",
+                    "title": "Binary number system",
                     "ident": "binaer",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Digimode per SSB",
+                    "title": "Data modes via SSB",
                     "ident": "digimode_ssb",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "9600-Port",
+                    "title": "9600 port",
                     "ident": "9600_port",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Übersteuerung",
+                    "title": "Overdriving",
                     "ident": "digimod_uebersteuerung",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Automatische Empfangsberichte",
+                    "title": "Automatic reception reports",
                     "ident": "automatische_empfangsberichte",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Paketvermittelte Netzwerke",
+                    "title": "Packet-switched networks",
                     "ident": "paketvermittelte_netzwerke",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Datenübertragungsrate",
+                    "title": "Data rate",
                     "ident": "datenuebertragungsrate",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Amplituden- und Frequenzumtastung (ASK, FSK)",
+                    "title": "Amplitude-shift and frequency-shift keying (ASK, FSK)",
                     "ident": "ask_fsk_afsk",
                     "status": "prod",
                     "class": "E",
@@ -615,7 +615,7 @@
                     "video_url": null
                 },
                 {
-                    "title": "Vielfachzugriff",
+                    "title": "Multiple access",
                     "ident": "vielfachzugriff",
                     "status": "prod",
                     "class": "E",
@@ -624,13 +624,13 @@
             ]
         },
         {
-            "title": "Digitale Signalverarbeitung",
-            "abstract": "Dieses Kapitel beleuchtet die Grundlagen und Anwendungen der digitalen Signalverarbeitung, die essenziell für die moderne Informationsverarbeitung ist.",
+            "title": "Digital signal processing",
+            "abstract": "This chapter examines the basics and applications of digital signal processing, which is essential for modern information processing.",
             "ident": "e_digitale_signalverarbeitung",
             "video_url": null,
             "sections": [
                 {
-                    "title": "Digitale Signalverarbeitung",
+                    "title": "Digital signal processing",
                     "ident": "digitale_signalverarbeitung_einleitung",
                     "status": "prod",
                     "class": "E",
@@ -639,8 +639,8 @@
             ]
         },
         {
-            "title": "Antennen und Übertragungsleitungen",
-            "abstract": "Dieses Kapitel beschäftigt sich mit allem rund um Antennen und Antennenkabel. Dabei behandeln wird neben den wichtigsten Antennenbauformen auch Themen wie den Einbau von Antennenanlagen in Kraftfahrzeuge, den Schutz von Personen vor elektromagnetischer Strahlung und die Sicherheit beim Aufbau und Betrieb einer Antennenanlage.",
+            "title": "Antennas and transmission lines",
+            "abstract": "This chapter deals with everything to do with antennas and antenna cables. Besides the most important types of antenna, we cover topics such as installing antenna installations in motor vehicles, protecting people from electromagnetic radiation and safety when putting up and operating an antenna installation.",
             "ident": "e_antennen_uebertragungsleitungen",
             "video_url": null,
             "sections": [
@@ -652,105 +652,105 @@
                     "video_url": null
                 },
                 {
-                    "title": "Antennenformen II",
+                    "title": "Antenna types II",
                     "ident": "antennenformen_2",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Antennenlänge und -resonanz",
+                    "title": "Antenna length and resonance",
                     "ident": "antenne_laenge_resonanz",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Verkürzungsfaktor I",
+                    "title": "Velocity and shortening factor I",
                     "ident": "verkuerzungsfaktor_1",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Fußpunktimpedanz I",
+                    "title": "Feed-point impedance I",
                     "ident": "fusspunktimpedanz_1",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Yagi-Uda Antenne II",
+                    "title": "Yagi-Uda antenna II",
                     "ident": "yagi_uda_2",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Parabolspiegel I",
+                    "title": "Parabolic dish I",
                     "ident": "parabolspiegel_1",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Strom- und Spannungsspeisung I",
+                    "title": "Current and voltage feeding I",
                     "ident": "strom_spannung_speisung_1",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Antennengewinn in dBi und dBd",
+                    "title": "Antenna gain in dBi and dBd",
                     "ident": "antennengewinn",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Standortwahl",
+                    "title": "Choice of site",
                     "ident": "standortwahl",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Übertragungsleitungen II",
+                    "title": "Transmission lines II",
                     "ident": "uebertragungsleitungen_2",
                     "status": "beta",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Kabeldämpfung I",
+                    "title": "Cable loss I",
                     "ident": "kabeldaempfung_1",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Stehwellenverhältnis (SWR) II",
+                    "title": "Standing wave ratio (SWR) II",
                     "ident": "swr_2",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Stehwellenmessgerät (SWR-Meter) I",
+                    "title": "SWR meter I",
                     "ident": "swr_meter_1",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Vektorieller Netzwerkanalysator (VNA) I",
+                    "title": "Vector network analyser (VNA) I",
                     "ident": "vna_1",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Mantelwellen I",
+                    "title": "Common-mode currents I",
                     "ident": "mantelwellen_1",
                     "status": "prod",
                     "class": "E",
@@ -759,34 +759,34 @@
             ]
         },
         {
-            "title": "Personenschutzabstand",
-            "abstract": "Dieses Kapitel behandelt den Schutz von Personen vor elektromagnetischen Feldern im Amateurfunk. Es führt in die Begriffe ERP und EIRP ein, erläutert gesetzliche Grenzwerte sowie Anzeige- und Genehmigungspflichten und zeigt, wie Sicherheits- und Personenschutzabstände berechnet und bewertet werden. Ziel ist ein sicherer und regelkonformer Funkbetrieb, insbesondere bei ortsfesten Amateurfunkanlagen.",
+            "title": "Safety distance for the protection of persons",
+            "abstract": "This chapter covers the protection of persons from electromagnetic fields in amateur radio. It introduces the terms ERP and EIRP, explains the legal limits and the notification and authorisation requirements, and shows how safety distances, including those for the protection of persons, are calculated and assessed. The aim is radio operation that is safe and complies with the rules, especially for fixed amateur radio installations.",
             "ident": "e_personenschutzabstand",
             "video_url": null,
             "sections": [
                 {
-                    "title": "Äquivalente isotrope Strahlungsleistung (EIRP) II",
+                    "title": "Equivalent isotropically radiated power (EIRP) II",
                     "ident": "aequivalente_isotrope_strahlungsleistung_eirp_2",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Personenschutzabstand II",
+                    "title": "Safety distance for the protection of persons II",
                     "ident": "personenschutzabstand_2",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Grenzwerte",
+                    "title": "Limits",
                     "ident": "personenschutzabstand_grenzwerte",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Näherungsformel I",
+                    "title": "Approximation formula I",
                     "ident": "naeherungsformel_1",
                     "status": "prod",
                     "class": "E",
@@ -795,55 +795,55 @@
             ]
         },
         {
-            "title": "Sicherheit",
-            "abstract": "Dieses Kapitel behandelt zentrale Sicherheitsaspekte im Amateurfunkbetrieb, von baurechtlichen und haftungsrechtlichen Fragen bis hin zu elektrischer Sicherheit und Blitzschutz. Es erläutert Maßnahmen wie Erdung, Potentialausgleich und den sicheren Umgang mit Antennen und elektrischen Geräten. Ziel ist es, Risiken für Personen, Gebäude und Geräte zu minimieren und einen sicheren Funkbetrieb zu gewährleisten.",
+            "title": "Safety",
+            "abstract": "This chapter covers key safety aspects of amateur radio operation, from questions of building law and liability to electrical safety and lightning protection. It explains measures such as earthing, equipotential bonding and the safe handling of antennas and electrical equipment. The aim is to minimise risks to people, buildings and equipment and to ensure safe radio operation.",
             "ident": "e_sicherheit",
             "video_url": null,
             "sections": [
                 {
-                    "title": "Öffnen elektrischer Geräte I",
+                    "title": "Opening electrical equipment I",
                     "ident": "elektrische_geaete_oeffnen_1",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Blitzerdung",
+                    "title": "Lightning earthing",
                     "ident": "blitzerdung",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Schutzerdung und Potentialausgleich I",
+                    "title": "Protective earthing and equipotential bonding I",
                     "ident": "schutzerdung_1",
                     "status": "beta",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Statische Aufladung von Antennen",
+                    "title": "Static charge on antennas",
                     "ident": "statische_aufladung",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Berühren von Antennen I",
+                    "title": "Touching antennas I",
                     "ident": "antennen_beruehrung_1",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Aufenthalt im Strahlengang",
+                    "title": "Staying in the radiation path",
                     "ident": "strahlengang_aufenthalt",
                     "status": "prod",
                     "class": "E",
                     "video_url": null
                 },
                 {
-                    "title": "Kursabschluss",
+                    "title": "End of the course",
                     "ident": "N_Ende",
                     "status": "prod",
                     "class": "N",

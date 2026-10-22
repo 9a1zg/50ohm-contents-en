@@ -3,16 +3,16 @@
     <script src="https://www.50ohm.de/assets/chartjs/4.4.1/chart.min.js"></script>
 
     <p>
-    Durch Druck auf den nächsten Button, wird das Mikrofon des Browsers
-    aktiviert. Danach kann man das Spektrum der eigenen Sprache betrachten.
+    Pressing the button below activates the browser's
+    microphone. You can then look at the spectrum of your own voice.
     </p>
     <p>
-        <button onclick="start()">Mikrofon Einschalten</button>
+        <button onclick="start()">Switch on microphone</button>
     </p>
     <p>
         <canvas id="Spectrum" style="max-height:200px;"></canvas>
     </p>
-    Stärkste Amplitude bei der Frequenz $f$ = <div id="mainfrequency" style="display:inline-block;">0</div> $\unit{\hertz}$<br>
+    Strongest amplitude at the frequency $f$ = <div id="mainfrequency" style="display:inline-block;">0</div> $\unit{\hertz}$<br>
 
     <script type="text/javascript">
 
@@ -64,7 +64,7 @@
                         type: 'logarithmic',
                         title: {
                             display: true,
-                            text: 'Frequenz'
+                            text: 'Frequency'
                         },
                         ticks: {
                             callback: function(val, index) {
@@ -103,7 +103,7 @@
                 audioContext = new AudioContext();
                 binSize = (audioContext.sampleRate) / fftSize; // Bin Size in Hz
             } catch (e) {
-                alert('Die Web Audio API wird in diesem Browser leider nicht unterstützt!');
+                alert('Unfortunately, the Web Audio API is not supported in this browser!');
             }
 
             const update = (timestamp) => {

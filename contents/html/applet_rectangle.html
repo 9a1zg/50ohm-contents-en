@@ -2,11 +2,11 @@
   <script src="https://www.50ohm.de/assets/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://www.50ohm.de/assets/chartjs/4.4.1/chart.min.js"></script>
 
-  <p>Hier kann die Fourier-Näherung eines symmetrischen Rechtecksignals mit einer variablen Anzahl ungerader Harmonischer untersucht werden. Die Schalter erlauben Werte von 1 bis 500.</p>
+  <p>Here you can investigate the Fourier approximation of a symmetrical square-wave signal with a variable number of odd harmonics. The controls allow values from 1 to 500.</p>
 
   <table>
     <tr>
-      <td>Harmonische $N$:</td>
+      <td>Harmonics $N$:</td>
       <td>
         <input type="range" id="harmonicsRange" min="1" max="499" value="1" step="2">
       </td>
@@ -30,7 +30,7 @@
       data: {
         datasets: [
           {
-            label: 'Rechteck ideal',
+            label: 'Ideal square wave',
             borderColor: '#ED7D71',
             backgroundColor: 'transparent',
             pointRadius: 0,
@@ -38,7 +38,7 @@
             data: []
           },
           {
-            label: 'Fourier-Näherung',
+            label: 'Fourier approximation',
             borderColor: '#00AEDF',
             backgroundColor: 'transparent',
             pointRadius: 0,

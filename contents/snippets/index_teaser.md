@@ -1,1 +1,1 @@
-Wir bereiten dich auf die Prüfung zum Funkamateur vor. Unsere erfahrenen Ausbilder unterstützen dich auf dem gesamten Weg!
+We prepare you for the examination to become a radio amateur. Our experienced instructors support you all the way!

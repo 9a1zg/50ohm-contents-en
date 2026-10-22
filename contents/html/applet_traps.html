@@ -85,20 +85,20 @@
   }
 </style>
 
-<div class="traps-applet" aria-label="Wirksame Länge eines Trap-Dipols">
-  <div class="traps-controls" role="group" aria-label="Anregungsfrequenz auswählen">
-    <button type="button" data-traps-state="off" aria-pressed="true">Keine Anregung</button>
-    <button type="button" data-traps-state="3.5" aria-pressed="false">3,5 MHz</button>
-    <button type="button" data-traps-state="7.05" aria-pressed="false">7,05 MHz</button>
+<div class="traps-applet" aria-label="Effective length of a trap dipole">
+  <div class="traps-controls" role="group" aria-label="Select operating frequency">
+    <button type="button" data-traps-state="off" aria-pressed="true">Not fed</button>
+    <button type="button" data-traps-state="3.5" aria-pressed="false">3.5 MHz</button>
+    <button type="button" data-traps-state="7.05" aria-pressed="false">7.05 MHz</button>
     <button type="button" data-traps-state="14" aria-pressed="false">14 MHz</button>
   </div>
 
   <div class="traps-visual">
-    <img data-traps-image src="pictures/235.svg" alt="Trap-Dipol ohne Anregung">
+    <img data-traps-image src="pictures/235.svg" alt="Trap dipole, not fed">
   </div>
 
   <p class="traps-state" data-traps-description aria-live="polite">
-    <strong class="traps-relation">Keine Anregung:</strong> Kein Antennenteil ist aktiv.
+    <strong class="traps-relation">Not fed:</strong> No part of the antenna is active.
   </p>
 
   <script>
@@ -110,23 +110,23 @@
       const states = {
         off: {
           image: 'pictures/235.svg',
-          alt: 'Trap-Dipol ohne Anregung',
-          description: '<strong class="traps-relation">Keine Anregung:</strong> Kein Antennenteil ist aktiv.'
+          alt: 'Trap dipole, not fed',
+          description: '<strong class="traps-relation">Not fed:</strong> No part of the antenna is active.'
         },
         '14': {
           image: 'pictures/1136.svg',
-          alt: 'Bei 14 Megahertz kann der Strom die Traps passieren und der gesamte Draht ist stromführend',
-          description: '<strong class="traps-relation">14 MHz &gt; 7,05 MHz:</strong> Die kapazitive Wirkung der Traps überwiegt – der Strahler wird elektrisch verkürzt.'
+          alt: 'At 14 megahertz the current can pass through the traps and the whole wire carries current',
+          description: '<strong class="traps-relation">14 MHz &gt; 7.05 MHz:</strong> The capacitive effect of the traps predominates – the radiator is electrically shortened.'
         },
         '7.05': {
           image: 'pictures/1135.svg',
-          alt: 'Bei 7,05 Megahertz ist nur der innere Teil des Trap-Dipols aktiv',
-          description: '<strong class="traps-relation">7,05 MHz = f<sub>res</sub>:</strong> Die Traps sperren. Wirksame Länge: 2 × 10,07 m = 20,14 m.'
+          alt: 'At 7.05 megahertz only the inner part of the trap dipole is active',
+          description: '<strong class="traps-relation">7.05 MHz = f<sub>res</sub>:</strong> The traps block. Effective length: 2 × 10.07 m = 20.14 m.'
         },
         '3.5': {
           image: 'pictures/1136.svg',
-          alt: 'Bei 3,5 Megahertz ist der gesamte Trap-Dipol aktiv',
-          description: '<strong class="traps-relation">3,5 MHz &lt; 7,05 MHz:</strong> Die induktive Wirkung überwiegt – die Traps verlängern den Strahler elektrisch.'
+          alt: 'At 3.5 megahertz the whole trap dipole is active',
+          description: '<strong class="traps-relation">3.5 MHz &lt; 7.05 MHz:</strong> The inductive effect predominates – the traps lengthen the radiator electrically.'
         }
       };
 

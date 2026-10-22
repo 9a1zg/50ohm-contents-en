@@ -86,12 +86,12 @@
   }
 </style>
 
-<section class="iq-pointer-applet" aria-label="Zeiger mit Sinus- und Cosinusprojektion">
+<section class="iq-pointer-applet" aria-label="Phasor with sine and cosine projections">
   <div class="iq-pointer-controls">
     <label>Amplitude <var>A</var></label>
     <input data-iq-amplitude type="range" min="0" max="1" step="0.01" value="0.75"
            aria-label="Amplitude A">
-    <output data-iq-amplitude-output>0,75</output>
+    <output data-iq-amplitude-output>0.75</output>
 
     <label>Phase <var>&phi;</var></label>
     <input data-iq-phase type="range" min="-180" max="180" step="1" value="0"
@@ -99,23 +99,23 @@
     <output data-iq-phase-output>0&deg;</output>
 
     <button data-iq-toggle type="button" class="btn btn-outline-primary btn-sm iq-pointer-toggle"
-            aria-pressed="false">Zeiger drehen lassen</button>
+            aria-pressed="false">Rotate the phasor</button>
   </div>
 
   <figure>
-    <figcaption data-iq-caption>Anfangszustand des Symbols bei <var>t</var> = 0</figcaption>
-    <canvas data-iq-diagram aria-label="Zeiger sowie daraus entstehende Sinus- und Cosinusschwingung"></canvas>
+    <figcaption data-iq-caption>Initial state of the symbol at <var>t</var> = 0</figcaption>
+    <canvas data-iq-diagram aria-label="Phasor and the resulting sine and cosine waves"></canvas>
   </figure>
 
   <div class="iq-pointer-values" aria-live="polite">
-    <span><var>I</var> = <strong data-iq-i-value>0,75</strong></span>
-    <span><var>Q</var> = <strong data-iq-q-value>0,00</strong></span>
-    <span><var>A</var> = <strong data-iq-a-value>0,75</strong></span>
+    <span><var>I</var> = <strong data-iq-i-value>0.75</strong></span>
+    <span><var>Q</var> = <strong data-iq-q-value>0.00</strong></span>
+    <span><var>A</var> = <strong data-iq-a-value>0.75</strong></span>
     <span><var>&phi;</var> = <strong data-iq-phi-value>0&deg;</strong></span>
   </div>
 
   <p class="iq-pointer-note" data-iq-note>
-    Bei <var>t</var> = 0 ist die waagerechte Projektion der I-Anteil und die senkrechte Projektion der Q-Anteil.
+    At <var>t</var> = 0, the horizontal projection is the I component and the vertical projection is the Q component.
   </p>
 
   <script>
@@ -244,7 +244,7 @@
         line(ctx, rightStart, cy + radius + 8, rightStart, cy - radius - 8);
         ctx.fillStyle = qColor;
         ctx.font = '600 ' + (compact ? '10px' : '12px') + ' system-ui, sans-serif';
-        ctx.fillText('Q: Sinus', rightStart, cy - radius - 13);
+        ctx.fillText('Q: sine', rightStart, cy - radius - 13);
         ctx.strokeStyle = qColor;
         ctx.lineWidth = 2.5;
         ctx.beginPath();
@@ -262,7 +262,7 @@
         line(ctx, cx - radius - 8, bottomStart, cx + radius + 8, bottomStart);
         ctx.fillStyle = iColor;
         ctx.font = '600 ' + (compact ? '10px' : '12px') + ' system-ui, sans-serif';
-        ctx.fillText('I: Cosinus', cx + radius + 13, bottomStart + 4);
+        ctx.fillText('I: cosine', cx + radius + 13, bottomStart + 4);
         ctx.strokeStyle = iColor;
         ctx.lineWidth = 2.5;
         ctx.beginPath();
@@ -308,15 +308,15 @@
         running = enabled;
         timePhase = 0;
         toggleButton.setAttribute('aria-pressed', String(enabled));
-        toggleButton.textContent = enabled ? 'Anfangszustand anzeigen' : 'Zeiger drehen lassen';
+        toggleButton.textContent = enabled ? 'Show initial state' : 'Rotate the phasor';
         toggleButton.classList.toggle('btn-primary', enabled);
         toggleButton.classList.toggle('btn-outline-primary', !enabled);
         caption.innerHTML = enabled
-          ? 'Laufender Zeiger und seine beiden Projektionen'
-          : 'Anfangszustand des Symbols bei <var>t</var> = 0';
+          ? 'Rotating phasor and its two projections'
+          : 'Initial state of the symbol at <var>t</var> = 0';
         note.innerHTML = enabled
-          ? 'Die gestrichelten Linien verbinden die Zeigerspitze mit den momentanen Werten beider Schwingungen.'
-          : 'Bei <var>t</var> = 0 ist die waagerechte Projektion der I-Anteil und die senkrechte Projektion der Q-Anteil.';
+          ? 'The dashed lines connect the tip of the phasor with the instantaneous values of the two waves.'
+          : 'At <var>t</var> = 0, the horizontal projection is the I component and the vertical projection is the Q component.';
         update();
       }
 

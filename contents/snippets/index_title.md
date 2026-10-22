@@ -1,1 +1,1 @@
-Werde Funkamateur!
+Become a radio amateur!

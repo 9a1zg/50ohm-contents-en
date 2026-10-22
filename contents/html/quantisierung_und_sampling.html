@@ -73,19 +73,19 @@
   }
 </style>
 
-<div class="sq-applet" aria-label="Sampling und Quantisierung ausprobieren">
+<div class="sq-applet" aria-label="Try out sampling and quantisation">
   <div class="sq-controls">
-    <label>Zeit-Sampling:</label>
-    <input data-sq-time type="range" value="4" min="1" max="10" step="1" aria-label="Samplingrate">
+    <label>Time sampling:</label>
+    <input data-sq-time type="range" value="4" min="1" max="10" step="1" aria-label="Sampling rate">
     <output data-sq-time-output>16 Samples/s</output>
 
-    <label>Wert-Quantisierung:</label>
-    <input data-sq-value type="range" value="16" min="1" max="16" step="1" aria-label="Quantisierungsbits">
-    <output data-sq-value-output>16 Bit</output>
+    <label>Value quantisation:</label>
+    <input data-sq-value type="range" value="16" min="1" max="16" step="1" aria-label="Quantisation bits">
+    <output data-sq-value-output>16 bits</output>
   </div>
 
   <div class="sq-chart-wrap">
-    <canvas data-sq-chart aria-label="Zeitkontinuierliches sowie zeit- und wertdiskretes Signal"></canvas>
+    <canvas data-sq-chart aria-label="Continuous-time signal and discrete-time, discrete-value signal"></canvas>
   </div>
 
   <script>
@@ -104,7 +104,7 @@
         data: {
           datasets: [
             {
-              label: 'Wert- und zeitdiskretes Signal',
+              label: 'Discrete-value, discrete-time signal',
               data: [],
               borderColor: '#00AEDF',
               borderWidth: 2,
@@ -113,7 +113,7 @@
               stepped: true
             },
             {
-              label: 'Zeitkontinuierliches Signal',
+              label: 'Continuous-time signal',
               data: [],
               borderColor: '#999999',
               borderWidth: 2,
@@ -151,7 +151,7 @@
             x: {
               min: 0,
               max: duration,
-              title: { display: true, text: 'Zeit' },
+              title: { display: true, text: 'Time' },
               ticks: {
                 stepSize: 1,
                 callback: function (value) { return value + ' s'; }
@@ -187,7 +187,7 @@
         chart.data.datasets[1].data = continuous;
         chart.update('none');
         timeOutput.textContent = samples + ' Samples/s';
-        valueOutput.textContent = bits + ' Bit';
+        valueOutput.textContent = bits + ' bits';
       }
 
       timeInput.addEventListener('input', update);

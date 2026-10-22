@@ -1,4 +1,4 @@
-<h1>Suche</h1>
+<h1>Search</h1>
 
 <style>
   #question-search-results .breadcrumb,
@@ -12,7 +12,7 @@
   <div class="card-body">
     <div class="row g-3 align-items-end">
       <div class="col-12 col-md-6 col-lg-4">
-        <label for="question-search-input" class="form-label">Suche nach Frage-ID oder Begriff:</label>
+        <label for="question-search-input" class="form-label">Search by question ID or term:</label>
         <input
           id="question-search-input"
           class="form-control"
@@ -97,7 +97,7 @@
         const editionLabel = escapeHtml(getEditionLabel(edition));
         const targetClass = getTargetClass(edition);
         const targetColor = targetColorByClass[targetClass] || "#6c757d";
-        const targetTitle = targetClass ? `Zielklasse ${targetClass}` : "Zielklasse unbekannt";
+        const targetTitle = targetClass ? `Target class ${targetClass}` : "Target class unknown";
         const href = `${encodeURIComponent(edition)}_${encodeURIComponent(sectionIdentRaw)}.html#${encodeURIComponent(fragmentId)}`;
         return `<a class="btn btn-sm text-white text-decoration-none d-inline-flex align-items-center gap-2 px-3 py-2 text-nowrap" style="background-color: ${targetColor}; border-color: ${targetColor};" href="${href}" title="${escapeHtml(targetTitle)}" aria-label="${editionSafe}: ${editionLabel}"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor" aria-hidden="true" focusable="false" style="width: 0.95rem; height: 0.95rem;"><path d="M96 0C43 0 0 43 0 96L0 416c0 53 43 96 96 96l288 0 32 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l0-64c17.7 0 32-14.3 32-32l0-320c0-17.7-14.3-32-32-32L384 0 96 0zm0 384l256 0 0 64L96 448c-17.7 0-32-14.3-32-32s14.3-32 32-32zm32-240c0-8.8 7.2-16 16-16l192 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-192 0c-8.8 0-16-7.2-16-16zm16 48l192 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-192 0c-8.8 0-16-7.2-16-16s7.2-16 16-16z"></path></svg>${editionLabel}</a>`;
       })
@@ -108,12 +108,12 @@
     return matches.map((questionId) => {
       const entry = questionIndex[questionId] || {};
       const sectionIdentRaw = entry.section || "";
-      const chapterTitle = escapeHtml(entry.chapter_title || "Unbekanntes Kapitel");
-      const sectionTitle = escapeHtml(entry.section_title || entry.section || "Unbekannte Sektion");
+      const chapterTitle = escapeHtml(entry.chapter_title || "Unknown chapter");
+      const sectionTitle = escapeHtml(entry.section_title || entry.section || "Unknown section");
       const hasSolution = Boolean(entry.has_solution);
       const editionLinks = renderEditionButtons(entry.editions, sectionIdentRaw, questionId);
       const solutionLink = hasSolution
-        ? `<a class="btn btn-sm text-dark d-inline-flex align-items-center gap-2 px-3 py-2 text-nowrap" style="background-color: #ffc107; border-color: #ffc107;" href="${encodeURIComponent(questionId)}.html" aria-label="Lösungsweg zu ${escapeHtml(questionId)}"><svg class="solution-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" fill="currentColor" aria-hidden="true" focusable="false" style="width: 1rem; height: 1rem;"><path d="M420.9 448C428.2 425.7 442.8 405.5 459.3 388.1C492 353.7 512 307.2 512 256C512 150 426 64 320 64C214 64 128 150 128 256C128 307.2 148 353.7 180.7 388.1C197.2 405.5 211.9 425.7 219.1 448L420.8 448zM416 496L224 496L224 512C224 556.2 259.8 592 304 592L336 592C380.2 592 416 556.2 416 512L416 496zM312 176C272.2 176 240 208.2 240 248C240 261.3 229.3 272 216 272C202.7 272 192 261.3 192 248C192 181.7 245.7 128 312 128C325.3 128 336 138.7 336 152C336 165.3 325.3 176 312 176z"></path></svg>Lösungsweg</a>`
+        ? `<a class="btn btn-sm text-dark d-inline-flex align-items-center gap-2 px-3 py-2 text-nowrap" style="background-color: #ffc107; border-color: #ffc107;" href="${encodeURIComponent(questionId)}.html" aria-label="Solution for ${escapeHtml(questionId)}"><svg class="solution-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" fill="currentColor" aria-hidden="true" focusable="false" style="width: 1rem; height: 1rem;"><path d="M420.9 448C428.2 425.7 442.8 405.5 459.3 388.1C492 353.7 512 307.2 512 256C512 150 426 64 320 64C214 64 128 150 128 256C128 307.2 148 353.7 180.7 388.1C197.2 405.5 211.9 425.7 219.1 448L420.8 448zM416 496L224 496L224 512C224 556.2 259.8 592 304 592L336 592C380.2 592 416 556.2 416 512L416 496zM312 176C272.2 176 240 208.2 240 248C240 261.3 229.3 272 216 272C202.7 272 192 261.3 192 248C192 181.7 245.7 128 312 128C325.3 128 336 138.7 336 152C336 165.3 325.3 176 312 176z"></path></svg>Solution</a>`
         : "";
 
       return `
@@ -144,8 +144,8 @@
       const subterm = entry.subterm ? escapeHtml(entry.subterm) : "";
       const anchorId = entry.anchor_id || "";
       const sectionIdentRaw = entry.section || "";
-      const chapterTitle = escapeHtml(entry.chapter_title || "Unbekanntes Kapitel");
-      const sectionTitle = escapeHtml(entry.section_title || entry.section || "Unbekannte Sektion");
+      const chapterTitle = escapeHtml(entry.chapter_title || "Unknown chapter");
+      const sectionTitle = escapeHtml(entry.section_title || entry.section || "Unknown section");
       const editionLinks = renderEditionButtons(entry.editions, sectionIdentRaw, anchorId);
 
       return `
@@ -213,7 +213,7 @@
     resultsBox.classList.remove("d-none");
 
     if (rawQuery.length === 0) {
-      resultsBox.innerHTML = '<div class="alert alert-light border" role="status">Bitte gib eine Frage-ID oder einen Begriff ein, z. B. <strong>VD102</strong> oder <strong>PTT</strong>.</div>';
+      resultsBox.innerHTML = '<div class="alert alert-light border" role="status">Please enter a question ID or a term, e.g. <strong>VD102</strong> or <strong>PTT</strong>.</div>';
       return;
     }
 
@@ -221,7 +221,7 @@
     const indexMatches = findIndexMatches(textQuery);
 
     if (questionMatches.length === 0 && indexMatches.length === 0) {
-      resultsBox.innerHTML = '<div class="alert alert-warning" role="status">Keine passenden Fragen oder Begriffe gefunden.</div>';
+      resultsBox.innerHTML = '<div class="alert alert-warning" role="status">No matching questions or terms found.</div>';
       return;
     }
 
@@ -230,7 +230,7 @@
     const total = questionCards.length + indexCards.length;
 
     resultsBox.innerHTML = `
-      <p class="text-muted mb-3">${total} Treffer (${questionCards.length} Fragen, ${indexCards.length} Begriffe)</p>
+      <p class="text-muted mb-3">${total} results (${questionCards.length} questions, ${indexCards.length} terms)</p>
       ${questionCards.join("")}
       ${indexCards.join("")}
     `;
@@ -270,7 +270,7 @@
       renderSearchResults();
     } catch (error) {
       errorBox.classList.remove("d-none");
-      errorBox.textContent = "Suchindex konnte nicht geladen werden: " + error.message;
+      errorBox.textContent = "Could not load the search index: " + error.message;
       console.error("Failed to load search indices", error);
     }
   }

@@ -1,1 +1,1 @@
-Unsere Ausbildungspaten sind erfahrene Funkamateure, die dich gerne unterstützen. Sie können mit dir auch praktischen Funkbetrieb üben.
+Our mentors are experienced radio amateurs who will be glad to support you. They can also practise real radio operation with you.

@@ -92,22 +92,22 @@
   }
 </style>
 
-<section class="qpsk-applet" aria-label="QPSK-Übertragung mit Rauschen">
+<section class="qpsk-applet" aria-label="QPSK transmission with noise">
   <div class="qpsk-controls">
-    <button data-qpsk-start type="button" class="btn btn-primary btn-sm">Übertragung starten</button>
-    <button data-qpsk-new type="button" class="btn btn-outline-secondary btn-sm">Neuer Bitstrom</button>
+    <button data-qpsk-start type="button" class="btn btn-primary btn-sm">Start transmission</button>
+    <button data-qpsk-new type="button" class="btn btn-outline-secondary btn-sm">New bit stream</button>
   </div>
 
   <div class="qpsk-noise-control">
-    <label for="qpsk-noise">Rauschen</label>
+    <label for="qpsk-noise">Noise</label>
     <input data-qpsk-noise id="qpsk-noise" type="range" min="0" max="60" step="1" value="18">
     <output data-qpsk-noise-output>18 %</output>
   </div>
 
-  <div data-qpsk-stream class="qpsk-stream" aria-label="Zu übertragender Bitstrom"></div>
+  <div data-qpsk-stream class="qpsk-stream" aria-label="Bit stream to be transmitted"></div>
 
   <figure>
-    <canvas data-qpsk-canvas aria-label="QPSK-Konstellationsdiagramm"></canvas>
+    <canvas data-qpsk-canvas aria-label="QPSK constellation diagram"></canvas>
   </figure>
 
   <script>
@@ -223,7 +223,7 @@
         if (currentIndex >= symbols.length - 1) makeBitstream();
         running = true;
         startButton.disabled = true;
-        startButton.textContent = 'Übertragung läuft …';
+        startButton.textContent = 'Transmission in progress …';
         newButton.disabled = true;
         transmitNext();
         timer = window.setInterval(transmitNext, 420);
@@ -234,7 +234,7 @@
         window.clearInterval(timer);
         startButton.disabled = false;
         newButton.disabled = false;
-        startButton.textContent = finished ? 'Erneut übertragen' : 'Übertragung starten';
+        startButton.textContent = finished ? 'Transmit again' : 'Start transmission';
       }
 
       function setupCanvas() {

@@ -1,1 +1,1 @@
-Selbst-Studium
+Self-study

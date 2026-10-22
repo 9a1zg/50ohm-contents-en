@@ -1,1 +1,1 @@
-Aufstockungskurs E nach A
+Upgrade course E to A

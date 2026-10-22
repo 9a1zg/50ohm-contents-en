@@ -129,7 +129,7 @@
       <!-- Controls -->
       <div class="controls">
         <div class="control-row">
-          <span class="control-label">Abtastrate $f_\text{s}$:</span>
+          <span class="control-label">Sampling rate $f_\text{s}$:</span>
           <input type="range" id="sliderFs" min="1.0" max="8.0" step="0.025" value="3.0">
           <span class="control-value" id="labelFs">3.0 kHz</span>
         </div>
@@ -139,7 +139,7 @@
       <div class="panel">
         <div class="panel-label">
           <span class="dot" style="background:var(--signal-color)"></span>
-          Originalsignal — Sinus mit 1kHz
+          Original signal — sine wave at 1 kHz
         </div>
         <canvas id="canvasOriginal" height="300"></canvas>
       </div>
@@ -148,7 +148,7 @@
       <div class="panel">
         <div class="panel-label">
           <span class="dot" style="background:var(--sample-color)"></span>
-          Abgetastetes Signal
+          Sampled signal
         </div>
         <canvas id="canvasSampled" height="300"></canvas>
       </div>
@@ -157,15 +157,15 @@
       <div class="panel">
         <div class="panel-label">
           <span class="dot" style="background:var(--recon-color)"></span>
-          Rekonstruiertes Signal 
+          Reconstructed signal 
         </div>
         <canvas id="canvasRecon" height="300"></canvas>
       </div>
 
       <!-- Info box -->
       <div class="info-box" id="infoBox">
-        <strong>✓ Nyquist-Bedingung erfüllt:</strong>
-        f<sub>s</sub> = 3.0 kHz ≥ 2 · 1 kHz. Das rekonstruierte Signal stimmt mit dem Original überein.
+        <strong>✓ Nyquist condition satisfied:</strong>
+        f<sub>s</sub> = 3.0 kHz ≥ 2 · 1 kHz. The reconstructed signal matches the original.
       </div><br>
     </div>
   </div>
@@ -400,17 +400,17 @@ function updateUI(fs, ok) {
     infoBox.style.borderLeftColor = '#1565c0';
     infoBox.style.background = '#DAEEFA';
     infoBox.innerHTML =
-      `<strong>✓ Nyquist-Bedingung erfüllt:</strong> ` +
+      `<strong>✓ Nyquist condition satisfied:</strong> ` +
       `f<sub>s</sub> = ${fs.toFixed(2)} kHz ≥ 2 · ${F_SIG} kHz = ${(2*F_SIG).toFixed(2)} kHz. ` +
-      `Das rekonstruierte Signal stimmt mit dem Original überein.`;
+      `The reconstructed signal matches the original.`;
   } else {
     infoBox.style.borderLeftColor = '#c62828';
     infoBox.style.background = '#FFE3E2';
     infoBox.innerHTML =
       `<strong>⚠ Aliasing:</strong> f<sub>s</sub> = ${fs.toFixed(2)} kHz < 2 · ${F_SIG} kHz. ` +
-      `Das rekonstruierte Signal erscheint mit Aliasing-Frequenz ` +
+      `The reconstructed signal appears at the alias frequency ` +
       `f<sub>Alias</sub> = |f<sub>s</sub> − f<sub>Signal</sub>| ≈ ${fAlias} kHz. ` +
-      `Erhöhe die Abtastrate über ${(2*F_SIG).toFixed(1)} kHz, um das Signal korrekt darzustellen.`;
+      `Increase the sampling rate above ${(2*F_SIG).toFixed(1)} kHz to represent the signal correctly.`;
   }
 }
 

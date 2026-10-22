@@ -1,2 +1,2 @@
-Einige unserer Ortsverbände bieten Präsenzkurse mit erfahrenen Ausbildern an. Finde heraus, ob es einen für dich passenden Kurs bei dir in der Nähe gibt!
+Some of our local clubs offer face-to-face courses with experienced instructors. Find out whether there is a suitable course near you!
 

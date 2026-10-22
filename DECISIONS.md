@@ -588,6 +588,27 @@ and the checker's "Provjera" section).
   (*der Deutsche Empfangsmeister*) take the base form of the title. Award
   levels are translated (Bronze, Silver, Gold; DLD-SWL 100). (Unit swl_2.)
 
+- **Tables of contents, static pages, snippets and applets: titles in
+  sentence case, the slides' wording where it exists, and the applets'
+  visible strings only.** Section and chapter titles in `toc/*.json` are
+  written in sentence case and, where a section's slide already has a heading
+  for the same German title, take that heading (*Der erste Schritt* → "The
+  first step"); numbered series keep their Roman numerals. A course text that
+  quotes a title uses the same English ("Rectifiers I", "Rearranging
+  formulas", "Dangers of electric current", "Components and circuits"). The
+  same German title is the same English in every edition (N, E, A, NE, EA,
+  NEA, SWL). In the applets (`contents/html/`) only what the reader sees is
+  translated — text, labels, buttons, `alt`/`title`/`aria-label`, chart
+  labels, messages — never code, identifiers, comments, URLs or the
+  CircuitJS circuit data; static decimal commas in visible text become
+  points, but values the scripts format with the `de-DE` locale
+  (applet_iq_zeiger, applet_daempfungsglied) still show a comma until the
+  code is changed. With the applets in English, the German label in brackets
+  that the course text gives for an applet control (entry *Labels in the
+  applets* above) is no longer needed; the two places that have one
+  (sections/sampling_quantisierung, slides/psk) are listed in the unit
+  report for removal. (Unit toc_static.)
+
 ## Open questions for DARC
 
 - Suspected slips in the German original noticed while translating are listed

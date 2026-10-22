@@ -1,1 +1,1 @@
-Zur Lehrgangskarte
+To the course map

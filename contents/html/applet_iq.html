@@ -28,11 +28,11 @@
   <br>
     <canvas id="IQ" style="width:100%; min-height:100px; max-width:600px"></canvas>
     
-    $A=$<div id="ares" style="display:inline;">0</div> und $\phi=$<div id="phires" style="display:inline;">0</div>
+    $A=$<div id="ares" style="display:inline;">0</div> and $\phi=$<div id="phires" style="display:inline;">0</div>
     
     <canvas id="SUM" style="width:100%; min-height:100px; max-width:600px"></canvas>
     <br>
-    Man kann das auch als Konstellationsdiagramm betrachten:
+    This can also be viewed as a constellation diagram:
     <br>
     <canvas id="KONST" style="max-height:200px; max-width:200px"></canvas>
     
@@ -46,14 +46,14 @@
                 labels: [],
                 datasets: [
                     {
-                        label: "I-Anteil",
+                        label: "I component",
                         fill: false,
                         pointRadius: 0,
                         borderColor: "#00AEDF",
                         data: [],
                     },
                     {
-                        label: "Q-Anteil",
+                        label: "Q component",
                         fill: false,
                         pointRadius: 0,
                         borderColor: "#40C08C",
@@ -67,7 +67,7 @@
                     x: {
                         title: {
                             display: true,
-                            text: 'Zeit'
+                            text: 'Time'
                         },
                         ticks: {
                             callback: function(val, index) {
@@ -94,7 +94,7 @@
                 labels: [],
                 datasets: [
                     {
-                        label: "Summiertes IQ-Signal",
+                        label: "Summed IQ signal",
                         fill: false,
                         pointRadius: 0,
                         borderColor: "#ED7D71",
@@ -116,7 +116,7 @@
                     x: {
                         title: {
                             display: true,
-                            text: 'Zeit'
+                            text: 'Time'
                         },
                         ticks: {
                             callback: function(val, index) {
@@ -135,7 +135,7 @@
                 labels: [],
                 datasets: [
                     {
-                        label: "IQ-Signal",
+                        label: "IQ signal",
                         fill: false,
                         pointRadius: 5,
                         borderColor: "#ED7D71",

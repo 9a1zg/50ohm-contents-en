@@ -1,1 +1,1 @@
-Bringe dir das nötige Wissen für die Amateurfunkprüfung einfach selber bei. Unser Lernmaterial hilft dir auf deinem Weg!
+Teach yourself the knowledge you need for the amateur radio examination. Our learning material will help you on your way!

@@ -1,1 +1,1 @@
-Kurse vor Ort und Online
+Local and online courses

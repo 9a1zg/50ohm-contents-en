@@ -1,14 +1,14 @@
-Mit dem folgenden Applet kann man beide Schaltzustände des Ringmodulators getrennt betrachten. Dabei werden die Schwellspannungen der Diode vernachlässigt und angenommen, dass die Übertrager 1:1 übertragen. Außerdem wird für $U_2$ eine rechteckförmige Spannung angenommen. Das führt dazu, dass hart umgeschaltet wird. Ein Ausgangsfilter muss die hohen Frequenzen, die dadurch entstehen, später filtern.<br><br>
+The following applet lets you look at the two switching states of the ring modulator separately. The threshold voltages of the diodes are neglected, and the transformers are assumed to have a ratio of 1:1. In addition, a square-wave voltage is assumed for $U_2$. As a result, the switching is hard. An output filter must later filter out the high frequencies this produces.<br><br>
 
 <html>
-    <button id="button0">Keine Aktion</button>
-    <button id="button1">Fall 1: U₂ &gt; 0, U₃ = U₁</button>
-    <button id="button2">Fall 2: U₂ &lt; 0, U₃ = −U₁</button>
+    <button id="button0">No action</button>
+    <button id="button1">Case 1: U₂ &gt; 0, U₃ = U₁</button>
+    <button id="button2">Case 2: U₂ &lt; 0, U₃ = −U₁</button>
 
-    <img id="ringmodulator" width="100%" style="display: block; margin-top: 1rem;" alt="Schaltzustände des Ringmodulators"/>
+    <img id="ringmodulator" width="100%" style="display: block; margin-top: 1rem;" alt="Switching states of the ring modulator"/>
 
     <div id="ringmodulator-formula1" class="ringmodulator-formula" style="display: none; margin-top: 1rem;">
-        Die Ausgangsspannung ergibt sich also zu: 
+        The output voltage is therefore: 
         
         <br>
         <br>
@@ -18,11 +18,11 @@ Mit dem folgenden Applet kann man beide Schaltzustände des Ringmodulators getre
         <br>
         <br>
 
-        Die Multiplikation von $U_1$ und $U_2$ funktioniert!
+        The multiplication of $U_1$ and $U_2$ works!
     </div>
 
     <div id="ringmodulator-formula2" class="ringmodulator-formula" style="display: none; margin-top: 1rem;">
-        Die Ausgangsspannung ergibt sich also zu:
+        The output voltage is therefore:
 
         <br>
         <br>
@@ -32,7 +32,7 @@ Mit dem folgenden Applet kann man beide Schaltzustände des Ringmodulators getre
         <br>
         <br>
 
-        Die Multiplikation von $U_1$ und $U_2$ funktioniert!
+        The multiplication of $U_1$ and $U_2$ works!
     </div>
 
     <script>

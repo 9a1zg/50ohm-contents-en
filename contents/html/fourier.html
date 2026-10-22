@@ -68,16 +68,16 @@
 			}
 		</style>
   <br>
-  <p><b>Zeit-/Frequenzdomäne</b></p>
-  <p>Im folgenden Applett kann man das ausprobieren: Mit den Frequenzreglern kann man die Amplitude der einzelnen Sinusschwingungen erhöhen. Mit dem Preset "Rechteck" kann man sehen, dass ein Rechteck aus vielen Sinusschwingungen besteht.</p>
+  <p><b>Time/frequency domain</b></p>
+  <p>You can try this out in the following applet: the frequency sliders increase the amplitude of the individual sine waves. The "Square wave" preset shows that a square wave consists of many sine waves.</p>
 	  <div id="presets">
 	    Presets: 
 	  </div>
 	  <div id="cameraPresets">
-	    Ansicht: 
+	    View: 
 	  </div>
 	  <div id="numberOfFreqs">
-	    Anzahl Frequenzen:
+	    Number of frequencies:
 	    <input type="range" id="numOfFreqs" min=1 max=30 value=9>
 	  </div>
 	  <div>
@@ -112,7 +112,7 @@
           phases: []
         },
         {
-          label: "Rechteck", 
+          label: "Square wave", 
           defaultAmplitude: 0,
           amplitudes: amplitudesSquare,
           defaultPhase: 0,
@@ -123,9 +123,9 @@
       
       
       const cameraPresets = [
-        { label: "Standard", camera: 0, d: 3, theta: 90, phi: 48 },
-        { label: "Zeit", camera: 0, d: 3, theta: 20, phi: 48 },
-        { label: "Frequenz", camera: 0, d: 3, theta: 160, phi: 48 },
+        { label: "Default", camera: 0, d: 3, theta: 90, phi: 48 },
+        { label: "Time", camera: 0, d: 3, theta: 20, phi: 48 },
+        { label: "Frequency", camera: 0, d: 3, theta: 160, phi: 48 },
 //        { label: "Zeit", camera: 1, d: 1, theta: 90, phi: 40 },
 //        { label: "Frequenz", camera: 1, d: 1, theta: 90, phi: 0 }
       ];

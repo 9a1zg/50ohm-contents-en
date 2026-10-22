@@ -115,37 +115,37 @@
   }
 </style>
 
-<div class="iq169-applet" aria-label="I/Q-Modulation im Format 16 zu 9">
+<div class="iq169-applet" aria-label="I/Q modulation in 16:9 format">
   <div class="iq169-controls">
     <label style="color:var(--iq169-i)"><var>I</var></label>
-    <input data-iq169-i type="range" min="-100" max="100" step="1" value="50" aria-label="I-Anteil">
+    <input data-iq169-i type="range" min="-100" max="100" step="1" value="50" aria-label="I component">
     <output data-iq169-i-output>50 %</output>
 
     <label style="color:var(--iq169-q)"><var>Q</var></label>
-    <input data-iq169-q type="range" min="-100" max="100" step="1" value="50" aria-label="Q-Anteil">
+    <input data-iq169-q type="range" min="-100" max="100" step="1" value="50" aria-label="Q component">
     <output data-iq169-q-output>50 %</output>
   </div>
 
   <div class="iq169-content">
     <div class="iq169-waves">
       <figure>
-        <figcaption>I- und Q-Anteil</figcaption>
+        <figcaption>I and Q components</figcaption>
         <div class="iq169-canvas-wrap">
-          <canvas data-iq169-parts aria-label="I- und Q-Anteil"></canvas>
+          <canvas data-iq169-parts aria-label="I and Q components"></canvas>
         </div>
       </figure>
       <figure>
-        <figcaption>Summiertes I/Q-Signal</figcaption>
+        <figcaption>Summed I/Q signal</figcaption>
         <div class="iq169-canvas-wrap">
-          <canvas data-iq169-sum aria-label="Summiertes I/Q-Signal"></canvas>
+          <canvas data-iq169-sum aria-label="Summed I/Q signal"></canvas>
         </div>
       </figure>
     </div>
 
     <figure class="iq169-constellation-panel">
-      <figcaption>Konstellationsdiagramm</figcaption>
+      <figcaption>Constellation diagram</figcaption>
       <div class="iq169-canvas-wrap">
-        <canvas data-iq169-constellation aria-label="Konstellationsdiagramm"></canvas>
+        <canvas data-iq169-constellation aria-label="Constellation diagram"></canvas>
       </div>
       <div class="iq169-result">
         <span><var>A</var> = <strong data-iq169-a>71 %</strong></span>

@@ -1,1 +1,1 @@
-Kurs Klasse N
+Class N course

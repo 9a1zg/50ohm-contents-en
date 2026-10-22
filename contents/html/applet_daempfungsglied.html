@@ -1,20 +1,20 @@
 <html>
     <div class="text-start" id="attenuator-calculator">
-        <p>Mit diesem Applet können symmetrische T- und Pi-Dämpfungsglieder für ein 50-Ω-System berechnet werden.</p>
+        <p>This applet calculates symmetrical T and pi attenuators for a 50 Ω system.</p>
 
         <div class="row g-3 align-items-end">
             <div class="col-12 col-sm-6">
-                <label class="form-label" for="attenuator-db">Dämpfung in dB</label>
+                <label class="form-label" for="attenuator-db">Attenuation in dB</label>
                 <input class="form-control" id="attenuator-db" type="number" min="0.1" max="100" step="0.1" value="6" inputmode="decimal">
             </div>
 
             <div class="col-12 col-sm-6">
-                <label class="form-label" for="attenuator-impedance">Systemimpedanz</label>
+                <label class="form-label" for="attenuator-impedance">System impedance</label>
                 <input class="form-control" id="attenuator-impedance" type="text" value="50 Ω" readonly>
             </div>
 
             <div class="col-12 col-sm-6">
-                <span class="form-label d-block">Schaltungsform</span>
+                <span class="form-label d-block">Configuration</span>
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" id="attenuator-pi" type="radio" name="attenuator-topology" value="pi" checked>
                     <label class="form-check-label" for="attenuator-pi">Pi</label>
@@ -26,7 +26,7 @@
             </div>
 
             <div class="col-12 col-sm-6">
-                <label class="form-label" for="attenuator-series">Normreihe</label>
+                <label class="form-label" for="attenuator-series">Preferred-value series</label>
                 <select class="form-select" id="attenuator-series">
                     <option value="E12">E12</option>
                     <option value="E24" selected>E24</option>
@@ -39,13 +39,13 @@
         <p class="text-danger mt-3" id="attenuator-error" role="alert" hidden></p>
 
         <div class="mt-4" id="attenuator-output">
-            <p class="mb-1">Die idealen Widerstandswerte betragen:</p>
+            <p class="mb-1">The ideal resistor values are:</p>
             <div id="attenuator-ideal-result"></div>
 
-            <p class="mb-1">Die nächsten Widerstandswerte aus der <span id="attenuator-series-name">E24</span>-Reihe betragen:</p>
+            <p class="mb-1">The nearest resistor values from the <span id="attenuator-series-name">E24</span> series are:</p>
             <div id="attenuator-standard-result"></div>
 
-            <p class="mb-1">Mit diesen Normwerten wird folgende Dämpfung erreicht:</p>
+            <p class="mb-1">These preferred values give the following attenuation:</p>
             <div id="attenuator-achieved-result"></div>
         </div>
     </div>
@@ -204,7 +204,7 @@
                 const seriesName = seriesSelect.value;
 
                 if (!Number.isFinite(attenuation) || attenuation <= 0 || attenuation > 100) {
-                    error.textContent = "Bitte eine Dämpfung zwischen 0,1 dB und 100 dB eingeben.";
+                    error.textContent = "Please enter an attenuation between 0.1 dB and 100 dB.";
                     error.hidden = false;
                     output.hidden = true;
                     return;

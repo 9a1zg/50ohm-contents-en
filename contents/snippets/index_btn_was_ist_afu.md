@@ -1,1 +1,1 @@
-Was ist Amateurfunk?
+What is amateur radio?
