@@ -4,7 +4,7 @@ The following section describes the individual steps of a transmit and receive c
 [picture:1062:a_sdr_sender:SDR transmitter for voice communication]
 </margin>
 
-The blocks highlighted in blue in Figure [ref:a_sdr_sender] represent the signal processing steps, which can be implemented, for example, purely in software or with an FPGA. For a transmitter, the order of these processing steps is always as follows, and it should be memorised well for the examination questions:
+The blocks highlighted in blue in Figure [ref:a_sdr_sender] represent the signal processing steps, which can be implemented, for example, purely in software or with an FPGA. For a transmitter, the order of these processing steps is always as follows, and it should be learnt by heart for the examination questions:
 
 1. Source encoder: compress the data
 2. Channel encoder: add redundancy for error detection and correction

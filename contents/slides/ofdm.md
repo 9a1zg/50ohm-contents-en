@@ -13,7 +13,7 @@ Crosstalk: mutual interference between the carriers
 ---
 
 * One advantage of this approach is that narrow-band interference affects only one or a few carriers.
-* Combined with error correction methods with redundant data transmission, it is thus possible to achieve error-free transmission despite narrow-band interference.
+* Combined with error correction methods using redundant data transmission, it is thus possible to achieve error-free transmission despite narrow-band interference.
 
 ---
 [question:AE421]

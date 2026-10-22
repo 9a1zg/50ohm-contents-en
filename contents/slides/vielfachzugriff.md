@@ -2,7 +2,7 @@
 <left>
 * Time-division multiple access
 * The digital user data are split up and sent one after another on the same frequency
-* At the receiver, the data stream is put back together
+* At the receiver, the data stream is reassembled
 </left>
 <right>
 [picture:844:e_vielfachzugriff_tdma:Time-division multiplexing with three signals]

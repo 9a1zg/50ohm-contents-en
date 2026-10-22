@@ -2,7 +2,7 @@ A method that has been known for decades has for some time been used increasingl
 
 There is no examination question on this topic. But polar modulation is an exciting method that will be used more and more in amateur radio equipment in the future. It is therefore briefly introduced here, as a look beyond the syllabus. If you only want to learn the examination material, you can safely skip this topic.
 
-Polar modulation is based on the observation of what happens when you zoom in, in time, on any signal of reasonably narrow bandwidth: the individual cycle looks like a sine wave.
+Polar modulation is based on the observation of what happens when you zoom in on any signal of reasonably narrow bandwidth along the time axis: the individual cycle looks like a sine wave.
 
 This sine wave is defined by a few numbers, namely frequency, phase and amplitude.  Frequency and phase, though, are coupled to each other: if you start with a particular base frequency but then shift the phase again and again in the same direction with every cycle, you end up at a different, offset frequency.
 
@@ -16,7 +16,7 @@ $\varphi(t)=\operatorname{atan2}\left(Q(t),I(t)\right)$
 
 The phase information $\varphi(t)$ then modulates an RF carrier whose amplitude is, to begin with, constant. The resulting signal, still of constant amplitude, thus already contains the complete phase information. It can be amplified by a particularly efficient switching amplifier, for example a class E amplifier. In practice, such output stages often reach efficiencies of more than $\qtyrange{80}{90}{\percent}$.
 
-But how does the amplitude modulation come into the picture? For this, the supply voltage of the output stage is simply manipulated accordingly. The amplitude information $A(t)$ is impressed on it by an envelope amplifier. As a result, the output amplitude changes in line with the amplitude needed at that moment, and the desired envelope results. At the output, the complete amplitude- and phase-modulated signal appears once more:
+But how does the amplitude modulation come into the picture? For this, the supply voltage of the output stage is simply varied accordingly. The amplitude information $A(t)$ is impressed on it by an envelope amplifier. As a result, the output amplitude changes in line with the amplitude needed at that moment, and the desired envelope results. At the output, the complete amplitude- and phase-modulated signal appears once more:
 
 $s(t)=A(t)\cos\left(\omega_\mathrm{T}t+\varphi(t)\right)$
 

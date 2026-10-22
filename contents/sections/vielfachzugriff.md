@@ -12,7 +12,7 @@ In frequency-division multiple access (FDMA), the available frequency band is di
 
 ---
 
-In time-division multiple access (TDMA), several users use the same frequency channel by dividing up their access to it in time. Each user is given fixed, defined time intervals, known as time slots, in which they may transmit and receive (see Figure [ref:e_tdma]). This separation of the transmissions in time prevents the signals of the individual users from overlapping or interfering with one another.
+In time-division multiple access (TDMA), several users share the same frequency channel, with access to it divided among them in time. Each user is given fixed, defined time intervals, known as time slots, in which they may transmit and receive (see Figure [ref:e_tdma]). This separation of the transmissions in time prevents the signals of the individual users from overlapping or interfering with one another.
 
 TDMA allows comparatively efficient use of the available frequency resources, especially in systems with many users and a high volume of data. Smooth operation does, however, require very precise time synchronisation of all users, which increases the technical effort and the complexity of the system. Well-known applications of TDMA are the second-generation GSM mobile phone system, the DECT cordless telephone system and, in amateur radio, DMR.
 
@@ -24,7 +24,7 @@ TDMA allows comparatively efficient use of the available frequency resources, es
 
 ---
 
-In code-division multiple access (CDMA), all users use the same frequency range at the same time. The individual users are separated not by frequency or time but by individual spreading codes (see Figure [ref:e_cdma]). Each user is assigned a code of their own, with which their signal is modulated. These codes are chosen so that the superimposed signals can be separated from one another again at the receiver, although they are transmitted at the same time in the same frequency band. CDMA is notable for high flexibility and a large system capacity, since many users can be active at the same time. The method is also very robust against interference and multipath propagation. Against this, however, stand comparatively complex signal processing and greater demands on the hardware, particularly with a large number of active users. Typical applications of CDMA are third-generation mobile phone systems such as UMTS and the satellite navigation system GPS.
+In code-division multiple access (CDMA), all users use the same frequency range at the same time. The individual users are separated not by frequency or time but by individual spreading codes (see Figure [ref:e_cdma]). Each user is assigned a code of their own, with which their signal is modulated. These codes are chosen so that the superimposed signals can be separated from one another again at the receiver, although they are transmitted at the same time in the same frequency band. CDMA is notable for high flexibility and a large system capacity, since many users can be active at the same time. The method is also very robust against interference and multipath propagation. On the other hand, it involves comparatively complex signal processing and greater demands on the hardware, particularly with a large number of active users. Typical applications of CDMA are third-generation mobile phone systems such as UMTS and the satellite navigation system GPS.
 
 [question:EE411]
 

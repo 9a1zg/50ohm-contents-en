@@ -60,3 +60,24 @@ bracket rule, Figure capitalisation).
 - slides/vielfachzugriff.md — the FDMA picture `[picture:845:e_vielfachzugriff_cdma:…]` carries the same ident as the CDMA picture 846 on the same slide set; probably `e_vielfachzugriff_fdma` was meant. Harmless while neither is referenced. Kept (idents never change).
 - sections/polarmodulation.md and slides — "Wirkungsgrade von mehr als 80–90 %" ("more than" with a range); kept as "more than 80–90 %" (the slide has $\eta \approx$ 80–90 %).
 - Typos with no effect on the English: slides/vielfachzugriff.md "über die dieselbe Frequenz", "zum decodieren"; sections/ofdm.md stray comma "Frequenzmultiplexverfahren, (Orthogonal …"; sections/polarmodulation.md "es ergibt sich die gewünschten Hüllkurve"; slides/polarmodulation.md "kleiner ausfallen das spart Gewicht" (missing comma); sections/sende_empfangsketten.md "Symbole z. B. Amplitude" (missing comma).
+
+## Provjera
+
+All 10 files compared paragraph by paragraph with the German of 795b529~1;
+embedded questions AF626–AF629, EE409–EE411, AE421, AE422, AE407 checked
+against the English bank. Nothing dropped or added. All 10 glossary rows
+kept (one amended); no DECISIONS.md entry needed. Judgement calls kept,
+except *manipuliert* and the generic *ich* phrasing (below). Suspected
+errors in the German confirmed as listed. Guard `--rev 795b529~1
+--brojevi`: struktura netaknuta.
+
+Changes: omissions 0, meaning 1, technical 1, style 6, glossary 1.
+
+- ofdm (section): *Frequenzabweichungen zwischen Sender und Empfänger* "frequency deviations" → "frequency offsets": *deviation* is the FM *Hub*, and §14 *Frequenzabweichung* says not *deviation*; "frequency errors" would repeat the *Frequenzfehler* they cause. Glossary row *Trägerabstand / Frequenzfehler …* amended accordingly.
+- vielfachzugriff (section): *indem ihnen der Zugriff zeitlich aufgeteilt wird* "by dividing up their access to it in time" (as if the users did it) → "share the same frequency channel, with access to it divided among them in time".
+- vielfachzugriff (section): "Against this, however, stand comparatively complex signal processing …" → "On the other hand, it involves comparatively complex signal processing …".
+- vielfachzugriff (slides): "put back together" → "reassembled".
+- sende_empfangsketten (section): "it should be memorised well" → "it should be learnt by heart".
+- ofdm (section and slides): "error correction methods with redundant data transmission" → "… using redundant data transmission".
+- polarmodulation (section): "when you zoom in, in time, on any signal …" → "when you zoom in on any signal … along the time axis".
+- polarmodulation (section): *manipuliert* "manipulated" → "varied".
