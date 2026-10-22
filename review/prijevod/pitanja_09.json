@@ -1,0 +1,1229 @@
+{
+  "pitanja": {
+    "BC106": {
+      "question": "What is the frequency range from 300 to 3000 MHz called?",
+      "answer_a": "Ultra High Frequency (UHF) or decimetre waves",
+      "answer_b": "Very High Frequency (VHF) or metre waves",
+      "answer_c": "High Frequency (HF) or short wave (SW)",
+      "answer_d": "Medium Frequency (MF) or medium wave (MW)"
+    },
+    "BC105": {
+      "question": "What is the frequency range from 30 to 300 MHz called?",
+      "answer_a": "Very High Frequency (VHF) or metre waves",
+      "answer_b": "Ultra High Frequency (UHF) or decimetre waves",
+      "answer_c": "High Frequency (HF) or short wave (SW)",
+      "answer_d": "Medium Frequency (MF) or medium wave (MW)"
+    },
+    "BC104": {
+      "question": "What is the frequency range from 3 to 30 MHz called?",
+      "answer_a": "High Frequency (HF) or short wave (SW)",
+      "answer_b": "Very High Frequency (VHF) or metre waves",
+      "answer_c": "Ultra High Frequency (UHF) or decimetre waves",
+      "answer_d": "Medium Frequency (MF) or medium wave (MW)"
+    },
+    "BC103": {
+      "question": "What is the frequency range in which the 70 cm band lies called?",
+      "answer_a": "Ultra High Frequency (UHF) or decimetre waves",
+      "answer_b": "Very High Frequency (VHF) or metre waves",
+      "answer_c": "High Frequency (HF) or short wave (SW)",
+      "answer_d": "Medium Frequency (MF) or medium wave (MW)"
+    },
+    "BC102": {
+      "question": "What is the frequency range in which the 2 m band lies called?",
+      "answer_a": "Very High Frequency (VHF) or metre waves",
+      "answer_b": "Ultra High Frequency (UHF) or decimetre waves",
+      "answer_c": "High Frequency (HF) or short wave (SW)",
+      "answer_d": "Medium Frequency (MF) or medium wave (MW)"
+    },
+    "BC101": {
+      "question": "What is the frequency range in which the 10 m band lies called?",
+      "answer_a": "High Frequency (HF) or short wave (SW)",
+      "answer_b": "Very High Frequency (VHF) or metre waves",
+      "answer_c": "Ultra High Frequency (UHF) or decimetre waves",
+      "answer_d": "Medium Frequency (MF) or medium wave (MW)"
+    },
+    "BC222": {
+      "question": "Why should you <u>not</u> make a direct FM telephony contact on 439.200 MHz with a radio amateur in the neighbouring town? The IARU band plan recommends this range for ...",
+      "answer_a": "repeaters.",
+      "answer_b": "satellite communication.",
+      "answer_c": "Morse telegraphy and narrowband digital modes.",
+      "answer_d": "beacons."
+    },
+    "BC221": {
+      "question": "Why should you <u>not</u> make a direct FM telephony contact on 435.500 MHz with a radio amateur in the neighbouring town? The IARU band plan recommends this range for ...",
+      "answer_a": "satellite communication.",
+      "answer_b": "repeaters.",
+      "answer_c": "Morse telegraphy and narrowband digital modes.",
+      "answer_d": "beacons."
+    },
+    "BC220": {
+      "question": "Why should you <u>not</u> make a direct FM telephony contact on 432.450 MHz with a radio amateur in the neighbouring town? The IARU band plan recommends this range exclusively for ...",
+      "answer_a": "beacons.",
+      "answer_b": "satellite communication.",
+      "answer_c": "repeaters.",
+      "answer_d": "Morse telegraphy and narrowband digital modes."
+    },
+    "BC219": {
+      "question": "Why should you <u>not</u> make a direct FM telephony contact on 432.040 MHz with a radio amateur in the neighbouring town? The IARU band plan recommends this range for ...",
+      "answer_a": "Morse telegraphy and narrowband digital modes.",
+      "answer_b": "satellite communication.",
+      "answer_c": "space communication.",
+      "answer_d": "beacons."
+    },
+    "BC218": {
+      "question": "Why should you <u>not</u> make a direct FM telephony contact on 145.800 MHz with a radio amateur in the neighbouring town? The IARU band plan recommends this range for ...",
+      "answer_a": "space communication.",
+      "answer_b": "repeaters.",
+      "answer_c": "Morse telegraphy and narrowband digital modes.",
+      "answer_d": "beacons."
+    },
+    "BC217": {
+      "question": "Why should you <u>not</u> make a direct FM telephony contact on 145.600 MHz with a radio amateur in the neighbouring town? The IARU band plan recommends this range for ...",
+      "answer_a": "repeaters.",
+      "answer_b": "space communication.",
+      "answer_c": "Morse telegraphy and narrowband digital modes.",
+      "answer_d": "beacons."
+    },
+    "BC216": {
+      "question": "Why should you make sure that your radio is set to narrowband FM for FM telephony on 145.525 MHz? The IARU band plan recommends ...",
+      "answer_a": "occupying no more than 12 kHz of bandwidth in this frequency range.",
+      "answer_b": "occupying no more than 25 kHz of bandwidth in this frequency range.",
+      "answer_c": "keeping to a channel spacing of 50 kHz.",
+      "answer_d": "keeping to a channel spacing of 5 kHz."
+    },
+    "BC215": {
+      "question": "Why should you <u>not</u> make a direct FM telephony contact on 144.450 MHz with a radio amateur in the neighbouring town? The IARU band plan designates this range exclusively for ...",
+      "answer_a": "beacons.",
+      "answer_b": "repeaters.",
+      "answer_c": "space communication.",
+      "answer_d": "Morse telegraphy and narrowband digital modes."
+    },
+    "BC214": {
+      "question": "Why should you <u>not</u> make a direct FM telephony contact on 144.125 MHz with a radio amateur in the neighbouring town? The IARU band plan recommends this range for ...",
+      "answer_a": "Morse telegraphy and narrowband digital modes.",
+      "answer_b": "repeaters.",
+      "answer_c": "space communication.",
+      "answer_d": "beacons."
+    },
+    "BC213": {
+      "question": "Why should you <u>not</u> use RTTY, PSK31 or FT8 on 144.075 MHz? The IARU band plan recommends ...",
+      "answer_a": "using this range preferably for Morse telegraphy.",
+      "answer_b": "occupying a maximum bandwidth of 500 Hz in this range, so that the range can be used more efficiently.",
+      "answer_c": "avoiding the use of computers for generating signals.",
+      "answer_d": "operating digital modes above 430 MHz, as more bandwidth is available there."
+    },
+    "BC212": {
+      "question": "Which frequency or frequency range does the IARU band plan designate as the centre of activity for SSB telephony in the 70 cm band?",
+      "answer_a": "432.200 MHz",
+      "answer_b": "434.000 MHz",
+      "answer_c": "432.600 to 432.9875 MHz",
+      "answer_d": "434.450 to 434.575 MHz"
+    },
+    "BC211": {
+      "question": "Which frequency or frequency range does the IARU band plan designate as the centre of activity for SSB telephony in the 2 m band?",
+      "answer_a": "144.300 MHz",
+      "answer_b": "145.500 MHz",
+      "answer_c": "144.195 to 144.205 MHz",
+      "answer_d": "144.110 to 144.160 MHz"
+    },
+    "BC210": {
+      "question": "On which of the following frequencies could you, for example, make an SSB telephony contact in the 2 m band in accordance with the IARU band plan?",
+      "answer_a": "144.310 MHz",
+      "answer_b": "145.450 MHz",
+      "answer_c": "144.800 MHz",
+      "answer_d": "144.450 MHz"
+    },
+    "BC209": {
+      "question": "On which of the following frequencies could you, for example, make an FM telephony contact in the 2 m band in accordance with the IARU band plan?",
+      "answer_a": "145.450 MHz",
+      "answer_b": "144.250 MHz",
+      "answer_c": "144.090 MHz",
+      "answer_d": "144.450 MHz"
+    },
+    "BC208": {
+      "question": "Which frequency does the IARU band plan recommend for a general call in digital telephony in the 70 cm band?",
+      "answer_a": "433.450 MHz",
+      "answer_b": "433.500 MHz",
+      "answer_c": "432.500 MHz",
+      "answer_d": "432.050 MHz"
+    },
+    "BC207": {
+      "question": "Which frequency does the IARU band plan recommend for a general call in digital telephony in the 2 m band?",
+      "answer_a": "145.375 MHz",
+      "answer_b": "145.500 MHz",
+      "answer_c": "144.800 MHz",
+      "answer_d": "144.195 MHz"
+    },
+    "BC206": {
+      "question": "Which frequency does the IARU band plan recommend for a general call in analogue FM telephony in the 70 cm band?",
+      "answer_a": "433.500 MHz",
+      "answer_b": "433.450 MHz",
+      "answer_c": "432.500 MHz",
+      "answer_d": "432.050 MHz"
+    },
+    "BC205": {
+      "question": "Which frequency does the IARU band plan recommend for a general call in analogue FM telephony in the 2 m band?",
+      "answer_a": "145.500 MHz",
+      "answer_b": "144.050 MHz",
+      "answer_c": "144.800 MHz",
+      "answer_d": "145.800 MHz"
+    },
+    "BC204": {
+      "question": "In which part of the amateur bands does the IARU band plan usually recommend the use of Morse telegraphy?",
+      "answer_a": "At the bottom of the band",
+      "answer_b": "At the top of the band",
+      "answer_c": "In the middle of the band",
+      "answer_d": "Below 10 MHz at the bottom of the band, above 10 MHz at the top of the band"
+    },
+    "BC203": {
+      "question": "According to the IARU recommendation, which sideband is normally used for SSB telephony in the 20 m band?",
+      "answer_a": "In the 20 m band the upper sideband is used.",
+      "answer_b": "For contacts within Europe the lower sideband is used, otherwise the upper sideband.",
+      "answer_c": "To compensate for the disadvantage of the relatively low transmit frequency of the 20 m band, the lower sideband is used.",
+      "answer_d": "The lower sideband in the lower half of the band, the upper sideband in the upper half of the band."
+    },
+    "BC202": {
+      "question": "According to the IARU recommendation, which sideband is normally used for SSB telephony in the 80 m band?",
+      "answer_a": "In the 80 m band the lower sideband is used.",
+      "answer_b": "For contacts within Europe the lower sideband is used, otherwise the upper sideband.",
+      "answer_c": "To compensate for the disadvantage of the relatively low transmit frequency of the 80 m band, the upper sideband is used.",
+      "answer_d": "The lower sideband in the lower half of the band, the upper sideband in the upper half of the band."
+    },
+    "BC201": {
+      "question": "How binding are the IARU band plans?",
+      "answer_a": "They are a recommendation. Keeping to them is meant to benefit all radio amateurs.",
+      "answer_b": "They must be kept to in regions with a high density of amateur stations.",
+      "answer_c": "They are officially mandatory for unattended and automatically operating amateur stations.",
+      "answer_d": "They must be applied by every radio amateur in international radio communication."
+    },
+    "BD109": {
+      "question": "Which identifiers are transmitted by low-power amateur transmitters for direction-finding purposes?",
+      "answer_a": "MO, MOE, MOI, MOS, MOH or MO5",
+      "answer_b": "DO, DOE, DOI, DOS, DOH or DO5",
+      "answer_c": "DL, DL1, DL2, DL3, DL4 or DL5",
+      "answer_d": "ARDF, ARDF1, ARDF2, ARDF3, ARDF4 or ARDF5"
+    },
+    "BD108": {
+      "question": "You hear the station DP0POL. What kind of amateur station is it? It is an amateur station ...",
+      "answer_a": "of Class A that is operated at an extraterritorial location.",
+      "answer_b": "of Class E that may be operated without notification under the BEMFV.",
+      "answer_c": "of a foreign radio amateur who holds an amateur radio examination certificate but no individual call sign.",
+      "answer_d": "of members of the visiting forces in Germany."
+    },
+    "BD107": {
+      "question": "You hear the station DP0GVN. What kind of amateur station is it? It is a ...",
+      "answer_a": "Class A amateur station that is operated extraterritorially.",
+      "answer_b": "Class E amateur station that may be operated without notification under the BEMFV.",
+      "answer_c": "Class A club station of radio amateurs who are members of the visiting forces in Germany.",
+      "answer_d": "Class E amateur station that is operated extraterritorially."
+    },
+    "BD106": {
+      "question": "Which category of call sign do call signs belong to that begin with DO1 to DO9 and have a two- or three-letter suffix? Personal call signs of ...",
+      "answer_a": "Class E",
+      "answer_b": "Class A",
+      "answer_c": "Class N",
+      "answer_d": "Class K"
+    },
+    "BD105": {
+      "question": "Which category of call sign do call signs belong to that begin with DN9?",
+      "answer_a": "Personal call signs of Class N",
+      "answer_b": "Personal call signs of Class A",
+      "answer_c": "Personal call signs of Class E",
+      "answer_d": "Personal call signs for short-wave listeners"
+    },
+    "BD104": {
+      "question": "Which category of call sign do call signs belong to that begin with DL1 to DL9 and have a two- or three-letter suffix? Personal call signs of ...",
+      "answer_a": "Class A",
+      "answer_b": "Class E",
+      "answer_c": "Class N",
+      "answer_d": "Class K"
+    },
+    "BD103": {
+      "question": "In a contest you hear the station DL0XK. What kind of amateur station is it? It is an amateur station ...",
+      "answer_a": "with a Class A club station call sign.",
+      "answer_b": "with a Class E club station call sign.",
+      "answer_c": "with a Class A personal call sign.",
+      "answer_d": "with a Class E personal call sign."
+    },
+    "BD102": {
+      "question": "You hear the station DA5XX. What kind of amateur station is it? It is ...",
+      "answer_a": "an amateur station operated for special experimental studies under Section 16(2) AFuV.",
+      "answer_b": "an experimental radio station operated to test technical or scientific developments.",
+      "answer_c": "an extraterritorial German station of the amateur service or of the amateur-satellite service.",
+      "answer_d": "a short-term assignment for a foreign radio amateur who holds an amateur radio examination certificate but no individual call sign."
+    },
+    "BD101": {
+      "question": "You hear the station DA0ABC. What kind of amateur station is it? It is ...",
+      "answer_a": "a club station.",
+      "answer_b": "an amateur station operated for special experimental studies under Section 16(2) AFuV.",
+      "answer_c": "an amateur station of members of the visiting forces.",
+      "answer_d": "an extraterritorial station."
+    },
+    "BD214": {
+      "question": "How must the call sign of DL9MJ be given when the \"CEPT radio amateur licence\" is used in Switzerland?",
+      "answer_a": "HB9/DL9MJ",
+      "answer_b": "DL9MJ/HB9",
+      "answer_c": "DL9MJ/HB3",
+      "answer_d": "HB3/DL9MJ"
+    },
+    "BD213": {
+      "question": "How must the call sign of DO7PR be given when the \"CEPT Novice Radio Amateur Licence\" is used in Switzerland?",
+      "answer_a": "HB3/DO7PR",
+      "answer_b": "DO7PR/HB3",
+      "answer_c": "DO7PR/HB9",
+      "answer_d": "HB9/DO7PR"
+    },
+    "BD212": {
+      "question": "You hear the amateur station with the call sign DL/G3MM. Which of the following statements applies?",
+      "answer_a": "Under the CEPT recommendations, the English station G3MM is permitted to operate amateur radio temporarily in Germany.",
+      "answer_b": "Under a guest licence, the radio amateur G3MM is permitted to operate amateur radio in Germany.",
+      "answer_c": "Under the CEPT recommendations, the English station G3MM is permitted to operate amateur radio permanently in Germany.",
+      "answer_d": "Under the Radio Regulations (RR), the English station G3MM is permitted to operate amateur radio temporarily in Germany."
+    },
+    "BD211": {
+      "question": "DG2RON is carrying out training operation in Morse telegraphy or with digital modes. Which call sign must the trainee use?",
+      "answer_a": "DG2RON/T",
+      "answer_b": "T/DG2RON",
+      "answer_c": "DG2RON/A",
+      "answer_d": "A/DG2RON"
+    },
+    "BD210": {
+      "question": "Training operation is to take place at the club station DL0MOL. May the trainee use the club station's call sign?",
+      "answer_a": "Yes, if DL0MOL/T or DL0MOL/Trainee is used.",
+      "answer_b": "Yes, if T/DL0MOL or Trainee/DL0MOL is used.",
+      "answer_c": "No, the instructor's personal call sign must be used.",
+      "answer_d": "No, training is not permitted at club stations."
+    },
+    "BD209": {
+      "question": "The radio amateur with the call sign DL1PZ wants to carry out training operation in voice. Which call sign may the trainee use?",
+      "answer_a": "DL1PZ/Trainee",
+      "answer_b": "DL1PZ/Ausbildung",
+      "answer_c": "Ausbildung/DL1PZ",
+      "answer_d": "Trainee/DL1PZ"
+    },
+    "BD208": {
+      "question": "Which call sign suffix can be used to indicate \"remote operation\"?",
+      "answer_a": "/R or /Remote",
+      "answer_b": "/RB or /Remotebetrieb",
+      "answer_c": "/FB or /Fernbedient",
+      "answer_d": "/F or /Fern"
+    },
+    "BD207": {
+      "question": "When a portable amateur station or one operated at a temporary fixed location is used in Germany, must the suffix \"/p\" be added to the call sign?",
+      "answer_a": "No, it can be used as additional information.",
+      "answer_b": "Yes, so that the BNetzA can recognise that the amateur station is not being operated at the notified location.",
+      "answer_c": "Yes, because the international provisions of the Radio Regulations (RR) require it.",
+      "answer_d": "No, unless it is a foreign station."
+    },
+    "BD206": {
+      "question": "What does the call sign suffix \"/p\" mean? It means that the amateur station ...",
+      "answer_a": "is being operated at a temporary fixed location or is portable.",
+      "answer_b": "is in motion in a land vehicle.",
+      "answer_c": "is being operated temporarily at an extraterritorial location.",
+      "answer_d": "is on board a vessel at sea."
+    },
+    "BD205": {
+      "question": "What can be seen from the call sign DC4LW/mm about where the station is operated? The German amateur station DC4LW ...",
+      "answer_a": "is being operated on board a vessel that is at sea.",
+      "answer_b": "is being operated from a ship that is on inland waters.",
+      "answer_c": "wants to contact other radio amateurs who are also operating their stations \"maritime mobile\" at present.",
+      "answer_d": "is being operated on board a ship as a mobile station of the maritime and inland waterway radio service."
+    },
+    "BD204": {
+      "question": "For an amateur station, a call sign with the suffix \"/m\" can mean that the station ...",
+      "answer_a": "is on board a vessel on inland waters.",
+      "answer_b": "is transmitting with minimum power.",
+      "answer_c": "is being operated at a temporary fixed location or is portable.",
+      "answer_d": "is being operated on board a vessel that is at sea."
+    },
+    "BD203": {
+      "question": "For an amateur station, a call sign with the suffix \"/m\" can mean that the station ...",
+      "answer_a": "is mobile and in a land vehicle.",
+      "answer_b": "is transmitting with minimum power.",
+      "answer_c": "is being operated at a temporary fixed location or is portable.",
+      "answer_d": "is being operated on board a vessel that is at sea."
+    },
+    "BD202": {
+      "question": "What does the call sign VE8ZZ/am mean?",
+      "answer_a": "It is an amateur station with a Canadian call sign that is being operated in an aircraft.",
+      "answer_b": "It is a Canadian amateur station that is being operated temporarily in the United States of America.",
+      "answer_c": "It is a Canadian amateur station that is being operated in the AM mode.",
+      "answer_d": "It is an automatically operating Pactor amateur station with a mailbox attached, in Canada."
+    },
+    "BD201": {
+      "question": "What does the call sign suffix \"/am\" mean? The amateur station ...",
+      "answer_a": "is being operated on board an aircraft.",
+      "answer_b": "uses amplitude modulation.",
+      "answer_c": "is being operated on board a vessel.",
+      "answer_d": "is working with low power."
+    },
+    "BD318": {
+      "question": "Which country prefixes are assigned to Asian countries?",
+      "answer_a": "BY, JA and VU",
+      "answer_b": "VU, JA and K",
+      "answer_c": "JA, VU and PY",
+      "answer_d": "LU, DS and JA"
+    },
+    "BD317": {
+      "question": "Which country prefixes are assigned to South American countries?",
+      "answer_a": "PY, CE and LU",
+      "answer_b": "LU, CE and BY",
+      "answer_c": "CE, LU and JA",
+      "answer_d": "PY, CE and VE"
+    },
+    "BD316": {
+      "question": "Which three country prefixes all belong to the same continent?",
+      "answer_a": "W, VE and XE",
+      "answer_b": "K, VE and BY",
+      "answer_c": "N, XE and DS",
+      "answer_d": "XE, VE and JA"
+    },
+    "BD315": {
+      "question": "Which answer lists only call signs from the United States (USA)?",
+      "answer_a": "K3LR, W3DZZ and K4EAX",
+      "answer_b": "W0FKK, N6CAL and VE5VK",
+      "answer_c": "US2ABC, AB0GC and W4EAX",
+      "answer_d": "K1TTT, KA7KLE and UA3RUS"
+    },
+    "BD314": {
+      "question": "Which answer contains only country prefixes of countries that border the Federal Republic of Germany?",
+      "answer_a": "F, HB9, OZ, SP",
+      "answer_b": "EA, GM, OE, ON",
+      "answer_c": "SM, LA, LZ, HB0",
+      "answer_d": "CT, I, LX, OK"
+    },
+    "BD313": {
+      "question": "Which group correctly gives the country prefixes used by the amateur stations of China, Canada and Australia?",
+      "answer_a": "BY, VE and VK",
+      "answer_b": "BY, JA and VK",
+      "answer_c": "JA, VE and VK",
+      "answer_d": "N, VE and VK"
+    },
+    "BD312": {
+      "question": "Which group correctly gives the country prefixes used by the amateur stations of the USA, New Zealand and Argentina?",
+      "answer_a": "W, ZL and LU",
+      "answer_b": "K, ZS and A",
+      "answer_c": "N, LU and PY",
+      "answer_d": "AL, CE and VE"
+    },
+    "BD311": {
+      "question": "Which group correctly gives the country prefixes used by the amateur stations of Spain, Luxembourg and Poland?",
+      "answer_a": "EA, LX, SP",
+      "answer_b": "EU, LZ, S0",
+      "answer_c": "EI, LA, SM",
+      "answer_d": "EM, LU, 4X"
+    },
+    "BD310": {
+      "question": "Which group correctly gives the country prefixes used by the amateur stations of Switzerland, Spain and Belgium?",
+      "answer_a": "HB9, EA and ON",
+      "answer_b": "SZ, SP and BE",
+      "answer_c": "SP, ON and EA",
+      "answer_d": "EA, SP and BE"
+    },
+    "BD309": {
+      "question": "Which countries are assigned, in order, to the following country prefixes? The country prefixes VE, VK and PY correspond to the countries ...",
+      "answer_a": "Canada, Australia and Brazil.",
+      "answer_b": "Canada, Brazil and the USA.",
+      "answer_c": "the USA, Australia and Brazil.",
+      "answer_d": "Canada, Australia and Japan."
+    },
+    "BD308": {
+      "question": "Which countries are assigned, in order, to the following country prefixes? The country prefixes EA, EI, EK, EM, ES correspond to the countries ...",
+      "answer_a": "Spain, Ireland, Armenia, Ukraine, Estonia",
+      "answer_b": "Spain, Ukraine, Armenia, Ireland, Estonia",
+      "answer_c": "Spain, Ireland, Armenia, Estonia, Ukraine",
+      "answer_d": "Spain, Ukraine, Armenia, Estonia, Ireland"
+    },
+    "BD307": {
+      "question": "Which countries (territories) are assigned, in order, to the following country prefixes? The country prefixes 4X, F and OZ correspond to the countries (territories) ...",
+      "answer_a": "Israel, France and Denmark.",
+      "answer_b": "Italy, Belgium and Slovakia.",
+      "answer_c": "Sweden, Belgium and Scotland.",
+      "answer_d": "Switzerland, Luxembourg and Poland."
+    },
+    "BD306": {
+      "question": "Which countries are assigned, in order, to the following country prefixes? The country prefixes SM, SP and ZS correspond to the countries ...",
+      "answer_a": "Sweden, Poland and South Africa.",
+      "answer_b": "Sweden, Slovakia and Poland.",
+      "answer_c": "Slovenia, Poland and Sweden.",
+      "answer_d": "Sweden, Slovenia and Poland."
+    },
+    "BD305": {
+      "question": "Which countries are assigned, in order, to the following country prefixes? The country prefixes F, PA and SP correspond to the countries ...",
+      "answer_a": "France, the Netherlands and Poland.",
+      "answer_b": "Sweden, the Netherlands and Poland.",
+      "answer_c": "the Netherlands, Poland and Belgium.",
+      "answer_d": "South Africa, Denmark and Luxembourg."
+    },
+    "BD304": {
+      "question": "Which country prefixes are assigned, in order, to the following countries? The country prefixes OE, PA and SM correspond to the countries ...",
+      "answer_a": "Austria, the Netherlands and Sweden.",
+      "answer_b": "Austria, Brazil and Switzerland.",
+      "answer_c": "Austria, Poland and South Africa.",
+      "answer_d": "Austria, the Netherlands and Scotland."
+    },
+    "BD303": {
+      "question": "Which countries are assigned, in order, to the following country prefixes? The country prefixes OE, ON and OK correspond to the countries ...",
+      "answer_a": "Austria, Belgium and the Czech Republic.",
+      "answer_b": "Denmark, Belgium and Slovakia.",
+      "answer_c": "Austria, Denmark and Belgium.",
+      "answer_d": "Finland, the Czech Republic and Denmark."
+    },
+    "BD302": {
+      "question": "To which country or countries are the country prefixes DA to DZ assigned?",
+      "answer_a": "Germany (DA-DR), South Korea (DS-DT) and the Philippines (DU-DZ)",
+      "answer_b": "Germany only (DA-DZ)",
+      "answer_c": "Germany (DA-DT) and the Philippines (DU-DZ)",
+      "answer_d": "Germany (DA-DO), Taiwan (DP-DT) and the Philippines (DU-DZ)"
+    },
+    "BD301": {
+      "question": "Where can you look up the country in which an amateur station with a country prefix that you do not yet know is located?",
+      "answer_a": "In the ITU's list of country prefixes, amateur radio handbooks and call sign lists.",
+      "answer_b": "In the call sign list of the Federal Network Agency (BNetzA).",
+      "answer_c": "In the recommendations of the IARU.",
+      "answer_d": "In the Frequency Band Allocation Plan of the Federal Republic of Germany."
+    },
+    "BE118": {
+      "question": "What should you bear in mind about speed in Morse telegraphy? As a rule I send ...",
+      "answer_a": "no faster than I can also receive, and I adapt to slower stations.",
+      "answer_b": "at the internationally fixed standard speed of 12 WPM, to allow automatic decoding.",
+      "answer_c": "as fast as I can, so that there are no unnecessary delays in operation.",
+      "answer_d": "at the speed that suits me best. Others have to adapt to me."
+    },
+    "BE117": {
+      "question": "At what speed should you answer a call in Morse telegraphy? As a rule I answer ...",
+      "answer_a": "at the same speed as the call or more slowly.",
+      "answer_b": "at my usual speed.",
+      "answer_c": "at a sending speed of no more than 60 CPM.",
+      "answer_d": "at the highest speed I can send without errors."
+    },
+    "BE116": {
+      "question": "You hear \"CQ FD DD4UQ/P TEST\" in telegraphy. What does this mean? The station DD4UQ ...",
+      "answer_a": "is looking for contacts with stations taking part in the Field Day contest.",
+      "answer_b": "is looking for contacts with stations from the Fulda area.",
+      "answer_c": "is making test transmissions in full-duplex operation.",
+      "answer_d": "is making test transmissions for the telecommunications service."
+    },
+    "BE115": {
+      "question": "What does the operating abbreviation \"QRZ?\" mean in amateur radio?",
+      "answer_a": "Who is calling me? In pile-ups also: inviting further stations to call",
+      "answer_b": "Are you ready? In contests also: Everything received?",
+      "answer_c": "What is your location? In contests also: What is your distance?",
+      "answer_d": "Can you acknowledge receipt? In pile-ups also: request for a report"
+    },
+    "BE114": {
+      "question": "What does the call \"CQ DX CQ DX DE HB9AFN HB9AFN K\", sent in the 20 m band, mean? HB9AFN is looking for a contact with ...",
+      "answer_a": "another continent and should not be called by European radio amateurs.",
+      "answer_b": "its own country and should not be called by foreign radio amateurs.",
+      "answer_c": "stations more than 500 km away and should not be called by radio amateurs at a shorter distance.",
+      "answer_d": "Philippine radio amateurs (prefix \"DX\") and should not be called by radio amateurs from other countries."
+    },
+    "BE113": {
+      "question": "N4EAX calls in telegraphy: \"CQ DL CQ DL DE N4EAX N4EAX PSE K\". What does the amateur station intend by this?",
+      "answer_a": "N4EAX is looking for a contact with a radio amateur in Germany.",
+      "answer_b": "N4EAX is looking for contacts in digital modes (Data Link).",
+      "answer_c": "N4EAX is looking for a contact with a radio amateur whose call sign begins with \"D\" or \"L\".",
+      "answer_d": "N4EAX is looking for contacts with stations in daylight (Day Light), to make the best use of grey-line conditions."
+    },
+    "BE112": {
+      "question": "How would you, for example as \"DL2AB\", make a general call in telegraphy?",
+      "answer_a": "CQ CQ CQ DE DL2AB DL2AB DL2AB pse k",
+      "answer_b": "CQ CQ CQ FRM DL2AB DL2AB DL2AB pse k",
+      "answer_c": "QRZ QRZ QRZ DE DL2AB DL2AB DL2AB pse k",
+      "answer_d": "CQ QRZ CQ QRZ CQ QRZ DE DL2AB DL2AB DL2AB pse k"
+    },
+    "BE111": {
+      "question": "What is the Maidenhead locator (also: QTH locator or grid locator)?",
+      "answer_a": "A position given by reference to fields and squares, which are coded with letters and digits",
+      "answer_b": "A coordinate system in which the location of an amateur station must be reported to the competent authority",
+      "answer_c": "The location given in degrees, minutes and seconds of geographical longitude and latitude",
+      "answer_d": "The geographical area that results from the time zone of the location of the amateur station concerned"
+    },
+    "BE110": {
+      "question": "You hear 4U1ITU calling in telephony: \"CQ VK/ZL this is 4U1ITU\". Should you call 4U1ITU if you would like to have a QSO with the station?",
+      "answer_a": "No! 4U1ITU is looking for a contact with Australia or New Zealand.",
+      "answer_b": "Yes! 4U1ITU in Australia/New Zealand is looking for a contact.",
+      "answer_c": "Yes! But only if you were born an Australian or a New Zealander.",
+      "answer_d": "No! 4U1ITU is only looking for contacts with India or South Africa."
+    },
+    "BE109": {
+      "question": "A station on the 2 m or 70 cm band calls \"CQ\" with the addition \"DX\". When should you reply?",
+      "answer_a": "Only for stations that are evidently a few hundred kilometres away.",
+      "answer_b": "Only if the distance between the two stations is no more than 500 km.",
+      "answer_c": "Only if I, as the listening station, receive the calling station at good strength.",
+      "answer_d": "Only if the calling station is a non-European station."
+    },
+    "BE108": {
+      "question": "You have finished a contact with a station that had been calling \"CQ\". Then another station calls you. What do you do?",
+      "answer_a": "I agree on another frequency with the new station and continue the QSO there.",
+      "answer_b": "I stay on the frequency and have a QSO with the newly calling station.",
+      "answer_c": "I move about 1 kHz away from the previous frequency and call the calling station there.",
+      "answer_d": "I do not respond to the call, because the frequency belongs to the station that called CQ."
+    },
+    "BE107": {
+      "question": "You make a general call in telephony on 145.500 MHz. It is answered by another station. How should you continue the conversation that follows? I keep it short and suggest ...",
+      "answer_a": "QSY.",
+      "answer_b": "QRV.",
+      "answer_c": "QSB.",
+      "answer_d": "QRZ."
+    },
+    "BE106": {
+      "question": "A frequency on one of the higher HF bands at first appears to be free, but then turns out to be in use. What is the most common reason for this?",
+      "answer_a": "A station transmitting on this frequency is within the skip zone and therefore could not be heard by me.",
+      "answer_b": "A station on this frequency is using the other sideband.",
+      "answer_c": "Propagation conditions are too poor for the stations transmitting on this frequency.",
+      "answer_d": "The station transmitting on this frequency was briefly interrupted by the Mögel–Dellinger effect."
+    },
+    "BE105": {
+      "question": "You want to start a general call in telephony on the 10 m band. You find a frequency on which you hear no signals. What do you do?",
+      "answer_a": "I ask two or three times whether the frequency is in use. If there is no answer, I call CQ.",
+      "answer_b": "I listen on the frequency for a few seconds. If I still hear no signals, I call CQ.",
+      "answer_c": "As I hear no signal on the frequency, I can start my CQ call.",
+      "answer_d": "I tune up my transmitter on the frequency and then start my CQ call."
+    },
+    "BE104": {
+      "question": "EA6VQ is calling CQ in telephony in English. Your call sign is DF1KW. How could you reply?",
+      "answer_a": "EA6VQ, this is DF1KW calling you.",
+      "answer_b": "CQ CQ CQ de DF1KW for EA6VQ, please go ahead.",
+      "answer_c": "EA6VQ, es ruft Sie DF1KW, bitte kommen.",
+      "answer_d": "QRZ EA6VQ from DF1KW, over."
+    },
+    "BE103": {
+      "question": "Your call sign is DH7RW. You hear an incomplete \"... 7 Romeo Whiskey\". How do you react?",
+      "answer_a": "I reply: \"This is DH7RW, was I called?\"",
+      "answer_b": "I reply: \"QSL please!\"",
+      "answer_c": "I reply: \"QSY please!\"",
+      "answer_d": "I look forward to a reply from 7R – Algeria."
+    },
+    "BE102": {
+      "question": "How should you reply when someone calls CQ in telephony?",
+      "answer_a": "I give the call sign of the calling station once, then I say once: \"This is (own call sign, spelt out), over\".",
+      "answer_b": "I give the call sign of the calling station at least five times, and then I say at least once: \"This is (own call sign, spelt out)\".",
+      "answer_c": "I also call CQ and give the call sign of the calling station at least three times, then I say at least five times: \"This is (own call sign, spelt out)\".",
+      "answer_d": "I give my call sign and ask the calling station to continue calling on another frequency (at least twice)."
+    },
+    "BE101": {
+      "question": "How can you start an amateur radio contact, for example?",
+      "answer_a": "By using the international operating abbreviation CQ, that is, with a general call; with a directed call to a particular station; or with a reply to a general call, in each case giving your own call sign.",
+      "answer_b": "By repeatedly sending the international Q code \"QRZ?\" followed by your own call sign, and listening on the frequency in the pauses between transmissions.",
+      "answer_c": "By sending the abbreviation CQ, your own call sign and the Q code \"QTH\" several times (often, when propagation conditions are poor), listening in between.",
+      "answer_d": "By sending your call sign and the 1750 Hz tone burst laid down by the IARU, from which listening stations recognise that you want a contact."
+    },
+    "BE210": {
+      "question": "How do you give the other station its \"report\" in SSTV?",
+      "answer_a": "I write the report directly into the picture to be transmitted.",
+      "answer_b": "I give the report later on the QSL card.",
+      "answer_c": "I send the report in CW after the picture transmission.",
+      "answer_d": "I give the report in SSB during the picture transmission."
+    },
+    "BE209": {
+      "question": "During an SSB telephony contact you can hear the other station perfectly. The display of your radio shows the information pictured. What reception report do you give in the RST system?",
+      "answer_a": "59+20 dB",
+      "answer_b": "520",
+      "answer_c": "50",
+      "answer_d": "17"
+    },
+    "BE208": {
+      "question": "During an SSB telephony contact you can hear the other station perfectly. The display of your radio shows the information pictured. What reception report do you give in the RST system?",
+      "answer_a": "59",
+      "answer_b": "12.5",
+      "answer_c": "80",
+      "answer_d": "95"
+    },
+    "BE207": {
+      "question": "During an SSB telephony contact you can hear the other station perfectly. The display of your radio shows the information pictured. What reception report do you give in the RST system?",
+      "answer_a": "55",
+      "answer_b": "7",
+      "answer_c": "100",
+      "answer_d": "1"
+    },
+    "BE206": {
+      "question": "You can hear the other station perfectly in SSB telephony. The meter on your radio shows the needle deflection pictured. What report do you give in the RST system?",
+      "answer_a": "59+20 dB",
+      "answer_b": "69",
+      "answer_c": "4.2",
+      "answer_d": "520"
+    },
+    "BE205": {
+      "question": "You can hear the other station perfectly in SSB telephony. The meter on your radio shows the needle deflection pictured. What report do you give in the RST system?",
+      "answer_a": "59",
+      "answer_b": "39",
+      "answer_c": "95",
+      "answer_d": "56"
+    },
+    "BE204": {
+      "question": "You can hear the other station perfectly in SSB telephony. The meter on your radio shows the needle deflection pictured. What report do you give in the RST system?",
+      "answer_a": "55",
+      "answer_b": "29",
+      "answer_c": "52",
+      "answer_d": "25"
+    },
+    "BE203": {
+      "question": "How is the reception quality of an amateur radio transmission assessed in the RST system?",
+      "answer_a": "Readability on a scale of 1 to 5, signal strength on a scale of 1 to 9 and tone on a scale of 1 to 9",
+      "answer_b": "Readability on a scale of 1 to 5, signal strength on a scale of 1 to 5 and pitch on a scale of 1 to 9",
+      "answer_c": "Signal quality on a scale of 1 to 5, signal strength on a scale of 1 to 5 and tone on a scale of 1 to 9",
+      "answer_d": "Readability on a scale of 1 to 9, signal quality on a scale of 1 to 5 and pitch on a scale of 1 to 4"
+    },
+    "BE202": {
+      "question": "The reception quality of a transmission can be assessed with the letters RST. What do they stand for?",
+      "answer_a": "R = readability, S = signal strength, T = tone",
+      "answer_b": "R = radio call sign, S = signal strength, T = tone",
+      "answer_c": "R = readability, S = signal strength, T = transmit frequency",
+      "answer_d": "R = radio call sign, S = site, T = tone"
+    },
+    "BE201": {
+      "question": "What is meant by the RST report? It is a short code ...",
+      "answer_a": "for describing the reception quality.",
+      "answer_b": "for describing the transmitter power.",
+      "answer_c": "for describing the state of the ionosphere.",
+      "answer_d": "for describing sunspot activity."
+    },
+    "BE313": {
+      "question": "What do radio amateurs mean by a \"foxhunt\" (ARDF = Amateur Radio Direction Finding)?",
+      "answer_a": "It is a radio direction-finding competition in which small hidden transmitters in the HF or VHF range, which transmit only briefly, have to be found with portable direction-finding receivers.",
+      "answer_b": "It is a radio competition in which the aim is to make contacts with as many countries as possible on one amateur band within a given time.",
+      "answer_c": "In a foxhunt the aim is to follow the path of small mobile transmitters and to recognise a pattern in it.",
+      "answer_d": "It is a radio direction-finding competition that radio amateurs organise exclusively for SWLs (short-wave listeners)."
+    },
+    "BE312": {
+      "question": "What is meant by a \"DXpedition\" in amateur radio?",
+      "answer_a": "It is an amateur radio expedition to countries or islands that are rarely heard in amateur radio.",
+      "answer_b": "It is a worldwide activity week.",
+      "answer_c": "It is an international radio contest.",
+      "answer_d": "It is a list of all the countries still sought after by radio amateurs."
+    },
+    "BE311": {
+      "question": "A station that has been calling CQ on 14205 kHz says at the end of its call \"tuning 290 to 300 up\". Which frequencies do you use if you want to call this station?",
+      "answer_a": "I call between 14290 and 14300 kHz and listen on 14205 kHz.",
+      "answer_b": "I call and listen between 14290 and 14300 kHz.",
+      "answer_c": "I call on 14205 kHz and listen between 14290 and 14300 kHz.",
+      "answer_d": "I call on 14290 kHz and listen on 14300 kHz."
+    },
+    "BE310": {
+      "question": "At the end of its CQ call a station sends \"5 up\". What does this mean, and what must be observed?",
+      "answer_a": "The calling station is listening 5 kHz above its own transmit frequency. So when I call, I must transmit 5 kHz higher.",
+      "answer_b": "The calling station will listen on its own transmit frequency 5 minutes later. So I must call 5 minutes later and check beforehand that the frequency is free.",
+      "answer_c": "The calling station transmits 5 kHz above its own transmit frequency. So when I call, I must receive 5 kHz higher and check beforehand that the frequency is free.",
+      "answer_d": "The calling station will deal with my call in 5th place. So when I call, I must wait for 4 other contacts."
+    },
+    "BE309": {
+      "question": "What does it mean when a sought-after station calls CQ and ends the call with \"split up 14270 to 14280\"? The station ...",
+      "answer_a": "is listening above its transmit frequency on varying frequencies within the range given.",
+      "answer_b": "is announcing a change of its transmit frequency to the range given.",
+      "answer_c": "is asking calling stations to use CW in the range given.",
+      "answer_d": "will transmit in the range given with a bandwidth of 10 kHz."
+    },
+    "BE308": {
+      "question": "What is \"split operation\"?",
+      "answer_a": "Transmitting and receiving on different frequencies",
+      "answer_b": "Using more than one radio",
+      "answer_c": "Sharing a frequency between two repeaters",
+      "answer_d": "Using different transmission modes in one QSO"
+    },
+    "BE307": {
+      "question": "What do you understand by a rare station's request for \"list operation\"?",
+      "answer_a": "Another station that can be heard well puts calling stations on a list and later calls these stations to make a contact with the rare station.",
+      "answer_b": "Another station that can be heard well sends lists of calling stations to the rare station via the internet.",
+      "answer_c": "The rare station calls stations in alphabetical order from a list of country prefixes.",
+      "answer_d": "The rare station or its QSL manager publishes a list of the stations worked in the amateur radio magazines."
+    },
+    "BE306": {
+      "question": "A sought-after station calls in telephony \"only number 3\". What does this mean? The station ...",
+      "answer_a": "wants calls from stations with the digit 3 between prefix and suffix.",
+      "answer_b": "wants to put three calling stations on a list at a time.",
+      "answer_c": "wants to call stations with a three-letter suffix.",
+      "answer_d": "wants calling stations to give their suffix three times."
+    },
+    "BE305": {
+      "question": "What is meant by the term \"pile-up\"? In amateur radio it means the simultaneous ...",
+      "answer_a": "calling of a sought-after station by many amateur stations.",
+      "answer_b": "transmission by one station on several amateur frequencies.",
+      "answer_c": "direction finding of a station with several directional antennas stacked one above the other.",
+      "answer_d": "reception of a station by many remote stations during a contest."
+    },
+    "BE304": {
+      "question": "Which special rule applies in a \"sprint contest\"?",
+      "answer_a": "After each contact, the station that called CQ leaves the frequency to the other station.",
+      "answer_b": "Operation is in telegraphy, and the sending speed counts towards the score.",
+      "answer_c": "The call sign must not be spelt out, except at the beginning and at the end of the contest.",
+      "answer_d": "Participants must keep constantly on the move while operating."
+    },
+    "BE303": {
+      "question": "You are taking part in an amateur radio contest. What information should you exchange in a QSO?",
+      "answer_a": "I pass on the data laid down in the contest rules, so that the contact counts.",
+      "answer_b": "I send call sign, signal report, name, location and a description of my station, so that the other station's log is complete.",
+      "answer_c": "I decide for each contact which data I send, so that I do not give away too much about myself.",
+      "answer_d": "I limit myself to the call sign, so that I can make as many contacts as possible quickly."
+    },
+    "BE302": {
+      "question": "Why is the exchange of information in contacts during an amateur radio contest particularly short?",
+      "answer_a": "To make as many contacts as possible in the given time.",
+      "answer_b": "To keep to the time limit set for a single contact.",
+      "answer_c": "Because there is otherwise a risk of disqualification.",
+      "answer_d": "Because all the necessary information can also be found on the internet."
+    },
+    "BE301": {
+      "question": "What is the purpose of an amateur radio contest? It is for competing and for ...",
+      "answer_a": "the continuous improvement of amateur radio equipment and operating technique.",
+      "answer_b": "winning prize money.",
+      "answer_c": "obtaining an amateur radio certificate.",
+      "answer_d": "testing the immunity of the neighbours' receiving equipment."
+    },
+    "BE416": {
+      "question": "What is the transponder of an \"OSCAR\", and how does it work?",
+      "answer_a": "It is a converter on board an amateur satellite which converts the received signals to another frequency range and transmits them back to earth.",
+      "answer_b": "It is a stratospheric balloon carrying a remotely controlled amateur station, which processes received signals and transmits them back to earth.",
+      "answer_c": "It is a converter on board an amateur satellite which automatically transmits the weather pictures recorded by the satellite and other telemetry data to earth.",
+      "answer_d": "It is a beacon transmitter on board an amateur satellite, used for observing propagation conditions in the VHF, UHF and SHF ranges."
+    },
+    "BE415": {
+      "question": "What does the abbreviation OSCAR stand for in amateur radio?",
+      "answer_a": "Orbiting Satellite Carrying Amateur Radio",
+      "answer_b": "Offshore Ship Carrying Amateur Radio",
+      "answer_c": "Operational Station on a CAR",
+      "answer_d": "Observation Station Conducting Aeronautical Radar"
+    },
+    "BE414": {
+      "question": "What does the term elevation mean in satellite communication?",
+      "answer_a": "Vertical angle of the antenna",
+      "answer_b": "Horizontal angle of the antenna",
+      "answer_c": "Direction of transmission from the satellite to earth",
+      "answer_d": "Direction of transmission from earth to the satellite"
+    },
+    "BE413": {
+      "question": "What does the term azimuth mean in satellite communication?",
+      "answer_a": "Horizontal angle of the antenna",
+      "answer_b": "Vertical angle of the antenna",
+      "answer_c": "Direction of transmission from the satellite to earth",
+      "answer_d": "Direction of transmission from earth to the satellite"
+    },
+    "BE412": {
+      "question": "What does the term downlink mean in satellite communication?",
+      "answer_a": "Direction of transmission from the satellite to earth",
+      "answer_b": "Direction of transmission from earth to the satellite",
+      "answer_c": "Horizontal angle of the antenna",
+      "answer_d": "Vertical angle of the antenna"
+    },
+    "BE411": {
+      "question": "What does the term uplink mean in satellite communication?",
+      "answer_a": "Direction of transmission from earth to the satellite",
+      "answer_b": "Direction of transmission from the satellite to earth",
+      "answer_c": "Horizontal angle of the antenna",
+      "answer_d": "Vertical angle of the antenna"
+    },
+    "BE410": {
+      "question": "Why should the frequencies 14099 to 14101 kHz, 18109 to 18111 kHz, 21149 to 21151 kHz, 24929 to 24931 kHz and 28190 to 28225 kHz be kept clear?",
+      "answer_a": "Under the IARU recommendation, these frequencies are intended for the International Beacon Project (IBP) and are to be kept clear for observing propagation conditions by means of beacon signals.",
+      "answer_b": "Under the IARU recommendation, these frequency ranges are intended for HAMNET and should be kept clear for monitoring these transmissions.",
+      "answer_c": "Under the IARU recommendation, these frequencies are intended especially for DX traffic and should preferably be used for contacts during \"DX expeditions\".",
+      "answer_d": "Under a recommendation of the Radio Regulations (RR), these frequency ranges are intended for special amateur standard-frequency and time-signal transmissions and should be kept clear as far as possible."
+    },
+    "BE409": {
+      "question": "What is a common use of amateur radio beacons? They ...",
+      "answer_a": "help in observing propagation conditions.",
+      "answer_b": "reserve frequencies for a radio amateur.",
+      "answer_c": "post reception reports on the internet.",
+      "answer_d": "ionise the D region of the atmosphere."
+    },
+    "BE408": {
+      "question": "How is a contact assessed when working through a repeater?",
+      "answer_a": "Only the readability \"R\" is assessed, because the signal strength \"S\" relates to the repeater.",
+      "answer_b": "The readability \"R\" and the signal strength \"S\" are assessed, because both are part of a complete report.",
+      "answer_c": "Only the signal strength \"S\" is assessed, because the readability \"R\" is always equally good with a repeater.",
+      "answer_d": "Only verbal statements are made, as an exact assessment is not possible when operating through a repeater."
+    },
+    "BE407": {
+      "question": "Why should you make sure that your handheld is set to narrowband FM when using an FM repeater? Because otherwise ...",
+      "answer_a": "repeater inputs on adjacent frequencies may suffer interference, and the repeater being used could output the signal distorted.",
+      "answer_b": "excessive wear of the repeater's preamplifier could occur through overload, and the repeater would then fail.",
+      "answer_c": "excessive harmonics may be generated, and radio services on other bands could suffer interference from image frequencies.",
+      "answer_d": "the batteries of the repeater's emergency power supply could be excessively loaded and would then no longer be usable in an emergency."
+    },
+    "BE406": {
+      "question": "Why should overs be kept as short as possible when operating through repeaters?",
+      "answer_a": "So that mobile and portable stations in particular can use the repeater more easily.",
+      "answer_b": "To allow simplex operation from time to time.",
+      "answer_c": "Under the Amateur Radio Ordinance (Amateurfunkverordnung, AFuV), an over may last no more than 60 seconds.",
+      "answer_d": "The voice memories of a repeater have a limited capacity."
+    },
+    "BE405": {
+      "question": "How should simultaneous talking (doubling) be avoided when using a repeater and in nets?",
+      "answer_a": "By a proper handover after each over",
+      "answer_b": "By using a time-out timer",
+      "answer_c": "By transmitting with as much power as possible",
+      "answer_d": "By slightly detuning the transmit frequency"
+    },
+    "BE404": {
+      "question": "How should it be made easier for stations to join a net in progress or a conversation on a repeater?",
+      "answer_a": "By a short pause before each over",
+      "answer_b": "By using a tone burst",
+      "answer_c": "By keeping the input frequency clear",
+      "answer_d": "By keeping the output frequency clear"
+    },
+    "BE403": {
+      "question": "At German 70 cm repeaters, the input frequency is usually ...",
+      "answer_a": "7.6 MHz lower than the output frequency.",
+      "answer_b": "600 kHz higher than the output frequency.",
+      "answer_c": "600 kHz lower than the output frequency.",
+      "answer_d": "7.6 MHz higher than the output frequency."
+    },
+    "BE402": {
+      "question": "At German 2 m repeaters, the input frequency is usually ...",
+      "answer_a": "600 kHz lower than the output frequency.",
+      "answer_b": "600 kHz higher than the output frequency.",
+      "answer_c": "7.6 MHz lower than the output frequency.",
+      "answer_d": "7.6 MHz higher than the output frequency."
+    },
+    "BE401": {
+      "question": "What is meant when it is said that a repeater has an input and an output frequency?",
+      "answer_a": "The repeater receives on the input frequency and transmits on the output frequency.",
+      "answer_b": "When the input frequency is heavily occupied, the repeater provides an additional output frequency.",
+      "answer_c": "The repeater uses an input frequency for converting the received signal and the output frequency for remote control.",
+      "answer_d": "The repeater must be opened with a tone call on the output frequency before it can go into operation on the input frequency."
+    },
+    "BF109": {
+      "question": "According to the recommendations of the International Amateur Radio Union (IARU), there are so-called centres of activity for emergency communications at 3760, 7110, 14300, 18160 and 21360 kHz. What is special about these frequencies? They are to ...",
+      "answer_a": "serve emergency communications in ITU Region 1 and be kept clear for them.",
+      "answer_b": "be monitored permanently, provided the radio has a 2nd VFO.",
+      "answer_c": "serve exclusively for use by the rescue services and not be used by radio amateurs.",
+      "answer_d": "be used only after prior announcement by the IARU."
+    },
+    "BF108": {
+      "question": "On 16 August (local date) at 20:00 Central European Summer Time (CEST), you received an emergency message from 9J2NG and passed it on by telephone to a relief organisation. The amateur station 9J2NG has asked you to contact it again at 23:00 UTC. What time is this in Germany?",
+      "answer_a": "01:00 CEST on 17 August (local date)",
+      "answer_b": "21:00 CEST on 16 August (local date)",
+      "answer_c": "22:00 CEST on 16 August (local date)",
+      "answer_d": "00:00 CEST on 18 August (local date)"
+    },
+    "BF107": {
+      "question": "You have answered a distress message and informed the police or the emergency control centre. What is the exemplary thing to do next?",
+      "answer_a": "I remain reachable and pass on information until help has arrived.",
+      "answer_b": "I call the police or the emergency control centre regularly to ask about progress.",
+      "answer_c": "I switch off my radio, as I have done my duty.",
+      "answer_d": "I inform the media so that the rescue operation can be reported live."
+    },
+    "BF106": {
+      "question": "You have received a distress message. No other station responds, and you could help. What do you do?",
+      "answer_a": "I answer the call and inform the police or the emergency control centre.",
+      "answer_b": "I switch off my radio so as not to get into trouble.",
+      "answer_c": "I immediately repeat the distress message on the same frequency.",
+      "answer_d": "I wait about an hour to see whether a rescue organisation responds."
+    },
+    "BF105": {
+      "question": "You have received a distress message, which is answered after a short time by a rescue organisation. What do you do?",
+      "answer_a": "I do not disrupt the radio traffic under any circumstances.",
+      "answer_b": "I offer my help between two overs.",
+      "answer_c": "I tune up my transmitter on the frequency.",
+      "answer_d": "I ask as many radio amateurs as possible for help."
+    },
+    "BF104": {
+      "question": "You hear a distress message. What do you do first?",
+      "answer_a": "I listen carefully and note down all important information.",
+      "answer_b": "I send MAYDAY three times and my call sign, and wait for a reply.",
+      "answer_c": "I tune up my transmitter on the frequency.",
+      "answer_d": "I change frequency or switch off."
+    },
+    "BF103": {
+      "question": "You come to the scene of an accident. The first-aider asks you to summon help via your mobile amateur station, as the mobile phone network is not available. What do you do?",
+      "answer_a": "I call a radio amateur by radio and ask them to inform the police or the emergency control centre.",
+      "answer_b": "I refuse to help, since no information for third parties may be passed in amateur radio.",
+      "answer_c": "I call MAYDAY by radio at least three times, followed by my call sign, the location and the nature of the emergency.",
+      "answer_d": "I refuse to help, since no distress signals may be used in amateur radio."
+    },
+    "BF102": {
+      "question": "May you use SOS or MAYDAY within amateur radio in an emergency?",
+      "answer_a": "No",
+      "answer_b": "Not MAYDAY, but SOS in an emergency.",
+      "answer_c": "Yes",
+      "answer_d": "Not SOS, but MAYDAY in an emergency."
+    },
+    "BF101": {
+      "question": "What are the international distress signals outside amateur radio?",
+      "answer_a": "MAYDAY and SOS",
+      "answer_b": "Securité and Distresse",
+      "answer_c": "Distresse and DDD",
+      "answer_d": "Prudence and TTT"
+    },
+    "BG111": {
+      "question": "Which alternatives to the QSL card are common? Confirmation of contacts by ...",
+      "answer_a": "electronic QSL cards or log upload",
+      "answer_b": "the BNetzA as an independent body",
+      "answer_c": "the Intruder Watch of the amateur radio societies",
+      "answer_d": "certification by a notary or an SWL specialist lawyer"
+    },
+    "BG110": {
+      "question": "Where can you find the addresses of foreign radio amateurs to whom you want to send your QSL card direct?",
+      "answer_a": "I find them in the international amateur radio call sign list (callbook) or from information on the internet.",
+      "answer_b": "I find them in the amateur radio call sign list on the website of the Federal Network Agency (BNetzA).",
+      "answer_c": "I find them in the Radio Regulations (RR).",
+      "answer_d": "I find them in the international telephone directory."
+    },
+    "BG109": {
+      "question": "HZ1HZ told you \"QSL via K8PYD\". What would you do to receive the QSL card from HZ1HZ?",
+      "answer_a": "I send my QSL card via K8PYD, because that station is the QSL manager of HZ1HZ.",
+      "answer_b": "I must send my QSL card via HZ1HZ, because K8PYD was the other station in the QSO.",
+      "answer_c": "I look up the address of HZ1HZ in the callbook and send the card direct.",
+      "answer_d": "I wait until HZ1HZ has sent the card to K8PYD."
+    },
+    "BG108": {
+      "question": "What time do you enter on the QSL card if you had a contact at 13:30 CEST?",
+      "answer_a": "11:30 UTC",
+      "answer_b": "13:30 UTC",
+      "answer_c": "12:30 UTC",
+      "answer_d": "14:30 UTC"
+    },
+    "BG107": {
+      "question": "What time do you enter on the QSL card if you had a QSO at 15:30 CET?",
+      "answer_a": "14:30 UTC",
+      "answer_b": "13:30 UTC",
+      "answer_c": "17:30 UTC",
+      "answer_d": "16:30 UTC"
+    },
+    "BG106": {
+      "question": "What should you bear in mind when entering times on QSL cards? They should be entered in ...",
+      "answer_a": "Coordinated Universal Time (UTC), to make it easier for other stations abroad to find the contact in their log.",
+      "answer_b": "your own local time, to comply with German regulations.",
+      "answer_c": "the local time of the other station, so that there is no confusion.",
+      "answer_d": "your own local time and also in the local time of the other station, both to comply with German regulations and to make it easier for other stations abroad to find the contact in their log."
+    },
+    "BG105": {
+      "question": "What information should QSL cards contain <u>as a minimum</u>?",
+      "answer_a": "Call sign used, call sign of the other station, date and time of the contact in UTC, band, mode and signal report",
+      "answer_b": "Call sign used, date and time of the contact in UTC, frequency, mode, signal report, as well as your own name, location, locator, your own transmitter power and details of the technical equipment used",
+      "answer_c": "Call sign of the other station, date and time of the contact in UTC, exact frequency, mode, signal report and other usual details such as your own name, location, locator and your own transmitter power",
+      "answer_d": "Call sign of the other station, date and time of the contact in UTC, frequency, mode, details of the propagation conditions and the operator's signature"
+    },
+    "BG104": {
+      "question": "A QSL card is ...",
+      "answer_a": "the confirmation of an amateur radio contact. It serves, for example, as proof when applying for amateur radio awards.",
+      "answer_b": "the certificate of membership of an amateur radio society.",
+      "answer_c": "a map on which the locations for fixed-location radio contests are marked.",
+      "answer_d": "a reservation confirmation for taking part in an amateur radio net. It secures the radio amateur a place on the list in the net."
+    },
+    "BG103": {
+      "question": "When keeping a log has been ordered, what must be taken into account when changing the \"logging software\"?",
+      "answer_a": "The log data must remain available, so that the operating data can be inspected in any later checks.",
+      "answer_b": "You should change to software for a 64-bit system.",
+      "answer_c": "The old software must always be deleted, to avoid conflicts between data formats.",
+      "answer_d": "You should use a logging program that allows the data to be stored in the cloud."
+    },
+    "BG102": {
+      "question": "When keeping a log has been ordered, what must be observed when creating a \"computer log\"?",
+      "answer_a": "As with a paper log, the data must be available for inspection for a certain period.",
+      "answer_b": "The log file must also be readable with a word processor.",
+      "answer_c": "A conventional paper log must be kept as well.",
+      "answer_d": "A printout of the log must be available at all times."
+    },
+    "BG101": {
+      "question": "What do radio amateurs mean by a log?",
+      "answer_a": "It is the station log that a radio amateur keeps voluntarily or must keep in special cases.",
+      "answer_b": "It is the station log that every radio amateur must keep.",
+      "answer_c": "It is the documentation of all the radio amateur's equipment and antennas.",
+      "answer_d": "It is the documentation of compliance with the safety distances for the protection of persons."
+    },
+    "VA104": {
+      "question": "What does the definition of the amateur service in the Radio Regulations (RR) say about radio amateurs?",
+      "answer_a": "Radio amateurs are duly authorised persons interested in radio technique solely with a personal aim and without pecuniary interest.",
+      "answer_b": "Nothing, since the amateur service is not defined in the Radio Regulations (RR).",
+      "answer_c": "Radio amateurs are holders of an examination certificate who are concerned with radio technique for commercial purposes.",
+      "answer_d": "Radio amateurs may only transmit messages of minor importance, for which recourse to public telecommunications services is not justified."
+    },
+    "VA103": {
+      "question": "According to the definition in the Radio Regulations (RR), what is the amateur-satellite service for?",
+      "answer_a": "For the same purposes as the rest of the amateur service",
+      "answer_b": "For observing terrestrial weather in the X-ray spectrum",
+      "answer_c": "For determining the attenuation of the ionising regions",
+      "answer_d": "For determining the attenuation of the reflecting layers in the UHF range"
+    },
+    "VA102": {
+      "question": "According to the definition in the Radio Regulations (RR), what is the amateur service for?",
+      "answer_a": "For self-training, for intercommunication between radio amateurs and for technical investigations",
+      "answer_b": "For communication between radio amateurs and with other radiocommunication services",
+      "answer_c": "For providing communication services in areas that lack communication infrastructure",
+      "answer_d": "For communication between radio amateurs and their family and friends"
+    },
+    "VA101": {
+      "question": "In which international set of rules is the term \"amateur service\" defined?",
+      "answer_a": "In the Radio Regulations (RR) of the ITU",
+      "answer_b": "In the standards and recommendations of ETSI",
+      "answer_c": "In the recommendations of the IARU",
+      "answer_d": "In the provisions of the CEPT"
+    },
+    "VA202": {
+      "question": "How is the \"amateur station\" defined in the Radio Regulations (RR)? An amateur station is ...",
+      "answer_a": "a station in the amateur service.",
+      "answer_b": "a station operated by radio amateurs.",
+      "answer_c": "a station that transmits on amateur frequencies.",
+      "answer_d": "a station with a call sign."
+    },
+    "VA201": {
+      "question": "In essence, how is a station defined in the Radio Regulations (RR)?",
+      "answer_a": "A station consists of transmitters, receivers or transceivers and the accessory equipment necessary at one location for operation.",
+      "answer_b": "The term station is not defined in the Radio Regulations (RR).",
+      "answer_c": "A station consists of transmitters, receivers or transceivers without accessory equipment.",
+      "answer_d": "A station consists of at least one transceiver and an antenna, including the person operating them."
+    },
+    "VA304": {
+      "question": "What do the Radio Regulations (RR) lay down regarding the Morse qualification of radio amateurs?",
+      "answer_a": "The national administration of each country decides independently whether a Morse test is required.",
+      "answer_b": "With a transmitter power of more than 100 W, a radio amateur needs proof of having passed a Morse test.",
+      "answer_c": "Anyone who wants to use frequencies below 30 MHz must pass a Morse test.",
+      "answer_d": "The Radio Regulations (RR) contain no provisions on the Morse qualification."
+    },
+    "VA303": {
+      "question": "Under the Radio Regulations (RR), what content in international amateur radio communication may be encoded for the purpose of obscuring its meaning?",
+      "answer_a": "Control signals between earth command stations and amateur satellites",
+      "answer_b": "Confidential information and remarks of a personal character",
+      "answer_c": "Content that is digitally encoded because of the transmission method used",
+      "answer_d": "Content concerning technical matters of the amateur service that are worth protecting"
+    },
+    "VA302": {
+      "question": "What do the Radio Regulations (RR) lay down regarding amateur radio communication?",
+      "answer_a": "Communication between amateur stations of different countries shall be limited to communications incidental to the purpose of the amateur service as defined and to remarks of a personal character.",
+      "answer_b": "Amateur stations are not permitted to take part in the radio traffic of emergency and disaster communication exercises.",
+      "answer_c": "It must be ensured that communication between amateur stations is not made accessible to third parties.",
+      "answer_d": "The content of messages in cross-border amateur radio communication shall be limited to purely technical content."
+    },
+    "VA301": {
+      "question": "The general provisions of the Radio Regulations (RR) apply ...",
+      "answer_a": "to the amateur service as well.",
+      "answer_b": "not to the amateur service.",
+      "answer_c": "only as regards laying down the frequency bands for the amateur service.",
+      "answer_d": "only as regards laying down the classes of emission for the amateur service."
+    },
+    "VA407": {
+      "question": "In which international set of rules can the meanings of the Q codes used in amateur radio be looked up? In the ...",
+      "answer_a": "Radio Regulations (RR)",
+      "answer_b": "recommendations of the International Amateur Radio Union (IARU)",
+      "answer_c": "standards of the European Telecommunications Standards Institute (ETSI)",
+      "answer_d": "recommendations of the International Organization for Standardization (ISO)"
+    },
+    "VA406": {
+      "question": "Where are the prefixes for amateur call signs regulated internationally?",
+      "answer_a": "In the Radio Regulations (RR)",
+      "answer_b": "In the Amateur Radio Act (Amateurfunkgesetz, AFuG)",
+      "answer_c": "In the call sign list of the BNetzA",
+      "answer_d": "In the Amateur Radio Ordinance (Amateurfunkverordnung, AFuV)"
+    },
+    "VA405": {
+      "question": "To which region under the Radio Regulations (RR) does Australia belong?",
+      "answer_a": "Region 3",
+      "answer_b": "Region 1",
+      "answer_c": "Region 2",
+      "answer_d": "Region 4"
+    },
+    "VA404": {
+      "question": "To which region under the Radio Regulations (RR) does Canada belong?",
+      "answer_a": "Region 2",
+      "answer_b": "Region 3",
+      "answer_c": "Region 4",
+      "answer_d": "Region 1"
+    },
+    "VA403": {
+      "question": "To which region under the Radio Regulations (RR) does Germany belong?",
+      "answer_a": "Region 1",
+      "answer_b": "Region 2",
+      "answer_c": "Region 3",
+      "answer_d": "Region 4"
+    },
+    "VA402": {
+      "question": "Under the Radio Regulations (RR), the world is divided into regions for the allocation of frequency bands to radiocommunication services. How many regions are there?",
+      "answer_a": "Three",
+      "answer_b": "Five",
+      "answer_c": "Four",
+      "answer_d": "Two"
+    },
+    "VA401": {
+      "question": "Why do the Radio Regulations (RR) divide the earth into different regions?",
+      "answer_a": "To be able to make different allocations of frequency bands to the radiocommunication services in the regions",
+      "answer_b": "Because amateur radio communication is permitted only within one region",
+      "answer_c": "To be able to introduce rules on guest licences for the individual regions",
+      "answer_d": "Because they are different time zones, and this simplifies radio communication"
+    },
+    "VB114": {
+      "question": "Is temporary operation of a German club station under CEPT Recommendation T/R 61-01 permitted in a country that applies this recommendation?",
+      "answer_a": "No, operating a club station requires an application for a guest licence.",
+      "answer_b": "Yes, but only if the club station is not operated at a fixed location abroad.",
+      "answer_c": "Yes, operating a club station is permitted if the planned location abroad has been notified beforehand to the competent regional office of the Federal Network Agency (BNetzA).",
+      "answer_d": "No, because there are no club stations in the other CEPT countries."
+    },
+    "VB113": {
+      "question": "What must a radio amateur do to operate an amateur station in a country that does not apply the CEPT recommendation?",
+      "answer_a": "Apply for a guest licence to the competent authority of that country.",
+      "answer_b": "Obtain a special permit from the Federal Network Agency (BNetzA).",
+      "answer_c": "Nothing, if the host country applies the IARU recommendations.",
+      "answer_d": "Nothing, since temporary operation is permitted under reciprocal agreements."
+    },
+    "VB112": {
+      "question": "May a radio amateur with a German amateur radio licence also operate on the 6 m band abroad?",
+      "answer_a": "The radio amateur must comply with the provisions of the host country within the scope of the CEPT radio amateur licence.",
+      "answer_b": "The permission to operate on the 6 m band must be shown in the amateur radio licence.",
+      "answer_c": "To do so, the radio amateur must apply for a CEPT radio amateur licence in the host country.",
+      "answer_d": "Operation on the 6 m band is not permitted abroad."
+    },
+    "VB111": {
+      "question": "Which provisions must be observed when operating an amateur station abroad if the country visited has implemented CEPT Recommendations T/R 61-01 and (05)06?",
+      "answer_a": "The applicable CEPT recommendation and the provisions and conditions in force in the host country. Transmitter power, for example, must be adapted to the provisions of the host country.",
+      "answer_b": "The provisions of the host country, but only if the radio amateur is staying there permanently. Stations operated as mobile stations (e.g. when passing through) can be used as in Germany.",
+      "answer_c": "The applicable CEPT recommendation and the provisions and conditions in force in the home country. Transmitter power, for example, need not be adapted to the provisions of the host country.",
+      "answer_d": "In countries of the European Union (EU) the same laws apply as in Germany. Outside the EU, the national laws of each country must be observed."
+    },
+    "VB110": {
+      "question": "How must a radio amateur from a country that applies CEPT Recommendation T/R 61-01 or ECC Recommendation (05)06 supplement the home call sign when operating an amateur station in Germany? Depending on the radio amateur's class, ...",
+      "answer_a": "DL/ or DO/ is prefixed.",
+      "answer_b": "/DL or /DO is appended.",
+      "answer_c": "DE/ or DP/ is prefixed.",
+      "answer_d": "/DE or /DP is appended."
+    },
+    "VB109": {
+      "question": "For how long per stay may a radio amateur carry out temporary amateur radio operation abroad if the CEPT arrangement applies?",
+      "answer_a": "Up to 3 months",
+      "answer_b": "Up to 9 months",
+      "answer_c": "Up to 6 months",
+      "answer_d": "Up to one year"
+    },
+    "VB108": {
+      "question": "May a radio amateur with a German Class A or E authorisation to participate in the amateur service also operate in non-CEPT countries on the basis of CEPT Recommendation T/R 61-01 or ECC (05)06?",
+      "answer_a": "Yes, if these countries apply the relevant CEPT recommendation.",
+      "answer_b": "Yes, worldwide, since the ITU has declared the CEPT recommendations to be generally applicable.",
+      "answer_c": "No, the application of the CEPT recommendations is reserved for members of the CEPT.",
+      "answer_d": "No, the German amateur radio licence is restricted to members of the CEPT."
+    },
+    "VB107": {
+      "question": "May a German radio amateur with a Class A amateur radio licence operate in all CEPT countries?",
+      "answer_a": "No, only in the countries that have implemented Recommendation T/R 61-01, provided the radio amateur has no permanent residence there.",
+      "answer_b": "Yes, all CEPT member countries must apply Recommendation T/R 61-01.",
+      "answer_c": "No, CEPT Recommendation T/R 61-01 may be applied only in the member states of the European Union.",
+      "answer_d": "Yes, but the amateur radio rules of the home country must be followed."
+    },
+    "VB106": {
+      "question": "May a radio amateur with a \"CEPT Novice Radio Amateur Licence\" operate in all CEPT countries?",
+      "answer_a": "No, only in countries that have implemented ECC Recommendation (05)06, provided the radio amateur has no permanent residence there.",
+      "answer_b": "Yes, all CEPT member countries must apply ECC Recommendation (05)06.",
+      "answer_c": "No, ECC Recommendation (05)06 may be applied only in the member states of the European Union.",
+      "answer_d": "Yes, but the amateur radio rules of the home country must be followed."
+    },
+    "VB105": {
+      "question": "May a radio amateur with a Class N amateur radio licence operate in all CEPT countries?",
+      "answer_a": "No, licence class N is valid only in Germany.",
+      "answer_b": "No, licence class N is valid only within the European Union.",
+      "answer_c": "Yes, operation in all CEPT countries is permitted if the radio amateur complies with the provisions of the home country.",
+      "answer_d": "Yes, operation in all CEPT countries is permitted if the radio amateur complies with the provisions of the host country."
+    },
+    "VB104": {
+      "question": "What significance do CEPT Recommendations T/R 61-01 and T/R 61-02, ERC Report 32 and ECC Recommendation (05)06 have for amateur radio? They form the basis for ...",
+      "answer_a": "temporary amateur radio operation and the mutual recognition of amateur radio certificates in the implementing countries.",
+      "answer_b": "radio communication between the implementing countries and the harmonisation of national frequency allocations for the amateur service.",
+      "answer_c": "amateur radio communication in the implementing countries and the worldwide recognition of amateur radio certificates.",
+      "answer_d": "the cross-border movement of amateur radio equipment in the European Union and other implementing countries."
+    },
+    "VB103": {
+      "question": "What is a HAREC certificate? The document ...",
+      "answer_a": "certifies that a Class A examination has been passed in accordance with CEPT Recommendation T/R 61-02. With it, a radio amateur can obtain an amateur radio licence in the participating countries.",
+      "answer_b": "entitles the radio amateur to carry out temporary amateur radio operation under CEPT Recommendation T/R 61-01.",
+      "answer_c": "certifies that a Class E examination has been passed in accordance with ECC (05)06. With it, a radio amateur can obtain an amateur radio licence in the participating countries.",
+      "answer_d": "is issued to radio amateurs who have passed the voluntary Morse test."
+    }
+  }
+}

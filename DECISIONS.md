@@ -174,6 +174,41 @@ and the checker's "Provjera" section).
   (BB110). A bracket that adds information stays, e.g. EH202 "Fluctuations
   in field strength (fading)", where the bracket gives the technical term.
   (Batch 08; examples corrected by the checker.)
+- **Call sign suffixes in answers stay as the German writes them.** Wrong
+  answers such as "DL1PZ/Ausbildung" (BD209) or "/RB or /Remotebetrieb",
+  "/FB or /Fernbedient", "/F or /Fern" (BD208) are strings that would be
+  transmitted as part of a call sign, and call signs are not translated;
+  beside the correct "/Trainee" and "/Remote" they test, as in German,
+  whether a German word may be used. An English "/Training" would test the
+  difference between two English words instead. (Batch 09.)
+- **RR provisions in the RR's own English wording.** Where the German
+  paraphrases a provision of the Radio Regulations, the correct answer uses
+  the RR's English wording, as for Q codes: RR 1.56 "duly authorised
+  persons interested in radio technique solely with a personal aim and
+  without pecuniary interest", "self-training, intercommunication and
+  technical investigations" (VA102, VA104); RR 1.61 "accessory equipment
+  necessary at one location" (VA201); RR 1.96 "a station in the amateur
+  service" (VA202); RR 25.2 "communications incidental to the purpose of
+  the amateur service as defined and … remarks of a personal character"
+  (VA302); RR 25.2A "encoded for the purpose of obscuring … meaning",
+  "earth command stations" (VA303). A distractor that sounds like the RR
+  gets the same treatment (VA104 d, the older RR 25.2 "recourse to the
+  public telecommunications service is not justified"); everything else is
+  translated faithfully. Spelling stays *-ise*, as these are not direct
+  quotations. German statutes have no official English text and are
+  translated faithfully. (Batch 09.)
+- **Band names beside the English abbreviation** (BC101–BC106: "Very High
+  Frequency (VHF) oder Ultrakurzwelle (UKW)"): the German name is replaced
+  by the English common name of the same band, from the ITU nomenclature
+  (Rec. ITU-R V.431, metric / decimetric waves): "Very High Frequency
+  (VHF) or metre waves", "Ultra High Frequency (UHF) or decimetre waves",
+  "Medium Frequency (MF) or medium wave (MW)". "High Frequency (HF), Short
+  Wave (SW) oder Kurzwelle (KW)" becomes "High Frequency (HF) or short
+  wave (SW)": *Kurzwelle (KW)* only repeats *Short Wave (SW)* in German
+  (bracket rule above). A literal "ultra-short wave" is not an English
+  band name, and keeping *Ultrakurzwelle (UKW)* would give an English
+  reader a German label where the German reader has a familiar one.
+  (Batch 09.)
 
 ## Open questions for DARC
 

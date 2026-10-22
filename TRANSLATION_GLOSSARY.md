@@ -130,6 +130,21 @@ real choice or a trap.
 | umsetzen (eine Empfehlung) | implement (a recommendation) | |
 | IARU (International Amateur Radio Union) | IARU (International Amateur Radio Union) | |
 | Intruder Monitoring (IARU-Monitoring-System) | Intruder Watch / IARU Monitoring System | |
+| Sendearten (RR) | classes of emission | RR term (VA301) |
+| Landeskennerliste der ITU | the ITU's list of country prefixes | BD301 |
+| Gastlizenz | guest licence | as *Gastgenehmigung* (VA401) |
+| CEPT-Regelung | CEPT arrangement | VB109 |
+| Mitgliedsländer (der CEPT) / Mitgliedsstaaten (der EU) | (CEPT) member countries / member states (of the EU) | VB106, VB107 |
+| umsetzende Länder / beteiligte Länder | implementing countries / participating countries | VB103, VB104 |
+| Gegenseitigkeitsabkommen | reciprocal agreements | VB113 |
+| Harmonisierung (der Frequenzzuweisungen) | harmonisation (of frequency allocations) | VB104 |
+| ETSI (European Telecommunications Standards Institute) | ETSI (European Telecommunications Standards Institute) | VA101, VA407 |
+| Internationale Organisation für Normung (ISO) | International Organization for Standardization (ISO) | proper name, spelt with *-z-* |
+| Not- und Katastrophenfunkübungen | emergency and disaster communication exercises | VA302 |
+| Bodenkontrollstationen auf der Erde | earth command stations | VA303; "auf der Erde" is already in the English term (RR 25.2A) |
+| Mitteilungen im Zusammenhang mit dem definitionsgemäßen Zweck des Amateurfunkdienstes | communications incidental to the purpose of the amateur service as defined | RR 25.2 wording (VA302) |
+| Mitteilungen von geringer Bedeutung, die es nicht rechtfertigen, öffentliche Telekommunikationsdienste in Anspruch zu nehmen | messages of minor importance, for which recourse to public telecommunications services is not justified | older RR 25.2 wording, distractor VA104 |
+| sich für Funktechnik interessieren | interested in radio technique | RR 1.56 wording (VA104) |
 
 ### 1.2 German law, bodies and documents
 
@@ -143,6 +158,9 @@ real choice or a trap.
 | Prüf- und Messdienst (der BNetzA) | (BNetzA) inspection and measurement service | EK209 |
 | Hauptzollamt | main customs office | NJ102 |
 | Kraftfahrt-Bundesamt | Federal Motor Transport Authority (Kraftfahrt-Bundesamt) | NK308 |
+| Frequenzbereichszuweisungsplan (der Bundesrepublik Deutschland) | Frequency Band Allocation Plan (of the Federal Republic of Germany) | BD301 |
+| Angehörige der Gaststreitkräfte | members of the visiting forces | foreign armed forces stationed in Germany; *visiting forces* is the English legal term (BD101, BD107, BD108) |
+| Fernmeldedienst | telecommunications service | BE116 |
 | Runder Tisch Amateurfunk (RTA) / EMV-Beauftragter des RTA | RTA / the RTA's EMC officer | the German amateur radio associations' round table; in exam questions "RTA" alone, as the German (AJ116) |
 | Behörde | authority | |
 | Amateurfunkgesetz (AFuG) | Amateur Radio Act (Amateurfunkgesetz, AFuG) | |
@@ -327,6 +345,20 @@ real choice or a trap.
 | Sondergenehmigung | special permit | |
 | Ausnahmen | exceptions | |
 | Rahmenbedingungen | (general) conditions; framework | |
+| Kurzzeitzuteilung | short-term assignment | of a call sign (BD102) |
+| Versuchsfunkstelle | experimental radio station | BD102 |
+| exterritorial / exterritorialer Standort | extraterritorial / extraterritorial location | BD107, BD108; cf. *exterritoriale Station* (§14) |
+| Rufzeichennennung | giving the call sign | "Wie muss die Rufzeichennennung von DL9MJ … erfolgen?" → "How must the call sign of DL9MJ be given …?" (BD213, BD214) |
+| Kennung | identifier | BD109 |
+| zwei- oder dreistelliges Suffix | two- or three-letter suffix | BD104, BD106, BE306 |
+| Kurzwellenhörer | short-wave listener | BD105 |
+| Rufzeichenzusätze in Antworten (/Ausbildung, /Remotebetrieb, /Fernbedient, /Fern) | unchanged | strings added to a call sign, kept as the German writes them, like the call sign itself (BD208, BD209; DECISIONS.md) |
+| gemeldeter Standort | notified location | BD207 |
+| Landfahrzeug | land vehicle | BD203, BD206 |
+| Binnengewässer | inland waters | BD204, BD205 |
+| See- und Binnenschifffahrtsfunk | maritime and inland waterway radio service | BD205 |
+| angeordnete Logbuchführung | (where) keeping a log has been ordered | BG102, BG103 |
+| Zulassungsklasse N | licence class N | VB105 |
 
 ### 1.4 EMF exposure (EMVU / BEMFV)
 
@@ -427,7 +459,7 @@ real choice or a trap.
 | Listenbetrieb | list operation | |
 | DX / DX-Pedition | DX / DXpedition | |
 | DX-Cluster | DX cluster | |
-| Fuchsjagd / ARDF | direction finding (ARDF); foxhunt | RSGB: *ARDF* or *DF hunt*; use "foxhunt" only in informal course text |
+| Fuchsjagd / ARDF | direction finding (ARDF); foxhunt | RSGB: *ARDF* or *DF hunt*; use "foxhunt" only in informal course text and where the German quotes the colloquial word itself ("Was verstehen Funkamateure unter einer "Fuchsjagd" (ARDF …)?", BE313) |
 | Fuchs | fox; hidden transmitter | |
 | Relaisfunkstelle / Relais / Repeater | repeater | |
 | Ablage / Frequenzablage | (repeater) shift; offset | |
@@ -450,6 +482,50 @@ real choice or a trap.
 | Logbuch / Stationstagebuch | log / station log | "Stationstagebuch und QSL-Karten" → "Station log and QSL cards" |
 | Hörerkennzeichen / SWL | short-wave listener identifier / SWL | |
 | Diplom | award | operating awards, not diplomas |
+| Bandanfang / Bandende / Bandmitte | bottom of the band / top of the band / middle of the band | BC204 |
+| Europaverkehr | contacts within Europe | BC202, BC203 |
+| Nachbarort | neighbouring town | BC214–BC222 |
+| Schmalband-FM (Narrow FM) | narrowband FM | the bracket only repeats the English and is dropped (BC216, BE407) |
+| schmalbandige digitale Übertragungsverfahren | narrowband digital modes | IARU band plan (BC214, BC219–BC222) |
+| Gebetempo / Einheitstempo | sending speed / standard speed | Morse (BE117, BE118); WPM, CPM unchanged |
+| Fieldday-Contest | Field Day contest | BE116 |
+| Full-Duplex-Betrieb | full-duplex operation | BE116 |
+| Aufruf weiterer Stationen | inviting further stations to call | QRZ? in pile-ups (BE115) |
+| Standortkenner | grid locator | the English alternative name of the Maidenhead locator (BE111) |
+| Kurzformel (RST) | short code | BE201 |
+| Empfangsrapport | reception report | BE207–BE209 |
+| Anzeigeinstrument / Zeigerausschlag | meter / needle deflection | BE204–BE206 |
+| Tonhöhe / Signalqualität | pitch / signal quality | distractors beside *Tonqualität* → tone (BE203) |
+| Funkpeilwettbewerb / Peilempfänger / Kleinsender | radio direction-finding competition / direction-finding receiver / small transmitter | BE313 |
+| Peilzwecke | direction-finding purposes | BD109 |
+| Aktivitätswoche | activity week | BE312 |
+| begehrte Station / seltene Station | sought-after station / rare station | BE306, BE307, BE309 |
+| Split-Verkehr | split operation | as *Split-Betrieb* (BE308) |
+| Sprint-Contest | sprint contest | BE304 |
+| Wertung (Contest) / gewertet werden | score / count | BE303, BE304 |
+| Amateurfunkzeitschriften | amateur radio magazines | BE307 |
+| Auftastton | tone burst | 1750 Hz (BE101, BE404) |
+| Tonruf | tone call | BE401 |
+| Sendezeitbegrenzer | time-out timer | BE405 |
+| Sprachspeicher (Relaisfunkstelle) | voice memory | BE406 |
+| ordentliche Übergabe | proper handover | BE405 |
+| sich hereinmelden (in eine Funkrunde) | join (a net) | BE404 |
+| Mobil- und Portabelstationen | mobile and portable stations | BE406 |
+| Internationales Bakenprojekt (IBP) | International Beacon Project (IBP) | BE410 |
+| Bakensender | beacon transmitter | BE416 |
+| Umsetzer (an Bord eines Satelliten) | converter | BE416, as §8 *Umsetzer* |
+| Zeitzeichen- und Normalfrequenzaussendungen | standard-frequency and time-signal transmissions | RR term order (BE410) |
+| Aktivitätszentrum für Notfunkverkehr | centre of activity for emergency communications | IARU (BF109) |
+| Notfunkmeldung | emergency message | BF108; *Notmeldung* stays *distress message* |
+| Hilfeleistungsorganisation / Rettungsorganisation | relief organisation / rescue organisation | BF106, BF108 |
+| Ersthelfer / Unfallstelle | first-aider / scene of the accident | BF103 |
+| Mobiltelefonnetz | mobile phone network | BF103 |
+| Notzeichen | distress signals | BF101, BF103; German "Mayday" → MAYDAY, as §13 |
+| Logbuch-Upload / elektronische QSL-Karte | log upload / electronic QSL card | BG111 |
+| Papierlogbuch / Computer-Logbuch / Logbuchsoftware | paper log / computer log / logging software | BG102, BG103 |
+| Funkwetter | propagation conditions | BG105 |
+| Amateurfunkrunde | amateur radio net | BG104 |
+| ortsgebundene Funkwettbewerbe | fixed-location radio contests | BG104 |
 | Uhrzeit / Zeitpunkt | time | |
 | Ortsdatum / Ortszeit | local date / local time | |
 | koordinierte Weltzeit (UTC) | Coordinated Universal Time (UTC) | |
@@ -475,6 +551,11 @@ real choice or a trap.
 | Niederlande / Belgien | the Netherlands / Belgium | |
 | Dänemark / Schweden / Polen / Spanien | Denmark / Sweden / Poland / Spain | |
 | Kanada / Australien / Brasilien | Canada / Australia / Brazil | |
+| Vereinigte Staaten von Amerika (USA) | United States of America (USA); the USA | |
+| Frankreich / Italien / Luxemburg / Finnland / Schottland / Israel | France / Italy / Luxembourg / Finland / Scotland / Israel | |
+| Slowakei / Slowenien / Tschechien | Slovakia / Slovenia / the Czech Republic | |
+| China / Japan / Indien / Südkorea / Taiwan | China / Japan / India / South Korea / Taiwan | |
+| Neuseeland / Argentinien | New Zealand / Argentina | |
 | Ausland / im Ausland | abroad | |
 
 ## 3. Electrical basics, quantities and mathematics
@@ -1260,6 +1341,7 @@ real choice or a trap.
 | Kurzwellenbereich / Kurzwellenbänder | HF range / HF bands | |
 | Mittelwelle / Langwelle | medium wave (MF) / long wave (LF) | |
 | Ultrakurzwelle (UKW) | very high frequency (VHF) | in broadcast context "UKW-Rundfunk" → "FM broadcast (VHF)" |
+| Bereichsnamen neben VHF / UHF / HF / MF: Ultrakurzwelle (UKW) / Dezimeterwelle / Kurzwelle (KW) / Mittelwelle (MW) | metre waves / decimetre waves / short wave (SW) / medium wave (MW) | where the German gives the English name and the German name side by side (BC101–BC106): "Very High Frequency (VHF) or metre waves", "Ultra High Frequency (UHF) or decimetre waves" (ITU-R V.431 metric / decimetric waves); "High Frequency (HF), Short Wave (SW) oder Kurzwelle (KW)" → "High Frequency (HF) or short wave (SW)" (DECISIONS.md) |
 | Dezimeterwelle (UHF) | decimetre wave (UHF) | |
 | Mikrowellen | microwaves | |
 | oberhalb 30 MHz | above 30 MHz | |
