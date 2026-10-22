@@ -26,6 +26,9 @@ grep: no hits. The missing final newline of both files is as in the German.
 - *zur globalen Verständigung* → "to global understanding"; *mit
   Kurzwelle … Satellitenfunk … Internet der Dinge* → "from classic short
   wave through satellite communication to the Internet of Things".
+- *Weiterbildung* → "further education" (glossary §1.3, as in the AFuG
+  definition, amateurfunkdienst). (Checker: the first draft had "further
+  training".)
 - Closing line as in swl_vorwort: "vy 73 (best regards) and 55 (every
   success) from".
 
