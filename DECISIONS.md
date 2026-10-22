@@ -90,6 +90,27 @@ and the checker's "Provjera" section).
   Filter* → "balanced filter", beside "balanced mixer"), as for feeders; only
   the attenuator, where it means equal input and output impedance, is
   *symmetrical* (batch 04). (Batch 05.)
+- ***Verkürzungsfaktor* of an antenna → shortening factor** in exam
+  questions (AG101–AG105, EG202), the glossary's bracketed form rather than
+  "end-effect correction factor": it is what the German says, and the
+  questions only multiply by it. For cables it stays the **velocity factor**.
+  (Batch 06.)
+- **No echo the German does not have.** Where the glossary would give a stem
+  term and the correct answer the same English word although the German uses
+  two different ones, the stem takes a faithful alternative, so the correct
+  answer is not given away: AG425 *Mantelwellen* → "sheath currents" (answer
+  "common-mode components"), AG426 *stromkompensierte Drossel* →
+  "current-compensated choke" (same answer), EG201 *Verkürzungsfaktor* →
+  "shortening factor" (the answer defines the velocity factor). Same reasoning
+  as the checker's AF227 fix in batch 04. (Batch 06.)
+- ***Mantelstrom* → sheath current** (EG404, AG428), the current on the
+  outside of the braid; *Mantelwellen* stays *common-mode currents*. (Batch 06.)
+- ***Eingangswiderstand* / *Fußpunktwiderstand* of an antenna → input /
+  feed-point impedance**, not *resistance*: off resonance it is reactive, and
+  the German itself calls it "rein kapazitiver Eingangswiderstand" (AG207,
+  AG209). (Batch 06.)
+- ***Cinch* → RCA (phono)**: a German trade name that English readers do not
+  know for that connector (NG206). (Batch 06.)
 
 ## Open questions for DARC
 

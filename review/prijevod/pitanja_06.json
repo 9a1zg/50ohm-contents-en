@@ -1,0 +1,1223 @@
+{"pitanja": {
+"AG101": {
+ "question": "A $\\lambda$/2 dipole antenna for 14.2 MHz is to be made from wire. A shortening factor of 0.95 is to be used in the calculation. How long must each of the two wires of the dipole antenna be?",
+ "answer_a": "5.02 m each",
+ "answer_b": "10.56 m each",
+ "answer_c": "10.03 m each",
+ "answer_d": "5.28 m each"
+},
+"AG102": {
+ "question": "A $\\lambda$/2 dipole antenna for 7.1 MHz is to be made from wire. How long must each of the two wires of the dipole antenna be? A shortening factor of 0.95 is to be used in the calculation.",
+ "answer_a": "10.04 m each",
+ "answer_b": "10.56 m each",
+ "answer_c": "20.07 m each",
+ "answer_d": "21.13 m each"
+},
+"AG103": {
+ "question": "A wire dipole has a total length of 20 m. At what frequency is the dipole resonant if a shortening factor of 0.95 is used in the calculation?",
+ "answer_a": "7.125 MHz",
+ "answer_b": "6.768 MHz",
+ "answer_c": "7.500 MHz",
+ "answer_d": "7.000 MHz"
+},
+"AG104": {
+ "question": "A $\\lambda$/4 ground-plane antenna with four radials for 7.1 MHz is to be made from wire. A shortening factor of 0.95 can be used for the radiating element and the radials. How long must the radiating element and each of the radials be?",
+ "answer_a": "Radiating element: 10.04 m, radials: 10.04 m each",
+ "answer_b": "Radiating element: 21.13 m, radials: 21.13 m each",
+ "answer_c": "Radiating element: 10.56 m, radials: 10.56 m each",
+ "answer_d": "Radiating element: 20.06 m, radials: 20.06 m each"
+},
+"AG105": {
+ "question": "A 5/8-$\\lambda$ vertical antenna for 14.2 MHz is to be made from wire. A shortening factor of 0.97 is to be used in the calculation. How long must the wire be in total?",
+ "answer_a": "12.80 m",
+ "answer_b": "13.20 m",
+ "answer_c": "10.03 m",
+ "answer_d": "13.61 m"
+},
+"AG106": {
+ "question": "What is the purpose of the coil in this antenna?",
+ "answer_a": "Electrical lengthening of the radiator",
+ "answer_b": "Electrical shortening of the radiator",
+ "answer_c": "Increasing the velocity of propagation",
+ "answer_d": "Reducing the velocity of propagation"
+},
+"AG107": {
+ "question": "What is the purpose of the capacitor in this antenna?",
+ "answer_a": "Electrical shortening of the radiator",
+ "answer_b": "Electrical lengthening of the radiator",
+ "answer_c": "Increasing the velocity of propagation",
+ "answer_d": "Reducing the velocity of propagation"
+},
+"AG108": {
+ "question": "What should be inserted into each leg of a balanced dipole antenna with two legs of 15 m each so that the antenna becomes resonant around 3.6 MHz?",
+ "answer_a": "A coil",
+ "answer_b": "A parallel tuned circuit with a resonant frequency of 3.6 MHz",
+ "answer_c": "A capacitor",
+ "answer_d": "An RC network"
+},
+"AG109": {
+ "question": "What type of antenna is shown here?",
+ "answer_a": "Trap dipole",
+ "answer_b": "Single-band dipole with harmonic filter",
+ "answer_c": "Dipole with common-wave filter",
+ "answer_d": "Acceptor-circuit dipole"
+},
+"AG110": {
+ "question": "A parallel resonant circuit (trap) in each half of a dipole ...",
+ "answer_a": "allows the antenna to be used on at least two frequency bands.",
+ "answer_b": "makes more efficient use of the band concerned.",
+ "answer_c": "restricts the use of the antenna to one frequency band.",
+ "answer_d": "makes it possible to suppress the harmonics."
+},
+"AG111": {
+ "question": "If this multiband antenna is fed at 3.5 MHz, the LC resonant circuits act ...",
+ "answer_a": "as an inductive lengthening of the radiator.",
+ "answer_b": "as traps for the feed frequency.",
+ "answer_c": "as a capacitive shortening of the radiator.",
+ "answer_d": "as an increase in the radiation resistance of the antenna."
+},
+"AG112": {
+ "question": "If this multiband antenna is fed at 7 MHz, the LC resonant circuits act ...",
+ "answer_a": "as traps for the feed frequency.",
+ "answer_b": "as an inductive lengthening of the radiator.",
+ "answer_c": "as a capacitive shortening of the radiator.",
+ "answer_d": "as an increase in the radiation resistance of the antenna."
+},
+"AG113": {
+ "question": "If this multiband antenna is fed at 14 MHz, the LC resonant circuits act ...",
+ "answer_a": "as a capacitive shortening of the radiator.",
+ "answer_b": "as traps for the feed frequency.",
+ "answer_c": "as an inductive lengthening of the radiator.",
+ "answer_d": "as an increase in the radiation resistance of the antenna."
+},
+"AG114": {
+ "question": "The following picture shows a three-band dipole for the 20, 15 and 10 m bands. The tuned circuits marked a are tuned to:",
+ "answer_a": "21.2 MHz",
+ "answer_b": "10.1 MHz",
+ "answer_c": "14.2 MHz",
+ "answer_d": "29.0 MHz"
+},
+"AG115": {
+ "question": "The following picture shows a three-band dipole for the 20, 15 and 10 m bands. The tuned circuits marked b are tuned to:",
+ "answer_a": "29.0 MHz",
+ "answer_b": "10.1 MHz",
+ "answer_c": "14.2 MHz",
+ "answer_d": "21.2 MHz"
+},
+"AG201": {
+ "question": "Which polarisation is mostly used for transmitting on the HF bands?",
+ "answer_a": "Mostly horizontal or vertical polarisation is used.",
+ "answer_b": "Mostly horizontal or circular polarisation is used.",
+ "answer_c": "Mostly vertical or circular polarisation is used.",
+ "answer_d": "Only horizontal polarisation is used."
+},
+"AG202": {
+ "question": "Why must an antenna be physically somewhat shorter than the theoretically calculated value?",
+ "answer_a": "Because the antenna is not in ideal free space and because it is not infinitely thin. Capacitive effects of the surroundings and the diameter of the radiator lengthen the antenna electrically.",
+ "answer_b": "Because the antenna is not in ideal free space and because the antenna elements do not have the ideal shape of the spherical (isotropic) radiator. Capacitive effects of the surroundings and the deviation from the ideal spherical shape lengthen the antenna electrically.",
+ "answer_c": "Because the physical shortening makes it easier for the electromagnetic waves to detach from the antenna. This increases the efficiency.",
+ "answer_d": "Because the physical shortening reduces the loss resistance of an antenna rod. This increases the efficiency."
+},
+"AG203": {
+ "question": "The following picture shows the current distributions a to d on a dipole that can be fed at various resonant frequencies. For which feed frequency does current curve a apply?",
+ "answer_a": "It applies when the dipole is fed at 28 MHz.",
+ "answer_b": "It applies when the dipole is fed at 14 MHz.",
+ "answer_c": "It applies when the dipole is fed at 7 MHz.",
+ "answer_d": "It applies when the dipole is fed at 3.5 MHz."
+},
+"AG204": {
+ "question": "The following picture shows the current distributions a to d on a dipole that can be fed at various resonant frequencies. For which feed frequency does current curve b apply?",
+ "answer_a": "It applies when the dipole is fed at 14 MHz.",
+ "answer_b": "It applies when the dipole is fed at 28 MHz.",
+ "answer_c": "It applies when the dipole is fed at 7 MHz.",
+ "answer_d": "It applies when the dipole is fed at 3.5 MHz."
+},
+"AG205": {
+ "question": "The following picture shows the current distributions a to d on a dipole that can be fed at various resonant frequencies. For which feed frequency does current curve c apply?",
+ "answer_a": "It applies when the dipole is fed at 7 MHz.",
+ "answer_b": "It applies when the dipole is fed at 28 MHz.",
+ "answer_c": "It applies when the dipole is fed at 14 MHz.",
+ "answer_d": "It applies when the dipole is fed at 3.5 MHz."
+},
+"AG206": {
+ "question": "The following picture shows the current distributions a to d on a dipole that can be fed at various resonant frequencies. For which feed frequency does current curve d apply?",
+ "answer_a": "It applies when the dipole is fed at 3.5 MHz.",
+ "answer_b": "It applies when the dipole is fed at 28 MHz.",
+ "answer_c": "It applies when the dipole is fed at 7 MHz.",
+ "answer_d": "It applies when the dipole is fed at 14 MHz."
+},
+"AG207": {
+ "question": "At its fundamental frequency and at odd multiples of it, a centre-fed $\\lambda$/2 dipole is ...",
+ "answer_a": "current-fed, series-resonant and of low impedance at the input.",
+ "answer_b": "voltage-fed, parallel-resonant and of high impedance at the input.",
+ "answer_c": "current- and voltage-fed and has a purely capacitive input impedance.",
+ "answer_d": "current- and voltage-fed and has a purely inductive input impedance."
+},
+"AG208": {
+ "question": "At even multiples of its fundamental frequency, a centre-fed $\\lambda$/2 dipole is ...",
+ "answer_a": "voltage-fed, parallel-resonant and of high impedance at the input.",
+ "answer_b": "current-fed, series-resonant and of low impedance at the input.",
+ "answer_c": "current- and voltage-fed and has a purely capacitive input impedance.",
+ "answer_d": "current- and voltage-fed and has a purely inductive input impedance."
+},
+"AG209": {
+ "question": "At its resonant frequencies, the feed-point impedance of a centre-fed $\\lambda$/2 dipole appears ...",
+ "answer_a": "essentially as a resistance.",
+ "answer_b": "essentially as a capacitive reactance.",
+ "answer_c": "essentially as an inductive reactance.",
+ "answer_d": "alternately as a capacitive or an inductive reactance."
+},
+"AG210": {
+ "question": "What is the feed-point impedance of a $\\lambda$/2 dipole below and above its fundamental frequency?",
+ "answer_a": "Below the fundamental frequency the impedance is capacitive, above it inductive.",
+ "answer_b": "Below the fundamental frequency the impedance is inductive, above it capacitive.",
+ "answer_c": "Below the fundamental frequency the impedance is lower, above it higher.",
+ "answer_d": "Below the fundamental frequency the impedance is higher, above it lower."
+},
+"AG211": {
+ "question": "What is the input or feed-point impedance of a $\\lambda$/2 dipole at a height of about one wavelength above ground, at its fundamental frequency?",
+ "answer_a": "Approx. 65 to 75 Ω",
+ "answer_b": "Approx. 30 Ω",
+ "answer_c": "Approx. 120 Ω",
+ "answer_d": "Approx. 240 to 300 Ω"
+},
+"AG212": {
+ "question": "The impedance of the radiator of an HF beam also depends on ...",
+ "answer_a": "the spacing between the reflector, the radiator and the directors.",
+ "answer_b": "the radiation resistance of the reflector.",
+ "answer_c": "the resistance of the feed cable.",
+ "answer_d": "the propagation conditions."
+},
+"AG213": {
+ "question": "The following picture shows the radiation patterns of a dipole and a directional antenna. The gain of the directional antenna over the dipole is defined as the ratio ...",
+ "answer_a": "of $P_{\\textrm{V}}$ to $P_{\\textrm{D}}$.",
+ "answer_b": "of $P_{\\textrm{D}}$ to $P_{\\textrm{R}}$.",
+ "answer_c": "of $P_{\\textrm{V}}$ to $P_{\\textrm{R}}$.",
+ "answer_d": "of $0.7 \\cdot P_{\\textrm{V}}$ to $0.7 \\cdot P_{\\textrm{R}}$."
+},
+"AG214": {
+ "question": "The following picture shows the radiation patterns of a dipole and a directional antenna. The front-to-back ratio of the directional antenna is defined as the ratio ...",
+ "answer_a": "of $P_{\\textrm{V}}$ to $P_{\\textrm{R}}$.",
+ "answer_b": "of $P_{\\textrm{D}}$ to $P_{\\textrm{R}}$.",
+ "answer_c": "of $P_{\\textrm{V}}$ to $P_{\\textrm{D}}$.",
+ "answer_d": "of $0.7 \\cdot P_{\\textrm{V}}$ to $0.7 \\cdot P_{\\textrm{D}}$."
+},
+"AG215": {
+ "question": "A directional antenna with a gain of 10 dB over the half-wave dipole and a front-to-back ratio of 20 dB is fed directly with 100 W of transmitter power. What ERP does the antenna radiate in the opposite direction to the beam?",
+ "answer_a": "10 W",
+ "answer_b": "100 W",
+ "answer_c": "0.1 W",
+ "answer_d": "1 W"
+},
+"AG216": {
+ "question": "A directional antenna with a gain of 15 dB over the half-wave dipole and a front-to-back ratio of 25 dB is fed directly with 6 W of transmitter power. What ERP does the antenna radiate in the opposite direction to the beam?",
+ "answer_a": "0.6 W",
+ "answer_b": "0.019 W",
+ "answer_c": "0.19 W",
+ "answer_d": "60 W"
+},
+"AG217": {
+ "question": "For a Yagi-Uda antenna with the following radiation pattern, the ERP is 0.6 W in direction a and 15 W in direction b. What is the front-to-back ratio of the antenna?",
+ "answer_a": "14 dB",
+ "answer_b": "27.9 dB",
+ "answer_c": "2.8 dB",
+ "answer_d": "25 dB"
+},
+"AG218": {
+ "question": "Comparative measurements between a beam and a dipole were made with a field-strength meter. The following field strengths were measured at a distance of 32 m: beam forwards: 300 μV/m, beam backwards: 20 μV/m, half-wave dipole in the direction of maximum radiation: 128 μV/m. What gain and what front-to-back ratio does this give for the beam?",
+ "answer_a": "Gain: 7.4 dBd, front-to-back ratio: 23.5 dB",
+ "answer_b": "Gain: 3.7 dBd, front-to-back ratio: 11.7 dB",
+ "answer_c": "Gain: 9.4 dBd, front-to-back ratio: 23.5 dB",
+ "answer_d": "Gain: 7.4 dBd, front-to-back ratio: 15 dB"
+},
+"AG219": {
+ "question": "The half-power beamwidth of an antenna is the angular range within which ...",
+ "answer_a": "the field strength falls to no less than 0.707 times the maximum field strength.",
+ "answer_b": "the field strength falls to no less than half the maximum field strength.",
+ "answer_c": "the power density falls to no less than $\\dfrac{1}{\\sqrt{2}}$ times the maximum power density.",
+ "answer_d": "the radiated power falls to no less than $\\dfrac{1}{\\sqrt{2}}$ times the maximum power."
+},
+"AG220": {
+ "question": "In the following radiation pattern, points a to d are marked on the scale of relative field strength $\\frac{E}{{E}_{\\textrm{max}}}$. Through which of the points a to d do you draw the circular arc so that the half-power beamwidth of the antenna can be read off where the circle intersects the main lobe?",
+ "answer_a": "Through point c.",
+ "answer_b": "Through point b.",
+ "answer_c": "Through point d.",
+ "answer_d": "Through point a."
+},
+"AG221": {
+ "question": "The following sketch shows the horizontal radiation pattern of the relative field strength of a Yagi-Uda antenna. What is the half-power beamwidth (beam angle) in this case?",
+ "answer_a": "About 55 °",
+ "answer_b": "About 34 °",
+ "answer_c": "About 69 °",
+ "answer_d": "About 27 °"
+},
+"AG222": {
+ "question": "How does a Yagi-Uda antenna with 11 elements differ from one with 3 elements? In the antenna with 11 elements ...",
+ "answer_a": "the beamwidth is reduced.",
+ "answer_b": "the beamwidth is increased.",
+ "answer_c": "the radiation resistance is increased.",
+ "answer_d": "the front-to-back ratio is reduced."
+},
+"AG223": {
+ "question": "At what length does a vertical antenna for the HF range achieve the lowest possible angle of radiation over ground of average conductivity?",
+ "answer_a": "5/8$ \\lambda$",
+ "answer_b": "$\\lambda$/4",
+ "answer_c": "$\\lambda$/2",
+ "answer_d": "3/4$ \\lambda$"
+},
+"AG224": {
+ "question": "What are the properties of an NVIS antenna (near vertical incidence skywave) installed at a low height and operated on HF?",
+ "answer_a": "By radiating almost vertically, it allows sky-wave propagation without a skip zone around the transmitting site.",
+ "answer_b": "By radiating at a low angle, it extends the range of the ground wave.",
+ "answer_c": "Its vertical radiation makes the D region disappear, so that daytime absorption above the transmitting site is cancelled locally.",
+ "answer_d": "Through its reflection from the nearby ground, it produces circularly polarised radiation that reduces fading."
+},
+"AG225": {
+ "question": "Which types of antenna are commonly used as feed antennas (feeds) in parabolic dishes for the microwave range?",
+ "answer_a": "Dipole, helix, horn antenna",
+ "answer_b": "Collinear, helix, isotropic radiator",
+ "answer_c": "Ground plane, horn antenna, ring dipole",
+ "answer_d": "Helix, horn antenna, trap dipole"
+},
+"AG226": {
+ "question": "What is the gain of a parabolic dish with a diameter of 30 cm and an efficiency of $\\eta_{\\textrm{eff}}$ = 1 at a working frequency of 5.7 GHz?",
+ "answer_a": "25.1 dBi",
+ "answer_b": "12.5 dBi",
+ "answer_c": "28.1 dBi",
+ "answer_d": "16.8 dBi"
+},
+"AG227": {
+ "question": "What is the gain of a parabolic dish with a diameter of 80 cm and an efficiency of $\\eta_{\\textrm{eff}}$ = 1 at a working frequency of 5.7 GHz?",
+ "answer_a": "33.6 dBi",
+ "answer_b": "16.8 dBi",
+ "answer_c": "36.4 dBi",
+ "answer_d": "21.8 dBi"
+},
+"AG228": {
+ "question": "What is the gain of a parabolic dish with a diameter of 80 cm and an efficiency of $\\eta_{\\textrm{eff}}$ = 1 at a working frequency of 10.4 GHz?",
+ "answer_a": "38.8 dBi",
+ "answer_b": "19.4 dBi",
+ "answer_c": "42.4 dBi",
+ "answer_d": "25.2 dBi"
+},
+"AG229": {
+ "question": "What is the gain of a parabolic dish with a diameter of 120 cm and an efficiency of $\\eta_{\\textrm{eff}}$ = 1 at a working frequency of 10.4 GHz?",
+ "answer_a": "42.3 dBi",
+ "answer_b": "21.2 dBi",
+ "answer_c": "25.9 dBi",
+ "answer_d": "50.5 dBi"
+},
+"AG301": {
+ "question": "To keep the likelihood of interference to a minimum when using high transmit power on the HF bands, the feeder used for the transmitting antenna should, inside buildings, ...",
+ "answer_a": "be screened.",
+ "answer_b": "be $\\lambda$/4 long if possible.",
+ "answer_c": "not be an integer multiple of $\\lambda$/4 in length.",
+ "answer_d": "not be earthed at any point."
+},
+"AG302": {
+ "question": "Which materials are usually used for the dielectrics of common coaxial cables?",
+ "answer_a": "PTFE (Teflon), solid PE, foam PE.",
+ "answer_b": "Pertinax, solid PE, foam PE.",
+ "answer_c": "Foam PE, polystyrene, PTFE (Teflon).",
+ "answer_d": "Solid PE, foam PE, epoxy."
+},
+"AG303": {
+ "question": "Which parameters describe characteristic RF properties of a coaxial cable?",
+ "answer_a": "Characteristic impedance, cable loss, velocity factor.",
+ "answer_b": "Bending radius, cable loss, conductor material.",
+ "answer_c": "Velocity factor, cable loss, cable colour.",
+ "answer_d": "Return loss, dielectric constant, cable loss."
+},
+"AG304": {
+ "question": "A transmission line is operated matched when the resistance terminating it ...",
+ "answer_a": "has the value of the characteristic impedance of the line.",
+ "answer_b": "is 50 Ω.",
+ "answer_c": "is a pure (ohmic) resistance.",
+ "answer_d": "represents an open line."
+},
+"AG305": {
+ "question": "An open-wire line is made from wire with a diameter d = 2 mm. The spacing between the parallel conductors is a = 20 cm. What is the characteristic impedance $Z_0$ of the line?",
+ "answer_a": "Approx. 635 Ω",
+ "answer_b": "Approx. 276 Ω",
+ "answer_c": "Approx. 2.8 kΩ",
+ "answer_d": "Approx. 820 Ω"
+},
+"AG306": {
+ "question": "An air-spaced coaxial cable has a screen with an inside diameter of 5 mm. The outside diameter of the inner conductor is 1 mm. What is the characteristic impedance $Z_0$ of the cable?",
+ "answer_a": "Approx. 97 Ω",
+ "answer_b": "Approx. 60 Ω",
+ "answer_c": "Approx. 50 Ω",
+ "answer_d": "Approx. 123 Ω"
+},
+"AG307": {
+ "question": "A coaxial cable has an inner conductor diameter of 0.7 mm. The insulation between the inner conductor and the braided screen is made of polyethylene (PE) and has a diameter of 4.4 mm. The outside diameter of the cable is 7.4 mm. What is the approximate characteristic impedance of the cable?",
+ "answer_a": "Approx. 75 Ω",
+ "answer_b": "Approx. 20 Ω",
+ "answer_c": "Approx. 50 Ω",
+ "answer_d": "Approx. 95 Ω"
+},
+"AG308": {
+ "question": "According to the cable attenuation chart provided, which type of coaxial cable is suitable for a 60 m run between the transmitter output and a multiband HF beam for the 20 m, 15 m and 10 m bands, if the cable loss at 29 MHz is not to exceed 2 dB?",
+ "answer_a": "Foam PE cable, 10.3 mm in diameter.",
+ "answer_b": "Solid PE cable, 4.95 mm in diameter (type RG58).",
+ "answer_c": "Solid PE cable, 10.3 mm in diameter (type RG213).",
+ "answer_d": "Foam PE cable, 7.3 mm in diameter."
+},
+"AG309": {
+ "question": "According to the cable attenuation chart provided, which coaxial cable is suitable for a 20 m run between the transmitter output and the antenna, if the cable loss in the 13 cm band at 2.350 GHz is not to exceed 4 dB?",
+ "answer_a": "Foam PE cable, 12.7 mm in diameter.",
+ "answer_b": "Foam PE cable, 7.3 mm in diameter.",
+ "answer_c": "Solid PE cable, 10.3 mm in diameter (type RG213).",
+ "answer_d": "Foam PE cable, 10.3 mm in diameter."
+},
+"AG310": {
+ "question": "To connect your 5.700 GHz transmitter (6 cm band) to the feed of a parabolic dish, you need a coaxial cable 8 m long and as thin as possible, with a loss of no more than 3 dB. Which of the coaxial cables in the cable attenuation chart meets this requirement?",
+ "answer_a": "Foam PE cable, 12.7 mm in diameter.",
+ "answer_b": "Foam PE cable, 7.3 mm in diameter.",
+ "answer_c": "Foam PE cable with solid screen, 16.4 mm in diameter.",
+ "answer_d": "Foam PE cable, 10.3 mm in diameter."
+},
+"AG311": {
+ "question": "Which of the following lines has the lowest loss in the HF range for the same conductor cross-section?",
+ "answer_a": "Twin feeder with wide spacing and narrow spacers.",
+ "answer_b": "Twin feeder with wide spacing and wide spacers.",
+ "answer_c": "Twin feeder with close spacing and plastic sheath.",
+ "answer_d": "Twisted twin feeder with plastic sheath."
+},
+"AG312": {
+ "question": "In a balanced twin feeder with no common-mode component ...",
+ "answer_a": "the voltage to earth and the current are equal in both conductors and in antiphase at every point.",
+ "answer_b": "one of the two conductors is at earth potential.",
+ "answer_c": "there is no current or voltage distribution on the line.",
+ "answer_d": "the voltage to earth and the current are equal in both conductors and in phase at every point."
+},
+"AG313": {
+ "question": "The velocity factor of an air-spaced open-wire line is ...",
+ "answer_a": "approximately 1.",
+ "answer_b": "0.1.",
+ "answer_c": "0.66.",
+ "answer_d": "indeterminate."
+},
+"AG314": {
+ "question": "The velocity of propagation in a coaxial cable ...",
+ "answer_a": "is lower than in free space.",
+ "answer_b": "is higher than in free space.",
+ "answer_c": "is the same as the velocity in free space.",
+ "answer_d": "is unlimited."
+},
+"AG315": {
+ "question": "The velocity factor of a coaxial cable with a solid polyethylene dielectric is approximately ...",
+ "answer_a": "0.66.",
+ "answer_b": "0.1.",
+ "answer_c": "0.8.",
+ "answer_d": "1.0."
+},
+"AG316": {
+ "question": "How long is a coaxial cable cut for one whole wavelength at 145 MHz if the velocity factor is 0.66?",
+ "answer_a": "1.37 m",
+ "answer_b": "2.07 m",
+ "answer_c": "0.68 m",
+ "answer_d": "2.72 m"
+},
+"AG317": {
+ "question": "What is the physical length of a coaxial cable with solid polyethylene insulation that is electrically $\\lambda$/4 long at 145 MHz?",
+ "answer_a": "34.2 cm",
+ "answer_b": "51.7 cm",
+ "answer_c": "103 cm",
+ "answer_d": "17.1 cm"
+},
+"AG318": {
+ "question": "What is the effect called whereby, as the frequency rises, the electron current shifts more and more towards the surface of a conductor, so that the ohmic loss resistance of the conductor increases with rising frequency?",
+ "answer_a": "Skin effect",
+ "answer_b": "Mögel–Dellinger effect",
+ "answer_c": "Doppler effect",
+ "answer_d": "Dunning–Kruger effect"
+},
+"AG319": {
+ "question": "What are the consequences of the skin effect as the frequency rises? The cross-section of the conductor through which current flows ...",
+ "answer_a": "decreases, and so the effective resistance of the conductor increases.",
+ "answer_b": "increases, and so the effective resistance of the conductor decreases.",
+ "answer_c": "decreases, and so the effective resistance of the conductor decreases.",
+ "answer_d": "increases, and so the effective resistance of the conductor increases."
+},
+"AG320": {
+ "question": "A Lecher line consists of two parallel conductors. What does its resonant frequency mainly depend on? It depends ...",
+ "answer_a": "on the length of the line.",
+ "answer_b": "on the balun used.",
+ "answer_c": "on the SWR on the line.",
+ "answer_d": "on the characteristic impedance of the two parallel conductors."
+},
+"AG401": {
+ "question": "What load impedance is required for power matching if the signal source has an output impedance of 50 Ω?",
+ "answer_a": "50 Ω",
+ "answer_b": "1/50 Ω",
+ "answer_c": "100 Ω",
+ "answer_d": "200 Ω"
+},
+"AG402": {
+ "question": "100 W of RF power is fed into the input of a matched RF transmission line. The loss of the line is 3 dB. What power is reflected with an open circuit or a short circuit at the end of the line?",
+ "answer_a": "50 W",
+ "answer_b": "25 W",
+ "answer_c": "50 W with an open circuit and 0 W with a short circuit",
+ "answer_d": "0 W with an open circuit and 50 W with a short circuit"
+},
+"AG403": {
+ "question": "10 W of RF power is fed into the input of an antenna feeder with a loss of 3 dB. With the antenna connected at the end of the line, an SWR of 3 is measured at the line input. With a 50 Ω dummy load at the end of the line, the SWR at the line input is about 1. What can be concluded from these measurements?",
+ "answer_a": "The antenna is faulty. It radiates practically no RF power.",
+ "answer_b": "The antenna feeder is faulty; practically no RF power reaches the antenna.",
+ "answer_c": "The antenna installation is in order. About 5 W of RF power is radiated.",
+ "answer_d": "The antenna installation is in order. About 3.75 W of RF power is radiated."
+},
+"AG404": {
+ "question": "10 W of RF power is fed into the input of an antenna feeder with a loss of 5 dB. With the antenna connected at the end of the line, an SWR of 1 is measured at the line input. What SWR is to be expected at the line input if the antenna is disconnected?",
+ "answer_a": "An SWR of approx. 1.92",
+ "answer_b": "An SWR of approx. 3.6",
+ "answer_c": "An SWR of approx. 0, as the forward and reflected power cancel each other out",
+ "answer_d": "An SWR tending to infinity, as all the RF power is reflected at the end of the line"
+},
+"AG405": {
+ "question": "A cable with a characteristic impedance of 75 Ω and negligible loss is used to feed a folded dipole antenna. What SWR can be expected on the line?",
+ "answer_a": "Approx. 3.2 to 4",
+ "answer_b": "0.3",
+ "answer_c": "Approx. 1.5 to 2",
+ "answer_d": "5.7"
+},
+"AG406": {
+ "question": "What is this circuit? It is ...",
+ "answer_a": "a pi filter for impedance transformation and improved suppression of harmonics.",
+ "answer_b": "an adjustable band-pass filter with variable bandwidth to compensate for the output coupling losses.",
+ "answer_c": "a tunable rejector for decoupling the antenna from the transmitter.",
+ "answer_d": "an acceptor circuit that suppresses the second harmonic and so increases the efficiency of the amplifier stage."
+},
+"AG407": {
+ "question": "What phase shift does an RF signal undergo from a to b if the electrical length of the coaxial line shown is $\\lambda$/4?",
+ "answer_a": "90 °",
+ "answer_b": "180 °",
+ "answer_c": "$\\dfrac{\\pi}{4}$",
+ "answer_d": "Zero"
+},
+"AG408": {
+ "question": "What phase shift does an RF signal undergo from a to b if the electrical length of the coaxial line shown is equal to the wavelength?",
+ "answer_a": "0 °",
+ "answer_b": "180 °",
+ "answer_c": "$\\dfrac{\\pi^2}{4}$",
+ "answer_d": "90 °"
+},
+"AG409": {
+ "question": "What is the impedance at point a if the electrical length of the coaxial line shown is $\\lambda$/4?",
+ "answer_a": "Very high",
+ "answer_b": "Nearly 0 Ω",
+ "answer_c": "50 Ω",
+ "answer_d": "Approximately 100 Ω"
+},
+"AG410": {
+ "question": "What is the impedance at point X if the electrical length of the coaxial line shown is $\\lambda$/4?",
+ "answer_a": "Nearly 0 Ω",
+ "answer_b": "Very high",
+ "answer_c": "50 Ω",
+ "answer_d": "Approximately 100 Ω"
+},
+"AG411": {
+ "question": "A quarter-wave transmission line is open at one end. The impedance at the other end ...",
+ "answer_a": "is almost zero ohms.",
+ "answer_b": "is equal to the characteristic impedance.",
+ "answer_c": "is three times the characteristic impedance.",
+ "answer_d": "is almost infinitely high."
+},
+"AG412": {
+ "question": "A half-wave transmission line is terminated with 50 Ω at one end. What is the input impedance at the other end of this line?",
+ "answer_a": "50 Ω",
+ "answer_b": "25 Ω",
+ "answer_c": "100 Ω",
+ "answer_d": "200 Ω"
+},
+"AG413": {
+ "question": "The transmitter power is fed to a half-wave dipole via a tuned $\\lambda$/2 feeder. What is the impedance $Z_1$ at the feed point of the dipole? And what is the impedance $Z_2$ at the start of the feeder?",
+ "answer_a": "$Z_1$ and $Z_2$ are low.",
+ "answer_b": "$Z_1$ and $Z_2$ are high.",
+ "answer_c": "$Z_1$ is low and $Z_2$ high.",
+ "answer_d": "$Z_1$ is high and $Z_2$ low."
+},
+"AG414": {
+ "question": "The transmitter power is fed to a full-wave dipole via a tuned $\\lambda$/2 feeder. What is the impedance $Z_1$ at the feed point of the dipole, and what is the impedance $Z_2$ at the start of the feeder?",
+ "answer_a": "$Z_1$ and $Z_2$ are high.",
+ "answer_b": "$Z_1$ is low and $Z_2$ high.",
+ "answer_c": "$Z_1$ and $Z_2$ are low.",
+ "answer_d": "$Z_1$ is high and $Z_2$ low."
+},
+"AG415": {
+ "question": "The transmitter power is fed to a full-wave dipole via a tuned $\\lambda$/4 feeder. What is the impedance $Z_1$ at the feed point of the dipole, and what is the impedance $Z_2$ at the start of the feeder?",
+ "answer_a": "$Z_1$ is high and $Z_2$ low.",
+ "answer_b": "$Z_1$ and $Z_2$ are high.",
+ "answer_c": "$Z_1$ and $Z_2$ are low.",
+ "answer_d": "$Z_1$ is low and $Z_2$ high."
+},
+"AG416": {
+ "question": "At its resonant frequency, a half-wave dipole has an impedance of 70 Ω at the feed point. It is fed via a $\\lambda$/2 length of 300 Ω ribbon feeder. What is the impedance at the input of the feeder?",
+ "answer_a": "70 Ω.",
+ "answer_b": "185 Ω.",
+ "answer_c": "300 Ω.",
+ "answer_d": "370 Ω."
+},
+"AG417": {
+ "question": "A dipole with a feed-point impedance of 60 Ω is to be fed with 240 Ω ribbon feeder via a $\\lambda$/4 transformer section. What characteristic impedance must the transformer section have?",
+ "answer_a": "120 Ω",
+ "answer_b": "150 Ω",
+ "answer_c": "232 Ω",
+ "answer_d": "300 Ω"
+},
+"AG418": {
+ "question": "A folded dipole with a feed-point impedance of 240 Ω is to be fed with ladder line whose characteristic impedance is 600 Ω. For matching, a $\\lambda$/4 length of ladder line with a different characteristic impedance is to be used. What characteristic impedance must this transformer section have?",
+ "answer_a": "380 Ω",
+ "answer_b": "420 Ω",
+ "answer_c": "840 Ω",
+ "answer_d": "240 Ω"
+},
+"AG419": {
+ "question": "What must be observed when building the wire antenna system shown? The wire length of the radiator should ...",
+ "answer_a": "be 1/2 $\\lambda$ of the frequency used, or a multiple of it.",
+ "answer_b": "be 5/8 $\\lambda$ of the frequency used, or a multiple of it.",
+ "answer_c": "be exactly 1/4 $\\lambda$ of the frequencies used.",
+ "answer_d": "be exactly 3/8 $\\lambda$ of the frequencies used."
+},
+"AG420": {
+ "question": "A dipole is to be fed with a coaxial cable of the same impedance. A balancing effect can be achieved, for example, by ...",
+ "answer_a": "balancing devices such as a half-wave delay line or a balun.",
+ "answer_b": "inserting traps into the dipole.",
+ "answer_c": "connecting a $\\lambda$/4 length of line (stub), open at its free end, in parallel at the feed point of the antenna.",
+ "answer_d": "connecting a $\\lambda$/2 length of line (stub), short-circuited at its free end, in parallel at the feed point of the antenna."
+},
+"AG421": {
+ "question": "For what antenna impedance is the following balun transformer with two windings of eight turns designed?",
+ "answer_a": "200 Ω",
+ "answer_b": "50 Ω",
+ "answer_c": "100 Ω",
+ "answer_d": "400 Ω"
+},
+"AG422": {
+ "question": "The diagram shows an RF transformer (balun). A folded dipole with an impedance of 200 Ω is connected to terminals a and b. What impedance is measured between terminals a and m?",
+ "answer_a": "50 Ω",
+ "answer_b": "0 Ω",
+ "answer_c": "100 Ω",
+ "answer_d": "200 Ω"
+},
+"AG423": {
+ "question": "What does this diagram show?",
+ "answer_a": "It shows a $\\lambda$/2 folded dipole with a $\\lambda$/2 delay line. The arrangement matches the 240 Ω feed-point impedance of the balanced antenna to an unbalanced 60 Ω antenna cable.",
+ "answer_b": "It shows a balanced 60 Ω loop dipole with a coaxial-cable balun. The arrangement matches the balanced antenna to an unbalanced 60 Ω antenna cable.",
+ "answer_c": "It shows a $\\lambda$/2 dipole with a balancing $\\lambda$/2 delay line. The arrangement matches the 120 Ω feed-point impedance of the balanced antenna to an unbalanced 60 Ω antenna cable.",
+ "answer_d": "It shows a balanced 60 Ω loop dipole with a coaxial line circuit used as a stop filter to suppress unwanted emissions."
+},
+"AG424": {
+ "question": "Delay lines are often used for matching antennas. How does the following circuit work?",
+ "answer_a": "The $\\lambda$/2 folded dipole has an impedance of 120 Ω to earth at each of its terminals. The $\\lambda$/2 delay line produces a 1:1 impedance transformation with a phase rotation of 180 °. On the antenna cable side, 2 times 120 Ω to earth are connected in parallel in phase, giving an output impedance of 60 Ω.",
+ "answer_b": "The $\\lambda$/2 folded dipole has an impedance of 240 Ω. The $\\lambda$/2 delay line produces a 4:1 impedance transformation with a phase rotation of 360 °, giving an output impedance of 60 Ω on the antenna cable side.",
+ "answer_c": "The $\\lambda$/2 dipole has an impedance of 60 Ω. The $\\lambda$/2 delay line produces a 1:2 impedance transformation with a phase rotation of 180 °. On the antenna cable side, 2 times 120 Ω to earth are connected in parallel in phase, giving an output impedance of 60 Ω.",
+ "answer_d": "The $\\lambda$/2 dipole has an impedance of 240 Ω. The $\\lambda$/2 delay line produces a 4:1 impedance transformation with a phase rotation of 360 °, giving an output impedance of 60 Ω on the antenna cable side."
+},
+"AG425": {
+ "question": "When are there sheath currents on a coaxial cable? When ...",
+ "answer_a": "common-mode components are present.",
+ "answer_b": "the screen is earthed.",
+ "answer_c": "standing waves are present.",
+ "answer_d": "the forward and reflected power are not the same."
+},
+"AG426": {
+ "question": "How does a current-compensated choke (e.g. coaxial cable wound on a ferrite core) counteract common-mode currents? It presents ...",
+ "answer_a": "a high impedance to common-mode components and a low impedance to differential-mode components.",
+ "answer_b": "a high impedance to harmonics and a low impedance to fundamentals.",
+ "answer_c": "a high impedance to all currents in the outer conductor and a low impedance to all currents in the inner conductor.",
+ "answer_d": "a high impedance to alternating currents in the inner conductor and a low impedance to direct currents in the outer conductor."
+},
+"AG427": {
+ "question": "What can cause common-mode currents on coaxial cables?",
+ "answer_a": "Balanced antennas, poor earthing of unbalanced antennas, or coupling into the coax screen",
+ "answer_b": "Asymmetry of the power supply, or feeder dielectrics with a high resistance",
+ "answer_c": "Standing waves in coaxial cables with a braided sheath whose length is a multiple of $\\lambda$/2",
+ "answer_d": "Harmonics on feeders whose length is a multiple of $\\lambda$/4 or 5/8 $\\lambda$"
+},
+"AG428": {
+ "question": "The diagram shows the currents that occur when a coaxial cable is connected to an antenna. How can the unwanted sheath current marked $I_3$ be reduced?",
+ "answer_a": "By inserting a common-mode choke or, with balanced antennas, also a voltage balun",
+ "answer_b": "By inserting a harmonic filter or, with unbalanced interference, also a voltage balun",
+ "answer_c": "By disconnecting the coax screen from arm 2 of the antenna shown (directly at or just before the antenna)",
+ "answer_d": "By making a direct connection between arm 1 of the antenna and a good RF earth"
+},
+"AG429": {
+ "question": "What can cause common-mode currents with a coax-fed balanced antenna, even though a voltage balun is used?",
+ "answer_a": "Uneven loading of the antenna by disturbing influences from its surroundings (e.g. trees or buildings), and coupling into the coax screen",
+ "answer_b": "Mismatch due to the impedance transformation of the balun (e.g. 4:1 autotransformer), and standing waves on the feeder",
+ "answer_c": "Attenuation of the radiation by the balun acting as a harmonic filter (e.g. 1:1 transformer), and coupling into the coax screen",
+ "answer_d": "Heating of the toroidal core due to inadequate screening of the balun (e.g. plastic case), and standing waves on the feeder"
+},
+"EG101": {
+ "question": "What is a loop antenna consisting of three wires of equal length called?",
+ "answer_a": "Delta loop antenna",
+ "answer_b": "3-element quad loop antenna",
+ "answer_c": "W3DZZ antenna",
+ "answer_d": "3-element beam"
+},
+"EG102": {
+ "question": "A wire antenna for amateur radio in the HF range ...",
+ "answer_a": "can in principle be of any length.",
+ "answer_b": "must always be $\\lambda/2$ long.",
+ "answer_c": "must be exactly $\\lambda/4$ long.",
+ "answer_d": "must have a length of $3/4 \\lambda$."
+},
+"EG103": {
+ "question": "Which antenna is shown here?",
+ "answer_a": "End-fed antenna with a simple matching network",
+ "answer_b": "Inverted-V dipole earthed on one side, with harmonic filter",
+ "answer_c": "End-fed antenna with a Collins filter for matching",
+ "answer_d": "Single-band wire antenna with preselector"
+},
+"EG104": {
+ "question": "What type of antenna is shown here?",
+ "answer_a": "Fuchs antenna",
+ "answer_b": "Windom antenna",
+ "answer_c": "Dipole antenna",
+ "answer_d": "Ground-plane antenna"
+},
+"EG105": {
+ "question": "Which type of antenna is suitable for transmitting and has a strong magnetic field in the near field?",
+ "answer_a": "A magnetic loop antenna with a circumference of about $\\lambda$/10",
+ "answer_b": "A ferrite rod antenna",
+ "answer_c": "A folded dipole",
+ "answer_d": "A cubical quad antenna"
+},
+"EG106": {
+ "question": "Which are common HF amateur transmitting antennas?",
+ "answer_a": "Long-wire antenna, Yagi-Uda antenna, dipole antenna, Windom antenna, delta loop antenna",
+ "answer_b": "Long-wire antenna, ground-plane antenna, parabolic antenna, Windom antenna, delta loop antenna",
+ "answer_c": "Ground-plane antenna, dipole antenna, Windom antenna, delta loop antenna, patch antenna",
+ "answer_d": "Slot antenna, ground-plane antenna, horn antenna, dipole antenna, Windom antenna"
+},
+"EG107": {
+ "question": "You want to test various antennas for HF operation on the 80 m band. Which three antennas are particularly suitable?",
+ "answer_a": "Dipole, delta loop, W3DZZ antenna",
+ "answer_b": "Crossed Yagi-Uda, ground-plane antenna, dipole",
+ "answer_c": "Dipole, sleeve dipole, W3DZZ antenna",
+ "answer_d": "Dipole, delta loop, parabolic dish"
+},
+"EG108": {
+ "question": "Why is a 5/8-$\\lambda$ antenna better suited than a $\\lambda$/4 antenna to VHF/UHF mobile operation? It ...",
+ "answer_a": "has more gain.",
+ "answer_b": "can handle more power.",
+ "answer_c": "is easier to mount.",
+ "answer_d": "is less susceptible to interference."
+},
+"EG109": {
+ "question": "Calculate the electrical length of a 5/8 $\\lambda$ vertical radiator for the 10 m band (28.5 MHz).",
+ "answer_a": "6.58 m",
+ "answer_b": "3.29 m",
+ "answer_c": "2.08 m",
+ "answer_d": "5.26 m"
+},
+"EG110": {
+ "question": "The length of the wire needed to make a folded dipole corresponds to ...",
+ "answer_a": "one wavelength.",
+ "answer_b": "half a wavelength.",
+ "answer_c": "two wavelengths.",
+ "answer_d": "four wavelengths."
+},
+"EG111": {
+ "question": "The following picture shows a simple directional antenna. In numerical order, the elements are ...",
+ "answer_a": "1 reflector, 2 radiator and 3 director.",
+ "answer_b": "1 radiator, 2 director and 3 reflector.",
+ "answer_c": "1 director, 2 radiator and 3 reflector.",
+ "answer_d": "1 director, 2 reflector and 3 radiator."
+},
+"EG112": {
+ "question": "Which location is best for a directional antenna to avoid possible interference to the neighbour's equipment?",
+ "answer_a": "As high and as far away as possible",
+ "answer_b": "On the side wall facing the neighbour",
+ "answer_c": "On the roof, where the neighbour's roof area should also be covered",
+ "answer_d": "As low and as close to the house as possible"
+},
+"EG113": {
+ "question": "A sharply focusing antenna for the microwave range often consists of ...",
+ "answer_a": "a paraboloidal reflector and a feed antenna.",
+ "answer_b": "a paraboloidal reflector and an isotropic radiator.",
+ "answer_c": "a cylindrical convex reflector and a feed antenna.",
+ "answer_d": "a hyperbolic concave reflector and an isotropic radiator."
+},
+"EG114": {
+ "question": "What diameter should be chosen for a parabolic dish antenna to obtain the highest possible gain?",
+ "answer_a": "At least five wavelengths (lambda) of the frequency used.",
+ "answer_b": "Exactly two wavelengths (lambda) of the frequency used.",
+ "answer_c": "At most three wavelengths (lambda) of the frequency used.",
+ "answer_d": "One wavelength (lambda) of the frequency used."
+},
+"EG201": {
+ "question": "The shortening factor is ...",
+ "answer_a": "the ratio of the velocity of propagation along a line to the velocity of propagation in a vacuum.",
+ "answer_b": "the ratio of the diameter to the length of a conductor.",
+ "answer_c": "the ratio of the conductor resistance to the feed-point impedance of the antenna.",
+ "answer_d": "the square root of the ratio of the inductance to the capacitance of a line."
+},
+"EG202": {
+ "question": "What percentage corresponds to the shortening factor (correction factor) usually used to calculate the length of a wire antenna?",
+ "answer_a": "95 %",
+ "answer_b": "75 %",
+ "answer_c": "66 %",
+ "answer_d": "100 %"
+},
+"EG203": {
+ "question": "Which statement about the current and voltage distribution on a dipole is correct?",
+ "answer_a": "At the ends of a dipole there is always a current node and a voltage antinode.",
+ "answer_b": "At the ends of a dipole there is always a voltage node and a current antinode.",
+ "answer_c": "At the feed point of a dipole there is always a voltage node and a current antinode.",
+ "answer_d": "At the feed point of a dipole there is always a voltage antinode and a current node."
+},
+"EG204": {
+ "question": "A dipole is current-fed when at its feed point there is ...",
+ "answer_a": "a voltage node and a current antinode. It then has a low impedance.",
+ "answer_b": "a voltage antinode and a current node. It then has a high impedance.",
+ "answer_c": "a voltage antinode and a current antinode. It then has a low impedance.",
+ "answer_d": "a voltage node and a current node. It then has a high impedance."
+},
+"EG205": {
+ "question": "A dipole is voltage-fed when at its feed point there is ...",
+ "answer_a": "a voltage antinode and a current node. It then has a high impedance.",
+ "answer_b": "a voltage node and a current antinode. It then has a low impedance.",
+ "answer_c": "a voltage antinode and a current antinode. It then has a low impedance.",
+ "answer_d": "a voltage node and a current node. It then has a high impedance."
+},
+"EG206": {
+ "question": "At its fundamental frequency, a half-wave dipole fed in the centre is ...",
+ "answer_a": "current-fed.",
+ "answer_b": "voltage-fed.",
+ "answer_c": "end-fed.",
+ "answer_d": "parallel-fed."
+},
+"EG207": {
+ "question": "The feed-point impedance of a centre-fed half-wave dipole at a height of at least one wavelength above ground is approximately ...",
+ "answer_a": "75 Ω.",
+ "answer_b": "50 Ω.",
+ "answer_c": "30 Ω.",
+ "answer_d": "600 Ω."
+},
+"EG208": {
+ "question": "Depending on the height at which it is installed, the feed-point impedance at the centre of a half-wave dipole is approximately ...",
+ "answer_a": "40 to 90 Ω.",
+ "answer_b": "100 to 120 Ω.",
+ "answer_c": "120 to 240 Ω.",
+ "answer_d": "240 to 600 Ω."
+},
+"EG209": {
+ "question": "What is the input impedance of a straight centre-fed half-wave dipole?",
+ "answer_a": "Approx. 40 to 90 Ω",
+ "answer_b": "Approx. 30 Ω",
+ "answer_c": "Approx. 120 Ω",
+ "answer_d": "Approx. 240 to 300 Ω"
+},
+"EG210": {
+ "question": "What is the input or feed-point impedance of a folded dipole?",
+ "answer_a": "Approx. 240 to 300 Ω",
+ "answer_b": "Approx. 30 to 60 Ω",
+ "answer_c": "Approx. 60 Ω",
+ "answer_d": "Approx. 120 Ω"
+},
+"EG211": {
+ "question": "What is the input impedance of a ground-plane antenna?",
+ "answer_a": "Approx. 30 to 50 Ω",
+ "answer_b": "Approx. 60 to 120 Ω",
+ "answer_c": "Approx. 600 Ω",
+ "answer_d": "Approx. 240 Ω"
+},
+"EG212": {
+ "question": "To which element of a Yagi-Uda antenna is the power fed? It is fed to the ...",
+ "answer_a": "radiator",
+ "answer_b": "director",
+ "answer_c": "reflector",
+ "answer_d": "radiator and the reflector at the same time"
+},
+"EG213": {
+ "question": "Which antenna is <u>not</u> a balanced antenna?",
+ "answer_a": "Ground plane",
+ "answer_b": "Folded dipole",
+ "answer_c": "Long Yagi-Uda",
+ "answer_d": "Centre-fed $\\lambda$/2 dipole"
+},
+"EG214": {
+ "question": "Which of the pictures shows the radiation pattern of a half-wave dipole?"
+},
+"EG215": {
+ "question": "For which antenna is this radiation pattern typical?",
+ "answer_a": "Half-wave dipole",
+ "answer_b": "Yagi-Uda antenna",
+ "answer_c": "Ground plane",
+ "answer_d": "Isotropic radiator"
+},
+"EG216": {
+ "question": "For which antenna is this radiation pattern typical?",
+ "answer_a": "Ground plane",
+ "answer_b": "Isotropic radiator",
+ "answer_c": "Dipole",
+ "answer_d": "Yagi-Uda"
+},
+"EG217": {
+ "question": "This radiation pattern is typical of ...",
+ "answer_a": "a directional antenna.",
+ "answer_b": "a half-wave dipole.",
+ "answer_c": "a quarter-wave radiator.",
+ "answer_d": "a Marconi antenna."
+},
+"EG218": {
+ "question": "For which antenna is this radiation pattern typical?",
+ "answer_a": "Yagi-Uda",
+ "answer_b": "Ground plane",
+ "answer_c": "Dipole",
+ "answer_d": "Isotropic radiator"
+},
+"EG219": {
+ "question": "A $\\lambda$/2 vertical antenna produces ...",
+ "answer_a": "a low angle of radiation.",
+ "answer_b": "circular polarisation.",
+ "answer_c": "a high angle of radiation.",
+ "answer_d": "elliptical polarisation."
+},
+"EG220": {
+ "question": "The gain of antennas is often given in dBi. Which reference antenna does this refer to? It refers to the ...",
+ "answer_a": "isotropic radiator.",
+ "answer_b": "half-wave radiator.",
+ "answer_c": "horizontal radiator.",
+ "answer_d": "vertical radiator."
+},
+"EG221": {
+ "question": "An antenna manufacturer specifies the gain of an antenna as 5 dBd. What is the gain of the antenna in dBi?",
+ "answer_a": "7.15 dBi",
+ "answer_b": "5 dBi",
+ "answer_c": "2.5 dBi",
+ "answer_d": "2.85 dBi"
+},
+"EG222": {
+ "question": "The polarisation of an antenna ...",
+ "answer_a": "is stated according to the orientation of the electric field component in the direction of maximum radiation relative to the earth's surface.",
+ "answer_b": "is stated according to the orientation of the magnetic field component in the direction of maximum radiation relative to the earth's surface.",
+ "answer_c": "corresponds to the direction of the magnetic field component of the received or transmitted field relative to north (azimuth).",
+ "answer_d": "corresponds to the direction of the electric field component of the received or transmitted field relative to north (azimuth)."
+},
+"EG223": {
+ "question": "A transmitting antenna installed outdoors has the advantage that ...",
+ "answer_a": "coupling to the electrical wiring in the house is reduced.",
+ "answer_b": "it is subject to radiation to a lesser extent.",
+ "answer_c": "it radiates fewer harmonics.",
+ "answer_d": "the transmitted signal has a lower level."
+},
+"EG301": {
+ "question": "The characteristic impedance of a line ...",
+ "answer_a": "is roughly constant in the RF range and independent of the line termination.",
+ "answer_b": "is completely independent of frequency.",
+ "answer_c": "depends on what is connected at the end of the line.",
+ "answer_d": "depends on the length of the line and on what is connected at its end."
+},
+"EG302": {
+ "question": "Which lines should be used for the RF connections between items of equipment in the amateur station to avoid unwanted radiation?",
+ "answer_a": "High-quality coaxial cables",
+ "answer_b": "Balanced feeders",
+ "answer_c": "Untuned feeders",
+ "answer_d": "High-quality screened mains leads"
+},
+"EG303": {
+ "question": "Which of the following coaxial connectors has a defined characteristic impedance of 50 Ω up into the GHz range and the highest voltage rating for carrying high power?",
+ "answer_a": "N connector",
+ "answer_b": "SMA connector",
+ "answer_c": "UHF connector",
+ "answer_d": "BNC connector"
+},
+"EG304": {
+ "question": "When is a feeder unbalanced?",
+ "answer_a": "When its two conductors are shaped differently, e.g. coaxial cable.",
+ "answer_b": "When the forward and reflected power are different.",
+ "answer_c": "When it is operated away from its resonant frequency.",
+ "answer_d": "When its length does not correspond to a multiple of $\\lambda$/2."
+},
+"EG305": {
+ "question": "What advantages does an open-wire feeder have over feeding via a coaxial cable?",
+ "answer_a": "It has lower loss and a high voltage rating.",
+ "answer_b": "It avoids common-mode currents because there is no screen.",
+ "answer_c": "It allows easier control of the characteristic impedance by moving the spacers.",
+ "answer_d": "It provides good lightning protection thanks to its low-resistance wires."
+},
+"EG306": {
+ "question": "To tidy up the amateur station, you lay all the mains leads and RF feeders in one cable duct. What disadvantage can this have?",
+ "answer_a": "The RF and mains cables lying side by side can cause coupling into the mains supply.",
+ "answer_b": "The RF and mains cables lying side by side can lead to unwanted 50 Hz modulation on the coaxial cable.",
+ "answer_c": "Flashover can occur between the RF and mains cables lying side by side.",
+ "answer_d": "If well insulated, the RF and mains cables lying side by side cannot affect each other."
+},
+"EG307": {
+ "question": "The sketch shows the set-up of an amateur station. The sum of all the cable losses in decibels is ...",
+ "answer_a": "5 dB",
+ "answer_b": "-5 dB",
+ "answer_c": "3 dB",
+ "answer_d": "-3 dB"
+},
+"EG308": {
+ "question": "An RF output power of 100 W is fed into a matched transmission line. At the antenna end of the line, the power is 50 W with an SWR of 1. What is the loss of the line?",
+ "answer_a": "3 dB",
+ "answer_b": "-6 dB",
+ "answer_c": "-3 dB",
+ "answer_d": "6 dBm"
+},
+"EG309": {
+ "question": "Only a quarter of the power remains at the end of an antenna feeder. What is the attenuation of the cable?",
+ "answer_a": "6 dB",
+ "answer_b": "3 dB",
+ "answer_c": "10 dB",
+ "answer_d": "16 dB"
+},
+"EG310": {
+ "question": "Only a tenth of the power remains at the end of an antenna feeder. What is the attenuation of the cable?",
+ "answer_a": "10 dB",
+ "answer_b": "3 dB",
+ "answer_c": "6 dB",
+ "answer_d": "16 dB"
+},
+"EG311": {
+ "question": "A coaxial cable 100 m long has a loss of 20 dB at 145 MHz. What is the loss for a length of 20 m?",
+ "answer_a": "4 dB",
+ "answer_b": "7.25 dB",
+ "answer_c": "5 dB",
+ "answer_d": "1.45 dB"
+},
+"EG312": {
+ "question": "Based on the cable attenuation chart, what is the loss of a 100 m coaxial cable with solid PE dielectric, 4.95 mm in diameter (type RG58), at 145 MHz?",
+ "answer_a": "20 dB",
+ "answer_b": "39 dB",
+ "answer_c": "1 dB",
+ "answer_d": "0 dB"
+},
+"EG313": {
+ "question": "Based on the cable attenuation chart, what is the loss of a 15 m coaxial cable with solid PE dielectric, 4.95 mm in diameter (type RG58), at 145 MHz?",
+ "answer_a": "3 dB",
+ "answer_b": "4 dB",
+ "answer_c": "2 dB",
+ "answer_d": "1 dB"
+},
+"EG314": {
+ "question": "Based on the cable attenuation chart, what is the loss of a 50 m coaxial cable with solid PE dielectric, 2.8 mm in diameter (type RG174), at 145 MHz?",
+ "answer_a": "20 dB",
+ "answer_b": "40 dB",
+ "answer_c": "68 dB",
+ "answer_d": "12 dB"
+},
+"EG315": {
+ "question": "Based on the cable attenuation chart, what is the loss of a 40 m coaxial cable with foam PE dielectric, 12.7 mm in diameter, at 435 MHz?",
+ "answer_a": "2.8 dB",
+ "answer_b": "3.8 dB",
+ "answer_c": "1.8 dB",
+ "answer_d": "0.8 dB"
+},
+"EG316": {
+ "question": "Based on the cable attenuation chart, what is the loss of a 40 m coaxial cable with foam PE dielectric, 10.3 mm in diameter, in the 23 cm band (1296 MHz)?",
+ "answer_a": "8.2 dB",
+ "answer_b": "12.6 dB",
+ "answer_c": "10.4 dB",
+ "answer_d": "6.2 dB"
+},
+"EG401": {
+ "question": "An SWR of 3 is measured at the input of an antenna feeder. Approximately what is the reflected power there if the forward power is 100 W?",
+ "answer_a": "25 W",
+ "answer_b": "12.5 W",
+ "answer_c": "50 W",
+ "answer_d": "75 W"
+},
+"EG402": {
+ "question": "You measure a standing wave ratio (SWR) of 3. What percentage of the forward power is reflected?",
+ "answer_a": "25 %",
+ "answer_b": "33 %",
+ "answer_c": "50 %",
+ "answer_d": "75 %"
+},
+"EG403": {
+ "question": "You measure a standing wave ratio (SWR) of 3. What percentage of the forward power is delivered?",
+ "answer_a": "75 %",
+ "answer_b": "50 %",
+ "answer_c": "25 %",
+ "answer_d": "29 %"
+},
+"EG404": {
+ "question": "The diagram shows the currents that occur when a coaxial cable is connected to an antenna. What is the current marked $I_3$ called?",
+ "answer_a": "Sheath current",
+ "answer_b": "Reverse current",
+ "answer_c": "Potential current",
+ "answer_d": "Phantom current"
+},
+"EG405": {
+ "question": "Common-mode currents on the coaxial cable to the antenna ...",
+ "answer_a": "can cause interference to other equipment and to your own reception.",
+ "answer_b": "are necessary for any coax-fed antenna to work.",
+ "answer_c": "are caused by mismatch and overloading of the transceiver.",
+ "answer_d": "are used to measure the current for the SWR."
+},
+"EG406": {
+ "question": "What effects occur when a half-wave dipole is centre-fed with a coaxial cable of the same impedance?",
+ "answer_a": "The radiation pattern of the antenna is distorted and common-mode currents occur.",
+ "answer_b": "No significant effects occur, as the antenna is matched and is fed via a coaxial cable whose outer conductor is at earth potential.",
+ "answer_c": "Voltages and currents of equal magnitude and in antiphase occur at the feed point of the antenna, causing a mismatch.",
+ "answer_d": "Polarisation rotations occur that depend on the cable length."
+},
+"EG407": {
+ "question": "What, for example, is a balun used for?",
+ "answer_a": "To connect a coaxial cable to a dipole antenna",
+ "answer_b": "To set the frequency shift for repeater operation",
+ "answer_c": "To use an AC supply on the DC input of a transceiver",
+ "answer_d": "To switch between horizontal and vertical polarisation of a crossed Yagi-Uda"
+},
+"EG408": {
+ "question": "A few turns of coaxial cable are wound on a ferrite core. With this arrangement ...",
+ "answer_a": "common-mode currents can be attenuated.",
+ "answer_b": "static charges can be prevented.",
+ "answer_c": "the selectivity can be improved.",
+ "answer_d": "harmonics can be suppressed."
+},
+"NG101": {
+ "question": "Which component does this circuit symbol represent?",
+ "answer_a": "Antenna",
+ "answer_b": "Earth",
+ "answer_c": "Diode",
+ "answer_d": "Transistor"
+},
+"NG102": {
+ "question": "What does this circuit symbol represent?",
+ "answer_a": "Earth",
+ "answer_b": "Antenna",
+ "answer_c": "Diode",
+ "answer_d": "Battery"
+},
+"NG103": {
+ "question": "What is the name of the antenna shown?",
+ "answer_a": "Dipole antenna",
+ "answer_b": "Ground-plane antenna",
+ "answer_c": "End-fed antenna",
+ "answer_d": "Yagi-Uda antenna"
+},
+"NG104": {
+ "question": "A Marconi antenna is ...",
+ "answer_a": "a $\\lambda$/4 vertical antenna fed against earth.",
+ "answer_b": "a 5/8-$\\lambda$ antenna with tuned radials.",
+ "answer_c": "a horizontal $\\lambda$/2 long-wire antenna.",
+ "answer_d": "a vertical half-wave antenna."
+},
+"NG105": {
+ "question": "What is the name of the antenna shown?",
+ "answer_a": "Ground-plane antenna",
+ "answer_b": "Yagi-Uda antenna",
+ "answer_c": "Dipole antenna",
+ "answer_d": "End-fed antenna"
+},
+"NG106": {
+ "question": "The electrical counterpoises of a ground-plane antenna are also called ...",
+ "answer_a": "radials.",
+ "answer_b": "reflectors.",
+ "answer_c": "directors.",
+ "answer_d": "earth elements."
+},
+"NG107": {
+ "question": "What is the name of the antenna shown?",
+ "answer_a": "End-fed antenna",
+ "answer_b": "Ground-plane antenna",
+ "answer_c": "Dipole antenna",
+ "answer_d": "Yagi-Uda antenna"
+},
+"NG108": {
+ "question": "What is the name of the antenna shown?",
+ "answer_a": "Yagi-Uda antenna",
+ "answer_b": "Dipole antenna",
+ "answer_c": "Ground-plane antenna",
+ "answer_d": "End-fed antenna"
+},
+"NG109": {
+ "question": "Which type of antenna is usually used by radio amateurs only in the HF range and <u>not</u> in the VHF/UHF range?",
+ "answer_a": "Long-wire antenna",
+ "answer_b": "Yagi-Uda antenna",
+ "answer_c": "Quad antenna",
+ "answer_d": "Ground-plane antenna"
+},
+"NG110": {
+ "question": "Which antenna is best suited to a 2 m net with radio amateurs spread around the surrounding area?",
+ "answer_a": "Omnidirectional antenna",
+ "answer_b": "Yagi-Uda antenna",
+ "answer_c": "Ferrite antenna",
+ "answer_d": "Long-wire antenna"
+},
+"NG111": {
+ "question": "Which antenna configuration should be chosen to reach as many surrounding repeaters as possible in the 2 m or 70 cm band?",
+ "answer_a": "An omnidirectional antenna on the roof of the house.",
+ "answer_b": "A ferrite antenna on the windowsill.",
+ "answer_c": "A horizontal directional antenna fixed in one direction.",
+ "answer_d": "A magnetic-mount antenna in the loft."
+},
+"NG201": {
+ "question": "Coaxial cables typically have characteristic impedances of ...",
+ "answer_a": "50, 60 and 75 Ω.",
+ "answer_b": "50, 300 and 600 Ω.",
+ "answer_c": "60, 120 and 240 Ω.",
+ "answer_d": "50, 75 and 240 Ω."
+},
+"NG202": {
+ "question": "Which RF connector series is shown in the following diagram?",
+ "answer_a": "PL",
+ "answer_b": "BNC",
+ "answer_c": "SMA",
+ "answer_d": "N"
+},
+"NG203": {
+ "question": "Which RF connector series is shown in the following diagram?",
+ "answer_a": "BNC",
+ "answer_b": "SMA",
+ "answer_c": "PL",
+ "answer_d": "N"
+},
+"NG204": {
+ "question": "Which RF connector series is shown in the following diagram?",
+ "answer_a": "N",
+ "answer_b": "PL",
+ "answer_c": "SMA",
+ "answer_d": "BNC"
+},
+"NG205": {
+ "question": "Which RF connector series is shown in the following diagram?",
+ "answer_a": "SMA",
+ "answer_b": "PL",
+ "answer_c": "N",
+ "answer_d": "BNC"
+},
+"NG206": {
+ "question": "Which of the following RF connector series are best suited to high frequencies (above 300 MHz)?",
+ "answer_a": "N and SMA",
+ "answer_b": "UHF and BNetzA",
+ "answer_c": "BNC and RCA (phono)",
+ "answer_d": "RCA (phono) and SMA"
+},
+"NG207": {
+ "question": "A coaxial cable is to be used between a VHF/UHF transceiver and the antenna. Apart from the correct characteristic impedance, what must be considered when choosing the cable?",
+ "answer_a": "The losses increase with increasing length and frequency.",
+ "answer_b": "The attenuation decreases with increasing length and frequency.",
+ "answer_c": "The cable length has no effect on the cable loss.",
+ "answer_d": "The frequency has no effect on the cable loss."
+},
+"NG208": {
+ "question": "The 50 Ω coaxial antenna cable of the 2 m amateur station is extended with an equivalent coaxial cable. After the extension, the SWR measurement gives a better value. What do you conclude from this? The extension ...",
+ "answer_a": "increases the attenuation and reduces the reflected signal.",
+ "answer_b": "reduces the attenuation and increases the reflected signal.",
+ "answer_c": "increases the attenuation and increases the reflected signal.",
+ "answer_d": "reduces the attenuation and reduces the reflected signal."
+},
+"NG304": {
+ "question": "Your home-built dipole antenna is resonant below the desired frequency. What change can you make to bring the resonance into the desired range?",
+ "answer_a": "Shorten both ends equally",
+ "answer_b": "Lengthen both ends equally",
+ "answer_c": "Increase the transmit power",
+ "answer_d": "Reduce the transmit power"
+},
+"NG305": {
+ "question": "Your home-built dipole antenna is resonant above the desired frequency. What change can you make to bring the resonance into the desired range?",
+ "answer_a": "Lengthen both ends equally",
+ "answer_b": "Shorten both ends equally",
+ "answer_c": "Increase the transmit power",
+ "answer_d": "Reduce the transmit power"
+}
+}}

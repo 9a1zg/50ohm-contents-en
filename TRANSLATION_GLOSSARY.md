@@ -1111,6 +1111,18 @@ real choice or a trap.
 | Windom-Antenne | Windom antenna (off-centre-fed dipole) | |
 | G5RV / W3DZZ / Zeppelin-Antenne | G5RV / W3DZZ / Zepp antenna | |
 | Delta-Loop-Antenne / Quad-Antenne | delta loop / quad | |
+| Cubical-Quad-Antenne | cubical quad antenna | |
+| magnetische Ringantenne | magnetic loop antenna | EG105 |
+| Ferritantenne / Ferritstabantenne | ferrite antenna / ferrite rod antenna | |
+| Patchantenne / Schlitzantenne | patch antenna / slot antenna | |
+| Sperrtopfantenne | sleeve dipole | a VHF/UHF antenna with a coaxial sleeve (EG107) |
+| Winkeldipol | inverted-V dipole | EG103 |
+| Schleifendipol | loop dipole | a synonym of *Faltdipol* used in AG423 distractors; kept apart from *folded dipole* because the German changes the word |
+| Ringdipol | ring dipole | AG225 |
+| Saugkreis-Dipol | acceptor-circuit dipole | distractor beside *Sperrkreis-Dipol* → trap dipole (AG109) |
+| Gleichwellenfilter | common-wave filter | made-up distractor beside *Oberwellenfilter* (AG109) |
+| Dreiband-Dipol | three-band dipole | |
+| Kurzwellenbeam | HF beam | |
 | Magnetic-Loop-Antenne | magnetic loop (small transmitting loop) | |
 | Ganzwellen-Schleifenantenne | full-wave loop | |
 | Yagi-Uda-Antenne | Yagi-Uda antenna (Yagi) | |
@@ -1142,7 +1154,9 @@ real choice or a trap.
 | Hauptkeule / Nebenkeule / Rückkeule | main lobe / side lobe / back lobe | |
 | Hauptstrahlrichtung | direction of maximum radiation | |
 | Vor-Rück-Verhältnis | front-to-back ratio | |
-| Öffnungswinkel / Halbwertsbreite | beamwidth / half-power (-3 dB) beamwidth | |
+| Öffnungswinkel / Halbwertsbreite | beamwidth / half-power (-3 dB) beamwidth | "Halbwertsbreite (Öffnungswinkel)" → "half-power beamwidth (beam angle)" (AG221) |
+| Horizontaldiagramm | horizontal radiation pattern | |
+| Strahlungsdichte | power density | AG219 |
 | Abstrahlwinkel / Erhebungswinkel | angle of radiation; elevation angle | RSGB *take-off angle* in propagation context |
 | Abstrahlung / Strahlung | radiation | |
 | Polarisation (horizontal / vertikal / zirkular) | polarisation (horizontal / vertical / circular) | British *-isation* |
@@ -1154,13 +1168,14 @@ real choice or a trap.
 | Strahlungsleistung (EIRP und ERP) | radiated power (EIRP and ERP) | catalogue heading |
 | Antenneneingangsleistung | power at the antenna input | |
 | Fußpunktwiderstand / Fußpunktimpedanz / Speisewiderstand | feed-point impedance (feed-point resistance) | |
+| Eingangswiderstand (Antenne) | input impedance | as *Fußpunktwiderstand*: an antenna's input is reactive off resonance (AG207 "rein kapazitiver Eingangswiderstand"); EG209, EG211 |
 | Speisepunkt / Einspeisepunkt | feed point | |
-| Strombauch / Spannungsbauch | current maximum (antinode) / voltage maximum (antinode) | |
+| Strombauch / Spannungsbauch | current maximum (antinode) / voltage maximum (antinode) | where the German pairs *Bauch* and *Knoten* (EG203–EG205): *antinode* / *node* |
 | Stromknoten / Spannungsknoten | current minimum (node) / voltage minimum (node) | |
 | Stromverteilung / Stromkurve | current distribution | |
 | Erregung / Erregerfrequenz | excitation; feeding / feed frequency (operating frequency) | AG203: "Erregung auf 28 MHz" → "fed at 28 MHz" |
 | Resonanzlänge | resonant length | |
-| Verkürzungsfaktor (Antenne) | end-effect correction factor (shortening factor) | trap: for cables the same German word = *velocity factor* |
+| Verkürzungsfaktor (Antenne) | end-effect correction factor (shortening factor) | trap: for cables the same German word = *velocity factor*. In exam questions written *shortening factor* (AG101–AG105, EG202); also EG201, where the correct answer defines the velocity factor and the stem must not give it away (see DECISIONS.md) |
 | Verkürzungsfaktor (Kabel) | velocity factor | |
 | Übertragungsleitung / Leitung | transmission line / line | |
 | Speiseleitung / Antennenleitung / Antennenkabel | feeder; feed line | RSGB *feeder* |
@@ -1168,7 +1183,12 @@ real choice or a trap.
 | Innenleiter / Außenleiter (Schirm) | inner conductor / outer conductor (braid, screen) | British *screen* |
 | Abschirmung | screening; shield | British *screening* |
 | PE-Schaumkabel / Polyethylen / PTFE | foam polyethylene cable / polyethylene / PTFE | |
-| Zweidrahtleitung / Hühnerleiter / Paralleldrahtleitung | twin feeder; open-wire feeder (ladder line) | |
+| Zweidrahtleitung / Hühnerleiter / Paralleldrahtleitung | twin feeder; open-wire feeder (ladder line) | AG311: *Zweidrahtleitung* → twin feeder; AG418: *Hühnerleiter* → ladder line; AG305, AG313: *(offene) Paralleldrahtleitung* → open-wire line |
+| Stege / Spreizer (Zweidrahtleitung) | spacers | AG311, EG305 |
+| Flachbandkabel | ribbon feeder | "300 Ohm-Flachbandkabel" → "300 Ω ribbon feeder" (AG416, AG417) |
+| Transformationsleitung | transformer section | the λ/4 matching line (AG417, AG418), as *Transformationsstück* |
+| Leitungsstück (Stub) | length of line (stub) | AG420 |
+| Voll-PE / PE-Schaum / Massivschirm / Abschirmgeflecht | solid PE / foam PE / solid screen / braided screen | cable descriptions (AG302, AG308–AG310, AG307) |
 | symmetrisch / unsymmetrisch | balanced / unbalanced | |
 | Wellenwiderstand | characteristic impedance | |
 | Kabeldämpfung / Kabelverluste | cable loss (attenuation) | |
@@ -1183,10 +1203,12 @@ real choice or a trap.
 | Impedanztransformation | impedance transformation | |
 | Symmetrierung / Symmetrierglied | balancing / balun | |
 | Balun / Un-Un | balun / unun | |
-| Umwegleitung | half-wave coaxial balun (delay-line balun) | |
-| Mantelwellen | common-mode currents | the "sheath waves" on the outside of the braid; RSGB *common-mode current* |
+| Umwegleitung | half-wave coaxial balun (delay-line balun) | where λ/2 is given or *Balun* stands beside it: "$\lambda$/2 delay line" / "half-wave delay line" (AG420, AG423, AG424) |
+| Mantelwellen | common-mode currents | the "sheath waves" on the outside of the braid; RSGB *common-mode current*. *sheath currents* where the correct answer is *Gleichtaktanteile* and would echo the stem (AG425) |
+| Mantelstrom | sheath current | the current on the outside of the braid (EG404, AG428) |
 | Mantelwellensperre (MWS) | common-mode choke (choke balun) | keep "MWS" where the drawing label uses it |
-| stromkompensierte Drossel | common-mode choke | |
+| stromkompensierte Drossel | common-mode choke | AG426: "current-compensated choke" (literal, a current EMC term), because the correct answer is "common-mode components" |
+| Spannungs-Balun | voltage balun | AG428, AG429 |
 | Gleichtakt / Gegentakt | common mode / differential mode | |
 | Gleichtaktanteil / Gegentaktanteil | common-mode component / differential-mode component | |
 | Antennenanpassgerät / Antennentuner | antenna tuning unit (ATU); antenna tuner | RSGB *ATU* |
@@ -1467,6 +1489,14 @@ the entries above, listed so that they are rendered the same way every time.
 | höchstens / mindestens | at most / at least | |
 | Erhöhung / Verringerung | increase / reduction | |
 | Einhaltung | compliance (with) | |
+| Erdoberfläche mittlerer Leitfähigkeit / Erdboden | ground of average conductivity / the ground | soil under an antenna (AG223, AG224); *earth* stays for earthing |
+| Dämpfungsmaß | attenuation | in dB (EG309, EG310) |
+| Kabelkanal | cable duct | |
+| Spannungsüberschlag | flashover | |
+| Dachboden | loft | British |
+| Cinch (Stecker) | RCA (phono) | German trade name for the RCA connector (NG206) |
+| Pertinax | Pertinax | trade name of SRBP laminate; kept |
+| HF-Übertrager (Balun) | RF transformer (balun) | AG422 |
 
 ## 14. Further terms from the course text, drawings and slides
 
