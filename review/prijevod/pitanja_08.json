@@ -1,0 +1,1201 @@
+{
+  "pitanja": {
+    "AI605": {
+      "question": "What does the following circuit represent?",
+      "answer_a": "RF probe",
+      "answer_b": "Absorption wavemeter",
+      "answer_c": "Antenna impedance meter",
+      "answer_d": "RF dip oscillator"
+    },
+    "AI604": {
+      "question": "What is this circuit used for? It is used ...",
+      "answer_a": "as a measuring head for aligning RF circuits.",
+      "answer_b": "as a high-impedance measuring head for a vector network analyser.",
+      "answer_c": "for measuring the resonant frequency with a frequency counter.",
+      "answer_d": "as a DC probe for setting the supply voltage accurately."
+    },
+    "AI603": {
+      "question": "A 50 Ω dummy load has a tap at 5 Ω from the earthed end. What could be used at this measuring point to determine the transmitter output power approximately?",
+      "answer_a": "A digital multimeter with an RF probe.",
+      "answer_b": "An SWR meter with a terminating resistor.",
+      "answer_c": "An SWR meter without a terminating resistor.",
+      "answer_d": "A 50 Ω dummy load with an additional RF attenuator."
+    },
+    "AI602": {
+      "question": "A dummy load has a measurement output that is connected internally to a peak rectifier. What is this measurement output used for? It is used ...",
+      "answer_a": "for indirect measurement of the RF power.",
+      "answer_b": "as a connection for an antenna preamplifier.",
+      "answer_c": "as a tap for an ALC control voltage for the transmitter output stage.",
+      "answer_d": "for readjusting the resistors in the dummy load."
+    },
+    "AI601": {
+      "question": "The diagram shows a dummy load built from 150 Ω / 1 W resistors. This combination of series and parallel connection gives approx. 50 Ω. How many resistors are needed for this construction, and what continuous power can this dummy load handle?",
+      "answer_a": "48 resistors, 48 W",
+      "answer_b": "48 resistors, 12 W",
+      "answer_c": "12 resistors, 48 W",
+      "answer_d": "16 resistors, 16 W"
+    },
+    "NI401": {
+      "question": "What is the difference between an oscillogram and an amplitude spectrum?",
+      "answer_a": "An oscillogram shows how a signal varies over time, and an amplitude spectrum shows its frequency components.",
+      "answer_b": "An oscillogram shows the frequency components of a signal, and an amplitude spectrum shows how it varies over time.",
+      "answer_c": "An oscillogram shows the voltage of a signal, and an amplitude spectrum shows its current.",
+      "answer_d": "An oscillogram shows the current of a signal, and an amplitude spectrum shows its voltage."
+    },
+    "AJ119": {
+      "question": "Which type of capacitor should preferably be used for RF decoupling? It is best to use ...",
+      "answer_a": "ceramic capacitors.",
+      "answer_b": "aluminium electrolytic capacitors.",
+      "answer_c": "tantalum capacitors.",
+      "answer_d": "polycarbonate capacitors."
+    },
+    "AJ118": {
+      "question": "Which of the following filters could be inserted at a mains lead to attenuate effectively the RF currents flowing on it?"
+    },
+    "AJ117": {
+      "question": "If it is shown that interference is entering equipment via the mains supply, it will probably be necessary ...",
+      "answer_a": "to fit a mains filter.",
+      "answer_b": "to replace the power supply unit.",
+      "answer_c": "to remove the earth and re-route the mains lead.",
+      "answer_d": "to notify the relevant electricity supplier."
+    },
+    "AJ116": {
+      "question": "A neighbour complains of interference to their television receiver; the interference also occurs, however, when the TV antenna is disconnected. The interference coincides in time with the radio amateur's transmissions. As a first step, ...",
+      "answer_a": "a mains filter should be fitted in the television set's mains lead, as close as possible to the set.",
+      "answer_b": "the television set and the transmitter should be checked by the Federal Network Agency (BNetzA).",
+      "answer_c": "the back of the television set should be removed and the case earthed.",
+      "answer_d": "the RTA's EMC officer should be asked to check the television set."
+    },
+    "AJ115": {
+      "question": "To prevent interference to broadcast reception (e.g. VHF FM, DAB, DVB-T) caused by common-mode currents, an alternative to a common-mode choke is ...",
+      "answer_a": "to fit an RF isolating transformer in the receiving antenna feeder.",
+      "answer_b": "to fit a low-pass filter after the transmitter output.",
+      "answer_c": "to fit a band-pass filter after the transmitter output.",
+      "answer_d": "to fit a series choke in the inner conductor of the receiving antenna feeder."
+    },
+    "AJ114": {
+      "question": "The insertion loss in the passband of a passive high-pass filter for a television antenna cable should be ...",
+      "answer_a": "at most 2 to 3 dB.",
+      "answer_b": "at most 10 to 15 dB.",
+      "answer_c": "at least 40 to 60 dB.",
+      "answer_d": "at least 80 to 100 dB."
+    },
+    "AJ113": {
+      "question": "The passive antenna of a DVB-T2 television receiver is located near a 144 MHz transmitter. The receiver is overloaded. The problem can be solved by fitting a ...",
+      "answer_a": "high-pass filter from 460 MHz in the television receiver's antenna feed cable.",
+      "answer_b": "low-pass filter up to 460 MHz in the television receiver's antenna feed cable.",
+      "answer_c": "band-pass filter for the 2 m band before the television receiver's tuner.",
+      "answer_d": "460 MHz notch filter after the television receiver's tuner."
+    },
+    "AJ112": {
+      "question": "In a case of interference, which filters should be inserted at the individual cable connections of a VHF FM, DAB and TV receiver or other connected equipment to attenuate HF signals?",
+      "answer_a": "A high-pass filter from 40 MHz at the antenna socket, and in addition a high-permeability ferrite choke at each cable connection of the affected equipment.",
+      "answer_b": "A low-pass filter up to 40 MHz directly at the antenna socket and another in the mains lead of the affected equipment.",
+      "answer_c": "A band-stop filter for the relevant receive ranges directly at the antenna socket, and a low-pass filter up to 40 MHz in the mains lead of the affected equipment.",
+      "answer_d": "A band-pass filter for 30 MHz with 2 MHz bandwidth directly at the antenna socket, and a low-pass filter up to 30 MHz in the mains lead of the affected equipment."
+    },
+    "AJ111": {
+      "question": "How can interference show itself in digital broadcast receivers (DAB+)?",
+      "answer_a": "The receiver produces noise and/or mutes.",
+      "answer_b": "The difference between the interfering signal frequency and the sampling frequency can be heard in the set's loudspeaker.",
+      "answer_c": "The volume of the broadcast reception varies very greatly.",
+      "answer_d": "Broadcast reception remains perfect, as the digital error correction eliminates all interference."
+    },
+    "AJ110": {
+      "question": "The signal of a VHF transmitter causes reception problems in a nearby DAB radio. One possible reason for this is ...",
+      "answer_a": "overloading of the DAB radio's receiver input.",
+      "answer_b": "the different polarisation of the VHF transmitting antenna and the DAB receiving antenna.",
+      "answer_c": "too large a deviation setting on the VHF transmitter.",
+      "answer_d": "insufficient harmonic suppression in the VHF transmitter."
+    },
+    "AJ109": {
+      "question": "An SSB transmitter on 432.2 MHz produces an effective radiated power of 1.8 kW ERP from a directional antenna pointed directly at the neighbour's DVB-T2 television antenna. This may lead ...",
+      "answer_a": "to overloading of the television set's input stage.",
+      "answer_b": "to the generation of parasitic oscillations.",
+      "answer_c": "to unwanted reflections of the transmitted signal.",
+      "answer_d": "to interference with the television set's IR remote control."
+    },
+    "AJ108": {
+      "question": "An unselective TV antenna amplifier is most likely to suffer interference ...",
+      "answer_a": "through overloading by the signal of a nearby transmitter.",
+      "answer_b": "because of effects via the mains when a nearby transmitter is operating.",
+      "answer_c": "through effects on the DC supply when a nearby transmitter is operating.",
+      "answer_d": "because its gain is too low when a nearby transmitter is operating."
+    },
+    "AJ107": {
+      "question": "Which modulation methods have the greatest potential to affect an AF amplifier with insufficient immunity?",
+      "answer_a": "Single-sideband modulation (SSB) and Morse telegraphy (CW).",
+      "answer_b": "Frequency modulation (FM) and frequency-shift keying (FSK).",
+      "answer_c": "Frequency-shift keying (FSK) and Morse telegraphy (CW).",
+      "answer_d": "Single-sideband modulation (SSB) and frequency modulation (FM)."
+    },
+    "AJ106": {
+      "question": "In an AF amplifier, unwanted rectification of an RF signal takes place mainly ...",
+      "answer_a": "at a base-emitter junction.",
+      "answer_b": "on the loudspeaker lead.",
+      "answer_c": "at the connection between two resistors.",
+      "answer_d": "on a copper wire."
+    },
+    "AJ105": {
+      "question": "A strong RF signal enters the IF stage of the neighbour's broadcast receiver directly. This phenomenon is called ...",
+      "answer_a": "direct pick-up.",
+      "answer_b": "direct absorption.",
+      "answer_c": "direct conversion.",
+      "answer_d": "RF breakdown."
+    },
+    "AJ104": {
+      "question": "To reduce the possibility of unwanted radiation with the help of a matched antenna system, it is advisable ...",
+      "answer_a": "to use an antenna tuner and/or a filter.",
+      "answer_b": "to operate with a high standing wave ratio.",
+      "answer_c": "to filter the mains voltage with a band-pass filter for the wanted frequency.",
+      "answer_d": "to use only vertically polarised antennas."
+    },
+    "AJ103": {
+      "question": "When a home-built digital radio receiver is in operation, its reception is considerably impaired. This can be improved if the printed circuit board ...",
+      "answer_a": "is housed in an earthed metal case.",
+      "answer_b": "is potted in epoxy resin.",
+      "answer_c": "is connected via plastic-insulated leads.",
+      "answer_d": "is housed in a plastic case."
+    },
+    "AJ102": {
+      "question": "In the frequency range used, an effective RF earth should ...",
+      "answer_a": "have a low impedance.",
+      "answer_b": "have a high reactance.",
+      "answer_c": "have a high impedance.",
+      "answer_d": "be inductively coupled."
+    },
+    "AJ101": {
+      "question": "To reduce the likelihood of interfering with other stations, the transmit power used should ...",
+      "answer_a": "be set to the minimum necessary for satisfactory communication.",
+      "answer_b": "be set to the maximum permitted level.",
+      "answer_c": "be set to the 750 W necessary for satisfactory communication.",
+      "answer_d": "be half the maximum permitted level."
+    },
+    "EJ124": {
+      "question": "Efforts to reduce television interference caused by a nearby amateur station have failed. The next step is ...",
+      "answer_a": "to ask the competent regional office of the Federal Network Agency (BNetzA) to examine the situation.",
+      "answer_b": "to send the transmitter to the Federal Network Agency (BNetzA).",
+      "answer_c": "to remove the back of the television set and earth the case.",
+      "answer_d": "to ask a qualified television technician to examine the television set."
+    },
+    "EJ123": {
+      "question": "When a 2 m transmitter is in operation, a neighbour's television receiver that is used with an indoor antenna suffers interference. To remedy the problem, ...",
+      "answer_a": "suggest to the neighbour that an outdoor television antenna be installed.",
+      "answer_b": "use a double-screened coaxial cable for the antenna lead.",
+      "answer_c": "insert a preamplifier in the antenna lead.",
+      "answer_d": "replace the television receiver."
+    },
+    "EJ122": {
+      "question": "Your neighbour complains about interference to their television reception and suspects your amateur radio transmissions as the cause. What is a sensible first step?",
+      "answer_a": "You check whether the interference coincides in time with your transmissions.",
+      "answer_b": "You check whether the neighbour has properly registered their television set.",
+      "answer_c": "You recommend that the television set be earthed by a local dealer.",
+      "answer_d": "You refer the neighbour to what internet streaming platforms offer."
+    },
+    "EJ121": {
+      "question": "A corroded connection on the neighbour's television receiving antenna can, together with ...",
+      "answer_a": "the signal of nearby transmitters, produce unwanted mixing products that interfere with television reception.",
+      "answer_b": "the oscillator signal of the television receiver, produce unwanted mixing products that interfere with television reception.",
+      "answer_c": "interference picked up from the mains, cause picture and sound interference through intermodulation.",
+      "answer_d": "the signal of nearby transmitters, generate parametric oscillations that cause an excessive wanted-signal level."
+    },
+    "EJ120": {
+      "question": "What reception effects are caused by intermodulation?",
+      "answer_a": "Phantom signals appear that disappear when one of the mixing frequencies involved is switched off.",
+      "answer_b": "The wanted signal is modulated with another signal and thus becomes more intelligible.",
+      "answer_c": "Phantom signals appear that do not disappear even when an attenuator is switched into the RF signal path.",
+      "answer_d": "A pulsating noise is superimposed on the received signal, impairing intelligibility."
+    },
+    "EJ119": {
+      "question": "The signals of a 144 MHz transmitter are induced into the coaxial antenna cable of a VHF FM/DAB broadcast receiver and cause interference. One way of reducing the interference is ...",
+      "answer_a": "to fit a common-mode choke in the cable ahead of the broadcast receiver.",
+      "answer_b": "to disconnect the transmitter's earth connection.",
+      "answer_c": "to disconnect the braid at the receiver's antenna plug.",
+      "answer_d": "to equip the 144 MHz transmitter with a low-pass filter."
+    },
+    "EJ118": {
+      "question": "A choke balun in a television antenna feed cable ...",
+      "answer_a": "suppresses common-mode RF interference signals.",
+      "answer_b": "suppresses low-frequency interference signals.",
+      "answer_c": "suppresses all AC signals.",
+      "answer_d": "suppresses mains hum."
+    },
+    "EJ117": {
+      "question": "When transmitting, an HF amateur station causes interference to a television receiver operated nearby. Which filter do you insert in the television antenna cable to reduce the likelihood of interference?"
+    },
+    "EJ116": {
+      "question": "A 28 MHz transmitter affects the receiver of a DVB-T2 television set via its antenna input. What should be inserted ahead of the television set's antenna input as a remedy?",
+      "answer_a": "A high-pass filter",
+      "answer_b": "A low-pass filter",
+      "answer_c": "A UHF attenuator",
+      "answer_d": "A UHF band-stop filter"
+    },
+    "EJ115": {
+      "question": "In a detached house, the door intercom suffers interference when a nearby transmitter is operating. One way of reducing the interference is ...",
+      "answer_a": "to use a screened connecting cable for the door intercom.",
+      "answer_b": "to double the length of the door intercom cable.",
+      "answer_c": "to use a cable with a smaller cross-section for the door intercom.",
+      "answer_d": "to use a cable with silver-plated copper wires for the door intercom."
+    },
+    "EJ114": {
+      "question": "Conducted pick-up into the AF output stage of the neighbour's hi-fi system has been found. A possible remedy would be ...",
+      "answer_a": "to use screened loudspeaker leads.",
+      "answer_b": "to insert an AF filter in the coaxial cable.",
+      "answer_c": "to fit a series capacitor in the loudspeaker lead.",
+      "answer_d": "to use a screened mains lead for the receiver."
+    },
+    "EJ113": {
+      "question": "How might noises from the loudspeakers of a switched-off stereo system come about?",
+      "answer_a": "Through rectification of strong RF signals in the AF output stage of the stereo system.",
+      "answer_b": "Through rectification, at the diodes of the power supply, of RF signals radiated into the mains.",
+      "answer_c": "Through rectification of radiated RF signals at PN junctions in the AF preamplifier.",
+      "answer_d": "Through overloading of the tuner by the RF signal picked up via the antenna lead."
+    },
+    "EJ112": {
+      "question": "Which device can suffer interference from the transmissions of an amateur radio transmitter?",
+      "answer_a": "Mains-powered LED lamp",
+      "answer_b": "Steam iron with a bimetallic thermostat",
+      "answer_c": "Vacuum cleaner with a commutator motor",
+      "answer_d": "Antenna rotator with an AC motor"
+    },
+    "EJ111": {
+      "question": "To reduce the likelihood of interference in your own home, it is best ...",
+      "answer_a": "to use a separate RF earth lead for transmitting antennas.",
+      "answer_b": "to put up transmitting antennas in the loft.",
+      "answer_c": "to connect the amateur radio equipment to a water pipe.",
+      "answer_d": "to earth the amateur radio equipment via the protective earth conductor."
+    },
+    "EJ110": {
+      "question": "A radio amateur lives in a terraced house. Where should a wire antenna for transmitting on the 80 m band be put up to avoid interference as far as possible?",
+      "answer_a": "Wire run at right angles to the row of houses",
+      "answer_b": "On the shared chimney next to the television antenna",
+      "answer_c": "Along the row of houses at the height of the gutter",
+      "answer_d": "Within the roof area if possible"
+    },
+    "EJ109": {
+      "question": "If an HF transmitting antenna is close to and parallel to a 230 V AC mains cable, ...",
+      "answer_a": "RF currents can be coupled into the mains.",
+      "answer_b": "harmonics can be generated.",
+      "answer_c": "considerable overvoltage could be generated in the mains.",
+      "answer_d": "50 Hz modulation of all signals can occur."
+    },
+    "EJ108": {
+      "question": "How should a screening enclosure for RF modules be designed?",
+      "answer_a": "Metal case, as fully enclosed as possible",
+      "answer_b": "Plastic case with a low relative permittivity",
+      "answer_c": "Sheet metal under the RF module",
+      "answer_d": "Plastic case with a high relative permittivity"
+    },
+    "EJ107": {
+      "question": "How can you tell that a receiver is being overloaded?",
+      "answer_a": "Loss of sensitivity",
+      "answer_b": "Increase in sensitivity",
+      "answer_c": "Whistles appearing across the whole tuning range",
+      "answer_d": "Temporary blocking of the frequency setting"
+    },
+    "EJ106": {
+      "question": "A high-gain 432 MHz transmitting antenna is pointed directly at a television receiving antenna. This may lead to ...",
+      "answer_a": "overloading of a TV receiver.",
+      "answer_b": "problems with the 432 MHz receiver.",
+      "answer_c": "self-oscillation of the 432 MHz transmitter.",
+      "answer_d": "breakdown of the TV antenna coaxial cable."
+    },
+    "EJ105": {
+      "question": "If you live in a densely populated area, it is advisable during the evening television hours ...",
+      "answer_a": "to transmit with no more power than is needed for reliable communication.",
+      "answer_b": "to transmit only with RMS power.",
+      "answer_c": "to transmit only with a high-gain directional antenna.",
+      "answer_d": "to lower the antenna below roof height."
+    },
+    "EJ104": {
+      "question": "To reduce the likelihood of interference, the transmit power used should ...",
+      "answer_a": "be set to the minimum necessary for satisfactory communication.",
+      "answer_b": "only be set to the permitted level.",
+      "answer_c": "be set to the 100 W necessary for satisfactory communication.",
+      "answer_d": "be half the maximum permitted level."
+    },
+    "EJ103": {
+      "question": "Even the transmission of the pure wanted signal can cause interference in nearby receivers to the reception of other frequencies. This is a case of ...",
+      "answer_a": "overloading or interference.",
+      "answer_b": "interference from unwanted emissions.",
+      "answer_c": "interference from unwanted spurious emissions.",
+      "answer_d": "interference that must be tolerated."
+    },
+    "EJ102": {
+      "question": "In EMC, when is it called radiated pick-up? Radiated pick-up occurs when the RF ...",
+      "answer_a": "reaches the electronics through the inadequately screened case.",
+      "answer_b": "reaches the affected equipment via leads or cables.",
+      "answer_c": "reaches the affected receiver via insufficiently screened cables.",
+      "answer_d": "radiates back to the transmitter because of a poor standing wave ratio."
+    },
+    "EJ101": {
+      "question": "When is it called conducted pick-up? Conducted pick-up occurs when RF ...",
+      "answer_a": "reaches a device via leads or cables.",
+      "answer_b": "reaches the electronics through the inadequately screened case.",
+      "answer_c": "is fed to the matching unit via insufficiently screened cables.",
+      "answer_d": "flows back to the transmitter because of a poor standing wave ratio."
+    },
+    "NJ102": {
+      "question": "What is the appropriate reaction if your neighbour complains about interference?",
+      "answer_a": "You politely offer to arrange for the necessary checks.",
+      "answer_b": "The neighbour should be told politely that the cause lies in their own equipment.",
+      "answer_c": "The neighbour should be told that this is not your responsibility.",
+      "answer_d": "You offer to notify the locally competent main customs office."
+    },
+    "NJ101": {
+      "question": "All equipment that carries RF currents should ...",
+      "answer_a": "be screened as well as possible.",
+      "answer_b": "not be earthed.",
+      "answer_c": "be earthed via the mains supply.",
+      "answer_d": "be protected by plastic covers."
+    },
+    "AJ225": {
+      "question": "What applies to unwanted emissions in the frequency range between 50 and 1000 MHz when transmitting? If the power of an unwanted emission ...",
+      "answer_a": "exceeds 0.25 μW, it should be attenuated by at least 60 dB relative to the maximum PEP of the transmitter.",
+      "answer_b": "exceeds 0.25 μW, it should be attenuated by at least 40 dB relative to the maximum PEP of the transmitter.",
+      "answer_c": "exceeds 1 μW, it should be attenuated by at least 60 dB relative to the maximum PEP of the transmitter.",
+      "answer_d": "exceeds 1 μW, it should be attenuated by at least 50 dB relative to the maximum PEP of the transmitter."
+    },
+    "AJ224": {
+      "question": "What applies to unwanted emissions in the frequency range between 1.7 and 35 MHz when transmitting? If the power of an unwanted emission ...",
+      "answer_a": "exceeds 0.25 μW, it should be attenuated by at least 40 dB relative to the maximum PEP of the transmitter.",
+      "answer_b": "exceeds 0.25 μW, it should be attenuated by at least 60 dB relative to the maximum PEP of the transmitter.",
+      "answer_c": "exceeds 1 μW, it should be attenuated by at least 60 dB relative to the maximum PEP of the transmitter.",
+      "answer_d": "exceeds 1 μW, it should be attenuated by at least 50 dB relative to the maximum PEP of the transmitter."
+    },
+    "AJ223": {
+      "question": "If AF signals are superimposed on the power supply of an RF output stage, this can produce an (additional) unwanted modulation of the transmit frequency. Which unwanted modulation is it?",
+      "answer_a": "AM",
+      "answer_b": "FM",
+      "answer_c": "NBFM",
+      "answer_d": "SSB"
+    },
+    "AJ222": {
+      "question": "Adding an interfering signal to the supply voltage of the transmitter output stage produces ...",
+      "answer_a": "AM.",
+      "answer_b": "FM.",
+      "answer_c": "NBFM.",
+      "answer_d": "PM."
+    },
+    "AJ221": {
+      "question": "The following pictures show possible waveforms of the transmitter output signal with CW keying. Which waveform causes the least interference?"
+    },
+    "AJ220": {
+      "question": "This modulation envelope of a CW transmitter should be avoided because ...",
+      "answer_a": "key clicks are likely to be produced.",
+      "answer_b": "problems could arise in the power amplifier during the gaps.",
+      "answer_c": "the transmitted signals are difficult to read.",
+      "answer_d": "the power supply is overloaded."
+    },
+    "AJ219": {
+      "question": "What happens if the microphone gain of an SSB transmitter has been set too high?",
+      "answer_a": "More spurious products of the transmit frequency are generated, which as unwanted emissions cause interference.",
+      "answer_b": "The DC component of the output signal increases, so that the efficiency of the transmitter falls.",
+      "answer_c": "More subharmonics of the transmit frequency are generated, which as unwanted emissions cause splatter on the adjacent frequencies.",
+      "answer_d": "More harmonics of the transmit frequency are generated, which as unwanted emissions cause splatter on the adjacent frequencies."
+    },
+    "AJ218": {
+      "question": "With which bias setting must the output stage of an SSB transmitter <u>not</u> be operated?",
+      "answer_a": "Class C operation",
+      "answer_b": "Class A operation",
+      "answer_c": "Class B operation",
+      "answer_d": "Class AB operation"
+    },
+    "AJ217": {
+      "question": "How can the generation of parasitic oscillations in a low-power VHF transmitter be effectively suppressed?",
+      "answer_a": "By slipping a ferrite bead onto the emitter lead of the output transistor.",
+      "answer_b": "By fitting a clip-on ferrite core to the microphone lead.",
+      "answer_c": "By gluing a ferrite bead onto the case of the output transistor.",
+      "answer_d": "By fitting a clip-on ferrite core to the power supply lead."
+    },
+    "AJ216": {
+      "question": "To reduce the risk of unwanted self-oscillation in RF circuits, ...",
+      "answer_a": "each stage should be well screened.",
+      "answer_b": "the screens of the individual stages should not be connected to each other.",
+      "answer_c": "the operating voltages should be fed to the individual stages through coaxial or twisted leads.",
+      "answer_d": "the complete circuit should be housed in a single metal case."
+    },
+    "AJ215": {
+      "question": "To reduce the likelihood of self-oscillation in a power amplifier, ...",
+      "answer_a": "the input and output circuits should be well decoupled from each other.",
+      "answer_b": "the amplifier output and the power supply unit should be built as far apart as possible.",
+      "answer_c": "the supply voltage should be fed through a mains filter.",
+      "answer_d": "no switch-mode power supply should be used."
+    },
+    "AJ214": {
+      "question": "In RF circuits, spurious resonances can be caused by the ...",
+      "answer_a": "self-resonance of the RF chokes.",
+      "answer_b": "power supply.",
+      "answer_c": "saturation of the cores of the RF inductors.",
+      "answer_d": "resistive property of a choke."
+    },
+    "AJ213": {
+      "question": "The output power indicator of an RF amplifier shows slight, erratic fluctuations during tuning. They may be caused by ...",
+      "answer_a": "parasitic oscillations.",
+      "answer_b": "ripple on the power supply.",
+      "answer_c": "temperature fluctuations in the power supply unit.",
+      "answer_d": "movements of the antenna caused by wind."
+    },
+    "AJ212": {
+      "question": "Parasitic oscillations can cause interference. One way of recognising these oscillations is that they ...",
+      "answer_a": "have no fixed relationship to the operating frequency.",
+      "answer_b": "occur at odd multiples of the operating frequency.",
+      "answer_c": "occur at even multiples of the operating frequency.",
+      "answer_d": "occur at integer multiples of the operating frequency."
+    },
+    "AJ211": {
+      "question": "How are unwanted mixing products from the mixer prevented from reaching the transmitter output stage?",
+      "answer_a": "The output signal of the mixer is coupled out through a band-pass filter.",
+      "answer_b": "The output signal of the mixer is coupled out through a high-pass filter.",
+      "answer_c": "The output signal of the mixer is coupled out through a broadband attenuator.",
+      "answer_d": "The output signal of the mixer is amplified by a linear class A driver stage."
+    },
+    "AJ210": {
+      "question": "What is used to limit effectively the radiation of a specific harmonic?",
+      "answer_a": "A rejector circuit at the transmitter output",
+      "answer_b": "A push-pull output stage",
+      "answer_c": "A high-pass filter at the transmitter output",
+      "answer_d": "A high-pass filter at the input of the transmitter output stage"
+    },
+    "AJ209": {
+      "question": "Which filter should be connected after a VHF transmitter to keep the unwanted emission of subharmonics and harmonics to a minimum?",
+      "answer_a": "Band-pass filter",
+      "answer_b": "Low-pass filter",
+      "answer_c": "High-pass filter",
+      "answer_d": "Notch filter"
+    },
+    "AJ208": {
+      "question": "The harmonics of a single-band transmitter are to be suppressed with an output filter. Which type of filter response is needed?"
+    },
+    "AJ207": {
+      "question": "What does the following waveform of the output voltage of a power amplifier indicate?",
+      "answer_a": "The amplifier is being overdriven and is generating harmonics.",
+      "answer_b": "Deviation limiting takes place ahead of the modulator.",
+      "answer_c": "The drive signal is too weak to drive the amplifier fully.",
+      "answer_d": "The protection diodes in the receive path are limiting the output signal."
+    },
+    "AJ206": {
+      "question": "On which frequencies can a 144.300 MHz SSB signal cause interference?",
+      "answer_a": "432.900 MHz and 1298.700 MHz",
+      "answer_b": "433.900 MHz and 1296.700 MHz",
+      "answer_c": "438.900 MHz and 1290.700 MHz",
+      "answer_d": "434.900 MHz and 1298.700 MHz"
+    },
+    "AJ205": {
+      "question": "The second odd harmonic of the frequency 144.690 MHz is ...",
+      "answer_a": "434.070 MHz.",
+      "answer_b": "289.380 MHz.",
+      "answer_c": "145.000 MHz.",
+      "answer_d": "723.450 MHz."
+    },
+    "AJ204": {
+      "question": "The third harmonic of a 29.5 MHz transmission falls in ...",
+      "answer_a": "the FM broadcast band.",
+      "answer_b": "the D-network (GSM) mobile phone band.",
+      "answer_c": "the VHF private mobile radio band.",
+      "answer_d": "the 2 m amateur band."
+    },
+    "AJ203": {
+      "question": "To what frequency would a receiver have to be tuned to detect the third overtone (Oberwelle) of a 7.20 MHz transmission?",
+      "answer_a": "28.80 MHz",
+      "answer_b": "21.60 MHz",
+      "answer_c": "36.00 MHz",
+      "answer_d": "14.40 MHz"
+    },
+    "AJ202": {
+      "question": "To what frequency would a receiver have to be tuned to detect the third harmonic of a nearby 7.050 MHz transmission?",
+      "answer_a": "21.150 MHz",
+      "answer_b": "14.100 MHz",
+      "answer_c": "35.250 MHz",
+      "answer_d": "28.200 MHz"
+    },
+    "AJ201": {
+      "question": "The second harmonic of the frequency 3.730 MHz is at ...",
+      "answer_a": "7.460 MHz.",
+      "answer_b": "1.865 MHz.",
+      "answer_c": "11.190 MHz.",
+      "answer_d": "5.730 MHz."
+    },
+    "EJ219": {
+      "question": "What should be done if, with digital modes, interference occurs because the automatic level control (ALC) of a transceiver intervenes in SSB mode?",
+      "answer_a": "The AF level at the input of the transceiver should be reduced.",
+      "answer_b": "The transmit power should be increased.",
+      "answer_c": "The harmonic filter should be switched off.",
+      "answer_d": "The RIT should be used to compensate."
+    },
+    "EJ218": {
+      "question": "With digital modes (e.g. FT8, JS8, PSK31), how should the AF level at the input of a transceiver with automatic level control (ALC) be set in SSB mode to avoid interference?",
+      "answer_a": "So low that the automatic level control (ALC) does not intervene.",
+      "answer_b": "18 dB higher than the volume at which the automatic level control (ALC) intervenes.",
+      "answer_c": "All controls are to be set to maximum.",
+      "answer_d": "The AF volume must be $-\\infty$ dB (i.e. zero)."
+    },
+    "EJ217": {
+      "question": "What can happen if, with digital modes (e.g. RTTY, FT8, Olivia), the automatic level control (ALC) of a transceiver intervenes in SSB mode?",
+      "answer_a": "Interference to transmissions on adjacent frequencies",
+      "answer_b": "Interference to computers or other digital equipment",
+      "answer_c": "Interference to stations on other frequency bands",
+      "answer_d": "Interference to subsequent transmissions on the same frequency"
+    },
+    "EJ216": {
+      "question": "What undesirable effect can poor frequency stability of a transmitter have?",
+      "answer_a": "Emissions outside the band edges",
+      "answer_b": "Flashovers in the transmitter output stage",
+      "answer_c": "Overloading of the transmitter output stage",
+      "answer_d": "Increased harmonic emissions within the band edges"
+    },
+    "EJ215": {
+      "question": "What does too high a microphone gain on an SSB transceiver usually cause?",
+      "answer_a": "Interference to stations operating on closely adjacent frequencies",
+      "answer_b": "Interference to stations operating on another frequency band",
+      "answer_c": "Interference to the power supply of the transceiver",
+      "answer_d": "Interference to other electronic equipment"
+    },
+    "EJ214": {
+      "question": "An SSB transmitter will cause interference on adjacent frequencies if ...",
+      "answer_a": "the power amplifier is overdriven.",
+      "answer_b": "the antenna cable is broken.",
+      "answer_c": "the drive to the AF stage is too low.",
+      "answer_d": "the antenna tuner is tuned incorrectly."
+    },
+    "EJ213": {
+      "question": "Overdriving a power amplifier leads to ...",
+      "answer_a": "a high proportion of spurious emissions.",
+      "answer_b": "only slight distortion at reception.",
+      "answer_c": "better intelligibility at the receiving location.",
+      "answer_d": "a reduction in output power."
+    },
+    "EJ212": {
+      "question": "You modulate your FM transmitter with an AFSK signal (audio frequency-shift keying). How can you reduce the bandwidth of the emission? By ...",
+      "answer_a": "lowering the AF level or the frequency deviation",
+      "answer_b": "raising the AF level or the frequency deviation",
+      "answer_c": "lowering the transmit power or the IF",
+      "answer_d": "raising the transmit power or the IF"
+    },
+    "EJ211": {
+      "question": "To limit any radio interference on adjacent frequencies, the highest audio frequency to be transmitted in SSB telephony should be ...",
+      "answer_a": "below 3 kHz.",
+      "answer_b": "below 1 kHz.",
+      "answer_c": "below 5 kHz.",
+      "answer_d": "below 10 kHz."
+    },
+    "EJ210": {
+      "question": "To minimise interference on adjacent frequencies, the transmission bandwidth for SSB should be ...",
+      "answer_a": "at most 2.7 kHz.",
+      "answer_b": "at most 1.8 kHz.",
+      "answer_c": "at most 3.1 kHz.",
+      "answer_d": "at most 15.0 kHz."
+    },
+    "EJ209": {
+      "question": "How is the power that leads to unwanted emissions measured?",
+      "answer_a": "The measurement is made at the transmitter output, including any SWR meter and any low-pass filter used.",
+      "answer_b": "The measurement is made at the feed point of the antenna used in operation, including any antenna tuning unit used.",
+      "answer_c": "The measurement is made at the output of the antenna feeder, including the antenna tuning unit used in operation.",
+      "answer_d": "The measurement is made at the transmitter output with a high-impedance RF probe and a connected transistor voltmeter."
+    },
+    "EJ208": {
+      "question": "Which filter response would be best suited to the output of an HF multiband transmitter?"
+    },
+    "EJ207": {
+      "question": "What response should a filter for reducing the harmonics of an HF transmitter have?"
+    },
+    "EJ206": {
+      "question": "Which circuit, inserted between the transmitter output and the antenna, would be best suited to reducing harmonic radiation?"
+    },
+    "EJ205": {
+      "question": "To minimise harmonic emissions from a UHF transmitter, ...",
+      "answer_a": "a low-pass filter should be connected after the equipment.",
+      "answer_b": "a high-pass filter should be connected after the equipment.",
+      "answer_c": "a band-stop filter should be connected before the equipment.",
+      "answer_d": "a notch filter should be connected before the equipment."
+    },
+    "EJ204": {
+      "question": "Which filter, inserted between the transmitter output and the antenna, would be best suited to reducing harmonic radiation?",
+      "answer_a": "A low-pass filter",
+      "answer_b": "A high-pass filter",
+      "answer_c": "An antenna filter",
+      "answer_d": "A rejector-circuit filter"
+    },
+    "EJ203": {
+      "question": "What kind of filter must be inserted between the transceiver and the antenna feeder to reduce harmonics?",
+      "answer_a": "Low-pass filter",
+      "answer_b": "High-pass filter",
+      "answer_c": "CW filter",
+      "answer_d": "AF filter"
+    },
+    "EJ202": {
+      "question": "How can RF interference caused by harmonics be reduced? It can be reduced by ...",
+      "answer_a": "a harmonic filter.",
+      "answer_b": "an adjacent-channel filter.",
+      "answer_c": "an IF filter.",
+      "answer_d": "a high-pass filter."
+    },
+    "EJ201": {
+      "question": "What waveform should the carrier of an RF oscillation have to avoid interference from harmonics?",
+      "answer_a": "Sinusoidal",
+      "answer_b": "Square",
+      "answer_c": "Triangular",
+      "answer_d": "Circular"
+    },
+    "NJ202": {
+      "question": "How do you avoid interfering with other radio communication when aligning your home-built transmitter?",
+      "answer_a": "I use a suitable dummy load.",
+      "answer_b": "I carry out the tuning on a so-called ISM frequency.",
+      "answer_c": "I transmit only at half power.",
+      "answer_d": "I try to avoid unnecessary modulation."
+    },
+    "NJ201": {
+      "question": "A transmitter should be operated in such a way that ...",
+      "answer_a": "it does not cause any unwanted emissions.",
+      "answer_b": "self-excitation is maximised.",
+      "answer_c": "parasitic oscillations are present.",
+      "answer_d": "the harmonic screening is minimised."
+    },
+    "NK102": {
+      "question": "To optimise an amateur station with regard to EMC, ...",
+      "answer_a": "all equipment should be provided with a good RF earth.",
+      "answer_b": "the transmitter should be connected to the water pipe in the house.",
+      "answer_c": "all high-impedance earth connections should be removed.",
+      "answer_d": "the transmitter should be connected to the waste-water pipe in the house."
+    },
+    "NK101": {
+      "question": "With regard to EMC, RF stages should ...",
+      "answer_a": "be well screened.",
+      "answer_b": "be given a specially screened chassis lead.",
+      "answer_c": "be wrapped in plastic.",
+      "answer_d": "contain only capacitive output coupling."
+    },
+    "AK115": {
+      "question": "An amateur station transmits FM with an effective radiated power (ERP) of 100 W. What is the field strength in free space at a distance of 100 m?",
+      "answer_a": "0.7 V/m",
+      "answer_b": "0.5 V/m",
+      "answer_c": "0.43 V/m",
+      "answer_d": "0.55 V/m"
+    },
+    "AK114": {
+      "question": "A vertical dipole antenna is fed directly with 10 W transmit power on the 70 cm band. Approximately what electric field strength results with free-space propagation at a distance of 10 m?",
+      "answer_a": "2.2 V/m",
+      "answer_b": "8.9 V/m",
+      "answer_c": "0.4 V/m",
+      "answer_d": "1.7 V/m"
+    },
+    "AK113": {
+      "question": "A Yagi-Uda antenna with an antenna gain of 12.15 dBi is fed directly with 250 W transmit power on the 2 m band. Approximately what electric field strength results with free-space propagation at a distance of 30 m?",
+      "answer_a": "11.7 V/m",
+      "answer_b": "9.1 V/m",
+      "answer_c": "15.0 V/m",
+      "answer_d": "10.1 V/m"
+    },
+    "AK112": {
+      "question": "You want to calculate the safety distance for the protection of persons for the 13 cm band with FM as the modulation method. The limit for the protection of persons is 61 V/m. You are using a parabolic dish with a gain of 18 dBd. The antenna is fed by a transmitter with a power of 40 W via a foam PE cable with a solid screen and a loss of 2 dB. What must the safety distance for the protection of persons be in the direction of maximum radiation?",
+      "answer_a": "4.6 m",
+      "answer_b": "5.8 m",
+      "answer_c": "14.5 m",
+      "answer_d": "3.6 m"
+    },
+    "AK111": {
+      "question": "You want to calculate the safety distance for the protection of persons for the antenna of your amateur station for the 2 m band with FM as the modulation method. The limit for the protection of persons is 28 V/m. You are using a Yagi-Uda antenna with a gain of 10.5 dBd. The antenna is fed by a transmitter with a power of 100 W via a coaxial cable. The cable loss is 1.5 dB. What is the safety distance?",
+      "answer_a": "7.1 m",
+      "answer_b": "6.6 m",
+      "answer_c": "8.4 m",
+      "answer_d": "5.6 m"
+    },
+    "AK110": {
+      "question": "You want to calculate the safety distance for the protection of persons for the antenna of your amateur station in the direction of maximum radiation for the 2 m band with FM as the modulation method. The limit for the protection of persons is 28 V/m. You are using a Yagi-Uda antenna with a gain of $11.5$ dBd. The antenna is fed by a transmitter with a power of 75 W via a coaxial cable. The cable loss is 1.5 dB. What must the safety distance be?",
+      "answer_a": "6.86 m",
+      "answer_b": "5.35 m",
+      "answer_c": "2.17 m",
+      "answer_d": "22.09 m"
+    },
+    "AK109": {
+      "question": "You want to calculate the safety distance for the protection of persons for the antenna of your amateur station for the 20 m band with RTTY as the transmission method. The limit for the protection of persons is 28 V/m. You are using a dipole fed by a transmitter with a power of 700 W via a coaxial cable. The cable loss is 0.5 dB. What is the safety distance?",
+      "answer_a": "6.26 m",
+      "answer_b": "7.36 m",
+      "answer_c": "4.87 m",
+      "answer_d": "5.62 m"
+    },
+    "AK108": {
+      "question": "You want to calculate the safety distance for the protection of persons for the antenna of your amateur station for the 20 m band with RTTY as the transmission method. The limit for the protection of persons is 28 V/m. You are using a dipole fed by a transmitter with a power of 300 W via a coaxial cable. The cable loss is 0.5 dB. What is the safety distance?",
+      "answer_a": "4.10 m",
+      "answer_b": "4.97 m",
+      "answer_c": "3.20 m",
+      "answer_d": "2.39 m"
+    },
+    "AK107": {
+      "question": "You operate an amateur station on the 2 m band in FM with an omnidirectional antenna with a gain of 6 dB relative to a dipole. Neglecting the cable loss, what is the maximum permitted output power of your transmitter if the limit for the protection of persons is 28 V/m and the available safety distance is 5 m?",
+      "answer_a": "Approx. 100 W",
+      "answer_b": "Approx. 75 W",
+      "answer_c": "Approx. 160 W",
+      "answer_d": "Approx. 265 W"
+    },
+    "AK106": {
+      "question": "You want to calculate the safety distance for the protection of persons for the antenna of your amateur station for the 10 m band with RTTY as the transmission method. The limit for the protection of persons is 28 V/m. You are using a dipole fed by a transmitter with a power of 100 W via a coaxial cable. The cable loss is negligible. What must the safety distance be?",
+      "answer_a": "2.50 m",
+      "answer_b": "1.96 m",
+      "answer_c": "5.01 m",
+      "answer_d": "13.7 m"
+    },
+    "AK105": {
+      "question": "At the top of your antenna mast there is a Yagi-Uda antenna whose safety distance in the direction of maximum radiation is 20 m. Diagonally below this antenna there is an area that is not controllable. You determine a critical angle of 40 °. At this angle, the vertical radiation pattern of the antenna shows an attenuation of 6 dB. To what value is the calculated safety distance at 40 ° then reduced?",
+      "answer_a": "It is reduced to 10 m.",
+      "answer_b": "It is reduced to 3.33 m.",
+      "answer_c": "It is reduced to 5.02 m.",
+      "answer_d": "It is not reduced."
+    },
+    "AK104": {
+      "question": "How do you calculate the power at the feed point of the antenna (power at the antenna input) when the transmitter output power is known?",
+      "answer_a": "You determine the losses between the transmitter output and the antenna input and from this attenuation calculate an attenuation factor $D$; the power at the antenna input is then: $P_{\\textrm{Ant}} = D\\cdot P_{\\textrm{Sender}}$",
+      "answer_b": "The power at the antenna input and the transmitter output power are the same, because cable losses at amateur stations are negligibly small, i.e.: $P_{\\textrm{Ant}} = P_{\\textrm{Sender}}$",
+      "answer_c": "The power at the antenna input is the peak value of the transmitter output power, i.e.: $P_{\\textrm{Ant}} = \\sqrt{2\\cdot P_{\\textrm{Sender}}}$",
+      "answer_d": "The power at the antenna input is the peak-to-peak value of the transmitter output power, i.e.: $P_{\\textrm{Ant}} = 2\\cdot\\sqrt{2\\cdot P_{\\textrm{Sender}}}$"
+    },
+    "AK103": {
+      "question": "In which case is the following formula for calculating the safety distance valid, and what should you do if its validity is no longer ensured? \\[d = \\frac{\\sqrt{30 Ohm\\cdot P_{\\textrm{EIRP}}}}{E}\\]",
+      "answer_a": "For most antenna types (e.g. dipole antennas), the formula applies only to distances $d > \\frac{\\lambda}{2\\cdot\\pi}$. For antennas that are, for example, geometrically small compared with the wavelength, and/or at shorter distances from the antenna, the safety distance must be determined, for example, by field-strength measurements or near-field calculations (simulations).",
+      "answer_b": "Around amateur stations the difference between the near field and the far field is so small that the formula above, which strictly applies only in the far field, can nevertheless be used for all regions of space.",
+      "answer_c": "For horizontally polarised antennas, the formula applies only to distances $d > \\frac{\\lambda}{2\\cdot\\pi}$.\nAt shorter distances, and always for vertically polarised antennas, the safety distance must be determined, for example, by field-strength measurements or near-field calculations (simulations).",
+      "answer_d": "For vertically polarised antennas, the formula applies only to distances $d > \\frac{\\lambda}{2\\cdot\\pi}$.\nAt shorter distances, and always for horizontally polarised antennas, the safety distance must be determined, for example, by field-strength measurements or near-field calculations (simulations)."
+    },
+    "AK102": {
+      "question": "Which quantity links the magnitudes of the electric and the magnetic field strength of an electromagnetic field in the far field?",
+      "answer_a": "The wave impedance of the medium concerned",
+      "answer_b": "The mounting height of the antenna",
+      "answer_c": "The propagation conditions in the ionosphere",
+      "answer_d": "The direction of polarisation of the antenna used"
+    },
+    "AK101": {
+      "question": "Why is no simple conversion between the field quantities E and H, and therefore no simplified calculation of the safety distance, possible in the near field of a source of radiation?",
+      "answer_a": "Because in the near field the electric and the magnetic field strength have no constant phase relationship to each other.",
+      "answer_b": "Because in the near field the electric and the magnetic field strength are always perpendicular to each other and have a phase difference of 90 °.",
+      "answer_c": "Because in the near field the electric and the magnetic field strength are not perpendicular to the direction of propagation and, owing to the influence of the earth's surface, have a phase difference of more than 180 °.",
+      "answer_d": "Because in the near field the electric and the magnetic field strength are not exactly perpendicular to each other, and the imperfect conductivity of the ground at the transmitter site changes the impedance of free space."
+    },
+    "EK108": {
+      "question": "You want to calculate the safety distance for the protection of persons for the antenna of your amateur station for the 10 m band with FM as the modulation method. The limit for the protection of persons is 28 V/m. You are using a Yagi-Uda antenna with a gain of $7.5$ dBd. The antenna is fed by a transmitter with a power of 100 W via a long coaxial cable. The cable loss is 1.5 dB. What must the safety distance be?",
+      "answer_a": "5.0 m",
+      "answer_b": "3.9 m",
+      "answer_c": "2.5 m",
+      "answer_d": "20.7 m"
+    },
+    "EK107": {
+      "question": "You calculate a safety distance for your antenna. From which point must this safety distance be maintained if you used the far-field approximation in the calculation? It must be maintained ...",
+      "answer_a": "from every point of the antenna.",
+      "answer_b": "from the feed point of the antenna.",
+      "answer_c": "from the centre of the antenna, i.e. where it is fixed to the mast.",
+      "answer_d": "from the lowest point of the antenna."
+    },
+    "EK106": {
+      "question": "When is the calculation of the safety distance for the protection of persons with the far-field approximation formula invalid on the 160 m and 80 m bands? The calculation is invalid if the result is less than ...",
+      "answer_a": "160 m band: 25.5 m, 80 m band: 12.7 m",
+      "answer_b": "160 m band: 51.0 m, 80 m band: 25.4 m",
+      "answer_c": "160 m band: 12.8 m, 80 m band: 6.4 m",
+      "answer_d": "160 m band: 640 m, 80 m band: 320 m"
+    },
+    "EK105": {
+      "question": "You want to determine the safety distance for the protection of persons for your new, permanently installed half-wave dipole for the 80 m band (3.5–3.8 MHz). At 100 W transmit power, you use the far-field approximation formula to calculate a required distance of 3.65 m. Is this safety distance valid?",
+      "answer_a": "The calculated distance is invalid because it lies in the reactive near field of the antenna; it must therefore be determined by other methods, such as measurements of the E- and H-field components, simulations or near-field calculations.",
+      "answer_b": "The calculated safety distance for the protection of persons is valid, because calculations with the far-field approximation formula are sufficiently accurate in amateur radio.",
+      "answer_c": "The calculated safety distance for the protection of persons must first be multiplied by a safety margin ($\\sqrt{2}$).",
+      "answer_d": "The calculated safety distance for the protection of persons is accepted, provided the Federal Network Agency (BNetzA) raises no objection to the \"Notification of fixed amateur radio installations\" under Section 9 BEMFV, which must be submitted before putting into service."
+    },
+    "EK104": {
+      "question": "Does a radio amateur who operates a fixed amateur station have to demonstrate compliance with the limits for the protection of persons when using FM telephony with a transmit power of 6 W into a 15-element Yagi-Uda antenna with a gain of 13 dBd on the 2 m band?",
+      "answer_a": "Yes, in this case the radio amateur is obliged to demonstrate compliance with the limits for the protection of persons.",
+      "answer_b": "No, the radio amateur only has to ensure the protection of persons in electromagnetic fields at a radiated power of more than 10 W EIRP.",
+      "answer_c": "Yes, for fixed amateur stations compliance with the limits for the protection of persons must be demonstrated in every case.",
+      "answer_d": "No, with FM telephony and transmitting times of less than 6 minutes per hour the radio amateur may disregard the protection of persons in electromagnetic fields."
+    },
+    "EK103": {
+      "question": "For the protection of persons in electromagnetic fields, limits for active implants must also be observed in certain cases. With what time reference is the field strength to be considered here?",
+      "answer_a": "As the maximum instantaneous value",
+      "answer_b": "As the minimum instantaneous value",
+      "answer_c": "As the RMS value averaged over 6 minutes",
+      "answer_d": "As the RMS value averaged over 3 minutes"
+    },
+    "EK102": {
+      "question": "With what time reference is the field strength to be considered for compliance with the limits of the 26th Ordinance implementing the Federal Immission Control Act (Ordinance on Electromagnetic Fields – 26. BImSchV)?",
+      "answer_a": "As the RMS value averaged over 6 minutes for limits under Annex 1b, as a short-term RMS value for limits under Annex 1a, and as an instantaneous peak value for limits under Annex 3",
+      "answer_b": "As the RMS value averaged over 3 minutes for limits under Annex 1b, as a short-term RMS value for limits under Annex 1a, and as an instantaneous peak value for limits under Annex 3",
+      "answer_c": "As maximum instantaneous values during the day, and as the RMS value averaged over 6 minutes during the night-time hours between nightfall and sunrise",
+      "answer_d": "As maximum instantaneous values during the day, and as the RMS value averaged over 3 minutes during the night-time hours between nightfall and sunrise"
+    },
+    "EK101": {
+      "question": "The field-strength limits for the protection of persons in electromagnetic fields depend on the frequency because ...",
+      "answer_a": "the ability of the body to absorb RF radiation depends on the frequency.",
+      "answer_b": "low-frequency electromagnetic fields carry more energy than high-frequency ones.",
+      "answer_c": "different transmit powers are permitted on the amateur bands.",
+      "answer_d": "the specific absorption rate cannot be measured at some frequencies."
+    },
+    "NK201": {
+      "question": "Why must a radio amateur have knowledge of the protection of persons in electromagnetic fields?",
+      "answer_a": "Because excessive field strengths near antennas can harm the human body.",
+      "answer_b": "So that the transmitter can be optimally matched to the antenna.",
+      "answer_c": "So as to be able to act as a first aider in an electrical accident.",
+      "answer_d": "Because a site certificate from the Federal Network Agency (BNetzA) would not be valid for this."
+    },
+    "AK204": {
+      "question": "From what transmit power upwards can there be a risk of injury from RF voltages on transmitting antennas?",
+      "answer_a": "Even at low transmit powers of a few watts",
+      "answer_b": "On HF from 100 W, on VHF/UHF from 50 W",
+      "answer_c": "At transmit powers above 100 W",
+      "answer_d": "At transmit powers above 500 W"
+    },
+    "AK203": {
+      "question": "Your 400 W HF transmitter is connected through a separate earthing conductor to the equipotential bonding of your house. When transmitting, you find that on certain bands the transmitter case is \"hot\", i.e. there is RF voltage of noticeable amplitude on the case of the equipment. What can be the cause?",
+      "answer_a": "The length of the earth lead is approximately a quarter of the wavelength of the transmit frequency or an odd multiple of it.",
+      "answer_b": "The copper earth lead used is not silver-plated and is therefore not suitable for carrying RF away well.",
+      "answer_c": "The length of the earth lead is approximately half the wavelength of the transmit frequency or multiples of it.",
+      "answer_d": "A solid conductor was used for the earth lead instead of a stranded flexible wire, which is better suited to RF."
+    },
+    "AK202": {
+      "question": "Why should all the equipotential bonding terminals of the equipment in an amateur station be connected together with as low a resistance as possible?",
+      "answer_a": "For the protection of persons",
+      "answer_b": "To limit short-circuit currents in the event of equipment faults",
+      "answer_c": "To avoid damage to equipment from overvoltages",
+      "answer_d": "For balancing with antennas fed by open-wire line"
+    },
+    "AK201": {
+      "question": "When troubleshooting a faulty transmitter output stage, for safety reasons the equipment should be disconnected from the mains before repair work begins, and the power supply capacitors ...",
+      "answer_a": "permanently discharged through a high-value resistor with an adequate power rating.",
+      "answer_b": "immediately and completely discharged through a very low-value resistor (< 1 Ω / 0.5 W).",
+      "answer_c": "safely discharged by short-circuiting them through an ammeter.",
+      "answer_d": "only touched after a waiting time of approx. two minutes."
+    },
+    "EK211": {
+      "question": "Under what conditions may the mast of an amateur radio antenna on a building be connected to the building's own lightning protection system?",
+      "answer_a": "If a lightning protection specialist provides for the connection of the amateur antenna mast to the lightning protection system in the lightning protection concept.",
+      "answer_b": "Under the applicable regulations, the amateur antenna mast must be connected to a building lightning protection system.",
+      "answer_c": "Under the applicable regulations, a separate lightning protection system must always be set up for the amateur radio antenna.",
+      "answer_d": "If a copper conductor with a sufficiently large cross-section is used for the connecting lead."
+    },
+    "EK210": {
+      "question": "Which material and minimum cross-section can be used, for example, for an earthing conductor between an antenna mast and an earthing system according to VDE 0855-300?",
+      "answer_a": "Single solid wire of copper (16 mm²), aluminium (25 mm²) or steel (50 mm²).",
+      "answer_b": "Single solid wire of copper (16 mm²), aluminium (25 mm²) or steel (25 mm²).",
+      "answer_c": "Solid or stranded – but not fine-stranded – conductor of copper (10 mm²) or aluminium (16 mm²).",
+      "answer_d": "Solid or stranded – but not fine-stranded – conductor of copper (4 mm²) or aluminium (10 mm²)."
+    },
+    "EK209": {
+      "question": "Under what conditions may a building earthing system be used for earthing the antenna?",
+      "answer_a": "Any building earthing system may be used.",
+      "answer_b": "A separate earthing system, independent of the building earthing system, must be set up for each antenna.",
+      "answer_c": "If the building earth has been approved by the inspection and measurement service of the Federal Network Agency (BNetzA).",
+      "answer_d": "The antenna installation must not extend beyond the area enclosed by the building earthing system."
+    },
+    "EK208": {
+      "question": "What measures must be taken with coaxial cables to prevent voltage differences, for the protection of persons?",
+      "answer_a": "The screens of all antenna coaxial cables must be connected to each other and to the main earthing terminal.",
+      "answer_b": "Surge arresters must be provided for all antenna coaxial cables.",
+      "answer_c": "Apart from earthing the antenna mast, no further measures are necessary.",
+      "answer_d": "The coaxial cables must have a screening attenuation of at least 40 dB."
+    },
+    "EK207": {
+      "question": "How can electrostatic charges, which can occur particularly with unearthed wire antennas, be effectively prevented without impairing the function of the radio installation?",
+      "answer_a": "By high-value bleeder resistors between the terminals at the antenna and the earth terminal of the amateur station.",
+      "answer_b": "By low-value bleeder resistors between the terminals at the antenna and the earth terminal of the amateur station.",
+      "answer_c": "Inserting a matching unit between the transceiver and the antenna neutralises the charges.",
+      "answer_d": "By means of the decoupling capacitors in an SWR meter connected in between."
+    },
+    "EK206": {
+      "question": "What particular safety aspect must be considered specifically with unearthed wire antennas?",
+      "answer_a": "Even rain or hail can cause the antenna to become electrically charged.",
+      "answer_b": "The transmit power produces high voltages to earth, which call for thicker insulation on the antenna wire.",
+      "answer_c": "Solar storms produce electrical charges that can generate high voltages.",
+      "answer_d": "Because of the missing earth and the current maximum at the feed point, the centre insulator can overheat and melt."
+    },
+    "EK205": {
+      "question": "Select the standard core identification colours of 3-core insulated power cables, in the order: protective earth conductor, line conductor, neutral conductor.",
+      "answer_a": "green-yellow, brown, blue",
+      "answer_b": "brown, green-yellow, blue",
+      "answer_c": "grey, black, red",
+      "answer_d": "green-yellow, blue, brown or black"
+    },
+    "EK204": {
+      "question": "You have just successfully repaired a short circuit in the power supply of your HF transmitter. The fault also destroyed the miniature fuse for the power supply, marked 20 A \"fast-acting\". When replacing this fuse, ...",
+      "answer_a": "a fuse with the same current rating and the same tripping characteristic should be fitted.",
+      "answer_b": "a fuse with the tripping characteristic \"medium time-lag\" or \"time-lag\" may also be fitted, provided the current rating is the same.",
+      "answer_c": "the current rating may also be greater than 20 A, but a fuse with the tripping characteristic \"fast-acting\" must be fitted.",
+      "answer_d": "a wire link made of thin copper wire may also be fitted as a substitute."
+    },
+    "EK203": {
+      "question": "What dangers must be expected when opening radio or other electrically operated equipment that has been disconnected from the mains?",
+      "answer_a": "Electric shock from charged capacitors in the power supply.",
+      "answer_b": "Electric shock from charges in the mains transformer.",
+      "answer_c": "No danger, as the equipment has been disconnected from the power supply beforehand.",
+      "answer_d": "Voltages considerably higher than the applied supply voltage can be stored in the storage choke of a switch-mode power supply."
+    },
+    "EK202": {
+      "question": "What possible dangers are there in touching antennas that are being used for transmitting?",
+      "answer_a": "Injuries and burns from RF voltages.",
+      "answer_b": "None, because the \"skin effect\" prevents current from flowing through the human body.",
+      "answer_c": "None, provided the antenna is properly connected to earth through a lightning protection system.",
+      "answer_d": "Electric shock from the DC supply of the transmitter output stage, which is present directly at the antenna output."
+    },
+    "EK201": {
+      "question": "What must be observed in particular for safety reasons when working with microwaves?",
+      "answer_a": "Staying in the direct beam of transmitting antennas must be avoided.",
+      "answer_b": "The duty cycle of the transmitter should not exceed 50 %.",
+      "answer_c": "Headgear made of screening foil (e.g. aluminium) must be worn.",
+      "answer_d": "EMC protective clothing must be worn for the protection of persons."
+    },
+    "NK311": {
+      "question": "What must be observed in particular when installing outdoor antennas?",
+      "answer_a": "In the event of damage, parts and cables that topple over or fall down must not touch any power lines.",
+      "answer_b": "Storm insurance must be taken out for the antenna.",
+      "answer_c": "The operator's contact details must be visibly displayed on the antenna.",
+      "answer_d": "A lateral distance of 8 m must be kept from neighbouring power lines."
+    },
+    "NK310": {
+      "question": "From a radio engineering point of view, where should a mobile VHF antenna preferably be installed on a car?",
+      "answer_a": "In the middle of the metal roof",
+      "answer_b": "On the rear bumper",
+      "answer_c": "On the front wing",
+      "answer_d": "On the dashboard"
+    },
+    "NK309": {
+      "question": "To prevent interference with the electronics of the motor vehicle, the antenna cable should ...",
+      "answer_a": "be routed as far as possible from the vehicle wiring and not parallel to it.",
+      "answer_b": "be run in the wiring harness of the motor vehicle.",
+      "answer_c": "be routed over the vehicle roof.",
+      "answer_d": "be routed along the inside of the engine compartment."
+    },
+    "NK308": {
+      "question": "So that the road approval of a motor vehicle does not become invalid, before mobile transmitting/receiving equipment is installed, the instructions ...",
+      "answer_a": "of the vehicle manufacturer must always be observed.",
+      "answer_b": "of the Federal Network Agency (BNetzA) for the installation of mobile transmitting equipment must always be complied with.",
+      "answer_c": "of the Federal Motor Transport Authority (Kraftfahrt-Bundesamt) must always be complied with.",
+      "answer_d": "of the amateur radio equipment manufacturer must always be observed."
+    },
+    "NK307": {
+      "question": "What dangers can arise from incorrectly connecting a radio to the 12 V battery in a motor vehicle?",
+      "answer_a": "Arcing and vehicle fire",
+      "answer_b": "Electric shock from flashovers from the ignition coil",
+      "answer_c": "Overloading of the transmitter output stage in the radio from too high a supply voltage",
+      "answer_d": "None, as the 12 V DC from the vehicle battery is harmless to people"
+    },
+    "NK306": {
+      "question": "What dangers does the user face from improper handling of rechargeable batteries?",
+      "answer_a": "Burns, chemical burns, poisoning",
+      "answer_b": "Overcurrent, undervoltage, reduction in power",
+      "answer_c": "Chemical burns, voltage fluctuations, increase in quiescent current",
+      "answer_d": "Increase in internal resistance, voltage fluctuations, reduction in power"
+    },
+    "NK305": {
+      "question": "Miniature fuses in the supply leads of electrical equipment protect the equipment or circuit concerned in the event of short circuits. When replacing a blown fuse, ...",
+      "answer_a": "a type with the same current rating and the same tripping characteristic must be fitted.",
+      "answer_b": "a porcelain fuse must not be replaced by a glass fuse, or vice versa.",
+      "answer_c": "the faulty fuse should be bridged with aluminium foil during troubleshooting, so that the fault can be found quickly.",
+      "answer_d": "a replacement type with up to five times the tripping current is permitted."
+    },
+    "NK304": {
+      "question": "What action must be taken after an electrical accident in which current has flowed through the body (electric shock)?",
+      "answer_a": "A doctor must be consulted, because cardiac arrhythmias and ventricular fibrillation can still occur many hours after an electric shock.",
+      "answer_b": "People who have suffered an electric shock must be placed in the recovery position immediately.",
+      "answer_c": "If the casualty feels well, no action is necessary.",
+      "answer_d": "After an electric shock from alternating current (AC) a doctor must be consulted; after an electric shock from direct current (DC) no doctor is needed."
+    },
+    "NK303": {
+      "question": "What dangerous consequences can a current flowing through the body cause?",
+      "answer_a": "Burns, muscle cramps, cardiac arrhythmias",
+      "answer_b": "Chemical burns, muscle inflammation, palpitations",
+      "answer_c": "Scalds, sore muscles, breathing difficulties",
+      "answer_d": "Internal boiling, muscle twitching, cardiac asthma"
+    },
+    "NK302": {
+      "question": "The greatest hazards from electric current are, in particular, ...",
+      "answer_a": "current flowing through the body, arc faults, secondary accidents",
+      "answer_b": "electric shock, short circuits, blowing of fuses",
+      "answer_c": "electrical accidents, voltage drops, accidents caused by being startled",
+      "answer_d": "flashes of light, current peaks, consequential damage from fainting"
+    },
+    "NK301": {
+      "question": "Above what level can touching AC voltage and DC voltage be life-threatening for an adult?",
+      "answer_a": "50 V (AC), 120 V (DC)",
+      "answer_b": "20 V (AC), 60 V (DC)",
+      "answer_c": "100 V (AC), 140 V (DC)",
+      "answer_d": "75 V (AC), 150 V (DC)"
+    },
+    "BA110": {
+      "question": "How is the call sign \"IG9/DL4HR\" spelt using the international phonetic alphabet?",
+      "answer_a": "India Golf 9 Stroke Delta Lima 4 Hotel Romeo",
+      "answer_b": "India Guatemala 9 Stroke Delta Lima 4 Honolulu Romeo",
+      "answer_c": "Italy Golf 9 Stroke Delta Lima 4 Honolulu Romeo",
+      "answer_d": "Italy Guatemala 9 Stroke Delta Lima 4 Hotel Romeo"
+    },
+    "BA109": {
+      "question": "How is the call sign \"DO9XJZ\" spelt using the international phonetic alphabet?",
+      "answer_a": "Delta Oscar 9 X-ray Juliett Zulu",
+      "answer_b": "Delta Oscar 9 X-ray Japan Zebra",
+      "answer_c": "Delta Oscar 9 Xavier Juliett Zebra",
+      "answer_d": "Delta Oscar 9 Xavier Japan Zulu"
+    },
+    "BA108": {
+      "question": "How is the call sign \"DN9STV\" spelt using the international phonetic alphabet?",
+      "answer_a": "Delta November 9 Sierra Tango Victor",
+      "answer_b": "Delta November 9 Sierra Texas Vulcano",
+      "answer_c": "Delta November 9 Santiago Tango Vulcano",
+      "answer_d": "Delta November 9 Santiago Texas Victor"
+    },
+    "BA107": {
+      "question": "How is the call sign \"DN9RO/p\" spelt using the international phonetic alphabet?",
+      "answer_a": "Delta November 9 Romeo Oscar Stroke portable",
+      "answer_b": "Delta November 9 Radio Oslo Stroke portable",
+      "answer_c": "Delta Nordpol 9 Radio Oslo Stroke portable",
+      "answer_d": "Delta Nordpol 9 Romeo Oscar Stroke portable"
+    },
+    "BA106": {
+      "question": "How is the call sign \"DM4EAX\" spelt using the international phonetic alphabet?",
+      "answer_a": "Delta Mike 4 Echo Alfa X-ray",
+      "answer_b": "Delta Mike 4 Ecuador America X-ray",
+      "answer_c": "Delta Madagascar 4 Echo America X-ray",
+      "answer_d": "Delta Madagascar 4 Ecuador Alfa X-ray"
+    },
+    "BA105": {
+      "question": "How is the call sign \"DL4YBZ\" spelt using the international phonetic alphabet?",
+      "answer_a": "Delta Lima 4 Yankee Bravo Zulu",
+      "answer_b": "Delta Lima 4 Yankee Baker Zebra",
+      "answer_c": "Delta Lima 4 Ypsilon Bravo Zebra",
+      "answer_d": "Delta Lima 4 Ypsilon Baker Zulu"
+    },
+    "BA104": {
+      "question": "How is the call sign \"DL1FLO\" spelt using the international phonetic alphabet?",
+      "answer_a": "Delta Lima 1 Foxtrot Lima Oscar",
+      "answer_b": "Delta London 1 Foxtrot London Oslo",
+      "answer_c": "Delta Lima 1 Florida Lima Oslo",
+      "answer_d": "Delta London 1 Florida London Oscar"
+    },
+    "BA103": {
+      "question": "How is the call sign \"DK5WP\" spelt using the international phonetic alphabet?",
+      "answer_a": "Delta Kilo 5 Whiskey Papa",
+      "answer_b": "Delta Kilo 5 William Paris",
+      "answer_c": "Delta Kilowatt 5 Whiskey Paris",
+      "answer_d": "Delta Kilowatt 5 William Papa"
+    },
+    "BA102": {
+      "question": "How is the call sign \"DK1KC\" spelt using the international phonetic alphabet?",
+      "answer_a": "Delta Kilo 1 Kilo Charlie",
+      "answer_b": "Delta Kilowatt 1 Kilowatt Caesar",
+      "answer_c": "Denmark Kilo 1 Kilo Caesar",
+      "answer_d": "Denmark Kilowatt 1 Kilowatt Charlie"
+    },
+    "BA101": {
+      "question": "How is the call sign \"DD4UQ\" spelt using the international phonetic alphabet?",
+      "answer_a": "Delta Delta 4 Uniform Quebec",
+      "answer_b": "Delta Delta 4 Uruguay Queen",
+      "answer_c": "Denmark Denmark 4 Uniform Queen",
+      "answer_d": "Denmark Denmark 4 Uruguay Quebec"
+    },
+    "BB110": {
+      "question": "What does \"R\" at the beginning of an over mean in telegraphy?",
+      "answer_a": "Received",
+      "answer_b": "Repeat",
+      "answer_c": "Report",
+      "answer_d": "Readability"
+    },
+    "BB109": {
+      "question": "What does \"K\" at the end of an over mean in telegraphy?",
+      "answer_a": "Invitation to transmit",
+      "answer_b": "Interruption of the transmission",
+      "answer_c": "Please wait",
+      "answer_d": "End of communication"
+    },
+    "BB108": {
+      "question": "What does the operating abbreviation \"BK\" mean in telegraphy?",
+      "answer_a": "Signal to interrupt a transmission in progress; also used to hand over informally",
+      "answer_b": "Everything received correctly; also used to end a contact quickly",
+      "answer_c": "Please wait; also used to ask for a report quickly",
+      "answer_d": "End of communication; also used as an informal greeting"
+    },
+    "BB107": {
+      "question": "What does the abbreviation \"CW\" mean in amateur radio?",
+      "answer_a": "Continuous Wave",
+      "answer_b": "Code Word",
+      "answer_c": "Calling Wide",
+      "answer_d": "Contest Weighting"
+    },
+    "BB106": {
+      "question": "What do the abbreviations \"TX\", \"RX\", \"TRX\" mean, in this order?",
+      "answer_a": "Transmitter, receiver, transceiver",
+      "answer_b": "Transceiver, receiver, transmitter",
+      "answer_c": "Tone, readability, signal strength",
+      "answer_d": "Signal strength, readability, tone"
+    },
+    "BB105": {
+      "question": "A station calls \"CQ DX\" at night on 3790 kHz. Who should reply? Only stations ...",
+      "answer_a": "on other continents",
+      "answer_b": "with a DX prefix",
+      "answer_c": "in the local area up to 50 km away",
+      "answer_d": "in Germany"
+    },
+    "BB104": {
+      "question": "A station calls \"CQ DX\" on VHF/UHF. Who should reply?",
+      "answer_a": "Stations more than a few 100 km away",
+      "answer_b": "Stations in the Philippines",
+      "answer_c": "Stations on other continents",
+      "answer_d": "Stations with a German prefix"
+    },
+    "BB103": {
+      "question": "What does the operating abbreviation DX mean?",
+      "answer_a": "Long distance",
+      "answer_b": "Short distance",
+      "answer_c": "By the indirect path",
+      "answer_d": "By the direct path"
+    },
+    "BB102": {
+      "question": "What does the operating abbreviation \"CQ\" mean in amateur radio?",
+      "answer_a": "General call",
+      "answer_b": "Telegraphy",
+      "answer_c": "Long distance",
+      "answer_d": "Contest Query"
+    },
+    "BB101": {
+      "question": "Why are operating abbreviations and Q codes used, particularly in telegraphy (e.g. CW, JS8, RTTY)?",
+      "answer_a": "They simplify the operating procedure and optimise the information content transmitted per unit of time.",
+      "answer_b": "They obscure the information content of a transmission, so that it cannot be understood by outsiders.",
+      "answer_c": "They are used on contacts via amateur satellites to avoid the Doppler effect by means of shorter overs.",
+      "answer_d": "They are used as identification in amateur radio direction finding to mark the transmitters."
+    },
+    "BB206": {
+      "question": "What do you do when you receive \"PSE QSY ...\"?",
+      "answer_a": "You change frequency.",
+      "answer_b": "You increase the transmit power.",
+      "answer_c": "You reduce the transmit power.",
+      "answer_d": "You send a confirmation card to the other station."
+    },
+    "BB205": {
+      "question": "What do you do when you receive \"PSE QRP\"?",
+      "answer_a": "You reduce the transmit power.",
+      "answer_b": "You increase the transmit power.",
+      "answer_c": "You change frequency.",
+      "answer_d": "You send a confirmation card to the other station."
+    },
+    "BB204": {
+      "question": "What do the Q codes \"QRV\", \"QRM?\" and \"QTH\" mean?",
+      "answer_a": "I am ready. Are you being interfered with? My location is ...",
+      "answer_b": "Send a series of Vs. Shall I use more transmitter power? The tones you are sending are barely audible.",
+      "answer_c": "I have nothing more for you. Are you being interfered with? My location is ...",
+      "answer_d": "I have nothing more for you. My location is ... I am ready."
+    },
+    "BB203": {
+      "question": "What do the Q codes \"QRT\", \"QRZ?\" and \"QSL?\" mean?",
+      "answer_a": "Stop sending. Who is calling me? Can you acknowledge receipt?",
+      "answer_b": "Stop sending. I am ready. Will you send a QSL card?",
+      "answer_c": "Stop sending. What is your location? Can you acknowledge receipt?",
+      "answer_d": "I have nothing for you. Who is calling me? Can you acknowledge receipt?"
+    },
+    "BB202": {
+      "question": "What do the Q codes \"QRO?\", \"QSO?\" and \"QRX?\" mean?",
+      "answer_a": "Shall I increase transmitter power? Can you communicate with ... direct? When will you call me again?",
+      "answer_b": "Shall I increase my transmitter power? Have you anything more for me? Will you call me again?",
+      "answer_c": "Shall I decrease transmitter power? Have you anything more for me? Can you communicate with ... direct?",
+      "answer_d": "Have you anything more for me? Can you communicate with ... direct? When will you call me again?"
+    },
+    "BB201": {
+      "question": "What do the Q codes \"QRM\", \"QRN\" and \"QSB?\" mean?",
+      "answer_a": "I am being interfered with. I am troubled by static. Are my signals fading?",
+      "answer_b": "I have interference. Your signals are fluctuating. Are you being interfered with?",
+      "answer_c": "I am troubled by static. I am being interfered with. Are my signals fading?",
+      "answer_d": "Your signals are fading. I am being interfered with. Are you troubled by static?"
+    }
+  }
+}

@@ -140,6 +140,10 @@ real choice or a trap.
 | Außenstelle (der BNetzA) | (BNetzA) regional office | |
 | zuständige Stelle / zuständige Behörde | competent office / competent authority | |
 | Funkstörungsannahme (der BNetzA) | (BNetzA) radio interference reporting service | keep "Funkstörungsannahme" in brackets at first mention in course text |
+| Prüf- und Messdienst (der BNetzA) | (BNetzA) inspection and measurement service | EK209 |
+| Hauptzollamt | main customs office | NJ102 |
+| Kraftfahrt-Bundesamt | Federal Motor Transport Authority (Kraftfahrt-Bundesamt) | NK308 |
+| Runder Tisch Amateurfunk (RTA) / EMV-Beauftragter des RTA | RTA / the RTA's EMC officer | the German amateur radio associations' round table; in exam questions "RTA" alone, as the German (AJ116) |
 | Behörde | authority | |
 | Amateurfunkgesetz (AFuG) | Amateur Radio Act (Amateurfunkgesetz, AFuG) | |
 | Gesetz über den Amateurfunk | Act on Amateur Radio | the AFuG's formal title; VC101 asks for it, so keep it distinct from "Amateur Radio Act" |
@@ -153,6 +157,7 @@ real choice or a trap.
 | Gesetz über die Bereitstellung von Funkanlagen auf dem Markt (FuAG) / Funkanlagengesetz | Act on Making Radio Equipment Available on the Market (Funkanlagengesetz, FuAG) / Radio Equipment Act | |
 | Verordnung über das Nachweisverfahren zur Begrenzung elektromagnetischer Felder (BEMFV) | Ordinance on the Verification Procedure for Limiting Electromagnetic Fields (BEMFV) | |
 | 26. Verordnung zur Durchführung des Bundes-Immissionsschutzgesetzes (26. BImSchV) | 26th Ordinance implementing the Federal Immission Control Act (Ordinance on Electromagnetic Fields, 26. BImSchV) | *immission* is the established English term in German environmental law |
+| Anhang 1a / 1b / 3 (26. BImSchV) | Annex 1a / 1b / 3 | annexes of German ordinances are *Annex*, as AFuV *Anlage*; RR *Appendix* is only for the ITU (EK102) |
 | Frequenzschutzbeitragsverordnung (FSBeitrV) | Frequency Protection Contribution Ordinance (FSBeitrV) | |
 | Frequenzschutzbeitrag | frequency protection contribution | annual fee |
 | Besondere Gebührenverordnung BNetzA (BNetzABGebV) | Special Fees Ordinance of the BNetzA (BNetzABGebV) | |
@@ -335,6 +340,14 @@ real choice or a trap.
 | Herzschrittmacher | pacemaker | |
 | Sicherheitsabstand | safety distance | |
 | Personenschutz-Sicherheitsabstand / Personenschutzabstand | safety distance for the protection of persons | |
+| Schutzabstand | safety distance | AK101 |
+| Grenzwert im Fall des Personenschutzes / Personenschutzgrenzwerte | limit for the protection of persons / limits for the protection of persons | AK106–AK112, EK104 |
+| nicht kontrollierbarer Bereich / kritischer Winkel | area that is not controllable / critical angle | AK105 |
+| Fernfeldnäherung / Näherungsformel für die Fernfeldberechnung | far-field approximation / far-field approximation formula | EK105–EK107 |
+| quadratisch gemittelt über 6 Minuten | RMS value averaged over 6 minutes | EK102, EK103 |
+| kurzfristiger Effektivwert / momentaner Spitzenwert / Momentanwert | short-term RMS value / instantaneous peak value / instantaneous value | EK102, EK103 |
+| spezifische Absorptionsrate | specific absorption rate (SAR) | EK101 |
+| Anzeige ortsfester Amateurfunkanlagen | "Notification of fixed amateur radio installations" | the BNetzA form under Section 9 BEMFV (EK105) |
 | standortbezogener Sicherheitsabstand | site-specific safety distance | |
 | kontrollierbarer Bereich | controllable area | the area under the operator's control |
 | Anzeige (BEMFV) | notification | trap: *Anzeige* is also a meter reading / display, see §11 |
@@ -379,6 +392,10 @@ real choice or a trap.
 | Anruffrequenz | calling frequency | |
 | Aktivitätszentrum | centre of activity | British *centre* |
 | Antwort / antworten | reply; answer | |
+| Durchgang | over | one station's turn in a contact (BB101, BB109, BB110) |
+| aufnehmen (ein Signal, eine Q-Gruppe) | receive; copy | "Wie verhalten Sie sich, wenn Sie … aufnehmen?" → "What do you do when you receive …?" (BB205, BB206) |
+| formlose Übergabe | informal handover | BK (BB108) |
+| Bestätigungskarte | confirmation card | QSL card in plain words (BB205, BB206) |
 | Rapport | (signal) report | |
 | RST-System | RST system | |
 | Lesbarkeit | readability | |
@@ -389,11 +406,13 @@ real choice or a trap.
 | S-Stufe | S unit | "eine S-Stufe = 6 dB" → "one S unit" |
 | Buchstabieralphabet / Buchstabiertafel | phonetic alphabet | RSGB term |
 | internationales Buchstabieralphabet | international phonetic alphabet | lower case, so it is not taken for the linguists' IPA; the words themselves (Alfa, Juliett, X-ray) keep the ITU spelling |
+| Wörter anderer Buchstabieralphabete (Nordpol, Ypsilon, Caesar …) | unchanged | distractors in BA101–BA110 are words of other spelling alphabets (German DIN 5009, old international and wartime alphabets); kept as the German writes them, except *Amerika* → America, since the German otherwise uses the English spellings (Denmark, Italy, Madagascar) |
 | buchstabieren | spell (out) | |
 | Stroke (/) | stroke | "Delta Lima 4 Stroke portable" unchanged |
 | betriebliche Abkürzungen | operating abbreviations | |
 | Abkürzung | abbreviation | |
 | Q-Gruppen / Q-Schlüssel | Q codes | |
+| Bedeutungen der Q-Gruppen | Q code meanings | written in the established English wording of the ITU Q code list (RR Appendix 14, Rec. ITU-R M.1172) where the German gives the German wording: QRV "I am ready.", QRM "I am being interfered with.", QRM? "Are you being interfered with?", QRN "I am troubled by static.", QSB? "Are my signals fading?", QRT "Stop sending.", QRZ? "Who is calling me?", QSL? "Can you acknowledge receipt?", QRO? "Shall I increase transmitter power?", QSO? "Can you communicate with ... direct?", QRX? "When will you call me again?", QRU "I have nothing for you." / QRU? "Have you anything for me?"; QTH "My location is ..." (*Standort* → location). Made-up distractors faithfully (BB201–BB204) |
 | Morsetelegrafie / Telegrafie | Morse telegraphy / telegraphy (CW) | |
 | Morsezeichen / Morsecode | Morse characters / Morse code | |
 | Telefonie / Sprechfunk | telephony; voice | "SSB-Telefonie" → "SSB telephony"; "FM-Sprechfunk" → "FM voice" |
@@ -551,6 +570,7 @@ real choice or a trap.
 | Lichtgeschwindigkeit | speed of light | |
 | Freiraum | free space | |
 | Feldwellenwiderstand (des Freiraums) | impedance of free space | 377 Ω |
+| Wellenwiderstand (eines Mediums) | wave impedance (of the medium) | AK102; for a line *Wellenwiderstand* stays *characteristic impedance* (§9) |
 | Schwingung | oscillation | |
 | Sinusförmige Signale / Nichtsinusförmige Signale | sinusoidal signals / non-sinusoidal signals | |
 | Sinusschwingung / Rechteck- / Dreieck- / Sägezahnschwingung | sine wave / square wave / triangular wave / sawtooth wave | |
@@ -1361,6 +1381,9 @@ real choice or a trap.
 | Transistorvoltmeter / True RMS-Voltmeter | transistor voltmeter / true-RMS voltmeter | |
 | Oszillograf / Speicheroszilloskop | oscillograph / storage oscilloscope | |
 | Diodentastkopf | diode probe | |
+| HF-Tastkopf / Gleichspannungstastkopf | RF probe / DC probe | AI604, AI605 |
+| Spitzenwertgleichrichter / Messausgang | peak rectifier / measurement output | AI602 |
+| Dauerleistung (künstliche Antenne) | continuous power | AI601 |
 | Triggereinrichtung / Triggerschwelle | trigger circuit / trigger threshold | |
 | X-Vorteiler / Y-Vorteiler (Oszilloskop) | X attenuator / Y attenuator | the scope's input attenuators (AI302), not a prescaler; *Vorteiler* of a frequency counter is the *prescaler* (AI504) |
 | Frequenzmarken-Generator | frequency marker generator | |
@@ -1405,6 +1428,25 @@ real choice or a trap.
 | Einstrahlung | radiated pick-up; direct pick-up | RSGB *breakthrough* for the effect on consumer equipment |
 | Einströmung | conducted pick-up (via leads) | |
 | Direkteinstrahlung | direct pick-up | |
+| Mantelwellendrossel | common-mode choke | as *Mantelwellensperre*; EJ118 "choke balun", because its correct answer is "common-mode RF interference signals" (no echo, DECISIONS.md) |
+| Einfügedämpfung | insertion loss | AJ114 |
+| Vorstufe (eines Fernsehgeräts) | input stage | AJ109 |
+| Antennenzuführungskabel / Fernseh-Antennenzuführungskabel | antenna feed cable / television antenna feed cable | AJ113, EJ118 |
+| Leitungsanschlüsse (eines Geräts) | cable connections | AJ112 |
+| hochpermeable Ferritdrossel | high-permeability ferrite choke | AJ112 |
+| Klappferritkern | clip-on ferrite core | AJ217 |
+| Kollektormotor | commutator motor | trap: not *collector*; EJ112 |
+| Bimetall-Temperaturregler | bimetallic thermostat | EJ112 |
+| Musik-Anlage / Stereoanlage | hi-fi system / stereo system | EJ113, EJ114 |
+| Pfeifstellen | whistles (birdies) | EJ107 |
+| Nebenresonanzen | spurious resonances | AJ214 |
+| Schirmungsmaß | screening attenuation | EK208 |
+| Phantomsignale / parametrische Schwingungen | phantom signals / parametric oscillations | EJ120, EJ121 |
+| Reihenhaus / Häuserzeile / Einfamilienhaus | terraced house / row of houses / detached house | EJ110, EJ115 |
+| Dachrinne / Schornstein | gutter / chimney | EJ110 |
+| D-Netz | D-network (GSM) | German GSM 900 network; "D-Netz-Mobilfunkbereich" → "D-network (GSM) mobile phone band" (AJ204) |
+| Betriebsfunk / UKW-Betriebsfunk | private mobile radio (PMR) / VHF private mobile radio | AJ204 |
+| Fernsehtechniker des Fachhandwerks | qualified television technician | EJ124 |
 | Beeinflussung von Rundfunk- / Fernsehempfang und Unterhaltungselektronik durch Einstrahlung | breakthrough | RSGB term for a strong wanted signal upsetting consumer electronics (an immunity problem, not a fault of the transmitter) |
 | Rundfunkempfang / Fernsehempfang | broadcast reception / television reception | |
 | Rundfunkempfänger / Fernsehgerät | broadcast receiver / television set | |
@@ -1431,6 +1473,17 @@ real choice or a trap.
 | Blitzschutzsystem / Blitzschutzanlage | lightning protection system (LPS) | |
 | Blitzerdung | lightning earthing | |
 | Überspannung / Überspannungsschutz | overvoltage (surge) / surge protection | |
+| Standrohr (Antenne) | (antenna) mast | the pipe mast on a roof (EK210, EK211) |
+| Erdungsanlage | earthing system | EK209, EK210 |
+| Blitzschutz-Fachkraft | lightning protection specialist | EK211 |
+| Adernkennfarben / grüngelb | core identification colours / green-yellow | EK205 |
+| Ladedrossel (Schaltnetzteil) | storage choke | EK203 |
+| Auslösecharakteristik "Flink" / "Mittelträge" / "Träge" | "fast-acting" / "medium time-lag" / "time-lag" | IEC 60127 fuse characteristics (EK204) |
+| Körperdurchströmung / Elektrounfall | current flowing through the body / electrical accident | NK302–NK304 |
+| Störlichtbogen | arc fault | NK302 |
+| Herzrhythmusstörungen / Herzkammerflimmern | cardiac arrhythmias / ventricular fibrillation | NK303, NK304 |
+| stabile Seitenlage | recovery position | NK304 |
+| Verbrennungen / Verätzungen / Verbrühungen | burns / chemical burns / scalds | NK303, NK306 |
 | Kurzschlussstrombegrenzung / thermische Abschaltung | short-circuit current limiting / thermal shutdown | PSU safety features (ND108) |
 | statische Aufladung | static charge | |
 | Ableitwiderstand | bleeder resistor (static drain) | |
@@ -1445,6 +1498,8 @@ real choice or a trap.
 | Elektromagnetische Verträglichkeit, Anwendung, Personen- und Sachschutz | electromagnetic compatibility, application, protection of persons and property | catalogue heading |
 | Isolierung | insulation | |
 | Kfz / Fahrzeug / Fahrzeugbatterie / Bordnetz | vehicle / vehicle battery / vehicle electrical system | |
+| Zulassung (eines Kraftfahrzeugs) | road approval (of a motor vehicle) | not *licence*, which is the amateur *Zulassung* (NK308) |
+| Kabelbaum / Motorraum / Kotflügel / Stoßstange / Armaturenbrett | wiring harness / engine compartment / wing / bumper / dashboard | British car terms (NK309, NK310) |
 | Verpolung | reverse polarity | |
 | Überlastung | overload | |
 

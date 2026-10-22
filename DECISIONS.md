@@ -136,6 +136,28 @@ and the checker's "Provjera" section).
   drehen …", "erkennt er, dass …") is recast without a pronoun — "The
   antenna must be turned to …", "that "PY" has been worked" — or, where a
   pronoun is unavoidable, singular *they* (AH305). (Batch 07.)
+- **Q code meanings in the ITU's English wording.** Where the German gives
+  the German wording of a Q code, the English uses the established wording
+  of the ITU Q code list (RR Appendix 14, Rec. ITU-R M.1172) as radio
+  amateurs use it — QRT "Stop sending.", QRZ? "Who is calling me?", QRN
+  "I am troubled by static.", QSB? "Are my signals fading?" — not a fresh
+  translation of the German, which is itself that list in German.
+  Made-up meanings in distractors are translated faithfully. QTH "My
+  location is ..." (*Standort* → location). Glossary §2 lists them.
+  (Batch 08, BB201–BB204.)
+- **Spelling-alphabet distractors keep their words.** Wrong answers in
+  "How is the call sign … spelt?" (BA101–BA110) use words of other spelling
+  alphabets — *Nordpol*, *Ypsilon* (German DIN 5009), *Caesar*, *Queen*,
+  *Baker*, *Santiago* … They are code words, not prose, and stay as the
+  German writes them; translating them would make words that are in no
+  alphabet. The one exception is *Amerika* → America, because the German
+  otherwise writes these names in English (Denmark, Italy, Madagascar).
+  (Batch 08.)
+- **A bracket that only repeats the term in the other language is
+  dropped**, as in EH202: *künstliche Antenne (Dummy Load)* and
+  *Abschlusswiderstand (Dummy Load)* → "dummy load"; *Received
+  (empfangen)* → "Received" (BB110). A bracket that adds information stays.
+  (Batch 08.)
 
 ## Open questions for DARC
 
