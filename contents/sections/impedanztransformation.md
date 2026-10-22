@@ -33,7 +33,7 @@ $Z = \sqrt{Z_\mathrm{E} \cdot Z_\mathrm{A}}$
 
 ---
 
-Often, however, inductors and capacitors are also used for impedance matching. Frequently found is what is called the pi filter, which as well as acting as a low-pass filter also brings about an impedance transformation. Such a pi filter can accordingly also be used as an antenna tuner.
+Often, however, inductors and capacitors are also used for impedance matching. A circuit often found is what is called the pi filter, which as well as acting as a low-pass filter also brings about an impedance transformation. Such a pi filter can accordingly also be used as an antenna tuner.
 
 <indepth>
 *The name "pi filter"* comes from the arrangement of the components in the circuit diagram, which resembles the Greek letter $\pi$, and has nothing to do with the number $\pi$.

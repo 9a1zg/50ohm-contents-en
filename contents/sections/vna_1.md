@@ -6,7 +6,7 @@ A simple multimeter is not suitable for measuring frequency-dependent resistance
 
 ---
 
-This makes it possible, for example, to determine the frequency at which a tuned circuit or filter has a particularly high or particularly low resistance (or impedance) (see Figure [ref:e_vna_tiefpassmessung]). It can also be found at which frequency an antenna is resonant, by looking at the SWR over a range of frequencies, as shown in Figure [ref:e_vna_swr].
+This makes it possible, for example, to determine the frequency at which a tuned circuit or filter has a particularly high or particularly low resistance (or impedance) (see Figure [ref:e_vna_tiefpassmessung]). It is also possible to find the frequency at which an antenna is resonant, by looking at the SWR over a range of frequencies, as shown in Figure [ref:e_vna_swr].
 
 <margin>
 [photo:323:e_vna_swr:SWR measurement of an end-fed wire antenna. The SWR is close to $1$ at $\qty{14}{\mega\hertz}$]
@@ -23,7 +23,7 @@ Many VNAs should be calibrated before use in order to obtain as accurate a measu
 
 ---
 
-For calibration, and also as a functional check, the "open" condition (infinite resistance), the "short circuit" (resistance close to zero) and the "matched" condition (load resistance equal to the output resistance of the instrument) are often measured.
+For calibration, and also as a functional check, the "open-circuit" (infinite resistance), "short-circuit" (resistance close to zero) and "matched" (load resistance equal to the output resistance of the instrument) conditions are often measured.
 
 <margin>
 [photo:327:e_vna_solt:SOL(T) calibration kit. From left to right - Load, Open, Closed]

@@ -36,8 +36,8 @@
 ## Calibration
 
 * Calibrate before use
-* *Open* condition: infinite resistance
-* *Short circuit* condition: resistance close to zero
+* *Open-circuit* condition: infinite resistance
+* *Short-circuit* condition: resistance close to zero
 * *Matched* condition: e.g. with a $\qty{50}{\ohm}$ resistor an SWR of $\num{1}$ should be displayed
 
 ---

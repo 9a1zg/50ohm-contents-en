@@ -2,7 +2,7 @@ In Class E we have already met the *vector network analyser* (VNA) (see Figure [
 
 For a measurement, the VNA first generates an RF signal at a set start frequency and applies it to the device under test, for example an antenna or a tuned circuit. It then measures the signal coming back, or reflected, from the device under test. Both its amplitude and its phase are recorded. To reduce the effect of interference, several measurements can also be made at one frequency point and averaged.
 
-After the measurement, the frequency is increased by a set step and the process is repeated. In this way the VNA steps through the whole range from the start frequency to the stop frequency. This process is also called a *frequency sweep*, or formerly, now and then, *wobbulation*.
+After the measurement, the frequency is increased by a set step and the process is repeated. In this way the VNA steps through the whole range from the start frequency to the stop frequency. This process is also called a *frequency sweep*, or, occasionally in the past, *wobbulation*.
 
 From the measured values at the individual frequency points, the VNA can determine various quantities and display them against frequency. These include, for example, the impedance of the device under test and the standing wave ratio (SWR). This shows at once, for example, at which frequencies an antenna is well matched or has a resonance.
 

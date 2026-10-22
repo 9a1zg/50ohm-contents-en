@@ -2596,7 +2596,7 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Frequenz-Sweep / Wobbeln | frequency sweep / wobbulation | the older German word gets its older English counterpart (*wobbulator*) (vna_2) |
 | Startfrequenz / Stoppfrequenz / Frequenzpunkt | start frequency / stop frequency / frequency point | vna_2 |
 | imaginäre Einheit / imaginäre Zahl / reelle Zahl / komplexe Zahl | imaginary unit / imaginary number / real number / complex number | as §14 *komplexe Größe* (vna_2) |
-| Zustände "offen" / "Kurzschluss" / "angepasst" (VNA) | "open" / "short circuit" / "matched" condition | as §11 *Betriebszustände Kurzschluss, Leerlauf und Anpassung* (EI206) (vna_1) |
+| Zustände "offen" / "Kurzschluss" / "angepasst" (VNA) | "open-circuit" / "short-circuit" / "matched" condition | as §11 *Betriebszustände Kurzschluss, Leerlauf und Anpassung* and EI206 "short-circuit, open-circuit and matched conditions" (vna_1) |
 | Leitungsabschluss | line termination | vna_1; §11 *Abschlusswiderstand* → terminating resistor |
 | Zweidrahtleitung (Lecherleitung) | two-wire line | a Lecher line is not a feeder, so §9's *twin feeder* (AG311) is not used; AG320 "two parallel conductors" (lecherleitung slides) |
 | gewünschter Speisewiderstand $Z_\mathrm{E}$ (λ/4-Transformation) / geometrisches Mittel | desired input impedance $Z_\mathrm{E}$ / geometric mean | $Z_\mathrm{E}$ is the impedance wanted at the input end of the transformer section, not the antenna's feed point, which is $Z_\mathrm{A}$ (AG417, AG418); *Speise- und Lastwiderstand* → "the input impedance and the load resistance" (impedanztransformation) |

@@ -19,7 +19,7 @@ A coaxial cable can be thought of as three conductors:
 2. Inside of the outer conductor
 3. Outside of the outer conductor
 
-Sheath currents are related to the skin effect, which comes in Class A
+Sheath currents are related to the skin effect, which is covered in Class A
 </note>
 ---
 [question:EG405]

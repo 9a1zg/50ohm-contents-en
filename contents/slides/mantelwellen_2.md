@@ -27,7 +27,7 @@
 ## RF isolating transformer to block common-mode currents
 
 * Alternative: an RF isolating transformer, whose primary and secondary windings are not connected
-* Current that flows in at one terminal flows out at the other with almost the same size – no common-mode component
+* Current that flows in at one terminal flows out at the other with almost the same magnitude – no common-mode component
 
 <note>
 Capacitance forms between the turns of the windings, so that the common-mode component is not suppressed completely

@@ -1,4 +1,4 @@
-Ideally, the currents through the inner and outer conductors of a coaxial cable are exactly equal in size and opposite in direction. Their sum is therefore zero, and this is called a pure *differential-mode signal*. Precisely then, no common-mode currents occur.
+Ideally, the currents through the inner and outer conductors of a coaxial cable are exactly equal in magnitude and opposite in direction. Their sum is therefore zero, and this is called a pure *differential-mode signal*. It is precisely then that no common-mode currents occur.
 
 If, on the other hand, the sum of the signal is not zero, what is called a *common-mode signal* is present. The common-mode component of a current in the coaxial cable always flows on the outside of the outer conductor and is therefore a sheath current, with its associated sheath wave around the coaxial cable.
 
@@ -6,7 +6,7 @@ If, on the other hand, the sum of the signal is not zero, what is called a *comm
 
 We have already learnt that a coaxial cable wound on a ferrite core is suitable for suppressing common-mode currents. This is one form of what is called the *current-compensated choke*.
 
-A choke is an inductor intended to block RF currents. The current-compensated choke is a type of choke in which two separate windings are wound on the same magnetic core. The current-compensated choke is connected so that differential-mode signals, i.e. signals in which the current in one winding is exactly opposite to that in the other winding and otherwise of the same size, induce no magnetic field in the core. The current-compensated choke therefore lets differential-mode signals pass unhindered. Common-mode components, however, e.g. currents that flow only on the outer conductor and therefore only in one winding, are blocked by the inductance.
+A choke is an inductor intended to block RF currents. The current-compensated choke is a type of choke in which two separate windings are wound on the same magnetic core. The current-compensated choke is connected so that differential-mode signals, i.e. signals in which the current in one winding is exactly opposite to that in the other winding and otherwise of the same magnitude, induce no magnetic field in the core. The current-compensated choke therefore lets differential-mode signals pass unhindered. Common-mode components, however, e.g. currents that flow only on the outer conductor and therefore only in one winding, are blocked by the inductance.
 
 [question:AG426]
 
@@ -16,7 +16,7 @@ A choke is an inductor intended to block RF currents. The current-compensated ch
 
 ---
 
-An alternative to the current-compensated choke is an RF isolating transformer. Since the primary and secondary windings are not connected to each other, a current that flows into the isolating transformer at one terminal must (at least approximately) also flow out again at the other terminal with the same size. A common-mode component is thus ruled out.
+An alternative to the current-compensated choke is an RF isolating transformer. Since the primary and secondary windings are not connected to each other, a current that flows into the isolating transformer at one terminal must (at least approximately) also flow out again at the other terminal with the same magnitude. A common-mode component is thus ruled out.
 
 <indepth>
 Since capacitance forms between the turns of a winding of an isolating transformer, and the winding also has capacitance to the other winding, even an isolating transformer does not suppress the common-mode component of a signal completely.

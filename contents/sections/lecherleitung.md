@@ -19,7 +19,7 @@ On a Lecher line that is *short-circuited* at the end, the two conductors cannot
 [picture:1111:a_lecherleitung_kurzgeschlossen:Lecher line with a short-circuited end]
 </margin>
 
-Which frequency forms as a resonance on a Lecher line depends mainly on its length. If the length of the line changes, the resonant frequency changes too.
+The frequency at which a Lecher line resonates depends mainly on its length. If the length of the line changes, the resonant frequency changes too.
 
 [question:AG320]
 

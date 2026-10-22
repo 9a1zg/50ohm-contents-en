@@ -89,3 +89,26 @@ throughout (AG420, AG423, AG424).
 - sections/mantelwellen_1.md (indepth) — "dann sind die Ströme im Innenleiter nicht symmetrisch": the balance in question is between the currents in the inner *and* outer conductor (the paragraphs before and after say so). Translated as written.
 - slides/lecherleitung.md — "Lecherleitung: am Ende offene Zweidrahtleitung": the section says a Lecher line can be open *or* short-circuited at the end, and the slide's last bullet itself treats the short-circuited line. Translated as written.
 - Typos with no effect on the English: sections/vna_1.md "zu einander Verhalten" (*zueinander verhalten*); captions in vna_1 and vna_2 "Endgespeisten" (*endgespeisten*); slides/vna_1.md "eines Schwingkreis" twice (*Schwingkreises*); sections/impedanztransformation.md "aus dem Vorherigen Abschnitt" (*vorherigen*); sections/mantelwellen_1.md "Hierzu eigenen sich" (*eignen*); sections/mantelwellen_2.md "Koaxialkabel zur Unterdrückung … geeignet sind" (*ist*), "auf den selben Magnetkern" (*denselben*); slides/mantelwellen_2.md caption "Spannungbaluns" (*Spannungsbaluns*, twice); sections/umwegleitung.md "Umwegeleitung" beside "Umwegleitung", "einen vier mal höhere Impedanz" (*eine viermal höhere*), "Ursache hierfür, ist" (stray comma).
+
+## Provjera
+
+All 16 files compared paragraph by paragraph with the German of
+79d8e3d~1; embedded questions (EI201–EI206, AI201–AI208, AG320,
+AG406–AG418, AG420–AG429, EG404–EG408, AJ115) read in English. Nothing
+dropped or added. The 19 glossary rows and the DECISIONS.md entry are kept
+(the German word named once follows the existing *Oberwellen* precedent;
+*Umwegleitung* → delay line and *current-compensated choke* follow AG420,
+AG423, AG424, AG426); one glossary row reworded. All judgement calls kept,
+including *Z_E* → "desired input impedance" (AG417: the dipole is $Z_A$).
+`revizija-guard.py --rev 79d8e3d~1 --brojevi`: 16 files, *struktura netaknuta*.
+
+Changes: omission 0, meaning 0, technical 0, style 6, glossary 2.
+
+- glossary — sections/mantelwellen_2: *gleich groß / gleiche Größe* "equal in size", "of the same size", "with the same size" → "magnitude" (§ *Größe* → not "size"); slides/mantelwellen_2 likewise.
+- glossary — sections/vna_1, slides/vna_1: the VNA conditions as EI206 has them: 'the "open-circuit", "short-circuit" and "matched" conditions', slides "*Open-circuit* / *Short-circuit* condition"; glossary row *Zustände "offen" …* updated to match.
+- style — sections/vna_1: "It can also be found at which frequency an antenna is resonant" → "It is also possible to find the frequency at which …".
+- style — sections/vna_2: "or formerly, now and then, *wobbulation*" → "or, occasionally in the past, *wobbulation*".
+- style — sections/lecherleitung: "Which frequency forms as a resonance on a Lecher line depends mainly on its length" → "The frequency at which a Lecher line resonates depends mainly on its length" (AG320).
+- style — sections/impedanztransformation: "Frequently found is what is called the pi filter" → "A circuit often found is what is called the pi filter".
+- style — sections/mantelwellen_1 and _2: *genau dann* "Precisely then, …" → "It is precisely then that …".
+- style — slides/mantelwellen_1 note: "which comes in Class A" → "which is covered in Class A".

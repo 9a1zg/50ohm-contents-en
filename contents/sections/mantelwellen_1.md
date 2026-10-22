@@ -1,7 +1,7 @@
 When connecting antennas, we want only the antenna to radiate or pick up signals, not the feeder itself, which may be run inside the house. Screened lines such as coaxial cable are suitable for this, because ideally they neither radiate nor pick up electromagnetic waves themselves, but carry the signal through the cable screened from the outside world (e.g. the house wiring).
 
 <indepth>
-For the screening of a coaxial cable to do its job, one *condition* must be met: the current in the inner conductor must be exactly opposite to the current in the outer conductor, and both currents must have the same magnitude. In this case a field exists only between the two conductors, and the surroundings of the cable are not affected. Precisely then, the outer conductor has no RF voltage to earth.
+For the screening of a coaxial cable to do its job, one *condition* must be met: the current in the inner conductor must be exactly opposite to the current in the outer conductor, and both currents must have the same magnitude. In this case a field exists only between the two conductors, and the surroundings of the cable are not affected. It is precisely then that the outer conductor has no RF voltage to earth.
 
 Conversely, however, this also means: if the outer conductor has an RF voltage to earth, then the currents in the inner conductor are not balanced and the coaxial cable radiates.
 
