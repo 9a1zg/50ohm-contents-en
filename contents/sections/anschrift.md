@@ -1,11 +1,11 @@
-Änderung beim Namen oder bei der Anschrift sind nachträglich, also nachdem die Änderung vollzogen wurde, der BNetzA mitzuteilen - aber dann unverzüglich. Damit die BNetzA einen jederzeit per Post erreichen kann, muss die Behörde stets die aktuelle Anschrift kennen.
+Changes of name or address must be notified to the Federal Network Agency (Bundesnetzagentur, BNetzA) afterwards, that is, once the change has taken place - but then without delay. So that the BNetzA can reach you by post at any time, the authority must always know your current address.
 
 [question:VD113]
 
-Wenn man sich nicht sicher ist, ob man den Namen eines deutschen Funkpartners richtig verstanden hat, kann man auf der Internetseite der BNetzA nach dem Rufzeichen suchen. Dort bekommt man neben dem Rufzeichen den Namen angezeigt. Ebenfalls wird die Anschrift angezeigt, sofern der Funkamateur keinen Widerspruch gegen die Veröffentlichung eingelegt hat. Dieselben Informationen finden sich auch in der Rufzeichenliste, die als PDF-Dokument heruntergeladen werden kann.
+If you are not sure whether you have understood the name of a German station you are in contact with correctly, you can search for the call sign on the BNetzA website. There, the name is displayed along with the call sign. The address is displayed too, unless the radio amateur has objected to its publication. The same information can also be found in the call sign list, which can be downloaded as a PDF document.
 
-Als kleine Aufgabe kann man nach einem bekannten Rufzeichen in beiden Quellen suchen:
-* [Online-Suche nach Rufzeichen](https://50ohm.de/rza)
-* [Rufzeichenliste als PDF-Dokument](https://50ohm.de/rzl)
+As a small exercise, you can look up a call sign you know in both sources:
+* [Online call sign search](https://50ohm.de/rza)
+* [Call sign list as a PDF document](https://50ohm.de/rzl)
 
 [question:VD114]

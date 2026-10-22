@@ -1,18 +1,18 @@
-### Prüfungsbescheinigung
+### Examination certificate
 
-* Nach bestandener Prüfung erhält man einen *Prüfungsbescheid* sowie eine *Amateurfunk-Prüfungsbescheinigung* und darf sich Funkamateur nennen
-* Damit darf man aber noch keine Amateurfunkstelle betreiben!
+* After passing the examination, you receive an *examination result notice* and an *amateur radio examination certificate*, and may call yourself a radio amateur
+* But that does not yet allow you to operate an amateur station!
 
 ---
 
-### Zulassung
+### Licence
 
 <left>
-* Zusätzlich notwendig: die *Zulassung zur Teilnahme am Amateurfunkdienst*
-* Erst mit dem Zulassungsbescheid wird das persönliche Rufzeichen zugeteilt
+* Also necessary: the *authorisation to participate in the amateur service*
+* Only with the authorisation notice is the personal call sign assigned
 </left>
 <right>
-[photo:91:n_zulassung_urkunde:Die Zulassungsurkunde]
+[photo:91:n_zulassung_urkunde:The licence document]
 </right>
 
 ---
@@ -20,8 +20,8 @@
 
 ---
 
-* Das Amateurfunkgesetz kennt kein Mindestalter für Funkamateure
-* Nach § 4 AFuG ist jede natürliche Person mit Wohnsitz in Deutschland auf Antrag zur fachlichen Prüfung für Funkamateure zuzulassen
+* The Amateur Radio Act does not provide for a minimum age for radio amateurs
+* Under Section 4 AFuG, every natural person resident in Germany shall, on application, be admitted to the examination of competence for radio amateurs
 
 ---
 [question:VC108]

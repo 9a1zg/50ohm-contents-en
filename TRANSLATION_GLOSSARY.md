@@ -2646,6 +2646,24 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Gewebe / Wärmeabfuhr / Hoden | tissue / heat dissipation / testes | strahlengang_aufenthalt |
 | HF-Funkenüberschläge / Körperstrom | RF flashovers / current through the body | as §13 *Spannungsüberschlag* → flashover (AK204, AK202) |
 | aus Sicht der Niederfrequenz | at low frequencies | here DC and the mains frequency, not audio: not *AF* (AK203) |
+| Backsteinaktion / Mauersteine | brick campaign / bricks | the radio amateurs' protest of January 1949 before the first AFuG (gesetze_vorschriften) |
+| Grundgesetz (der Bundesrepublik Deutschland) / Wirtschaftsrat (1949) / Deutscher Bundestag | Basic Law (Grundgesetz) / Economic Council / German Bundestag | the established English names (gesetze_vorschriften) |
+| internationaler Fernmeldevertrag | international telecommunication treaty | the course's name for the RR (gesetze_vorschriften) |
+| Bundesminister für Digitales und Verkehr | Federal Minister for Digital and Transport | the ministry's own English name (gesetze_vorschriften) |
+| Rechtsgrundlage / Amateurfunkbetriebsrechte / unmittelbar geltendes Recht | legal basis / right to operate amateur radio / directly applicable law | gesetze_vorschriften |
+| Funkdienste (Services) / Seefunk (Maritime Service) / Rundfunk (Broadcasting Service) | radiocommunication services / maritime mobile service / broadcasting service | the brackets only give the English and are dropped; *Seefunk* as §1.1 *Seefunkdienst* (amateurfunkdienst) |
+| Funkanwendungen mit Allgemeinzuteilung | radio applications under a general assignment | as §14 *Allgemeinzuteilung*; *WLAN* → Wi-Fi (amateurfunkdienst) |
+| Gesetzgeber / öffentlich gesprochenes Wort | legislator / public speech | "Alle Äußerungen sind öffentlich gesprochene Worte" → "Everything said counts as public speech"; *das nicht öffentlich gesprochene Wort* → private (non-public) conversations, as §1.2 (amateurfunkstelle) |
+| Handwerksbetrieb | tradesman's business | funkamateur |
+| Zulassungsbescheid (zur Teilnahme am Amateurfunkdienst) | authorisation notice; notice of authorisation (to participate in the amateur service) | beside *Prüfungsbescheid* → examination result notice (§1.3); *Zulassungsurkunde* stays *licence document* (zulassung) |
+| Gebührenbescheid / Zahlungsaufforderung | fee notice / demand for payment | gebuehren_beitraege |
+| Verwaltungs-Vollstreckungsgesetz (VwVG) / Vollstreckungsmöglichkeiten | Administrative Enforcement Act (Verwaltungs-Vollstreckungsgesetz, VwVG) / means of enforcement | course text, where the German gives the abbreviation; VE704 keeps "Administrative Enforcement Act" (§1.2) (gebuehren_beitraege) |
+| Geheimhaltungspflicht / Verwertung und Weitergabe (von Nachrichten) | duty of confidentiality / using and passing on (messages) | as VE202 (fernmeldegeheimnis_abhoerverbot) |
+| Rechtsgüterabwägung | balancing of legal interests | fernmeldegeheimnis_abhoerverbot |
+| Wanzen | bugs | eavesdropping devices (VE204) |
+| Strafvorschriften / Freiheitsstrafe / Geldstrafe / Täter / fahrlässig | penal provisions / imprisonment / fine / offender / negligently | *Geldstrafe* (criminal) and *Geldbuße* (administrative, §1.2) are both *fine* in English; "Mit Freiheitsstrafe bis zu zwei Jahren oder mit Geldstrafe wird bestraft, wer" → "Imprisonment for up to two years or a fine shall be imposed on anyone who", as § 323c StGB in notfunk (§ 27 TDDDG) |
+| eine Mitteilung machen (§ 5 Abs. 2 TDDDG) | make a disclosure | the TDDDG's prohibition on telling others the content or the fact of reception |
+| Bußgeldvorschriften / Aberkennung (des Amateurfunkzeugnisses) | provisions on fines / taking away (the amateur radio certificate) | verstoesse_und_folgen |
 
 ## 15. Catalogue structure
 

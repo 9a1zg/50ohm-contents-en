@@ -1,67 +1,67 @@
-### Internationale Vereinbarungen
+### International agreements
 
-* Die allgemeinen Regelungen der ITU Radio Regulations (RR) gelten auch für den Amateurfunkdienst
-* Hinzu kommen Empfehlungen der Europäischen Konferenz der Verwaltungen für Post und Telekommunikation (CEPT)
-
----
-
-* Diese internationalen Vereinbarungen gelten nicht direkt für Funkamateure
-* Sie gelten nur über ihre Umsetzung in die nationalen Gesetze und Verordnungen des jeweiligen Landes
+* The general provisions of the ITU Radio Regulations (RR) also apply to the amateur service
+* In addition, there are the recommendations of the European Conference of Postal and Telecommunications Administrations (CEPT)
 
 ---
 
-### Rechtsgrundlage in Deutschland
+* These international agreements do not apply directly to radio amateurs
+* They apply only through their implementation in the national laws and ordinances of the country concerned
 
-* Die deutsche Rechtsgrundlage für den Amateurfunk ist das *Amateurfunkgesetz (AFuG)*
-* Details stehen in der *Amateurfunkverordnung (AFuV)* sowie in *Verfügungen oder Mitteilungen der Bundesnetzagentur*
-* Daneben gibt es weitere Vorschriften, die den Amateurfunk mit betreffen, z. B. zur CE-Kennzeichnung oder zum Fernmeldegeheimnis
+---
+
+### Legal basis in Germany
+
+* The German legal basis for amateur radio is the *Amateur Radio Act (Amateurfunkgesetz, AFuG)*
+* Details are in the *Amateur Radio Ordinance (Amateurfunkverordnung, AFuV)* and in *orders or notices of the Federal Network Agency (Bundesnetzagentur, BNetzA)*
+* There are also further regulations that affect amateur radio as well, e.g. on CE marking or on the secrecy of telecommunications
 
 --- style="font-size: smaller;"
 
 <left>
-[photo:3:n_gesetze_vorschriften_backstein:Backstein der Backsteinaktion von 1949]
+[photo:3:n_gesetze_vorschriften_backstein:A brick from the 1949 brick campaign]
 </left>
 <right>
-* Das erste Amateurfunkgesetz trat am 15. März 1949 in Kraft - noch vor dem Grundgesetz
-* Voraus ging die legendäre "Backsteinaktion": Funkamateure schickten im Januar 1949 Pakete mit Mauersteinen und Protestbriefen an den Vorsitzenden des Wirtschaftsrats, um die schleppende Verabschiedung des Gesetzes zu beschleunigen
+* The first Amateur Radio Act came into force on 15 March 1949 - even before the Basic Law (Grundgesetz)
+* It was preceded by the legendary "brick campaign": in January 1949, radio amateurs sent parcels of bricks and letters of protest to the chairman of the Economic Council to speed up the slow passing of the Act
 </right>
 
 ---
 
-* Der Amateurfunk ist Bestandteil des wichtigsten internationalen Fernmeldevertrages, der *Radio Regulations (RR)*
-* Dessen allgemeine Regeln gelten für alle Funkdienste, damit auch für den Amateurfunk
+* Amateur radio is part of the most important international telecommunication treaty, the *Radio Regulations (RR)*
+* Its general provisions apply to all radiocommunication services, and so to amateur radio as well
 
 ---
 [question:VA301]
 
 ---
 
-* Die CEPT koordiniert die Standards in Europa
-* Empfehlungen zum Inhalt der Amateurfunkprüfung und zur gegenseitigen Anerkennung der Amateurfunkzeugnisse
-* Regeln für Amateurfunkbetriebsrechte bei kurzfristigem Aufenthalt in anderen Mitgliedsländern (bereits beim internationalen Funkbetrieb behandelt)
+* The CEPT coordinates the standards in Europe
+* Recommendations on the content of the amateur radio examination and on the mutual recognition of amateur radio certificates
+* Rules on the right to operate amateur radio during a short stay in other member countries (already covered under international operating)
 
 ---
 
-* Die Regeln der RR und die Empfehlungen der CEPT sind kein unmittelbar geltendes Recht in Deutschland
-* Sie wurden aber beim Amateurfunkgesetz berücksichtigt
-* Das Amateurfunkgesetz heißt eigentlich *Gesetz über den Amateurfunk* und bildet die Rechtsgrundlage für den Amateurfunk in Deutschland
+* The rules of the RR and the recommendations of the CEPT are not directly applicable law in Germany
+* They were, however, taken into account in the Amateur Radio Act
+* The actual title of the Amateur Radio Act is *Act on Amateur Radio* (*Gesetz über den Amateurfunk*), and it forms the legal basis for amateur radio in Germany
 
 ---
 [question:VC101]
 
 ---
 
-* Der Bundestag beschloss 1997 das derzeit gültige Amateurfunkgesetz (AFuG)
-* Die aktuelle Amateurfunkverordnung (AFuV) wurde durch den Bundesminister für Digitales und Verkehr in Kraft gesetzt
-* Die Aufgaben und Befugnisse, die aus dem AFuG und der AFuV erwachsen, nimmt die *Bundesnetzagentur (BNetzA)* wahr
+* The Bundestag passed the Amateur Radio Act (AFuG) currently in force in 1997
+* The current Amateur Radio Ordinance (AFuV) was put into force by the Federal Minister for Digital and Transport
+* The tasks and powers arising from the AFuG and the AFuV are performed and exercised by the *Federal Network Agency (BNetzA)*
 
 ---
 [question:VC104]
 
 ---
 
-* Neben dem Amateurfunkgesetz gibt es weitere Gesetze mit Regeln, die den Amateurfunk mit betreffen
-* Beispiel: das *Telekommunikationsgesetz (TKG)*
+* Besides the Amateur Radio Act, there are further laws with rules that affect amateur radio as well
+* Example: the *Telecommunications Act (Telekommunikationsgesetz, TKG)*
 
 ---
 [question:VE101]

@@ -1,14 +1,14 @@
-### Fernmeldegeheimnis und Abhörverbot
+### Secrecy of telecommunications and prohibition of interception
 
-* Geregelt im Telekommunikation-Digitale-Dienste-Datenschutz-Gesetz (TDDDG), ehemals TTDSG, § 5
-* Nur Nachrichten, die an die Allgemeinheit, einen unbestimmten Personenkreis oder an Funkamateure gerichtet sind, dürfen empfangen werden
-* Alles andere ist verboten: bereits der Empfang selbst, aber auch die Verwertung und Weitergabe
+* Laid down in the Telecommunications Digital Services Data Protection Act (Telekommunikation-Digitale-Dienste-Datenschutz-Gesetz, TDDDG), formerly the TTDSG, Section 5
+* Only messages addressed to the general public, an unspecified group of people or radio amateurs may be received
+* Everything else is prohibited: already reception itself, but also using and passing on
 
 ---
 
-* Empfängt man versehentlich eine solche Nachricht, muss man den Inhalt sowie die Tatsache des Empfangs für immer für sich behalten
-* Einzige Ausnahme: Not- und Katastrophenfälle
-* Formal eine Rechtsgüterabwägung: Rechtsverstoß der Weitergabe gegen die Hilfe im Notfall
+* If you receive such a message by accident, you must keep the content and the fact that it was received to yourself for ever
+* The only exception: emergencies and disasters
+* Formally a balancing of legal interests: the breach of the law in passing it on against help in an emergency
 
 ---
 [question:VE202]
@@ -18,17 +18,17 @@
 
 ---
 
-* Der Besitz und die Herstellung von Geräten, die einen anderen Gegenstand vortäuschen und dadurch besonders geeignet sind, das nicht öffentlich gesprochene Wort heimlich abzuhören ("Wanzen"), ist verboten
-* Beispiel: ein Kugelschreiber mit eingebautem Mikrofon
-* Dieses Verbot gilt für alle, also auch für Funkamateure
+* Possessing and manufacturing devices that are disguised as another object and are therefore particularly suitable for secretly eavesdropping on private (non-public) conversations ("bugs") is prohibited
+* Example: a ballpoint pen with a built-in microphone
+* This prohibition applies to everyone, and so to radio amateurs as well
 
 ---
 [question:VE204]
 
 ---
 
-* Das Abhören des nicht-öffentlich gesprochenen Wortes ist ein Straftatbestand
-* Nach § 27 TDDDG droht eine Freiheitsstrafe von bis zu zwei Jahren oder Geldstrafe
+* Eavesdropping on private (non-public) conversations is a criminal offence
+* Under Section 27 TDDDG, the penalty is imprisonment for up to two years or a fine
 
 ---
 [question:VE201]

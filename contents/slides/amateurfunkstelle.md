@@ -1,42 +1,42 @@
-### Amateurfunkstelle
+### Amateur station
 
-Die Radio Regulations (RR) legen fest:
+The Radio Regulations (RR) lay down:
 
-* Eine Funkstelle besteht nicht nur aus dem Empfänger und dem Sender an einem Ort
-* Auch jede Zusatzeinrichtung gehört dazu, die zum Betrieb erforderlich ist
+* A station consists not only of the receiver and the transmitter at one location
+* It also includes any accessory equipment necessary for operation
 
 ---
 [question:VA201]
 
 ---
 
-* Die allgemeine Definition einer Funkstelle der Radio Regulations (RR) gilt auch für Amateurfunkstellen
-* Die RR legen die Amateurfunkstelle daher ganz einfach als "eine Funkstelle des Amateurfunkdienstes" fest
+* The general definition of a station in the Radio Regulations (RR) also applies to amateur stations
+* The RR therefore define the amateur station quite simply as "a station in the amateur service"
 
 ---
 [question:VA202]
 
 ---
 
-Das Amateurfunkgesetz beschreibt es im Kern genauso, fügt aber Details hinzu:
+The Amateur Radio Act (Amateurfunkgesetz, AFuG) describes it in essentially the same way, but adds details:
 
-* Eine Amateurfunkstelle besteht aus einer oder mehreren Sende- und Empfangsfunkanlagen einschließlich der Antennenanlagen und der zu ihrem Betrieb erforderlichen Zusatzeinrichtungen
-* Eine Amateurfunkstelle muss auf mindestens einer Amateurfunkfrequenz betrieben werden können
+* An amateur station consists of one or more transmitters and receivers, including the antenna installations and the accessory equipment necessary for their operation
+* An amateur station must be capable of being operated on at least one amateur frequency
 
 ---
 [question:VC103]
 
 ---
 
-* Inhaltlich ist laut Radio Regulations (RR) Funkverkehr zwischen Amateurfunkstellen verschiedener Länder auf Mitteilungen im Zusammenhang mit dem definitionsgemäßen Zweck des Amateurfunkdienstes und auf Bemerkungen persönlicher Art zu beschränken
-* Diese Vorgabe wurde nicht ins deutsche Recht übernommen - Funkamateure hier setzen auf verantwortungsvollen Umgang miteinander
-* Andere Staaten können aber entsprechende nationale Vorschriften haben
+* As regards content, the Radio Regulations (RR) lay down that communication between amateur stations of different countries shall be limited to communications incidental to the purpose of the amateur service as defined and to remarks of a personal character
+* This requirement has not been adopted into German law - radio amateurs here rely on dealing with one another responsibly
+* Other countries may, however, have corresponding national regulations
 
 ---
 
-* Der Inhalt einer Funkverbindung darf von jedem mitgehört werden - alles ist öffentlich gesprochenes Wort
-* Daher sollte man sich bewusst ausdrücken und stets fair und höflich bleiben
-* Im Gegensatz dazu ist das nicht öffentlich gesprochene Wort besonders geschützt (dazu später mehr)
+* The content of a contact may be listened to by anyone - everything said counts as public speech
+* So you should choose your words with care and always remain fair and polite
+* By contrast, private (non-public) conversations are specially protected (more on this later)
 
 ---
 [question:VA302]

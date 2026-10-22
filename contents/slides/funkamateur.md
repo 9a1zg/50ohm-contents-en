@@ -1,11 +1,11 @@
-### Funkamateur
+### Radio amateur
 
-Funkamateure sind ordnungsgemäß befugte Personen, die sich ausschließlich mit persönlichem Ziel und ohne finanzielle Interessen für Funktechnik interessieren
+Radio amateurs are duly authorised persons interested in radio technique solely with a personal aim and without pecuniary interest
 
 ---
 
-* Finanzielle und gewerblich-wirtschaftliche Interessen sind mit dem Amateurfunk nicht vereinbar
-* Beispiel: Funkamateure, die gemeinsam bei einem Handwerksbetrieb arbeiten, dürfen Ihre Arbeit nicht über das örtliche Amateurfunkrelais koordinieren
+* Pecuniary and commercial interests are not compatible with amateur radio
+* Example: radio amateurs who work together at a tradesman's business may not coordinate their work over the local amateur repeater
 
 ---
 [question:VA104]
@@ -15,7 +15,7 @@ Funkamateure sind ordnungsgemäß befugte Personen, die sich ausschließlich mit
 
 ---
 
-Im Sinne des Amateurfunkgesetzes (AFuG) ist man Funkamateur, wenn man ein Amateurfunkzeugnis oder eine harmonisierte Amateurfunk-Prüfungsbescheinigung hat
+Within the meaning of the Amateur Radio Act (Amateurfunkgesetz, AFuG), you are a radio amateur if you hold an amateur radio certificate or a harmonised amateur radio examination certificate
 
 ---
 [question:VC105]

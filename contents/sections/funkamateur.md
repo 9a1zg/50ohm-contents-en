@@ -1,10 +1,10 @@
-Nicht jeder darf sich Funkamateur nennen. Nach den Radio Regulations (RR) dürfen sich nur *ordnungsgemäß befugte Personen* so bezeichnen. Das persönliche Interesse am Amateurfunk ist das einzig zulässige Motiv. Finanzielle Interessen sind mit dem Amateurfunk nicht vereinbar.
+Not everyone may call themselves a radio amateur. Under the Radio Regulations (RR), only *duly authorised persons* may do so. A personal interest in amateur radio is the only permissible motive. Pecuniary interests are not compatible with amateur radio.
 
 [question:VA104]
 
-Im § 2 Absatz 1 des Amateurfunkgesetzes ist genau beschrieben, wer sich in Deutschland als Funkamateur bezeichnen darf. Danach ist nur der Inhaber eines *Amateurfunkzeugnisses* oder einer *harmonisierten Amateurfunk-Prüfungsbescheinigung* ein Funkamateur. Der Weg führt in beiden Fällen nur über das Bestehen einer Prüfung.
+Section 2(1) of the Amateur Radio Act (Amateurfunkgesetz, AFuG) describes exactly who may call themselves a radio amateur in Germany. According to it, only the holder of an *amateur radio certificate* or a *harmonised amateur radio examination certificate* is a radio amateur. In both cases, the only way there is by passing an examination.
 
-Das ist aber nicht alles. Ein Funkamateur darf sich mit dem Amateurfunkdienst nur aus persönlicher Neigung und nicht aus gewerblich-wirtschaftlichem Interesse befassen. Dazu ein Beispiel: Funkamateure, die gemeinsam bei einem Handwerksbetrieb arbeiten, dürfen Ihre Arbeit nicht über das örtliche Amateurfunkrelais koordinieren.
+That is not all, however. A radio amateur may be concerned with the amateur service only out of personal interest and not out of commercial interest. An example: radio amateurs who work together at a tradesman's business may not coordinate their work over the local amateur repeater.
 
 [question:VC105]
 

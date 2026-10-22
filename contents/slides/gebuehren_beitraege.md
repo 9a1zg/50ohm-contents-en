@@ -1,9 +1,9 @@
-### Gebühren und Beiträge
+### Fees and contributions
 
-* Nach dem TKG und dem EMVG müssen Funkamateure jährliche Beiträge zahlen
-* Details legt die Frequenzschutzbeitragsverordnung (FSBeitrV) fest
-* Die FSBeitrV beschränkt die Zahlung auf Funkamateure mit Zulassung
-* Die Zahlungsaufforderung erhält man per Gebührenbescheid von der Bundesnetzagentur
+* Under the Telecommunications Act (Telekommunikationsgesetz, TKG) and the Electromagnetic Compatibility Act (EMVG), radio amateurs have to pay annual contributions
+* The details are laid down in the Frequency Protection Contribution Ordinance (FSBeitrV)
+* The FSBeitrV restricts payment to radio amateurs who hold a licence
+* The demand for payment comes as a fee notice from the Federal Network Agency (Bundesnetzagentur, BNetzA)
 
 ---
 [question:VE701]
@@ -13,13 +13,13 @@
 
 ---
 
-* Neben den laufenden Beiträgen fallen weitere Gebühren an, geregelt in der "Besonderen Gebührenverordnung BNetzA (BNetzABGebV)"
-* Dazu gehören z. B. Gebühren für die Amateurfunkprüfung und für die Erteilung der Zulassung
+* Besides the regular contributions, further fees are charged, governed by the "Special Fees Ordinance of the BNetzA (BNetzABGebV)"
+* They include, for example, fees for the amateur radio examination and for the issue of the licence
 
 ---
 
-* Wird eine Gebühr nicht bezahlt, treibt der Staat diese nach dem Verwaltungs-Vollstreckungsgesetz (VwVG) ein
-* Die Bundesnetzagentur hat dabei unterschiedliche Vollstreckungsmöglichkeiten
+* If a fee is not paid, the state collects it under the Administrative Enforcement Act (Verwaltungs-Vollstreckungsgesetz, VwVG)
+* The Federal Network Agency has various means of enforcement for this
 
 ---
 [question:VE703]

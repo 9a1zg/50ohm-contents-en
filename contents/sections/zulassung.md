@@ -1,11 +1,11 @@
-Wenn man jetzt diesen Kurs abgeschlossen und die Prüfung zum Funkamateur bestanden hat, dann erhält man einen *Prüfungsbescheid* sowie eine *Amateurfunk-Prüfungsbescheinigung* und darf sich Funkamateur nennen. Darf man damit dann eine Amateurfunkstelle betreiben? Eindeutig nein! Man braucht zusätzlich noch eine *Zulassung zur Teilnahme am Amateurfunkdienst*. Erst mit dem Zulassungsbescheid wird das persönliche Rufzeichen zugeteilt. 
+Once you have completed this course and passed the radio amateur examination, you receive an *examination result notice* and an *amateur radio examination certificate*, and may call yourself a radio amateur. Does that mean you may then operate an amateur station? Definitely not! You also need an *authorisation to participate in the amateur service*. Only with the authorisation notice is the personal call sign assigned. 
 
 <margin>
-[photo:91:n_zulassung_urkunde:Der Zulassungsbescheid zur Teilnahme am Amateurfunkdienst]
+[photo:91:n_zulassung_urkunde:The notice of authorisation to participate in the amateur service]
 </margin>
 
 [question:VC106]
 
-Wenn man die Gelegenheit hatte, Amateurfunkmagazine zu lesen, sind einem vielleicht schon Meldungen aufgefallen wie "Simon (14) und Sophie (11) haben am 8. Februar erfolgreich ihre Prüfung bei der Bundesnetzagentur Dortmund bestanden". Unser Amateurfunkgesetz kennt nämlich kein Mindestalter für Funkamateure. Im § 4 des AFuG heißt es dazu: "Jede natürliche Person mit Wohnsitz in Deutschland ist auf Antrag zur fachlichen Prüfung für Funkamateure zuzulassen."
+If you have had the chance to read amateur radio magazines, you may already have noticed news items such as "Simon (14) and Sophie (11) successfully passed their examination at the Federal Network Agency (Bundesnetzagentur) in Dortmund on 8 February". This is because our Amateur Radio Act (Amateurfunkgesetz, AFuG) does not provide for a minimum age for radio amateurs. Section 4 of the AFuG says: "Every natural person resident in Germany shall, on application, be admitted to the examination of competence for radio amateurs."
 
 [question:VC108]

@@ -1,21 +1,21 @@
-Es ist natürlich auch geregelt, was eigentlich genau als Amateurfunkstelle bezeichnet wird. Dazu schauen wir uns aber zuerst an, wie der Begriff Funkstelle international definiert wird. Die Radio Regulations (RR) legen fest, dass eine Funkstelle nicht nur aus dem Empfänger und dem Sender an einem Ort besteht, sondern auch jede Zusatzeinrichtung dazugehört, die zum Betrieb erforderlich ist.
+Of course, what exactly counts as an amateur station is also laid down. First, though, let us look at how the term station is defined internationally. The Radio Regulations (RR) lay down that a station consists not only of the receiver and the transmitter at one location, but also includes any accessory equipment necessary for operation.
 
 [question:VA201]
 
-Die allgemeine Definition einer Funkstelle der Radio Regulations (RR) gilt auch für Amateurfunkstellen. Die Radio Regulations legen daher die Amateurfunkstelle ganz einfach als "eine Funkstelle des Amateurfunkdienstes" fest.
+The general definition of a station in the Radio Regulations (RR) also applies to amateur stations. The Radio Regulations therefore define the amateur station quite simply as "a station in the amateur service".
 
 [question:VA202]
 
-Für die nationale Definition der Amateurfunkstelle vergleichen wir wieder das Amateurfunkgesetz (AFuG), und zwar § 2 Absatz 3:
+For the national definition of the amateur station, we again compare the Amateur Radio Act (Amateurfunkgesetz, AFuG), namely Section 2(3):
 
-"Im Sinne dieses Gesetzes ist ... eine Amateurfunkstelle eine Funkstelle, die aus einer oder mehreren Sendefunkanlagen und Empfangsfunkanlagen einschließlich der Antennenanlagen und der zu ihrem Betrieb erforderlichen Zusatzeinrichtungen besteht und die auf mindestens einer der im Frequenznutzungsplan für den Amateurfunkdienst ausgewiesenen Frequenzen betrieben werden kann."
+"Within the meaning of this Act, ... an amateur station is a station that consists of one or more transmitters and receivers, including the antenna installations and the accessory equipment necessary for their operation, and that can be operated on at least one of the frequencies designated for the amateur service in the Frequency Usage Plan."
 
-Die Definition einer Amateurfunkstelle ist uns bereits bei den Radio Regulations (RR) begegnet. Auch hier gibt es keine grundsätzlichen Unterschiede zu unserem Amateurfunkgesetz (AFuG). Eine Amateurfunkstelle besteht aus einer oder mehreren Sende- und Empfangsfunkanlagen einschließlich der Antennenanlagen und der zu ihrem Betrieb erforderlichen Zusatzeinrichtungen. Die Funkstelle muss auf mindestens einer Amateurfunkfrequenz betrieben werden können.
+We have already come across the definition of an amateur station in the Radio Regulations (RR). Here, too, there are no fundamental differences from our Amateur Radio Act (AFuG). An amateur station consists of one or more transmitters and receivers, including the antenna installations and the accessory equipment necessary for their operation. The station must be capable of being operated on at least one amateur frequency.
 
 [question:VC103]
 
-Bemerkenswerterweise wird an keiner Stelle im deutschen Amateurfunkrecht auf den Inhalt von Aussendungen eingegangen. Hier unterstellt der Gesetzgeber einen verantwortungsvollen Umgang der Funkamateure untereinander. International sieht das allerdings anders aus: Nach den Radio Regulations (RR) soll der Inhalt bei internationalen Verbindungen auf Amateurfunkthemen und Bemerkungen persönlicher Art beschränkt werden. Diese Vorgabe wurde nicht in das deutsche Recht übernommen. Für unsere Funkpartner in anderen Staaten kann es aber sehr wohl entsprechende nationale Vorschriften geben. Dies müssen wir beachten.
+Remarkably, German amateur radio law nowhere deals with the content of transmissions. Here the legislator assumes that radio amateurs will deal with one another responsibly. Internationally, however, things are different: under the Radio Regulations (RR), the content of international contacts is to be limited to amateur radio topics and remarks of a personal character. This requirement has not been adopted into German law. For the stations we work in other countries, however, there may very well be corresponding national regulations. We must bear this in mind.
 
-Es muss auch stets klar sein, dass der Inhalt einer Funkverbindung von jedem mitgehört werden kann und darf. Alle Äußerungen sind öffentlich gesprochene Worte. Daher sollte man sich bewusst ausdrücken und stets fair und höflich bleiben. Im Gegensatz dazu ist das nicht öffentlich gesprochene Wort besonders geschützt, worauf wir noch eingehen werden.
+It must also always be clear that the content of a contact can be listened to by anyone, and anyone is allowed to listen. Everything said counts as public speech. So you should choose your words with care and always remain fair and polite. By contrast, private (non-public) conversations are specially protected, as we shall see later.
 
 [question:VA302]

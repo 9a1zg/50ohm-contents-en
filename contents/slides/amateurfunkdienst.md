@@ -1,9 +1,9 @@
-### Amateurfunkdienst
+### Amateur service
 
-* Funkdienste sind in den Radio Regulations (RR) der ITU international definiert
-  * Beispiele: Seefunk, Rundfunk, Amateurfunk
-* Funkanwendungen mit Allgemeinzuteilung können auch international geregelt sein, sind aber kein Funkdienst nach den RR
-  * Beispiele: CB-Funk, WLAN
+* Radiocommunication services are defined internationally in the ITU Radio Regulations (RR)
+  * Examples: maritime mobile service, broadcasting service, amateur service
+* Radio applications under a general assignment may also be regulated internationally, but are not a radiocommunication service under the RR
+  * Examples: CB radio, Wi-Fi
 
 ---
 
@@ -11,12 +11,12 @@
 
 ---
 
-Da der Amateurfunk laut RR ein offizieller Funkdienst ist, beinhaltet er sinn- und verantwortungsvolle Aufgaben:
+Since amateur radio is an official radiocommunication service under the RR, it involves meaningful and responsible tasks:
 
-* Zur eigenen Ausbildung
-* Technische Studien
-* Funkverkehr der Funkamateure untereinander $\rightarrow$ Völkerverständigung
-* Amateurfunkdienst über Satelliten unterscheidet sich beim Zweck nicht davon
+* Self-training
+* Technical investigations
+* Intercommunication between radio amateurs $\rightarrow$ international understanding
+* The amateur-satellite service does not differ from it in purpose
 
 ---
 
@@ -28,13 +28,13 @@ Da der Amateurfunk laut RR ein offizieller Funkdienst ist, beinhaltet er sinn- u
 
 ---
 
-Das Amateurfunkgesetz beschreibt es im Kern genauso:
+The Amateur Radio Act (Amateurfunkgesetz, AFuG) describes it in essentially the same way:
 
-* Experimentellen und technisch-wissenschaftlichen Studien
-* Eigene Weiterbildung
-* Den Aspekt der Völkerverständigung
-* Die Unterstützung von Hilfsaktionen in Not- und Katastrophenfällen
-* Benutzung von Weltraumfunkstellen
+* Experimental and technical-scientific studies
+* Own further education
+* The aspect of international understanding
+* Supporting relief operations in emergencies and disasters
+* Use of space stations
 
 ---
 

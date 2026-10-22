@@ -1,23 +1,23 @@
-Wo es Regeln gibt, da gibt es meist auch Strafen, wenn diese nicht beachtet werden. Verstöße gegen das AFuG oder die AFuV werden aber nicht immer gleich mit Bußgeldern belegt. Viel härter trifft es manche Funkamateure, wenn ihnen Betriebseinschränkungen auferlegt werden oder gar ein Betriebsverbot ausgesprochen wird.
+Where there are rules, there are usually penalties too if they are not observed. Violations of the Amateur Radio Act (Amateurfunkgesetz, AFuG) or the Amateur Radio Ordinance (Amateurfunkverordnung, AFuV) are not, however, always punished with fines straight away. Some radio amateurs are hit much harder when restrictions of operation are imposed on them or even a ban on operation is issued.
 
-Bei fortgesetzten Verstößen gegen das AFuG und die AFuV kann sogar die Zulassung für den Amateurfunkdienst widerrufen werden. Dies ist die schärfste Waffe der BNetzA. Der Betroffene kann sich weiter Funkamateur nennen, vom Amateurfunkbetrieb ist er aber ausgeschlossen. So erklärt sich auch, warum es neben dem Amateurfunkzeugnis noch eine Zulassung gibt. Eine Aberkennung des Amateurfunkzeugnisses ist nicht vorgesehen. Wer einmal die Amateurfunkprüfung bestanden hat, ist und bleibt Funkamateur.
+In the event of continued violations of the AFuG and the AFuV, the authorisation for the amateur service can even be revoked. This is the sharpest weapon of the Federal Network Agency (Bundesnetzagentur, BNetzA). The person concerned can still call themselves a radio amateur, but is excluded from amateur radio operation. This also explains why there is a licence in addition to the amateur radio certificate. There is no provision for taking away the amateur radio certificate. Once you have passed the amateur radio examination, you are and remain a radio amateur.
 
 [question:VC122]
 
 [question:VC123]
 
-Die folgenden drei Handlungen werden vom § 9 des AFuG als Ordnungswidrigkeiten festgelegt:
-* Betrieb ohne Zulassung und damit ohne Rufzeichen
-* geschäftsmäßiges Erbringen von Telekommunikationsdienstleistungen
-* Nachrichtenübermittlung für und an Dritte
+Section 9 of the AFuG defines the following three acts as administrative offences:
+* operation without a licence and therefore without a call sign
+* providing telecommunications services on a commercial basis
+* passing messages for and to third parties
 
-Ordnungswidrigkeiten werden mit Geldbuße geahndet.
+Administrative offences are punished with a fine.
 
 [question:VC124]
 [question:VC125]
 
-Bei der folgenden Frage muss man genau aufpassen! Mehrere der möglichen Antworten sind Handlungen, die ordnungswidrig sind. Aber nur eine ist es - wie in der Fragestellung verlangt - aufgrund des TKG.
+You have to pay close attention with the following question! Several of the possible answers are acts that are administrative offences. But only one of them is one - as the question asks - under the Telecommunications Act (Telekommunikationsgesetz, TKG).
 
-Für uns Funkamateure ist der wichtigste Punkt im TKG die Frequenzzuteilung. Bei den Bußgeldvorschriften ist aufgeführt, dass eine Person ordnungswidrig handelt, die ohne Frequenzzuteilung eine Frequenz nutzt. Wenn ein Funkamateur mit seiner Amateurfunkanlage außerhalb der zugeteilten Amateurfunkbänder sendet, dann nutzt er diese Frequenz ohne Zuteilung und begeht eine Ordnungswidrigkeit.
+For us radio amateurs, the most important point in the TKG is frequency assignment. The provisions on fines state that anyone who uses a frequency without a frequency assignment commits an administrative offence. A radio amateur who transmits with an amateur radio installation outside the assigned amateur bands is using that frequency without an assignment and commits an administrative offence.
 
 [question:VE103]
