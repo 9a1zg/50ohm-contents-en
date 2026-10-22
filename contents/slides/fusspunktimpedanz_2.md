@@ -1,15 +1,15 @@
-## Horizontaler Dipol im Freiraum
+## Horizontal dipole in free space
 
-* Ein horizontaler, mittengespeister Dipol hat ab ca. 1‑λ Aufbauhöhe über dem Erdboden den gleichen Speisewiderstand wie im Freiraum ($\qty{73,1}{\ohm}$).
+* From a height of about 1 λ above the ground, a horizontal, centre-fed dipole has the same feed-point impedance as in free space ($\qty{73.1}{\ohm}$).
 
 ---
 [question:AG211]
 ---
-## Impedanzverhalten bei zu kurzen bzw. zu langen Antennen
+## Impedance of antennas that are too short or too long
 
-* Ist ein Halbwellendipol oder eine gegenüber Erde erregte λ/4‑Antenne zu kurz, wirkt sie kapazitiv (Strom eilt der Spannung voraus).  
-* Ist sie zu lang, erhält die Speiseimpedanz einen induktiven Anteil (Strom eilt der Spannung nach).  
-* Im Resonanzfall fallen Spannungs- und Strommaximum zusammen – es entsteht ein reiner Wirkwiderstand.
+* If a half-wave dipole or a λ/4 antenna fed against earth is too short, it behaves capacitively (the current leads the voltage).  
+* If it is too long, the feed-point impedance gains an inductive part (the current lags the voltage).  
+* At resonance, the voltage and current maxima coincide – the result is a pure resistance.
 
 ---
 [question:AG209]

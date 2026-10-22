@@ -2547,6 +2547,23 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Anpassgerät bzw. Tuner | antenna tuning unit or tuner | as §9 *Antennenanpassgerät* (antenne_laenge_resonanz) |
 | plattgedrückte Ganzwellenschleife | flattened full-wave loop | the folded dipole (antenne_laenge_resonanz) |
 | Anpassung (Folienüberschrift: Dipol auf die Frequenz bringen) | adjustment | where it means bringing a dipole to the wanted frequency by changing its length, not impedance matching (dipol slides) |
+| Aufbauhöhe (Antenne) | height (above the ground) | EG207, EG208 "height at which it is installed"; *bei geringerer Aufbauhöhe* → "at lower heights" (fusspunktimpedanz_1, _2) |
+| Speiseimpedanz / Speisewiderstand (Kurstext) | feed-point impedance | as §9 *Fußpunktimpedanz*, also where the text derives it from Ohm's law; there the bare *Widerstand* $R = U/I$ stays *resistance*, and *niederohmig / hochohmig* → low-impedance / high-impedance, as EG204, EG205 (strom_spannung_speisung_1, fusspunktimpedanz_1) |
+| stromgespeist / spannungsgespeist / Strom- und Spannungsspeisung | current-fed / voltage-fed / current and voltage feeding | EG204–EG206, AG207, AG208 |
+| Strombauch / Strombäuche (gezählt) | current antinode(s) | the course pairs *Bauch* with *Knoten* (strom_spannung_speisung_1) and counts the antinodes to find the multiple (strom_spannung_speisung_2, AG203–AG206); §9 |
+| Anregung / Anregungsfrequenz (Dipol) | (when the dipole is) fed at / operating frequency | as §9 *Erregung / Erregerfrequenz* and AG203–AG206 "applies when the dipole is fed at 28 MHz" |
+| mechanische / elektrische Länge | mechanical / electrical length | elektrische_verlaengerung_verkuerzung |
+| Verkürzungskondensator | shortening capacitor | the capacitor that shortens an antenna electrically, counterpart of the *Verlängerungsspule* → loading coil (§9) (elektrische_verlaengerung_verkuerzung) |
+| Bauform (Antenne) | design; form | "die Bauform eines Parabolspiegels" → "the parabolic dish design", "eine besondere Bauform der Yagi-Uda-Antenne" → "a special form of the Yagi-Uda antenna"; *Bauform* of a component stays *package style* (parabolspiegel_1, yagi_uda_3) |
+| Sperrkreis-Dipol, der auch als Trap-Dipol bezeichnet wird / Trap (englisch für „Falle") / wirkt als Sperrkreis | trap dipole / trap / acts as a rejector | English has one name for the dipole, and the gloss only translates *trap* back into German, so both are dropped (bracket rule); where the text says what a trap *does* at resonance (*wirkt als Sperrkreis*), *rejector*, the RSGB word for a parallel-resonant blocking circuit (§5), so that a trap does not "act as a trap"; the questions keep their "traps for the operating frequency" (AG111–AG113) (traps, AG114, AG116) |
+| Raumwelle mit nahezu vertikalem Einfallswinkel (NVIS, "zu Deutsch") | (dropped) | the German rendering of the English expansion only translates it back (bracket rule): "*NVIS*, for near vertical incidence skywave" (nvis) |
+| Strahlenoptik / Beugungseffekte / Schüssel | ray optics / diffraction effects / dish | parabolspiegel_1 |
+| Strahlungsachse / Polarisationsebene | axis of radiation / plane of polarisation | AG126 (yagi_uda_3) |
+| Offsetspiegel (auch Offsetantenne genannt) | offset dish (also called an offset antenna) | AG127; §9 *Offsetspiegel* |
+| $\frac{Vor}{Rück}$ (Vor-/Rück-Verhältnis in Lösungsfolien) | $\frac{Front}{Back}$ | the ratio written as words in the worked slides; the symbols $P_V$, $P_R$, $U_V$, $U_R$, $g_D$ stay (DECISIONS.md) (vor_rueck_verhaeltnis) |
+| Bodenverluste / Wechselwirkung mit dem Boden | ground losses / interaction with the ground | *Erdboden* → the ground (§13) (fusspunktimpedanz_1) |
+| Lichtbogen / Kabelbrand / Fahrzeugbrand | arc / cable fire / vehicle fire | NK307 "Arcing and vehicle fire" (einbau_kfz) |
+| Mittelkonsole / PKW / Gegenelement (Fahrzeugdach) | centre console / car / counterpoise | as §9 *Gegengewicht* (einbau_kfz) |
 
 ## 15. Catalogue structure
 

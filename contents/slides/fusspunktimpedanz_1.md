@@ -1,43 +1,43 @@
-## Mittengespeister Dipol
+## Centre-fed dipole
 
-* Speiseimpedanz $\qty{73,1}{\ohm}$
-* Im Freiraum, also bei einer Aufbauhöhe von min. einer Wellenlänge
-* Recht nahe bei $\qty{50}{\ohm}$
+* Feed-point impedance $\qty{73.1}{\ohm}$
+* In free space, i.e. at a height of at least one wavelength
+* Quite close to $\qty{50}{\ohm}$
 
 ---
 [question:EG207]
 ---
-## Mittengespeister Dipol
+## Centre-fed dipole
 
-* Bei geringerer Aufbauhöhe kommt es zu Wechselwirkungen mit dem Boden
-* Speiseimpedanz ca. $\qty{40}{\ohm}$ bis $\qty{90}{\ohm}$
+* At lower heights there is interaction with the ground
+* Feed-point impedance approx. $\qty{40}{\ohm}$ to $\qty{90}{\ohm}$
 
 ---
 [question:EG208]
 ---
 [question:EG209]
 ---
-## Faltdipol
+## Folded dipole
 
-* Antennenabschnitte sind teilweise parallel geführt
-* Verdoppelt die Spannung
-* Halbiert den Strom
+* Sections of the antenna partly run in parallel
+* Doubles the voltage
+* Halves the current
 * $R = \frac{2 \cdot U}{\frac{I}{2}} = 4 \cdot \frac{U}{I}$
-* Speiseimpedanz vervierfacht sich: ca. $\qty{240}{\ohm}$ bis $\qty{300}{\ohm}$
+* Feed-point impedance increases fourfold: approx. $\qty{240}{\ohm}$ to $\qty{300}{\ohm}$
 
 <note>
-* Hier ist von der Speiseleitung kommend eine Anpassung mittels eines Transformators nötig
+* Here, coming from the feeder, matching with a transformer is needed
 </note>
 ---
 [question:EG210]
 ---
-## Groundplane-Antenne
+## Ground-plane antenna
 
-* Ein Dipolschenkel entfällt und wird durch eine Erde mit möglichst geringem Widerstand ersetzt
-* Hälfte eines Dipols im Freiraum
-* $\rightarrow$ Speisewiderstand: $\dfrac{\qty{73,1}{\ohm}}{2} \approx \qty{37}{\ohm}$
-* Radiale um $\qty{45}{\degree}$ nach unten abwinkeln ergibt zusätzliche Abstrahlung
-* $\rightarrow$ Speisewiderstand: $\qty{50}{\ohm}$
+* One leg of the dipole is omitted and replaced by an earth with the lowest possible resistance
+* Half of a dipole in free space
+* $\rightarrow$ Feed-point impedance: $\dfrac{\qty{73.1}{\ohm}}{2} \approx \qty{37}{\ohm}$
+* Sloping the radials downwards at $\qty{45}{\degree}$ gives additional radiation
+* $\rightarrow$ Feed-point impedance: $\qty{50}{\ohm}$
 
 ---
 [question:EG211]

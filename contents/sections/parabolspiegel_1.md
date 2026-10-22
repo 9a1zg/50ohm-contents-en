@@ -1,19 +1,19 @@
-Die sogenannten *Mikrowellen* haben nichts mit dem Einheitenvorsatz "Mikro-" zu tun, sondern Mikrowellen bezeichnen elektromagnetische Wellen mit Frequenzen zwischen ca. $\qty{1}{\giga\hertz}$ und etwa $\qty{300}{\giga\hertz}$. Die Wellenlänge von Mikrowellen entspricht also Millimetern bis zu wenigen Dezimetern.
+*Microwaves*, as they are called, have nothing to do with the unit prefix "micro-": the term refers to electromagnetic waves with frequencies between about $\qty{1}{\giga\hertz}$ and about $\qty{300}{\giga\hertz}$. The wavelength of microwaves therefore ranges from millimetres to a few decimetres.
 
 <margin>
-[picture:850:e_parabolspiegel_funktion:Funktionsweise eines Parabolspiegels]
+[picture:850:e_parabolspiegel_funktion:How a parabolic dish works]
 </margin>
 
 ---
 
-Bei diesen Wellenlängen eignet sich die Bauform eines Parabolspiegels besonders. Hierbei macht man sich zu Nutze, dass eine parabolisch geformte Metalloberfläche (oder ein hinreichend engmaschiges Gitter) für parallel einfallende Wellen wie ein Spiegel wirkt, diese jedoch aufgrund der Krümmung des Spiegels in einem Punkt vor dem Spiegel bündelt
+At these wavelengths, the parabolic dish design is particularly suitable. It makes use of the fact that a parabolically shaped metal surface (or a sufficiently fine-meshed grid) acts like a mirror for waves arriving in parallel, but, because of the curvature of the dish, concentrates them at a point in front of the dish
 
 <indepth>
-Unter einer *Parabel* versteht man in der Mathematik eine Kurve, also den Graphen, der durch eine quadratische Gleichung (z. B. $y = x^2$) beschrieben wird. Ein Paraboloid ist die Oberfläche, die sich durch Rotation einer solchen Parabel ergibt.
+In mathematics, a *parabola* is a curve, namely the graph described by a quadratic equation (e.g. $y = x^2$). A paraboloid is the surface obtained by rotating such a parabola.
 </indepth>
 
 [question:EG113]
 
-Nur im idealisierten Modell der Strahlenoptik (also wenn sich die elektromagnetische Welle wie ein Bündel aus Strahlen verhalten würde) kommt es zu einer Konzentration in genau einem Punkt vor dem Spiegel. Tatsächlich ist die Bündelung jedoch nicht perfekt, da es aufgrund der Welleneigenschaften zu Beugungseffekten kommt. Wie stark diese Abweichung vom idealen Strahlenmodell ist, hängt von der Größe der Schüssel ab. Je größer die Schüssel im Verhältnis zur Wellenlänge, umso besser die Richtwirkung. Eine sinnvolle Richtwirkung erreichen Parabolspiegel nur dann, wenn ihr Durchmesser einige Wellenlängen oder mehr beträgt, z. B. fünf.
+Only in the idealised model of ray optics (that is, if the electromagnetic wave behaved like a bundle of rays) is the energy concentrated at exactly one point in front of the dish. In reality, however, the concentration is not perfect, because the wave properties lead to diffraction effects. How far this departs from the ideal ray model depends on the size of the dish. The larger the dish in relation to the wavelength, the better the directional effect. Parabolic dishes only achieve a useful directional effect if their diameter is a few wavelengths or more, e.g. five.
 
 [question:EG114]

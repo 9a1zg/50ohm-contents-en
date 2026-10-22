@@ -1,18 +1,18 @@
-Im Punkt vor dem Parabolspiegel wo die Wellen gebündelt werden, wird die sogenannte *Erregerantenne* platziert. Da Parabolspiegel wie bereits erläutert vor allem für Mikrowellen eingesetzt werden, werden vor allem jene Antennen als Erregerantenne eingesetzt, die im Mikrowellenbereich geeignet sind. Neben Dipolen sind dies *Helixantennen*, die eine zirkulare Polarisation erzeugen, und auch *Hornstrahler*, die z. B. mit einem Hohlleiter gespeist werden können.
+The *feed antenna* is placed at the point in front of the parabolic dish where the waves are concentrated. Since, as already explained, parabolic dishes are used mainly for microwaves, the antennas used as feed antennas are mainly those suitable for the microwave range. Besides dipoles, these are *helical antennas*, which produce circular polarisation, and also *horn antennas*, which can be fed by a waveguide, for example.
 
 <margin>
-[picture:850:a_parabol:Parabolspiegel mit Erregerantenne]
-[picture:1105:a_hornstrahler:Hornstrahler]
+[picture:850:a_parabol:Parabolic dish with feed antenna]
+[picture:1105:a_hornstrahler:Horn antenna]
 % TODO: Bild Helixantenne
 </margin>
 
 <indepth>
-*Hohlleiter* sind Metallrohre, in denen Mikrowellen geleitet werden. Vereinfacht gesagt wird die Welle an den metallischen Außenwänden reflektiert und gelangt so z. B. in ein Horn, aus dem die Welle abgestrahlt wird bzw. von dem einfallende Wellen empfangen und in den Hohlleiter geleitet werden.
+*Waveguides* are metal tubes in which microwaves are guided. Put simply, the wave is reflected by the metal walls and so reaches a horn, for example, from which the wave is radiated, or which receives incoming waves and passes them into the waveguide.
 </indepth>
 
 [question:AG225]
 
-Zur Beantwortung der folgenden Fragen kann die Formel für den Gewinn einer Parabolantenne aus der Formelsammlung herangezogen werden:
+To answer the following questions, the formula for the gain of a parabolic antenna from the formula sheet can be used:
 
 $ g_{\mathrm{i}} = 10 \cdot \log_{10} \left[\left(\frac{\pi\cdot d}{\lambda}\right)^2 \cdot \eta \right]~\unit{\dB} $
 

@@ -1,10 +1,10 @@
-## Erregerantenne und Offsetspiegel
+## Feed antenna and offset dish
 
-* Parabolspiegel bündelt Welle vor Spiegel
-* Erregerantenne im Stahlengang positioniert
-* Teilweise Abschattung der Welle
-* *Offsetspiegel*: Erregerantenne außerhalb des Strahlengangs
-* Meist unterhalb, Paraboloid wird angepasst
+* A parabolic dish concentrates the wave in front of the dish
+* Feed antenna positioned in the radiation path
+* Part of the wave is shadowed
+* *Offset dish*: feed antenna outside the radiation path
+* Usually below it; the paraboloid is adapted
 
 ---
 [question:AG127]

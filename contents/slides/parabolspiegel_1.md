@@ -1,32 +1,32 @@
-## Mikrowellen
+## Microwaves
 
-* Frequenzen zwischen $\qty{1}{\giga\hertz}$ und $\qty{300}{\giga\hertz}$
-* Wellenlänge von Millimetern bis wenigen Dezimetern
-* Können von Metallen reflektiert werden 
+* Frequencies between $\qty{1}{\giga\hertz}$ and $\qty{300}{\giga\hertz}$
+* Wavelength from millimetres to a few decimetres
+* Can be reflected by metals 
 
 <note>
-* Hat also nichts mit dem Einheitenvorsatz "Mikro-" zu tun
+* So it has nothing to do with the unit prefix "micro-"
 </note>
 ---
-## Parabolspiegel
+## Parabolic dish
 
 <left>
-* Parabolisch geformte Metalloberfläche oder engmaschiges Gitter
-* Parallel einfallende Wellen werden auf einem Punkt vor dem Spiegel gebündelt
+* Parabolically shaped metal surface or fine-meshed grid
+* Waves arriving in parallel are concentrated at one point in front of the dish
 </left>
 <right>
-[picture:850:e_parabolspiegel_funktion:Funktionsweise eines Parabolspiegels]
+[picture:850:e_parabolspiegel_funktion:How a parabolic dish works]
 </right>
 ---
 [question:EG113]
 ---
-### Beugungseffekt
+### Diffraction effect
 
-* Durch die Welleneigenschaften kommt es zu Beugungseffekten
-* Bündelung kommt nicht genau in einem Punkt zustande
-* Abweichung kann durch Größe der Schüssel kompensiert werden
-* Gewinn wird dadurch erhöht
-* Optimal: Einige Wellenlängen oder mehr
+* The wave properties lead to diffraction effects
+* The waves are not concentrated at exactly one point
+* The departure can be compensated for by the size of the dish
+* This increases the gain
+* Optimum: a few wavelengths or more
 
 ---
 [question:EG114]

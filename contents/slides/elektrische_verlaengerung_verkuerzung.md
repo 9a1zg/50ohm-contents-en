@@ -1,35 +1,35 @@
-## Antenne: Kapazitive und induktive Wirkung
+## Antenna: capacitive and inductive behaviour
 
-* Ein Halbwellendipol bzw. eine gegenüber Erde erregte λ/4‑Antenne wirkt kapazitiv, wenn sie zu kurz ist, und induktiv, wenn sie zu lang ist.
-* Die abweichende Speiseimpedanz führt zu Fehlanpassung und einem schlechteren SWR.
-* Durch Einfügen eines Kondensators (elektrisch verkürzen) oder einer Verlängerungsspule (elektrisch verlängern) lässt sich die Impedanz wieder anpassen.
+* A half-wave dipole, or a λ/4 antenna fed against earth, behaves capacitively if it is too short and inductively if it is too long.
+* The departure from the expected feed-point impedance leads to a mismatch and a worse SWR.
+* Inserting a capacitor (electrical shortening) or a loading coil (electrical lengthening) matches the impedance again.
 
 ---
 <left>
-[picture:650:a_antenne_verlaengerung:Antenne mit Spule]
+[picture:650:a_antenne_verlaengerung:Antenna with coil]
 </left>
 <right>
-* Die Antenne ist durch Einfügen einer Spule elektrisch verlängert.
+* The antenna is lengthened electrically by inserting a coil.
 </right>
 
 ---
 [question:AG106]
 ---
 <left>
-[picture:563:a_antenne_verkuerzung:Antenne mit Kondensator]
+[picture:563:a_antenne_verkuerzung:Antenna with capacitor]
 </left>
 <right>
-* Die Antenne ist durch Einfügen eines Kondensators elektrisch verkürzt.
+* The antenna is shortened electrically by inserting a capacitor.
 </right>
 
 ---
 [question:AG107]
 ---
-## Bestimmung der mechanischen Länge
+## Determining the mechanical length
 
-* Zunächst wird festgestellt, ob die Antenne mechanisch zu kurz oder zu lang ist.
-* Ist die Antenne zu kurz, benötigt man eine Verlängerungsspule.
-* Andernfalls ist ein Verkürzungskondensator zur Kompensation erforderlich.
+* First, find out whether the antenna is mechanically too short or too long.
+* If the antenna is too short, a loading coil is needed.
+* Otherwise, a shortening capacitor is needed for compensation.
 
 ---
 [question:AG108]

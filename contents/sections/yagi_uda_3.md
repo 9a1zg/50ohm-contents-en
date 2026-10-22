@@ -1,17 +1,17 @@
-Reflektor und Direktoren beeinflussen nicht nur die Richtwirkung einer Yagi-Uda-Antenne, sondern auch deren Speisewiderstand. Der Strahler regt in den parasitären Elementen Ströme an. Deren elektromagnetische Felder wirken wiederum auf den Strahler zurück. Diese gegenseitige Kopplung hängt unter anderem von den Abständen und Längen der einzelnen Elemente ab und verändert dadurch auch die Speiseimpedanz der Antenne.
+The reflector and directors affect not only the directional properties of a Yagi-Uda antenna but also its feed-point impedance. The radiator induces currents in the parasitic elements. Their electromagnetic fields in turn act back on the radiator. This mutual coupling depends, among other things, on the spacings and lengths of the individual elements, and so also changes the feed-point impedance of the antenna.
 
 [question:AG212]
 
-Mit zunehmender Anzahl an Direktoren und größerer Boomlänge kann der Gewinn einer Yagi-Uda-Antenne erhöht werden. Die abgestrahlte Leistung wird dabei zunehmend in Hauptstrahlrichtung gebündelt. Da die Antenne selbst keine zusätzliche Energie erzeugt, geht ein höherer Gewinn in Hauptstrahlrichtung mit einem kleineren Öffnungswinkel einher.
+The gain of a Yagi-Uda antenna can be increased with more directors and a longer boom. The radiated power is then increasingly concentrated in the direction of maximum radiation. Since the antenna itself produces no additional energy, a higher gain in the direction of maximum radiation goes hand in hand with a narrower beamwidth.
 
 [question:AG222]
 
 ---
 
-Eine besondere Bauform der Yagi-Uda-Antenne ist die *Kreuzyagi*. Dabei werden zwei Yagi-Uda-Antennen um $\qty{90}{\degree}$ gegeneinander um die Strahlungsachse verdreht. Beispielsweise kann eine der beiden Antennen horizontal und die andere vertikal polarisiert sein. Werden beide Antennen mit gleich großen und gleichphasigen Signalen gespeist, überlagern sich die beiden Feldkomponenten zu einer linear polarisierten Welle, deren Polarisationsebene zwischen den beiden Antennen liegt. Werden die beiden Yagi-Uda-Antennen dagegen mit gleich großen Signalen gespeist, die um $\qty{90}{\degree}$ gegeneinander phasenverschoben sind, entsteht eine *zirkular polarisierte* Welle. Eine solche Phasenverschiebung kann beispielsweise durch eine entsprechend ausgelegte Speiseleitung erzeugt werden. Alternativ können die beiden Antennen auch um eine Viertelwellenlänge entlang der Strahlungsachse gegeneinander versetzt angeordnet werden. Durch den unterschiedlichen Weg der abgestrahlten Wellen entsteht ebenfalls eine Phasenverschiebung von $\qty{90}{\degree}$.
+A special form of the Yagi-Uda antenna is the *crossed Yagi*. Here, two Yagi-Uda antennas are rotated by $\qty{90}{\degree}$ relative to each other about the axis of radiation. For example, one of the two antennas can be horizontally polarised and the other vertically polarised. If both antennas are fed with signals of equal amplitude and in phase, the two field components combine into a linearly polarised wave whose plane of polarisation lies between the two antennas. If, on the other hand, the two Yagi-Uda antennas are fed with signals of equal amplitude that are $\qty{90}{\degree}$ out of phase with each other, a *circularly polarised* wave is produced. Such a phase shift can be produced, for example, by a suitably designed feeder. Alternatively, the two antennas can be offset from each other by a quarter wavelength along the axis of radiation. The different path lengths of the radiated waves then likewise produce a phase shift of $\qty{90}{\degree}$.
 
 <margin>
-[picture:1103:a_kreuzyagi:Kreuzyagi mit zirkularer Polarisation]
+[picture:1103:a_kreuzyagi:Crossed Yagi with circular polarisation]
 </margin>
 
 [question:AG126]

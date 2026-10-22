@@ -1,25 +1,25 @@
-## Trap-Dipole
+## Trap dipoles
 
 <left>
-[picture:234:a_traps_allgemein:Zweiband-Dipolantenne mit Traps]
-Trap als Parallelschwingkreis aus Kondensator und Spule
+[picture:234:a_traps_allgemein:Dual-band dipole antenna with traps]
+Trap as a parallel tuned circuit made up of a capacitor and a coil
 </left>
 <right>
-* Multibandantennen sind so konstruiert, dass sie auf mehreren Frequenzbändern resonant sind.
-* Ein Trap wird in einen Dipol eingefügt, um einen zusätzlichen Frequenzbereich zu erschließen.
+* Multiband antennas are designed to be resonant on several frequency bands.
+* A trap is inserted into a dipole to open up an additional frequency range.
 </right>
 
 ---
 <left>
-[picture:234:a_traps_allgemein:Zweiband-Dipolantenne mit Traps]
+[picture:234:a_traps_allgemein:Dual-band dipole antenna with traps]
 </left>
 <right>
-* Bei seiner Resonanz wirkt der Trap als Sperrkreis, der den Stromfluss blockiert und den Dipol elektrisch begrenzt.
-* Bei Anregung mit tieferer Frequenz schwingt hingegen der gesamte Dipol.
+* At its resonance, the trap acts as a rejector, which blocks the flow of current and limits the dipole electrically.
+* When the dipole is fed at a lower frequency, on the other hand, the whole dipole oscillates.
 </right>
 
 ---
-## Trap-Dipol ausprobieren
+## Try out a trap dipole
 
 [include:applet_traps]
 
@@ -28,22 +28,22 @@ Trap als Parallelschwingkreis aus Kondensator und Spule
 ---
 [question:AG110]
 ---
-## Einfluss hoher Frequenzen
+## Effect of higher frequencies
 
-* Frequenzen oberhalb der Resonanz des Traps können den Schwingkreis passieren.
-* Der überwiegend wirkende Kondensator verkürzt dadurch die Antenne leicht – die Spule spielt hier eine untergeordnete Rolle.
+* Frequencies above the resonance of the trap can pass through the tuned circuit.
+* The capacitor, which now predominates, therefore shortens the antenna slightly – the coil plays a minor part here.
 
 ---
 [question:AG113]
 ---
-## Sperrwirkung im Resonanzfall
+## Blocking effect at resonance
 
 <left>
-[picture:235:a_traps_40m:Zweiband-Dipolantenne mit Trap für das 40m-Band]
+[picture:235:a_traps_40m:Dual-band dipole antenna with trap for the 40 m band]
 </left>
 <right>
-* Wird ein Trap-Dipol bei der Resonanzfrequenz eines der Traps betrieben, wirkt dieser wie ein Sperrkreis.
-* Dadurch fließt nahezu kein Strom, und der Dipol verhält sich, als ob er an dieser Stelle endet.
+* If a trap dipole is operated at the resonant frequency of one of the traps, that trap acts as a rejector.
+* As a result, almost no current flows, and the dipole behaves as if it ended at that point.
 </right>
 
 ---
@@ -51,27 +51,27 @@ Trap als Parallelschwingkreis aus Kondensator und Spule
 ---
 [question:AG116]
 ---
-## Elektrische Verlängerung bei niedrigen Frequenzen
+## Electrical lengthening at low frequencies
 
 <left>
-[picture:235:a_traps_40m:Zweiband-Dipolantenne mit Trap für das 40m-Band]
+[picture:235:a_traps_40m:Dual-band dipole antenna with trap for the 40 m band]
 </left>
 <right>
-* Bei Frequenzen unterhalb der Resonanz fließt nur wenig Strom durch den Kondensator.
-* Die Wirkung der Spule dominiert und führt zu einer elektrischen Verlängerung der Antenne.
+* At frequencies below resonance, only a little current flows through the capacitor.
+* The effect of the coil dominates and lengthens the antenna electrically.
 </right>
 
 ---
 [question:AG111]
 ---
-## Mehrere Traps für erweiterte Resonanzen
+## Several traps for further resonances
 
 <left>
-[picture:237:a_traps_mehrband:Dreiband-Dipolantenne mit Traps]
+[picture:237:a_traps_mehrband:Three-band dipole antenna with traps]
 </left>
 <right>
-* Durch Einbau mehrerer Traps wird der innere Schwingkreis auf die höchste Frequenz und der nächstäußere auf eine niedrigere Frequenz abgestimmt.
-* So lassen sich mehrere Resonanzen im selben Dipol realisieren.
+* When several traps are fitted, the inner tuned circuit is tuned to the highest frequency and the next one out to a lower frequency.
+* In this way, several resonances can be obtained in the same dipole.
 </right>
 
 ---

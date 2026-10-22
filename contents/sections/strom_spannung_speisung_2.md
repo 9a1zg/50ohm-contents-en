@@ -1,25 +1,25 @@
-Ein mittengespeister Halbwellendipol ist nicht nur bei seiner Grundfrequenz stromgespeist, sondern auch bei *ungeradzahligen* Vielfachen seiner Grundfrequenz, wie in Abbildung [ref:e_stromverteilungen] gezeigt. So besitzt beispielsweise ein für das $\qty{80}{\meter}$-Band ausgelegter Dipol mit einer Grundfrequenz von $\qty{3,5}{\mega\hertz}$ weitere Resonanzen näherungsweise bei $3\cdot\qty{3,5}{\mega\hertz}=\qty{10,5}{\mega\hertz}$ und $5\cdot\qty{3,5}{\mega\hertz}=\qty{17,5}{\mega\hertz}$ und ist an diesen Freqeuenzen stromgespeist und niederohmig.
+A centre-fed half-wave dipole is current-fed not only at its fundamental frequency, but also at *odd* multiples of its fundamental frequency, as shown in Figure [ref:e_stromverteilungen]. For example, a dipole designed for the $\qty{80}{\meter}$ band with a fundamental frequency of $\qty{3.5}{\mega\hertz}$ has further resonances at approximately $3\cdot\qty{3.5}{\mega\hertz}=\qty{10.5}{\mega\hertz}$ and $5\cdot\qty{3.5}{\mega\hertz}=\qty{17.5}{\mega\hertz}$, and at these frequencies it is current-fed and of low impedance.
 [question:AG207]
 
-Bei *geraden* Vielfachen hingegen, ergibt sich eine Spannungsspeisung, da dann der Speisepunkt an einem Spannungsbauch liegt. Bei einem $\qty{80}{\meter}$-Dipol liegt bei einer Anregung von $2\cdot\qty{3,5}{\mega\hertz}=\qty{7}{\mega\hertz}$ oder $4\cdot\qty{3,5}{\mega\hertz}=\qty{14}{\mega\hertz}$, am mittigen Speisepunkt Stromminimum und damit eine hohe Impedanz. Diese Frequenzen sind bei einem einfachen mittengespeisten Dipol daher nicht ohne Weiteres nutzbar. Im Abschnitt "Traps" werden wir eine möglichkeit kennenlernen, wie man zusätzliche Resonanzen gezielt auf solchen Frequenzen erzeugen kann.
+At *even* multiples, on the other hand, the antenna is voltage-fed, because the feed point then lies at a voltage antinode. For an $\qty{80}{\meter}$ dipole fed at $2\cdot\qty{3.5}{\mega\hertz}=\qty{7}{\mega\hertz}$ or $4\cdot\qty{3.5}{\mega\hertz}=\qty{14}{\mega\hertz}$, there is a current minimum at the central feed point, and so a high impedance. These frequencies therefore cannot readily be used with a simple centre-fed dipole. In the section on traps, we will meet a way of producing additional resonances on such frequencies deliberately.
 
 [question:AG208]
 
 <margin>
-[picture:1050:a_stromverteilungen:Stromverteilungen bei verschiedenen Grundfrequenzen]
+[picture:1050:a_stromverteilungen:Current distributions at different fundamental frequencies]
 </margin>
 
 ---
 
-Die Abbildung [ref:a_stromverteilungen_b] zeigt die Stromverteilungen für eine Grundfrequenz von $\qty{3,5}{\mega\hertz}$ und ganzzahlige Vielfache. Die Abbildung [ref:a_stromverteilungen_c] zeigt die Stromverteilungen für die Grundfrequenz und ihre ungeradzahligen Vielfachen. Die Abbildungen zeigen schematisch den *Betrag der Stromverteilung*. Die Höhe der dargestellten Strombäuche dient nur der Veranschaulichung und stellt keine absolute Stromstärke dar.
+Figure [ref:a_stromverteilungen_b] shows the current distributions for a fundamental frequency of $\qty{3.5}{\mega\hertz}$ and integer multiples of it. Figure [ref:a_stromverteilungen_c] shows the current distributions for the fundamental frequency and its odd multiples. The figures show the *magnitude of the current distribution* schematically. The height of the current antinodes shown is only for illustration and does not represent an absolute current.
 
-Die Anzahl des Vielfachen lässt sich direkt an der Anzahl der Strombäuche erkennen: Zwei Strombäuche entsprechen dem Zweifachen der Grundfrequenz, drei Strombäuche dem Dreifachen der Grundfrequenz usw.
+The multiple can be read directly from the number of current antinodes: two current antinodes correspond to twice the fundamental frequency, three current antinodes to three times the fundamental frequency, and so on.
 
-Für die folgenden Fragen betrachten wir wieder den bereits bekannten $\qty{80}{\meter}$-Dipol mit einer Gesamtlänge von etwa $\qty{40}{\meter}$. Seine Grundfrequenz liegt näherungsweise bei $\qty{3,5}{\mega\hertz}$. Um die jeweils dargestellte Anregungsfrequenz zu bestimmen, genügt es daher, die Anzahl der Strombäuche zu zählen und mit der Grundfrequenz von $\qty{3,5}{\mega\hertz}$ zu multiplizieren.
+For the following questions we again consider the familiar $\qty{80}{\meter}$ dipole with a total length of about $\qty{40}{\meter}$. Its fundamental frequency is approximately $\qty{3.5}{\mega\hertz}$. To determine the operating frequency shown in each case, it is therefore enough to count the current antinodes and multiply by the fundamental frequency of $\qty{3.5}{\mega\hertz}$.
 
 <margin>
-[picture:1137:a_stromverteilungen_b:Stromverteilungen für Grundfrequenz von $\qty{3,5}{\mega\hertz}$ und ganzzahligen Vielfachen]
-[picture:1138:a_stromverteilungen_c:Stromverteilungen für Grundfrequenz von $\qty{3,5}{\mega\hertz}$ und ungeradzahligen Vielfachen]
+[picture:1137:a_stromverteilungen_b:Current distributions for a fundamental frequency of $\qty{3.5}{\mega\hertz}$ and integer multiples]
+[picture:1138:a_stromverteilungen_c:Current distributions for a fundamental frequency of $\qty{3.5}{\mega\hertz}$ and odd multiples]
 </margin>
 
 [question:AG203]

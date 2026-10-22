@@ -1,23 +1,23 @@
-Wie wir bereits für Klasse E gelernt haben, besitzt ein in der Mitte gespeister Halbwellendipol im Freiraum einen Speisewiderstand von etwa $\qty{73,1}{\ohm}$. In der Praxis wird der Speisewiderstand jedoch durch die Umgebung und insbesondere durch die Aufbauhöhe über dem Erdboden beeinflusst.
+As we learnt for Class E, a half-wave dipole fed in the centre has a feed-point impedance of about $\qty{73.1}{\ohm}$ in free space. In practice, however, the feed-point impedance is affected by the surroundings, and in particular by the height above the ground.
 
-Ab einer Aufbauhöhe von ungefähr einer Wellenlänge nähert sich der Speisewiderstand dem Freiraumwert an. Je nach genauer Aufbauhöhe und Umgebung liegt er typischerweise im Bereich von etwa $\qtyrange{65}{75}{\ohm}$, wie in Abbildung [ref:e_fusspunktimpedanz_dipol] dargestellt.
+From a height of about one wavelength upwards, the feed-point impedance approaches the free-space value. Depending on the exact height and the surroundings, it typically lies in the range of about $\qtyrange{65}{75}{\ohm}$, as shown in Figure [ref:e_fusspunktimpedanz_dipol].
 
 <margin>
-[picture:788:e_fusspunktimpedanz_dipol:Fußpolimpedanz eines Dipols in Abhängigkeit von der Aufbauhöhe (Simuliert mit NECPP)]
+[picture:788:e_fusspunktimpedanz_dipol:Feed-point impedance of a dipole as a function of height (simulated with NECPP)]
 </margin>
 
 ---
 
 [question:AG211]
 
-Bei seiner Resonanzfrequenz besitzt ein Halbwellendipol am Speisepunkt im Wesentlichen einen *Wirkwiderstand*. Der kapazitive und der induktive Blindanteil heben sich gegenseitig auf, sodass die Speiseimpedanz keinen beziehungsweise nur einen sehr kleinen Blindanteil besitzt. Strom und Spannung sind dann am Speisepunkt phasengleich.
+At its resonant frequency, a half-wave dipole presents essentially a *resistance* at the feed point. The capacitive and inductive reactive parts cancel each other out, so that the feed-point impedance has no reactive part, or only a very small one. Current and voltage are then in phase at the feed point.
 
 [question:AG209]
 
-Wird der Halbwellendipol außerhalb seiner Grundresonanz betrieben, besitzt seine Speiseimpedanz zusätzlich einen Blindanteil. Unterhalb der Grundfrequenz ist der Dipol elektrisch zu kurz und die Speiseimpedanz ist *kapazitiv*. Oberhalb der Grundfrequenz ist der Dipol elektrisch zu lang und die Speiseimpedanz ist *induktiv*.
+If the half-wave dipole is operated away from its fundamental resonance, its feed-point impedance also has a reactive part. Below the fundamental frequency the dipole is electrically too short and the feed-point impedance is *capacitive*. Above the fundamental frequency the dipole is electrically too long and the feed-point impedance is *inductive*.
 
 <tip>
-Wir erinnern uns: Bei einer kapazitiven Impedanz eilt der Strom der Spannung voraus, bei einer induktiven Impedanz eilt der Strom der Spannung nach.
+Remember: in a capacitive impedance the current leads the voltage, in an inductive impedance the current lags the voltage.
 </tip>
 
 [question:AG210]

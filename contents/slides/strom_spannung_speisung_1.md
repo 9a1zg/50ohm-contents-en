@@ -1,56 +1,56 @@
-## Speisewiderstand
+## Feed-point impedance
 
-* Eine Antenne wird mit Spannung und Strom gespeist
-* Deren Verhältnis zueinander ergibt den Speisewiderstand
-* Für Leistung müssen immer Spannung <u>und</u> Strom vorhanden sein
-* Wäre eines von beiden 0, erfolgt keine Leistungsabgabe
-* Speisewiderstand hängt vom Ort der Einspeisung ab
+* An antenna is fed with voltage and current
+* Their ratio to each other gives the feed-point impedance
+* For power there must always be voltage <u>and</u> current
+* If either of them were 0, no power would be delivered
+* The feed-point impedance depends on where the antenna is fed
 
 <note>
-* Ohmsches Gesetz
+* Ohm's law
 </note>
 
 ---
 
-## Stromgespeiste Antennen
+## Current-fed antennas
 
-* Hoher Strom bei vergleichsweise geringer Spannung am Speisepunkt
-* Niedriger Speisewiderstand
-* ca. $\qtyrange{36}{100}{\ohm}$
-* Niederohmiges Verhalten
-
----
-
-## Spannungsgespeiste Antenne
-* Hohe Spannung bei vergleichsweise geringem Strom am Speisepunkt
-* Hoher Speisewiderstand
-* ca. $\qtyrange{1500}{4000}{\ohm}$
-* Hochohmiges Verhalten
+* High current at a comparatively low voltage at the feed point
+* Low feed-point impedance
+* approx. $\qtyrange{36}{100}{\ohm}$
+* Low-impedance behaviour
 
 ---
 
-## Einspeisung am Halbwellendipol
+## Voltage-fed antenna
+* High voltage at a comparatively low current at the feed point
+* High feed-point impedance
+* approx. $\qtyrange{1500}{4000}{\ohm}$
+* High-impedance behaviour
 
-* Ladungsträger schwingen hin und her
-* In der Mitte werden besonders viele Ladungsträger bewegt $\rightarrow$ Strombauch
-* An den Enden entstehen besonders hohe Spannungen $\rightarrow$ Spannungsbauch
-* Wenige Ladungsträger $\rightarrow$ Stromknoten
-* Keine Spannung $\rightarrow$ Spannungsknoten
+---
+
+## Feeding a half-wave dipole
+
+* Charge carriers oscillate back and forth
+* In the middle, a particularly large number of charge carriers move $\rightarrow$ current antinode
+* At the ends, particularly high voltages arise $\rightarrow$ voltage antinode
+* Few charge carriers $\rightarrow$ current node
+* No voltage $\rightarrow$ voltage node
 
 <note>
-* Grafik auf folgender Seite verdeutlicht es
+* The diagram on the next page makes this clear
 </note>
 
 ---
 
 <left>
-* Strombauch in der Mitte
-* Spannungsbauch an den Enden
-* Stromknoten an den Enden
-* Spannungsknoten in der Mitte
+* Current antinode in the middle
+* Voltage antinodes at the ends
+* Current nodes at the ends
+* Voltage node in the middle
 </left>
 <right>
-[picture:787:e_strom_spannung_speisung_dipol:Halbwellendipol mit Spannungs- und Stromverteilung]
+[picture:787:e_strom_spannung_speisung_dipol:Half-wave dipole with voltage and current distribution]
 </right>
 
 ---
@@ -63,15 +63,15 @@
 
 ---
 
-## Endgespeister Halbwellendipol
+## End-fed half-wave dipole
 
 
 <left>
-* Spannungsgespeiste Antenne
-* Hoher Speisewiderstand
+* Voltage-fed antenna
+* High feed-point impedance
 </left>
 <right>
-[picture:851:e_strom_spannung_speisung_dipol_ende:Halbwellendipol Endgespeist]
+[picture:851:e_strom_spannung_speisung_dipol_ende:End-fed half-wave dipole]
 </right>
 
 ---

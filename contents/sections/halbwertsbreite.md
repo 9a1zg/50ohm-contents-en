@@ -1,9 +1,9 @@
-Aufgrund der Energieerhaltung gilt: Je höher der Gewinn einer Antenne in einer Richtung, umso niedriger muss der Gewinn in den anderen Richtungen in der Summe sein. Entsprechend haben Antennen mit einem hohen Gewinn oft einen geringen Öffnungswinkel, d. h. bereits bei kleinen Winkeln abweichend von der Hauptstrahlrichtung sinkt der Antennengewinn teils deutlich ab.
+Because energy is conserved, the following applies: the higher the gain of an antenna in one direction, the lower the gain in the other directions must be in total. Accordingly, antennas with a high gain often have a narrow beamwidth, i.e. even at small angles away from the direction of maximum radiation, the antenna gain sometimes falls considerably.
 
-Unter dem *Öffnungswinkel* oder der *Halbwertsbreite* verstehen wir den Winkel innerhalb dessen der Gewinn nicht um mehr als $\qty{3}{\dB}$, d. h. auf die halbe Strahlungsleistung bzw. auf das $\frac{1}{\sqrt{2}} \approx 0,707$-fache der maximalen Feldstärke (also der Feldstärke in Hauptstrahlungsrichtung) abfällt.
+By the *beamwidth* or *half-power beamwidth* we mean the angle within which the gain does not fall by more than $\qty{3}{\dB}$, i.e. to half the radiated power or to $\frac{1}{\sqrt{2}} \approx 0.707$ times the maximum field strength (that is, the field strength in the direction of maximum radiation).
 
 <margin>
-[picture:266:a_halbwertsbreite:Halbwertsbreite einer Richtantenne]
+[picture:266:a_halbwertsbreite:Half-power beamwidth of a directional antenna]
 </margin>
 
 [question:AG219]

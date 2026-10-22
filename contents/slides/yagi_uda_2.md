@@ -1,47 +1,47 @@
-## Funktionsprinzip
+## How it works
 
 <left>
-* Einspeisung an *Strahler* ausgeführt als Dipol oder Faltdipol
-* Welle trifft auf längeren *Reflektor* und kürzeren *Direktor*
-* Es kann auch mehrere Direktoren geben
+* Fed at the *radiator*, built as a dipole or folded dipole
+* The wave reaches the longer *reflector* and the shorter *director*
+* There can also be several directors
 </left>
 <right>
-[picture:531:e_yagi_uda_aufbau:Die Elemente einer Yagi-Uda-Antenne: 1 Reflektor, 2 Strahler, 3 Direktor]
+[picture:531:e_yagi_uda_aufbau:The elements of a Yagi-Uda antenna: 1 reflector, 2 radiator, 3 director]
 </right>
 
 ---
 [question:EG111]
 ---
-### Parasitäre Elemente
+### Parasitic elements
 
-* Reflektor und Direktor schwingen ohne elektrische Verbindung zum Strahler zu haben
-* Haben auch keine Antenneneinspeisung
-* Nehmen dennoch Energie auf und geben sie wieder ab
+* The reflector and director oscillate without any electrical connection to the radiator
+* They are not fed either
+* They still take up energy and give it off again
 
 ---
 [question:EG212]
 ---
-## Richtwirkung
+## Directional properties
 
 <left>
-* Zwischen Strahler und Elementen gibt es eine räumliche und zeitliche Phasenverschiebung
-* Durch die Überlagerung der Abstrahlung entsteht eine Richtwirkung
-* *Destruktive Interferenz*: Wellen löschen sich aus
-* *Konstruktive Interferenz*: Wellen verstärken sich
+* There is a phase shift in space and time between the radiator and the elements
+* The superposition of the radiation produces a directional effect
+* *Destructive interference*: waves cancel each other out
+* *Constructive interference*: waves reinforce each other
 </left>
 <right>
 [include:applet_interferenz]
 </right>
 
 ---
-### Strahlungsdiagramm
+### Radiation pattern
 
 <left>
-* Große Hauptkeule in Richtung der Direktoren
-* Kleine Nebenkeulen und insbesondere Rückkeule
+* Large main lobe in the direction of the directors
+* Small side lobes and, in particular, a back lobe
 </left>
 <right>
-[picture:265:e_yagi_uda_strahlungsdiagramm:Strahlungsdiagramm einer Yagi-Uda-Antenne]
+[picture:265:e_yagi_uda_strahlungsdiagramm:Radiation pattern of a Yagi-Uda antenna]
 </right>
 
 ---

@@ -476,6 +476,15 @@ and the checker's "Provjera" section).
   open-wire lines and coaxial cables → *velocity factor*. The loop
   antenna's *Verlängerungsfaktor* is the *lengthening factor* (glossary §14).
   (Unit nea_antennen_uebertragungsleitungen_1.)
+- **Words written as a quantity in a worked formula are translated; letter
+  symbols derived from them stay.** The front-to-back slides
+  (vor_rueck_verhaeltnis) write the ratio itself as words,
+  $\frac{Vor}{Rück}$; in English it is $\frac{Front}{Back}$, as the
+  abbreviated word $\textrm{Abw.}$ became "Dev." (glossary §14). The
+  single-letter symbols taken from the same words — $P_V$, $P_R$, $U_V$,
+  $U_R$ — stay, because the exam questions (AG213, AG214) and the drawings
+  use them, like every other German subscript. (Unit
+  nea_antennen_uebertragungsleitungen_2.)
 
 ## Open questions for DARC
 

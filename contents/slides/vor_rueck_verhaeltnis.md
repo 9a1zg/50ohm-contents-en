@@ -1,14 +1,14 @@
 --- style="font-size: 0.7em;"
 
-## Antennencharakteristik und Richtwirkung
+## Antenna characteristics and directional properties
 
 <left>
-[picture:264:a_strahlungscharakteristik_dipol_richt:Strahlungscharakteristik einer Richtantenne zu einem Dipol]
-* Das *Vor-/Rück-Verhältnis* beschreibt, wie viel besser in Hauptstrahlrichtung gesendet und empfangen wird.
+[picture:264:a_strahlungscharakteristik_dipol_richt:Radiation pattern of a directional antenna compared with a dipole]
+* The *front-to-back ratio* describes how much better the antenna transmits and receives in the direction of maximum radiation.
 </left>
 <right>
-* Richtantennen senden und empfangen auch in Rückwärtsrichtung – ein unerwünschter Effekt.  
-* Der Antennengewinn bezieht sich nur auf die Hauptstrahlrichtung (im Vergleich zu einem Dipol oder isotropen Strahler).  
+* Directional antennas also transmit and receive in the backward direction – an unwanted effect.  
+* The antenna gain refers only to the direction of maximum radiation (compared with a dipole or an isotropic radiator).  
 </right>
 
 ---
@@ -21,13 +21,13 @@
 
 ---
 
-### Vor-/Rück-Verhältnis in Dezibel
+### Front-to-back ratio in decibels
 
 <left>
-[picture:263:a_strahlungscharakteristik_richt:Strahlungscharakteristik einer Richtantenne]
+[picture:263:a_strahlungscharakteristik_richt:Radiation pattern of a directional antenna]
 </left>
 <right>
-* Das Vor-/Rück-Verhältnis wird häufig in Dezibel angegeben.
+* The front-to-back ratio is often given in decibels.
 </right>
 
 ---
@@ -35,13 +35,13 @@
 [question:AG217]
 
 ---
-#### Lösungsweg
-* gegeben: $P_R = \qty{0,6}{\watt}$
-* gegeben: $P_V = \qty{15}{\watt}$
-* gesucht: $\frac{Vor}{Rück}$
+#### Solution
+* given: $P_R = \qty{0.6}{\watt}$
+* given: $P_V = \qty{15}{\watt}$
+* required: $\frac{Front}{Back}$
 
 <fragment>
-$\begin{split}\frac{Vor}{Rück} &= 10 \cdot \log_{10}{\left(\frac{P_V}{P_R}\right)} \unit{\dB}\\ &= 10 \cdot \log_{10}{\left(\frac{\qty{15}{\watt}}{\qty{0,6}{\watt}}\right)} \unit{\dB}\\ &= \qty{14}{\dB}\end{split}$
+$\begin{split}\frac{Front}{Back} &= 10 \cdot \log_{10}{\left(\frac{P_V}{P_R}\right)} \unit{\dB}\\ &= 10 \cdot \log_{10}{\left(\frac{\qty{15}{\watt}}{\qty{0.6}{\watt}}\right)} \unit{\dB}\\ &= \qty{14}{\dB}\end{split}$
 </fragment>
 
 ---
@@ -49,14 +49,14 @@ $\begin{split}\frac{Vor}{Rück} &= 10 \cdot \log_{10}{\left(\frac{P_V}{P_R}\righ
 [question:AG215]
 
 --- style="font-size: smaller;"
-#### Lösungsweg
+#### Solution
 <left>
-* gegeben: $g_D= \qty{10}{\dB}$
-* gegeben: $\frac{Vor}{Rück} = \qty{20}{\dB}$
+* given: $g_D= \qty{10}{\dB}$
+* given: $\frac{Front}{Back} = \qty{20}{\dB}$
 </left>
 <right>
-* gegeben: $P_S = \qty{100}{\watt}$
-* gesucht: $P_R$
+* given: $P_S = \qty{100}{\watt}$
+* required: $P_R$
 </right>
 
 <left>
@@ -74,24 +74,24 @@ $\begin{split}\qty{20}{\dB} &= 10 \cdot \log_{10}{\left(\frac{P_V}{P_R}\right)} 
 [question:AG216]
 
 --- style="font-size: smaller;"
-#### Lösungsweg
+#### Solution
 <left>
-* gegeben: $g_D= \qty{15}{\dB}$
-* gegeben: $\frac{Vor}{Rück} = \qty{25}{\dB}$
+* given: $g_D= \qty{15}{\dB}$
+* given: $\frac{Front}{Back} = \qty{25}{\dB}$
 </left>
 <right>
-* gegeben: $P_S = \qty{6}{\watt}$
-* gesucht: $P_R$
+* given: $P_S = \qty{6}{\watt}$
+* required: $P_R$
 </right>
 
 <left>
 <fragment>
-$\begin{split}P_V &= P_{ERP}\\ &= P_S \cdot 10^{\frac{g_d}{\qty{10}{\dB}}}\\ &= \qty{6}{\watt} \cdot 10^{\frac{\qty{15}{\dB}}{\qty{10}{\dB}}}\\ &= \qty{189,7}{\watt}\end{split}$
+$\begin{split}P_V &= P_{ERP}\\ &= P_S \cdot 10^{\frac{g_d}{\qty{10}{\dB}}}\\ &= \qty{6}{\watt} \cdot 10^{\frac{\qty{15}{\dB}}{\qty{10}{\dB}}}\\ &= \qty{189.7}{\watt}\end{split}$
 </fragment>
 </left>
 <right>
 <fragment>
-$\begin{split}\qty{25}{\dB} &= 10 \cdot \log_{10}{\left(\frac{P_V}{P_R}\right)} \unit{\dB}\\ \Rightarrow \frac{P_V}{P_R} &= 10^{\frac{\qty{25}{\dB}}{\qty{10}{\dB}}}\\ &= 316,2\\ \Rightarrow P_R &= \frac{P_V}{316,2}\\ &= \frac{\qty{189,7}{\watt}}{316,2}\\ &= \qty{0,6}{\watt}\end{split}$
+$\begin{split}\qty{25}{\dB} &= 10 \cdot \log_{10}{\left(\frac{P_V}{P_R}\right)} \unit{\dB}\\ \Rightarrow \frac{P_V}{P_R} &= 10^{\frac{\qty{25}{\dB}}{\qty{10}{\dB}}}\\ &= 316.2\\ \Rightarrow P_R &= \frac{P_V}{316.2}\\ &= \frac{\qty{189.7}{\watt}}{316.2}\\ &= \qty{0.6}{\watt}\end{split}$
 </fragment>
 </right>
 
@@ -100,23 +100,23 @@ $\begin{split}\qty{25}{\dB} &= 10 \cdot \log_{10}{\left(\frac{P_V}{P_R}\right)} 
 [question:AG218]
 
 --- style="font-size: smaller;"
-#### Lösungsweg
+#### Solution
 <left>
-* gegeben: $U_V = \qty{300}{\micro\volt\per\meter}$
-* gegeben: $U_R = \qty{20}{\micro\volt\per\meter}$
+* given: $U_V = \qty{300}{\micro\volt\per\meter}$
+* given: $U_R = \qty{20}{\micro\volt\per\meter}$
 </left>
 <right>
-* gegeben: $U_D = \qty{128}{\micro\volt\per\meter}$
-* gesucht: $g_D$, $\frac{Vor}{Rück}$
+* given: $U_D = \qty{128}{\micro\volt\per\meter}$
+* required: $g_D$, $\frac{Front}{Back}$
 </right>
 
 <left>
 <fragment>
-$\begin{split}g_D &= 20 \cdot \log_{10}{\left(\frac{U_V}{U_D}\right)} \unit{\dB}\\ &= 20 \cdot \log_{10}{\left(\frac{\qty{300}{\micro\volt\per\meter}}{\qty{128}{\micro\volt\per\meter}}\right)}\\ &= \qty{7,4}{\dB}\end{split}$
+$\begin{split}g_D &= 20 \cdot \log_{10}{\left(\frac{U_V}{U_D}\right)} \unit{\dB}\\ &= 20 \cdot \log_{10}{\left(\frac{\qty{300}{\micro\volt\per\meter}}{\qty{128}{\micro\volt\per\meter}}\right)}\\ &= \qty{7.4}{\dB}\end{split}$
 </fragment>
 </left>
 <right>
 <fragment>
-$\begin{split}\frac{Vor}{Rück} &= 20 \cdot \log_{10}{\left(\frac{U_V}{U_R}\right)} \unit{\dB}\\ &= 20 \cdot \log_{10}{\left(\frac{\qty{300}{\micro\volt\per\meter}}{\qty{20}{\micro\volt\per\meter}}\right)}\\ &= \qty{23,5}{\dB}\end{split}$
+$\begin{split}\frac{Front}{Back} &= 20 \cdot \log_{10}{\left(\frac{U_V}{U_R}\right)} \unit{\dB}\\ &= 20 \cdot \log_{10}{\left(\frac{\qty{300}{\micro\volt\per\meter}}{\qty{20}{\micro\volt\per\meter}}\right)}\\ &= \qty{23.5}{\dB}\end{split}$
 </fragment>
 </right>

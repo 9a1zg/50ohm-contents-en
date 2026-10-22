@@ -1,11 +1,11 @@
-Multibandantennen, die gezielt auf mehreren Bändern resonant sind, haben wir bereits kennengelernt, z. B. die endgespeiste Antenne mit 1:49-Transformator. Kommen wir wieder auf unser Beispiel aus dem Abschnitt "Strom- und Spannungsspeisung II" zurück: Ein mittengespeister Halbwellendipol kann neben seiner Grundfrequenz grundsätzlich auch auf ungeradzahligen Vielfachen dieser Frequenz resonant sein. So besitzt beispielsweise ein für das $\qty{80}{\meter}$-Band ausgelegter Dipol mit einer Grundfrequenz von $\qty{3,5}{\mega\hertz}$ weitere Resonanzen näherungsweise bei $\qty{10,5}{\mega\hertz}$ und $\qty{17,5}{\mega\hertz}$.
+We have already met multiband antennas that are deliberately resonant on several bands, e.g. the end-fed antenna with a 1:49 transformer. Let us return to our example from the second section on current and voltage feeding: in principle, a centre-fed half-wave dipole can be resonant not only at its fundamental frequency but also at odd multiples of that frequency. For example, a dipole designed for the $\qty{80}{\meter}$ band with a fundamental frequency of $\qty{3.5}{\mega\hertz}$ has further resonances at approximately $\qty{10.5}{\mega\hertz}$ and $\qty{17.5}{\mega\hertz}$.
 
-Bei geradzahligen Vielfachen der Grundfrequenz, beispielsweise bei $\qty{7}{\mega\hertz}$ oder $\qty{14}{\mega\hertz}$, liegt am mittigen Speisepunkt dagegen ein Stromminimum und damit eine hohe Impedanz. Diese Frequenzen sind bei einem einfachen mittengespeisten Dipol daher nicht ohne Weiteres nutzbar. Eine Möglichkeit, zusätzliche Resonanzen gezielt auf solchen Frequenzen zu erzeugen, ist der sogenannte *Sperrkreis-Dipol*, der auch als *Trap-Dipol* bezeichnet wird.
+At even multiples of the fundamental frequency, on the other hand, for example at $\qty{7}{\mega\hertz}$ or $\qty{14}{\mega\hertz}$, there is a current minimum at the central feed point, and so a high impedance. These frequencies therefore cannot readily be used with a simple centre-fed dipole. One way of producing additional resonances on such frequencies deliberately is the *trap dipole*.
 
-Bei einem Sperrkreis-Dipol befindet sich in jeder Dipolhälfte mindestens ein Parallelschwingkreis aus einer Spule und einem Kondensator. Einen solchen Schwingkreis bezeichnet man als *Trap* (englisch für „Falle“). Ein Parallelschwingkreis ist bei seiner Resonanzfrequenz hochohmig (vgl. Abbildung [ref:a_sperrkreis]). Er wirkt dann als *Sperrkreis* und verhindert weitgehend, dass Strom in den weiter außen liegenden Teil des Dipols fließt. Dadurch kann derselbe Dipol auf mehreren Frequenzbändern unterschiedliche elektrische Längen besitzen.
+In a trap dipole, each half of the dipole contains at least one parallel tuned circuit made up of a coil and a capacitor. Such a tuned circuit is called a *trap*. A parallel tuned circuit has a high impedance at its resonant frequency (see Figure [ref:a_sperrkreis]). It then acts as a *rejector* and largely prevents current from flowing into the outer part of the dipole. This allows the same dipole to have different electrical lengths on several frequency bands.
 
 <margin>
-[picture:1036:a_sperrkreis:Qualitativer Frequenzgang eines Parallelschwingkreises (Sperrkreis)]
+[picture:1036:a_sperrkreis:Qualitative frequency response of a parallel tuned circuit (rejector)]
 </margin>
 
 [question:AG109]
@@ -13,45 +13,45 @@ Bei einem Sperrkreis-Dipol befindet sich in jeder Dipolhälfte mindestens ein Pa
 
 ---
 
-Wie sich ein Trap auf den Dipol auswirkt, hängt davon ab, wie die Betriebsfrequenz im Verhältnis zu seiner Resonanzfrequenz $f_\mathrm{res}$ liegt.
+How a trap affects the dipole depends on where the operating frequency lies in relation to the trap's resonant frequency $f_\mathrm{res}$.
 
-* Bei $f=f_\mathrm{res}$ ist der Parallelschwingkreis hochohmig und wirkt als Sperrkreis. Der äußere Teil des Dipols wird dadurch weitgehend vom inneren Teil getrennt.
-* Bei $f<f_\mathrm{res}$ überwiegt die induktive Wirkung des Traps. Er wirkt ähnlich wie eine Verlängerungsspule und verlängert den Strahler elektrisch.
-* Bei $f>f_\mathrm{res}$ überwiegt die kapazitive Wirkung des Traps. Dadurch wird der Strahler elektrisch etwas verkürzt.
+* At $f=f_\mathrm{res}$, the parallel tuned circuit has a high impedance and acts as a rejector. The outer part of the dipole is thereby largely separated from the inner part.
+* At $f<f_\mathrm{res}$, the inductive effect of the trap predominates. It acts much like a loading coil and lengthens the radiator electrically.
+* At $f>f_\mathrm{res}$, the capacitive effect of the trap predominates. This shortens the radiator electrically to some extent.
 
 <margin>
-In diesem Applet kann man die Wirkung eines Traps auf einen Dipol für verschiedene Frequenzen untersuchen:
+In this applet you can explore the effect of a trap on a dipole at different frequencies:
 
 [include:applet_traps]
 </margin>
 
-Besonders anschaulich ist zunächst der Resonanzfall. Wird der Dipol bei der Resonanzfrequenz des Traps betrieben (z. B. $\qty{7.05}{\mega\hertz}$ in unserer Abbildung), ist der Parallelschwingkreis hochohmig. Es fließt daher nur wenig Strom in den äußeren Teil des Dipols. Der Dipol verhält sich näherungsweise so, als würde er an der Position des Traps enden.
+The resonant case is the easiest to picture first. If the dipole is operated at the resonant frequency of the trap (e.g. $\qty{7.05}{\mega\hertz}$ in our figure), the parallel tuned circuit has a high impedance. So only a little current flows into the outer part of the dipole. The dipole behaves approximately as if it ended at the position of the trap.
 
 [question:AG112]
 
-Dieser Zusammenhang kann für den Entwurf eines Zweiband-Dipols genutzt werden. Für das höherfrequente Band bestimmt der Abstand zwischen den beiden Traps im Wesentlichen die wirksame Dipollänge. Die äußeren Drahtstücke werden bei dieser Frequenz durch die Sperrwirkung der Traps weitgehend abgetrennt, als wären sie nicht da und der Dipol verhält sich wie ein kürzerer Dipol.
+This relationship can be used in designing a dual-band dipole. For the higher-frequency band, the distance between the two traps essentially determines the effective length of the dipole. At this frequency, the blocking effect of the traps largely cuts off the outer wire sections, as if they were not there, and the dipole behaves like a shorter dipole.
 
 [question:AG116]
 
 ---
 
-Wird der Dipol dagegen mit einer Frequenz *unterhalb* der Resonanzfrequenz des Traps betrieben (z. B. $\qty{3.5}{\mega\hertz}$ in unserer Abbildung), ist der Schwingkreis nicht mehr hochohmig. Seine induktive Wirkung überwiegt. Der Trap wirkt dadurch ähnlich wie eine Verlängerungsspule und verlängert den Dipol elektrisch. Dadurch kann der gesamte Dipol einschließlich der äußeren Drahtstücke für ein niedrigeres Frequenzband genutzt werden.
+If, on the other hand, the dipole is operated at a frequency *below* the resonant frequency of the trap (e.g. $\qty{3.5}{\mega\hertz}$ in our figure), the tuned circuit no longer has a high impedance. Its inductive effect predominates. The trap therefore acts much like a loading coil and lengthens the dipole electrically. As a result, the whole dipole, including the outer wire sections, can be used for a lower frequency band.
 
 [question:AG111]
 
 ---
 
-Bei einer Frequenz *oberhalb* der Resonanzfrequenz überwiegt dagegen die kapazitive Wirkung des Traps. Der Trap wirkt dadurch elektrisch verkürzend und er kann sogar auf z. B. $\qty{14}{\mega\hertz}$ resonant sein. Auch dieser Effekt sollte bei der Dimensionierung eines Sperrkreis-Dipols berücksichtigt werden.
+At a frequency *above* the resonant frequency, on the other hand, the capacitive effect of the trap predominates. The trap therefore shortens the antenna electrically, and it can even be resonant on, for example, $\qty{14}{\mega\hertz}$. This effect, too, should be taken into account when dimensioning a trap dipole.
 
 [question:AG113]
 
 ---
 
-Durch mehrere Trap-Paare können Dipole für noch mehr Frequenzbänder aufgebaut werden. Dabei liegen die Traps für die höchsten Frequenzen am weitesten innen, weil hierfür die kürzeste wirksame Dipollänge benötigt wird.
+With several pairs of traps, dipoles can be built for even more frequency bands. The traps for the highest frequencies are then furthest in, because these need the shortest effective dipole length.
 
-Der innerste Trap wird daher auf die höchste vorgesehene Frequenz abgestimmt. Das nächste weiter außen liegende Trap-Paar wird auf die nächstniedrigere Frequenz abgestimmt und so weiter. Je niedriger die Betriebsfrequenz ist, desto größere Teile des Dipols werden wirksam.
+The innermost trap is therefore tuned to the highest frequency intended. The next pair of traps further out is tuned to the next lower frequency, and so on. The lower the operating frequency, the larger the part of the dipole that is effective.
 
 [question:AG115]
 [question:AG114]
 
-Traps werden nicht nur in Dipolantennen eingesetzt. Auch bei Richtantennen wie Yagi-Antennen können Sperrkreise in den einzelnen Elementen verwendet werden, um die Antenne auf mehreren Frequenzbändern nutzbar zu machen.
+Traps are not used only in dipole antennas. In directional antennas such as Yagi antennas, too, traps can be used in the individual elements to make the antenna usable on several frequency bands.

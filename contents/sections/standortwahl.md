@@ -1,13 +1,13 @@
-Bei der Standortwahl einer Antenne ist zu beachten, dass man Wechselwirkungen mit anderen elektrischen Installationen und Geräten in der eigenen Wohnung und bei Nachbarn vermeiden sollte. Solche Wechselwirkungen können sowohl den eigenen Funkempfang stören als auch im Sendebetrieb die Funktionsweise anderer Geräte.
+When choosing the location of an antenna, bear in mind that interaction with other electrical installations and equipment in your own home and at the neighbours' should be avoided. Such interaction can interfere both with your own radio reception and, when transmitting, with the working of other equipment.
 
-Eine erste Regel ist, dass eine Antenne möglichst im Außenbereich angebracht werden sollte, damit eine Kopplung zwischen der Antenne und elektrischen Leitungen im Haus möglichst vermieden werden kann. 
+A first rule is that an antenna should be mounted outdoors if possible, so that coupling between the antenna and the electrical wiring in the house can be avoided as far as possible. 
 
 %TODO: Distraktor "in geringerem Maß Ausstrahlungen unterworfen" scheint nicht ganz falsch zu sein.
 [question:EG223]
 
-Im Kurzwellenbereich bietet es sich an, die Antenne möglichst rechtwinklig vom Haus wegzuführen. Dadurch wird vermieden, dass sich die Antenne parallel zu elektrischen Leitungen befindet.
+On HF it is a good idea to run the antenna away from the house at right angles if possible. This avoids the antenna running parallel to electrical wiring.
 [question:EJ110]
 
-Richtantennen sollten grundsätzlich so hoch und so weit entfernt wie möglich entfernt positioniert werden, da die Feldstärke (selbst in Hauptstrahlrichtung) mit der Entfernung abnimmt.
+Directional antennas should always be positioned as high and as far away as possible, since the field strength (even in the direction of maximum radiation) decreases with distance.
 
 [question:EG112]

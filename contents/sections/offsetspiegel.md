@@ -1,9 +1,9 @@
-Da ein Parabolspiegel die Welle vor dem Spiegel bündelt, muss sich eine Erregerantenne entsprechend vor dem Spiegel und damit im Stahlengang befinden. Die Erregerantenne schattet also einen Teil der abgestrahlten Welle ab.
+Since a parabolic dish concentrates the wave in front of the dish, a feed antenna has to be placed in front of the dish, and therefore in the radiation path. The feed antenna therefore shadows part of the radiated wave.
 
-Eine Verbesserung stellt der *Offsetspiegel* (auch Offsetantenne genannt) dar, bei dem die Erregerantenne außerhalb des Strahlengangs (meist darunter) platziert wird und die Form des Spiegels entsprechend angepasst wird (Wahl eines geeigneten Ausschnitts des Paraboloiden).
+An improvement is the *offset dish* (also called an offset antenna), in which the feed antenna is placed outside the radiation path (usually below it) and the shape of the dish is adapted accordingly (by choosing a suitable section of the paraboloid).
 
 <margin>
-[picture:1104:a_offset:Offsetspiegel mit Erregerantenne]
+[picture:1104:a_offset:Offset dish with feed antenna]
 </margin>
 
 [question:AG127]

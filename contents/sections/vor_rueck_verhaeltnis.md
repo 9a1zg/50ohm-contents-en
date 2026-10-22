@@ -1,16 +1,16 @@
-Eine Richtantenne sendet und empfängt zu einem gewissen Grade auch in der Rückwärtsrichtung, was in der Regel unerwünscht ist. Während der Antennengewinn nur den Gewinn in Hauptstrahlrichtung im Verhältnis zum Dipol oder einem isotropen Kugelstrahler angibt, bestimmt das *Vor-/Rück-Verhältnis* wieviel besser die Antenne in Hauptstrahlrichtung im Vergleich zur Rückwärtsrichtung sendet und empfängt (vgl. Abbildung [ref:a_vor_rueck]).
+A directional antenna also transmits and receives to some extent in the backward direction, which is usually unwanted. While the antenna gain only states the gain in the direction of maximum radiation relative to the dipole or an isotropic radiator, the *front-to-back ratio* determines how much better the antenna transmits and receives in the direction of maximum radiation than in the backward direction (see Figure [ref:a_vor_rueck]).
 
 <margin>
-[picture:1106:a_vor_rueck:Vor-/Rück-Verhältnis einer Richtantenne]
+[picture:1106:a_vor_rueck:Front-to-back ratio of a directional antenna]
 </margin>
 
 [question:AG214]
 
-Genauso kann eine Richtantenne mit einem Dipol verglichen werden: Der Antennengewinn der Richtantenne über dem Dipol ist definiert als das Verhältnis von $P_\mathrm{V}$ zu $P_\mathrm{D}$.
+In the same way, a directional antenna can be compared with a dipole: the antenna gain of the directional antenna over the dipole is defined as the ratio of $P_\mathrm{V}$ to $P_\mathrm{D}$.
 
 [question:AG213]
 
-Das Vor-/Rück-Verhältnis wird oft in Dezibel angegeben. Zum Lösen der folgenden Fragen können wir die bekannten Formeln aus der Formelsammlung verwenden.
+The front-to-back ratio is often given in decibels. To solve the following questions, we can use the familiar formulas from the formula sheet.
 
 [question:AG217]
 [question:AG215]

@@ -1,25 +1,25 @@
 %TODO ggf. das Kapitel wo anders hinschieben 
 
-Im Kapitel Dezibel wurde schon angedeutet, dass die Zusätze $\unit{\dBd}$ und $\unit{\dBi}$, die bei der Angabe von Antennengewinnen verwendet werden. In diesem Fall bezieht sich der Dezibelwert nicht auf eine Leistung oder Spannung, sondern auf einen bestimmten Referenzstrahler. Üblich sind dabei $\unit{\dBi}$, bezogen auf den isotropen Kugelstrahler, sowie $\unit{\dBd}$, bezogen auf den Halbwellendipol.
+The chapter on decibels already touched on the suffixes $\unit{\dBd}$ and $\unit{\dBi}$, which are used when antenna gains are stated. In this case the decibel value does not refer to a power or a voltage, but to a particular reference radiator. The usual ones are $\unit{\dBi}$, relative to the isotropic radiator, and $\unit{\dBd}$, relative to the half-wave dipole.
 
-Der *Isotropstrahler* (vgl. Abbildung [ref:e_Kugelstrahler]) ist eine gedachte, hypothetische Antenne, die in alle Richtungen gleich stark abstrahlt. Weist eine real vorhandene Antenne eine Richtwirkung auf, so ist die Abstrahlung in bestimmten Richtungen stärker und in anderen Richtungen schwächer als sie beim hypothetischen Isotropstrahler wäre. 
+The *isotropic radiator* (see Figure [ref:e_Kugelstrahler]) is an imaginary, hypothetical antenna that radiates equally strongly in all directions. If a real antenna has directional properties, its radiation is stronger in certain directions and weaker in other directions than it would be with the hypothetical isotropic radiator. 
 
 <margin>
-[picture:751:e_Kugelstrahler:Isotroper Strahler in der Mitte einer Kugel, der an allen Stellen der Kugeloberfläche die gleiche Strahlungsleistung erzeugt]
+[picture:751:e_Kugelstrahler:Isotropic radiator at the centre of a sphere, producing the same radiated power at every point on the surface of the sphere]
 </margin>
 
-Den Gewinn in einer Richtung (z.B. der Hauptstrahlrichtung welche die Richtung mit dem maximalen Antennengewinn ist) gegenüber einem Isotropstrahler kann man in Dezibel $\unit{\dB}$ angeben. Anstelle von $\unit{\dB}$ schreibt man $\unit{\dBi}$, um zu verdeutlichen, dass man sich auf den Isotropstrahler bezieht.
+The gain in one direction (e.g. the direction of maximum radiation, which is the direction with the greatest antenna gain) relative to an isotropic radiator can be given in decibels, $\unit{\dB}$. Instead of $\unit{\dB}$, $\unit{\dBi}$ is written to make clear that the reference is the isotropic radiator.
 
 [question:EG220]
 
-Auch ein einfacher Halbwellendipol hat einen Gewinn, denn er strahlt senkrecht zum Leiter um $\qty{2,15}{\dB}$ stärker ab, als es ein Isotropstrahler tun würde. Entsprechend hat ein Halbwellendipol einen Gewinn von $\qty{2,15}{\dBi}$.
+Even a simple half-wave dipole has a gain, because at right angles to the conductor it radiates $\qty{2.15}{\dB}$ more strongly than an isotropic radiator would. Accordingly, a half-wave dipole has a gain of $\qty{2.15}{\dBi}$.
 
-Gelegentlich interessiert der Gewinn der über den Gewinn eines Halbwellendipols hinausgeht, also den Gewinn in Bezug auf einen Halbwellendipol. Diesen gibt man in $\unit{\dBd}$ an, wobei das $\text{d}$ für Dipol steht. Ein Halbwellendipol hat entsprechend einen Gewinn von $\qty{0}{\dBd}$. Antennen, die mehr Gewinn aufweisen, als ein Halbwellendipol haben einen Gewinn größer als $\qty{0}{\dBd}$ und Antennen mit weniger Gewinn als ein Halbwellendipol entsprechend weniger als $\qty{0}{\dBd}$.
+Sometimes what matters is the gain over and above that of a half-wave dipole, that is, the gain relative to a half-wave dipole. This is given in $\unit{\dBd}$, where the $\text{d}$ stands for dipole. Accordingly, a half-wave dipole has a gain of $\qty{0}{\dBd}$. Antennas with more gain than a half-wave dipole have a gain greater than $\qty{0}{\dBd}$, and antennas with less gain than a half-wave dipole, accordingly, less than $\qty{0}{\dBd}$.
 
-Vergleichen wir noch einmal den Gewinn eines Halbwellendipols angegeben als $\unit{\dBi}$ und angegeben als $\unit{\dBd}$: Der Halbwellendipol hat in Hauptstrahlrichtung einen Gewinn von $\qty{2,15}{\dBi}$, da er gegenüber dem Isotropstrahler $\qty{2,15}{\dB}$ stärker strahlt. In $\unit{\dBd}$ angegeben sind es jedoch $\qty{0}{\dBd}$. Die Angabe in $\unit{\dBi}$ ist stets um $\qty{2,15}{\dB}$ höher als die Angabe in $\unit{\dBd}$.
+Let us compare once more the gain of a half-wave dipole given in $\unit{\dBi}$ and given in $\unit{\dBd}$: the half-wave dipole has a gain of $\qty{2.15}{\dBi}$ in the direction of maximum radiation, since it radiates $\qty{2.15}{\dB}$ more strongly than the isotropic radiator. Given in $\unit{\dBd}$, however, it is $\qty{0}{\dBd}$. The figure in $\unit{\dBi}$ is always $\qty{2.15}{\dB}$ higher than the figure in $\unit{\dBd}$.
 
-Das steht auch in der Formelsammlung: 
+This is also in the formula sheet: 
 
-$g_i = g_d + \qty{2,15}{\dB}$
+$g_i = g_d + \qty{2.15}{\dB}$
 
 [question:EG221]

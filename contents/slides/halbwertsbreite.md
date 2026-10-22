@@ -1,15 +1,15 @@
-## Energieerhaltung und Öffnungswinkel
+## Conservation of energy and beamwidth
 
-* Höherer Gewinn in einer Richtung bedeutet gemäß Energieerhaltung, dass der Gewinn in den übrigen Richtungen insgesamt niedriger sein muss
-* Antennen mit hohem Gewinn besitzen oft einen schmalen Öffnungswinkel – schon bei kleinen Abweichungen von der Hauptstrahlrichtung sinkt der Gewinn deutlich
+* By the conservation of energy, a higher gain in one direction means that the gain in the other directions must be lower in total
+* Antennas with a high gain often have a narrow beamwidth – even small departures from the direction of maximum radiation make the gain fall considerably
 
 ---
 <left>
-[picture:266:a_richtdiagramm:Richtdiagramm einer gerichteten Antenne]
+[picture:266:a_richtdiagramm:Radiation pattern of a directional antenna]
 </left>
 <right>
-* Der *Öffnungswinkel* bzw. die *Halbwertsbreite* definiert den Winkel, in dem der Gewinn nicht um mehr als $\qty{3}{\dB}$ abfällt
-* d. h. auf die halbe Strahlungsleistung oder $\tfrac{1}{\sqrt{2}} \approx 0,707$ der maximalen Feldstärke
+* The *beamwidth* or *half-power beamwidth* is defined as the angle within which the gain does not fall by more than $\qty{3}{\dB}$
+* i.e. to half the radiated power or $\tfrac{1}{\sqrt{2}} \approx 0.707$ of the maximum field strength
 </right>
   
 ---

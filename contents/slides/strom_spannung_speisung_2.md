@@ -1,8 +1,8 @@
-## Stromspeisung bei ungeradzahligen Vielfachen
+## Current feeding at odd multiples
 
-* Mittengespeister Halbwellendipol  
-* Strom an Grundfrequenz und ungeraden Vielfachen  
-* Ungerade Frequenzen: zusätzliche Stromzufuhr
+* Centre-fed half-wave dipole  
+* Current-fed at the fundamental frequency and odd multiples  
+* Odd frequencies: additional current feed
 
 ---
 
@@ -10,11 +10,11 @@
 
 ---
 
-## Spannungsspeisung bei geraden Vielfachen
+## Voltage feeding at even multiples
 
-* Bei geraden Vielfachen: Spannungsspeisung  
-* Speisepunkt liegt am Spannungsbauch  
-* Erzeugt hohe Spannung statt Strom
+* At even multiples: voltage-fed  
+* The feed point lies at a voltage antinode  
+* Produces high voltage instead of current
 
 ---
 

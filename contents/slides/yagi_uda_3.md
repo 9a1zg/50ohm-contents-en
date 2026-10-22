@@ -1,23 +1,23 @@
-## Auswirkung von Reflektoren und Direktoren
+## Effect of reflectors and directors
 
-* Reflektoren und Direktoren beeinflussen nicht nur die Richtwirkung, sondern auch den Speisewiderstand einer Yagi‑Uda‑Antenne.
-* Ein Teil der vom Strahler ausgestrahlten Welle wird zurückreflektiert, wodurch sich der Speisewiderstand in Abhängigkeit vom Abstand der Elemente verändert.
+* Reflectors and directors affect not only the directional properties but also the feed-point impedance of a Yagi-Uda antenna.
+* Part of the wave radiated by the radiator is reflected back, so that the feed-point impedance changes with the spacing of the elements.
 
 ---
 [question:AG212]
 ---
-### Gewinn und Öffnungswinkel einer Yagi‑Uda‑Antenne
+### Gain and beamwidth of a Yagi-Uda antenna
 
-* Mit zunehmender Länge (und damit höherem Gewinn) wird der Öffnungswinkel der Antenne schmaler.
-* Dies folgt dem Energieerhaltungssatz – es kann keine Energie "aus dem Nichts" erzeugt werden.
+* As the length increases (and with it the gain), the beamwidth of the antenna becomes narrower.
+* This follows from the law of conservation of energy – energy cannot be created "out of nothing".
 
 ---
 [question:AG222]
 ---
-### Kreuzyagi – Erzeugung zirkularer Polarisation
+### Crossed Yagi – producing circular polarisation
 
-* Bei der Kreuzyagi werden zwei Yagi‑Uda‑Antennen um $\qty{90}{\degree}$ zueinander verdreht (z. B. eine horizontal, eine vertikal).
-* Durch Einspeisung eines um $\qty{90}{\degree}$ phasenverschobenen Signals oder Verschiebung einer Antenne um eine Viertelwellenlänge wird zirkulare Polarisation erzeugt.
+* In a crossed Yagi, two Yagi-Uda antennas are rotated by $\qty{90}{\degree}$ relative to each other (e.g. one horizontal, one vertical).
+* Feeding in a signal shifted in phase by $\qty{90}{\degree}$, or offsetting one antenna by a quarter wavelength, produces circular polarisation.
 
 ---
 [question:AG126]

@@ -1,24 +1,24 @@
-Liegt eine Sendefrequenz unter der kritischen Frequenz, dann wird selbst eine senkrecht nach oben gestrahlte Raumwelle noch von der Ionosphäre reflektiert. Entsprechend verschwindet die Tote Zone. Diesen Effekt kann man sich für Nahverbindungen zunutze machen, bei der die Bodenwelle das Ziel nicht mehr erreichen würde. Voraussetzung ist jedoch eine Kurzwellenantenne, die in möglichst steilem Winkel nach oben strahlt. Man spricht bei einer dann folgenden Reflektion in der Ionosphäre von *"NVIS"* aus dem Englischen: Near Vertical Incidence Skywave. Oder zu Deutsch: Raumwelle mit nahezu vertikalem Einfallswinkel.
+If a transmit frequency is below the critical frequency, even a sky wave radiated straight upwards is still reflected by the ionosphere. The skip zone disappears accordingly. This effect can be used for short-range contacts that the ground wave would no longer reach. The prerequisite, however, is an HF antenna that radiates upwards at the steepest possible angle. The reflection in the ionosphere that then follows is called *"NVIS"*, for near vertical incidence skywave.
 
 <indepth>
-Hinge man einen Horizontal-Dipol höher auf, dann würde aufgrund der Verzögerung bei der Reflektion und der damit einhergehenden Phasenverschiebung die reflektierte Welle teilweise zu einer Auslöschung in Richtung Zenit führen und entsprechend einen Gewinn in flacherer Abstrahlrichtung erwirken, was jedoch bei NVIS-Kommunikation gar nicht gewünscht ist. Ebenso ungeeignet sind Vertikalantennen, da diese einen flachen Abstrahlwinkel hätten.
+If a horizontal dipole were hung higher, the delay on reflection and the phase shift that comes with it would make the reflected wave partly cancel out in the direction of the zenith, and so produce gain at lower angles of radiation, which is not wanted at all for NVIS communication. Vertical antennas are just as unsuitable, as they would have a low angle of radiation.
 </indepth>
 
 ---
 
-Besonders im Notfunk haben NVIS-Verbindungen den Vorteil, dass sich Hindernisse (z. B. bergiges Gelände) überwinden lassen. Als Antennen geeignet sind Horizontal-Dipole, die in einer Aufbauhöhe von maximal einem Viertel Wellenlänge aufgehangen werden. Damit wirkt die Erdoberfläche als Reflektor und sorgt so für einen Gewinn in Richtung des Himmels, senkrecht nach oben (also in Richtung des Zenits).
+In emergency communications in particular, NVIS contacts have the advantage that obstacles (e.g. mountainous terrain) can be overcome. Suitable antennas are horizontal dipoles hung at a height of at most a quarter of a wavelength. The earth's surface then acts as a reflector and so provides gain towards the sky, straight upwards (that is, towards the zenith).
 
 <attention>
-NVIS kann insbesondere in dünn besiedelten Regionen oder Ländern mit großen Entfernungen eine wichtige Rolle im Notfunk spielen. Damit lassen sich regionale Verbindungen über einige hundert Kilometer herstellen, ohne auf Relaisstationen oder andere Kommunikationsinfrastruktur angewiesen zu sein.
+NVIS can play an important part in emergency communications, especially in sparsely populated regions or in countries with large distances. It makes regional contacts over a few hundred kilometres possible without depending on repeaters or other communications infrastructure.
 
-In Deutschland sind die Randbedingungen jedoch häufig andere. Aufgrund der vergleichsweise kurzen Entfernungen, der hohen Bevölkerungsdichte und des dichten Netzes an Amateurfunkrelais spielen im Notfunk insbesondere die VHF- und UHF-Bänder eine wichtige Rolle. Verbindungen können dort sowohl direkt als auch – sofern verfügbar – über Relaisstationen hergestellt werden.
+In Germany, however, the conditions are often different. Because of the comparatively short distances, the high population density and the dense network of amateur repeaters, the VHF and UHF bands in particular play an important part in emergency communications. Contacts there can be made either directly or – where available – via repeaters.
 
-Ein weiterer Vorteil ist die große Verbreitung entsprechender Geräte: Viele Funkamateure besitzen ein Hand- oder Mobilfunkgerät für das 2-m- und 70-cm-Band. Außerdem stehen diese Bänder allen deutschen Amateurfunkklassen zur Verfügung. Dadurch können sich sehr viele Funkamateure mit vergleichsweise einfacher und portabler Ausrüstung an der lokalen und regionalen Notfunkkommunikation beteiligen.
+A further advantage is how widespread the equipment is: many radio amateurs own a handheld or mobile radio for the 2 m and 70 cm bands. Moreover, these bands are available to all German licence classes. This allows a great many radio amateurs to take part in local and regional emergency communications with comparatively simple and portable equipment.
 
-Du interessierst dich für Notfunk und möchtest mehr darüber erfahren oder selbst mitmachen? Weitere Informationen indest du beim [Notfunkreferat des DARC](https://notfunk.darc.de).
+Are you interested in emergency communications and would you like to find out more about it or take part yourself? You will find more information from the [DARC emergency communications department (Notfunkreferat)](https://notfunk.darc.de).
 </attention>
 
-NVIS-Antennen sind also typischerweise horizontale Dipole, die in Relation zur verwendeten Wellenlänge vergleichsweise tief aufgehangen werden.
+NVIS antennas are therefore typically horizontal dipoles that are hung comparatively low in relation to the wavelength used.
 
 [question:AG125]
 [question:AG224]
