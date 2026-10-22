@@ -2088,8 +2088,7 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | mittlerer Durchmesser / mittlerer Umfang / mittlere Länge (Ringkern) | mean diameter / mean circumference / mean length | EB203 |
 | Wicklungsanzahl | number of turns | as *Windungszahl* (§4) |
 | gleichgerichtetes Feld | a field pointing in one direction | the uniform field's lines all run one way (e_feld slides); not *rectified*, which is *gleichgerichtet* for a voltage |
-| Naturforscher | natural philosopher | the period term (Ørsted, 1820); the German's *Oerstedt* is written *Ørsted* (h_feld) |
-| Vektor | vector | em_feld indepth |
+| Naturforscher (historisch) | natural philosopher | the period term for a scientist before about 1850 (Ørsted, 1820, h_feld); a modern *Naturforscher* is a *scientist*. The German's *Oerstedt* is written *Ørsted* |
 
 ## 15. Catalogue structure
 

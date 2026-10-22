@@ -31,7 +31,7 @@ Graphic of a current-carrying conductor with concentric magnetic field lines to 
 ## Toroidal core
 
 <left>
-* The conductor is wound on a magnetically conductive toroidal core, e.g. iron
+* The conductor is wound on a toroidal core of magnetic material, e.g. iron
 * Advantages: space-saving and more stable
 </left>
 <right>

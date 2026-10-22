@@ -4,7 +4,7 @@ So far we have looked at electric and magnetic fields for the case where the fie
 [picture:885:e_vertikalantenne_em:Electric and magnetic field at an antenna]
 </margin>
 
-This brings additional effects. As early as 1831, Michael Faraday discovered that a magnetic field that varies with time produces a voltage in a nearby conductor. This effect, called *induction*, is used for example in the transformer: a current that varies with time (e.g. a sinusoidal one) in the primary winding produces a magnetic field that varies with time, which in turn induces a voltage in the secondary winding.
+Additional effects then come into play. As early as 1831, Michael Faraday discovered that a magnetic field that varies with time produces a voltage in a nearby conductor. This effect, called *induction*, is used for example in the transformer: a current that varies with time (e.g. a sinusoidal one) in the primary winding produces a magnetic field that varies with time, which in turn induces a voltage in the secondary winding.
 
 To see that, conversely, a change in an electric field leads to a magnetic field, let us imagine a parallel-plate capacitor whose plates form a circuit with an external voltage source. If we change the electric field inside the capacitor, charges have to move in the external circuit. But moving charge carriers means an electric current. And this electric current in turn produces a magnetic field around the conductor.
 
@@ -37,6 +37,6 @@ As shown in Figures  and [ref:e_emfeld_ausbreitung], in the far field (far away 
 
 [question:EB303]
 
-The magnetic and electric field components, at right angles to each other in the far field, also fix the direction of propagation $S$, as shown in Figure [ref:e_vertikalantenne_em]: it is in turn at right angles to both. You can picture it like this: the magnetic and electric fields span a plane, and the direction of propagation is perpendicular to that plane.
+The magnetic and electric field components, at right angles to each other in the far field, also determine the direction of propagation $S$, as shown in Figure [ref:e_vertikalantenne_em]: it is in turn at right angles to both. You can picture it like this: the magnetic and electric fields span a plane, and the direction of propagation is perpendicular to that plane.
 
 [question:EB304]

@@ -24,7 +24,7 @@ From this equation we can derive the unit of magnetic field strength directly, n
 
 ---
 
-Inside a solenoid, unlike a straight conductor, the picture is different, because the current-carrying conductor is now not straight but wound in a helix. If the solenoid is very long compared with its diameter, the field lines inside are straight, and their field strength is the same everywhere as well (that is, a constant magnetic field strength across the cross-section of the coil). We call such a field a *uniform magnetic field*. We have already met the term with the uniform electric field inside a parallel-plate capacitor.
+Inside a solenoid the picture is different from that of a straight conductor, because the current-carrying conductor is now not straight but wound in a helix. If the solenoid is very long compared with its diameter, the field lines inside are straight, and their field strength is the same everywhere as well (that is, a constant magnetic field strength across the cross-section of the coil). We call such a field a *uniform magnetic field*. We have already met the term with the uniform electric field inside a parallel-plate capacitor.
 
 <margin>
 [picture:882:e_h_feld_spule:Magnetic field lines in a solenoid]
