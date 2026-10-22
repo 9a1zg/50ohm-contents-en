@@ -60,6 +60,14 @@ on GitHub for DARC to take over.
 - **Markup:** DARCdown commands, file names, idents and `%` comments are
   never changed (see `README-FORMAT.md`).
 
+## Sources outside this repository
+
+- **Changes to the exam questions** are published by DARC on the AJW
+  training-materials page, not only in this repo's history:
+  https://www.darc.de/der-club/referate/ajw/ausbildungsunterlagen-n-e-a#c57358.
+  Check it when the question bank is brought up to date with upstream, and
+  before reporting a suspected question error.
+
 ## Tooling (in the `50ohm` workspace repo, shared with the Croatian project)
 
 - `tools/qbank-prevedi.py --content <this repo>` writes translated questions
