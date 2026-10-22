@@ -10695,7 +10695,7 @@
                                     "class": "3",
                                     "question": "How does \"sporadic E\" affect the higher HF bands?",
                                     "answer_a": "The \"skip zone\" is reduced or disappears completely.",
-                                    "answer_b": "The signals are received with heavy hum.",
+                                    "answer_b": "The signals are received with a heavy buzz.",
                                     "answer_c": "Flutter fading occurs on intercontinental contacts.",
                                     "answer_d": "Ionospheric propagation fails completely."
                                 },
@@ -10741,7 +10741,7 @@
                                     "question": "A transmission on the 20 m band can be received by station A at a distance of 1500 km, but not by station B at a distance of 60 km. The reason for this is that ...",
                                     "answer_a": "station B can no longer receive the ground wave and cannot yet receive the sky wave.",
                                     "answer_b": "the ground wave and the sky wave cancel each other out at station B.",
-                                    "answer_c": "two waves reflected in different ionospheric regions arrive at station B in cancelling phase.",
+                                    "answer_c": "two waves reflected in different ionospheric regions arrive at station B in antiphase.",
                                     "answer_d": "the M\u00f6gel\u2013Dellinger effect has occurred at station B."
                                 },
                                 {
@@ -10823,12 +10823,12 @@
                                     "answer_a": "maximum usable frequency (MUF).",
                                     "answer_b": "optimum working frequency (f$_{opt}$, FOT).",
                                     "answer_c": "critical frequency (f$_{krit}$, foF2).",
-                                    "answer_d": "maximum penetration frequency (LUF)."
+                                    "answer_d": "maximum transmission frequency (LUF)."
                                 },
                                 {
                                     "number": "AH205",
                                     "class": "3",
-                                    "question": "Assume that the critical frequency of the F2 region (foF2) is 12 MHz. Which statement is then correct? At an angle of incidence into the ionosphere of ...",
+                                    "question": "Assume that the critical frequency of the F2 region (foF2) is 12 MHz. Which statement is then correct? For a signal radiated into the ionosphere at an angle of ...",
                                     "answer_a": "90 \u00b0, the highest signal frequency still returned to earth is 12 MHz.",
                                     "answer_b": "90 \u00b0, the lowest signal frequency still returned to earth is 12 MHz.",
                                     "answer_c": "45 \u00b0, the highest signal frequency still returned to earth is 12 MHz.",
@@ -11116,7 +11116,7 @@
                                     "answer_a": "The contact was made by reflection of VHF waves from the polar northern lights (reflection from polar ionisation phenomena).",
                                     "answer_b": "The contact was made by diffraction of VHF waves at light sources in the polar region (diffraction at ionised polar layers).",
                                     "answer_c": "The contact was made by amplification of the polar northern lights by means of VHF waves (reflection from ionised polar light).",
-                                    "answer_d": "The contact was made by reflection of hum-modulated VHF waves at the Arctic Circle (reflection from ionisation phenomena of the Arctic Circle)."
+                                    "answer_d": "The contact was made by reflection of buzzing VHF waves at the Arctic Circle (reflection from ionisation phenomena of the Arctic Circle)."
                                 },
                                 {
                                     "number": "AH304",
@@ -11204,7 +11204,7 @@
                                     "class": "1",
                                     "question": "A radio amateur says that there are \"sporadic E conditions\" on the 2 m band. This means that at present ...",
                                     "answer_a": "stations at distances of 1000 to 2000 km can be heard, received via refraction in the sporadic E region.",
-                                    "answer_b": "stations in North America can be heard, received via refraction at high-energy luminous noctilucent clouds (NLCs).",
+                                    "answer_b": "stations in North America can be heard, received via refraction at high-energy noctilucent clouds (NLCs).",
                                     "answer_c": "stations in North America can be heard, received via reflection from ionisation phenomena of the Arctic Circle.",
                                     "answer_d": "stations at distances of 1000 to 2000 km can be heard, received via reflection from ionisation phenomena of the Arctic Circle."
                                 },
@@ -11240,7 +11240,7 @@
                                     "number": "NH302",
                                     "class": "1",
                                     "question": "How does antenna height affect the range of a VHF contact? The range increases with increasing antenna height because ...",
-                                    "answer_a": "the quasi-optical line of sight increases.",
+                                    "answer_a": "the quasi-optical line-of-sight range increases.",
                                     "answer_b": "the antenna is closer to the ionosphere.",
                                     "answer_c": "it allows radiation at a steeper angle.",
                                     "answer_d": "the temperature falls in higher layers of the air."
@@ -11528,7 +11528,7 @@
                                     "class": "2",
                                     "question": "What, for example, is a \"vector network analyser\" (VNA) used for?",
                                     "answer_a": "For the more accurate determination of the resonant frequencies and impedances of tuned circuits and antennas.",
-                                    "answer_b": "For recording how fast alternating currents vary over time.",
+                                    "answer_b": "For recording fast alternating currents as a function of time.",
                                     "answer_c": "For checking the spectral purity of a transmitter.",
                                     "answer_d": "For determining the earth resistance of an amateur station."
                                 }
@@ -11580,8 +11580,8 @@
                                     "class": "3",
                                     "question": "What does an oscilloscope need in order to display a stationary picture?",
                                     "answer_a": "Trigger circuit",
-                                    "answer_b": "X prescaler",
-                                    "answer_c": "Y prescaler",
+                                    "answer_b": "X attenuator",
+                                    "answer_c": "Y attenuator",
                                     "answer_d": "Frequency marker generator"
                                 },
                                 {
@@ -11755,7 +11755,7 @@
                                 {
                                     "number": "AI510",
                                     "class": "3",
-                                    "question": "A transceiver displays frequencies on the 2 m band to an accuracy of 1 ppm. By how many kHz must the transmit frequency set on this transceiver in SSB operation (USB) (the frequency of the suppressed carrier) lie below 144.400 MHz to protect the beacon segment that begins there, if the transmitted audio is limited to the range 300 Hz to 2.7 kHz?",
+                                    "question": "A transceiver displays frequencies on the 2 m band to an accuracy of 1 ppm. By how many kHz must the transmit frequency set on this transceiver for SSB operation (USB), i.e. the frequency of the suppressed carrier, lie below 144.400 MHz to protect the beacon segment that begins there, if the transmitted AF is limited to the range 300 Hz to 2.7 kHz?",
                                     "answer_a": "2.844 kHz",
                                     "answer_b": "0.144 kHz",
                                     "answer_c": "1.42 kHz",

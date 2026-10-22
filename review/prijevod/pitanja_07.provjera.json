@@ -1,0 +1,35 @@
+{
+  "pitanja": {
+    "AH205": {
+      "question": "Assume that the critical frequency of the F2 region (foF2) is 12 MHz. Which statement is then correct? For a signal radiated into the ionosphere at an angle of ..."
+    },
+    "AH206": {
+      "answer_d": "maximum transmission frequency (LUF)."
+    },
+    "AH215": {
+      "answer_c": "two waves reflected in different ionospheric regions arrive at station B in antiphase."
+    },
+    "AH220": {
+      "answer_b": "The signals are received with a heavy buzz."
+    },
+    "AH305": {
+      "answer_d": "The contact was made by reflection of buzzing VHF waves at the Arctic Circle (reflection from ionisation phenomena of the Arctic Circle)."
+    },
+    "NH306": {
+      "answer_b": "stations in North America can be heard, received via refraction at high-energy noctilucent clouds (NLCs)."
+    },
+    "NH302": {
+      "answer_a": "the quasi-optical line-of-sight range increases."
+    },
+    "AI302": {
+      "answer_b": "X attenuator",
+      "answer_c": "Y attenuator"
+    },
+    "EI201": {
+      "answer_b": "For recording fast alternating currents as a function of time."
+    },
+    "AI510": {
+      "question": "A transceiver displays frequencies on the 2 m band to an accuracy of 1 ppm. By how many kHz must the transmit frequency set on this transceiver for SSB operation (USB), i.e. the frequency of the suppressed carrier, lie below 144.400 MHz to protect the beacon segment that begins there, if the transmitted AF is limited to the range 300 Hz to 2.7 kHz?"
+    }
+  }
+}

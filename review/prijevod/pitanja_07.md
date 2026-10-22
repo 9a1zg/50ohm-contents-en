@@ -134,3 +134,63 @@ pronoun or as singular *they*.
   German, all dropped: final newline in AH206 b; leading space in AH203 d;
   trailing spaces in AI401 a and in the questions EI103, NI104, AI208,
   AI207, EI405, NI301, AI613, AI608, EI302; double space in AI201 d.
+
+## Provjera
+
+Checked: 175 questions (all five fields, German from `upstream/main` beside
+the English working tree). Changed: 11 fields in 10 questions
+(`pitanja_07.provjera.json`, applied with `--retranslate`: 0 refused,
+0 warnings) — 2 meaning, 1 answer correctness, 6 style, 2 glossary.
+
+- AH205 question (answer correctness): "At an angle of incidence into the
+  ionosphere of 90 °" → "For a signal radiated into the ionosphere at an
+  angle of 90 °". The German angle is an elevation (90 ° = vertical, so a,
+  12 MHz = foF2, is right); in English the angle of incidence is measured
+  from the vertical, which would make 90 ° grazing and a wrong.
+- AH206 d (meaning): "maximum penetration frequency (LUF)" → "maximum
+  transmission frequency (LUF)". *Penetration frequency* is a real English
+  name for the critical frequency (distractor c); the German *höchste
+  durchlässige Frequenz* is a made-up name. *Maximum* kept so a and d stay
+  built alike.
+- AH215 c (style): "in cancelling phase" → "in antiphase" (glossary
+  *gegenphasig*).
+- AH220 b, AH305 d (style): *verbrummt* rendered one way, as in AH308 a
+  ("fluttering, buzzing tone"): "received with heavy hum" → "received with a
+  heavy buzz", "hum-modulated VHF waves" → "buzzing VHF waves". *Hum* reads
+  as mains hum; the aurora note is described as a buzz.
+- NH306 b (style): "high-energy luminous noctilucent clouds" → "high-energy
+  noctilucent clouds"; *noctilucent* already means night-shining.
+- NH302 a (style): "the quasi-optical line of sight increases" → "the
+  quasi-optical line-of-sight range increases"; the range is what grows.
+- AI302 b, c (glossary): "X/Y prescaler" → "X attenuator" / "Y attenuator":
+  *X-/Y-Vorteiler* on an oscilloscope are the input attenuators; prescaler
+  stays for the frequency counter (AI504).
+- EI201 b (meaning): "For recording how fast alternating currents vary over
+  time" (readable as "how quickly AC varies") → "For recording fast
+  alternating currents as a function of time" (*zeitlicher Verlauf schneller
+  Wechselströme*).
+- AI510 question (style): two brackets in a row untangled ("for SSB
+  operation (USB), i.e. the frequency of the suppressed carrier, lie below
+  …"); *NF* → "AF" as TRANSLATION.md has it.
+
+Points settled without change:
+
+- Word subscripts (`P_{\textrm{Sender}}` etc., AG502, EG502) stay German,
+  as TRANSLATION.md now says.
+- AG501 c, d match the German exactly (one RF cycle at the highest crest of
+  the envelope; interval long compared with the period of the lowest
+  modulating frequency; supplied to the antenna feeder); only the order
+  follows RR 1.157 / 1.158. AG501 a, b "gain (as a power ratio)" is the
+  glossary's *Gewinnfaktor*.
+- EH204 d "Mean usable frequency" is a faithful rendering of *Mittlere
+  Nutzfrequenz* that also spells MUF, so a is not alone (DECISIONS.md,
+  EF212); kept.
+- EH203 "drop in field strength" for *Feldstärkeschwund* is faithful and
+  does not hand over "Fading"; kept.
+- The three new DECISIONS.md entries are right. The EIRP entry gains one
+  line: in German *äquivalente Strahlungsleistung* alone is the ERP (AG501,
+  solution AK115), so EG503–EG505 are a slip in the German — for DARC.
+
+Glossary: *höchste durchlässige Frequenz*, *quasi-optische Sichtweite*,
+*verbrummt*, *X-/Y-Vorteiler* (and the *Vorteiler* note) corrected as above;
+*Einfallswinkel / Einstrahlung* gains the elevation-angle note (AH205).

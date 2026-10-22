@@ -129,7 +129,9 @@ and the checker's "Provjera" section).
   established term **equivalent isotropically radiated power (EIRP)**
   (EG503–EG505, NG402): the abbreviation decides what is meant, and
   "equivalent radiated power" is not an English name for the EIRP.
-  (Batch 07.)
+  In German *äquivalente Strahlungsleistung* alone is the ERP (AG501,
+  solution AK115), so EG503–EG505 are a slip in the German; their dBi
+  figures confirm EIRP. (Batch 07; slip noted for DARC by the checker.)
 - **The German generic *er* for a radio amateur** ("Er muss die Antenne
   drehen …", "erkennt er, dass …") is recast without a pronoun — "The
   antenna must be turned to …", "that "PY" has been worked" — or, where a

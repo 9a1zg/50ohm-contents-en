@@ -1257,7 +1257,7 @@ real choice or a trap.
 | Weitverkehrsverbindungen / Überseeverbindungen | long-distance contacts / intercontinental contacts | |
 | Beamrichtung | beam heading | AH217, AH218 |
 | höchste brauchbare / nutzbare Frequenz | maximum usable frequency (MUF) | "highest usable frequency" where an answer describes it in words beside "lowest usable frequency" (AH207, AH211); "Höchste nutzbare Frequenz" as the expansion of MUF → "Maximum usable frequency" (EH204) |
-| höchste durchlässige Frequenz | maximum penetration frequency | made-up distractor labelled "(LUF)" (AH206) |
+| höchste durchlässige Frequenz | maximum transmission frequency | made-up distractor labelled "(LUF)" (AH206); not *penetration frequency*, which in English is a real name for the critical frequency (distractor c) |
 | Abdeckung (durch die F1-Region) | blanketing | AH107 |
 | Tagesdämpfung | daytime attenuation | EH210 |
 | Sonnenfleckenmaximum / Sonnenfleckenminimum | sunspot maximum / sunspot minimum | "im Sonnenfleckenmaximum" → "at sunspot maximum" |
@@ -1267,7 +1267,7 @@ real choice or a trap.
 | NVIS (Near Vertical Incidence Skywave) | NVIS (near vertical incidence skywave) | the German writes *Incident* (AG125); English has *incidence* |
 | kritische Frequenz (foF2) | critical frequency (foF2) | |
 | MUF / LUF / FOT | MUF / LUF / FOT | maximum usable / lowest usable / optimum working frequency |
-| Einfallswinkel / Einstrahlung (in die Ionosphäre) | angle of incidence / incidence | trap: *Einstrahlung* in EMC means radiated pick-up |
+| Einfallswinkel / Einstrahlung (in die Ionosphäre) | angle of incidence / incidence | trap: *Einstrahlung* in EMC means radiated pick-up. Where the German angle is an elevation ("Einstrahlung … unter einem Winkel von 90 °" = vertical, AH205), write "radiated into the ionosphere at an angle of", not "angle of incidence", which English propagation texts measure from the vertical |
 | Brechung / Refraktion | refraction | |
 | Reflexion | reflection | |
 | Beugung | diffraction | |
@@ -1277,7 +1277,7 @@ real choice or a trap.
 | Ionisationsspuren von Meteoriten / Meteorbahnen | ionisation trails of meteors / meteor trails | *meteors*, not *meteorites*, for what leaves the trail (AH301, EH304) |
 | leuchtende Nachtwolken (NLCs) | noctilucent clouds (NLCs) | NH306 |
 | Geländeprofil | terrain profile | NH303 |
-| quasi-optische Sichtweite | quasi-optical line of sight | NH302 |
+| quasi-optische Sichtweite | quasi-optical line-of-sight range | NH302: the range is what increases |
 | Troposphäre | troposphere | |
 | troposphärische Ausbreitung / Überreichweiten | tropospheric propagation / enhanced (anomalous) propagation | "beträchtliche Überreichweiten erzielen" → "achieve considerably extended ranges" (AH304) |
 | Inversionswetterlage / Inversionsschicht | temperature inversion / inversion layer | |
@@ -1286,7 +1286,7 @@ real choice or a trap.
 | Aurora / Polarlicht | aurora | |
 | Aurora-Erscheinungen / Polarlichter / Nordlichter | auroral phenomena / aurorae / northern lights | |
 | Aurora-Verbindung | aurora contact | |
-| verbrummt (Aurora-Signal) | buzzing; with hum | aurora CW "flatternder und verbrummter Ton" → "fluttering, buzzing tone" (AH308); "stark verbrummt empfangen" → "received with heavy hum" (AH220); "verbrummte Ultrakurzwellen" → "hum-modulated VHF waves" (AH305) |
+| verbrummt (Aurora-Signal) | buzzing | one rendering wherever the German has *verbrummt*: "flatternder und verbrummter Ton" → "fluttering, buzzing tone" (AH308); "stark verbrummt empfangen" → "received with a heavy buzz" (AH220); "verbrummte Ultrakurzwellen" → "buzzing VHF waves" (AH305). Not *hum*, which reads as mains hum |
 | Polarkreis | Arctic Circle | |
 | Erdmagnetfeld | geomagnetic field | |
 | Funkhorizont / Horizont | radio horizon / horizon | |
@@ -1341,7 +1341,7 @@ real choice or a trap.
 | Frequenzmessung | frequency measurement | |
 | Frequenzzähler | frequency counter | |
 | Torzeit | gate time | |
-| Vorteiler | prescaler | |
+| Vorteiler | prescaler | frequency counter; on an oscilloscope *X-/Y-Vorteiler* → X/Y attenuator |
 | Absorptionsfrequenzmesser | absorption wavemeter | RSGB term |
 | Dipmeter | dip oscillator (dip meter) | |
 | Feldstärkeanzeiger / Feldstärkemessgerät | field-strength meter | |
@@ -1362,7 +1362,7 @@ real choice or a trap.
 | Oszillograf / Speicheroszilloskop | oscillograph / storage oscilloscope | |
 | Diodentastkopf | diode probe | |
 | Triggereinrichtung / Triggerschwelle | trigger circuit / trigger threshold | |
-| X-Vorteiler / Y-Vorteiler | X prescaler / Y prescaler | oscilloscope distractors (AI302); *Vorteiler* stays *prescaler* as for counters |
+| X-Vorteiler / Y-Vorteiler (Oszilloskop) | X attenuator / Y attenuator | the scope's input attenuators (AI302), not a prescaler; *Vorteiler* of a frequency counter is the *prescaler* (AI504) |
 | Frequenzmarken-Generator | frequency marker generator | |
 | Hüllkurvenform | envelope shape | |
 | Frequenzmessgerät / Frequenzmesser | frequency meter | kept apart from *Frequenzzähler* → frequency counter, where the German uses both |
