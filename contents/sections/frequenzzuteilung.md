@@ -1,6 +1,6 @@
-Im Telekommunikationsgesetz [index:Telekommunikationsgesetz] (TKG) ist das Prinzip verankert, dass jede Frequenznutzung einer vorherigen *Frequenzzuteilung* [index:Frequenzzuteilung] bedarf. Das kann eine Einzelzuteilung oder eine Allgemeinzuteilung sein. Eine Einzelzuteilung [index:Frequenzzuteilung:Einzelzuteilung] liegt beispielsweise vor, wenn Frequenzen einem Unternehmen für den Betriebsfunk zugeteilt werden. Eine Allgemeinzuteilung[index:Frequenzzuteilung:Allgemeinzuteilung] hingegen kann für die Allgemeinheit oder auch für einen bestimmten Personenkreis erfolgen, z. B. für Funkamateure. Die Zuteilungen sind im Frequenzplan der BNetzA dokumentiert.
+The Telecommunications Act (Telekommunikationsgesetz, TKG) [index:Telecommunications Act] lays down the principle that every frequency use requires a prior *frequency assignment* [index:Frequency assignment]. This can be an individual assignment or a general assignment. An individual assignment [index:Frequency assignment:Individual assignment] exists, for example, when frequencies are assigned to a company for private mobile radio. A general assignment[index:Frequency assignment:General assignment], on the other hand, can be made for the general public or for a particular group of people, e.g. for radio amateurs. The assignments are documented in the Frequency Plan of the Federal Network Agency (Bundesnetzagentur, BNetzA).
 
-Funkamateure dürfen Funkbetrieb daher nur auf für sie zugeteilten Frequenzen durchführen. Auch wenn die Frequenzbereiche international vereinbart werden, sind ausschließlich die nationalen Bestimmungen maßgebend, die sich jedoch an den internationalen Vereinbarungen orientieren.
+Radio amateurs may therefore operate only on frequencies assigned to them. Even though the frequency ranges are agreed internationally, only the national regulations are authoritative, although these are based on the international agreements.
 
 [question:VE102]
 [question:VD701]
@@ -8,14 +8,14 @@ Funkamateure dürfen Funkbetrieb daher nur auf für sie zugeteilten Frequenzen d
 
 ---
 
-Die Frequenzbereiche für den Amateurfunkdienst in Deutschland sind in der *Anlage 1 der Verordnung über den Amateurfunk (AFuV)* geregelt. Ein Funkamateur darf nur auf den seiner Zeugnisklasse zugeteilten Frequenzen senden.
+The frequency ranges for the amateur service in Germany are laid down in *Annex 1 to the Amateur Radio Ordinance (Amateurfunkverordnung, AFuV)*. A radio amateur may transmit only on the frequencies assigned to their certificate class.
 
 % TODO hier neue AFUV eintragen
 <webmargin>
-[photo:99:n_frequenzbereiche_afuv_anlage_1:Tabellarische Übersicht, Anlage 1, AFuV]
+[photo:99:n_frequenzbereiche_afuv_anlage_1:Overview table, Annex 1, AFuV]
 </webmargin>
 
-Neben den Frequenzbereichen enthält die Anlage auch ausführliche Nutzungsbestimmungen [index:Frequenzzuteilung:Nutzungsbestimmungen], die von jedem Funkamateur einzuhalten sind. Darüber hinaus gibt es Verfügungen und Mitteilungen. Diese *ergänzen* die Anlage 1 und sind ebenso bindend. Sie werden bei Bedarf von der BNetzA im sogenannten Amtsblatt auf der Website der Behörde veröffentlicht.
+Besides the frequency ranges, the Annex also contains detailed conditions of use [index:Frequency assignment:Conditions of use], which every radio amateur must comply with. In addition, there are orders and notices. These *supplement* Annex 1 and are equally binding. When required, the BNetzA publishes them in what is called the Official Gazette on the agency's website.
 
 [question:VD101]
 [question:VD702]

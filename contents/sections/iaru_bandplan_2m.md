@@ -1,39 +1,39 @@
-Die Bandpläne teilen ein Band in einzelne Frequenzsegmente auf. Für jeden Frequenzbereich (Spalte 1) werden bevorzugte Übertragungsverfahren (Spalte 3 und 4) ausgewiesen.
+The band plans divide a band into individual frequency segments. For each frequency range (column 1), preferred transmission methods (columns 3 and 4) are designated.
 
 <margin>
-[photo:102:n_iaru_bandplan_2m:IARU-Bandplan $\qty{2}{\meter}$]
+[photo:102:n_iaru_bandplan_2m:IARU band plan $\qty{2}{\meter}$]
 </margin>
 
-Um schnell einen Funkpartner zu finden, kann man einen CQ-Ruf auf der "Anruffrequenz" [index:Anruffrequenz] eines Bandes starten. Diese werden im IARU-Bandplan als *calling* gekennzeichnet. Dabei wird zwischen zwei Übertragungsverfahren unterschieden:
-* FM-Sprechfunk ("FM calling")
-* Digitale Telefonie ("digital voice calling")
+To find someone to talk to quickly, you can put out a CQ call on a band's "calling frequency" [index:Calling frequency]. These are marked *calling* in the IARU band plan. A distinction is made between two transmission methods:
+* FM voice ("FM calling")
+* Digital telephony ("digital voice calling")
 
-Bei FM-Sprechfunk handelt es sich um ein analoges Übertragungsverfahren. Digitale Telefonie fasst alle digitalen Übertragungsverfahren für den Sprechfunk zusammen. Den technischen Unterschied zwischen analog und digital sowie zwischen verschiedenen Übertragungsverfahren werden wir noch im weiteren Verlauf des Kurses behandeln.
+FM voice is an analogue transmission method. Digital telephony covers all digital transmission methods for voice communication. We will deal with the technical difference between analogue and digital, and between different transmission methods, later in the course.
 
 [question:BC205]
 [question:BC207]
 
 ---
 
-Anruffrequenzen sollten grundsätzlich für Anrufe freigehalten werden, d. h. sobald nach einem Anruf eine Verbindung hergestellt wurde, sollte man sich auf eine andere Frequenz verständigen und den Funkverkehr dort fortsetzen. Es bietet sich dafür eine Frequenz aus dem Bereich für FM-Sprechfunk und digitale Telefonie an, der im Bandplan als "FM/Digital Voice" gekennzeichnet ist.
+Calling frequencies should as a rule be kept free for calls, i.e. as soon as a contact has been established after a call, you should agree on another frequency and continue the contact there. A frequency from the range for FM voice and digital telephony, marked "FM/Digital Voice" in the band plan, is a good choice for this.
 
 <tip>
-Nachdem eine andere Station auf einen CQ-Anruf geantwortet hat, sollte man die Frequenz wechseln und die „Anruffrequenz“ freigeben.
+After another station has replied to a CQ call, you should change frequency and leave the "calling frequency" free.
 </tip>
 
 [question:BC209]
 
-Für ein weiteres Übertragungsverfahren, die analoge SSB-Telefonie, ist es ein wenig anders geregelt. Hier ist keine Anruffrequenz vorgesehen, sondern ein sogenanntes Aktivitätszentrum [index:Aktivitätszentrum]. Damit wird zum einen angedeutet, dass die Frequenz nicht für Anrufe freizuhalten ist, und zum anderen, dass Anrufe auch im Umfeld dieser Frequenz stattfinden sollen. Dafür kann der ganze mit "SSB" gekennzeichnete Bereich genutzt werden. Aktivitätszentren werden im Bandplan als *center of activity* markiert.
+For another transmission method, analogue SSB telephony, things are arranged a little differently. Here there is no calling frequency but what is called a centre of activity [index:Centre of activity]. This indicates, on the one hand, that the frequency does not have to be kept free for calls and, on the other, that calls should also take place around this frequency. The whole range marked "SSB" can be used for this. Centres of activity are marked *center of activity* in the band plan.
 
 [question:BC211]
 [question:BC210]
 
-Für eine Vielzahl besonderer Anwendungen sind eigene Frequenzbereiche reserviert. Dies Frequenzbereiche sollten bevorzugt für die jeweils vorgesehenen Anwendungen genutzt werden. Es sollte beispielsweise vermieden werden, diese für eine Telefonie-Direktverbindung mit einem Funkamateur aus der Nähe zu verwenden. Häufige Anwendungen sind:
-* Satelliten-Up- und Downlink ("satellite uplink", "satellite downlink")
-* Baken ("beacons")
-* Relaisfunkstellen, Eingabe und Ausgabe ("repeater input", "repeater output")
-* Weltraumkommunikation ("space communication")
-* Morsetelegrafie ("CW")
+Separate frequency ranges are reserved for a variety of special applications. These frequency ranges should preferably be used for the applications intended for them. You should avoid, for example, using them for a direct telephony contact with a radio amateur nearby. Common applications are:
+* Satellite uplink and downlink
+* Beacons
+* Repeaters, input and output
+* Space communication
+* Morse telegraphy ("CW")
 
 [question:BC214]
 [question:BC215]

@@ -1,19 +1,19 @@
-## Antenne
+## Antenna
 
-* Eine elektrische Schwingung an einer Antenne wird als Funkwelle abgestrahlt
-* Funkwellen sind elektromagnetische Wellen
-* Sie breiten sich mit Lichtgeschwindigkeit aus
-* Lichtgeschwindigkeit im Freiraum: etwa 300.000 Kilometer pro Sekunde
+* An electrical oscillation at an antenna is radiated as a radio wave
+* Radio waves are electromagnetic waves
+* They travel at the speed of light
+* Speed of light in free space: about 300,000 kilometres per second
 
 ---
 [question:NB301]
 ---
-## Funkwellen
+## Radio waves
 
-* Bestehen aus Wellenbergen und Wellentälern
-* Stellen die Stärke des Funksignals dar
-* Das entspricht der *Feldstärke*
-* Auch hier heißt die Höhe der Wellenberge und -täler *Amplitude*
+* Consist of crests and troughs
+* Represent the strength of the radio signal
+* This corresponds to the *field strength*
+* Here too, the height of the crests and troughs is called the *amplitude*
 
 ---
 [question:NB402]

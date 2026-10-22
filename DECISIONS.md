@@ -298,6 +298,21 @@ and the checker's "Provjera" section).
   word back into German (*seek you, also "suche dich"*; *push to talk,
   also "drücken, um zu senden"*) is dropped, as in the bracket rule above.
   (Unit nea_erste_schritte.)
+- **English names the German glosses are not glossed back.** Where the
+  German text pairs an English name with its German counterpart, the
+  bracket rule above applies to whole rows and list items as well. In the
+  frequency-range table (frequenzspektrum, table
+  n_frequenzspektrum_bereiche, section and slides) the German everyday
+  names *(Kurzwelle) (KW)*, *(Ultrakurzwelle) (UKW)* and
+  *(Dezimeterwelle)* only repeat the English row above them and are
+  dropped, as in BC101–BC106; *(Langwelle) (LW)* and *(Mittelwelle) (MW)*
+  become "(long wave) (LW)" and "(medium wave) (MW)", the English everyday
+  names, and "Short Wave SW" stays. In the IARU band plan sections the
+  German names the band plan's English labels in brackets ("Baken
+  ("beacons")"); where the label is the English term itself the bracket is
+  dropped ("Beacons"), where it differs it stays ("FM voice ("FM
+  calling")", "Morse telegraphy ("CW")"). (Unit
+  nea_elektrische_schwingungen_funkwellen.)
 
 ## Open questions for DARC
 

@@ -1,11 +1,11 @@
-Für den Funkbetrieb ist es wichtig zu wissen, welche Frequenzbereiche durch Funkamateure genutzt werden dürfen. Dies lässt sich aus der [Anlage 1 der AFuV](https://50ohm.de/a1) ablesen. Damit sollten die folgenden Fragen leicht zu beantworten sein. Die Anlage 1 der AFuV liegt während der Prüfung als Hilfsmittel bereit.
+For operating, it is important to know which frequency ranges radio amateurs may use. This can be read from [Annex 1 to the Amateur Radio Ordinance (Amateurfunkverordnung, AFuV)](https://50ohm.de/a1). With it, the following questions should be easy to answer. Annex 1 to the AFuV is provided as an aid during the exam.
 
 <tip>
-Für diese Fragen ist wirklich kein Auswendiglernen oder Ausrechnen erforderlich: Man muss nur überprüfen, welcher der in der Prüfungsfrage angegebenen Werte in der Liste der Anlage 1 auftaucht. Dieser Wert ist dann die richtige Antwort. Die Werte können sich, wie z.B. beim $\qty{160}{\meter}$-Band, auch aus mehreren Einträgen zusammensetzen.
+For these questions, no memorising or calculating is really needed: you just have to check which of the values given in the exam question appears in the list in Annex 1. That value is then the correct answer. The values can also be made up of several entries, as with the $\qty{160}{\meter}$ band, for example.
 </tip>
 
 <margin>
-[picture:749:amateuerfunkbaender_2:Frequenzbereiche im Amateurfunk unter $\qty{300}{\mega\hertz}$]
+[picture:749:amateuerfunkbaender_2:Amateur radio frequency ranges below $\qty{300}{\mega\hertz}$]
 </margin>
 
 [question:VD709]
@@ -20,7 +20,7 @@ Für diese Fragen ist wirklich kein Auswendiglernen oder Ausrechnen erforderlich
 [question:VD718]
 
 <margin>
-[picture:750:amateuerfunkbaender_1:Frequenzbereiche im Amateurfunk über $\qty{300}{\mega\hertz}$]
+[picture:750:amateuerfunkbaender_1:Amateur radio frequency ranges above $\qty{300}{\mega\hertz}$]
 </margin>
 
 [question:VD719]

@@ -1,55 +1,55 @@
 ## Amplitude
 
 <left>
-[picture:726:amplitude_periode_amplitudee: Amplitude einer Sinusschwingung]
+[picture:726:amplitude_periode_amplitudee: Amplitude of a sine wave]
 </left>
 <right>
-Der maximale Abstand von der Nulllinie zum höchsten oder tiefsten Punkt heißt *Amplitude*
+The maximum distance from the zero line to the highest or lowest point is called the *amplitude*
 </right>
 <note>
-* Darstellung von Schwingungen auf einem *Oszilloskop* möglich
-* Diese bildliche Darstellung wird *Oszillogramm* genannt
+* Oscillations can be displayed on an *oscilloscope*
+* This pictorial representation is called an *oscillogram*
 </note>
 ---
 [question:NB404]
 ---
 
-## Halbwellen
+## Half cycles
 
 <left>
-[picture:727:amplitude_periode_halbwellen:Positive und negative Halbwellen einer Sinusschwingung]
+[picture:727:amplitude_periode_halbwellen:Positive and negative half cycles of a sine wave]
 </left>
 <right>
-Bei einer Sinusschwingung gibt es positive und negative *Halbwellen*
+A sine wave has positive and negative *half cycles*
 </right>
 
 ---
-## Periode
+## Period
 
 <left>
-[picture:728:amplitude_periode_perioden:Perioden einer Sinusschwingung]
+[picture:728:amplitude_periode_perioden:Periods of a sine wave]
 </left>
 <right>
-Die Zeit ($t$) vom Beginn einer positiven Halbwelle bis zum Ende der darauf folgenden negativen Halbwelle heißt *Periode* oder *Periodendauer*
+The time ($t$) from the start of a positive half cycle to the end of the following negative half cycle is called the *period* or *periodic time*
 </right>
 ---
-## Interaktiv
+## Interactive
 
 [include:applet_sinus_amplitude_und_periode]
 
 <note>
-* Einstellungen im Speaker View sind nur dort sichtbar und werden nicht gespiegelt
-* Zur demonstration das große Präsentationsfenster verwenden
+* Settings in the speaker view are only visible there and are not mirrored
+* Use the large presentation window for the demonstration
 </note>
 
 ---
 [question:NB405]
 ---
 
-### Schwingung und Periode
+### Oscillation and period
 
-* 1 Periode = 1 Schwingung
-* 1 Schwingung pro Sekunde = $\qty{1}{\hertz}$
+* 1 period = 1 oscillation
+* 1 oscillation per second = $\qty{1}{\hertz}$
 
 ---
 [question:NA213]

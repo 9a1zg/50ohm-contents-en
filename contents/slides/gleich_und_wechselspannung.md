@@ -1,62 +1,62 @@
-## Einführung in die elektrische Spannung
+## Introduction to electrical voltage
 <left>
-[picture:713:n_frequenz_elektrische_ladungen:Positiv und negativ geladene Teilchen gleichverteilt in einem Gegenstand.]
+[picture:713:n_frequenz_elektrische_ladungen:Positively and negatively charged particles evenly distributed in an object.]
 </left>
 <right>
-* Alle Stoffe bestehen aus winzigen Teilchen, die elektrisch geladen sind
-* Manche sind "positiv" (Plus) geladen
-* Manche sind "negativ" (Minus) geladen
+* All materials consist of tiny particles that are electrically charged
+* Some are charged "positive" (plus)
+* Some are charged "negative" (minus)
 </right>
 
 <note>
-Das ist Klasse N – wir sind genau genug, um das Prinzip zu verstehen, gehen aber nicht auf die Teilchenphysik ein.
+This is Class N – we are precise enough to understand the principle, but we do not go into particle physics.
 </note>
 
 ---
 
 <left>
-[picture:710:n_ladungen:Anziehung und Abstoßung von Ladungen]
+[picture:710:n_ladungen:Attraction and repulsion of charges]
 </left>
 <right>
-* Gleich geladene Teilchen stoßen sich ab
-* Unterschiedliche Ladungen ziehen sich an
-* Die meisten Gegenstände sind elektrisch ausgeglichen
+* Particles with the same charge repel each other
+* Opposite charges attract each other
+* Most objects are electrically balanced
 </right>
 <note>
-Außer, man bekommt "einen gewischt".
+Unless you get a static shock.
 </note>
 ---
 
-## Ladungstrennung
+## Separation of charges
 
-* Ladungen lassen sich gezielt trennen
-* In einer Batterie, Solarzelle oder einem Windkraftwerk
-* Ladungen versuchen wieder zusammenzukommen
-* Es liegt eine elektrische *Spannung* vor
-* Geräte zur Trennung von Ladungen heißen *Spannungsquelle*
+* Charges can be deliberately separated
+* In a battery, solar cell or wind turbine
+* Charges try to come back together
+* There is an electrical *voltage*
+* Devices that separate charges are called *voltage sources*
 
 ---
 
-## Spannungsquelle
+## Voltage source
 
-* Der positiv geladene Anschluss heißt Pluspol
-* Der negativ geladene Anschluss heißt Minuspol
-* Die Spannung kann unterschiedlich groß sein
-* Spannungsquellen, bei denen die Pole ständig zwischen positiver und negativer Spannung schwingen, erzeugen Wechselspannung
+* The positively charged terminal is called the positive terminal
+* The negatively charged terminal is called the negative terminal
+* The voltage can be of different sizes
+* Voltage sources whose terminals constantly oscillate between positive and negative voltage produce AC voltage
 
 <fragment>
-Die elektrische Spannung wird in der Einheit Volt mit der Abkürzung $\unit{V}$ gemessen.
+Electrical voltage is measured in the unit volt, abbreviated $\unit{V}$.
 </fragment>
 
 ---
 
-## Elektrischer Verbraucher
+## Electrical load
 
 <left>
-[picture:714:n_frequenz_strom_fliesst:Die Pole einer Batterie, am Minus-Pol befindet sich ein Überschuss an negativen Ladungen und am Plus-Pol ein Überschuss an positiven Ladungen, die Pole der Batterie sind verbunden, daher kann der Strom durch den Verbraucher fließen.]
+[picture:714:n_frequenz_strom_fliesst:The terminals of a battery: at the negative terminal there is an excess of negative charges and at the positive terminal an excess of positive charges; the terminals of the battery are connected, so the current can flow through the load.]
 </left>
 <right>
-* Wird ein elektrischer Verbraucher zwischen beiden Polen angeschlossen, bewegen sich die Ladungen
-* Es fließt ein elektrischer Strom
-* Die Ladungsbewegung endet bei einem Ausgleich der Ladungsträger an den Polen
+* If an electrical load is connected between the two terminals, the charges move
+* An electric current flows
+* The movement of charge ends when the charge carriers at the terminals have balanced out
 </right>

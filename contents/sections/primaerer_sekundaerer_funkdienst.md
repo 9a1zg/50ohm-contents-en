@@ -1,24 +1,24 @@
-Der Amateurfunkdienst hat in einigen zugewiesenen Frequenzbereichen primäre und in anderen Bereichen nur sekundäre Nutzungsrechte:
-* *Primär* [index:Frequenzzuteilung:Primär] bedeutet, dass wir vor anderen Funkdiensten Vorrang haben und von diesen keine Störungen hinnehmen müssen.
-* *Sekundär* [index:Frequenzzuteilung:Sekundär] bedeutet, dass wir als Funkamateure andere Funkdienste nicht stören dürfen und Störungen durch diese hinnehmen müssen.
+In some of its allocated frequency ranges the amateur service has primary rights of use, in other ranges only secondary ones:
+* *Primary* [index:Frequency assignment:Primary] means that we have priority over other radiocommunication services and do not have to accept interference from them.
+* *Secondary* [index:Frequency assignment:Secondary] means that we as radio amateurs must not cause interference to other radiocommunication services and must accept interference from them.
 
 [question:VD704]
 [question:VD705]
 
 ---
 
-Welcher Status dem Amateurfunkdienst in Deutschland in den einzelnen Frequenzbereichen zugewiesen wurde, kann in der *Spalte 3* der Anlage 1 der AFuV abgelesen werden. Der Buchstabe P steht für Primär und S für Sekundär. Damit kann die folgende Frage beantwortet werden.
+The status allocated to the amateur service in Germany in each frequency range can be read from *column 3* of Annex 1 to the Amateur Radio Ordinance (Amateurfunkverordnung, AFuV). The letter P stands for primary and S for secondary. With this, the following question can be answered.
 
 [question:VD706]
 
 <attention>
-Es ist zu beachten, dass die primären und sekundären Zuweisungen in anderen Ländern abweichend geregelt sein können. Man sollte sich daher vor der Betriebsaufnahme im Ausland über die jeweiligen Bestimmungen des Gastlandes informieren.
+Note that primary and secondary allocations may be arranged differently in other countries. So before starting to operate abroad, you should find out about the regulations of the host country.
 </attention>
 
-Eine Besonderheit stellen Küstenfunkstellen des Seefunkdienstes dar. Obwohl uns das $\qty{80}{\meter}$-Band primär zugewiesen ist, müssen wir solchen Funkstellen den Vorrang gewähren, da sie eine feste Frequenz zugeteilt haben, die sie nicht ändern dürfen.
+Coast stations of the maritime mobile service are a special case. Although the $\qty{80}{\meter}$ band is allocated to us on a primary basis, we must give such stations priority, because they have been assigned a fixed frequency that they may not change.
 
 [question:VD707]
 
-Eine weitere Besonderheit ist der sogenannte ISM-Bereich [index:Frequenzzuteilung:ISM]. Ein Teilbereich des $\qty{70}{\centi\meter}$-Amateurfunkbandes wird für Anwendungen aus den Bereichen Industrie, Wissenschaft und Medizin, aber auch von Haushaltsgeräten mitbenutzt. Die Abkürzung ISM kommt von der englischen Bezeichnung "Industrial, Scientific and Medical Band". Dort finden sich z. B. Signale von Garagentoröffnern, Funkwetterstationen, Autoschlüsseln, Wegfahrsperren oder Reifendrucksensoren. Obwohl der Amateurfunkdienst in diesem Frequenzbereich primäre Nutzungsrechte genießt, müssen Störungen durch solche Geräte ausnahmsweise dennoch hingenommen werden.
+Another special case is what is called the ISM band [index:Frequency assignment:ISM]. A segment of the $\qty{70}{\centi\meter}$ amateur band is shared with applications from industry, science and medicine, and also with household appliances. The abbreviation ISM comes from the English name "Industrial, Scientific and Medical Band". Here you will find, for example, signals from garage door openers, wireless weather stations, car keys, immobilisers or tyre pressure sensors. Although the amateur service enjoys primary rights of use in this frequency range, interference from such devices must nevertheless, by way of exception, be accepted.
 
 [question:VD708]

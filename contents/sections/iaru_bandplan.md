@@ -1,15 +1,15 @@
-Die nationalen Amateurfunkverbände haben sich in der "International Amateur Radio Union" (IARU) [index:IARU] zusammengeschlossen. Durch die Zusammenarbeit in der IARU wird ein *weltweit geordnetes Nebeneinander der verschiedenen Betriebsarten auf den Amateurfunkbändern* erreicht. Neben der Interessenvertretung für alle Funkamateure gibt die IARU Bandpläne heraus. Diese enthalten wichtige Empfehlungen der IARU, die von jedem Funkamateur eingehalten werden sollen.
+The national amateur radio societies have joined together in the "International Amateur Radio Union" (IARU) [index:IARU]. Cooperation in the IARU achieves an *orderly coexistence of the different modes on the amateur bands worldwide*. Besides representing the interests of all radio amateurs, the IARU publishes band plans. These contain important IARU recommendations that every radio amateur should follow.
 
 <margin>
-Der *DARC* ist als einziger deutscher Verband in der International Amateur Radio Union (IARU) organisiert und vertritt dort die Interessen seiner Mitglieder in der weltweiten Gemeinschaft der Funkamateure.
+The *DARC* is the only German society organised in the International Amateur Radio Union (IARU), where it represents the interests of its members in the worldwide community of radio amateurs.
 
-[Jetzt Mitglied im DARC werden!](https://50ohm.de/mw)
+[Become a DARC member now!](https://50ohm.de/mw)
 </margin>
 
 [question:BC201]
 
-Der IARU-Bandplan gliedert sich nach den Amateurfunkbändern. In der Amateurfunkprüfung werden nur die IARU-Bandpläne für das $\qty{2}{\meter}$- und das $\qty{70}{\centi\meter}$-Band behandelt. Auf diese Pläne und die einzelnen Fragen gehen die beiden folgenden Abschnitte ein.
+The IARU band plan is divided up by amateur band. The amateur radio examination covers only the IARU band plans for the $\qty{2}{\meter}$ and $\qty{70}{\centi\meter}$ bands. The two following sections deal with these plans and the individual questions.
 
-Eines ist auf fast allen Bändern übrigens gleich geregelt. Bis auf wenige Ausnahmen ist der für Morsetelegrafie (CW) empfohlene Bereich am Bandanfang.
+Incidentally, one thing is arranged the same way on almost all bands. With few exceptions, the range recommended for Morse telegraphy (CW) is at the bottom of the band.
 
 [question:BC204]

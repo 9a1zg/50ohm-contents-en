@@ -1,37 +1,37 @@
-## Formeln umstellen
+## Rearranging formulas
 
-* In Klasse N: zwei fertige zugeschnittene Größengleichungen
+* In Class N: two ready-made tailored quantity equations
   * $f[[\unit{\mega\hertz}]] = \dfrac{300}{\lambda[[\unit{\meter}]]}$
   * $\lambda[[\unit{\meter}]] = \dfrac{300}{f[[\unit{\mega\hertz}]]}$
-* Das ist nur *eine* Gleichung – einmal nach $f$, einmal nach $\lambda$ umgestellt
+* This is only *one* equation – rearranged once for $f$, once for $\lambda$
 
 <note>
-* Vertiefung auf der Webseite: Definition "zugeschnittene Größengleichung" und der Zusammenhang $\lambda = c_0 / f$ in Grundeinheiten
+* In-depth on the website: definition of "tailored quantity equation" and the relationship $\lambda = c_0 / f$ in base units
 </note>
 
 ---
 
-* In Klasse E und A gibt die Formelsammlung nur noch die Grundform an
-  * Umstellen ist dort zwingend erforderlich
-* Vorgehen: nötige Operation ($\cdot$, $:$, $+$, $-$, …) auf *beide* Seiten gleichzeitig anwenden
+* In Class E and A the formula sheet gives only the basic form
+  * There, rearranging is essential
+* Method: apply the necessary operation ($\cdot$, $:$, $+$, $-$, …) to *both* sides at the same time
 
 ---
 
-Wir hatten bereits $\lambda = \dfrac{c_0}{f}$
+We already had $\lambda = \dfrac{c_0}{f}$
 
-Doch wie kommt man zu $c_0 = f \cdot \lambda$ und $f = \dfrac{c_0}{\lambda}$?
-
----
-## Mathematischer Ansatz
-
-$\lambda = \dfrac{c_0}{f}$ soll nach $f$ umgestellt werden.
-
-* $|~\cdot f$ bzw. $|~: \lambda$: Operation auf *beiden* Seiten durchführen
-* Größe in Zähler *und* Nenner kürzt sich weg ($\frac{f}{f} = 1$)
+But how do we get to $c_0 = f \cdot \lambda$ and $f = \dfrac{c_0}{\lambda}$?
 
 ---
-#### 1. Schritt
-Multiplikation auf beiden Seiten mit $f$, um es nach links zu bekommen.
+## Mathematical approach
+
+$\lambda = \dfrac{c_0}{f}$ is to be rearranged for $f$.
+
+* $|~\cdot f$ or $|~: \lambda$: carry out the operation on *both* sides
+* A quantity in the numerator *and* the denominator cancels out ($\frac{f}{f} = 1$)
+
+---
+#### Step 1
+Multiply both sides by $f$ to get it on the left.
 
 <fragment>
 $\lambda = \dfrac{c_0}{f} \quad\quad\quad | \cdot f$
@@ -40,13 +40,13 @@ $\lambda = \dfrac{c_0}{f} \quad\quad\quad | \cdot f$
 $\lambda\cdot f = \dfrac{c_0 \cdot f}{f}$
 </fragment>
 <fragment>
-Nach Kürzen
+After cancelling
 $\lambda \cdot f = c_0$
 </fragment>
 
 ---
-#### 2. Schritt
-Dividieren auf beiden Seiten mit $\lambda$, um es nach rechts zu bekommen.
+#### Step 2
+Divide both sides by $\lambda$ to get it on the right.
 
 <fragment>
 $\lambda \cdot f = c_0 \quad\quad\quad |: \lambda$
@@ -59,19 +59,19 @@ $f = \dfrac{c_0}{\lambda}$
 </fragment>
 
 ---
-## Zahlenbeispiel
+## Numerical example
 
-Welche Frequenz entspricht $\lambda = \qty{2,069}{\meter}$?
+Which frequency corresponds to $\lambda = \qty{2.069}{\meter}$?
 
-* Grundeinheiten einsetzen ($\unit{\meter}$, $\unit{\second}$)
-  * es gilt $\frac{1}{\unit{\second}} = \qty{1}{\hertz}$
+* Use base units ($\unit{\meter}$, $\unit{\second}$)
+  * $\frac{1}{\unit{\second}} = \qty{1}{\hertz}$ applies
 
-$f = \dfrac{c_0}{\lambda} = \dfrac{\qty{3e8}{\meter\per\second}}{\qty{2,069}{\meter}} \approx \qty{145}{\mega\hertz}$
+$f = \dfrac{c_0}{\lambda} = \dfrac{\qty{3e8}{\meter\per\second}}{\qty{2.069}{\meter}} \approx \qty{145}{\mega\hertz}$
 
 ---
-## Ausblick
+## Looking ahead
 
-* Umstellen mit Multiplikation und Division können wir jetzt
-* Klasse E: zusätzlich Addition, Subtraktion, Potenzen, Wurzeln
-* Klasse A: zusätzlich Logarithmen
-* Wird jeweils an Ort und Stelle Schritt für Schritt erklärt
+* We can now rearrange using multiplication and division
+* Class E: also addition, subtraction, powers, roots
+* Class A: also logarithms
+* Each is explained step by step where it comes up

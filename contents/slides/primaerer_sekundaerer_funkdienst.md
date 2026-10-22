@@ -1,7 +1,7 @@
-Einige Frequenzbereiche sind uns primär und andere sekundär zugewiesen
-* *Primär* bedeutet, dass wir vor anderen Funkdiensten Vorrang haben und von diesen keine Störungen hinnehmen müssen
-* *Sekundär* bedeutet, dass wir als Funkamateure andere Funkdienste nicht stören dürfen und Störungen durch diese hinnehmen müssen
-* Der Status ist in Spalte 3 der Anlage 1 der AFuV mit P und S gekennzeichnet
+Some frequency ranges are allocated to us on a primary basis and others on a secondary basis
+* *Primary* means that we have priority over other radiocommunication services and do not have to accept interference from them
+* *Secondary* means that we as radio amateurs must not cause interference to other radiocommunication services and must accept interference from them
+* The status is marked with P and S in column 3 of Annex 1 to the Amateur Radio Ordinance (Amateurfunkverordnung, AFuV)
 
 ---
 [question:VD704]
@@ -11,43 +11,43 @@ Einige Frequenzbereiche sind uns primär und andere sekundär zugewiesen
 [question:VD706]
 ---
 
-## Zuweisungen in anderen Ländern
+## Allocations in other countries
 
-* Die primären und sekundären Zuweisungen können in anderen Ländern abweichen
-* Vor der Betriebsaufnahme über die Bestimmungen im Gastland informieren!
+* Primary and secondary allocations may differ in other countries
+* Find out about the regulations in the host country before starting to operate!
 
 ---
 
-## Seefunkdienst
+## Maritime mobile service
 
-* Das $\qty{80}{\meter}$-Band ist dem Amateurfunk primär zugeordnet
-* Küstenfunkstellen des Seefunkdienstes haben dennoch Vorrang
-* Grund: Feste Frequenz zugeteilt
+* The $\qty{80}{\meter}$ band is allocated to amateur radio on a primary basis
+* Coast stations of the maritime mobile service nevertheless have priority
+* Reason: they have been assigned a fixed frequency
 
 <note>
-* Praktisch wird dank Satellitenfunk kaum noch Küstenfunk auf 80m betrieben
-* Ziviler Küstenfunkdienst ist am 31.12.1998 in Deutschland eingestellt worden
-* Es gibt noch militärische Küstenfunkstellen
+* In practice, thanks to satellite communication, there is hardly any coast radio on 80m any more
+* The civilian coast radio service in Germany was shut down on 31.12.1998
+* There are still military coast stations
 </note>
 ---
 [question:VD707]
 ---
 
-## ISM-Bereich
+## ISM band
 
 <left>
 * "*I*ndustrial, *S*cientific and *M*edical Band"
-* Teilbereich des $\qty{70}{\centi\meter}$-Amateurfunkbandes
-* Viele Haushaltsgeräte nutzen dieses
-* Störungen im Amateurfunk müssen trotz primärer Zuweisung hingenommen werden
+* Segment of the $\qty{70}{\centi\meter}$ amateur band
+* Many household appliances use it
+* Interference to amateur radio must be accepted despite the primary allocation
 </left>
 
 <right>
-  * Garagentoröffner
-  * Funkwetterstationen
-  * Autoschlüssel
-  * Wegfahrsperren
-  * Reifendrucksensoren
+  * Garage door openers
+  * Wireless weather stations
+  * Car keys
+  * Immobilisers
+  * Tyre pressure sensors
   * …
 </right>
 

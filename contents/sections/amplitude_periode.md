@@ -1,31 +1,31 @@
-Den maximalen Abstand von der Nulllinie bis zum höchsten oder tiefsten Punkt der Wechselspannung nennt man wie in Abbildung [ref:amplitude_periode_amplitudee] dargestellt *Amplitude* [index:Schwingung:Amplitude].
+The maximum distance from the zero line to the highest or lowest point of the AC voltage is called the *amplitude* [index:Oscillation:Amplitude], as shown in Figure [ref:amplitude_periode_amplitudee].
 
 <margin>
-[picture:726:amplitude_periode_amplitudee: Amplitude einer Sinusschwingung]
+[picture:726:amplitude_periode_amplitudee: Amplitude of a sine wave]
 </margin>
 
 [question:NB404]
 
 <tip>
-Die zeitlichen Verläufe von Schwingungen kann man gut mit einem *Oszilloskop* [index:Oszilloskop] darstellen. Auf dem Bildschirm wird waagerecht die Zeit und senkrecht die Spannung von Schwingungen angezeigt. Diese bildliche Darstellung nennt man *Oszillogramm* [index:Oszillogramm].
+The way oscillations vary over time can be shown well with an *oscilloscope* [index:Oscilloscope]. The screen shows time horizontally and the voltage of the oscillations vertically. This pictorial representation is called an *oscillogram* [index:Oscillogram].
 </tip>
 
 ---
 
-Eine Sinusschwingung besteht aus einer positiven und einer negativen Halbwelle [index:Schwingung:Halbwelle] (Abbildung [ref:amplitude_periode_halbwellen]). Dafür benötigt die Sinusschwingung eine gewisse Zeit ($t$). Die Zeitspanne vom Beginn einer positiven Halbwelle bis zum Ende der darauffolgenden negativen Halbwelle nennt man *Periode* [index:Schwingung:Periode] oder auch Periodendauer (Abbildung [ref:amplitude_periode_perioden]). Nach Ablauf einer Periode beginnt der Vorgang von Neuem.
+A sine wave consists of a positive and a negative half cycle [index:Oscillation:Half cycle] (Figure [ref:amplitude_periode_halbwellen]). The sine wave needs a certain time ($t$) for this. The time from the start of a positive half cycle to the end of the following negative half cycle is called the *period* [index:Oscillation:Period] or periodic time (Figure [ref:amplitude_periode_perioden]). When one period has elapsed, the process starts again.
 
 <margin>
-[picture:727:amplitude_periode_halbwellen:Positive und negative Halbwellen einer Sinusschwingung]
+[picture:727:amplitude_periode_halbwellen:Positive and negative half cycles of a sine wave]
 </margin>
 
 <margin>
-[picture:728:amplitude_periode_perioden:Perioden einer Sinusschwingung]
+[picture:728:amplitude_periode_perioden:Periods of a sine wave]
 </margin>
 
 [include:applet_sinus_amplitude_und_periode]
 
 [question:NB405]
 
-Wie wir gerade gelernt haben, entspricht eine Periode genau einer Schwingung. Und wir erinnern uns: Eine Schwingung pro Sekunde entspricht genau $\qty{1}{\hertz}$. Kombiniert man dieses Wissen, sollte die folgende Frage beantwortbar sein.
+As we have just learnt, one period corresponds to exactly one oscillation. And we remember: one oscillation per second corresponds to exactly $\qty{1}{\hertz}$. Combining these two facts, you should be able to answer the following question.
 
 [question:NA213]

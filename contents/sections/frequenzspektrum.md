@@ -1,35 +1,32 @@
 <margin>
-[picture:847:n_frequenzspektrum:Spektrum der elektromagnetischen Wellen]
+[picture:847:n_frequenzspektrum:Spectrum of electromagnetic waves]
 </margin>
   
 ---
 
-Der Frequenzbereich elektromagnetischer Wellen ist sehr groß (Abbildung [ref:n_frequenzspektrum]). Für Funkwellen wird nur ein Teil dieses Spektrums [index:Spektrum] genutzt, üblicherweise der Frequenzbereich zwischen $\qty{30}{\kilo\hertz}$ und $\qty{300}{\giga\hertz}$. In der Tabelle [ref:n_frequenzspektrum_bereiche] ist zu sehen, welche Frequenzen welchen Bereichen zugeordnet sind. Den Frequenzbereichen [index:Spektrum:Frequenzbereiche] werden Abkürzungen zugeordnet. Für die Prüfung müssen die Frequenzbereiche von $\qty{3}{\mega\hertz}$ bis $\qty{3000}{\mega\hertz}$ den entsprechenden Begriffen zugeordnet werden können.
+The frequency range of electromagnetic waves is very large (Figure [ref:n_frequenzspektrum]). Only part of this spectrum [index:Spectrum] is used for radio waves, usually the frequency range between $\qty{30}{\kilo\hertz}$ and $\qty{300}{\giga\hertz}$. Table [ref:n_frequenzspektrum_bereiche] shows which frequencies are assigned to which ranges. The frequency ranges [index:Spectrum:Frequency ranges] are given abbreviations. For the exam, you must be able to match the frequency ranges from $\qty{3}{\mega\hertz}$ to $\qty{3000}{\mega\hertz}$ to the corresponding terms.
 
 <webmargin>
 | r: | c: | r: | X: | l: |
-| von | | bis | Bezeichnung | Abk. |
+| from | | to | Name | Abbr. |
 | $\qty{30}{\kilo\hertz}$ | - | $\qty{300}{\kilo\hertz}$ | Low Frequency | LF |
-| | | | (Langwelle) | (LW) |
+| | | | (long wave) | (LW) |
 | $\qty{300}{\kilo\hertz}$ | - | $\qty{3000}{\kilo\hertz}$ | Medium Frequency | MF |
-| | | | (Mittelwelle) | (MW) |
+| | | | (medium wave) | (MW) |
 | $\qty{3}{\mega\hertz}$ | - | $\qty{30}{\mega\hertz}$ | *High Frequency* | *HF* |
 | | | | Short Wave | SW |
-| | | | (Kurzwelle) | (KW) |
 | $\qty{30}{\mega\hertz}$ | - | $\qty{300}{\mega\hertz}$ | *Very High Frequency* | *VHF* |
-| | | | (Ultrakurzwelle) | (UKW) |
 | $\qty{300}{\mega\hertz}$ | - | $\qty{3000}{\mega\hertz}$ | *Ultra High Frequency* | *UHF* |
-| | | | (Dezimeterwelle) | |
 | $\qty{3}{\giga\hertz}$ | - | $\qty{30}{\giga\hertz}$ | Super High Frequency | SHF |
 | $\qty{30}{\giga\hertz}$ | - | $\qty{300}{\giga\hertz}$ | Extremely High Frequency | EHF |
-[table:n_frequenzspektrum_bereiche:Frequenzbereiche und ihre üblichen Bezeichnungen]
+[table:n_frequenzspektrum_bereiche:Frequency ranges and their usual names]
 </webmargin>
 
 [question:BC104]
 [question:BC105]
 [question:BC106]
 
-Für die folgenden Fragen muss man die drei Bänder, auf denen die Klasse N senden darf, den jeweiligen Bereichen zuordnen können. Das $\qty{10}{\meter}$-Band gehört gerade noch zur Kurzwelle, $\qty{2}{\meter}$ liegt im VHF- und $\qty{70}{\centi\meter}$ liegt im UHF-Bereich.
+For the following questions you must be able to assign the three bands on which Class N may transmit to their ranges. The $\qty{10}{\meter}$ band still just belongs to short wave, $\qty{2}{\meter}$ lies in the VHF range and $\qty{70}{\centi\meter}$ in the UHF range.
 
 [question:BC101]
 [question:BC102]

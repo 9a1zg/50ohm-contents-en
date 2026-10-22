@@ -1,59 +1,59 @@
-Im Abschnitt zum "Umstellen von Formeln" hatten wir bereits gesehen, wie wir den Zusammenhang zwischen Frequenz $f$, Wellenlänge $\lambda$ und Lichtgeschwindigkeit im Freiraum $c_0$ 
+In the section on "Rearranging formulas" we already saw how we can rearrange the relationship between frequency $f$, wavelength $\lambda$ and the speed of light in free space $c_0$ 
 
 $f = \frac{c_0}{\lambda}$
 
-bzw. als zugeschnittene Größengleichung
+or, as a tailored quantity equation,
 
 $f[[\unit{\mega\hertz}]] = \frac{300}{\lambda[[\unit{\meter}]]}$
 
-wahlweise nach der Frequenz oder der Wellenlänge umstellen können.
+for either the frequency or the wavelength.
 
-In diesem Abschnitt betrachten wir praktische Anwendungen. Versuche zunächst immer, selbstständig die Lösung zu finden.
+In this section we look at practical applications. Always try to find the solution yourself first.
 
 [question:EB314]
 
-Bei den ersten Fragen geht es darum, für eine gegebene Wellenlänge die Frequenz zu bestimmen. Bei der ersten Frage ist die Wellenlänge als $\qty{80}{\meter}$ angegeben. Das $\qty{80}{\meter}$-Amateurfunkband geht von $\qtyrange{3,5}{3,8}{\mega\hertz}$. Die Antwortmöglichkeiten liegen alle in dem Bereich, sodass wir den Taschenrechner bemühen müssen:
+The first questions are about finding the frequency for a given wavelength. In the first question the wavelength is given as $\qty{80}{\meter}$. The $\qty{80}{\meter}$ amateur band goes from $\qtyrange{3.5}{3.8}{\mega\hertz}$. The answer options all lie within that range, so we have to get out the calculator:
 
-$f[[\unit{\mega\hertz}]] = \frac{300}{80} = 3,75$
+$f[[\unit{\mega\hertz}]] = \frac{300}{80} = 3.75$
 
 ---
 
 [question:EB315]
 
-Bei dieser Frage ist die Wellenlänge $\qty{30}{\milli\meter} = \qty{3}{\centi\meter} = \qty{0,03}{\meter}$. Das Ergebnis lässt sich mit dem Taschenrechner – oder sogar im Kopf – berechnen.
+In this question the wavelength is $\qty{30}{\milli\meter} = \qty{3}{\centi\meter} = \qty{0.03}{\meter}$. The result can be calculated with a calculator – or even in your head.
 
 <attention>
-Achte beim Einsetzen von Werten in eine Formel stets darauf, die Grundeinheiten zu verwenden. Das bedeutet, dass Werte gegebenenfalls umgerechnet werden müssen – zum Beispiel von Millimetern in Meter.
+When putting values into a formula, always make sure you use the base units. This means that values may have to be converted – for example from millimetres to metres.
 </attention>
 
-$f[[\unit{\mega\hertz}]] = \frac{300}{0,03} = \frac{300 \cdot 100}{3} = \num{10000}$
+$f[[\unit{\mega\hertz}]] = \frac{300}{0.03} = \frac{300 \cdot 100}{3} = \num{10000}$
 
-Also ist $f=\qty{10}{\giga\hertz}$ die richtige Antwort, weil ja $\qty{1}{\giga\hertz} = 1000 {\mega\hertz}$ ist.
+So $f=\qty{10}{\giga\hertz}$ is the correct answer, because $\qty{1}{\giga\hertz} = 1000 {\mega\hertz}$.
 
 [question:EB316]
 
-Sogar noch einfacher lässt sich die Frequenz finden, die einer Wellenlänge von $\qty{10}{\centi\meter}$ entspricht. $\qty{10}{\centi\meter} = \qty{0,1}{\meter}$. Also:
+It is even easier to find the frequency that corresponds to a wavelength of $\qty{10}{\centi\meter}$. $\qty{10}{\centi\meter} = \qty{0.1}{\meter}$. So:
 
-$f[[\unit{\mega\hertz}]]=\frac{300}{0,1}=3000$
+$f[[\unit{\mega\hertz}]]=\frac{300}{0.1}=3000$
 
-Da $\qty{1}{\giga\hertz} = \qty{1000}{\mega\hertz}$ entspricht, heißt die Antwort: $\qty{3}{\giga\hertz}$.
+Since $\qty{1}{\giga\hertz} = \qty{1000}{\mega\hertz}$, the answer is: $\qty{3}{\giga\hertz}$.
 
-Für die nächsten Fragen stellen wir die Gleichung nach $\lambda$ um:
+For the next questions we rearrange the equation for $\lambda$:
 
 $\lambda[[\unit{\meter}]] = \frac{300}{f[[\unit{\mega\hertz}]]}$
 
 [question:EB311]
 
-Diese Frage lässt sich wieder ganz ohne Rechnen lösen, wenn man die Frequenzzuweisungen für den Amateurfunk intus hat. Das $\qty{160}{\meter}$-Band geht nämlich von $\qtyrange{1,8}{2}{\mega\hertz}$, da liegt $\qty{1,84}{\mega\hertz}$ drin - also kann die Antwort nur $\qty{163}{\meter}$ sein.
+This question can again be solved without any calculation if you know the frequency allocations for amateur radio by heart. The $\qty{160}{\meter}$ band goes from $\qtyrange{1.8}{2}{\mega\hertz}$, and $\qty{1.84}{\mega\hertz}$ lies within it - so the answer can only be $\qty{163}{\meter}$.
 
 [question:EB312]
 
-Nun wird die einer Frequenz von $\qty{21}{\mega\hertz}$ entsprechende Wellenlänge gesucht. Das $\qty{15}{\meter}$-Band reicht von $\qtyrange{21}{21,45}{\mega\hertz}$ - da drängt sich die Antwort "$\qty{14,29}{\meter}$" als die richtige auf, wobei wir erkennen, dass das $\qty{15}{\meter}$-Band eigentlich falsch benannt ist. $\qty{14}{\meter}$-Band wäre eigentlich richtiger ...
+Now we are looking for the wavelength that corresponds to a frequency of $\qty{21}{\mega\hertz}$. The $\qty{15}{\meter}$ band extends from $\qtyrange{21}{21.45}{\mega\hertz}$ - so the answer "$\qty{14.29}{\meter}$" suggests itself as the correct one, and we notice that the $\qty{15}{\meter}$ band is actually misnamed. $\qty{14}{\meter}$ band would really be more accurate ...
 
-Wir können zur Sicherheit ja mal rechnen (mit der zugeschnittenen Größengleichung):
+To be on the safe side, we can do the calculation (with the tailored quantity equation):
 
-$\lambda[[\unit{\meter}]] = \frac{300}{21}=14,29$
+$\lambda[[\unit{\meter}]] = \frac{300}{21}=14.29$
 
 [question:EB313]
 
-Ganz einfach wird es wieder bei der letzten Frage. Welche Wellenlänge entspricht einer Frequenz von $\qty{28,5}{\mega\hertz}$? Nun, das $\qty{10}{\meter}$-Band erstreckt sich von $\qtyrange{28}{29,5}{\mega\hertz}$, folglich stimmt die Antwort "$\qty{10,5}{\meter}$". Die (falsche) Antwort $\qty{9,49}{\meter}$ liegt auch noch nah dran, aber die entsprechende Frequenz müsste ja oberhalb von $\qty{30}{\mega\hertz}$ liegen.
+The last question is very easy again. Which wavelength corresponds to a frequency of $\qty{28.5}{\mega\hertz}$? Well, the $\qty{10}{\meter}$ band extends from $\qtyrange{28}{29.5}{\mega\hertz}$, so the answer "$\qty{10.5}{\meter}$" is correct. The (wrong) answer $\qty{9.49}{\meter}$ is also close, but the corresponding frequency would have to be above $\qty{30}{\mega\hertz}$.

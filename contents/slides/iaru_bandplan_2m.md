@@ -1,23 +1,23 @@
-* Aufteilung des Bandes in verschiedene Frequenzsegmente
-* Bevorzugte Übertragungsverfahren und Nutzung
+* Division of the band into different frequency segments
+* Preferred transmission methods and use
 
 ---
 
-[photo:102:n_iaru_bandplan_2m:IARU-Bandplan $\qty{2}{\meter}$]
+[photo:102:n_iaru_bandplan_2m:IARU band plan $\qty{2}{\meter}$]
 
 ---
 
-## Anruffrequenz
+## Calling frequency
 
-Um schnell Funkpartner zu finden
+To find someone to talk to quickly
 
-* FM-Sprechfunk ("FM calling")
-* Digitale Telefonie ("digital voice calling")
+* FM voice ("FM calling")
+* Digital telephony ("digital voice calling")
 
 <note>
-* FM-Sprechfunk ist analog
-* Digitale Übertragungsverfahren kann alles Digitales sein
-* Mehr dazu später im Kurs
+* FM voice is analogue
+* Digital transmission methods can be anything digital
+* More on this later in the course
 </note>
 
 ---
@@ -26,38 +26,38 @@ Um schnell Funkpartner zu finden
 [question:BC207]
 ---
 
-## Frequenzwechsel
+## Changing frequency
 
-* Anruffrequenzen für Anrufe freihalten
-* Nach Verbindungsaufbau auf eine andere Frequenz verständigen
-* Nützliche Frequenz aus dem Bandplan entnehmen
-* Frequenz wechseln
+* Keep calling frequencies free for calls
+* After establishing contact, agree on another frequency
+* Take a suitable frequency from the band plan
+* Change frequency
 
 ---
 [question:BC209]
 ---
-## Analoge SSB-Telefonie
+## Analogue SSB telephony
 
-* Es gibt keine Anruffrequenz
-* Stattdessen ein *Aktivitätszentrum* bzw. *center of activity*
-* Anrufe sollen im Umfeld dieser Frequenz stattfinden
-* Es kann aber der ganze "SSB"-Bereich genutzt werden
+* There is no calling frequency
+* Instead, a *centre of activity* (*center of activity* in the band plan)
+* Calls should take place around this frequency
+* But the whole "SSB" range can be used
 
 ---
 [question:BC211]
 ---
 [question:BC210]
 ---
-## Reservierte Frequenzbereiche
+## Reserved frequency ranges
 
-* Satelliten-Up- und Downlink ("satellite uplink", "satellite downlink")
-* Baken ("beacons")
-* Relaisfunkstellen, Eingabe und Ausgabe ("repeater input", "repeater output")
-* Weltraumkommunikation ("space communication")
-* Morsetelegrafie ("CW")
+* Satellite uplink and downlink
+* Beacons
+* Repeaters, input and output
+* Space communication
+* Morse telegraphy ("CW")
 
 <note>
-* Andersartige Verbindungen darauf sollten vermieden werden
+* Other kinds of contact on them should be avoided
 </note>
 ---
 [question:BC214]

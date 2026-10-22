@@ -1,21 +1,21 @@
-## International Amateur Radio Union
+## International Amateur Radio Union
 
-* Zusammenschluss nationaler Amateurfunkverbände
-* *Weltweit geordnetes Nebeneinander der verschiedenen Betriebsarten auf den Amateurfunkbändern*
-* Geben einen IARU-Bandplan heraus
-* Funkamateure sollen diesen einhalten
+* Union of national amateur radio societies
+* *Orderly coexistence of the different modes on the amateur bands worldwide*
+* Publish an IARU band plan
+* Radio amateurs should follow it
 
 <note>
-* Selbstregulierung des Amateurfunks
-* Der DARC e. V. ist der einzige deutsche Verband in der IARU
-* Man kann Mitglied im DARC e. V. werden
+* Self-regulation of amateur radio
+* The DARC e. V. is the only German society in the IARU
+* You can become a member of the DARC e. V.
 </note>
 
 ---
 [question:BC201]
 ---
-* Die Bandpläne behandeln auch die Frequenzbereiche für verschiedene Übertragungsarten
-* Für Morsetelegrafie (CW) ist der empfohlene Bereich am Bandanfang
+* The band plans also cover the frequency ranges for different modes
+* For Morse telegraphy (CW), the recommended range is at the bottom of the band
 
 ---
 [question:BC204]

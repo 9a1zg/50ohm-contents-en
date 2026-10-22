@@ -1900,6 +1900,32 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Starkes Signal / Schwaches Signal | strong signal / weak signal | |
 | Sammelschiene | busbar | |
 | Plastikgehäuse / Metalllegierung / Keramikdielektrikum | plastic case / metal alloy / ceramic dielectric | |
+| Windkraftwerk | wind turbine | gleich_und_wechselspannung |
+| Einheitenvorzeichen / Einheitenpräfix | unit prefix | the course's variants of *Einheitenvorsatz* (§3) |
+| Periode oder auch Periodendauer | period or periodic time | where the German gives both names (amplitude_periode); *Periodendauer* alone stays *period* (§3) |
+| Ort (Achsenbeschriftung einer Momentaufnahme) | position | the x-axis label of a snapshot, against $t$ on an oscillogram (funkwellen); the drawing keeps "Ort" until the drawings are done |
+| Hochzahl / Exponent | superscript number / exponent | |
+| technisch-wissenschaftlicher Taschenrechner | scientific calculator | |
+| Exponentialschreibweise / Zehnerpotenz-Schreibweise | exponential notation / power-of-ten notation | |
+| zugeschnittene Größengleichung | tailored quantity equation | DIN 1313 term for an equation that fixes the units of its values ($f[[\unit{\mega\hertz}]] = 300/\lambda[[\unit{\meter}]]$); English has no settled name, and the course defines it (formeln_umstellen) |
+| Grundeinheiten | base units | |
+| (eine Formel nach x) umstellen / sich herauskürzen | rearrange (a formula for x) / cancel out | |
+| über das Band drehen | tune across the band | |
+| Amplitudenspektrum (Funkgerätedisplay) | amplitude spectrum (spectrum display) | course text keeps *amplitude spectrum*, as NI401, and glosses it once with NF104's "spectrum display" (wasserfall) |
+| Langwelle (LW) / Mittelwelle (MW) in the frequency-range table | long wave (LW) / medium wave (MW) | the German everyday names *Kurzwelle (KW)*, *Ultrakurzwelle (UKW)*, *Dezimeterwelle* beside the English names are dropped there, as in BC101–BC106 (DECISIONS.md) |
+| Verordnung über den Amateurfunk (AFuV) | Amateur Radio Ordinance (Amateurfunkverordnung, AFuV) | the course text's informal title for the AFuV (frequenzzuteilung); not the formal title *Verordnung zum Gesetz über den Amateurfunk* (§1.2) |
+| Nutzungsbestimmungen | conditions of use | VD702 "detailed conditions of use" |
+| Nutzungsrechte (primäre / sekundäre) | (primary / secondary) rights of use | |
+| Verfügungen und Mitteilungen (der BNetzA) | orders and notices | as *Verfügung* and *Mitteilungen der BNetzA* (§1.2) |
+| Küstenfunk / Küstenfunkdienst | coast radio / coast radio service | informal, beside the RR *coast station* (§1.1) |
+| Garagentoröffner / Funkwetterstation / Autoschlüssel / Wegfahrsperre / Reifendrucksensor | garage door opener / wireless weather station / car key / immobiliser / tyre pressure sensor | ISM devices; British *tyre*, *immobiliser* |
+| Interessenvertretung | representing the interests (of) | |
+| geordnetes Nebeneinander der Betriebsarten | orderly coexistence of the modes | IARU |
+| Selbstregulierung | self-regulation | |
+| Funkpartner finden (CQ) | find someone to talk to | where the German means finding a station to have a contact with at all, not *the other station* of a contact (iaru_bandplan_2m) |
+| Telefonie-Direktverbindung | direct telephony contact | as BC214 |
+| Bandplan-Bezeichnungen in Klammern ("beacons", "repeater input" …) | dropped where they only repeat the English term; kept where they differ ("FM calling", "digital voice calling", "CW") | the IARU band plan is in English, so the German glosses its labels (DECISIONS.md) |
+| *center of activity* (Bandplan-Bezeichnung) | centre of activity (*center of activity* in the band plan) | British spelling in prose; the label is quoted as printed |
 
 ## 15. Catalogue structure
 

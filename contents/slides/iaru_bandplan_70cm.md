@@ -1,7 +1,7 @@
-[photo:103:n_iaru_bandplan_70cm:IARU-Bandplan $\qty{70}{\centi\meter}$]
+[photo:103:n_iaru_bandplan_70cm:IARU band plan $\qty{70}{\centi\meter}$]
 
 <note>
-* Die Fragen dazu lassen sich gleichartig beantworten
+* The questions on it can be answered in the same way
 </note>
 ---
 
