@@ -1,42 +1,42 @@
 <left>
-* Funkbetrieb im Ausland unter bestimmten Voraussetzungen möglich
-* Abkommen zwischen vielen Staaten
+* Operating abroad is possible under certain conditions
+* Agreement between many states
 </left>
 <right>
-* Beim vorübergehenden Aufenthalt
-* Gegenseitige Anerkennung von Amateurfunkzeugnissen
+* During a temporary stay
+* Mutual recognition of amateur radio certificates
 </right>
 
 --- style="font-size: 0.7em;"
 <left>
-* Mitgliedsstaaten der *Europäische Konferenz der Verwaltungen für Post und Telekommunikation* (Conférence Européenne des Administrations des Postes et des Télécommunications, CEPT)
-* Mehrere Empfehlungen in der Tabelle rechts
+* Member states of the *European Conference of Postal and Telecommunications Administrations* (Conférence Européenne des Administrations des Postes et des Télécommunications, CEPT)
+* Several recommendations in the table on the right
 </left>
 <right>
-| l: CEPT-Empfehlung | l: Erläuterung |
-| ECC Report 89 | Klasse N |
-| ERC-Report 32 | Grundlage für ECC-Empfehlung (05) 06 |
-| ECC-Empfehlung (05) 06 | Klasse E |
-| T/R 61-01 | Klasse A |
+| l: CEPT recommendation | l: Explanation |
+| ECC Report 89 | Class N |
+| ERC Report 32 | Basis for ECC Recommendation (05) 06 |
+| ECC Recommendation (05) 06 | Class E |
+| T/R 61-01 | Class A |
 | T/R 61-02 | HAREC |
-[table:n_funken_im_ausland_cept_empfehlungen:CEPT-Empfehlungen]
+[table:n_funken_im_ausland_cept_empfehlungen:CEPT recommendations]
 </right>
 <note>
-Die Empfehlungen muss man nicht auswendig lernen, aber die wichtigsten Regelungen sollte man kennen
+You do not have to learn the recommendations by heart, but you should know the most important provisions
 </note>
 
 ---
 [question:VB104]
 ---
 
-## Vorübergehender Amateurfunkbetrieb im Ausland
-* Darf nur in Staaten durchgeführt werden, die die CEPT-Regelungen anwenden
-* Kein fester Wohnsitz
-* Vorübergehend bis 3 Monate
+## Temporary amateur radio operation abroad
+* May be carried out only in states that apply the CEPT arrangements
+* No permanent residence
+* Temporarily, up to 3 months
 
 <note>
-* Nachschlagewerk: [CEPT-Länderliste](https://50ohm.de/cll) des DARC-Auslandsreferats
-* Werbung für DARC machen
+* For reference: [CEPT country list](https://50ohm.de/cll) of the DARC foreign affairs department (DARC-Auslandsreferat)
+* Promote DARC
 </note>
 ---
 [question:VB106]
@@ -46,54 +46,54 @@ Die Empfehlungen muss man nicht auswendig lernen, aber die wichtigsten Regelunge
 [question:VB109]
 ---
 
-## Weitere CEPT-Anerkennung
-* Es gibt Staaten, die nicht der CEPT angehören, aber die Regelungen teilweise oder ganz anwenden
-* Beispiele: USA und Australien
+## Further CEPT recognition
+* There are states that do not belong to the CEPT but apply its arrangements in part or in full
+* Examples: USA and Australia
 
 ---
 [question:VB108]
 ---
 
-## Rufzeichen
-* Kennzeichnung durch zusätzlichen Rufzeichenpräfix vor eigenem Rufzeichen
-* Ggf. je nach Amateurfunkklasse
-* Muss vor Verwendung im jeweiligen Land nachgeschlagen werden
+## Call signs
+* Indicated by an additional call sign prefix in front of your own call sign
+* Possibly depending on the amateur radio class
+* Must be looked up before use in the country concerned
 
 <note>
-Die Trennung mit dem Schrägstrich wird "stroke" gesprochen
+The separating slash is spoken as "stroke"
 </note>
 
 ---
 [question:BD213]
 <note>
-* Deutsches Klasse-E-Rufzeichen erhält Schweizer Entry Level Präfix
-* Entry Level wird ein paar Folien später erklärt
+* A German Class E call sign gets the Swiss Entry Level prefix
+* Entry Level is explained a few slides later
 </note>
 ---
 [question:BD214]
 <note>
-* Deutsches Klasse-A-Rufzeichen erhält Schweizer HAREC Präfix
-* HAREC wird ein paar Folien später erklärt
+* A German Class A call sign gets the Swiss HAREC prefix
+* HAREC is explained a few slides later
 </note>
 
 ---
 
-## Auslandsbetrieb mit Klasse N
-Nicht erlaubt
+## Operating abroad with Class N
+Not permitted
 
 <note>
-Deutschland hat die Klasse N noch nicht bei der CEPT als Entry Level License gemeldet
+Germany has not yet notified Class N to the CEPT as an Entry Level Licence
 </note>
 
 ---
 [question:VB105]
 ---
 
-## Ausländische Funkamateure in Deutschland
-* Gegenseitige CEPT-Regelungen
-* Vorübergehender Funkbetrieb bis 3 Monate
-* Ohne festen Wohnsitz
-* Je nach Klasse Präfix *DL/* oder *DO/*
+## Foreign radio amateurs in Germany
+* Reciprocal CEPT arrangements
+* Temporary operation up to 3 months
+* No permanent residence
+* Prefix *DL/* or *DO/*, depending on class
 
 ---
 [question:VB110]
@@ -101,19 +101,19 @@ Deutschland hat die Klasse N noch nicht bei der CEPT als Entry Level License gem
 [question:BD212]
 ---
 
-## Klubstationen
-* CEPT-Regelungen gelten nur für persönliche Rufzeichen
-* Klubstationen bedürfen einer Gastgenehmigung
+## Club stations
+* CEPT arrangements apply only to personal call signs
+* Club stations require a guest licence
 
 ---
 
-## Gastzulassung
-* In Ländern, in denen die CEPT-Empfehlung nicht angewandt wird
-* Bei der Behörde des Gastlandes beantragen
-* Ggf. muss auch für Funkgeräte eine entsprechende Erlaubnis eingeholt werden
+## Guest licence
+* In countries in which the CEPT recommendation is not applied
+* Apply to the authority of the host country
+* Permission may also have to be obtained for the radio equipment
 
 <note>
-Hier hilft das DARC-Auslandsreferat seinen Mitgliedern
+The DARC foreign affairs department helps its members here
 </note>
 
 ---
@@ -122,16 +122,16 @@ Hier hilft das DARC-Auslandsreferat seinen Mitgliedern
 [question:VB113]
 ---
 
-## Nationale Regelungen
-* In CEPT-Ländern gibt es unterschiedliche nationale Regelungen
-* z.B. ist das in Deutschland freigegebene $\qty{6}{\meter}$-Band im Ausland beschränkt
-* Bestimmungen und Auflagen des Gastlandes beachten
+## National rules
+* CEPT countries have different national rules
+* e.g. the $\qty{6}{\meter}$ band, open in Germany, is restricted abroad
+* Observe the provisions and conditions of the host country
 
 <note>
-Beliebt:
-* $\qty{20}{\meter}$ mit Klasse E in den Niederlanden oder
-* Alle KW-Bänder mit Klasse E in Dänemark
-* $\qty{1000}{\watt}$ PEP Kurzwelle mit Klasse A in Dänemark
+Popular:
+* $\qty{20}{\meter}$ with Class E in the Netherlands, or
+* All HF bands with Class E in Denmark
+* $\qty{1000}{\watt}$ PEP on HF with Class A in Denmark
 </note>
 ---
 [question:VB111]
@@ -139,15 +139,15 @@ Beliebt:
 [question:VB112]
 ---
 
-## Umzug ins Ausland
-* Wohnsitz länger als 3 Monate oder dauerhaft im Ausland
-* Vereinfachte Beantragung der Amateurfunkzulassung
-* Meistens keine erneute Prüfung
-* Klasse E Amateurfunkzeugnis $\rightarrow$ CEPT-Novice-Amateurfunk-Prüfungsbescheinigung
-* Klasse A Amateurfunkzeugnis $\rightarrow$ Harmonized Amateur Radio Examination Certificate (HAREC)
+## Moving abroad
+* Residence abroad for more than 3 months or permanently
+* Simplified application for an amateur radio licence
+* Usually no new examination
+* Class E amateur radio certificate $\rightarrow$ CEPT Novice Radio Amateur Examination Certificate
+* Class A amateur radio certificate $\rightarrow$ Harmonised Amateur Radio Examination Certificate (HAREC)
 
 <note>
-Beispiel: Auf dem Antrag zur Zulassung zum Amateurfunkdienst ist ein Feld zum Ankreuzen, ob man bereits eine Prüfung nach HAREC besitzt - wenn ja, wird das direkt anerkannt.
+Example: the application for authorisation for the amateur service has a box to tick if you have already passed an examination under HAREC – if so, it is recognised directly.
 </note>
 ---
 [question:VB102]

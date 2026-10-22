@@ -336,6 +336,20 @@ and the checker's "Provjera" section).
   itself says it is showing German national usage (buchstabiertafel).
   Spellings the German shares with English usage (*Alpha*, *X-Ray*) are
   kept as written. (Unit nea_amateurfunkstationen.)
+- **German mnemonics keep their German words, with the English meaning
+  in brackets.** The country-prefix tables (internationale_landeskenner,
+  section and slides) give German *Eselsbrücken* — *Keiner Will Nach
+  Amerika* (K, W, N), *Viele Elche* (VE), *Schwedische Möbel* (SM). They
+  work through the letters of the German words, and a made-up English
+  mnemonic would be an addition, not a translation; so the German stays
+  and the English reader gets its meaning: "Keiner Will Nach Amerika
+  (nobody wants to go to America)". Where the mnemonic is only the
+  country's name and the English name spells the same letters, the English
+  name is used (*Frankreich* → France, *Großbritannien* → Great Britain,
+  *mEXiko* → mEXico); mnemonics already in another language (*CosTa*,
+  *EspaniA*, *JApan*, *Zea-Land*) stay, and German glosses inside them are
+  translated (*CosTa (Küste)* → "CosTa (coast)"). (Unit
+  nea_internationaler_funkbetrieb.)
 
 ## Open questions for DARC
 

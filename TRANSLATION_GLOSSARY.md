@@ -2001,6 +2001,17 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Nutzlast (Satellit) | payload | |
 | Bodenstationen (Steuersignale an Amateurfunksatelliten) | earth command stations | RR 25.2A wording, as VA303; *verschlüsseln* there → encoded, the cryptographic *Verschlüsselungsverfahren* → encryption methods |
 | Reinheitsgebot / Amateurfunkzentrum | German Beer Purity Law (Reinheitsgebot) / Amateur Radio Centre (Amateurfunkzentrum) | special event call signs table; the German name stays in brackets because the call signs abbreviate it (DB50AFZ) |
+| Fragenkatalog | question catalogue | the catalogue of examination questions, as §15; "im Fragenkatalog vorkommen" → "appear in the question catalogue" (internationale_landeskenner) |
+| Eselsbrücken für Landeskenner (Keiner Will Nach Amerika, Viele Elche …) | the German words kept, English meaning in brackets: "Keiner Will Nach Amerika (nobody wants to go to America)" | they work through the letters of the German words; a mnemonic that is only the country's name takes the English name where it spells the same letters (*Frankreich* → France, *Großbritannien* → Great Britain, *mEXiko* → mEXico); German glosses inside are translated (*CosTa (Küste)* → "CosTa (coast)") (DECISIONS.md) |
+| Vereintes Königreich / Vatikan / Liechtenstein / Norwegen / Bulgarien / Griechenland / Belarus / Chile / Mexiko | United Kingdom / Vatican / Liechtenstein / Norway / Bulgaria / Greece / Belarus / Chile / Mexico | country-prefix tables; in table cells without the article (Netherlands, Czech Republic, Philippines) |
+| ITU-Regionen / Naher Osten / Ozeanien / Antarktis / Grönland / Mongolei | ITU regions / Middle East / Oceania / Antarctica / Greenland / Mongolia | itu_regionen |
+| gezielter CQ-Ruf | directed CQ call | as §2 *gezielter Anruf* (dx slides) |
+| Diplomprogramme | award programmes | as §2 *Diplom* |
+| (DARC-)Auslandsreferat / CEPT-Länderliste | DARC foreign affairs department (DARC-Auslandsreferat) / CEPT country list | the German name in brackets at first mention in a file (funken_im_ausland) |
+| Reports (Berichte) und Recommendations (Empfehlungen) | Reports and Recommendations | the German glosses only translate the CEPT's English document types back and are dropped (bracket rule) |
+| Entry Level License / Novice License (CEPT) | Entry Level Licence / Novice Licence | the CEPT labels in British spelling, as §14 *Klasse N (Entry Level License)* |
+| Lehrplan | syllabus | ECC Report 89, ERC Report 32, T/R 61-02 |
+| Umzug ins Ausland / Wohnsitz verlegen | moving abroad / move one's residence | funken_im_ausland |
 
 ## 15. Catalogue structure
 

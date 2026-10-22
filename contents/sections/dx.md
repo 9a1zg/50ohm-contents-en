@@ -1,29 +1,29 @@
-Mit der Abkürzung DX verstehen Funkamateure eine Funkverbindung über eine große Entfernung. DX steht für "long distance" und stammt ursprünglich aus der Morsetelegrafie. Bei DX muss man zwischen Kurzwelle und UKW unterscheiden.
+By the abbreviation DX, radio amateurs mean a contact over a long distance. DX stands for "long distance" and originally comes from Morse telegraphy. With DX, a distinction has to be made between HF and VHF.
 
-Ruft eine Station auf den Bändern der Kurzwelle "CQ DX", dann möchte sie Kontakt mit Funkamateuren von einem anderen Kontinent aufnehmen. Funkamateure vom selben Kontinent sollten diesen allgemeinen Anruf nicht beantworten oder darauf reagieren. 
+If a station on the HF bands calls "CQ DX", it wants to make contact with radio amateurs on another continent. Radio amateurs on the same continent should not answer or respond to this general call. 
 
 [question:BB103]
 [question:BE114]
 [question:BB105]
 
-Auf höheren Frequenzen erreicht man von Deutschland aus andere Kontinente äußerst selten. Deswegen werden hier DX-Verbindungen anders definiert als auf der Kurzwelle. Auf VHF und UHF möchte man mit einem DX-Anruf andere Stationen kontaktieren, die erkennbar einige hundert Kilometer entfernt sind. 
+On higher frequencies, other continents can only very rarely be reached from Germany. DX contacts are therefore defined differently here than on HF. On VHF and UHF, a DX call is meant to reach other stations that are evidently a few hundred kilometres away. 
 
 [question:BB104]
 [question:BE109]
 
-Möchte man ein spezielles Land erreichen, kann anstelle von "CQ DX" auch gezielt nach dem gesuchten Landeskenner gerufen werden. So kann ein CQ-Ruf "CQ VK/ZL" lauten, um Stationen aus Australien oder Neuseeland zu rufen.
+If you want to reach a particular country, you can also call specifically for the country prefix you are looking for instead of "CQ DX". A CQ call might, for example, be "CQ VK/ZL", to call stations in Australia or New Zealand.
 
 [question:BE110]
 [question:BE113]
 
-Wer internationale Verbindungen sucht, ruft in aller Regel in englischer Sprache. Entsprechend sollte auch eine Antwort in Englisch erfolgen. DF1KW könnte beispielsweise einen englischsprachigen CQ-Ruf von EA6VQ mit "EA6VQ, this is DF1KW calling you" beantworten.
+Anyone looking for international contacts will, as a rule, call in English. A reply should accordingly also be given in English. DF1KW could, for example, answer an English-language CQ call from EA6VQ with "EA6VQ, this is DF1KW calling you".
 
 [question:BE104]
 
-Wenn man feststellt, dass der eigene "CQ DX"-Ruf lange Zeit unbeantwortet bleibt, wäre es eine gute Möglichkeit, einfach auf einen normalen CQ-Ruf zu wechseln und Kontakt zu Stationen aus der Umgebung aufzunehmen.
+If you find that your own "CQ DX" call remains unanswered for a long time, a good option would be simply to switch to a normal CQ call and make contact with stations in your area.
 
-Es gibt auch ambitionierte Funkamateure, die mit DX-Aktivitäten besondere Flecken der Erde aktivieren möchten. Eine Gruppe von Funkamateuren setzt sich als Ziel, seltene Inseln, unerschlossene Regionen oder Länder mit einer geringen Funkaktivität zu aktivieren. Dieses Abenteuer oder diese Expedition wird unter Funkamateuren als *DX-Pedition* bezeichnet. Diese seltenen Stationen sind meistens an den entlegensten Orten der Welt zu finden. 
+There are also ambitious radio amateurs who want to activate special spots on earth with DX activities. A group of radio amateurs sets itself the goal of activating rare islands, undeveloped regions or countries with little radio activity. Among radio amateurs, this adventure or expedition is called a *DXpedition*. These rare stations are usually found in the remotest places in the world. 
 
 [question:BE312]
 
-Wieso aktiviert man solche besondere Orte? Es gibt Diplomprogramme, bei denen die unterschiedlichen Länder gearbeitet werden müssen, und es gibt den sogenannten *DX Century Club* (DXCC). Um in diesem Club aufgenommen zu werden, benötigt man nachweislich bestätigte Funkverbindungen mit mindestens 100 unterschiedlichen Ländern. Mit den Aktivierungen können Funkamateure ihre noch fehlenden Länder in ihrer Liste ergänzen. 
+Why activate such special places? There are award programmes in which the different countries have to be worked, and there is what is known as the *DX Century Club* (DXCC). To be admitted to this club, you need verifiably confirmed contacts with at least 100 different countries. Through these activations, radio amateurs can add the countries still missing from their lists. 

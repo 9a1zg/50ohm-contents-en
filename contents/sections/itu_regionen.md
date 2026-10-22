@@ -1,15 +1,15 @@
-Die weltweite Koordinerung von Funkfrequenzen durch die ITU erfolgt getrennt nach drei Regionen (Abbildung [ref:n_itu_regionen_karte] und Tabelle [ref:n_itu_regionen]). Die Aufteilung wurde vorgenommen, um in den Regionen unterschiedliche Zuweisungen von Frequenzbereichen an die Funkdienste vornehmen zu können. Die Antarktis hat einen besonderen Status. Sie ist auf die drei Regionen aufgeteilt.
+The worldwide coordination of radio frequencies by the ITU is carried out separately for three regions (Figure [ref:n_itu_regionen_karte] and Table [ref:n_itu_regionen]). The division was made so that different allocations of frequency bands to the radiocommunication services can be made in the regions. Antarctica has a special status: it is divided among the three regions.
 
 <margin>
-[picture:658:n_itu_regionen_karte:Kartendarstellung der ITU-Regionen]
+[picture:658:n_itu_regionen_karte:Map of the ITU regions]
 </margin>
 
 <margin>
-| l: ITU-Region | X: Kontinente und Länder |
-| 1 | Afrika, Europa, Russland, Mongolei und Naher Osten |
-| 2 | Nord- und Süd-Amerika und Grönland |
-| 3 | Süd- und Ost-Asien sowie Australien und Ozeanien |
-[table:n_itu_regionen:ITU-Regionen und die zugehörigen Kontinente und Länder]
+| l: ITU region | X: Continents and countries |
+| 1 | Africa, Europe, Russia, Mongolia and the Middle East |
+| 2 | North and South America and Greenland |
+| 3 | South and East Asia, and Australia and Oceania |
+[table:n_itu_regionen:ITU regions and the continents and countries belonging to them]
 </margin>
 
 [question:VA402]

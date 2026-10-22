@@ -1,13 +1,13 @@
-* Funkverbindung über große Entfernung
-* DX $\rightarrow$ "long distance" (aus Morsetelegrafie)
-* Unterscheidung zwischen Kurzwelle und UKW
+* Contact over a long distance
+* DX $\rightarrow$ "long distance" (from Morse telegraphy)
+* Distinction between HF and VHF
 
 ---
 
-## DX Kurzwelle
+## DX on HF
 <left>
-* Kontakt mit Funkamateuren von einem anderen Kontinent
-* Funkamateure vom selben Kontinent sollten nicht antworten
+* Contact with radio amateurs on another continent
+* Radio amateurs on the same continent should not reply
 </left>
 <right>
 <qso>
@@ -20,23 +20,23 @@ CQ DX
 ---
 [question:BE114]
 <note>
-HB9AFN ist eine Station aus der Schweiz
+HB9AFN is a station from Switzerland
 </note>
 
 ---
 [question:BB105]
 <note>
-80m Band ist in der Nacht offen für DX-Verbindungen (Raumwelle statt Bodenwelle)
+The 80 m band is open for DX contacts at night (sky wave instead of ground wave)
 </note>
 
 ---
 
-## DX auf VHF/UHF
-* Andere Kontinente erreicht man darüber nur sehr selten
-* Deshalb Funkkontakte in erkennbar einigen hundert Kilometern Entfernung
+## DX on VHF/UHF
+* Other continents can only very rarely be reached on these bands
+* Hence contacts with stations evidently a few hundred kilometres away
 
 <note>
-Erkennbarkeit möglich über Länderkenner, Locator oder Rufzeichendatenbanken mit QTH
+The distance can be recognised from the country prefix, the locator or call sign databases with the QTH
 </note>
 
 ---
@@ -45,68 +45,68 @@ Erkennbarkeit möglich über Länderkenner, Locator oder Rufzeichendatenbanken m
 [question:BE109]
 ---
 
-## Gezielter CQ-Ruf
+## Directed CQ call
 <left>
-* Für Verbindungen in ein spezielles Land
-* Landeskenner beim CQ-Ruf einsetzen
+* For contacts with a particular country
+* Put the country prefix in the CQ call
 </left>
 <right>
 <qso>
 CQ VK/ZL
 </qso>
 <fragment>
-Rufe Stationen in Australien oder Neuseeland
+Calling stations in Australia or New Zealand
 </fragment>
 </right>
 
 ---
 [question:BE110]
 <note>
-4U1ITU ist eine spezielle Station der ITU aus Genf
+4U1ITU is a special ITU station in Geneva
 </note>
 
 ---
 [question:BE113]
 ---
 
-## Englische Sprache
-* Internationale Verbindungen werden in der Regel in Englisch geführt
-* Antwort auf Englisch geben
+## The English language
+* International contacts are usually conducted in English
+* Reply in English
 
 <note>
-Es kann sich später im Gespräch immer noch auf eine andere Sprache geeinigt werden
+You can still agree on another language later in the contact
 </note>
 
 ---
 [question:BE104]
 ---
 
-## Unbeantworteter CQ DX
-* Bleibt ein CQ DX Ruf lange Zeit unbeantwortet
-* Empfehlung: Wechseln auf normalen CQ Ruf
-* Kontakt zu Stationen aus der Umgebung aufnehmen
+## Unanswered CQ DX
+* If a CQ DX call remains unanswered for a long time
+* Recommendation: switch to a normal CQ call
+* Make contact with stations in the area
 
 ---
 
-## DX-Pedition
-* Von besonderen Flecken der Erde DX-Funkaktivitäten durchführen
-* Meistens an den entlegensten Orten der Welt
-* Wird als "DX-Pedition" bezeichnet
+## DXpedition
+* DX radio activity from special spots on earth
+* Usually in the remotest places in the world
+* Is called a "DXpedition"
 
 <note>
-* Bestimmte Regionen haben eigene Präfixe
-* z.B. von seltenen Inseln, unerschlossenen Regionen oder Länder mit geringer Funkaktivität
+* Certain regions have their own prefixes
+* e.g. from rare islands, undeveloped regions or countries with little radio activity
 </note>
 
 ---
 [question:BE312]
 ---
 
-## Gründe für eine DX-Pedition
-* Es gibt Diplomprogramme, bei denen mit unterschiedlichen Ländern gearbeitet werden muss
-* Dafür benötigt man nachweislich Funkverbindungen mit 100 unterschiedlichen Ländern
-* Mit DX-Peditionen können fehlende Länder ergänzt werden
+## Reasons for a DXpedition
+* There are award programmes in which different countries have to be worked
+* For this you need verifiable contacts with 100 different countries
+* DXpeditions make it possible to add missing countries
 
 <note>
-z.B. DX Century Club (DXCC)
+e.g. DX Century Club (DXCC)
 </note>

@@ -1,91 +1,91 @@
 <left>
-* Anhand des Präfixes kann man erkennen, aus welchem Land ein Funkpartner kommt
-* Blau markierte Länder kommen im Fragenkatalog vor
+* The prefix tells you which country the other station comes from
+* Countries marked in blue appear in the question catalogue
 </left>
 <right>
-[picture:656:n_internationale_landeskenner_eu:Landeskenner in Europa]
+[picture:656:n_internationale_landeskenner_eu:Country prefixes in Europe]
 </right>
 
 ---
 
-## Quellen für Landeskenner
+## Sources for country prefixes
 
-* Landeskennerlisten der ITU
-* Amateurfunkhandbücher
-* Internet
-* diverse Rufzeichenlisten
+* The ITU's lists of country prefixes
+* Amateur radio handbooks
+* The internet
+* Various call sign lists
 
 <note>
-Für einzelne Präfixe gibt es Eselsbrücken zum leichteren Merken
+For some prefixes there are mnemonics that make them easier to remember
 </note>
 
 --- style="font-size: 0.7em;"
 
-| l: Landeskenner | l: Eselsbrücke | X: Land |
-| *CT* | CosTa (Küste) | Portugal |
-| *DA-DR* | | Deutschland |
-| *EA* | EspaniA | Spanien |
-| EI | | Irland |
+| l: Country prefix | l: Mnemonic | X: Country |
+| *CT* | CosTa (coast) | Portugal |
+| *DA-DR* | | Germany |
+| *EA* | EspaniA | Spain |
+| EI | | Ireland |
 | *EM* | | Ukraine |
-| ES | | Estland |
+| ES | | Estonia |
 | EU | | Belarus |
-| F | Frankreich | Frankreich |
-| G | Großbritannien | Vereintes Königreich |
-[table:n_europaeische_landeskenner_eselsbruecken_1:Europäische Landeskenner und Eselsbrücken]
+| F | France | France |
+| G | Great Britain | United Kingdom |
+[table:n_europaeische_landeskenner_eselsbruecken_1:European country prefixes and mnemonics]
 
 --- style="font-size: 0.7em;"
 
-| l: Landeskenner | l: Eselsbrücke | X: Land |
-| HBØ | Hohe Berge (klein) | Liechtenstein |
-| HB9 | Hohe Berge (groß) | Schweiz |
-| HV | Heiliger Vater | Vatikan |
-| I | | Italien |
-| LA | LAchse (Links Außen) | Norwegen |
-| LX | | Luxemburg |
-| LZ | | Bulgarien |
-| OE | OEsterreich | Österreich |
-| OH | Oben Hinten | Finnland |
-[table:n_europaeische_landeskenner_eselsbruecken_2:Europäische Landeskenner und Eselsbrücken]
+| l: Country prefix | l: Mnemonic | X: Country |
+| HBØ | Hohe Berge (high mountains), small | Liechtenstein |
+| HB9 | Hohe Berge (high mountains), large | Switzerland |
+| HV | Heiliger Vater (Holy Father) | Vatican |
+| I | | Italy |
+| LA | LAchse (salmon), Links Außen (far left) | Norway |
+| LX | | Luxembourg |
+| LZ | | Bulgaria |
+| OE | OEsterreich (Austria) | Austria |
+| OH | Oben Hinten (top, at the back) | Finland |
+[table:n_europaeische_landeskenner_eselsbruecken_2:European country prefixes and mnemonics]
 
 --- style="font-size: 0.7em;"
 
-| l: Landeskenner | l: Eselsbrücke | X: Land |
-| OK | | Tschechien |
-| OM | | Slowakei |
-| ON | | Belgien |
-| *OZ* | Oberer Zipfel | Dänemark |
-| PA | | Niederlande |
-| S5 | | Slowenien |
-| *SM* | Schwedische Möbel | Schweden |
-| *SP* | Schönes Polen | Polen |
-| SV | | Griechenland |
-[table:n_europaeische_landeskenner_eselsbruecken_3:Europäische Landeskenner und Eselsbrücken]
+| l: Country prefix | l: Mnemonic | X: Country |
+| OK | | Czech Republic |
+| OM | | Slovakia |
+| ON | | Belgium |
+| *OZ* | Oberer Zipfel (upper tip) | Denmark |
+| PA | | Netherlands |
+| S5 | | Slovenia |
+| *SM* | Schwedische Möbel (Swedish furniture) | Sweden |
+| *SP* | Schönes Polen (beautiful Poland) | Poland |
+| SV | | Greece |
+[table:n_europaeische_landeskenner_eselsbruecken_3:European country prefixes and mnemonics]
 
 --- style="font-size: 0.7em;"
 
-| l: Landeskenner | l: Eselsbrücke | X: Land |
-| *BY* | bezahle in Yuan | China |
+| l: Country prefix | l: Mnemonic | X: Country |
+| *BY* | bezahle in Yuan (pay in yuan) | China |
 | CE | | Chile |
-| DS-DT | | Südkorea |
-| DU-DZ | | Philippinen |
-| EK | | Armenien |
+| DS-DT | | South Korea |
+| DU-DZ | | Philippines |
+| EK | | Armenia |
 | *JA* | JApan | Japan |
-| *K*, *W*, N, AA-AL | Keiner Will Nach Amerika | USA |
-| LU | Links Unten | Argentinien |
-[table:n_internationale_landeskenner_eselsbruecken_1:Weitere Landeskenner und Eselsbrücken]
+| *K*, *W*, N, AA-AL | Keiner Will Nach Amerika (nobody wants to go to America) | USA |
+| LU | Links Unten (bottom left) | Argentina |
+[table:n_internationale_landeskenner_eselsbruecken_1:Further country prefixes and mnemonics]
 
 --- style="font-size: 0.7em;"
 
-| l: Landeskenner | l: Eselsbrücke | X: Land |
-| *PY* | "Pyranhas" | Brasilien |
-| *VE* | Viele Elche | Kanada |
-| VK | Viele Kängurus | Australien |
-| *VU* | | Indien |
-| *XE* | mEXiko | Mexiko |
-| *ZL* | Zea-Land | Neuseeland |
-| ZS | | Südafrika |
+| l: Country prefix | l: Mnemonic | X: Country |
+| *PY* | "Pyranhas" (piranhas) | Brazil |
+| *VE* | Viele Elche (lots of moose) | Canada |
+| VK | Viele Kängurus (lots of kangaroos) | Australia |
+| *VU* | | India |
+| *XE* | mEXico | Mexico |
+| *ZL* | Zea-Land | New Zealand |
+| ZS | | South Africa |
 | 4X | | Israel |
-[table:n_internationale_landeskenner_eselsbruecken_2:Weitere Landeskenner und Eselsbrücken]
+[table:n_internationale_landeskenner_eselsbruecken_2:Further country prefixes and mnemonics]
 
 ---
 [question:BD301]
