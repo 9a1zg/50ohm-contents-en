@@ -1,28 +1,28 @@
-In der Klasse E haben wir bereits Widerstandsnetzwerke analysiert. Die meisten Aufgaben ließen sich noch recht einfach im Kopf lösen. In der Klasse A wird dieses Thema nun weiter vertieft. Die folgenden Aufgaben erfordern mehrere Rechenschritte bis zur Lösung. Dazu zerlegt man die Aufgabe in einzelne Teilbereiche, die zunächst berechnet und anschließend zusammengeführt werden. Auf diese Weise benötigt man keine komplizierten Formeln und gelangt zuverlässig zum richtigen Ergebnis.
+In Class E we have already analysed resistor networks. Most of the questions could still be solved fairly easily in your head. In Class A this topic is now taken further. The following questions need several steps of calculation to reach the answer. To do this, you break the problem down into parts, which are first calculated and then put together. That way you need no complicated formulas and reliably arrive at the right result.
 
 [question:AD106]
 [question:AD107]
 [question:AD108]
 
-In der folgenden Widerstandsschaltung ist ein veränderbarer Widerstand (Potenziometer) eingebaut.
-Der Widerstandswert kann von $\qty{0}{\kilo\ohm}$ bis auf maximal $\qty{1}{\kilo\ohm}$ verändert werden. 
-Um den Bereich des Eingangswiderstands zu bestimmen müssen wir also zwei Grenzfälle betrachten: Zum einen, wenn der Schleifer des Potenziometers auf $\qty{0}{\ohm}$ steht, zum anderen, wenn er auf $\qty{1}{\kilo\ohm}$ steht. Also quasi zwei Aufgaben in einer.
+The following resistor circuit contains a variable resistor (potentiometer).
+Its resistance can be varied from $\qty{0}{\kilo\ohm}$ up to a maximum of $\qty{1}{\kilo\ohm}$. 
+To determine the range of the input resistance, we therefore have to consider two limiting cases: first, with the potentiometer's wiper at $\qty{0}{\ohm}$, and second, with it at $\qty{1}{\kilo\ohm}$. So, in effect, two problems in one.
 
 ---
 
 [question:AD109]
 
 <tip>
-Die Parallelschaltung von $\qty{100}{\ohm}$ mit $\qty{200}{\ohm}$ (Potenziometer steht auf $\qty{0}{\ohm}$) oder $\qty{100}{\ohm}$ mit $\qty{1,2}{\kilo\ohm}$ (Potenziometer steht auf $\qty{1}{\kilo\ohm}$) ergibt immer einen Wert kleiner als $\qty{100}{\ohm}$. Wenn noch $\qty{200}{\ohm}$ addiert werden, wird er Gesamtwiderstand nicht größer als $\qty{300}{\ohm}$ sein.
-Es gibt nur eine Lösung, bei der dies erfüllt ist.
+The parallel connection of $\qty{100}{\ohm}$ with $\qty{200}{\ohm}$ (potentiometer at $\qty{0}{\ohm}$) or of $\qty{100}{\ohm}$ with $\qty{1.2}{\kilo\ohm}$ (potentiometer at $\qty{1}{\kilo\ohm}$) always gives a value smaller than $\qty{100}{\ohm}$. When a further $\qty{200}{\ohm}$ is added, the total resistance will not be greater than $\qty{300}{\ohm}$.
+Only one answer satisfies this.
 </tip>
 
-Nun untersuchen wir eine Widerstandsschaltung mit 4 Widerständen, die oft verwendet wird. Jeweils zwei Spannungsteiler in Parallelschaltung ergeben eine sogenannte Brückenschaltung. Brückenschaltungen werden z. B. in Widerstandsmessgeräten nach dem Prinzip einer sogenannten Wheatstone Messbrücke angewendet.
+Now we examine a resistor circuit with 4 resistors that is often used. Two potential dividers connected in parallel form what is called a bridge circuit. Bridge circuits are used, for example, in resistance meters working on the principle of what is called a Wheatstone bridge.
 
 ---
 
 [question:AD110]
 
 <tip>
-Diese Aufgabe lässt sich auch leicht im Kopf rechnen. Wir haben zwei Parallelschaltungen mit gleichen Widerständen, welche in Reihe geschaltet wurden. Bei gleich großen Widerständen halbieren sich die Widerstandswerte in der Parallelschaltung: $R_1 || R_2 = \qty{1100}{\ohm}$ sowie $R_3 || R_4 = \qty{110}{\ohm}$. Das Ergebnis ist dann nur die Summe der beiden Werte: $R_\mathrm{ges} = \qty{1100}{\ohm} + \qty{110}{\ohm} = \qty{1210}{\ohm}$.
+This question is also easy to work out in your head. We have two parallel connections of equal resistors, which have been connected in series. With resistors of equal value, the resistance of the parallel connection is half that of one resistor: $R_1 || R_2 = \qty{1100}{\ohm}$ and $R_3 || R_4 = \qty{110}{\ohm}$. The result is then simply the sum of the two values: $R_\mathrm{ges} = \qty{1100}{\ohm} + \qty{110}{\ohm} = \qty{1210}{\ohm}$.
 </tip>

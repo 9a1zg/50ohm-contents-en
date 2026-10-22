@@ -1,55 +1,55 @@
-In der Klasse E haben wir bereits kennengelernt, wie sich Kondensatoren in Reihen- und Parallelschaltung verhalten. Im vorherigen Kapitel wurde außerdem die Reihenschaltung von Spulen behandelt. In diesem Kapitel betrachten wir nun die Parallelschaltung von Spulen und Kondensatoren. Zunächst wiederholen wir jedoch noch einmal die grundlegenden Zusammenhänge bei Parallel- und Reihenschaltungen von Kapazitäten.
+In Class E we have already learnt how capacitors behave in series and in parallel. The previous chapter also covered inductors in series. In this chapter we now look at the parallel connection of inductors and capacitors. First, however, we go over the basic relationships for capacitances in parallel and in series once more.
 
-In Parallelschwingkreisen werden Spulen und Kondensatoren miteinander kombiniert. Dabei besitzt auch eine reale Spule eine gewisse Eigenkapazität. Diese entsteht beispielsweise durch die Wicklungen der Spule und die dadurch vorhandenen elektrischen Feldkopplungen zwischen den Windungen.
+In parallel tuned circuits, inductors and capacitors are combined. A real inductor also has a certain self-capacitance. This arises, for example, from the windings of the coil and the resulting electric-field coupling between the turns.
 
-Für eine möglichst genaue Berechnung der Resonanzfrequenz müssen diese "unsichtbaren" Kapazitäten berücksichtigt werden. In der folgenden Aufgabe können die Kapazitäten der Kondensatoren und die Eigenkapazität der Spule direkt addiert werden, da sie parallel zueinander liegen.
+To calculate the resonant frequency as accurately as possible, these "invisible" capacitances must be taken into account. In the following question, the capacitances of the capacitors and the self-capacitance of the inductor can be added directly, as they are in parallel with each other.
 
-Besonders wichtig ist dabei, auf die unterschiedlichen Einheiten zu achten. Vor der Berechnung sollten daher alle Werte in dieselbe Einheit umgerechnet werden, damit die Kapazitäten korrekt addiert werden können.
+It is particularly important here to watch out for the different units. Before calculating, all the values should therefore be converted to the same unit, so that the capacitances can be added correctly.
 
 [question:AD103]
 
-Bei der folgenden Aufgabe sind drei Kondensatoren in Reihe geschaltet. In der Klasse E haben wir gelenrt, dass sich bei Kondensatoren in Reihenschaltung die Kehrwerte der Kapazitäten addieren:
+In the following question, three capacitors are connected in series. In Class E we learnt that for capacitors in series, the reciprocals of the capacitances add up:
 
 $\frac{1}{C_{\mathrm{ges}}} = \frac{1}{C_{1}} + \frac{1}{C_{2}} + \frac{1}{C_{3}}$
 
-Auch hier müssen die Kapazitäten vor der Berechnung in die gleiche Einheit umgerechnet werden, damit die Kehrwerte korrekt addiert werden können.
+Here too, the capacitances must be converted to the same unit before calculating, so that the reciprocals can be added correctly.
 
 [question:AD101]
 
 ---
 
-In Wechselstromschaltungen treten neben den bekannten ohmschen Widerständen auch Blindwiderstände auf, wie wir sie bereits bei Kondensatoren und Spulen kennengelernt haben. Der normale ohmsche Widerstand wird als Wirkwiderstand $R$ bezeichnet. Blindwiderstände werden mit $X$ beschrieben. Beide Widerstandsarten beeinflussen den Stromfluss in der Schaltung gleichzeitig.
+In AC circuits, besides the familiar ohmic resistances, there are also reactances, as we have already met them with capacitors and inductors. The ordinary ohmic resistance is called the resistive part, or simply the resistance $R$. Reactances are denoted by $X$. Both kinds of resistance affect the current flowing in the circuit at the same time.
 
-Da Wirk- und Blindwiderstand unterschiedlich wirken, können sie nicht einfach addiert werden. Stattdessen werden sie geometrisch zusammengesetzt. Man kann sich dies wie ein rechtwinkliges Dreieck wie in Abbildung [ref:a_dreieck] vorstellen:
+Since resistance and reactance act differently, they cannot simply be added. Instead, they are combined geometrically. You can picture this as a right-angled triangle, as in Figure [ref:a_dreieck]:
 
 ---
 
-- Der Wirkwiderstand $R$ bildet die waagerechte Seite.
-- Der Blindwiderstand $X$ bildet die senkrechte Seite.
-- Der daraus entstehende Gesamtwiderstand wird als Scheinwiderstand $|Z|$ bezeichnet.
+- The resistance $R$ forms the horizontal side.
+- The reactance $X$ forms the vertical side.
+- The resulting total resistance is called the impedance $|Z|$ (in German *Scheinwiderstand*).
 
 <margin>
-[picture:1067:a_dreieck:Rechtwinkliges Dreieck zur Veranschaulichung der Berechnung des Scheinwiderstandes $|Z|$ aus Wirkwiderstand $R$ und Blindwiderstand $X$]
+[picture:1067:a_dreieck:Right-angled triangle illustrating how the impedance $|Z|$ is calculated from the resistance $R$ and the reactance $X$]
 </margin>
 
-Der Scheinwiderstand lässt sich mit dem Satz des Pythagoras berechnen (vgl. Formelsammlung):
+The impedance can be calculated with Pythagoras' theorem (see the formula sheet):
 
 $ |Z| = \sqrt{R^2 + X^2} $
 
-Der Buchstabe $Z$ wird für die sogenannte Impedanz verwendet. Für die Berechnungen in diesem Kapitel genügt es jedoch, den Betrag $|Z|$ als gesamten Wechselstromwiderstand der Schaltung zu betrachten.
+The letter $Z$ is used for what is called the impedance. For the calculations in this chapter, however, it is enough to regard its magnitude $|Z|$ as the total AC resistance of the circuit.
 
 <indepth>
-Für mathematisch Interessierte: Die Impedanz $Z$ ist eine komplexe Größe, die den Wirkwiderstand $R$ als Realteil und den Blindwiderstand $X$ als Imaginärteil enthält:
+For the mathematically minded: the impedance $Z$ is a complex quantity with the resistance $R$ as its real part and the reactance $X$ as its imaginary part:
 
 $Z = R + jX$
 
-Der Betrag $|Z|$ entspricht dann der Länge des Vektors in der komplexen Ebene, der durch die Kombination von $R$ und $X$ entsteht.
+The magnitude $|Z|$ is then the length of the vector in the complex plane that results from combining $R$ and $X$.
 </indepth>
 
-Für die nächste Frage muss, bevor wir den Satz des Pythagoras anwenden können, der Blindwiderstand $X_C$ des Kondensators bei $\qty{1}{\mega\hertz}$ berechnet werden. Dazu verwenden wir die Formel für den Blindwiderstand eines Kondensators.
+For the next question, before we can apply Pythagoras' theorem, the reactance $X_C$ of the capacitor at $\qty{1}{\mega\hertz}$ has to be calculated. For this we use the formula for the reactance of a capacitor.
 
 [question:AD104]
 
-Die nächste Frage beschäftigt sich mit der Berechnung des Scheinwiderstandes einer Reihenschaltung von einem Widerstand und einer Spule. Zunächst berechnen wir $X_L$, danach wenden wir wieder den Satz des Pythagoras an. Auch hier müssen die Zehnerpotenzen beachtet werden, damit die Berechnung korrekt durchgeführt werden kann.
+The next question deals with calculating the impedance of a series circuit of a resistor and an inductor. First we calculate $X_L$, then we again apply Pythagoras' theorem. Here too, the powers of ten must be taken into account so that the calculation can be carried out correctly.
 
 [question:AD105]

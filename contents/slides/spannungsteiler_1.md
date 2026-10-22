@@ -1,31 +1,31 @@
 <left>
-* Eine Reihenschaltung von Widerständen nennt man auch Spannungsteiler, weil die Spannungen sich an den Widerständen aufteilen.
-* Je größer der Widerstand, desto größer die Spannung, die an ihm abfällt.
+* A series connection of resistors is also called a potential divider, because the voltage is divided between the resistors.
+* The greater the resistance, the greater the voltage dropped across it.
 </left>
 <right>
-[picture:819:e_spannungsteiler:Spannungsteiler]
+[picture:819:e_spannungsteiler:Potential divider]
 </right>
 
 ---
 
 <left>
-* Das kann man mathematisch in folgender Formel ausdrücken (Formelsammlung):
+* This can be expressed mathematically in the following formula (formula sheet):
 
 $\dfrac{U_{1}}{U_{2}} = \dfrac{R_{1}}{R_{2}}$
 </left>
 <right>
-[picture:819:e_spannungsteiler:Spannungsteiler]
+[picture:819:e_spannungsteiler:Potential divider]
 </right>
 
 ---
 
-Wie geht man an die Aufgaben ran?
+How do you tackle the questions?
 
-* Beispiele:
-* Wenn $R_{1}$ drei mal so groß wie $R_{2}$ ist, ist $U_{1}$ drei mal so groß wie $U_{2}$.
-* Wenn $R_{1}$ $\frac{1}{3}$ so groß wie $R_{2}$ ist, ist $U_{1}$ $\frac{1}{3}$ so groß wie $U_{2}$.
+* Examples:
+* If $R_{1}$ is three times as large as $R_{2}$, $U_{1}$ is three times as large as $U_{2}$.
+* If $R_{1}$ is $\frac{1}{3}$ as large as $R_{2}$, $U_{1}$ is $\frac{1}{3}$ as large as $U_{2}$.
 
-Schauen wir uns dazu zwei Aufgaben an.
+Let's look at two questions on this.
 
 ---
 
@@ -37,38 +37,38 @@ Schauen wir uns dazu zwei Aufgaben an.
 
 ---
 <left>
-* Die Summe der Spannungsabfälle ist gleich der Spannung, die aus der Spannungsquelle herauskommt.
-* Das kann man mathematisch in folgender Formel ausdrücken (Formelsammlung):
+* The sum of the voltage drops is equal to the voltage coming out of the voltage source.
+* This can be expressed mathematically in the following formula (formula sheet):
 
 $U_g = U_{1} + U_{2}$
 </left>
 
 <right>
-[picture:819:E 63. Spannungsteiler:Spannungsteiler]
+[picture:819:E 63. Spannungsteiler:Potential divider]
 </right>
 
 ---
 
 <left>
-* Hat man eine Gesamtspannung und muss $U_{2}$ berechnen, können wir ebenfalls auf eine Formel aus der Formelsammlung zurückgreifen:
+* If we have a total voltage and need to calculate $U_{2}$, we can again use a formula from the formula sheet:
 
 $\dfrac{U_{2}}{U_g} = \dfrac{R_{2}}{R_{1} + R_{2}}$
 </left>
 <right>
-[picture:819:E 63. Spannungsteiler:Spannungsteiler]
+[picture:819:E 63. Spannungsteiler:Potential divider]
 </right>
 
 ---
 
 <left>
-* Diese muss man noch zu $U_{2}$ umstellen, indem man auf beiden Seiten mit $U_g$ multipliziert, dann erhält man:
+* This still has to be rearranged for $U_{2}$ by multiplying both sides by $U_g$, which gives:
   
 $U_{2} = \dfrac{R_{2}}{R_{1} + R_{2}} \cdot U_g$
   
-* Damit kann man sich dann auch an die nächste Aufgabe heranwagen.
+* With this you can then also take on the next question.
 </left>
 <right>
-[picture:819:E 63. Spannungsteiler:Spannungsteiler]
+[picture:819:E 63. Spannungsteiler:Potential divider]
 </right>
   
 ---

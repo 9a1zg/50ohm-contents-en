@@ -1,67 +1,67 @@
-Kondensatoren werden in vielen Anwendungen in Reihenschaltung, Parallelschaltung oder auch gemischter Schaltungstechnik eingesetzt. Die Parallelschaltung ist einfacher zu verstehen, deshalb betrachten wir sie zuerst.
+In many applications, capacitors are used in series, in parallel or in series-parallel combinations. The parallel connection is easier to understand, so we look at it first.
 
-Durch die Parallelschaltung stehen sich mehr Platten gegenüber und somit erhöht sich die Plattenoberfläche proportional. Entsprechend erhöht sich auch die Kapazität in der Gesamtschaltung.
+Connecting capacitors in parallel means that more plates face each other, so the plate area increases proportionally. The capacitance of the circuit as a whole increases accordingly.
 
 <margin>
-[picture:822:e_3C-parallel: Parallelschaltung von 3 Kondensatoren]
+[picture:822:e_3C-parallel: Parallel connection of 3 capacitors]
 </margin>
 
 ---
 
-Bei einer Parallelschaltung von gleich großen Kondensatoren verdoppelt sich die Kapazität, die Spannungsfestigkeit bleibt gleich. Selbstverständlich kann man die Gesamtkapazität berechnen. Die Formel finden wir in der Formelsammlung:
+When capacitors of equal value are connected in parallel, the capacitance doubles while the voltage rating stays the same. Of course, the total capacitance can be calculated. The formula is in the formula sheet:
 
 $C_{\mathrm{ges}} = C_{1} + C_{2} + C_{3} + \dots$
 
 <tip>
-Die Gesamtkapazität ist bei der Parallelschaltung immer größer als die kleinste Einzelkapazität.
+In a parallel connection, the total capacitance is always greater than the smallest individual capacitance.
 </tip>
 
-Bei der folgenden Aufgabe ist eine zusätzliche Schwierigkeit zu finden, da die Vorsilben der Kapazitätswerte unterschiedlich sind. Man muss zuerst alle Werte auf eine gemeinsame Vorsilbe umwandeln. Die Zahlen sollen  nicht zu groß und nicht zu klein werden, deshalb empfiehlt es sich, die Vorsilbe nano ($\unit{\nano}$) zu wählen. 
+The following question has an additional difficulty, because the capacitance values have different prefixes. First, all the values have to be converted to a common prefix. The numbers should be neither too large nor too small, so it is best to choose the prefix nano ($\unit{\nano}$). 
 
-$\begin{split} \qty{0,1}{\micro\farad} &= \qty{100}{\nano\farad} \\ \qty{50000}{\pico\farad} &= \qty{50}{\nano\farad}\end{split}$
+$\begin{split} \qty{0.1}{\micro\farad} &= \qty{100}{\nano\farad} \\ \qty{50000}{\pico\farad} &= \qty{50}{\nano\farad}\end{split}$
 
-Jetzt muss man nur noch alle Werte in $\unit{\nano\farad}$ addieren.
+Now all you have to do is add up all the values in $\unit{\nano\farad}$.
 
 [question:ED117]
 
 <margin>
-[photo:262:a_Netzteil BEKO PA $7 \times \qty{10000}{\micro\farad}$ parallel: Parallelschaltung von $7 \times \qty{10000}{\micro\farad}$ in einem Endstufennetzteil]
+[photo:262:a_Netzteil BEKO PA $7 \times \qty{10000}{\micro\farad}$ parallel: $7 \times \qty{10000}{\micro\farad}$ connected in parallel in the power supply of a power amplifier]
 </margin>
 
-Als Verständnistest kann die nächste Aufgabe verwendet werden.
+The next question can be used to test your understanding.
 
 [question:ED118]
 
 
 ---
 
-Bei einer Reihenschaltung von Kondensatoren, wie in Abbildung [ref:e_3C-parallel] gezeigt, erhöht sich die Spannungsfestigkeit, allerdings verringert sich die Kapazität. Selbstverständlich kann man wieder die Gesamtkapazität berechnen. Diese ist sehr ähnlich zur Parallelschaltung von Widerstanden:
+When capacitors are connected in series, as shown in Figure [ref:e_3C-parallel], the voltage rating increases, but the capacitance decreases. Of course, the total capacitance can again be calculated. The calculation is very similar to that for resistors in parallel:
 
 $\frac{1}{C_{\mathrm{ges}}} = \frac{1}{C_{1}} + \frac{1}{C_{2}} + \frac{1}{C_{3}}$
 
 <margin>
-[picture:823:e_3C-parallel:Reihenschaltung von 3 Kondensatoren] 
+[picture:823:e_3C-parallel:Series connection of 3 capacitors] 
 </margin>
 
 <tip>
-Die Gesamtkapazität ist bei der Reihenschaltung immer kleiner als die kleinste Einzelkapazität.
+In a series connection, the total capacitance is always smaller than the smallest individual capacitance.
 </tip>
 
 <tip>
-Bei der Lösung der Aufgaben empfiehlt sich folgende Vorgehensweise:
+The following approach is recommended for solving the questions:
   
-1. Skizziere die Schaltung
-2. Schreibe die Kapazitätswerte zu den Bauteilen.
-3. Wandle in gleiche Vorsilben um.
-4. Vereinfache die Schaltung durch Zusammenführung von gleichartigen Schaltungsgruppen
-5. Berechne schrittweise die Gesamtkapazität
+1. Sketch the circuit
+2. Write the capacitance values next to the components.
+3. Convert to the same prefixes.
+4. Simplify the circuit by combining groups of the same kind
+5. Calculate the total capacitance step by step
 </tip>
 
-Wenn alle Kondensatoren gleiche Kapazitätswerte haben, dann kann man die Gesamtkapazität leicht berechnen, indem eine Einzelkapazität durch 3 dividiert wird. In der folgenden Aufgabe rechnet man $\qty{0,33}{\micro\farad} / 3 = \qty{0,11}{\micro\farad}$.
+If all the capacitors have the same capacitance, the total capacitance is easy to calculate by dividing one individual capacitance by 3. In the following question, the calculation is $\qty{0.33}{\micro\farad} / 3 = \qty{0.11}{\micro\farad}$.
 
 [question:ED119]
 
-Bei der Reihenschaltung von Kondensatoren in der folgenden Aufgabe findet man $\unit{\micro\farad}$ und $\unit{\nano\farad}$ als Vorsilbe. Es ist sehr sinnvoll, $\qty{200000}{\nano\farad}$ zuerst in $\qty{200}{\micro\farad}$ umzuwandeln. Bei einer Reihenschaltung kann man nun die Formel aus der Formelsammlung anwenden.
+In the series connection of capacitors in the following question, you find $\unit{\micro\farad}$ and $\unit{\nano\farad}$ as prefixes. It makes good sense to convert $\qty{200000}{\nano\farad}$ to $\qty{200}{\micro\farad}$ first. For a series connection, you can now apply the formula from the formula sheet.
 
 
 $C_{\mathrm{ges}} =\frac{1}{\frac{1}{\qty{100}{\micro\farad}} + \frac{1}{\qty{200}{\micro\farad}} + \frac{1}{\qty{200}{\micro\farad}}}$
@@ -70,14 +70,14 @@ $C_{\mathrm{ges}} =\frac{1}{\frac{1}{\qty{100}{\micro\farad}} + \frac{1}{\qty{20
 
 ---
   
-Bei der nächsten Frage werden 3 Kondensatoren in Reihen- und Parallelschaltung kombiniert. 
+In the next question, 3 capacitors are combined in series and in parallel. 
 
 [question:ED121]
 
-Welcher Schaltungsteil kann zuerst vereinfacht werden? Richtig: die Reihenschaltung.
-Diese Teilgruppe hat als Gesamtkapazität die Hälfte von $\qty{10}{\nano\farad}$, also $\qty{5}{\nano\farad}$. Jetzt ist es einfacher weiterzurechnen, da bei einer Parallelschaltung die Kapazitätswerte addiert werden. Gratulation zum Ergebnis von $\qty{10}{\nano\farad}$.
+Which part of the circuit can be simplified first? Correct: the series connection.
+This group has a total capacitance of half of $\qty{10}{\nano\farad}$, i.e. $\qty{5}{\nano\farad}$. Now it is easier to continue, since in a parallel connection the capacitance values are added. Congratulations on the result of $\qty{10}{\nano\farad}$.
 
-Die weiteren Aufgaben sind ähnlich und leicht lösbar.
+The other questions are similar and easy to solve.
 
 [question:ED122]
 [question:ED123]

@@ -1,15 +1,15 @@
 <left>
-[picture:343:a_Brückenschaltung:Typische Brückenschaltung mit 4 Widerständen]
+[picture:343:a_Brückenschaltung:Typical bridge circuit with 4 resistors]
   
 $\frac{R_1}{R_2} = \frac{R_3}{R_4}$
 </left>
 <right>
-* Schaltung aus 4 Widerständen zur Widerstandsmessung
-* Zwei parallel geschaltete Spannungsteiler
-* Bei gleich großen Spannungsteilerverhältnissen fließt kein Strom über die Brücke
+* Circuit of 4 resistors for measuring resistance
+* Two potential dividers connected in parallel
+* With equal divider ratios, no current flows across the bridge
 </right>
 <note>
-Messbrücke nach Wheatstone
+Wheatstone bridge
 </note>
 
 ---
@@ -19,11 +19,11 @@ Messbrücke nach Wheatstone
 ---
 [question:AD113]
 --- style="font-size: 0.7em;"
-#### Lösungsweg
-* gegeben: $R_1 = R_4 = \qty{1}{\kilo\ohm}$
-* gegeben: $R_2 = R_3 = \qty{10}{\kilo\ohm}$
-* gegeben: $U = \qty{11}{\volt}$
-* gesucht: $U_{AB}$
+#### Solution
+* given: $R_1 = R_4 = \qty{1}{\kilo\ohm}$
+* given: $R_2 = R_3 = \qty{10}{\kilo\ohm}$
+* given: $U = \qty{11}{\volt}$
+* required: $U_{AB}$
 
 <fragment>
 $\frac{U_A}{U} = \frac{R_1}{R_1 + R_2} \Rightarrow U_A = \frac{R_1}{R_1 + R_2} \cdot U = \frac{\qty{1}{\kilo\ohm}}{\qty{1}{\kilo\ohm} + \qty{10}{\kilo\ohm}} \cdot \qty{11}{\volt} = \qty{1}{\volt}$

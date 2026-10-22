@@ -1,49 +1,49 @@
-Die Brückenschaltung ist eine Anordnung aus vier Widerständen, die unter anderem zur präzisen Widerstandsmessung eingesetzt wird. Ein bekanntes praktisches Beispiel ist die Wheatstone-Messbrücke. Die Schaltung besteht aus zwei parallel geschalteten Spannungsteilern. Zwischen den Mittelpunkten der beiden Spannungsteiler befindet sich der sogenannte Brückenzweig, an dem die Brückenspannung $U_\mathrm{AB}$ gemessen werden kann.
+The bridge circuit is an arrangement of four resistors that is used, among other things, for precise resistance measurement. A well-known practical example is the Wheatstone bridge. The circuit consists of two potential dividers connected in parallel. Between the midpoints of the two potential dividers is what is called the bridge diagonal, across which the bridge voltage $U_\mathrm{AB}$ can be measured.
 
 <margin>
-[picture:343:a_Brückenschaltung:Typische Brückenschaltung mit 4 Widerständen]
+[picture:343:a_Brückenschaltung:Typical bridge circuit with 4 resistors]
 </margin>
 
-Besonders interessant ist der Fall der abgeglichenen Brücke. Dieser liegt vor, wenn die Spannungsteilerverhältnisse auf beiden Seiten gleich groß sind. Dann besitzen die beiden Mittelpunkte dasselbe elektrische Potential und es fließt kein Strom durch den Brückenzweig beziehungsweise das angeschlossene Messinstrument.
+The case of the balanced bridge is particularly interesting. It occurs when the divider ratios on both sides are equal. The two midpoints are then at the same electrical potential, and no current flows through the bridge diagonal or through the meter connected to it.
 
-Dabei müssen die einzelnen Widerstände nicht denselben Wert besitzen. Entscheidend ist lediglich, dass das Verhältnis der Widerstände auf beiden Seiten übereinstimmt.
+The individual resistors do not need to have the same value. All that matters is that the ratio of the resistors is the same on both sides.
 
-Für den abgeglichenen Zustand gilt daher:
+For the balanced condition, therefore:
 
 $ U_\mathrm{AB} = \qty{0}{\volt} $
 
-und damit:
+and so:
 
 $ \frac{R_1}{R_2} = \frac{R_3}{R_4} $
 
-Die Wheatstone-Brücke eignet sich deshalb besonders gut zur Bestimmung unbekannter Widerstände oder kleiner Widerstandsänderungen. Wie genau das funktioniert, wird in der nebenstehenden Vertiefung beschrieben.
+This makes the Wheatstone bridge particularly well suited to determining unknown resistances or small changes in resistance. Exactly how this works is described in the *In depth* box alongside.
 
 <indepth>
-Der Sonderfall, dass die Spannungsteilerverhältnisse in der Brückenschaltung links und rechts gleich groß sind, wird zur Messung unbekannter Widerstände angewendet. Charles Wheatstone (britischer Physiker) erkannte bereits 1833 die Bedeutung der Brückenschaltung für die Messung unbekannter Widerstände. 
+The special case in which the divider ratios on the left and right of the bridge circuit are equal is used to measure unknown resistances. Charles Wheatstone (a British physicist) recognised the importance of the bridge circuit for measuring unknown resistances as early as 1833. 
 
-Bei der Messung wird ein einstellbarer Präzisionswiderstand so lange verändert, bis das empfindliche Messwerk im Brückenzweig keinen Stromfluss mehr anzeigt. Dann ist die Brücke abgeglichen, und man kann den Wert des unbekannten Widerstandes mithilfe der Skala und des Messbereichsmultiplikators ermitteln.
+During the measurement, an adjustable precision resistor is varied until the sensitive meter movement in the bridge diagonal no longer shows any current. The bridge is then balanced, and the value of the unknown resistor can be found from the scale and the range multiplier.
 
-Ein Beispiel sieht man in der Abbildung [ref:a_pontavi]. Hier gibt es einen Multiplikator der Werte von 0,1/1/10/100 annehmen kann. Für die Feineinstellung gibt es den Großen Drehknopf. 
-[photo:286:a_pontavi:Widerstandsmessbrücke nach Wheatstone (Pontavi)]
+An example can be seen in Figure [ref:a_pontavi]. It has a multiplier that can take the values 0.1/1/10/100. For fine adjustment there is the large knob. 
+[photo:286:a_pontavi:Wheatstone resistance measuring bridge (Pontavi)]
 
-Die Abbildung [ref:a_pontavi_schaltung] zeigt den verinfachten Schaltplan dieses Messgeräts. An der Stelle $X$ wird der unbekannte Widerstand angeschlossen. Zunächst stellt man mit dem Multiplikator die geschätzte Größenordnung des unbekannten Widerstandes ein. Dann wird mit dem Großen Drehknopf der Präzisionswiderstand so lange verändert, bis die Brücke abgeglichen ist. Das Messwerk zeigt dann an, dass kein Strom mehr durch den Brückenzweig fließt.
+Figure [ref:a_pontavi_schaltung] shows the simplified circuit diagram of this instrument. The unknown resistor is connected at point $X$. First, the multiplier is set to the estimated order of magnitude of the unknown resistance. Then the precision resistor is varied with the large knob until the bridge is balanced. The meter movement then shows that no more current is flowing through the bridge diagonal.
 
-[picture:1076:a_pontavi_schaltung:Schaltplan Widerstandsmessbrücke (Pontavi)]
+[picture:1076:a_pontavi_schaltung:Circuit diagram of the resistance measuring bridge (Pontavi)]
 </indepth>
 
 [question:AD111]
 
-Da bei der folgenden Aufgabe alle Widerstände gleich groß sind, müssen auch die Spannungsteilerverhältnisse gleich sein. Dies entspricht dem beschriebenen Sonderfall.
+Since all the resistors in the following question have the same value, the divider ratios must also be equal. This is the special case described above.
 
 [question:AD112]
 
-In der folgenden Frage trifft der Sonderfall nicht zu, da die Spannungsteilerverhältnisse ungleich sind. Es sind zwar ähnliche Widerstände vorhanden, jedoch von oben nach unten betrachtet vertauscht. Die Aufgabe kann mit dem Wissen zum unbelasteten Spannungsteiler gelöst werden.
+In the following question the special case does not apply, as the divider ratios are unequal. Similar resistors are present, but, looking from top to bottom, they are swapped round. The question can be solved with what we know about the unloaded potential divider.
 
 [question:AD113]
 
-Auf der linken Seite finden wir das Verhältnis $\qty{1}{\kilo\ohm}$ zu $\qty{10}{\kilo\ohm} = 1/10$.
-Unter der Voraussetzung, dass das Messwerk sehr hochohmig oder abgeklemmt ist, messen wir bei einer Betriebsspannung von $\qty{11}{\volt}$ auf der linken Seite am oberen Widerstand ($R_1$) genau $\qty{1}{\volt}$ und am unteren Widerstand ($R_2$) $\qty{10}{\volt}$. Das Potenzial am Messpunkt A beträgt somit $\qty{10}{\volt}$ gegen Masse gemessen.
+On the left we find the ratio $\qty{1}{\kilo\ohm}$ to $\qty{10}{\kilo\ohm} = 1/10$.
+Provided that the meter movement has a very high resistance or is disconnected, with an operating voltage of $\qty{11}{\volt}$ we measure exactly $\qty{1}{\volt}$ across the upper resistor ($R_1$) on the left and $\qty{10}{\volt}$ across the lower resistor ($R_2$). The potential at measuring point A is therefore $\qty{10}{\volt}$, measured with respect to chassis.
 
-Auf der rechten Seite finden wir das Verhältnis $\qty{10}{\kilo\ohm}$ zu $\qty{1}{\kilo\ohm} = 10/1$ und messen deshalb $\qty{10}{\volt}$ am oberen Widerstand ($R_3$) und $\qty{1}{\volt}$ am unteren Widerstand ($R_4$). Das Potenzial am Messpunkt B beträgt somit $\qty{1}{\volt}$ gegen Masse gemessen.
+On the right we find the ratio $\qty{10}{\kilo\ohm}$ to $\qty{1}{\kilo\ohm} = 10/1$ and therefore measure $\qty{10}{\volt}$ across the upper resistor ($R_3$) and $\qty{1}{\volt}$ across the lower resistor ($R_4$). The potential at measuring point B is therefore $\qty{1}{\volt}$, measured with respect to chassis.
 
-Der Potenzialunterschied zwischen A und B beträgt damit $\qty{9}{\volt}$, wobei der Messpunkt A um $\qty{9}{\volt}$ positiver als der Messpunkt B ist.
+The potential difference between A and B is therefore $\qty{9}{\volt}$, with measuring point A $\qty{9}{\volt}$ more positive than measuring point B.

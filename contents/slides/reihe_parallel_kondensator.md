@@ -1,29 +1,29 @@
-## Reihenschaltung
+## Series connection
 
-* Da die Spannung entscheidend für das Entstehen des elektrischen Feldes ist (und diese sich bei der Reihenschaltung aufteilt), ist die Berechnung der Kapazität genau umgekehrt wie bei Widerständen.
-* Anwendungsfall: Bei hohen Spannungen werden mehrere Kondensatoren in Reihe geschaltet, um die Gefahr eines Durchschlags zu verhindern. Dabei ist hilfreich, dass sich die Gesamtspannung an den Kondensatoren aufteilt.
+* Since the voltage is what determines how the electric field builds up (and it is divided in a series connection), the capacitance is calculated in exactly the opposite way to resistors.
+* Application: at high voltages, several capacitors are connected in series to prevent the risk of breakdown. What helps here is that the total voltage is divided between the capacitors.
 
 ---
 
-* Bei einer Reihenschaltung von Kondensatoren ist die Gesamtkapazität kleiner als der Wert des kleinsten Kondensators
+* When capacitors are connected in series, the total capacitance is smaller than the value of the smallest capacitor
 
-[picture:823:e_reihenschaltung_kondensatoren:Reihenschaltung von 3 Kondensatoren]
+[picture:823:e_reihenschaltung_kondensatoren:Series connection of 3 capacitors]
 
 $\frac{1}{C_{\mathrm{ges}}} = \frac{1}{C_{1}} + \frac{1}{C_{2}} + \frac{1}{C_{3}}$
 
 ---
 
-* Vereinfachung für zwei Kondensatoren:
+* Simplification for two capacitors:
 
 $C_{\mathrm{ges}} = \dfrac{C_{1} \cdot C_{2}}{C_{1} + C_{2}}$
 
 ---
 
-* Vereinfachung für gleiche Kondensatoren:
+* Simplification for equal capacitors:
 
 $C_{\mathrm{ges}} = \dfrac{C}{n}$
 
-$n$ steht für die Anzahl der Kondensatoren
+$n$ is the number of capacitors
 
 ---
 
@@ -35,20 +35,20 @@ $n$ steht für die Anzahl der Kondensatoren
 
 ---
 
-## Parallelschaltung
+## Parallel connection
 
-* Hier ist es genau umgekehrt wie bei Widerständen, weil an allen Kondensatoren die gleiche Spannung anliegt, welche ja entscheidend für die Entstehung des elektrischen Feldes ist.
-* Anwendungsfall: Kondensatoren werden parallel geschaltet, um aus der Normreihe auf den Wert zu kommen, den man benötigt.
+* Here it is exactly the opposite of resistors, because the same voltage is applied to all the capacitors, and it is the voltage that determines how the electric field builds up.
+* Application: capacitors are connected in parallel to get from the preferred values to the value you need.
 
 <note>
-* Die parallel geschalteten Kondensatoren wirken wie ein großer Kondensator
+* Capacitors connected in parallel act like one large capacitor
 </note>
 
 ---
 
-* Bei einer Parallelschaltung addieren sich die Kapazitäten
+* In a parallel connection, the capacitances add up
 
-[picture:822:e_parallelschaltung_kondensatoren:Parallelschaltung von 3 Kondensatoren]
+[picture:822:e_parallelschaltung_kondensatoren:Parallel connection of 3 capacitors]
 
 $C_{\mathrm{ges}} = C_{1} + C_{2} + C_{3}$
 
@@ -62,23 +62,23 @@ $C_{\mathrm{ges}} = C_{1} + C_{2} + C_{3}$
 
 ---
 
-## Gemischte Schaltungen
+## Series-parallel circuits
 
 --- style="font-size: 0.7em;"
 
-### Variante 1: Zwei Parallel und dazu einer in Reihe
+### Variant 1: two in parallel, plus one in series
 
 <left>
-* Hier berechnet man zuerst die Parallelschaltung von $C_{2}$ und $C_{3}$
+* Here you first calculate the parallel connection of $C_{2}$ and $C_{3}$
 
 $C_{\mathrm{ges,p}} = C_{2} + C_{3}$
 
-* Danach berechnet man die Reihenschaltung von $C_{1}$ und $C_{\mathrm{ges,p}}$
+* Then you calculate the series connection of $C_{1}$ and $C_{\mathrm{ges,p}}$
 
 $C_{\mathrm{ges}} = \frac{C_{1} \cdot C_{\mathrm{ges,p}}}{C_{1} + C_{Gp}}$
 </left>
 <right>
-[picture:820:e_gemischt_variante_1:Gemischte Schaltung - Variante 1]
+[picture:820:e_gemischt_variante_1:Series-parallel circuit - variant 1]
 </right>
 
 ---
@@ -95,19 +95,19 @@ $C_{\mathrm{ges}} = \frac{C_{1} \cdot C_{\mathrm{ges,p}}}{C_{1} + C_{Gp}}$
 
 --- style="font-size: 0.7em;"
 
-### Variante 2: Zwei in Reihe und dazu einer Parallel
+### Variant 2: two in series, plus one in parallel
 
 <left>
-* Hier berechnet man zuerst die Reihenschaltung von $C_{1}$ und $C_{2}$
+* Here you first calculate the series connection of $C_{1}$ and $C_{2}$
 
 $C_{\mathrm{ges,r}} = \frac{C_{1} \cdot C_{2}}{C_{1} + C_{2}}$
 
-* Danach berechnet man die Parallelschaltung von $C_{3}$ und $C_{\mathrm{ges,r}}$
+* Then you calculate the parallel connection of $C_{3}$ and $C_{\mathrm{ges,r}}$
 
 $C_{\mathrm{ges}} = \frac{C_{3} \cdot C_{\mathrm{ges,r}}}{C_{3} + C_{\mathrm{ges,r}}}$
 </left>
 <right>
-[picture:457:e_gemischt_variante_2:Gemischte Schaltung - Variante 2]
+[picture:457:e_gemischt_variante_2:Series-parallel circuit - variant 2]
 </right>
 
 ---

@@ -1,19 +1,19 @@
-## Reihenschaltung
+## Series connection
 
-Bei einer Reihenschaltung addieren sich die Widerstandswerte
+In a series connection, the resistance values add up
 
-[picture:812:e_reihenschaltung_von_r:Reihenschaltung von 3 Widerständen]
+[picture:812:e_reihenschaltung_von_r:Series connection of 3 resistors]
 
 $R_{\mathrm{ges}} = R_{1} + R_{2} + R_{3}$
-Beispiel: $R_{\mathrm{ges}} = \qty{100}{\ohm} + \qty{200}{\ohm} + \qty{300}{\ohm}$
+Example: $R_{\mathrm{ges}} = \qty{100}{\ohm} + \qty{200}{\ohm} + \qty{300}{\ohm}$
 
 --- style="font-size: 0.7em;"
 
-## Parallelschaltung
+## Parallel connection
 
-Bei einer Parallelschaltung von Widerständen ist der Gesamtwiderstand kleiner als der Wert des kleinsten Widerstandes
+When resistors are connected in parallel, the total resistance is smaller than the value of the smallest resistor
 
-[picture:811:e_parallelschaltung_von_r:Parallelschaltung von 3 Widerständen]
+[picture:811:e_parallelschaltung_von_r:Parallel connection of 3 resistors]
 
 $\frac{1}{R_{\mathrm{ges}}} = \frac{1}{R_{1}} + \frac{1}{R_{2}} + \frac{1}{R_{3}}$
 
@@ -21,14 +21,14 @@ $\frac{1}{R_{\mathrm{ges}}} = \frac{1}{R_{1}} + \frac{1}{R_{2}} + \frac{1}{R_{3}
 
 ---
 
-Vereinfachung für zwei Widerstände:
+Simplification for two resistors:
 $R_{\mathrm{ges}} = \dfrac{R_{1} \cdot R_{2}}{R_{1} + R_{2}}$
 
 ---
 
-Vereinfachung für gleiche Widerstände:
+Simplification for equal resistors:
 $R_{\mathrm{ges}} = \dfrac{R}{n}$
-$n$ steht für die Anzahl der Widerstände
+$n$ is the number of resistors
 
 ---
 
@@ -44,16 +44,16 @@ $n$ steht für die Anzahl der Widerstände
 
 ---
 
-## Gemischte Schaltungen
+## Series-parallel circuits
 
 --- style="font-size: 0.7em;"
 
-### Variante 1: Zwei Parallel und dazu einer in Reihe
+### Variant 1: two in parallel, plus one in series
 
-[picture:813:e_gemischte_schaltung_1:Gemischte Schaltung - Variante 1]
+[picture:813:e_gemischte_schaltung_1:Series-parallel circuit - variant 1]
 
 <fragment>
-Hier berechnet man zuerst die Parallelschaltung von $R_2$ und $R_3$ und addiert dann $R_1$ hinzu.
+Here you first calculate the parallel connection of $R_2$ and $R_3$ and then add $R_1$.
 </fragment>
 
 <fragment>
@@ -62,12 +62,12 @@ $R_{\mathrm{ges}} = \dfrac{R_{2} \cdot R_{3}}{R_{2} + R_{3}} + R_{1}$
 
 ---
 
-### Variante 2: Zwei in Reihe und dazu einer Parallel
+### Variant 2: two in series, plus one in parallel
 
-[picture:814:e_gemischte_schaltung_2:Gemischte Schaltung - Variante 2]
+[picture:814:e_gemischte_schaltung_2:Series-parallel circuit - variant 2]
 
 <fragment>
-Hier addiert man zuerst $R_1$ und $R_2$ um mit diesem Ergebnis die Parallelschaltung zu $R_3$ zu berechnen.
+Here you first add $R_1$ and $R_2$, and then use the result to calculate the parallel connection with $R_3$.
 </fragment>
 
 <fragment>
@@ -100,12 +100,12 @@ $R_{\mathrm{ges}} = \dfrac{(R_{1} + R_{2}) \cdot R_{3}} {(R_{1} + R_{2}) + R_{3}
 
 ---
 
-### Belastbarkeit von Widerständen in Reihen- und Parallelschaltung
+### Power rating of resistors in series and parallel connection
 
-* Bei einer Reihenschaltung teilen sich die Spannungen auf.
-* Bei einer Parallelschaltung teilen sich die Ströme auf.
-* Somit ist bei der Berechnung mittels $P = U \cdot I$ immer ein Wert konstant und der andere entsprechend kleiner.
-* $\rightarrow$ die Gesamtbelastbarkeit ist in beiden Fällen größer als die Einzelbelastbarkeit.
+* In a series connection, the voltage divides.
+* In a parallel connection, the current divides.
+* So when calculating with $P = U \cdot I$, one value always stays the same and the other is correspondingly smaller.
+* $\rightarrow$ in both cases the total power rating is greater than the individual power rating.
 
 ---
 

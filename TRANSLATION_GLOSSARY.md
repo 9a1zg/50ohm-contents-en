@@ -2151,6 +2151,28 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | "Kleiner Radiomann" des Kosmos-Verlags | the "Kleiner Radiomann" (little radio man) kit published by Kosmos | the kit's name stays German with a gloss; *kit* tells the English reader what it is (transistor_1) |
 | Merksatz *Pfeil Nach Platte* | Pfeil Nach Platte (arrow towards the plate) | German mnemonic for the PNP symbol kept, as the other mnemonics (DECISIONS.md) |
 | HF-Abblockung / HF-Entkopplung (der Betriebsspannung) / Betriebsspannungsleitung | RF decoupling (of the supply voltage) / supply line | MMIC circuit (integrierte_schaltkreise) |
+| Ersatzwiderstand / Widerstandsnetzwerk | equivalent resistance / resistor network | reihe_parallel_widerstand, AD106–AD110, AD114 |
+| hintereinander geschaltet | connected one after the other | i.e. in series (reihe_parallel_widerstand) |
+| Bruchrechnung (nach den Regeln der) | (using the rules for) working with fractions | |
+| Methode des scharfen Hinsehens | solving by inspection | the established English phrase for reading a result off the values without calculating (reihe_parallel_widerstand tip) |
+| gemischte Schaltung(en) / gemischte Schaltungstechnik | series-parallel circuit(s) / series-parallel combinations | slide headings *Gemischte Schaltungen*, captions *Gemischte Schaltung - Variante 1* (reihe_parallel_widerstand, reihe_parallel_kondensator) |
+| Zwei Parallel und dazu einer in Reihe / Zwei in Reihe und dazu einer Parallel | two in parallel, plus one in series / two in series, plus one in parallel | slide headings, "Variant 1: …" |
+| Gesamtbelastbarkeit / Einzelbelastbarkeit | total power rating / individual power rating | as ED107 |
+| Teilströme | branch currents | of a parallel connection (AD106) |
+| Grenzfall / Schleifer (Potenziometer) | limiting case / wiper | as *Schleifkontakt* (AD109) |
+| Maschenregel / Knotenregel / Masche / Knotenpunkt / Kirchhoff'sche Gesetze | loop rule / junction rule / loop / junction / Kirchhoff's laws | reihe_parallel_widerstandsnetz_2 slides |
+| Spannungsteilerverhältnis | divider ratio | brueckenschaltung, AD111 |
+| abgeglichene Brücke / abgleichen / Brückenspannung | balanced bridge / balance / bridge voltage | $U_\mathrm{AB}$ (brueckenschaltung, AD112) |
+| Wheatstone-Messbrücke / Messbrücke nach Wheatstone / Widerstandsmessbrücke | Wheatstone bridge / Wheatstone bridge / resistance measuring bridge | the Pontavi instrument: "Wheatstone resistance measuring bridge (Pontavi)" |
+| Messwerk | meter movement | the moving-coil movement in the bridge diagonal |
+| Multiplikator / Messbereichsmultiplikator (Messbrücke) / Großer Drehknopf | multiplier / range multiplier / large knob | brueckenschaltung indepth |
+| Messpunkt (A, B) | measuring point | brueckenschaltung, AD111–AD113; *gegen Masse gemessen* → "measured with respect to chassis" (§14 *gegen Masse*) |
+| Durchschlag (Kondensator) | breakdown | as *Durchschlagsfeldstärke* (§14) |
+| Vorsilbe (nano, Kapazitätswerte) | prefix | as *Einheitenvorsatz* (§3) |
+| Endstufennetzteil | power supply of a power amplifier | photo caption (reihe_parallel_kondensator) |
+| Teilabschnitte (zwischen Anzapfungen) | sections (between the taps) | reihenschaltung_spule |
+| komplexe Größe / Realteil / Imaginärteil / komplexe Ebene | complex quantity / real part / imaginary part / complex plane | $Z = R + jX$ (reihe_parallel_gemischt) |
+| Wirkwiderstand $R$ (neben Blind- und Scheinwiderstand) | resistive part, or simply the resistance $R$ | introduced once as "the resistive part, or simply the resistance $R$", afterwards *resistance*; *Scheinwiderstand* $Z$ → "impedance (in German *Scheinwiderstand*)", as §14 *Scheinwiderstand* (reihe_parallel_gemischt) |
 
 ## 15. Catalogue structure
 

@@ -1,43 +1,43 @@
-Eine Reihenschaltung aus zwei Widerständen wird häufig als Spannungsteiler verwendet. In der Klasse E betrachten wir zunächst den *unbelasteten Spannungsteiler*, wie er auch in den folgenden Aufgaben vorkommt. Bei einem unbelasteten Spannungsteiler verhalten sich die Spannungen proportional zu den Widerständen. Das bedeutet beispielsweise, dass an einem hochohmigen Widerstand eine größere Spannung abfällt, während an einem niederohmigen Widerstand eine entsprechend kleinere Spannung messbar ist.
+A series connection of two resistors is often used as a potential divider. In Class E we first look at the *unloaded potential divider*, as it appears in the following questions. In an unloaded potential divider, the voltages are proportional to the resistances. This means, for example, that a larger voltage is dropped across a resistor of high resistance, while a correspondingly smaller voltage can be measured across a resistor of low resistance.
 
 <margin>
-[picture:819:E 63. Spannungsteiler:Spannungsteiler]
+[picture:819:E 63. Spannungsteiler:Potential divider]
 </margin>
 
 <indepth>
-Einen wichtigen Spannungsteiler findet man z.B. an der Basis eines Transistors in einer Verstärkerschaltung. 
-Man spricht deshalb vom Basis-Spannungsteiler. Das Schauen wir uns im Kapitel Verstärker genauer an.
+An important potential divider is found, for example, at the base of a transistor in an amplifier circuit. 
+It is therefore called the base potential divider. We will look at this more closely in the chapter on amplifiers.
 </indepth>
 
-Dieser Zusammenhang kann in verschiedenen Formeln dargestellt werden, welche wir in der Formelsammlung finden.:
+This relationship can be expressed in various formulas, which we find in the formula sheet:
 
 $\frac{U_{1}}{U_{2}} = \frac{R_{1}}{R_{2}}$
 
-oder
+or
 
 $\frac{U_{2}}{U_g} = \frac{R_{2}}{R_{1} + R_{2}}$
 
 % TODO implementiere Attention in CSS!
 <danger>
-Bei einem belasteten Spannungsteiler gelten diese Formeln nicht. Fragen dazu folgen in der Klasse A.
+These formulas do not apply to a loaded potential divider. Questions on it follow in Class A.
 </danger>
 
-Bei den folgenden Fragen wird der Begriff Spannungsteiler nicht direkt erwähnt, aber durch die Wortwahl : "Wie teilt sich die Spannung an zwei in Reihe geschalteten Widerständen auf ...." sollte man erkennen, dass es sich um einen Spannungsteiler handelt.
+The following questions do not mention the term potential divider directly, but the wording "How is the voltage divided between two resistors connected in series ..." should tell you that this is a potential divider.
 
 [question:ED101]
 
-Es sind keine konkreten Widerstandswerte angegeben, deshalb ist das Ergebnis als allgemeine Formel darzustellen. 
-Laut Fragestellung  ist $R_1$ 5-mal größer als $R_2$, also muss an ihm auch eine 5-mal größere Spannung gemessen werden können, bzw. $R_1 = 5 \cdot R_2$
+No actual resistance values are given, so the result has to be stated as a general formula. 
+According to the question, $R_1$ is 5 times as large as $R_2$, so a voltage 5 times as large must be measurable across it; in other words, $R_1 = 5 \cdot R_2$
 
-Diesen Zusammenhang kann man als Formel angeben.
+This relationship can be written as a formula.
 
 $\frac{U_{1}}{U_{2}} = \frac{5 \cdot R_2}{R_2}$
 
-Die $R_2$ kürzen sich weg und es ergibt sich:
+The $R_2$ terms cancel out, giving:
 
 $\frac{U_{1}}{U_{2}} = \frac{5}{1}$
 
-Nach etwas umformen erhalten wir das Ergebnis:
+After a little rearranging we get the result:
 
 $U_{1} = U_{2} \cdot \frac{5}{1}$
 
@@ -45,9 +45,9 @@ $U_{1} = 5 \cdot U_{2}$
 
 [question:ED102]
 
-Bei dieser Frage besteht der umgekehrte Zusammenhang wie bei der Frage ED 101. Laut Fragestellung  ist $R_1$ 6-mal kleiner als $R_2$, also muss an ihm auch eine 6-mal kleinere Spannung gemessen werden können. 
+This question has the reverse relationship to question ED 101. According to the question, $R_1$ is smaller than $R_2$ by a factor of 6, so the voltage measurable across it must also be smaller by a factor of 6. 
 
-Dieser Zusammenhang in einer Formel dargestellt lautet nun:
+Expressed as a formula, this relationship is now:
 
 $\frac{U_{1}}{U_{2}} = \frac{1}{6}$
   
@@ -57,12 +57,12 @@ $U_1 = \frac{U_2}{6}$
 
 [question:ED103]
 
-Bei dieser Frage sind konkrete Widerstandswerte angegeben, die zur Ermittlung des Spannungsteilerverhältnisses dienen. $R_1$ verhält sich zu $R_2$ wie $\qty{10}{\kilo\ohm}$ zu $\qty{20}{\kilo\ohm}$, also $1$ zu $2$. $U_2$ muss deshalb doppelt so groß sein wie $U_1$. Es ist aber die Gesamtspannung  $U_g$ angegeben. Diese liegt an einem Gesamtwiderstand von $\qty{30}{\kilo\ohm}$ und wird deshalb im Verhältnis $30$ zu $20$ (oder $3$ zu $2$) bezogen auf $R_2$ aufgeteilt. An $R_2$  muss deshalb die Spannung $2/3$ von $U_g$ gemessen werden können.
+In this question, actual resistance values are given, from which the divider ratio is found. $R_1$ is to $R_2$ as $\qty{10}{\kilo\ohm}$ is to $\qty{20}{\kilo\ohm}$, that is, $1$ to $2$. $U_2$ must therefore be twice as large as $U_1$. However, it is the total voltage $U_g$ that is given. It is applied across a total resistance of $\qty{30}{\kilo\ohm}$ and is therefore divided in the ratio $30$ to $20$ (or $3$ to $2$) with respect to $R_2$. So the voltage measurable across $R_2$ must be $2/3$ of $U_g$.
 
-Selbstverständlich kann dieses Ergebnis auch mit der Formel aus der Formelsammlung berechnet werden:
+Of course, this result can also be calculated with the formula from the formula sheet:
 
 $\frac{U_{2}}{U_g} = \frac{R_{2}}{R_{1} + R_{2}}$
 
-und diese dann nach $U_2$ umgestellt:
+and then rearranging it for $U_2$:
 
 $U_{2} = \frac{R_{2}}{R_{1} + R_{2}} \cdot U_g$
