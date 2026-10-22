@@ -1,3 +1,3 @@
-Eine Besonderheit im Amateurfunk ist die Verpflichtung zu offener Sprache [index:Sprache:Offene]. Das bedeutet, dass es unzulässig ist, Verschleierungsverfahren wie geheime Codes zu verwenden, die dazu dienen, dass Zuhörer nicht verstehen, worüber sich ausgetauscht wird. Digitale Kodierungen, Morsezeichen und Abkürzungen sind jedoch zulässig, wenn sie nicht dazu dienen, dass andere die Inhalte nicht verstehen können.
+A special feature of amateur radio is the obligation to use plain language [index:Plain language]. This means that it is not permitted to use methods of obscuring the content, such as secret codes, whose purpose is to stop listeners from understanding what is being discussed. Digital encodings, Morse characters and abbreviations are permitted, however, as long as their purpose is not to prevent others from understanding the content.
 
 [question:VD103]

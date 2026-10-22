@@ -1,87 +1,87 @@
-* Manche Buchstaben lassen sich schwer voneinander unterscheiden
-* Noch schwieriger bei leisem oder schlechtem Empfang
-* Es kann beim Buchstabieren zu Missverständnissen kommen
+* Some letters are hard to tell apart
+* Even harder with weak or poor reception
+* Spelling can lead to misunderstandings
 
 <note>
-* Beispiel: DM4EAX und DN4EAX
+* Example: DM4EAX and DN4EAX
 </note>
 
 ---
 
-### Lösung
+### Solution
 
-* Jedem Buchstaben wird ein Wort zugeordnet
-* Anstatt des Buchstabens wird das Wort ausgesprochen
+* Each letter is assigned a word
+* The word is spoken instead of the letter
 
 ---
 
-### Buchstabiertafeln
+### Phonetic alphabets
 
-* In Deutschland ist die deutsche Buchstabiertafel bekannt
-* Im Amateurfunk wird gemäß Verfügung 13/2005 der Bundesnetzagentur die internationale Buchstabiertafel verwendet
-* Erste Einführung 1927 durch die International Telecommunication Union (ITU)
-* Anhang 14 der Radio Regulations (RR)
-* Wird auch in der Luftfahrt, dem Seefunk und von der NATO verwendet
+* In Germany, the German phonetic alphabet is well known
+* In amateur radio, the international phonetic alphabet is used, under Order 13/2005 of the Federal Network Agency (Bundesnetzagentur, BNetzA)
+* First introduced in 1927 by the International Telecommunication Union (ITU)
+* Appendix 14 of the Radio Regulations (RR)
+* Also used in aviation, in maritime radio and by NATO
 
 <note>
-* ITU und Radio Regulations werden später vertieft
+* The ITU and the Radio Regulations are covered in more depth later
 </note>
 
 --- style="font-size: 0.7em;"
 
 <left>
-| c: Buchstabe | l: Wort | l: Aussprache |
-| A | Alfa | AL-FA |
-| B | Bravo | BRA-WO |
-| C | Charlie | TSCHA-LI |
-| D | Delta | DELL-TA |
-| E | Echo | ECK-KO |
-| F | Foxtrot | FOX-TROTT |
+| c: Letter | l: Word | l: Pronunciation |
+| A | Alfa | AL-FAH |
+| B | Bravo | BRAH-VOH |
+| C | Charlie | CHAR-LEE |
+| D | Delta | DELL-TAH |
+| E | Echo | ECK-OH |
+| F | Foxtrot | FOKS-TROT |
 | G | Golf | GOLF |
-| H | Hotel | HO-TELL |
-| I | India | IN-DI-AH |
-| J | Juliett | DJU-LI-ETT |
-| K | Kilo | KI-LO |
-| L | Lima | LI-MA |
-| M | Mike | MAIK |
-[table:n_buchstabiertafel_1:Die ITU-Buchstabiertafel]
+| H | Hotel | HOH-TELL |
+| I | India | IN-DEE-AH |
+| J | Juliett | JEW-LEE-ETT |
+| K | Kilo | KEY-LOH |
+| L | Lima | LEE-MAH |
+| M | Mike | MIKE |
+[table:n_buchstabiertafel_1:The ITU phonetic alphabet]
 </left>
 <right>
-| c: Buchstabe | l: Wort | l: Aussprache |
-| N | November | NO&#8209;WEM&#8209;BER |
-| O | Oscar | OSS-KAR |
-| P | Papa | PA-PA |
-| Q | Quebec | KWE-BECK |
-| R | Romeo | RO-MI-O |
-| S | Sierra | SIER-RA |
-| T | Tango | TÄNG-GO |
-| U | Uniform | JU-NI-FORM |
-| V | Victor | WICK-TOR |
-| W | Whiskey | WISS-KI |
-| X | X-ray | ÄX-RÄI |
-| Y | Yankee | JENG-KI |
-| Z | Zulu | SUH-LUH |
-[table:n_buchstabiertafel_2:Die ITU-Buchstabiertafel]
+| c: Letter | l: Word | l: Pronunciation |
+| N | November | NO&#8209;VEM&#8209;BER |
+| O | Oscar | OSS-CAH |
+| P | Papa | PAH-PAH |
+| Q | Quebec | KEH-BECK |
+| R | Romeo | ROW-ME-OH |
+| S | Sierra | SEE-AIR-RAH |
+| T | Tango | TANG-GO |
+| U | Uniform | YOU-NEE-FORM |
+| V | Victor | VIK-TAH |
+| W | Whiskey | WISS-KEY |
+| X | X-ray | ECKS-RAY |
+| Y | Yankee | YANG-KEY |
+| Z | Zulu | ZOO-LOO |
+[table:n_buchstabiertafel_2:The ITU phonetic alphabet]
 </right>
 
 <note>
-* Korrekte Aussprache vermitteln
+* Teach the correct pronunciation
 </note>
 
 ---
 
-### Ziffern / Zahlen
+### Digits / numbers
 
-* Ziffern im nationalen Funkverkehr auf Deutsch
-* Im internationalen Funkverkehr auf Englisch
+* Digits in German in national radio communication
+* In English in international radio communication
 
 ---
 
-### Weitere Verwendung
+### Other uses
 
-* Kann auch zum Buchstabieren von Namen oder Orten verwendet werden
-* Es gibt Variationen (Nancy, Sugar, Ocean, Queen,...), die zusätzlich verwendet werden dürfen
-* Umlaute als AE, OE, UE und SS buchstabieren
+* Can also be used to spell names or places
+* There are variations (Nancy, Sugar, Ocean, Queen, ...) that may be used in addition
+* Spell umlauts as AE, OE, UE and SS
 
 ---
 [question:VD206]

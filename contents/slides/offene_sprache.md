@@ -1,12 +1,12 @@
-## Offene Sprache
+## Plain language
 
-Im Amateurfunk darf nur offene Sprache verwendet werden.
+Only plain language may be used in amateur radio.
 
-* Keine Verschleierungsverfahren wie geheime Codes
-* Zulässig sind digitale Kodierungen, Morsezeichen und Abkürzungen
+* No methods of obscuring the content, such as secret codes
+* Digital encodings, Morse characters and abbreviations are permitted
 
 <note>
-* Aus der Zeit zwischen den Weltkriegen, um den Amateurfunk nicht für kriegerische Informationsübermittlung zu verwenden
+* Dates from the period between the world wars, so that amateur radio would not be used to pass on military information
 </note>
 
 ---

@@ -1,30 +1,30 @@
-Funkverbindungen [index:Funkverbindung] finden meist wechselseitig auf einer Frequenz statt. D. h. eine Station sendet, während die andere Station hört. Wenn beide gleichzeitig senden, hört keine von beiden. Daher ist es wichtig, dass eine gewisse Ordnung beim Ablauf einer Funkverbindung, der sogenannten Betriebsabwicklung [index:Betriebsabwicklung], herrscht.
+Contacts [index:Contact] usually take place alternately on one frequency, i.e. one station transmits while the other listens. If both transmit at the same time, neither of them hears anything. That is why it is important for a contact to follow a certain order, known as operating procedure [index:Operating procedure].
 
-Bei vielen Funkdiensten ist die Betriebsabwicklung ganz genau vorgeschrieben, z. B. im Flugfunk, bei der Polizei, der Feuerwehr oder den Rettungsdiensten. Im Amateurfunk gibt es keine verpflichtenden Vorgaben zur Betriebsabwicklung. Es muss nur das Rufzeichen ordnungsgemäß genannt werden. Aber auch im Amateurfunk ergibt es Sinn, wenn man sich an der üblichen Betriebsabwicklung orientiert und die geläufigen Abkürzungen kennt. Daher gibt es auch einen eigenen Prüfungsteil "Betriebliche Kenntnisse".
+In many radio services the operating procedure is laid down precisely, e.g. in aeronautical radio, or for the police, the fire brigade or the rescue services. In amateur radio there are no mandatory rules on operating procedure. Only the call sign must be given properly. But in amateur radio, too, it makes sense to follow the usual operating procedure and to know the common abbreviations. That is why there is a separate part of the examination, "Operating knowledge".
 
-Alle Funkamateure nutzen die zur Verfügung stehenden Frequenzen gemeinsam. Es gilt hier das Prinzip: Wer zuerst kommt, mahlt zuerst. Daher sollte man, bevor eine Funkverbindung begonnen wird, erst einige Zeit hören, ob die Frequenz nicht schon von einer anderen Station verwendet wird. Um ganz sicherzugehen, sollte dann noch zwei- bis dreimal kurz gefragt werden, ob die Frequenz frei ist.
+All radio amateurs share the frequencies available. The principle here is: first come, first served. So before starting a contact, you should first listen for a while to check that the frequency is not already being used by another station. To be quite sure, you should then briefly ask two or three times whether the frequency is in use.
 
 <qso>
-Ist diese Frequenz frei? DL1PZ
-> *(keine Antwort)*
-Ist diese Frequenz frei? DL1PZ
-> *(keine Antwort)*
-CQ CQ hier ist DL1PZ mit einem allgemeinen Anruf, hier ist DL1PZ und hört.
-> DL1PZ hier ist DL9MJ bitte kommen
+Is this frequency in use? DL1PZ
+> *(no answer)*
+Is this frequency in use? DL1PZ
+> *(no answer)*
+CQ CQ this is DL1PZ with a general call, this is DL1PZ, listening.
+> DL1PZ this is DL9MJ, over
 </qso>
 
-Wenn darauf keine Antwort folgt, kann davon ausgegangen werden, dass die Frequenz nicht belegt ist. Jetzt kann man selber eine Funkverbindung beginnen. Wie beim Telefon nennt sich das Anruf [index:Anruf]. Grundsätzlich gibt es zwei Möglichkeiten, den allgemeinen Anruf und den gezielten Anruf:
+If there is no answer, you can assume that the frequency is not in use. Now you can start a contact yourself. As with the telephone, this is called a call [index:Call]. There are basically two ways of doing this, the general call and the directed call:
 
-* Mit einem *allgemeinen* Anruf [index:Anruf:Allgemein] fordert man *alle* Stationen, die einen hören können, zur Antwort auf. Die internationale betriebliche Abkürzung für den allgemeinen Anruf ist CQ. Wird CQ englisch ausgesprochen (etwa "si-kju"), dann klingt es genauso wie "seek you" (etwa "sik-ju"), also "suche dich". Im deutschsprachigen Funkverkehr wird anstelle von CQ auch die Floskel "Allgemeiner Anruf" verwendet.
-* Bei einem *gezielten* Anruf [index:Anruf:Gezielt] hingegen möchte man die Antwort *einer bestimmten* Station.
+* With a *general* call [index:Call:General] you ask *all* stations that can hear you to reply. The international operating abbreviation for the general call is CQ. Pronounced in English (roughly "see-kyoo"), CQ sounds just like "seek you". In German-language radio communication, the phrase "Allgemeiner Anruf" (general call) is also used instead of CQ.
+* With a *directed* call [index:Call:Directed], on the other hand, you want a reply from *one particular* station.
 
 ---
 
-Die Antwort erfolgt bei allgemeinen und gezielten Anrufen auf die gleiche Art. Man nennt erst das Rufzeichen der anrufenden Station und dann das eigene Rufzeichen.
+The reply is made in the same way for general and directed calls. You first give the call sign of the calling station and then your own call sign.
 
 <qso>
-DL9MJ von DL1PZ bitte kommen
-> DL1PZ hier ist DL9MJ
+DL9MJ this is DL1PZ, over
+> DL1PZ this is DL9MJ
 </qso>
 
 [question:BB102]
@@ -34,21 +34,21 @@ DL9MJ von DL1PZ bitte kommen
 
 ---
 
-Es kann vorkommen, dass man einen Anruf nicht ganz mitbekommt, aber Teile des eigenen Rufzeichens hört und sich nicht sicher ist, ob man gemeint war. In einem solchem Fall sollte einfach nachgefragt werden, ob man gemeint war.
+It can happen that you do not catch all of a call, but hear parts of your own call sign and are not sure whether you were meant. In such a case, simply ask whether you were meant.
 
 <qso>
-D*(krschkrsch)*MJ von DK5WP, bitte kommen
-> Hier ist DL9MJ, wurde ich gerufen?
+D*(crackle-crackle)*MJ this is DK5WP, over
+> This is DL9MJ, was I called?
 </qso>
 
 [question:BE103]
 
 ---
 
-Nach einer Funkverbindung (oft als QSO bezeichnet) wird die Frequenz immer der Station überlassen, die den Anruf gestartet hat. Möglicherweise hat aber zwischendurch eine andere Station gerufen, die mit einem sprechen will. Auch dann sollte die Frequenz für die ursprünglich rufende Station frei gemacht werden. Davor kann man sich aber noch kurz auf eine andere Frequenz verständigen.
+After a contact (often called a QSO), the frequency is always left to the station that started the call. But another station that wants to talk to you may have called you in the meantime. Even then, the frequency should be cleared for the station that originally called. Before that, however, you can quickly agree on another frequency.
 
 <indepth>
-*QSO* ist eine Abkürzung, die ursprünglich aus der Morsetelegrafie stammt und "ich habe direkten Kontakt zu Station X" bedeutet. Daran angelehnt, sprechen Funkamateure oftmals von einem QSO, wenn sie eine erfolgreiche Funkverbindung meinen.
+*QSO* is an abbreviation that originally comes from Morse telegraphy and means "I can communicate with station X direct". Following on from this, radio amateurs often speak of a QSO when they mean a successful contact.
 </indepth>
 
 

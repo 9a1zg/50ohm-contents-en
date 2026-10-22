@@ -1,11 +1,11 @@
-## Gewerbliche Nutzung
+## Commercial use
 
-* Der Amateurfunk darf nicht wirtschaftlich genutzt werden.
-* Es ist unzulässig, gegen Geld die Nutzung des Amateurfunks anzubieten.
-* Der Amateurfunk darf nicht für Absprachen in einem Unternehmen benutzt werden.
+* Amateur radio may not be used for commercial purposes.
+* It is not permitted to offer the use of amateur radio for money.
+* Amateur radio may not be used for coordination within a business.
 
 <note>
-* Beispiel: Taxi-Funk
+* Example: taxi radio
 </note>
 
 ---

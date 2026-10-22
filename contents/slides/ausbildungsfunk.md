@@ -1,22 +1,22 @@
-## Ausbildungsfunkbetrieb
+## Training operation
 
-Es gibt zum Zweck der Ausbildung die Ausnahme, dass auch Nicht-Funkamateure auf Amateurfunkfrequenzen senden dürfen.
+For training purposes there is an exception: people who are not radio amateurs may also transmit on amateur frequencies.
 
-Unter unmittelbarer Anleitung und Aufsicht eines zugelassenen Funkamateurs der Klasse E oder A.
+Under the direct guidance and supervision of a licensed Class E or Class A radio amateur.
 
 ---
 [question:VD303]
 
 ---
 
-### Abwicklung Ausbildungsfunkbetrieb
+### How training operation works
 
-* Der Auszubildende benutzt das Rufzeichen des Ausbilders und hängt den Zusatz „/T“ an: DG2RON/T
-* Ausgesprochen wird das T als „Trainee”
-* Komplett: "DG2RON Trainee"
+* The trainee uses the instructor's call sign and adds the suffix "/T": DG2RON/T
+* The T is spoken as "Trainee"
+* In full: "DG2RON Trainee"
 
 <note>
-* Ausgesprochen: DG2RON Trainee
+* Spoken: DG2RON Trainee
 </note>
 
 ---

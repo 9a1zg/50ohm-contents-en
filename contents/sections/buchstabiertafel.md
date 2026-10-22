@@ -1,47 +1,47 @@
-Hört man sich die Rufzeichen DM4EAX und DN4EAX gesprochen an, so ist es schwer, die Buchstaben M und N akustisch voneinander zu unterscheiden. Gerade bei einem leisen oder verrauschten Empfang kann es hier schnell zu Missverständnissen kommen. Aus diesem Grund wird im Amateurfunk eine Buchstabiertafel [index:Buchstabiertafel] eingesetzt, bei der jedem Buchstaben genau ein englischsprachiges Wort zugeordnet ist. Anstelle der Buchstaben spricht man jeweils das entsprechende Wort. Aus DM4EAX wird *Delta Mike Vier Echo Alfa X-Ray* und aus DN4EAX wird *Delta November Vier Echo Alfa X-Ray*. Jetzt sind die beiden Rufzeichen gut unterscheidbar.
+If you listen to the call signs DM4EAX and DN4EAX spoken aloud, it is hard to tell the letters M and N apart by ear. With weak or noisy reception in particular, misunderstandings can easily arise here. For this reason, amateur radio uses a phonetic alphabet [index:Phonetic alphabet], in which each letter is assigned exactly one English word. Instead of the letter, you say the corresponding word. DM4EAX becomes *Delta Mike Vier Echo Alfa X-Ray* and DN4EAX becomes *Delta November Vier Echo Alfa X-Ray*. Now the two call signs are easy to tell apart.
 
-Es gibt verschiedene Buchstabiertafeln, z. B. die deutsche, die österreichische oder die schweizerische Buchstabiertafel, die unterschiedliche Wörter benutzen. Funkamateure müssen in Deutschland gemäß der Verfügung 13/2005 der Bundesnetzagentur für die Nennung des Rufzeichens die internationale Buchstabiertafel verwenden. Die Internationale Fernmeldeunion (International Telecommunication Union, kurz ITU) führte erstmals 1927 eine internationale Buchstabiertafel [index:Buchstabiertafel:Internationale] ein und passte sie im Laufe der Zeit mehrfach an. Die heute gültige internationale Buchstabiertafel ist im Anhang 14 der Radio Regulations (RR) festgelegt, die von der ITU herausgegeben werden. Sie ist in der Tabelle [ref:n_buchstabiertafel] wiedergegeben. Diese wird nicht nur im Amateurfunk, sondern unter anderem auch in der Luftfahrt und von der NATO verwendet.
+There are various phonetic alphabets, e.g. the German, the Austrian or the Swiss phonetic alphabet, which use different words. Under Order 13/2005 of the Federal Network Agency (Bundesnetzagentur, BNetzA), radio amateurs in Germany must use the international phonetic alphabet when giving their call sign. The International Telecommunication Union (ITU) first introduced an international phonetic alphabet [index:Phonetic alphabet:International] in 1927 and has adapted it several times since. The international phonetic alphabet in force today is laid down in Appendix 14 of the Radio Regulations (RR), which are published by the ITU. It is reproduced in Table [ref:n_buchstabiertafel]. It is used not only in amateur radio but also, among others, in aviation and by NATO.
 
 <margin>
-| c: Buchstabe | l: Wort | X: Aussprache |
-| A | Alfa | AL-FA |
-| B | Bravo | BRA-WO |
-| C | Charlie | TSCHA-LI |
-| D | Delta | DELL-TA |
-| E | Echo | ECK-KO |
-| F | Foxtrot | FOX-TROTT |
+| c: Letter | l: Word | X: Pronunciation |
+| A | Alfa | AL-FAH |
+| B | Bravo | BRAH-VOH |
+| C | Charlie | CHAR-LEE |
+| D | Delta | DELL-TAH |
+| E | Echo | ECK-OH |
+| F | Foxtrot | FOKS-TROT |
 | G | Golf | GOLF |
-| H | Hotel | HO-TELL |
-| I | India | IN-DI-AH |
-| J | Juliett | DJU-LI-ETT |
-| K | Kilo | KI-LO |
-| L | Lima | LI-MA |
-| M | Mike | MAIK |
-| N | November | NO-WEM-BER |
-| O | Oscar | OSS-KAR |
-| P | Papa | PA-PA |
-| Q | Quebec | KWE-BECK |
-| R | Romeo | RO-MI-O |
-| S | Sierra | SIER-RA |
-| T | Tango | TÄNG-GO |
-| U | Uniform | JU-NI-FORM |
-| V | Victor | WICK-TOR |
-| W | Whiskey | WISS-KI |
-| X | X-ray | ÄX-RÄI |
-| Y | Yankee | JENG-KI |
-| Z | Zulu | SUH-LUH |
-[table:n_buchstabiertafel:Die ITU-Buchstabiertafel]
+| H | Hotel | HOH-TELL |
+| I | India | IN-DEE-AH |
+| J | Juliett | JEW-LEE-ETT |
+| K | Kilo | KEY-LOH |
+| L | Lima | LEE-MAH |
+| M | Mike | MIKE |
+| N | November | NO-VEM-BER |
+| O | Oscar | OSS-CAH |
+| P | Papa | PAH-PAH |
+| Q | Quebec | KEH-BECK |
+| R | Romeo | ROW-ME-OH |
+| S | Sierra | SEE-AIR-RAH |
+| T | Tango | TANG-GO |
+| U | Uniform | YOU-NEE-FORM |
+| V | Victor | VIK-TAH |
+| W | Whiskey | WISS-KEY |
+| X | X-ray | ECKS-RAY |
+| Y | Yankee | YANG-KEY |
+| Z | Zulu | ZOO-LOO |
+[table:n_buchstabiertafel:The ITU phonetic alphabet]
 </margin>
 
 [question:VD206]
 
-Die Buchstabiertafel enthält jedoch keine Ziffern [index:Buchstabiertafel:Ziffern]. Im nationalen Funkverkehr spricht man Ziffern auf Deutsch aus, z. B. Delta Mike *Vier* Echo Alpha X-ray. Im internationalen Funkverkehr wird die englische Sprache verwendet, z. B. Delta Mike *Four* Echo Alfa X-ray.
+The phonetic alphabet, however, contains no digits [index:Phonetic alphabet:Digits]. In national radio communication, digits are spoken in German, e.g. Delta Mike *Vier* Echo Alpha X-ray. In international radio communication, English is used, e.g. Delta Mike *Four* Echo Alfa X-ray.
 
-Die Buchstabiertafel kann natürlich auch verwendet werden, um andere Wörter zu buchstabieren, z. B. einen Namen oder eine Ortsangabe. Die internationale Buchstabiertafel enthält jedoch keine deutschen Umlaute[index:Buchstabiertafel:Umlaute]. Daher wird das Ä als "Alfa Echo", das Ö als "Oscar Echo", das Ü als "Uniform Echo" und das ß als "Sierra Sierra" buchstabiert.
+The phonetic alphabet can of course also be used to spell other words, e.g. a name or a place. The international phonetic alphabet, however, contains no German umlauts [index:Phonetic alphabet:Umlauts]. So Ä is spelt as "Alfa Echo", Ö as "Oscar Echo", Ü as "Uniform Echo" and ß as "Sierra Sierra".
 
-In der Praxis wird bei der Rufzeichennennung auch mit anderen Möglichkeiten variiert, z. B. Nancy, Sugar, Ocean und Queen. Das ist zulässig, solange es *zusätzlich* zur Rufzeichennennung nach der internationalen Buchstabiertafel erfolgt, um die Verständlichkeit zu erhöhen.
+In practice, other options are also used when giving a call sign, e.g. Nancy, Sugar, Ocean and Queen. This is permitted as long as it is done *in addition* to giving the call sign in the international phonetic alphabet, to make it easier to understand.
 
-Die internationale Buchstabiertafel muss man auswendig lernen. Am Anfang kann das etwas schwerfallen, je mehr man die Buchstabiertafel anwendet, umso flüssiger wird es.
+You have to learn the international phonetic alphabet by heart. This may be a little difficult at first, but the more you use the phonetic alphabet, the more fluent you become.
 
 %TODO stroke erklären
 

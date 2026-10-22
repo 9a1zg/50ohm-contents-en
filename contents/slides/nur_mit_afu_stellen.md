@@ -1,11 +1,11 @@
-## Funkverkehr nur mit Funkamateuren
+## Communication only with radio amateurs
 
-Eine Amateurfunkstation darf nur andere Amateurfunkstationen kontaktieren.
+An amateur station may only contact other amateur stations.
 
-Es ist unzulässig, mit Funkstellen anderer Funkdienste zu funken.
+It is not permitted to communicate with stations of other radiocommunication services.
 
 <note>
-* kein Funkverkehr mit Behörden, Flug- oder Seefunkstellen oder mit einer CB-Funkstelle
+* no radio communication with public authorities, aeronautical or maritime radio stations, or a CB station
 </note>
 
 ---
@@ -14,13 +14,13 @@ Es ist unzulässig, mit Funkstellen anderer Funkdienste zu funken.
 [question:VD703]
 ---
 
-### Nachrichtenübermittlung
+### Passing on messages
 
-* Es ist unzulässig, Nachrichten von oder an Nicht-Funkamateure zu übermitteln.
-* Die einzige Ausnahme sind **Not- und Katastrophenfälle**. Dann ist es erlaubt Nachrichten von und an Nicht-Funkamateure zu senden.
+* It is not permitted to pass on messages from or to people who are not radio amateurs.
+* The only exception is **emergencies and disasters**. In those cases, messages may be sent from and to people who are not radio amateurs.
 
 <note>
-* Beispielsweise dürfen keine Grüße für Angehörige eines Funkamateurs gesendet werden, wenn diese selber keine Funkamateure sind.
+* For example, greetings may not be sent to a radio amateur's relatives if they are not radio amateurs themselves.
 </note>
 
 ---

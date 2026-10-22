@@ -1,25 +1,25 @@
-## Rufzeichen
+## Call signs
 
 <left>
-[photo:167:rufzeichen_flugzeug:Flugzeug mit dem Rufzeichen DEBPF]
+[photo:167:rufzeichen_flugzeug:Aircraft with the call sign DEBPF]
 </left>
 <right>
-* Funkstationen verwenden Rufzeichen, um sich zu identifizieren
-* Folge von Buchstaben und Ziffern
-* Jedes mit Funk ausgerüstete Flugzeug und Schiff hat ein Rufzeichen
+* Radio stations use call signs to identify themselves
+* Sequence of letters and digits
+* Every aircraft and ship equipped with radio has a call sign
 </right>
 <note>
-Rufzeichen DEBPF im Bild zeigen
+Point out the call sign DEBPF in the picture
 </note>
 
 ---
 
-### Amateurfunkrufzeichen
+### Amateur call signs
 
-* Persönliches Rufzeichen wird zugeteilt
-* Weltweit eindeutig
-* Muss am Anfang und Ende jeder Verbindung genannt werden
-* Und alle 10 Minuten bei längeren Verbindungen
+* A personal call sign is assigned
+* Unique worldwide
+* Must be given at the beginning and end of every contact
+* And every 10 minutes during longer contacts
 
 ---
 

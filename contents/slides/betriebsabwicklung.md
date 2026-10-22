@@ -1,76 +1,76 @@
-* Funkverbindungen finden auf derselben Frequenz statt
-* Nur eine Seite kann sprechen – die andere kann nur hören
-* Beim gleichzeitigen Senden hört sich niemand
-* Kenntnisse für einen ordnungsgemäßen Betriebsablauf notwendig
+* Contacts take place on the same frequency
+* Only one side can talk – the other can only listen
+* If both transmit at the same time, neither hears the other
+* Knowledge of proper operating procedure is needed
 
 ---
 
-### Ablauf im Amateurfunk
+### Procedure in amateur radio
 
-* Es gibt keine verpflichtenden Vorgaben außer Nennung des Rufzeichens
-* Es macht aber Sinn, sich an der Betriebsabwicklung zu orientieren
+* There are no mandatory rules apart from giving the call sign
+* But it makes sense to follow the operating procedure
 
 <note>
-* In anderen Funkdiensten ist die Betriebsabwicklung genau vorgeschrieben, z.B. Flugfunk, Polizei, Feuerwehr, Rettungsdienste
+* In other radio services the operating procedure is laid down precisely, e.g. aeronautical radio, police, fire brigade, rescue services
 </note>
 
 ---
 
-### Freie Frequenz finden
+### Finding a free frequency
 
-* Frequenzen werden gemeinsam genutzt
-* Erst hören, ob die Frequenz frei ist
-* Zwei- bis dreimal kurz nachfragen, ob die Frequenz frei ist
+* Frequencies are shared
+* First listen to check whether the frequency is free
+* Briefly ask two or three times whether the frequency is in use
 
 <note>
-* Manchmal hört man nur eine Seite, deshalb etwas Wartezeit geben
+* Sometimes you only hear one side, so allow some waiting time
 </note>
 
 ---
 
-### Anruf starten
+### Starting a call
 
 <fragment>
-#### Allgemeiner Anruf
-* Geht an *alle* Stationen
-* Beginnt mit der internationalen Abkürzung *CQ*
+#### General call
+* Goes to *all* stations
+* Begins with the international abbreviation *CQ*
 </fragment>
 
 <fragment>
-#### Gezielter Anruf
-* Antwort von einer bestimmten Station erwartet
+#### Directed call
+* A reply is expected from one particular station
 </fragment>
 
 <fragment>
-In der Antwort wird erst das Rufzeichen der anrufenden Station, dann das eigene genannt
+In the reply, first the call sign of the calling station is given, then your own
 </fragment>
 
 <note>
-* Es heißt wie beim Telefon "Anruf"
-* CQ in etwa wie "seek you"
-* Im Deutschen auch "Allgemeiner Anruf"
+* As with the telephone, it is called a "call"
+* CQ roughly like "seek you"
+* In German also "Allgemeiner Anruf"
 </note>
 
 ---
 
-#### Allgemeiner Anruf
+#### General call
 
 <qso>
-Ist diese Frequenz frei? DL1PZ
-> *(keine Antwort)*
-Ist diese Frequenz frei? DL1PZ
-> *(keine Antwort)*
-CQ CQ hier ist DL1PZ mit einem allgemeinen Anruf, hier ist DL1PZ und hört.
-> DL1PZ hier ist DL9MJ bitte kommen
+Is this frequency in use? DL1PZ
+> *(no answer)*
+Is this frequency in use? DL1PZ
+> *(no answer)*
+CQ CQ this is DL1PZ with a general call, this is DL1PZ, listening.
+> DL1PZ this is DL9MJ, over
 </qso>
 
 ---
 
-#### Gezielter Anruf
+#### Directed call
 
 <qso>
-DL9MJ für DL1PZ bitte kommen
-> DL1PZ hier ist DL9MJ
+DL9MJ this is DL1PZ, over
+> DL1PZ this is DL9MJ
 </qso>
 
 ---
@@ -83,25 +83,25 @@ DL9MJ für DL1PZ bitte kommen
 [question:BE102]
 ---
 
-#### Unklare Verständigung
+#### Unclear communication
 
 <qso>
-D*(krschkrsch)*MJ für DK5WP, bitte kommen
-> Hier ist DL9MJ, wurde ich gerufen?
+D*(crackle-crackle)*MJ this is DK5WP, over
+> This is DL9MJ, was I called?
 </qso>
 
 <fragment>
-Nachfragen, ob man gemeint war
+Ask whether you were meant
 </fragment>
 
 ---
 [question:BE103]
 ---
 
-### Anruf beenden
+### Ending a call
 
-* Die Frequenz wird der anrufenden Station überlassen
-* Falls die antwortende Station zwischendurch von einer weiteren Station gerufen wurde, soll sie sich mit dieser auf eine andere Frequenz einigen, um der bisherigen Station die Frequenz zurückzugeben
+* The frequency is left to the calling station
+* If the answering station has been called by another station in the meantime, it should agree with that station on another frequency, so as to give the frequency back to the original station
 
 ---
 [question:BE108]

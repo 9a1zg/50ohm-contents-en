@@ -271,6 +271,34 @@ and the checker's "Provjera" section).
   "re-examination" covers the bare word without deciding more than the
   German. (Batch 10.)
 
+## Course text
+
+- **Numbered references are capitalised: *Figure*, *Table*.**
+  *Abbildung [ref:…]* and *Bild [ref:…]* both become "Figure [ref:…]",
+  *Tabelle [ref:…]* becomes "Table [ref:…]": the reference renders as a
+  number, and English capitalises a numbered float. (Unit
+  nea_erste_schritte.)
+- **The pronunciation column of the phonetic alphabet uses the ITU's
+  English respelling** (RR Appendix 14, as in the ICAO table): AL-FAH,
+  BRAH-VOH, CHAR-LEE … KEH-BECK … ZOO-LOO, upper case with hyphens like the
+  German. The German column (BRA-WO, TSCHA-LI, KWE-BECK) respells for German
+  readers and would mislead an English one; as with Q codes, the
+  established English wording of the same ITU list is used rather than a
+  fresh respelling. Where the ITU gives two forms (Charlie, Uniform), the
+  first. (Unit nea_erste_schritte, tables n_buchstabiertafel,
+  n_buchstabiertafel_1/_2.)
+- **On-air phrases in `<qso>` and in quoted calls use English voice
+  procedure**, in the wording the exam questions already use: *hier ist* →
+  "this is", *bitte kommen* → "over" (BE102), *Ist diese Frequenz frei?* →
+  "Is this frequency in use?" (BE105 *besetzt* → "in use"), *wurde ich
+  gerufen?* → "was I called?" (BE103). A German phrase the text quotes *as*
+  German usage ("Allgemeiner Anruf") stays German with the English in
+  brackets; digits spoken in German on national contacts (*Vier*) stay, as
+  the text itself explains. A German gloss that only translates an English
+  word back into German (*seek you, also "suche dich"*; *push to talk,
+  also "drücken, um zu senden"*) is dropped, as in the bracket rule above.
+  (Unit nea_erste_schritte.)
+
 ## Open questions for DARC
 
 - Suspected slips in the German original noticed while translating are listed

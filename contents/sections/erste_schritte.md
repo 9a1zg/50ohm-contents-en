@@ -1,33 +1,33 @@
-Was darf eigentlich ein Funkamateur, was alle anderen nicht dürfen? Jeder kann und darf Funkgeräte (sogenannte Transceiver) für den Amateurfunk kaufen und besitzen, ganz ohne Genehmigung. Auch eine Antennenanlage aufbauen und mit dem Transceiver verbinden ist kein Problem, solange man die Bauvorschriften einhält. Genauso der Empfang von Amateurfunksendungen - jeder darf das, ohne eine Zulassung für den Amateurfunk zu benötigen!
+What exactly may a radio amateur do that nobody else may? Anyone can buy and own radios for amateur radio (known as transceivers), without any licence at all. Putting up an antenna installation and connecting it to the transceiver is no problem either, as long as you comply with the building regulations. The same goes for receiving amateur radio transmissions – anyone may do so without needing an amateur radio licence!
 
 <margin>
-[photo:117:n_erste_schritte_transceiver:Ein Transceiver (Funkgerät) für den Amateurfunk]
+[photo:117:n_erste_schritte_transceiver:A transceiver (radio) for amateur radio]
 </margin>
 
 <wordorigin>
-Der Begriff *Transceiver* [index:Transceiver] ist aus den beiden englischen Worten für Sender (Transmitter) und Empfänger (Receiver) gebildet worden.
+The term *transceiver* [index:Transceiver] is formed from the two English words *transmitter* and *receiver*.
 </wordorigin>
 
 [question:VD102]
 
 ---
 
-Aber nur ein Funkamateur darf auf den Amateurfunkfrequenzen auf Sendung gehen, oder praktisch gesagt, die PTT-Taste drücken. PTT [index:PTT] ist die Abkürzung für "push to talk", also "drücken, um zu senden". So wird die Funktion bezeichnet, die einen Transceiver auf Sendung schaltet. Normalerweise ist ein Transceiver erstmal im Empfangsbetrieb. Erst wenn man die PTT-Taste drückt und festhält, wird gesendet. Nachdem man die Taste loslässt, schaltet der Transceiver wieder zurück auf Empfang. Die PTT-Taste ist meistens am Mikrofon angebracht.
+But only a radio amateur may go on the air on the amateur frequencies or, in practical terms, press the PTT button. PTT [index:PTT] is short for "push to talk". This is the name of the function that switches a transceiver to transmit. Normally a transceiver is in receive mode to begin with. It only transmits when you press and hold the PTT button. When you release the button, the transceiver switches back to receive. The PTT button is usually on the microphone.
 
 <margin>
-[photo:118:n_erste_schritte_ptt:Handmikrofon mit PTT-Taste (links oben)]
+[photo:118:n_erste_schritte_ptt:Hand microphone with PTT button (top left)]
 </margin>
 
 [question:NF108]
 
 ---
 
-Nicht alle Prüfungsfragen werden so einfach sein. Aber dieser Kurs vermittelt alles nötige Wissen, um die Prüfung erfolgreich zu bestehen. Etwas Schulmathematik setzen wir allerdings voraus. Die Grundrechenarten und der Dreisatz müssen beherrscht werden. Wer die folgenden Prüfungsfragen richtig beantworten kann, erfüllt diese Voraussetzungen.
+Not all examination questions will be this easy. But this course teaches all the knowledge you need to pass the examination. We do, however, assume some school mathematics: you need to have mastered the four basic arithmetic operations and the rule of three. If you can answer the following examination questions correctly, you meet these requirements.
 
 [question:NA101]
 [question:NA103]
 [question:NA102]
 
 <margin>
-*Schwierigkeiten mit der Mathematik?* Im Internet findet sich Lernmaterial dazu, z. B. [hier](https://50ohm.de/tr). Vielleicht können auch hilfsbereite Menschen aus Freundeskreis, Familie, Schule oder Ausbildungsstätte helfen.
+*Having trouble with mathematics?* There is learning material on the internet, e.g. [here](https://50ohm.de/tr). Perhaps helpful people among your friends and family, or at school or your place of training, can also help.
 </margin>

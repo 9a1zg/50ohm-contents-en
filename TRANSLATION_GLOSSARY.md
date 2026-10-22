@@ -1871,6 +1871,26 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Präsentation / Folie / Referentenansicht / Vollbild | presentation / slide / presenter view / full screen | |
 | Start / Suche / Infos | Home / Search / About | site navigation |
 | Eselsbrücke | mnemonic | |
+| Grundrechenarten / Dreisatz | the four basic arithmetic operations / the rule of three | school maths the course assumes (erste_schritte); UK schools also say *unitary method* |
+| Kofferwort | portmanteau (word) | |
+| PTT-Taste / Handmikrofon | PTT button / hand microphone | *button*, as NF108 |
+| Abbildung / Bild / Tabelle [ref:…] | Figure / Table [ref:…] | capitalised before a numbered reference (DECISIONS.md) |
+| Aussprache (Buchstabiertafel) | pronunciation | the column uses the ITU's English respelling, RR Appendix 14 (DECISIONS.md) |
+| hier ist / von (in a call) / bitte kommen / und hört | this is / this is / over / listening | voice procedure in `<qso>` (BE102, BE103; DECISIONS.md) |
+| Ist diese Frequenz frei? | Is this frequency in use? | BE105 *besetzt* → "in use" |
+| Wer zuerst kommt, mahlt zuerst | first come, first served | |
+| Lesbarkeit / Verständlichkeit | readability / intelligibility | RST R value |
+| nicht lesbar / zeitweise lesbar / mit Schwierigkeiten lesbar / ohne Schwierigkeiten lesbar / einwandfrei lesbar | unreadable / readable at times / readable with difficulty / readable without difficulty / perfectly readable | RST R scale (rst) |
+| einwandfrei / unverständlich (Signal) | perfect / unintelligible | RST examples; BE204 "perfectly" |
+| Empfangspegelanzeige / Empfangspegel | received-signal-level indicator / received signal level | the S meter (NF301) |
+| über Stufe 9 (S-Meter) | above S9 | "9+20dB" unchanged |
+| Flugfunk / Seefunk | aeronautical radio / maritime radio | informal service names in course text |
+| Flug- und Seefunkstellen | aeronautical and maritime radio stations | |
+| zugelassenes CB-Funk-Gerät | approved CB radio | |
+| Verschleierungsverfahren | methods of obscuring the content | as *Verschleierung* (§1.1), VD103 "to obscure the content" |
+| digitale Kodierungen | digital encodings | |
+| Taxi-Funk / Absprachen in einem Unternehmen | taxi radio / coordination within a business | gewerblich |
+| Zusatz "/T" (Ausbildungsfunk) | suffix "/T" | as *Rufzeichenzusatz* (§1.3), VD306 |
 | Lösungsweg / Lösung über Ausschlussverfahren | solution / solution by elimination | |
 | Hausaufgaben | homework | |
 | Koordinatensystem / Achse / Nulllinie | coordinate system / axis / zero line | |

@@ -1,4 +1,4 @@
-Der Amateurfunk darf nicht wirtschaftlich genutzt werden. Es ist also beispielsweise unzulässig, gegen Geld die Nutzung des Amateurfunks anzubieten oder den Amateurfunk für Absprachen in einem Unternehmen zu benutzen, z. B. als Taxi-Funk.
+Amateur radio may not be used for commercial purposes. So it is not permitted, for example, to offer the use of amateur radio for money, or to use amateur radio for coordination within a business, e.g. as taxi radio.
 
 [question:VC114]
 [question:VC115]

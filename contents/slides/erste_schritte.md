@@ -1,14 +1,14 @@
-## Der erste Schritt
+## The first step
 
 <left>
-[photo:117:n_erste_schritte_transceiver:Ein Transceiver (Funkgerät) für den Amateurfunk]
+[photo:117:n_erste_schritte_transceiver:A transceiver (radio) for amateur radio]
 </left>
 <right>
-* Jeder darf Funkgeräte kaufen und besitzen
-* und Amateurfunksendungen empfangen
+* Anyone may buy and own radios
+* and receive amateur radio transmissions
 </right>
 <note>
-Wort _Transceiver_ einführen: Kofferwort aus Transmitter (Sender) und Receiver (Empfänger)
+Introduce the word _transceiver_: a portmanteau of transmitter and receiver
 </note>
 
 ---
@@ -17,22 +17,22 @@ Wort _Transceiver_ einführen: Kofferwort aus Transmitter (Sender) und Receiver 
 
 ---
 
-### Ein Funkamateur darf senden
+### A radio amateur may transmit
 
 <left>
-[photo:118:n_erste_schritte_ptt:Handmikrofon mit PTT-Taste (links oben)]
+[photo:118:n_erste_schritte_ptt:Hand microphone with PTT button (top left)]
 </left>
 
 <right>
-Auf Sendung gehen (die PTT-Taste drücken)
+Going on the air (pressing the PTT button)
 
-* Taste am Funkgerät oder Mikrofon
-* Schaltet den Transceiver von Empfangs- auf Sendebetrieb um
+* Button on the radio or microphone
+* Switches the transceiver from receive to transmit
 </right>
 
 <note>
 * PTT: push to talk
-* noch ein Bulletpoint
+* another bullet point
 </note>
 
 ---
@@ -41,12 +41,12 @@ Auf Sendung gehen (die PTT-Taste drücken)
 
 ---
 
-### Mathematische Grundkenntnisse
+### Basic mathematics
 
-* Im Amateurfunk werden Grundkenntnisse in Mathematik benötigt
-* Insbesondere Grundrechenarten und Dreisatz
-* Je nach Klasse mehr Wissen notwendig
-* Der Lehrgang unterstützt, kann aber nicht alles notwendige Wissen vermitteln
+* Amateur radio requires a basic knowledge of mathematics
+* In particular the four basic arithmetic operations and the rule of three
+* More knowledge needed, depending on the class
+* The course helps, but cannot teach all the knowledge needed
 
 ---
 
