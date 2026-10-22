@@ -1,19 +1,19 @@
-Zur Vermeidung von Gefährdungen durch elektrischen Schlag sollten die Metallgehäuse aller Geräte einer Amateurfunkstelle, z. B. Transceiver, Netzteil und Anpassgerät, jeweils über kurze Leitungen zusammengeführt und mit der Haupterdungsschiene des Gebäudes verbunden sein.  Bei vielen Geräten findet man dafür auf der Rückseite einen spezieller Schraubanschluss. Diese Maßnahme dient dem *Potentialausgleich* und der *Erdung* und sollte ebenfalls nach den anerkannten Regeln der Technik durchgeführt werden.
+To avoid the danger of electric shock, the metal cases of all the equipment of an amateur station, e.g. transceiver, power supply and antenna tuning unit, should each be brought together by short leads and connected to the main earthing terminal of the building. Many items of equipment have a special screw terminal on the back for this purpose. This measure serves *equipotential bonding* and *earthing* and should likewise be carried out according to the recognised codes of practice.
 
-Unter *Potentialausgleich* versteht man, dass keine gefährliche Berührungsspannung zwischen den einzelnen Geräten entstehen kann. Unter *Erdung* versteht man, dass z. B. aufgrund eines Defekts auftretende unerwünschte elektrische Ströme vom Gehäuse in die Erde abgeleitet werden können.
+*Equipotential bonding* means that no dangerous touch voltage can arise between the individual items of equipment. *Earthing* means that unwanted electric currents, arising for example from a fault, can be carried away from the case into the earth.
 
 <margin>
-[photo:81:n_Schraubanschluss_GND:Schraubanschluss Ground (GND) am TRX]
+[photo:81:n_Schraubanschluss_GND:Ground (GND) screw terminal on the TRX]
 </margin>
 
-Wie der Potentialausgleich und die Erdung von Funkanlagen fachgerecht durchgeführt werden kann, beschreibt die Norm VDE 0855-300, die auch für Amateurfunk-Sendeanlagen anwendbar ist. Möchte man eine Antenne auf einem Gebäude anbringen, das über ein Blitzschutzsystem verfügt, dann kann man in der Norm VDE 0185-305 nachlesen, wie dies dem Stand der Technik entsprechend durchgeführt werden kann.
+How equipotential bonding and earthing of radio installations can be carried out properly is described in standard VDE 0855-300, which also applies to amateur radio transmitting installations. If you want to mount an antenna on a building that has a lightning protection system, you can look up in standard VDE 0185-305 how this can be done in line with the state of the art.
 
 <tip>
-Die *Beschaffung von VDE-Normen* ist recht teuer. Es kann sich daher anbieten, auf andere Quellen zurückzugreifen, in denen die Regelungen der Normen erläutert werden.
+*Obtaining VDE standards* is rather expensive. It may therefore make sense to turn to other sources in which the provisions of the standards are explained.
 </tip>
 
 <danger>
-Arbeiten an einem Blitzschutzsystem sollten ausschließlich durch Blitzschutzfachkräfte vorgenommen werden, die über eine entsprechende Ausbildung verfügen! Ebenfalls sollte der Anschluss von Potentialausgleich und Erdung nur vorgenommen werden, wenn man genau weiß, was man tut. Im Zweifel sollte man sich von einem erfahreneren Funkamateur oder einer Elektrofachkraft helfen lassen.
+Work on a lightning protection system should only be carried out by lightning protection specialists who have the appropriate training! Likewise, equipotential bonding and earthing should only be connected if you know exactly what you are doing. If in doubt, get help from a more experienced radio amateur or a qualified electrician.
 </danger>
 
 [question:VE604]

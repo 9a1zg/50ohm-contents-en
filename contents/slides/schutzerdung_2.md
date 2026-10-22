@@ -1,34 +1,34 @@
-## Potentialausgleich in Haushalten und Stationen
+## Equipotential bonding in households and stations
 
-* In jedem Haushalt und bei jeder Amateurfunkstation gibt es zahlreiche elektrisch leitfähige Gegenstände (z. B. Erdleitungen, Wasserleitungen, Heizungsrohre, Koaxialkabel, Metallgehäuse)
-* Defekte, Fehler bei Elektroinstallationen, elektrostatische Aufladungen oder Blitzschlag können zu gefährlichen Potentialdifferenzen führen
+* In every household and every amateur station there are numerous electrically conductive objects (e.g. earth leads, water pipes, heating pipes, coaxial cables, metal cases)
+* Faults, mistakes in electrical installations, electrostatic charges or lightning strikes can lead to dangerous potential differences
 
 ---
 
-* Durch Verbinden aller leitfähigen Teile in einem Bereich wird ein Potentialausgleich erreicht, der Personen vor elektrischem Schlag schützt
-* Die Verbindungen müssen niederohmig sein, um einen sicheren Potentialausgleich zu gewährleisten
+* Connecting all the conductive parts in an area together achieves equipotential bonding, which protects persons from electric shock
+* The connections must be low-resistance to ensure reliable equipotential bonding
 
 ---
 [question:AK202]
 
 ---
-## Resonanz in separaten Erdungsleitungen
+## Resonance in separate earthing conductors
 
-* Geräte werden geerdet, um fremde Potentiale sicher abzuleiten
-* Hochfrequenzströme suchen oft eigene Wege – separate Erdungsleitungen können dadurch in Resonanz mit der Sendefrequenz geraten
+* Equipment is earthed to carry external potentials safely away
+* RF currents often find their own paths – separate earthing conductors can therefore become resonant at the transmit frequency
 
 ---
 
-* Bei einer Leitungslänge von $ \lambda/4 $ oder einem ungeraden Vielfachen davon entsteht Resonanz
-* Da das Ende der Leitung geerdet ist, kann sich dort kein Spannungsbauch bilden – stattdessen baut sich am Anschluss der Erdungsleitung am Sender eine hohe Spannung auf
-* Das Sendergehäuse wird „heiß“ und berührungsempfindlich, was zu elektrischem Schlag oder Verbrennungen führen kann
+* Resonance occurs with a lead length of $ \lambda/4 $ or an odd multiple of it
+* Since the end of the lead is earthed, no voltage antinode can form there – instead, a high voltage builds up where the earthing conductor is connected to the transmitter
+* The transmitter case becomes "hot" and sensitive to touch, which can lead to electric shock or burns
 
 ---
 [question:AK203]
 
 ---
-### Tipps
+### Tips
 
-* Ändere die Länge der separaten Erdungsleitung so, dass keine Resonanz mit einem der Amateurfunkbänder auftritt
-* Gegebenenfalls muss eine vorhandene Erdungsleitung verlängert werden
+* Change the length of the separate earthing conductor so that it is not resonant on any of the amateur bands
+* If necessary, an existing earthing conductor must be lengthened
 

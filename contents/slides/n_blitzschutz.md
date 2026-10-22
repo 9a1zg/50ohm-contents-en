@@ -1,20 +1,20 @@
-## Blitzschutz
+## Lightning protection
 
-* Antennen sind durch direkte Blitzeinschläge gefährdet
-* Schutzmaßnahmen nach *anerkannten Regeln der Technik* ergreifen
-* Es gibt vom VDE die Norm VDE 0185-305
+* Antennas are at risk from direct lightning strikes
+* Take protective measures according to the *recognised codes of practice*
+* The VDE has issued the standard VDE 0185-305
 
 <note>
-* VDE: Verband der Elektrotechnik Elektronik und Informationstechnik e. V.
-* weltweit tätige Organisation
-* geben VDE-Normen zur Unfallverhütung raus
-* VDE-Normen sind teuer, aber es gibt Literatur, die die Inhalte der Normen beschreiben
+* VDE: Association for Electrical, Electronic and Information Technologies (Verband der Elektrotechnik Elektronik und Informationstechnik e. V.)
+* Organisation active worldwide
+* Publishes VDE standards for accident prevention
+* VDE standards are expensive, but there is literature that describes the content of the standards
 </note>
 
 --- 
-## Achtung
+## Caution
 
-Arbeiten an einem Blitzschutzsystem sollten ausschließlich durch Blitzschutzfachkräfte vorgenommen werden, die über eine entsprechende Ausbildung verfügen!
+Work on a lightning protection system should only be carried out by lightning protection specialists who have the appropriate training!
 
 ---
 [question:VE603]

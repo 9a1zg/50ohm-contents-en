@@ -1,9 +1,9 @@
-*Eine Sendeantenne in Betrieb berührt man nicht!*
+*You do not touch a transmitting antenna in operation!*
 
-* Hohe Wechselspannungen
-* Verursachen Herzrhythmusstörungen, Verbrennungen und andere Verletzungen
-* Kann zum Tod führen
-* Auch zu Sekundärunfall wie Sturz von der Leiter durch Erschrecken und Verkrampfen
+* High AC voltages
+* Cause cardiac arrhythmias, burns and other injuries
+* Can be fatal
+* Also secondary accidents, such as a fall from the ladder caused by fright and cramp
 
 ---
 [question:EK202]

@@ -1,12 +1,12 @@
 <left>
 Problem:
-* Leitfähige Gegenstände können unerwünschte Potentiale (Spannungen) aufweisen
-* Z.B. elektrische Aufladung, Blitz oder Fehler im Gerät
+* Conductive objects can carry unwanted potentials (voltages)
+* E.g. electrical charging, lightning or a fault in the equipment
 </left>
 <right>
-Maßnahmen:
-* Elektrisch leitende Teile miteinander verbinden
-* Bei Koaxialkabeln die Schirme miteinander verbinden und an der Haupterdungsschiene anschließen
+Measures:
+* Connect electrically conductive parts together
+* With coaxial cables, connect the screens together and to the main earthing terminal
 </right>
 
 ---

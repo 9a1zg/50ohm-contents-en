@@ -1,22 +1,22 @@
-* Insbesondere im Mikrowellenbereich werden Parabol- oder Helixantennen verwendet
-* Hoher Antennengewinn
-* Aus wenig Eingangsleistung wird eine hohe Strahlungsleistung
-* $\qty{20}{\dB}$ sind üblich $\rightarrow\qty{1}{\watt}$ Sendeleistung werden $\qty{100}{\watt}$ Strahlungsleistung
+* Parabolic or helical antennas are used, particularly in the microwave range
+* High antenna gain
+* Little input power becomes a high radiated power
+* $\qty{20}{\dB}$ is common $\rightarrow\qty{1}{\watt}$ transmit power becomes $\qty{100}{\watt}$ radiated power
 
 <note>
-* 20dB = Faktor 100
+* 20dB = factor 100
 </note>
 
 ---
-* Hohe elektromagnetische Felder in der Strahlungskeule
-* Gefahr für Körper, insbesondere Augen, Gehirn und Hoden
-* Kann zu Erkrankungen dieser Organe führen
-* Die Strahlung ist nicht direkt zu spüren
-* *Der Aufenthalt im direkten Strahlengang von Sendeantennen ist zu vermeiden!*
+* Strong electromagnetic fields in the radiation lobe
+* Danger to the body, especially the eyes, brain and testes
+* Can lead to diseases of these organs
+* The radiation cannot be felt directly
+* *Staying in the direct beam of transmitting antennas must be avoided!*
 
 ---
 [question:EK201]
 
 <note>
-* Aufgrund der sehr unterhaltsamen Distraktoren können einige Antworten direkt ausgeschlossen werden
+* Thanks to the very entertaining distractors, some answers can be ruled out straight away
 </note>

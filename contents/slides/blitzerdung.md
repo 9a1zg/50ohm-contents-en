@@ -1,48 +1,48 @@
-* Antennenanlagen erhöhen nicht die Wahrscheinlichkeit für einen Blitzeinschlag
-* Wenn aber ein Blitz einschlägt, dann in die exponierte Antenne
-* Deshalb müssen *Antennenanlagen geerdet* oder in ein vorhandenes *Blitzschutzkonzept* integriert werden
+* Antenna installations do not increase the probability of a lightning strike
+* But if lightning does strike, it will strike the exposed antenna
+* *Antenna installations* must therefore *be earthed* or integrated into an existing *lightning protection concept*
 
 <note>
-* Gute Lektüre: ["Leitfaden zum Schutz von Funkanlagen auf Gebäuden bei Blitzschlag"](https://50ohm.de/vde-blitz) des VDE
+* Good reading: the VDE's ["Guide to protecting radio installations on buildings against lightning strikes"](https://50ohm.de/vde-blitz)
 </note>
 ---
-### Überspannung
+### Overvoltage
 
 <left>
-[photo:191::Durch Überspannung völlig zerstörter Kondensator in einem Netzteil. Ursache war ein Blitzeinschlag in der Nähe der Station. Hier kam die Überspannung über das Stromnetz.]
+[photo:191::Capacitor in a power supply completely destroyed by overvoltage. The cause was a lightning strike near the station. Here the overvoltage came in through the mains.]
 </left>
 <right>
-* Auch ein Blitz in der Nähe kann durch Überspannung große Schäden anrichten
-* Ursache ist Induktion in Strom- oder Telefonienetz
+* Even lightning nearby can cause a great deal of damage through overvoltage
+* The cause is induction in the mains or telephone network
 </right>
 
 ---
-### Blitzschutz
+### Lightning protection
 
 <left>
-* Blitzschutz-Zwischenstecker für Koaxialkabel mit Gasentladungsröhre
-* Antennenzuleitung nach dem Funkbetrieb erden, z.B. an Gebäudeerdungsanlage
-* Dafür ist eine Erdungsleitung notwendig
+* In-line lightning protection adapter for coaxial cable with a gas discharge tube
+* Earth the antenna feeder after operating, e.g. to the building earthing system
+* This requires an earthing conductor
 </left>
 <right>
-* Massiver Draht, keine Litze
-* Kupfer $\qty{16}{\milli\meter\squared}$
+* Solid wire, not stranded
+* Copper $\qty{16}{\milli\meter\squared}$
 * Aluminium $\qty{25}{\milli\meter\squared}$
-* Stahl $\qty{50}{\milli\meter\squared}$
+* Steel $\qty{50}{\milli\meter\squared}$
 </right>
 <note>
-* Antenne erden: Antennenkabel abschrauben und an Erde anschließen
+* Earthing the antenna: unscrew the antenna cable and connect it to earth
 </note>
 ---
 [question:EK209]
 ---
 [question:EK210]
 ---
-### Blitzschutzkonzept
+### Lightning protection concept
 
-* Bei Änderungen an der Blitzschutzanlage eine Blitzschutz-Fachkraft einbeziehen
-* Insbesondere beim Anschluss von Antennen-Standrohren an die Blitzschutzanlage
-* Aufnahme der Veränderungen in das Blitzschutzkonzept des Gebäudes
+* Involve a lightning protection specialist when making changes to the lightning protection system
+* Especially when connecting antenna masts to the lightning protection system
+* Include the changes in the building's lightning protection concept
 
 ---
 [question:EK211]

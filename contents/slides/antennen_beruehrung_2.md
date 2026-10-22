@@ -1,22 +1,22 @@
-## Hohe Spannungen an Sendeantennen
+## High voltages on transmitting antennas
 
 <left>
-[picture:851:a_spannungsbauch:Wie beim klassischen Dipol bilden sich bei der endgespeisten Halbwellenantenne an beiden Enden Spannungsbäuche. Dort ist eine Berührung besonders gefährlich]
+[picture:851:a_spannungsbauch:As with the classic dipole, voltage antinodes form at both ends of the end-fed half-wave antenna. Touching it there is particularly dangerous]
 </left>
 <right>
-* Die Spannungen sind ungleich verteilt
-* Beim klassischen Dipol bilden sich an beiden Enden Spannungsbäuche mit hohen Spannungen, die selbst bei geringen Sendeleistungen (wenige Watt) eine erhebliche Verletzungsgefahr darstellen
+* The voltages are unevenly distributed
+* On the classic dipole, voltage antinodes with high voltages form at both ends, and they present a considerable risk of injury even at low transmit powers (a few watts)
 </right>
 
 ---
-## Abhängigkeit von Antennentyp und Sicherheit
+## Dependence on the type of antenna, and safety
 
 <left>
-[picture:852:a_spannungsbauch_multiband:Eine endgespeiste Halbwellenantenne für das $\qty{80}{\meter}$-Band kann ohne Probleme auch für das $\qty{20}{\meter}$-Band genutzt werden. In diesem Fall bilden sich mehrere Spannungsbäuche aus. Deshalb ist Verletzungsgefahr nicht nur an den Antennenenden besonders hoch, das ist sie auch bei den Spannungsbäuchen dazwischen.]
+[picture:852:a_spannungsbauch_multiband:An end-fed half-wave antenna for the $\qty{80}{\meter}$ band can also be used for the $\qty{20}{\meter}$ band without any problems. In this case, several voltage antinodes form. The risk of injury is therefore particularly high not only at the ends of the antenna but also at the voltage antinodes in between.]
 </left>
 <right>
-* Der Ort der Spannungsbäuche hängt vom Antennentyp ab (z. B. Monobandantenne, Mehrbandantenne).
-* *Eine Sendeantenne in Betrieb berührt man nicht!*
+* Where the voltage antinodes are depends on the type of antenna (e.g. monoband antenna, multiband antenna).
+* *You do not touch a transmitting antenna in operation!*
 </right>
 
 ---

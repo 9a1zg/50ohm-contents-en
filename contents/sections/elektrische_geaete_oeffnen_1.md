@@ -1,13 +1,13 @@
-Funkamateure dürfen Geräte öffnen und verändern. Zum eigenen Schutz gibt es einiges zu beachten. Das beginnt damit, dass man das Gerät von Netz trennt. Damit ist die Gefahr eines elektrischen Schlags aber noch nicht abgewendet!
+Radio amateurs may open and modify equipment. For your own protection, there are a number of things to bear in mind. It starts with disconnecting the equipment from the mains. But that does not yet avert the danger of an electric shock!
 
 <danger>
-Arbeiten an der $\qty{230}{\volt}$-Netzseite eines Gerätes dürfen grundsätzlich nur von einer Elektrofachkraft durchgeführt werden!
+Work on the $\qty{230}{\volt}$ mains side of equipment must, as a matter of principle, only be carried out by a qualified electrician!
 </danger>
  
-Wir müssen besonders auf die Kondensatoren im Netzteil achten. Sie speichern Energie, in Form von elektrischen Ladungen, auch dann noch, wenn sie von der Versorgungsspannung getrennt wurden. Die Dauer hängt von der Qualität der verwendeten Bauteile und von der äußeren Beschaltung ab.
+We must pay particular attention to the capacitors in the power supply. They store energy, in the form of electric charges, even after they have been disconnected from the supply voltage. How long for depends on the quality of the components used and on the external circuitry.
 
 <danger>
-Bei allen Schaltnetzteilen liegt bei einem Teil der Kondensatoren eine sehr hohe Spannung an, damit auch an anderen Bauteilen des Stromkreises. Bei Berührung besteht Lebensgefahr. Dies gilt auch für einige Zeit nach der Trennung vom Stromnetz.
+In all switch-mode power supplies, some of the capacitors carry a very high voltage, and so do other components of the circuit. Touching them is a danger to life. This also applies for some time after disconnection from the mains.
 </danger>
 
 [question:EK203]

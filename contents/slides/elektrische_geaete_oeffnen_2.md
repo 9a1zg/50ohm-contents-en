@@ -1,35 +1,35 @@
-## Sicherheit bei Reparaturen
+## Safety during repairs
 
-* Eigene Geräte zu reparieren ist für viele Funkamateure Ehrensache
-* Sicherheit nicht vergessen – Schäden dürfen nicht vergrößert werden
-* Tragen von Isolierhandschuhen in einer ausreichenden Schutzklasse
-* Isoliertes Werkzeug verwenden
-
----
-## Fehlersuche und Vorbereitung
-
-* Reparatur beginnt immer mit der Fehlersuche
-* Gerät wird zunächst vom Netz getrennt, bevor es geöffnet wird
-* *Achtung*: Kondensatoren im Netzteil bleiben auch ohne Netzstrom geladen
+* For many radio amateurs, repairing their own equipment is a point of honour
+* Do not forget safety – damage must not be made worse
+* Wear insulating gloves of an adequate protection class
+* Use insulated tools
 
 ---
-### Gefährliche Spannungen
+## Troubleshooting and preparation
 
-* Schaltnetzteile für Transistorendstufen können an Kondensatoranschlüssen Spannungen oberhalb der Netz-Nennspannung aufweisen
-* Bei Röhrenendstufen ist die Spannung noch deutlich höher
-* Das Verhalten kann lebensgefährlich sein
-
----
-### Sichere Entladung der Kondensatoren
-
-* Ohne Eingriffe baut sich die Ladung langsam ab – jedoch nicht schnell genug für die Sicherheit
-* Direktes Kurzschließen der Kondensatoren ist gefährlich und kann zu tödlichen Stromschlägen oder Bränden führen
+* A repair always begins with troubleshooting
+* The equipment is first disconnected from the mains before it is opened
+* *Caution*: capacitors in the power supply remain charged even without mains power
 
 ---
-### Sichere Entladung mit Widerstand
+### Dangerous voltages
 
-* Entladung erfolgt mit einem hochohmigen, isolierten Widerstand – langsam und sicher
-* Die Belastbarkeit des Widerstandes muss an die Kapazität des Kondensators angepasst werden
+* Switch-mode power supplies for transistor PAs can have voltages above the nominal mains voltage at capacitor terminals
+* With valve PAs, the voltage is considerably higher still
+* This behaviour can be life-threatening
+
+---
+### Discharging the capacitors safely
+
+* Without intervention, the charge dissipates slowly – but not quickly enough for safety
+* Short-circuiting the capacitors directly is dangerous and can lead to fatal electric shocks or fires
+
+---
+### Discharging safely with a resistor
+
+* Discharge with a high-value, insulated resistor – slowly and safely
+* The power rating of the resistor must be matched to the capacitance of the capacitor
 
 ---
 [question:AK201]

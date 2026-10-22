@@ -1,14 +1,14 @@
 <left>
-[photo:83:n_antennen_hausdach:Antennenanlage für KW, VHF und UHF auf einem Hausdach]
+[photo:83:n_antennen_hausdach:Antenna installation for HF, VHF and UHF on a house roof]
 </left>
 <right>
-* Baurechtliche Bestimmungen des Bundeslandes
-* Höhe, Abstände zu Nachbargrundstücken, Windlast, etc.
-* Es haftet der Eigentümer oder Betreiber der Antennenanlage
+* Building regulations of the federal state
+* Height, distances from neighbouring properties, wind load, etc.
+* The owner or operator of the antenna installation is liable
 </right>
 <note>
-* Beim örtlichen Bauamt nachfragen
-* In der DARC-Mitgliedschaft ist eine Haftpflichtversicherung für Antennenanlagen des Mitglieds enthalten (solange sie vorschriftsmäßig aufgebaut sind)
+* Ask the local building authority
+* DARC membership includes liability insurance for the member's antenna installations (as long as they are erected in compliance with the regulations)
 </note>
 
 ---

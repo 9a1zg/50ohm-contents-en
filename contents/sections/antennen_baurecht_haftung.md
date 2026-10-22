@@ -1,16 +1,16 @@
-Beim Aufbau von Antennen sind Vorschriften zu beachten, die sich von Bundesland zu Bundesland unterscheiden. Hier kann z. B. geregelt sein, ab welcher Windlast oder Höhe eines Antennenmastes eine Baugenehmigung erforderlich ist. Eventuell sind bestimmte Abstände zu den Nachbargrundstücken einzuhalten. Das örtliche Bauamt von Stadt oder Gemeinde kann darüber Auskunft erteilen.
+When erecting antennas, regulations must be observed that differ from one federal state to another. They may lay down, for example, the wind load or height of an antenna mast above which a building permit is required. Certain distances from neighbouring properties may also have to be kept. The local building authority of the town or municipality can provide information on this.
 
 <margin>
-[photo:83:n_antennen_hausdach:Antennenanlage für KW, VHF und UHF auf einem Hausdach]
+[photo:83:n_antennen_hausdach:Antenna installation for HF, VHF and UHF on a house roof]
 </margin>
 
 <tip>
-Mitglieder des DARC haben automatisch eine Haftpflichtversicherung für von ihnen betriebene Antennenanlagen, sofern sie vorschriftsmäßig aufgebaut sind. Die Versicherungsleistung ist bereits im Mitgliedsbeitrag enthalten.
+Members of the DARC automatically have liability insurance for the antenna installations they operate, provided these are erected in compliance with the regulations. The insurance cover is already included in the membership fee.
 
-[Jetzt Mitglied im DARC werden!](https://50ohm.de/mw)
+[Become a DARC member now!](https://50ohm.de/mw)
 </tip>
 
-Es ist wichtig zu wissen, dass der Betreiber für seine Antennenanlage selbst voll verantwortlich ist und für Schäden gegenüber Dritten haftet!
+It is important to know that the operator is fully responsible for their own antenna installation and is liable for damage to third parties!
 
 [question:VE602]
 [question:VE707]

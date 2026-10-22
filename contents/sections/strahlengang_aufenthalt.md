@@ -1,19 +1,19 @@
 % Quelle: % https://www.bfs.de/DE/themen/emf/hff/wirkung/hff-nachgewiesen/hff-nachgewiesen.html
 
-Bei Mikrowellen werden im Amateurfunk häufig Parabolantennen oder Helixantennen eingesetzt. Beiden Antennen ist gemeinsam, dass damit ein sehr großer Antennengewinn erzielt werden kann. Aus wenigen Watt, sogar aus wenigen Milliwatt werden beachtliche Strahlungsleistungen. Bei Parabolantennen ist ein Gewinn von $\qty{20}{\dB}$ relativ einfach zu erreichen. So wird aus einer Sendeleistung von $\qty{1}{\watt}$ eine Strahlungsleistung von $\qty{100}{\watt}$. Hat der Spiegel einen Gewinn von $\qty{30}{\dB}$ sind es sogar $\qty{1000}{\watt}$. Entsprechend stark sind die elektromagnetischen Felder in der Strahlungskeule.
+In amateur radio, parabolic antennas or helical antennas are often used at microwaves. What the two antennas have in common is that a very high antenna gain can be achieved with them. A few watts, even a few milliwatts, become considerable radiated powers. With parabolic antennas, a gain of $\qty{20}{\dB}$ is relatively easy to achieve. A transmit power of $\qty{1}{\watt}$ thus becomes a radiated power of $\qty{100}{\watt}$. If the dish has a gain of $\qty{30}{\dB}$, it is as much as $\qty{1000}{\watt}$. The electromagnetic fields in the radiation lobe are correspondingly strong.
 
-Hochfrequente elektromagnetische Felder wirken auf den menschlichen Körper überwiegend thermisch, das heißt durch die Erwärmung von Gewebe. Besonders empfindlich sind dabei Körperbereiche mit eingeschränkter Wärmeabfuhr, etwa die Augen, das Gehirn oder die Hoden. Aus diesem Grund sind geeignete Schutzmaßnahmen grundsätzlich für alle Menschen erforderlich.
+RF electromagnetic fields act on the human body mainly thermally, that is, by heating tissue. Parts of the body with limited heat dissipation, such as the eyes, the brain or the testes, are particularly sensitive. For this reason, suitable protective measures are necessary in principle for everyone.
 
-Der Aufenthalt im direkten Strahlengang einer Sendeantenne, insbesondere bei Mikrowellen, ist gefährlich. Er ist absolut zu vermeiden.
+Staying in the direct beam of a transmitting antenna, especially at microwaves, is dangerous. It must be avoided at all costs.
 
 <indepth>
-In der Formelsammlung ist die Formel zur Berechnung des Antennengewinns von Parabolantennen zu finden:
+The formula for calculating the antenna gain of parabolic antennas can be found on the formula sheet:
 
 $g_\text{i} = 10 \cdot \log_{10} \left[\left(\frac{\pi\cdot d}{\lambda}\right) ^2 \cdot\eta~\right] \unit{\dB}$
   
-Die Wellenlänge geht in die Berechnung mit ein. Sie steht im Nenner d.h. je kleiner die Wellenlänge, desto größer ist der Gewinn.
+The wavelength enters into the calculation. It is in the denominator, i.e. the smaller the wavelength, the greater the gain.
   
-Links im [Hamnet](https://50ohm.de/hamnet) werden im Frequenzbereich $\qtyrange{5650}{5850}{\mega\hertz}$ betrieben ($\lambda = \qty{5,2}{\centi\meter}$ in der Bandmitte). Schon mit einem Spiegel mit einem Durchmesser von $\qty{0,80}{\meter}$ erzielt man einen Gewinn von rund $\qty{33}{\dB}$ (bei $\eta=1$). Für einen vergleichbaren Gewinn wäre im $\qty{70}{\centi\meter}$-Band ein Durchmesser von $\qty{10}{\meter}$ erforderlich. So große Parabolantennen könnte man nicht einfach irgendwo aufstellen. Deshalb wird speziell nach dem Umgang mit Mikrowellen gefragt, bei denen die Gefahr, wegen der relativ kleinen Antennen, leicht unterschätzt werden kann. 
+Links in [Hamnet](https://50ohm.de/hamnet) are operated in the frequency range $\qtyrange{5650}{5850}{\mega\hertz}$ ($\lambda = \qty{5.2}{\centi\meter}$ in the middle of the band). Even with a dish $\qty{0.80}{\meter}$ in diameter, a gain of around $\qty{33}{\dB}$ is achieved (with $\eta=1$). For a comparable gain on the $\qty{70}{\centi\meter}$ band, a diameter of $\qty{10}{\meter}$ would be needed. Parabolic antennas that large could not simply be set up anywhere. That is why there is a question specifically on handling microwaves, where the danger can easily be underestimated because the antennas are relatively small. 
 </indepth>
 
 ---
@@ -21,10 +21,10 @@ Links im [Hamnet](https://50ohm.de/hamnet) werden im Frequenzbereich $\qtyrange{
 [question:EK201]
 
 <attention>
-Das [Bundesamt für Strahlenschutz](https://50ohm.de/bfs) informiert auf seiner Seite über die biologische Wirkungen von hochfrequenten Felder auf menschliche Körper.
+The [Federal Office for Radiation Protection (Bundesamt für Strahlenschutz)](https://50ohm.de/bfs) provides information on its website about the biological effects of RF fields on the human body.
   
-* Hochfrequente elektromagnetische Felder werden vom Körper aufgenommen.
-* Die Stärke der Energieabsorption hängt von der Stärke und der Frequenz der elektromagnetischen Felder ab.
-* Eindeutig nachgewiesen sind Kraftwirkungen und eine Wärmewirkung der hochfrequenten Felder.
-* Die Wärmewirkung ist ausschlaggebend für mögliche gesundheitliche Wirkungen beim Menschen.
+* RF electromagnetic fields are absorbed by the body.
+* How much energy is absorbed depends on the strength and the frequency of the electromagnetic fields.
+* Force effects and a heating effect of RF fields have been clearly demonstrated.
+* The heating effect is decisive for possible effects on human health.
 </attention>

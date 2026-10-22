@@ -1,7 +1,7 @@
-Hohe Wechselspannungen sind gefährlich, dies gilt selbstverständlich auch für hohe hochfrequente Wechselspannungen. Sie können Herzrhythmusstörungen, *Verbrennungen und andere Verletzungen* verursachen. Im Prinzip kann dies alles zum Tod führen. Ein Sendeantenne in Betrieb berührt man nicht!
+High AC voltages are dangerous, and this of course also applies to high AC voltages at radio frequency. They can cause cardiac arrhythmias, *burns and other injuries*. In principle, any of this can be fatal. You do not touch a transmitting antenna in operation!
 
 <danger>
-Selbst in harmlosen Fällen wird man bei Berührung erschrecken oder verkrampfen. Die Konsequenz kann z.B. ein Sturz von der Leiter sein.  Das wäre ein Sekundärunfall, wie wir bereits im Abschnitt *"Gefahren durch elektrischen Strom"* gelernt haben.
+Even in harmless cases, touching it will give you a fright or make your muscles cramp. The consequence can be, for example, a fall from the ladder. That would be a secondary accident, as we have already learnt in the section *"Dangers of electric current"*.
 </danger>
 
 [question:EK202]

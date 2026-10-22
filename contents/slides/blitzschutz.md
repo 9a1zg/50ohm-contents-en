@@ -1,23 +1,23 @@
-## Potentialausgleich und Erdung
+## Equipotential bonding and earthing
 
-* Durch *Potentialausgleich* wird eine gefährliche Berührungsspannung zwischen den Geräten vermieden
-* Mittels *Erdung* werden unerwünschte elektrische Ströme (z.B. bei Defekt) vom Gehäuse in die Erde abgeleitet
+* *Equipotential bonding* prevents a dangerous touch voltage between the items of equipment
+* *Earthing* carries unwanted electric currents (e.g. in the event of a fault) away from the case into the earth
 
 ---
 
 <left>
-* Metallgehäuse der Geräte mittels kurzer Leitungen zusammenführen
-* Mit Haupterdungsschiene des Gebäudes verbinden
-* VDE 0855-300 für Erdung von Funkanlagen
+* Bring the metal cases of the equipment together with short leads
+* Connect to the building's main earthing terminal
+* VDE 0855-300 for earthing radio installations
 </left>
 <right>
-[photo:81:n_Schraubanschluss_GND:Schraubanschluss Ground (GND) am TRX]
+[photo:81:n_Schraubanschluss_GND:Ground (GND) screw terminal on the TRX]
 </right>
 
 ---
-## Achtung
+## Caution
 
-Der Anschluss von Potentialausgleich und Erdung sollte nur vorgenommen werden, wenn man genau weiß, was man tut. Im Zweifel sollte man sich von einem erfahreneren Funkamateur oder einer Elektrofachkraft helfen lassen.
+Equipotential bonding and earthing should only be connected if you know exactly what you are doing. If in doubt, get help from a more experienced radio amateur or a qualified electrician.
 
 ---
 [question:VE604]

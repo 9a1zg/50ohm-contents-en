@@ -1,17 +1,17 @@
-Während in Städten die elektrische Energiezufuhr in Wohngebäuden und in Häusern unsichtbar im Boden verlegt ist, findet man in ländlichen Gebieten manchmal noch offene Zuleitungen, sogenannte Freileitungen. Diese enden am Hausgiebel oder einem Dachständer (Abbildung [ref:n_Dachstaender]) auf dem Hausdach und führen so die elektrische Energie vom Stromnetz zu. Manchmal gibt es auch Freileitungen in Hausnähe, die noch wesentlich höhere Spannungen tragen können, wie z. B. Hochspannungsleitungen.
+While in towns the electricity supply to residential buildings and houses is laid out of sight underground, in rural areas you sometimes still find open supply lines, known as overhead lines. These end at the gable of the house or at a roof-mounted support (Figure [ref:n_Dachstaender]) on the roof, and in this way supply the house with electrical energy from the mains. Sometimes there are also overhead lines near the house that can carry much higher voltages still, such as high-voltage lines.
 
 <margin>
-[photo:82:n_Dachstaender:Dachständer]
+[photo:82:n_Dachstaender:Roof-mounted support for an overhead mains line]
 </margin>
 
 ---
 
-Antennen müssen immer von elektrischen Freileitungen entfernt sein. Sie dürfen solche elektrischen Leitungen unter keinen Umständen berühren, da sonst gefährlich hohe Spannungen in die Funkanlage gelangen können.
+Antennas must always be kept away from overhead power lines. They must not touch such power lines under any circumstances, as otherwise dangerously high voltages can get into the radio installation.
 
 <danger>
-Wenn eine Antenne eine Energieversorgungsleitung berührt,  besteht akute Gefahr von lebensgefährlichen Stromschlägen!
+If an antenna touches a power line, there is an acute risk of life-threatening electric shocks!
 </danger>
 
-Nicht nur beim Aufbau von Antennen muss ausreichend Abstand von Freileitungen eingehalten werden. Es muss auch unbedingt vermieden werden, dass sich Drähte oder Teile der Antenne zum Beispiel bei einem Sturm lösen und dann in Kontakt mit solchen Leitungen kommen oder auf Personen herunterfallen können.
+A sufficient distance from overhead lines must be kept not only when erecting antennas. It is also essential to prevent wires or parts of the antenna from coming loose, for example in a storm, and then coming into contact with such lines or falling on people.
 
 [question:NK311]

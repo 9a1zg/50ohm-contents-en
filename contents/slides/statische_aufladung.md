@@ -1,16 +1,16 @@
 <left>
-* Unerwünschte Spannungen an Antennen durch statische Aufladungen
-* Bei ungeerdeten Drahtantennen
-* Z.B. durch Regen und Hagel
-* Führt zu Prasselstörungen beim Empfang
+* Unwanted voltages on antennas due to static charges
+* With unearthed wire antennas
+* E.g. due to rain and hail
+* Leads to crackling interference in reception
 </left>
 <right>
-* Abhilfe: Einbringen von Ableitwiderständen zwischen Leitern der Antennenzuführung und der Erdung der Amateurfunkstation
-* Hochohmig, z.B. $\qty{100}{\kilo\ohm}$
-* Dadurch wird die Funktion der Funkanlage nicht beeinträchtigt
+* Remedy: inserting bleeder resistors between the conductors of the antenna feeder and the earth of the amateur station
+* High-value, e.g. $\qty{100}{\kilo\ohm}$
+* This does not impair the function of the radio installation
 </right>
 <note>
-* Die $\qty{100}{\kilo\ohm}$ stammen aus dem Rothammel
+* The $\qty{100}{\kilo\ohm}$ comes from the Rothammel antenna book
 </note>
 ---
 [question:EK206]

@@ -1,5 +1,5 @@
-Alle elektrisch leitfähigen Gegenstände in unserer Station können unerwünschte Potentiale aus eigenen oder fremden Quellen aufweisen. Das kann viele Ursachen haben z.B. durch elektrostatische Aufladung, durch einen Blitz oder durch einen Fehler einer beliebigen elektrischen Anlage, der sich auf unsere Umgebung auswirkt. 
+All electrically conductive objects in our station can carry unwanted potentials from their own or external sources. This can have many causes, e.g. electrostatic charging, lightning, or a fault in any electrical installation that affects our surroundings. 
 
-Indem man alle elektrische leitende Teile miteinander verbindet, werden mögliche Potentialunterschiede ausgeglichen. Bei Koaxialkabel ist der Schutz recht einfach zu realisieren. Man verbindet die Schirme aller Koaxialkabel miteinander und schließt sie zusätzlich an die Haupterdungsschiene an.
+By connecting all electrically conductive parts together, any potential differences are equalised. With coaxial cables, this protection is quite easy to achieve. You connect the screens of all the coaxial cables to each other and also connect them to the main earthing terminal.
 
 [question:EK208]

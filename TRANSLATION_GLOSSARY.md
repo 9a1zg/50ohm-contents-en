@@ -2625,6 +2625,27 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Bonusfrage (Folien) | Bonus question | naeherungsformel_1 slides |
 | Portabelbetrieb | portable operation | naeherungsformel_2 |
 | Feldwellenwiderstand im Vakuum / Wellenwiderstand des Mediums | wave impedance in a vacuum / wave impedance of the medium | AK102 (personenschutzabstand_3 slides) |
+| Dachständer (Kurstext, Bildunterschrift) / Freileitung / elektrische Freileitung / Energieversorgungsleitung | roof-mounted support (for an overhead mains line) / overhead line / overhead power line / power line | §9 *Dachständer* described as needed; NK311 "power lines" (antennen_energieleitungen) |
+| Bauamt von Stadt oder Gemeinde / Nachbargrundstücke / Mitgliedsbeitrag / Versicherungsleistung | building authority of the town or municipality / neighbouring properties / membership fee / insurance cover | antennen_baurecht_haftung; VE602, VE707 |
+| Ehrensache / vor lauter Tatendrang | a point of honour / in all the eagerness to get on with the job | repairing your own equipment (elektrische_geaete_oeffnen_2) |
+| Netzseite (230 V) / Nennspannung des Netzes / Kondensatoranschlüsse | (230 V) mains side / nominal mains voltage / capacitor terminals | elektrische_geaete_oeffnen_1, _2 |
+| Entladewiderstand / hochohmiger, isolierter Widerstand / Lichtbogenbildung / Leiterbahnen / Pulsbetrieb | discharge resistor / high-value, insulated resistor / arcing / PCB tracks / pulse operation | AK201 "high-value resistor with an adequate power rating" (elektrische_geaete_oeffnen_2, AK201) |
+| Isolierhandschuhe in einer ausreichenden Schutzklasse / isoliertes Werkzeug | insulating gloves of an adequate protection class / insulated tools | as §14 *Isolierhandschuhe* (elektrische_geaete_oeffnen_2) |
+| Blitzschutz-Zwischenstecker (für Koaxkabel) | in-line lightning protection adapter (for coaxial cable) | with a gas discharge tube (§4) (blitzerdung) |
+| Erdungsleitung (massiver Draht, keine Litze) / Gebäudeerdung | earthing conductor (solid wire, not stranded) / building earth | EK209, EK210 "single solid wire", "building earth"; §12 *Erdungsanlage* → earthing system (blitzerdung) |
+| Schraubanschluss Ground (GND) (Bildunterschrift) | Ground (GND) screw terminal | *Ground (GND)* is the label printed on the equipment and is kept; in running text *Erdung* stays *earthing* (§12) (blitzschutz) |
+| Potentialausgleichsschiene / Potentialausgleichsleiter / Ausgleichsstrom | equipotential bonding busbar / equipotential bonding conductor / equalising current | §12 *Potentialausgleich*, §14 *Ausgleichsströme* (schutzerdung_2, AK202, AK203) |
+| Elektroinstallation / Erdleitungen / Heizungsrohre | electrical installation / earth leads / heating pipes | schutzerdung_2 |
+| Spannungsbauch (Erdungsleitung, Antenne) / HF-Spannungsbauch | voltage antinode / RF voltage antinode | as in strom_spannung_speisung; §9 *Spannungsbauch* (schutzerdung_2, antennen_beruehrung_2, AK203) |
+| „heiß" (Sendergehäuse) / Herdplatte | "hot" / hotplate | AK203 "the transmitter case is "hot"" (schutzerdung_2) |
+| Prasselstörungen / Antennenzuführung | crackling interference / antenna feeder | static charges (statische_aufladung); EK207 |
+| der Rothammel | the Rothammel antenna book | the standard German antenna handbook, named so that the English reader knows what it is (statische_aufladung slides) |
+| erschrecken oder verkrampfen / Sekundärunfall | get a fright or cramp up / secondary accident | as gefahren (antennen_beruehrung_1) |
+| Abschnitt "Gefahren durch elektrischen Strom" | the section "Dangers of electric current" | section titles are not yet translated; quoted in English (antennen_beruehrung_1) |
+| direkter Strahlengang (einer Sendeantenne) | direct beam | EK201 "direct beam of transmitting antennas"; §14 *Strahlengang* → radiation path stays for the optics of a dish (strahlengang_aufenthalt) |
+| Gewebe / Wärmeabfuhr / Hoden | tissue / heat dissipation / testes | strahlengang_aufenthalt |
+| HF-Funkenüberschläge / Körperstrom | RF flashovers / current through the body | as §13 *Spannungsüberschlag* → flashover (AK204, AK202) |
+| aus Sicht der Niederfrequenz | at low frequencies | here DC and the mains frequency, not audio: not *AF* (AK203) |
 
 ## 15. Catalogue structure
 

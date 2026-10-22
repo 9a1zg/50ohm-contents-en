@@ -1,17 +1,17 @@
-Antennenanlagen erhöhen in der Regel nicht die Wahrscheinlichkeit, dass ein Blitz einschlägt, aber wenn er einschlägt wird vermutlich eine vorhandene exponierte Antenne das Ziel sein. Deshalb müssen Antennenanlagen auf oder an Gebäuden geerdet bzw. in ein vorhandenes Blitzschutzsystem integriert werden.
+Antenna installations do not, as a rule, increase the probability of a lightning strike, but if lightning does strike, an exposed antenna, where there is one, will probably be the target. Antenna installations on or attached to buildings must therefore be earthed or integrated into an existing lightning protection system.
 
-Häufig geht ein Blitz nur in der Nähe unserer Station nieder. Das ist weniger schlimm als ein direkter Einschlag, aber auch das reicht, um große Schäden anzurichten (vgl. Abbildung [ref:e_ueberspannung_blitz]). Deshalb ist Blitzschutz ein wichtiges Thema für uns Funkamateure. 
+Often, lightning only strikes near our station. That is less serious than a direct strike, but it is still enough to cause a great deal of damage (see Figure [ref:e_ueberspannung_blitz]). That is why lightning protection is an important subject for us radio amateurs. 
 
 <margin>
-[photo:191:e_ueberspannung_blitz:Durch Überspannung völlig zerstörter Kondensator in einem Netzteil. Ursache war ein Blitzeinschlag in der Nähe der Station. Hier kam die Überspannung über das Stromnetz.]
+[photo:191:e_ueberspannung_blitz:Capacitor in a power supply completely destroyed by overvoltage. The cause was a lightning strike near the station. Here the overvoltage came in through the mains.]
 </margin>
 
 ---
 
-Wie können wir unsere Geräte vor Überspannungen durch Blitze schützen? Es gibt Blitzschutz-Zwischenstecker für Koaxkabel, die mittels einer Gasentladungsröhre Überspannungen ableiten oder man kann die Antennenzuleitung nach dem Funkbetrieb direkt erden. In beiden Fällen braucht man eine Erdungsleitung (massiver Draht, keine Litze) deren Querschnitt den VDE-Vorgaben entspricht (Kupfer $\qty{16}{\milli\meter\squared}$, Alu $\qty{25}{\milli\meter\squared}$, Stahl $\qty{50}{\milli\meter\squared}$). Jede vorhandene Gebäudeerdung kann genutzt werden.
+How can we protect our equipment from overvoltages caused by lightning? There are in-line lightning protection adapters for coaxial cable, which divert overvoltages by means of a gas discharge tube; or the antenna feeder can be earthed directly after operating. In both cases, an earthing conductor (solid wire, not stranded) is needed whose cross-sectional area meets the VDE requirements (copper $\qty{16}{\milli\meter\squared}$, aluminium $\qty{25}{\milli\meter\squared}$, steel $\qty{50}{\milli\meter\squared}$). Any existing building earth can be used.
 
 <danger>
-Hier wiederholen wir noch einmal die Warnung aus dem Kurs für die Klasse N: Arbeiten an einem Blitzschutzsystem sollten ausschließlich durch Blitzschutzfachkräfte vorgenommen werden, die über eine entsprechende Ausbildung verfügen! Ebenfalls sollte der Anschluss von Potentialausgleich und Erdung nur vorgenommen werden, wenn man genau weiß, was man tut. Im Zweifel sollte man sich von einem erfahreneren Funkamateur oder einer Elektrofachkraft helfen lassen.
+Here we repeat the warning from the course for Class N: work on a lightning protection system should only be carried out by lightning protection specialists who have the appropriate training! Likewise, equipotential bonding and earthing should only be connected if you know exactly what you are doing. If in doubt, get help from a more experienced radio amateur or a qualified electrician.
 </danger>
 
 [question:EK209]
@@ -19,10 +19,10 @@ Hier wiederholen wir noch einmal die Warnung aus dem Kurs für die Klasse N: Arb
 
 ---
 
-Eine Blitzschutzanlage soll das Gebäude bei Blitzeinschlägen schützen. Damit der Schutz erhalten bleibt, muss man wissen was man tut. Änderungen müssen deshalb Fachleute vornehmen. Soll eine Verbindung mit einer vorhanden Blitzschutzanlage hergestellt werden, muss dies in dem *Blitzschutzkonzept* vorgesehen sein, das von einer *Blitzschutz-Fachkraft* erstellt wurde.
+A lightning protection system is meant to protect the building in the event of lightning strikes. For that protection to be maintained, you have to know what you are doing. Changes must therefore be made by specialists. If a connection is to be made to an existing lightning protection system, this must be provided for in the *lightning protection concept* drawn up by a *lightning protection specialist*.
 
 [question:EK211]
 
 <indepth>
-Der VDE hat einen [Leitfaden zum Schutz von Funkanlagen auf Gebäuden bei Blitzschlag](https://50ohm.de/vde-blitz) veröffentlicht
+The VDE has published a [guide to protecting radio installations on buildings against lightning strikes](https://50ohm.de/vde-blitz)
 </indepth>
