@@ -1,28 +1,28 @@
-* Eines der wichtigsten Schaltungen im Amateurfunk
-* Erzeugung von hochfrequenten Schwingungen in Sendern und Empfängern
-* Herz eines jeden Funkgeräts
+* One of the most important circuits in amateur radio
+* Generation of RF oscillations in transmitters and receivers
+* The heart of every radio
 
 ---
-### Schleifenverstärkung
+### Loop gain
 
-* Verstärkerelement, dessen Ausgangssignal wieder auf den Eingang rückgekoppelt wird
-* Gleichphasig
-* Amplitude mindestens gleich groß $\rightarrow$ *Schleifenverstärkung größer $1$*
-* Notwendig für Selbsterregung und hält die Schwingung aufrecht
+* Amplifying element whose output signal is fed back to the input
+* In phase
+* Amplitude at least as large $\rightarrow$ *loop gain greater than $1$*
+* Necessary for self-excitation, and keeps the oscillation going
 
 ---
 [question:AD613]
 ---
 <left>
-[picture:760:a_oszillator_schaltungen_oszillator:Schaltung eines kapazitiv rückgekoppelten Dreipunkt-Oszillators]
+[picture:760:a_oszillator_schaltungen_oszillator:Circuit of a capacitive-feedback three-point oscillator]
 </left>
 <right>
-* Ausgangssignal wird vom Emitter über einen kapazitiven Spannungsteiler auf die Basis zurückgekoppelt
-* Frequenz wird durch Schwingkreis in der Basis und den parallel geschalteten kapazitiven Spannungsteiler bestimmt
-* Oszillator in Kollektorschaltung
+* The output signal is fed back from the emitter to the base through a capacitive potential divider
+* The frequency is determined by the tuned circuit at the base and the capacitive potential divider connected in parallel with it
+* Common-collector oscillator
 </right>
 <note>
-Transistorschaltungen kommen etwas später im Kapitel
+Transistor circuits come a little later in the chapter
 </note>
 
 ---
@@ -31,43 +31,43 @@ Transistorschaltungen kommen etwas später im Kapitel
 [question:AD616]
 ---
 <left>
-[picture:497:a_oszillator_schaltungen_quarzoszillator:Schaltung eines Quarzoszillators in Kollektorschaltung mit Betrieb des Quarzes auf Grundfrequenz]  
+[picture:497:a_oszillator_schaltungen_quarzoszillator:Circuit of a crystal oscillator in common-collector configuration with the crystal operated at its fundamental frequency]  
 </left>
 <right>
-* Schwingkreis durch Quarz ersetzt
-* Quarz kann in Grundfrequenz oder auf Harmonische schwingen $\rightarrow$ Verstärker muss frequenzselektiv z.B. mit Schwingkreis dafür ausgelegt sein
+* Tuned circuit replaced by a crystal
+* The crystal can oscillate at its fundamental frequency or on harmonics $\rightarrow$ for this, the amplifier must be designed to be frequency-selective, e.g. with a tuned circuit
 </right>
 <note>
-Hier ist kein weiterer Schwingkreis vorhanden, also wird der Quarz in Grundfrequenz betrieben
+There is no other tuned circuit here, so the crystal is operated at its fundamental frequency
 </note>
 
 ---
 [question:AD617]
 ---
-### Auskopplung des Signals
+### Coupling out the signal
 
-* Immer am niederohmigsten Punkt eines Oszillators
-* Dadurch wird der Oszillator wenig belastet
-* Bei Kollektorschaltung am Emitter des Transistors
+* Always at the lowest-impedance point of an oscillator
+* This loads the oscillator only lightly
+* In a common-collector circuit, at the emitter of the transistor
 
 ---
-### Pufferstufe
+### Buffer stage
 
-* Pufferstufe nachschalten
-* Entkoppelt den Oszillator von weiteren Schaltungsteilen
-* Frequenz wird nicht durch Belastung des Ausgangs beeinflusst
-* Pufferstufe ist oft eine Kollektorschaltung (als Emitterfolger) und hat eine hohe Eingangsimpedanz
+* Follow the oscillator with a buffer stage
+* Decouples the oscillator from further parts of the circuit
+* The frequency is not affected by loading of the output
+* The buffer stage is often a common-collector circuit (an emitter follower) and has a high input impedance
 
 ---
 [question:AD610]
 ---
 [question:AD615]
 ---
-### Messung
+### Measurement
 
-* Eine Messung sollte nach der Pufferstufe durchgeführt werden
-* Andernfalls wird der Oszillator durch die parasitären Kapazitäten belastet
-* Frequenz wird dadurch beeinflusst
+* Measurements should be made after the buffer stage
+* Otherwise the oscillator is loaded by the parasitic capacitances
+* This affects the frequency
 
 ---
 [question:AD619]

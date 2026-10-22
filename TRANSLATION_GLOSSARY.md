@@ -2242,6 +2242,42 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Kurzzeitstabilität / Alterung (Bauelemente) | short-term stability / ageing | §5 *Langzeitstabilität* → long-term stability; British *ageing* |
 | ein Impuls pro Sekunde | one pulse per second | GPS receiver output |
 | Mit eingesetzten Werten: | Substituting the values: | solutions, also inside `\text{}` (AD225), as in earlier units |
+| Chirp (*das englische Wort „Chirp" bedeutet wörtlich „Zwitschern"*) | chirp ("the English word "chirp" means the short, high call of a small bird") | the gloss explains the English word and stays, as *Ducting* above; it does not translate it back (oszillator_spannungsstabilitaet, AD609) |
+| Verstärkerelement / Selbsterregung | amplifying element / self-excitation | oscillator condition, with §5 *Schleifenverstärkung* (oszillator_schaltungen, AD613) |
+| kapazitiv rückgekoppelt (Dreipunktoszillator) / kapazitiver Spannungsteiler | capacitive-feedback (three-point oscillator) / capacitive potential divider | AD614, AD616, AD617 |
+| Oszillator / Verstärker in Kollektorschaltung (Emitterschaltung) | common-collector (common-emitter) oscillator / amplifier; "in common-collector configuration" | AD401, AD409, AD617; captions *Bipolartransistor in Emitterschaltung* → "Bipolar transistor in common-emitter configuration" |
+| wechselspannungsmäßig / signalmäßig (für Wechselspannung) | as far as AC is concerned / as far as the signal is concerned (for AC) | "der Kollektor liegt wechselspannungsmäßig auf Masse" → "the collector is connected to chassis as far as AC is concerned" (oszillator_schaltungen, kollektorschaltung) |
+| Oberschwingungen / Obertöne (Quarz) | overtones | a crystal operated *auf einer Oberschwingung* → "on an overtone", as AD617 "on its third overtone"; for signals *Oberschwingung / Oberwelle* stays *harmonic* (§3) (oszillator_schaltungen) |
+| auskoppeln / Auskopplung (Signal) / Ein- und Auskopplung | couple out / coupling out / coupling in and out | AD615 "coupled out" |
+| Phaseninkrement / Adresszähler / Wertetabelle / Sinustabelle | phase increment / address counter / table of values / sine table | DDS, with §14 *Tuning Word / Lookup-Tabelle* (oszillator_dds) |
+| D/A-Wandler | D/A converter | as §8 *D/A-Umsetzer (DAC)* (oszillator_dds) |
+| Phasendetektor | phase detector | as §5 *Phasenvergleicher*, AD701 (AD703) |
+| eingerastet (locked) | locked | the bracket only gives the English word and is dropped; *stabiler Zustand* → stable state, as AD702 (oszillator_pll) |
+| Teilverhältnis / Teilerfaktor / Teilfaktor (PLL) | division ratio | all three German variants, as §5 *Teilerverhältnis* (oszillator_pll, AD703) |
+| Vergleichsfrequenz (PLL) | comparison frequency | the frequency at the phase detector (oszillator_pll) |
+| Verzerrerstufe / nichtlineare Verzerrerstufe | distorting stage / non-linear distorting stage | AF311 |
+| Verdoppelung / Verdreifachung / Verneunfachung | doubling / tripling / multiplying by nine | multiplier stages; *ver-3-facht* (slides) → "multiplied by 3", keeping the digit |
+| Zwischenstufe (Vervielfacher) / Frequenzen zwischen den Stufen | intermediate stage / frequencies between the stages | AF314; the slide's *Es werden Zwischenfrequenzen erzeugt* → "Frequencies are produced at the intermediate stages", not "intermediate frequencies", which is the IF (§6) (frequenzvervielfacher_2) |
+| Gegenprobe | check | heading in worked solutions (frequenzvervielfacher_2 slides) |
+| Lösung (Aufzählungspunkt unter der Überschrift *Lösungsweg*) | Working: | so that it does not repeat the heading "Solution" (mischer slides) |
+| Hoch- / Heruntermischung / hochmischen / heruntermischen | up-conversion / down-conversion / mix up / mix down | mischer, transverter_1 |
+| Betragsstriche / Fallunterscheidung | vertical bars (magnitude) / distinguishing two cases | the bars around $x$ that give its magnitude (mischer) |
+| balancierter Ringmischer (Balance-Mixer) | balanced ring mixer | the bracket only gives the hybrid German-English name and is dropped; §5 *Balancemischer / Ringmischer* (mischer) |
+| Mischprodukte höherer Ordnung | higher-order mixing products | mischer |
+| Sende-/Empfangsumschaltung | transmit/receive switching | converter vs transverter (transverter_1) |
+| quarzstabilisierter Oszillator | crystal-controlled oscillator | as AF314 "crystal-controlled radio" (transverter_1) |
+| Up-Konverter | up-converter | QO-100 (transverter_2) |
+| Linearitätsabweichungen / Bandpasscharakteristik | departures from linearity / band-pass response | verstaerker |
+| Strom-Verstärker / Spannungs-Verstärker (linearer) | (linear) current amplifier / voltage amplifier | kollektorschaltung, emitterschaltung |
+| Arbeitspunkt (engl. bias, Vorspannung) / Arbeitspunkt (BIAS) / BIAS-Spannungsteiler | operating point (bias) / bias potential divider | the gloss *engl. … Vorspannung* is dropped (bracket rule), "bias" kept as the English term; *BIAS* written in lower case |
+| Eingangskennlinie | input characteristic | kollektorschaltung |
+| Kollektor-Emitter-Strecke / Basis-Emitter-Strecke | collector-emitter path / base-emitter path | kollektorschaltung, emitterschaltung |
+| Abblockkondensator in der Betriebsspannung (+) | decoupling capacitor on the supply voltage (+) | §5 *Abblockkondensator* |
+| ausregeln (thermisch bedingte Änderungen) | compensate | kollektorschaltung, emitterschaltung |
+| Emitterkondensator / den Emitterwiderstand überbrücken | emitter capacitor / bypass the emitter resistor | AD413–AD415 |
+| ohne Arbeitspunktvoreinstellung | without a preset operating point; without its operating point being preset | AD406 (emitterschaltung) |
+| gesperrter Transistor / sperren | transistor cut off / cut off | AD406 |
+| Zur Erinnerung: | As a reminder: | solutions AD402, AD403, AD405 |
 
 ## 15. Catalogue structure
 

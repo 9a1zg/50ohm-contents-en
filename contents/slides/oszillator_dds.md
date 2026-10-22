@@ -1,20 +1,20 @@
-[picture:438:a_oszillator_dds:Blockschaltung zu Direkte digitale Synthese]
+[picture:438:a_oszillator_dds:Block diagram of direct digital synthesis]
 
-* Erzeugung periodischer, bandbegrenzter Signale mit hoher Frequenzauflösung
-* Stand der Technik zur Signalerzeugung
-* Frequenz ist sehr fein einstellbar
-* FM und PM kann direkt erzeugt werden
+* Generation of periodic, band-limited signals with high frequency resolution
+* State of the art in signal generation
+* The frequency can be set very finely
+* FM and PM can be generated directly
 
 --- style="font-size: smaller;"
-[picture:438:a_oszillator_dds:Blockschaltung zu Direkte digitale Synthese]
+[picture:438:a_oszillator_dds:Block diagram of direct digital synthesis]
 
-* Taktgenerator mit fester Frequenz lässt einen Adresszähler hochzählen
-* Bei Überlauf startet der Adresszähler von vorne
-* Aus einer Sinus-Lookup-Table wird ein vordefinierter digitaler Sinuswert herausgegeben
-* Dieser Wert wird über ein Register in einem D/A-Wandler in ein analoges Signal umgewandelt
+* A clock generator with a fixed frequency makes an address counter count up
+* On overflow, the address counter starts again from the beginning
+* A predefined digital sine value is output from a sine look-up table
+* Via a register, this value is converted into an analogue signal in a D/A converter
 
 <note>
-Funktionsprinzip nicht prüfungsrelevant, nur das Blockschaltbild ist zu erkennen
+The operating principle is not relevant to the examination; you only need to recognise the block diagram
 </note>
 
 ---

@@ -1,40 +1,40 @@
-Oszillatoren sind eines der wichtigsten Schaltungselemente im Amateurfunk. Sie sind sozusagen das Herz eines jeden Funkgerätes. Oszillatoren dienen der Erzeugung von hochfrequenten Schwingungen in Sendern und Empfängern.
+Oscillators are among the most important circuit elements in amateur radio. They are, so to speak, the heart of every radio. Oscillators are used to generate RF oscillations in transmitters and receivers.
 
-Herzstück eines Oszillators ist ein Verstärkerelement, dessen *Ausgangssignal wieder auf dessen Eingang rückgekoppelt* wird.
+The core of an oscillator is an amplifying element whose *output signal is fed back to its input*.
 
-Damit ein Oszillator ungedämpfte Schwingungen erzeugen kann, müssen *zwei Grundbedingungen* erfüllt sein.
-Zum einen muss das *Ausgangssignal gleichphasig auf den Eingangspunkt der Schaltung rückgekoppelt* werden.
-Hierbei muss zum anderen die *Amplitude des rückgekoppelten Signals mindestens die gleiche Größe* wie die des Eingangssignals haben. Man sagt auch, dass die sog. *Schleifenverstärkung größer 1* sein muss, damit eine Selbsterregung möglich ist, die die Schwingung aufrechterhält.
+For an oscillator to produce sustained (undamped) oscillations, *two basic conditions* must be met.
+Firstly, the *output signal must be fed back in phase to the input point of the circuit*.
+Secondly, the *amplitude of the fed-back signal must be at least as large* as that of the input signal. This is also expressed by saying that the so-called *loop gain must be greater than 1*, so that self-excitation is possible, which keeps the oscillation going.
 
 [question:AD613]
 
 <margin>
-[picture:760:a_oszillator_schaltungen_oszillator:Schaltung eines kapazitiv rückgekoppelten Oszillators]  
+[picture:760:a_oszillator_schaltungen_oszillator:Circuit of a capacitive-feedback oscillator]  
 </margin>
 
 %TODO: Evtl. Bild 760 ableiten und noch um die 3 Punkte der Dreipunktschaltung ergänzen (am kapazitiven Spannungsteiler - oben, in der Mitte und unten)
 
-Die in Abbildung [ref:a_oszillator_schaltungen_oszillator] abgebildete Schaltung stellt einen kapazitiv rückgekoppelten Dreipunktoszillator dar. Das Ausgangssignal wird vom Emitter der Schaltung über einen kapazitiven Spannungsteiler auf die Basis des Transistors rückgekoppelt. Die Frequenz des Oszillators wird überwiegend durch den Schwingkreis in der Basis (bestehend aus Spule und Trimmkondensator) sowie den zum Schwingkreis parallel geschalteten kapazitiven Spannungsteiler bestimmt.
-Bei der Schaltung handelt es sich um einen Oszillator in Kollektorschaltung, da der Kollektor wechselspannungsmäßig auf Masse liegt.
+The circuit shown in Figure [ref:a_oszillator_schaltungen_oszillator] is a capacitive-feedback three-point oscillator. The output signal is fed back from the emitter of the circuit to the base of the transistor through a capacitive potential divider. The frequency of the oscillator is determined mainly by the tuned circuit at the base (consisting of an inductor and a trimmer capacitor) and by the capacitive potential divider connected in parallel with the tuned circuit.
+The circuit is a common-collector oscillator, since the collector is connected to chassis as far as AC is concerned.
 
 [question:AD614]
 [question:AD616]
 
-Zur Erhöhung der Frequenzstabilität eines Oszillators kann dessen frequenzbestimmende Komponente (Schwingkreis) durch einen Quarz ersetzt werden. Quarze können sowohl bei ihrer Grundfrequenz als auch auf ihren harmonischen Frequenzen (Oberschwingungen/Obertöne) zum Schwingen angeregt werden. Damit ein Quarz jedoch auf einer Oberschwingung betrieben werden kann, muss der Verstärker frequenzselektiv (z.B. durch Verwendung eines Schwingkreises) ausgelegt sein. Ist dieser nicht vorhanden, so kann man daraus ersehen, dass der Quarz auf seiner Grundfrequenz betrieben wird (siehe Abbildung [ref:a_oszillator_schaltungen_quarzoszillator] ).
+To increase the frequency stability of an oscillator, its frequency-determining component (the tuned circuit) can be replaced by a crystal. Crystals can be made to oscillate both at their fundamental frequency and at their harmonic frequencies (overtones). For a crystal to be operated on an overtone, however, the amplifier must be designed to be frequency-selective (e.g. by using a tuned circuit). If there is no such tuned circuit, this shows that the crystal is operated at its fundamental frequency (see Figure [ref:a_oszillator_schaltungen_quarzoszillator] ).
 
 <margin>
-[picture:497:a_oszillator_schaltungen_quarzoszillator:Schaltung eines Quarzoszillators in Kollektorschaltung mit Betrieb des Quarzes auf Grundfrequenz]  
+[picture:497:a_oszillator_schaltungen_quarzoszillator:Circuit of a crystal oscillator in common-collector configuration with the crystal operated at its fundamental frequency]  
 </margin>
 
 [question:AD617]
 
-Das Oszillatorsignal sollte immer am niederohmigsten Punkt eines Oszillators ausgekoppelt werden, um diesen möglichst wenig zu belasten. In einer Kollektorschaltung ist dies der Emitter des Transistors.
+The oscillator signal should always be coupled out at the lowest-impedance point of an oscillator, so as to load the oscillator as little as possible. In a common-collector circuit, this is the emitter of the transistor.
 
 [question:AD610]
 
-Einem Oszillator sollte immer eine sog. Pufferstufe nachgeschaltet werden, die dafür sorgt, dass der Oszillator von weiteren Schaltungsteilen entkoppelt wird und in seiner Frequenz nicht durch Belastung des Ausgangs beeinflusst wird. Eine Pufferstufe ist meist als Kollektorschaltung ausgelegt (Emitterfolger) und hat eine hohe Eingangsimpedanz, die den Oszillator nur minimal belastet. An dessen Ausgang kann das Oszillatorsignal dann niederohmig weiterverarbeitet werden.
+An oscillator should always be followed by a so-called buffer stage, which decouples the oscillator from further parts of the circuit, so that its frequency is not affected by loading of the output. A buffer stage is usually designed as a common-collector circuit (emitter follower) and has a high input impedance, which loads the oscillator only minimally. At the buffer's output, the oscillator signal can then be processed further at low impedance.
 
-Messungen an Oszillatoren sollten immer nach der Pufferstufe durchgeführt werden, da ansonsten der Oszillator mit parasitären Kapazitäten belastet wird und in dessen Frequenz hierdurch beeinflusst wird.
+Measurements on oscillators should always be made after the buffer stage, since otherwise the oscillator is loaded by parasitic capacitances and its frequency is affected as a result.
 
 [question:AD615]
 [question:AD619]

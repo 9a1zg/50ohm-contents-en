@@ -1,15 +1,15 @@
-Um früher in Amateurfunk-Mehrbandsendern nicht für jeden Frequenzbereich einzelne Oszillatoren bauen und abstimmen zu müssen, verwendete man das Prinzip der Frequenzvervielfachung. Hierbei wurde ein stabiler Oszillator auf der Frequenz des niedrigsten Bandes (z.B. $\qty{3,5}{\mega\hertz}$) betrieben, dessen Ausgangssignal dann anschließend mittels Frequenzvervielfachern auf die jeweils gewünschten Amateurfunkbänder umgesetzt wurde. Hierbei ist es von Vorteil, dass die einzelnen Frequenzbänder zueinander in festen Verhältnissen stehen (z.B. $\qty{3,5}{\mega\hertz}$, $\qty{7}{\mega\hertz}$, $\qty{14}{\mega\hertz}$ usw.) und meist ganzzahlige Vielfache des niedrigsten Bandes sind. Hierdurch fallen auch Oberwellen wieder in einen Amateurfunkbereich, was seitens der Regulierungsbehörden durchaus gewünscht ist, um Störungen anderer Dienste durch Oberwellen zu vermeiden. Generell kann man Oszillatoren auf niedrigen Frequenzen mit höherer Stabilität einfacher konstruieren und bauen als auf hohen Frequenzen. 
+In the past, so as not to have to build and tune separate oscillators for each frequency range in multiband amateur transmitters, the principle of frequency multiplication was used. A stable oscillator was operated on the frequency of the lowest band (e.g. $\qty{3.5}{\mega\hertz}$), and its output signal was then converted to each of the desired amateur bands by means of frequency multipliers. It is an advantage here that the individual bands are in fixed ratios to one another (e.g. $\qty{3.5}{\mega\hertz}$, $\qty{7}{\mega\hertz}$, $\qty{14}{\mega\hertz}$ etc.) and are mostly integer multiples of the lowest band. As a result, harmonics also fall into an amateur band again, which the regulatory authorities are quite happy with, as it avoids interference to other services from harmonics. In general, oscillators with high stability are easier to design and build at low frequencies than at high frequencies. 
 
 ---
 
-Abbildung [ref:n_f_vervielfacher] zeigt das Blockschaltbild eines Frequenzvervielfachers mit dem Faktor $2$ bei dem die Eingangsfrequenz von $\qty{3,5}{\mega\hertz}$ auf $\qty{7}{\mega\hertz}$ angehoben wird. Ein Frequenzvervielfacher wird dabei typischerweise durch eine Nichtlinearität (z. B. Diode) erzeugt, die gezielt Oberwellen des Eingangssignals erzeugt, aus denen anschließend mit einem Bandpassfilter die gewünschte Vielfachfrequenz ausgewählt wird.
+Figure [ref:n_f_vervielfacher] shows the block diagram of a frequency multiplier with a factor of $2$, in which the input frequency of $\qty{3.5}{\mega\hertz}$ is raised to $\qty{7}{\mega\hertz}$. A frequency multiplier is typically based on a non-linearity (e.g. a diode), which deliberately produces harmonics of the input signal; the desired multiple of the frequency is then selected from these with a band-pass filter.
 
 <margin>
-[picture:1042:n_f_vervielfacher:Blockschaltbild eines Frequenzvervielfachers]
+[picture:1042:n_f_vervielfacher:Block diagram of a frequency multiplier]
 </margin>
 
-Häufig verwendet man eine Kette von Frequenzvervielfachern, um die gewünschten Multiplikationsfaktoren zu erreichen. Hierbei werden bei Reihenschaltung von Vervielfachern die einzelnen Faktoren miteinander multipliziert.
-Umgekehrt kann eine solche Schaltung natürlich auch rückgerechnet werden. Hierbei muss durch die entsprechenden Teilfaktoren dann dividiert werden.
+A chain of frequency multipliers is often used to obtain the desired multiplication factors. When multipliers are connected in series, the individual factors are multiplied together.
+Conversely, such a circuit can of course also be worked backwards. You then have to divide by the corresponding individual factors.
 
 [question:EF303]
 [question:EF302]

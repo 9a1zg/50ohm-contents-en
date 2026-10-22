@@ -1,25 +1,25 @@
-## Konverter
+## Converters
 
-* Signale auf einem Frequenzband werden in ein anderes Frequenzband umgesetzt
-* z.B. wird ein $\qty{2}{\meter}$-Signal im Empfang als ein $\qty{70}{\centi\meter}$-Signal ausgesendet
-* Signal wird nur in eine Richtung umgewandelt
-* Im Grunde ein einfacher Mischer
+* Signals on one frequency band are converted to another frequency band
+* E.g. a $\qty{2}{\meter}$ signal on receive is transmitted as a $\qty{70}{\centi\meter}$ signal
+* The signal is converted in one direction only
+* Basically a simple mixer
 
 ---
 [question:EF504]
 
 <note>
-* TCXO und PLL kommen später dran
-* Aber die Mischung kann berechnet werden
+* TCXO and PLL come later
+* But the mixing can be calculated
 </note>
 
 ---
 [question:EF505]
 ---
-## Transverter
+## Transverters
 
-* Beim Transverter funktioniert die Umsetzung in beide Richtungen
-* Die Umsetzung erfolgt auch hier durch Mischung
+* In a transverter, the conversion works in both directions
+* Here too, the conversion is done by mixing
 
 ---
 [question:EF501]
@@ -28,48 +28,48 @@
 ---
 [question:EF503]
 <note>
-* Lösungsweg auf der kommenden Folie
+* Solution on the next slide
 </note>
 ---
-### Lösungsweg
+### Solution
 
-Frequenz des Generators wird ver-3-facht: $\qty{38,666}{\mega\hertz} \cdot 3 = \qty{116}{\mega\hertz}$
+The frequency of the generator is multiplied by 3: $\qty{38.666}{\mega\hertz} \cdot 3 = \qty{116}{\mega\hertz}$
 
 <left>
-*TX Weg*
-* Die $\qtyrange{28}{30}{\mega\hertz}$ vom TRX werden mit $\qty{116}{\mega\hertz}$ gemischt
-* Das Signal kann $\qtyrange{86}{88}{\mega\hertz}$ oder $\qtyrange{144}{146}{\mega\hertz}$ sein
+*TX path*
+* The $\qtyrange{28}{30}{\mega\hertz}$ from the TRX are mixed with $\qty{116}{\mega\hertz}$
+* The signal can be $\qtyrange{86}{88}{\mega\hertz}$ or $\qtyrange{144}{146}{\mega\hertz}$
 </left>
 <right>
-[picture:843:e_transverter_tx:Transverter im TX-Pfad]
+[picture:843:e_transverter_tx:Transverter in the TX path]
 </right>
 
 ---
 
 <left>
-*RX Weg*
-* Das Antennensignal wird mit $\qty{116}{\mega\hertz}$ gemischt und es kommen $\qtyrange{28}{30}{\mega\hertz}$ raus
-* Das Antennensignal liegt somit u.a. bei $\qtyrange{144}{146}{\mega\hertz}$
-* $\rightarrow$ Es ist nur die Antwort mit $\qty{2}{\meter}$ und der Transverter richtig
+*RX path*
+* The antenna signal is mixed with $\qty{116}{\mega\hertz}$ and $\qtyrange{28}{30}{\mega\hertz}$ comes out
+* So the antenna signal is at $\qtyrange{144}{146}{\mega\hertz}$, among other possibilities
+* $\rightarrow$ Only the answer with $\qty{2}{\meter}$ and the transverter is correct
 </left>
 <right>
-[picture:842:e_transverter_rx:Transverter im RX-Pfad]
+[picture:842:e_transverter_rx:Transverter in the RX path]
 </right>
 
 ---
-## Frequenzstabilität
+## Frequency stability
 
-* Konverter und Transverter sollten mit frequenzstabilen Oszillatoren gebaut werden
-* Weicht die Frequenz ab, ist die Ausgangsfrequenz auch abweichend
+* Converters and transverters should be built with frequency-stable oscillators
+* If the frequency is off, the output frequency is off too
 
 ---
 <left>
-* Grafik aus vorheriger Frage
-* Aus $\qty{10}{\mega\hertz}$ werden $\qty{2,256}{\giga\hertz}$, also $\num{225,6}$ Vervielfachung
-* Statt $\qty{10}{\mega\hertz}$ erzeugt der Oszillator aufgrund eines Fehlers $\qty{10,01}{\mega\hertz}$
-* $\qty{10,01}{\mega\hertz} \cdot 225,6 = \qty{2,258256}{\giga\hertz}$
-* Mischer: $\qty{144}{\mega\hertz} + \qty{2,258256}{\giga\hertz} = \qty{2,402256}{\giga\hertz} \rightarrow \qty{2,256}{\mega\hertz}$ daneben
+* Diagram from the previous question
+* $\qty{10}{\mega\hertz}$ becomes $\qty{2.256}{\giga\hertz}$, i.e. multiplication by $\num{225.6}$
+* Because of an error, the oscillator produces $\qty{10.01}{\mega\hertz}$ instead of $\qty{10}{\mega\hertz}$
+* $\qty{10.01}{\mega\hertz} \cdot 225.6 = \qty{2.258256}{\giga\hertz}$
+* Mixer: $\qty{144}{\mega\hertz} + \qty{2.258256}{\giga\hertz} = \qty{2.402256}{\giga\hertz} \rightarrow \qty{2.256}{\mega\hertz}$ off
 </left>
 <right>
-[picture:651:e_konverter_13cm:Konverter für das $\qty{13}{\centi\meter}$-Band]
+[picture:651:e_konverter_13cm:Converter for the $\qty{13}{\centi\meter}$ band]
 </right>

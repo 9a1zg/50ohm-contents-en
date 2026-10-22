@@ -1,8 +1,8 @@
-* Frequenz eines VFOs ist von der Betriebsspannung abhängig
-* Verändert Arbeitspunkt von Transistoren
-* $\rightarrow$ Stabilisierung der Betriebsspannung
-* $\rightarrow$ Betriebsspannung unabhängig von anderen Stufen
-* $\rightarrow$ Betriebsspannung gut gefiltert und entkoppelt
+* The frequency of a VFO depends on the operating voltage
+* It changes the operating point of transistors
+* $\rightarrow$ Stabilise the operating voltage
+* $\rightarrow$ Operating voltage independent of other stages
+* $\rightarrow$ Operating voltage well filtered and decoupled
 
 ---
 [question:AD612]
@@ -13,9 +13,9 @@
 ---
 ### Chirp
 
-* Schlechte Spannungsstabilisierung $\rightarrow$ Impulsartige Frequenzsprünge
-* Insbesondere bei der Tastung eines Senders
-* Bei CW-Signalen hört sich das wie ein zwitscherndes Geräusch zu Beginn von Zeichen an $\rightarrow$ *Chirp*
+* Poor voltage stabilisation $\rightarrow$ pulse-like frequency jumps
+* Especially when a transmitter is keyed
+* On CW signals this sounds like a chirping noise at the start of characters $\rightarrow$ *chirp*
 
 ---
 [question:AD609]

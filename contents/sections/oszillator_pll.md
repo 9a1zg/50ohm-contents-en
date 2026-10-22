@@ -1,47 +1,47 @@
-Eine Phasenregelschleife (PLL) kann beispielsweise einen variablen und potenziell instabilen VCO mit einem stabilen Referenzoszillator (G) synchronisieren. Dazu vergleicht sie die Phasen beider Signale und regelt den VCO so nach, dass eine stabile Ausgangsfrequenz entsteht. Im Amateurfunk werden PLLs vor allem zur stabilen und präzisen Frequenzaufbereitung in Sendern und Empfängern eingesetzt, etwa zur Kanalwahl, zur Erzeugung von Mischfrequenzen und zur Synchronisation von Oszillatoren.
+A phase-locked loop (PLL) can, for example, synchronise a variable and potentially unstable VCO with a stable reference oscillator (G). To do this, it compares the phases of the two signals and corrects the VCO so that a stable output frequency results. In amateur radio, PLLs are used above all for stable and precise frequency generation in transmitters and receivers, for instance for channel selection, for generating mixing frequencies and for synchronising oscillators.
 
-Eine PLL besteht im Wesentlichen aus folgenden Komponenten:
+A PLL consists essentially of the following components:
 
-* *Phasenvergleicher*: Vergleicht die Phasen der Signale vom VCO und vom Referenzoszillator.
-* *Tiefpassfilter*: Wandelt die vom Phasenvergleicher erzeugten Impulse in eine Gleichspannung um.
-* *VCO*: Erzeugt das Ausgangssignal, dessen Frequenz durch die vom Tiefpassfilter ausgegebene Gleichspannung gesteuert wird.
+* *Phase detector*: compares the phases of the signals from the VCO and from the reference oscillator.
+* *Low-pass filter*: converts the pulses produced by the phase detector into a DC voltage.
+* *VCO*: generates the output signal, whose frequency is controlled by the DC voltage from the low-pass filter.
 
 [question:AD701]
 
-Optional kann die PLL durch einen *Frequenzteiler* ergänzt werden, um die Frequenz des VCOs auf Vielfache der Referenzfrequenz zu synchronisieren.
+Optionally, the PLL can be supplemented by a *frequency divider* in order to synchronise the frequency of the VCO to multiples of the reference frequency.
 
 <margin>
-[picture:45:a_oszillator_pll:Darstellung einer Phasenregelschleife (PLL)]  
+[picture:45:a_oszillator_pll:Diagram of a phase-locked loop (PLL)]  
 </margin>
 
 ---
 
-Der Phasenvergleicher misst die Phasendifferenz zwischen den Signalen des VCO ($f_\mathrm{out}$) und des Referenzoszillators ($f_\mathrm{ref}$). Bei einer Phasenabweichung gibt er Impulse aus, die dem Fehler entsprechen. Diese Impulse werden durch den Tiefpassfilter geglättet und in eine proportionale Gleichspannung umgewandelt. Die erzeugte Gleichspannung dient als Steuersignal für den VCO, das dessen Frequenz nachreguliert, sodass sich die Phasendifferenz schrittweise auf null reduziert. Ist dieser Zustand erreicht, sagt man, die PLL ist „eingerastet“ (locked) also in einem *stabilen Zustand*. Im stabilen Zustand der PLL sind die Frequenzen und Phasenlagen der beiden Signale identisch. Es gilt:
+The phase detector measures the phase difference between the signals of the VCO ($f_\mathrm{out}$) and the reference oscillator ($f_\mathrm{ref}$). If there is a phase error, it outputs pulses that correspond to the error. These pulses are smoothed by the low-pass filter and converted into a proportional DC voltage. This DC voltage serves as the control signal for the VCO and corrects its frequency, so that the phase difference is gradually reduced to zero. When this state has been reached, the PLL is said to be "locked", i.e. in a *stable state*. In the stable state of the PLL, the frequencies and phases of the two signals are identical. The following applies:
 
 $f_\mathrm{ref}=\frac{f_\mathrm{out}}{n}$
 
-Die Ausgangsfrequenz ist stabil und entspricht im Wesentlichen der Referenzfrequenz oder deren Vielfachen (je nach gewähltem Teilverhältnis des Frequenzteilers).
+The output frequency is stable and corresponds essentially to the reference frequency or a multiple of it (depending on the division ratio selected on the frequency divider).
 
-Das Funktionsprinzip wird an einem einfachen Beispiel an Abbildung [ref:a_oszillator_pll] deutlich: Der Referenzoszillator liefert am Punkt A eine Frequenz von $f_\mathrm{ref}=\qty{10}{\mega\hertz}$. Die Ausgangsfrequenz des VCO wird am Punkt C durch den Frequenzteiler mit dem Teilerverhältnis $n=100$ geteilt. Ist die PLL eingerastet, also im *stabilen Zustand*, sind die Frequenzen an den Punkten A und B gleich. Daraus ergibt sich für die Ausgangsfrequenz:
+A simple example using Figure [ref:a_oszillator_pll] makes the principle clear: the reference oscillator supplies a frequency of $f_\mathrm{ref}=\qty{10}{\mega\hertz}$ at point A. The output frequency of the VCO is divided at point C by the frequency divider with the division ratio $n=100$. When the PLL is locked, i.e. in the *stable state*, the frequencies at points A and B are equal. This gives the output frequency:
 
 $f_\mathrm{out}=n\cdot f_\mathrm{ref}=100\cdot\qty{10}{\mega\hertz}=\qty{1}{\giga\hertz}$
 
-Der VCO erzeugt somit eine Frequenz von $\qty{1}{\giga\hertz}$, die durch den Frequenzteiler auf $\qty{10}{\mega\hertz}$ heruntergeteilt und mit der Referenzfrequenz verglichen wird.
+The VCO therefore generates a frequency of $\qty{1}{\giga\hertz}$, which is divided down to $\qty{10}{\mega\hertz}$ by the frequency divider and compared with the reference frequency.
 
 <indepth>
-Eine PLL kann analog, digital oder als Mischform aus beiden Techniken aufgebaut werden. In Funkgeräten werden häufig digitale Phasenvergleicher und Frequenzteiler mit einem analogen Schleifenfilter und VCO kombiniert.
+A PLL can be built with analogue or digital techniques, or as a mixture of the two. Radios often combine digital phase detectors and frequency dividers with an analogue loop filter and VCO.
 </indepth>
 
 [question:AD702]
 
-Die Genauigkeit und Stabilität der PLL-Ausgangsfrequenz hängt in erster Linie von der Qualität des Referenzoszillators ab, welcher üblicherweise ein Quarzoszillator ist.
+The accuracy and stability of the PLL output frequency depend primarily on the quality of the reference oscillator, which is usually a crystal oscillator.
 
 [question:AD705]
 
-Um eine PLL auf unterschiedliche Frequenzen einzustellen, kann dies durch den Frequenzteiler erfolgen. Dadurch wird es möglich, die Ausgangsfrequenz als ein ganzzahliges Vielfaches der Referenzfrequenz zu erzeugen. Das kleinste wählbare Frequenzintervall entspricht dabei der Frequenz des Referenzoszillators, da die Teilung nur in ganzzahligen Schritten erfolgen kann. Bei einem FM-Funkgerät mit einem Kanalraster von $\qty{12,5}{\kilo\hertz}$ kann daher eine Vergleichsfrequenz von $\qty{12,5}{\kilo\hertz}$ verwendet werden. Wird das Teilerverhältnis $n$ um eins erhöht oder verringert, ändert sich die Ausgangsfrequenz entsprechend um $\qty{12,5}{\kilo\hertz}$. Auf diese Weise kann die PLL auf die einzelnen Funkkanäle eingestellt werden.
+A PLL can be set to different frequencies by means of the frequency divider. This makes it possible to generate the output frequency as an integer multiple of the reference frequency. The smallest selectable frequency step is equal to the frequency of the reference oscillator, since the division can only be done in whole-number steps. In an FM radio with a channel spacing of $\qty{12.5}{\kilo\hertz}$, a comparison frequency of $\qty{12.5}{\kilo\hertz}$ can therefore be used. If the division ratio $n$ is increased or decreased by one, the output frequency changes accordingly by $\qty{12.5}{\kilo\hertz}$. In this way the PLL can be set to the individual radio channels.
 
 [question:AD703]
 
-Um bei gegebener Referenzfrequenz eine bestimmte Ausgangsfrequenz zu erreichen, wird der Teilfaktor so gewählt, dass an den Eingängen des Phasenvergleichers dieselbe Frequenz anliegt. Dadurch lässt sich das benötigte Teilverhältnis für die gewünschte Ausgangsfrequenz berechnen.
+To reach a particular output frequency for a given reference frequency, the division ratio is chosen so that the same frequency is present at both inputs of the phase detector. This allows the division ratio needed for the desired output frequency to be calculated.
 
 [question:AD704]

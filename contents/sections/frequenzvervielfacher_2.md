@@ -1,24 +1,24 @@
-In der Klasse E haben wir bereits Frequenzvervielfacher auf Blockebene kennen gelernt. In der Klasse A wollen wir verstehen, wie sie funktionieren
+In Class E we have already met frequency multipliers at block-diagram level. In Class A we want to understand how they work.
 
-Dioden und Transistoren besitzen eine nichtlineare Kennlinie. Werden sie mit einem sinusförmigen Signal angesteuert, wird dieses dadurch verzerrt. Wie wir bereits gelernt haben, entstehen bei solchen nichtlinearen Vorgängen Oberwellen. Bei einem Frequenzvervielfacher wird dieser Effekt gezielt genutzt: Das Eingangssignal wird zunächst nichtlinear verzerrt, sodass zahlreiche Oberwellen entstehen. Anschließend wird die gewünschte Oberwelle mit einem abgestimmten Schwingkreis oder Filter ausgewählt und als Ausgangssignal verwendet.
+Diodes and transistors have a non-linear characteristic. If they are driven with a sinusoidal signal, the signal is distorted as a result. As we have already learnt, such non-linear processes produce harmonics. A frequency multiplier makes deliberate use of this effect: the input signal is first distorted non-linearly, so that numerous harmonics are produced. The desired harmonic is then selected with a tuned circuit or filter and used as the output signal.
 
-Technisch wird ein Frequenzvervielfacher so realisiert, dass das Eingangssignal zunächst einer nichtlinearen Verzerrerstufe zugeführt wird. Dies kann z.B. ein Klasse-C-Verstärker sein, welche wir im laufe des Kapitels noch besprechen werden. Anschließend wird aus dem Signalgemisch mittels Filtern die gewünschte Oberschwingung des Signals selektiert und an die nächste Stufe weitergeführt. Da die Frequenzvervielfachung auf Oberschwingungen/Harmonischen basiert, sind nur ganzzahlige Vielfache der Grundfrequenz möglich. In der Praxis wird (bis auf wenige Ausnahmen) nur die 2. Harmonische oder 3. Harmonische der Grundfrequenz verwendet (Verdoppelung, Verdreifachung).
-Um höhere Frequenzvervielfachungen zu erreichen, werden daher Stufen mit Verdoppelung oder Verdreifachung hintereinandergeschaltet, so dass sich deren Faktoren anschließend multiplizieren.
+In practice, a frequency multiplier is implemented by first feeding the input signal to a non-linear distorting stage. This can be, for example, a class C amplifier, which we will discuss later in this chapter. The desired harmonic of the signal is then selected from the mixture of signals by means of filters and passed on to the next stage. Since frequency multiplication is based on harmonics, only integer multiples of the fundamental frequency are possible. In practice (with a few exceptions) only the 2nd harmonic or the 3rd harmonic of the fundamental frequency is used (doubling, tripling).
+To achieve higher multiplication factors, doubling or tripling stages are therefore connected one after the other, so that their factors multiply.
 
 [question:AF311]
 
-Durch Frequenzvervielfachung und ggf. deren Hintereinanderschaltung werden Frequenzprodukte erzeugt, die oft zu Störungen führen können. Daher müssen Stufen der Frequenzvervielfachung sehr gut abgeschirmt sein, um unerwünschte Abstrahlungen maximal zu reduzieren.
+Frequency multiplication, and connecting multipliers one after the other where this is done, produce frequency products that can often lead to interference. Frequency multiplier stages must therefore be very well screened, to reduce unwanted radiation as far as possible.
 
 [question:AF313]
 
-Eine typische Vervielfacher-Schaltung (siehe Abbildung [ref:a_frequenzvervielfacher_schaltung]) enthält eine Verstärkerstufe, welche bewusst mit fehlender Basis-Vorspannung betrieben wird. Hierdurch entsteht ein Verstärker im Klasse-C Betrieb, der das Eingangssignal stark verzerrt und an dessen Ausgang das Signal mittels Filtern entnommen wird. Hierbei kommen für die Filter entsprechende Schwingkreise zum Einsatz, die auf der gewünschten Frequenz in Resonanz sind und meist abstimmbar sind.
+A typical multiplier circuit (see Figure [ref:a_frequenzvervielfacher_schaltung]) contains an amplifier stage that is deliberately operated without base bias. This produces an amplifier in class C operation, which heavily distorts the input signal and at whose output the signal is taken off by means of filters. The filters used for this are tuned circuits that resonate on the desired frequency and are usually tunable.
 
 <margin>
-[picture:489:a_frequenzvervielfacher_schaltung:Beispiel für eine Schaltung eines Frequenzvervielfachers mit Klasse-C-Verstärker ohne Basis-Vorspannung]
+[picture:489:a_frequenzvervielfacher_schaltung:Example of a frequency multiplier circuit with a class C amplifier without base bias]
 </margin>
 
 [question:AF312]
 
-Wenn mehrere Vervielfacher-Stufen innerhalb eines Gerätes hintereinandergeschaltet sind, kann es zu Störungen auf Frequenzen kommen, die sich zwischen den einzelnen Vervielfacher-Stufen bilden. Um diese Frequenzen zu ermitteln, muss man den Weg des Signals durch die einzelnen Stufen und dessen danach vorhandene Frequenzen berechnen. Daher ist die Reihenfolge der entsprechenden Vervielfacher-Stufen von entscheidender Bedeutung bei der Ermittlung von Störfrequenzen, denn nur gewisse Frequenzen sind mathematisch möglich.
+If several multiplier stages are connected one after the other in a piece of equipment, interference can occur on the frequencies produced between the individual multiplier stages. To determine these frequencies, you have to trace the path of the signal through the individual stages and calculate the frequencies present after each of them. The order of the multiplier stages is therefore crucial in determining interference frequencies, because only certain frequencies are mathematically possible.
 
 [question:AF314]

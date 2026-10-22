@@ -1,7 +1,7 @@
-* Mittels Transistoren lassen sich, abhängig von der Art der Schaltung, alle Arten von Signalen (Digital, NF oder HF) verstärken.
-* Dabei ist die Ausgangsleistung gegenüber der Eingangsleistung größer.
-* Es ist eine Spannungsquelle notwendig.
-* Wir haben im Kapitel Transistor schon gesehen, wie das funktioniert.
+* Depending on the type of circuit, transistors can be used to amplify all kinds of signals (digital, AF or RF).
+* The output power is greater than the input power.
+* A voltage source is needed.
+* We have already seen how this works in the chapter on transistors.
 
 ---
 
@@ -14,16 +14,16 @@
 ---
 
 <left>
-* *Linearität* bedeutet: Eine Verdoppelung des Eingangssignals muss zu einer Verdoppelung des Ausgangssignals führen
-* Linearitätsabweichungen sind unerwünscht, weil sie zu Frequenzen führen, die im Originalsignal nicht vorhanden sind.
-* Sie werden im NF-Bereich als *Verzerrungen* wahrgenommen und im HF-Bereich als *Oberwellen*
+* *Linearity* means: doubling the input signal must double the output signal
+* Departures from linearity are unwanted, because they lead to frequencies that are not present in the original signal.
+* At AF they are perceived as *distortion*, and at RF as *harmonics*
 </left>
 <right>
-[picture:828:e_verstaerker_linearitaet:Das Eingangssignal wird verstärkt. Bei Begrenzung durch fehlende Linearität wird das Ausgangssignal verformt.]
+[picture:828:e_verstaerker_linearitaet:The input signal is amplified. Where it is limited by a lack of linearity, the output signal is deformed.]
 </right>
 <note>
-* Mehr zu Oberwellen im Abschnitt Unerwünschte Ausstrahlungen im Kapitel Sender
-* Ausnahme sind Verstärker für FM, da bei FM die Information mittels Frequenzänderung und nicht mit einer Änderung der Amplitude übermittelt wird.
+* More on harmonics in the section on unwanted emissions in the chapter on transmitters
+* Amplifiers for FM are an exception, since with FM the information is conveyed by a change in frequency and not by a change in amplitude.
 </note>
 
 ---
@@ -33,10 +33,10 @@
 ---
 
 <left>
-* NF-Verstärker finden im Amateurfunk zum Beispiel bei der Anhebung des Signals für eine Ausgabe im Lautsprecher Anwendung
+* In amateur radio, AF amplifiers are used, for example, to boost the signal for output to a loudspeaker
 </left>
 <right>
-[picture:763:e_nf_verstaerker:Schaltbild eines NF-Verstärkers]
+[picture:763:e_nf_verstaerker:Circuit diagram of an AF amplifier]
 </right>
 
 ---
@@ -46,12 +46,12 @@
 ---
 
 <left>
-* Auch bei der Verstärkung des Mikrofonsignals findet man Verstärker
-* Verstärkung im Bereich von ca. $\qtyrange{300}{3000}{\hertz}$
-* Die Bandbreite liegt bei $\qty{2,7}{\kilo\hertz}$ oder darunter
+* Amplifiers are also found where the microphone signal is amplified
+* Amplification in the range of approx. $\qtyrange{300}{3000}{\hertz}$
+* The bandwidth is $\qty{2.7}{\kilo\hertz}$ or less
 </left>
 <right>
-[picture:246:e_frequenzgang_mikrofonverstaerker:Typischer Frequenzgang für einen Amateurfunk Mikrofonverstärker]
+[picture:246:e_frequenzgang_mikrofonverstaerker:Typical frequency response of an amateur radio microphone amplifier]
 </right>
 
 ---
@@ -62,15 +62,15 @@
 
 [question:EF308]
 <note>
-* Erkennbar am Mikrofon vorher, das für SSB verwendet wird
+* Recognisable from the microphone before it, which is used for SSB
 </note>
 
 ---
 
-* Die Stromzufuhr eines Senders sollte neben Stabilität auch einen guten Schutz gegen HF-Einstrahlung haben
-* Damit verhindert man das Einströmen von Hochfrequenz in das Stromnetz
+* Besides being stable, the power feed of a transmitter should also be well protected against RF pick-up
+* This prevents RF from being conducted into the mains
 <note>
-* Mehr dazu im Abschnitt Unerwünschte Ausstrahlungen im Kapitel Sender
+* More on this in the section on unwanted emissions in the chapter on transmitters
 </note>
 
 ---

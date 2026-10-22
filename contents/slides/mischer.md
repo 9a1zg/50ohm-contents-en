@@ -1,26 +1,26 @@
 <left>
-* Beim Mischen von zwei Eingangs-Frequenzen entstehen immer zwei Ausgangs-Frequenzen
+* Mixing two input frequencies always produces two output frequencies
 
 $f_\text{a1} = f_\text{e1} + f_\text{e2}$
 $f_\text{a2} = |f_\text{e1} - f_\text{e2}|$
 </left>
 <right>
-[picture:102:e_mischer:Mischer mit zwei Eingangsfrequenzen]
+[picture:102:e_mischer:Mixer with two input frequencies]
 </right>
 <note>
-Betrag, also nur Wert ohne Minus
+Magnitude, i.e. only the value without the minus sign
 </note>
 
 ---
 [question:EF201]
 ---
-### Lösungsweg
+### Solution
 
-* Gegeben: $f_{e1} = \qty{21}{\mega\hertz}$, $f_{e2} = \qty{31,7}{\mega\hertz}$
-* Lösung:
+* Given: $f_{e1} = \qty{21}{\mega\hertz}$, $f_{e2} = \qty{31.7}{\mega\hertz}$
+* Working:
 
-$\begin{split}f_{a1} &= \qty{21}{\mega\hertz} + \qty{31,7}{\mega\hertz}\\ &= \qty{52,7}{\mega\hertz}\end{split}$
-$\begin{split}f_{a2} &= |\qty{21}{\mega\hertz} - \qty{31,7}{\mega\hertz}|\\ &= |\qty{-10,7}{\mega\hertz}|\\ &= \qty{10,7}{\mega\hertz}\end{split}$
+$\begin{split}f_{a1} &= \qty{21}{\mega\hertz} + \qty{31.7}{\mega\hertz}\\ &= \qty{52.7}{\mega\hertz}\end{split}$
+$\begin{split}f_{a2} &= |\qty{21}{\mega\hertz} - \qty{31.7}{\mega\hertz}|\\ &= |\qty{-10.7}{\mega\hertz}|\\ &= \qty{10.7}{\mega\hertz}\end{split}$
 
 ---
 [question:EF202]
@@ -31,12 +31,12 @@ $\begin{split}f_{a2} &= |\qty{21}{\mega\hertz} - \qty{31,7}{\mega\hertz}|\\ &= |
 ---
 [question:EF205]
 ---
-## Schirmung
+## Screening
 
-* In der Regel ist nur eine von den beiden Frequenzen erwünscht
-* Die unerwünschte Frequenz wird durch Filter beseitigt
-* Bis dahin sollte diese Frequenz nicht außerhalb der Mischerstufe zu detektieren sein
-* Deshalb wird die Mischerstufe vor Abstrahlungen gut geschirmt, z.B. mit einem Metallgehäuse
+* As a rule, only one of the two frequencies is wanted
+* The unwanted frequency is removed by filters
+* Until then, this frequency should not be detectable outside the mixer stage
+* The mixer stage is therefore well screened against radiation, e.g. with a metal case
 
 ---
 [question:EF206]

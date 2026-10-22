@@ -1,26 +1,26 @@
-Die Frequenz eines VFOs ist von seiner Betriebsspannung (Gleichspannung) direkt abhängig. Dies wird vor allem durch die Abhängigkeit des Arbeitspunktes des Transistors in dessen Oszillator hervorgerufen.
-Zur Erreichung einer möglichst hohen Frequenzstabilität eines VFOs gegenüber Schwankungen in der Betriebsspannung ist diese möglichst gut durch geeignete schaltungstechnische Maßnahmen in deren *Spannung zu stabilisieren*. Die Betriebsspannung eines VFOs sollte daher unabhängig von Betriebsspannungen anderer Stufen sein (stabilisiert) und möglichst gut *gefiltert und entkoppelt* sein. Dies kann z.B. durch einen Festspannungsregler erreicht werden (vgl. Abbildung [ref:a_osc_stab]).
+The frequency of a VFO depends directly on its operating voltage (DC voltage). This is caused mainly by the way the operating point of the transistor in its oscillator depends on that voltage.
+To make the frequency of a VFO as stable as possible against fluctuations in the operating voltage, this voltage must be *stabilised* as well as possible by suitable circuit design measures. The operating voltage of a VFO should therefore be independent of the operating voltages of other stages (stabilised) and be *filtered and decoupled* as well as possible. This can be achieved, for example, with a fixed voltage regulator (see Figure [ref:a_osc_stab]).
 
 [question:AD612]
 [question:AD608]
 [question:AD607]
 
 <margin>
-[picture:200:a_osc_stab:Festspannungsregler]
+[picture:200:a_osc_stab:Fixed voltage regulator]
 </margin>
 
 ---
 
-Bei schlechter Spannungsstabilisierung der Betriebsspannung kann es bei sehr einfachen CW-Sendern zu einer Tonhöhenstörung kommen, die als *Chirp* bezeichnet wird: Zu Beginn jedes einzelnen Dits oder Dahs ist die Tonhöhe zunächst etwas höher oder etwas tiefer und nähert sich dann der eigentlichen Tonhöhe an. Das englische Wort „Chirp" bedeutet wörtlich übersetzt „Zwitschern". Wenn sich die Tonhöhe von oben annähert, hat der akustische Effekt tatsächlich etwas von Zwitschern.
+If the operating voltage is poorly stabilised, very simple CW transmitters can suffer from a pitch defect known as *chirp*: at the start of each individual dit or dah, the pitch is at first slightly higher or slightly lower and then approaches the actual pitch. The English word "chirp" means the short, high call of a small bird. When the pitch approaches from above, the sound really does have something of a bird's chirp about it.
 
 [question:AD609]
 
 <margin>
-Hier ein Beispiel für ein solches Chirp-Signal:
+Here is an example of such a chirp signal:
 
 [include:applet_chirp_1]
 
-Ein weiteres Beispiel, ein QSO zwischen RA1OW und OM3YCY, bei dem der Chirp-Effekt im zweiten Druchgang deutlich zu hören ist:
+Another example, a QSO between RA1OW and OM3YCY, in which the chirp can be heard clearly in the second over:
 
 [include:applet_chirp_2]
 

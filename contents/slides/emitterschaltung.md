@@ -1,52 +1,52 @@
 <left>
-[picture:136:a_emitterschaltung_schaltbild:Bipoltransistor in Emitterschaltung]
+[picture:136:a_emitterschaltung_schaltbild:Bipolar transistor in common-emitter configuration]
 </left>
 <right>
-* Eingangssignal: Quelle $\rightarrow$ Basis $\rightarrow$ Emitter $\rightarrow$ Masse $\rightarrow$ Quelle
-* Ausgangsignal: Kollektor $\rightarrow$ Last $\rightarrow$ Betriebsspannung $\rightarrow$ Masse $\rightarrow$ Emitter $\rightarrow$ Kollektor
+* Input signal: source $\rightarrow$ base $\rightarrow$ emitter $\rightarrow$ chassis $\rightarrow$ source
+* Output signal: collector $\rightarrow$ load $\rightarrow$ supply voltage $\rightarrow$ chassis $\rightarrow$ emitter $\rightarrow$ collector
 </right>
 
 ---
 [question:AD409]
 ---
 <left>
-[picture:136:a_emitterschaltung_schaltbild:Bipoltransistor in Emitterschaltung]
+[picture:136:a_emitterschaltung_schaltbild:Bipolar transistor in common-emitter configuration]
 </left>
 <right>
-* Arbeitspunkt (BIAS) wird über den Spannungsteiler an der Basis eingestellt
+* The operating point (bias) is set by the potential divider at the base
 </right>
 
 ---
 [question:AD411]
 ---
 <left>
-[picture:136:a_emitterschaltung_schaltbild:Bipoltransistor in Emitterschaltung]
+[picture:136:a_emitterschaltung_schaltbild:Bipolar transistor in common-emitter configuration]
 </left>
 <right>
-* Kollektorwiderstand wandelt Kollektorstrom in eine Spannung um
-* Kollektorstrom fließt in den Emitterstrom rein
-* Emitterwiderstand erzeugt Spannungsabfall und erhöht das Emitterpotenzial
-* Thermische Änderungen des Kollektorstroms werden automatisch ausgeglichen
+* The collector resistor converts the collector current into a voltage
+* The collector current flows on into the emitter current
+* The emitter resistor produces a voltage drop and raises the emitter potential
+* Temperature-related changes in the collector current are compensated automatically
 </right>
 ---
 [question:AD413]
 ---
 <left>
-[picture:136:a_emitterschaltung_schaltbild:Bipoltransistor in Emitterschaltung]
+[picture:136:a_emitterschaltung_schaltbild:Bipolar transistor in common-emitter configuration]
 </left>
 <right>
-* Ein- und Auskopplung über Koppelkondensatoren
-* Halten Gleichspannungsanteile aus der Netzspannung vom Arbeitspunkt fern
+* Coupling in and out through coupling capacitors
+* They keep DC components from the mains voltage away from the operating point
 </right>
 ---
 [question:AD412]
 ---
 <left>
-[picture:136:a_emitterschaltung_schaltbild:Bipoltransistor in Emitterschaltung]
+[picture:136:a_emitterschaltung_schaltbild:Bipolar transistor in common-emitter configuration]
 </left>
 <right>
-* Abblockkondensator führt unerwünschte HF- und NF-Signale aus der Betriebsspannung nach Masse ab
-* Phasenverschiebung zwischen Ein- und Ausgangssignal: $\qty{180}{\degree}$
+* The decoupling capacitor takes unwanted RF and AF signals from the supply voltage to chassis
+* Phase shift between the input and output signals: $\qty{180}{\degree}$
 </right>
 ---
 [question:AD407]
@@ -54,28 +54,28 @@
 [question:AD408]
 --- style="font-size: smaller;"
 <left>
-[picture:227:a_emitterschaltung_ohne_bias:Bipoltransistor in Emitterschaltung ohne Arbeitspunktvoreinstellung]
+[picture:227:a_emitterschaltung_ohne_bias:Bipolar transistor in common-emitter configuration without a preset operating point]
 </left>
 <right>
-* BIAS-Spannungsteiler entfällt
-* Ansteuerung erfolgt nur durch das zugeführte Signal
-* Basis-Emitter-Strecke leitet erst, wenn ca. $\qty{0,5}{\volt}$ überschritten werden
-* Bei Überschreitung fließt ein Kollektorstrom
-* Spannungsabfall am Ausgang
+* No bias potential divider
+* The transistor is driven only by the signal applied
+* The base-emitter path only conducts once approx. $\qty{0.5}{\volt}$ is exceeded
+* When it is exceeded, a collector current flows
+* Voltage drop at the output
 </right>
 ---
 [question:AD406]
 ---
 <left>
-[picture:136:a_emitterschaltung_schaltbild:Bipoltransistor in Emitterschaltung]
+[picture:136:a_emitterschaltung_schaltbild:Bipolar transistor in common-emitter configuration]
 </left>
 <right>
-* Spannungsverstärkung ca. $100\dots 300$
-* Entfernung des Emitterkondensators $\rightarrow$ Verstärkungfaktor sinkt erheblich
-* Verstärkungsfaktor nur noch durch Verhältnis Kollektor- zu Emitterwiderstand definiert
+* Voltage gain approx. $100\dots 300$
+* Emitter capacitor removed $\rightarrow$ the gain falls considerably
+* The gain is then determined only by the ratio of the collector resistor to the emitter resistor
 </right>
 <note>
-Hohe Spannungsverstärkung
+High voltage gain
 </note>
 ---
 [question:AD414]

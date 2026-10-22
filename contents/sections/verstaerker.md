@@ -1,39 +1,39 @@
-Im Kapitel zu den Transistoren haben wir bereits kennengelernt, dass sich mit einem kleinen Basisstrom $I_\text{B}$ ein deutlich größerer Kollektorstrom $I_\text{C}$ steuern lässt. Dieses Prinzip kann genutzt werden, um einen Verstärker für elektrische Signale aufzubauen. Abhängig von der jeweiligen Schaltungsart lassen sich mit Transistoren Signale aller Art verstärken – seien es digitale Signale, Niederfrequenz- (NF) oder Hochfrequenz- (HF) Signale. Eine Verstärkung bedeutet dabei, dass die Ausgangsleistung eines Signals größer ist als seine Eingangsleistung, was das grundlegende Kennzeichen eines Verstärkers darstellt.
+In the chapter on transistors we have already learnt that a small base current $I_\text{B}$ can be used to control a much larger collector current $I_\text{C}$. This principle can be used to build an amplifier for electrical signals. Depending on the type of circuit, transistors can amplify signals of all kinds – be they digital signals, audio-frequency (AF) or radio-frequency (RF) signals. Amplification means that the output power of a signal is greater than its input power, and this is the basic characteristic of an amplifier.
 
 ---
 
-Die Abbildung [ref:e_nf_verstaerker] zeigt einen Niederfrequenz-Verstärker (NF-Verstärker) welcher Audio-Signale aus dem Funkgerät für einen Lautsprecher verstärken soll. Dies ist Leicht am Lautsprechersymbol in der Schaltung zu erkennen. HF-Leistungsverstärker werden z.B. zur Anhebung des Sendesignals eingesetzt.
+Figure [ref:e_nf_verstaerker] shows an audio-frequency amplifier (AF amplifier) intended to amplify audio signals from the radio for a loudspeaker. This is easy to see from the loudspeaker symbol in the circuit. RF power amplifiers are used, for example, to amplify the transmitted signal.
 
 <margin>
-[picture:763:e_nf_verstaerker:Schaltbild eines NF-Verstärkers]  
+[picture:763:e_nf_verstaerker:Circuit diagram of an AF amplifier]  
 </margin>
 
 [question:ED402]
 [question:ED403]
 
-Da sich die Ausgangsleistung gegenüber der Eingangsleistung erhöht, muss einem Verstärker immer Energie zugeführt werden. Daher ist eine entsprechend belastbare Spannungsquelle erforderlich.
+Since the output power is greater than the input power, energy must always be supplied to an amplifier. A voltage source with a suitable rating is therefore required.
 
 [question:ED401]
 
 ---
 
-Damit ein Verstärker als *linear* bezeichnet werden kann, muss er die Eigenschaft besitzen, dass bei einer Verdoppelung des Eingangssignals sich das Ausgangssignal am Verstärker ebenfalls verdoppelt.
-Linearitätsabweichungen sind i.d.R unerwünscht und nur bei Betriebsarten wie FM (bei denen die Information des Signals nicht über die Amplitude, sondern nur über die Frequenz übertragen wird) tolerierbar. Arbeitet ein Verstärker nicht linear, so sind in dessen Ausgangssignal Frequenzen vorhanden, die im Eingangssignal nicht vorhanden sind (sog. Splatter). Im NF-Bereich äußert sich dieses Verhalten als Verzerrung. Im HF-Bereich entstehen Oberwellen des verstärkten Signals. Beides ist unerwünscht. Die Abbildung [ref:e_verstaerker_linearitaet] zeigt beispielhaft wie ein Sinus-Signal durch nichtlineares Verhalten verformt wird. 
+For an amplifier to be called *linear*, it must have the property that when the input signal doubles, the output signal of the amplifier doubles too.
+Departures from linearity are as a rule unwanted, and can only be tolerated with modes such as FM (in which the information in the signal is carried not by the amplitude but only by the frequency). If an amplifier does not work linearly, its output signal contains frequencies that are not present in the input signal (known as splatter). At AF this shows up as distortion. At RF, harmonics of the amplified signal are produced. Both are unwanted. Figure [ref:e_verstaerker_linearitaet] shows an example of how a sine-wave signal is deformed by non-linear behaviour. 
 
 <margin>
-[picture:828:e_verstaerker_linearitaet:Das Eingangssignal wird verstärkt. Bei Begrenzung durch fehlende Linearität wird das Ausgangssignal verformt.]
+[picture:828:e_verstaerker_linearitaet:The input signal is amplified. Where it is limited by a lack of linearity, the output signal is deformed.]
 </margin>
 
 [question:EF403]
 
-Für die Linearität eines Senders ist ebenfalls eine stabilisierte und von anderen Stufen entkoppelte Stromversorgung notwendig, um unerwünschte Rückkopplungen zu vermeiden.
+The linearity of a transmitter likewise requires a power supply that is stabilised and decoupled from other stages, in order to avoid unwanted feedback.
 
 [question:EF405]
 
-Nicht nur beim Lautsprecher am Funkgerät findet man NF-Verstärker, sondern auch bereits am Mikrofon. Diese dienen hierbei z. B. für die Verstärkung des Mikrofon-Signals. Üblicherweise werden hierbei tiefere (unter $\qty{300}{\hertz}$) und höhere Frequenzanteile (über $\qty{3}{\kilo\hertz}$) des Mikrofonsignals bereits innerhalb des Mikrofonverstärkers durch eine Bandpasscharakteristik unterdrückt, um die Bandbreite des NF-Signals zu begrenzen und tiefere Frequenzanteile wie z.B. Netzbrummen zu unterdrücken (vgl. Abbildung [ref:e_frequenzgang_mikrofonverstaerker]). Für eine gute Sprachverständlichkeit ist bei Sprachkommunkation eine NF-Bandbreite von ca. $\qtyrange{2,5}{3}{\kilo\hertz}$ erforderlich.
+AF amplifiers are found not only at the loudspeaker of a radio but also at the microphone. There they are used, for example, to amplify the microphone signal. Usually, the lower (below $\qty{300}{\hertz}$) and higher frequency components (above $\qty{3}{\kilo\hertz}$) of the microphone signal are already suppressed within the microphone amplifier by a band-pass response, in order to limit the bandwidth of the AF signal and to suppress lower frequency components such as mains hum (see Figure [ref:e_frequenzgang_mikrofonverstaerker]). For good speech intelligibility in voice communication, an audio bandwidth of approx. $\qtyrange{2.5}{3}{\kilo\hertz}$ is needed.
 
 <margin>
-[picture:246:e_frequenzgang_mikrofonverstaerker:Typischer Frequenzgang für einen Amateurfunk-Mikrofonverstärker]
+[picture:246:e_frequenzgang_mikrofonverstaerker:Typical frequency response of an amateur radio microphone amplifier]
 </margin>
 
 [question:EF308]

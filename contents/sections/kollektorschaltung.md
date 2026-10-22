@@ -1,61 +1,61 @@
-In den nächsten beiden Kapiteln beschäftigen wir uns mit zwei wichtigen Grundschaltungen eines bipolaren Transistors. Zunächst betrachten wir in diesem Kapitel die *Kollektorschaltung*, im darauffolgenden Kapitel die *Emitterschaltung*. Beide Schaltungen sind in Abbildung [ref:a_emitter_collector] dargestellt. Sie besitzen unterschiedliche Eigenschaften und werden daher für verschiedene Anwendungen eingesetzt.
+In the next two chapters we deal with two important basic circuits of a bipolar transistor. In this chapter we first look at the *common-collector circuit*, and in the following chapter at the *common-emitter circuit*. Both circuits are shown in Figure [ref:a_emitter_collector]. They have different properties and are therefore used for different applications.
 
 <margin>
-[picture:1118:a_emitter_collector:Emitter- und Kollektorschaltung mit Bezeichnugnen Basis (B), Kollektor (C) und Emitter (E)]
+[picture:1118:a_emitter_collector:Common-emitter and common-collector circuits, with the base (B), collector (C) and emitter (E) labelled]
 </margin>
 
-Die Bezeichnung der Grundschaltungen eines bipolaren Transistors richtet sich nach dem Anschluss, der weder als Eingang noch als Ausgang der Schaltung dient und damit den gemeinsamen Bezugspunkt für den Eingangs- und den Ausgangskreis bildet. Bei der Kollektorschaltung ist dies der Kollektor. 
+The basic circuits of a bipolar transistor are named after the terminal that serves neither as the input nor as the output of the circuit, and so forms the common reference point for the input and output circuits. In the common-collector circuit, this is the collector. 
 
 ---
 
 [question:AD401]
 
 <tip>
-Verstärkerschaltungen von Bipolartransistoren werden nach dem Anschluss benannt, an dem weder Eingang noch Ausgang direkt angeschlossen sind (vgl. Abbildung [ref:a_emitter_collector]). 
+Bipolar transistor amplifier circuits are named after the terminal to which neither the input nor the output is directly connected (see Figure [ref:a_emitter_collector]). 
 </tip>
 
-Da der Kollektor üblicherweise mit der Versorgungsspannung verbunden ist und für Wechselspannungen näherungsweise auf einem festen Potenzial liegt, folgt die Spannung am Emitter der Spannung an der Basis. Die Kollektorschaltung wird daher auch oft als *Emitterfolger* bezeichnet.
+Since the collector is usually connected to the supply voltage and, for AC, is at an approximately fixed potential, the voltage at the emitter follows the voltage at the base. The common-collector circuit is therefore also often called an *emitter follower*.
 
-Steigt die Eingangsspannung an der Basis beispielsweise während einer positiven Halbwelle an, erhöht sich der Emitterstrom. Dadurch nimmt der Spannungsabfall am Emitterwiderstand zu und auch die Ausgangsspannung steigt. Ein- und Ausgangssignal sind daher phasengleich; die Phasenverschiebung beträgt $\qty{0}{\degree}$.
+If the input voltage at the base rises, for example during a positive half cycle, the emitter current increases. As a result, the voltage drop across the emitter resistor increases and the output voltage rises too. Input and output signals are therefore in phase; the phase shift is $\qty{0}{\degree}$.
 
 [question:AD405]
 
 ---
 
-Die Abbildung [ref:a_collector_circuit] zeigt eine einfache Kollektorschaltung mit Spannungsversorgung, Emitterwiderstand und Koppelkondensatoren. 
+Figure [ref:a_collector_circuit] shows a simple common-collector circuit with power supply, emitter resistor and coupling capacitors. 
 
 <margin>
-[picture:140:a_collector_circuit:Kollektorschaltung mit Spannungsversorgung, Emitterwiderstand und Koppelkondensatoren]
+[picture:140:a_collector_circuit:Common-collector circuit with power supply, emitter resistor and coupling capacitors]
 </margin>
 
 ---
 
-Für den Betrieb als linearer Strom-Verstärker benötigt der Transistor in der Kollektorschaltung einen definierten Arbeitspunkt (engl. bias, Vorspannung), der normalerweise durch einen Spannungsteiler an der Basis festgelegt wird.
+To operate as a linear current amplifier, the transistor in the common-collector circuit needs a defined operating point (bias), which is normally set by a potential divider at the base.
 
-Abbildung [ref:a_kennlinie] zeigt die Kennlinie eines NPN-Transistors mit dem durch den Spannungsteiler eingestellten Arbeitspunkt. Die Basisvorspannung wird so gewählt, dass auf dem linearen Teil der Eingangskennlinie gearbeitet wird. Dies impliziert auch, dass immer ein gewisser Ruhestrom fließt, auch wenn kein Eingangssignal anliegt. Das werden wir im Kapitel der Verstärkerklassen noch genauer betrachten. 
+Figure [ref:a_kennlinie] shows the characteristic of an NPN transistor with the operating point set by the potential divider. The base bias is chosen so that the transistor works on the linear part of the input characteristic. This also implies that a certain quiescent current always flows, even when there is no input signal. We will look at this in more detail in the chapter on amplifier classes. 
 
-Wird ein Eingangssignal, z.B. eine sinusförmige Wechselspannung, wie in dem Bild gezeigt angelegt, so wird dieses Signal durch die Eingangskennlinie verstärkt. Man beachte hier die Beschriftung der Achsen, aus Mikroampere werden Milliampere. Die resultierende Spannung am Ausgang kann auch aus dieser Kennlinie abgelesen werden 
+If an input signal, e.g. a sinusoidal AC voltage, is applied as shown in the picture, this signal is amplified according to the input characteristic. Note the labelling of the axes here: microamperes become milliamperes. The resulting output voltage can also be read off this characteristic 
 
 <margin>
-[picture:1119:a_kennlinie:Kennlinie eines NPN-Transistors mit Arbeitspunkt und Signalüberlagerung]
+[picture:1119:a_kennlinie:Characteristic of an NPN transistor with operating point and superimposed signal]
 </margin>
 
-Der Emitterwiderstand wandelt den Strom, der durch die Kollektor-Emitter-Strecke fließt, in einen Spannungsabfall um, der am Emitter abgegriffen wird. Der Emitterstrom des Transistors fließt (gemeinsam mit dem normalerweise vernachlässigbaren Basis-Strom-Anteil) über den Emitter durch den Emitterwiderstand gegen Masse. Der Strom durch den Emitterwiderstand verursacht durch den entstehenden Spannungsabfall an diesem eine Erhöhung des Emitterpotenzials (Emitterspannung) und wirkt somit als Gegenkopplung für die Basis-Spannung. Hierdurch wird der Arbeitspunkt des Transistors zusätzlich stabilisiert, weil thermisch bedingte Änderungen des Kollektorstroms hierdurch ausgeregelt werden.
+The emitter resistor converts the current flowing through the collector-emitter path into a voltage drop, which is taken off at the emitter. The emitter current of the transistor (together with the base current component, which is normally negligible) flows via the emitter through the emitter resistor to chassis. Through the voltage drop it produces across the emitter resistor, the current through this resistor raises the emitter potential (emitter voltage) and so acts as negative feedback on the base voltage. This additionally stabilises the operating point of the transistor, because temperature-related changes in the collector current are compensated in this way.
 
-Die Ein- und Auskopplung der Signale an Basis und Emitter erfolgt über sog. Koppelkondensatoren. Diese haben die Aufgabe, Gleichspannungsanteile von der Verstärkerstufe, die zu einer Veränderung des Arbeitspunktes führen würden, fernzuhalten.
+The signals are coupled in and out at the base and emitter through so-called coupling capacitors. Their job is to keep DC components that would shift the operating point away from the amplifier stage.
 
-Der Abblockkondensator in der Betriebsspannung (+) dient der Abführung von unerwünschten HF- und NF-Signalen, damit Rückkopplungseffekte auf die Stufe und die Versorgungsspannung vermieden werden. Zudem wird der Kollektor durch den Abblockkondensator signalmäßig (für Wechselspannung) auf Ein- und Ausgang gelegt.
+The decoupling capacitor on the supply voltage (+) serves to divert unwanted RF and AF signals, so that feedback effects on the stage and on the supply voltage are avoided. In addition, the decoupling capacitor connects the collector, as far as the signal is concerned (for AC), to both the input and the output.
 
-Die Spannungsverstärkung der Kollektorschaltung bewegt sich bei entsprechender Auslegung im Bereich von $\num{0,9}$ bis $\num{0,98}$ und ist immer etwas kleiner als $1$. 
+With suitable design, the voltage gain of the common-collector circuit lies in the range from $\num{0.9}$ to $\num{0.98}$, and is always slightly less than $1$. 
 
-Man könnte sich nun fragen, welchen Nutzen ein Verstärker mit einer Spannungsverstärkung kleiner als $1$ hat. Die Kollektorschaltung besitzt jedoch einen entscheidenden Vorteil, den wir im Folgenden betrachten. 
+You might now ask what use an amplifier with a voltage gain of less than $1$ is. The common-collector circuit has a decisive advantage, however, which we look at below. 
 
 [question:AD402]
 
-Die Kollektorschaltung besitzt eine deutliche Stromverstärkung. Ihre Eingangsimpedanz ist relativ hoch, weil nur ein kleiner Strom in die Basis fließen kann. Die Ausgangsimpedanz ist hingegen relativ niedrig. Wird die Ausgangsspannung durch eine angeschlossene Last verändert, ändert sich dadurch die Basis-Emitter-Spannung und der Transistor regelt seinen Emitterstrom so nach, dass er dieser Änderung entgegenwirkt. Durch diese Gegenkopplung kann die Kollektorschaltung eine niederohmige Last treiben, ohne dass sich ihre Ausgangsspannung stark verändert.
+The common-collector circuit has a considerable current gain. Its input impedance is relatively high, because only a small current can flow into the base. The output impedance, on the other hand, is relatively low. If the output voltage is changed by a connected load, the base-emitter voltage changes as a result, and the transistor adjusts its emitter current so as to counteract this change. This negative feedback enables the common-collector circuit to drive a low-impedance load without its output voltage changing much.
 
 [question:AD403]
 
-Aus diesem Grund wird die Kollektorschaltung häufig als *Pufferstufe zwischen Oszillator und weiteren Schaltungsteilen*, die den Oszillator ansonsten niederohmig belasten würden, verwendet, um eine Entkopplung und bessere Frequenzstabilisierung des Oszillators zu erreichen.
+For this reason the common-collector circuit is often used as a *buffer stage between an oscillator and further parts of the circuit* that would otherwise present a low-impedance load to the oscillator, in order to decouple the oscillator and improve its frequency stability.
 
 [question:AD404]
