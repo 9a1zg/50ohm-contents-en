@@ -1,33 +1,33 @@
-## Der Prozess des Samplings
+## The process of sampling
 
-* Analoge Signale werden in diskrete Samples umgewandelt  
-* Sampling: Abtastung eines kontinuierlichen Signals in festgelegten Zeitabständen  
-* Vergleichbar mit einer Kamera, die in regelmäßigen Intervallen Bilder aufnimmt
-
----
-
-### Sampling – Das Kamerabeispiel
-
-* Eine Kamera nimmt z. B. $\num{24}$ Bilder pro Sekunde auf
-* Zwischen den Bildern können schnelle Bewegungen auftreten, die nicht erfasst werden  
-* Wie bei der Kamera kann ein plötzliches Ereignis (z. B. eine Fliege) zwischen zwei Aufnahmen verloren gehen  
-* Dadurch entsteht ein Verlust an zeitlicher Information
+* Analogue signals are converted into discrete samples  
+* Sampling: taking values of a continuous signal at fixed intervals of time  
+* Comparable to a camera that takes pictures at regular intervals
 
 ---
 
-### Informationsverlust und Rekonstruktionsgrenze
+### Sampling – the camera example
 
-* Zwischen den Samples können schnelle Signaländerungen unentdeckt bleiben  
-* Für eine fehlerfreie Rekonstruktion muss vor und nach jedem Signalwechsel ein Sample vorliegen  
-* Ist dies nicht der Fall, gehen Details verloren – Aliasing tritt auf
+* A camera takes, for example, $\num{24}$ pictures per second
+* Fast movements can occur between the pictures that are not captured  
+* As with the camera, a sudden event (e.g. a fly) can be lost between two pictures  
+* This results in a loss of information in time
 
 ---
 
-## Das Nyquist-Shannon-Abtasttheorem
+### Loss of information and the limit of reconstruction
 
-* Für ein Signal mit maximaler Frequenz $f_{\mathrm{max}}$ muss die Abtastrate $\gt 2 \cdot f_{\mathrm{max}}$ betragen
-* Nur so können alle Signalwechsel korrekt erfasst und rekonstruiert werden  
-* Wird diese Grenze unterschritten, entstehen Alias-Effekte
+* Fast changes in the signal can go undetected between the samples  
+* For error-free reconstruction, there must be a sample before and after every change in the signal  
+* If this is not the case, details are lost – aliasing occurs
+
+---
+
+## The Nyquist–Shannon sampling theorem
+
+* For a signal with a maximum frequency $f_{\mathrm{max}}$, the sampling rate must be $\gt 2 \cdot f_{\mathrm{max}}$
+* Only then can all changes in the signal be captured and reconstructed correctly  
+* If the rate falls below this limit, aliasing effects occur
 
 ---
 
@@ -35,12 +35,12 @@
 
 ---
 
-### Praktisches Beispiel: CD-Player
+### Practical example: CD player
 
-* CD-Player arbeiten typischerweise mit $\qty{44,1}{\kilo\sps}$ ($\num{44100}$ Samples pro Sekunde)
-* Daraus folgt: Frequenzen bis ca. $\qty{22}{\kilo\hertz}$ können korrekt abgebildet werden
-* Dies entspricht dem HiFi-Frequenzbereich guter Stereoanlagen  
-* Merke: Die Abtastfrequenz sollte stets knapp über dem Doppelten der maximal zu verarbeitenden Frequenz liegen
+* CD players typically work at $\qty{44.1}{\kilo\sps}$ ($\num{44100}$ samples per second)
+* It follows that frequencies up to about $\qty{22}{\kilo\hertz}$ can be represented correctly
+* This corresponds to the hi-fi frequency range of good stereo systems  
+* Remember: the sampling frequency should always be just above twice the highest frequency to be processed
 
 ---
 

@@ -1,59 +1,59 @@
 --- style="font-size: smaller;"
 
-## Filter bei der A/D- und D/A-Umsetzung
+## Filters in A/D and D/A conversion
 
-[picture:1131:a_adc_dac_filter:A/D- und D/A-Umsetzung mit Anti-Aliasing- und Rekonstruktionsfilter]
+[picture:1131:a_adc_dac_filter:A/D and D/A conversion with anti-aliasing and reconstruction filters]
 
-* Vor dem A/D-Umsetzer: *Anti-Aliasing-Filter*
-* Nach dem D/A-Umsetzer: *Rekonstruktionsfilter*
-* Beide Filter unterdrücken unerwünschte Frequenzanteile
+* Before the A/D converter: *anti-aliasing filter*
+* After the D/A converter: *reconstruction filter*
+* Both filters suppress unwanted frequency components
 
 <note>
-Die Abbildung zeigt die gesamte Signalkette von einem analogen Eingangssignal über die digitale Signalverarbeitung bis zurück zu einem analogen Ausgangssignal.
+The figure shows the whole signal chain from an analogue input signal, through the digital signal processing, back to an analogue output signal.
 
-Vor dem A/D-Umsetzer befindet sich das Anti-Aliasing-Filter. Hinter dem D/A-Umsetzer befindet sich das Rekonstruktionsfilter.
+The anti-aliasing filter is located before the A/D converter. The reconstruction filter is located after the D/A converter.
 
-Warum beide Filter benötigt werden, schauen wir uns nun genauer an.
+We now look in more detail at why both filters are needed.
 </note>
 
 ---
 
-## Aliasing am A/D-Umsetzer
+## Aliasing at the A/D converter
 
-* Für die Abtastung gilt: $f_\mathrm{S}>2\cdot f_\mathrm{max}$
-* Am Eingang können auch unerwünschte höhere Frequenzen vorhanden sein
-* Ist die Samplingrate dafür zu gering, entstehen scheinbare Frequenzen
-* Diese werden als *Aliase* bezeichnet
+* For sampling: $f_\mathrm{S}>2\cdot f_\mathrm{max}$
+* Unwanted higher frequencies can also be present at the input
+* If the sampling rate is too low for them, apparent frequencies arise
+* These are called *aliases*
 
 <note>
-Über eine Antenne empfangen wir in der Regel nicht nur das gewünschte Signal, sondern viele weitere Frequenzanteile.
+Via an antenna we usually receive not only the wanted signal but many other frequency components as well.
 
-Ist die Samplingrate für einen dieser Frequenzanteile zu gering, kann er nach der Digitalisierung als eine andere Frequenz erscheinen, die im ursprünglichen Signal gar nicht vorhanden war.
+If the sampling rate is too low for one of these frequency components, it can appear after digitisation as a different frequency that was not present in the original signal at all.
 
-Diesen Effekt haben wir bereits beim Abtasttheorem kennengelernt.
+We have already met this effect with the sampling theorem.
 </note>
 
 --- style="font-size: smaller;"
 
-## Anti-Aliasing-Filter
+## Anti-aliasing filter
 
-[picture:1131:a_adc_dac_filter_aa:A/D- und D/A-Umsetzung mit Anti-Aliasing- und Rekonstruktionsfilter]
+[picture:1131:a_adc_dac_filter_aa:A/D and D/A conversion with anti-aliasing and reconstruction filters]
 
-* Das Filter befindet sich *vor* dem A/D-Umsetzer
-* Es begrenzt den Frequenzbereich des Eingangssignals
-* Tiefpass- oder Bandpassfilter können eingesetzt werden
-* Kritische Frequenzanteile müssen ausreichend unterdrückt werden
+* The filter is located *before* the A/D converter
+* It limits the frequency range of the input signal
+* Low-pass or band-pass filters can be used
+* Critical frequency components must be suppressed sufficiently
 
 <fragment>
-Insbesondere dürfen Frequenzen oberhalb von $\frac{f_\mathrm{S}}{2}$ nicht ungehindert zum A/D-Umsetzer gelangen.
+In particular, frequencies above $\frac{f_\mathrm{S}}{2}$ must not reach the A/D converter unhindered.
 </fragment>
 
 <note>
-Das Anti-Aliasing-Filter verhindert, dass Frequenzen zum A/D-Umsetzer gelangen, für die die Samplingrate nicht ausreichend hoch ist.
+The anti-aliasing filter prevents frequencies for which the sampling rate is not high enough from reaching the A/D converter.
 
-Je nach Anwendung kann dazu beispielsweise ein Tiefpass- oder Bandpassfilter eingesetzt werden. Für Sprachsignale kann beispielsweise ein Bandpass sinnvoll sein.
+Depending on the application, a low-pass or band-pass filter, for example, can be used for this. For speech signals, for example, a band-pass filter can make sense.
 
-Entscheidend ist, dass Frequenzanteile, die zu Aliasing führen könnten, vor der Digitalisierung ausreichend unterdrückt werden.
+What matters is that frequency components that could lead to aliasing are sufficiently suppressed before digitisation.
 </note>
 
 ---
@@ -65,22 +65,22 @@ Entscheidend ist, dass Frequenzanteile, die zu Aliasing führen könnten, vor de
 [question:AF623]
 
 ---
-## Abtastratengenerator
+## Sampling clock generator
 
 <left>
-[picture:1132:a_anit_alias:Anti-Aliasing-Filter, A/D-Umsetzer und Taktgenerator]
+[picture:1132:a_anit_alias:Anti-aliasing filter, A/D converter and clock generator]
 </left>
 <right>
-* Der A/D-Umsetzer benötigt einen Takt für die Abtastung
-* Der Takt legt die Zeitpunkte der einzelnen Samples fest
-* Seine Frequenz bestimmt die Samplingrate
-* Die Taktrate kann fest oder steuerbar sein
+* The A/D converter needs a clock for sampling
+* The clock determines the moments at which the individual samples are taken
+* Its frequency determines the sampling rate
+* The clock rate can be fixed or controllable
 </right>
 
 <note>
-Der Abtastratengenerator gibt vor, wann der A/D-Umsetzer jeweils ein neues Sample aufnimmt.
+The sampling clock generator dictates when the A/D converter takes each new sample.
 
-Seine Frequenz bestimmt damit unmittelbar die Samplingrate. Die Taktrate kann fest vorgegeben oder beispielsweise durch einen Mikrocontroller gesteuert werden.
+Its frequency therefore directly determines the sampling rate. The clock rate can be fixed or can be controlled, for example, by a microcontroller.
 </note>
 
 ---
@@ -89,49 +89,49 @@ Seine Frequenz bestimmt damit unmittelbar die Samplingrate. Die Taktrate kann fe
 
 ---
 
-## Zurück zum analogen Signal
+## Back to the analogue signal
 
-* Der D/A-Umsetzer erzeugt aus digitalen Samples wieder analoge Spannungswerte
-* Die Werte werden in festen zeitlichen Abständen ausgegeben
-* Am Ausgang entsteht zunächst kein ideal glatter Signalverlauf
-* Scharfe Übergänge enthalten hohe Frequenzanteile
+* The D/A converter produces analogue voltage values again from digital samples
+* The values are output at fixed intervals of time
+* At first, the output does not give an ideally smooth waveform
+* Sharp transitions contain high-frequency components
 
 <note>
-Auf der Ausgangsseite findet der umgekehrte Vorgang statt.
+On the output side, the reverse process takes place.
 
-Der D/A-Umsetzer gibt die einzelnen digitalen Werte als analoge Spannungswerte aus. Durch die zeitdiskrete Ausgabe entsteht zunächst kein ideal glatter Verlauf.
+The D/A converter outputs the individual digital values as analogue voltage values. Because the output is discrete-time, the waveform is at first not ideally smooth.
 
-Insbesondere scharfe Kanten und Übergänge enthalten zusätzliche hochfrequente Signalanteile.
+Sharp edges and transitions in particular contain additional high-frequency signal components.
 </note>
 
 --- style="font-size: smaller;"
 
-## Rekonstruktionsfilter
+## Reconstruction filter
 
 <left>
-[picture:300:a_adc_4bit:Signal vor dem Rekonstruktionsfilter]
+[picture:300:a_adc_4bit:Signal before the reconstruction filter]
 </left>
 <right>
-[picture:299:a_adc_12bit:Signal nach dem Rekonstruktionsfilter]
+[picture:299:a_adc_12bit:Signal after the reconstruction filter]
 </right>
 
-* Das Rekonstruktionsfilter befindet sich *hinter* dem D/A-Umsetzer
-* Es lässt den gewünschten Nutzfrequenzbereich passieren
-* Unerwünschte höherfrequente Signalanteile werden unterdrückt
-* Tiefpass- oder Bandpassfilter können eingesetzt werden
+* The reconstruction filter is located *after* the D/A converter
+* It passes the wanted frequency range
+* Unwanted higher-frequency signal components are suppressed
+* Low-pass or band-pass filters can be used
 
 <fragment>
-Dadurch entsteht wieder ein möglichst sauberes analoges Ausgangssignal.
+The result is again an analogue output signal that is as clean as possible.
 </fragment>
 
 <note>
-Das Rekonstruktionsfilter entfernt unerwünschte höherfrequente Signalanteile am Ausgang des D/A-Umsetzers.
+The reconstruction filter removes unwanted higher-frequency signal components at the output of the D/A converter.
 
-Links ist ein Signal vor der Filterung dargestellt. Die deutlich sichtbaren Kanten enthalten hohe Frequenzanteile.
+On the left, a signal before filtering is shown. The clearly visible edges contain high-frequency components.
 
-Nach der Filterung entsteht ein glatterer Signalverlauf, der dem gewünschten analogen Signal näherkommt.
+After filtering, the waveform is smoother and comes closer to the wanted analogue signal.
 
-Je nach Anwendung kann dafür beispielsweise ein Tiefpass- oder Bandpassfilter verwendet werden.
+Depending on the application, a low-pass or band-pass filter, for example, can be used for this.
 </note>
 
 ---

@@ -1,34 +1,34 @@
-* Im Bereich der Funktechnik spricht man bei Geräten, die mittels digitaler Signalverarbeitung arbeiten von sogenannten SDR-Geräten.
-* *SDR* steht dabei  für Software Defined Radio.
-* In diesen Geräten ist zumindest ein Teil der Signalverarbeitung in Software realisiert.
-* Dieses hat einen Kostenvorteil und bringt eine große Flexibilität mit sich.
+* In radio engineering, equipment that works by means of digital signal processing is known as SDR equipment.
+* *SDR* stands for software-defined radio.
+* In such equipment, at least part of the signal processing is implemented in software.
+* This has a cost advantage and brings great flexibility.
 
 ---
 [question:EF603]
 ---
-## A/D-Umsetzer
+## A/D converter
 
-* Damit die Daten digital verarbeitet werden können, müssen sie zunächst digitalisiert werden.
-* Dazu wird das analoge Signal mittels eines Analog-Digital Umsetzers (A/D-Umsetzer) in digitale Werte umgesetzt.
+* For the data to be processed digitally, they must first be digitised.
+* To do this, the analogue signal is converted into digital values by an analogue-to-digital converter (A/D converter).
 
 ---
 <left>
-* Hierbei wird das analoge Signal in festen Zeitintervallen abgetastet und in einem digitalen Wertebereich (z.B. von $\num{-128}$ bis $\num{+127}$) abgebildet.
-* Die einzelnen gemessenen Signalwerte werden als Samples (Proben) bezeichnet.
+* The analogue signal is sampled at fixed time intervals and mapped onto a digital range of values (e.g. from $\num{-128}$ to $\num{+127}$).
+* The individual measured signal values are called samples.
 </left>
 <right>
-[picture:411:e_digitale_signalverarbeitung:Einfache Darstellung einer Sinuswelle aus $\num{16}$ Samples und $\num{7}$ Werten]
+[picture:411:e_digitale_signalverarbeitung:Simple representation of a sine wave made up of $\num{16}$ samples and $\num{7}$ values]
 </right>
 <note>
-* Mehr dazu in Klasse A
+* More on this in Class A
 </note>
 
 ---
 [question:EF602]
 ---
-## D/A-Umsetzer
+## D/A converter
 
-* Nach der digitalen Verarbeitung des Signals wird es in einem Digital-Analog-Umsetzer (D/A-Umsetzer) wieder in ein analoges Signal verwandelt.
+* After the signal has been processed digitally, it is turned back into an analogue signal in a digital-to-analogue converter (D/A converter).
 
 ---
 [question:EF601]

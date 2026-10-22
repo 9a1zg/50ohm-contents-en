@@ -1,56 +1,56 @@
-## Sampling und Quantisierung
+## Sampling and quantisation
 
-Bei der Digitalisierung eines analogen Signals müssen zwei Eigenschaften betrachtet werden:
+When an analogue signal is digitised, two properties have to be considered:
 
-* **Wann** wird das Signal gemessen?
+* **When** is the signal measured?
   * Sampling
-  * zeitkontinuierlich → zeitdiskret
-* **Wie genau** wird der gemessene Wert dargestellt?
-  * Quantisierung
-  * wertkontinuierlich → wertdiskret
+  * continuous-time → discrete-time
+* **How precisely** is the measured value represented?
+  * Quantisation
+  * continuous-value → discrete-value
 
 <note>
-Sampling und Quantisierung sind zwei unterschiedliche Schritte.
+Sampling and quantisation are two different steps.
 
-Beim Sampling wird die Zeitachse diskretisiert: Wir betrachten das Signal nur noch zu bestimmten Abtastzeitpunkten.
+In sampling, the time axis is made discrete: we look at the signal only at particular sampling instants.
 
-Bei der Quantisierung wird dagegen die Wertachse diskretisiert: Ein gemessener Wert wird einer von endlich vielen möglichen Stufen zugeordnet.
+In quantisation, by contrast, the value axis is made discrete: a measured value is assigned to one of a finite number of possible levels.
 </note>
 
 ---
 
-## Analoges Signal
+## Analogue signal
 
-[picture:408:a_wertkont_zeitkont:Wert- und Zeitkontinuierliches Signal]
+[picture:408:a_wertkont_zeitkont:Continuous-value and continuous-time signal]
 
-* Zu jedem beliebigen Zeitpunkt ist ein Signalwert vorhanden
-* Der Signalwert kann beliebige Zwischenwerte annehmen
-* Ein ideales analoges Signal ist daher *zeit-* und *wertkontinuierlich*
+* A signal value exists at every moment in time
+* The signal value can take any intermediate value
+* An ideal analogue signal is therefore *continuous-time* and *continuous-value*
 
 --- style="font-size: smaller;"
 
 ## Sampling
 
 <left>
-[picture:408:a_wertkont_zeitkont:Wert- und Zeitkontinuierliches Signal]
+[picture:408:a_wertkont_zeitkont:Continuous-value and continuous-time signal]
 </left>
 <right>
-[picture:409:a_wertkont_zeitdisk:Wertkontinuierliches und Zeitdiskretes Signal]
+[picture:409:a_wertkont_zeitdisk:Continuous-value and discrete-time signal]
 </right>
 
 <fragment>
-* Das Signal wird nur zu bestimmten Zeitpunkten abgetastet
-* Die einzelnen Abtastwerte heißen *Samples*
-* Aus einem zeitkontinuierlichen Signal wird ein *zeitdiskretes* Signal
-* Die Werte selbst können zunächst weiterhin beliebige Werte annehmen
+* The signal is sampled only at particular moments
+* The individual sampled values are called *samples*
+* A continuous-time signal becomes a *discrete-time* signal
+* At first, the values themselves can still take any value
 </fragment>
 
 <note>
-Beim idealisierten Sampling verändert sich zunächst nur die Zeitachse.
+In idealised sampling, at first only the time axis changes.
 
-Vor dem Sampling ist das Signal zu jedem Zeitpunkt definiert. Danach liegen nur noch zu bestimmten Abtastzeitpunkten Werte vor.
+Before sampling, the signal is defined at every moment. Afterwards, values exist only at particular sampling instants.
 
-Die einzelnen Samplewerte müssen an dieser Stelle noch nicht quantisiert sein. Deshalb ist das Signal rechts zeitdiskret, aber noch wertkontinuierlich.
+At this point the individual sample values do not yet have to be quantised. That is why the signal on the right is discrete-time but still continuous-value.
 </note>
 
 ---
@@ -65,14 +65,14 @@ Die einzelnen Samplewerte müssen an dieser Stelle noch nicht quantisiert sein. 
 
 ## Sampling
 
-* Der Vorgang der zeitlichen Abtastung wird als *Sampling* bezeichnet
-* Die einzelnen Abtastwerte heißen *Samples*
-* Zwischen zwei Samples kann sich das analoge Signal weiter verändern
+* The process of taking values at particular moments in time is called *sampling*
+* The individual sampled values are called *samples*
+* Between two samples the analogue signal can go on changing
 
 <fragment>
-Sampling bedeutet somit:
+Sampling therefore means:
 
-**zeitkontinuierlich → zeitdiskret**
+**continuous-time → discrete-time**
 </fragment>
 
 ---
@@ -81,25 +81,25 @@ Sampling bedeutet somit:
 
 ---
 
-## Samplingrate
+## Sampling rate
 
-* Die *Samplingrate* oder *Abtastrate* gibt an, wie viele Samples pro Zeiteinheit aufgenommen werden
-* Einheit: Samples pro Sekunde
+* The *sampling rate* or *sample rate* states how many samples are taken per unit of time
+* Unit: samples per second
 
 <fragment>
-Beispiel Audio-CD:
+Example, audio CD:
 
-$\num{44100}$ Samples pro Sekunde
+$\num{44100}$ samples per second
 
-entsprechen
+correspond to
 
-$\qty{44,1}{\kilo\sps}$
+$\qty{44.1}{\kilo\sps}$
 </fragment>
 
 <note>
-Je höher die Samplingrate ist, desto kleiner ist der zeitliche Abstand zwischen zwei aufeinanderfolgenden Samples.
+The higher the sampling rate, the shorter the time between two successive samples.
 
-Welche Samplingrate mindestens erforderlich ist, behandeln wir anschließend beim Abtasttheorem.
+What sampling rate is needed as a minimum is dealt with next, under the sampling theorem.
 </note>
 
 ---
@@ -108,46 +108,46 @@ Welche Samplingrate mindestens erforderlich ist, behandeln wir anschließend bei
 
 ---
 
-## Quantisierung
+## Quantisation
 
-* Analoge Signalwerte können beliebige Zwischenwerte annehmen: *wertkontinuierlich*
-* Digital stehen nur endlich viele mögliche Werte zur Verfügung: *wertdiskret*
-* Ein Messwert muss einer der verfügbaren Stufen zugeordnet werden
+* Analogue signal values can take any intermediate value: *continuous-value*
+* Digitally, only a finite number of possible values is available: *discrete-value*
+* A measured value has to be assigned to one of the available levels
 
 <fragment>
-Diesen Vorgang bezeichnet man als *Quantisierung*.
+This process is called *quantisation*.
 </fragment>
 
 <note>
-Nach dem Sampling wissen wir, zu welchen Zeitpunkten wir das Signal betrachten.
+After sampling, we know at which moments we look at the signal.
 
-Nun müssen wir noch entscheiden, mit welchem digitalen Zahlenwert der jeweils gemessene analoge Wert dargestellt werden soll.
+Now we still have to decide which digital numerical value is to represent each measured analogue value.
 
-Liegt der tatsächliche Wert zwischen zwei möglichen Stufen, wird er einer geeigneten Stufe zugeordnet.
+If the actual value lies between two possible levels, it is assigned to a suitable level.
 </note>
 
 --- style="font-size: smaller;"
 
-## Wertkontinuierlich und wertdiskret
+## Continuous-value and discrete-value
 
 <left>
-[picture:410:a_wertdisk_zeitkont:Wertdiskretes und Zeitkontinuierliches Signal]
+[picture:410:a_wertdisk_zeitkont:Discrete-value and continuous-time signal]
 </left>
 <right>
-[picture:411:a_wertdisk_zeitdisk:Wert- und Zeitdiskretes Signal]
+[picture:411:a_wertdisk_zeitdisk:Discrete-value and discrete-time signal]
 </right>
 
-* Links: Werte sind bereits diskret, die Zeit ist noch kontinuierlich
-* Rechts: Werte und Zeit sind diskret
+* Left: the values are already discrete, time is still continuous
+* Right: values and time are discrete
 
 <fragment>
-Durch die Kombination von **Sampling und Quantisierung** entsteht die digitale Darstellung eines analogen Signals.
+Combining **sampling and quantisation** gives the digital representation of an analogue signal.
 </fragment>
 
 <note>
-Die linke Darstellung dient vor allem dazu zu zeigen, dass Zeitdiskretheit und Wertdiskretheit zwei unabhängige Eigenschaften sind.
+The left-hand diagram serves mainly to show that discrete time and discrete values are two independent properties.
 
-Für die Digitalisierung besonders wichtig ist die rechte Darstellung: Nach Sampling und Quantisierung liegen nur noch einzelne Samples vor, die zusätzlich nur endlich viele mögliche Werte annehmen können.
+The right-hand diagram is the one that matters most for digitisation: after sampling and quantisation there are only individual samples, which in addition can take only a finite number of possible values.
 </note>
 
 ---
@@ -164,28 +164,28 @@ Für die Digitalisierung besonders wichtig ist die rechte Darstellung: Nach Samp
 
 ---
 
-## Praktisches Beispiel: Dimmer vs. Stufenschalter
+## Practical example: dimmer vs. step switch
 
-* Ein analoger Dimmer erlaubt feine, stufenlose Helligkeitseinstellungen  
-* Ein Stufenschalter (z. B. $\num{5}$ Stufen) ermöglicht nur feste Helligkeitswerte – Zwischenstufen sind nicht möglich
-* Quantisierung: Auswahl der nächstpassenden Stufe, um den analogen Wert abzubilden
+* An analogue dimmer allows fine, continuous brightness settings  
+* A step switch (e.g. $\num{5}$ steps) allows only fixed brightness values – intermediate steps are not possible
+* Quantisation: choosing the step that fits best to represent the analogue value
 
 ---
-## Zusammenfassung
+## Summary
 
 <left>
 [include:quantisierung_und_sampling]
 </left>
 <right>
-* Sampling bestimmt, **wann** ein Wert betrachtet wird
-* Quantisierung bestimmt, **welcher digitale Wert** daraus wird
-* Erst beide Schritte zusammen ergeben ein zeit- und wertdiskretes Signal
+* Sampling determines **when** a value is looked at
+* Quantisation determines **which digital value** it becomes
+* Only both steps together give a discrete-time and discrete-value signal
 </right>
 
 <note>
-Mit dem Applet können Sampling und Quantisierung gemeinsam betrachtet werden.
+With the applet, sampling and quantisation can be looked at together.
 
-Die Samplingrate beeinflusst den zeitlichen Abstand der Samples. Die Quantisierung bestimmt dagegen, welche möglichen Werte die Samples annehmen können.
+The sampling rate affects the time between the samples. Quantisation, on the other hand, determines which possible values the samples can take.
 
-Damit lassen sich die beiden zunächst unabhängigen Schritte noch einmal gemeinsam nachvollziehen.
+This lets you follow the two steps, which are independent at first, together once more.
 </note>

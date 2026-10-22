@@ -1,21 +1,21 @@
-Ein wesentlicher Vorteil der digitalen Verarbeitung von Signalen besteht darin, dass die digital vorliegenden Informationen nahezu beliebig bearbeitet werden können. Eine Folge von Eingangssamples wird mittels mathematischer Funktionen in eine Folge von Ausgangssamples umgerechnet. Einfache digitale Filter, wie Tief-, Band- oder Hochpässe, lassen sich dabei auf zwei unterschiedliche Arten ausführen: als FIR- und als IIR-Filter. Dabei steht FIR für *Finite Impulse Response* und IIR für *Infinite Impulse Response*.
+A major advantage of processing signals digitally is that information in digital form can be manipulated in almost any way. A sequence of input samples is converted into a sequence of output samples by means of mathematical functions. Simple digital filters, such as low-pass, band-pass or high-pass filters, can be implemented in two different ways: as FIR and as IIR filters. FIR stands for *finite impulse response* and IIR for *infinite impulse response*.
 
-Hauptmerkmal der FIR-Filter ist, wie auch schon die Bezeichnung "finite" (zu Deutsch endlich) besagt, dass nur eine begrenzte Anzahl an Eingangssamples für die Berechnung eines Ausgangssamples herangezogen wird. IIR-Filter verwenden hingegen zusätzlich bereits berechnete Ausgangssamples, die auf den Eingang der Berechnung zurückgeführt werden. Durch diese Rückkopplung kann ein einzelnes Eingangssample theoretisch unbegrenzt lange Einfluss auf die folgenden Ausgangssamples haben.
+The main feature of FIR filters, as the name "finite" already says, is that only a limited number of input samples is used to compute an output sample. IIR filters, on the other hand, also use output samples that have already been computed, which are fed back to the input of the computation. Because of this feedback, a single input sample can in theory influence the following output samples for an unlimited length of time.
 
-Digitale Filter können sowohl in Software auf einem DSP als auch in programmierbarer Hardware auf einem FPGA implementiert werden. Darüber hinaus gibt es sogenannte Mixed Signal Frontends, die verschiedene Signalverarbeitungsfunktionen, wie beispielsweise Dezimationsfilter, zusammen mit AD/DA-Wandlern in einem Chip realisieren, um sie möglichst energieeffizient auszuführen und nachfolgende Signalverarbeitungsstufen zu entlasten.
+Digital filters can be implemented either in software on a DSP or in programmable hardware on an FPGA. In addition, there are what are known as mixed-signal front ends, which implement various signal processing functions, such as decimation filters, together with A/D and D/A converters on one chip, in order to carry them out as energy-efficiently as possible and to relieve the load on the following signal processing stages.
 
 [question:AF631]
 
 <indepth>
-[picture:1133:a_fir:FIR-Filter]
+[picture:1133:a_fir:FIR filter]
 
-Abbildung [ref:a_fir] zeigt schematisch den Aufbau eines FIR-Filters. Ein Eingangssample wird in einen Eingangsspeicher geschrieben. In jedem Takt werden die gespeicherten Werte wie bei einem Schieberegister um einen Speicherplatz weitergeschoben. Die Abgriffe der einzelnen Speicherplätze werden mit den entsprechenden Filterkoeffizienten multipliziert und anschließend summiert. Das Ergebnis wird als Ausgangssample ausgegeben.
+Figure [ref:a_fir] shows the structure of an FIR filter schematically. An input sample is written into an input memory. With each clock cycle the stored values are shifted on by one memory location, as in a shift register. The taps of the individual memory locations are multiplied by the corresponding filter coefficients and then added up. The result is output as the output sample.
 
-Angenommen, die vier Filterkoeffizienten haben jeweils den Wert $\frac{1}{4}$, so werden die letzten vier Eingangssamples jeweils mit $\frac{1}{4}$ multipliziert und anschließend summiert. Das Ausgangssample ist damit der Mittelwert der letzten vier Eingangssamples. Ein solches Filter wird auch als *gleitender Mittelwert* bezeichnet.
+Assuming that the four filter coefficients each have the value $\frac{1}{4}$, the last four input samples are each multiplied by $\frac{1}{4}$ and then added up. The output sample is thus the mean of the last four input samples. Such a filter is also called a *moving average*.
 
-Eine Eingangsfolge $0,0,0,4,0,0,0,0$ führt damit zur Ausgangsfolge $0,0,0,1,1,1,1,0$.
+An input sequence $0,0,0,4,0,0,0,0$ thus leads to the output sequence $0,0,0,1,1,1,1,0$.
 
-Das Filter glättet somit schnelle Änderungen, also hohe Frequenzanteile des Eingangssignals. Langsame Änderungen beziehungsweise niedrige Frequenzen werden weitgehend durchgelassen, während schnelle Änderungen beziehungsweise hohe Frequenzanteile abgeschwächt werden. Ein gleitender Mittelwert wirkt daher als sehr einfaches digitales Tiefpassfilter.
+The filter thus smooths fast changes, i.e. high-frequency components of the input signal. Slow changes, or low frequencies, are largely passed, while fast changes, or high-frequency components, are attenuated. A moving average therefore acts as a very simple digital low-pass filter.
 
-Das Filter führt eine sogenannte Faltungsoperation aus, diese ist übrigens auch die Grundlage vieler neuronaler Netze welche die Künstliche Intelligenz antreiben.
+The filter carries out what is known as a convolution, which, incidentally, is also the basis of many of the neural networks that drive artificial intelligence.
 </indepth>

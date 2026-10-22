@@ -1,10 +1,10 @@
-### Abbildung des Frequenzbereichs beim I/Q-Verfahren
+### How the I/Q method maps the frequency range
 
-* Der I/Q-Datenstrom bildet den Frequenzbereich um eine Mittenfrequenz ab  
-* Beispiel:  
-    * $\qty{435}{\mega\hertz}$-Träger
-    * Abtastrate von $\num{10}$ Mio. Samples/s $\rightarrow$ Bandbreite = $\qty{10}{\mega\hertz}$ ($\pm\qty{5}{\mega\hertz}$ um die Mittenfrequenz)
-    * Abgedeckter Bereich: ca. $\qty{430}{\mega\hertz}$ bis $\qty{440}{\mega\hertz}$
+* The I/Q data stream represents the frequency range around a centre frequency  
+* Example:  
+    * $\qty{435}{\mega\hertz}$ carrier
+    * Sampling rate of $\num{10}$ million samples/s $\rightarrow$ bandwidth = $\qty{10}{\mega\hertz}$ ($\pm\qty{5}{\mega\hertz}$ around the centre frequency)
+    * Range covered: approx. $\qty{430}{\mega\hertz}$ to $\qty{440}{\mega\hertz}$
 
 ---
 
@@ -12,9 +12,9 @@
 
 ---
 
-### Abhängigkeit der Bandbreite von der Abtastrate
+### How the bandwidth depends on the sampling rate
 
-* Die abgedeckte Bandbreite in $\unit{\hertz}$ entspricht der Abtastrate in Samples pro Sekunde
+* The bandwidth covered, in $\unit{\hertz}$, is equal to the sampling rate in samples per second
 
 ---
 

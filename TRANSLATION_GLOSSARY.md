@@ -2493,6 +2493,30 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Grundfrequenz (Polarmodulation) / Wellenzug | base frequency / cycle | here the carrier's starting frequency that the phase is shifted from, not the *fundamental* of a harmonic series (§3 *Grundfrequenz*); *der einzelne Wellenzug* is one cycle of the wave (polarmodulation) |
 | momentane Amplitude / momentane Phase / Amplitudenpfad / Phasenpfad / aufprägen | instantaneous amplitude / instantaneous phase / amplitude path / phase path / impress (on) | polarmodulation; §14 *Hüllkurvenverstärker* → envelope amplifier, §6 *Schaltendstufe* → switching amplifier |
 | Blick über den Tellerrand | a look beyond the syllabus | of a topic outside the examination (polarmodulation) |
+| Sampling (in Deutsch … Probenahme) / Samples (Proben) | sampling / samples | the German gloss only translates the English word back into German and is dropped (bracket rule) (digitale_signalverarbeitung_einleitung) |
+| Samplingrate oder Abtastrate | sampling rate or sample rate | the German names its two words for one quantity; English has two established names of its own, so the pair stays a pair (sampling_quantisierung); either alone is *sampling rate* (§8) |
+| Abtastzeitpunkt / Abtastwert / Samplewert / Momentanzustand | sampling instant / sampled value / sample value / instantaneous state | sampling_quantisierung |
+| Zeitachse / Wertachse (diskretisieren) / Zeitdiskretheit / Wertdiskretheit | time axis / value axis (make discrete) / discrete time / discrete values | sampling_quantisierung slides; *zeit-/wertkontinuierlich, -diskret* → continuous-/discrete-time, -value (§14, AF601–AF606) |
+| Dimmer / Stufenschalter (mit 5 Stufen) | dimmer / step switch (with 5 steps) | the quantisation analogy (sampling_quantisierung, dac_adc) |
+| Quantisierungsfehler / Quantisierungsstufen | quantisation error / quantisation steps | AF607 (dac_adc) |
+| Zeitquantisierung / Wertquantisierung (Applet-Regler *Zeit-Sampling*, *Wert-Quantisierung*) | time quantisation (*Zeit-Sampling*) / value quantisation (*Wert-Quantisierung*) | the sliders of the applet `quantisierung_und_sampling`, which is still German; the German label in brackets (DECISIONS.md, applet labels) (sampling_quantisierung) |
+| Abtasttaktgenerator / Taktgenerator / Taktrate | sampling clock generator / clock generator / clock rate | as AF620 and §8 *Abtastratengenerator* (dac_adc, anti_alias_rekonstruktionsfilter) |
+| Nyquist-Shannon-Abtasttheorem / Nyquist-Bedingung | Nyquist–Shannon sampling theorem / Nyquist condition | en dash between the two names, as *Shannon–Hartley* (§8); *Nyquist criterion* avoided, as it usually names the ISI criterion (abtasttheorem, AF619) |
+| Alias-Effekte bzw. Aliasing-Effekte / Aliase | aliasing effects / aliases | the German pair is one English term (bracket rule), as AF618 "aliasing effects" (abtasttheorem, anti_alias_rekonstruktionsfilter) |
+| Moiré-Muster / räumliche Auflösung / Bildpunkte (Kamerasensor) | moiré pattern / spatial resolution / picture elements | anti_alias_rekonstruktionsfilter indepth |
+| HiFi-Frequenzbereich | hi-fi frequency range | abtasttheorem |
+| Zaunpfahlproblem | fencepost problem | 16 levels, 15 intervals (dac_adc slides) |
+| Stufen / Zwischenschritte / Abstände (D/A-Umsetzer) | levels / steps / intervals | AF610, AF611 "voltage levels", "step size" (dac_adc) |
+| diskrete Fourier-Transformation (DFT) / Fast-Fourier-Transformation (FFT) | discrete Fourier transform (DFT) / fast Fourier transform (FFT) | as AF630; §8 *Fourier-Transformation* (fourier_transformation) |
+| Sinussignal / Rechtecksignal / Sägezahnsignal / Dreiecksignal (Sinus, Rechteck, Sägezahn, Dreieck auf Folien) | sine-wave signal / square-wave signal / sawtooth signal / triangular-wave signal (sine wave, square wave, sawtooth, triangular wave) | as §3 *Sinusschwingung / Rechteck- / Dreieck- / Sägezahnschwingung* (fourier_transformation, AB404–AB407) |
+| ungeradzahlige / geradzahlige / ganzzahlige Vielfache / Gleichanteil | odd / even / integer multiples / DC component | *ungeradzahlige Oberwellen* → odd harmonics (fourier_transformation) |
+| Spektralanteil / Spektralspitze | spectral component / spectral peak | AB404–AB407 solutions |
+| Finite / Infinite Impulse Response ("finite" (zu Deutsch endlich)) | finite / infinite impulse response | lower case as an expansion; the German gloss of *finite* is dropped (bracket rule) (digitale_filter) |
+| gleitender Mittelwert / Faltungsoperation / Filterkoeffizienten / Abgriffe / Schieberegister / Eingangsspeicher | moving average / convolution / filter coefficients / taps / shift register / input memory | FIR filter (digitale_filter) |
+| Mixed Signal Frontends / Dezimationsfilter | mixed-signal front ends / decimation filters | digitale_filter |
+| Pufferspeicher (englisch "buffer") / Zwischenspeicherung (Buffer) | buffer / temporary storage (buffering) | the German gloss only gives the English word and is dropped (bracket rule) (latenz) |
+| Laufzeit (Latenz) | propagation time | as AF637 "propagation time or delay"; *Verzögerung* → delay (latenz) |
+| Filmkamera / Bilder pro Sekunde | film camera / pictures per second | the sampling analogy (digitale_signalverarbeitung_einleitung, abtasttheorem) |
 
 ## 15. Catalogue structure
 

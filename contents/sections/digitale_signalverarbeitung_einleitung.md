@@ -1,28 +1,28 @@
 <margin>
-[picture:911:e_digitale_signalverarbeitung_blockschaltbild:Prinzip der digitalen Signalverarbeitung]
+[picture:911:e_digitale_signalverarbeitung_blockschaltbild:Principle of digital signal processing]
 </margin>
 
-In den letzten 25 Jahren hat sich die Welt technologisch massiv verändert. Die Rechenleistung von Computern hat um ein Vielfaches zugenommen, und immer mehr Aufgaben in technischen Geräten werden durch Mikrochips auf kleinstem Raum durchgeführt. Auch in den kommenden Jahren wird sich diese Entwicklung in einem rasanten Tempo weiter fortsetzen. Dies alles verändert die Art und Weise, wie Geräte, insbesondere auch die Signalverarbeitung in modernen Funkgeräten, realisiert ist. Digitale Signalverarbeitung ist mittlerweile Stand der Technik, und jedes moderne Gerät basiert auf dieser Technologie. Hierbei spielen insbesondere digitale Signalprozessoren und das Grundprinzip der digitalen Signalverarbeitung eine wesentliche Rolle.
+Over the last 25 years the world has changed enormously in technological terms. The computing power of computers has increased many times over, and more and more tasks in technical equipment are carried out by microchips in the smallest of spaces. This development will continue at a rapid pace in the coming years as well. All this changes the way in which equipment, and in particular signal processing in modern radios, is implemented. Digital signal processing is now state of the art, and every modern device is based on this technology. Digital signal processors and the basic principle of digital signal processing play a particularly important part here.
 
-Die digitale Signalverarbeitung ist hierbei nicht nur im Bereich der Funktechnik zu finden. Viele Geräte, seien es Handys, Stereoanlagen, bildgebende Systeme im medizinischen Bereich sowie praktisch alle modernen Funkapplikationen profitieren von dieser faszinierenden Technik und ermöglichen nie gekannte Möglichkeiten und Funktionen in diesen Geräten kostengünstig zu realisieren.
+Digital signal processing is not found only in radio engineering. Many devices, be they mobile phones, stereo systems or medical imaging systems, as well as practically all modern radio applications, benefit from this fascinating technology, which makes it possible to implement never-before-known possibilities and functions in these devices at low cost.
 
-Im Bereich der Funktechnik spricht man bei Geräten, die mittels digitaler Signalverarbeitung Signale verarbeiten von sogenannten SDR-Geräten. In diesen Geräten ist zumindest ein Teil der Signalverarbeitung in Software realisiert.
+In radio engineering, equipment that processes signals by means of digital signal processing is known as SDR equipment. In such equipment, at least part of the signal processing is implemented in software.
 
 [question:EF603]
 
-Um kontinuierliche analoge Signale digital verarbeiten zu können, müssen diese zunächst mittels eines Analog-Digital-Umsetzers (A/D-Umsetzer) abgetastet und in digitale Werte umgesetzt werden. Man spricht hierbei von Digitalisierung des analogen Eingangssignals.
+To be able to process continuous analogue signals digitally, they must first be sampled by means of an analogue-to-digital converter (A/D converter) and converted into digital values. This is called digitisation of the analogue input signal.
 
 [question:EF602]
 
 ---
 <margin>
-[picture:411:e_digitale_signalverarbeitung:Einfache Darstellung einer Sinuswelle aus $\num{16}$ Samples und $\num{7}$ Werten]
+[picture:411:e_digitale_signalverarbeitung:Simple representation of a sine wave made up of $\num{16}$ samples and $\num{7}$ values]
 </margin>
 
-Hierbei wird das analoge Signal in festen Zeitintervallen abgetastet und in einem digitalen Wertebereich (z. B. von $\num{-128}$ bis $\num{+127}$) abgebildet. Jeder Wert repräsentiert eine bestimmte gemessene Signalspannung, wobei in der Regel negativen Werten negative Spannungen und positiven Werten positive Spannungen zugeordnet werden. Man kann sich das in etwa so vorstellen wie z.B. bei einer Filmkamera, die in festen Abständen Bilder einer Szene aufnimmt. Hierbei haben die aufgenommenen Bilder immer einen festen zeitlichen Abstand zum vorherigen und nächsten Bild und stellen die momentane Szene in zeitlich kleinen Abständen dar. Dieser Prozess nennt sich Sampling (in Deutsch könnten man dies mit dem Wort Probenahme übersetzen). Die einzelnen gemessenen Signalwerte werden als Samples bezeichnet. Im nächsten Abschnitt werden wir uns diesen Prozess noch etwas genauer ansehen.
+The analogue signal is sampled at fixed time intervals and mapped onto a digital range of values (e.g. from $\num{-128}$ to $\num{+127}$). Each value represents a particular measured signal voltage; as a rule, negative values are assigned to negative voltages and positive values to positive voltages. You can picture this roughly like a film camera, for example, which takes pictures of a scene at fixed intervals. Each picture taken is always a fixed time after the previous one and before the next, and together they show the scene as it is at each moment, at short intervals of time. This process is called sampling. The individual measured signal values are called samples. In the next section we will look at this process in a little more detail.
 
-Nach der A/D-Umsetzung können die als digitale Werte vorliegenden Samples mittels digitaler Signalverarbeitung beliebig weiter verarbeitet werden.
+After the A/D conversion, the samples, which are now available as digital values, can be processed further in any way by means of digital signal processing.
 
-Im Anschluss an die digitale Signalverarbeitung wird man aus den digital verarbeiteten Signalen wieder ein analoges Signal z.B. für die Ausgabe über einen Lautsprecher oder für die Aussendung über eine Antenne machen wollen. Um die digitalen Werte wieder in ein analoges Signal zu verwandeln, benötigt man an dieser Stelle einen Digital-Analog-Umsetzer (D/A-Umsetzer), welcher praktisch das Gegenstück zum vorbeschriebenen A/D-Umsetzer darstellt. Der D/A-Umsetzer setzt digitale Werte wieder in analoge Spannungswerte um und ermöglicht somit die Rekonstruktion eines analogen Signals aus den digitalen Werten.
+After the digital signal processing, you will want to turn the digitally processed signals back into an analogue signal, e.g. for output through a loudspeaker or for transmission via an antenna. To turn the digital values back into an analogue signal, a digital-to-analogue converter (D/A converter) is needed at this point, which is in practice the counterpart of the A/D converter described above. The D/A converter converts digital values back into analogue voltage values and so makes it possible to reconstruct an analogue signal from the digital values.
 
 [question:EF601]

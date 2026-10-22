@@ -1,65 +1,65 @@
-Bei der Digitalisierung eines analogen Signals müssen zwei Eigenschaften betrachtet werden: Zu welchen Zeitpunkten wird das Signal gemessen und mit welcher Genauigkeit können die gemessenen Werte dargestellt werden? Die beiden dazugehörigen Schritte werden als *Sampling* und *Quantisierung* bezeichnet.
+When an analogue signal is digitised, two properties have to be considered: at what moments is the signal measured, and how precisely can the measured values be represented? The two corresponding steps are called *sampling* and *quantisation*.
 
-Die Begriffe *zeitkontinuierlich*, *zeitdiskret*, *wertkontinuierlich* und *wertdiskret* beschreiben dabei zwei voneinander unabhängige Eigenschaften eines Signals. Einerseits kann betrachtet werden, ob das Signal zu jedem beliebigen Zeitpunkt definiert ist. Andererseits kann betrachtet werden, ob es beliebige Werte annehmen kann.
+The terms *continuous-time*, *discrete-time*, *continuous-value* and *discrete-value* describe two properties of a signal that are independent of each other. On the one hand, you can consider whether the signal is defined at every moment in time. On the other hand, you can consider whether it can take any value.
 
-Ein ideales analoges Signal ist sowohl *zeitkontinuierlich* als auch *wertkontinuierlich*. Es ist zu jedem beliebigen Zeitpunkt definiert und kann innerhalb seines Wertebereichs beliebige Zwischenwerte annehmen. Ein solches Signal zeigt die Abbildung [ref:a_wertkont_zeitkont].
+An ideal analogue signal is both *continuous-time* and *continuous-value*. It is defined at every moment in time and can take any intermediate value within its range of values. Figure [ref:a_wertkont_zeitkont] shows such a signal.
 
 ---
 
-Analoge Signale besitzen keine kleinste zeitliche Auflösung und sind zeitlich fortlaufend. Sie werden daher als *zeitkontinuierlich* bezeichnet. Beim Sampling wird ein solches Signal dagegen nur zu bestimmten Zeitpunkten gemessen, also abgetastet. Die einzelnen Abtastwerte bezeichnet man als *Samples*.
+Analogue signals have no smallest time resolution and run on continuously in time. They are therefore called *continuous-time*. In sampling, by contrast, such a signal is measured, that is, sampled, only at particular moments. The individual sampled values are called *samples*.
 
-Die Samples stellen jeweils nur den Momentanzustand des Signals zum Zeitpunkt der Abtastung dar. Zwischen zwei Abtastzeitpunkten kann sich das analoge Signal weiter verändern. Da nach dem Sampling nur noch einzelne, zeitlich voneinander getrennte Werte vorliegen, bezeichnet man das abgetastete Signal als *zeitdiskret*.
+Each sample represents only the instantaneous state of the signal at the moment of sampling. Between two sampling instants the analogue signal can go on changing. Since after sampling there are only individual values, separated from one another in time, the sampled signal is called *discrete-time*.
 
-Die Abbildung [ref:a_wertkont_zeitdisk] zeigt ein solches ideal abgetastetes Signal. Es ist *zeitdiskret*, da nur zu bestimmten Abtastzeitpunkten Werte vorliegen. Die einzelnen Samples können zunächst jedoch noch beliebige Werte annehmen und sind daher *wertkontinuierlich*.
+Figure [ref:a_wertkont_zeitdisk] shows such an ideally sampled signal. It is *discrete-time*, since values exist only at particular sampling instants. At first, however, the individual samples can still take any value and are therefore *continuous-value*.
 
 <margin>
-[picture:408:a_wertkont_zeitkont:Wert- und Zeitkontinuierliches Signal]
-[picture:409:a_wertkont_zeitdisk:Wertkontinuierliches und Zeitdiskretes Signal]
+[picture:408:a_wertkont_zeitkont:Continuous-value and continuous-time signal]
+[picture:409:a_wertkont_zeitdisk:Continuous-value and discrete-time signal]
 </margin>
 
 [question:AF601]
 [question:AF603]
 
-Den Vorgang, bei dem ein zeitkontinuierliches Signal zu bestimmten Zeitpunkten abgetastet und dadurch in ein zeitdiskretes Signal überführt wird, bezeichnet man als *Sampling*.
+The process in which a continuous-time signal is sampled at particular moments and so turned into a discrete-time signal is called *sampling*.
 
 [question:AF606]
 
-Die Geschwindigkeit, mit der die Abtastung eines analogen Signals vorgenommen wird, wird als *Samplingrate* oder *Abtastrate* bezeichnet. Sie gibt an, wie viele Samples pro Zeiteinheit, beispielsweise pro Sekunde, aufgenommen werden.
+The speed at which an analogue signal is sampled is called the *sampling rate* or *sample rate*. It states how many samples are taken per unit of time, for example per second.
 
-Analoge Tonsignale werden bei digitalen Datenträgern wie CDs beispielsweise mit einer Samplingrate von $\num{44100}$ Samples pro Sekunde (Einheit $\unit{\sps}$), oder kurz $\qty{44,1}{\kilo\sps}$, abgetastet.
+On digital storage media such as CDs, for example, analogue audio signals are sampled at a sampling rate of $\num{44100}$ samples per second (unit $\unit{\sps}$), or $\qty{44.1}{\kilo\sps}$ for short.
 
 [question:AF615]
 
 ---
 
-Neben der zeitlichen Auflösung spielt bei der Digitalisierung auch die Auflösung der gemessenen Werte eine Rolle. Analoge Signale können beliebige Spannungswerte annehmen und zwischen diesen ohne feste Zwischenstufen variieren. Man bezeichnet sie deshalb als *wertkontinuierlich*.
+Besides the time resolution, the resolution of the measured values also plays a part in digitisation. Analogue signals can take any voltage value and vary between these values without fixed intermediate steps. They are therefore called *continuous-value*.
 
-Bei der Digitalisierung steht dagegen nur eine begrenzte Anzahl möglicher Zahlenwerte zur Verfügung. Ein gemessener Spannungswert muss daher einer dieser festen Stufen zugeordnet werden. Das Signal ist danach *wertdiskret*.
+In digitisation, by contrast, only a limited number of possible numerical values is available. A measured voltage value must therefore be assigned to one of these fixed levels. The signal is then *discrete-value*.
 
-Liegt ein analoger Signalwert zwischen zwei möglichen Stufen, muss entschieden werden, welcher Stufe der gemessene Wert zugeordnet wird. Diesen Vorgang bezeichnet man als *Quantisierung*. Das zuvor wertkontinuierliche Signal wird dabei auf eine endliche Anzahl möglicher Werte abgebildet.
+If an analogue signal value lies between two possible levels, a decision has to be made as to which level the measured value is assigned to. This process is called *quantisation*. The signal, which was previously continuous-value, is mapped onto a finite number of possible values.
 
 [question:AF605]
 
-Die Abbildung [ref:a_wertdisk_zeitkont] zeigt zur Veranschaulichung ein *wertdiskretes, aber zeitkontinuierliches Signal*. Das Signal ist weiterhin zu jedem Zeitpunkt definiert, kann jedoch nur bestimmte, fest vorgegebene Werte annehmen. Die möglichen Werte sind also bereits quantisiert, die Zeit hingegen noch nicht diskretisiert.
+To illustrate this, Figure [ref:a_wertdisk_zeitkont] shows a *discrete-value but continuous-time signal*. The signal is still defined at every moment, but can take only certain fixed, predefined values. So the possible values are already quantised, but time has not yet been made discrete.
 
-Werden Sampling und Quantisierung miteinander kombiniert, entsteht ein *wert- und zeitdiskretes Signal*, wie es in Abbildung [ref:a_wertdisk_zeitdisk] dargestellt ist. Es liegen nur zu bestimmten Zeitpunkten Samples vor, und auch deren mögliche Werte sind auf feste Stufen beschränkt. Dies entspricht der digitalen Darstellung eines zuvor analogen Signals.
+When sampling and quantisation are combined, the result is a *discrete-value and discrete-time signal*, as shown in Figure [ref:a_wertdisk_zeitdisk]. Samples exist only at particular moments, and their possible values, too, are restricted to fixed levels. This corresponds to the digital representation of a signal that was previously analogue.
 
 <tip>
-Zur Veranschaulichung kann man einen analogen Dimmer mit einem Stufenschalter vergleichen. Mit einem analogen Dimmer lässt sich die Helligkeit einer Lampe beliebig fein einstellen. Mit einem Stufenschalter mit beispielsweise $\num{5}$ Stufen stehen dagegen nur $\num{5}$ verschiedene Helligkeitswerte zur Verfügung. Zwischenwerte sind nicht möglich.
+To illustrate this, you can compare an analogue dimmer with a step switch. With an analogue dimmer the brightness of a lamp can be set as finely as you like. With a step switch with, for example, $\num{5}$ steps, on the other hand, only $\num{5}$ different brightness values are available. Intermediate values are not possible.
 
-Soll eine mit dem analogen Dimmer eingestellte Helligkeit mit dem Stufenschalter nachgebildet werden, muss die am besten passende Stufe gewählt werden. Genau dies entspricht dem Prinzip der Quantisierung: Ein kontinuierlicher Wert wird einem von mehreren fest vorgegebenen Werten zugeordnet.
+If a brightness set with the analogue dimmer is to be reproduced with the step switch, the step that fits best has to be chosen. This is exactly the principle of quantisation: a continuous value is assigned to one of several fixed, predefined values.
 </tip>
 
 <margin>
-[picture:410:a_wertdisk_zeitkont:Wertdiskretes und Zeitkontinuierliches Signal]
-[picture:411:a_wertdisk_zeitdisk:Wert- und Zeitdiskretes Signal]
+[picture:410:a_wertdisk_zeitkont:Discrete-value and continuous-time signal]
+[picture:411:a_wertdisk_zeitdisk:Discrete-value and discrete-time signal]
 </margin>
 
 [question:AF602]
 [question:AF604]
 
 <indepth>
-Hier gibt es die Möglichkeit das Ganze nochmal auszuprobieren. Ein zeitkontinuierliches Sinus-Signal wird von einem AD-Umsetzer digitalisiert und anschließend wieder von einem DA-Umsetzer in ein zeitkontinuierliches, aber immer noch wertdiskretes, analoges Signal gewandelt. An den Reglern kann man die Zeitquantisierung und die Wertquantisierung der AD/DA-Umsetzer einstellen.
+Here you have the chance to try the whole thing out again. A continuous-time sine signal is digitised by an A/D converter and then turned back by a D/A converter into an analogue signal that is continuous-time but still discrete-value. The sliders let you set the time quantisation (*Zeit-Sampling*) and the value quantisation (*Wert-Quantisierung*) of the A/D and D/A converters.
 
 [include:quantisierung_und_sampling]
 </indepth>

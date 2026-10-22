@@ -1,46 +1,46 @@
-## Fourier-Transformation und Signalzerlegung
+## Fourier transform and breaking signals down
 
-* Signale können sowohl im Zeit- als auch im Frequenzbereich dargestellt werden  
-* Im Zeitbereich: X-Achse $\rightarrow$ Zeit, Y-Achse $\rightarrow$ Spannung oder Leistung  
-* Im Frequenzbereich: X-Achse $\rightarrow$ Frequenz, Y-Achse $\rightarrow$ Amplitude oder Leistung
-
----
-
-### Zerlegung von Signalen
-
-* Jedes Signal lässt sich als Überlagerung von Sinusschwingungen darstellen  
-* Jede Sinusschwingung hat eine bestimmte Amplitude und Phase  
-* Dieses Prinzip ermöglicht es, komplexe Signale in ihre Bestandteile zu zerlegen
+* Signals can be represented both in the time domain and in the frequency domain  
+* In the time domain: X axis $\rightarrow$ time, Y axis $\rightarrow$ voltage or power  
+* In the frequency domain: X axis $\rightarrow$ frequency, Y axis $\rightarrow$ amplitude or power
 
 ---
 
-### Fourier-Transformation
+### Breaking signals down
 
-* Mathematisch komplexes Verfahren, das ein zeitliches Signal analysiert  
-* Zeigt an, welche Sinus-Schwingungen (Frequenzen) im Signal enthalten sind  
-* Das Ergebnis wird als Frequenzspektrum dargestellt (X-Achse: Frequenz, Y-Achse: Amplitude/Leistung)
+* Every signal can be represented as a superposition of sine waves  
+* Every sine wave has a particular amplitude and phase  
+* This principle makes it possible to break complex signals down into their components
 
 ---
 
-### Fast Fourier Transformation (FFT)
+### Fourier transform
 
-* Effiziente Berechnung der diskreten Fourier-Transformation (DFT)  
-* Reduziert den Rechenaufwand erheblich  
-* Weit verbreitet in Soft- und Hardware zur Signalverarbeitung
+* A mathematically complex method that analyses a signal in time  
+* Shows which sine waves (frequencies) the signal contains  
+* The result is shown as a frequency spectrum (X axis: frequency, Y axis: amplitude/power)
+
+---
+
+### Fast Fourier transform (FFT)
+
+* Efficient computation of the discrete Fourier transform (DFT)  
+* Reduces the computing effort considerably  
+* Widely used in software and hardware for signal processing
 
 --- style="font-size: smaller;"
 
-## Spektren typischer Signalformen
+## Spectra of typical waveforms
 
-* *Sinus*: nur eine Frequenz: $f$
-* *Rechteck*: nur ungeradzahlige Vielfache: $f$, $3f$, $5f$, $7f$, ...
-* *Sägezahn*: alle ganzzahligen Vielfachen: $f$, $2f$, $3f$, $4f$, ...
-* *Dreieck*: nur ungeradzahlige Vielfache: $f$, $3f$, $5f$, $7f$, ... (hohe Oberwellen fallen schneller ab als beim Rechteck)
+* *Sine wave*: only one frequency: $f$
+* *Square wave*: only odd multiples: $f$, $3f$, $5f$, $7f$, ...
+* *Sawtooth*: all integer multiples: $f$, $2f$, $3f$, $4f$, ...
+* *Triangular wave*: only odd multiples: $f$, $3f$, $5f$, $7f$, ... (high harmonics fall off faster than with the square wave)
 
-In der Prüfung muss man nur Sinus und Rechteck unterscheiden können. 
+In the examination you only need to be able to tell a sine wave from a square wave. 
 
 <note>
-Rechteck- und Dreiecksignal enthalten beide nur ungeradzahlige Oberwellen. Der Unterschied liegt im Abfall der Amplituden: Beim Dreiecksignal werden die höheren Oberwellen deutlich schneller kleiner.
+Square-wave and triangular-wave signals both contain only odd harmonics. The difference lies in how the amplitudes fall off: with the triangular-wave signal the higher harmonics become smaller much faster.
 </note>
 
 ---

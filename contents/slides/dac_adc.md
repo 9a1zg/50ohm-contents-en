@@ -1,30 +1,30 @@
-## A/D- und D/A-Umsetzung
+## A/D and D/A conversion
 
-* *A/D-Umsetzer* wandeln analoge Signale in digitale Werte um
-* *D/A-Umsetzer* wandeln digitale Werte wieder in analoge Signale um
-* Beide besitzen nur eine endliche Anzahl möglicher Werte
-* Eine wichtige Eigenschaft ist daher ihre *Auflösung*
+* *A/D converters* convert analogue signals into digital values
+* *D/A converters* convert digital values back into analogue signals
+* Both have only a finite number of possible values
+* An important property is therefore their *resolution*
 
 <note>
-A/D- und D/A-Umsetzer bilden die Schnittstelle zwischen der analogen und der digitalen Welt.
+A/D and D/A converters form the interface between the analogue and the digital world.
 
-Der A/D-Umsetzer erzeugt aus einem analogen Eingangssignal digitale Samples. Der D/A-Umsetzer führt den umgekehrten Vorgang aus und erzeugt aus digitalen Werten wieder analoge Spannungswerte.
+The A/D converter produces digital samples from an analogue input signal. The D/A converter carries out the reverse process and produces analogue voltage values again from digital values.
 </note>
 
 ---
-## Quantisierung im A/D-Umsetzer
+## Quantisation in the A/D converter
 
-* Der A/D-Umsetzer kann nur eine begrenzte Anzahl digitaler Werte erzeugen
-* Analoge Eingangswerte werden daher festen Stufen zugeordnet
-* Zwischenwerte können nicht exakt dargestellt werden
-* Dadurch entsteht ein *Quantisierungsfehler*
+* The A/D converter can produce only a limited number of digital values
+* Analogue input values are therefore assigned to fixed levels
+* Intermediate values cannot be represented exactly
+* This gives rise to a *quantisation error*
 
 <note>
-Die Quantisierung haben wir bereits kennengelernt.
+We have already met quantisation.
 
-Ein tatsächlich gemessener analoger Wert liegt häufig zwischen zwei möglichen digitalen Stufen. Der A/D-Umsetzer muss ihn einer dieser Stufen zuordnen.
+An analogue value actually measured often lies between two possible digital levels. The A/D converter has to assign it to one of these levels.
 
-Die dabei entstehende Abweichung zwischen dem tatsächlichen und dem dargestellten Wert bezeichnet man als Quantisierungsfehler.
+The resulting difference between the actual value and the value represented is called the quantisation error.
 </note>
 
 ---
@@ -32,36 +32,36 @@ Die dabei entstehende Abweichung zwischen dem tatsächlichen und dem dargestellt
 [question:AF607]
 
 ---
-## Auflösung eines A/D-Umsetzers
+## Resolution of an A/D converter
 
-* Die Auflösung gibt die Anzahl der unterscheidbaren digitalen Werte an
-* Sie wird üblicherweise in *Bit* angegeben
-* $\qty{8}{\bit}$ → $\num{256}$ mögliche Werte
-* $\qty{16}{\bit}$ → $\num{65536}$ mögliche Werte
-* Mehr Bit ermöglichen eine feinere Darstellung der Signalamplitude
+* The resolution states the number of digital values that can be distinguished
+* It is usually stated in *bits*
+* $\qty{8}{\bit}$ → $\num{256}$ possible values
+* $\qty{16}{\bit}$ → $\num{65536}$ possible values
+* More bits allow a finer representation of the signal amplitude
 
 ---
-## Einfluss der Auflösung
+## Effect of the resolution
 
 <left>
-[picture:300:a_adc_4bit:Sinussignal digitalisiert durch einen 4-Bit-A/D-Umsetzer und anschließende D/A-Umsetzung]
+[picture:300:a_adc_4bit:Sine-wave signal digitised by a 4-bit A/D converter, followed by D/A conversion]
 </left>
 <right>
-[picture:299:a_adc_12bit:Sinussignal digitalisiert durch einen 12-Bit-A/D-Umsetzer und anschließende D/A-Umsetzung]
+[picture:299:a_adc_12bit:Sine-wave signal digitised by a 12-bit A/D converter, followed by D/A conversion]
 </right>
 
-* $\qty{4}{\bit}$ → $\num{16}$ mögliche Werte
-* $\qty{12}{\bit}$ → $\num{4096}$ mögliche Werte
-* Höhere Auflösung → kleinere Quantisierungsstufen
+* $\qty{4}{\bit}$ → $\num{16}$ possible values
+* $\qty{12}{\bit}$ → $\num{4096}$ possible values
+* Higher resolution → smaller quantisation steps
 
 <note>
-Hier lässt sich der Einfluss der Auflösung direkt vergleichen.
+Here the effect of the resolution can be compared directly.
 
-Bei 4 Bit stehen nur 16 mögliche Werte zur Verfügung. Die Abstufung ist im rekonstruierten Signal deutlich zu erkennen.
+With 4 bits, only 16 possible values are available. The steps can be seen clearly in the reconstructed signal.
 
-Bei 12 Bit stehen bereits 4096 mögliche Werte zur Verfügung. Das rekonstruierte Signal kommt dem ursprünglichen Sinussignal daher wesentlich näher.
+With 12 bits, 4096 possible values are already available. The reconstructed signal therefore comes much closer to the original sine-wave signal.
 
-Durch die zusätzlichen 8 Bit steigt die Anzahl der möglichen Stufen um den Faktor 256.
+The additional 8 bits increase the number of possible levels by a factor of 256.
 </note>
 
 ---
@@ -71,17 +71,17 @@ Durch die zusätzlichen 8 Bit steigt die Anzahl der möglichen Stufen um den Fak
 ---
 ## Jitter
 
-* Die Samples sollten zu exakt festgelegten Zeitpunkten aufgenommen werden
-* In der Praxis können die tatsächlichen Abtastzeitpunkte geringfügig schwanken
-* Diese zeitlichen Abweichungen bezeichnet man als *Jitter*
-* Jitter kann zusätzliches Rauschen im digitalisierten Signal verursachen
+* The samples should be taken at exactly defined moments
+* In practice, the actual sampling instants can fluctuate slightly
+* These deviations in time are called *jitter*
+* Jitter can cause additional noise in the digitised signal
 
 <note>
-Nicht nur die Genauigkeit der gemessenen Amplitude ist wichtig, sondern auch die Genauigkeit des Abtastzeitpunktes.
+Not only the accuracy of the measured amplitude is important, but also the accuracy of the sampling instant.
 
-Dazu benötigt der A/D-Umsetzer einen möglichst stabilen Takt. Kleine zeitliche Schwankungen dieses Taktes führen dazu, dass die Samples nicht exakt zu den vorgesehenen Zeitpunkten aufgenommen werden.
+For this, the A/D converter needs a clock that is as stable as possible. Small fluctuations of this clock in time mean that the samples are not taken at exactly the intended moments.
 
-Diese Schwankungen werden als Jitter bezeichnet.
+These fluctuations are called jitter.
 </note>
 
 ---
@@ -89,17 +89,17 @@ Diese Schwankungen werden als Jitter bezeichnet.
 [question:AF621]
 
 ---
-## D/A-Umsetzer
+## D/A converter
 
-* Der D/A-Umsetzer ist der Gegenspieler des A/D-Umsetzers
-* Er erzeugt aus digitalen Samples analoge Spannungswerte
-* Auch ein D/A-Umsetzer besitzt nur eine endliche Anzahl möglicher Ausgangswerte
-* Seine Auflösung wird ebenfalls in Bit angegeben
+* The D/A converter is the counterpart of the A/D converter
+* It produces analogue voltage values from digital samples
+* A D/A converter, too, has only a finite number of possible output values
+* Its resolution is likewise stated in bits
 
 <note>
-Beim D/A-Umsetzer läuft der Vorgang in umgekehrter Richtung.
+In the D/A converter, the process runs in the opposite direction.
 
-Ein digitaler Zahlenwert wird einem bestimmten analogen Ausgangswert zugeordnet. Auch hier bestimmt die Auflösung, wie viele unterschiedliche Werte erzeugt werden können.
+A digital numerical value is assigned to a particular analogue output value. Here, too, the resolution determines how many different values can be produced.
 </note>
 
 ---
@@ -107,32 +107,32 @@ Ein digitaler Zahlenwert wird einem bestimmten analogen Ausgangswert zugeordnet.
 [question:AF609]
 
 ---
-## Spannungsbereich und Auflösung
+## Voltage range and resolution
 
-* Ein D/A-Umsetzer besitzt einen festgelegten Spannungsbereich
-* Beispiel: $\qty{0}{\volt}$ bis $\qty{1}{\volt}$
-* Bei $\qty{4}{\bit}$ stehen $\num{2^4}=\num{16}$ mögliche Stufen zur Verfügung
-* Bei einem linearen D/A-Umsetzer sind diese gleichmäßig über den Spannungsbereich verteilt
+* A D/A converter has a fixed voltage range
+* Example: $\qty{0}{\volt}$ to $\qty{1}{\volt}$
+* With $\qty{4}{\bit}$, $\num{2^4}=\num{16}$ possible levels are available
+* In a linear D/A converter, these are spread evenly over the voltage range
 
 ---
-## Schrittweite
+## Step size
 
-Bei $\num{16}$ Stufen gibt es $\num{15}$ Abstände zwischen den Stufen.
+With $\num{16}$ levels there are $\num{15}$ intervals between the levels.
 
-Für einen Spannungsbereich von $\qty{0}{\volt}$ bis $\qty{1}{\volt}$ ergibt sich:
+For a voltage range from $\qty{0}{\volt}$ to $\qty{1}{\volt}$ this gives:
 
 $\frac{\qty{1}{\volt}}{16-1}\approx\qty{67}{\milli\volt}$
 
 <fragment>
-Die Schrittweite beträgt somit etwa $\qty{67}{\milli\volt}$.
+The step size is therefore about $\qty{67}{\milli\volt}$.
 </fragment>
 
 <note>
-Hier muss man beachten, dass zwischen 16 möglichen Spannungswerten nur 15 Abstände liegen.
+Note here that there are only 15 intervals between 16 possible voltage values.
 
-Das entspricht dem bekannten Zaunpfahlproblem: Zwischen 10 Zaunpfählen befinden sich nur 9 Zwischenräume.
+This is the well-known fencepost problem: between 10 fence posts there are only 9 gaps.
 
-Deshalb wird bei diesem Beispiel der Spannungsbereich durch 15 und nicht durch 16 geteilt.
+That is why, in this example, the voltage range is divided by 15 and not by 16.
 </note>
 
 ---
@@ -144,48 +144,48 @@ Deshalb wird bei diesem Beispiel der Spannungsbereich durch 15 und nicht durch 1
 [question:AF610]
 
 ---
-## A/D- und D/A-Umsetzer im SDR
+## A/D and D/A converters in an SDR
 
-* A/D-Umsetzer digitalisieren analoge Eingangssignale
-* Anschließend können die Samples digital verarbeitet werden
-* D/A-Umsetzer erzeugen daraus bei Bedarf wieder analoge Signale
-* Dieses Prinzip wird an vielen Stellen in SDR-Empfängern und Transceivern eingesetzt
+* A/D converters digitise analogue input signals
+* The samples can then be processed digitally
+* D/A converters produce analogue signals from them again where needed
+* This principle is used in many places in SDR receivers and transceivers
 
 <note>
-Ein SDR ist ein typisches Beispiel für das Zusammenspiel von A/D-Umsetzung, digitaler Signalverarbeitung und D/A-Umsetzung.
+An SDR is a typical example of A/D conversion, digital signal processing and D/A conversion working together.
 
-Das analoge Signal wird zunächst digitalisiert. Danach können beispielsweise Filterung, Demodulation oder Modulation digital erfolgen. Soll anschließend wieder ein analoges Signal entstehen, kommt ein D/A-Umsetzer zum Einsatz.
+The analogue signal is first digitised. After that, filtering, demodulation or modulation, for example, can be done digitally. If an analogue signal is then to be produced again, a D/A converter is used.
 </note>
 
 ---
-## Nutzung des Wertebereichs
+## Using the range of values
 
-* Ein kleines Eingangssignal nutzt nur einen Teil der verfügbaren Stufen
-* Ein zu großes Eingangssignal überschreitet den darstellbaren Wertebereich
-* Werte oberhalb des Maximums können nicht mehr korrekt dargestellt werden
-* Das Signal wird an dieser Stelle abgeschnitten
+* A small input signal uses only some of the available levels
+* An input signal that is too large exceeds the range of values that can be represented
+* Values above the maximum can no longer be represented correctly
+* At this point the signal is cut off
 
 <fragment>
-Diesen Effekt bezeichnet man als *Clipping*.
+This effect is called *clipping*.
 </fragment>
 
 <note>
-Für eine möglichst gute Digitalisierung sollte der verfügbare Wertebereich sinnvoll ausgenutzt werden.
+For the best possible digitisation, the available range of values should be used sensibly.
 
-Ist das Signal sehr klein, werden nur wenige der verfügbaren Stufen genutzt.
+If the signal is very small, only a few of the available levels are used.
 
-Ist das Signal dagegen zu groß, erreicht der A/D-Umsetzer seinen maximal darstellbaren Wert. Noch größere Eingangswerte können nicht mehr unterschieden werden. Die Spitzen des Signals erscheinen dadurch abgeschnitten.
+If, on the other hand, the signal is too large, the A/D converter reaches its maximum value that can be represented. Even larger input values can no longer be distinguished. The peaks of the signal therefore appear cut off.
 
-Auch ein D/A-Umsetzer kann keine Ausgangsspannung außerhalb seines vorgesehenen Wertebereichs erzeugen.
+A D/A converter, too, cannot produce an output voltage outside its intended range of values.
 </note>
 
 ---
-## Einfluss der Auflösung
+## Effect of the resolution
 
-* Hohe Auflösung → viele mögliche Amplitudenwerte
-* Niedrige Auflösung → wenige mögliche Amplitudenwerte
-* Mehr Stufen ermöglichen eine genauere Digitalisierung und Rekonstruktion
-* Der verfügbare Wertebereich sollte möglichst gut genutzt werden
+* High resolution → many possible amplitude values
+* Low resolution → few possible amplitude values
+* More levels allow more accurate digitisation and reconstruction
+* The available range of values should be used as fully as possible
 
 ---
 

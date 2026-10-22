@@ -1,9 +1,9 @@
-Signale können auf unterschiedliche Weise dargestellt werden. Bisher haben wir häufig den *Zeitbereich* betrachtet. Dabei wird dargestellt, wie sich beispielsweise die Spannung eines Signals mit der Zeit verändert. Dasselbe Signal kann jedoch auch im *Frequenzbereich* betrachtet werden. Dabei wird nicht mehr der zeitliche Verlauf dargestellt, sondern aus welchen Frequenzanteilen sich das Signal zusammensetzt und wie stark diese jeweils vertreten sind. Diese Darstellung bezeichnet man auch als *Frequenzspektrum*. Grundlage dafür ist die Tatsache, dass sich periodische Signale als Überlagerung von Sinusschwingungen unterschiedlicher Frequenz, Amplitude und Phase beschreiben lassen. Ein reines Sinussignal besteht beispielsweise nur aus einer einzigen Frequenz und erscheint daher im Frequenzspektrum nur bei dieser Frequenz.
+Signals can be represented in different ways. Up to now we have often looked at the *time domain*. This shows how, for example, the voltage of a signal changes with time. The same signal can, however, also be looked at in the *frequency domain*. This no longer shows the variation with time, but which frequency components the signal is made up of and how strongly each of them is present. This representation is also called the *frequency spectrum*. It is based on the fact that periodic signals can be described as a superposition of sine waves of different frequency, amplitude and phase. A pure sine-wave signal, for example, consists of only a single frequency and therefore appears in the frequency spectrum only at that frequency.
 
-Die *Fourier-Transformation* ermöglicht den Wechsel zwischen Zeit- und Frequenzbereich. Sie zerlegt ein Signal mathematisch in seine einzelnen Frequenzanteile. Für digital vorliegende, zeitdiskrete Signale wird dazu die *diskrete Fourier-Transformation* (DFT) verwendet. Die direkte Berechnung einer DFT kann bei einer großen Anzahl von Samples sehr aufwändig sein. Mit der *Fast-Fourier-Transformation* (FFT) steht ein wesentlich effizienterer Algorithmus zur Berechnung der DFT zur Verfügung. Deshalb wird die FFT häufig in Software und digitaler Hardware eingesetzt, beispielsweise um das Frequenzspektrum eines Signals zu bestimmen.
+The *Fourier transform* makes it possible to change between the time and frequency domains. It breaks a signal down mathematically into its individual frequency components. For digital, discrete-time signals, the *discrete Fourier transform* (DFT) is used for this. Computing a DFT directly can be very laborious for a large number of samples. The *fast Fourier transform* (FFT) provides a much more efficient algorithm for computing the DFT. That is why the FFT is often used in software and digital hardware, for example to determine the frequency spectrum of a signal.
 
 <indepth>
-Nicht sinusförmige Signalformen bestehen aus mehreren Frequenzanteilen. Insbesondere scharfe Änderungen und Kanten im zeitlichen Signalverlauf erfordern zusätzliche hochfrequente Anteile. Mit dem folgenden Applet kann untersucht werden, wie sich unterschiedliche Sinusschwingungen überlagern und daraus verschiedene Signalformen entstehen.
+Non-sinusoidal waveforms consist of several frequency components. Sharp changes and edges in the waveform in particular require additional high-frequency components. The following applet can be used to investigate how different sine waves are superimposed and how different waveforms arise from them.
 
 [include:fourier]
 </indepth>
@@ -12,18 +12,18 @@ Nicht sinusförmige Signalformen bestehen aus mehreren Frequenzanteilen. Insbeso
 
 ---
 
-Besonders deutlich wird der Zusammenhang zwischen Zeit- und Frequenzbereich bei Signalen mit scharfen Kanten. Ein ideales Rechtecksignal lässt sich beispielsweise aus einer Grundschwingung und mehreren Oberschwingungen zusammensetzen. Neben der Grundfrequenz treten dabei die ungeradzahligen Vielfachen der Grundfrequenz auf. Ihre Amplituden werden mit zunehmender Frequenz kleiner.
+The relationship between the time and frequency domains becomes particularly clear with signals that have sharp edges. An ideal square-wave signal, for example, can be built up from a fundamental and several harmonics. Besides the fundamental frequency, the odd multiples of the fundamental frequency occur. Their amplitudes become smaller as the frequency increases.
 
-Diese Oberwellen sind auch bei Sendern von Bedeutung. Würde beispielsweise ein ideales Rechtecksignal unmittelbar auf eine Antenne gegeben, würden neben der gewünschten Grundfrequenz auch dessen Oberwellen abgestrahlt. Ein Tiefpassfilter kann die unerwünschten höheren Frequenzanteile unterdrücken, sodass hauptsächlich die gewünschte Grundschwingung zur Antenne gelangt.
+These harmonics also matter in transmitters. If, for example, an ideal square-wave signal were fed directly to an antenna, its harmonics would be radiated as well as the wanted fundamental frequency. A low-pass filter can suppress the unwanted higher frequency components, so that mainly the wanted fundamental reaches the antenna.
 
-Für einige typische periodische Signalformen lässt sich das Frequenzspektrum besonders einfach beschreiben. Dabei betrachten wir idealisierte Signalformen ohne Gleichanteil:
+For some typical periodic waveforms the frequency spectrum can be described particularly simply. We consider idealised waveforms without a DC component:
 
-* Ein *Sinussignal* besteht nur aus einer einzigen Frequenz. Im Frequenzspektrum erscheint daher nur die Grundfrequenz $f$.
-* Ein *Rechtecksignal* besteht aus der Grundfrequenz und den *ungeradzahligen Vielfachen* der Grundfrequenz. Es enthält also die Frequenzen $f$, $3\cdot f$, $5\cdot f$, $7\cdot f$ usw. Die Amplituden der Oberwellen werden mit zunehmender Frequenz kleiner.
-* Ein *Sägezahnsignal* enthält sowohl die geradzahligen als auch die ungeradzahligen Vielfachen der Grundfrequenz. Es enthält also $f$, $2\cdot f$, $3\cdot f$, $4\cdot f$, $5\cdot f$ usw. Auch hier werden die Amplituden mit zunehmender Frequenz kleiner.
-* Ein *Dreiecksignal* enthält wie das Rechtecksignal nur die ungeradzahligen Vielfachen der Grundfrequenz, also $f$, $3\cdot f$, $5\cdot f$, $7\cdot f$ usw. Die Amplituden der höheren Frequenzanteile nehmen jedoch wesentlich schneller ab als beim Rechtecksignal.
+* A *sine-wave signal* consists of only a single frequency. Only the fundamental frequency $f$ therefore appears in the frequency spectrum.
+* A *square-wave signal* consists of the fundamental frequency and the *odd multiples* of the fundamental frequency. It therefore contains the frequencies $f$, $3\cdot f$, $5\cdot f$, $7\cdot f$ and so on. The amplitudes of the harmonics become smaller as the frequency increases.
+* A *sawtooth signal* contains both the even and the odd multiples of the fundamental frequency. It therefore contains $f$, $2\cdot f$, $3\cdot f$, $4\cdot f$, $5\cdot f$ and so on. Here, too, the amplitudes become smaller as the frequency increases.
+* A *triangular-wave signal*, like the square-wave signal, contains only the odd multiples of the fundamental frequency, i.e. $f$, $3\cdot f$, $5\cdot f$, $7\cdot f$ and so on. The amplitudes of the higher frequency components, however, fall off much faster than with the square-wave signal.
 
-Damit lassen sich die Signalformen auch anhand ihres Frequenzspektrums unterscheiden. Ein einzelner Spektralanteil weist auf einen Sinus hin. Treten ungeradzahlige Vielfache auf, ist es in den Prüfungsfragen immer ein Rechtecksignal.
+The waveforms can therefore also be told apart by their frequency spectrum. A single spectral component points to a sine wave. If odd multiples occur, then in the examination questions it is always a square-wave signal.
 
 [question:AB404]
 [question:AB405]

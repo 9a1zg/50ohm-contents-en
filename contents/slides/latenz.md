@@ -1,17 +1,17 @@
-## Verzögerungen in der Signalübertragung
+## Delays in signal transmission
 
-* Bei der Signalübertragung und -verarbeitung entstehen Verzögerungen  
-* Lichtgeschwindigkeit: Zeit, die elektromagnetische Wellen vom Sender zum Empfänger benötigen  
-* Weitere Verzögerungen durch Zwischenspeicherung (Buffer) und Filter
+* Delays occur in the transmission and processing of signals  
+* Speed of light: the time electromagnetic waves take to travel from transmitter to receiver  
+* Further delays through temporary storage (buffering) and filters
 
 ---
 
-## Latenz in der Signalverarbeitung
+## Latency in signal processing
 
-* Laufzeit zwischen Sender und Empfänger oder zwischen Verarbeitungsstufen  
-* Latenz wird in Sekunden gemessen  
-* Typische Werte: wenige Millisekunden bis einige Sekunden  
-* Analoge Verfahren haben oft geringere Latenzen als digitale, da weniger Zwischenspeicherung erfolgt
+* Propagation time between transmitter and receiver, or between processing stages  
+* Latency is measured in seconds  
+* Typical values: a few milliseconds to several seconds  
+* Analogue methods often have lower latencies than digital ones, because there is less temporary storage
 
 ---
 

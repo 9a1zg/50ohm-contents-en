@@ -1,53 +1,53 @@
-Dieser Abschnitt zeigt, wie analoge Signale in digitale Werte und digitale Werte wieder in analoge Signale umgesetzt werden. Dazu werden *A/D-Umsetzer* (Analog-Digital-Umsetzer) und *D/A-Umsetzer* (Digital-Analog-Umsetzer) verwendet. Die Abbildung [ref:a_adc_dac] zeigt die Blockschaltbilder eines A/D- und eines D/A-Umsetzers.
+This section shows how analogue signals are converted into digital values and digital values back into analogue signals. *A/D converters* (analogue-to-digital converters) and *D/A converters* (digital-to-analogue converters) are used for this. Figure [ref:a_adc_dac] shows the block diagrams of an A/D and a D/A converter.
 
 <margin>
-[picture:1130:a_adc_dac:A/D- und D/A-Umsetzer]
+[picture:1130:a_adc_dac:A/D and D/A converters]
 </margin>
 
-Ein A/D-Umsetzer tastet ein analoges Eingangssignal zu bestimmten Zeitpunkten ab und erzeugt daraus digitale Zahlenwerte, die anschließend von weiteren Teilen einer Schaltung digital verarbeitet werden können.
+An A/D converter samples an analogue input signal at particular moments and produces from it digital numerical values, which can then be processed digitally by other parts of a circuit.
 
-Da ein A/D-Umsetzer nur mit einer begrenzten Anzahl möglicher digitaler Werte arbeitet, kann er die Amplitude eines analogen Eingangssignals nur in bestimmten Stufen erfassen. Wir erinnern uns dabei an das zuvor verwendete Beispiel mit Dimmer und Stufenschalter. Liegt der tatsächliche Wert zwischen zwei möglichen Stufen, muss er einer davon zugeordnet werden. Dadurch entsteht ein *Quantisierungsfehler*.
+Since an A/D converter works with only a limited number of possible digital values, it can capture the amplitude of an analogue input signal only in particular steps. Recall the example used earlier of the dimmer and the step switch. If the actual value lies between two possible levels, it has to be assigned to one of them. This gives rise to a *quantisation error*.
 
 [question:AF607]
 
 ---
 
-Die Anzahl der möglichen Stufen eines A/D-Umsetzers wird als dessen *Auflösung* bezeichnet. Sie wird häufig in Bit (Einheit: $\unit{\bit}$) angegeben. Kann ein Umsetzer beispielsweise $\num{256}$ unterschiedliche Werte unterscheiden, besitzt er eine Auflösung von $\qty{8}{\bit}$, denn mit $\qty{8}{\bit}$ lassen sich $\num{256}$ verschiedene Werte darstellen. Ein $\qty{16}{\bit}$-Umsetzer kann bereits $\num{65536}$ unterschiedliche Werte unterscheiden.
+The number of possible levels of an A/D converter is called its *resolution*. It is often stated in bits (unit: $\unit{\bit}$). If a converter can distinguish $\num{256}$ different values, for example, it has a resolution of $\qty{8}{\bit}$, because $\num{256}$ different values can be represented with $\qty{8}{\bit}$. A $\qty{16}{\bit}$ converter can already distinguish $\num{65536}$ different values.
 
-Bei Signalen, die sowohl positive als auch negative Werte annehmen können, wird typischerweise ein Teil dieser Werte für den positiven und ein Teil für den negativen Signalbereich verwendet.
+For signals that can take both positive and negative values, part of these values is typically used for the positive and part for the negative signal range.
 
-Die Abbildung [ref:a_adc_4bit] zeigt ein Sinussignal, das durch einen A/D-Umsetzer mit einer Auflösung von $\qty{4}{\bit}$ digitalisiert und anschließend wieder in ein analoges Signal umgesetzt wurde. Die Abbildung [ref:a_adc_12bit] zeigt dasselbe Sinussignal, das jedoch durch einen A/D-Umsetzer mit einer Auflösung von $\qty{12}{\bit}$ digitalisiert und anschließend wieder in ein analoges Signal umgesetzt wurde. Man erkennt deutlich, dass die zusätzlichen $\qty{8}{\bit}$ zu einer wesentlich feineren Auflösung führen (um Faktor 256 besser), sodass das rekonstruierte Signal dem ursprünglichen Sinussignal bereits sehr nahe kommt.
+Figure [ref:a_adc_4bit] shows a sine-wave signal that has been digitised by an A/D converter with a resolution of $\qty{4}{\bit}$ and then converted back into an analogue signal. Figure [ref:a_adc_12bit] shows the same sine-wave signal, but digitised by an A/D converter with a resolution of $\qty{12}{\bit}$ and then converted back into an analogue signal. It can be seen clearly that the additional $\qty{8}{\bit}$ lead to a much finer resolution (better by a factor of 256), so that the reconstructed signal already comes very close to the original sine-wave signal.
 
 <margin>
-[picture:300:a_adc_4bit:Sinussignal digitalisiert durch einen 4-Bit-A/D-Umsetzer und anschließende D/A-Umsetzung]
-[picture:299:a_adc_12bit:Sinussignal digitalisiert durch einen 12-Bit-A/D-Umsetzer und anschließende D/A-Umsetzung]
+[picture:300:a_adc_4bit:Sine-wave signal digitised by a 4-bit A/D converter, followed by D/A conversion]
+[picture:299:a_adc_12bit:Sine-wave signal digitised by a 12-bit A/D converter, followed by D/A conversion]
 </margin>
 
 [question:AF608]
 
-Eine weitere wichtige Eigenschaft eines A/D-Umsetzers ist die zeitliche Genauigkeit der Abtastung. Die einzelnen Samples sollten möglichst exakt in den vorgesehenen zeitlichen Abständen aufgenommen werden. Dazu ist ein möglichst stabiler Abtasttaktgenerator erforderlich.
+Another important property of an A/D converter is the timing accuracy of the sampling. The individual samples should be taken as exactly as possible at the intended intervals of time. This requires a sampling clock generator that is as stable as possible.
 
-In der Praxis können die tatsächlichen Abtastzeitpunkte jedoch geringfügig von den idealen Zeitpunkten abweichen. Diese zeitlichen Schwankungen werden als *Jitter* bezeichnet. Jitter kann zu zusätzlichen Fehlern und damit zu zusätzlichem Rauschen im digitalisierten Signal führen. Der gleiche Mechanismus tritt auf der Seite des D/A-Umsetzers auf. Dort führt Jitter zu zusätzlichem Rauschen im Analogsignal.
+In practice, however, the actual sampling instants can deviate slightly from the ideal instants. These fluctuations in time are called *jitter*. Jitter can lead to additional errors and so to additional noise in the digitised signal. The same mechanism occurs on the side of the D/A converter. There, jitter leads to additional noise in the analogue signal.
 
 [question:AF621]
 
 ---
 
-Der Gegenspieler des A/D-Umsetzers ist der *D/A-Umsetzer*. Er erzeugt aus einem digitalen Datenstrom beziehungsweise aus digitalen Samples wieder ein analoges Signal.
+The counterpart of the A/D converter is the *D/A converter*. It produces an analogue signal again from a digital data stream, or from digital samples.
 
-Auch ein D/A-Umsetzer kann nicht beliebig viele unterschiedliche Ausgangswerte erzeugen. Wie beim A/D-Umsetzer besitzt er eine bestimmte Auflösung in Bit und damit nur eine endliche Anzahl möglicher Ausgangswerte.
+A D/A converter, too, cannot produce any number of different output values. As with the A/D converter, it has a particular resolution in bits and so only a finite number of possible output values.
 
-Ein D/A-Umsetzer kann außerdem nur Spannungen innerhalb eines bestimmten Wertebereichs erzeugen, beispielsweise von $\qty{0}{\volt}$ bis $\qty{1}{\volt}$ oder von $\qty{-2}{\volt}$ bis $\qty{2}{\volt}$.
+A D/A converter can, moreover, produce voltages only within a particular range of values, for example from $\qty{0}{\volt}$ to $\qty{1}{\volt}$ or from $\qty{-2}{\volt}$ to $\qty{2}{\volt}$.
 
-Bei einem linear arbeitenden D/A-Umsetzer sind die möglichen Ausgangswerte gleichmäßig über diesen Spannungsbereich verteilt. Besitzt ein D/A-Umsetzer beispielsweise eine Auflösung von $\qty{4}{\bit}$, stehen
+In a linear D/A converter, the possible output values are spread evenly over this voltage range. If a D/A converter has a resolution of $\qty{4}{\bit}$, for example,
 
 $\num{2^4}=\num{16}$
 
-mögliche Stufen zur Verfügung.
+possible levels are available.
 
 [question:AF609]
 
-Verteilen sich diese auf einen Spannungsbereich von $\qty{0}{\volt}$ bis $\qty{1}{\volt}$, gibt es zwischen den $\num{16}$ Stufen insgesamt $\num{15}$ Zwischenschritte. Die Schrittweite beträgt daher
+If these are spread over a voltage range from $\qty{0}{\volt}$ to $\qty{1}{\volt}$, there are $\num{15}$ steps in all between the $\num{16}$ levels. The step size is therefore
 
 $\frac{\qty{1}{\volt}}{16-1}\approx\qty{67}{\milli\volt}.$
 
@@ -56,15 +56,15 @@ $\frac{\qty{1}{\volt}}{16-1}\approx\qty{67}{\milli\volt}.$
 
 ---
 
-A/D- und D/A-Umsetzer werden beispielsweise in SDR-Empfängern und Transceivern eingesetzt. Analoge Eingangssignale werden zunächst durch einen A/D-Umsetzer digitalisiert und anschließend digital verarbeitet. Soll daraus wieder ein analoges Signal entstehen, werden die digitalen Werte mit einem D/A-Umsetzer zurück in analoge Spannungswerte umgesetzt.
+A/D and D/A converters are used, for example, in SDR receivers and transceivers. Analogue input signals are first digitised by an A/D converter and then processed digitally. If an analogue signal is to be produced from them again, the digital values are converted back into analogue voltage values by a D/A converter.
 
-Dabei kann es vorkommen, dass ein Eingangssignal nur einen kleinen Teil des verfügbaren Wertebereichs eines A/D-Umsetzers nutzt. In diesem Fall wird entsprechend auch nur ein Teil der verfügbaren digitalen Stufen verwendet.
+It can happen that an input signal uses only a small part of the available range of values of an A/D converter. In this case, correspondingly, only some of the available digital levels are used.
 
-Umgekehrt kann ein Eingangssignal den maximalen Wertebereich eines A/D-Umsetzers überschreiten. Werte oberhalb der maximal erfassbaren Eingangsspannung können dann nicht mehr korrekt dargestellt werden und werden nur noch mit dem maximal möglichen Wert abgebildet. Dieser Effekt wird als *Clipping* bezeichnet. Im Signalverlauf erscheinen die betroffenen Bereiche dadurch abgeschnitten.
+Conversely, an input signal can exceed the maximum range of values of an A/D converter. Values above the maximum input voltage that can be captured can then no longer be represented correctly and are represented only by the maximum possible value. This effect is called *clipping*. In the waveform, the affected parts therefore appear cut off.
 
-Auch ein D/A-Umsetzer kann keine Ausgangsspannung außerhalb seines vorgesehenen Wertebereichs erzeugen.
+A D/A converter, too, cannot produce an output voltage outside its intended range of values.
 
-Je höher die Auflösung eines A/D- oder D/A-Umsetzers ist, desto feiner können unterschiedliche Amplitudenwerte digital dargestellt beziehungsweise wieder in analoge Spannungswerte umgesetzt werden. Bei einer geringen Auflösung stehen dagegen nur wenige mögliche Stufen zur Verfügung, sodass die Abstufungen deutlicher sichtbar werden.
+The higher the resolution of an A/D or D/A converter, the more finely different amplitude values can be represented digitally, or converted back into analogue voltage values. With a low resolution, on the other hand, only a few possible levels are available, so that the steps become more clearly visible.
 
 [question:AF613]
 [question:AF612]

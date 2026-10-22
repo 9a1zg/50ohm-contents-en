@@ -1,18 +1,18 @@
-In einem der vorherigen Kapitel haben wir die I/Q-Darstellung und den I/Q-Modulator kennengelernt. In einem digitalen System werden die beiden Komponenten I und Q als zwei getrennte digitale Datenströme verarbeitet. Diese können durch digitale Signalverarbeitung erzeugt, verändert und ausgewertet werden.
+In one of the previous chapters we met the I/Q representation and the I/Q modulator. In a digital system, the two components I and Q are processed as two separate digital data streams. These can be generated, modified and evaluated by digital signal processing.
 
-Auf der Empfängerseite wird das Eingangssignal dazu mit zwei Signalen gleicher Frequenz gemischt, die um $\qty{90}{\degree}$ gegeneinander phasenverschoben sind. Dadurch entstehen ein I- und ein Q-Signal. Beide Signale werden anschließend jeweils mit einem A/D-Umsetzer digitalisiert und können danach digital weiterverarbeitet werden. Auf der Senderseite funktioniert der Vorgang umgekehrt: Digitale I- und Q-Datenströme werden mit zwei D/A-Umsetzern in analoge Signale umgewandelt und anschließend einem I/Q-Modulator zugeführt.
+On the receiving side, the input signal is mixed for this purpose with two signals of the same frequency that are phase-shifted by $\qty{90}{\degree}$ relative to each other. This produces an I signal and a Q signal. Each of the two signals is then digitised by an A/D converter and can afterwards be processed further digitally. On the transmitting side the process works in reverse: digital I and Q data streams are converted into analogue signals by two D/A converters and then fed to an I/Q modulator.
 
-Ein digitaler I/Q-Datenstrom kann einen Frequenzbereich um eine bestimmte Mittenfrequenz herum darstellen. Dabei werden Frequenzen unterhalb der Mittenfrequenz durch negative und Frequenzen oberhalb der Mittenfrequenz durch positive Frequenzabweichungen beschrieben.
+A digital I/Q data stream can represent a frequency range around a particular centre frequency. Frequencies below the centre frequency are described by negative frequency offsets, and frequencies above the centre frequency by positive ones.
 
-Wird ein Eingangssignal beispielsweise mit zwei um $\qty{90}{\degree}$ gegeneinander phasenverschobenen Signalen von jeweils $\qty{435}{\mega\hertz}$ gemischt, repräsentiert der entstehende I/Q-Datenstrom einen Frequenzbereich um die Mittenfrequenz von $\qty{435}{\mega\hertz}$.
+If, for example, an input signal is mixed with two signals of $\qty{435}{\mega\hertz}$ each, phase-shifted by $\qty{90}{\degree}$ relative to each other, the resulting I/Q data stream represents a frequency range around the centre frequency of $\qty{435}{\mega\hertz}$.
 
-Wie groß dieser Frequenzbereich ist, hängt von der Abtastrate ab. Werden sowohl I als auch Q mit einer Abtastrate von $f_\mathrm{S}$ abgetastet, kann idealerweise ein Frequenzbereich von
+How wide this frequency range is depends on the sampling rate. If both I and Q are sampled at a sampling rate of $f_\mathrm{S}$, a frequency range of, ideally,
 
-$-\frac{f_\mathrm{S}}{2}\text{ bis }+\frac{f_\mathrm{S}}{2}$
+$-\frac{f_\mathrm{S}}{2}\text{ to }+\frac{f_\mathrm{S}}{2}$
 
-um die Mittenfrequenz dargestellt werden. Die insgesamt darstellbare Bandbreite entspricht damit der Abtastrate $f_\mathrm{S}$.
+around the centre frequency can be represented. The total bandwidth that can be represented is thus equal to the sampling rate $f_\mathrm{S}$.
 
-Werden beispielsweise I und Q jeweils mit $\qty{10}{\mega\sample\per\second}$ abgetastet, kann der I/Q-Datenstrom einen Frequenzbereich von $\qty{-5}{\mega\hertz}$ bis $\qty{+5}{\mega\hertz}$ um die Mittenfrequenz darstellen. Bei einer Mittenfrequenz von $\qty{435}{\mega\hertz}$ entspricht dies einem Frequenzbereich von $\qty{430}{\mega\hertz}$ bis $\qty{440}{\mega\hertz}$.
+If, for example, I and Q are each sampled at $\qty{10}{\mega\sample\per\second}$, the I/Q data stream can represent a frequency range from $\qty{-5}{\mega\hertz}$ to $\qty{+5}{\mega\hertz}$ around the centre frequency. With a centre frequency of $\qty{435}{\mega\hertz}$ this corresponds to a frequency range from $\qty{430}{\mega\hertz}$ to $\qty{440}{\mega\hertz}$.
 
 [question:AF634]
 [question:AF635]
