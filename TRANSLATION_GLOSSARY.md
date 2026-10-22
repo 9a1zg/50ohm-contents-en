@@ -2574,7 +2574,7 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Querschnittsaufbau | cross-sectional structure | uebertragungsleitungen_2, EG301 |
 | Gegentaktströme / Gleichtaktströme (Zweidrahtleitung) | differential-mode currents / common-mode currents | as §9 *Gleichtakt / Gegentakt*; *Gleichtaktanteile* → common-mode components (AG312) (uebertragungsleitungen_3) |
 | Hochfrequenzeigenschaften / Biegeradius | RF properties / bending radius | AG303 (uebertragungsleitungen_3) |
-| Aufschäumung / geschäumt / nicht-geschäumtes Polyethylen | foaming / foamed / non-foamed polyethylene | AG302, AG317 "solid polyethylene" where the question says *Voll-PE* (uebertragungsleitungen_3) |
+| Aufschäumung / geschäumt / nicht-geschäumtes Polyethylen | foaming / foamed / solid (non-foamed) polyethylene | *solid* is the established English term, as AG302 "solid PE" and AG317 "solid polyethylene" for *Voll-PE*; the course text adds "(non-foamed)" to keep the German contrast with *geschäumt* (uebertragungsleitungen_3) |
 | geometrische ("mechanische") Länge $L_\mathrm{G}$ | geometric ("mechanical") length | symbol unchanged; AG317 "physical length" (uebertragungsleitungen_3) |
 | Hin-Richtung / Rück-Richtung / Hinweg / Rückweg (Leitungsdämpfung) | on the way there / on the way back | the forward and return trip of a wave on a lossy line (swr_3, AG402–AG404); *in Hin- und Rückrichtung jeweils* → "in each direction, there and back" |
 | Leitungsdämpfung / verlustbehaftete Leitung | line loss / lossy line | swr_3 |

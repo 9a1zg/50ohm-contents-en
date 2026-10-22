@@ -95,3 +95,38 @@ contrast stays *socket*; not *jack*; *Stecker* naming a connector type →
 - slides/swr_3.md (AG404) — "$P_R = \qty{-10}{\dB} \cdot P_V$" multiplies a level in dB by a power; what is meant is $P_R = 10^{-10/10} \cdot P_V$. Kept.
 - Typos with no effect on the English: sections/uebertragungsleitungen.md "Eine weiteres" (*Ein weiteres*); sections/uebertragungsleitungen_2.md "Querschittsaufbau" (*Querschnittsaufbau*), "bei bestimmungsgemäßen Betrieb" (*bestimmungsgemäßem*); sections/koaxsteckverbinder.md "drauf geachtet" (*darauf*); sections/skineffekt.md "Feldfrei" (*feldfrei*); sections/swr_2.md "Leisung" (*Leistung*), "Reflektion" (*Reflexion*, also in swr_3); sections/swr_meter_2.md "Zu nächst" (*Zunächst*), "die die Ausgangsspannungen" (doubled), "gemessern" (*gemessen*).
 
+
+## Provjera
+
+Checked all 41 files paragraph by paragraph against the German of
+`bd70237~1`, the 18 glossary rows, the DECISIONS.md entry and every
+judgement call above, and the prose against the English of the embedded
+questions (EG301, EG303, EG305, EI403–EI405, NG203, NG206, NG207, NI202,
+AG301–AG304, AG311, AG312, AG314, AG317, AG402–AG404, AI401 looked up).
+Nothing dropped or added; numbers, formulas and markup intact.
+`revizija-guard.py --rev bd70237~1 --brojevi`: 41 files, *struktura
+netaknuta*.
+
+Changes: omission 0, meaning 0, technical 0, style 3, glossary 1.
+
+- glossary: *nicht-geschäumtes Polyethylen* → "solid (non-foamed)
+  polyethylene" (section and slides uebertragungsleitungen_3): *solid* is
+  the established English term and the one AG302 and AG317, embedded right
+  there, use; "(non-foamed)" keeps the German contrast with *geschäumt*.
+  Glossary row §14 *Aufschäumung / geschäumt / nicht-geschäumtes
+  Polyethylen* reworded to match.
+- style: swr_meter_1 *unmittelbar vor der Antenne* → "immediately before the
+  antenna" (was "directly in front of", which reads as a physical position
+  in front of the antenna, not a point in the line; EI404 "between the
+  feeder and the antenna").
+- style: slides/swr *Führt zur Verfälschung der Messung* → "Distorts the
+  measurement" (was "Falsifies", which implies intent).
+- style: uebertragungsleitungen_3 "how tightly the cable may be bent when it
+  is laid round a curve" (was "where").
+
+Kept: the DECISIONS.md connector entry (plug / socket / panel socket /
+panel plug) and the other 17 glossary rows as written; all other judgement
+calls, including "roughly" for *knapp* with a range (swr_3), the dropped
+"Skineffekt … Haut" and "standing wave ratio" glosses, and "diagram" for
+NG203's picture (the question itself says "diagram"). The suspected errors
+in the German listed above are confirmed and stay translated as written.

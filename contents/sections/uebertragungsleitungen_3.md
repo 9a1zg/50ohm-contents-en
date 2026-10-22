@@ -24,7 +24,7 @@ A suitable screened cable is the coaxial cable, which we also met in Class E. Co
 * the cable loss and the
 * velocity factor,
 
-which we look at more closely in a moment. The bending radius, on the other hand, is a mechanical property that states how tightly the cable may be bent where it is laid round a curve. The return loss states how much reflection there is, which depends on the load connected to a line and is therefore not a property of the cable.
+which we look at more closely in a moment. The bending radius, on the other hand, is a mechanical property that states how tightly the cable may be bent when it is laid round a curve. The return loss states how much reflection there is, which depends on the load connected to a line and is therefore not a property of the cable.
 
 [question:AG303]
 
@@ -37,6 +37,6 @@ The velocity of propagation, reduced by the dielectric, is reflected in the velo
 
 $k_\mathrm{v} = \frac{L_\mathrm{G}}{L_\mathrm{E}} = \frac{1}{\sqrt{\epsilon_\mathrm{r}}}$
 
-Here $k_\mathrm{v}$ is the velocity factor, $L_\mathrm{G}$ the geometric ("mechanical") length and $L_\mathrm{E}$ the electrical length. The relative permittivity $\epsilon_\mathrm{r}$ depends on the dielectric used. For non-foamed polyethylene (PE), the formula sheet gives a relative permittivity of $\num{2.29}$.
+Here $k_\mathrm{v}$ is the velocity factor, $L_\mathrm{G}$ the geometric ("mechanical") length and $L_\mathrm{E}$ the electrical length. The relative permittivity $\epsilon_\mathrm{r}$ depends on the dielectric used. For solid (non-foamed) polyethylene (PE), the formula sheet gives a relative permittivity of $\num{2.29}$.
 
 [question:AG317]

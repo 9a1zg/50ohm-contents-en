@@ -40,7 +40,7 @@
 ### Velocity factor and electrical length
 * Velocity factor: ratio of the mechanical length ($L_\mathrm{G}$) to the electrical length ($L_\mathrm{E}$)
 * Formula: $k_\mathrm{v} = \frac{L_\mathrm{G}}{L_\mathrm{E}} = \frac{1}{\sqrt{\epsilon_\mathrm{r}}}$
-* For non-foamed polyethylene, $\epsilon_\mathrm{r} \approx 2.29$
+* For solid (non-foamed) polyethylene, $\epsilon_\mathrm{r} \approx 2.29$
 
 ---
 [question:AG317]

@@ -14,7 +14,7 @@ Since a feeder has losses and therefore also changes the standing wave ratio, it
 
 ---
 
-If we want to measure how well an antenna is matched, we should connect the SWR meter directly in front of the antenna (see Figure [ref:swr_meter_antenne]).
+If we want to measure how well an antenna is matched, we should connect the SWR meter immediately before the antenna (see Figure [ref:swr_meter_antenne]).
 
 <margin>
 [picture:1051:swr_meter_antenne:Position of the SWR meter for determining the antenna match]

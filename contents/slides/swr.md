@@ -90,7 +90,7 @@ SWR meter and S meter sound similar but are different: the SWR meter measures th
 ## High cable loss
 
 * Reduces the reflected signal
-* Falsifies the measurement
+* Distorts the measurement
 * For example with a long cable
 * Signal is reduced on the way there and on the way back
 
