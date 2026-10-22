@@ -2117,6 +2117,40 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Unun-Übertrager / bifilar (verdrillt) gewickelt | unun transformer / wound bifilar (twisted) | |
 | Stichwort (Formelsammlung) | keyword | "(siehe Formelsammlung – Stichwort: Induktiver Blindwiderstand)" → "(see the formula sheet – keyword: inductive reactance (*Induktiver Blindwiderstand*))" (DECISIONS.md) |
 | Merkhilfe (Reim): Beim Kondensatoooor eilt der Strom vooor / Bei der Induktivitäääät kommt der Strom zu spääät | the German rhyme kept, English meaning in brackets: "(in the capacitor, the current leads)", "(in the inductance, the current comes too late)" | as the country-prefix mnemonics (DECISIONS.md) |
+| Energiebandlücke / Bandlückenenergie | energy band gap / band-gap energy | halbleiter_2, diode_1 |
+| Valenzband(energie) / Leitungsband / Valenzbandkante | valence band (energy) / conduction band / valence band edge | halbleiter_2 |
+| Elementhalbleiter / Verbindungshalbleiter | elemental semiconductor / compound semiconductor | |
+| dotierbar / n-Dotierung / p-Dotierung | can be doped / n-type doping / p-type doping | |
+| Elektronenfehlstelle / Defektelektron | electron vacancy | what is called a *hole*; not the Germanism "defect electron" (halbleiter_2, transistor_1, transistor_2) |
+| Diffusionsstrom / Feldstrom | diffusion current / drift current | *Feldstrom* is the current driven by the junction field, English *drift current* (halbleiter_2) |
+| Raumladungszone | space-charge region | beside *Verarmungszone* → depletion region and *Sperrschicht* → depletion layer (§4), each as the German writes it (diode_2) |
+| Sperrsättigungsstrom / Sättigungs-Sperrstrom / Sättigungsstrom | reverse saturation current / saturation current | $I_S$ (diode_1, transistor_1, transistor_2) |
+| Temperaturspannung | thermal voltage | $U_T = kT/q$ |
+| Sperrdurchbruch / Zener-Spannung / Kathodenstrich | reverse breakdown / Zener voltage / cathode bar | Zener diode (diode_1); *Z-Diode* → Zener diode (§4), also where the slides say the name stuck |
+| Metall-Halbleiter-Übergang / Halbleiterübergang | metal-semiconductor junction / semiconductor junction | Schottky diode |
+| pn-Diode / npn- / pnp-Transistor / n-Kanal / p-Kanal | pn diode / npn / pnp transistor / n-channel / p-channel | the case of the letters follows the German in each place (as *n-dotiert* in §4); the question bank writes NPN, PNP, N-channel because its German does |
+| antiparallele Dioden | diodes in inverse parallel | as §14 *antiparallel geschaltete Dioden* (diode_2, AC405, AC406) |
+| geklippt / Clipping | clipped / clipping | |
+| Fotowiderstand | light-dependent resistor | as AC407 and §4 *LDR* |
+| nicht-sperrender Kontakt | non-rectifying contact | the contacts of an LDR (diode_2) |
+| galvanisch getrennt / galvanisch trennen | galvanically isolated / isolate galvanically | AC408 "galvanic isolation" |
+| Masseschleife / Netzbrummen | earth loop / mains hum | British *earth loop*, not *ground loop* (diode_2) |
+| gegen Masse / auf Masse liegen / Massepotential | to chassis / be connected to chassis / chassis potential | as §4 *Masse* and EC612 "chassis potential" (transistor_2, integrierte_schaltkreise, AC519, AC522) |
+| Ausgleichsströme | equalising currents | AC408 |
+| spannungsgesteuerte Stromquelle | voltage-controlled current source | transistor_1 |
+| Stromverstärkung $B$ / Stromverstärkungsfaktor | current gain / current gain factor | *B*; the bank's *Gleichstromverstärkung* stays *DC current gain* (§3) |
+| Leckstrom | leakage current | |
+| Schalttransistor / Ansteuerung / Steuerspannung | switching transistor / drive / control voltage | transistor_1 slides |
+| Serien-Gegenkopplung | series negative feedback | emitter resistor (transistor_2) |
+| Regelbetrieb | normal operation | |
+| (Relais) hat angezogen | (the relay) has pulled in | |
+| Kanalwiderstand / Kanalstrom | channel resistance / channel current | AC514 "resistance of the channel" |
+| Bulk-Schicht | bulk layer | under the channel of an insulated-gate FET |
+| Source / Drain / Gate (with the German glosses *Quelle*, *Abfluss*, *Gatter*) | source / drain / gate | the German explains the English names; in English the gloss is not given back, only what the electrode does (transistor_2), as §14 *NTC / PTC (englisch …)* |
+| Wehr / Steuerkanal / Steuerklappe | weir / control channel / control flap | the water analogy of the transistor (transistor_1) |
+| "Kleiner Radiomann" des Kosmos-Verlags | the "Kleiner Radiomann" (little radio man) kit published by Kosmos | the kit's name stays German with a gloss; *kit* tells the English reader what it is (transistor_1) |
+| Merksatz *Pfeil Nach Platte* | Pfeil Nach Platte (arrow towards the plate) | German mnemonic for the PNP symbol kept, as the other mnemonics (DECISIONS.md) |
+| HF-Abblockung / HF-Entkopplung (der Betriebsspannung) / Betriebsspannungsleitung | RF decoupling (of the supply voltage) / supply line | MMIC circuit (integrierte_schaltkreise) |
 
 ## 15. Catalogue structure
 

@@ -1,23 +1,23 @@
 [question:AC401]
 
-Die pn-Diode besteht aus zwei Halbleiterbereichen, die durch den Vorgang der Dotierung entweder einen Überschuss an freien Elektronen (n) oder freien Löchern (p) haben. Rechts und links der Grenzfläche entsteht eine sogenannte Raumladungszone, die praktisch keine freien Ladungsträger enthält. Das n-Gebiet stellt die Kathode, das p-Gebiet die Anode dar. 
+The pn diode consists of two semiconductor regions which, through the process of doping, have either an excess of free electrons (n) or of free holes (p). On either side of the boundary a so-called space-charge region forms, which contains practically no free charge carriers. The n-region is the cathode, the p-region the anode. 
 
-Wird die Diode mit einer Durchlassspannung beaufschlagt (positiv an der Anode, negativ an der Kathode), so werden Elektronen vom n-dotierten Gebiet in Richtung p-Gebiet und Löcher vom p-Gebiet in Richtung n-Gebiet geschickt. So ergibt sich die richtige Antwort.
+If a forward voltage is applied to the diode (positive at the anode, negative at the cathode), electrons are driven from the n-doped region towards the p-region, and holes from the p-region towards the n-region. This gives the correct answer.
 
-Etwas verwirrend ist gegebenenfalls, dass die technische Stromrichtung entgegengesetzt zur Richtung des Elektronenflusses ist. Der Strompfeil zeigt also von der Anode zur Kathode, obwohl der Elektronenfluss von der Kathode zur Anode verläuft.
+What may be a little confusing is that the conventional current flow is in the opposite direction to the flow of electrons. So the current arrow points from the anode to the cathode, although the electrons flow from the cathode to the anode.
 
 [question:AC403]
 
-pn-Dioden zeigen eine exponentielle Abhängigkeit des Diodenstroms von der Diodenspannung. Der Sättigungsstrom steigt mit steigender Temperatur. Dies sorgt dafür, dass die für einen bestimmten Diodenstrom notwendige Diodenspannung mit steigender Temperatur kleiner wird. Die "Durchlassspannung" sinkt also (als Faustformel um $\qty{-2}{\milli\volt\per\kelvin}$ Temperaturerhöhung).
+pn diodes show an exponential dependence of the diode current on the diode voltage. The saturation current rises as the temperature rises. As a result, the diode voltage needed for a given diode current becomes smaller as the temperature rises. So the "forward voltage" falls (as a rule of thumb, by $\qty{-2}{\milli\volt\per\kelvin}$ of temperature rise).
 <indepth>
 
-Der Diodenstrom ist:
+The diode current is:
   
 $I_D(T) = I_S(T) \cdot e^{\frac{U_D}{U_T}}$
   
-$I_S$ ist der Sättigungsstrom, $U_T = k T/q$ die sogenannte Temperaturspannung. Hier ist $k$ die Boltzmann-Konstante, $q$ die Elementarladung.
+$I_S$ is the saturation current, and $U_T = k T/q$ is the so-called thermal voltage. Here $k$ is the Boltzmann constant and $q$ the elementary charge.
   
-Mit steigender Temperatur steigt der Sättigungsstrom und die Exponentialfunktion sinkt. Es überwiegt allerdings die Temperaturabhängigkeit des Sättigungsstroms.
+As the temperature rises, the saturation current rises and the exponential function falls. However, the temperature dependence of the saturation current predominates.
 
 </indepth>
 
@@ -25,48 +25,48 @@ Mit steigender Temperatur steigt der Sättigungsstrom und die Exponentialfunktio
 
 ---
 
-Die Kapazitätsdiode (vgl. Abbildung [ref:a_diode_kapazitaet]) nutzt die Kapazität zwischen den n- und p-Gebieten über die Raumladungszone hinweg, analog zu einem Plattenkondensator. Dabei darf aber kein nennenswerter Gleichstrom fließen, also muss die Diode in Sperrrichtung gepolt werden.
+The varactor diode (see Figure [ref:a_diode_kapazitaet]) uses the capacitance between the n- and p-regions across the space-charge region, in the same way as a parallel-plate capacitor. However, no appreciable direct current may flow, so the diode must be reverse-biased.
 
 <margin>
-[picture:1068:a_diode_kapazitaet:Schaltzeichen Kapazitätsdiode]
+[picture:1068:a_diode_kapazitaet:Circuit symbol of a varactor diode]
 </margin>
 
-Je negativer die Diodenspannung (bzw. je höher die Sperrspannung), umso mehr dehnt sich die Raumladungszone aus und umso geringer wird die Diodenkapazität.
+The more negative the diode voltage (or the higher the reverse voltage), the further the space-charge region extends and the smaller the diode capacitance becomes.
 
-In den Fragen AC405 und AC406 werden *antiparallele Dioden* eingesetzt, um die Amplitude einer Wechselspannung zu begrenzen. Solche Schaltungen werden z.B. eingesetzt, um Empfängereingänge vor Spannungen zu schützen, die die Eingangstransistoren zerstören könnten.
+In questions AC405 and AC406, *diodes in inverse parallel* are used to limit the amplitude of an AC voltage. Circuits like this are used, for example, to protect receiver inputs from voltages that could destroy the input transistors.
 
 [question:AC405]
 
-Hier handelt es sich um Silizium-Dioden, die eine Schwellspannung von etwa $\qty{0,6}{\volt}$ haben. Wenn die Eingangsspannung also $\qty{0,6}{\volt}$ überschreitet, schaltet die rechte Diode durch. Unterschreitet sie $\qty{-0,6}{\volt}$, schaltet die linke Diode durch.
+These are silicon diodes, which have a threshold voltage of about $\qty{0.6}{\volt}$. So if the input voltage exceeds $\qty{0.6}{\volt}$, the right-hand diode switches on. If it falls below $\qty{-0.6}{\volt}$, the left-hand diode switches on.
 
-Bei der ersten Halbwelle wird die nötige Spannung noch nicht erreicht, sie wird also unverändert übertragen. Die beiden nächsten Halbwellen allerdings haben Amplituden, die die Schwellspannung überschreiten. Die Amplituden werden bei $\qty{\pm 0,6}{\volt}$ "geklippt".
+In the first half cycle the necessary voltage is not yet reached, so it is passed on unchanged. The next two half cycles, however, have amplitudes that exceed the threshold voltage. The amplitudes are "clipped" at $\qty{\pm 0.6}{\volt}$.
 
 [question:AC406]
 
-Die Lösung verläuft analog zur vorhergehenden Aufgabe - aber die Dioden sind hier *Germanium-Dioden*, die Schwellspannung beträgt etwa $\qty{0,3}{\volt}$. Daher werden alle Halbwellen geklippt.
+The solution is the same as for the previous question – but here the diodes are *germanium diodes*, with a threshold voltage of about $\qty{0.3}{\volt}$. That is why all the half cycles are clipped.
 
 [question:AC407]
 
-Im folgenden werden Bauelemente beschrieben, die mit Licht interagieren: der Fotowiderstand und die Fotodiode.
+The following describes components that interact with light: the light-dependent resistor and the photodiode.
 
-Der Fotowiderstand ist ein Bauelement, das über zwei nicht-sperrende Kontakte verfügt. Es verhält sich wie ein konventioneller Ohmscher Widerstand - der Strom steigt linear mit der angelegten Spannung. Der Widerstandswert kann durch Absorption von Licht verringert werden - die absorbierten Photonen erhöhen die Dichte der freien Ladungsträger. Liegt keine Spannung an, fließt auch kein Strom.
+The light-dependent resistor is a component with two non-rectifying contacts. It behaves like a conventional ohmic resistor – the current rises linearly with the applied voltage. Its resistance can be reduced by the absorption of light – the absorbed photons increase the density of free charge carriers. If no voltage is applied, no current flows either.
 
 ---
 
-Die Fotodiode dagegen ist eine pn-Diode (vgl. Abbildung [ref:a_photodiode]). Das Licht wird hier in der Raumladungszone absorbiert, es entstehen Elektron-Loch-Paare, die im elektrischen Feld der Raumladungszone getrennt werden. Dieses Feld existiert auch ohne äußere Vorspannung. Es fließt auch für $U_D=0$ ein Strom (ein Kurzschlussstrom). Dieser Strom hat die entgegengesetzte Richtung wie der konventionelle Diodenstrom. 
+The photodiode, on the other hand, is a pn diode (see Figure [ref:a_photodiode]). Here the light is absorbed in the space-charge region, producing electron-hole pairs, which are separated in the electric field of the space-charge region. This field exists even without an external bias. A current flows even for $U_D=0$ (a short-circuit current). This current flows in the opposite direction to the conventional diode current. 
 
 <margin>
-[picture:1069:a_photodiode:Schaltzeichen Photodiode]
+[picture:1069:a_photodiode:Circuit symbol of a photodiode]
 </margin>
 
 ---
 
 [question:AC408]
 
-Optokoppler vereinen eine Leuchtdiode und eine Fotodiode in einem Gehäuse, wobei die Eingangsseite (Leuchtdiode) und die Ausgangsseite (Fotodiode) voneinander isoliert sind (galvanisch getrennt).
+Optocouplers combine a light-emitting diode and a photodiode in one package, with the input side (light-emitting diode) and the output side (photodiode) insulated from each other (galvanically isolated).
 
-Diese Bauelemente werden eingesetzt, um Schnittstellen galvanisch zu trennen, zum Beispiel, um Masseschleifen zu verhindern, die für eingekoppeltes Netzbrummen sorgen können.
+These components are used to isolate interfaces galvanically, for example to prevent earth loops, which can cause mains hum to be picked up.
 
 <margin>
-[picture:1070:a_optokoppler:Schaltzeichen Optokoppler]
+[picture:1070:a_optokoppler:Circuit symbol of an optocoupler]
 </margin>

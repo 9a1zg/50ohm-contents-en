@@ -1,12 +1,12 @@
-Integrierte Schaltungen sind komplexe Schaltungen, die auf einem Halbleitersubstrat realisiert sind. Sie sind damit eine wesentliche Erleichterung für den Aufbau von elektronischen Schaltungen.
+Integrated circuits are complex circuits implemented on a semiconductor substrate. This makes them a great help in building electronic circuits.
 
 [question:AC601]
 
 <margin>
-[photo:334:a_ic:Kurzwellensender TinyWhisper der JKU Linz und JMU Würzburg realisiert als integrierte Schaltung in 130nm CMOS-Technologie]
+[photo:334:a_ic:TinyWhisper HF transmitter from JKU Linz and JMU Würzburg, implemented as an integrated circuit in 130 nm CMOS technology]
 </margin>
 
-Als spezielle Klasse der integrierten Schaltkreise gibt es die Monolithic Microwave Integrated Circuits (MMIC). Sie vereinen dabei sowohl aktive wie auch passive Bauelemente auf dem gleichen Substrat. Diese werden typischerweise für eine Ein- und Ausgangsimpedanz von $\qty{50}{\ohm}$ ausgelegt. Mit ihnen ist eine hohe breitbandige Verstärkung mit wenigen Bauteilen möglich.
+A special class of integrated circuits are monolithic microwave integrated circuits (MMICs). They combine both active and passive components on the same substrate. They are typically designed for an input and output impedance of $\qty{50}{\ohm}$. With them, high gain over a wide bandwidth is possible with few components.
 
 [question:AC602]
 [question:AC603]
@@ -14,21 +14,21 @@ Als spezielle Klasse der integrierten Schaltkreise gibt es die Monolithic Microw
 
 ---
 
-Zur Berechnung der Aufgaben aus der Prüfung ist es hilfreich, die Schaltung aus Abbildung [ref:a_mmic] zunächst genauer zu betrachten.
+To work out the examination questions, it helps first to look more closely at the circuit in Figure [ref:a_mmic].
 
-Die Kondensatoren $C_1$ und $C_3$ dienen als Koppelkondensatoren. Sie lassen HF-Signale passieren, sperren jedoch Gleichspannung. Dadurch wird verhindert, dass Gleichspannungen zwischen den einzelnen Schaltungsstufen übertragen werden und den Arbeitspunkt beeinflussen.
+The capacitors $C_1$ and $C_3$ serve as coupling capacitors. They let RF signals pass but block DC voltage. This prevents DC voltages from being passed between the individual stages of the circuit and affecting the operating point.
 
-Die Drossel in der Betriebsspannungsleitung $U_\mathrm{CC}$ verhindert, dass HF-Signale über die Spannungsversorgung abfließen können. Für Hochfrequenz besitzt die Drossel einen hohen Widerstand und wirkt daher als Sperre. Der Kondensator $C_2$ dient zur HF-Abblockung der Versorgungsspannung. Er leitet verbleibende HF-Anteile gegen Masse ab und sorgt dafür, dass die Versorgungsspannung HF-mäßig stabil bleibt. Zusammen mit der Drossel bildet er eine HF-Entkopplung der Betriebsspannung. Diese Schaltung lernen wir später noch als "Bias-T" kennen.
+The choke in the supply line $U_\mathrm{CC}$ prevents RF signals from escaping through the power supply. At radio frequencies the choke has a high impedance and therefore acts as a block. The capacitor $C_2$ serves to decouple the supply voltage for RF. It shunts any remaining RF components to chassis and ensures that the supply voltage stays stable as far as RF is concerned. Together with the choke, it provides RF decoupling of the supply voltage. We will meet this circuit again later as the "bias tee".
 
-Eine Besonderheit vieler MMICs besteht darin, dass die Versorgungsspannung über den Ausgang zugeführt wird. Der Widerstand $R_\text{BIAS}$ stellt dabei den Arbeitspunkt des MMIC ein.
+A special feature of many MMICs is that the supply voltage is fed in through the output. The resistor $R_\text{BIAS}$ sets the operating point of the MMIC.
 
 <margin>
-[picture:773:a_mmic:MMIC-Schaltung]
+[picture:773:a_mmic:MMIC circuit]
 </margin>
 
-Abhängig von der Aufgabenstellung kann aus dem Spannungsabfall über dem MMIC zunächst der Spannungsabfall über dem Widerstand $R_\text{BIAS}$ bestimmt werden. Mit dem bekannten Widerstandswert lässt sich anschließend der Strom durch die Schaltung berechnen. Derselbe Strom fließt auch durch den MMIC, sodass sich daraus beispielsweise die thermische Verlustleistung bestimmen lässt.
+Depending on the question, the voltage drop across the resistor $R_\text{BIAS}$ can first be determined from the voltage drop across the MMIC. With the known resistance, the current through the circuit can then be calculated. The same current also flows through the MMIC, so that, for example, its thermal power dissipation can be determined from it.
 
-Die folgenden Aufgaben lassen sich daher sehr ähnlich zu den bereits bekannten Schaltungen mit Bipolartransistoren lösen.
+The following questions can therefore be solved in much the same way as the circuits with bipolar transistors that we already know.
 
 [question:AF425]
 [question:AF426]

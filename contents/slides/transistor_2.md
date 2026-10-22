@@ -1,192 +1,192 @@
-## Bipolarer Transistor
+## Bipolar transistor
 
 
-[picture:864:a_bauelemente_bipolartransistor:Schaltbild eines npn- und pnp-Bipolartransistors mit Kollektor (C), Basis (B) und Emitter (E)]
+[picture:864:a_bauelemente_bipolartransistor:Circuit diagram of an npn and a pnp bipolar transistor with collector (C), base (B) and emitter (E)]
 
-* Drei Halbleiterzonen
-* Abwechselnd n- und p-dotiert
-* npn-Transistor und pnp-Transistor
+* Three semiconductor zones
+* Alternately n- and p-doped
+* npn transistor and pnp transistor
 
 ---
 [question:AC503]
 ---
 [question:AC504]
 ---
-### Stromsteuerung und Faktor
+### Current control and factor
 
-* Basis-Emitter-Spannung $U_{\textrm{BE}}$ steuert Kollektorstrom $I_{\textrm{C}}$ exponentiell
-* Beim Bipolartransistor fließt immer ein exponentiell von $U_{\textrm{BE}}$ abhängiger Basisstrom $I_{\textrm{B}}$
-* Faktor $B$ ist der *Stromverstärkungsfaktor* des Transistors
-* Liegt bei ca. 20 bis 500
+* Base-emitter voltage $U_{\textrm{BE}}$ controls collector current $I_{\textrm{C}}$ exponentially
+* In the bipolar transistor a base current $I_{\textrm{B}}$ always flows, depending exponentially on $U_{\textrm{BE}}$
+* Factor $B$ is the *current gain factor* of the transistor
+* Approx. 20 to 500
 
 <fragment>
 $B = \frac{I_{\textrm{C}}}{I_{\textrm{B}}}$
 </fragment>
 
 <note>
-Höherer Faktor benötigt kleineren Basistrom zur Steuerung eines größeren Kollektorstroms
+A higher factor needs a smaller base current to control a larger collector current
 </note>
 ---
 [question:AC501]
 ---
-### Leitender Bipolartransistor
+### Conducting bipolar transistor
 
-* Signifikanter Kollektorstrom fließt
-* Basis-Emitter-Diode in Durchlassrichtung
-* Kollektor-Basis-Diode sperrt, damit keine Ladungsträger aus dem Kollektor in die Basis gelangen
+* A significant collector current flows
+* Base-emitter diode forward-biased
+* Collector-base diode blocks, so that no charge carriers get from the collector into the base
 
 ---
 [question:AC505]
 ---
 [question:AC515]
 ---
-#### Lösungsweg
-* Die Größe von $R_1$ stellt den Basisstrom $I_B$ ein
-* $I_B$ ist um 298 kleiner als $I_C$
-* Für die Spannung an $R_1$ muss der Transistorverlust abgezogen werden
+#### Solution
+* The value of $R_1$ sets the base current $I_B$
+* $I_B$ is smaller than $I_C$ by a factor of 298
+* For the voltage across $R_1$, the voltage lost in the transistor must be subtracted
 
 ---
-* gegeben: $U = \qty{12}{\volt}$
-* gegeben: $I_{\textrm{C}} = \qty{5}{\milli\ampere}$
-* gegeben: $B = 298$
-* gegeben: $U_{\textrm{BE}} = \qty{0,6}{\volt}$
-* gesucht: $R_1$
+* given: $U = \qty{12}{\volt}$
+* given: $I_{\textrm{C}} = \qty{5}{\milli\ampere}$
+* given: $B = 298$
+* given: $U_{\textrm{BE}} = \qty{0.6}{\volt}$
+* required: $R_1$
 
 <fragment>
-$B = \frac{I_{\textrm{C}}}{I_{\textrm{B}}} \Rightarrow I_{\textrm{B}} = \frac{I_{\textrm{C}}}{B} = \frac{\qty{5}{\milli\ampere}}{298} = \qty{16,779}{\micro\ampere}$
+$B = \frac{I_{\textrm{C}}}{I_{\textrm{B}}} \Rightarrow I_{\textrm{B}} = \frac{I_{\textrm{C}}}{B} = \frac{\qty{5}{\milli\ampere}}{298} = \qty{16.779}{\micro\ampere}$
 </fragment>
 <fragment>
-$R_1 = \frac{U-U_{\textrm{BE}}}{I_{\textrm{B}}} = \frac{\qty{12}{\volt} - \qty{0,6}{\volt}}{\qty{16,779}{\micro\ampere}} \approx \qty{680}{\kilo\ohm}$
+$R_1 = \frac{U-U_{\textrm{BE}}}{I_{\textrm{B}}} = \frac{\qty{12}{\volt} - \qty{0.6}{\volt}}{\qty{16.779}{\micro\ampere}} \approx \qty{680}{\kilo\ohm}$
 </fragment>
 
 <note>
-Nachteil der Schaltung ist eine schlecht kontrollierte Stromverstärkung
+The disadvantage of the circuit is its poorly controlled current gain
 </note>
 ---
 [question:AC518]
 ---
-### Arbeitspunktstabilisation
+### Stabilising the operating point
 
 <left>
-[picture:361:a_bauteile_arbeitspunkteinstellung:Transistorschaltung mit Basisspannungsteiler]
+[picture:361:a_bauteile_arbeitspunkteinstellung:Transistor circuit with base potential divider]
 </left>
 <right>
-* Arbeitspunkt wird über den Spannungsteiler eingestellt
-* Querstrom durch $R_2$ soll so hoch sein, damit der Basisstrom keinen großen Einfluss auf den Arbeitspunkt hat
+* The operating point is set by the potential divider
+* The divider current through $R_2$ should be high enough that the base current has little influence on the operating point
 </right>
 <note>
-Kollektorstrom hängt exponentiell von der Basis-Emitter-Spannung ab; Toleranz der Widerstände kann große Auswirkungen auf den Kollektorstrom haben. Starke Temperaturabhängigkeit im Transistor kann Kollektorstrom beeinflussen.
+The collector current depends exponentially on the base-emitter voltage; the tolerance of the resistors can have a large effect on the collector current. The strong temperature dependence in the transistor can affect the collector current.
 </note>
 
 ---
 [question:AC516]
 
 --- style="font-size: smaller;"
-#### Lösungsweg
+#### Solution
 <left>
-* gegeben: $U = \qty{10}{\volt}$
-* gegeben: $I_{\textrm{C}} = \qty{2}{\milli\ampere}$
-* gegeben: $B = 200$
+* given: $U = \qty{10}{\volt}$
+* given: $I_{\textrm{C}} = \qty{2}{\milli\ampere}$
+* given: $B = 200$
 </left>
 <right>
-* gegeben: $U_{\textrm{R2}} = \qty{0,6}{\volt}$
-* gegeben: $I_{\textrm{R2}} = 10 \cdot I_{\textrm{B}}$
-* gesucht: $R_1$
+* given: $U_{\textrm{R2}} = \qty{0.6}{\volt}$
+* given: $I_{\textrm{R2}} = 10 \cdot I_{\textrm{B}}$
+* required: $R_1$
 </right>
 
 <fragment>
 $B = \frac{I_{\textrm{C}}}{I_{\textrm{B}}} \Rightarrow I_{\textrm{B}} = \frac{I_{\textrm{C}}}{B} = \frac{\qty{2}{\milli\ampere}}{200} = \qty{10}{\micro\ampere}$
 </fragment>
 <fragment>
-$U_{\textrm{R1}} = U - U_{\textrm{R2}} = \qty{10}{\volt} - \qty{0,6}{\volt} = \qty{9,4}{\volt}$
+$U_{\textrm{R1}} = U - U_{\textrm{R2}} = \qty{10}{\volt} - \qty{0.6}{\volt} = \qty{9.4}{\volt}$
 </fragment>
 <fragment>
 $I_{\textrm{R1}} = I_{\textrm{B}} + I_{\textrm{R2}} = I_{\textrm{B}} + 10 \cdot I_{\textrm{B}} = \qty{110}{\micro\ampere}$
 </fragment>
 <fragment>
-$R_1 = \frac{U_{\textrm{R1}}}{I_{\textrm{R1}}} = \frac{\qty{9,4}{\volt}}{\qty{110}{\micro\ampere}} \approx \qty{85,5}{\kilo\ohm}$
+$R_1 = \frac{U_{\textrm{R1}}}{I_{\textrm{R1}}} = \frac{\qty{9.4}{\volt}}{\qty{110}{\micro\ampere}} \approx \qty{85.5}{\kilo\ohm}$
 </fragment>
 
 ---
 [question:AC517]
 ---
-#### Lösungsweg
+#### Solution
 
-* $U_{\textrm{R2}}$ ist gleich groß wie $U_{\textrm{BE}} + U_{\textrm{RE}}$
-* Kollektorstrom wird vor allem durch $R_{\textrm{E}}$ festgelegt
-* Sehr stabile Schaltung
+* $U_{\textrm{R2}}$ is equal to $U_{\textrm{BE}} + U_{\textrm{RE}}$
+* The collector current is determined mainly by $R_{\textrm{E}}$
+* Very stable circuit
 
 --- style="font-size: smaller;"
 <left>
-* gegeben: $U = \qty{10}{\volt}$
-* gegeben: $I_{\textrm{C}} = \qty{2}{\milli\ampere}$
-* gegeben: $B = 200$
+* given: $U = \qty{10}{\volt}$
+* given: $I_{\textrm{C}} = \qty{2}{\milli\ampere}$
+* given: $B = 200$
 </left>
 <right>
-* gegeben: $U_{\textrm{BE}} = \qty{0,6}{\volt}$
-* gegeben: $U_{\textrm{RE}} = \qty{1}{\volt}$
-* gegeben: $I_{\textrm{R2}} = 10 \cdot I_{\textrm{B}}$
+* given: $U_{\textrm{BE}} = \qty{0.6}{\volt}$
+* given: $U_{\textrm{RE}} = \qty{1}{\volt}$
+* given: $I_{\textrm{R2}} = 10 \cdot I_{\textrm{B}}$
 </right>
-* gesucht: $R_1$
+* required: $R_1$
 
 <fragment>
 $B = \frac{I_{\textrm{C}}}{I_{\textrm{B}}} \Rightarrow I_{\textrm{B}} = \frac{I_{\textrm{C}}}{B} = \frac{\qty{2}{\milli\ampere}}{200} = \qty{10}{\micro\ampere}$
 </fragment>
 <fragment>
-$U_{\textrm{R2}} = U_{\textrm{BE}} + U_{R_{\textrm{E}}} = \qty{0,6}{\volt} + \qty{1}{\volt} = \qty{1,6}{\volt}$
+$U_{\textrm{R2}} = U_{\textrm{BE}} + U_{R_{\textrm{E}}} = \qty{0.6}{\volt} + \qty{1}{\volt} = \qty{1.6}{\volt}$
 </fragment>
 <fragment>
-$U_{\textrm{R1}} = U - U_{\textrm{R2}} = \qty{10}{\volt} - \qty{1,6}{\volt} = \qty{8,4}{\volt}$
+$U_{\textrm{R1}} = U - U_{\textrm{R2}} = \qty{10}{\volt} - \qty{1.6}{\volt} = \qty{8.4}{\volt}$
 </fragment>
 <fragment>
 $I_{\textrm{R1}} = I_{\textrm{B}} + I_{\textrm{R2}} = I_{\textrm{B}} + 10 \cdot I_{\textrm{B}} = \qty{110}{\micro\ampere}$
 </fragment>
 <fragment>
-$R_1 = \frac{U_{\textrm{R1}}}{I_{\textrm{R1}}} = \frac{\qty{8,4}{\volt}}{\qty{110}{\micro\ampere}} \approx \qty{76,4}{\kilo\ohm}$
+$R_1 = \frac{U_{\textrm{R1}}}{I_{\textrm{R1}}} = \frac{\qty{8.4}{\volt}}{\qty{110}{\micro\ampere}} \approx \qty{76.4}{\kilo\ohm}$
 </fragment>
 
 ---
 [question:AC519]
 ---
-#### Lösungsweg
+#### Solution
 
-* Kein Strom durch $R_1 \rightarrow$ keine Spannung über $R_2$
-* Basis liegt auf Massepotential $\rightarrow$ Transistor ist stromlos
-* Kein Spannungsabfall an $R_{\textrm{C}} \rightarrow$ Kollektorpotential steigt auf Betriebsspannung
+* No current through $R_1 \rightarrow$ no voltage across $R_2$
+* Base is at chassis potential $\rightarrow$ no current flows through the transistor
+* No voltage drop across $R_{\textrm{C}} \rightarrow$ collector potential rises to the operating voltage
 
 ---
 [question:AC520]
 ---
-#### Lösungsweg
+#### Solution
 
-* $R_2$ ist stromlos $\rightarrow$ Basis ist über $R_1$ ist mit der Betriebsspannung verbunden
-* Aufgrund der Dimensionierung ist der Basisstrom nun 11-fach höher als geplant
-* Kollektorstrom wird stark ansteigen $\rightarrow$ Spannungsabfall an $R_{\textrm{C}}$ steigt stark
-* $U_{\textrm{CE}}$ sinkt auf den Sättigungswert von ca. $\qty{0,1}{\volt}$
+* $R_2$ carries no current $\rightarrow$ the base is connected to the operating voltage through $R_1$
+* Because of the dimensioning, the base current is now 11 times higher than intended
+* The collector current will rise sharply $\rightarrow$ the voltage drop across $R_{\textrm{C}}$ rises sharply
+* $U_{\textrm{CE}}$ falls to the saturation value of approx. $\qty{0.1}{\volt}$
 
 ---
-## Feldeffekttransistor (FET)
+## Field-effect transistor (FET)
 
-[picture:271:a_bauelemente_fet:Schaltbilder für Feldeffekttransistoren]
+[picture:271:a_bauelemente_fet:Circuit diagrams of field-effect transistors]
 
-* Anderer Aufbau
-* Es besteht ein Halbleiterkanal
-* Der Stromfluss wird über ein elektrisches Feld gesteuert
-* Dadurch spannungsgesteuert
+* Different construction
+* There is a semiconductor channel
+* The current flow is controlled by an electric field
+* Hence voltage-controlled
 
 <note>
-Senkrechte Linie symbolisiert den Kanal, die Drain (oben) und Source (unten) kontaktiert; links ist das Gate und der Pfeil erinnert an eine Diode
+The vertical line represents the channel, contacted by the drain (top) and the source (bottom); the gate is on the left, and the arrow is reminiscent of a diode
 </note>
 ---
 [question:AC502]
 ---
 [question:AC506]
 ---
-### Anschlüsse des FET
+### Terminals of the FET
 
-* *Source* Quelle für die Ladungsträger im Kanal
-* *Drain* Abfluss der Ladungsträger im Kanal
-* *Gate* steuert den Fluss der Ladungsträger im Kanal
+* *Source*: source of the charge carriers in the channel
+* *Drain*: outflow of the charge carriers in the channel
+* *Gate*: controls the flow of charge carriers in the channel
 
 ---
 [question:AC513]
@@ -196,32 +196,32 @@ Senkrechte Linie symbolisiert den Kanal, die Drain (oben) und Source (unten) kon
 [question:AC514]
 
 <note>
-Besser wäre: steuert den Kanalstrom statt Widerstand, da dieses Widerstand-Verhalten nur bei kleinen Drain-Source-Spannungen auftritt
+Better: controls the channel current rather than the resistance, as this resistive behaviour only occurs at small drain-source voltages
 </note>
 ---
-### Bauarten FET
+### Types of FET
 
-* *selbstleitend*: Ohne Gate-Source-Spannung ist der FET leitend
-* *selbstsperrend*: Ohne Gate-Source-Spannung ist der FET sperrend
-* *n-Kanal-FET*: Strom im Kanal wird von Elektronen getragen
-* *p-Kanal-FET*: Strom im Kanal wird von Löchern getragen
-* *Sperrschicht-FET*: Gate ist eine Diode
-* *Isolierschicht-FET*: Gate ist eine Kondensator-Struktur (z.B. MOSFET)
+* *depletion-mode*: with no gate-source voltage the FET conducts
+* *enhancement-mode*: with no gate-source voltage the FET is off
+* *n-channel FET*: the current in the channel is carried by electrons
+* *p-channel FET*: the current in the channel is carried by holes
+* *junction FET*: the gate is a diode
+* *insulated-gate FET*: the gate is a capacitor structure (e.g. MOSFET)
 
 <note>
-MOSFET: metal oxide semiconductor FET
+MOSFET: metal-oxide-semiconductor FET
 </note>
 ---
-### Schaltzeichen FET
+### FET circuit symbols
 
 <left>
-[picture:273:a_bauelemente_selbstleitender_p_kanal_mosfet:Selbstleitender p-Kanal MOSFET]
-[picture:276:a_bauelemente_selbstsperrender_n_kanal_mosfet:Selbstsperrender n-Kanal MOSFET]
+[picture:273:a_bauelemente_selbstleitender_p_kanal_mosfet:Depletion-mode p-channel MOSFET]
+[picture:276:a_bauelemente_selbstsperrender_n_kanal_mosfet:Enhancement-mode n-channel MOSFET]
 </left>
 <right>
-* *selbstleitend*/*selbstsperrend*: Gate durchgehend/gestrichelt
-* *p-*/*n-Kanal*: Pfeil zeigt weg vom/hin zum Kanal
-* *Isolierschicht* (MOSFET): Gate und Kanal als Kondensator
+* *depletion-mode*/*enhancement-mode*: gate continuous/dashed
+* *p-*/*n-channel*: arrow points away from/towards the channel
+* *insulated gate* (MOSFET): gate and channel as a capacitor
 </right>
 
 ---
@@ -237,15 +237,15 @@ MOSFET: metal oxide semiconductor FET
 ---
 [question:AC521]
 ---
-#### Lösungsweg
+#### Solution
 
 <left>
-* gegeben: $U_{\textrm{B}} = \qty{44}{\volt}$
-* gegeben: $R_1 = \qty{10}{\kilo\ohm}$
-* gegeben: $R_2 = \qty{1}{\kilo\ohm}$
-* gegeben: $R_3 = \qty{2,2}{\kilo\ohm}$
-* gesucht: $U_{\textrm{GS}}$
-* Ansatz: Unbelasteter Spannungsteiler über $R_1$ und $R_2$, mit $U_{\textrm{GS}} = U_{\textrm{R2}}$
+* given: $U_{\textrm{B}} = \qty{44}{\volt}$
+* given: $R_1 = \qty{10}{\kilo\ohm}$
+* given: $R_2 = \qty{1}{\kilo\ohm}$
+* given: $R_3 = \qty{2.2}{\kilo\ohm}$
+* required: $U_{\textrm{GS}}$
+* Approach: unloaded potential divider across $R_1$ and $R_2$, with $U_{\textrm{GS}} = U_{\textrm{R2}}$
 </left>
 <right>
 <fragment>
@@ -256,47 +256,47 @@ $\begin{split} \frac{U_{\textrm{R2}}}{U_{\textrm{B}}} &= \frac{R_2}{R_1+R_2}\\ \
 ---
 [question:AC522]
 ---
-#### Lösungsweg
+#### Solution
 
 <left>
-* gegeben: $U_{\textrm{B}} = \qty{44}{\volt}$
-* gegeben: $R_1 = \qty{10}{\kilo\ohm}$
-* gegeben: $R_3 = \qty{2,2}{\kilo\ohm}$
-* gegeben: $U_{\textrm{GS}} = U_{\textrm{R2}} = \qty{2,8}{\volt}$
-* gegeben: $U_{\textrm{B}} = U_{\textrm{R1}} + U_{\textrm{R2}}$
-* gesucht: $R_2$
+* given: $U_{\textrm{B}} = \qty{44}{\volt}$
+* given: $R_1 = \qty{10}{\kilo\ohm}$
+* given: $R_3 = \qty{2.2}{\kilo\ohm}$
+* given: $U_{\textrm{GS}} = U_{\textrm{R2}} = \qty{2.8}{\volt}$
+* given: $U_{\textrm{B}} = U_{\textrm{R1}} + U_{\textrm{R2}}$
+* required: $R_2$
 </left>
 <right>
 <fragment>
-$\begin{split} \frac{U_{\textrm{R1}}}{U_{\textrm{R2}}} &= \frac{R_1}{R_2}\\ \Rightarrow R_2 &= R_1 \cdot \frac{U_{\textrm{R2}}}{U_{\textrm{R1}}}\\ &= R_1 \cdot \frac{U_{\textrm{R2}}}{U_{\textrm{B}}-U_{\textrm{GS}}}\\ &= \qty{10}{\kilo\ohm} \cdot \frac{\qty{2,8}{\volt}}{\qty{44}{\volt}-\qty{2,8}{\volt}}\\ &\approx \qty{680}{\ohm} \end{split}$
+$\begin{split} \frac{U_{\textrm{R1}}}{U_{\textrm{R2}}} &= \frac{R_1}{R_2}\\ \Rightarrow R_2 &= R_1 \cdot \frac{U_{\textrm{R2}}}{U_{\textrm{R1}}}\\ &= R_1 \cdot \frac{U_{\textrm{R2}}}{U_{\textrm{B}}-U_{\textrm{GS}}}\\ &= \qty{10}{\kilo\ohm} \cdot \frac{\qty{2.8}{\volt}}{\qty{44}{\volt}-\qty{2.8}{\volt}}\\ &\approx \qty{680}{\ohm} \end{split}$
 </fragment>
 </right>
 ---
 [question:AC523]
 ---
-#### Lösungsweg
+#### Solution
 
-* gegeben: $R_{\textrm{DSon}} = \qty{4}{\milli\ohm}$
-* gegeben: $I = \qty{25}{\ampere}$
-* gesucht: $P$
+* given: $R_{\textrm{DSon}} = \qty{4}{\milli\ohm}$
+* given: $I = \qty{25}{\ampere}$
+* required: $P$
 
 <fragment>
-$P = I^2 \cdot R = (\qty{25}{\ampere})^2 \cdot \qty{4}{\milli\ohm} = \qty{2,5}{\watt}$
+$P = I^2 \cdot R = (\qty{25}{\ampere})^2 \cdot \qty{4}{\milli\ohm} = \qty{2.5}{\watt}$
 </fragment>
 
 <note>
-MOSFET verhält sich wie ein ohmscher Widerstand
+The MOSFET behaves like an ohmic resistance
 </note>
 
 ---
-### Freilaufdiode
+### Freewheeling diode
 
-* Relais wird über einen in Serie geschalteten Bipolartransistor betrieben
-* Transistor schaltet ein $\rightarrow$ Strom fließt durch die Relaisspule
-* Transistor schaltet ab $\rightarrow$ Strom in der Spule induziert negative Spannung am Transistor
-* Kann zur Zerstörung des Transistors führen
-* Verhindern: *Freilaufdiode* parallel zum Relais in Sperrichtung verbauen
-* Induktionsspannung wird auf Diodenspannung begrenzt
+* The relay is driven through a bipolar transistor connected in series
+* Transistor switches on $\rightarrow$ current flows through the relay coil
+* Transistor switches off $\rightarrow$ the current in the coil induces a negative voltage at the transistor
+* This can destroy the transistor
+* Prevention: fit a *freewheeling diode* in parallel with the relay, in the reverse direction
+* The induced voltage is limited to the diode voltage
 
 ---
 [question:AC524]

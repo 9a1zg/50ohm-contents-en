@@ -1,21 +1,21 @@
-Ein altes Funkersprichwort sagt, dass der beste Hochfrequenzverstärker die Antenne ist. In den ersten Jahren der Funktechnik war sie der einzige "Verstärker", verstärkende Elektronik gab es nicht. 1907 kam dann die Elektronenröhre - ein sehr erfolgreiches Bauelement, aber doch recht groß und wenig effizient. Bereits seit den zwanziger Jahren träumte die Wissenschaft von Bauelementen ähnlicher Funktion, bei der aber alles im Inneren eines Festkörpers (Halbleiters) abläuft, nicht im Vakuum. Das erste Bauelement, bei dem das auch praktisch gelang, war 1947/1948 der *Bipolartransistor*, der auch ganz überwiegend Gegenstand der Prüfungsfragen der Klasse-E-Prüfung ist.
+An old radio operators' saying has it that the best RF amplifier is the antenna. In the first years of radio it was the only "amplifier": there were no amplifying electronics. Then, in 1907, came the thermionic valve – a very successful component, but rather large and not very efficient. From the twenties onwards, scientists dreamt of components with a similar function in which everything happens inside a solid (a semiconductor) rather than in a vacuum. The first component with which this was achieved in practice was the *bipolar transistor*, in 1947/1948, which is also by far the main subject of the questions in the Class E examination.
 
 [question:EC602]
 
 <indepth>
-Der *Bipolartransistor* wird im Englischen auch BJT: Bipolar Junction Transistor, dt. bipolarer Sperrschicht-Transistor genannt.
+The *bipolar transistor* is also called a BJT, short for bipolar junction transistor.
 </indepth>
 
-Die ideale Funktion aller Transistortypen, und auch der Elektronenröhre, ist die einer *spannungsgesteuerten Stromquelle*: mit einer möglichst kleinen Spannungsänderung am Eingang soll eine möglichst große Stromänderung am Ausgang bewirkt werden.
+The ideal function of all types of transistor, and of the valve too, is that of a *voltage-controlled current source*: the smallest possible change in voltage at the input is to produce the largest possible change in current at the output.
 
-Der Bipolartransistor hat drei Anschlüsse, die Emitter, Basis und Kollektor genannt werden. Der Emitter sendet Ladungsträger in die Basis - beim NPN-Bipolartransistor sind das *Elektronen*, beim PNP-Bipolartransistor Defektelektronen, auch *Löcher* genannt. Die Physik hinter diesen Begriffen werden wir erst in der Ausbildung für die Klasse A besprechen. Diese Ladungsträger durchqueren die Basis und werden vom Kollektor wieder aufgesammelt. 
+The bipolar transistor has three terminals, called the emitter, base and collector. The emitter emits charge carriers into the base – in the NPN bipolar transistor these are *electrons*, in the PNP bipolar transistor electron vacancies, also called *holes*. We will not discuss the physics behind these terms until the Class A course. These charge carriers cross the base and are collected again by the collector. 
 
 ---
 
-Die Abbildung [ref:e_npn_pnp_symbol] zeigt die Schaltzeichen von NPN- und PNP-Transistoren. Die Emitterelektrode erkennen wir an einem Pfeil, der beim PNP-Transistor zur Basis hin und beim NPN-Transistor von der Basis weg zeigt. 
+Figure [ref:e_npn_pnp_symbol] shows the circuit symbols of NPN and PNP transistors. We recognise the emitter electrode by an arrow, which points towards the base in the PNP transistor and away from the base in the NPN transistor. 
 
 <margin>
-[picture:864:e_npn_pnp_symbol:Symbole NPN und PNP Transistor]
+[picture:864:e_npn_pnp_symbol:Symbols of NPN and PNP transistors]
 </margin>
 
 [question:EC605]
@@ -26,14 +26,14 @@ Die Abbildung [ref:e_npn_pnp_symbol] zeigt die Schaltzeichen von NPN- und PNP-Tr
 
 ---
 
-Bipolartransistoren sind aus zwei Dioden zusammengesetzt - der Emitter-Basis- und Basis-Kollektor-Diode.
-Im aktiven Betrieb ist die Emitter-Basis-Diode stets in Flussrichtung geschaltet. Beim NPN-Transistor muss dabei das Potential an der Basis positiver sein als das des Emitters, beim PNP-Transistor negativer. Die Basis-Kollektor-Diode ist in Sperrrichtung gepolt. Dazu ist das Kollektorpotential beim NPN-Transistor positiver als die Basis zu wählen, beim PNP-Transistor negativer.
+Bipolar transistors are made up of two diodes – the emitter-base diode and the base-collector diode.
+In active operation, the emitter-base diode is always forward-biased. In the NPN transistor the potential at the base must be more positive than that of the emitter, in the PNP transistor more negative. The base-collector diode is reverse-biased. To achieve this, the collector potential is chosen more positive than the base in the NPN transistor, and more negative in the PNP transistor.
 
 <tip>
-Die Transistorfunktion stellt sich aber nur ein, wenn die Basiszone zwischen Emitter und Kollektor maximal wenige Mikrometer breit ist. Also können wir keinen Transistor erzeugen, indem wir zwei separate Dioden aneinander löten.
+However, the transistor only works if the base zone between emitter and collector is no more than a few micrometres wide. So we cannot make a transistor by soldering two separate diodes together.
 </tip>
 
-Die minimale Spannung am Emitter-Basis-Übergang hängt vom verwendeten Halbleiter ab. Bei einem Silizium-NPN-Transistor muss die Basis etwa $\qty{0,6}{\volt}$ positiver als der Emitter sein, beim Silizium-PNP-Transistor etwa $\qty{0,6}{\volt}$ negativer. Diese Spannung wird als Basis-Emitter-Spannung $U_\mathrm{BE}$ bezeichnet.
+The minimum voltage at the emitter-base junction depends on the semiconductor used. In a silicon NPN transistor the base must be about $\qty{0.6}{\volt}$ more positive than the emitter, in a silicon PNP transistor about $\qty{0.6}{\volt}$ more negative. This voltage is called the base-emitter voltage $U_\mathrm{BE}$.
 
 [question:EC610]
 [question:EC612]
@@ -44,63 +44,63 @@ Die minimale Spannung am Emitter-Basis-Übergang hängt vom verwendeten Halbleit
 ---
 
 <margin>
-[picture:863:e_npn_i_u:Ströme und Spannungen an einem NPN-Transistor]
+[picture:863:e_npn_i_u:Currents and voltages in an NPN transistor]
 </margin>
 
 ---
 
-Die Ströme und Spannungen an einem NPN-Transistor sind in der Abbildung [ref:e_npn_i_u] dargestellt. Die Basis-Emitter-Spannung $U_\mathrm{BE}$ kennen wir bereits. Ebenso gibt es noch die Kollektor-Basis-Spannung $U_\mathrm{CB}$ und die Kollektor-Emitter-Spannung $U_\mathrm{CE}$. Der Kollektorstrom $I_\mathrm{C}$ hängt exponentiell von der Basis-Emitter-Spannung ab:
+The currents and voltages in an NPN transistor are shown in Figure [ref:e_npn_i_u]. We already know the base-emitter voltage $U_\mathrm{BE}$. There are also the collector-base voltage $U_\mathrm{CB}$ and the collector-emitter voltage $U_\mathrm{CE}$. The collector current $I_\mathrm{C}$ depends exponentially on the base-emitter voltage:
 
 $I_\mathrm{C} = I_\mathrm{S}\ e^{\frac{U_\mathrm{BE}}{U_\mathrm{T}}}$
 
-$U_\mathrm{T}$ ist bei Raumtemperatur etwa $\qty{26}{\milli\volt}$.
+At room temperature, $U_\mathrm{T}$ is about $\qty{26}{\milli\volt}$.
 
 <indepth>
-$I_\mathrm{S}$ bezeichnet den sogenannten Sättigungs-Sperrstrom eines Bipolartransistors. Er ist ein charakteristischer Bauteilparameter und steht in engem Zusammenhang mit der Emitter-Basis-Diode. Dabei handelt es sich um einen sehr kleinen Leckstrom, der auch dann durch den Transistor fließt, wenn die Basis-Emitter-Strecke nicht leitend ist.
+$I_\mathrm{S}$ is the so-called reverse saturation current of a bipolar transistor. It is a characteristic parameter of the component and is closely related to the emitter-base diode. It is a very small leakage current that flows through the transistor even when the base-emitter path is not conducting.
 </indepth>
 
-Der Basisstrom $I_\mathrm{B}$ hat in weiten Betriebsbereichen die gleiche Spannungsabhängig wie der Kollektorstrom, sodass das Verhältnis von Kollektorstrom und Basisstrom konstant ist:
+Over wide operating ranges, the base current $I_\mathrm{B}$ has the same voltage dependence as the collector current, so that the ratio of collector current to base current is constant:
 
 $\frac{I_\mathrm{C}}{I_\mathrm{B}} = B$
 
-*$B$* ist die Stromverstärkung (genau genommen die Stromverstärkung in Emitterschaltung). Es ist oft praktischer, sich den Transistor als ein stromgesteuertes Bauelement vorzustellen, auch wenn das physikalisch nicht so ist. Die Stromverstärkung beträgt in praktischen Transistoren $50 \dots 350$.
+*$B$* is the current gain (strictly speaking, the current gain in the common-emitter circuit). It is often more practical to think of the transistor as a current-controlled component, even though physically it is not. In practical transistors the current gain is $50 \dots 350$.
 
 <tip>
-Für die Stromsteuerung des Bipolartransistors gibt es eine uralte Analogie, bei der ein großer und ein kleiner Wasserkanal, ein Wehr im großen Kanal und eine Steuerklappe eine Rolle spielen. Die Älteren unter uns kennen das vielleicht noch aus dem "Kleinen Radiomann" des Kosmos-Verlags ...
+There is an age-old analogy for the current control of the bipolar transistor, involving a large and a small water channel, a weir in the large channel and a control flap. Older readers may still remember it from the "Kleiner Radiomann" (little radio man) kit published by Kosmos ...
   
-[picture:835:e_transistor_wehr_geschlossen:Steuerkanal schließt Wehr komplett]
+[picture:835:e_transistor_wehr_geschlossen:Control channel closes the weir completely]
   
-Zunächst fließt kein Wasser im kleinen Kanal. Das Wehr im großen Kanal ist geschlossen, daher fließt dort auch kein Wasser.
+At first, no water flows in the small channel. The weir in the large channel is closed, so no water flows there either.
   
-[picture:837:e_transistor_wehr_halb_offen:Steuerkanal öffnet Wehr halb]
+[picture:837:e_transistor_wehr_halb_offen:Control channel opens the weir halfway]
 
-Dann beginnt Wasser im kleinen Kanal zu fließen, dem Steuerkanal. Das Wasser hebt die Klappe an, die wiederum das Wehr betätigt - auch im Hauptkanal beginnt, Wasser zu fließen.
+Then water starts to flow in the small channel, the control channel. The water lifts the flap, which in turn operates the weir – water starts to flow in the main channel too.
   
-[picture:836:e_transistor_wehr_geoeffnet:Steuerkanal öffnet Wehr komplett]
+[picture:836:e_transistor_wehr_geoeffnet:Control channel opens the weir completely]
 
-Jetzt fließt mehr Wasser im Steuerkanal, die Klappe wird weiter angehoben, das Wehr im Hauptkanal öffnet komplett.
+Now more water flows in the control channel, the flap is lifted further, and the weir in the main channel opens completely.
 </tip>
 
 [question:EC603]
 
-Der Emitterstrom $I_E$ ist die Summe aus Kollektorstrom und Basisstrom:
+The emitter current $I_E$ is the sum of the collector current and the base current:
 
 $I_\mathrm{E} = I_\mathrm{C} + I_\mathrm{B}$
 
 [question:EC611]
 
-Der Spannungsarbeitspunkt von Transistoren wird meist über die Kollektor-Emitter-Spannung angegeben:
+The voltage at a transistor's operating point is usually given as the collector-emitter voltage:
 
 $U_\mathrm{CE} = U_\mathrm{CB} + U_\mathrm{BE}$
 
-Neben den hier überwiegend behandelten Bipolartransistoren gibt es vor allem auch *Feldeffekttransistoren*, die physikalisch anders funktionieren, aber nach außen die selbe Grundfunktion (spannungsgesteuerte Stromquelle) haben. In Form der MOSFETs beherrschen sie unsere Elektronik, denn sie sind millionen- bis milliardenfach in den integrierten Schaltkreisen der Digitalelektronik enthalten.
+Besides the bipolar transistors that we mainly cover here, there are above all *field-effect transistors*, which work differently physically but from the outside have the same basic function (voltage-controlled current source). In the form of MOSFETs they dominate our electronics, as the integrated circuits of digital electronics contain millions to billions of them.
 
 <indepth>
-MOSFET steht für *metal-oxide-semiconductor field effect transistor*, dt. Metall-Oxid-Halbleiter-Feldeffekttransistor
+MOSFET stands for *metal-oxide-semiconductor field-effect transistor*.
 </indepth>
 
 [question:EC604]
 
-Transistoren können nicht nur als Verstärker, sondern auch als (Strom-)Schalter (Strom an/aus) oder auch, bei kleinen Spannungen am Ausgang, als steuerbarer Widerstand eingesetzt werden. Die letzte Funktion wird vor allem mit Feldeffekttransistoren umgesetzt.
+Transistors can be used not only as amplifiers, but also as (current) switches (current on/off) or, at low voltages at the output, as controllable resistors. The last function is implemented mainly with field-effect transistors.
 
 [question:EC601]

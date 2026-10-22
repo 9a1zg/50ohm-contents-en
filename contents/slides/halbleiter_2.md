@@ -1,35 +1,35 @@
-## Halbleiter
+## Semiconductors
 
 <left>
-* Bestehen aus einer Gitterstruktur
-* 4 geteilte Elektronen auf der äußeren Schale
-* Sind eigentlich Isolatoren
-* Können durch Temperaturanstieg, Licht oder Dotierung zu Leitern werden
+* Consist of a lattice structure
+* 4 shared electrons in the outer shell
+* Are actually insulators
+* Can become conductors through a rise in temperature, light or doping
 </left>
 <right>
-[picture:854:a_silizium_halbleiter:Silizium Halbleiterkristall]
+[picture:854:a_silizium_halbleiter:Silicon semiconductor crystal]
 </right>
 <note>
-Häufige Halbleitergrundstoffe: Silizium (Si), Germanium (Ge), Galliumarsenid (GaAs), Indiumphosphid (InP), Zinkoxid (ZnO)
+Common base semiconductor materials: silicon (Si), germanium (Ge), gallium arsenide (GaAs), indium phosphide (InP), zinc oxide (ZnO)
 </note>
 ---
 [question:AB104]
 ---
-## Dotierung
+## Doping
 
-* "Verunreinigung" der Halbleiter
-* Stoffe mit 5 Elektronen auf der äußeren Schale $\rightarrow$ Elektronenüberschuss $\rightarrow$ *n-Dotierung*
-* Stoffe mit 3 Elektronen auf der äußeren Schale $\rightarrow$ Elektronenmangel ("Loch") $\rightarrow$ *p-Dotierung*
+* "Contamination" of the semiconductor
+* Substances with 5 electrons in the outer shell $\rightarrow$ excess of electrons $\rightarrow$ *n-type doping*
+* Substances with 3 electrons in the outer shell $\rightarrow$ deficiency of electrons ("hole") $\rightarrow$ *p-type doping*
 
 ---
 <left>
-[picture:855:a_n_dotierung:n-Dotierung mit Phosphor]
+[picture:855:a_n_dotierung:n-type doping with phosphorus]
 </left>
 <right>
-[picture:856:a_p_dotierung:p-Dotierung mit Bor]
+[picture:856:a_p_dotierung:p-type doping with boron]
 </right>
 <note>
-Löcher sind eigentlich nicht beweglich, aber durch den Elektronenfluss sieht es so aus, als ob sie sich bewegen würden
+Holes do not actually move, but because of the flow of electrons it looks as if they were moving
 </note>
 ---
 [question:AB105]
@@ -38,44 +38,44 @@ Löcher sind eigentlich nicht beweglich, aber durch den Elektronenfluss sieht es
 ---
 [question:AB107]
 --- style="font-size: 0.7em;"
-## Kombination
+## Combination
 
 <left>
-[picture:857:a_pn_uebergang:PN-Übergang]
-* n-dotierter Halbleiter an p-dotieren Halbleiter
-* Elektronen aus dem n-dotieren Gebiet wandern in das p-dotierte Gebiet $\rightarrow$ *Diffusion*
+[picture:857:a_pn_uebergang:PN junction]
+* n-doped semiconductor joined to p-doped semiconductor
+* Electrons from the n-doped region migrate into the p-doped region $\rightarrow$ *diffusion*
 </left>
 <right>
-* Es entsteht eine *Verarmungszone* oder *Sperrschicht*
-* Über der *Sperrschicht* liegt ein elektrisches Feld
-* Austausch stoppt, sobald das elektrische Feld für die Elektronen zu stark ist
+* A *depletion region* or *depletion layer* forms
+* There is an electric field across the *depletion layer*
+* The exchange stops as soon as the electric field becomes too strong for the electrons
 </right>
 
 --- style="font-size: smaller;"
 [question:AB108]
 --- style="font-size: 0.7em;"
-## pn-Diode in Durchlassrichtung
+## pn diode in the forward direction
 
 <left>
-[picture:956:a_pn_uebergang_mit_spannung:PN-Übergang mit externer Spannung]
-* Anlegen einer Spannung am p-Gebiet (*Anode*)
-* Spannung muss positiver als am n-Gebiet (*Kathode*) sein
+[picture:956:a_pn_uebergang_mit_spannung:PN junction with external voltage]
+* A voltage is applied to the p-region (*anode*)
+* The voltage must be more positive than at the n-region (*cathode*)
 </left>
 <right>
-* Spannung zieht Elektronen über die Sperrschicht hinweg
-* Sperrschicht wird abgebaut und ein Strom fließt in *Durchlassrichtung*
+* The voltage pulls electrons across the depletion layer
+* The depletion layer is broken down and a current flows in the *forward direction*
 </right>
 ---
 [question:AC402]
 ---
-### pn-Diode im Sperrbetrieb
+### pn diode reverse-biased
 <left>
-[picture:957:a_pn_uebergang_mit_spannung:PN-Übergang mit externer Spannung]
-* Positive Spannung an der Kathode
+[picture:957:a_pn_uebergang_mit_spannung:PN junction with external voltage]
+* Positive voltage at the cathode
 </left>
 <right>
-* Sperrschicht vergrößert sich
-* Stromfluß stoppt und die Diode sperrt
+* The depletion layer grows
+* The current flow stops and the diode blocks
 </right>
 ---
 [question:AB109]

@@ -1,47 +1,47 @@
-## Durchlassrichtung
+## Forward direction
 
-* Elektronenfluss von N nach P
-* Technische Stromrichtung ist entgegengesetzt zur Richtung des Elektronenflusses
+* Electron flow from N to P
+* Conventional current flow is in the opposite direction to the flow of electrons
 
 ---
 [question:AC401]
 ---
-## Temperatur
+## Temperature
 
-* Bei höherer Temperatur gibt es mehr freie Elektronen
-* Der Sättigungsstrom steigt mit steigender Temperatur
-* Aber die Beweglichkeit ändert sich
-* Dadurch sinkt die Durchlassspannung (mit ca. $\qty{-2}{\milli\volt\per\kelvin}$)
+* At higher temperatures there are more free electrons
+* The saturation current rises as the temperature rises
+* But the mobility changes
+* As a result, the forward voltage falls (by approx. $\qty{-2}{\milli\volt\per\kelvin}$)
 
 ---
 [question:AC403]
 ---
-## Kapazitätsdiode (Varicap)
+## Varactor diode (varicap)
 
 <left>
-* Kapazitätsdiode nutzt die Kapazität über der Raumladungszone
-* Es darf kein Gleichstrom fließen
-* Wird in Sperrrichtung betrieben
+* A varactor diode uses the capacitance across the space-charge region
+* No direct current may flow
+* Operated in the reverse direction
 </left>
 <right>
 <fragment>
-Je negativer die Diodenspannung, umso mehr dehnt sich die Raumladungszone aus und umso geringer wird die Diodenkapazität.
+The more negative the diode voltage, the further the space-charge region extends and the smaller the diode capacitance becomes.
 </fragment>
 </right>
 
 ---
 [question:AC404]
 ---
-## Spannungsbegrenzung
+## Voltage limiting
 
-* Antiparallele Dioden
-* Begrenzung der Amplitude einer Wechselspannung
-* Silizium: ca. $\qty{0,6}{\volt}$ Schwellspannung
-* Germanium: ca. $\qty{0,3}{\volt}$ Schwellspannung
+* Diodes in inverse parallel
+* Limiting the amplitude of an AC voltage
+* Silicon: threshold voltage approx. $\qty{0.6}{\volt}$
+* Germanium: threshold voltage approx. $\qty{0.3}{\volt}$
 * $\rightarrow$ *Clipping*
 
 <note>
-Schwellspannungen sind Klasse E Stoff
+Threshold voltages are Class E material
 </note>
 
 --- style="font-size: smaller;"
@@ -49,30 +49,30 @@ Schwellspannungen sind Klasse E Stoff
 --- style="font-size: smaller;"
 [question:AC406]
 ---
-## Fotodiode
+## Photodiode
 
-* Licht wird in der Raumladungszone absorbiert
-* Es entstehen Elektron-Loch-Paare
-* Elektronen bewegen sich zum p-Gebiet, Löcher zum n-Gebiet
-* Wird ein Verbraucher (mit negativer Spannung am p-Anschluss) angeschlossen, wirkt die Fotodiode als Stromquelle
-* Der Strom ist proportional zur Lichtintensität
+* Light is absorbed in the space-charge region
+* Electron-hole pairs are produced
+* Electrons move to the p-region, holes to the n-region
+* If a load is connected (with negative voltage at the p-terminal), the photodiode acts as a current source
+* The current is proportional to the light intensity
 
 <note>
-Lichtmessung, Bildsensoren in Kameras, Solarzellen
+Light measurement, image sensors in cameras, solar cells
 </note>
 
 ---
 [question:AC407]
 ---
-## Optokoppler
+## Optocoupler
 
-* Zusammenschluss von Leuchtdiode und Fotodiode in einem Gehäuse
-* Eingangsseite: Leuchtdiode
-* Ausgangsseite: Fotodiode
-* Beide sind voneinander galvanisch getrennt
+* Combination of a light-emitting diode and a photodiode in one package
+* Input side: light-emitting diode
+* Output side: photodiode
+* The two are galvanically isolated from each other
 
 <note>
-Schnittstellen galvanisch trennen, z.B. um Masseschleifen zu verhindern
+Isolating interfaces galvanically, e.g. to prevent earth loops
 </note>
 ---
 [question:AC408]

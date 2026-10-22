@@ -1,34 +1,34 @@
 --- data-transition="none"
-## Von der Diode zum Transistor
+## From diode to transistor
 <left>
-Die Funktion kann man sich so vorstellen:
-* Mittels eines Steuerkanals wird der Durchfluss eines Wehrs geregelt
-* Fließt kein Wasser im Steuerkanal ist das Wehr geschlossen
+You can picture how it works like this:
+* A control channel regulates the flow through a weir
+* If no water flows in the control channel, the weir is closed
 </left>
 <right>
-[picture:835:e_transistor_wehr_geschlossen:Steuerkanal schließt Wehr komplett]
+[picture:835:e_transistor_wehr_geschlossen:Control channel closes the weir completely]
 </right>
 
 --- data-transition="none"
 
-## Von der Diode zum Transistor
+## From diode to transistor
 <left>
-Die Funktion kann man sich so vorstellen:
-* Fließt etwas Wasser im Steuerkanal, öffnet das Wehr zur Hälfte
+You can picture how it works like this:
+* If some water flows in the control channel, the weir opens halfway
 </left>
 <right>
-[picture:837:e_transistor_wehr_halb_offen:Steuerkanal öffnet Wehr halb]
+[picture:837:e_transistor_wehr_halb_offen:Control channel opens the weir halfway]
 </right>
 
 --- data-transition="none"
 
-## Von der Diode zum Transistor
+## From diode to transistor
 <left>
-Die Funktion kann man sich so vorstellen:
-* Fließt mehr Wasser im Steuerkanal, ist das Wehr ganz geöffnet
+You can picture how it works like this:
+* If more water flows in the control channel, the weir is fully open
 </left>
 <right>
-[picture:836:e_transistor_wehr_geoeffnet:Steuerkanal öffnet Wehr komplett]
+[picture:836:e_transistor_wehr_geoeffnet:Control channel opens the weir completely]
 </right>
 
 ---
@@ -41,14 +41,14 @@ Die Funktion kann man sich so vorstellen:
 
 ---
 
-### Bipolarer Transistor und Schaltbild
+### Bipolar transistor and circuit diagram
 
 <left>
-Merksatz für PNP $\rightarrow$ Pfeil Nach Platte
+Mnemonic for PNP $\rightarrow$ Pfeil Nach Platte (arrow towards the plate)
 </left>
 <right>
-[picture:374:e_schaltbild_npn_transistor:Schaltbild NPN-Transistor]
-[picture:375:e_schaltbild_pnp_transistor:Schaltbild PNP-Transistor]
+[picture:374:e_schaltbild_npn_transistor:Circuit diagram of an NPN transistor]
+[picture:375:e_schaltbild_pnp_transistor:Circuit diagram of a PNP transistor]
 </right>
 
 ---
@@ -69,9 +69,9 @@ Merksatz für PNP $\rightarrow$ Pfeil Nach Platte
 
 ---
 
-### Schalter oder Verstärker?
-* Die Ansteuerung kann so eingestellt werden, dass der Transistor sperrt oder voll durchsteuert, dann spricht man von einem Schalttransistor.
-* Die Ansteuerung kann so eingestellt werden, dass der Transistor stufenlos gesteuert wird, dann spricht man von einem Verstärker.
+### Switch or amplifier?
+* The drive can be set so that the transistor is either off or fully on; it is then called a switching transistor.
+* The drive can be set so that the transistor is controlled continuously; it is then called an amplifier.
 
 ---
 
@@ -82,13 +82,13 @@ Merksatz für PNP $\rightarrow$ Pfeil Nach Platte
 
 ---
 
-## Ansteuerspannung und deren Polarität
-Je Art des bipolaren Transistor hat man verschiedene Polaritäten.
+## Drive voltage and its polarity
+Each type of bipolar transistor needs a different polarity.
 
-* Bei einem NPN-Transistor benötigt man zum Durchschalten eine positive Steuerspannung.
-* Bei einem PNP-Transistor benötigt man zum Durchschalten eine negative Steuerspannung.
+* An NPN transistor needs a positive control voltage to switch on.
+* A PNP transistor needs a negative control voltage to switch on.
 
-Die Steuerspannung liegt wie bei einer Siliziumdiode bei etwa $\qty{0,6}{\volt}$.
+As with a silicon diode, the control voltage is about $\qty{0.6}{\volt}$.
 
 ---
 
@@ -96,7 +96,7 @@ Die Steuerspannung liegt wie bei einer Siliziumdiode bei etwa $\qty{0,6}{\volt}$
 
 ---
 
-Da neben dem Kollektorstrom auch der Basisstrom durch den Transistor fließt, fließt durch den Emitteranschluss der größte Strom.
+Since the base current flows through the transistor as well as the collector current, the largest current flows through the emitter terminal.
 
 ---
 
@@ -104,16 +104,16 @@ Da neben dem Kollektorstrom auch der Basisstrom durch den Transistor fließt, fl
 
 --- style="font-size: smaller;"
 
-###  Wann schaltet der NPN Transistor durch?
-Ist die Basis-Emitter-Spannung ausreichend und liegt sie im positiven Potential vor?
-Hier muss man auf die Vorzeichen achten und bei negativen Vorzeichen umdenken, Beispiele:
+###  When does the NPN transistor switch on?
+Is the base-emitter voltage high enough, and is it positive?
+Watch the signs here, and think again when they are negative. Examples:
 
-* Basis $\qty{+2}{\volt}$ und Emitter $\qty{+1,4}{\volt} \rightarrow$ Die Basis-Emitter-Spannung ist positiv und beträgt $\qty{+0,6}{\volt}$
-* Basis $\qty{-5,6}{\volt}$ und Emitter $\qty{-6,2}{\volt} \rightarrow$ Die Basis-Emitter-Spannung ist positiv und beträgt $\qty{+0,6}{\volt}$
+* Base $\qty{+2}{\volt}$ and emitter $\qty{+1.4}{\volt} \rightarrow$ the base-emitter voltage is positive and is $\qty{+0.6}{\volt}$
+* Base $\qty{-5.6}{\volt}$ and emitter $\qty{-6.2}{\volt} \rightarrow$ the base-emitter voltage is positive and is $\qty{+0.6}{\volt}$
 
 ---
 
-Entweder erkennt man das intuitiv oder man rechnet es (unter Beachtung der Vorzeichen) aus.
+Either you see it intuitively or you work it out (paying attention to the signs).
 
 $U_{ BE } = U_{ B } - U_{ E }$
 
@@ -127,16 +127,16 @@ $U_{ BE } = U_{ B } - U_{ E }$
 
 --- style="font-size: smaller;"
 
-### Wann schaltet der PNP Transistor durch?
-Ist die Basis-Emitter-Spannung ausreichend und liegt sie im negativen Potential vor?
-Hier muss man auf die Vorzeichen achten und bei negativen Vorzeichen umdenken, Beispiele:
+### When does the PNP transistor switch on?
+Is the base-emitter voltage high enough, and is it negative?
+Watch the signs here, and think again when they are negative. Examples:
 
-* Basis $\qty{+5,6}{\volt}$ und Emitter $\qty{+6,2}{\volt} \rightarrow$ Die Basis-Emitter-Spannung ist negativ und beträgt $\qty{-0,6}{\volt}$
-* Basis $\qty{-2}{\volt}$ und Emitter $\qty{-1,4}{\volt} \rightarrow$ Die Basis-Emitter-Spannung ist negativ und beträgt $\qty{-0,6}{\volt}$
+* Base $\qty{+5.6}{\volt}$ and emitter $\qty{+6.2}{\volt} \rightarrow$ the base-emitter voltage is negative and is $\qty{-0.6}{\volt}$
+* Base $\qty{-2}{\volt}$ and emitter $\qty{-1.4}{\volt} \rightarrow$ the base-emitter voltage is negative and is $\qty{-0.6}{\volt}$
 
 ---
 
-Entweder erkennt man das intuitiv oder man rechnet es (unter Beachtung der Vorzeichen) aus.
+Either you see it intuitively or you work it out (paying attention to the signs).
 
 $U_{ BE } = U_{ B } - U_{ E }$
 
@@ -150,8 +150,8 @@ $U_{ BE } = U_{ B } - U_{ E }$
 
 ---
 
-## Typen von Transistoren
-Die bisher behandelten Transistoren nennt man *Bipolare Transistoren*. Sie sind die Art der Transistoren, die in den 50er Jahren eine technische Revolution einläuteten und die Elektronenröhre ablösten. Im Gegensatz zu den stromgesteuerten Bipolartransistoren sind *Feldeffekttransistoren (FET)* spannungsgesteuert, es fließt also kein Steuerstrom in ihn hinein. Mit diesen werden wir uns im Klasse A Kurs intensiver auseinandersetzen.
+## Types of transistor
+The transistors covered so far are called *bipolar transistors*. They are the type of transistor that heralded a technical revolution in the '50s and replaced the thermionic valve. Unlike current-controlled bipolar transistors, *field-effect transistors (FETs)* are voltage-controlled, so no control current flows into them. We will look at them in more depth in the Class A course.
 
 ---
 

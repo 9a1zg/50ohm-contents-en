@@ -1,32 +1,32 @@
-Bereits aus der Klasse-N-Ausbildung ist die Grundfunktion der Diode bekannt: sie lässt Strom nur in einer Richtung fließen, nämlich wenn die an der Anode anliegende Spannung ($U_a$) größer ist als die Spannung an der Kathode ($U_k$), vgl. Abbildung [ref:e_diode_u_i].
+The basic function of the diode is already familiar from the Class N course: it lets current flow in one direction only, namely when the voltage at the anode ($U_a$) is greater than the voltage at the cathode ($U_k$), see Figure [ref:e_diode_u_i].
 
 <margin>
-[picture:859:e_diode_u_i:Spannungen und Strom an einer Diode mit Vorwiderstand]
+[picture:859:e_diode_u_i:Voltages and current in a diode with a series resistor]
 </margin>
 
-Mathematisch können wir diese Forderung so schreiben:
+Mathematically, we can write this condition as:
 
 $U_d = U_a - U_k > 0$
 
-Ist allerdings $U_d$ nur ein ganz wenig größer als 0, fließt noch kein merkbarer Strom. Das liegt an der *exponentiellen Kennlinie* einer Diode. Der Diodenstrom ist nämlich:
+However, if $U_d$ is only very slightly greater than 0, no appreciable current flows yet. This is due to the *exponential characteristic* of a diode. The diode current is:
 
 $I_d = I_S \left(e^{\frac{U_d}{U_T}}-1\right)$
 
-$e$ ist die sogenannte Euler'sche Zahl ($e\approx 2,718$), $U_T$ eine Konstante, die bei Raumtemperatur etwa $\qty{26}{\milli\volt}$ beträgt.
+$e$ is Euler's number ($e\approx 2.718$), and $U_T$ is a constant of about $\qty{26}{\milli\volt}$ at room temperature.
 
-$I_S$ ist hier der *Sperrsättigungsstrom*, das ist der sehr kleine Strom, der bei negativen Spannungen durch die Diode fließt. Der Wert von $I_S$ hängt neben ein paar Parametern der Diode, wie der Diodenfläche, vor allem auch vom verwendeten Halbleitermaterial ab. Bei Materialien wie Germanium (Ge) mit einer geringen *Energiebandlücke* (darauf gehen wir in der Ausbildung zur Klasse A näher ein) ist $I_S$ größer, bei Materialien mit größerer Energiebandlücke ist $I_S$ kleiner. 
+$I_S$ here is the *reverse saturation current*, the very small current that flows through the diode at negative voltages. Besides a few parameters of the diode, such as the diode area, the value of $I_S$ depends above all on the semiconductor material used. In materials such as germanium (Ge) with a small *energy band gap* (we go into this in more detail in the Class A course), $I_S$ is larger; in materials with a larger energy band gap, $I_S$ is smaller. 
 
 <margin>
-[picture:861:e_diode_kennlinie_iu:Kennline einer Diode]
+[picture:861:e_diode_kennlinie_iu:Characteristic of a diode]
 </margin>
 
 [question:EC501]
 
-Betrachten wir eine Diodenkennlinie in Abbildung [ref:e_diode_kennlinie_iu], so steigt der Diodenstrom bei positiven $U_d$ ab einer gewissen Spannung steil an. Diese Spannung wird auch als *Schwellspannung* $U_{th}$ bezeichnet, sie ist aber nur Ausdruck der unterschiedlichen $I_S$: je kleiner $I_S$, desto höher ist die Schwellspannung. 
+If we look at a diode characteristic in Figure [ref:e_diode_kennlinie_iu], the diode current rises steeply for positive $U_d$ above a certain voltage. This voltage is also called the *threshold voltage* $U_{th}$, but it is only an expression of the different values of $I_S$: the smaller $I_S$, the higher the threshold voltage. 
 
-Als Anhaltspunkte für die Schwellspannung von pn-Dioden können wir für Ge etwa $\qtyrange{0,2}{0,3}{\volt}$ und für Si etwa $\qtyrange{0,6}{0,7}{\volt}$ angeben.
+As a guide to the threshold voltage of pn diodes, we can give about $\qtyrange{0.2}{0.3}{\volt}$ for Ge and about $\qtyrange{0.6}{0.7}{\volt}$ for Si.
 
-*Leuchtdioden* (LEDs) sind ebenfalls pn-Dioden, bei denen das Halbleitermaterial so beschaffen ist, dass es bei Polung der Diode in Flussrichtung Licht aussendet. Das geht nur mit bestimmten Materialien - mit Si und Ge nicht. Die Farbe des Lichts ist durch die Energiebandlücke gegeben. Je größer die Energiebandlücke, desto kurzwelliger das Licht, um so geringer der Sperrsättigungsstrom, und daher um so höher die Schwellspannung. Daher haben rote LEDs etwa $\qty{1,7}{\volt}$ Schwellspannung und grüne LEDs $\qty{2,5}{\volt}$. Die verschienden Kennlinien sind in der Abbildung [ref:e_diode_kennlinien] dargestellt.
+*Light-emitting diodes* (LEDs) are also pn diodes, in which the semiconductor material is such that it emits light when the diode is forward-biased. This only works with certain materials – not with Si and Ge. The colour of the light is determined by the energy band gap. The larger the energy band gap, the shorter the wavelength of the light, the lower the reverse saturation current, and therefore the higher the threshold voltage. That is why red LEDs have a threshold voltage of about $\qty{1.7}{\volt}$ and green LEDs $\qty{2.5}{\volt}$. The different characteristics are shown in Figure [ref:e_diode_kennlinien].
 
 [question:EC513]
 [question:EC510]
@@ -37,7 +37,7 @@ Als Anhaltspunkte für die Schwellspannung von pn-Dioden können wir für Ge etw
 ---
 
 <margin>
-[picture:858:e_diode_kennlinien:Kennlinen verschiedener Dioden]
+[picture:858:e_diode_kennlinien:Characteristics of different diodes]
 </margin>
 
 
@@ -46,7 +46,7 @@ Als Anhaltspunkte für die Schwellspannung von pn-Dioden können wir für Ge etw
 [question:EC507]
 [question:EC508]
 
-Da LEDs in Flussrichtung betrieben werden, ist es wichtig, einen Widerstand $R_V$ zwischen Spannungsquelle $U$ und LED zu schalten. $R_V$ stellt den erwünschten Strom $I$ ein. Dabei ist die Schwellspannung $U_{th}$ der LED zu berücksichtigen:
+Since LEDs are operated in the forward direction, it is important to connect a resistor $R_V$ between the voltage source $U$ and the LED. $R_V$ sets the desired current $I$. The threshold voltage $U_{th}$ of the LED has to be taken into account:
 
 $ I=\frac{U-U_{th}}{R_V}$
 
@@ -56,20 +56,20 @@ $ I=\frac{U-U_{th}}{R_V}$
 
 ---
 
-In unserem einfachen Modell fließt für negative $U_d$ nur ein geringer Sperrstrom. Das stimmt aber nicht für sehr negative Spannungen. Irgendwann wird das elektrische Feld über der Verarmungszone zwischen n und p zu hoch und die Diode "bricht durch", der Strom in Rückwärtsrichtung steigt extrem stark an, wie in Abbildung [ref:n_diode_kennlinie_uz] gezeigt.
+In our simple model, only a small reverse current flows for negative $U_d$. But this is not true for very negative voltages. At some point the electric field across the depletion region between n and p becomes too high and the diode "breaks down": the current in the reverse direction rises extremely sharply, as shown in Figure [ref:n_diode_kennlinie_uz].
 
-Dieser *Sperrdurchbruch* kann verschiedene physikalische Ursachen haben, die wir hier nicht im Detail behandeln können. Die Spannung, bei der dieser Durchbruch passiert, wird gemeinhin als *Zener-Spannung* $U_z$ bezeichnet, auch wenn der Zener-Effekt (ein quantenmechanischer Tunneleffekt) nur ein möglicher Durchbruchmechanismus ist. *Zenerdioden* werden zur Spannungsstabilisierung verwendet. Dabei ist es wichtig, den Durchbruchstrom durch einen Vorwiderstand zu begrenzen. 
+This *reverse breakdown* can have various physical causes, which we cannot cover in detail here. The voltage at which this breakdown happens is commonly called the *Zener voltage* $U_z$, even though the Zener effect (a quantum-mechanical tunnelling effect) is only one possible breakdown mechanism. *Zener diodes* are used for voltage stabilisation. It is important to limit the breakdown current with a series resistor. 
 
 <margin>
-[picture:862:n_diode_kennlinie_uz:Kennline einer Z-Diode]
+[picture:862:n_diode_kennlinie_uz:Characteristic of a Zener diode]
 </margin>
 
 ---
 
-Das Schaltsymbol einer Zenerdiode (Abbildung [ref:e_zener_symbol]) ist das einer regulären Diode, bei der der Kathodenstrich eine zusätzliche Fortsetzung unter $\qty{90}{\degree}$ erhält. Dies soll an das "Abknicken" der Kennlinie im Durchbruch erinnern.
+The circuit symbol of a Zener diode (Figure [ref:e_zener_symbol]) is that of an ordinary diode in which the cathode bar has an additional extension at $\qty{90}{\degree}$. This is meant as a reminder of the "bend" in the characteristic at breakdown.
 
 <margin>
-[picture:860:e_zener_symbol:Schaltsymbol einer Zenerdiode]
+[picture:860:e_zener_symbol:Circuit symbol of a Zener diode]
 </margin>
 
 
@@ -79,22 +79,22 @@ Das Schaltsymbol einer Zenerdiode (Abbildung [ref:e_zener_symbol]) ist das einer
 [question:EC521]
 [question:EC522]
 
-Die bisher behandelten Dioden waren alle *pn-Dioden*, die Diodeneigenschaft entsteht durch einen Halbleiterübergang. Bei der *Schottky-Diode* handelt es sich um eine Diode, deren Eigenschaften durch einen Metall-Halbleiter-Übergang entstehen. Die Schwellspannung ist etwa halb so groß wie die einer pn-Diode aus dem selben Material, oder kleiner, abhängig von der genauen Gestaltung des Metall-Halbleiter-Übergangs. Schottky-Dioden werden eingesetzt, wenn die Schwellspannung gering sein soll, oder aber als sehr schnelle Schaltdioden.  
+The diodes covered so far were all *pn diodes*: the diode property comes from a semiconductor junction. The *Schottky diode* is a diode whose properties come from a metal-semiconductor junction. Its threshold voltage is about half that of a pn diode made of the same material, or less, depending on the exact design of the metal-semiconductor junction. Schottky diodes are used where the threshold voltage is to be low, or else as very fast switching diodes.  
 
 [question:EC504]
 [question:EC505]
 
 <margin>
-Metall-Halbleiter-Dioden sind die ältesten Gleichrichterbauelemente auf Halbleiterbasis. Ferdinand Braun entdeckte ihren Gleichrichtereffekt bereits 1874, ohne aber seine Beobachtung erklären zu können.
+Metal-semiconductor diodes are the oldest semiconductor rectifier components. Ferdinand Braun discovered their rectifying effect as early as 1874, but without being able to explain his observation.
 </margin>
 
-Fassen wir zusammen:
+To sum up:
 
-Dioden lassen Strom nur einer Richtung fließen. Daher eignen sie sich zur Gleichrichtung von Wechselstrom.
+Diodes let current flow in one direction only. This makes them suitable for rectifying alternating current.
 
-Bei hohen Sperrspannungen allerdings ($U_d < U_z$), steigt der Strom in Rückwärtsrichtung stark an. Dieser Betriebspunkt kann sehr gut zur Spannungsstabilisierung genutzt werden (*Zenerdiode*).
+At high reverse voltages ($U_d < U_z$), however, the current in the reverse direction rises sharply. This operating point can be used very well for voltage stabilisation (*Zener diode*).
 
-Daneben lassen sie sich in Sperrrichtung auch als spannungsgesteuerte Kapazitäten verwenden, dies werden wir aber erst in der Ausbildung zur Klasse A behandeln. 
+In addition, in the reverse direction they can also be used as voltage-controlled capacitances, but we will not cover this until the Class A course. 
 
 [question:EC502]
 [question:EC518]
