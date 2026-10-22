@@ -1,38 +1,38 @@
-## Kapazität
+## Capacitance
 
-* Wichtigste Eigenschaft des Kondensators: Ladung speichern
-* $\rightarrow$ Kapazität
+* The most important property of a capacitor: storing charge
+* $\rightarrow$ capacitance
 
 $C = \dfrac{Q}{U}$
 
-* mit $Q$ als elektrische Ladung
-* Einheit: $\unit{\ampere\second\per\volt}$ bzw. Farad $\unit{\farad}$
-* Die Kapazität ist die elektrische Ladung pro Volt
+* with $Q$ as the electric charge
+* Unit: $\unit{\ampere\second\per\volt}$ or farad $\unit{\farad}$
+* Capacitance is the electric charge per volt
 
 <note>
-* Farad von Michael Faraday (1791 - 1867)
+* Farad after Michael Faraday (1791 - 1867)
 </note>
 
 --- style="font-size: 0.7em;"
-## Kapazität durch Bauart
+## Capacitance from the construction
 
 <left>
-[picture:922:e_kondensator_aufbau:Prinzipieller Aufbau eines Kondensators]
+[picture:922:e_kondensator_aufbau:Basic construction of a capacitor]
   
-* Die Kapazität kann durch die Bauart erreicht werden
+* The capacitance can be set by the construction
 
 $C = \dfrac{\varepsilon_0 \cdot \varepsilon_r \cdot A}{d}$
 
-* $\rightarrow$ Kapazität ist größer bei größerer Fläche, kleinem Abstand oder anderem Dielektrikum
+* $\rightarrow$ capacitance is greater with a larger area, a small spacing or a different dielectric
 </left>
 <right>
-* $\varepsilon_0 = \qty{0,855e-11}{\ampere\second\per\volt\meter}$: elektrische Feldkonstante
-* $\varepsilon_r$: relative Dielektrizitätszahl, abhängig vom Dielektrikum (ohne Einheit)
-* $A$: Fläche der Kondensatorplatten
-* $d$: Abstand der Platten
+* $\varepsilon_0 = \qty{0.855e-11}{\ampere\second\per\volt\meter}$: electric constant
+* $\varepsilon_r$: relative permittivity, depends on the dielectric (no unit)
+* $A$: area of the capacitor plates
+* $d$: spacing of the plates
 </right>
 <note>
-* Nur das Verständnis ist wichtig, Berechnung ist Klasse A Stoff
+* Only the understanding matters; the calculation is Class A material
 </note>
 
 ---
@@ -45,60 +45,60 @@ $C = \dfrac{\varepsilon_0 \cdot \varepsilon_r \cdot A}{d}$
 [question:EC204]
 ---
 
-### Drehkondensator
+### Variable capacitor
 
 <left>
-* Eine Platte ist feststehend, die andere Platte kann drehend bewegt werden
-* Nur dort, wo die Platten sich überlappen, wirkt der Kondensator
-* Die Fläche wird durch Drehung verändert $\rightarrow$ Änderung der Kapazität
+* One plate is fixed, the other plate can be rotated
+* The capacitor acts only where the plates overlap
+* Rotation changes the area $\rightarrow$ change in capacitance
 </left>
 <right>
-[picture:840:e_kondensator_drehkondensator:Drehkondensator]
+[picture:840:e_kondensator_drehkondensator:Variable capacitor]
 </right>
 <note>
-* Die Platten können auch Kreissegmente sein
-* Es können mehrere Platten gestackt werden
+* The plates can also be segments of a circle
+* Several plates can be stacked
 </note>
 ---
 
 [question:EC206]
 
 ---
-### Elektrolytkondensator
+### Electrolytic capacitor
 
 <left>
-* Spezielle Bauform
-* Ermöglicht große Kapazität
-* Nur für Gleichspannung
-* Polarität muss beachtet werden
+* Special type
+* Allows a large capacitance
+* For DC voltage only
+* Polarity must be observed
 </left>
 <right>
-[photo:198:e_kondensator_elkos:Elektrolytkondensatoren mit Markierung des Minus-Pols]
+[photo:198:e_kondensator_elkos:Electrolytic capacitors with the negative terminal marked]
 </right>
 
 ---
 [question:EC207]
 ---
 
-## Ladekurve
+## Charging curve
 
 <left>
-* Ein leerer Kondensator wird an Gleichspannung angeschlossen
-* Die Spannung steigt steil an und flacht dann zur angelegten Spannung ab 
+* An empty capacitor is connected to a DC voltage
+* The voltage rises steeply and then levels off towards the applied voltage 
 </left>
 <right>
-[picture:185:e_ladekurve_kondensator:Ladekurve eines Kondensators]
+[picture:185:e_ladekurve_kondensator:Charging curve of a capacitor]
 </right>
 
 ---
 [question:EC201]
 --- 
 
-## Kondensator im Wechselstrom
+## Capacitor with alternating current
 
-* Im Gleichstromkreis lädt der Kondensator sich auf, wirkt dann aber wie ein unendlich großer Widerstand
-* Bei Wechselstrom wird der Kondensator ständig Auf- und Entladen
-* Je höher die Frequenz, umso geringer ist der Wechselstromwiderstand des Kondensators
+* In a DC circuit the capacitor charges up but then acts like an infinitely large resistance
+* With alternating current the capacitor is constantly charged and discharged
+* The higher the frequency, the lower the AC resistance of the capacitor
 
 ---
 [question:EC202]

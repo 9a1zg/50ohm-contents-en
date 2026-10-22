@@ -1,26 +1,26 @@
 <left>
-* Zwei Spulen auf gemeinsamen Kern magnetisch gekoppelt
-* Energie wird darüber übertragen
-* Ändern von Spannungen und Strömen ist möglich
-* *Übertrager* oder *Transformator* kurz Trafo
+* Two coils magnetically coupled on a common core
+* Energy is transferred through it
+* Voltages and currents can be changed
+* *Transformer* (German *Übertrager* or *Transformator*, *Trafo* for short)
 </left>
 <right>
-[picture:197:e_uebertrager:Schemazeichnung eines Übertragers]
+[picture:197:e_uebertrager:Schematic drawing of a transformer]
 </right>
 
 ---
-## Übersetzungverhältnis
+## Transformation ratio
 
 <left>
-* Spannungen an den Anschlüssen des Übertragers verhalten sich wie zur Anzahl der Wicklungen
+* The voltages at the terminals of the transformer are in the same ratio as the numbers of turns
 
 $ü = \dfrac{N_P}{N_S} = \dfrac{U_P}{U_S}$
 </left>
 <right>
-* $N_P$: Wicklungen auf der Primärseite
-* $N_S$: Wicklungen auf der Sekundärseite
-* $U_P$: Spannung an der Primärseite
-* $U_S$: Spannung an der Sekundärseite
+* $N_P$: turns on the primary side
+* $N_S$: turns on the secondary side
+* $U_P$: voltage on the primary side
+* $U_S$: voltage on the secondary side
 </right>
 
 ---

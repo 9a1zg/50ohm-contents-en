@@ -1,113 +1,113 @@
-Das dritte passive Bauelement in der Funktechnik – nach Widerstand und Kondensator – ist die *Spule*. Verschiedene Spulenarten und Ihre Schaltsymbole sind in den Abbildungen [ref:e_spulen] und [ref:e_schaltsymbole_spulen] dargestellt. Wie wir bereits im Kapitel zum magnetischen Feld gelernt haben, wird in einer Spule ein Magnetfeld erzeugt, sobald ein elektrischer Strom durch die Spule fließt. Die einfachste Bauform einer Spule ist die sogenannte gerade *Zylinderspule*, wie sie in Abbildung [ref:e_spule_Aufbau] gezeigt wird.
+The third passive component in radio engineering – after the resistor and the capacitor – is the *inductor*. Various types of inductor and their circuit symbols are shown in Figures [ref:e_spulen] and [ref:e_schaltsymbole_spulen]. As we have already learnt in the chapter on the magnetic field, a magnetic field is produced in a coil as soon as an electric current flows through it. The simplest type of inductor is the so-called straight *solenoid*, or cylindrical coil, as shown in Figure [ref:e_spule_Aufbau].
 
 <margin>
-[photo:207:e_spulen:Verschiedene Bauformen von Spulen]
-[picture:942:e_schaltsymbole_spulen:Schaltsymbole für unterschiedliche Spulenarten]
-[picture:948:e_spule_Aufbau:Aufbau einer Spule]
+[photo:207:e_spulen:Various types of inductor]
+[picture:942:e_schaltsymbole_spulen:Circuit symbols for different types of inductor]
+[picture:948:e_spule_Aufbau:Construction of an inductor]
 </margin>
 
 ---
 
-Eine Zylinderspule hat eine sogenannte Induktivität $L$, welche sich nach folgender Formel berechnet:
+A solenoid has a so-called inductance $L$, which is calculated with the following formula:
 
 $L = \frac{\mu_0 \cdot \mu_r \cdot N^2 \cdot A_S}{l}$
 
-Betrachtet man den Aufbau einer Spule, dann findet man also folgende Größen:
-1. $\mu_0$ ist die magnetische Feldkonstante, eine Naturkonstante mit dem Wert $\qty{1,2566e-6}{\henry\per\meter}$. Den Wert kann man immer in der Formelsammlung nachschlagen.
-2. $\mu_r$ ist eine Materialkonstante, denn der Spulenkern kann aus einem speziellen Material bestehen, das magnetische Felder verstärken kann.
-3. Die Anzahl $N$ der Spulenwindungen aus Kupferlackdraht oder versilbertem Kupferdraht.
-4. $A_S$ gibt die Querschnittsfläche des Spulenkerns an.
-5. Spulenlänge $l$
+Looking at how an inductor is built, we therefore find the following quantities:
+1. $\mu_0$ is the magnetic constant, a constant of nature with the value $\qty{1.2566e-6}{\henry\per\meter}$. The value can always be looked up on the formula sheet.
+2. $\mu_r$ is a material constant, because the core of the inductor can be made of a special material that can strengthen magnetic fields.
+3. The number $N$ of turns of enamelled copper wire or silver-plated copper wire.
+4. $A_S$ is the cross-sectional area of the core.
+5. The length $l$ of the coil
 
 [question:EA102]
 
 <indepth>
-Der Formelbuchstabe $L$ wurde zu Ehren des Professors Emil Lenz (1804–1864) aus St. Petersburg gewählt, der die nach ihm benannte Lenzsche Regel formulierte.
+The symbol $L$ was chosen in honour of Professor Emil Lenz (1804–1864) of St Petersburg, who formulated the law named after him, Lenz's law.
 </indepth>
 
 <unit>
-Eine Spule besitzt die Induktivität $L$ mit der Einheit $\qty{1}{\volt\second\per\ampere}$, die üblicherweise in *Henry* ($\unit{\henry}$) angegeben wird. Die Einheit ist nach dem amerikanischen Physiker *Joseph Henry* (1797–1878) benannt. Eine Induktivität von $\qty{1}{\henry}$ liegt vor, wenn eine Stromänderung von $\qty{1}{\ampere}$ innerhalb einer Sekunde eine Selbstinduktionsspannung von $\qty{1}{\volt}$ hervorruft. In der Praxis liegen die Werte von Induktivitäten meist deutlich darunter und werden typischerweise in $\unit{\milli\henry}$, $\unit{\micro\henry}$ oder $\unit{\nano\henry}$ angegeben.
+An inductor has the inductance $L$ with the unit $\qty{1}{\volt\second\per\ampere}$, which is usually given in *henries* ($\unit{\henry}$). The unit is named after the American physicist *Joseph Henry* (1797–1878). An inductance of $\qty{1}{\henry}$ is present when a change in current of $\qty{1}{\ampere}$ within one second produces a self-induced voltage of $\qty{1}{\volt}$. In practice, inductances are usually much smaller and are typically given in $\unit{\milli\henry}$, $\unit{\micro\henry}$ or $\unit{\nano\henry}$.
 </unit>
 
 ---
 
-Mithilfe der Formel und den folgenden qualitativen Zusammenhängen kann man bereits eine Reihe von Prüfungsfragen lösen:
+With the help of the formula and the following qualitative relationships, a number of examination questions can already be solved:
 
-1. Die Induktivität steigt quadratisch mit der Windungszahl. Wenn die Windungszahl verdoppelt wird, dann steigt die Induktivität auf das Vierfache.
-2. Wenn die Spule zusammengedrückt wird, dann steigt die Induktivität $L$.
-3. Wenn die Querschnittsfläche vergrößert wird, dann steigt die Induktivität $L$.
-4. Wenn das Magnetfeld in der Spule durch ein geeignetes, magnetisch leitfähiges Material (z.B. Eisen) verstärkt wird, dann steigt die Induktivität $L$.
+1. The inductance rises with the square of the number of turns. If the number of turns is doubled, the inductance rises to four times its value.
+2. If the coil is compressed, the inductance $L$ rises.
+3. If the cross-sectional area is increased, the inductance $L$ rises.
+4. If the magnetic field in the coil is strengthened by a suitable material that conducts magnetic flux well (e.g. iron), the inductance $L$ rises.
 
 [question:EC305]
 
-Wenn man die Spule staucht, dann wird $l$ verkleinert. Dadurch steigt die Induktivität $L$.
+If the coil is compressed, $l$ becomes smaller. As a result, the inductance $L$ rises.
 
 [question:EC306]
 
-Wenn man die Spulenlänge $l$ verdoppelt, dann muss sich die Induktivität $L$ halbieren.
+If the length $l$ of the coil is doubled, the inductance $L$ must halve.
 
 [question:EC307]
 
-Wenn die Anzahl der Windungen $N$ verdoppelt wird, dann vervierfacht sich die Induktivität $L$.
+If the number of turns $N$ is doubled, the inductance $L$ increases fourfold.
 
-Wenn die Windungszahl verringert wird, dann sinkt die Induktivität, aber selbst bei einer halben oder Viertelwindung und sogar bei einem geraden Stück Draht ist noch eine geringe parasitäre Induktivität vorhanden.
+If the number of turns is reduced, the inductance falls, but even with half a turn or a quarter turn, and even with a straight piece of wire, a small parasitic inductance is still present.
 
 [question:EC304]
 
 ---
 
-Als *ferromagnetisch* bezeichnen wir eine bestimmte Klasse an Materialien, die auf atomarer Ebene kleine Elementarmagnete enthalten, die sich unter dem Einfluss eines äußeren magnetischen Felds ausrichten und so die *magnetische Flussdichte* stark erhöhen (mit der wir uns an dieser Stelle aber noch nicht beschäftigen). Unter den reinen chemischen Elementen sind nur Eisen, Kobalt und Nickel ferromagnetisch.
+We call a particular class of materials *ferromagnetic*: at the atomic level they contain tiny elementary magnets which line up under the influence of an external magnetic field and so greatly increase the *magnetic flux density* (which we will not deal with at this point, however). Among the pure chemical elements, only iron, cobalt and nickel are ferromagnetic.
 
 <indepth>
-$\mu_r$, man sagt auch relative Permeabilität, ist bei ferromagnetischen Materialien sehr groß (bei Eisen zum Beispiel im Bereich von $300\dots\num{10000}$).
+$\mu_r$, also called the relative permeability, is very large for ferromagnetic materials (for iron, for example, in the range $300\dots\num{10000}$).
 </indepth>
 
 
 [question:EB204]
 
-Wenn man ein ferromagnetisches Material wie Eisen in die Spule einführt, dann wird das Magnetfeld verstärkt und die Induktivität steigt. 
+If a ferromagnetic material such as iron is inserted into the coil, the magnetic field is strengthened and the inductance rises. 
 
-Wenn wir in eine Zylinderspule einen Kern aus einem gut leitenden (nicht-ferromagnetischen) Metall wie Aluminium oder Kupfer einführen, dann sinkt die Induktivität der Spule hingegen. Das liegt daran, dass das hochfrequente Magnetfeld der Spule in den Kernen Ströme, sogenannte Wirbelströme, erzeugt ("induziert"). Diese sekundären Ströme erzeugen wiederum Magnetfelder, die dem Magnetfeld der Spule entgegenwirken. Deshalb sinkt die Induktivität. Das magnetische Feld im Inneren des Kerns wird dabei reduziert. 
+If, on the other hand, we insert a core of a highly conductive (non-ferromagnetic) metal such as aluminium or copper into a solenoid, the inductance of the coil falls. This is because the radio-frequency magnetic field of the coil produces ("induces") currents in the core, so-called eddy currents. These secondary currents in turn produce magnetic fields that oppose the magnetic field of the coil. That is why the inductance falls. The magnetic field inside the core is reduced in the process. 
 
-Die in der folgenden Frage als richtig betrachtete Antwort ist die, dass das Magnetfeld nicht in den Kern eindringen kann und deshalb der Querschnitt des Feldes verringert. Das ist aber nicht ganz das, was physikalisch passiert. Einfach die "richtige" Antwort merken. 
+The answer regarded as correct in the following question is that the magnetic field cannot penetrate the core and therefore the cross-sectional area of the field is reduced. That is not quite what happens physically, however. Simply remember the "correct" answer. 
 
 [question:EB205]
 
 ---
 
-Schauen wir uns, wie beim Kondensator auch, zuerst das Gleichstromverhalten der Spule an: Die Spule wird über einen Vorwiderstand an eine Gleichspannungsquelle angeschlossen, wie in Abbildung [ref:e_spule_einschalten] dargestellt. Im Moment des Einschaltens wird der Stromanstieg zunächst verzögert, sodass der Strom nicht sprunghaft, sondern nur allmählich bis zu seinem Maximalwert ansteigt.
+As with the capacitor, let us first look at how the inductor behaves with direct current: the inductor is connected to a DC voltage source through a series resistor, as shown in Figure [ref:e_spule_einschalten]. At the moment of switching on, the rise in current is at first delayed, so that the current does not jump but rises only gradually to its maximum value.
 
-Ursache hierfür ist die Lenzsche Regel: Beim Anstieg des Stroms erzeugt die Spule eine Selbstinduktionsspannung, die der Stromänderung – und damit der Ursache – entgegenwirkt. Dadurch wird der Stromanstieg begrenzt. Da zu Beginn noch kein Strom fließt, fällt zunächst nahezu die gesamte angelegte Spannung an der Spule ab. Mit zunehmendem Strom nimmt diese Induktionsspannung ab, während der Strom weiter ansteigt.
+The reason for this is Lenz's law: as the current rises, the inductor produces a self-induced voltage that opposes the change in current – and so opposes its cause. This limits the rise in current. Since no current is flowing at the start, almost the whole applied voltage is at first dropped across the inductor. As the current increases, this induced voltage decreases while the current continues to rise.
 
-Ist der stationäre Zustand erreicht, verhält sich die Spule bei Gleichstrom näherungsweise wie ein Stück Draht. Die an ihr abfallende Spannung ist dann praktisch null. Der zeitliche Verlauf der Spannung an der Spule ist in Abbildung [ref:e_spule_einschalten_spannung] dargestellt.
+Once the steady state is reached, the inductor behaves with direct current approximately like a piece of wire. The voltage dropped across it is then practically zero. How the voltage across the inductor varies with time is shown in Figure [ref:e_spule_einschalten_spannung].
 
 <margin>
-[picture:1016:e_spule_einschalten:Stromkreis zur Untersuchung einer Spule]
+[picture:1016:e_spule_einschalten:Circuit for examining an inductor]
 </margin>
 <margin>
-[picture:186:e_spule_einschalten_spannung:Spannungsverlauf beim Einschalten]
+[picture:186:e_spule_einschalten_spannung:Voltage curve on switching on]
 </margin>
 
 [question:EC301]
 
 ---
 
-Im Ausschaltmoment will die Selbstinduktionsspannung den Stromfluss aufrechterhalten. Die Spule wirkt dann als Generator, dessen Induktionsspannung entgegengesetzt zur vorherigen Polarität entsteht. Damit verhält sich die Spule exakt gegenteilig zum Kondensator. Diese Vorgänge kann man gut mithilfe eines Oszilloskops wie in Abbildung [ref:e_Spulenstrom] beobachten.
+At the moment of switching off, the self-induced voltage tries to keep the current flowing. The inductor then acts as a generator whose induced voltage has the opposite polarity to before. In this the inductor behaves exactly the opposite way to the capacitor. These processes can be observed well with an oscilloscope, as in Figure [ref:e_Spulenstrom].
 
 <margin>
-[photo:257:e_Spulenstrom:Ein-und Ausschaltverhalten der Spulenspannung und des Spulenstroms]
+[photo:257:e_Spulenstrom:Inductor voltage and inductor current on switching on and off]
 </margin>
 
-Man kann deshalb Spulen auch zur Verzögerung benutzen. In der folgenden Frage,  steigt der Stromfluss durch Lampe 2 langsamer an, als durch Lampe 1, da eine Spule vorgeschaltet ist, deren Selbstinduktionsspannung den Einschaltstrom nur langsam ansteigen lässt.
+Inductors can therefore also be used to create a delay. In the following question, the current through lamp 2 rises more slowly than through lamp 1, because it has a coil in series whose self-induced voltage lets the switch-on current rise only slowly.
 
 [question:EC302]
 
-Ähnlich wie beim Kondensator verhält sich eine Spule unterschiedlich, wenn sie an Gleichspannung oder an Wechselspannung angeschlossen wird. In der Funktechnik ist vor allem das Verhalten an Wechselspannung wichtig. Deshalb schauen wir uns nun das Wechselstromverhalten an. 
+As with the capacitor, an inductor behaves differently when it is connected to a DC voltage or to an AC voltage. In radio engineering it is above all the behaviour with AC voltage that matters. So let us now look at how it behaves with alternating current. 
 
-Die Spule zeigt, ähnlich wie ein Kondensator, einen Wechselstromwiderstand $X_{\textrm{L}}$, das heißt, obwohl der Spulendraht nur einen sehr kleinen ohmschen Widerstand (Leiterwiderstand) besitzt, fließt ein Strom, der aber mit steigender Frequenz der Wechselspannung kleiner wird:
+Like a capacitor, the inductor has an AC resistance $X_{\textrm{L}}$: although the wire of the coil has only a very small ohmic resistance (conductor resistance), the current that flows becomes smaller as the frequency of the AC voltage rises:
 
 $X_{L} = \omega \cdot L = 2\cdot\pi\cdot f \cdot L$
 
-Aus der Formel lässt sich erkennen, dass der Wechselstromwiderstand mit zunehmender Frequenz ansteigt und mit abnehmender Frequenz sinkt.
+The formula shows that the AC resistance rises as the frequency increases and falls as the frequency decreases.
 
 [question:EC303]

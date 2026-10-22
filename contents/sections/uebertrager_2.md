@@ -1,103 +1,103 @@
-In der Klasse E haben wir bereits die Grundlagen des Transformators kennengelernt. Er besteht aus zwei Spulen, die über einen Eisen- oder Ferritkern magnetisch gekoppelt sind. Damit die Seiten auseinandergehalten werden können, spricht man von Primärseite mit der Windungszahl $N_P$ und der Sekundärseite mit der Windungszahl $N_S$.
+In Class E we have already met the basics of the transformer. It consists of two coils that are magnetically coupled through an iron or ferrite core. To tell the two sides apart, we speak of the primary side, with the number of turns $N_P$, and the secondary side, with the number of turns $N_S$.
 
-Das Transformatorprinzip beruht auf einem grundlegenden physikalischen Effekt: der elektromagnetischen Induktion. Ändert sich das Magnetfeld in einer Spule – wie es beim Anlegen einer Wechselspannung der Fall ist – so wird in einer benachbarten, magnetisch gekoppelten Spule eine elektrische Spannung induziert. Diese ist gemäß dem Induktionsgesetz so gerichtet, dass sie der Ursache ihrer Entstehung entgegenwirkt. Man spricht daher auch von *Gegeninduktion*.
+The transformer principle is based on a fundamental physical effect: electromagnetic induction. If the magnetic field in one coil changes – as it does when an AC voltage is applied – a voltage is induced in a neighbouring, magnetically coupled coil. According to the law of induction, this voltage is directed so that it opposes the cause that produced it. This is therefore also called *mutual induction*.
 
 [question:AC301]
 
-In der Klasse E haben wir bereits die Formel für das Übersetzungsverhältnis $ü$ kennengelernt:
+In Class E we have already met the formula for the transformation ratio $ü$:
 
 $ü = \frac{N_P}{N_S} = \frac{U_P}{U_S}$
 
-Für die Ströme gilt entsprechend umgekehrt:
+For the currents, the reverse applies accordingly:
 
 $ü = \frac{N_P}{N_S} = \frac{I_S}{I_P} = \frac{U_P}{U_S}$
 
-Mit dieser Formel, die auch in der Formelsammlung zu finden ist, kann die nächste Frage gelöst werden:
+With this formula, which can also be found on the formula sheet, the next question can be solved:
 
 [question:AC302]
 
 ---
 
-Da stromführende Leitungen nicht übermäßig erwärmt werden dürfen, um Schäden an der Isolation oder sogar ein Glühen des Leiters zu vermeiden, darf eine bestimmte maximale Stromstärke in Abhängigkeit vom Leiterquerschnitt nicht überschritten werden. Setzt man die Stromstärke in Bezug zum Leiterquerschnitt in $\unit{\milli\meter\squared}$, so erhält man die sogenannte Stromdichte $S$. Für Transformatoren gilt nach den relevanten Normen, dass eine maximale Stromdichte von etwa $\qty{2,5}{\ampere\per\milli\meter\squared}$ nicht überschritten werden sollte.
+Since current-carrying wires must not get excessively hot, to avoid damage to the insulation or even the conductor glowing, a certain maximum current, depending on the cross-sectional area of the conductor, must not be exceeded. If the current is related to the cross-sectional area of the conductor in $\unit{\milli\meter\squared}$, we get the so-called current density $S$. For transformers, the relevant standards specify that a maximum current density of about $\qty{2.5}{\ampere\per\milli\meter\squared}$ should not be exceeded.
 
-Die Berechnungsformel lautet (siehe Formelsammlung -  Stichwort: Belastbarkeit von Wicklungen):
+The formula is (see the formula sheet – keyword: current rating of windings (*Belastbarkeit von Wicklungen*)):
 
 $I = S \cdot A_\mathrm{Dr}$
 
 <unit>
-Stromdichte $S = \frac{I}{A} $ in  $\unit{\ampere\per\milli\meter\squared}$
+Current density $S = \frac{I}{A} $ in  $\unit{\ampere\per\milli\meter\squared}$
 </unit>
 
 <indepth>
-Nach VDE ist für frei verlegte Leiter aus Kupfer die maximal zulässige Stromstärke mit $\qty{12}{\ampere}$ bei einer Querschnittsfläche von $\qty{0,75}{\milli\meter\squared}$ festgelegt. Bei Schmelzsicherungen kann die Stromdichte bis zu $\qty{3000}{\ampere\per\milli\meter\squared}$ erreichen.
+According to the VDE, the maximum permitted current for copper conductors installed in free air is set at $\qty{12}{\ampere}$ for a cross-sectional area of $\qty{0.75}{\milli\meter\squared}$. In fuses, the current density can reach as much as $\qty{3000}{\ampere\per\milli\meter\squared}$.
 </indepth>
 
-Versuche nun die folgende Frage zu beantworten. Dafür brauchst du die Formel für die Querschnittsfläche eines Leiters und die Formel für die Belastbarkeit von Wicklungen. Achte darauf, dass die Einheiten korrekt umgerechnet werden.
+Now try to answer the following question. For it you need the formula for the cross-sectional area of a conductor and the formula for the current rating of windings. Make sure that the units are converted correctly.
 
 [question:AC307]
 
 ---
 
-Eines der wichtigsten Anwendungsgebiete von Transformatoren in der Hochfrequenztechnik ist die **Impedanzanpassung**. Hierbei werden Transformatoren als sogenannte Anpassungsübertrager eingesetzt.
+One of the most important applications of transformers in radio-frequency engineering is **impedance matching**. Here transformers are used as so-called matching transformers.
 
-Im Gegensatz zu Netztransformatoren besteht der Kern solcher Übertrager meist nicht aus massivem Eisen, sondern aus gepresstem Eisenpulver oder Ferrit. Diese Materialien sind für hohe Frequenzen besser geeignet und reduzieren Verluste.
+Unlike mains transformers, the core of such transformers is usually not made of solid iron but of pressed iron powder or ferrite. These materials are better suited to high frequencies and reduce losses.
 
 <indepth>
-Unter *Anpassung* versteht man, dass die Impedanz einer Quelle (z. B. eines Senders) möglichst genau an die Impedanz der Last (z. B. einer Antenne) angepasst wird. Nur bei guter Anpassung kann die Leistung optimal übertragen werden, ohne dass ein Teil der Energie reflektiert wird.
+*Matching* means that the impedance of a source (e.g. a transmitter) is made to match the impedance of the load (e.g. an antenna) as closely as possible. Only with good matching can the power be transferred optimally, without part of the energy being reflected.
 </indepth>
 
-Ein Anpassungsübertrager hat daher die Aufgabe, eine gegebene Impedanz in eine andere umzuwandeln, sodass Quelle und Last möglichst gut zueinander passen.
+A matching transformer therefore has the job of converting a given impedance into another, so that source and load suit each other as well as possible.
 
 ---
 
-In der Formelsammlung finden wir die Formel für das Übersetzungsverhältnis $ü$:
+On the formula sheet we find the formula for the transformation ratio $ü$:
 
 $ü = \sqrt{\frac{Z_p}{Z_s}} = \frac{N_p}{N_s} = \frac{U_p}{U_s}$
 
-Quadriert man die Seiten der Gleichung ergibt sich: 
+Squaring both sides of the equation gives: 
 
 
 $ü^2 = \frac {Z_p}{Z_s} = \left(\frac{N_p}{N_s}\right)^2 = \left(\frac{U_p}{U_s}\right)^2$
 
-Daran erkennt man, dass das Impedanzverhältnis ist das Quadrat des Spannungsverhältnisses und damit auch das Quadrat des Windungszahlenverhältnisses. Oder anders herum gesagt, ein bestimmtes Windungsverhältnis führt zu einem quadratisch höheren Impedanzverhältnis.
+This shows that the impedance ratio is the square of the voltage ratio and so also the square of the turns ratio. Or, put the other way round, a given turns ratio leads to an impedance ratio that is its square.
 
 <indepth>
-Herleitung der Formel zur Impedanzübertragung:
+Derivation of the formula for impedance transformation:
 $ P_p = P_s$
 $U_p \cdot I_p = U_s \cdot I_s$
-Für $U$ das Ohmsche Gesetz einsetzen: $U = I \cdot R$;
-$R$ wird durch $Z$ ersetzt
+Substitute Ohm's law for $U$: $U = I \cdot R$;
+$R$ is replaced by $Z$
 $(I_p \cdot Z_p) \cdot I_p = (I_s \cdot Z_s) \cdot I_s$
-Das Impedanzverhältnis auf einer Seite bilden:
+Form the impedance ratio on one side:
 $ \frac{Z_p}{Z_s} = \frac{{I_s}^2}{{I_p}^2} = ü^2$
-Alternativ für $I$ das Ohmsche Gesetz einsetzen:
+Alternatively, substitute Ohm's law for $I$:
 $I = \frac{U}{R}$
-$R$ wird durch $Z$ ersetzt
+$R$ is replaced by $Z$
 $\frac{U_p}{Z_p} \cdot U_p  = \frac{U_s}{Z_s} \cdot U_s$
-Das Impedanzverhältnis auf einer Seite bilden:
+Form the impedance ratio on one side:
 $ \frac{Z_p}{Z_s} = \frac{{U_p}^2}{{U_s}^2} = ü^2$
 </indepth>
 
 ---
 
-Als Beispiel betrachten wir eine endgespeiste Antenne, die wir in einem späteren Kapitel noch genauer untersuchen werden. Deren Eingangsimpedanz beträgt etwa $\qty{2450}{\ohm}$ und ist damit deutlich hochohmig. Sie soll an einen Sender mit einer Lastimpedanz von $\qty{50}{\ohm}$ angepasst werden.
+As an example, let us consider an end-fed antenna, which we will examine more closely in a later chapter. Its input impedance is about $\qty{2450}{\ohm}$, which is distinctly high. It is to be matched to a transmitter with a load impedance of $\qty{50}{\ohm}$.
 
 <margin>
-[picture:260:a_endgespeiste_antenne:Endgespeiste Antenne mit Impedanzanpassung durch einen Übertrager]
+[picture:260:a_endgespeiste_antenne:End-fed antenna with impedance matching by a transformer]
 </margin>
 
-Für die Impedanzübertragung von $\qty{50}{\ohm}$ auf $\qty{2450}{\ohm}$ ist das Verhältnis $Z_p:Z_s = \qty{50}{\ohm}:\qty{2450}{\ohm} = 1:49$. Das bedeutet $ü^2 = 1:49$ und damit $ü=\sqrt{1}:\sqrt{49}=1:7$. Das bedeutet, dass die Primärseite nur ein Siebtel der Windungen der Sekundärseite haben darf, damit die Impedanzanpassung gelingt, z.B. $N_p=1$ und $N_s=7$. In der Praxis wird üblicherweise ein Windungsverhältnis von $2:14$ verwendet (vgl. Abbildung [ref:a_unun]).
+To transform the impedance from $\qty{50}{\ohm}$ to $\qty{2450}{\ohm}$, the ratio is $Z_p:Z_s = \qty{50}{\ohm}:\qty{2450}{\ohm} = 1:49$. This means $ü^2 = 1:49$ and so $ü=\sqrt{1}:\sqrt{49}=1:7$. This means that the primary side may have only one seventh of the turns of the secondary side for the impedance matching to work, e.g. $N_p=1$ and $N_s=7$. In practice, a turns ratio of $2:14$ is usually used (see Figure [ref:a_unun]).
 
 <margin>
-[photo:332:a_unun:Beispiel für einen Unun-Übertrager mit einem Windungsverhältnis von 2 zu 14, wobei die Primärseite und Sekundärseite zusammen bifilar (verdrillt) gewickelt sind]
+[photo:332:a_unun:Example of an unun transformer with a turns ratio of 2 to 14, with the primary and secondary wound together bifilar (twisted)]
 </margin>
 
-Die folgende Aufgabe entspricht im Wesentlichen dem zuvor betrachteten Beispiel. Für einen endgespeisten Dipol wird hier eine Eingangsimpedanz von etwa $\qty{2,5}{\kilo\ohm}$ angegeben. In der Praxis schwankt dieser Wert jedoch, abhängig von Umgebung und Aufbau, typischerweise im Bereich von etwa $\qty{2}{\kilo\ohm}$ bis $\qty{3}{\kilo\ohm}$. 
-Mit einem Windungsverhältnis von etwa $1:7$ lässt sich dennoch in der Regel eine ausreichend gute Anpassung an $\qty{50}{\ohm}$ erreichen.
+The following question corresponds essentially to the example above. Here an input impedance of about $\qty{2.5}{\kilo\ohm}$ is given for an end-fed dipole. In practice, however, this value varies with the surroundings and the construction, typically in the range of about $\qty{2}{\kilo\ohm}$ to $\qty{3}{\kilo\ohm}$. 
+With a turns ratio of about $1:7$, a sufficiently good match to $\qty{50}{\ohm}$ can nevertheless usually be achieved.
 
 [question:AC306]
 
-Versuche nun, die folgenden Fragen selbständig mit deinem Wissen zu lösen.
+Now try to solve the following questions on your own with what you know.
 
 [question:AC305]
 [question:AC303]

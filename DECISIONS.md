@@ -350,6 +350,23 @@ and the checker's "Provjera" section).
   *EspaniA*, *JApan*, *Zea-Land*) stay, and German glosses inside them are
   translated (*CosTa (Küste)* → "CosTa (coast)"). (Unit
   nea_internationaler_funkbetrieb.)
+- **Formula-sheet keywords: English, with the German keyword in
+  brackets.** The course text points to entries of the formula sheet
+  ("siehe Formelsammlung – Stichwort: Induktivität einer Ringkernspule").
+  The formula sheet used in the examination is the German one, so the
+  reader has to find the German entry: "see the formula sheet – keyword:
+  inductance of a toroidal coil (*Induktivität einer Ringkernspule*)". The
+  English says what the entry is about, the bracket is what to look for.
+  A bare "(vgl. Formelsammlung)" stays "(see the formula sheet)". (Unit
+  nea_bauelemente_1.)
+- **German memory rhymes are kept, with the English meaning in
+  brackets**, as the country-prefix mnemonics above: *Beim
+  Kondensatooor eilt der Strom vooor!* → the same, followed by "(in the
+  capacitor, the current leads)"; *Bei der Induktivitääät kommt der
+  Strom zu spääät!* → "(in the inductance, the current comes too late)".
+  The rhyme is the point of the mnemonic and cannot be translated; an
+  established English mnemonic (such as *CIVIL*) would be an addition,
+  not a translation. (Unit nea_bauelemente_1.)
 
 ## Open questions for DARC
 

@@ -2089,6 +2089,33 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Wicklungsanzahl | number of turns | as *Windungszahl* (§4) |
 | gleichgerichtetes Feld | a field pointing in one direction | the uniform field's lines all run one way (e_feld slides); not *rectified*, which is *gleichgerichtet* for a voltage |
 | Naturforscher (historisch) | natural philosopher | the period term for a scientist before about 1850 (Ørsted, 1820, h_feld); a modern *Naturforscher* is a *scientist*. The German's *Oerstedt* is written *Ørsted* |
+| elektrische Feldkonstante / magnetische Feldkonstante | electric constant / magnetic constant | $\varepsilon_0$, $\mu_0$ (kondensator_1, spule_1) |
+| relative Dielektrizitätszahl / relative Permeabilität | relative permittivity / relative permeability | as §4 *Dielektrizitätszahl* |
+| magnetische Flussdichte | magnetic flux density | |
+| Selbstinduktion / Selbstinduktionsspannung / Induktionsgesetz | self-induction / self-induced voltage / law of induction | |
+| Lenzsche Regel | Lenz's law | |
+| Wirbelströme | eddy currents | |
+| Kupferlackdraht / versilberter Kupferdraht | enamelled copper wire / silver-plated copper wire | |
+| Festkondensator / gepolter Kondensator / Tantalkondensator | fixed capacitor / polarised capacitor / tantalum capacitor | |
+| Trimmkondensator / Lufttrimmer / Luftdrehkondensator | trimmer capacitor / air trimmer / air-spaced variable capacitor | |
+| Drehkondensator (neben *veränderliche Kondensatoren*) | rotary variable capacitor | where the German names it as one kind of *veränderlicher Kondensator*, so that the list does not read "variable capacitors in the form of variable capacitors"; alone it stays *variable capacitor* (§4, EC206) (kondensator_1) |
+| Folien-Wickelkondensator / Folienwickelkondensator | wound film capacitor | |
+| ESR / ESL | equivalent series resistance (ESR) / equivalent series inductance (ESL) | the symbols $R_\text{ESR}$, $R_\text{Isolator}$, $L_\text{ESL}$ stay |
+| Antennenanalyzer / vektorieller Network Analyzer | antenna analyser / vector network analyser (VNA) | British *analyser*, as §11 |
+| Zweikanal-Oszilloskop | dual-channel oscilloscope | |
+| Zeigerdiagramm / rotierender Zeiger / Einheitskreis | phasor diagram / rotating pointer / unit circle | *pointer* for the line in the drawing (phase, AB302) |
+| Bogenmaß / Winkelmaß (Grad) | radians / degrees | "im Bogenmaß angeben" → "give in radians" |
+| Satz des Pythagoras / geometrische Addition | Pythagoras' theorem / geometric addition (geometric sum) | |
+| Scheinwiderstand (neben *Impedanz*) | impedance | English has one word for both; where the German equates $|Z|$ with the *Scheinwiderstand*, the German word is named once: "is what German calls the *Scheinwiderstand*" (kondensator_2, spule_2); otherwise *Scheinwiderstand* → impedance (§5) |
+| Übertrager oder Transformator, kurz Trafo (als Synonyme) | transformer | the German names in brackets where the text introduces them: "the *transformer* (in German *Übertrager* or *Transformator*, *Trafo* for short)" (uebertrager_1); *signal / power transformer* only where the German contrasts them (§4) |
+| Leerlauffall | open-circuit case | as §3 *Leerlauf* |
+| Stromdichte / Belastbarkeit von Wicklungen | current density / current rating of windings | the formula-sheet entry for $I = S \cdot A_\mathrm{Dr}$ (AC307) |
+| frei verlegte Leiter | conductors installed in free air | VDE current ratings |
+| Pulvereisenringkern / Ferritringkern | iron-powder toroidal core / ferrite toroidal core | |
+| Weißblech | tinplate | screening |
+| Unun-Übertrager / bifilar (verdrillt) gewickelt | unun transformer / wound bifilar (twisted) | |
+| Stichwort (Formelsammlung) | keyword | "(siehe Formelsammlung – Stichwort: Induktiver Blindwiderstand)" → "(see the formula sheet – keyword: inductive reactance (*Induktiver Blindwiderstand*))" (DECISIONS.md) |
+| Merkhilfe (Reim): Beim Kondensatoooor eilt der Strom vooor / Bei der Induktivitäääät kommt der Strom zu spääät | the German rhyme kept, English meaning in brackets: "(in the capacitor, the current leads)", "(in the inductance, the current comes too late)" | as the country-prefix mnemonics (DECISIONS.md) |
 
 ## 15. Catalogue structure
 

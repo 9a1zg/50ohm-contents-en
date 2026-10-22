@@ -1,49 +1,49 @@
 <left>
-[photo:268:a_I eilt vor:Phasenverschiebung am Kondensator zwischen Spannung und Strom]
+[photo:268:a_I eilt vor:Phase shift between voltage and current in a capacitor]
 </left>
 <right>
-* Phasenverschiebung von $\qty{90}{\degree}$
-* Strom eilt der Spannung voraus
+* Phase shift of $\qty{90}{\degree}$
+* The current leads the voltage
 </right>
 <note>
-Merke: Kondensatoooor, Strom eilt vooor!
+Remember: Kondensatoooor, Strom eilt vooor! (capacitor: the current leads)
 </note>
 ---
 [question:AC101]
 ---
-### Wirkleistung
+### Real power
 <left>
-[picture:943:a_Blindleistung Kondensator:Das Produkt von $U \cdot I$ ergibt die grüne Leistungskurve]
+[picture:943:a_Blindleistung Kondensator:The product $U \cdot I$ gives the green power curve]
 </left>
 <right>
-* Die grüne Leistungskurve ist das Produkt von Strom und Spannung
-* Die Leistung schwankt symmetrisch um die Nulllinie und gleicht sich aus
-* *Blindleistung* an einem *Blindwiderstand*
+* The green power curve is the product of current and voltage
+* The power swings symmetrically about the zero line and cancels out
+* *Reactive power* in a *reactance*
 </right>
 ---
 [question:AC111]
 <note>
-Im eingeschwungenen Zustand fließt nahezu kein Strom mehr, weshalb die Leistung ebenso nahezu 0W ist.
+In the steady state almost no current flows any more, which is why the power is also almost 0W.
 </note>
 ---
-* Wirkleistung wird nur in einem ohmschen Widerstand umgesetzt (Strom und Spannung in Phase)
-* Blindwiderstand nimmt keine Wirkenergie auf
-* Wird deshalb nicht warm
-* Ein warmer Kondensator bei Hochfrequenz hat einen ohmschen Anteil und sollte ersetzt werden
+* Real power is converted only in an ohmic resistance (current and voltage in phase)
+* A reactance absorbs no real energy
+* So it does not get warm
+* A capacitor that gets warm at radio frequency has a resistive part and should be replaced
 
 ---
 [question:AC103]
 
 --- style="font-size: smaller;"
-### Kapazitiver Blindwiderstand $X_{\textrm{C}}$
+### Capacitive reactance $X_{\textrm{C}}$
 
-Kondensator wird an Wechselspannung angeschlossen ständig geladen und entladen $\rightarrow$ Wechselstromwiderstand / kapazitiver Blindwiderstand
+A capacitor connected to an AC voltage is constantly charged and discharged $\rightarrow$ AC resistance / capacitive reactance
 
 <fragment>
-1. Wenn die Frequenz der Wechselspannung an einem Kondensator erhöht wird, dann fließt mehr Strom; dies bedeutet, der kapazitive Blindwiderstand ist kleiner geworden.
+1. If the frequency of the AC voltage across a capacitor is increased, more current flows; this means that the capacitive reactance has become smaller.
 </fragment>
 <fragment>
-2. Wenn die Kapazität des Kondensators erhöht wird, dann steigt auch der Strom, d.h. der Blindwiderstand wird auch kleiner.
+2. If the capacitance of the capacitor is increased, the current rises as well, i.e. the reactance also becomes smaller.
 </fragment>
 
 <fragment>
@@ -51,17 +51,17 @@ $X_{\textrm{C}} = \frac{1}{\omega \cdot C} = \frac{1}{2\pi \cdot f \cdot C}$
 </fragment>
 
 <note>
-Ein VNA misst die Veränderung des Blindwiderstandes $X_C$ in Abhängigkeit der Frequenz
+A VNA measures how the reactance $X_C$ changes with frequency
 </note>
 ---
 [question:AC102]
 ---
 [question:AC104]
 ---
-#### Lösungsweg
-* gegeben: $C = \qty{10}{\pico\farad}$
-* gegeben: $f = \qty{100}{\mega\hertz}$
-* gesucht: $X_{\textrm{C}}$
+#### Solution
+* given: $C = \qty{10}{\pico\farad}$
+* given: $f = \qty{100}{\mega\hertz}$
+* required: $X_{\textrm{C}}$
 
 <fragment>
 $\begin{split} X_{\textrm{C}} &= \frac{1}{\omega \cdot C} = \frac{1}{2\pi \cdot f \cdot C}\\ &= \frac{1}{2\pi \cdot \qty{100}{\mega\hertz} \cdot \qty{10}{\pico\farad}}\\ &\approx \qty{159}{\ohm} \end{split}$
@@ -70,10 +70,10 @@ $\begin{split} X_{\textrm{C}} &= \frac{1}{\omega \cdot C} = \frac{1}{2\pi \cdot 
 ---
 [question:AC105]
 ---
-#### Lösungsweg
-* gegeben: $C = \qty{50}{\pico\farad}$
-* gegeben: $f = \qty{145}{\mega\hertz}$
-* gesucht: $X_{\textrm{C}}$
+#### Solution
+* given: $C = \qty{50}{\pico\farad}$
+* given: $f = \qty{145}{\mega\hertz}$
+* required: $X_{\textrm{C}}$
 
 <fragment>
 $\begin{split} X_{\textrm{C}} &= \frac{1}{\omega \cdot C} = \frac{1}{2\pi \cdot f \cdot C}\\ &= \frac{1}{2\pi \cdot \qty{145}{\mega\hertz} \cdot \qty{50}{\pico\farad}}\\ &\approx \qty{22}{\ohm} \end{split}$
@@ -81,38 +81,38 @@ $\begin{split} X_{\textrm{C}} &= \frac{1}{\omega \cdot C} = \frac{1}{2\pi \cdot 
 ---
 [question:AC106]
 ---
-#### Lösungsweg
-* gegeben: $C = \qty{100}{\pico\farad}$
-* gegeben: $f = \qty{100}{\mega\hertz}$
-* gesucht: $X_{\textrm{C}}$
+#### Solution
+* given: $C = \qty{100}{\pico\farad}$
+* given: $f = \qty{100}{\mega\hertz}$
+* required: $X_{\textrm{C}}$
 
 <fragment>
-$\begin{split} X_{\textrm{C}} &= \frac{1}{\omega \cdot C} = \frac{1}{2\pi \cdot f \cdot C}\\ &= \frac{1}{2\pi \cdot \qty{100}{\mega\hertz} \cdot \qty{100}{\pico\farad}}\\ &\approx \qty{15,9}{\ohm} \end{split}$
+$\begin{split} X_{\textrm{C}} &= \frac{1}{\omega \cdot C} = \frac{1}{2\pi \cdot f \cdot C}\\ &= \frac{1}{2\pi \cdot \qty{100}{\mega\hertz} \cdot \qty{100}{\pico\farad}}\\ &\approx \qty{15.9}{\ohm} \end{split}$
 </fragment>
 
 ---
 [question:AC107]
 ---
-#### Lösungsweg
-* gegeben: $C = \qty{100}{\pico\farad}$
-* gegeben: $f = \qty{435}{\mega\hertz}$
-* gesucht: $X_{\textrm{C}}$
+#### Solution
+* given: $C = \qty{100}{\pico\farad}$
+* given: $f = \qty{435}{\mega\hertz}$
+* required: $X_{\textrm{C}}$
 
 <fragment>
-$\begin{split} X_{\textrm{C}} &= \frac{1}{\omega \cdot C} = \frac{1}{2\pi \cdot f \cdot C}\\ &= \frac{1}{2\pi \cdot \qty{435}{\mega\hertz} \cdot \qty{100}{\pico\farad}}\\ &\approx \qty{3,7}{\ohm} \end{split}$
+$\begin{split} X_{\textrm{C}} &= \frac{1}{\omega \cdot C} = \frac{1}{2\pi \cdot f \cdot C}\\ &= \frac{1}{2\pi \cdot \qty{435}{\mega\hertz} \cdot \qty{100}{\pico\farad}}\\ &\approx \qty{3.7}{\ohm} \end{split}$
 </fragment>
 
 ---
 [question:AC108]
 ---
-#### Lösungsweg
+#### Solution
 <left>
-* gegeben: $U = \qty{16}{\volt}$
-* gegeben: $I = \qty{32}{\milli\ampere}$
+* given: $U = \qty{16}{\volt}$
+* given: $I = \qty{32}{\milli\ampere}$
 </left>
 <right>
-* gegeben: $f = \qty{50}{\hertz}$
-* gesucht: $C$
+* given: $f = \qty{50}{\hertz}$
+* required: $C$
 </right>
 
 <fragment>
@@ -120,18 +120,18 @@ $X_{\textrm{C}} = \frac{U}{I} = \frac{\qty{16}{\volt}}{\qty{32}{\milli\ampere}} 
 </fragment>
 
 <fragment>
-$\begin{split} X_{\textrm{C}} &= \frac{1}{\omega \cdot C} \\ \Rightarrow C &= \frac{1}{\omega \cdot X_{\textrm{C}}} = \frac{1}{2\pi \cdot f \cdot X_{\textrm{C}}}\\ &= \frac{1}{2\pi \cdot \qty{50}{\hertz} \cdot \qty{500}{\ohm}}\\ &\approx \qty{6,37}{\micro\farad}\end{split}$
+$\begin{split} X_{\textrm{C}} &= \frac{1}{\omega \cdot C} \\ \Rightarrow C &= \frac{1}{\omega \cdot X_{\textrm{C}}} = \frac{1}{2\pi \cdot f \cdot X_{\textrm{C}}}\\ &= \frac{1}{2\pi \cdot \qty{50}{\hertz} \cdot \qty{500}{\ohm}}\\ &\approx \qty{6.37}{\micro\farad}\end{split}$
 </fragment>
 
 ---
-### Kondensatorverluste
+### Capacitor losses
 
 <left>
-[photo:260:a_Kondensator Ersatzschaltbild:Ersatzschaltbild eines realen Kondensators mit einem seriellen Verlustwiderstand (ESR).]
+[photo:260:a_Kondensator Ersatzschaltbild:Equivalent circuit of a real capacitor with a series loss resistance (ESR).]
 </left>
 <right>
-* Verlustfaktor<br/>$\tan(\delta) = \frac{R}{X_C}$
-* Verluste in Dielektrikum und Zuleitung
+* Dissipation factor<br/>$\tan(\delta) = \frac{R}{X_C}$
+* Losses in the dielectric and the leads
 </right>
 
 ---

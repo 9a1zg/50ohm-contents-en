@@ -1,53 +1,53 @@
-## Induktivität
+## Inductance
 
 <left>
-* Jeder stromdurchflossene Leiter hat eine Induktivität
-* Um einen stromdurchflossenen Leiter entsteht ein Magnetfeld
-* In einem Leiter entsteht ein Strom, wenn dieser durch ein Magnetfeld bewegt wird
+* Every current-carrying conductor has inductance
+* A magnetic field arises around a current-carrying conductor
+* A current arises in a conductor when it is moved through a magnetic field
 </left>
 <right>
-[picture:833:e_spule_magnetfeld_um_leiter:Magnetfeld um einen stromdurchflossenen Leiter]
+[picture:833:e_spule_magnetfeld_um_leiter:Magnetic field around a current-carrying conductor]
 </right>
 
 ---
 [question:EC304]
 
 --- style="font-size: smaller;"
-## Spule und Induktivität
+## Inductor and inductance
 
-* Eine Spule optimiert die Induktivität eines Leiters
-* Wichtigste Eigenschaft der Spule: Energie speichern
+* An inductor optimises the inductance of a conductor
+* The most important property of an inductor: storing energy
 
 $L = \dfrac{N\cdot \Phi}{I}$
 
-* mit $N$ Anzahl Windungen und $\Phi$ als magnetischer Fluss
-* Einheit: $\unit{\volt\second\per\ampere}$ bzw. Henry $\unit{\henry}$
-* Die Induktivität ist der magnetische Fluss pro Ampere
+* with $N$ the number of turns and $\Phi$ the magnetic flux
+* Unit: $\unit{\volt\second\per\ampere}$ or henry $\unit{\henry}$
+* Inductance is the magnetic flux per ampere
 
 <note>
-* Henry von Joseph Henry (1797 - 1878)
+* Henry after Joseph Henry (1797 - 1878)
 </note>
 
 --- style="font-size: smaller;"
-## Induktivität durch Bauart
+## Inductance from the construction
 
 <left>
-* Die Induktivität einer Ringspule kann durch die Bauart erreicht werden
+* The inductance of a toroidal inductor can be set by the construction
 
 $L = \dfrac{\mu_0 \cdot \mu_r \cdot N^2 \cdot A_S}{l}$
 
-* $\rightarrow$ Induktivität ist größer bei größerem Querschnitt, anderem Kern oder kleinerer Länge
-* $\rightarrow$ Induktivität ist viel größer bei höherer Windungszahl
+* $\rightarrow$ inductance is greater with a larger cross-section, a different core or a shorter length
+* $\rightarrow$ inductance is much greater with more turns
 </left>
 <right>
-* $\mu_0 = \qty{1,2566e-6}{\henry\per\meter}$: magnetische Feldkonstante
-* $\mu_r$: relative Permeabilität, abhängig vom Spulenkern (Luft $\approx 1$)
-* $N$: Windungszahl
-* $A_S$: Querschnittsfläche der Spule
-* $l$: Länge der Spule bzw. mittlere Feldlinienlänge
+* $\mu_0 = \qty{1.2566e-6}{\henry\per\meter}$: magnetic constant
+* $\mu_r$: relative permeability, depends on the core (air $\approx 1$)
+* $N$: number of turns
+* $A_S$: cross-sectional area of the coil
+* $l$: length of the coil, or mean length of the field lines
 </right>
 <note>
-* Nur das Verständnis ist wichtig, Berechnung ist Klasse A Stoff
+* Only the understanding matters; the calculation is Class A material
 </note>
 
 ---
@@ -64,18 +64,18 @@ $L = \dfrac{\mu_0 \cdot \mu_r \cdot N^2 \cdot A_S}{l}$
 [question:EB204]
 ---
 
-### Stromfluss über eine Spule
+### Current through an inductor
 
 <left>
-* Strom braucht länger durch die Spule
-* Erst leuchtet Lampe$_1$
-* Später leuchtet Lampe$_2$
+* The current takes longer through the inductor
+* Lamp$_1$ lights first
+* Lamp$_2$ lights later
 </left>
 <right>
-[picture:541:e_stromkreis_mit_spule:Stromkreis mit Spule]
+[picture:541:e_stromkreis_mit_spule:Circuit with an inductor]
 </right>
 <note>
-* Bei Induktivitäten, Ströme sich verspäten
+* Bei Induktivitäten, Ströme sich verspäten (in inductances, the currents are late)
 </note>
 ---
 
@@ -83,26 +83,26 @@ $L = \dfrac{\mu_0 \cdot \mu_r \cdot N^2 \cdot A_S}{l}$
 
 ---
 
-## Einschaltkurve Spule
+## Switch-on curve of an inductor
 
 <left>
-* Eine Spule wird an Gleichspannung angeschlossen
-* Die Spannung nimmt steil ab und gleicht sich mit der Zeit 0 an
+* An inductor is connected to a DC voltage
+* The voltage falls steeply and approaches 0 over time
 </left>
 <right>
-[picture:186:e_einschaltkurve_spule:Zeitlicher Verlauf einer Gleichspannung über eine Spule]
+[picture:186:e_einschaltkurve_spule:Variation with time of a DC voltage across an inductor]
 </right>
 
 ---
 [question:EC301]
 --- 
 
-## Spule im Wechselstrom
+## Inductor with alternating current
 
-* Im Gleichstromkreis wirkt eine Spule erst wie ein unendlich großer Widerstand, wird dann aber nach dem Einschaltvorgang so groß wie der Widerstand des Leiters
-* Bei Wechselstrom wird das Magnetfeld in der Spule ständig umgepolt
-* Dadurch entsteht eine Selbstinduktionsspannung, die entgegengerichtet ist und stört
-* Je höher die Frequenz, umso höher ist der Wechselstromwiderstand der Spule
+* In a DC circuit an inductor at first acts like an infinitely large resistance, but after switching on its resistance becomes that of the wire
+* With alternating current the magnetic field in the inductor is constantly reversed
+* This produces a self-induced voltage that opposes the current and gets in the way
+* The higher the frequency, the higher the AC resistance of the inductor
 
 ---
 [question:EC303]
