@@ -74,3 +74,47 @@ entry (nea_bauelemente_1).
 - solutions/AK105.md — "$\qty{-6}{\dB}$-Dämpfung": an attenuation of −6 dB would be a gain; either −6 dB or an attenuation of 6 dB. Translated as written.
 - sections/naeherungsformel_1.md — `$\qty{1,5}{dB}$` without backslash, so the unit is not typeset as the dB symbol (left unchanged); "plus der Gewinn von 2,15 dBi für den isotropen Strahler": the 2.15 dBi is the dipole's gain over the isotropic radiator (rendered as described above).
 - Typos with no effect on the English: sections/naeherungsformel_1.md "zu Berechnen" (*berechnen*), "Wir finden Sie" (*sie*), "Das Fernfeld einer Strahlungsquelle, ist" (stray comma) and "($E$), der magnetischen" (*und* missing), "können wir … ermittelt werden" (mixed construction), "wenn der er", "Das wie oben schnell geprüft werden" (*kann* missing); sections/personenschutzabstand_richtantennen.md "über den … Bereich hinweg, also dem Bereich" (*den*), "halbiert sich … auf die Hälfte" (redundant); sections/personenschutzabstand_3.md "wird Leistung am Speisepunkt …, der Gewinnfaktor und die Entfernung gebraucht" (*werden*, article missing); solutions AK106–AK113 "Lösungschritte" (*Lösungsschritte*); AK105 "vom vorgegeben Wert" (*vorgegebenen*), 'im Kapitel "Strahlungsleistung und Gewinn" von Antennen' (*von Antennen* outside the quoted name); AK106 "das $\qty{10}{\meter}$ Band" (hyphen); slides/naeherungsformel_2.md "Sicherheitsabstandberechnung" (*Sicherheitsabstandsberechnung*).
+
+## Provjera
+
+All 19 files compared paragraph by paragraph with the German of
+`a6a8a6e~1`; the embedded questions (EK105, EK106, EK108, AK102–AK115)
+looked up in English. The translation is complete and faithful, the
+calculations and every number match, and the prose follows the questions'
+wording ("far-field approximation formula", "reactive near field",
+"measurements of the E- and H-field components, simulations or near-field
+calculations", "limit for the protection of persons", "area that is not
+controllable", "critical angle", "direction of maximum radiation",
+"effective radiated power (ERP)").
+
+Changes: omission 0, meaning 1, technical 0, style 5, glossary 0.
+
+- slides/naeherungsformel_1.md (meaning): the EK105 slide note *Liegt im
+  Nahfeld, was wir vorher ausgerechnet haben* said "It lies in the near
+  field, as we calculated before"; the German says that what we calculated
+  before lies in the near field — now "What we calculated before lies in
+  the near field".
+- slides/naeherungsformel_1.md (style): bonus question "Is the calculated
+  5 m not in the near field …?" → "Isn't the calculated 5 m in the near
+  field …?", the natural English form of the negative question.
+- sections/naeherungsformel_1.md (style): "We find it on the formula sheet"
+  → "We can find it …"; "plus the gain of 2.15 dBi for referring it to the
+  isotropic radiator" → "… to refer it to the isotropic radiator" (the
+  translator's judgement call kept, wording smoothed).
+- sections/naeherungsformel_2.md (style): "on the form of the antenna" →
+  "on the type of antenna", as the same section says "many types of
+  antenna" for *Antennenformen*.
+- sections/personenschutzabstand_richtantennen.md (style): "The most power
+  is radiated" → "Most power is radiated".
+
+The 12 glossary rows are kept: they follow §1.4, §9 and §14 and the wording
+of EK105, EK106, AK102 and AK105. No DECISIONS.md entry was needed, and the
+other judgement calls are kept — *Faktor_FmodPers* as a symbol, "impedance
+of free space" for $Z_0$ with its slip translated as written, EIRP for
+*effektive isotrope Strahlungsleistung (EIRP)* by the existing decision,
+"effective radiated power" in AK115, the solution headings, and "an
+attenuation of −6 dB" in AK105 as the German writes it. The suspected
+errors in the German, among them the AK114 slide copied from AK115, are
+confirmed and stay listed for DARC.
+
+`revizija-guard.py --rev a6a8a6e~1 --brojevi`: 19 files, *struktura netaknuta*.

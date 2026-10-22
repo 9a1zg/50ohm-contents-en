@@ -20,7 +20,7 @@ $Z_0 \approx \qty{120\pi}{\ohm} \approx \qty{377}{\ohm}$
 
 $\frac{Z_0}{4\pi} \approx \frac{\qty{120\pi}{\ohm}}{4\pi} = \qty{30}{\ohm}$
 
-This gives the approximation formula known from Class E. At the same time it becomes clear why it must not be used in the reactive near field: there the wave impedance is not constant but depends strongly on the distance, on the form of the antenna and on the direction considered. For calculations in the reactive near field, i.e. for distances $d \le \frac{\lambda}{2\pi}$, more detailed calculations, numerical simulations or measurements are therefore generally required. 
+This gives the approximation formula known from Class E. At the same time it becomes clear why it must not be used in the reactive near field: there the wave impedance is not constant but depends strongly on the distance, on the type of antenna and on the direction considered. For calculations in the reactive near field, i.e. for distances $d \le \frac{\lambda}{2\pi}$, more detailed calculations, numerical simulations or measurements are therefore generally required. 
 
 <margin>
 [picture:1116:a_feldwellenwiderstand:Variation of the wave impedance across the near-field and far-field regions (logarithmic).]

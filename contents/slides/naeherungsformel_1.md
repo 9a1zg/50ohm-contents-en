@@ -48,7 +48,7 @@ $\begin{split} d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_{\textrm{EIRP}}}}{E}\\ &
 ---
 ### Bonus question
 
-Is the calculated $\qty{5}{\meter}$ not in the near field for the $\qty{10}{\meter}$ band in the question?
+Isn't the calculated $\qty{5}{\meter}$ in the near field for the $\qty{10}{\meter}$ band in the question?
 
 <fragment>
 $\begin{split} d &> \frac{\lambda}{2\pi}\\ \qty{5}{\meter} &> \frac{\qty{10}{\meter}}{2\pi}\\ \qty{5}{\meter} &\gtrapprox \qty{1.6}{\meter} \end{split}$
@@ -68,6 +68,6 @@ $\begin{split} d &> \frac{\lambda}{2\pi}\\ \qty{5}{\meter} &> \frac{\qty{10}{\me
 [question:EK105]
 
 <note>
-It lies in the near field, as we calculated before
+What we calculated before lies in the near field
 </note>
 

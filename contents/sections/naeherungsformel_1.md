@@ -1,4 +1,4 @@
-There is an approximation formula for calculating the safety distance. We find it on the formula sheet: 
+There is an approximation formula for calculating the safety distance. We can find it on the formula sheet: 
 
 $ E = \frac{\sqrt{\qty{30}{\ohm}\cdot P_\text{EIRP}}}{d} $
 
@@ -50,7 +50,7 @@ First we have to calculate the radiated power as $P_\textrm{EIRP}$. We also noti
 
 $P_\text{EIRP} = P_\text{Sender} \cdot 10^{\frac{g_d-a+\qty{2.15}{\dB}}{\qty{10}{\dB}}} = \qty{100}{\watt} \cdot 10^{\frac{\qty{7.5}{\dBd}-\qty{1.5}{\dB}+\qty{2.15}{\dB}}{\qty{10}{\dB}}} \approx \qty{653}{\watt}$
 
-The sum of the gains and losses of the whole antenna system is the antenna gain of $\qty{7.5}{\dBd}$, minus the cable loss of $\qty{1.5}{\dB}$, plus the gain of $\qty{2.15}{\dBi}$ for referring it to the isotropic radiator (the antenna gain is relative to the dipole).
+The sum of the gains and losses of the whole antenna system is the antenna gain of $\qty{7.5}{\dBd}$, minus the cable loss of $\qty{1.5}{\dB}$, plus the gain of $\qty{2.15}{\dBi}$ to refer it to the isotropic radiator (the antenna gain is relative to the dipole).
 
 Alternatively, as in the previous chapters, we can determine the corresponding factors for the gains and the loss.
 $\qty{7.5}{\dB} - \qty{1.5}{dB} = \qty{6}{\dB}$, which corresponds to a factor of $\num{4}$. The factor for $\qty{2.15}{\dBi}$ is $\num{1.64}$.

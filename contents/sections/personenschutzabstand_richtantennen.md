@@ -1,4 +1,4 @@
-When calculating safety distances, off-axis attenuation plays an important part with directional antennas. The most power is radiated in the centre of the radiation lobe. In other directions it is lower. If the antenna is high enough, it radiates for the most part over the area that is <u>not</u> controllable, that is, the area in which the limits must be complied with without fail. 
+When calculating safety distances, off-axis attenuation plays an important part with directional antennas. Most power is radiated in the centre of the radiation lobe. In other directions it is lower. If the antenna is high enough, it radiates for the most part over the area that is <u>not</u> controllable, that is, the area in which the limits must be complied with without fail. 
 
 <margin>
 [picture:950:a_richtantenne_personenschutz:At an angle of $\qty{40}{\degree}$ below the axis of the main lobe, the radiated power is $\qty{6}{\decibel}$ lower than at an angle of $\qty{0}{\degree}$.]
