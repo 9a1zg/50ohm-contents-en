@@ -631,3 +631,19 @@ and the checker's "Provjera" section).
 - Suspected slips in the German original noticed while translating are listed
   in each batch's notes; they are translated faithfully, not corrected, and
   collected for DARC separately.
+
+## Picture descriptions (alt texts)
+
+- **DARC's marker** "Dieser Alt-Text wurde noch nicht überprüft." becomes
+  "This alt text has not yet been checked." — it says the same thing about the
+  German original and stays until DARC checks the description.
+- **A description that is only "TODO"** in the German stays "TODO": there is
+  nothing to translate, and a faithful translation does not invent content DARC
+  has not written. (The Croatian project wrote some from the pictures; that is
+  a localisation choice, not this project's.)
+- **Labels quoted from a drawing** are given in English as the label will read
+  once the drawing is translated, with the German label in brackets only while
+  the drawing still shows German — see "Drawings" when that phase is done.
+- Descriptions follow the glossary, decimal point, units as symbols, British
+  spelling, like the course text. (2026-10-23)
+
