@@ -1,5 +1,5 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Kurzfassung: Schematische P‑N-Darstellung mit einem dunkelgrauen Mittelbereich und darunter ein Diodensymbol auf einer Leitung zwischen „0 V“ links und „+5 V“ rechts.
+Brief summary: Schematic P-N diagram with a dark grey middle area and below it a diode symbol on a line between "0 V" on the left and "+5 V" on the right.
 
-Detailbeschreibung: Oben ein waagerecht ausgerichtetes, von einem dünnen Rahmen umgebenes Rechteck, links darüber der Buchstabe „P“, rechts darüber der Buchstabe „N“. Im linken Bereich des Rechtecks („P“) befinden sich mehrere kleine Kreise mit Pluszeichen, im rechten Bereich („N“) mehrere kleine Kreise mit Minuszeichen. Zwischen den beiden Bereichen liegt ein senkrechter, dunkelgrau schattierter Streifen, der die Zonen trennt. Unterhalb dieser Darstellung verläuft eine horizontale Linie; in ihrer Mitte befindet sich ein Diodensymbol, bestehend aus einem nach rechts gerichteten Dreieck, das an einen senkrechten Strich anstößt. Links neben der Linie steht der Text „0 V“, rechts der Text „+5 V“.
+Detailed description: At the top, a horizontally aligned rectangle surrounded by a thin frame, above it on the left the letter "P", above it on the right the letter "N". In the left-hand part of the rectangle ("P") there are several small circles with plus signs, in the right-hand part ("N") several small circles with minus signs. Between the two parts lies a vertical, dark-grey shaded strip that separates the zones. Below this diagram runs a horizontal line; in its middle there is a diode symbol, consisting of a triangle pointing to the right that abuts a vertical stroke. To the left of the line is the text "0 V", to the right the text "+5 V".

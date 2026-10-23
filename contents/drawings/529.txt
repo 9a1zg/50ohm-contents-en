@@ -1,3 +1,3 @@
-1) Kurzbeschreibung: Perspektivisch gezeichneter, rechteckiger, schwarzer SMD-Widerstand mit der Aufschrift „103“.
+1) Short description: Rectangular black SMD resistor drawn in perspective, with the marking "103".
 
-2) Ausführliche Beschreibung: Die perspektivische Abbildung zeigt einen rechteckigen, schwarzen SMD-Widerstand mit weißer Aufschrift „103“. Die Seitenflächen sind grau schattiert.
+2) Detailed description: The perspective drawing shows a rectangular black SMD resistor with the white marking "103". The side faces are shaded grey.

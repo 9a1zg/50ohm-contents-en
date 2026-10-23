@@ -1,3 +1,3 @@
-1) Kurzbeschreibung: Horizontale Linie, aus der in der Mitte eine vertikale Linie nach oben ragt.
+1) Short description: Horizontal line from the middle of which a vertical line projects upwards.
 
-2) Ausführliche Beschreibung: Das Schaltzeichen besteht aus einer dicken horizontalen Linie, aus der in der Mitte eine etwas dünnere vertikale Linie nach oben ragt. Es gibt keine Beschriftungen, Achsen oder weiteren grafischen Elemente.
+2) Detailed description: The circuit symbol consists of a thick horizontal line, from the middle of which a somewhat thinner vertical line projects upwards. There are no labels, axes or further graphic elements.

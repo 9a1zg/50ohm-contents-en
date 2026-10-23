@@ -1,3 +1,3 @@
-1) Kurzbeschreibung: Elemente einer Richtantenne, dargestellt als drei horizontale Linien.
+1) Short description: Elements of a directional antenna, shown as three horizontal lines.
 
-2) Ausführliche Beschreibung: Dargestellt sind die drei Elemente einer Richtantenne. Oben gibt es eine lange, horizontale Linie, darunter eine etwas kürzere Linie, die an ihren Enden schleifenförmig nach unten zurückgebogen ist. An den Endpunkten der Schleife befindet sich jeweils ein durch einen kleinen Kreis dargestellter Anschlusspunkt. Die dritte horizontale Linie ist kürzer als die beiden oberen Linien. Am rechten Bildrand sind die Elemente von oben nach unten mit „1“, „2“ und „3“ bezeichnet.
+2) Detailed description: Shown are the three elements of a directional antenna. At the top there is a long horizontal line, below it a somewhat shorter line, which is bent back downwards in a loop at its ends. At each of the end points of the loop there is a connection point shown as a small circle. The third horizontal line is shorter than the two upper lines. At the right-hand edge of the picture the elements are marked "1", "2" and "3" from top to bottom.

@@ -1,3 +1,3 @@
-1) Kurzbeschreibung: Modulationshüllkurve eines AM-Signals mit fünf Maxima und vier Minima (obere Kurve) mit spiegeldbildlichem Verlauf nach unten sowie mit fast vertikal abfallenden Enden der einzelnen Schwingungen.
+1) Short description: Modulation envelope of an AM signal with five maxima and four minima (upper curve) with its mirror image below and with ends of the individual oscillations that fall almost vertically.
 
-2) Ausführliche Beschreibung: Die Abbildung zeigt die horizontale Modulationshüllkurve eines AM-Signals mit fünf Maxima und vier Minima (obere Kurve) und spiegeldbildlichem Verlauf nach unten. Die Enden jeder einzelnen Schwingung fallen fast vertikal ab. Die Kurve ist mit einer grauen Innenfläche und schwarzer Umrandung gezeichnet.
+2) Detailed description: The figure shows the horizontal modulation envelope of an AM signal with five maxima and four minima (upper curve) and its mirror image below. The ends of each individual oscillation fall almost vertically. The curve is drawn with a grey inner area and a black outline.

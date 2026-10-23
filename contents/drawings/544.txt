@@ -1,3 +1,3 @@
-1) Kurzbeschreibung: Lange vertikale Linie mit drei horizontalen parallelen, sich nach unten verjüngenden Linien am unteren Ende.
+1) Short description: Long vertical line with three horizontal parallel lines, tapering downwards, at its lower end.
 
-2) Ausführliche Beschreibung: Das Schaltzeichen besteht aus einer durchgehenden vertikalen Linie. Am unteren Ende sind drei horizontale, parallele Linien zu sehen, deren Länge im Verhältnis zueinander nach unten hin jeweils abnimmt. Es gibt keine Achsen, Maßstäbe, Text- oder Zahlenbeschriftungen und keine weiteren Bauteilsymbole.
+2) Detailed description: The circuit symbol consists of a continuous vertical line. At its lower end three horizontal parallel lines can be seen, whose length decreases from one to the next downwards. There are no axes, scales, text or numerical labels and no further component symbols.
