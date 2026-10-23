@@ -114,3 +114,42 @@ cycle (738); the water-analogy parts of 835–837.
 - 77 — the short description speaks of "einem parallelen horizontalen
   Leiter", the detailed description of two horizontal conductors. Translated
   as written ("one parallel horizontal conductor").
+
+## Provjera
+
+107 files compared with the German (`26b720c~1`): 98 left as they are,
+9 changed; glossary rows unchanged (the 13 new §14 rows checked against §5,
+§6, §10 and the earlier §14 rows, no conflicts). `alttext-check.py --rev
+26b720c~1`: 107 files, 0 with findings. No numbers missing; DARC's marker,
+section labels, bracketed German labels, decimal points and units as symbols
+all as the brief and §14 have them. The suspected errors in 748, 830 and 82
+checked against the `.tex` files (`foto/168`; 430.000, 2.320, 951.000; mixers
+X, Y, Z) and confirmed; 83 and 77 confirmed from the German text itself.
+
+- 784: "two MOSFET transistors drawn as mirror images "1" and "2"" → "two
+  MOSFET transistors "1" and "2", drawn as mirror images"; "a variable
+  resistor R_4 (top) or without a label (bottom) respectively" → "a variable
+  resistor: R_4 at the top, an unlabelled one at the bottom".
+- 772: "Each is brought via a 1 kΩ resistor to a diode …, where they are
+  brought together" → "The two are brought together at a diode …, each via a
+  1 kΩ resistor".
+- 787: "one orange vertical line each runs on the left, in the middle and on
+  the right" → "there is an orange vertical line on the left, one in the
+  middle and one on the right".
+- 788: *bei 20 bzw. 0,1λ* was "at 20 and 0.1λ respectively"; now "at 20, at
+  0.1λ" (one point, its y and x value).
+- 798: "falls slightly up to the edge" (*bis zum Bildrand*) → "as far as the
+  edge", "up" misreading as direction.
+- 799: *drei abnehmende Striche* "three decreasing strokes" → "three strokes
+  of decreasing length".
+- 810: "three yellow arrows pointing downwards point into" → "three yellow
+  arrows point down into".
+- 817: "After it (again) follows a black node" → "It is (again) followed by a
+  black node" (two sentences).
+- 819: "ends on the left and right in an open circle each" → "ends in an open
+  circle on the left and on the right".
+- Checked and kept: "Shown is a block diagram" (*Gezeigt ist*), as in the
+  earlier checked batches; "HF" ("HF (KW)") / "VHF" ("VHF (UKW)") in 749 and
+  829 as the new §14 row; "Skip zone" ("Tote Zone") as §10; "chassis" for
+  *Masse* and "earth symbol" for *Erdungssymbol* (§4, §14); 77's "one
+  parallel horizontal conductor" and 748's "Five batteries" as the German.

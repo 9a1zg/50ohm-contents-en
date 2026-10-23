@@ -5,8 +5,8 @@ Circuit diagram of a rectangular conductor loop with four resistors in series be
 
 2) Detailed description:
 - On the left two open round terminals can be seen one above the other (top and bottom), with no direct connection between them.
-- From the upper left terminal a horizontal conductor track leads to the right to a rectangular resistor with the inscription "R1 = 200 Ω". After it follows a black node.
-- Then comes a further rectangular resistor, labelled "R2,3,6 = 100 Ω". After it again follows a black node.
+- From the upper left terminal a horizontal conductor track leads to the right to a rectangular resistor with the inscription "R1 = 200 Ω". It is followed by a black node.
+- Then comes a further rectangular resistor, labelled "R2,3,6 = 100 Ω". It is again followed by a black node.
 - After that follows a third rectangular resistor with the inscription "R5,7,8 = 100 Ω". At the right-hand end of the upper line a further black dot can be seen.
 - From there the line runs vertically down along the right-hand edge and then horizontally to the left along the lower line.
 - At about the middle of the lower line is a fourth rectangular resistor with the label "R4 = 150 Ω".
