@@ -1,6 +1,6 @@
 This alt text has not yet been checked.
 
-Brief summary: Four sketches, arranged one above the other, of a straight conductor of length "λ/2" broken in the middle, with red current curves "I" above it for the excitations "f", "2·f", "3·f" and "4·f", each marked with "Ω" and an up or down arrow.
+Brief summary: Four sketches, arranged one above the other, of a straight conductor of length "λ/2" broken in the middle, with red current curves "I" above it for feeding at "f", "2·f", "3·f" and "4·f", each marked with "Ω" and an up or down arrow.
 
 Detailed description: At the very top a horizontal double-headed arrow shows the total length, with the label "λ/2" in the middle. Below it follow the rows labelled "a.", "b.", "c." and "d.":
 - a.: Black horizontal line with a narrow gap in the middle; at the gap, on the right, is "f", next to it "↓ Ω". Above the line runs a continuous red curve "I" (label "I" above on the left), as one broad arc with its maximum height in the middle and zero crossings at both ends.

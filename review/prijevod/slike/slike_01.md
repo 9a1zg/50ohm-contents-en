@@ -82,3 +82,22 @@ Allgemein*; *offener Anschlusskreis / Anschlussklemme / Knoten*; *Wellenlinie
   Π and a T attenuator, while the German caption in
   `vorverstaerker_daempfungsglied` reads "Vorverstärker im
   Überlagerungsempfänger" (English: "Preamplifier in a superhet").
+
+## Provjera
+
+Checked all 107 files against the German at `d0e7d7c~1`: 65 translated
+files compared sentence by sentence (55 full descriptions, 9 marker-only,
+1 marker + `TODO`), 42 `TODO`/empty files confirmed untouched. 5 files
+changed, 7 lines. `alttext-check.py --rev d0e7d7c~1`: 107 files, 0 with
+findings.
+
+- 1050 — *für die Anregungen „f“, „2·f“ …* "for the excitations" → "for
+  feeding at", as glossary §14 *Anregung (Dipol)* → "fed at".
+- 1007, 1014, 1023 — *Anschlussklemme(n)* "connecting terminal(s)" →
+  "terminal(s)", as the glossary row of this batch (§14) and 1003, 1017.
+- 1003 — *Schematischer Plan* "Schematic plan" → "Schematic diagram"
+  (natural English).
+
+Left as translated: the 1008 "overtone"/"Harmonics (OW)" pair (follows
+§14 and the course caption), 1049 "arm (boom)", 1053 "Π network", and the
+suspected German errors listed above, which are reported, not fixed.
