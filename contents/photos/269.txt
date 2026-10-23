@@ -1,5 +1,5 @@
 This alt text has not yet been checked.
 
-Brief summary: Phasor diagram of a right-angled impedance triangle with the axes R and X_L, the diagonal phasor Z and the markings I and φ.
+Brief summary: Vector diagram of a right-angled impedance triangle with the axes R and X_L, the diagonal phasor Z and the markings I and φ.
 
 Detailed description: At the bottom a black horizontal axis runs to the right, labelled R; at its right-hand end a black vertical axis rises upwards, labelled X_L. From the bottom left corner a blue diagonal with an arrowhead leads diagonally up to the right to the top of the vertical axis and is marked Z. On the lower horizontal lies a red arrow pointing to the right, labelled I. Between the red horizontal and the blue diagonal, at the left corner, the angle φ is drawn in magenta.

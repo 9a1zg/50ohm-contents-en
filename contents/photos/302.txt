@@ -1,5 +1,5 @@
 This alt text has not yet been checked.
 
-1) Short summary: Coloured phasor diagram with arrows and labels for I, R = 100 Ω, X_L = 628 Ω, Z = 636 Ω, U and φ.
+1) Short summary: Coloured vector diagram with arrows and labels for I, R = 100 Ω, X_L = 628 Ω, Z = 636 Ω, U and φ.
 
 2) Detailed description: On a white background several arrows start from a common point at the bottom left. A red arrow points horizontally to the right and is labelled I; beside it, in black, is "R = 100 Ω". A long black arrow points vertically upwards and is labelled "X_L = 628 Ω". A long green arrow runs diagonally up to the right and bears the label "Z = 636 Ω". A short blue arrow points diagonally upwards, near the starting point, and is marked "U". Right at the origin, in magenta, is the Greek letter φ. Visually the arrows form a right-angled triangle of horizontal, vertical and diagonal components.

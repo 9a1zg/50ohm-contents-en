@@ -1,7 +1,7 @@
 This alt text has not yet been checked.
 
 1. Short summary:
-Four large black electrolytic capacitors are mounted in a metal case and connected to red connecting cables via two bolted aluminium bars, with handwritten plus/minus markings and the inscriptions "+50V" and "7 × 10000 µF".
+Four large black electrolytic capacitors are mounted in a metal case and connected via two bolted aluminium bars with red connecting cables, with handwritten plus/minus markings and the inscriptions "+50V" and "7 × 10000 µF".
 
 2. Detailed description:
 In the foreground there are four cylindrical black capacitors in a row, with light-coloured printing such as "10000 µF -10…+30%" and the brand name "BEKO"; they stand in a metal tray. Above them lie two parallel silver-coloured aluminium bars, bolted down with several hexagon bolts and washers. Handwritten markings can be seen on the upper bar: a red "+", a black "-", and in black lettering "7 × 10000 µF". On the lower bar "+50V" is written in red. Red wires with ring cable lugs are connected at the ends and at several points of the bars; some of the connections are fitted with transparent insulating sleeves. In the background further components, conductors, solder joints and multicoloured cables can be seen inside the metal chassis. The scene shows tidy, bolted wiring, numbered markings on individual bolts and an altogether neatly built module inside a larger electronic unit.

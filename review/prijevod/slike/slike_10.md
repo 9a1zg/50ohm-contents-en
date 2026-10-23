@@ -108,3 +108,50 @@ Gleichstrom-Stromverteiler, Bundesadler* …).
   "A_L = 4,7 µH", which as an A_L value would be nH (per turn²) or µH per
   100 turns (47); the description quotes it correctly and the English keeps
   it as printed.
+
+## Provjera
+
+84 translated files compared with the German (`7156458~1`): 77 left as
+they are (among them the 9 marker-only files 322–330, newlines as in
+German), 7 changed; the 19 `TODO` files checked and unchanged; glossary rows
+unchanged (the 10 new §14
+rows checked against §1, §4, §9, §12, §14 and the slike_09 rows, no
+conflicts). `alttext-check.py --rev 7156458~1`: 103 files, 3 with findings,
+the same three as the translator reported (259, 319, 79): in each the words
+are inside a bracketed quoted German label, so they stay. No numbers missing;
+DARC's marker, section labels, bracketed German labels, printed text on
+photos, decimal points and units as symbols all as the brief and §14 have
+them. The screenshots 248 and 265 compared with the `.png`: further
+suspected errors in the German, added below; translated as written.
+
+- 3: first mention of the Act → "Amateur Radio Act (Amateurfunkgesetz,
+  AFuG)", as TRANSLATION.md has for German law and as 99 does for the AFuV.
+- 248: "from roughly around 70 Ω" (*grob um*) → "from roughly 70 Ω".
+- 262: "connected to red connecting cables via two bolted aluminium bars"
+  read as if the cables were the thing connected to → "connected via two
+  bolted aluminium bars with red connecting cables", as the German.
+- 264: *aufgeklebter Hinweis* "an attached note" → "a stuck-on note".
+- 269, 302: *Vektordiagramm* "phasor diagram" → "vector diagram"; the German
+  says vector, not *Zeigerdiagramm* (§14 → phasor diagram), and 261 already
+  has "vector/triangle diagram".
+- 301: *etwas oberhalb bzw. mit kleinerem Neigungswinkel* "slightly above
+  the green arrow or at a smaller angle of inclination than it" → "slightly
+  above the green arrow, i.e. at a smaller angle of inclination" (*bzw.* here
+  restates, it does not offer an alternative).
+- Checked and kept: the overlaid labels with bracketed German (247, 257,
+  259–261, 264, 266–268, 270, 271, 299, 307, 319); quoted screen readings
+  with commas and unquoted ones with points (248, 265); "Brief summary" /
+  "Short summary" / "Summary" / "Details" labels as §14; 82's "roof-mounted
+  support … on the roof of a house", which repeats the German's own
+  redundancy; 89's "crossed-out wheelie bin" as §14.
+
+### Further suspected errors in the German (from the screenshots)
+
+- 248 — marker 1 reads "Blind: -102,6" on the screen, the description has
+  "Blind 102,6" (minus sign missing); marker 4 reads "-22,1", the description
+  "−22,2". The blue curve runs from about 105 Ω at 1 MHz to about 16 Ω at
+  5 MHz (consistent with the marker readings), not "grob um 70 Ohm … auf etwa
+  40–50 Ohm".
+- 265 — the |Z| scale runs from 1 to 10000, not "von 2 bis 10.000"; marker 3
+  reads "Phase: 89,1" (description 89,2); marker 4 reads "Reell: 0,6"
+  (description 1,2).

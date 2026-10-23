@@ -6,7 +6,7 @@ Detailed description:
 - Title at the top: "Impedance & phase angle as a function of frequency" ("Scheinwiderstand & Phasenwinkel als Funktion der Frequenz").
 - Left y-axis: "|Z| / Ohm" with a scale from 1 to 10000; right y-axis: "Phi / degrees" ("Phi / Grad") from −90° to +90°.
 - x-axis: frequency from "900,000k" to "5,000M".
-- The blue curve (impedance magnitude) falls from roughly around 70 Ω at ~1 MHz to about 40–50 Ω at ~5 MHz; triangle markers with the digits 1–4 lie on the curve at approximately 1, 2, 3 and 4 MHz.
+- The blue curve (impedance magnitude) falls from roughly 70 Ω at ~1 MHz to about 40–50 Ω at ~5 MHz; triangle markers with the digits 1–4 lie on the curve at approximately 1, 2, 3 and 4 MHz.
 - The red curve (phase angle) runs just above the −90° line and rises slightly (marker symbols 1–4 likewise along the curve).
 - Below the chart are marker fields with measured values:
   - Marker 1: frequency 1.0010 MHz; real 0.8; reactive 102.6; phase −89.5°; SWR 307.8.
