@@ -1,5 +1,5 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Zusammenfassung: Eine rote Siebensegmentanzeige auf schwarzem Hintergrund zeigt die Zahlenfolge 455.000, rechts ist eine weitere, angeschnittene Ziffer zu sehen.
+Summary: A red seven-segment display on a black background shows the sequence of digits 455.000; on the right a further, cut-off digit can be seen.
 
-Detailbeschreibung: Das Bild ist ein schmaler, horizontaler Ausschnitt einer digital leuchtenden Anzeige mit roten Siebensegmentziffern vor schwarzem Hintergrund. Von links nach rechts sind deutlich die Ziffern 4, 5, 5 zu sehen, gefolgt von einem leuchtenden Dezimalpunkt und drei Nullen (0 0 0). Die Segmente strahlen leicht über, wodurch ein weicher roter Glanz um die Balken entsteht. Am rechten Bildrand ist der linke Teil einer weiteren Ziffer angeschnitten, deren Form nicht vollständig erkennbar ist.
+Detailed description: The picture is a narrow, horizontal section of a digitally glowing display with red seven-segment digits against a black background. From left to right the digits 4, 5, 5 can be clearly seen, followed by a glowing decimal point and three zeros (0 0 0). The segments glow slightly beyond their edges, creating a soft red sheen around the bars. At the right-hand edge of the picture the left part of a further digit is cut off; its shape cannot be fully made out.

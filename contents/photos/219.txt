@@ -1,5 +1,5 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Kurzfassung: Rechteckiges, hellgraues Raster mit einem kleinen blauen Punkt an der linken Kante auf etwa mittlerer Höhe.
+Brief summary: Rectangular, light grey grid with a small blue dot on the left-hand edge at about mid-height.
 
-Detailbeschreibung: Die Grafik zeigt einen weißen Hintergrund mit feinen, hellgrauen horizontalen und vertikalen Linien, die ein gleichmäßiges Gitternetz innerhalb eines dünn umrandeten Rechtecks bilden. An der linken Außenkante des Rasters befindet sich ein einzelner, runder, blau gefüllter Marker mit feinem Rand, etwa auf der Höhe der mittleren horizontalen Rasterlinie. Es gibt keine Beschriftungen, Achsen, Zahlen oder weiteren grafischen Elemente.
+Detailed description: The graphic shows a white background with fine, light grey horizontal and vertical lines, which form a regular grid inside a thinly bordered rectangle. On the left outer edge of the grid there is a single, round, blue-filled marker with a fine border, at about the height of the middle horizontal grid line. There are no labels, axes, numbers or further graphic elements.

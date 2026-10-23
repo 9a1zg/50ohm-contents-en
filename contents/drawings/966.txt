@@ -1,7 +1,7 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-1) Kurze Zusammenfassung:
-Schaltplan mit oberer Leitung und mittiger Spule, unterer Leitung mit mittigem Masseanschluss sowie zwei senkrechten Zweigen mit je einem verstellbaren Kondensator; links steht „TRX“, rechts „ANT“, an allen vier Ecken sind Anschlussklemmen.
+1) Short summary:
+Circuit diagram with an upper line with an inductor in the middle, a lower line with a chassis connection in the middle, and two vertical branches each with an adjustable capacitor; on the left is "TRX", on the right "ANT", and there are terminals at all four corners.
 
-2) Detaillierte Beschreibung:
-Oben verläuft eine horizontale Leitung von einem offenen Anschlusskreis (linkes Ende) zu einem offenen Anschlusskreis (rechtes Ende); etwa in der Mitte liegt eine in Serie geschaltete Spule (gewellte Bogenlinie). Links und rechts der Spule befinden sich je ein gefüllter Knotenpunkt, von dem eine senkrechte Leitung nach unten führt. In jedem der beiden senkrechten Zweige ist ein verstellbarer Kondensator eingezeichnet: zwei parallele Platten mit einem diagonalen Pfeil, einmal im linken Zweig und einmal im rechten Zweig, jeweils in Serie im Zweig angeordnet. Unten verbindet eine horizontale Leitung den linken und rechten offenen Anschlusskreis; am unteren Leiter liegt in der Mitte ein gefüllter Knoten mit einem Masse-Symbol (drei sich verjüngende Linien) nach unten. An den Übergängen der beiden senkrechten Zweige zur unteren Leitung sind gefüllte Knoten zu sehen. Der linke Bereich ist mit „TRX“ beschriftet, der rechte mit „ANT“.
+2) Detailed description:
+At the top a horizontal line runs from an open terminal circle (left end) to an open terminal circle (right end); roughly in the middle lies an inductor connected in series (wavy arc line). To the left and right of the inductor there is a filled node each, from which a vertical line leads downwards. In each of the two vertical branches an adjustable capacitor is drawn: two parallel plates with a diagonal arrow, once in the left branch and once in the right branch, each arranged in series in the branch. At the bottom a horizontal line connects the left and right open terminal circles; on the lower conductor, in the middle, there is a filled node with a chassis symbol (three tapering lines) pointing downwards. Filled nodes can be seen where the two vertical branches meet the lower line. The left-hand area is labelled "TRX", the right-hand one "ANT".

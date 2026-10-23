@@ -1,3 +1,3 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Das Bild zeigt oben einen Schaltplan mit einem Transformator, zwei Dioden (D1 und D2), einem Widerstand (R) und verschiedenen Spannungsbezeichnungen (~Ue, ~U1, ~U2, Ua). Unten sind drei Diagramme abgebildet. Jedes Diagramm zeigt eine sinusförmige Kurve gegen die Zeitachse, bezeichnet mit U1, U2 und Ua.
+The picture shows at the top a circuit diagram with a transformer, two diodes (D1 and D2), a resistor (R) and various voltage designations (~Ue, ~U1, ~U2, Ua). At the bottom three graphs are shown. Each graph shows a sinusoidal curve against the time axis, labelled U1, U2 and Ua.

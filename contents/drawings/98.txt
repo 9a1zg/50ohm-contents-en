@@ -1,3 +1,3 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Blockdiagramm eines Funksenders. Links ist ein NF-Verstärker, gefolgt von einem Balancemodulator. Vom Balancemodulator gehen Linien zu einem Block mit der Bezeichnung "CO" und Symbol "G", und zu einem Mischer. Nach dem Mischer folgt ein Filter und ein Treiber. Danach folgt ein PA mit angeschlossenem ALC-Block. Ganz rechts ist eine Antenne.
+Block diagram of a radio transmitter. On the left is an AF amplifier, followed by a balanced modulator. From the balanced modulator lines go to a block with the designation "CO" and symbol "G", and to a mixer. The mixer is followed by a filter and a driver. Then follows a PA with an ALC block connected to it. On the far right is an antenna.

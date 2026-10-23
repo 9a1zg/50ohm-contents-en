@@ -1,3 +1,3 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Ein Schaltplan zeigt einen Transformator verbunden mit einer Gleichrichterschaltung aus vier Dioden, die als Brückengleichrichter angeordnet sind, einer Seite mit Plus- und Minus-Polen. Ein Widerstand ist parallel zur Stromquelle geschaltet. Oberhalb der Dioden ist ein sinusförmiger Spannungsverlauf mit der vertikalen Achse als Us und der horizontalen Achse als t dargestellt. Darunter befindet sich ein wellenförmiger Spannungsverlauf mit der vertikalen Achse als Ua und ebenfalls der horizontalen Achse als t.
+A circuit diagram shows a transformer connected to a rectifier circuit of four diodes, arranged as a bridge rectifier, one side with plus and minus poles. A resistor is connected in parallel with the power source. Above the diodes a sinusoidal voltage waveform is shown, with the vertical axis as Us and the horizontal axis as t. Below it is a wave-shaped voltage waveform with the vertical axis as Ua and likewise the horizontal axis as t.

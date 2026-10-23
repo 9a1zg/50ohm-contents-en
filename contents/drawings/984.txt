@@ -1,13 +1,13 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-1) Kurze Zusammenfassung:
-Schaltplan mit einem Bipolartransistor, mehreren Widerständen und Kondensatoren, beschrifteten Größen UE, UA, IB, IC und UCE sowie zwei kleinen Zeitdiagrammen für UE(t) und IB(t).
+1) Short summary:
+Circuit diagram with a bipolar transistor, several resistors and capacitors, labelled quantities UE, UA, IB, IC and UCE, and two small time graphs for UE(t) and IB(t).
 
-2) Detaillierte Beschreibung:
-- Oben und unten verlaufen horizontale Leitungen; rechts sind offene Klemmen mit den Zeichen „+“ (oben) und „–“ (unten). In der linken und rechten Bildhälfte stehen große, nach unten gerichtete Pfeile mit den Beschriftungen „UE“ (links) und „UA“ (rechts).
-- In der Mitte befindet sich ein Bipolartransistor in einem Kreis. Links am Transistor liegt die Basis; dorthin zeigt ein Pfeil mit der Beschriftung „IB“. Rechts oben am Transistor ist der Kollektor; daneben ein nach unten gerichteter Pfeil mit „IC“. Rechts vom Transistor verläuft ein senkrechter Pfeil nach unten mit der Beschriftung „UCE“.
-- Kollektorzweig: Vom Kollektorknoten führt ein Widerstand nach oben zur positiven Schiene. Vom selben Knoten geht ein Kondensator nach rechts zu einer offenen Klemme (Ausgang).
-- Emitterzweig: Der Emitter ist nach unten über einen Widerstand mit der unteren Schiene verbunden; parallel zu diesem Widerstand ist ein Kondensator zur unteren Schiene geschaltet. Am unteren Knoten ist ein Massesymbol eingezeichnet.
-- Basisbeschaltung: Der Eingang links ist eine offene Klemme; von dort führt ein in Reihe liegender Kondensator zum Basisknoten. Vom Basisknoten gehen zwei Widerstände ab: einer nach oben zur positiven Schiene, einer nach unten zur unteren Schiene (Spannungsteiler).
-- Verbindungspunkte sind als ausgefüllte Knotenpunkte dargestellt.
-- Unten sind zwei kleine Diagramme: links ein sinusförmiger Verlauf mit den Achsenbeschriftungen „UE“ (vertikal, Pfeil nach oben) und „t“ (horizontal, Pfeil nach rechts); rechts ein wellenförmiger Verlauf mit den Achsenbeschriftungen „IB“ (vertikal, Pfeil nach oben) und „t“ (horizontal, Pfeil nach rechts).
+2) Detailed description:
+- At the top and bottom run horizontal lines; on the right are open terminals with the signs "+" (top) and "–" (bottom). In the left and right halves of the picture are large downward arrows with the labels "UE" (left) and "UA" (right).
+- In the middle is a bipolar transistor in a circle. The base is on the left of the transistor; an arrow labelled "IB" points to it. At the top right of the transistor is the collector; next to it a downward arrow with "IC". To the right of the transistor a vertical arrow labelled "UCE" runs downwards.
+- Collector branch: From the collector node a resistor leads up to the positive rail. From the same node a capacitor goes to the right to an open terminal (output).
+- Emitter branch: The emitter is connected downwards via a resistor to the lower rail; a capacitor is connected in parallel with this resistor to the lower rail. A chassis symbol is drawn at the lower node.
+- Base circuit: The input on the left is an open terminal; from there a capacitor lying in series leads to the base node. Two resistors branch off from the base node: one upwards to the positive rail, one downwards to the lower rail (potential divider).
+- Connection points are shown as filled nodes.
+- At the bottom are two small graphs: on the left a sinusoidal waveform with the axis labels "UE" (vertical, arrow pointing upwards) and "t" (horizontal, arrow pointing to the right); on the right a wave-shaped waveform with the axis labels "IB" (vertical, arrow pointing upwards) and "t" (horizontal, arrow pointing to the right).

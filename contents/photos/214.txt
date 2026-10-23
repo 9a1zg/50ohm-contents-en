@@ -1,5 +1,5 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Zusammenfassung: Oszilloskopanzeige mit einer türkisen, sinusförmigen Kurve auf schwarzem Raster.
+Summary: Oscilloscope display with a turquoise, sinusoidal curve on a black grid.
 
-Detaillierte Beschreibung: Das Bild zeigt einen schwarzen Bildschirm mit feinem, grauem Gitter. Eine durchgehende, leuchtend türkise Kurve verläuft von links nach rechts und bildet eine regelmäßige Sinuswelle mit mehreren Wellenbergen und -tälern, symmetrisch um die Bildschirmmitte. Oben links steht in einem dunklen Feld „H 50.0ns“. Unten links ist ein cyanfarbener Kasten mit „2“ und „500 mV“ zu sehen; am linken Rand befindet sich ebenfalls ein kleines cyanfarbenes „2“-Label für den aktiven Kanal. Oben mittig ist ein kleines, gelbes Trigger-Dreieck, rechts mittig ein gelbes „T“-Marker am Rand. Die Kurve ist glatt, gleichmäßig und folgt dem Raster horizontal über den gesamten Anzeigebereich.
+Detailed description: The picture shows a black screen with a fine, grey grid. A continuous, bright turquoise curve runs from left to right and forms a regular sine wave with several crests and troughs, symmetrical about the centre of the screen. At the top left, in a dark field, is "H 50.0ns". At the bottom left a cyan box with "2" and "500 mV" can be seen; at the left-hand edge there is likewise a small cyan "2" label for the active channel. At the top in the middle is a small, yellow trigger triangle, on the right in the middle a yellow "T" marker at the edge. The curve is smooth and even and follows the grid horizontally across the whole display area.

@@ -1,3 +1,3 @@
-1) Kurzbeschreibung: Tabelle mit der Überschrift „4.4 IARU Bandplan 2m“ über den Frequenzbereich 144–146 MHz mit Angaben zu den einzelnen Bereichssegmenten („Frequency Segment“), zur maximalen Bandbreite („Max.“) und der bevorzugten Betriebsart und Nutzung („Preferred Mode and Usage“).
+1) Short description: Table with the heading "4.4 IARU Bandplan 2m" covering the frequency range 144–146 MHz, with details of the individual band segments ("Frequency Segment"), the maximum bandwidth ("Max.") and the preferred mode and usage ("Preferred Mode and Usage").
 
-2) Ausführliche Beschreibung: Die Tabelle mit der Überschrift „4.4 IARU Bandplan 2m“ bezieht sich auf den Frequenzbereich „144–146 MHz“ (linker Rand). Die Tabelle hat die drei Spalten „Frequency Segment“, „Max.“ und „Preferred Mode and Usage“. Der komplette Bandplan ist auf https://50ohm.de/hm zu finden.
+2) Detailed description: The table with the heading "4.4 IARU Bandplan 2m" relates to the frequency range "144–146 MHz" (left-hand edge). The table has the three columns "Frequency Segment", "Max." and "Preferred Mode and Usage". The complete band plan can be found at https://50ohm.de/hm.

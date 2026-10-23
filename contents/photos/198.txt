@@ -1,5 +1,5 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Kurzfassung: Zwei liegende Elektrolytkondensatoren mit Drahtanschlüssen auf einer dunklen, rauen Arbeitsfläche.
+Brief summary: Two electrolytic capacitors with wire leads lying on their sides on a dark, rough work surface.
 
-Detailbeschreibung: Oben ein größerer, zylindrischer Kondensator mit schwarzem Gehäuse und grauem Ring am unteren Ende; in weißer Schrift steht mehrfach „6200 µF 16 V“, die beiden Anschlussdrähte ragen nach rechts heraus. Darunter ein etwas kleinerer, dunkelgrüner Kondensator mit gelb-goldener Aufschrift „2200 µF 25 V“ und zusätzlichen Markierungen auf einem olivfarbenen Streifen; auch hier führen zwei Drähte nach rechts. Die Oberfläche zeigt Kratzer und Staub, das Licht erzeugt glänzende Reflexe auf den Kondensatoren, die nahezu parallel zueinander liegen.
+Detailed description: At the top a larger, cylindrical capacitor with a black case and a grey ring at the lower end; "6200 µF 16 V" is written several times in white lettering, and the two lead wires protrude to the right. Below it a somewhat smaller, dark green capacitor with the yellow-gold inscription "2200 µF 25 V" and additional markings on an olive-coloured stripe; here too two wires lead to the right. The surface shows scratches and dust; the light produces shiny reflections on the capacitors, which lie almost parallel to each other.

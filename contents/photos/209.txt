@@ -1,3 +1,3 @@
-1) Kurzbeschreibung: Foto mit vier Batterietypen (AAA, AA, 9-V-Block und LR41-Knopfzelle), mit Spannungsangaben; Schaltzeichen für Spannungsquelle „G“.
+1) Short description: Photo with four battery types (AAA, AA, 9 V block and LR41 button cell), with voltage figures; circuit symbol for a voltage source "G".
 
-2) Ausführliche Beschreibung: Das Foto zeigt vier verschiedene Batterietypen: von links „AAA 1,5 V“, „AA 1,5 V“, „9 V Block“ und unten links „LR41 1,5 V“. Unten rechts ist das Schaltzeichen für eine Batterie „G“ zu sehen.
+2) Detailed description: The photo shows four different battery types: from the left "AAA 1.5 V", "AA 1.5 V", "9 V block" ("9 V Block") and at the bottom left "LR41 1.5 V". At the bottom right the circuit symbol for a battery "G" can be seen.
