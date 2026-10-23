@@ -1,3 +1,3 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Diagramm einer Antenne mit einem Pfeil von links nach rechts oben, der 41,5 m anzeigt. In der Mitte ist ein quadratisches Element mit der Beschriftung "1:6". Ein vertikales Rohr führt von diesem Element nach unten. Ein weiterer Pfeil nach links zeigt 13,8 m.
+Diagram of an antenna with an arrow from the left to the upper right, indicating 41.5 m. In the middle is a square element labelled "1:6". A vertical pipe leads downwards from this element. A further arrow to the left shows 13.8 m.

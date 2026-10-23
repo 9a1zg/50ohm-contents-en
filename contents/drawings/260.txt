@@ -1,3 +1,3 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Ein Schaltplan zeigt eine Anordnung elektrischer Bauteile. Links verläuft eine Leitung mit 50 Ohm, gefolgt von einer Spule, die als MWS beschriftet ist. Eine weitere Spule und ein Kondensator sind parallel angeordnet. Rechts ist eine größere Spule abgebildet, deren Umwicklungsverhältnis mit "ü = 1 : 7" angegeben ist. Darüber steht ein Abstand, der mit "0,05·λ" markiert ist. Oben ist ein Pfeil mit der Beschriftung "≈ λ/2" dargestellt, der sich über der großen Spule erstreckt.
+A circuit diagram shows an arrangement of electrical components. On the left runs a line of 50 Ω, followed by an inductor labelled MWS. A further inductor and a capacitor are arranged in parallel. On the right a larger coil is shown, whose winding ratio is given as "ü = 1 : 7". Above it is a distance marked "0.05·λ". At the top an arrow labelled "≈ λ/2" is shown, which extends above the large coil.

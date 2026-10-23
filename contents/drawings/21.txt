@@ -1,3 +1,3 @@
-1) Kurzbeschreibung: Modulationshüllkurve eines CW-Signals aus einem einzigen Impuls, links mit abgeflachtem Ende und rechts mit einer rechteckigen Kante.
+1) Short description: Modulation envelope of a CW signal consisting of a single pulse, with a flattened end on the left and a rectangular edge on the right.
 
-2) Ausführliche Beschreibung: Die Abbildung zeigt die horizontale Modulationshüllkurve eines CW-Signals bestehend aus einem einzigen Impuls mit grauer Innenfläche und schwarzer Umrandung. Nach links ist die Hüllkurve abgeflacht, rechts weist sie eine rechteckige Kante auf.
+2) Detailed description: The figure shows the horizontal modulation envelope of a CW signal consisting of a single pulse with a grey interior and a black outline. Towards the left the envelope is flattened off; on the right it has a rectangular edge.

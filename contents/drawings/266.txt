@@ -1,11 +1,11 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-1) Kurze Zusammenfassung:
-Polares Strahlungsdiagramm mit einer dicken, nach rechts gerichteten Hauptkeule und einer sehr kleinen Rückkeule nach links, überlagert von einer waagerechten Achse mit Skala und Beschriftungen.
+1) Short summary:
+Polar radiation pattern with a thick main lobe pointing to the right and a very small back lobe to the left, overlaid by a horizontal axis with a scale and labels.
 
-2) Detaillierte Beschreibung:
-- Im Bild liegt ein graues Polargitter mit konzentrischen Kreisbögen und radialen Linien; am rechten Rand sind Winkelangaben „40°“, „30°“, „20°“, „10°“, „0°“, „350°“, „340°“, „330°“ und „320°“ eingetragen. Die Richtung 0° zeigt nach rechts.
-- Eine waagerechte Linie bildet die Bezugsachse und endet rechts in einem Pfeil. Am Pfeil steht „0°“ sowie darunter die Achsenbeschriftung „E / E_max“. Rechts neben der Achse steht die Zahl „1“. Entlang der rechten Achsenhälfte sind von rechts nach links die Buchstaben „a“, „b“, „c“, „d“ über der Skala vermerkt; auf der Linie darunter stehen die Zahlen „0,8“, „0,6“ und „0,4“.
-- Eine dicke, geschlossene schwarze Kurve zeigt die Richtcharakteristik: Sie bildet nach rechts (um 0°) eine breite, tropfenförmige Hauptkeule, deren Spitze die Marke „1“ an der Achse erreicht. Die Kurve verläuft oberhalb der Achse etwas flacher und unterhalb stärker ausladend, bleibt jedoch grob annähernd symmetrisch zur Horizontalen.
-- Nach links (um 180°) befindet sich eine sehr kleine, geschlossene Nebenkeule nahe dem Achsenmittelpunkt.
-- Links der Bildmitte, auf der waagerechten Achse, stehen mehrere schmale, senkrechte Striche unterschiedlicher Höhe dicht nebeneinander.
+2) Detailed description:
+- The picture contains a grey polar grid of concentric arcs and radial lines; at the right-hand edge the angles "40°", "30°", "20°", "10°", "0°", "350°", "340°", "330°" and "320°" are marked. The 0° direction points to the right.
+- A horizontal line forms the reference axis and ends on the right in an arrow. At the arrow is "0°" and below it the axis label "E / E_max". To the right of the axis is the number "1". Along the right half of the axis the letters "a", "b", "c", "d" are marked from right to left above the scale; on the line below are the numbers "0.8", "0.6" and "0.4".
+- A thick, closed black curve shows the directional pattern: towards the right (around 0°) it forms a broad, teardrop-shaped main lobe, whose tip reaches the mark "1" on the axis. Above the axis the curve is somewhat flatter and below it bulges out further, but it remains roughly symmetrical about the horizontal.
+- Towards the left (around 180°) there is a very small, closed side lobe near the centre of the axis.
+- To the left of the centre of the picture, on the horizontal axis, several narrow vertical strokes of different heights stand close together.

@@ -2734,6 +2734,12 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Nullpunkt (Diagramm) / Grundlinie / Auslenkung (Feldlinien) / Bodenfläche | origin / baseline / displacement / ground surface | §14 *Nulllinie* → zero line (slike_02) |
 | Grunddämpfung α0 je 100 m Leitungslänge (Kabeldämpfungsdiagramm) | basic attenuation α0 per 100 m cable length | drawing 202; *Voll-PE / PE-Schaum / Massivschirm* as §9 (slike_02) |
 | „ZF“, „NF“, „ZF-Amp.“, „NF/Basisband“, „zum Oszillator“ (Zeichnungsbeschriftungen) | "IF" ("ZF"), "AF" ("NF"), "IF amp." ("ZF-Amp."), "AF/baseband" ("NF/Basisband"), "to oscillator" ("zum Oszillator") | a label already in brackets keeps the German in a second bracket: ("AF" ("NF")); the terminal letters „E“ / „A“ stay, like *U_E* / *U_A* (slike_02) |
+| Markierung (an einer Achse) / Skalenmarke / parabelförmige Auslenkung (Kurve) / auf gleicher Höhe in Bezug auf die „t“-Achse | tick mark / scale mark / parabola-shaped excursion / line up with respect to the "t" axis | picture descriptions; *Auslenkung* of a curve → *excursion*; of field lines → *displacement*, as slike_02 (slike_03) |
+| Antennendiagramm / Kontur / Schlaufe, Schleife / sich verjüngen zu / Maßlinie / Maßpfeil / Begrenzung (der Maßlinie) | antenna pattern / outline / loop / taper to / dimension line / dimension arrow / end | as 1046 (slike_01); *Richtdiagramm-Kontur* → radiation pattern outline (slike_03) |
+| Messgerät „V“ / „A“ / Spannungsquelle (Schaltbild) / Reihenschaltkreis | meter "V" / "A" / voltage source / series circuit | slike_03 |
+| Zweileiterleitung / Doppelleitung, Doppelader / Querstrebe, Querverbinder (leiterartig gezeichnet) | two-wire line / twin line / crosspiece, cross-connection (ladder-like) | drawn feeders in picture descriptions, not a choice between §9 *twin feeder* and *ladder line* (slike_03) |
+| große Spule mit „ü = 1 : 7“ / Kennlinie „1“ / Zener-Diode (Z-Diode) | large coil with "ü = 1 : 7" / characteristic "1" / Zener diode (Z diode) | a winding with a ratio is a *coil*, other *Spule* → inductor (slike_02); the German's double name kept as a double name (slike_03) |
+| „Leistung“ / „Dipol“ / „Richtantenne“ / „l = 43,18 m für 7,1 MHz“ (Zeichnungsbeschriftungen) | "Power" ("Leistung") / "Dipole" ("Dipol") / "Directional antenna" ("Richtantenne") / "l = 43.18 m for 7.1 MHz" ("l = 43,18 m für 7,1 MHz") | as 1022 (slike_01); a label that is only a number, unit or symbol ("0,3", "+5,6 V", "MWS", "f/kHz") gets no bracket (slike_03) |
 
 ## 15. Catalogue structure
 

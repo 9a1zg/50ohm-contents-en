@@ -1,3 +1,3 @@
-1) Kurzbeschreibung: Modulationshüllkurve eines AM-Signals mit Rechteckform.
+1) Short description: Modulation envelope of an AM signal with a rectangular shape.
 
-2) Ausführliche Beschreibung: Die Abbildung zeigt die horizontale Modulationshüllkurve eines AM-Signals. Die Kurve hat eine rechteckige Form spiegelbildlich um die Nulllinie. Die Kurve ist mit einer grauen Innenfläche und schwarzer Umrandung gezeichnet.
+2) Detailed description: The figure shows the horizontal modulation envelope of an AM signal. The curve has a rectangular shape, mirror-symmetrical about the zero line. The curve is drawn with a grey interior and a black outline.

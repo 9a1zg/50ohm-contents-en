@@ -1,3 +1,3 @@
-1) Kurzbeschreibung: Modulationshüllkurve eines AM-Signals mit leicht abgeflachten Enden der einzelnen Schwingungen.
+1) Short description: Modulation envelope of an AM signal with slightly flattened ends of the individual oscillations.
 
-2) Ausführliche Beschreibung: Die Abbildung zeigt die horizontale Modulationshüllkurve eines AM-Signals. Die leicht abgeflachten Enden jeder einzelnen Schwingung bilden eine wellenartige Form spiegelbildlich um die Nulllinie. Die Kurve ist mit einer grauen Innenfläche und schwarzer Umrandung gezeichnet.
+2) Detailed description: The figure shows the horizontal modulation envelope of an AM signal. The slightly flattened ends of each individual oscillation form a wave-like shape, mirror-symmetrical about the zero line. The curve is drawn with a grey interior and a black outline.

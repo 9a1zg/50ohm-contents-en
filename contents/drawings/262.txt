@@ -1,3 +1,3 @@
-1) Kurzbeschreibung: Antennendiagramm bestehend aus einer vertikalen Linie und zwei verschieden große Schlaufen beiderseits dieser Linie.
+1) Short description: Antenna pattern consisting of a vertical line and two loops of different sizes on either side of this line.
 
-2) Ausführliche Beschreibung: Die Abbildung zeigt ein Antennendiagramm mit einer kurzen vertikalen Linie. Beiderseits sind zusammenhängende, geschlossene Konturen in Form von Schlaufen eingezeichnet. Auf der linken Seite der vertikalen Linie gibt es eine kleine Schlaufe, rechts davon eine große Schlaufe. Beide Schlaufen verjüngen sich zu einem gemeinsamen Punkt auf der vertikalen Linie. Es gibt keine Beschriftungen oder Maße.
+2) Detailed description: The figure shows an antenna pattern with a short vertical line. On either side of it, connected, closed outlines in the form of loops are drawn. On the left-hand side of the vertical line there is a small loop, to the right of it a large loop. Both loops taper to a common point on the vertical line. There are no labels or dimensions.
