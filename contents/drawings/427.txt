@@ -1,3 +1,3 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Schaltplan mit verschiedenen elektronischen Bauteilen: Am linken unteren Rand ist eine Diode dargestellt. Oben gibt es eine Plusmarkierung. Weiter rechts sind zwei Rechtecke mit diagonalen Linien, die Transistoren darstellen können. Es gibt mehrere durchgezogene und gestrichelte Leitungen, die die Bauteile miteinander verbinden. Rechte Kreise und Verbindungspunkte sind ebenfalls sichtbar. Außerdem sind vertikale und horizontale Striche dargestellt, die vermutlich Anschlüsse symbolisieren.
+Circuit diagram with various electronic components: at the lower left-hand edge a diode is shown. At the top there is a plus marking. Further to the right are two rectangles with diagonal lines, which may represent transistors. There are several solid and dashed lines connecting the components to one another. Right-hand circles and junction points are also visible. In addition, vertical and horizontal strokes are shown, which presumably symbolise connections.

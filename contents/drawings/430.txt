@@ -1,5 +1,5 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-1) Kurzfassung: Blockdiagramm mit Antennensymbol, drei beschrifteten Rechtecken „1“, „2“ und „3“, einem Eingang „Kontroll-information“ und einem Ausgang „Weitere Teile des Empfängers“, verbunden durch Pfeile.
+1) Brief summary: Block diagram with an antenna symbol, three rectangles labelled "1", "2" and "3", an input "Control information" ("Kontroll-information") and an output "Further parts of the receiver" ("Weitere Teile des Empfängers"), connected by arrows.
 
-2) Detailbeschreibung: Links steht ein Antennensymbol; von seinem Fuß führt eine horizontale Linie mit Pfeilspitze nach rechts in ein Rechteck mit der Ziffer „1“. Von „1“ führt ein Pfeil nach rechts in ein weiteres Rechteck mit der Ziffer „3“. Oberhalb von „3“ befindet sich ein drittes Rechteck mit der Ziffer „2“. Von links zeigt ein horizontaler Pfeil mit der Beschriftung „Kontroll-information“ auf das Rechteck „2“. Von der Unterseite des Rechtecks „2“ führt ein senkrechter Pfeil nach unten in das Rechteck „3“. Vom Rechteck „3“ geht rechts ein Pfeil zur Textbeschriftung „Weitere Teile des Empfängers“.
+2) Detailed description: On the left is an antenna symbol; from its foot a horizontal line with an arrowhead leads to the right into a rectangle with the digit "1". From "1" an arrow leads to the right into a further rectangle with the digit "3". Above "3" there is a third rectangle with the digit "2". From the left a horizontal arrow labelled "Control information" points to the rectangle "2". From the underside of the rectangle "2" a vertical arrow leads downwards into the rectangle "3". From the rectangle "3" an arrow goes to the right to the text label "Further parts of the receiver".

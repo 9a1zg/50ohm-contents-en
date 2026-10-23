@@ -1,3 +1,3 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Das Bild zeigt einen Schaltplan mit vier Widerständen, die als Rechtecke dargestellt sind. Die Widerstände sind mit R1, R2, R3 und R4 beschriftet. Die Widerstände sind in einer Brückenschaltung angeordnet. Oben rechts ist ein Punkt mit der Bezeichnung "a" und unten rechts ein Punkt mit der Bezeichnung "b". Alle Bauteile sind durch Linien miteinander verbunden.
+The picture shows a circuit diagram with four resistors drawn as rectangles. The resistors are labelled R1, R2, R3 and R4. The resistors are arranged in a bridge circuit. At top right there is a point with the designation "a" and at bottom right a point with the designation "b". All the components are connected to one another by lines.

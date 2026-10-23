@@ -1,11 +1,11 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-1) Kurze Zusammenfassung:
-Schaltbild mit zwei parallelen Horizontalleitungen, zwei senkrechten Verbindungen, vier nummerierten Kreisen (1–4) und einem quadratischen Symbol mit Dreieck, beschriftet „PA“, sowie den Randtexten „zum Netzteil“ links und „zum TX“ rechts.
+1) Short summary:
+Circuit diagram with two parallel horizontal lines, two vertical connections, four numbered circles (1–4) and a square symbol with a triangle, labelled "PA", together with the texts "to power supply" ("zum Netzteil") on the left and "to TX" ("zum TX") on the right at the edges.
 
-2) Detaillierte Beschreibung:
-- Links steht vertikal der Text „zum Netzteil“, rechts vertikal „zum TX“.
-- Oben verläuft eine horizontale Leitung von einem offenen Anschlusskreis links zu einem offenen Anschlusskreis rechts. Auf dieser Leitung sind zwei ausgefüllte Verbindungspunkte (Knoten) eingezeichnet: einer nahe links, einer etwa in der Mitte. Zwischen dem linken Knoten und dem mittleren Knoten liegt ein Kreis mit der Ziffer „2“. Zwischen dem mittleren Knoten und dem rechten offenen Anschluss liegt ein Kreis mit der Ziffer „4“.
-- Unten verläuft parallel eine zweite horizontale Leitung, ebenfalls mit offenen Anschlusskreisen links und rechts. Auf ihr befinden sich ein ausgefüllter Verbindungspunkt nahe links und ein weiterer in der Mitte.
-- Eine linke senkrechte Verbindung verbindet die oberen und unteren Knoten nahe der linken Seite; auf dieser Senkrechten sitzt ein Kreis mit der Ziffer „1“.
-- Eine mittige senkrechte Verbindung verbindet die mittleren Knoten der oberen und unteren Leitung; von oben nach unten befinden sich darauf: ein Kreis mit der Ziffer „3“, darunter ein Quadrat mit einem nach rechts zeigenden Dreieck darin, daneben die Beschriftung „PA“, darunter die Verbindung zum unteren Knoten.
+2) Detailed description:
+- On the left is the text "to power supply", set vertically, on the right, vertically, "to TX".
+- At the top a horizontal line runs from an open terminal circle on the left to an open terminal circle on the right. Two filled junction dots (nodes) are drawn on this line: one near the left, one about in the middle. Between the left-hand node and the middle node lies a circle with the digit "2". Between the middle node and the right-hand open terminal lies a circle with the digit "4".
+- At the bottom a second horizontal line runs parallel to it, also with open terminal circles on the left and right. On it there are a filled junction dot near the left and another in the middle.
+- A left-hand vertical connection connects the upper and lower nodes near the left-hand side; on this vertical sits a circle with the digit "1".
+- A vertical connection in the middle connects the middle nodes of the upper and lower lines; on it, from top to bottom, are: a circle with the digit "3", below it a square with a triangle pointing to the right inside it, beside it the label "PA", below that the connection to the lower node.

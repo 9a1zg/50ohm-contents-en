@@ -1,14 +1,14 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Kurzfassung: Vertikal ausgerichteter Schaltplan mit Plus-Anschluss oben, in Serie angeordneter Diode, einem rechteckigen Bauteil (Relais-Spule), einem Transistor als Treiber unten und einem rechts separat gezeichneten, über eine gestrichelte Linie mechanisch gekoppelten Schließerkontakt.
+Brief summary: Vertically oriented circuit diagram with a plus connection at the top, a diode arranged in series, a rectangular component (relay coil), a transistor as driver at the bottom and a normally open contact drawn separately on the right, mechanically coupled via a dashed line.
 
-Detailbeschreibung:
-- Links verläuft eine durchgehende vertikale Leitung von oben nach unten.
-- Ganz oben ist ein kleiner Kreis mit der Beschriftung “+”; daran schließt die linke Vertikalleitung an.
-- Etwas darunter liegt in dieser Vertikalleitung ein Diodensymbol (Dreieck mit Querstrich) in Serie.
-- Weiter unten folgt ein Rechteck mit diagonaler Linie darin; von seiner rechten Seite geht eine kurze gestrichelte horizontale Verbindung nach rechts (mechanische Kopplung).
-- Die linke Vertikalleitung führt vom unteren Anschluss des Rechtecks weiter nach unten zu einem Transistor-Symbol in einem Kreis (BJT mit Pfeil).
-- Unter dem Transistor endet die Vertikalleitung an einem kurzen horizontalen Anschlussstrich (Rückleiter/Minus-Anschluss).
-- Rechts im Bild verläuft eine zweite, separate vertikale Leitung; in ihrer Mitte befindet sich ein einpoliger, geöffneter Kontakt (Schließerkontakt) mit schrägem beweglichem Kontaktstück zwischen zwei ausgefüllten Anschlussknoten.
-- Ober- und unterhalb dieses Kontakts ist die rechte Vertikalleitung gestrichelt dargestellt (Anschluss zu weiteren, nicht gezeigten Teilen).
-- Es sind keine Bauteilwerte angegeben; die einzige Text-/Zeichenbeschriftung ist “+” oben.
+Detailed description:
+- On the left a continuous vertical line runs from top to bottom.
+- At the very top is a small circle labelled "+"; the left-hand vertical line joins it.
+- A little below it, a diode symbol (triangle with a crossbar) lies in series in this vertical line.
+- Further down follows a rectangle with a diagonal line in it; from its right-hand side a short dashed horizontal connection goes off to the right (mechanical coupling).
+- From the lower connection of the rectangle the left-hand vertical line continues downwards to a transistor symbol in a circle (BJT with arrow).
+- Below the transistor the vertical line ends at a short horizontal connection stroke (return conductor/negative connection).
+- On the right of the picture runs a second, separate vertical line; in its middle there is a single-pole, open contact (normally open contact) with a slanting movable contact piece between two filled terminal nodes.
+- Above and below this contact the right-hand vertical line is shown dashed (connection to further parts, not shown).
+- No component values are given; the only text/character label is the "+" at the top.

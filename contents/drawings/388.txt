@@ -1,5 +1,5 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-1) Kurzbeschreibung: Koordinatendiagramm U über t mit einer periodischen Sägezahnkurve; die Zeitpunkte T, 2T und 3T sind an der t‑Achse markiert.
+1) Short description: Coordinate diagram of U against t with a periodic sawtooth curve; the instants T, 2T and 3T are marked on the t‑axis.
 
-2) Detailbeschreibung: Links steht eine vertikale Achse mit Pfeil nach oben und der Beschriftung „U“, unten eine waagerechte Achse mit Pfeil nach rechts und der Beschriftung „t“. Die Kurve zeigt zwischen 0 und T einen geradlinig ansteigenden Verlauf; kurz vor T fällt sie senkrecht auf einen niedrigen Wert ab. Dasselbe Muster wiederholt sich zwischen T und 2T sowie zwischen 2T und 3T: jeweils linearer Anstieg und anschließend ein senkrechter Abfall. An der Zeitachse sind die Markierungen „T“, „2T“ und „3T“ in Höhe der jeweiligen Abfallstellen eingetragen. Vor t=0 ist die Kurve als gestrichelter, ansteigender Abschnitt angedeutet; nach 3T ist ebenfalls eine gestrichelte, ansteigende Fortsetzung eingezeichnet.
+2) Detailed description: On the left is a vertical axis with an arrow pointing upwards and the label "U", at the bottom a horizontal axis with an arrow pointing to the right and the label "t". Between 0 and T the curve rises in a straight line; shortly before T it falls vertically to a low value. The same pattern repeats between T and 2T and between 2T and 3T: each time a linear rise followed by a vertical fall. On the time axis the marks "T", "2T" and "3T" are entered level with the respective points where the curve falls. Before t=0 the curve is indicated as a dashed, rising section; after 3T a dashed, rising continuation is likewise drawn.

@@ -1,3 +1,3 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Schaltplan mit einer Spannungsquelle, zwei Widerständen, einem Transistor und mehreren Kondensatoren. Der Transistor hat einen Pfeil am Emitter, der nach unten zeigt. Die Beschriftungen enthalten "R1", "RC", "IB", "IC" und "0,6 V". Verbindungen sind durch Linien dargestellt, die an den genannten Bauteilen angeschlossen sind.
+Circuit diagram with a voltage source, two resistors, a transistor and several capacitors. The transistor has an arrow at the emitter that points downwards. The labels include "R1", "RC", "IB", "IC" and "0.6 V". Connections are shown by lines attached to the components named.

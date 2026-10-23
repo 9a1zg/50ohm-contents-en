@@ -2740,6 +2740,13 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Zweileiterleitung / Doppelleitung, Doppelader / Querstrebe, Querverbinder (leiterartig gezeichnet) | two-wire line / twin line / crosspiece, cross-connection (ladder-like) | drawn feeders in picture descriptions, not a choice between §9 *twin feeder* and *ladder line* (slike_03) |
 | große Spule mit „ü = 1 : 7“ / Kennlinie „1“ / Zener-Diode (Z-Diode) | large coil with "ü = 1 : 7" / characteristic "1" / Zener diode (Z diode) | a winding with a ratio is a *coil*, other *Spule* → inductor (slike_02); the German's double name kept as a double name (slike_03) |
 | „Leistung“ / „Dipol“ / „Richtantenne“ / „l = 43,18 m für 7,1 MHz“ (Zeichnungsbeschriftungen) | "Power" ("Leistung") / "Dipole" ("Dipol") / "Directional antenna" ("Richtantenne") / "l = 43.18 m for 7.1 MHz" ("l = 43,18 m für 7,1 MHz") | as 1022 (slike_01); a label that is only a number, unit or symbol ("0,3", "+5,6 V", "MWS", "f/kHz") gets no bracket (slike_03) |
+| „Durchlassbereich“ / „Sperrbereich“ / „Zeit“ / „Wert“ (Zeichnungsbeschriftungen) | "Passband" ("Durchlassbereich") / "Stopband" ("Sperrbereich") / "Time" ("Zeit") / "Value" ("Wert") | filter response and sampling drawings 400–403, 408–411 (slike_04) |
+| „Taktgenerator“ / „Adresszähler“ / „Sinus‑Tabelle“ / „D/A Umsetzer“ (Zeichnung 438) | "Clock generator" / "Address counter" / "Sine table" / "D/A converter", each with the German in brackets | DDS block diagram, as §14 *Phaseninkrement / Adresszähler*; "Register", "Bits" unchanged (slike_04) |
+| „Auf das Störsignal abgestimmt“ / „Elektrische Länge: 1/2 (1/4) der Wellenlänge der Störfrequenz“ | "Tuned to the interfering signal" / "Electrical length: 1/2 (1/4) of the wavelength of the interfering frequency" | 434–437; *Störsignal* as §6 (slike_04) |
+| „Kabel 1“ / „2 dB Dämpfung“ / „6 dB Verstärkung“ / „2 dB Gewinn“ / „Antenne“ / „Kontroll-information“ / „Weitere Teile des Empfängers“ / „Ausgang“ | "Cable 1" / "2 dB attenuation" / "6 dB gain" / "2 dB gain" / "Antenna" / "Control information" / "Further parts of the receiver" / "Output" | drawing labels of 439, 430, 45 (slike_04) |
+| Relais-Spule / Schließerkontakt / Schalterzunge / Polpunkt / Kopplungsstrich | relay coil / normally open contact / switch blade / polarity dot / coupling line | 370, 428, 429 (slike_04) |
+| Versorgungsschiene / Schiene / Leiterbahn (gezeichneter Schaltplan) | supply rail / rail / conductor track | 362, 366, 442, 447; *Sammelschiene* stays *busbar* (slike_04) |
+| Skala / Teilstrich / dachförmig / Bus-Markierung | scale / tick mark / roof-shaped / bus marking | analogue meters 41, 420–422 (*Analoginstrument* → analogue meter, §11), spectra 476–478, DDS 438 (slike_04) |
 
 ## 15. Catalogue structure
 

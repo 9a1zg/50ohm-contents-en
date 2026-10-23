@@ -1,3 +1,3 @@
-1) Kurzbeschreibung: Horizontale Linie mit dem Symbol für eine Diode in der Mitte zwischen den mit 1 und 2 beschrifteten Anschlüssen.
+1) Short description: Horizontal line with the symbol for a diode in the middle between the connections labelled 1 and 2.
 
-2) Ausführliche Beschreibung: Eine durchgehende horizontale Linie, an deren linken Ende die Ziffer „1“ und am rechten Ende die Ziffer „2“ steht. Etwa in der Mitte der Linie ist ein Diodensymbol eingezeichnet: ein Dreieck, das nach rechts zeigt und dessen Spitze an einen vertikalen Strich stößt. Weitere Bauteile, Beschriftungen oder Achsen sind nicht vorhanden.
+2) Detailed description: A continuous horizontal line, at the left-hand end of which is the digit "1" and at the right-hand end the digit "2". About halfway along the line a diode symbol is drawn: a triangle that points to the right and whose tip touches a vertical stroke. There are no further components, labels or axes.

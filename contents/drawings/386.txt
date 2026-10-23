@@ -1,3 +1,3 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Ein Diagramm zeigt eine sinusförmige Welle, die sich entlang einer horizontalen Zeitachse \( t \) erstreckt. Die Amplitude ist auf der vertikalen Achse \( U \) angegeben. Die Wellenlänge ist in Abschnitten von \( T \), \( 2T \), und \( 3T \) markiert. Die Kurve beginnt und endet mit gestrichelten Linien.
+A diagram shows a sinusoidal wave extending along a horizontal time axis \( t \). The amplitude is given on the vertical axis \( U \). The wavelength is marked in sections of \( T \), \( 2T \) and \( 3T \). The curve begins and ends with dashed lines.

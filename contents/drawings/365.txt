@@ -1,3 +1,3 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Ein Schaltplan zeigt eine Schaltung mit einem Transistor, gekennzeichnet durch ein Basissymbol und einen Pfeil im Kreis. Es gibt drei Widerstände, beschriftet als R1, R2 und RC. Zwei Kondensatoren sind in der Schaltung vorhanden, und eine Stromquelle ist durch ein Symbol mit horizontalen Linien dargestellt. Zusätzlich sind Verbindungspunkte durch schwarze Punkte markiert, und der Strom IC ist neben dem Transistor eingezeichnet. Es sind Plus- und Minus-Pol-Anschlüsse zu sehen.
+A circuit diagram shows a circuit with a transistor, identified by a base symbol and an arrow in a circle. There are three resistors, labelled R1, R2 and RC. Two capacitors are present in the circuit, and a current source is represented by a symbol with horizontal lines. In addition, junction points are marked by black dots, and the current IC is drawn beside the transistor. Positive and negative pole connections can be seen.
