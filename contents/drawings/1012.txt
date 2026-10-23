@@ -1,5 +1,5 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Zusammenfassung: Zwei nebeneinander angeordnete Schaltsymbole zeigen einen PTC und einen NTC in einer jeweils horizontalen Leitung, mit dem Text „ϑ“ und Richtungs­pfeilen darunter.
+Summary: Two circuit symbols arranged side by side show a PTC and an NTC, each in a horizontal line, with the text "ϑ" and direction arrows below them.
 
-Detaillierte Beschreibung: Links verläuft eine waagerechte Leiterlinie durch ein rechteckiges Bauteilsymbol; im Rechteck liegt eine Diagonale von links unten nach rechts oben. Unter dem Rechteck steht „ϑ“ mit mehreren kleinen Pfeilen nach oben, darunter die Beschriftung „PTC“. Rechts ist das gleiche rechteckige Bauteilsymbol in einer waagerechten Leiterlinie dargestellt, ebenfalls mit einer Diagonalen von links unten nach rechts oben. Unter diesem Rechteck steht „ϑ“ mit einem Pfeil nach unten, darunter die Beschriftung „NTC“. Beide Symbole sind durch freien Raum getrennt.
+Detailed description: On the left a horizontal conductor line runs through a rectangular component symbol; in the rectangle is a diagonal from bottom left to top right. Below the rectangle is "ϑ" with several small arrows pointing upwards, and below that the label "PTC". On the right the same rectangular component symbol is shown in a horizontal conductor line, likewise with a diagonal from bottom left to top right. Below this rectangle is "ϑ" with an arrow pointing downwards, and below that the label "NTC". The two symbols are separated by empty space.

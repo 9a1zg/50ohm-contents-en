@@ -1,7 +1,7 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-1) Kurze Zusammenfassung:
-Schematische Zeichnung mit drei vertikalen Elementen, beschriftet „Reflektor“, „Strahler“ und „Direktor“, sowie zwei nach rechts zeigenden grauen Pfeilen mit der Beschriftung „Strahlungsrichtung“.
+1) Short summary:
+Schematic drawing with three vertical elements, labelled "Reflector" ("Reflektor"), "Radiator" ("Strahler") and "Director" ("Direktor"), and two grey arrows pointing to the right with the label "Direction of radiation" ("Strahlungsrichtung").
 
-2) Detaillierte Beschreibung:
-Von links nach rechts stehen drei schwarze, vertikale Linien auf weißem Hintergrund. Die linke Linie ist dünn und oben links mit „Reflektor“ beschriftet. In der Mitte befindet sich der „Strahler“: ein aus einer durchgehenden Linie gezeichneter, gefalteter Leiter mit abgerundetem U-Bogen oben und unten; entlang dieses Elements sind zwei kleine, offene Kreise eingezeichnet, einer in der oberen Hälfte, einer in der unteren Hälfte. Rechts davon steht eine weitere dünne, vertikale Linie mit der Beschriftung „Direktor“. Im Hintergrund verlaufen zwei breite, hellgraue, waagerechte Pfeile von links nach rechts. Am rechten Bildrand steht der Text „Strahlungsrichtung“ senkrecht (um 90 Grad gedreht), in Leserichtung von unten nach oben. Die Elemente „Reflektor“, „Strahler“ und „Direktor“ sind in dieser Reihenfolge von links nach rechts angeordnet, die Pfeile zeigen nach rechts.
+2) Detailed description:
+From left to right, three black vertical lines stand on a white background. The left line is thin and labelled "Reflector" ("Reflektor") at the top left. In the middle is the "Radiator" ("Strahler"): a folded conductor drawn as one continuous line, with a rounded U-bend at the top and at the bottom; along this element two small open circles are drawn, one in the upper half and one in the lower half. To the right of it stands a further thin vertical line labelled "Director" ("Direktor"). In the background two broad, light-grey horizontal arrows run from left to right. At the right-hand edge of the picture the text "Direction of radiation" ("Strahlungsrichtung") stands vertically (rotated by 90 degrees), reading from bottom to top. The elements "Reflector", "Radiator" and "Director" are arranged in this order from left to right; the arrows point to the right.

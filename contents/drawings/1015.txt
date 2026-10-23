@@ -1,5 +1,5 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Kurzfassung: Schaltbild eines einfachen RC-Stromkreises mit Spannungsquelle links, Widerstand oben, Kondensator rechts und einem geöffneten Schalter unten.
+Brief summary: Circuit diagram of a simple RC circuit with a voltage source on the left, a resistor at the top, a capacitor on the right and an open switch at the bottom.
 
-Detailbeschreibung: Eine rechteckige Leiterschleife. Links im vertikalen Zweig befindet sich eine Spannungsquelle (Symbol mit einer langen und einer kurzen Platte); daneben steht der Text „U“ mit einem Pfeil nach unten. Oben liegt ein rechteckiger Widerstand, darüber die Beschriftung „R“. Entlang des oberen Zweigs ist ein waagerechter Pfeil nach rechts mit der Beschriftung „U_R“ eingezeichnet. Rechts im vertikalen Zweig ist ein Kondensator (zwei parallele Platten) mit der Beschriftung „C“; daneben zeigt ein Pfeil mit „U_C“ nach unten. Unten ist der horizontale Leiter durch einen einpoligen, geöffneten Schalter (zwei Kontakte mit schräg abstehender, nicht schließender Zunge) unterbrochen.
+Detailed description: A rectangular conductor loop. On the left, in the vertical branch, is a voltage source (symbol with one long and one short plate); next to it is the text "U" with an arrow pointing downwards. At the top lies a rectangular resistor, above it the label "R". Along the upper branch a horizontal arrow to the right is drawn with the label "U_R". On the right, in the vertical branch, is a capacitor (two parallel plates) with the label "C"; next to it an arrow with "U_C" points downwards. At the bottom the horizontal conductor is interrupted by a single-pole open switch (two contacts with a blade standing off at an angle, not closing).

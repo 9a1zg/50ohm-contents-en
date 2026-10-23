@@ -1,8 +1,8 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-1) Kurze Zusammenfassung: Schematischer Plan mit zwei horizontalen Leitungen, einer linken senkrechten Verbindung mit Voltmeter „V“ und einer mittleren senkrechten Verbindung mit Amperemeter „A“ über einem rechteckigen Block mit Dreiecksymbol, beschriftet „PA“; links steht „zum Netzteil“, rechts „zum TX“.
+1) Short summary: Schematic plan with two horizontal lines, a vertical connection on the left with voltmeter "V" and a vertical connection in the middle with ammeter "A" above a rectangular block with a triangle symbol, labelled "PA"; on the left is "to power supply" ("zum Netzteil"), on the right "to TX" ("zum TX").
 
-2) Detaillierte Beschreibung: Oben und unten verlaufen je eine horizontale Leitung von links nach rechts, an deren äußersten Enden jeweils ein offener Anschlusskreis eingezeichnet ist. Links am Rand steht senkrecht die Beschriftung „zum Netzteil“, rechts am Rand senkrecht „zum TX“. Zwei senkrechte Verbindungen verbinden die obere mit der unteren Leitung: 
-- Links verläuft eine senkrechte Leitung mit einem runden Messgerätesymbol, innen mit „V“ beschriftet (Voltmeter). 
-- In der Mitte verläuft eine weitere senkrechte Leitung mit einem runden Messgerätesymbol, innen mit „A“ beschriftet (Amperemeter), darunter ein rechteckiger Block mit einem nach rechts zeigenden Dreieckssymbol; rechts daneben steht „PA“. 
-An allen Kreuzungspunkten der senkrechten Leitungen mit den horizontalen Leitungen sind kleine ausgefüllte Verbindungspunkte (Knoten) eingezeichnet.
+2) Detailed description: At the top and at the bottom a horizontal line runs from left to right, with an open terminal circle drawn at each of its outermost ends. At the left edge is the label "to power supply" ("zum Netzteil"), written vertically, and at the right edge, also vertically, "to TX" ("zum TX"). Two vertical connections join the upper line to the lower one:
+- On the left runs a vertical line with a round meter symbol, labelled "V" inside (voltmeter).
+- In the middle runs a further vertical line with a round meter symbol, labelled "A" inside (ammeter), and below it a rectangular block with a triangle symbol pointing to the right; to the right of it is "PA".
+At all the points where the vertical lines cross the horizontal lines, small filled connection dots (nodes) are drawn.

@@ -1,7 +1,7 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Kurze Zusammenfassung: Zwei LC-Schaltbilder: links eine vertikale Reihenschaltung aus Spule (L) und Kondensator (C) mit zwei Anschlussknoten, rechts eine rechteckige Leiterschleife mit einem Kondensator (C) auf der linken Seite und einer Spule (L) auf der rechten Seite.
+Short summary: Two LC circuit diagrams: on the left a vertical series connection of an inductor (L) and a capacitor (C) with two connecting nodes, on the right a rectangular conductor loop with a capacitor (C) on the left-hand side and an inductor (L) on the right-hand side.
 
-Detaillierte Beschreibung: 
-- Abbildung „a.“: Ein vertikaler Leiter mit einem offenen Anschlusskreis (kleiner Kreis) oben und unten. In der oberen Hälfte ist eine Spule mit der Beschriftung „L“ eingezeichnet (gewellte Linie). Darunter, in der unteren Hälfte, ein Kondensator mit der Beschriftung „C“ (zwei parallele Platten). Unter dem Schaltbild steht linksbündig „a.“. 
-- Abbildung „b.“: Ein rechteckiger, geschlossener Leiterrahmen. Auf der linken Rahmenseite unterbricht ein Kondensator mit zwei parallelen Platten den Leiter; neben dem Bauteil steht „C“. Auf der rechten Rahmenseite ist eine Spule (gewellte Linie) in den Leiter integriert; daneben steht „L“. Unter dem Schaltbild steht mittig „b.“.
+Detailed description:
+- Figure "a.": A vertical conductor with an open terminal circle (small circle) at the top and at the bottom. In the upper half an inductor labelled "L" is drawn (wavy line). Below it, in the lower half, a capacitor labelled "C" (two parallel plates). Below the circuit diagram, aligned left, is "a.".
+- Figure "b.": A rectangular closed conductor frame. On the left side of the frame a capacitor with two parallel plates interrupts the conductor; next to the component is "C". On the right side of the frame an inductor (wavy line) is built into the conductor; next to it is "L". Below the circuit diagram, centred, is "b.".

@@ -1,3 +1,3 @@
-1) Kurzbeschreibung: Antennendiagramm bestehend aus drei geraden Linien im Winkel von 120° zueinander und einer nahezu kreisförmigen Kontur mit Einbuchtungen an den Schnittstellen mit den geraden Linien.
+1) Short description: Antenna pattern consisting of three straight lines at an angle of 120° to one another and an almost circular outline with indentations where it meets the straight lines.
 
-2) Ausführliche Beschreibung: Die Abbildung zeigt ein Antennendiagramm mit drei geraden Linien, die im Winkel vom 120° zueinander stehen. Ein nahezuförmiger Kreis mit Einbuchtungen an den Schnittstellen mit den geraden Linien umschließt die Anordnung.
+2) Detailed description: The figure shows an antenna pattern with three straight lines at an angle of 120° to one another. A nearly circular outline with indentations where it meets the straight lines encloses the arrangement.

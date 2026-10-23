@@ -2722,6 +2722,11 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Übertragung starten / Erneut übertragen / Neuer Bitstrom / Übertragung läuft (Applet) | Start transmission / Transmit again / New bit stream / Transmission in progress | applet_qpsk; "Transmit again" as the psk slides already quote it |
 | Keine Anregung / Anregungsfrequenz (Traps-Applet) | Not fed / operating frequency | applet_traps; as §9 *Erregung / Erregerfrequenz* and §14 *Anregung* |
 | Normwerte / Schaltungsform (Dämpfungsglied-Applet) | preferred values / configuration | applet_daempfungsglied; as §4 *Normreihe (E-Reihe)* |
+| Kurzbeschreibung / Ausführliche, Detaillierte Beschreibung, Detailbeschreibung / Zusammenfassung / Kurze Zusammenfassung, Kurzzusammenfassung / Kurzfassung / Details (Alt-Text-Abschnitte) | Short description / Detailed description / Summary / Short summary / Brief summary / Details | section labels of the picture descriptions, numbering (1), 2), 1., 2.) kept as in the German (slike_01) |
+| Teilbild / Abbildung „a.“ / Allgemein (Alt-Text) | panel / Figure "a." / General | slike_01 |
+| offener Anschlusskreis / Anschlussklemme / Knoten, Knotenpunkt (Schaltbild) | open terminal circle / terminal / node (filled dot) | picture descriptions; *Leitung* in a drawn circuit → *line* (slike_01) |
+| Wellenlinie / Doppelpfeil / Hilfslinie / Pfeilspitze | wavy line / double-headed arrow / guide line / arrowhead | picture descriptions (slike_01) |
+| „1. OW“ … „4. OW“ (Zeichnung 1008) | "1. OW" … "4. OW" (1st to 4th overtone) | numbered *Oberwelle* stays *overtone*, so the numbering stays right (§5 *Oberwelle* trap); the unnumbered label *Oberwellen (OW)* → "Harmonics (OW)", as the course caption (slike_01) |
 
 ## 15. Catalogue structure
 

@@ -1,9 +1,9 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Kurzfassung: Vier übereinander angeordnete Skizzen eines geraden, mittig unterbrochenen Leiters der Länge „λ/2“ mit darüberliegenden roten Stromkurven „I“ für die Anregungen „f“, „2·f“, „3·f“ und „4·f“, jeweils mit „Ω“ und einem Auf- oder Abwärtspfeil markiert.
+Brief summary: Four sketches, arranged one above the other, of a straight conductor of length "λ/2" broken in the middle, with red current curves "I" above it for the excitations "f", "2·f", "3·f" and "4·f", each marked with "Ω" and an up or down arrow.
 
-Detailbeschreibung: Ganz oben zeigt ein waagerechter Doppelpfeil die Gesamtlänge mit der Beschriftung „λ/2“ in der Mitte. Darunter folgen die mit „a.“, „b.“, „c.“ und „d.“ beschrifteten Reihen:
-- a.: Schwarze horizontale Linie mit schmalem mittigen Spalt; am Spalt steht rechts „f“, daneben „↓ Ω“. Über der Linie verläuft eine durchgehende rote Kurve „I“ (Beschriftung „I“ links oberhalb), als ein breiter Bogen mit maximaler Höhe in der Mitte und Nulldurchgängen an beiden Enden.
-- b.: Gleiche schwarze Linie mit mittigem Spalt; am Spalt steht „2·f“ und „↑ Ω“. Die rote Kurve zeigt zwei gleich hohe Halbwellen, die sich genau im Spalt berühren (Knoten in der Mitte) und an den Enden auf Null gehen.
-- c.: Gleiche Anordnung; am Spalt steht „3·f“ und „↓ Ω“. Die rote Kurve zeigt drei Halbwellen, mit einem Maximum direkt über dem Spalt und zwei weiteren Maxima symmetrisch links und rechts; an den Enden wieder Nulldurchgänge.
-- d.: Gleiche Anordnung; am Spalt steht „4·f“ und „↑ Ω“. Die rote Kurve zeigt vier Halbwellen, mit einem Knoten im Spalt und weiteren Knoten gleichmäßig verteilt; die Enden liegen auf Null.
+Detailed description: At the very top a horizontal double-headed arrow shows the total length, with the label "λ/2" in the middle. Below it follow the rows labelled "a.", "b.", "c." and "d.":
+- a.: Black horizontal line with a narrow gap in the middle; at the gap, on the right, is "f", next to it "↓ Ω". Above the line runs a continuous red curve "I" (label "I" above on the left), as one broad arc with its maximum height in the middle and zero crossings at both ends.
+- b.: The same black line with a gap in the middle; at the gap is "2·f" and "↑ Ω". The red curve shows two half-waves of equal height that touch exactly at the gap (node in the middle) and go to zero at the ends.
+- c.: The same arrangement; at the gap is "3·f" and "↓ Ω". The red curve shows three half-waves, with a maximum directly above the gap and two further maxima symmetrically to the left and right; at the ends, zero crossings again.
+- d.: The same arrangement; at the gap is "4·f" and "↑ Ω". The red curve shows four half-waves, with a node at the gap and further nodes evenly distributed; the ends lie at zero.
