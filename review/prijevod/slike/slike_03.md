@@ -113,3 +113,38 @@ Doppelader / Querstrebe, Querverbinder*; *große Spule mit „ü“ / Kennlinie
   Leitern"; 323 — "Ein Zener-Diode" (*Eine*). Harmless typos.
 - 304 — says "keine weiteren … Textbeschriftungen" after naming the label
   „U“; *weiteren* covers it, noted only for DARC.
+
+## Provjera
+
+Checked all 107 files against the German at `cbc5d5e~1`, sentence by
+sentence: 107 full descriptions (16 with DARC's marker), no `TODO` or
+empty files. 6 files changed, 6 lines. `alttext-check.py --rev cbc5d5e~1`:
+107 files, 0 with findings.
+
+- 227 — *Im mittleren Leiter folgt nach rechts ein weiterer Widerstand* "In
+  the middle conductor, further to the right, follows another resistor" →
+  "Further to the right in the middle conductor there is another resistor"
+  (natural English).
+- 260 — *Leitung mit 50 Ohm* "a line of 50 Ω" → "a 50 Ω line" (natural
+  English).
+- 297 — *zeigt einen symmetrischen Verlauf* "shows a symmetrical course" →
+  "runs symmetrically" (natural English).
+- 313 — *Maßpfeil mit der Aufschrift „31,2 m“* "inscribed" → "labelled", as
+  slike_02 did for *Aufschrift*.
+- 315 — *mit Begrenzungspfeilen nach links und rechts* "with limit arrows to
+  the left and right" → "with arrowheads at its left and right ends" (not an
+  English term).
+- 316 — *ein Block mit der Aufschrift „G“, drei wellenförmigen Linien und …*
+  "a block labelled "G", three wavy lines and …" → "a block with the label
+  "G", three wavy lines and …", so the wavy lines and the rectangle read as
+  part of the block, as in the German.
+
+Left as translated: *Die Abbildung zeigt* → "The figure shows", *Das Bild
+zeigt* → "The picture shows", which is what the glossary says (§13
+*Darstellung / Abbildung / Bild*). slike_01 and slike_02 wrote "The picture
+shows" for *Abbildung* in 18 files (19 and 20 among them); that is for a
+later consistency pass over all batches, not changed here. Also left:
+*Anschluss* of a circuit symbol → "connection" (271–293), the two names
+"Zener diode (Z diode)", "MWS" unquoted in 260 as in the German, the
+corrected label "2) Detailed description" in 275/289, and the suspected
+German errors listed above, which are reported, not fixed.
