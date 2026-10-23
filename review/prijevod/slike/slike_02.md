@@ -91,3 +91,26 @@ labels „ZF“, „NF“, „ZF-Amp.“, „NF/Basisband“, „zum Oszillator�
 - 184 — "die links mit „a“ … gekennzeichnet" lacks *sind*; harmless.
 - 1122 — *Neutral dargestellter Ringmodulator* translated "shown in its
   neutral state"; no error, noted because the phrase is unusual.
+
+## Provjera
+
+Checked all 107 files against the German at `6f48c4d~1`: 83 translated
+files compared sentence by sentence (all full descriptions, 3 of them
+with DARC's marker), 24 `TODO`/empty files (21 `TODO`, 3 empty) confirmed untouched.
+3 files changed, 3 lines. `alttext-check.py --rev 6f48c4d~1`: 107 files,
+0 with findings.
+
+- 14 — *Eine Kurve beginnt zunächst in Sinusform im Nullpunkt* "A curve
+  starts at first as a sine wave at the origin" → "A curve starts at the
+  origin, at first as a sine wave" (natural English).
+- 155 — *Mehrere Verbindungslinien sind zu den Bauteilen geführt* "are run
+  to the components" → "lead to the components" (natural English).
+- 196 — *Gezeigt ist ein Blockschaltbild* "Shown is a block diagram" → "A
+  block diagram … is shown"; *Block mit der Aufschrift „G“* "with the
+  inscription" → "labelled "G"" (natural English).
+
+Left as translated: *Masse* → "chassis", *Ableitung* → "shunt path",
+*Bodenfläche* / *Erdboden* → "ground surface" / "the ground" (§13 soil,
+not earthing), the doubled-bracket labels ("AF" ("NF")), 149's
+"f_res  IF" as written, and the suspected German errors listed above,
+which are reported, not fixed.
