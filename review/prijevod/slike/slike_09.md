@@ -124,3 +124,33 @@ Mantelleitung, Ader, Luftfahrzeugkennzeichen, Hochdecker* …).
   (second) mixer in `98.tex`, and says the lines go "from the balanced
   modulator" to the CO and to the mixer; the CO feeds the balanced modulator.
   Translated as written.
+
+## Provjera
+
+107 files compared with the German (`fdeaa2c~1`): 100 left as they are,
+7 changed; glossary rows unchanged (the 10 new §14 rows checked against §4,
+§10, §12, §14 and the slike_07/08 rows, no conflicts).
+`alttext-check.py --rev fdeaa2c~1`: 107 files, 0 with findings. No numbers
+missing; DARC's marker, section labels, bracketed German labels, printed
+text on photos, decimal points and units as symbols all as the brief and
+§14 have them. The suspected errors in 960, 996 and 98 checked against the
+`.tex` files (960: only `D_1` and `D_2`, a centre-tap rectifier; 996:
+"Distanz [km]" / "Höhe [km]"; 98: the "?" twoport and the "VFO" generator)
+and confirmed; 244 left as the translator reasoned.
+
+- 974: the detailed description now brackets the German of "1st filter",
+  "RF", "Mixer" and "2nd filter" at first mention, as 973 and the other
+  detailed descriptions of the batch do.
+- 980: "(around approx. 5 kV/m)" (*um ca.*) → "(around 5 kV/m)".
+- 109: *aufgeklappten Deckel* "a hinged-open cover" → "an open lid".
+- 174: "the front piece of the insulation has been removed" → "the
+  insulation has been removed from the end".
+- 175: "a large silver "ZIPPY" lettering" → "large silver "ZIPPY"
+  lettering".
+- 224: "Over the board two black probes or leads are applied" → "Two black
+  probes or leads are attached over the board" (*angesetzt*).
+- 239: "two red flexible leads lead to" → "run to".
+- Checked and kept: "Ue," "Us," punctuation inside the quotes in 963 as the
+  German; "mixing symbol/block" for *Misch-* in 972; "1,000" ticks in 998
+  and the printed commas of 172, 196, 242, 243; "Distance in kilometres"
+  for "kilo meter" in 996; the unquoted labels of 995 with bracketed German.
