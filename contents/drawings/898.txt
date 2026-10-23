@@ -1,3 +1,3 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Ein Diagramm zeigt eine Spule auf der linken Seite mit einem magnetischen Feld, das durch grüne Linien dargestellt ist. Die Spule ist mit einem Kondensator auf der rechten Seite verbunden. Die Verbindung erfolgt durch Leitungen, die eine rechteckige Schleife bilden. Der Buchstabe "H" steht innerhalb der Feldlinien.
+A diagram shows an inductor on the left-hand side with a magnetic field, which is shown by green lines. The inductor is connected to a capacitor on the right-hand side. The connection is made by lines that form a rectangular loop. The letter "H" stands inside the field lines.

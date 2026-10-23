@@ -1,3 +1,3 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Ein Rechteck, das eine Spule mit mehreren Wicklungen zeigt, ist auf der linken Seite dargestellt. Von der rechten Seite des Rechtecks verläuft eine dicke Linie diagonal nach rechts oben mit mehreren bogenförmigen Linien, die von dieser Linie ausgehen. Diese bogenförmigen Linien sind in einem gleichmäßigen Abstand zueinander angeordnet und mit kleinen Pfeilen versehen.
+A rectangle showing an inductor with several windings is shown on the left-hand side. From the right-hand side of the rectangle a thick line runs diagonally up to the right, with several arched lines going out from this line. These arched lines are arranged at an even spacing from one another and provided with small arrows.

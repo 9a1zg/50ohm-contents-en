@@ -1,5 +1,5 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Kurzbeschreibung: Diagramm mit einer blauen Sinuskurve um die Nulllinie, deren Schwingungen nach rechts hin dichter werden, bei nahezu konstanter Amplitude.
+Short description: Diagram with a blue sine curve around the zero line, whose oscillations become denser towards the right, with almost constant amplitude.
 
-Detaillierte Beschreibung: Ein Koordinatensystem zeigt links eine senkrechte Achse mit Pfeil nach oben und der Beschriftung „Amplitude“, sowie eine waagerechte Achse mit Pfeil nach rechts und der Beschriftung „t“. Auf der waagerechten Achse liegt eine dünne horizontale Mittellinie (Nulllinie). Eine durchgehende blaue Sinuskurve verläuft symmetrisch um diese Mittellinie; die Spitzenhöhe über und unter der Linie bleibt etwa gleich (Amplitude nahezu konstant). Der Abstand zwischen aufeinanderfolgenden Maxima, Minima und Nulldurchgängen nimmt von links nach rechts sichtbar ab, sodass die Wellenzüge nach rechts hin dichter erscheinen. Es sind keine Zahlen, Gitterlinien oder weiteren Beschriftungen vorhanden.
+Detailed description: A coordinate system shows on the left a vertical axis with an arrow upwards and the label "Amplitude", and a horizontal axis with an arrow to the right and the label "t". On the horizontal axis lies a thin horizontal centre line (zero line). A continuous blue sine curve runs symmetrically about this centre line; the peak height above and below the line stays about the same (amplitude almost constant). The distance between successive maxima, minima and zero crossings decreases visibly from left to right, so that the wave trains appear denser towards the right. There are no numbers, grid lines or further labels.

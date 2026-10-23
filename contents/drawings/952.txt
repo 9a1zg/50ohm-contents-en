@@ -1,3 +1,3 @@
-1) Kurzbeschreibung: Antennendiagramm mit einer vertikalen Linie in der Mitte und zwei großen, horizontal nebeneinanderliegenden Kreisen, die sich auf der Linie berühren.
+1) Short description: Antenna pattern with a vertical line in the middle and two large circles lying horizontally side by side, which touch on the line.
 
-2) Ausführliche Beschreibung: Das Antennendiagramm zeigt in der Mitte eine vertikale Linie. Links und rechts davon befinden sich zwei große Kreise, die auf gleicher Höhe nebeneinanderliegen und sich auf der Linie berühren. Es gibt keine Beschriftungen.
+2) Detailed description: The antenna pattern shows a vertical line in the middle. To the left and right of it are two large circles, which lie side by side at the same height and touch on the line. There are no labels.

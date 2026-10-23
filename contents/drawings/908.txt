@@ -1,3 +1,3 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Diagramm mit einem Koordinatensystem. Die horizontale Achse ist mit "f" beschriftet. Ein blauer, vertikaler Balken ist bei 430 MHz mit der Beschriftung "f_T" dargestellt. Unter dem Balken steht "430 MHz" und darunter eine orange Linie mit der Beschriftung "70 cm Band". Die vertikale Achse ist unbeschriftet.
+Diagram with a coordinate system. The horizontal axis is labelled "f". A blue vertical bar is shown at 430 MHz with the label "f_T". Below the bar is "430 MHz" and below that an orange line with the label "70 cm band" ("70 cm Band"). The vertical axis is unlabelled.

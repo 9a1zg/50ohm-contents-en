@@ -1,3 +1,3 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Ein Schaltbild zeigt eine einzelne Spule auf der linken Seite, die mit rechteckigen Linien verbunden ist. Rechts befindet sich ein Rechteck mit mehreren gestrichelten Pfeilen, die nach oben zeigen, über der das Symbol "E" steht. Darunter sind mehrere Pluszeichen (+) in einer Reihe angeordnet.
+A circuit diagram shows a single inductor on the left-hand side, which is connected with rectangular lines. On the right is a rectangle with several dashed arrows pointing upwards, above which is the symbol "E". Below it several plus signs (+) are arranged in a row.

@@ -1,5 +1,5 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Zusammenfassung: Isometrische Strichzeichnung eines offenen Drehkondensators mit ineinandergreifenden Platten und einer herausragenden Antriebswelle zwischen zwei rechteckigen Endplatten.
+Summary: Isometric line drawing of an open variable capacitor with interleaving plates and a protruding drive shaft between two rectangular end plates.
 
-Details: Zwischen zwei rechteckigen, an den Ecken abgerundeten Endplatten sitzt ein Paket vieler dünner, parallel angeordneter Metallplatten. Ein Teil der Platten ist auf einer zylindrischen Achse in der Mitte befestigt; diese Achse ragt links durch die Frontplatte nach außen. Die übrigen Platten sind fest mit dem Rahmen/den Endplatten verbunden. Beide Plattensätze greifen in gleichmäßigem Abstand abwechselnd ineinander, ohne sich zu berühren. Auf der linken Frontplatte sind zwei runde Öffnungen sichtbar: eine große um die Achse und eine kleinere unten. Die rechte Endplatte erscheint geschlossen. Es sind keine Beschriftungen, Skalen oder Maße vorhanden.
+Details: Between two rectangular end plates with rounded corners sits a stack of many thin metal plates arranged in parallel. Some of the plates are fixed to a cylindrical shaft in the centre; this shaft protrudes outwards on the left through the front plate. The remaining plates are fixed to the frame/the end plates. The two sets of plates interleave alternately at an even spacing without touching. On the left front plate two round openings are visible: a large one around the shaft and a smaller one below it. The right end plate appears closed. There are no labels, scales or dimensions.

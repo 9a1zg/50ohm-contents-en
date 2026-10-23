@@ -1,3 +1,3 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Eine Spule auf der linken Seite ist mit einem Kondensator auf der rechten Seite durch Linien verbunden. Neben der Spule befindet sich eine Beschriftung mit dem Buchstaben "H". Grüne Pfeile um die Spule zeigen nach oben.
+An inductor on the left-hand side is connected by lines to a capacitor on the right-hand side. Beside the inductor is a label with the letter "H". Green arrows around the inductor point upwards.

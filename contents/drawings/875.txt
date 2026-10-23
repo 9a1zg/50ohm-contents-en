@@ -1,3 +1,3 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Ein Graph zeigt eine Wellenform, die sich horizontal erstreckt. Die horizontale Achse ist mit „t“ beschriftet, die vertikale Achse mit „Amplitude“. Die Wellenform beginnt links stärker, schwächt sich ab, wird dann wieder stark und klingt erneut ab. In der Mitte hebt sich ein rotes Segment der Welle hervor.
+A graph shows a waveform that extends horizontally. The horizontal axis is labelled "t", the vertical axis "Amplitude". The waveform starts stronger on the left, weakens, then becomes strong again and dies away again. In the middle a red segment of the wave stands out.

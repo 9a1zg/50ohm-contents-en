@@ -1,3 +1,3 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Diagramm eines Blockschaltplans mit einer Antenne links, gefolgt von einem Kasten mit "HF" beschriftet. Rechts davon sind mehrere hintereinandergeschaltete Blöcke mit Verbindungen und Beschriftungen: "3–30 MHz", "50 MHz", "1. ZF", "9 MHz", "2. ZF" und "455 kHz". Es gibt Pfeile, die die Signalflussrichtung anzeigen. Zusätzliche Kästen beschriftet mit "VFO", "G 41 MHz" und "G 9,455 MHz" sind mit einigen Blöcken verbunden.
+Diagram of a block diagram with an antenna on the left, followed by a box labelled "RF" ("HF"). To the right of it are several blocks connected one after the other, with connections and labels: "3–30 MHz", "50 MHz", "1st IF" ("1. ZF"), "9 MHz", "2nd IF" ("2. ZF") and "455 kHz". There are arrows that indicate the direction of signal flow. Additional boxes labelled "VFO", "G 41 MHz" and "G 9.455 MHz" are connected to some of the blocks.

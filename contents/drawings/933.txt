@@ -1,3 +1,3 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Eine einfache Schleifen-Antenne mit einem horizontalen, ovalen Design. Zwei parallele Drähte verlaufen horizontal und enden jeweils in einer Rundung. An einer Stelle gibt es einen kleinen Abstand, der zwei Linien trennt.
+A simple loop antenna with a horizontal oval design. Two parallel wires run horizontally and each end in a curve. At one point there is a small gap that separates two lines.

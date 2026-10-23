@@ -1,3 +1,3 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Das Bild zeigt ein Blockdiagramm mit drei Verstärkerblöcken. Der erste Block hat die Beschriftung "+10 dB" und "·10". Der zweite Block ist mit "+20 dB" und "·100" beschriftet. Der dritte Block zeigt "+30 dB" und "·1000". Links steht "1 mW" und "0 dBm", rechts "1000 W" und "60 dBm". Pfeile verbinden die Blöcke in einer linearen Folge.
+The picture shows a block diagram with three amplifier blocks. The first block carries the labels "+10 dB" and "·10". The second block is labelled "+20 dB" and "·100". The third block shows "+30 dB" and "·1000". On the left is "1 mW" and "0 dBm", on the right "1000 W" and "60 dBm". Arrows connect the blocks in a linear sequence.

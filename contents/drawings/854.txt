@@ -1,5 +1,5 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-1) Kurze Zusammenfassung: Schematische Grafik mit einem regelmäßigen 3×3-Raster aus Kreisen, jeweils mit der Beschriftung „Si“ und vier blauen Punkten darum.
+1) Short summary: Schematic graphic with a regular 3×3 grid of circles, each labelled "Si" with four blue dots around it.
 
-2) Detaillierte Beschreibung: Auf weißem Hintergrund verlaufen drei vertikale und drei horizontale, dunkelgraue, gestrichelte Linien und bilden ein gleichmäßiges 3×3-Gitter. An jedem der neun Kreuzungspunkte befindet sich ein kleiner Kreis mit hellgrauem Rand und weißer Füllung; im Inneren steht in schwarzer Schrift „Si“. Auf dem Umfang jedes Kreises sind vier kleine blaue Punkte in den Richtungen oben, rechts, unten und links angeordnet. Die gestrichelten Linien führen durch die Kreise hindurch. Es gibt keine weiteren Beschriftungen, Achsen, Legenden oder Maßeinheiten.
+2) Detailed description: On a white background three vertical and three horizontal dark grey dashed lines run and form an even 3×3 grid. At each of the nine crossing points is a small circle with a light grey outline and white fill; inside it is "Si" in black lettering. On the circumference of each circle four small blue dots are arranged in the directions top, right, bottom and left. The dashed lines pass through the circles. There are no further labels, axes, legends or units.

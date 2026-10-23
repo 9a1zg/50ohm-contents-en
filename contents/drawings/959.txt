@@ -1,3 +1,3 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Das Bild zeigt oben einen Schaltplan mit einem Transformator, zwei Dioden (D1, D2), einem Widerstand (R) und gekennzeichneten Spannungen (~Ue, ~U1, ~U2, Ua). Unten sind drei wellenförmige Grafiken abgebildet, die die Spannungen U1, U2 und Ua über die Zeit t darstellen. Die Grafiken haben jeweils eine horizontale Zeitachse (t) und eine vertikale Spannungsachse (U1, U2, Ua).
+The picture shows at the top a circuit diagram with a transformer, two diodes (D1, D2), a resistor (R) and marked voltages (~Ue, ~U1, ~U2, Ua). At the bottom three wave-shaped graphs are shown, which represent the voltages U1, U2 and Ua against time t. The graphs each have a horizontal time axis (t) and a vertical voltage axis (U1, U2, Ua).

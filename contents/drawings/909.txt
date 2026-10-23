@@ -1,3 +1,3 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Diagramm mit einem zweidimensionalen Koordinatensystem. Der waagerechte Pfeil ist mit "f" beschriftet. Eine blaue vertikale Fläche ist bei etwa 430,0075 MHz markiert und trägt die Markierung "f_T". Darunter steht "70 cm Band" mit einer Linie und Pfeilen, die nach links und rechts weisen.
+Diagram with a two-dimensional coordinate system. The horizontal arrow is labelled "f". A blue vertical area is marked at about 430.0075 MHz and carries the marking "f_T". Below it is "70 cm band" ("70 cm Band") with a line and arrows pointing left and right.

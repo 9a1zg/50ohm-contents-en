@@ -1,3 +1,3 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Ein Schaltbild zeigt eine Reihenschaltung aus einer Spule, dargestellt durch mehrere hintereinander liegende Schleifen auf der linken Seite, und einem Kondensator, dargestellt durch zwei parallele Linien, auf der rechten Seite. Verbindungsleitungen führen von der Spule zum Kondensator und zurück zur Spule, welche ein Rechteck bilden.
+A circuit diagram shows a series circuit of an inductor, shown by several loops lying one behind the other on the left-hand side, and a capacitor, shown by two parallel lines, on the right-hand side. Connecting lines lead from the inductor to the capacitor and back to the inductor, forming a rectangle.

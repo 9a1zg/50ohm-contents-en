@@ -1,3 +1,3 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Ein Schaltplan zeigt eine rechteckige Schleife mit einer Induktivität links, erkennbar an den gewickelten Linien. Rechts ist ein Kästchen mit vertikalen gelben Pfeilen, die nach unten zeigen.
+A circuit diagram shows a rectangular loop with an inductance on the left, recognisable by the wound lines. On the right is a box with vertical yellow arrows pointing downwards.

@@ -1,9 +1,9 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Kurzbeschreibung: Vier nebeneinander angeordnete Schaltsymbole von Kondensatoren, oben jeweils mit „a.“, „b.“, „c.“ und „d.“ beschriftet; Varianten mit Pluszeichen, diagonaler Pfeilmarkierung und diagonaler Linie mit kurzem Querstrich sind gezeigt.
+Short description: Four circuit symbols of capacitors arranged side by side, labelled "a.", "b.", "c." and "d." at the top respectively; variants with a plus sign, a diagonal arrow marking and a diagonal line with a short crossbar are shown.
 
-Detaillierte Beschreibung: 
-- a.: Über dem Symbol steht „a.“. Ein normales Kondensatorsymbol mit zwei kurzen, parallelen, horizontalen Platten; eine durchgehende senkrechte Anschlusslinie verläuft mittig durch das Symbol. 
-- b.: Über dem Symbol steht „b.“. Wie bei a., jedoch ist die untere Platte als breiter, ausgefüllter schwarzer Balken gezeichnet; an der rechten Seite der oberen, dünnen Platte steht ein kleines „+“. Eine senkrechte Anschlusslinie verläuft durch die Mitte. 
-- c.: Über dem Symbol steht „c.“. Zwei parallele horizontale Platten mit mittiger senkrechter Anschlusslinie; eine diagonale Linie mit Pfeilspitze verläuft von links unten nach rechts oben über die Platten. 
-- d.: Über dem Symbol steht „d.“. Zwei parallele horizontale Platten mit mittiger senkrechter Anschlusslinie; eine diagonale Linie ohne Pfeil kreuzt die Platten und endet oben rechts in einem kurzen, senkrecht dazu stehenden Querstrich.
+Detailed description:
+- a.: Above the symbol is "a.". A normal capacitor symbol with two short, parallel, horizontal plates; a continuous vertical connecting line runs through the middle of the symbol.
+- b.: Above the symbol is "b.". As with a., but the lower plate is drawn as a wide filled black bar; at the right of the upper, thin plate is a small "+". A vertical connecting line runs through the middle.
+- c.: Above the symbol is "c.". Two parallel horizontal plates with a central vertical connecting line; a diagonal line with an arrowhead runs from bottom left to top right across the plates.
+- d.: Above the symbol is "d.". Two parallel horizontal plates with a central vertical connecting line; a diagonal line without an arrow crosses the plates and ends at the top right in a short crossbar at right angles to it.
