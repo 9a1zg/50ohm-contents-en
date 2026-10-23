@@ -125,3 +125,26 @@ Querelemente / Schleifenelement* of the Yagi-Uda drawings.
   über zwei parallel geschalteten 110-Ω-Widerständen" (case slip);
   harmless.
 - 563 — the second label lacks its digit (") Ausführliche Beschreibung").
+
+## Provjera
+
+107 files compared with the German (`ac1381a~1`): 102 left as they are,
+5 changed; 1 glossary row corrected. `alttext-check.py --rev ac1381a~1`:
+107 files, 1 with findings, the same false positive in 501 explained above.
+No numbers missing; DARC's marker, section labels, bracketed German labels,
+decimal points and units as symbols all as the brief and §14 have them.
+
+- 535–538: *zwei parallele horizontale Linien quer zur Leitung* was "across
+  the line", which in a sentence about lines reads as one line crossing
+  another; now "across the wire" (*Leitung* as in "right-angled wiring", §14).
+- 49: the second paragraph's first mention of "Metal foils" had no German
+  bracket while "Roll" and "Dielectric" in the same paragraph had one; added
+  ("Metallbeläge"), as the batch's own bracket rule says.
+- `TRANSLATION_GLOSSARY.md` §14, row *Anschlussmarke … Masse-Schiene,
+  Masseleitung*: the note now says *Masseleitung* is "chassis line" only as a
+  drawn line, §13 *chassis lead* otherwise, so the two rows do not conflict;
+  the doubled "(slike_04) (slike_05)" tag tidied.
+- Checked and kept: "waveform" for *Kurvenform* in 479–482 (as 476–478,
+  slike_04); "outer sheath" in 562 (faithful, already a suspected error);
+  "base" for *Fußpunkt* in 614; the lower-case start of 607 and the missing
+  digit of 563 (as the German).
