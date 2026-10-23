@@ -1,3 +1,3 @@
-1) Short description: Diagram showing the time course of an AM signal.
+1) Short description: Diagram showing how an AM signal varies over time.
 
-2) Detailed description: The diagram is headed "AM" and shows the time course of an AM signal. Down the middle runs a vertical axis, labelled "f_t" at the bottom. To its left and right are the labels "f_t – 5 kHz" and "f_t + 5 kHz" respectively. On the left-hand side of the figure there are marks for the passage of time after "0 s" (top), "30 s" (in the middle) and "60 s" (bottom). In the diagram area itself, horizontal white lines of different lengths can be seen, starting from the central axis.
+2) Detailed description: The diagram is headed "AM" and shows how an AM signal varies over time. Down the middle runs a vertical axis, labelled "f_t" at the bottom. To its left and right are the labels "f_t – 5 kHz" and "f_t + 5 kHz" respectively. On the left-hand side of the figure there are marks for the passage of time after "0 s" (top), "30 s" (in the middle) and "60 s" (bottom). In the diagram area itself, horizontal white lines of different lengths can be seen, starting from the central axis.

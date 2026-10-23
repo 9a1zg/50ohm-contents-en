@@ -112,3 +112,28 @@ the symbol names of 694; the water-circuit parts of 667; *FPGA oder Software
   description and "–" in the short one. Kept as written.
 - 67, 68, 69, 70 — the short description writes "−" (minus sign) and the
   detailed description "–" (en dash). Kept as written.
+
+## Provjera
+
+107 files compared with the German (`7768f63~1`): 102 left as they are,
+5 changed; glossary rows unchanged (the 12 new §14 rows checked against §2,
+§3, §6, §9, §10 and the earlier §14 rows, no conflicts). `alttext-check.py
+--rev 7768f63~1`: 107 files, 1 with findings, the same false positive in 680
+explained above. No numbers missing; DARC's marker, section labels,
+bracketed German labels, decimal points and units as symbols all as the
+brief and §14 have them. The suspected errors in 620, 635 and 642–645 checked
+against the `.tex` files and confirmed.
+
+- 711, 716: *zeitlicher Verlauf eines FM-/AM-Signals* was "the time course of
+  an FM/AM signal", a calque; now "how an FM/AM signal varies over time" (both
+  sentences of each file).
+- 685: *die Zellen enthalten teils die Zeichen p1–p4 und die Buchstaben a–k*
+  was "contain partly the characters … and the letters …"; now "contain either
+  the characters p1–p4 or the letters a–k".
+- 710: "a black arrow leaves" (*gehen … ab*) → "a black arrow extends".
+- 667: "Several pipe connections leave from its side" → "branch off from its
+  side".
+- Checked and kept: the stray word of 618/621 ("light-emitting diode
+  resistor", as the German); "chassis" for *Masse* in 633, 669, 680 and
+  "chassis symbol" in 681 (§14); "Mean sunspots per month" (729) and "Volume"
+  (730) as the new rows; "Data mode interface" (630) as §14 *Digimode-Interface*.

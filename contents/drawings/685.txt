@@ -1,6 +1,6 @@
 This alt text has not yet been checked.
 
-Short description: A 4×4 grid with thick black lines; the cells contain partly the characters p1–p4 and the letters a–k; one cell is empty.
+Short description: A 4×4 grid with thick black lines; the cells contain either the characters p1–p4 or the letters a–k; one cell is empty.
 
 Detailed description: The grid has four rows and four columns. From top to bottom, each read from left to right:
 - Row 1: cell 1 empty; cell 2 "p1" (italic); cell 3 "p2" (italic); cell 4 "a".
