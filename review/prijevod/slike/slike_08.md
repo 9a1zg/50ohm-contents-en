@@ -115,3 +115,33 @@ array, down-lead, mixer circle, pair of plates).
   does label that filter "NF" with "455 kHz" beside it, so the alt text
   follows the drawing, but 455 kHz is a third IF, not AF (compare 913's
   "ZF 455 kHz"). Translated as written; a possible drawing error.
+
+## Provjera
+
+107 files compared with the German (`e8a5481~1`): 98 left as they are,
+9 changed; glossary rows unchanged (the 9 new §14 rows checked against §2,
+§3, §4, §5, §6, §7, §10 and the earlier §14 rows, no conflicts).
+`alttext-check.py --rev e8a5481~1`: 107 files, 0 with findings. No numbers
+missing; DARC's marker, section labels, bracketed German labels, decimal
+points and units as symbols all as the brief and §14 have them. The
+suspected errors in 866, 863 and 90 checked against the `.tex` files
+(`80 m (ca. 100 km)` in DARCorange, `ca.` on the medium-wave label; `npn`
+with DARCred current arrows; filter `l_=NF` with "455 kHz") and confirmed.
+
+- 870, 918, 955: *doppelseitiger (Maß)pfeil* "double-sided … arrow" →
+  "double-headed … arrow", as elsewhere in the batch (948, 954).
+- 852: "horizontal black line (line)" (*Linie (Leitung)*) → "(transmission
+  line)", §9.
+- 874: "above a blue earth's surface" → "above the earth's surface, drawn in
+  blue".
+- 935: "The arrows standing orthogonally on the waves" → "The arrows
+  perpendicular to the waves".
+- 944: *mit den Legenden U (blau) …* "with the legends U (blue)" → "with the
+  legend entries U (blue)".
+- 951: "two capacitors … (small pairs of plates) to a short upper auxiliary
+  line" → "…, connected to a short upper auxiliary line" (*gegen*).
+- 958: "two black leads lead away" → "two black leads run away".
+- Checked and kept: "Diagram of a block diagram" (913, 93) and "Shown is"
+  as the German; 868/869/918's bracketed reading of the *OW / Harm.* labels
+  (1008 precedent); 866's quotes with units as symbols and the German in
+  brackets; "Azimuth"/"Elevation" unbracketed in 876 (printed in English).
