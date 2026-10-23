@@ -1,3 +1,3 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Das Bild zeigt einen elektrischen Schaltplan mit mehreren Widerständen. Links beginnen die Widerstände R1 und R2, jeweils mit 200 Ohm. R3 (100 Ohm) und R4 (150 Ohm) sind parallel zu diesen geschaltet. Rechts von R2 sind drei weitere Widerstände: R5 und R6, beide mit 100 Ohm, sowie R8 mit 200 Ohm. R7, ebenfalls 100 Ohm, ist parallel zu R5 geschaltet. Alle Widerstände sind mit Linien verbunden.
+The picture shows an electrical circuit diagram with several resistors. On the left begin the resistors R1 and R2, each of 200 Ω. R3 (100 Ω) and R4 (150 Ω) are connected in parallel with these. To the right of R2 there are three further resistors: R5 and R6, both of 100 Ω, and R8 of 200 Ω. R7, also 100 Ω, is connected in parallel with R5. All the resistors are connected by lines.

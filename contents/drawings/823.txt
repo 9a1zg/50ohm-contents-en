@@ -1,5 +1,5 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-1) Kurze Zusammenfassung: Ein Schaltplan zeigt drei in Reihe geschaltete Kondensatoren zwischen zwei runden Anschlussknoten.
+1) Short summary: A circuit diagram shows three capacitors connected in series between two round terminal nodes.
 
-2) Detaillierte Beschreibung: Auf einer waagerechten Leitung befindet sich links ein kleiner offener Kreis als Anschlusspunkt; die Leitung führt nach rechts zum ersten Kondensatorsymbol C1 (zwei senkrechte, parallele Platten mit kleinem Zwischenraum), darüber steht die Beschriftung „C1“. Von dort verläuft die Leitung weiter nach rechts zum zweiten, identisch gezeichneten Kondensator mit der Beschriftung „C2“ oberhalb, anschließend weiter zum dritten gleichartigen Kondensator mit der Beschriftung „C3“ oberhalb. Rechts endet die Leitung in einem zweiten kleinen offenen Kreis als Anschlusspunkt. Weitere Bauteile, Skalen oder Beschriftungen sind nicht vorhanden.
+2) Detailed description: On a horizontal line there is a small open circle on the left as a terminal; the line leads to the right to the first capacitor symbol C1 (two vertical, parallel plates with a small space between them), above it the label "C1". From there the line continues to the right to the second, identically drawn capacitor with the label "C2" above it, then on to the third capacitor of the same kind with the label "C3" above it. On the right the line ends in a second small open circle as a terminal. There are no other components, scales or labels.

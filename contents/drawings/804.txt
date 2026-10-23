@@ -1,9 +1,9 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-1) Kurze Zusammenfassung:
-Ein I‑U‑Diagramm mit zwei Kennlinien: eine blaue, lineare Gerade (mit Widerstandssymbol) und eine orange, zunächst flache und dann steil ansteigende Kurve (mit Diodensymbol).
+1) Short summary:
+An I-U diagram with two characteristics: a blue, linear straight line (with a resistor symbol) and an orange curve, at first flat and then rising steeply (with a diode symbol).
 
-2) Detaillierte Beschreibung:
-- Achsen: Waagerechte Achse mit Pfeil nach rechts und Beschriftung „U“, senkrechte Achse mit Pfeil nach oben und Beschriftung „I“. Auf der U‑Achse sind die Teilstriche mit „0,1 V“, „0,2 V“, „0,3 V“, „0,4 V“, „0,5 V“, „0,6 V“, „0,7 V“, „0,8 V“, „0,9 V“ und „1,0 V“ markiert. Die I‑Achse hat keine Zahlenmarken.
-- Blaue Kennlinie: Eine gerade, ansteigende Linie beginnt im Ursprung und verläuft schräg nach oben bis nahe „1,0 V“. In der linken Bildhälfte, oberhalb der U‑Achse, befindet sich ein blaues Widerstandssymbol (Rechteck mit waagerechten Anschlusslinien).
-- Orange Kennlinie: Eine Kurve liegt von „0,1 V“ bis etwa „0,6 V“ fast auf der U‑Achse und steigt ab ungefähr „0,7 V“ sehr steil nach oben; ihr oberes Ende wird am oberen Bildrand abgeschnitten. In der rechten Bildhälfte steht daneben ein orangefarbenes Diodensymbol (Dreieck, das nach rechts auf einen senkrechten Strich zeigt) mit waagerechten Anschlusslinien.
+2) Detailed description:
+- Axes: horizontal axis with an arrow pointing to the right and the label "U", vertical axis with an arrow pointing upwards and the label "I". On the U-axis the tick marks are marked "0.1 V", "0.2 V", "0.3 V", "0.4 V", "0.5 V", "0.6 V", "0.7 V", "0.8 V", "0.9 V" and "1.0 V". The I-axis has no numerical marks.
+- Blue characteristic: a straight, rising line begins at the origin and runs obliquely upwards to near "1.0 V". In the left half of the picture, above the U-axis, there is a blue resistor symbol (rectangle with horizontal connecting lines).
+- Orange characteristic: a curve lies almost on the U-axis from "0.1 V" to about "0.6 V" and rises very steeply from about "0.7 V"; its upper end is cut off at the top edge of the picture. In the right half of the picture, beside it, is an orange diode symbol (triangle pointing to the right at a vertical stroke) with horizontal connecting lines.

@@ -1,3 +1,3 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Ein Diagramm mit einer Frequenzskala von 30 kHz bis 300 MHz. Die Skala ist vertikal geteilt in Abschnitte mit Bezeichnungen: LW, MF, HF (KW), VHF (UKW). Rote Marker zeigen Wellenlängen in Metern: 2,2 km, 630 m, 160 m, bis zu 2 m. Frequenzen in kHz oder MHz sind neben den Markern aufgeführt.
+A diagram with a frequency scale from 30 kHz to 300 MHz. The scale is divided vertically into sections with the designations: LW, MF, HF ("HF (KW)"), VHF ("VHF (UKW)"). Red markers show wavelengths in metres: 2.2 km, 630 m, 160 m, up to 2 m. Frequencies in kHz or MHz are listed beside the markers.

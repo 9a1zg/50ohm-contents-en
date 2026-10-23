@@ -1,11 +1,11 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Kurzfassung: Diagramm einer orangefarbenen Sinusspannung U über der Zeit t mit Markierungen T, Û, U_eff und U_ss.
+Brief summary: Diagram of an orange sinusoidal voltage U against time t with the markings T, Û, U_eff and U_ss.
 
-Detailbeschreibung: 
-- Links eine vertikale Achse mit Pfeil nach oben und Beschriftung U; durch das Bild verläuft eine horizontale Achse mit Pfeil nach rechts und Beschriftung t. Auf der t-Achse sind mehrere kleine, gleichmäßig verteilte Teilstriche. 
-- Oben über der Grafik ein waagerechter Doppelpfeil über die gesamte Breite, beschriftet T. 
-- Eine orangefarbene Sinuskurve beginnt links bei U=0, steigt zu einem positiven Scheitel links der Mitte, fällt durch U=0 rechts der Mitte, erreicht ein negatives Minimum weiter rechts und kehrt am rechten Rand zu U=0 zurück (eine volle Periode). 
-- Am positiven Scheitel steht ein senkrechter Doppelpfeil vom Nulllinie‑Niveau bis zur Scheitelhöhe, beschriftet Û; auf Scheitelhöhe verläuft eine feine graue waagerechte Hilfslinie. 
-- Weiter rechts auf der fallenden Flanke zeigt ein kürzerer senkrechter Doppelpfeil vom Nulllinie‑Niveau zur Kurve, beschriftet U_eff; seine Höhe ist mit einer kurzen grauen waagerechten Hilfslinie angedeutet. 
-- Rechts der Mitte ist eine senkrechte Linie durch die t-Achse eingezeichnet; daran ein langer senkrechter Doppelpfeil mit Spitzen nach oben und unten, beschriftet U_ss, dessen obere und untere Spitze in etwa die positive Scheitelhöhe bzw. die negative Talhöhe markieren.
+Detailed description:
+- On the left a vertical axis with an arrow pointing upwards and the label U; a horizontal axis with an arrow pointing to the right and the label t runs through the picture. On the t-axis there are several small, evenly spaced tick marks.
+- At the top, above the graphic, a horizontal double-headed arrow across the whole width, labelled T.
+- An orange sine curve begins on the left at U=0, rises to a positive peak to the left of the middle, falls through U=0 to the right of the middle, reaches a negative minimum further to the right and returns to U=0 at the right-hand edge (one full period).
+- At the positive peak there is a vertical double-headed arrow from the level of the zero line up to the height of the peak, labelled Û; at the height of the peak runs a fine grey horizontal guide line.
+- Further to the right, on the falling slope, a shorter vertical double-headed arrow points from the level of the zero line to the curve, labelled U_eff; its height is indicated by a short grey horizontal guide line.
+- To the right of the middle a vertical line is drawn through the t-axis; on it a long vertical double-headed arrow with heads pointing up and down, labelled U_ss, whose upper and lower heads mark approximately the height of the positive peak and the depth of the negative trough respectively.

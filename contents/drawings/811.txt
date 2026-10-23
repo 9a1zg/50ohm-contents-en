@@ -1,3 +1,3 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Ein elektrischer Schaltplan zeigt drei Widerstände, bezeichnet als R1, R2 und R3. Die Widerstände sind parallel zueinander geschaltet. R1 ist links, R2 in der Mitte und R3 rechts angeordnet. An den Enden der Parallelschaltung befinden sich zwei Knotenpunkte, gekennzeichnet durch schwarze Punkte, die jeweils mit einem offenen Kreis verbunden sind.
+An electrical circuit diagram shows three resistors, designated R1, R2 and R3. The resistors are connected in parallel with one another. R1 is arranged on the left, R2 in the middle and R3 on the right. At the ends of the parallel circuit there are two nodes, marked by black dots, each connected to an open circle.

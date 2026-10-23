@@ -1,11 +1,11 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-1) Kurze Zusammenfassung:
-Blockdiagramm mit Signalfluss von links nach rechts durch Verstärker, DSB‑Mischer und SSB‑Filter, mit darunterliegender Umschaltung zwischen zwei 9‑MHz‑Zweigen (LSB/USB) und mehreren Frequenzangaben.
+1) Short summary:
+Block diagram with signal flow from left to right through an amplifier, a DSB mixer and an SSB filter, with switching between two 9 MHz branches (LSB/USB) below and several frequencies.
 
-2) Detaillierte Beschreibung:
-- Links ein Kreis; ein Pfeil führt nach rechts in einen rechteckigen Block mit einem Dreieck (Verstärker‑Symbol). Von dort ein Pfeil in einen rechteckigen Block mit Mixer‑Symbol (Kreis mit Kreuz), beschriftet „DSB“. Rechts davon ein weiterer rechteckiger Block mit drei wellenförmigen Linien, beschriftet „SSB“, aus dem ein Pfeil nach rechts herausführt.
-- Textbeschriftungen oberhalb des DSB‑/SSB‑Bereichs: „a) 8995,5–8998,2 kHz“ und darunter „b) 8998,8–9001,5 kHz“. Rechts oben neben dem SSB‑Ausgang steht erneut „8998,8–9001,5 kHz“. Zwischen DSB und SSB steht „9000 kHz ± 1,5 kHz“.
-- Unterhalb des DSB‑Blocks befindet sich ein rechteckiger Block mit der Aufschrift „G“. Ein Pfeil von „G“ zeigt nach oben zum DSB‑Block und ist mit „fosz“ beschriftet.
-- Von „G“ verläuft eine Leitung nach links unten und bildet eine U‑förmige Schleife nach rechts, an der zwei vertikale Abzweige mit offenen Schalter‑Symbolen liegen, links „LSB“, rechts „USB“.
-- Unter dem linken Abzweig („LSB“) ist ein kleines rechteckiges Kästchen, darunter die Beschriftung „9001,5 kHz“. Auf der horizontalen Leitung darunter ein schwarzer Punkt. Unter dem rechten Abzweig („USB“) ist ein gleichartiges Kästchen, darunter „8998,5 kHz“. Alle diese Elemente sind mit der unteren Leitung verbunden, die zurück zum Block „G“ führt.
+2) Detailed description:
+- On the left a circle; an arrow leads to the right into a rectangular block with a triangle (amplifier symbol). From there an arrow into a rectangular block with a mixer symbol (circle with a cross), labelled "DSB". To the right of it a further rectangular block with three wavy lines, labelled "SSB", from which an arrow leads out to the right.
+- Text labels above the DSB/SSB area: "a) 8995.5–8998.2 kHz" and below it "b) 8998.8–9001.5 kHz". At the top right, beside the SSB output, is "8998.8–9001.5 kHz" again. Between DSB and SSB is "9000 kHz ± 1.5 kHz".
+- Below the DSB block is a rectangular block with the inscription "G". An arrow from "G" points upwards to the DSB block and is labelled "fosz".
+- From "G" a line runs down to the left and forms a U-shaped loop to the right, on which there are two vertical branches with open switch symbols, "LSB" on the left, "USB" on the right.
+- Below the left branch ("LSB") is a small rectangular box, below it the label "9001.5 kHz". On the horizontal line below it a black dot. Below the right branch ("USB") is a box of the same kind, below it "8998.5 kHz". All these elements are connected to the lower line, which leads back to the block "G".

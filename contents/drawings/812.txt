@@ -1,3 +1,3 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Schaltplan mit drei in Reihe geschalteten Widerständen, beschriftet mit R1, R2 und R3. Links und rechts der Widerstände befinden sich Anschlusspunkte.
+Circuit diagram with three resistors connected in series, labelled R1, R2 and R3. To the left and right of the resistors there are terminals.

@@ -1,13 +1,13 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-1) Kurze Zusammenfassung:
-Schaltplan einer rechteckigen Leiterschleife mit vier in Reihe liegenden Widerständen zwischen zwei offenen Anschlussklemmen links, beschriftet „R1 = 200 Ω“, „R2,3,6 = 100 Ω“, „R5,7,8 = 100 Ω“ und „R4 = 150 Ω“.
+1) Short summary:
+Circuit diagram of a rectangular conductor loop with four resistors in series between two open terminals on the left, labelled "R1 = 200 Ω", "R2,3,6 = 100 Ω", "R5,7,8 = 100 Ω" and "R4 = 150 Ω".
 
-2) Detaillierte Beschreibung:
-- Links sind zwei offene runde Anschlussklemmen übereinander zu sehen (oben und unten), ohne direkte Verbindung zwischen ihnen.
-- Vom oberen linken Anschluss führt eine horizontale Leiterbahn nach rechts zu einem rechteckigen Widerstand mit der Aufschrift „R1 = 200 Ω“. Danach folgt ein schwarzer Knotenpunkt.
-- Es schließt sich ein weiterer rechteckiger Widerstand an, beschriftet „R2,3,6 = 100 Ω“. Danach folgt erneut ein schwarzer Knotenpunkt.
-- Danach folgt ein dritter rechteckiger Widerstand mit der Aufschrift „R5,7,8 = 100 Ω“. Am rechten Ende der oberen Leitung ist ein weiterer schwarzer Punkt zu sehen.
-- Von dort verläuft die Leitung senkrecht nach unten am rechten Rand und dann horizontal nach links über die untere Leitung.
-- Etwa mittig der unteren Leitung befindet sich ein vierter rechteckiger Widerstand mit der Beschriftung „R4 = 150 Ω“.
-- Die untere Leitung setzt sich nach links fort bis zum unteren linken offenen Anschluss. Es sind keine weiteren Bauteile, Spannungsquellen oder Beschriftungen vorhanden.
+2) Detailed description:
+- On the left two open round terminals can be seen one above the other (top and bottom), with no direct connection between them.
+- From the upper left terminal a horizontal conductor track leads to the right to a rectangular resistor with the inscription "R1 = 200 Ω". After it follows a black node.
+- Then comes a further rectangular resistor, labelled "R2,3,6 = 100 Ω". After it again follows a black node.
+- After that follows a third rectangular resistor with the inscription "R5,7,8 = 100 Ω". At the right-hand end of the upper line a further black dot can be seen.
+- From there the line runs vertically down along the right-hand edge and then horizontally to the left along the lower line.
+- At about the middle of the lower line is a fourth rectangular resistor with the label "R4 = 150 Ω".
+- The lower line continues to the left as far as the lower left open terminal. There are no other components, voltage sources or labels.

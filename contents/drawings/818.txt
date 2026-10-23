@@ -1,5 +1,5 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-1) Kurze Zusammenfassung: Ein einfacher Schaltplan mit einem einzelnen Widerstand in einer horizontalen Leitung; darüber steht „R_{1,2,3,4,5,6,7,8} = 550 Ω“.
+1) Short summary: A simple circuit diagram with a single resistor in a horizontal line; above it is "R_{1,2,3,4,5,6,7,8} = 550 Ω".
 
-2) Detaillierte Beschreibung: Eine waagrechte Leitung verläuft von links nach rechts zwischen zwei offenen Anschlussklemmen (jeweils kleine, ungefüllte Kreise an den Enden). In der Mitte der Leitung befindet sich ein rechteckiges Symbol für einen Widerstand, das in Reihe in die Leitung eingebunden ist. Direkt oberhalb des Rechtecks steht die Textbeschriftung „R_{1,2,3,4,5,6,7,8} = 550 Ω“. Weitere Bauteile, Markierungen oder Achsen sind nicht vorhanden.
+2) Detailed description: A horizontal line runs from left to right between two open terminals (each a small, unfilled circle at the ends). In the middle of the line is a rectangular symbol for a resistor, which is included in the line in series. Directly above the rectangle is the text label "R_{1,2,3,4,5,6,7,8} = 550 Ω". There are no other components, markings or axes.

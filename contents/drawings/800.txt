@@ -1,5 +1,5 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-1) Kurzzusammenfassung: Eine orangefarbene, sinusförmige Kurve U über der Zeit t mit im Verlauf abnehmender und dann wieder zunehmender Amplitude.
+1) Short summary: An orange, sinusoidal curve U against time t, with an amplitude that first decreases and then increases again.
 
-2) Detaillierte Beschreibung: Die Grafik zeigt ein rechtwinkliges Koordinatensystem mit schwarzen Achsen und Pfeilspitzen; die vertikale Achse ist mit „U“ beschriftet, die horizontale mit „t“. Die Nulllinie liegt als waagerechte Achse in der Bildmitte, Zahlenmarkierungen fehlen. Eine orangefarbene, sinusförmige Schwingung verläuft entlang der Zeitachse und schwingt symmetrisch um die Nulllinie. Von links nach rechts nimmt die Amplitude zunächst deutlich ab, erreicht etwa in der Bildmitte ein Minimum und nimmt danach wieder zu. Die Abstände zwischen den Nulldurchgängen erscheinen ungefähr gleichmäßig.
+2) Detailed description: The graphic shows a rectangular coordinate system with black axes and arrowheads; the vertical axis is labelled "U", the horizontal one "t". The zero line lies as a horizontal axis in the middle of the picture; there are no numerical marks. An orange sinusoidal oscillation runs along the time axis and oscillates symmetrically about the zero line. From left to right the amplitude first decreases markedly, reaches a minimum at about the middle of the picture and then increases again. The spacing between the zero crossings appears roughly even.

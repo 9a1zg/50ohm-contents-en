@@ -1,3 +1,3 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Schaltplan mit mehreren elektrischen Bauteilen. Links sind zwei Widerstände mit Werten von 56 Ohm und 470 Ohm parallel geschaltet. In der Mitte befinden sich zwei Dioden in entgegengesetzter Ausrichtung und zwei Kondensatoren mit Werten von 47 nF. Rechts oben ist ein weiterer Widerstand mit 100 kOhm parallel zu den Kondensatoren geschaltet. Verbindungen führen von einem Punkt "E" links zum Punkt "A" rechts.
+Circuit diagram with several electrical components. On the left two resistors with values of 56 Ω and 470 Ω are connected in parallel. In the middle there are two diodes in opposite orientation and two capacitors with values of 47 nF. At the top right a further resistor of 100 kΩ is connected in parallel with the capacitors. Connections lead from a point "E" on the left to the point "A" on the right.
