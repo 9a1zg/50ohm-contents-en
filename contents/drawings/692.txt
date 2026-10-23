@@ -1,3 +1,3 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Das Bild zeigt fünf elektrische Bauteile: Eine Spule (47 μH) oben rechts, eine kleine rechteckige Komponente beschriftet mit "PLCC2 100 nH" links daneben, einen zylindrischen Widerstand mit Farbcodierung darunter, eine weitere Spule (150 μH) darunter und eine größere Spule (5 mH) unten rechts. Links ist ein Symbol für eine Spule mit der Beschriftung "L" und ein Maßstab "1 cm" zu sehen.
+The picture shows five electrical components: an inductor (47 μH) at the top right, a small rectangular component labelled "PLCC2 100 nH" to the left of it, a cylindrical resistor with colour coding below it, a further inductor (150 μH) below that and a larger inductor (5 mH) at the bottom right. On the left a symbol for an inductor labelled "L" and a scale "1 cm" can be seen.

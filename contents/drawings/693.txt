@@ -1,3 +1,3 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Vier Transistoren mit variierenden Formen und Größen sind abgebildet. Links oben ist ein Kreis mit einem 'T' und einem Schaltzeichen. Rechts daneben befindet sich der Text: "BCW61C 32V / 100 mA". Rechts oben ist ein kleiner Transistor mit drei Beinen, beschriftet mit "BC337-16 45V / 800 mA". Darunter befindet sich ein größerer Transistor, beschriftet mit "BD675 45V / 4A". Rechts unten ist ein weiterer Transistor mit der Aufschrift "BD249A 60V / 25A". Eine Maßangabe von "1 cm" ist in der Mitte links dargestellt.
+Four transistors of varying shapes and sizes are shown. At the top left is a circle with a "T" and a circuit symbol. To the right of it is the text: "BCW61C 32V / 100 mA". At the top right is a small transistor with three legs, labelled "BC337-16 45V / 800 mA". Below it is a larger transistor, labelled "BD675 45V / 4A". At the bottom right is a further transistor with the inscription "BD249A 60V / 25A". A dimension of "1 cm" is shown in the middle on the left.

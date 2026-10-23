@@ -1,5 +1,5 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Zusammenfassung: Neun nebeneinander angeordnete Kästchen mit den Ziffern 1 und 0, wobei das rechte äußere Kästchen grau hinterlegt ist.
+Summary: Nine boxes arranged side by side with the digits 1 and 0, the outermost box on the right having a grey background.
 
-Detaillierte Beschreibung: Eine horizontale Reihe aus neun gleich großen, schwarz umrandeten Quadraten; in jedem steht mittig eine Ziffer. Von links nach rechts lauten die Ziffern: 1, 1, 0, 0, 1, 0, 1, 1, 1. Die ersten acht Felder sind weiß, das neunte (rechts außen) ist hellgrau gefüllt. Es gibt keine Achsen, keine weiteren Beschriftungen oder Symbole.
+Detailed description: A horizontal row of nine squares of equal size with black borders; in the centre of each is a digit. From left to right the digits are: 1, 1, 0, 0, 1, 0, 1, 1, 1. The first eight fields are white, the ninth (at the far right) is filled light grey. There are no axes and no further labels or symbols.

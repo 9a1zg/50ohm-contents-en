@@ -1,6 +1,6 @@
-1) Kurzbeschreibung: Grafik mit farblich gruppierten Großbuchstaben und Ziffern, beschriftet mit „Präfix“, „Numeral“ und „Suffix“.
+1) Short description: Graphic with capital letters and digits grouped by colour, labelled "Prefix" ("Präfix"), "Numeral" and "Suffix".
 
-2) Ausführliche Beschreibung: Auf weißem Hintergrund sind drei Gruppen von Schriftzeichen angeordnet. Links stehen grüne Buchstaben, darunter steht in Grün „Präfix“. In der Mitte stehen orangefarbene Ziffern, darunter steht in Orange „Numeral“. Rechts stehen blaue Buchstaben, darunter steht in Blau „Suffix“. Von oben nach unten:
-Zeile 1 – links „K“ (grün), in der Mitte „4“ (orange), rechts „E A X“ (blau)
-Zeile 2 – links „W Z“ (grün), in der Mitte „6“ (orange), rechts „Y“ (blau)
-Zeile 3 – links „D L“ (grün), in der Mitte „1“ (orange), rechts „F L O“ (blau)
+2) Detailed description: On a white background three groups of characters are arranged. On the left are green letters, below them in green "Prefix" ("Präfix"). In the middle are orange digits, below them in orange "Numeral". On the right are blue letters, below them in blue "Suffix". From top to bottom:
+Line 1 – left "K" (green), in the middle "4" (orange), right "E A X" (blue)
+Line 2 – left "W Z" (green), in the middle "6" (orange), right "Y" (blue)
+Line 3 – left "D L" (green), in the middle "1" (orange), right "F L O" (blue)

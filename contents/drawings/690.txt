@@ -1,4 +1,4 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Ein Bild zeigt vier elektronische Bauteile, die vertikal angeordnet sind. Von links nach rechts: Ein kleiner schwarzer Zylinder mit der Markierung "EGF1A" und "50V / 1A", ein bauteil mit gelbem Ring und der Markierung "1N4148" und "100V / 200 mA", ein weiteres schwarzes Bauteil mit der Markierung "1N4007" und "1000V / 1A", sowie ein größeres, rechteckiges schwarzes Bauteil mit drei Metallanschlüssen und der Aufschrift "GI 636 MBR3045PT" mit der Markierung "45V / 30A". Links daneben ein Symbol einer Diode und der Buchstabe "D". 
+A picture shows four electronic components, arranged vertically. From left to right: a small black cylinder with the marking "EGF1A" and "50V / 1A", a component with a yellow ring and the marking "1N4148" and "100V / 200 mA", a further black component with the marking "1N4007" and "1000V / 1A", and a larger, rectangular black component with three metal leads and the inscription "GI 636 MBR3045PT" with the marking "45V / 30A". To the left of them a symbol of a diode and the letter "D".
 

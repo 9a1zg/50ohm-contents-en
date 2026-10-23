@@ -1,25 +1,25 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Kurzfassung: Netzwerk-Blockdiagramm mit zwei als „Router“ beschrifteten Routersymbolen, den Bereichen „Server-netz“, „internes Netz“ und „Internet-anschluss“, einem Laptop und mehreren orange/blauen Zahlenblöcken an den Verbindungen.
+Brief summary: Network block diagram with two router symbols labelled "Router", the areas "Server network" ("Server-netz"), "internal network" ("internes Netz") and "Internet connection" ("Internet-anschluss"), a laptop and several orange/blue blocks of numbers at the connections.
 
-Detailbeschreibung:
-- Oben mittig befindet sich eine Wolke mit der Beschriftung „Server-netz“. Links und rechts führt jeweils eine horizontale Leitung zu einem runden Routersymbol (Kreis mit vier Pfeilen nach oben, rechts, unten, links), beide mit der Textbeschriftung „Router“.
-- Links unten ist eine Wolke mit der Beschriftung „internes Netz“, die über eine senkrechte Leitung mit dem linken Router verbunden ist. Rechts neben dieser Wolke steht ein Laptop, per kurzer horizontaler Linie mit der Wolke verbunden.
-- Rechts unten steht der Text „Internet-anschluss“, von dem eine senkrechte Leitung nach oben zum rechten Router führt.
+Detailed description:
+- At the top centre is a cloud labelled "Server network" ("Server-netz"). On the left and on the right a horizontal line leads from it to a round router symbol (circle with four arrows pointing up, right, down, left), both with the text label "Router".
+- At the bottom left is a cloud labelled "internal network" ("internes Netz"), which is connected to the left-hand router by a vertical line. To the right of this cloud stands a laptop, connected to the cloud by a short horizontal line.
+- At the bottom right is the text "Internet connection" ("Internet-anschluss"), from which a vertical line leads up to the right-hand router.
 
-Zahlenblöcke (jeweils zwei Reihen mit vier kleinen Kästchen; Orange und Blau):
-- An der oberen Leitung zwischen linkem Router und „Server-netz“:
-  - obere Reihe: Orange „141“, Orange „17“, Orange „5“, Blau „18“
-  - untere Reihe: Orange „255“, Orange „255“, Orange „255“, Blau „0“
-- An der senkrechten Leitung zwischen linkem Router und „internes Netz“:
-  - obere Reihe: Orange „10“, Orange „33“, Orange „0“, Blau „1“
-  - untere Reihe: Orange „255“, Orange „255“, Orange „0“, Blau „0“
-- Neben dem Laptop (an der Verbindung zum „internes Netz“):
-  - obere Reihe: Orange „10“, Orange „33“, Orange „0“, Blau „100“
-  - untere Reihe: Orange „255“, Orange „255“, Orange „0“, Blau „0“
-- An der oberen Leitung zwischen rechtem Router und „Server-netz“:
-  - obere Reihe: Orange „141“, Orange „17“, Orange „5“, Blau „1“
-  - untere Reihe: Orange „255“, Orange „255“, Orange „255“, Blau „0“
-- An der senkrechten Leitung zwischen rechtem Router und „Internet-anschluss“:
-  - obere Reihe: Orange „46“, Orange „142“, Orange „171“, Blau „229“
-  - untere Reihe: Orange „255“, Orange „255“, Orange „255“, Blau „0“
+Blocks of numbers (each two rows of four small boxes; orange and blue):
+- On the upper line between the left-hand router and "Server network":
+  - upper row: orange "141", orange "17", orange "5", blue "18"
+  - lower row: orange "255", orange "255", orange "255", blue "0"
+- On the vertical line between the left-hand router and "internal network":
+  - upper row: orange "10", orange "33", orange "0", blue "1"
+  - lower row: orange "255", orange "255", orange "0", blue "0"
+- Beside the laptop (on the connection to the "internal network"):
+  - upper row: orange "10", orange "33", orange "0", blue "100"
+  - lower row: orange "255", orange "255", orange "0", blue "0"
+- On the upper line between the right-hand router and "Server network":
+  - upper row: orange "141", orange "17", orange "5", blue "1"
+  - lower row: orange "255", orange "255", orange "255", blue "0"
+- On the vertical line between the right-hand router and "Internet connection":
+  - upper row: orange "46", orange "142", orange "171", blue "229"
+  - lower row: orange "255", orange "255", orange "255", blue "0"

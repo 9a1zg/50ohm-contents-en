@@ -1,5 +1,5 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Kurzfassung: Blockdiagramm mit einem beschrifteten Block „Quellencodierer“ zwischen einem Eingangs- und einem Ausgangspfeil.
+Brief summary: Block diagram with a labelled block "Source encoder" ("Quellencodierer") between an input arrow and an output arrow.
 
-Detailbeschreibung: Eine waagerechte Linie verläuft von links nach rechts. Links zeigt ein Pfeil nach rechts auf einen quadratischen Block. Über dem Block steht der Text „Quellencodierer“. Im Inneren des Quadrats verläuft eine diagonale Linie von links unten nach rechts oben. Unter dem Block steht mittig der Text „01“. Vom rechten Rand des Quadrats führt die waagerechte Linie weiter und endet in einem nach rechts gerichteten Pfeil. Weitere Beschriftungen oder Achsen sind nicht vorhanden.
+Detailed description: A horizontal line runs from left to right. On the left an arrow points to the right at a square block. Above the block is the text "Source encoder" ("Quellencodierer"). Inside the square a diagonal line runs from bottom left to top right. Below the block, centred, is the text "01". From the right-hand edge of the square the horizontal line continues and ends in an arrow pointing to the right. There are no further labels or axes.

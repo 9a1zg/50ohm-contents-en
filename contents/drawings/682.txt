@@ -1,5 +1,5 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-1) Kurzbeschreibung: Eine waagerechte Reihe aus elf gleich großen, umrahmten Kästchen, jeweils mit den Kleinbuchstaben „a“ bis „k“ beschriftet.
+1) Short description: A horizontal row of eleven framed boxes of equal size, labelled with the lower-case letters "a" to "k".
 
-2) Detaillierte Beschreibung: Von links nach rechts sind elf rechteckige Felder mit dünnem schwarzen Rahmen zu sehen, durch senkrechte Linien voneinander getrennt. In jedem Feld steht zentriert ein einzelner Kleinbuchstabe, in Reihenfolge: „a“, „b“, „c“, „d“, „e“, „f“, „g“, „h“, „i“, „j“, „k“. Weitere Beschriftungen, Achsen oder Symbole sind nicht vorhanden; Hintergrund und Felder sind hell.
+2) Detailed description: From left to right, eleven rectangular fields with a thin black frame can be seen, separated from each other by vertical lines. In the centre of each field is a single lower-case letter, in order: "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k". There are no further labels, axes or symbols; the background and the fields are light.

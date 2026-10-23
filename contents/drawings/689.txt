@@ -1,3 +1,3 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Das Bild zeigt vier LED-Komponenten unterschiedlicher Größe und Farbe: eine winzige SMD-LED, eine kleine grüne LED, eine mittelgroße gelbe LED und eine große rote LED. Links oben ist ein Schaltsymbol einer Diode mit Pfeil und Text "D" abgebildet. Horizontale und vertikale Linien messen Abstände mit Beschriftungen "1 cm" und "3 mm". Am oberen Rand stehen die Begriffe "Rot", "Gelb" und "Grün"; unten rechts "10 mm".
+The picture shows four LED components of different sizes and colours: a tiny SMD LED, a small green LED, a medium-sized yellow LED and a large red LED. At the top left a circuit symbol of a diode with an arrow and the text "D" is shown. Horizontal and vertical lines measure distances, with the labels "1 cm" and "3 mm". At the top edge are the words "Red" ("Rot"), "Yellow" ("Gelb") and "Green" ("Grün"); at the bottom right "10 mm".

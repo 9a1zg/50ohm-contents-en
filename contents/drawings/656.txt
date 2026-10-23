@@ -1,3 +1,3 @@
-1) Kurzbeschreibung: Eine Karte von Europa zeigt Länderflächen in Blau oder Grau, jeweils mit den Landeskennern innerhalb der Landesgrenzen.
+1) Short description: A map of Europe shows the countries' areas in blue or grey, each with the country prefixes within the national borders.
 
-2) Ausführliche Beschreibung: Die Abbildung zeigt eine Karte von Europa mit den entsprechenden Landeskennern. Die Darstellung ist flächig, ohne Legende oder Achsen. Küstenlinien und Landesgrenzen sind als schmale weiße Linien gezeichnet, das Meer ist weiß. Die meisten Länderflächen sind blau eingefärbt, einige grau. Die Landeskenner sind in schwarzer Schrift eingetragen.
+2) Detailed description: The figure shows a map of Europe with the corresponding country prefixes. The representation is flat, without a legend or axes. Coastlines and national borders are drawn as narrow white lines; the sea is white. Most of the countries' areas are coloured blue, some grey. The country prefixes are entered in black lettering.

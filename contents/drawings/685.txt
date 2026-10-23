@@ -1,10 +1,10 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Kurzbeschreibung: Ein 4×4-Raster mit dicken schwarzen Linien; die Zellen enthalten teils die Zeichen p1–p4 und die Buchstaben a–k, eine Zelle ist leer.
+Short description: A 4×4 grid with thick black lines; the cells contain partly the characters p1–p4 and the letters a–k; one cell is empty.
 
-Detailbeschreibung: Das Raster hat vier Zeilen und vier Spalten. Von oben nach unten, jeweils von links nach rechts gelesen:
-- Zeile 1: Zelle 1 leer; Zelle 2 „p1“ (kursiv); Zelle 3 „p2“ (kursiv); Zelle 4 „a“.
-- Zeile 2: Zelle 1 „p3“ (kursiv); Zelle 2 „b“; Zelle 3 „c“; Zelle 4 „d“.
-- Zeile 3: Zelle 1 „p4“ (kursiv); Zelle 2 „e“; Zelle 3 „f“; Zelle 4 „g“.
-- Zeile 4: Zelle 1 „h“; Zelle 2 „i“; Zelle 3 „j“; Zelle 4 „k“.
-Die Buchstaben a–k sind in normaler, aufrechter Schrift gesetzt.
+Detailed description: The grid has four rows and four columns. From top to bottom, each read from left to right:
+- Row 1: cell 1 empty; cell 2 "p1" (italic); cell 3 "p2" (italic); cell 4 "a".
+- Row 2: cell 1 "p3" (italic); cell 2 "b"; cell 3 "c"; cell 4 "d".
+- Row 3: cell 1 "p4" (italic); cell 2 "e"; cell 3 "f"; cell 4 "g".
+- Row 4: cell 1 "h"; cell 2 "i"; cell 3 "j"; cell 4 "k".
+The letters a–k are set in normal upright type.

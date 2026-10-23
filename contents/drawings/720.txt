@@ -1,5 +1,5 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-1) Kurzfassung: Leeres Koordinatendiagramm mit Zeitachse links und Frequenzachse unten, nur Achsen und Beschriftungen, ohne eingezeichnete Daten.
+1) Brief summary: Empty coordinate diagram with a time axis on the left and a frequency axis at the bottom, only axes and labels, without any data drawn in.
 
-2) Detaillierte Beschreibung: Links verläuft eine senkrechte Achse mit drei Beschriftungen: oben „0 s“, in der Mitte „6,5 s“ und unten „13 s“. Unten verläuft eine waagrechte Achse mit drei Beschriftungen: links „f_t + 1 kHz“, mittig „f_t + 5 kHz“ und rechts „f_t + 9 kHz“. Beide Achsen sind als dünne Linien mit kurzen Ticks gezeichnet. Das Innere des Diagramms ist leer; es sind keine Kurven, Balken, Punkte, Symbole oder weiteren Textelemente zu sehen. Hintergrund ist einfarbig hell.
+2) Detailed description: On the left runs a vertical axis with three labels: at the top "0 s", in the middle "6.5 s" and at the bottom "13 s". At the bottom runs a horizontal axis with three labels: on the left "f_t + 1 kHz", in the middle "f_t + 5 kHz" and on the right "f_t + 9 kHz". Both axes are drawn as thin lines with short tick marks. The inside of the diagram is empty; no curves, bars, points, symbols or further text elements can be seen. The background is a single light colour.

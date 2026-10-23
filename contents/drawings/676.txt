@@ -1,5 +1,5 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Zusammenfassung: Blockdiagramm mit einem rechteckigen Block „Kanalcodierer“ auf einer durchgehenden horizontalen Leitung mit Pfeilen, darunter die Ziffernfolge „0101“.
+Summary: Block diagram with a rectangular block "Channel encoder" ("Kanalcodierer") on a continuous horizontal line with arrows, below it the sequence of digits "0101".
 
-Detaillierte Beschreibung: Eine dünne horizontale Linie verläuft von links nach rechts; links zeigt ein Pfeil nach rechts auf einen mittig platzierten rechteckigen Block, rechts setzt sich die Linie mit einem weiteren Pfeil nach rechts fort. Über dem Block steht der Text „Kanalcodierer“. Im Inneren des Blocks verläuft eine diagonale Linie von der linken unteren Ecke zur rechten oberen Ecke. Unter dem Block, mittig, steht die Ziffernfolge „0101“. Weitere Beschriftungen oder Skalen sind nicht vorhanden.
+Detailed description: A thin horizontal line runs from left to right; on the left an arrow points to the right at a rectangular block placed in the middle, and on the right the line continues with a further arrow pointing to the right. Above the block is the text "Channel encoder" ("Kanalcodierer"). Inside the block a diagonal line runs from the lower left-hand corner to the upper right-hand corner. Below the block, centred, is the sequence of digits "0101". There are no further labels or scales.

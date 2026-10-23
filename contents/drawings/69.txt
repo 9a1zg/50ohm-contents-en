@@ -1,3 +1,3 @@
-1) Kurzbeschreibung: Schaltplan eines Brückengleichrichters mit zwei Anschlüssen „~“ links und rechts sowie einem „+“-Anschluss oben und einem „−“-Anschluss unten.
+1) Short description: Circuit diagram of a bridge rectifier with two terminals "~" on the left and right, a "+" terminal at the top and a "−" terminal at the bottom.
 
-2) Ausführliche Beschreibung: Der Schaltplan zeigt einen Brückengleichrichter aus vier Dioden. Die beiden Wechselstromeingänge („~“) liegen links und rechts, die beiden Gleichstromausgänge oben („+“) und unten („–“). Die Spitzen der oberen Dreiecke in den Schaltzeichen der Dioden zeigen nach rechts, die der unteren Dreiecke nach links.
+2) Detailed description: The circuit diagram shows a bridge rectifier of four diodes. The two AC inputs ("~") are on the left and right, the two DC outputs at the top ("+") and at the bottom ("–"). The tips of the upper triangles in the diodes' circuit symbols point to the right, those of the lower triangles to the left.

@@ -1,5 +1,5 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-1) Kurze Zusammenfassung: Eine waagerechte Reihe von elf nebeneinanderliegenden, schwarz umrahmten Kästchen, in denen abwechselnd die Ziffern 0 und 1 stehen.
+1) Short summary: A horizontal row of eleven adjacent boxes with black frames, in which the digits 0 and 1 alternate.
 
-2) Detaillierte Beschreibung: Die Kästchen sind rechteckig, gleich groß und auf weißem Grund dargestellt, jeweils mit einer einzelnen Ziffer zentriert. Von links nach rechts lauten die Ziffern: 1, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1. Es sind keine Achsen, Pfeile oder zusätzlichen Beschriftungen vorhanden.
+2) Detailed description: The boxes are rectangular, of equal size and shown on a white background, each with a single digit in the centre. From left to right the digits are: 1, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1. There are no axes, arrows or additional labels.
