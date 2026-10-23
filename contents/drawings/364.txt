@@ -1,3 +1,3 @@
 This alt text has not yet been checked.
 
-A circuit diagram with a transistor, two capacitors and three resistors (R1, R2, RC). A current arrow is designated "IC". There is a current source with positive and negative connections. Various lines connect the components to one another.
+A circuit diagram with a transistor, two capacitors and three resistors (R1, R2, RC). A current arrow is designated "IC". There is a power source with positive and negative connections. Various lines connect the components to one another.

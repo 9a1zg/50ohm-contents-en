@@ -95,3 +95,36 @@ labels of 439, 430 and 45; *Relais-Spule / Schließerkontakt / Schalterzunge
   Transformator" after "ein elektronischer Schalter" (case slip); harmless.
 - 477 — "einem dachförmigen Bereichen" (case slip); harmless.
 - 367 — "unlabeled" is an English word in the German text (as 1038).
+
+## Provjera
+
+Checked all 107 files against the German at `793aa5f~1`, sentence by
+sentence: 106 full descriptions (56 with DARC's marker) and 1 `TODO` (328),
+left as it is. 10 files changed, 11 lines. `alttext-check.py --rev
+793aa5f~1`: 107 files, 0 with findings.
+
+- 364, 365 — *Stromquelle* (the + / − supply of the drawing; `364.tex`
+  draws only the terminals) "current source" → "power source", as §14
+  *Stromquelle (wie eine Batterie)*; *current source* is the circuit element.
+- 41 — *auf der Markierung 29 (außen) bzw. nahe 8,7 (innen)* "or" → "and",
+  as the detailed description: the needle reads both at once; *für jeweils
+  1 Einheit* / *0,5 Einheiten* "for every 1 unit" → "at intervals of 1 unit"
+  / "0.5 units" (natural English).
+- 420, 421, 422 — *Ganz innen* "Right on the inside" → "Innermost" (natural
+  English).
+- 400 — *Koordinatenursprung* "The origin of the coordinates" → "The
+  origin" (the English term).
+- 409 — *Auf der Grafik* "In the graphic" → "On the graph" (natural
+  English).
+- 443 — *auf dieser Senkrechten* "on this vertical" → "on this vertical
+  line" (the noun needs its head in English).
+- 35 — *mit „230 V“ und einer Wellenlinie beschriftet* "labelled "230 V"
+  and with a wavy line" → "carry the label "230 V" and a wavy line"
+  (grammar).
+
+Left as translated: "Shown is …" for *Gezeigt ist …* (as slike_02/03),
+*Masse* → "chassis" and *Spule (Induktivität)* → "coil (inductor)" as the
+judgement calls above, "Short: / Detail(s):" in 410 and 447, TXCO in 470,
+the second bracket in 402's "(labelled "Passband" ("Durchlassbereich"))"
+(glossary §14, as slike_02), and the suspected German errors listed above
+(386, 429, 46, 427), which are reported, not fixed.
