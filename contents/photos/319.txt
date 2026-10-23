@@ -1,13 +1,13 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-1) Kurze Zusammenfassung:
-Tabelle mit der Überschrift „Richtwerte in Sendemode“, die für mehrere Frequenzbereiche die erforderliche Dämpfung unerwünschter Aussendungen sowie alternativ zulässige maximale Störleistungen angibt.
+1) Short summary:
+Table headed "Guide values in transmit mode" ("Richtwerte in Sendemode"), which gives, for several frequency ranges, the required attenuation of unwanted emissions and, as an alternative, the maximum permitted interference powers.
 
-2) Detaillierte Beschreibung:
-- Spaltenüberschriften: links „Frequenzbereich“, Mitte „Erforderliche Dämpfung unerwünschter Aussendungen gegenüber der maximalen PEP des Senders 1)“, rechts „Alternativ zulässige maximale Leistung unerwünschter Aussendungen eines Senders 1)“. Darunter eine Zeile mit den Spaltennummern „1“, „2“, „3“.
-- Zeile 1: „0,15 MHz – 1,7 MHz“ | „60 dB“ | rechter Spaltenblock zeigt „0,25 μW (−36 dBm)“.
-- Zeile 2: „1,7 MHz – 35 MHz“ | „40 dB“ | rechter Spaltenblock weiterhin „0,25 μW (−36 dBm)“.
-- Zeile 3: „35 MHz – 50 MHz“ | „40 dB + 129,1·lg f/35 dB“ sowie darunter „mit f … Frequenz in MHz“ | rechter Spaltenblock „0,25 μW (−36 dBm)“.
-- Zeile 4: „50 MHz – 1000 MHz“ | „60 dB“ | rechter Spaltenblock „0,25 μW (−36 dBm)“.
-- Zeile 5: „>1000 MHz – 40 GHz“ | „50 dB“ | „1 μW (−30 dBm)“.
-- Fußnote unten: „1) Der jeweils höhere für einen Frequenzbereich resultierende Leistungswert in Spalten 2 und 3 ist zulässig.“
+2) Detailed description:
+- Column headings: on the left "Frequency range" ("Frequenzbereich"), in the middle "Required attenuation of unwanted emissions relative to the maximum PEP of the transmitter 1)" ("Erforderliche Dämpfung unerwünschter Aussendungen gegenüber der maximalen PEP des Senders 1)"), on the right "Alternatively permitted maximum power of unwanted emissions of a transmitter 1)" ("Alternativ zulässige maximale Leistung unerwünschter Aussendungen eines Senders 1)"). Below them a row with the column numbers "1", "2", "3".
+- Row 1: "0.15 MHz – 1.7 MHz" | "60 dB" | the right-hand column block shows "0.25 μW (−36 dBm)".
+- Row 2: "1.7 MHz – 35 MHz" | "40 dB" | the right-hand column block still "0.25 μW (−36 dBm)".
+- Row 3: "35 MHz – 50 MHz" | "40 dB + 129.1·lg f/35 dB" and below it "with f … frequency in MHz" ("mit f … Frequenz in MHz") | the right-hand column block "0.25 μW (−36 dBm)".
+- Row 4: "50 MHz – 1000 MHz" | "60 dB" | the right-hand column block "0.25 μW (−36 dBm)".
+- Row 5: ">1000 MHz – 40 GHz" | "50 dB" | "1 μW (−30 dBm)".
+- Footnote at the bottom: "1) The higher of the power values resulting in columns 2 and 3 for a frequency range is permitted." ("1) Der jeweils höhere für einen Frequenzbereich resultierende Leistungswert in Spalten 2 und 3 ist zulässig.")

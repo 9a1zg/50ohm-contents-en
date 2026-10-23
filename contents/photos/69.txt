@@ -1,3 +1,3 @@
-1) Kurzbeschreibung: Zwei koaxiale PL-Stecker, rechts mit und links ohne Reduzierhülse.
+1) Short description: Two coaxial PL plugs, the right one with and the left one without a reducer sleeve.
 
-2) Ausführliche Beschreibung: Das Foto zeigt zwei koaxiale PL-Stecker mit Überwurfmutter mit Innengewinde und zentralem Stift. Der rechte PL-Stecker hat zudem eine Reduzierhülse, mit der auch Kabel mit geringerem Durchmesser verwendet werden können.
+2) Detailed description: The photo shows two coaxial PL plugs with a coupling nut with an internal thread and a central pin. The right PL plug also has a reducer sleeve, with which cables of a smaller diameter can also be used.

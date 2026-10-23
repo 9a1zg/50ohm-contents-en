@@ -1,7 +1,7 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-1) Kurze Zusammenfassung:
-Schaubild mit Vektor-/Dreiecksdiagramm zum Verlustfaktor tan δ eines Kondensators, mit Formeln und beschrifteten Pfeilen für Blindwiderstand Xc, Scheinwiderstand Z und Verlustwiderstand R.
+1) Short summary:
+Graphic with a vector/triangle diagram of the dissipation factor tan δ of a capacitor, with formulas and labelled arrows for the reactance Xc, the impedance Z and the loss resistance R.
 
-2) Detaillierte Beschreibung:
-Links steht der Text „Verlustfaktor tan δ (sprich: tangens delta).“ Darunter in Rot die Formeln „tan δ = Gegenkathete / Ankathete“ und „tan δ = R / Xc“. Rechts zeigt eine grafische Darstellung aus Pfeilen und Linien: ein vertikaler violetter Pfeil ist mit „Blindwiderstand Xc“ beschriftet; von dessen Fußpunkt führt eine schräg nach oben weisende dunkle Linie, neben der „Scheinwiderstand Z“ in Blau steht; oben ist eine rote Kante mit der Beschriftung „Verlustwiderstand R“ eingezeichnet. Zwischen der schrägen Linie und der vertikalen Achse sind zwei Winkel markiert: oben der Winkel „φ“, unten nahe der Spitze ein rotes, eingekreistes „δ“. Unten im Bild steht in Blau: „Der tan δ eines Kondensators soll sehr klein sein! Ideal (ohne Verluste R = 0 Ohm): tan δ = 0“. Die Beschriftungen sind farbcodiert (Rot, Blau, Schwarz/Violett).
+2) Detailed description:
+On the left is the text "Dissipation factor tan δ (pronounced: tangent delta)." ("Verlustfaktor tan δ (sprich: tangens delta).") Below it, in red, the formulas "tan δ = opposite / adjacent" ("tan δ = Gegenkathete / Ankathete") and "tan δ = R / Xc". On the right, a graphic made of arrows and lines: a vertical violet arrow is labelled "Reactance Xc" ("Blindwiderstand Xc"); from its foot a dark line leads diagonally upwards, beside which "Impedance Z" ("Scheinwiderstand Z") stands in blue; at the top a red edge labelled "Loss resistance R" ("Verlustwiderstand R") is drawn. Two angles are marked between the diagonal line and the vertical axis: at the top the angle "φ", at the bottom near the tip a red, circled "δ". At the bottom of the picture, in blue: "The tan δ of a capacitor should be very small! Ideal (without losses, R = 0 Ω): tan δ = 0" ("Der tan δ eines Kondensators soll sehr klein sein! Ideal (ohne Verluste R = 0 Ohm): tan δ = 0"). The labels are colour-coded (red, blue, black/violet).

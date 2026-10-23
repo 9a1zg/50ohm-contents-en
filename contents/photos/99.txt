@@ -1,3 +1,3 @@
-1) Kurzbeschreibung:  Tabellarische Übersicht über die Nutzungsbedingungen der Frequenzbereiche für den Amateurfunkdienst in Deutschland (Anlage 1 der Verordnung über den Amateurfunk (AfuV)).
+1) Short description: Tabular overview of the conditions of use of the frequency ranges for the amateur service in Germany (Annex 1 to the Amateur Radio Ordinance (Amateurfunkverordnung, AFuV)).
 
-2) Ausführliche Beschreibung: Die Tabelle zeigt die Frequenzbereiche für den Amateurfunkdienst in Deutschland mit Angabe der maximalen Leistung, getrennt nach den drei Klassen A, E und N. Die Tabelle ist der Anlage 1 der Verordnung über den Amateurfunk (AfuV) entnommen.
+2) Detailed description: The table shows the frequency ranges for the amateur service in Germany with the maximum power, separately for the three classes A, E and N. The table is taken from Annex 1 to the Amateur Radio Ordinance (AFuV).

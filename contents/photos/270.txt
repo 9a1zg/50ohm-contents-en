@@ -1,5 +1,5 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Kurzfassung: Ein gelber, runder Ringkern mit grüner Aufschrift „T68-6“ liegt auf hellem Hintergrund; darunter steht mehrzeiliger erklärender Text mit Typ, Hersteller und technischen Daten.
+Brief summary: A yellow, round toroidal core with the green inscription "T68-6" lies on a light background; below it is explanatory text over several lines with the type, manufacturer and technical data.
 
-Detaillierte Beschreibung: Im Bildzentrum befindet sich ein glänzender, gelb lackierter Ringkern (Toroid) mit gleichmäßigem Querschnitt und kreisförmiger Öffnung; oben auf dem Ring ist mit grünem Filzstift „T68-6“ handschriftlich notiert. Der Hintergrund ist hellgrau bis beige. Unter dem Ring steht zentriert in schwarzer Schrift ein Block Text mit folgenden Zeilen: „Eisenpulverringkern Typ: T 68 – 6“, „Hersteller: Amidon“, „Innendurchmesser: 9,5 mm“, „Außendurchmesser: 18 mm“, „Kernmaterial: Nr. 6 gelb“, „A_L = 4,7 µH“, „Geeignet von 10 MHz bis 50 MHz“.
+Detailed description: In the centre of the picture is a glossy, yellow-painted toroidal core (toroid) with a uniform cross-section and a circular opening; "T68-6" is handwritten on top of the ring in green felt-tip pen. The background is light grey to beige. Below the ring, centred in black lettering, is a block of text with the following lines: "Iron-powder toroidal core type: T 68 – 6" ("Eisenpulverringkern Typ: T 68 – 6"), "Manufacturer: Amidon" ("Hersteller: Amidon"), "Inner diameter: 9.5 mm" ("Innendurchmesser: 9,5 mm"), "Outer diameter: 18 mm" ("Außendurchmesser: 18 mm"), "Core material: no. 6 yellow" ("Kernmaterial: Nr. 6 gelb"), "A_L = 4.7 µH", "Suitable from 10 MHz to 50 MHz" ("Geeignet von 10 MHz bis 50 MHz").

@@ -1,3 +1,3 @@
-1) Kurzbeschreibung: Bedienteil eines VHF/UHF-Funkgerätes in der Mittelkonsole eines PKWs.
+1) Short description: Control unit of a VHF/UHF radio in the centre console of a car.
 
-2) Ausführliche Beschreibung: Das Foto zeigt die Einbaustelle des Bedienteils eines VHF/UHF-Funkgerätes in der Mittelkonsole eines PKWs.
+2) Detailed description: The photo shows where the control unit of a VHF/UHF radio is installed in the centre console of a car.

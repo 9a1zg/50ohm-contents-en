@@ -1,12 +1,12 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-1) Kurzbeschreibung: Ein dunkelgrauer, ringförmiger Ferritkern liegt zentriert auf hellem Hintergrund, darunter steht ein mehrzeiliger schwarzer Text mit Typ- und Maßangaben.
+1) Short description: A dark grey, ring-shaped ferrite core lies centred on a light background; below it is black text over several lines with type details and dimensions.
 
-2) Detaillierte Beschreibung: In der Bildmitte befindet sich ein kleiner, matt dunkelgrauer Toroid (Ringkern) mit rundem Querschnitt; er wirft einen leichten Schatten auf den hellen, leicht strukturierten Untergrund. Unterhalb des Rings ist in schwarzer Schrift folgender Text zu sehen:
-- „Ferritkern Typ: FT 50 – 77“
-- „Hersteller: Fair-Rite“
-- „Außendurchmesser: 12,7 mm“
-- „Innendurchmesser: 7,14 mm“
-- „Kernmaterial: 77 (Mangan-Zink)“
-- „AL = 1180 nH“
-- „Für Breitbandtransformatoren von 0,5 MHz bis 50 MHz“
+2) Detailed description: In the middle of the picture is a small, matt dark grey toroid (toroidal core) with a round cross-section; it casts a slight shadow on the light, slightly textured surface. Below the ring the following text can be seen in black lettering:
+- "Ferrite core type: FT 50 – 77" ("Ferritkern Typ: FT 50 – 77")
+- "Manufacturer: Fair-Rite" ("Hersteller: Fair-Rite")
+- "Outer diameter: 12.7 mm" ("Außendurchmesser: 12,7 mm")
+- "Inner diameter: 7.14 mm" ("Innendurchmesser: 7,14 mm")
+- "Core material: 77 (manganese-zinc)" ("Kernmaterial: 77 (Mangan-Zink)")
+- "AL = 1180 nH"
+- "For broadband transformers from 0.5 MHz to 50 MHz" ("Für Breitbandtransformatoren von 0,5 MHz bis 50 MHz")

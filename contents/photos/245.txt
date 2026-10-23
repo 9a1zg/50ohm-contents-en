@@ -1,5 +1,5 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Zusammenfassung: Drei Halbleiterbauteile im TO-220-Gehäuse sind auf bzw. vor silbernen Aluminium-Kühlkörpern angeordnet und von oben auf hellem Hintergrund fotografiert.
+Summary: Three semiconductor components in TO-220 packages are arranged on or in front of silver aluminium heatsinks and photographed from above against a light background.
 
-Detaillierte Beschreibung: Links sitzt ein schwarzes Bauteil mit Metalllasche und der sichtbaren Aufschrift „LM7905CT 9012“ mit einer Schraube an einem gerippten Kühlkörper; seine drei Anschlussbeinchen zeigen nach unten. In der Mitte steht ein „L7812CV“ (zusätzliche Markierung „SSS 86476“) mit leicht gebogenen Beinchen vor einer flachen Aluminiumplatte mit zwei kleinen Wassertropfen und einem Senkloch; in der Lasche steckt eine kleine Schraube. Rechts ist ein weiteres Bauteil „L7809CV“ (Markierung „SSS 8613S“) an einem zweiten gerippten Kühlkörper befestigt. Alle drei Bauteile haben eine Metalllasche mit Befestigungsloch, die Kühlkörper sind silbern und längs gerippt, und der Hintergrund ist weiß.
+Detailed description: On the left, a black component with a metal tab and the visible marking "LM7905CT 9012" is fixed with a screw to a finned heatsink; its three leads point downwards. In the middle stands an "L7812CV" (additional marking "SSS 86476") with slightly bent leads in front of a flat aluminium plate with two small drops of water and a countersunk hole; a small screw sits in the tab. On the right, a further component "L7809CV" (marking "SSS 8613S") is fixed to a second finned heatsink. All three components have a metal tab with a mounting hole, the heatsinks are silver with lengthwise fins, and the background is white.

@@ -1,17 +1,17 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-1) Zusammenfassung:
-Screenshot eines Messprogramms mit dem Diagramm „Scheinwiderstand & Phasenwinkel als Funktion der Frequenz“ (500 kHz bis 10 MHz), einer blau ansteigenden |Z|-Kurve, einer roten nahezu konstanten Phasenlinie nahe +90° und vier gesetzten Markern.
+1) Summary:
+Screenshot of a measurement program with the chart "Impedance & phase angle as a function of frequency" ("Scheinwiderstand & Phasenwinkel als Funktion der Frequenz") (500 kHz to 10 MHz), a rising blue |Z| curve, a red, almost constant phase line near +90° and four markers set.
 
-2) Detaillierte Beschreibung:
-- Titel oben: „Scheinwiderstand & Phasenwinkel als Funktion der Frequenz“.
-- Linke Skala: „|Z| / Ohm“ (logarithmisch, von 2 bis 10.000). Rechte Skala: „Phi / Grad“ (−90° bis +90°, 0° in der Mitte).
-- Datenverläufe: Blaue Kurve (Scheinwiderstand) steigt im unteren zweistelligen Ohm-Bereich über die Frequenz an. Rote Linie (Phasenwinkel) verläuft am oberen Rand nahezu horizontal nahe +90°.
-- Frequenzachse unten: 500 kHz bis 10 MHz; Markierungen bei 1M, 2M, 5M u. a.
-- Marker 1–4 sind als kleine Dreiecke mit Zahlen auf der blauen Kurve bei etwa 0,5 MHz, 1,6 MHz, 2,5 MHz und 5,0 MHz platziert.
-- Werteanzeige der Marker (aus den Feldern unten):
-  - Marker 1: Frequenz 502,217 kHz; Reell: 0,4; Blind: 10,1; Phase: 87,7; SWR: 130.1
-  - Marker 2: Frequenz 1,6010 MHz; Reell: 0,6; Blind: 31,0; Phase: 88,9; SWR: 115.4
-  - Marker 3: Frequenz 2,5032 MHz; Reell: 0,8; Blind: 49,1; Phase: 89,2; SWR: 122.8
-  - Marker 4: Frequenz 4,9921 MHz; Reell: 1,2; Blind: 99,3; Phase: 89,7; SWR: 412.3
-- Bedienleiste unten: fStart 500,000 k (links), fStop 10,000 M (rechts); Typ „RG58/CU“; Länge 0,00 m; Batterieanzeige 12,20 V; „Memory Off“; Spur „2“ ausgewählt.
+2) Detailed description:
+- Title at the top: "Impedance & phase angle as a function of frequency" ("Scheinwiderstand & Phasenwinkel als Funktion der Frequenz").
+- Left scale: "|Z| / Ohm" (logarithmic, from 2 to 10,000). Right scale: "Phi / degrees" ("Phi / Grad") (−90° to +90°, 0° in the middle).
+- Traces: the blue curve (impedance) rises over frequency in the low double-digit ohm range. The red line (phase angle) runs almost horizontally at the upper edge, near +90°.
+- Frequency axis at the bottom: 500 kHz to 10 MHz; ticks at 1M, 2M, 5M and others.
+- Markers 1–4 are placed as small triangles with numbers on the blue curve at about 0.5 MHz, 1.6 MHz, 2.5 MHz and 5.0 MHz.
+- Marker readouts (from the fields at the bottom):
+  - Marker 1: frequency 502.217 kHz; real: 0.4; reactive: 10.1; phase: 87.7; SWR: 130.1
+  - Marker 2: frequency 1.6010 MHz; real: 0.6; reactive: 31.0; phase: 88.9; SWR: 115.4
+  - Marker 3: frequency 2.5032 MHz; real: 0.8; reactive: 49.1; phase: 89.2; SWR: 122.8
+  - Marker 4: frequency 4.9921 MHz; real: 1.2; reactive: 99.3; phase: 89.7; SWR: 412.3
+- Control bar at the bottom: fStart 500.000 k (left), fStop 10.000 M (right); type "RG58/CU"; length 0.00 m; battery indicator 12.20 V; "Memory Off"; trace "2" selected.

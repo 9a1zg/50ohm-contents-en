@@ -1,3 +1,3 @@
-1) Kurzbeschreibung: Metallmast auf einem Dach mit mehreren Antennen.
+1) Short description: Metal mast on a roof with several antennas.
 
-2) Ausführliche Beschreibung: Das Foto zeigt einen Antennenmast, der auf einem Hausdach installiert ist. Unten befindet sich eine große Kurzwellen-Richtantenne mit zwei Elementen, darüber eine kleinere 2-Element-Antenne für VHF und darüber eine UHF-Richtantenne mit mehreren Elementen. An der Spitze ist eine vertikale Rundstrahlantenne für UKW montiert.
+2) Detailed description: The photo shows an antenna mast installed on the roof of a house. At the bottom is a large HF directional antenna with two elements, above it a smaller 2-element antenna for VHF and above that a UHF directional antenna with several elements. At the top an omnidirectional vertical antenna for VHF is mounted.
