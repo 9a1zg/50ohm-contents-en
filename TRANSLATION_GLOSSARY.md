@@ -2727,6 +2727,13 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | offener Anschlusskreis / Anschlussklemme / Knoten, Knotenpunkt (Schaltbild) | open terminal circle / terminal / node (filled dot) | picture descriptions; *Leitung* in a drawn circuit → *line* (slike_01) |
 | Wellenlinie / Doppelpfeil / Hilfslinie / Pfeilspitze | wavy line / double-headed arrow / guide line / arrowhead | picture descriptions (slike_01) |
 | „1. OW“ … „4. OW“ (Zeichnung 1008) | "1. OW" … "4. OW" (1st to 4th overtone) | numbered *Oberwelle* stays *overtone*, so the numbering stays right (§5 *Oberwelle* trap); the unnumbered label *Oberwellen (OW)* → "Harmonics (OW)", as the course caption (slike_01) |
+| Schaltplan in rechteckiger Leitungsführung / Anschlusspunkt / an Masse (liegen), mit Masse verbunden | circuit diagram drawn with right-angled wiring / terminal / connected to chassis | picture descriptions; *Leiter* stays *conductor* (§3) (slike_02) |
+| Ableitung (zum unteren Leiter) / Abzweigung / Anzapfung (Schaltbild) | shunt path / branch / tap | slike_02 |
+| Halbbögen (Spulensymbol) / Strich / Querstrich / durchgestrichene Linie | semicircles / stroke / crossbar / a line through it | inductor drawn as *Spule* → *inductor*, the two windings of a transformer → *coils* (slike_02) |
+| Baustein „IC1“ / polarisierter Kondensator / verstellbarer, variabler Kondensator / Addierer | component "IC1" / polarised capacitor / adjustable, variable capacitor / adder | slike_02 |
+| Nullpunkt (Diagramm) / Grundlinie / Auslenkung (Feldlinien) / Bodenfläche | origin / baseline / displacement / ground surface | §14 *Nulllinie* → zero line (slike_02) |
+| Grunddämpfung α0 je 100 m Leitungslänge (Kabeldämpfungsdiagramm) | basic attenuation α0 per 100 m cable length | drawing 202; *Voll-PE / PE-Schaum / Massivschirm* as §9 (slike_02) |
+| „ZF“, „NF“, „ZF-Amp.“, „NF/Basisband“, „zum Oszillator“ (Zeichnungsbeschriftungen) | "IF" ("ZF"), "AF" ("NF"), "IF amp." ("ZF-Amp."), "AF/baseband" ("NF/Basisband"), "to oscillator" ("zum Oszillator") | a label already in brackets keeps the German in a second bracket: ("AF" ("NF")); the terminal letters „E“ / „A“ stay, like *U_E* / *U_A* (slike_02) |
 
 ## 15. Catalogue structure
 

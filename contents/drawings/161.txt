@@ -1,5 +1,5 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-1) Kurzbeschreibung: Schaltplan mit zwei parallelen horizontalen Leitern; der obere mit zwei Schaltzeichen für einen Kondensator; in der Mitte zwischen den Kondensatoren zweigt ein vertikaler Leiter mit einem Schaltzeichen für eine Spule ab. Dieser Leiter führt auf den unteren horizontalen Leiter. Beide horizontalen Leiter mit Anschlusspunkten jeweils am Anfang und am Ende.
+1) Short description: Circuit diagram with two parallel horizontal conductors; the upper one with two circuit symbols for a capacitor; in the middle between the capacitors a vertical conductor with a circuit symbol for an inductor branches off. This conductor leads to the lower horizontal conductor. Both horizontal conductors with terminals at the beginning and at the end.
 
-2) Ausführliche Beschreibung: Der Schaltplan besteht aus zwei parallelen horizontalen Leitern. Der obere Leiter enthält zwei Schaltzeichen bestehend aus jeweils zwei vertikalen Strichen (Kondensatoren). In der Mitte zweigt ein vertikaler Leiter mit einem Schaltzeichen mit vier nach links gerichteten Halbbögen (Spule) ab. Dieser Leiter führt auf den unteren horizontalen Leiter. Beide horizontalen Leiter haben jeweils am Anfang und am Ende Anschlusspunkte.
+2) Detailed description: The circuit diagram consists of two parallel horizontal conductors. The upper conductor contains two circuit symbols, each consisting of two vertical strokes (capacitors). In the middle a vertical conductor branches off with a circuit symbol with four semicircles facing left (inductor). This conductor leads to the lower horizontal conductor. Both horizontal conductors have terminals at the beginning and at the end.

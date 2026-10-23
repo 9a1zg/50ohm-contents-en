@@ -1,3 +1,3 @@
-1) Kurzbeschreibung: Horizontale Linie mit einem Schaltzeichen bestehend aus einem Rechteck mit zwei kleinen, schräg nach unten links gerichteten Pfeilen.
+1) Short description: Horizontal line with a circuit symbol consisting of a rectangle with two small arrows pointing diagonally down to the left.
 
-2) Ausführliche Beschreibung: Eine horizontale Linie ist in der Mitte durch ein Schaltzeichen unterbrochen, das aus einem Rechteck mit zwei kleinen, schräg nach unten links gerichteten Pfeilen auf der Oberseite besteht.
+2) Detailed description: A horizontal line is interrupted in the middle by a circuit symbol that consists of a rectangle with two small arrows on its upper side, pointing diagonally down to the left.

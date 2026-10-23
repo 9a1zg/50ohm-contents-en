@@ -1,3 +1,3 @@
-1) Kurzbeschreibung: Schaltplan eines Transformators mit zwei Anschlüssen links, beschriftet mit „230 V“ und einer Wellenlinie, und zwei Anschlüssen rechts, beschriftet mit „a“ und „b“.
+1) Short description: Circuit diagram of a transformer with two terminals on the left, labelled with "230 V" and a wavy line, and two terminals on the right, labelled "a" and "b".
 
-2) Ausführliche Beschreibung: Schaltplan eines Transformators bestehend aus zwei vertikalen Spulen, die linke mit nach rechts gerichteten Halbbögen und die rechte mit nach links gerichteten Halbbögen, dazwischen zwei vertikale Linien. Die Spulen haben an beiden Enden jeweils einen Anschluss. Die Anschlüsse der linken Spule sind mit „230 V“ und einer Wellenlinie beschriftet, die Anschlüsse der rechten Spule mit „a“ und „b“.
+2) Detailed description: Circuit diagram of a transformer consisting of two vertical coils, the left one with semicircles facing right and the right one with semicircles facing left, with two vertical lines between them. The coils each have a terminal at both ends. The terminals of the left coil are labelled with "230 V" and a wavy line, those of the right coil with "a" and "b".

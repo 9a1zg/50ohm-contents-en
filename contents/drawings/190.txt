@@ -1,3 +1,3 @@
-1) Kurzbeschreibung: Diagramm mit einer horizontalen Achse „f“ und einer vertikalen Achse „Z“; in der Mitte eine schmale Kurve mit umgekehrter V-Form, deren Anfang und Ende bis in die Nähe der Nulllinie reichen.
+1) Short description: Diagram with a horizontal axis "f" and a vertical axis "Z"; in the middle a narrow curve in an inverted V shape, whose beginning and end reach close to the zero line.
 
-2) Ausführliche Beschreibung: Ein Koordinatensystem hat eine horizontale Achse mit der Beschriftung „f“ und eine vertikale Achse mit der Beschriftung „Z“. In der Mitte gibt es eine schmale Kurve mit umgekehrter V-Form, deren Anfang und Ende bis in die Nähe der Nulllinie reichen. Es sind keine weiteren Beschriftungen oder Maße vorhanden.
+2) Detailed description: A coordinate system has a horizontal axis labelled "f" and a vertical axis labelled "Z". In the middle there is a narrow curve in an inverted V shape, whose beginning and end reach close to the zero line. There are no other labels or dimensions.

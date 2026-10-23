@@ -1,3 +1,3 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+This alt text has not yet been checked.
 
-Schaltbild zeigt verschiedene elektrische Bauteile: Widerstände, Kondensatoren, Spule und eine Diode. Ein Transistor ist ebenfalls zu sehen. Mehrere Verbindungslinien sind zu den Bauteilen geführt. Der Text "NF/BB" befindet sich links neben einem ovalen Symbol.
+Circuit diagram showing various electrical components: resistors, capacitors, an inductor and a diode. A transistor can also be seen. Several connecting lines are run to the components. The text "AF/BB" ("NF/BB") is to the left of an oval symbol.
