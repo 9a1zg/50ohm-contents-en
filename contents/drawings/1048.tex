@@ -22,16 +22,16 @@
             -- cycle;
         %
         \draw(x1) to [open, name={h1}] (x2);
-        \draw(h1.center) node[anchor=south, rotate=-90](){Strahlungsrichtung};
+        \draw(h1.center) node[anchor=south, rotate=-90](){Direction of radiation};
         %
-        \draw [very thick] (0,4) -- ++(5,0) node[anchor=south](){Reflektor};
+        \draw [very thick] (0,4) -- ++(5,0) node[anchor=south](){Reflector};
         \draw [very thick] (2.25,1.5)
         to [short,o-] ++(-1.5,0)
         arc(90:-90:-0.15) coordinate(c1);
         \draw [very thick] (2.75,1.5)
         to [short,o-] ++(+1.5,0)
-        arc(-90:90:0.15) node[rotate=0, anchor=south, pos=0.5](){Strahler} coordinate(c2);
+        arc(-90:90:0.15) node[rotate=0, anchor=south, pos=0.5](){Radiator} coordinate(c2);
         \draw [very thick] (c1) -- (c2);
-        \draw [very thick] (0.75,0) -- ++(3.5,0) node[anchor=south](){Direktor};
+        \draw [very thick] (0.75,0) -- ++(3.5,0) node[anchor=south](){Director};
     \end{scope}
 \end{tikzpicture}

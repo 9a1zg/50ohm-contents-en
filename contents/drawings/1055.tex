@@ -11,17 +11,17 @@
         misc/scale=\getDarcImageFactor
     }
     \draw(0,0) node[antenna]{}
-        to [amp, box, l_=HF, name={amp1}, DARCblue, color=DARCblue] ++ (2,0)
+        to [amp, box, l_=RF, name={amp1}, DARCblue, color=DARCblue] ++ (2,0)
         node[inputarrow](){}
         node[mixer, box, anchor=west, DARCred, color=DARCred] (mix1) {};
     \draw(amp1.west) node[inputarrow](){};
     \draw(mix1.east)
-        to [amp, box, l_=ZF, name={amp2}, DARCblue, color=DARCblue] ++ (2,0)
+        to [amp, box, l_=IF, name={amp2}, DARCblue, color=DARCblue] ++ (2,0)
         node[inputarrow](){}
         node[mixer, box, anchor=west, DARCred, color=DARCred] (mix2) {};
     \draw(amp2.west) node[inputarrow](){};
     \draw(mix2.east)
-        to [amp, box, l_=NF, name={amp3}, DARCblue, color=DARCblue] ++ (2,0)
+        to [amp, box, l_=AF, name={amp3}, DARCblue, color=DARCblue] ++ (2,0)
         node[inputarrow](){}
         node[loudspeakershape, anchor=south, rotate=-90](L){};
     \draw(amp3.west) node[inputarrow](){};
@@ -39,6 +39,6 @@
     \draw[DARCorange](e1-|amp2.north) node[circ, DARCorange](tops){} -| (amp1.north) node[inputarrow,rotate=-90, DARCorange](){};
     \draw[DARCorange](tops) node[anchor=south](){AGC};
 
-    \draw[DARCred](mix1.north) node[anchor=south](){1. Mischer};
-    \draw[DARCred](mix2.north) node[anchor=south west](){2. Mischer};
+    \draw[DARCred](mix1.north) node[anchor=south](){1st mixer};
+    \draw[DARCred](mix2.north) node[anchor=south west](){2nd mixer};
 \end{circuitikz}

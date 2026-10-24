@@ -1,5 +1,5 @@
 This alt text has not yet been checked.
 
-1) Short description: Diagram with a horizontal axis "f", a vertical axis "Power" ("Leistung"), a vertical line in the right part of the figure and a curve that runs horizontally from the left up to the vertical line, falls steeply to the right of it and runs along the zero line to the end of the horizontal axis.
+1) Short description: Diagram with a horizontal axis "f", a vertical axis "U_A or gain", a vertical line in the right part of the figure and a curve that runs horizontally from the left up to the vertical line, falls steeply to the right of it and runs along the zero line to the end of the horizontal axis.
 
-2) Detailed description: A coordinate system has a horizontal axis with the label "f" and a vertical axis with the label "Power" ("Leistung"). In the right part of the figure a dashed vertical line is drawn. A horizontal curve runs on the left up to the vertical line and falls steeply to the right of it. At the end it runs along the zero line to the end of the horizontal axis.
+2) Detailed description: A coordinate system has a horizontal axis with the label "f" and a vertical axis with the label "U_A or gain". In the right part of the figure a dashed vertical line is drawn. A horizontal curve runs on the left up to the vertical line and falls steeply to the right of it. At the end it runs along the zero line to the end of the horizontal axis.
