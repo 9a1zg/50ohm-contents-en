@@ -101,3 +101,36 @@ abbreviation rule.
 None in the German drawings. The SSB frequencies of 940 (LSB 8998.5–9001.2
 kHz under the 9001.5 kHz carrier) and 941 (USB 8998.8–9001.5 kHz above the
 8998.5 kHz carrier) agree with the 300 Hz–3 kHz baseband.
+
+## Provjera
+
+29 drawings checked against commit 841f187: 17 translated, 12 with nothing
+to translate. 0 changes.
+
+- 903, 908, 909, 911, 913, 914, 916, 917, 922, 923, 935, 936, 937, 940,
+  941, 942, 949 — `.tex` diffs change only printed text and the decimal
+  commas (909's `430,0075`, 940/941's kHz values, 949's `0,6`); no
+  coordinates, styles, options or `%` comments touched, no collision fixes.
+  Wording follows the glossary (§1 *Senderausgangsleistung*, *unerwünschte
+  Aussendungen*; §3 *Dielektrikum*; §4 *Luftspule*; §5 *Tiefpass*,
+  *Eingangssignal*, *Treiber*, *Mischer*; §6 *Digitale
+  Signalverarbeitung*; §7 *Balancemodulator*; §11 *SWR-Meter*; §14 rows
+  for 842/843/…/911/914, 858/922/923/958, 916/917/937/903 with *„Erde“
+  (Bodenfläche)*, *„30 St.“ / „70 cm Band“*, *„Leistung“*, the inductor
+  symbol chart, *Plastikgehäuse / Metalllegierung / Keramikdielektrikum*)
+  and the HF/ZF/NF → RF/IF/AF rule. Old and new SVGs rendered side by side
+  (`rsvg-convert`): no German left, nothing overlapping or cut off (911's
+  and 914's two-line labels inside/above their blocks; 917's "Measurement
+  of unwanted emissions" clear of the antenna; 923's labels inside the
+  drawing; 942's "Ferrite-cored inductor" within the left half; 913's VFO
+  range now prints decimal points). The reported size changes of 917, 923
+  and 942 match the renders. Descriptions lose only the German brackets;
+  quoted labels match the drawings word for word.
+- 894–899, 918, 925–928, 950 — rendered: no German printed (H, E, I, +, −;
+  925–928 no text; 950's degree and dB ticks); no decimal commas in the
+  `.tex` (the `0,0` … are coordinates). 918's "1 Harm." / "1. OW 2 Harm."
+  … stay as printed by the §14 row for 868/869/918, as in crtezi_09.
+  Untouched in the commit.
+- No suspected errors: 940's LSB (wedge rising towards 9001.2 kHz) and
+  941's USB (wedge falling from 8998.8 kHz) are correctly inverted /
+  upright against the 300 Hz–3 kHz baseband.
