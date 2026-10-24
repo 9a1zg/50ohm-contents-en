@@ -119,3 +119,21 @@ None in the German drawings. In DARC's descriptions (not the drawings):
 - 1056.txt — speaks of "four spectrum diagrams" that "all four" have a
   "Power" axis; only the two left-hand diagrams have that label. Left
   unchanged, as above.
+
+## Provjera
+
+29 drawings checked: 26 `.tex` diffs (only printed text and decimal
+commas changed; no coordinates, styles or comments), the 13 `.txt` diffs
+and the glossary row, plus the committed SVGs rendered before and after
+with `rsvg-convert`. No German left; the three "nothing to translate"
+drawings (1011, 1046, 1049) print no German. Wording matches the glossary
+and the descriptions. 1 change, 2 drawings rebuilt:
+
+- 1022, 1024 — the rotated "Cut-off frequency" ran down to about 1 pt
+  above the f axis, so at normal size it sat on the axis (the German
+  "Grenzfrequenz" ended well clear of it). Shorter wording, as the
+  collision rule asks first: "Cut-off freq.", which keeps the German
+  width; rebuilt with `darc-drawing.py`, sizes unchanged (255.1 × 160.3
+  pt), now clear of the axis and of the curve. Neither description quotes
+  the label. Glossary row (crtezi_12) extended with *Grenzfrequenz* →
+  "Cut-off freq." for these two drawings only.
