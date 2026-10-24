@@ -16,13 +16,13 @@
     samples=500,
     clip=false,
     xlabel={
-        Distanz, normiert:
+        Distance, normalised:
         $\displaystyle
         x=\frac{d}{\lambda/(2\pi)}
         $
     },
     ylabel={
-        Feldwellenwiderstand:
+        Wave impedance:
         $\displaystyle
         Z_\mathrm{F}
         =
@@ -35,8 +35,8 @@
     },
     xtick={0.01,0.1,1,10,100},
     xticklabels={
-        {$0{,}01$},
-        {$0{,}1$},
+        {$0.01$},
+        {$0.1$},
         {$1$},
         {$10$},
         {$100$}
@@ -148,21 +148,21 @@ at (axis cs:{8*pi*1.03},50000)
     font=\scriptsize\bfseries
 ]
 at (axis cs:0.1,130000)
-{Reaktives Nahfeld};
+{Reactive near field};
 
 \node[
     anchor=south,
     font=\scriptsize\bfseries
 ]
 at (axis cs:5,130000)
-{Strahlendes Nahfeld};
+{Radiating near field};
 
 \node[
     anchor=south,
     font=\scriptsize\bfseries
 ]
 at (axis cs:50,130000)
-{Fernfeld};
+{Far field};
 
 % Erläuterung des elektrischen Dipols
 \node[
@@ -173,7 +173,7 @@ at (axis cs:50,130000)
 ]
 at (axis cs:0.025,40000)
 {
-    Elektrischer Dipol
+    Electric dipole
 };
 
 % Erläuterung der magnetischen Loop
@@ -185,7 +185,7 @@ at (axis cs:0.025,40000)
 ]
 at (axis cs:0.025,3)
 {
-    Magnetische Loop
+    Magnetic loop
 };
 
 \end{axis}

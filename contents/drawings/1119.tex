@@ -102,7 +102,7 @@
         at (axis cs:-0.14,#1)
         {\small #2};
 }
-\pgfplotsinvokeforeach{-1/{0{,}6},-2/{0{,}7},-3/{0{,}8}}{
+\pgfplotsinvokeforeach{-1/{0.6},-2/{0.7},-3/{0.8}}{
     \expandafter\DARCUbeTick#1\relax
 }
 
@@ -126,7 +126,7 @@
     align=right,
 ]
 at (axis cs:-6.4,8.2)
-{Stromsteuerkennlinie\\$I_C \approx \beta I_B$};
+{Current transfer\\characteristic\\$I_C \approx \beta I_B$};
 
 % --------------------------------------------------------------------------
 % Eingangskennlinie
@@ -151,7 +151,7 @@ at (axis cs:-6.4,8.2)
     anchor=north east,
 ]
 at (axis cs:-6.0,-3.0)
-{Eingangskennlinie};
+{Input characteristic};
 
 % --------------------------------------------------------------------------
 % Ausgangskennlinien
@@ -174,7 +174,7 @@ at (axis cs:-6.0,-3.0)
     anchor=south west,
 ]
 at (axis cs:4.5,9.5)
-{Ausgangskennlinien};
+{Output characteristics};
 
 % Beschriftung ausgewählter Basisströme
 
@@ -279,7 +279,7 @@ coordinates {
     font=\small,
 ]
 at (axis cs:5.0,5.0)
-{\textcolor{DARCgreen}{Arbeitspunkt}};
+{\textcolor{DARCgreen}{Operating point}};
 
 % --------------------------------------------------------------------------
 % Signalübertragung durch das Kennlinienfeld

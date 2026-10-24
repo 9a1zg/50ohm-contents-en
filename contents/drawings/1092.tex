@@ -44,7 +44,7 @@
     % ------------------------------------------------------------
     \begin{axis}[
         name=plot1,
-        title={1. Nutzsignal NF: Einton},
+        title={1. AF wanted signal: single tone},
         at={(0,0)}
     ]
         \addplot[DARCred]
@@ -56,7 +56,7 @@
     % ------------------------------------------------------------
     \begin{axis}[
         name=plot2,
-        title={2. AM von 1: Einton moduliert Trägeramplitude},
+        title={2. AM of 1: single tone modulates carrier amplitude},
         at={(0,-2.8cm)}
     ]
         \addplot[name path=amoneupper, draw=none]
@@ -80,7 +80,7 @@
     % ------------------------------------------------------------
     \begin{axis}[
         name=plot3,
-        title={3. SSB von 1: eine HF-Linie, konstante Hüllkurve},
+        title={3. SSB of 1: one RF component, constant envelope},
         at={(0,-5.6cm)}
     ]
         \addplot[name path=ssboneupper, draw=none] {1};
@@ -98,7 +98,7 @@
     % ------------------------------------------------------------
     \begin{axis}[
         name=plot4,
-        title={4. Zweiton-Nutzsignal NF: z.B. 700 Hz und 1200 Hz},
+        title={4. Two-tone AF wanted signal: e.g. 700 Hz and 1200 Hz},
         at={(0,-8.4cm)}
     ]
         \addplot[DARCred]
@@ -111,7 +111,7 @@
     % ------------------------------------------------------------
     \begin{axis}[
         name=plot5,
-        title={5. AM von 4: Zweiton moduliert Trägeramplitude},
+        title={5. AM of 4: two tones modulate carrier amplitude},
         at={(0,-11.2cm)}
     ]
         \addplot[name path=amtwoupper, draw=none]
@@ -139,7 +139,7 @@
     % ------------------------------------------------------------
     \begin{axis}[
         name=plot6,
-        title={6. SSB von 4: zwei HF-Linien mit Schwebung},
+        title={6. SSB of 4: two RF components with beat},
         at={(0,-14.0cm)}
     ]
         \addplot[name path=ssbtwoupper, draw=none]

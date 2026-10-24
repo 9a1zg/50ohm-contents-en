@@ -17,13 +17,13 @@
     samples=500,
     clip=false,
     xlabel={
-        Distanz, normiert:
+        Distance, normalised:
         $\displaystyle
         x=\frac{d}{\lambda/(2\pi)}
         $ 
     },
     ylabel={
-        elektrische Feldstärke, normiert:
+        Electric field strength, normalised:
         $\lvert E\rvert/E_0$
     },
     tick label style={
@@ -31,8 +31,8 @@
     },
     xtick={0.01,0.1,1,10,100},
     xticklabels={
-        {$0{,}01$},
-        {$0{,}1$},
+        {$0.01$},
+        {$0.1$},
         {$1$},
         {$10$},
         {$100$}
@@ -155,21 +155,21 @@ at (axis cs:25,1)
     font=\scriptsize\bfseries
 ]
 at (axis cs:0.1,1300000)
-{Reaktives Nahfeld};
+{Reactive near field};
 
 \node[
     anchor=south,
     font=\scriptsize\bfseries
 ]
 at (axis cs:5,1300000)
-{Strahlendes Nahfeld};
+{Radiating near field};
 
 \node[
     anchor=south,
     font=\scriptsize\bfseries
 ]
 at (axis cs:50,1300000)
-{Fernfeld};
+{Far field};
 
 \end{axis}
 
@@ -188,7 +188,7 @@ at (axis cs:50,1300000)
     axis x line=none,
     axis y line*=right,
     ylabel={
-        magnetische Feldstärke, normiert:
+        Magnetic field strength, normalised:
         $\lvert H\rvert/(E_0/Z_0)$
     },
     tick label style={

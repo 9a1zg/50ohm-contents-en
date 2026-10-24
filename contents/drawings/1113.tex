@@ -3,8 +3,8 @@
 \begin{tikzpicture}
     \draw(0,0) node[antenna](ant){};
     % lambda = 2
-    \draw[Triangle-Triangle](ant.east) ++(0.25,0) -- ++({2/(2*pi)},0) node [midway, above] {$d \le \frac{\lambda}{2\pi}$} node [midway, anchor=north west] {Reaktives Nahfeld} coordinate(a1);
-    \draw[Triangle-Triangle](a1) -- ++({2*4-2/(2*pi)},0) node [midway, above] {$\frac{\lambda}{2\pi} < d < 4\cdot \lambda$} node [midway, below] {Strahlendes Nahfeld} coordinate(a2);
-    \draw[Triangle-](a2) -- ++(1.5,0) node [midway, above] {$d \ge 4\cdot \lambda$} node [midway, below] {Fernfeld} coordinate(a3);
+    \draw[Triangle-Triangle](ant.east) ++(0.25,0) -- ++({2/(2*pi)},0) node [midway, above] {$d \le \frac{\lambda}{2\pi}$} node [midway, anchor=north west] {Reactive near field} coordinate(a1);
+    \draw[Triangle-Triangle](a1) -- ++({2*4-2/(2*pi)},0) node [midway, above] {$\frac{\lambda}{2\pi} < d < 4\cdot \lambda$} node [midway, below] {Radiating near field} coordinate(a2);
+    \draw[Triangle-](a2) -- ++(1.5,0) node [midway, above] {$d \ge 4\cdot \lambda$} node [midway, below] {Far field} coordinate(a3);
     \draw[dashed](a3) -- ++(0.5,0);
 \end{tikzpicture}

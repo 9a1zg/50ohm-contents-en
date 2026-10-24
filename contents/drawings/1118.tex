@@ -7,7 +7,7 @@
         to [short, o-] ++(2,0) coordinate(o4) 
         to [short, *-o] ++(1,0) coordinate(o5);
     % Left Side:
-    \path(o0) -- (o2) node[midway, above](){Emitterschaltung};
+    \path(o0) -- (o2) node[midway, above](){Common-emitter circuit};
     \draw(o1)
         to [european resistor] ++(0,-2) coordinate(out1)
         to [short] ++(0,-0.25)
@@ -23,7 +23,7 @@
     \draw[DARCblue] (npn1B) to [open, v=$U_\mathrm{E}$, draw=DARCblue] (npn1EE);
     \draw[DARCblue] (out11) to [open, v=$U_\mathrm{A}$, draw=DARCblue] (npn1EEE);
     % Right Side:
-    \path(o3) -- (o5) node[midway, above](){Kollektorschaltung};
+    \path(o3) -- (o5) node[midway, above](){Common-collector circuit};
     \draw(o4)
         to [short] ++(0,-2.25)
         node[npn, tr circle, anchor={C}](npn2){};
