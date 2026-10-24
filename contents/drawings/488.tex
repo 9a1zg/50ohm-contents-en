@@ -7,7 +7,7 @@
     \draw (0,0) node[tdax](A){};
     \draw (A.center) node[](){$\mathrm{IC}_1~~~$};
     \draw (A.lpin 1) -- ++(-1.0,0) coordinate(C1) to [R, l_=$R_1$] ++(-2,0) to node[ocirc](NFIN){} ++(0,0);
-    \draw (NFIN) node[anchor=east]{$\mathrm{NF}_\mathrm{IN}$};
+    \draw (NFIN) node[anchor=east]{$\mathrm{AF}_\mathrm{IN}$};
     \draw (A.lpin 2) -| ++(-0.25,-1) coordinate(term);
     \draw (A.bpin 1) |- (term) to[short,-*] ++(0,0);
     \draw (C1) to [C, l_=$C_1$, *-] ++(0,-1.5) |- (term) -- ++(0,-0.5) node[rground]{};
@@ -26,6 +26,6 @@
     \draw (A.tpin 1) node[anchor=south west]{6} ++(0,0);
     \draw (A.tpin 2) node[anchor=south west]{1} ++(0,0);
     \draw (A.tpin 3) node[anchor=south west]{8} ++(0,0);
-    \draw (nfout) node[anchor=west]{$\mathrm{NF}_\mathrm{OUT}$};
-    \draw (1,3) node[]{$\mathrm{Audioverstärker}$} ++(0,0);
+    \draw (nfout) node[anchor=west]{$\mathrm{AF}_\mathrm{OUT}$};
+    \draw (1,3) node[]{$\mathrm{Audio\ amplifier}$} ++(0,0);
 \end{circuitikz}

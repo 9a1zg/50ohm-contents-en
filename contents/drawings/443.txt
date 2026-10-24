@@ -1,7 +1,7 @@
 This alt text has not yet been checked.
 
 1) Short summary:
-Circuit diagram with two parallel horizontal lines, two vertical connections, four numbered circles (1–4) and a square symbol with a triangle, labelled "PA", together with the texts "to power supply" ("zum Netzteil") on the left and "to TX" ("zum TX") on the right at the edges.
+Circuit diagram with two parallel horizontal lines, two vertical connections, four numbered circles (1–4) and a square symbol with a triangle, labelled "PA", together with the texts "to power supply" on the left and "to TX" on the right at the edges.
 
 2) Detailed description:
 - On the left is the text "to power supply", set vertically, on the right, vertically, "to TX".

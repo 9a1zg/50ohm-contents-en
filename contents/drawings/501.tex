@@ -14,7 +14,7 @@
         node[inputarrow]{}
         node[cloud, draw, anchor=west, scale={3*\getDarcImageFactor}] (cld) {};
     \draw(cld.north)
-        node[anchor=south](){Netzwerk};
+        node[anchor=south](){Network};
     \draw(cld.east)
         node[inputarrow, rotate=180]{}
         to[short] ++(1,0)
@@ -28,8 +28,8 @@
     \draw(n3.east)
         to[short] ++(1,0)
         node [antenna](ant){};
-    \draw(h1.north) ++(0,0.75) node[anchor=south](h2){\footnotesize{Kontrollsignale}};
-    \draw(h2.north)            node[anchor=south](h3){\footnotesize{Steuer- und}};
-    \draw(h3.north)            node[anchor=south](h4){\footnotesize{Audio (NF) TX}};
-    \draw(h4.north)            node[anchor=south](h5){\footnotesize{Audio (NF) RX}};
+    \draw(h1.north) ++(0,0.75) node[anchor=south](h2){\footnotesize{monitoring signals}};
+    \draw(h2.north)            node[anchor=south](h3){\footnotesize{Control and}};
+    \draw(h3.north)            node[anchor=south](h4){\footnotesize{Audio (AF) TX}};
+    \draw(h4.north)            node[anchor=south](h5){\footnotesize{Audio (AF) RX}};
 \end{circuitikz}

@@ -1,12 +1,12 @@
 % Author: Dr. Matthias Jung, DL9MJ
 % Year: 2022
 \begin{circuitikz}
-    \draw (9,7.0) node(){Antenne} ++ (0,-0.3) -- ++(-0.5,-0.5);
+    \draw (9,7.0) node(){Antenna} ++ (0,-0.3) -- ++(-0.5,-0.5);
 
     \draw[very thick] (0,6)
         to [short] ++(4,0) coordinate(c1);
     \draw(c1)
-        to [stroke diode, l={HF-Diode}, *-*] ++(2,0) coordinate(c2);
+        to [stroke diode, l={RF diode}, *-*] ++(2,0) coordinate(c2);
     \draw[very thick] (c2)
         to [short] ++(4,0);
 

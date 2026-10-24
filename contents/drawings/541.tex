@@ -14,10 +14,10 @@
                to [vR, tunable end arrow={Bar}, invert, name=resi, -*] ++(0,-2) coordinate(d3)
                -| (resi.wiper) ;
 
-    \draw(d3) to [lamp,-*, l_={$\text{Lampe}_1$}] ++(0,-2) coordinate(d4);
+    \draw(d3) to [lamp,-*, l_={$\text{Lamp}_1$}] ++(0,-2) coordinate(d4);
     \draw(d2) to [short] ++(3,0)
               to [american inductor, name=myL] ++(0,-2)
-              to [lamp, l_={$\text{Lampe}_2$}] ++(0,-2)
+              to [lamp, l_={$\text{Lamp}_2$}] ++(0,-2)
               to [short] (d4)
               to [short] (0,0);
     \draw[thick] (myL.core east) --(myL.core west);
