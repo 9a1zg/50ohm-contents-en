@@ -87,3 +87,25 @@ only where it quotes the drawing's labels):
   as „4,9 mm“, „2,7 mm“, „1,64 mm“ (drawing: 10,3, 12,7, 16,4 mm) and the
   y-axis symbol as α0 (drawing: a_0); apparently misread from the image.
 - 149.txt — „f_res  ZF“ has lost the ≠ that the drawing prints.
+
+## Provjera
+
+29 drawings checked against commit 1c3b079: 20 translated, 9 with nothing to
+translate. 0 changes.
+
+- 96, 98, 105, 109, 110, 114, 117, 118, 121, 141, 142, 149, 153, 155, 158,
+  192, 193, 194, 201, 202 — `.tex` diffs change only printed text and the
+  decimal commas (no coordinates, styles or `%` comments touched); wording
+  follows the glossary (§5 *Treiber*, §6 *Digitale Signalverarbeitung*, §7
+  *Balancemodulator*, §9 *Voll-PE / PE-Schaum / Massivschirm*, *Antennentuner*,
+  *Erde* → earth, §14 drawing-label rows) and the descriptions. Old and new
+  SVGs rendered side by side (202 also at 4000 px around the cable labels): no
+  German left, nothing overlapping or cut off; the foam-PE labels in 202 sit
+  as close to the neighbouring lines as the German ones did, and "Foam PE
+  solid screen 16.4 mm" no longer crosses the 12.7 mm line. Sizes as the
+  originals. Descriptions lost only the German brackets; quoted labels match
+  the drawings (149 "f_res ≠ IF", 201 "+13.8 V" / "+5 V", 202 a_0 and the
+  cable labels).
+- 103, 104, 106, 137, 138, 139, 175, 195, 200 — rendered: no German printed
+  (seven-segment digits, MHz, X, E, A, +, –, `R_1`, `R_2`, `C_1`, `C_2`,
+  `U_E`, `U_A`, IC1 only).
