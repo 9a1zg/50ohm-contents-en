@@ -1,3 +1,3 @@
 This alt text has not yet been checked.
 
-Diagram of a block diagram with a sequence of blocks. On the left is an antenna, which leads to a block labelled "RF 3–30 MHz" ("HF 3–30 MHz"). This is followed by a mixer circle. The line continues to a block "IF 455 kHz" ("ZF 455 kHz"), followed by a further mixer circle. Then there is a block "AF" ("NF") and at the end a loudspeaker symbol. At the bottom lines lead from a block "VFO 3.455–30.455 MHz" to the first mixer circle and from a block "BFO" to the second mixer circle.
+Diagram of a block diagram with a sequence of blocks. On the left is an antenna, which leads to a block labelled "RF 3–30 MHz". This is followed by a mixer circle. The line continues to a block "IF 455 kHz", followed by a further mixer circle. Then there is a block "AF" and at the end a loudspeaker symbol. At the bottom lines lead from a block "VFO 3.455–30.455 MHz" to the first mixer circle and from a block "BFO" to the second mixer circle.

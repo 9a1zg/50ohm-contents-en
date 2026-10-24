@@ -1,3 +1,3 @@
 This alt text has not yet been checked.
 
-Block diagram with two rectangular boxes. On the left an arrow labelled "Input signal \( f_e \)" ("Eingangssignal \( f_e \)") points to a box with a circle and an X. To the right of it an arrow points to the text "Frequency mixture \( f_z = | f_e \pm f_o | \)" ("Frequenzgemisch \( f_z = | f_e \pm f_o | \)"). Below the circle an arrow points to the box labelled "G \( \approx \) \( f_o \)".
+Block diagram with two rectangular boxes. On the left an arrow labelled "Input signal \( f_e \)" points to a box with a circle and an X. To the right of it an arrow points to the text "Frequency mixture \( f_z = | f_e \pm f_o | \)". Below the circle an arrow points to the box labelled "G \( \approx \) \( f_o \)".
