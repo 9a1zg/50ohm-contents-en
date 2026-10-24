@@ -5338,8 +5338,8 @@ lon       lat       name
 
         \pgfmathsetmacro{\thetaSydney}{mod(450 - aeqdtheta(151.2093,-33.8688,\lonO,\latO),360)}
         \pgfmathsetmacro{\rSydney}{aeqdr(151.2093,-33.8688,\lonO,\latO)}
-        \draw[-Triangle, DARCgreen, thick] (axis cs:0,0) -- (axis cs:\thetaSydney,\rSydney) node[midway,above,rotate=15] {\small Kurzer Weg};
+        \draw[-Triangle, DARCgreen, thick] (axis cs:0,0) -- (axis cs:\thetaSydney,\rSydney) node[midway,above,rotate=15] {\small Short path};
         \draw[Triangle-, DARCorange, thick] (axis cs:\thetaSydney,\rSydney) -- (axis cs:15,1);
-        \draw[-Triangle, DARCorange, thick] (axis cs:0,0) -- (axis cs:195,1) node[midway,above,rotate=15] {\small Langer Weg};
+        \draw[-Triangle, DARCorange, thick] (axis cs:0,0) -- (axis cs:195,1) node[midway,above,rotate=15] {\small Long path};
     \end{polaraxis}
 \end{tikzpicture}

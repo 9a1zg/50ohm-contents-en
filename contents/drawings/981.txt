@@ -3,7 +3,7 @@ This alt text has not yet been checked.
 Brief summary: A two-dimensional line graph shows an orange curve of field strength against frequency, which rises in several steps from very low values at 0.01 MHz to about 2 000 V/m from around 1 000 MHz and then stays constant.
 
 Detailed description:
-- Axis labels: y-axis (vertical) "Field strength in V m" ("Feldstärke in V m") (the "m" is below the "V"), scale 0, 500, 1 000, 1 500, 2 000, 2 500; x-axis (horizontal) "Frequency in MHz" ("Frequenz in MHz"), scale 0.01, 0.1, 1, 10, 100, 1 000, 10 000, 100 000.
+- Axis labels: y-axis (vertical) "Field strength in V m" (the "m" is below the "V"), scale 0, 500, 1 000, 1 500, 2 000, 2 500; x-axis (horizontal) "Frequency in MHz", scale 0.01, 0.1, 1, 10, 100, 1 000, 10 000, 100 000.
 - The x-axis is logarithmic with many fine grey vertical guide lines (some slightly darker); the y-axis appears linear.
 - The orange line runs from the bottom left at 0.01 MHz just above 0 V/m almost horizontally to about 0.1 MHz, then rises gradually, reaches approximately 600 V/m at around 1 MHz and continues to rise slightly to about 850–900 V/m at around 10 MHz.
 - From about 10 MHz to just under 1 000 MHz the curve stays almost horizontal at this level.

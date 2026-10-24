@@ -508,10 +508,10 @@
         xmin=2005,
         xmax=2025, 
         %ylabel={Sonnenflecken im Mittel pro Monat},
-        xlabel={Jahre},
+        xlabel={Years},
         legend style={at={(0.02,0.98)},anchor=north west},
         legend cell align={left},
-        legend entries={Sonnenflecken, Flux}
+        legend entries={Sunspots, Flux}
     ]
         \addplot[smooth, draw=DARCblue, thick] table [x=a, y=b, col sep=comma] {sunspots2.csv};
         \addplot[smooth, draw=DARCred, thick] table [x=a, y=b, col sep=comma] {flux.csv};

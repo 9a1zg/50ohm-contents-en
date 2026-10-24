@@ -11,19 +11,19 @@
         misc/scale=\getDarcImageFactor
     }
     \draw(0,0) node[antenna]{}
-        to [bandpass, box, >, l_=HF, name={bp1}] ++ (2,0)
+        to [bandpass, box, >, l_=RF, name={bp1}] ++ (2,0)
         node[inputarrow](){}
         node[mixer, box, anchor=west] (mix1) {};
     \draw(mix1.east)
-        to [bandpass, box, >, l_=1.ZF, name={bp2}] ++ (2,0)
+        to [bandpass, box, >, l_=1st IF, name={bp2}] ++ (2,0)
         node[inputarrow](){}
         node[mixer, box, anchor=west] (mix2) {};
     \draw(mix2.east)
-        to [bandpass, box, >, l_=2.ZF, name={bp3}] ++ (2,0)
+        to [bandpass, box, >, l_=2nd IF, name={bp3}] ++ (2,0)
         node[inputarrow](){}
         node[mixer, box, anchor=west](mix3){};
     \draw(mix3.east)
-        to [bandpass, box, >, l_=3.ZF, name={bp4}] ++ (2,0)
+        to [bandpass, box, >, l_=3rd IF, name={bp4}] ++ (2,0)
         node[inputarrow](){};
 
     \draw(mix1.south) node[inputarrow, rotate=90] {} 
@@ -40,7 +40,7 @@
 
     \draw(x.east)  node[anchor=west](){VFO};
     \draw(y.south) node[anchor=north](){\qty{41}{\mega\hertz}};
-    \draw(z.south) node[anchor=north](){\qty{9,455}{\mega\hertz}};
+    \draw(z.south) node[anchor=north](){\qty{9.455}{\mega\hertz}};
 
     \draw(bp1.north) node[anchor=west,rotate=90](){\qty{3}-\qty{30}{\mega\hertz}};
     \draw(bp2.north) node[anchor=west,rotate=90](){\qty{50}{\mega\hertz}};
