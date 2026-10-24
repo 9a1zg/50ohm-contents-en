@@ -3,7 +3,7 @@
 \begin{circuitikz}
     \draw(0,0) coordinate(u0)
         to [mic] ++(0,3) 
-        to [amp, box, -*, l={\qty{0,3}-\qty{3,4}{\kilo\hertz}}] ++(2,0) coordinate(o1)
+        to [amp, box, -*, l={\qty{0.3}-\qty{3.4}{\kilo\hertz}}] ++(2,0) coordinate(o1)
         to [short, -*] ++(1,0) coordinate(o2)
         to [short] ++(1,0) coordinate(o3)
         to [vR, invert, mirror, name={knecht}] ++(0,-3) coordinate(u3)
@@ -31,7 +31,7 @@
         to [open, name={h1}] (u4);
 
     \draw(h1.center)
-        node[rotate=+90](kerl){Oszillator};
+        node[rotate=+90](kerl){oscillator};
     \draw(kerl.north)
-        node[anchor=south, rotate=90]{zum};
+        node[anchor=south, rotate=90]{to};
 \end{circuitikz}

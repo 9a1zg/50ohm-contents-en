@@ -2,10 +2,10 @@
 % Year: 2020
 \begin{circuitikz}
     \draw(0,0)
-        node[anchor=south west](){HF}
+        node[anchor=south west](){RF}
         to [short, o-] ++(2,0)
         node[inputarrow] {}
-        node[mixer, box, label=Mischer, anchor=west] (mix) {};
+        node[mixer, box, label=Mixer, anchor=west] (mix) {};
     \draw (mix.south)
         node[inputarrow, rotate=90] {}
         to [short, label=${f}_{\mathrm{OSZ}}$] ++(0,-1.5)
@@ -15,5 +15,5 @@
     \draw (mix.east)
         to [bandpass, >] ++(3,0)
         node[inputarrow](){}
-        node[anchor=south east](){ZF};
+        node[anchor=south east](){IF};
 \end{circuitikz}
