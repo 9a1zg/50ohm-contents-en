@@ -170,3 +170,33 @@ In DARC's German alt text (left as translated):
   slike_06 (the eleven-year cycle).
 - 714.txt — "a stylised radio" (both descriptions): `714.tex` draws
   `\smartphone`, and the render shows a smartphone. Translated as written.
+
+## Provjera
+
+29 drawings checked against commit b93ef01: 24 translated, 5 with nothing
+to translate. 0 changes.
+
+- 675, 676, 680, 681, 689, 694, 697, 699, 702, 705, 706, 727–734, 737,
+  740–743 — `.tex` diffs change only printed text and the decimal commas
+  (no coordinates, styles, options, padding `~` / `\quad` or `%` comments
+  touched); the one structural change is 680's reported `\shortstack`
+  inside the existing `\textit`. Wording follows the glossary (§3
+  *Leistung*, *Periode*, *Halbwelle*; §4 *Sicherung*, *Spule*, *Masse /
+  Erde (Schaltzeichen)*; §5 *Netzteil / Netzgerät*; §6 *Sender*,
+  *Empfänger*; §10 *D-Region …*, *Raumwelle*, *Bodenwelle*, *tote Zone*;
+  §12 *Lebensgefahr*; §14 *Kurzschluss- und Verpolungsgefahr*,
+  *Quellencodierer …*, *Netzmaske* and the drawing-label rows for 680/681,
+  694, 699/706, 700–705, 727–729, 730, 731–733, 734, 737, 740, 741, 742,
+  *„Erde“ (Bodenfläche)*). Old and new SVGs rendered side by side: no
+  German left, nothing overlapping or cut off (680's two-line grey label
+  clear of "13.8 V" and the earth symbol; 706's "Internet connection"
+  inside the drawing; 732/733/741's "Transmitter" inside the left edge;
+  689's photo in place at the same size; 742's crowded right-hand ticks
+  as in the German). Descriptions lose only the German brackets, plus
+  694's reported "German label" → "English label"; quoted labels match
+  the drawings word for word.
+- 710, 713, 714, 735, 736 — rendered: no German printed ("+", "−",
+  smartphone, digits 1–8, "G"). Untouched in the commit.
+- The suspected errors (697's four "0.5 | 45°", 742's touching tick
+  labels, 714's "radio" for a smartphone) are confirmed against the
+  renders and left as reported.
