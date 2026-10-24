@@ -1,3 +1,3 @@
 This alt text has not yet been checked.
 
-A circuit diagram shows a circuit with a sine-wave generator on the left, labelled "R_L 50 Ω". There are three rectangular resistors in the picture, labelled "R_1", "R_2" and "R_3". On the right is a further circle, also labelled "R_L". In the middle is the text "Attenuator" ("Dämpfungsglied").
+A circuit diagram shows a circuit with a sine-wave generator on the left, labelled "R_L 50 Ω". There are three rectangular resistors in the picture, labelled "R_1", "R_2" and "R_3". On the right is a further circle, also labelled "R_L". In the middle is the text "Attenuator".

@@ -1,5 +1,5 @@
 This alt text has not yet been checked.
 
-1) Brief summary: Block diagram with an antenna symbol, three rectangles labelled "1", "2" and "3", an input "Control information" ("Kontroll-information") and an output "Further parts of the receiver" ("Weitere Teile des Empfängers"), connected by arrows.
+1) Brief summary: Block diagram with an antenna symbol, three rectangles labelled "1", "2" and "3", an input "Control information" and an output "Further parts of the receiver", connected by arrows.
 
 2) Detailed description: On the left is an antenna symbol; from its foot a horizontal line with an arrowhead leads to the right into a rectangle with the digit "1". From "1" an arrow leads to the right into a further rectangle with the digit "3". Above "3" there is a third rectangle with the digit "2". From the left a horizontal arrow labelled "Control information" points to the rectangle "2". From the underside of the rectangle "2" a vertical arrow leads downwards into the rectangle "3". From the rectangle "3" an arrow goes to the right to the text label "Further parts of the receiver".

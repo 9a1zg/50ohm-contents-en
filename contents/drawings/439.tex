@@ -18,19 +18,19 @@
     \draw(amp.east) 
         to [open, name={h2}](feed);
 
-    \draw(h1.center)  node[anchor=north] (h11)  {\footnotesize Kabel 1};
+    \draw(h1.center)  node[anchor=north] (h11)  {\footnotesize Cable 1};
     \draw(h11.south)  node[anchor=north] (h111) {\footnotesize 2\,dB};
-    \draw(h111.south) node[anchor=north] ()     {\footnotesize Dämpfung};
+    \draw(h111.south) node[anchor=north] ()     {\footnotesize attenuation};
 
-    \draw(amp.north)  node[anchor=south] (amp1) {\footnotesize 6\,dB Verstärkung};
+    \draw(amp.north)  node[anchor=south] (amp1) {\footnotesize 6\,dB gain};
     \draw(amp1.north) node[anchor=south] () {\footnotesize PA};
 
-    \draw(h2.center)  node[anchor=north] (h22)  {\footnotesize Kabel 2};
+    \draw(h2.center)  node[anchor=north] (h22)  {\footnotesize Cable 2};
     \draw(h22.south)  node[anchor=north] (h222) {\footnotesize 3\,dB};
-    \draw(h222.south) node[anchor=north] ()     {\footnotesize Dämpfung};
+    \draw(h222.south) node[anchor=north] ()     {\footnotesize attenuation};
 
-    \draw(h3.center)       node[anchor=south west] (h33)  {\footnotesize Antenne};
+    \draw(h3.center)       node[anchor=south west] (h33)  {\footnotesize Antenna};
     \draw(h33.south west)  node[anchor=north west] (h333) {\footnotesize 2\,dB};
-    \draw(h333.south west) node[anchor=north west] (h333) {\footnotesize Gewinn};
+    \draw(h333.south west) node[anchor=north west] (h333) {\footnotesize gain};
 
 \end{circuitikz}

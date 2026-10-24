@@ -1,3 +1,3 @@
 This alt text has not yet been checked.
 
-A coordinate system with a horizontal axis labelled "Time" ("Zeit") and a vertical axis labelled "Value" ("Wert"). On the graph several points are distributed along a sinusoidal wave. The points run up and down from left to right.
+A coordinate system with a horizontal axis labelled "Time" and a vertical axis labelled "Value". On the graph several points are distributed along a sinusoidal wave. The points run up and down from left to right.

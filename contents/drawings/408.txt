@@ -1,3 +1,3 @@
-1) Short description: Diagram with a horizontal axis "Time" ("Zeit") and a vertical axis "Value" ("Wert"); sinusoidal curve along the zero line.
+1) Short description: Diagram with a horizontal axis "Time" and a vertical axis "Value"; sinusoidal curve along the zero line.
 
 2) Detailed description: A coordinate system has a horizontal axis labelled "Time" and a vertical axis labelled "Value". A sinusoidal curve runs across the whole width of the picture along the zero line. There are no further labels or dimensions.

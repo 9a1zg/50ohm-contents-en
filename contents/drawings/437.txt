@@ -1,5 +1,5 @@
 This alt text has not yet been checked.
 
-Brief summary: Circuit diagram with an antenna, a rectangular block "RX" and a branch to chassis, in which a piece of line labelled "Electrical length: 1/4 of the wavelength of the interfering frequency" ("Elektrische Länge: 1/4 der Wellenlänge der Störfrequenz") is marked.
+Brief summary: Circuit diagram with an antenna, a rectangular block "RX" and a branch to chassis, in which a piece of line labelled "Electrical length: 1/4 of the wavelength of the interfering frequency" is marked.
 
 Detailed description: At top left an antenna is shown, whose line leads to the right and ends at a node; from there the line continues to the right into a rectangular block labelled "RX". From this upper node a vertical line leads downwards to a second node. From the lower node a short line goes to the left to a chassis symbol (earth symbol). Between the upper and lower nodes a short piece of line is drawn across (as a small rectangular section with an oval loop), which connects the two nodes. An arrow points to this piece of line; beside it is the text, word for word: "Electrical length: 1/4 of the wavelength of the interfering frequency".

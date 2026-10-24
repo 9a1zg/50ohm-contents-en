@@ -1,5 +1,5 @@
 This alt text has not yet been checked.
 
-1) Brief summary: Diagram of the amplitude response A against frequency f with a high, flat plateau between f_A and 3/2 f_A (labelled "Passband" ("Durchlassbereich")) and low regions outside it, the one on the left designated "Stopband" ("Sperrbereich").
+1) Brief summary: Diagram of the amplitude response A against frequency f with a high, flat plateau between f_A and 3/2 f_A (labelled "Passband") and low regions outside it, the one on the left designated "Stopband".
 
 2) Detailed description: A coordinate system with a vertical axis "A" (arrow pointing upwards) and a horizontal axis "f" (arrow pointing to the right). On the f-axis there are marks and labels "1/2 f_A", "f_A" and "3/2 f_A". On the left the response curve lies close to zero throughout and is labelled there with the word "Stopband"; near "f_A" it rises steeply to a high, almost constant level, forms a broad, almost horizontal plateau between "f_A" and "3/2 f_A", which is labelled "Passband" inside, and shortly after "3/2 f_A" falls steeply again to a very small value.

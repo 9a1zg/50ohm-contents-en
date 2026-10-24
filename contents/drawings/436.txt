@@ -1,5 +1,5 @@
 This alt text has not yet been checked.
 
-1) Short description: Circuit diagram with an antenna, a receiver block "RX", a chassis connection and a piece of line (stub) connected at the side, labelled "Electrical length: 1/2 of the wavelength of the interfering frequency" ("Elektrische Länge: 1/2 der Wellenlänge der Störfrequenz").
+1) Short description: Circuit diagram with an antenna, a receiver block "RX", a chassis connection and a piece of line (stub) connected at the side, labelled "Electrical length: 1/2 of the wavelength of the interfering frequency".
 
 2) Detailed description: At top left is an antenna symbol, whose conductor leads vertically downwards. At about mid-height a line branches off to the right into a rectangular field labelled "RX"; a black node is marked at this branch. A little lower down, a short, horizontally drawn piece of line leads from the vertical line to the left; it is shown as a cylinder, connected at its right-hand end to the vertical line via a black node and open at its left-hand end. An arrow points to this piece of line, and beside it is the text, in three lines: "Electrical length: / 1/2 of the wavelength / of the interfering frequency". At the bottom the vertical line connects a further node to a chassis symbol on the left and to a horizontal line to the right into the "RX" block. No further component values are given.

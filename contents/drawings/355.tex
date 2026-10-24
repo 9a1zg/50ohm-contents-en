@@ -34,11 +34,11 @@
         to [short] ++(0,-0.5)
         node[qgeneratorshape, anchor=north, t={G}](gen){};
 
-    \draw(amp1.south)   node[anchor=north](){HF};
-    \draw(fil1.south)   node[anchor=north](){ZF};
+    \draw(amp1.south)   node[anchor=north](){RF};
+    \draw(fil1.south)   node[anchor=north](){IF};
     \draw(demod.north)  node[anchor=south](){Demodulator};
-    \draw(fil2.south)   node[anchor=north](){NF};
-    \draw(amp2.south)   node[anchor=north](){NF};
+    \draw(fil2.south)   node[anchor=north](){AF};
+    \draw(amp2.south)   node[anchor=north](){AF};
     \draw(gen.south)    node[anchor=north ](){VFO};
 
     \draw[dashed](a1.center) -- ++(0.0,-3) node[anchor=north](){1};
