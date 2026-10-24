@@ -128,3 +128,32 @@ In DARC's German alt text (left as translated; not in slike_07's list):
 - 749.txt — the 17 m band is given as "18.068 MHz–18.186 MHz"
   (German „18,068 MHz–18,186 MHz“); `749.tex` and the drawing say 18.168.
   Translated as written.
+
+## Provjera
+
+29 drawings checked against commit f8c61b8: 20 translated, 9 with nothing
+to translate. 0 changes.
+
+- 745, 748, 749, 751, 758, 759, 762, 766, 767, 772, 782–784, 786, 790,
+  803, 807, 808, 810, 828 — `.tex` diffs change only printed text and the
+  decimal commas (no coordinates, styles, options or `%` comments touched;
+  749 drops only the "\\(KW)" / "\\(UKW)" lines of its two labels). Wording
+  follows the glossary (§3 *Periode*; §5 *Pufferstufe*, *Mischer*,
+  *Produktdetektor*, *Begrenzung*; §9 *isotroper Strahler*; §14
+  *Eingangsanpassung / Ausgangsanpassung* and the drawing-label rows for
+  742/745/748, 749/829, 751/759/762/782–784, *„HF_IN“ / „HF_OUT“*,
+  *„Mischer“ / „1. Mischer“ …*, 828) and the HF/ZF/NF → RF/IF/AF rule;
+  symbol subscripts (f_OSZ, f_ZF, U_BIAS) stay German, as DECISIONS.md
+  says. Old and new SVGs rendered side by side (748 with `rsvg-convert
+  -u`): no German left, nothing overlapping or cut off (810's "Product
+  detector" ends at the drawing's right edge, clear of "AGC" and the
+  loudspeaker; 782–784's "Input / matching", "Output / matching" inside
+  their blocks; 749's band names in place without the German everyday
+  names). Descriptions lose only the German brackets; quoted labels match
+  the drawings word for word.
+- 768, 769, 773, 778–781, 793, 809 — rendered: no German printed ("X",
+  "+", C_1/C_2, RF_IN/RF_OUT, MMIC, seven-segment digits and "MHz", a map
+  without text); no decimal commas in the `.tex`. Untouched in the commit.
+- The suspected errors in the German alt text (786's C_2/C_5 values, 793's
+  displayed frequency, 749's 17 m band edge) are confirmed against the
+  `.tex` and the renders and left as reported.
