@@ -647,3 +647,25 @@ and the checker's "Provjera" section).
 - Descriptions follow the glossary, decimal point, units as symbols, British
   spelling, like the course text. (2026-10-23)
 
+## Drawings
+
+- **The LaTeX setup is British** (`latex/`: babel `british`, siunitx
+  `locale=UK`), so formulas and units in drawings and in the PDF print a
+  decimal point. (2026-10-24)
+- **Drawings are translated in their `.tex`** and rebuilt with DARC's own
+  `src/build_drawings.py` at its default width of 9 cm (it reproduces the
+  original sizes), never by editing the SVG. Text labels, axis labels and
+  legends are translated; symbols and formula subscripts stay as in the
+  German (`U_B`, `P_\mathrm{Sender}`), as in the course text; German
+  technical abbreviations become English (NF→AF, ZF→IF, HF→RF); decimal
+  commas become points, inside `\qty`/`\num` and in plain text. If a longer
+  English label collides with something, the smallest fix wins: a shorter
+  wording, then a line break, then moving the label; never rescaling the
+  drawing.
+- **Once a drawing is translated, its description loses the German
+  brackets**: "transmitter" ("Sender") becomes "transmitter". A label the
+  drawing still shows in German keeps them.
+- Drawings without text that changes are not rebuilt only to update fonts;
+  every drawing whose numbers render differently under the British setup
+  (decimal points) is rebuilt mechanically after the translated ones.
+

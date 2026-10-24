@@ -11,7 +11,7 @@
 
 \disable@package@load{physics}{}
 
-\LoadClass[ngerman, 10pt,twocolumn=true,fontsize=9pt,parskip=half-,listof=leveldown,bibliography=leveldown]{scrreprt}
+\LoadClass[british, 10pt,twocolumn=true,fontsize=9pt,parskip=half-,listof=leveldown,bibliography=leveldown]{scrreprt}
 \deftocheading{toc}{\section*{\contentsname}}
 
 \input{settings-pre.tex}
