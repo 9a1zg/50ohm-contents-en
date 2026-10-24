@@ -88,3 +88,28 @@ In DARC's German alt text (left as translated):
   drawing shows a sine-wave source (labelled R_L, see above).
 - 342.txt — "On the right is a further circle, also labelled R_L"; the
   right-hand R_L is a resistor (rectangle), not a circle.
+
+## Provjera
+
+29 drawings checked against commit 137c65a: 23 translated, 6 with nothing to
+translate. 0 changes.
+
+- 311, 315, 341, 342, 354, 355, 400–403, 408–411, 423, 424, 430, 434–439 —
+  `.tex` diffs change only printed text and the decimal commas (no
+  coordinates, styles, options or `%` comments touched; 400–403 and 430
+  only drop the hyphenated line break of the German word, inside the same
+  node). Wording follows the glossary (§5 *Dämpfungsglied* → attenuator;
+  §14 drawing-label rows for „ZF“/„NF“, „l = 43,18 m für 7,1 MHz“,
+  „Durchlassbereich“/„Sperrbereich“/„Zeit“/„Wert“, 438, 434–437, 439/430;
+  "MWS" and $ü$ kept in 315 as §9 and §4 say). Old and new SVGs rendered
+  side by side: no German left, nothing overlapping or cut off (438's
+  longer vertical labels end inside the picture; 436/437's widest line
+  stays left of the stub's arrow; 430's four-line label clear of the
+  arrow). Descriptions lost only the German brackets; quoted labels match
+  the drawings word for word.
+- 326, 378, 385, 420, 421, 422 — rendered: no German printed (no text;
+  $R_1$ … $R_4$; S, PWR, SWR, ALC, "+60 dB" and scale numbers, "1.5"
+  already with a point).
+- The suspected errors above (342/424 generator labelled $R_\mathrm{L}$;
+  the 342 and 424 alt-text slips) are confirmed against the renders and
+  left as reported.
