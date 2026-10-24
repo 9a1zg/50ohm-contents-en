@@ -168,3 +168,20 @@ In the German drawings (translated faithfully, not fixed):
   is not visible either, which may be intended.
 - 1075.txt … 1139.txt — no description yet ("TODO" or empty); not this
   phase's to write.
+
+## Provjera
+
+27 drawings checked: 25 `.tex` diffs (only printed text and decimal
+commas changed, plus the reported 1119 line break; no coordinates, styles
+or `%` comments), no `.txt` diffs (all descriptions TODO, empty or
+missing) and the glossary row, plus the committed SVGs rendered before
+and after with `rsvg-convert`. No German left; the two "nothing to
+translate" drawings (1103, 1134) print no German. Wording matches the
+glossary (§4 *selbstsperrend / selbstleitend*, §9 *Wellenwiderstand* of a
+line, §14 *Feldwellenwiderstand* → wave impedance, *Steuerkennlinie*,
+*Verfügung 33/2007*, AF401 "DC input power supplied"); terminal letters
+E / A in 1131 stay, as the §14 *ZF/NF* row. 1113 (18 cm) and 1119
+(14 cm) keep their original widths; 1080/1081/1093/1094 differ only in
+decimal points. Nothing overlaps or is cut off; 1095's "Region around /
+$f_1$ and $f_2$" stays clear of the grey box and the purple line labels,
+as the German did. 0 changes, no drawing rebuilt.
