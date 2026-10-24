@@ -111,3 +111,29 @@ In DARC's German alt text (left as translated):
 - 501.txt — "in three lines" for the texts above the connection; the
   drawing sets them in four lines (the control signals label is broken
   over two).
+
+## Provjera
+
+29 drawings checked against commit b169a76: 14 translated, 15 with nothing
+to translate. 0 changes.
+
+- 443, 470, 471, 475, 488, 496, 501, 541, 590, 591–594, 607 — `.tex` diffs
+  change only printed text and the decimal commas (no coordinates, styles,
+  options or `%` comments touched; 488's `\ ` is the only way to get the
+  space inside its `\mathrm{}` label). Wording follows the glossary (§14
+  drawing-label rows for 847 → 471, „Leistung“, „Mischer“, „ZF“/„NF“,
+  488/496/541, 501; the new 443 row matches „zum Oszillator“ and the
+  description). Old and new SVGs rendered side by side (471 also at 2400 px
+  for the label band): no German left, nothing overlapping or cut off
+  (471's longer labels clear of each other, the colour bars and the ticks;
+  501's "monitoring signals" ends left of the antenna; 591–594's "Power"
+  clear of the arrowhead). 471 keeps its 707.6 pt width. Descriptions lost
+  only the German brackets; quoted labels match the drawings word for word
+  (470's "2.4 GHz" and "0.3 mW" already had points).
+- 446, 474, 486, 495, 499, 503–506, 542, 556, 559, 563, 609, 610 —
+  rendered: no German printed (symbols, units, numbers, call signs,
+  "Internet", "mech."; 609/610 paths only). The remaining quoted brackets
+  in their descriptions ("P", "U", "10 V" …) are labels, not German.
+- The suspected errors above (470 "TXCO"; the 488 "V_S" and 501 "three
+  lines" alt-text slips) are confirmed against the renders and left as
+  reported.
