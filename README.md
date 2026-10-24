@@ -6,7 +6,7 @@ being translated into **British English** by 9A1ZG. It is a faithful
 translation for DARC — the licence classes N, E and A, the Bundesnetzagentur
 and German law stay as they are — not an adaptation for another country.
 
-**Status (2026-10-23):**
+**Status (2026-10-24):** the whole content is translated; it has not yet been reviewed by DARC.
 
 - **Exam questions** (`contents/questions/fragenkatalog3b.json`): all 1750
   questions and the catalogue section titles translated, each batch checked by
@@ -19,9 +19,14 @@ and German law stay as they are — not an adaptation for another country.
   foreword translated, each checked by a second pass.
 - **Static pages** (tables of contents, static pages, snippets, the applets'
   visible text): translated and checked.
-- **Picture descriptions** (`contents/drawings/*.txt`, `contents/photos/*.txt`)
-  **and the drawings' own labels:** not yet done; drawings still carry German
-  labels.
+- **Picture descriptions** (`contents/drawings/*.txt`, `contents/photos/*.txt`):
+  all 1066 translated and checked; descriptions that are only "TODO" in the
+  German stay "TODO".
+- **Drawings:** the printed text of 375 drawings translated in their `.tex`
+  and rebuilt with DARC's `src/build_drawings.py`, each looked at against the
+  original by two passes; 57 more rebuilt for decimal points. The LaTeX
+  setup (`latex/`) is British (babel `british`, siunitx `locale=UK`).
+  Formula symbols keep their German subscripts, as in the text.
 
 How it is done, and every decision taken, is documented in
 [`TRANSLATION.md`](TRANSLATION.md), [`DECISIONS.md`](DECISIONS.md) and

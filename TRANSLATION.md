@@ -28,7 +28,7 @@ on GitHub for DARC to take over.
   stays the same number; the tooling checks this.
 - **Formulas and symbols** stay exactly as in the German, including German
   subscripts such as `R_\mathrm{ges}` or `U_\mathrm{eff}`: they match the
-  labels in the drawings, which are not translated yet. That includes word
+  labels in the drawings, which keep them too. That includes word
   subscripts written with `\textrm{}`/`\mathrm{}` (`P_{\textrm{Sender}}`,
   `G_{\textrm{Antenne}}`): they are symbols, used the same way in the course
   text and the drawings, and get translated in one pass together with the
@@ -43,8 +43,8 @@ on GitHub for DARC to take over.
   English equivalents** in running text: NF → AF, HF → RF, ZF → IF, KW → HF,
   UKW → VHF, EMV → EMC (mind that German HF is English RF, and German KW is
   English HF). Abbreviations of German law and institutions stay (AFuG, AFuV,
-  BNetzA, EMVU, BEMFV). Labels inside drawings stay German until the drawings
-  are done, so a figure may still say NF where the text says AF.
+  BNetzA, EMVU, BEMFV). Drawings follow the
+  same rule (a figure says AF, as the text does).
 - **Spelling:** British with *-ise* (authorisation, quantisation), as the RSGB
   writes; *call sign* in two words, as the ITU Radio Regulations do.
 - **Exam questions:** `answer_a` is always the correct answer (the generator
@@ -101,6 +101,13 @@ batch) and summarised here as the work goes.
   snippets and the applets' visible text (unit `toc_static`, translated and
   checked); the course text no longer gives German applet labels in
   brackets, and the applets format numbers with a decimal point.
-- **Not yet done:** picture descriptions (`contents/drawings/*.txt`,
-  `contents/photos/*.txt`) and the drawings' own labels, which are still
-  German.
+- **Picture descriptions: done (2026-10-24).** All 1066 (`review/prijevod/
+  slike/serije.json`, ten batches), each translated and checked.
+- **Drawings: done (2026-10-24).** 375 drawings with printed German text or
+  decimal commas translated in their `.tex` and rebuilt (thirteen batches,
+  `review/prijevod/slike/crtezi.json`, each checked by eye against the
+  original), 57 more rebuilt for decimal points; `latex/` is British.
+  Rebuild a drawing with `~/projects/50ohm/tools/darc-drawing.py N`
+  (non-default widths in `review/prijevod/slike/sirine.json`). Drawings that
+  include a photo missing from the repo (`foto/6` in 689; 671, 690–693, 720
+  fail to build for the same reason) need DARC's photo before a rebuild.
