@@ -16,11 +16,11 @@
         node[anchor=south](){--};
     \draw(u0)
         to[open, name={h1}] ++(0,3)
-        to [C, l={\qty{6,9}{\pico\farad}}, o-*] ++(2,0) coordinate(o1)
+        to [C, l={\qty{6.9}{\pico\farad}}, o-*] ++(2,0) coordinate(o1)
         to [short,] ++(1,0)
         node[npn, tr circle, anchor=B](T){BF\,224};
     \draw(u1)
-        to [european resistor, l={\rotatebox[origin=c]{90}{\qty{3,3}{\kilo\ohm}}}, -*] (o1);
+        to [european resistor, l={\rotatebox[origin=c]{90}{\qty{3.3}{\kilo\ohm}}}, -*] (o1);
     \draw(T.E)
         to [european resistor, l_={\rotatebox[origin=c]{90}{\qty{330}{\ohm}}}, -*] (T.E|-u1);
     \draw(T.E)
