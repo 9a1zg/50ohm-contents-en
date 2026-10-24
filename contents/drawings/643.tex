@@ -3,8 +3,8 @@
 \begin{circuitikz}
     \draw(2,0) 
         to [short] ++ (1,0)
-        to [twoportsplit, >,     l ={\footnotesize Kanalcodierer}] ++(1,0)
-        to [twoportsplit, >,     l_={\footnotesize Quellencodierer}] ++(3,0)
+        to [twoportsplit, >,     l ={\footnotesize Channel encoder}] ++(1,0)
+        to [twoportsplit, >,     l_={\footnotesize Source encoder}] ++(3,0)
         to [twoportsplit, l ={\footnotesize Mapper}] ++(1,0) coordinate(c1);
 
     \draw(c1) ++(0, 0.25) -| ++(0.5, 0.5)
@@ -31,5 +31,5 @@
 
     % Dashed Block:
     \draw[thick, gray, dashed] (2.25,-1.25) rectangle ++(6.0,2.5);
-    \draw[gray] (5.25,1.5) node(){FPGA oder Software};
+    \draw[gray] (5.25,1.5) node(){FPGA or software};
 \end{circuitikz}

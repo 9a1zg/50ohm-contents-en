@@ -2,8 +2,8 @@
 
 2) Detailed description: The graphic consists of six rows one below the other and shows different kinds of connection between a smartphone or laptop and a radio. In each row a smartphone (at the top) or a laptop is shown on the left. On the right there is a radio in each case. In detail, the following connections are shown:
 Row 1: on the left a smartphone with radio waves pointing to the right, on the right a radio with radio waves pointing to the left; the two devices connected to each other by radio waves
-Row 2: on the left a laptop, on the right a radio; the two devices connected to each other via a "Network" ("Netzwerk")
-Row 3: on the left a laptop with an "Audio" and a "USB" connection, on the right a radio with an "Audio" and a "CAT" connection; the two devices connected to each other directly via the audio connections and, via the USB and CAT connections, through a "CAT interface" ("CAT-Interface")
-Row 4: on the left a laptop with a "USB" connection, on the right a radio with an "Audio" and a "PTT" connection; the two devices connected to each other via a "Data mode interface" ("Digimode-Interface")
-Row 5: on the left a laptop with a "USB" connection, on the right a radio with an "Audio", a "CAT" and a "PTT" connection; the two devices connected to each other via a "Data mode" ("Digimode") interface
+Row 2: on the left a laptop, on the right a radio; the two devices connected to each other via a "Network"
+Row 3: on the left a laptop with an "Audio" and a "USB" connection, on the right a radio with an "Audio" and a "CAT" connection; the two devices connected to each other directly via the audio connections and, via the USB and CAT connections, through a "CAT interface"
+Row 4: on the left a laptop with a "USB" connection, on the right a radio with an "Audio" and a "PTT" connection; the two devices connected to each other via a "Data mode interface"
+Row 5: on the left a laptop with a "USB" connection, on the right a radio with an "Audio", a "CAT" and a "PTT" connection; the two devices connected to each other via a "Data mode" interface
 Row 6: on the left a laptop with a "USB" connection, on the right a radio with a "USB" connection; the two devices connected to each other directly

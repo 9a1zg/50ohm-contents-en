@@ -1905,7 +1905,7 @@ the German (DL1PZ, DO7PR, DM4EAX/p …) stay exactly as they are.
 | Windkraftwerk | wind turbine | gleich_und_wechselspannung |
 | Einheitenvorzeichen / Einheitenpräfix | unit prefix | the course's variants of *Einheitenvorsatz* (§3) |
 | Periode oder auch Periodendauer | period or periodic time | where the German gives both names (amplitude_periode); *Periodendauer* alone stays *period* (§3) |
-| Ort (Achsenbeschriftung einer Momentaufnahme) | position | the x-axis label of a snapshot, against $t$ on an oscillogram (funkwellen); the drawing keeps "Ort" until the drawings are done |
+| Ort (Achsenbeschriftung einer Momentaufnahme) | position | the x-axis label of a snapshot, against $t$ on an oscillogram (funkwellen); drawing 628 now prints "Position", with "Field strength" (*Feldstärke*, §3) on the y-axis (crtezi_06) |
 | Hochzahl / Exponent | superscript number / exponent | |
 | technisch-wissenschaftlicher Taschenrechner | scientific calculator | |
 | Exponentialschreibweise / Zehnerpotenz-Schreibweise | exponential notation / power-of-ten notation | |

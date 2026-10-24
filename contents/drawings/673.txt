@@ -1,3 +1,3 @@
-1) Short description: Diagram with a horizontal axis "f" and frequency marks at 28.410 MHz ("Sought-after station" ("begehrte Station")) and at 28.420 MHz and 28.430 MHz, with a horizontal brace drawn above them ("Reply range" ("Antwortbereich")).
+1) Short description: Diagram with a horizontal axis "f" and frequency marks at 28.410 MHz ("Sought-after station") and at 28.420 MHz and 28.430 MHz, with a horizontal brace drawn above them ("Reply range").
 
-2) Detailed description: A coordinate system has a horizontal axis labelled "f". On it there are frequency marks at 28.410 MHz, labelled "Sought-after station" ("begehrte Station"), and at 28.420 MHz and 28.430 MHz. Above the horizontal axis a horizontal brace is drawn between the two frequency marks 28.420 MHz and 28.430 MHz, labelled "Reply range" ("Antwortbereich").
+2) Detailed description: A coordinate system has a horizontal axis labelled "f". On it there are frequency marks at 28.410 MHz, labelled "Sought-after station", and at 28.420 MHz and 28.430 MHz. Above the horizontal axis a horizontal brace is drawn between the two frequency marks 28.420 MHz and 28.430 MHz, labelled "Reply range".

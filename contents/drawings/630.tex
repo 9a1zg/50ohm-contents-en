@@ -22,14 +22,14 @@
     \draw(left6.south) node [bigBox, below=0.25cm](left5){};
     \draw(right6.south) node [bigBox, below=0.25cm](right5) {};
     \path (left5) -- (right5) node[midway, cloud, draw, minimum width=37, minimum height=18, cloud puffs = 15, cloud puff arc = 105] (net) {};	% Netzwerk
-    \node at (net) {\tiny Netzwerk}; % Netzwerk
+    \node at (net) {\tiny Network}; % Netzwerk
     \draw (left5.east) -- (net.west); 
     \draw (net.east) -- (right5.west);
     
     % Zeile 4 (von unten nach oben nummeriert)	
     \draw(left5.south) node [bigBox, below=0.25cm] (left4) {}; 
     \draw(right5.south) node [bigBox, below=0.25cm] (right4) {};	% Transceiver
-    \path (left4.330) -- (right4.210) node (center4b) [interface, midway] {\tiny CAT-\\[-0.6em] \tiny Interface};	% Interface
+    \path (left4.330) -- (right4.210) node (center4b) [interface, midway] {\tiny CAT\\[-0.6em] \tiny interface};	% Interface
     \draw (left4.330) -- (center4b.west); % Linie Computer - Interface
     \draw (center4b.east) -- (right4.210); % Linie Interface - Transceiver
     \draw [] (left4.30) to (right4.150); % Linie Audio
@@ -41,7 +41,7 @@
     %% Zeile 3
     \draw(left4.south) node [bigBox,below=0.25cm] (left3) {}; % Computer
     \draw (right4.south) node [bigBox, below=0.25cm] (right3) {}; % Transceiver
-    \path (left3) -- (right3) node (center3) [interface, midway] {\tiny Digimode-\\[-0.6em] \tiny Interface};
+    \path (left3) -- (right3) node (center3) [interface, midway] {\tiny Data mode\\[-0.6em] \tiny interface};
     \node [label, above=\labelSpacingSouth of left3.east, anchor=west] {\tiny USB};		% Beschriftung USB am Computer
     \draw [] (left3.east) to (center3.west); % Linie Computer -Interface
     %
@@ -55,7 +55,7 @@
     %% Zeile 2
     \draw(left3.south) node [bigBox, below=0.25cm] (left2) {};	% Computer
     \draw (right3.south) node [bigBox, below=0.25cm] (right2) {}; % Transveiver
-    \path (left2) -- (right2) node (center2) [interface, midway] {\tiny Digimode-\\[-0.6em] \tiny Interface};
+    \path (left2) -- (right2) node (center2) [interface, midway] {\tiny Data mode\\[-0.6em] \tiny interface};
     \node [label, above=\labelSpacingSouth of left2.east, anchor=west] {\tiny USB};		% Beschriftung USB am Computer
     \draw [] (left2.east) to (center2.west);
     \node (audioHelper2) [left=0.5cm of right2.150] {};
