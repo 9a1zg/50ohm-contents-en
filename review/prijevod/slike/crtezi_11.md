@@ -122,3 +122,36 @@ the abbreviation rule.
 ## Suspected errors
 
 None in the German drawings.
+
+## Provjera
+
+29 drawings checked against commit 2420b86: 28 translated, 1 with nothing
+to translate. 0 changes.
+
+- 951, 954, 958, 968–974, 976, 979–981, 987, 988, 991, 994–1000,
+  1002–1005 — `.tex` diffs change only printed text and the decimal commas
+  (954's `0,05`, 971's `2,4` / `0,3`, 976's `9,455`, 997's `3,5`); no
+  coordinates, styles, options, macros or `%` comments touched, no
+  collision fixes. Wording follows the glossary (§2 *kurzer / langer Weg*;
+  §3 *technische / physikalische Stromrichtung*, *Verbraucher*,
+  *Feldstärke*; §4 *Sperrschicht*, *n-dotiert*; §5 *Treiber*; §7
+  *Balancemodulator*; §9 *Mantelwellensperre (MWS)*, kept as "MWS"; §10
+  *Inversionsschicht*; §14 *Impulsdauer*, *reales Spannungsmessgerät* and
+  the drawing-label rows for 958, 951, 972–974, 968–970/976, 979–999, 1000,
+  1003) and the HF/ZF/NF → RF/IF/AF rule; 972's two-line "Balanced" /
+  "modulator" as 914. Old and new SVGs rendered side by side
+  (`rsvg-convert`): no German left, nothing overlapping or cut off (1003's
+  vertical "to TX" clear of the right edge; 1004's dashed box and "Real
+  voltmeter" complete; 1002's two bottom labels on their own lines; 1005's
+  grid line through "Pulse duration" as through "Impulsdauer"; 971's
+  "2.4 GHz" and 981's "100 000" inside the picture). Decimal markers now
+  print as points throughout, also where the German build printed commas
+  from `\qty{0.5}` (958, 995). The reported size changes of 958, 987, 988,
+  1002 and 1004 match the renders. Descriptions lose only the German
+  brackets (996's axis labels now quote the printed "Distance [km]" /
+  "Height [km]"); quoted labels match the drawings word for word. 996.txt
+  is wrapped in an extra pair of quotation marks from before this batch;
+  left as it is.
+- 1001 — rendered: degree scale and the five city names only, no German,
+  no decimals. Untouched in the commit.
+- No suspected errors.
