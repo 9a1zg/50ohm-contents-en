@@ -20,7 +20,7 @@
         to [stroke Zener diode, name={zd1}, invert, -*] (m1|-u0)
         node [rground]{};
     \draw (zd1.south west)
-        node[rotate=90, anchor=east](){$U_\mathrm{Z}$=\qty{6,2}{\volt}};
+        node[rotate=90, anchor=east](){$U_\mathrm{Z}$=\qty{6.2}{\volt}};
     \draw(m1)
         to [R, l={$R_2$}, a={\qty{270}{\ohm}}] ++(2,0)
         to [short] ++(0,-1.5)
@@ -29,7 +29,7 @@
     \draw(r3.wiper)
         to [short,-*] ++(1,0) coordinate(c2)
         to [short] (c2|-c1) coordinate(c3)
-        to [R, a={\rotatebox[origin=c]{90}{$R_4$=\qty{6,8}{\kilo\ohm}}},-*] (c3|-u0);
+        to [R, a={\rotatebox[origin=c]{90}{$R_4$=\qty{6.8}{\kilo\ohm}}},-*] (c3|-u0);
     \draw(c2)
         to [short] ++(1.75,0) coordinate(c4)
         to [C, a={\rotatebox[origin=c]{90}{$C_4=\qty{100}{\nano\farad}$}},-*] (c4|-u0);
@@ -44,7 +44,7 @@
         node [rground]{};
     \draw(T1.A1)
         to [short, -o] (T1.A1-|u0)
-        node[anchor=south west](){$\mathrm{HF}_\mathrm{IN}$};
+        node[anchor=south west](){$\mathrm{RF}_\mathrm{IN}$};
     \draw(c5)
         to [short, -*] (T1-L2.midtap);
     \draw(T1.B1)
@@ -66,7 +66,7 @@
     \draw(T2.B2) node[rground](){};
     \draw(T2.B1) 
         to [short, -o] (T2.B1-|u12) coordinate(g12)
-        node [anchor=south east](){$\mathrm{HF}_\mathrm{OUT}$};
+        node [anchor=south east](){$\mathrm{RF}_\mathrm{OUT}$};
     \draw(K2.D)
         -| (T2.A2);
     \draw(T2-L1.midtap)

@@ -24,7 +24,7 @@
         to [short] (m1|-T1.E)
         to [R, l_={\rotatebox[origin=c]{90}{\qty{470}{\ohm}}},-*] (m1|-u0);
     \draw(m1)
-        to [R, l={\rotatebox[origin=c]{90}{\qty{2,7}{\kilo\ohm}}}] ++(0,3) coordinate(o1)
+        to [R, l={\rotatebox[origin=c]{90}{\qty{2.7}{\kilo\ohm}}}] ++(0,3) coordinate(o1)
         to [short, -*] (o1-|T1.C)
         node[transformer core, american, anchor=A2](F1){}
         to [short] (T1.C);
@@ -35,7 +35,7 @@
     \draw(g1)
         to [short,-o] (g1-|u12);
     \draw(F1.A1)
-        to [C, l={\qty{0,1}{\micro\farad}}] ++(-2,0)
+        to [C, l={\qty{0.1}{\micro\farad}}] ++(-2,0)
         node[rground](){};
     \draw(F1.B2)
         to [short,-*] ++(0.5,0) coordinate(m2)
@@ -48,12 +48,12 @@
         to [short,-*] ++(1,0) coordinate(m4)
         to [C, name={c31}, -*] (m4|-u0);
     \draw (c31.west) node[anchor=south west]{};
-    \draw (c31.east) node[anchor=north west]{\qty{0,1}{\micro\F}};
+    \draw (c31.east) node[anchor=north west]{\qty{0.1}{\micro\F}};
     \draw (m4) 
         to [short] ++(1.75,0) coordinate(m7)
         to [eC, name={c32}, -*, mirror] (m7|-u0);
     \draw (c32.west) node[anchor=south west]{};
-    \draw (c32.east) node[anchor=north west]{\qty{2,2}{\micro\F}};
+    \draw (c32.east) node[anchor=north west]{\qty{2.2}{\micro\F}};
     \draw (T1) ++(6.25,0)
         node[npn, tr circle](T2){};
     \draw(F1.B1)
@@ -78,13 +78,13 @@
         to [short,*-] (m8-|m4)
         to [C, name={c11}] ++(0,-2) coordinate(mA);
     \draw (c11.west) node[anchor=south west]{};
-    \draw (c11.east) node[anchor=north west]{\qty{0,2}{\micro\F}};
+    \draw (c11.east) node[anchor=north west]{\qty{0.2}{\micro\F}};
     \draw (m9) to [short, name={h2}] (mA);
     \draw (h2.center)
         to [short, -*] ++(0,0)
         node[rground](){};
     \draw (T2.E)
-        to [R, l={\rotatebox[origin=c]{90}{\qty{0,56}{\ohm}}},-*] (T2.E|-u0);
+        to [R, l={\rotatebox[origin=c]{90}{\qty{0.56}{\ohm}}},-*] (T2.E|-u0);
     \draw (F2.B1)
         to [short,-o] (F2.B1-|u12);
     \draw (F2.B2)
@@ -98,7 +98,7 @@
         to [C, name={c21}, mirror, *-] ++(0,-2)
         node[rground](){};
     \draw (c21.west) node[anchor=south west]{};
-    \draw (c21.east) node[anchor=north west]{\qty{0,2}{\micro\F}};
+    \draw (c21.east) node[anchor=north west]{\qty{0.2}{\micro\F}};
     \draw(F1.north) node[anchor=north] {};
     \draw(F2.north) node[anchor=north] {$T_2$};
 \end{circuitikz}

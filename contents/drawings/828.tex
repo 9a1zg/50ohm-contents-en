@@ -2,7 +2,7 @@
 % Year: 2024
 \begin{tikzpicture}
     \begin{axis}[%
-        title={Eingangssignal},
+        title={Input signal},
         axis lines=middle,
         yticklabel=\empty,
         xmin=0,
@@ -29,7 +29,7 @@
 \end{tikzpicture}%
 \begin{tikzpicture}
     \begin{axis}[%
-        title={Verstärkung},
+        title={Amplification},
         axis lines=middle,
         yticklabel=\empty,
         xmin=0,
@@ -49,7 +49,7 @@
         height=3cm,
         width=0.3*\linewidth*\getDarcImageFactor        
     ]
-    \addplot[DARCred, domain=0:6.28, thick] {0.75} node[anchor=south east](){\tiny Begrenzung};
+    \addplot[DARCred, domain=0:6.28, thick] {0.75} node[anchor=south east](){\tiny Limiting};
     \addplot[DARCred, domain=0:6.28, thick] {-0.75};
     \addplot[DARCblue, smooth, domain=0:6.28, samples=100, thick] {7*0.15*sin(deg(x))}; 
     \addplot[DARCdarkblue, smooth, domain=0:6.28, samples=100, thick] {7*0.25*sin(deg(x))}; 
@@ -58,7 +58,7 @@
 \end{tikzpicture}%
 \begin{tikzpicture}
     \begin{axis}[%
-        title={Ausgangssignal},
+        title={Output signal},
         axis lines=middle,
         yticklabel=\empty,
         xmin=0,

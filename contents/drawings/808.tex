@@ -7,9 +7,9 @@
         node[inputarrow, DARCblue] {} coordinate(foo1)
         node[anchor=south east](){$f_\text{e1}$};
     \draw[DARCblue]
-        (bp.south) node[below](){Filtert $f_\text{e2}$ raus};
+        (bp.south) node[below](){Filters out $f_\text{e2}$};
     \draw (foo1)
-        node[mixer, box, label=Mischer, anchor=west] (mix) {};
+        node[mixer, box, label=Mixer, anchor=west] (mix) {};
     \draw[DARCgreen] (mix.south)
         node[inputarrow, rotate=90, DARCgreen] {}
         to [short,-o, label=${f}_\text{o}$] ++(0,-1.5);

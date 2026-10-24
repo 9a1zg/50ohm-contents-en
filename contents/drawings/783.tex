@@ -48,7 +48,7 @@
         to [short] ++(0.5,0) node[bnc, xscale=-1](hfout){};
 
     \draw(hfout.north)
-        node[rotate=90, anchor=west] {$\mathrm{HF}_\mathrm{OUT}$};
+        node[rotate=90, anchor=west] {$\mathrm{RF}_\mathrm{OUT}$};
 
 
     % Verbindung zwischen T1 und T2:
@@ -97,7 +97,7 @@
     \draw(ea.bpin 4)
         to [short] ++(-0.5,0) node[bnc](bnc1){};
     \draw(bnc1.north) 
-        node [rotate=90, anchor=west]{$\mathrm{HF}_\mathrm{IN}$}; 
+        node [rotate=90, anchor=west]{$\mathrm{RF}_\mathrm{IN}$}; 
 
     \draw(c3) |- (pr2.left);
     \draw(c4)
@@ -109,8 +109,8 @@
     \draw (R.south east) ++(-0.5,0) pic {arrowset};
 
     % Beschriftungen:
-    \draw(ea)  node[rotate=90, align=center](hh1){\scriptsize Eingangs-\\\scriptsize anpassung};
-    \draw(aa)  node[rotate=90, align=center](hh3){\scriptsize Ausgangs-\\\scriptsize anpassung};
+    \draw(ea)  node[rotate=90, align=center](hh1){\scriptsize Input\\\scriptsize matching};
+    \draw(aa)  node[rotate=90, align=center](hh3){\scriptsize Output\\\scriptsize matching};
     \draw(c3)  node[anchor=south east]{$U_\mathrm{BIAS}$};
     \draw(pr1.270) node[above]{$R_1$};
     \draw(pr2.270) node[below]{$R_2$};

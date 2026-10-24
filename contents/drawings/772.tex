@@ -11,7 +11,7 @@
         to [short] ++(1,0)
         to node[bnc, anchor=hot, xscale=-1](bnc2){} ++(0,0);
     \draw (bnc1.north) node[anchor=south](s1){$\qty{1}{\volt}$ $\sim$};
-    \draw (s1.north) node[anchor=south]{$\qty{3,7}{\mega\hertz}$};
+    \draw (s1.north) node[anchor=south]{$\qty{3.7}{\mega\hertz}$};
 
     \draw (r1)
         -- ++(0,-1.5)
@@ -35,7 +35,7 @@
     \draw (cc2) -- ++(0.75,0) 
     to [C] ++(0,-2)
     to node[rground](x2){} ++(0,0);
-    \draw (bnc2.north) node[anchor=south]{Ausgang};		
+    \draw (bnc2.north) node[anchor=south]{Output};		
     \draw (x1.south) to [open, name={x3}] (x2.south);
     \draw (x3.south) node[anchor=north](){$f_\mathrm{o}=\qty{3.7}{\mega\hertz}$};
 \end{circuitikz}

@@ -2,11 +2,11 @@
 % Year: 2024
 \begin{circuitikz}
     \draw[DARCblue](0,0)
-        node[anchor=south west](){$f_\text{e1}$ und $f_\text{e2}$}
+        node[anchor=south west](){$f_\text{e1}$ and $f_\text{e2}$}
         to [short, o-] ++(2,0)
         node[inputarrow, DARCblue] {} coordinate(foo1);
     \draw (foo1)
-        node[mixer, box, label=Mischer, anchor=west] (mix) {};
+        node[mixer, box, label=Mixer, anchor=west] (mix) {};
     \draw[DARCgreen] (mix.south)
         node[inputarrow, rotate=90, DARCgreen] {}
         to [short,-o, label=${f}_\text{o}$] ++(0,-1.5);

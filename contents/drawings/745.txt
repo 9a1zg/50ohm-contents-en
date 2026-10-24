@@ -1,3 +1,3 @@
-1) Short description: Schematic drawing with an antenna on the left-hand side with radio waves going out to the right and the frequency "f = 145.9 MHz"; on the right-hand side a "TV" set with an antenna and the frequency "f = 582–590 MHz" and "DVB-T2 channel 35" ("DVB-T2 Kanal 35").
+1) Short description: Schematic drawing with an antenna on the left-hand side with radio waves going out to the right and the frequency "f = 145.9 MHz"; on the right-hand side a "TV" set with an antenna and the frequency "f = 582–590 MHz" and "DVB-T2 channel 35".
 
-2) Detailed description: On the left-hand side is an antenna with the label "f = 145.9 MHz". Radio waves go out from it to the right. On the right-hand side there is a "TV" set with an antenna and the labels "f = 582–590 MHz" and "DVB-T2 channel 35" ("DVB-T2 Kanal 35").
+2) Detailed description: On the left-hand side is an antenna with the label "f = 145.9 MHz". Radio waves go out from it to the right. On the right-hand side there is a "TV" set with an antenna and the labels "f = 582–590 MHz" and "DVB-T2 channel 35".

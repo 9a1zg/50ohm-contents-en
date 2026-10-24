@@ -1,3 +1,3 @@
 This alt text has not yet been checked.
 
-Five batteries of different sizes arranged side by side: from left to right the batteries are of the sizes LR41, AAA, AA and 9V. Each battery has visible plus and minus signs. The labels beside the batteries read "AAA 1.5 V", "AA 1.5 V", "9 V block" ("9 V Block"), "LR41 1.5 V". At the bottom right there is a simple electrical circuit symbol for a voltage source with the designations "G", "+" and "-".
+Five batteries of different sizes arranged side by side: from left to right the batteries are of the sizes LR41, AAA, AA and 9V. Each battery has visible plus and minus signs. The labels beside the batteries read "AAA 1.5 V", "AA 1.5 V", "9 V block", "LR41 1.5 V". At the bottom right there is a simple electrical circuit symbol for a voltage source with the designations "G", "+" and "-".
