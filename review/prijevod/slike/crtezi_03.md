@@ -69,3 +69,23 @@ In DARC's German alt text:
   is at the centre). 257 has nothing to translate, so per the brief its
   description was left untouched; the "Power" ("Leistung") quote should
   become "U" when the description is corrected.
+
+## Provjera
+
+29 drawings checked against commit eb70ac9: 26 translated, 3 with nothing to
+translate. 0 changes.
+
+- 203, 204, 250, 251, 252, 253, 258, 259, 264, 266, 278–293 — `.tex` diffs
+  change only printed text and the decimal commas (no coordinates, styles,
+  options or `%` comments touched; 266's `use comma` prints nothing, as
+  reported); wording follows the glossary (§12 *Erde* → earth, as 192–194;
+  §3 *Leistung* and the §14 drawing-label row "Power" / "Dipole" /
+  "Directional antenna"; §9 *Dipol*, *Richtantenne*). Old and new SVGs
+  rendered side by side: no German left, nothing overlapping or cut off
+  ("Directional antenna" in 264 fits inside the right edge and clear of the
+  grey lobe), sizes as the originals. Descriptions lost only the German
+  brackets (250–253, 258, 259, 264); quoted labels match the drawings,
+  including every transistor voltage in 278–293 and 278's "+2.0 V".
+- 257, 263, 268 — rendered: no German printed (`f`, `U`; a, b; no text).
+  The 257 alt-text error ("Power" ("Leistung") for the axis labelled `U`)
+  is correctly reported above and left for the description fix.
