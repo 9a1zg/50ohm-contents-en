@@ -1,3 +1,3 @@
 1) Short description: Two photos of the rear panels of two radios with various connectors; yellow arrows each mark a chassis screw labelled GND.
 
-2) Detailed description: The picture consists of two photos of the rear panels of radios. In the upper photo a black rear panel with cooling fins on the left can be seen. At the top right a yellow arrow points to a silver screw with the yellow label "GND". The lower photo shows the silver-grey rear of a further unit. On the left there is a screw marked "GND" by a yellow arrow.
+2) Detailed description: The figure consists of two photos of the rear panels of radios. In the upper photo a black rear panel with cooling fins on the left can be seen. At the top right a yellow arrow points to a silver screw with the yellow label "GND". The lower photo shows the silver-grey rear of a further unit. On the left there is a screw marked "GND" by a yellow arrow.

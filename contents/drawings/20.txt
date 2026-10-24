@@ -1,3 +1,3 @@
 1) Short description: Modulation envelope of a CW signal consisting of a single pulse, with a rectangular edge on the left and flattened off towards the right.
 
-2) Detailed description: The picture shows the horizontal modulation envelope of a CW signal consisting of a single pulse with a grey interior and a black outline. On the left the envelope has a rectangular edge; towards the right it is flattened off.
+2) Detailed description: The figure shows the horizontal modulation envelope of a CW signal consisting of a single pulse with a grey interior and a black outline. On the left the envelope has a rectangular edge; towards the right it is flattened off.

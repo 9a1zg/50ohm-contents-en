@@ -1,3 +1,3 @@
 1) Short description: Schematic representation of two parallel vertical capacitor plates with a connection from the left and from the right; between the plates 15 parallel horizontal lines with arrowheads pointing to the right.
 
-2) Detailed description: The picture shows two parallel vertical bars, of which the left one has a connection from the left and the right one a connection from the right. Between the bars 15 parallel horizontal lines with arrowheads pointing to the right are drawn. There are no other labels or dimensions.
+2) Detailed description: The figure shows two parallel vertical bars, of which the left one has a connection from the left and the right one a connection from the right. Between the bars 15 parallel horizontal lines with arrowheads pointing to the right are drawn. There are no other labels or dimensions.

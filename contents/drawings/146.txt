@@ -1,3 +1,3 @@
 1) Short description: Diagram of an envelope detector with a horizontal axis "t" and a vertical axis "U"; the curve consists of a jagged line, whose envelope shape follows a curve with maxima and minima; from each peak, vertical dashed lines to the zero line.
 
-2) Detailed description: The picture shows the diagram of an envelope detector with a horizontal axis "t" and a vertical axis "U". The curve consists of a jagged line, whose envelope shape follows a curve with maxima and minima. From each peak, vertical dashed lines are drawn to the zero line.
+2) Detailed description: The figure shows the diagram of an envelope detector with a horizontal axis "t" and a vertical axis "U". The curve consists of a jagged line, whose envelope shape follows a curve with maxima and minima. From each peak, vertical dashed lines are drawn to the zero line.

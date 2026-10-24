@@ -1,3 +1,3 @@
 1) Short description: Circuit diagram drawn with right-angled wiring, with one horizontal conductor and one terminal each on the left and right; in the horizontal conductor a resistor with a capacitor connected in parallel.
 
-2) Detailed description: The picture consists of a circuit diagram drawn with right-angled wiring, with one horizontal conductor and one terminal each on the left and right. In the horizontal conductor there is a resistor with a capacitor connected in parallel.
+2) Detailed description: The figure consists of a circuit diagram drawn with right-angled wiring, with one horizontal conductor and one terminal each on the left and right. In the horizontal conductor there is a resistor with a capacitor connected in parallel.
