@@ -11,15 +11,15 @@
         misc/scale=\getDarcImageFactor
     }
     \draw(0,0) node[antenna]{}
-        to [amp, box, >, l_=HF, name={amp1}, fill=DARCblue] ++ (2,0)
+        to [amp, box, >, l_=RF, name={amp1}, fill=DARCblue] ++ (2,0)
         node[inputarrow](){}
         node[mixer, box, anchor=west] (mix1) {};
     \draw(mix1.east)
-        to [amp, box, >, l_=ZF, name={amp2}] ++ (2,0)
+        to [amp, box, >, l_=IF, name={amp2}] ++ (2,0)
         node[inputarrow](){}
         node[mixer, box, anchor=west] (mix2) {};
     \draw(mix2.east)
-        to [amp, box, >, l_=NF, name={amp3}] ++ (2,0)
+        to [amp, box, >, l_=AF, name={amp3}] ++ (2,0)
         node[inputarrow](){}
         node[loudspeakershape, anchor=south, rotate=-90](L){};
     \draw(mix1.south) node[inputarrow, rotate=90] {} 

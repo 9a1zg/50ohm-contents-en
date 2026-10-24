@@ -21,8 +21,8 @@
     \draw (amp1.east)
         to [short, name={l1}] ++(2,0) node[inputarrow](){}
         node [mixer, boxed, anchor=west](mix1){};
-    \draw(amp1.north) node[anchor=south](){HF};
-    \draw(mix1.north) node[anchor=south](){RX-Mischer};
+    \draw(amp1.north) node[anchor=south](){RF};
+    \draw(mix1.north) node[anchor=south](){RX mixer};
 
     %TX Path:
     \draw(sw1.out 1)
@@ -32,8 +32,8 @@
         node[inputarrow, rotate=180](){}
         to [amp, boxed, invert, >, name=amp3] ++(2,0) 
         node [mixer, boxed, anchor=west](mix2){};
-    \draw(mix2.south) node[anchor=north](){TX-Mischer};
-    \draw(amp3.north) node[anchor=south](){Treiber};
+    \draw(mix2.south) node[anchor=north](){TX mixer};
+    \draw(amp3.north) node[anchor=south](){Driver};
     \draw(amp2.north) node[anchor=north](){PA};
 
     % Help Coordinate:
@@ -68,7 +68,7 @@
     \draw(h2.center) node[rotate=90, anchor=north](){\qty{116}{\mega\hertz}};
 
     % Labels:
-    \draw(gen.north) node [anchor=south](){38,666};
+    \draw(gen.north) node [anchor=south](){38.666};
     \draw(gen.south) node [anchor=north](){\unit{\mega\hertz}};
     \draw(trx.north) node [anchor=south](){28-30};
     \draw(trx.south) node [anchor=north](){\unit{\mega\hertz}};

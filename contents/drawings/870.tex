@@ -16,7 +16,7 @@
     \path(0,0) arc (60:70:3)  coordinate(rx);
     \path(0,0) arc (60:90:3)  coordinate(mid1);
     \path(mid1) ++(0,1.75) coordinate(mid2);
-    \draw[DARCred, ultra thick, name path=P2] (tx) .. controls (mid2) and (mid2) .. (rx) node[pos=0.5, anchor=south]{Refraktion};
+    \draw[DARCred, ultra thick, name path=P2] (tx) .. controls (mid2) and (mid2) .. (rx) node[pos=0.5, anchor=south]{Refraction};
     \draw[DARCgreen, ultra thick, -Triangle] (tx) -- (x1) -- (x2) -- (x3);
     \path [name intersections={of=P1 and P2,by={CS1}}];
     \draw[dashed, name path=P5](CS1) -- ++(276:0.3) node[pos=1.0,anchor=north east]{\textcolor{DARCred}{$\varphi$}};
