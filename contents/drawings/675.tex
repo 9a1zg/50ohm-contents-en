@@ -3,7 +3,7 @@
 \begin{circuitikz}
     \draw(0,0) 
         to [short] ++ (1,0)
-        to [twoportsplit, >, l ={\footnotesize Quellencodierer}, name={qc}] ++(1,0)
+        to [twoportsplit, >, l ={\footnotesize Source encoder}, name={qc}] ++(1,0)
         to [short, >] ++ (1,0) node[inputarrow]{};
     %% Decoration:
     \draw (qc.north west) node[anchor=north west](){\tiny\texttt{0101}};

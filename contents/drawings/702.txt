@@ -1,8 +1,8 @@
 This alt text has not yet been checked.
 
-Short summary: Diagram with the title "8QAM", which shows a blue sine wave U against time t, divided into eight sections, each with amplitude/phase values and three-bit codes; at each transition between sections "Phase change" ("Phasenwechsel") is marked.
+Short summary: Diagram with the title "8QAM", which shows a blue sine wave U against time t, divided into eight sections, each with amplitude/phase values and three-bit codes; at each transition between sections "Phase change" is marked.
 
-Detailed description: At the top centre is the title "8QAM". On the left is the vertical axis with "U" and an arrow pointing upwards, at the bottom right the horizontal axis with "t" and an arrow pointing to the right; through the middle runs a thin horizontal zero line. A continuous blue sine curve is divided by seven thin vertical lines into eight time sections of equal width. Above each dividing line there is a small yellow sign with the inscription "Phase change" ("Phasenwechsel") (7 signs in all). Below each section are two grey boxes: at the top the amplitude and phase, below it a three-bit code. From left to right:
+Detailed description: At the top centre is the title "8QAM". On the left is the vertical axis with "U" and an arrow pointing upwards, at the bottom right the horizontal axis with "t" and an arrow pointing to the right; through the middle runs a thin horizontal zero line. A continuous blue sine curve is divided by seven thin vertical lines into eight time sections of equal width. Above each dividing line there is a small yellow sign with the inscription "Phase change" (7 signs in all). Below each section are two grey boxes: at the top the amplitude and phase, below it a three-bit code. From left to right:
 - Section 1: "1 | 0°", below it "000"; the sine amplitude is large.
 - Section 2: "0.5 | 45°", below it "001"; the amplitude is smaller.
 - Section 3: "0.5 | 135°", below it "010"; small amplitude.

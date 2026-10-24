@@ -127,7 +127,7 @@
 	\pic (router1) at (\xA, \yRouter) {router};
 	\node [above=0cm of router1-north] {\tiny Router};
 	\node[siteNet] (intern) at (\xA, -0.5) {};
-	\node[ipNetLabel] at (intern.center) {internes\\[-0.3em]Netz};
+	\node[ipNetLabel] at (intern.center) {internal\\[-0.3em]network};
 	\draw (router1-south) -- (intern.north);
 	
 	% Laptop im internen Netz mit IP-Adresse
@@ -157,7 +157,7 @@
 	\def\xB{7.5cm}
 	\pic (router2) at (\xB, \yRouter) {router};
 	\node [above=0cm of router2-north] {\tiny Router};
-	\node (internet) [ipNetLabel] at (\xB, -0.5) {Internet-\\[-0.3em]anschluss};
+	\node (internet) [ipNetLabel] at (\xB, -0.5) {Internet\\[-0.3em]connection};
 	\draw (router2-south) -- (internet.north);
 	
 	% IP-Adresse Router 2 intern
@@ -176,7 +176,7 @@
 	
 	% Servernet
 	\path (router1-east) -- (router2-west) node[siteNet, midway] (server) {};
-	\node at (server) [ipNetLabel] {Server-\\[-0.3em]netz};
+	\node at (server) [ipNetLabel] {Server\\[-0.3em]network};
 	\draw (router1-east) -- (server.west);
 	\draw (router2-west) -- (server.east);
 	

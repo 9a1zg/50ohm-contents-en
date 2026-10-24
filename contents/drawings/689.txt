@@ -1,3 +1,3 @@
 This alt text has not yet been checked.
 
-The picture shows four LED components of different sizes and colours: a tiny SMD LED, a small green LED, a medium-sized yellow LED and a large red LED. At the top left a circuit symbol of a diode with an arrow and the text "D" is shown. Horizontal and vertical lines measure distances, with the labels "1 cm" and "3 mm". At the top edge are the words "Red" ("Rot"), "Yellow" ("Gelb") and "Green" ("Grün"); at the bottom right "10 mm".
+The picture shows four LED components of different sizes and colours: a tiny SMD LED, a small green LED, a medium-sized yellow LED and a large red LED. At the top left a circuit symbol of a diode with an arrow and the text "D" is shown. Horizontal and vertical lines measure distances, with the labels "1 cm" and "3 mm". At the top edge are the words "Red", "Yellow" and "Green"; at the bottom right "10 mm".

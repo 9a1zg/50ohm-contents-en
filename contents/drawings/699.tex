@@ -22,7 +22,7 @@
     \node (pointA3) [punkt, right=0cm of byteA3.345] {};
     \node (byteA4) [dezimalboxBlau, right=0cm of pointA3.east, anchor=195] {\small 18};	
     
-    \node [left=1.45cm of byteA1.west, anchor=west, inner sep=0] {\tiny IPv4-Adresse};
+    \node [left=1.45cm of byteA1.west, anchor=west, inner sep=0] {\tiny IPv4 address};
 
     % Dualschreibweise IP-Adresse
     \node (dualA1) [dualboxGrau, below=0.05 cm of byteA1, anchor=north] {\tiny 10001101};
@@ -39,7 +39,7 @@
     \node (pointB3) [punkt, right=0cm of byteB3.345] {};
     \node (byteB4) [dezimalboxBlau, right=0cm of pointB3.east, anchor=195] {\small 0};	
     
-    \node [left=1.45cm of byteB1.west, anchor=west, inner sep=0] {\tiny Netzmaske};
+    \node [left=1.45cm of byteB1.west, anchor=west, inner sep=0] {\tiny Netmask};
 
     % Dualschreibweise Netzmaske
     \node (dualB1) [dualboxGrau, below=0.05 cm of byteB1, anchor=north] {\tiny 11111111};
@@ -55,7 +55,7 @@
     \draw [densely dotted, draw=DARCred, inner sep=0] (pointB3) -- (helper2);
     
     % Beschriftung unten
-    \node [below=0.1 cm of dualB2, anchor=north, text=DARCred, inner sep=0] {\tiny Netzanteil};
-    \node [below=0.1 cm of dualB4, anchor=north, text=DARCred, inner sep=0] {\tiny Hostanteil};
+    \node [below=0.1 cm of dualB2, anchor=north, text=DARCred, inner sep=0] {\tiny Network part};
+    \node [below=0.1 cm of dualB4, anchor=north, text=DARCred, inner sep=0] {\tiny Host part};
     
 \end{tikzpicture}

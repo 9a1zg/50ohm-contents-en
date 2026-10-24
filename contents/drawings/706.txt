@@ -1,11 +1,11 @@
 This alt text has not yet been checked.
 
-Brief summary: Network block diagram with two router symbols labelled "Router", the areas "Server network" ("Server-netz"), "internal network" ("internes Netz") and "Internet connection" ("Internet-anschluss"), a laptop and several orange/blue blocks of numbers at the connections.
+Brief summary: Network block diagram with two router symbols labelled "Router", the areas "Server network", "internal network" and "Internet connection", a laptop and several orange/blue blocks of numbers at the connections.
 
 Detailed description:
-- At the top centre is a cloud labelled "Server network" ("Server-netz"). On the left and on the right a horizontal line leads from it to a round router symbol (circle with four arrows pointing up, right, down, left), both with the text label "Router".
-- At the bottom left is a cloud labelled "internal network" ("internes Netz"), which is connected to the left-hand router by a vertical line. To the right of this cloud stands a laptop, connected to the cloud by a short horizontal line.
-- At the bottom right is the text "Internet connection" ("Internet-anschluss"), from which a vertical line leads up to the right-hand router.
+- At the top centre is a cloud labelled "Server network". On the left and on the right a horizontal line leads from it to a round router symbol (circle with four arrows pointing up, right, down, left), both with the text label "Router".
+- At the bottom left is a cloud labelled "internal network", which is connected to the left-hand router by a vertical line. To the right of this cloud stands a laptop, connected to the cloud by a short horizontal line.
+- At the bottom right is the text "Internet connection", from which a vertical line leads up to the right-hand router.
 
 Blocks of numbers (each two rows of four small boxes; orange and blue):
 - On the upper line between the left-hand router and "Server network":

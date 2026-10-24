@@ -3,7 +3,7 @@
 \begin{circuitikz}
     \draw(2,0) 
         to [short] ++ (1,0)
-        to [twoportsplit, >, l ={\footnotesize Kanalcodierer}, name={kc}] ++(1,0)
+        to [twoportsplit, >, l ={\footnotesize Channel encoder}, name={kc}] ++(1,0)
         to [short, >] ++ (1,0) node[inputarrow]{};
     %% Decoration:
     \draw (kc.north west) node[anchor=north west](){\texttt{01}};

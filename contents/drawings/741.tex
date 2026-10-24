@@ -21,16 +21,16 @@
     %
     \draw[DARCgreen, ultra thick] (tx.right) -- ++(0.5,0.5) coordinate(end);
     %
-    \draw(tx.left) node[below left]() {Sender};
-    \draw(rx.right) node[below right]() {Empfänger};
+    \draw(tx.left) node[below left]() {Transmitter};
+    \draw(rx.right) node[below right]() {Receiver};
     %
     \draw(c4) to [open, name={h1}] (c2);
-    \draw[DARCred](h1.center) node[above, rotate=-44](){\small~~~Raumwelle};
+    \draw[DARCred](h1.center) node[above, rotate=-44](){\small~~~Sky wave};
     %
-    \draw[DARCgreen](end) node[above](){\footnotesize\quad\quad~~Bodenwelle};
+    \draw[DARCgreen](end) node[above](){\footnotesize\quad\quad~~Ground wave};
     %
     \draw(c2) node[](){|};
     \draw(c5) node[rotate=30](){|};
-    \draw(-0.25,2.25) node[](){Tote Zone};
+    \draw(-0.25,2.25) node[](){Skip zone};
     %
 \end{circuitikz}

@@ -1,5 +1,5 @@
 This alt text has not yet been checked.
 
-Brief summary: Block diagram with a labelled block "Source encoder" ("Quellencodierer") between an input arrow and an output arrow.
+Brief summary: Block diagram with a labelled block "Source encoder" between an input arrow and an output arrow.
 
-Detailed description: A horizontal line runs from left to right. On the left an arrow points to the right at a square block. Above the block is the text "Source encoder" ("Quellencodierer"). Inside the square a diagonal line runs from bottom left to top right. Below the block, centred, is the text "01". From the right-hand edge of the square the horizontal line continues and ends in an arrow pointing to the right. There are no further labels or axes.
+Detailed description: A horizontal line runs from left to right. On the left an arrow points to the right at a square block. Above the block is the text "Source encoder". Inside the square a diagonal line runs from bottom left to top right. Below the block, centred, is the text "01". From the right-hand edge of the square the horizontal line continues and ends in an arrow pointing to the right. There are no further labels or axes.

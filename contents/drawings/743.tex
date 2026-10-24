@@ -2,7 +2,7 @@
 % Year: 2023
 \begin{circuitikz}[european]
     \draw[-Triangle](0.0,0.0) -- (3.5,0.0)  node[right]{$f$};
-    \draw[-Triangle](0.0,0.0) -- (0.0,1.75) node[above left, rotate=90] () {Leistung};
+    \draw[-Triangle](0.0,0.0) -- (0.0,1.75) node[above left, rotate=90] () {Power};
     \draw[thick](0.3,0.0) coordinate(c1) -- ++ (0,1.25) -- ++ (2.4,-0.5) -- (2.7,0) coordinate(c2);
     \draw(c1) node[below]{$\qty{300}{\hertz}$};
     \draw(c2) node[below]{$\qty{3}{\kilo\hertz}$};
@@ -23,7 +23,7 @@
     %
     \begin{scope}[yshift=-3cm]
         \draw[-Triangle](0.0,0.0) -- (3.5,0.0)  node[right]{$f$};
-        \draw[-Triangle](0.0,0.0) -- (0.0,1.75) node[above left, rotate=90] () {Leistung};
+        \draw[-Triangle](0.0,0.0) -- (0.0,1.75) node[above left, rotate=90] () {Power};
         \draw[thick](0.3,0.0) coordinate(c1) -- ++ (0,1.25) -- ++ (2.4,-0.5) -- (2.7,0) coordinate(c2);
         \draw(c2) node[below]{$\qty{3}{\kilo\hertz}$};
         \draw(c1) node[below]{$\qty{300}{\hertz}$};
@@ -39,12 +39,12 @@
         \draw(5.5+3.5,-0.5) node[] () {$f_\mathrm{T}$};
         %
         \draw[Triangle-Triangle, DARCred] (f1-|h1) -- (f1-|h2);
-        \draw[DARCred](f1) node[anchor=south](){\qty{2,7}{\kilo\hertz}};
+        \draw[DARCred](f1) node[anchor=south](){\qty{2.7}{\kilo\hertz}};
     \end{scope}
     %
     \begin{scope}[yshift=-6cm]
         \draw[-Triangle](0.0,0.0) -- (3.5,0.0)  node[right]{$f$};
-        \draw[-Triangle](0.0,0.0) -- (0.0,1.75) node[above left, rotate=90] () {Leistung};
+        \draw[-Triangle](0.0,0.0) -- (0.0,1.75) node[above left, rotate=90] () {Power};
         \draw[thick](0.3,0.0) coordinate(c1) -- ++ (0,1.25) -- ++ (2.4,-0.5) -- (2.7,0) coordinate(c2);
         \draw(c2) node[below]{$\qty{3}{\kilo\hertz}$};
         \draw(c1) node[below]{$\qty{300}{\hertz}$};
@@ -60,6 +60,6 @@
         \path(f0) ++(0,0.25) coordinate(f1);
         %
         \draw[Triangle-Triangle, DARCred] (f1-|h1) -- (f1-|h2);
-        \draw[DARCred](f1) node[anchor=south](){\qty{2,7}{\kilo\hertz}};
+        \draw[DARCred](f1) node[anchor=south](){\qty{2.7}{\kilo\hertz}};
     \end{scope}
 \end{circuitikz}

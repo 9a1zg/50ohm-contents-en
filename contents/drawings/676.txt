@@ -1,5 +1,5 @@
 This alt text has not yet been checked.
 
-Summary: Block diagram with a rectangular block "Channel encoder" ("Kanalcodierer") on a continuous horizontal line with arrows, below it the sequence of digits "0101".
+Summary: Block diagram with a rectangular block "Channel encoder" on a continuous horizontal line with arrows, below it the sequence of digits "0101".
 
-Detailed description: A thin horizontal line runs from left to right; on the left an arrow points to the right at a rectangular block placed in the middle, and on the right the line continues with a further arrow pointing to the right. Above the block is the text "Channel encoder" ("Kanalcodierer"). Inside the block a diagonal line runs from the lower left-hand corner to the upper right-hand corner. Below the block, centred, is the sequence of digits "0101". There are no further labels or scales.
+Detailed description: A thin horizontal line runs from left to right; on the left an arrow points to the right at a rectangular block placed in the middle, and on the right the line continues with a further arrow pointing to the right. Above the block is the text "Channel encoder". Inside the block a diagonal line runs from the lower left-hand corner to the upper right-hand corner. Below the block, centred, is the sequence of digits "0101". There are no further labels or scales.
