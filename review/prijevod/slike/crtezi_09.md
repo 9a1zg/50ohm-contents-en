@@ -134,3 +134,41 @@ In DARC's German alt text (left as translated):
 - 872.txt — the values are shifted by one tick: "at 10° about 4000 km, at
   20° about 2300 km …"; `872.tex` plots 4025 km at 0°, 2315 km at 10°,
   1475 km at 20°, … 10 km at 90°. Translated as written.
+
+## Provjera
+
+29 drawings checked against commit 68a9d60: 25 translated, 4 with nothing
+to translate. 0 changes.
+
+- 829, 832, 838, 839, 842, 843, 847, 851, 852, 858, 865–870, 872–874,
+  876, 878, 883–886 — `.tex` diffs change only printed text and the
+  decimal commas (no coordinates, styles or `%` comments touched); the
+  two structural changes are the reported collision fixes: 858's
+  `align=left` line break in "Light-emitting / diode", 866's `c.~` for
+  "ca.". Wording follows the glossary (§2 *kurzer / langer Weg*; §5
+  *Treiber*, *Mischer*; §9 *Anpassglied*; §10 *Bodenwelle*, *tote Zone*,
+  *Refraktion*, *Mittelwelle / Langwelle*; §14 drawing-label rows for
+  749/829, 842/843, 847, 858, 865–874, 876/878, 1008 *Oberwellen (OW)*,
+  *„Erde“ (Bodenfläche)*, the new *„ca.“ (Zeichnung 866)* row) and the
+  HF/ZF/NF → RF/IF/AF rule. Old and new SVGs rendered side by side
+  (`rsvg-convert -u`): no German left, nothing overlapping or cut off
+  (858's two-line "Light-emitting diode" inside the top edge; 866's four
+  labels in the German places, "80 m (c. 100 km)" clear of "Medium wave";
+  851/852's "Matching" inside the block; 878's "Angle of rotation" inside
+  the right edge; 829's crowded band ticks and 878's touching "450°" / φ
+  as in the German). Descriptions lose only the German brackets, plus
+  866's "approx." → "c."; quoted labels match the drawings word for word,
+  except 866's "80 m (c. 200 km)" and "Medium wave, 160 m (200 km)",
+  which keep DARC's alt-text values as reported.
+- 863, 864, 892, 893 — rendered: no German printed (B, C, E, I/U symbols,
+  NPN, PNP, E, H, I, +, −); no decimal commas in the `.tex` (the `0,0` …
+  are coordinates). Untouched in the commit.
+- The suspected errors (842's `%` TX line, 866's 80 m distance, 872's
+  shifted values) are confirmed against the `.tex` and the renders and
+  left as reported.
+- Note for 9A1ZG, no change made: 868/869's header "Harmonics (OW)"
+  follows the §14 row for 1008 and the slike_08 descriptions, but both
+  drawings set OW against Harm., and their course captions say "Overtones
+  (OW), harmonics (Harm.) …" (868) and "Relationship between overtones and
+  harmonics" (869); by §14 *Oberwelle (Kurstext, neben Harmonische)*
+  "Overtones (OW)" would fit these two drawings better.
