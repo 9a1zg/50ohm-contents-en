@@ -59,3 +59,19 @@ Metallbeläge / Dielektrikum*, *Mischer / 1.ZF*, *1. Filter / 2. Filter*,
   with "455 kHz" beside it. 455 kHz is a third IF, not AF (compare 913's
   "ZF 455 kHz"; already noted for 90's description in slike_08).
   Translated faithfully as "AF".
+
+## Provjera
+
+29 drawings checked against commit 184a985: 12 translated, 17 with nothing to
+translate. 0 changes.
+
+- 44, 45, 49, 65, 80, 82, 83, 84, 85, 86, 90, 93 — `.tex` diffs change only
+  printed text (and the decimal commas in 44, 93); wording follows the
+  glossary (§14 drawing-label rows, *Ausgang*, *Mischer*, *Dielektrikum*,
+  *Metallbeläge*) and the descriptions. Old and new SVGs rendered side by
+  side: no German left, nothing overlapping or cut off (93's "9.455 MHz" at
+  the bottom edge fits), sizes as the originals. Descriptions lost only the
+  German brackets; quoted labels match the drawings.
+- 34, 35, 48, 51, 61, 62, 63, 66, 67, 68, 69, 70, 71, 72, 73, 74, 77 —
+  rendered: no German printed (letters a–d, E, A, P, N, +, –, ~, `0 V`,
+  `230 V`, `C_S`, VCO, Δφ only).
