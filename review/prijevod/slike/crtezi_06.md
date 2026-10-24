@@ -133,3 +133,33 @@ In DARC's German alt text (left as translated, except 642–645 above):
   (circle with a sine wave), not a meter. Translated as written.
 - 642–645.txt — "Quellendecodierer" / "Kanaldecodierer" for the encoder
   blocks (slike_06); the quoted labels now follow the drawings.
+
+## Provjera
+
+29 drawings checked against commit d2835e4: 22 translated, 7 with nothing
+to translate. 0 changes.
+
+- 615, 628, 630, 633, 636–639, 642–645, 651, 654, 655, 657, 665, 666, 670,
+  672–674 — `.tex` diffs change only printed text and the decimal commas
+  (no coordinates, styles, options, padding `~` or `%` comments touched;
+  655's `use comma` option prints no number, its tick labels are written
+  out). Wording follows the glossary (§1 *Präfix*, §3 *Feldstärke*, §4
+  *Kathode*, §6 *CAT-Schnittstelle*, *Kanal*; §14 rows *Ort*,
+  *Quellencodierer … Quellendecodierer*, *Digimode-Interface*,
+  *Dipolschenkel*, *Anpassglied*, *Multiplikator (Farbcode)* and the
+  drawing-label rows for 400–411, 633/657/670, 636–645/654, 665, 672/673,
+  741). Old and new SVGs rendered side by side: no German left, nothing
+  overlapping or cut off (636–645's labels inside the dashed frame and
+  clear of the blocks; 674's "Transmitter" inside the drawing, "Channel"
+  clear of the lightning; 655's one-line "Passband" clear of the curve;
+  672's two-line labels clear of the ticks). Descriptions lost only the
+  German brackets; quoted labels match the drawings word for word; the
+  642–645 switch from "decoder" to "encoder" matches what those drawings
+  print, as reported.
+- 611, 613, 620, 650, 652, 656, 668 — rendered: no German printed (paths
+  only in 611/613; "V", "mech.", "IQ", "?", A/D, country prefixes,
+  "Remote", "Internet", "DL1FLO"). Untouched in the commit.
+- The glossary change (§14 *Ort* note now naming drawing 628) matches the
+  drawing. The suspected alt-text errors (620 "A" meter, 633 voltmeter vs
+  `sV` source, 642–645 decoders) are confirmed against the renders and
+  left as reported.
